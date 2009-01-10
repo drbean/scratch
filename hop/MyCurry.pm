@@ -5,7 +5,7 @@ use warnings;
 
 use base qw/Exporter/;
 
-our @EXPORT = qw/currymap currygrep curry imap fold/;
+our @EXPORT = qw/currymap currygrep curry imap fold foldn/;
 
 sub currymap {
 	my $f = shift;
@@ -54,6 +54,22 @@ sub fold {
 			return $x unless @_;
 			my $first = shift;
 			$fold->($code->($x, $first), @_);
+		}
+	}
+}
+
+sub foldn {
+	my $code = shift;
+	sub {
+		my $x = shift;
+		sub {
+			return $x unless @_;
+			while ( @_ ) {
+				my $next = shift;
+				print $next;
+				$x = $code->($x, $next);
+			}
+			return $x;
 		}
 	}
 }
