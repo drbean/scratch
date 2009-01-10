@@ -46,15 +46,16 @@ sub imap (&$) {
 }
 
 sub fold {
-	my $code = shift;
-	my $fold;
-	$fold = sub {
+	my $f = shift;
+	sub {
 		my $x = shift;
-		sub {
+		my $fold;
+		$fold = sub {
 			return $x unless @_;
 			my $first = shift;
-			$fold->($code->($x, $first), @_);
-		}
+			$x = $f->($x, $first);
+			$fold->(@_);
+		};
 	}
 }
 
@@ -66,7 +67,6 @@ sub foldn {
 			return $x unless @_;
 			while ( @_ ) {
 				my $next = shift;
-				print $next;
 				$x = $code->($x, $next);
 			}
 			return $x;
