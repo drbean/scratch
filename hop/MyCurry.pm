@@ -47,15 +47,14 @@ sub imap (&$) {
 
 sub foldn {
 	my $f = shift;
-	sub {
+	my $fold;
+	$fold = sub {
 		my $x = shift;
-		my $fold;
-		$fold = sub {
+		sub {
 			return $x unless @_;
 			my $first = shift;
-			$x = $f->($x, $first);
-			$fold->(@_);
-		};
+			$fold->($f->($x, $first))->(@_);
+		}
 	}
 }
 
