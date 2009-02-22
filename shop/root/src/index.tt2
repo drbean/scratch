@@ -1,0 +1,20 @@
+[% META title = 'Persons Seeking/Selling Books' -%]
+<h1>Just Right Pre-Intermediate American Edition</h1>
+<p>
+The book used by 日語文共同學制虛擬班二,  in 中級英文聽說訓練
+
+<p>
+<h2>Sellers!</h2>
+<p>
+You have this book and want to get rid of it? Put your name on the site's <a href=[%  c.uri_for('seller_signup') %]>seller list</a>.
+
+<p>
+Alternatively, browse the <a href=[% c.uri_for('buyer_list') %]>list</a> of potential buyers looking for this book.
+
+<p>
+<h2>Buyers!</h2>
+<p>
+You don't have this book and you want to get hold of it? Put your name on the site's <a href=[%  c.uri_for('buyer_signup') %]>buyer list</a>.
+
+<p>
+Alternatively, browse the <a href=[% c.uri_for('seller_list') %]>list</a> of sellers who have this book.
