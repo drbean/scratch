@@ -10,7 +10,7 @@
     <td>[% book.booklet %]</td>
     <td>[% book.cd %]</td>
     <td>[% book.price %]</td>
-    <td><a href=[% c.uri_for( 'seller_delete' ) %]>Delete</a></td>
+    <td><a href=[% c.uri_for( 'seller_signoff/' ) _ book.id %]>Delete</a></td>
   </tr>
 [% END -%]
 </table>
