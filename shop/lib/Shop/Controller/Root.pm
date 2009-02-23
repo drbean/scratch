@@ -127,8 +127,13 @@ at " . $c->uri_for('/seller_delete/') . $seller->password,
 		$c->error(0); # Reset the error condition if you need to
 		$c->response->body('The entry cannot be deleted. Are you sure you used a valid email address when you entered the book in the list. Contact Dr Bean at drbean(a)freeshell.org.');
 	} else {
-	$c->stash->{status_msg} = 'The book is being deleted. But before it is deleted, we will check that you really want to remove it from the site. To do this, we are sending an email to the email address you used when you put the book on the site. When you get the email, click on the URL in it to confirm you really want the entry deleted.';
-	$c->response->redirect($c->uri_for('/'));
+	$c->stash->{status_msg} = 'The book is being deleted. But before it is deleted, we will<br>
+check that you really want to remove it from the site.<br>
+<br>
+To do this, we are sending an email to the email address you<br>
+used when you put the book on the site. When you get the email,<br>
+click on the URL in it to confirm you really want the entry deleted.';
+	$c->forward('index');
 	}
 }
 
@@ -218,8 +223,8 @@ sub buyer_signoff : Local
 		subject => "Deletion from Just Right Buyers List",
 		body => "Somebody is leaving the Just Right buyers List.
 If that person is you, that is, if you are no longer looking for a book,
-and you want your info to be removed from the web page, please confirm the request
-at " . $c->uri_for('/buyer_delete/') . $buyer->password,
+and you want your info to be removed from the web page, please confirm the
+request at " . $c->uri_for('/buyer_delete/') . $buyer->password,
 		};
 	$c->forward( $c->view('Email') );
 	if ( scalar( @{ $c->error } ) ) {
@@ -227,7 +232,7 @@ at " . $c->uri_for('/buyer_delete/') . $buyer->password,
 		$c->response->body('The entry cannot be deleted. Are you sure you used a valid email address when you entered your information in the list. Contact Dr Bean at drbean(a)freeshell.org.');
 	} else {
 	$c->stash->{status_msg} = 'You are being deleted. But before you are deleted, we will check that you really want to remove your information from the site. To do this, we are sending an email to the email address you used when you put your information on the site. When you get the email, click on the URL in it to confirm you really want your entry deleted.';
-	$c->response->redirect($c->uri_for('/'));
+	$c->forward('index');
 	}
 }
 
