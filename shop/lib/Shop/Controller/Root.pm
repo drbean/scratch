@@ -81,6 +81,7 @@ sub seller_create : Local
 			cd => $seller->{cd},
 			price => $seller->{price},
 			password => int(rand(1000000)),
+			deleted => 0,
 		});
 	$c->stash->{template} = 'seller_list.tt2';
 	$c->detach( 'seller_list' );
@@ -96,7 +97,7 @@ Books available
 sub seller_list : Local
 {
 	my ($self, $c) = @_;
-	my $sellers = [$c->model('DB::Seller')->all];
+	my $sellers = [$c->model('DB::Seller')->search({deleted => 0})];
 	$c->stash->{sellers} = $sellers;
 	$c->stash->{template} = 'seller_list.tt2';
 }
@@ -143,7 +144,7 @@ sub seller_delete : Local
 	my ($self, $c, $passwd) = @_;
 	my @deleted = $c->model('DB::Seller')->search({password => $passwd});
 	die "Two entries with same $passwd password" if @deleted > 1;
-	$deleted[0]->delete if @deleted;
+	$deleted[0]->update({deleted => 1}) if @deleted;
 	$c->stash->{status_msg} = "Entry deleted.";
 	$c->response->redirect($c->uri_for('/',
 		{status_msg => "Entry deleted."}));
@@ -180,6 +181,7 @@ sub buyer_create : Local
 			accessories => $buyer->{accessories},
 			price => $buyer->{price},
 			password => int(rand(1000000)),
+			deleted => 0,
 		});
 	$c->detach( 'buyer_list' );
 }
@@ -194,7 +196,7 @@ Books sought
 sub buyer_list : Local
 {
 	my ($self, $c) = @_;
-	my $buyers = [$c->model('DB::Buyer')->all];
+	my $buyers = [$c->model('DB::Buyer')->search({deleted => 0})];
 	$c->stash->{buyers} = $buyers;
 	$c->stash->{template} = 'buyer_list.tt2';
 }
@@ -241,7 +243,7 @@ sub buyer_delete : Local
 	my ($self, $c, $passwd) = @_;
 	my @deleted = $c->model('DB::Buyer')->search({password => $passwd});
 	die "Two entries with same $passwd password" if @deleted > 1;
-	$deleted[0]->delete if @deleted;
+	$deleted[0]->update({deleted => 1}) if @deleted;
 	$c->stash->{status_msg} = "Entry deleted.";
 	$c->response->redirect($c->uri_for('/',
 		{status_msg => "Entry deleted."}));

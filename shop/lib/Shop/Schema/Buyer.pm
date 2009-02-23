@@ -22,6 +22,8 @@ __PACKAGE__->add_columns(
   { data_type => "VARCHAR", is_nullable => 0, size => 15 },
   "password",
   { data_type => "VARCHAR", is_nullable => 0, size => 15 },
+  "deleted",
+  { data_type => "CHAR", is_nullable => 0, size => 1 },
 );
 __PACKAGE__->set_primary_key("id");
 
