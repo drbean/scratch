@@ -17,13 +17,15 @@ __PACKAGE__->add_columns(
   "condition",
   { data_type => "VARCHAR", is_nullable => 0, size => 15 },
   "booklet",
-  { data_type => "CHAR", is_nullable => 0, size => 15 },
+  { data_type => "VARCHAR", is_nullable => 0, size => 15 },
   "cd",
   { data_type => "VARCHAR", is_nullable => 0, size => 15 },
   "price",
   { data_type => "VARCHAR", is_nullable => 0, size => 15 },
   "password",
   { data_type => "VARCHAR", is_nullable => 0, size => 15 },
+  "deleted",
+  { data_type => "CHAR", is_nullable => 0, size => 1 },
 );
 __PACKAGE__->set_primary_key("id");
 
