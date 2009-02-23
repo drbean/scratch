@@ -31,6 +31,7 @@ sub index :Path :Args(0) {
 
     # Hello World
     # $c->response->body( $c->welcome_message );
+    $c->stash->{template} = 'index.tt2'
 }
 
 sub default :Path {
@@ -58,6 +59,7 @@ Serve seller form
 sub seller_signup : Local
 {
 	my ($self, $c) = @_;
+	$c->stash->{template} = 'seller_signup.tt2';
 }
 
 
@@ -78,8 +80,9 @@ sub seller_create : Local
 			booklet => $seller->{booklet},
 			cd => $seller->{cd},
 			price => $seller->{price},
-			password => $seller->{price},
+			password => int(rand(1000000)),
 		});
+	$c->stash->{template} = 'seller_list.tt2';
 	$c->detach( 'seller_list' );
 }
 
@@ -95,6 +98,55 @@ sub seller_list : Local
 	my ($self, $c) = @_;
 	my $sellers = [$c->model('DB::Seller')->all];
 	$c->stash->{sellers} = $sellers;
+	$c->stash->{template} = 'seller_list.tt2';
+}
+
+
+=head2 seller_signoff
+
+Seller deleting entry
+
+=cut 
+
+sub seller_signoff : Local
+{
+	my ($self, $c, $id) = @_;
+	my $seller = $c->model('DB::Seller')->find({id => $id});
+	$c->stash->{email} = {
+		to => $seller->email,
+		from => "greg\@nuu.edu.tw",
+		subject => "Deletion from Just Right Sellers List",
+		body => "Somebody is deleting a book from the Just Right Sellers List.
+If that person is you, that is, if you are no longer selling your book,
+and you want it to be removed from the web page, please confirm the request
+at " . $c->uri_for('/seller_delete/') . $seller->password,
+		};
+	$c->forward( $c->view('Email') );
+	if ( scalar( @{ $c->error } ) ) {
+		$c->error(0); # Reset the error condition if you need to
+		$c->response->body('The entry cannot be deleted. Are you sure you used a valid email address when you entered the book in the list. Contact Dr Bean at drbean(a)freeshell.org.');
+	} else {
+	$c->stash->{status_msg} = 'The book is being deleted. But before it is deleted, we will check that you really want to remove it from the site. To do this, we are sending an email to the email address you used when you put the book on the site. When you get the email, click on the URL in it to confirm you really want the entry deleted.';
+	$c->response->redirect($c->uri_for('/'));
+	}
+}
+
+
+=head2 seller_delete
+
+Entry deleted
+
+=cut 
+
+sub seller_delete : Local
+{
+	my ($self, $c, $passwd) = @_;
+	my @deleted = $c->model('DB::Seller')->search({password => $passwd});
+	die "Two entries with same $passwd password" if @deleted > 1;
+	$deleted[0]->delete if @deleted;
+	$c->stash->{status_msg} = "Entry deleted.";
+	$c->response->redirect($c->uri_for('/',
+		{status_msg => "Entry deleted."}));
 }
 
 
@@ -107,6 +159,7 @@ Serve buyer form
 sub buyer_signup : Local
 {
 	my ($self, $c) = @_;
+	$c->stash->{template} = 'buyer_signup.tt2';
 }
 
 
@@ -126,7 +179,7 @@ sub buyer_create : Local
 			condition => $buyer->{condition},
 			accessories => $buyer->{accessories},
 			price => $buyer->{price},
-			password => $buyer->{price},
+			password => int(rand(1000000)),
 		});
 	$c->detach( 'buyer_list' );
 }
@@ -143,6 +196,55 @@ sub buyer_list : Local
 	my ($self, $c) = @_;
 	my $buyers = [$c->model('DB::Buyer')->all];
 	$c->stash->{buyers} = $buyers;
+	$c->stash->{template} = 'buyer_list.tt2';
+}
+
+
+=head2 buyer_signoff
+
+Buyer deleting entry
+
+=cut 
+
+sub buyer_signoff : Local
+{
+	my ($self, $c, $id) = @_;
+	my $buyer = $c->model('DB::Buyer')->find({id => $id});
+	$c->stash->{email} = {
+		to => $buyer->email,
+		from => "greg\@nuu.edu.tw",
+		subject => "Deletion from Just Right Buyers List",
+		body => "Somebody is leaving the Just Right buyers List.
+If that person is you, that is, if you are no longer looking for a book,
+and you want your info to be removed from the web page, please confirm the request
+at " . $c->uri_for('/buyer_delete/') . $buyer->password,
+		};
+	$c->forward( $c->view('Email') );
+	if ( scalar( @{ $c->error } ) ) {
+		$c->error(0); # Reset the error condition if you need to
+		$c->response->body('The entry cannot be deleted. Are you sure you used a valid email address when you entered your information in the list. Contact Dr Bean at drbean(a)freeshell.org.');
+	} else {
+	$c->stash->{status_msg} = 'You are being deleted. But before you are deleted, we will check that you really want to remove your information from the site. To do this, we are sending an email to the email address you used when you put your information on the site. When you get the email, click on the URL in it to confirm you really want your entry deleted.';
+	$c->response->redirect($c->uri_for('/'));
+	}
+}
+
+
+=head2 buyer_delete
+
+Entry deleted
+
+=cut 
+
+sub buyer_delete : Local
+{
+	my ($self, $c, $passwd) = @_;
+	my @deleted = $c->model('DB::Buyer')->search({password => $passwd});
+	die "Two entries with same $passwd password" if @deleted > 1;
+	$deleted[0]->delete if @deleted;
+	$c->stash->{status_msg} = "Entry deleted.";
+	$c->response->redirect($c->uri_for('/',
+		{status_msg => "Entry deleted."}));
 }
 
 =head1 AUTHOR
