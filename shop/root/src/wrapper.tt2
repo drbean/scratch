@@ -22,7 +22,7 @@ html1/DTD/xhtml1-strict.dtd">
     Navigation:
     <ul>
 	    <li><a href="http://web.nuu.edu.tw/~greg">Home</a></li>
-        <li><a href="[% c.uri_for('/') %]" title="Catalyst Welcome Page">Welcome</a></li>
+        <li><a href="[% c.uri_for('/') %]" title="Shop Welcome Page">Swap Shop</a></li>
         <li><a href="mailto:drbean at (@) freeshell dot (.) org" title="Contact Us">Contact Us</a></li>
     </ul>
 </div><!-- end menu -->
