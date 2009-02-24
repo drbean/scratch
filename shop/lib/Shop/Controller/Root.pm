@@ -150,9 +150,9 @@ sub seller_delete : Local
 	my @deleted = $c->model('DB::Seller')->search({password => $passwd});
 	die "Two entries with same $passwd password" if @deleted > 1;
 	$deleted[0]->update({deleted => 1}) if @deleted;
-	$c->stash->{status_msg} = "Entry deleted.";
-	$c->response->redirect($c->uri_for('/',
-		{status_msg => "Entry deleted."}));
+	my $id = $deleted[0]->id;
+	$c->stash->{status_msg} = "Book $id deleted.";
+	$c->forward('index');
 }
 
 
@@ -249,9 +249,8 @@ sub buyer_delete : Local
 	my @deleted = $c->model('DB::Buyer')->search({password => $passwd});
 	die "Two entries with same $passwd password" if @deleted > 1;
 	$deleted[0]->update({deleted => 1}) if @deleted;
-	$c->stash->{status_msg} = "Entry deleted.";
-	$c->response->redirect($c->uri_for('/',
-		{status_msg => "Entry deleted."}));
+	$c->stash->{status_msg} = "Your entry has been deleted.";
+	$c->forward('index');
 }
 
 =head1 AUTHOR
