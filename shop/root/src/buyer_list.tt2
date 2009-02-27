@@ -1,7 +1,7 @@
 [% META title = 'Persons Seeking Books' -%]
 <h1>Just Right Pre-Intermediate American Edition</h1>
 <table border='yes'>
-<tr><th>Id</th><th>Phone/Email</th><th>Condition</th><th>Book/CD</th><th>Offer</th></tr>
+<tr><th>Id</th><th>Phone/Email</th><th>Condition</th><th>Booklet/CD</th><th>Offer</th></tr>
 [% FOREACH buyer IN buyers -%]
   <tr>
     <td>[% buyer.id %]</td>
