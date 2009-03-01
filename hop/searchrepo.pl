@@ -14,7 +14,8 @@ $svk->ls ('//'); # check $output for its output
 
 use RepoSearch;
 
+my $string = $ARGV[0];
 $svk = RepoSearch->new;
-my $i = iterator($svk, '//', sub { shift =~ m/perl/x });
+my $i = iterator($svk, '//', sub { shift =~ m/$string/x });
 
 while ( my $node = $i->() ) { print $node, "\n"; }

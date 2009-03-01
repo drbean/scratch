@@ -3,6 +3,9 @@ package RepoSearch;
 use strict;
 use warnings;
 
+use Moose;
+with 'MooseX::Getopt';
+
 BEGIN {
 	use Exporter ();
 	our ($VERSION, @ISA, @EXPORT, @EXPORT_OK, %EXPORT_TAGS);
