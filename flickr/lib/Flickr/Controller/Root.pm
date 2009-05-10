@@ -4,6 +4,7 @@ use Moose;
 BEGIN { extends 'Catalyst::Controller'; }
 
 use Flickr::API;
+use YAML qw/DumpFile/;
 
 #
 # Sets the actions in this controller to be registered with no prefix
@@ -50,7 +51,6 @@ Attempt to render a view, if needed.
 
 sub end : ActionClass('RenderView') {}
 
-
 =head2 find
 
 Find a Flickr picture. Would be good to be able to hit database only once for all the pictures with one tag. Perhaps I should do that when building the exercise. Doing it JIT, need to instantiate API object each time.
@@ -79,6 +79,7 @@ sub find : Local {
 				$c->stash->{error_msg} = $r->{error_message};
 				return;
 			}
+			DumpFile $word . 'info.yaml', $r;
 			my @newurls;
 			for my $n ( 0 .. $total-1 ) {
 				my $photo = $r->{tree}->{children}->[1]->
@@ -100,10 +101,34 @@ sub find : Local {
 			$pics->populate(\@newurls);
 			$c->stash->{urls} = \@newurls;
 		}
-$DB::single=1;
 		$c->stash->{urls} = \@oldurls;
 	}
 	$c->stash->{urls} ||= [];
+}
+
+
+=head2 info
+
+Find a Flickr picture. Would be good to be able to hit database only once for all the pictures with one tag. Perhaps I should do that when building the exercise. Doing it JIT, need to instantiate API object each time.
+	$c->stash->{url} = 'http://farm4.static.flickr.com/3515/3470432168_8e8509962d.jpg';
+
+=cut
+ 
+sub info : Local {
+	my ($self, $c, $id) = @_;
+	$c->stash->{template} = 'info.tt2';
+	my $api = Flickr::API->new({key =>
+		'ea697995b421c0532215e4a2cbadbe1e',
+		secret => 'ab2024b750a9d1f2' });
+	my $r = $api->execute_method('flickr.photos.getInfo',
+		{ photo_id => $id, api_key =>
+			'ea697995b421c0532215e4a2cbadbe1e' });
+	unless ( $r->{success} ) {
+		$c->stash->{error_msg} = $r->{error_message};
+		return;
+	}
+	DumpFile $id . 'info.yaml', $r;
+	$c->stash->{response} = $r;
 }
 
 
