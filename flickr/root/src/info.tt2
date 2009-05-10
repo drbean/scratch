@@ -1,0 +1,12 @@
+[% META title = 'Picture List' -%]
+<p>
+Back to <a href="[% Catalyst.uri_for('/play/update/') _ id %]">[% title %] Exercise</a>
+</p>
+
+[% USE Dumper (indent => 1, varname => "response", pad => "\n") %]
+
+[% Dumper.dump_html(response) %]
+
+<p>
+Back to <a href="[% Catalyst.uri_for('/play/update/') _ id %]">[% title %] Exercise</a>
+</p>
