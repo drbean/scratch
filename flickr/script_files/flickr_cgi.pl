@@ -6,9 +6,9 @@ use strict;
 use warnings;
 use FindBin;
 use lib "$FindBin::Bin/../lib";
-use Shop;
+use Flickr;
 
-Shop->run;
+Flickr->run;
 
 1;
 
