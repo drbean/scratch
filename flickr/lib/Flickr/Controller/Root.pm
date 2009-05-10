@@ -61,47 +61,44 @@ Find a Flickr picture. Would be good to be able to hit database only once for al
 sub find : Local {
 	my ($self, $c, $word) = @_;
 	my $pics = $c->model('DB::Pic');
-	my $stopword = $c->model('DB::Stopword')->find({ word => lc($word) });
 	$c->stash->{template} = 'list.tt2';
 	$c->stash->{tag} = $word;
 	my $total = 10;
-	unless ( $stopword ) {
-		my @oldurls = $pics->search({ word => $word });
-		unless ( @oldurls ) {
-			my $api = Flickr::API->new({key =>
-				'ea697995b421c0532215e4a2cbadbe1e',
-				secret => 'ab2024b750a9d1f2' });
-			my $r = $api->execute_method('flickr.photos.search',
-				{ tags => $word, per_page => $total, api_key =>
-					'ea697995b421c0532215e4a2cbadbe1e' });
-			unless ( $r->{success} ) {
-				$c->stash->{error_msg} = $r->{error_message};
+	my @oldurls = $pics->search({ word => $word });
+	unless ( @oldurls ) {
+		my $api = Flickr::API->new({key =>
+			'ea697995b421c0532215e4a2cbadbe1e',
+			secret => 'ab2024b750a9d1f2' });
+		my $r = $api->execute_method('flickr.photos.search',
+			{ tags => $word, per_page => $total, api_key =>
+				'ea697995b421c0532215e4a2cbadbe1e' });
+		unless ( $r->{success} ) {
+			$c->stash->{error_msg} = $r->{error_message};
+			return;
+		}
+		DumpFile $word . 'info.yaml', $r;
+		my @newurls;
+		for my $n ( 0 .. $total-1 ) {
+			my $photo = $r->{tree}->{children}->[1]->
+				{children}->[2*$n+1]->{attributes};
+			unless ( defined $photo->{title} ) {
+				$c->stash->{error_msg} = "No picture";
 				return;
 			}
-			DumpFile $word . 'info.yaml', $r;
-			my @newurls;
-			for my $n ( 0 .. $total-1 ) {
-				my $photo = $r->{tree}->{children}->[1]->
-					{children}->[2*$n+1]->{attributes};
-				unless ( defined $photo->{title} ) {
-					$c->stash->{error_msg} = "No picture";
-					return;
-				}
-				my %row;
-				$row{title} = $photo->{title};
-				$row{id} = undef;
-				$row{word} = $word;
-				$row{url} = 'http://farm' . $photo->{farm} .
-					'.static.flickr.com/'.  $photo->
-					{server} .  '/'.  $photo->{id} . '_' .
-					$photo->{secret} . '_t.jpg';
-				push @newurls, \%row;
-			}
-			$pics->populate(\@newurls);
-			$c->stash->{urls} = \@newurls;
+			my %row;
+			$row{title} = $photo->{title};
+			$row{id} = undef;
+			$row{word} = $word;
+			$row{url} = 'http://farm' . $photo->{farm} .
+				'.static.flickr.com/'.  $photo->
+				{server} .  '/'.  $photo->{id} . '_' .
+				$photo->{secret} . '_t.jpg';
+			push @newurls, \%row;
 		}
-		$c->stash->{urls} = \@oldurls;
+		$pics->populate(\@newurls);
+		$c->stash->{urls} = \@newurls;
 	}
+	$c->stash->{urls} = \@oldurls;
 	$c->stash->{urls} ||= [];
 }
 
