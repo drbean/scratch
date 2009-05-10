@@ -1,0 +1,189 @@
+--- !!perl/hash:Flickr::API::Response
+_content: "\x1f\x08\0\0\0\0\0\0\x03SÍÓ0\x10>³OaùÞÆiM[%Y;'ä&nc5±#ÿ´[U´BÄK . qàºâerXnû\n®\x16\t.ígæo¾d7¯Û\x06íÒ\\\x1cS\x11\x13¥¬¸ØäØõdÑMq)Ý!m¨É±Übð»Z\x1axã(!$¢ë\x14#ÍJÅ Dy8KI9so\nð!/'\x18­©js\x1ccTQÃl×HZ1\0\tgq\x122K Âõî¤â\x01\x10F\r/Ð­$PðLÁiYÅi=\x13 ô,{Á\x14\x12Ú³J¯#\x02\f¿ ÀË\x02\tA[\0Y1\nãYar&@2Ú\f!h%Ë\x11\x1e£À!\x1an\x1aVô§ÏýéÛðûëËþø®?~íúãÛ»ýé{úñpwÌ!\x1dê*¦KÅ;U¼´5G÷·ïïÞfÁã\0äí¸æ+Þps©;»YA\v/âLT~N§GËw<-§FÔæ©vn\x19Ð\x11²dBRDe\x1c/Ãsl£¨°\r\x05u\a¼jc;\a8\x02]§á\"\x1eûÀüJ§[Û2a|\x1d¸´ªZfèÕtÃ\\¤M¸ÍúYÀ_5rs®ê\x14\x1f!|Í©0\vþØð.¤\eqX\x02Ý¸'o q·d¾Éärz$Jâ\x14®ZSKõtÿîs¬kþÆÂÙÐ²æ½\x024G£ðÏ°;ºùo(\rÃä=\x14å \x135·9GÎü¿\x1fÕªf\x0f\fd\x0e\x1d\eoº\x035qQ\eÓ-`¿ßO×p\x1e[5\x05\x02 Ç\f\vÑ \v\0Ë7\x19À³¡À\x19ð!\x17W¿\x01r\x1d}*÷\x03\0\0"
+_headers: !!perl/hash:HTTP::Headers
+  client-date: 'Sun, 10 May 2009 01:57:46 GMT'
+  client-peer: 68.142.214.24:80
+  client-response-num: 1
+  connection: close
+  content-encoding: gzip
+  content-length: 593
+  content-type: text/xml; charset=utf-8
+  date: 'Sun, 10 May 2009 01:52:48 GMT'
+  p3p: 'policyref="http://p3p.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE GOV"'
+  vary: Accept-Encoding
+_msg: OK
+_protocol: HTTP/1.1
+_rc: 200
+_request: !!perl/hash:Flickr::API::Request
+  _content: photo_id=3509533367&api_sig=1d3e6ddd2874704db1a4f0ff910b7178&method=flickr.photos.getInfo&api_key=ea697995b421c0532215e4a2cbadbe1e
+  _headers: !!perl/hash:HTTP::Headers
+    accept-encoding: gzip
+    content-length: 130
+    content-type: application/x-www-form-urlencoded
+    user-agent: libwww-perl/5.816
+  _method: POST
+  _uri: &1 !!perl/scalar:URI::http http://www.flickr.com/services/rest/
+  _uri_canonical: *1
+  api_args:
+    api_key: ea697995b421c0532215e4a2cbadbe1e
+    api_sig: 1d3e6ddd2874704db1a4f0ff910b7178
+    method: flickr.photos.getInfo
+    photo_id: 3509533367
+  api_method: flickr.photos.getInfo
+  rest_uri: http://www.flickr.com/services/rest/
+error_code: 0
+error_message: ''
+handlers:
+  response_data:
+    - !!perl/code '{ "DUMMY" }'
+success: 1
+tree:
+  attributes:
+    stat: ok
+  children:
+    - content: "\n"
+      type: text
+    - attributes:
+        dateuploaded: 1241700254
+        farm: 4
+        id: 3509533367
+        isfavorite: 0
+        license: 0
+        media: photo
+        rotation: 0
+        secret: 03981270c2
+        server: 3385
+      children:
+        - content: "\n\t"
+          type: text
+        - attributes:
+            location: ''
+            nsid: 37630270@N07
+            realname: ''
+            username: beancounterbean
+          children: []
+          name: owner
+          type: element
+        - content: "\n\t"
+          type: text
+        - attributes: {}
+          children:
+            - content: ヤレヤレ見えにくい，ワン！
+              type: text
+          name: title
+          type: element
+        - content: "\n\t"
+          type: text
+        - attributes: {}
+          children:
+            - content: Yuhi 熊羆
+              type: text
+          name: description
+          type: element
+        - content: "\n\t"
+          type: text
+        - attributes:
+            isfamily: 0
+            isfriend: 0
+            ispublic: 1
+          children: []
+          name: visibility
+          type: element
+        - content: "\n\t"
+          type: text
+        - attributes:
+            lastupdate: 1241767194
+            posted: 1241700254
+            taken: 2009-05-07 05:44:14
+            takengranularity: 0
+          children: []
+          name: dates
+          type: element
+        - content: "\n\t"
+          type: text
+        - attributes:
+            canaddmeta: 0
+            cancomment: 0
+          children: []
+          name: editability
+          type: element
+        - content: "\n\t"
+          type: text
+        - attributes:
+            canblog: 0
+            candownload: 1
+            canprint: 0
+          children: []
+          name: usage
+          type: element
+        - content: "\n\t"
+          type: text
+        - attributes: {}
+          children:
+            - content: 1
+              type: text
+          name: comments
+          type: element
+        - content: "\n\t"
+          type: text
+        - attributes: {}
+          children: []
+          name: notes
+          type: element
+        - content: "\n\t"
+          type: text
+        - attributes: {}
+          children:
+            - content: "\n\t\t"
+              type: text
+            - attributes:
+                author: 37630270@N07
+                id: 37608940-3509533367-535472
+                machine_tag: 0
+                raw: shizu
+              children:
+                - content: shizu
+                  type: text
+              name: tag
+              type: element
+            - content: "\n\t\t"
+              type: text
+            - attributes:
+                author: 37630270@N07
+                id: 37608940-3509533367-37115
+                machine_tag: 0
+                raw: raincoat
+              children:
+                - content: raincoat
+                  type: text
+              name: tag
+              type: element
+            - content: "\n\t"
+              type: text
+          name: tags
+          type: element
+        - content: "\n\t"
+          type: text
+        - attributes: {}
+          children:
+            - content: "\n\t\t"
+              type: text
+            - attributes:
+                type: photopage
+              children:
+                - content: http://www.flickr.com/photos/37630270@N07/3509533367/
+                  type: text
+              name: url
+              type: element
+            - content: "\n\t"
+              type: text
+          name: urls
+          type: element
+        - content: "\n"
+          type: text
+      name: photo
+      type: element
+    - content: "\n"
+      type: text
+  name: rsp
+  type: element

@@ -1,0 +1,135 @@
+--- !!perl/hash:Flickr::API::Response
+_content: "\x1f‹\x08\0\0\0\0\0\0\x03½Ó]JÃ@\x10\ağg{ŠeßM÷û\x03šVú®x…M²©«i6lÒj\x0fäI¼˜Ó\x14j¤‚ˆâÛÌ’áÿcÂ,V/Û\x06í}êClsL3‚‘oËX…v“ãİP_\eŒVËÙ\"õ\x1dê\a7ä8>aè»‡8Ä\x1eunãa\fE\x0f•ÕPûtz—\x18\rqpM­\x110uu\x1aC¡Ê1—”SJ¬€€øÜú\x04ÃD\n­”¸¹#ğØû2yÈcuA(åÒÊã[Ú\x1f¿äŠAfíÒ6Ç\x02BÂĞ@ÜÚ5\x01­½kÑ:\x1e0\n}·+šP¾Ğ×)ø\x16‚ÉØ¸mh\x0ec3¿p\x11­©åâì\x12T\x1a¦•\x01\x17ùpQ^9&J/«‰‹ó/\\E\nmåP\x19[XS\x17G·)\e¡¿E\nõ\r²`T+®½dS¤\x12ÿƒ$Ô\x1aÆ”<#™…løï€Ô\x13¤\x17®\x10Rór‚”\\_\"ÿ„¤(#ìL2ÇıXÊ>ïÍ8\x16µ1ÅtoÌ^’îß^á~\x1e³ì'¦Åüt?Ç\n.k9{\a‘ÌdÒˆ\x03\0\0"
+_headers: !!perl/hash:HTTP::Headers
+  client-date: 'Sun, 10 May 2009 02:12:21 GMT'
+  client-peer: 68.142.214.24:80
+  client-response-num: 1
+  connection: close
+  content-encoding: gzip
+  content-length: 366
+  content-type: text/xml; charset=utf-8
+  date: 'Sun, 10 May 2009 02:07:23 GMT'
+  p3p: 'policyref="http://p3p.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE GOV"'
+  vary: Accept-Encoding
+_msg: OK
+_protocol: HTTP/1.1
+_rc: 200
+_request: !!perl/hash:Flickr::API::Request
+  _content: per_page=5&api_sig=08fa191551a34753a94abe59ee652d22&method=flickr.photos.search&api_key=ea697995b421c0532215e4a2cbadbe1e&tags=mrbean
+  _headers: !!perl/hash:HTTP::Headers
+    accept-encoding: gzip
+    content-length: 132
+    content-type: application/x-www-form-urlencoded
+    user-agent: libwww-perl/5.816
+  _method: POST
+  _uri: &1 !!perl/scalar:URI::http http://www.flickr.com/services/rest/
+  _uri_canonical: *1
+  api_args:
+    api_key: ea697995b421c0532215e4a2cbadbe1e
+    api_sig: 08fa191551a34753a94abe59ee652d22
+    method: flickr.photos.search
+    per_page: 5
+    tags: mrbean
+  api_method: flickr.photos.search
+  rest_uri: http://www.flickr.com/services/rest/
+error_code: 0
+error_message: ''
+handlers:
+  response_data:
+    - !!perl/code '{ "DUMMY" }'
+success: 1
+tree:
+  attributes:
+    stat: ok
+  children:
+    - content: "\n"
+      type: text
+    - attributes:
+        page: 1
+        pages: 197
+        perpage: 5
+        total: 984
+      children:
+        - content: "\n\t"
+          type: text
+        - attributes:
+            farm: 4
+            id: 3513110948
+            isfamily: 0
+            isfriend: 0
+            ispublic: 1
+            owner: 10547664@N08
+            secret: 2fb0113595
+            server: 3621
+            title: Bali Bean Boy
+          children: []
+          name: photo
+          type: element
+        - content: "\n\t"
+          type: text
+        - attributes:
+            farm: 4
+            id: 3510771934
+            isfamily: 0
+            isfriend: 0
+            ispublic: 1
+            owner: 41582768@N00
+            secret: 13da24ce5d
+            server: 3331
+            title: brinda con papi e Mr. Bean
+          children: []
+          name: photo
+          type: element
+        - content: "\n\t"
+          type: text
+        - attributes:
+            farm: 4
+            id: 3510771946
+            isfamily: 0
+            isfriend: 0
+            ispublic: 1
+            owner: 41582768@N00
+            secret: b217637e52
+            server: 3364
+            title: brinda con papi e Mr. Bean
+          children: []
+          name: photo
+          type: element
+        - content: "\n\t"
+          type: text
+        - attributes:
+            farm: 4
+            id: 3501982265
+            isfamily: 0
+            isfriend: 0
+            ispublic: 1
+            owner: 29364131@N07
+            secret: be4ab4573c
+            server: 3537
+            title: Mr. Bean
+          children: []
+          name: photo
+          type: element
+        - content: "\n\t"
+          type: text
+        - attributes:
+            farm: 4
+            id: 3501961202
+            isfamily: 0
+            isfriend: 0
+            ispublic: 1
+            owner: 87637912@N00
+            secret: 8a936bf88b
+            server: 3329
+            title: På vej..
+          children: []
+          name: photo
+          type: element
+        - content: "\n"
+          type: text
+      name: photos
+      type: element
+    - content: "\n"
+      type: text
+  name: rsp
+  type: element

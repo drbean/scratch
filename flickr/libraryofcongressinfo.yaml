@@ -1,0 +1,135 @@
+--- !!perl/hash:Flickr::API::Response
+_content: "\x1f‹\x08\0\0\0\0\0\0\x03¥”KSÛ0\x10ÇÏåS,¾ĞÎ„`ÇÏt\x084\r¥¥\x0fÊ4ôÀqc¯m,y$9oßuÒv2\r3™\x0e\x17ö%ù·ÿ•NÏŸ\x1a\tK2Vh5ñ‚¡ï\x01©\\\x17BU\x13¯såqæÁùÙÁ©±-X‡nâé\aí¶ÖN[h±\".óÖ\v;ñÂ \x1c±Af\x13ˆ=pÚ¡ä”8I|.|µ©\x04Qpr\x1cD~<\x1a…œ¦\x1f\x15\x19v%a\x1aGQôîÚO=°”\eâ#\vŠr\x1f1‹’Şg–ëÌpÌe%šfâE|Œp’\x0f¼­\r\x11TÄ›¡c$û\x16¦Ã›!|AY¡ÒKx\x14®\x06«\x15 * 2ü-°«jGf\x08Á8ğáuA\x0e…|3„Ëş?çd*º‡\e£\x1f:nÊñGmìƒ¸‡¯baĞ¬@—0Óª2dí\0~Î§C\x0f„m»…\x14ùº/Â–FbZm`#äjmœì6#KÒ,Nö4ƒ\x16i™e£,\eo5#N³İfL…¤\x15\\]õz”Ú4¬) \x03W\x13¼')\tW†à[gE\x0e—dX¢\x1cÀ'QÕî”\eÀõİ\0äR(Øl4mÈˆ\x1c\x15\\ Ê\tnkBgèEÀ~4\x0e¢t\x0fğÈ/Â4[$ñb\v8òÃ]à™\x14Ê±¶\x12;•×T°È@O¹pL~\x08\x1cã©È™“\x0e$5¤\x1c;¡&\x03-\v(\nv\x08”cÓ¢¨\x14\x1c\x03ÂÑ¬ÖÚ\x12|ï\fÌş\x04æ,ùÑK¥N²Ñ\x1eò\x08Ó0à´\"Ø–zìï’=÷g]+h%®ztÈ5ËdÖˆ×w3¾ˆ°à{Q\nÇ\x1aË~v·ëÈ>ÿB¾Q<öğÅTP\x12Da\x1emóõ\x03ñ/ß3×\r~PN¬¥…\eä\x01·}ìïˆÎtÓ²j,YFrÎÜ\x19İYú\x1f¤Ó“Í#×¯øù;;ø\x05c1‰«-\x05\0\0"
+_headers: !!perl/hash:HTTP::Headers
+  client-date: 'Sun, 10 May 2009 02:17:29 GMT'
+  client-peer: 68.142.214.24:80
+  client-response-num: 1
+  connection: close
+  content-encoding: gzip
+  content-length: 626
+  content-type: text/xml; charset=utf-8
+  date: 'Sun, 10 May 2009 02:12:32 GMT'
+  p3p: 'policyref="http://p3p.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE GOV"'
+  vary: Accept-Encoding
+_msg: OK
+_protocol: HTTP/1.1
+_rc: 200
+_request: !!perl/hash:Flickr::API::Request
+  _content: per_page=5&api_sig=d172a1b2f6bc56bcc10c2c8d32f07af9&method=flickr.photos.search&api_key=ea697995b421c0532215e4a2cbadbe1e&tags=libraryofcongress
+  _headers: !!perl/hash:HTTP::Headers
+    accept-encoding: gzip
+    content-length: 143
+    content-type: application/x-www-form-urlencoded
+    user-agent: libwww-perl/5.816
+  _method: POST
+  _uri: &1 !!perl/scalar:URI::http http://www.flickr.com/services/rest/
+  _uri_canonical: *1
+  api_args:
+    api_key: ea697995b421c0532215e4a2cbadbe1e
+    api_sig: d172a1b2f6bc56bcc10c2c8d32f07af9
+    method: flickr.photos.search
+    per_page: 5
+    tags: libraryofcongress
+  api_method: flickr.photos.search
+  rest_uri: http://www.flickr.com/services/rest/
+error_code: 0
+error_message: ''
+handlers:
+  response_data:
+    - !!perl/code '{ "DUMMY" }'
+success: 1
+tree:
+  attributes:
+    stat: ok
+  children:
+    - content: "\n"
+      type: text
+    - attributes:
+        page: 1
+        pages: 3132
+        perpage: 5
+        total: 15660
+      children:
+        - content: "\n\t"
+          type: text
+        - attributes:
+            farm: 4
+            id: 3514052235
+            isfamily: 0
+            isfriend: 0
+            ispublic: 1
+            owner: 36375444@N07
+            secret: de4c0aa846
+            server: 3395
+            title: 'Three generations: A.P. Kalganov with son and granddaughter. 1910 (detail). Foto Sergej Prokudin-Gorskij Library of Congress, USA.'
+          children: []
+          name: photo
+          type: element
+        - content: "\n\t"
+          type: text
+        - attributes:
+            farm: 4
+            id: 3514867856
+            isfamily: 0
+            isfriend: 0
+            ispublic: 1
+            owner: 36375444@N07
+            secret: eb7f882889
+            server: 3578
+            title: 'Ailey II performing at the Belleayre Music Festival, Highmount, NY, lvin Ailey American Dance Theatre.'
+          children: []
+          name: photo
+          type: element
+        - content: "\n\t"
+          type: text
+        - attributes:
+            farm: 4
+            id: 3514049147
+            isfamily: 0
+            isfriend: 0
+            ispublic: 1
+            owner: 36375444@N07
+            secret: 20d378b65b
+            server: 3403
+            title: "Clinton launched an exciting! interactive! element in her presidential campaign - a 'Choose Our Campaign Song'."
+          children: []
+          name: photo
+          type: element
+        - content: "\n\t"
+          type: text
+        - attributes:
+            farm: 4
+            id: 3514867682
+            isfamily: 0
+            isfriend: 0
+            ispublic: 1
+            owner: 36375444@N07
+            secret: 4a731682d1
+            server: 3590
+            title: Elton John played a concert in NYC to benefit Hilary Clinton's presidential campaign.
+          children: []
+          name: photo
+          type: element
+        - content: "\n\t"
+          type: text
+        - attributes:
+            farm: 4
+            id: 3514862594
+            isfamily: 0
+            isfriend: 0
+            ispublic: 1
+            owner: 36375444@N07
+            secret: 5ede6143c4
+            server: 3547
+            title: Library of Congress Receives Papers of American Composer Charles Strouse
+          children: []
+          name: photo
+          type: element
+        - content: "\n"
+          type: text
+      name: photos
+      type: element
+    - content: "\n"
+      type: text
+  name: rsp
+  type: element
