@@ -60,7 +60,6 @@ Find a Flickr picture. Would be good to be able to hit database only once for al
  
 sub find : Local {
 	my ($self, $c, $word) = @_;
-	my $league = $c->session->{league};
 	my $pics = $c->model('DB::Pic');
 	my $stopword = $c->model('DB::Stopword')->find({ word => lc($word) });
 	$c->stash->{template} = 'list.tt2';
