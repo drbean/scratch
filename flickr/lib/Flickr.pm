@@ -22,15 +22,15 @@ use Catalyst qw/
     
     StackTrace
 
-    Authentication
-    Authorization::Roles
-            
-    Session
-    Session::Store::FastMmap
-    Session::State::Cookie
     /;
 
     # Authorization::ACL
+    # Authentication
+    # Authorization::Roles
+    # Session
+    # Session::Store::FastMmap
+    # Session::State::Cookie
+            
 
 #BEGIN { my @plugins = qw/ConfigLoader Static::Simple 
 #                   Authentication
@@ -59,37 +59,7 @@ our $VERSION = '0.04';
 # __PACKAGE__->config( name => 'Shop' );
 
    __PACKAGE__->config(
-	name => 'Shop' ,
-	default_view => 'TT',
-	'View::Email' => {
-	   # Where to look in the stash for the email information.
-	   # 'email' is the default, so you don't have to specify it.
-	   stash_key => 'email',
-	   # Define the defaults for the mail
-	   default => {
-	       # Defines the default content type (mime type). Mandatory
-	       content_type => 'text/plain',
-	       # Defines the default charset for every MIME part with the
-	       # content type text.
-	       # According to RFC2049 a MIME part without a charset should
-	       # be treated as US-ASCII by the mail client.
-	       # If the charset is not set it won't be set for all MIME parts
-	       # without an overridden one.
-	       # Default: none
-	       charset => 'utf-8'
-	   },
-	   # Setup how to send the email
-	   # all those options are passed directly to Email::Send
-	   sender => {
-	       mailer => 'SMTP',
-	       # mailer_args is passed directly into Email::Send
-	       mailer_args => {
-		   Host     => 'email.nuu.edu.tw', # defaults to localhost
-		   username => 'greg',
-		   password => '1949',
-	      }
-	   }
-	}
+	name => 'Flickr' ,
    );
 
 
