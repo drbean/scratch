@@ -120,12 +120,14 @@ sub info : Local {
 	my $r = $api->execute_method('flickr.photos.getInfo',
 		{ photo_id => $id, api_key =>
 			'ea697995b421c0532215e4a2cbadbe1e' });
-	#unless ( $r->{success} ) {
-	#	$c->stash->{error_msg} = $r->{error_message};
+	unless ( $r->{success} ) {
+		$c->stash->{error_msg} = $r->{error_message};
 	#	return;
-	#}
+	}
+	else { $c->stash->{status_msg} = $r->{_msg}; }
 	#DumpFile $id . 'info.yaml', $r;
 	$c->stash->{response} = $r;
+	$c->stash->{request} = $r->request;
 }
 
 
