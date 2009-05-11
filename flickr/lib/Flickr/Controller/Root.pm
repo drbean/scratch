@@ -113,7 +113,7 @@ Find a Flickr picture. Would be good to be able to hit database only once for al
 sub info : Local {
 	my ($self, $c, $id) = @_;
 	$c->stash->{template} = 'info.tt2';
-	use LWP::DebugFile;
+	use LWP::Debug;
 	my $api = Flickr::API->new({key =>
 		'ea697995b421c0532215e4a2cbadbe1e',
 		secret => 'ab2024b750a9d1f2' });
