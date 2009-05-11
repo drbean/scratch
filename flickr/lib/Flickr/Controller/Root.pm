@@ -123,7 +123,7 @@ sub info : Local {
 	#	$c->stash->{error_msg} = $r->{error_message};
 	#	return;
 	#}
-	DumpFile $id . 'info.yaml', $r;
+	#DumpFile $id . 'info.yaml', $r;
 	$c->stash->{response} = $r;
 }
 
