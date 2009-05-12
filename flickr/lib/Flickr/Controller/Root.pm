@@ -151,7 +151,7 @@ sub echo : Local {
 	#	return;
 	}
 	else { $c->stash->{status_msg} = $r->{_msg}; }
-	#DumpFile $id . 'info.yaml', $r;
+	DumpFile '/tmp/echo.yaml', $r, $r->request;
 	$c->stash->{response} = $r;
 	$c->stash->{request} = $r->request;
 }

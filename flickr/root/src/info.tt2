@@ -3,13 +3,13 @@
 Back to <a href="[% Catalyst.uri_for('/play/update/') _ id %]">[% title %] Exercise</a>
 </p>
 
-[% USE Dumper (indent => 3, varname => "ResponseDump", pad => "\n") %]
+[% USE Dumper (indent => 2, varname => "ResponseDump", pad => "\n") %]
 
 <h1> Response </h1>
 
 [% Dumper.dump_html(response) %]
 
-[% USE Dumper (sortkeys => 1, indent => 3, varname => "RequestDump", pad => "\t\n") %]
+[% USE Dumper (indent => 2, varname => "RequestDump", pad => "\t\n") %]
 
 <h1> Request </h1>
 
