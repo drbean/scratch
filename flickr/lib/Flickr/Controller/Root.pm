@@ -131,6 +131,32 @@ sub info : Local {
 }
 
 
+=head2 echo
+
+Echo from flickr server
+
+=cut
+ 
+sub echo : Local {
+	my ($self, $c) = @_;
+	$c->stash->{template} = 'info.tt2';
+	use LWP::Debug;
+	my $api = Flickr::API->new({key =>
+		'ea697995b421c0532215e4a2cbadbe1e',
+		secret => 'ab2024b750a9d1f2' });
+	my $r = $api->execute_method('flickr.test.echo',
+		{ api_key => 'ea697995b421c0532215e4a2cbadbe1e' });
+	unless ( $r->{success} ) {
+		$c->stash->{error_msg} = $r->{error_message};
+	#	return;
+	}
+	else { $c->stash->{status_msg} = $r->{_msg}; }
+	#DumpFile $id . 'info.yaml', $r;
+	$c->stash->{response} = $r;
+	$c->stash->{request} = $r->request;
+}
+
+
 =head1 AUTHOR
 
 Dr Bean
