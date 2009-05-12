@@ -157,6 +157,29 @@ sub echo : Local {
 }
 
 
+=head2 test
+
+Connect to a server
+
+=cut
+ 
+sub test : Local {
+	my ($self, $c, $url) = @_;
+	$c->stash->{template} = 'info.tt2';
+	use LWP::Debug;
+	my $ua = LWP::UserAgent->new;
+	my $r = $ua->get("http://$url");
+	unless ( $r->{is_success} ) {
+		$c->stash->{error_msg} = $r->{error_message};
+	#	return;
+	}
+	else { $c->stash->{status_msg} = $r->{_msg}; }
+	DumpFile '/tmp/test.yaml', $r, $r->request;
+	$c->stash->{response} = $r;
+	$c->stash->{request} = $r->request;
+}
+
+
 =head1 AUTHOR
 
 Dr Bean
