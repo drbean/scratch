@@ -115,37 +115,41 @@ sub tagtitle : Local {
 	my $pics = $c->model('DB::Pic');
 	$c->stash->{template} = 'list.tt2';
 	$c->stash->{tag} = $word;
-	my $total = 10;
+	my $fetched = 500;
+	my $needed = 100;
+	my $page = 0;
 	my @oldurls = $pics->search({ word => $word });
 	unless ( @oldurls ) {
-		my @newurls;
-		while ( $total ) {
-			$total--;
-			my $api = Flickr::API->new({key =>
-				'ea697995b421c0532215e4a2cbadbe1e',
-				secret => 'ab2024b750a9d1f2' });
+		my $api = Flickr::API->new({key =>
+			'ea697995b421c0532215e4a2cbadbe1e',
+			secret => 'ab2024b750a9d1f2' });
+		my (@yaml, @newurls);
+		while ( $needed >= 0 ) {
 			my $r = $api->execute_method('flickr.photos.search',
-				{ tags => $word, per_page => 1, api_key =>
-					'ea697995b421c0532215e4a2cbadbe1e' });
+				{ tags => $word, per_page => $fetched, page => $page++,
+					api_key => 'ea697995b421c0532215e4a2cbadbe1e' });
 			unless ( $r->{success} ) {
 				$c->stash->{error_msg} = $r->{error_message};
 				return;
 			}
-DumpFile $word . 'info.yaml', $r;
-			my $photo = $r->{tree}->{children}->[1]->
-				{children}->[1]->{attributes};
-			next unless $photo->{title} =~ m/$word/;
-			my %row;
-			$row{title} = $photo->{title};
-			$row{id} = undef;
-			$row{word} = $word;
-			$row{url} = 'http://farm' . $photo->{farm} .
-				'.static.flickr.com/'.  $photo->
-				{server} .  '/'.  $photo->{id} . '_' .
-				$photo->{secret} . '_t.jpg';
-			push @newurls, \%row;
-			# $total--;
+			for my $n ( 0 .. $fetched-1 ) {
+				my $photo = $r->{tree}->{children}->[1]->
+					{children}->[2*$n+1]->{attributes};
+				next unless $photo->{title} =~ m/$word/i;
+				push @yaml, $photo;
+				my %row;
+				$row{title} = $photo->{title};
+				$row{id} = undef;
+				$row{word} = $word;
+				$row{url} = 'http://farm' . $photo->{farm} .
+					'.static.flickr.com/'.  $photo->
+					{server} .  '/'.  $photo->{id} . '_' .
+					$photo->{secret} . '_t.jpg';
+				push @newurls, \%row;
+				$needed--;
+			}
 		}
+		DumpFile $word . 'info.yaml', \@yaml;
 		$pics->populate(\@newurls);
 		$c->stash->{urls} = \@newurls;
 	}
