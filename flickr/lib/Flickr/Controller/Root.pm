@@ -63,7 +63,7 @@ sub find : Local {
 	my $pics = $c->model('DB::Pic');
 	$c->stash->{template} = 'list.tt2';
 	$c->stash->{tag} = $word;
-	my $total = 10;
+	my $total = 1;
 	my @oldurls = $pics->search({ word => $word });
 	unless ( @oldurls ) {
 		my $api = Flickr::API->new({key =>
@@ -94,6 +94,57 @@ sub find : Local {
 				{server} .  '/'.  $photo->{id} . '_' .
 				$photo->{secret} . '_t.jpg';
 			push @newurls, \%row;
+		}
+		$pics->populate(\@newurls);
+		$c->stash->{urls} = \@newurls;
+	}
+	$c->stash->{urls} = \@oldurls;
+	$c->stash->{urls} ||= [];
+}
+
+
+=head2 tagtitle
+
+Find a Flickr picture by tag, but accept it only if tag is in title.
+	$c->stash->{url} = 'http://farm4.static.flickr.com/3515/3470432168_8e8509962d.jpg';
+
+=cut
+ 
+sub tagtitle : Local {
+	my ($self, $c, $word) = @_;
+	my $pics = $c->model('DB::Pic');
+	$c->stash->{template} = 'list.tt2';
+	$c->stash->{tag} = $word;
+	my $total = 10;
+	my @oldurls = $pics->search({ word => $word });
+	unless ( @oldurls ) {
+		my @newurls;
+		while ( $total ) {
+			$total--;
+			my $api = Flickr::API->new({key =>
+				'ea697995b421c0532215e4a2cbadbe1e',
+				secret => 'ab2024b750a9d1f2' });
+			my $r = $api->execute_method('flickr.photos.search',
+				{ tags => $word, per_page => 1, api_key =>
+					'ea697995b421c0532215e4a2cbadbe1e' });
+			my $photo = $r->{tree}->{children}->[1]->
+				{children}->[1]->{attributes};
+			next unless $photo->{title} =~ m/$word/;
+			my %row;
+		unless ( $r->{success} ) {
+			$c->stash->{error_msg} = $r->{error_message};
+			return;
+		}
+DumpFile $word . 'info.yaml', $r;
+			$row{title} = $photo->{title};
+			$row{id} = undef;
+			$row{word} = $word;
+			$row{url} = 'http://farm' . $photo->{farm} .
+				'.static.flickr.com/'.  $photo->
+				{server} .  '/'.  $photo->{id} . '_' .
+				$photo->{secret} . '_t.jpg';
+			push @newurls, \%row;
+			# $total--;
 		}
 		$pics->populate(\@newurls);
 		$c->stash->{urls} = \@newurls;
