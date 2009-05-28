@@ -127,15 +127,15 @@ sub tagtitle : Local {
 			my $r = $api->execute_method('flickr.photos.search',
 				{ tags => $word, per_page => 1, api_key =>
 					'ea697995b421c0532215e4a2cbadbe1e' });
+			unless ( $r->{success} ) {
+				$c->stash->{error_msg} = $r->{error_message};
+				return;
+			}
+DumpFile $word . 'info.yaml', $r;
 			my $photo = $r->{tree}->{children}->[1]->
 				{children}->[1]->{attributes};
 			next unless $photo->{title} =~ m/$word/;
 			my %row;
-		unless ( $r->{success} ) {
-			$c->stash->{error_msg} = $r->{error_message};
-			return;
-		}
-DumpFile $word . 'info.yaml', $r;
 			$row{title} = $photo->{title};
 			$row{id} = undef;
 			$row{word} = $word;
