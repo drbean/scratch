@@ -115,9 +115,9 @@ sub tagtitle : Local {
 	my $pics = $c->model('DB::Pic');
 	$c->stash->{template} = 'list.tt2';
 	$c->stash->{tag} = $word;
-	my $fetched = 500;
-	my $needed = 100;
-	my $page = 0;
+	my $fetched = 100;
+	my $needed = 98;
+	my $page = 1;
 	my @oldurls = $pics->search({ word => $word });
 	unless ( @oldurls ) {
 		my $api = Flickr::API->new({key =>
