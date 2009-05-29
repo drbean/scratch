@@ -136,7 +136,7 @@ sub tagtitle : Local {
 			for my $n ( 0 .. $fetched-1 ) {
 				my $photo = $r->{tree}->{children}->[1]->
 					{children}->[2*$n+1]->{attributes};
-				next unless $photo->{title} =~ m/$word/i;
+				next unless $photo->{title} =~ m/\b$word\b/i;
 				my $owner = $photo->{owner};
 				next if $pics->search({ owner => $owner
 					})->count;
@@ -158,8 +158,7 @@ sub tagtitle : Local {
 		DumpFile $word . 'info.yaml', \@yaml;
 		$c->stash->{urls} = \@newurls;
 	}
-	$c->stash->{urls} = \@oldurls;
-	$c->stash->{urls} ||= [];
+	else { $c->stash->{urls} = \@oldurls; }
 }
 
 
