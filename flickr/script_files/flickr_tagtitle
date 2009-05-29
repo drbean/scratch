@@ -4,11 +4,12 @@ package main;
 
 use strict;
 use warnings;
+use FindBin;
 
 use Pod::Usage;
 use YAML qw/DumpFile/;
 
-use lib 'lib';
+use lib "$FindBin::Bin/../lib";
 use Flickr;
 
 run () unless caller;
