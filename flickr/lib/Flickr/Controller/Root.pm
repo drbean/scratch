@@ -115,8 +115,8 @@ sub tagtitle : Local {
 	my $pics = $c->model('DB::Pic');
 	$c->stash->{template} = 'list.tt2';
 	$c->stash->{tag} = $word;
-	my $fetched = 100;
-	my $needed = 98;
+	my $fetched = 300;
+	my $needed = 20;
 	my $page = 1;
 	my @oldurls = $pics->search({ word => $word });
 	unless ( @oldurls ) {
@@ -126,8 +126,9 @@ sub tagtitle : Local {
 		my (@yaml, @newurls);
 		while ( $needed >= 0 ) {
 			my $r = $api->execute_method('flickr.photos.search',
-				{ tags => $word, per_page => $fetched, page => $page++,
-					api_key => 'ea697995b421c0532215e4a2cbadbe1e' });
+				{ tags => $word, per_page => $fetched,
+					page => $page++, api_key =>
+					'ea697995b421c0532215e4a2cbadbe1e' });
 			unless ( $r->{success} ) {
 				$c->stash->{error_msg} = $r->{error_message};
 				return;
@@ -136,21 +137,25 @@ sub tagtitle : Local {
 				my $photo = $r->{tree}->{children}->[1]->
 					{children}->[2*$n+1]->{attributes};
 				next unless $photo->{title} =~ m/$word/i;
+				my $owner = $photo->{owner};
+				next if $pics->search({ owner => $owner
+					})->count;
 				push @yaml, $photo;
 				my %row;
 				$row{title} = $photo->{title};
 				$row{id} = undef;
 				$row{word} = $word;
+				$row{owner} = $owner;
 				$row{url} = 'http://farm' . $photo->{farm} .
 					'.static.flickr.com/'.  $photo->
 					{server} .  '/'.  $photo->{id} . '_' .
 					$photo->{secret} . '_t.jpg';
+				$pics->update_or_create( \%row );
 				push @newurls, \%row;
 				$needed--;
 			}
 		}
 		DumpFile $word . 'info.yaml', \@yaml;
-		$pics->populate(\@newurls);
 		$c->stash->{urls} = \@newurls;
 	}
 	$c->stash->{urls} = \@oldurls;
