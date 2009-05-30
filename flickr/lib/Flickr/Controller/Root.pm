@@ -5,6 +5,7 @@ BEGIN { extends 'Catalyst::Controller'; }
 
 use Flickr::API;
 use YAML qw/DumpFile/;
+use Lingua::Stem;
 use Lingua::EN::Infinitive;
 use Lingua::EN::Conjugate qw/past participle gerund/;
 
@@ -90,7 +91,8 @@ sub find : Local {
 			my %row;
 			$row{title} = $photo->{title};
 			$row{id} = undef;
-			$row{word} = $word;
+			my $stem = Lingua::Stem::stem($word);
+			$row{word} = $stem;
 			$row{url} = 'http://farm' . $photo->{farm} .
 				'.static.flickr.com/'.  $photo->
 				{server} .  '/'.  $photo->{id} . '_' .
@@ -147,7 +149,6 @@ sub tagtitle : Local {
 				my $photo = $r->{tree}->{children}->[1]->
 					{children}->[2*$n+1]->{attributes};
 				next unless $photo->{title} =~ m/$titleregex/;
-
 				my $owner = $photo->{owner};
 				next if $pics->search({ owner => $owner
 					})->count;
