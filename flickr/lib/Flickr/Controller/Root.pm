@@ -5,6 +5,8 @@ BEGIN { extends 'Catalyst::Controller'; }
 
 use Flickr::API;
 use YAML qw/DumpFile/;
+use Lingua::EN::Infinitive;
+use Lingua::EN::Conjugate qw/past participle gerund/;
 
 #
 # Sets the actions in this controller to be registered with no prefix
@@ -118,6 +120,14 @@ sub tagtitle : Local {
 	my $fetched = 300;
 	my $needed = 20;
 	my $page = 1;
+        my $lctag = lc $word;
+        my $canon = Lingua::EN::Infinitive->new;
+        my @infinit;
+        for ( ($canon->stem($lctag))[0..1] ) { push @infinit, $_ if $_ }
+        my @conjugates = map {( past($_), participle($_), gerund($_))} @infinit;
+        my $tags = join ',', $word, $lctag, @infinit, @conjugates;
+	my $titlesearch = join '|', $word, $lctag, @infinit, @conjugates;
+	my $titleregex = qr/$titlesearch/i;
 	my @oldurls = $pics->search({ word => $word });
 	unless ( @oldurls ) {
 		my $api = Flickr::API->new({key =>
@@ -126,7 +136,7 @@ sub tagtitle : Local {
 		my (@yaml, @newurls);
 		while ( $needed >= 0 ) {
 			my $r = $api->execute_method('flickr.photos.search',
-				{ tags => $word, per_page => $fetched,
+				{ tags => $tags, per_page => $fetched,
 					page => $page++, api_key =>
 					'ea697995b421c0532215e4a2cbadbe1e' });
 			unless ( $r->{success} ) {
@@ -136,7 +146,8 @@ sub tagtitle : Local {
 			for my $n ( 0 .. $fetched-1 ) {
 				my $photo = $r->{tree}->{children}->[1]->
 					{children}->[2*$n+1]->{attributes};
-				next unless $photo->{title} =~ m/\b$word\b/i;
+				next unless $photo->{title} =~ m/$titleregex/;
+
 				my $owner = $photo->{owner};
 				next if $pics->search({ owner => $owner
 					})->count;
