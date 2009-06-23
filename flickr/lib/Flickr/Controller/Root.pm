@@ -190,7 +190,6 @@ sub tagtitle : Local {
                 $needed--;
             }
         }
-        DumpFile $word . 'info.yaml', \@yaml;
         $c->stash->{urls} = \@newurls;
     }
     else { $c->stash->{urls} = \@oldurls; }
