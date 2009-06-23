@@ -4,7 +4,9 @@ use Moose;
 BEGIN { extends 'Catalyst::Controller'; }
 
 use Flickr::API;
+use Net::FTP;
 use YAML qw/DumpFile/;
+use IO::All;
 use Lingua::Stem;
 use Lingua::EN::Infinitive;
 use Lingua::EN::Conjugate qw/past participle gerund/;
@@ -115,64 +117,84 @@ Find a Flickr picture by tag, but accept it only if tag is in title.
 =cut
  
 sub tagtitle : Local {
-	my ($self, $c, $word) = @_;
-	my $pics = $c->model('DB::Pic');
-	$c->stash->{template} = 'list.tt2';
-	$c->stash->{tag} = $word;
-	my $fetched = 300;
-	my $needed = 20;
-	my $page = 1;
-        my $lctag = lc $word;
-        my $canon = Lingua::EN::Infinitive->new;
-        my @infinit;
-        for ( ($canon->stem($lctag))[0..1] ) { push @infinit, $_ if $_ }
-        my @conjugates = map {( past($_), participle($_), gerund($_))} @infinit;
-        my $tags = join ',', $word, $lctag, @infinit, @conjugates;
-	my $titlesearch = join '|', $word, $lctag, @infinit, @conjugates;
-	my $titleregex = qr/$titlesearch/i;
-	my @oldurls = $pics->search({ word => $word });
-	unless ( @oldurls ) {
-		my $api = Flickr::API->new({key =>
-			'ea697995b421c0532215e4a2cbadbe1e',
-			secret => 'ab2024b750a9d1f2' });
-		my (@yaml, @newurls);
-		while ( $needed >= 0 ) {
-			my $r = $api->execute_method('flickr.photos.search',
-				{ tags => $tags, per_page => $fetched,
-					page => $page++, api_key =>
-					'ea697995b421c0532215e4a2cbadbe1e' });
-			unless ( $r->{success} ) {
-				$c->stash->{error_msg} = $r->{error_message};
-				return;
-			}
-			for my $n ( 0 .. $fetched-1 ) {
-				my $photo = $r->{tree}->{children}->[1]->
-					{children}->[2*$n+1]->{attributes};
-				next unless $photo->{title} =~ m/$titleregex/;
-				my $owner = $photo->{owner};
-				next if $pics->search({ owner => $owner
-					})->count;
-				push @yaml, $photo;
-				my %row;
-				$row{title} = $photo->{title};
-				$row{id} = undef;
-				$row{word} = $word;
-				$row{owner} = $owner;
-				$row{url} = 'http://farm' . $photo->{farm} .
-					'.static.flickr.com/'.  $photo->
-					{server} .  '/'.  $photo->{id} . '_' .
-					$photo->{secret} . '_t.jpg';
-				$pics->update_or_create( \%row );
-				push @newurls, \%row;
-				$needed--;
-			}
-		}
-		DumpFile $word . 'info.yaml', \@yaml;
-		$c->stash->{urls} = \@newurls;
-	}
-	else { $c->stash->{urls} = \@oldurls; }
-}
+    my ( $self, $c, $word ) = @_;
+    my $pics = $c->model('DB::Pic');
+    $c->stash->{template} = 'list.tt2';
+    $c->stash->{tag}      = $word;
+    my $fetched = 300;
+    my $needed  = 20;
+    my $page    = 1;
+    my $lctag   = lc $word;
+    my $canon   = Lingua::EN::Infinitive->new;
+    my @infinit;
+    for ( ( $canon->stem($lctag) )[ 0 .. 1 ] ) { push @infinit, $_ if $_ }
+    my @conjugates = map { ( past($_), participle($_), gerund($_) ) } @infinit;
+    my $tags        = join ',', $word, $lctag, @infinit, @conjugates;
+    my $titlesearch = join '|', $word, $lctag, @infinit, @conjugates;
+    my $titleregex  = qr/$titlesearch/i;
+    my @oldurls = $pics->search( { word => $word } );
 
+    unless (@oldurls) {
+        my $api = Flickr::API->new(
+            {
+                key    => 'ea697995b421c0532215e4a2cbadbe1e',
+                secret => 'ab2024b750a9d1f2'
+            }
+        );
+        my $ftp = Net::FTP->new('web.nuu.edu.tw') or die "web.nuu? $@";
+        $ftp->login( 'greg', '1514' ) or die "web.nuu.edu.tw login? $@";
+        $ftp->cwd('public_html/pics') or die "web/~greg/pics? $@";
+        my ( @yaml, @newurls );
+        while ( $needed >= 0 ) {
+            my $r = $api->execute_method(
+                'flickr.photos.search',
+                {
+                    tags     => $tags,
+                    per_page => $fetched,
+                    page     => $page++,
+                    api_key  => 'ea697995b421c0532215e4a2cbadbe1e'
+                }
+            );
+            unless ( $r->{success} ) {
+                $c->stash->{error_msg} = $r->{error_message};
+                return;
+            }
+            for my $n ( 0 .. $fetched - 1 ) {
+                my $photo =
+                  $r->{tree}->{children}->[1]->{children}->[ 2 * $n + 1 ]
+                  ->{attributes};
+                next unless $photo->{title} =~ m/$titleregex/;
+                my $owner = $photo->{owner};
+                next if $pics->search( { owner => $owner } )->count;
+                push @yaml, $photo;
+                my %row;
+                $row{title} = $photo->{title};
+                $row{id}    = undef;
+                $row{word}  = $word;
+                $row{owner} = $owner;
+                $row{url} = 'http://farm'
+                  . $photo->{farm}
+                  . '.static.flickr.com/'
+                  . $photo->{server} . '/'
+                  . $photo->{id} . '_'
+                  . $photo->{secret}
+                  . '_t.jpg';
+		my $remote = "$photo->{id}_$photo->{secret}_t.jpg";
+		my $local = "/tmp/pics/$remote";
+                my $pic = $api->get( $row{url} );
+                io( $local )->print( $pic->decoded_content ).
+                $ftp->put( $local ) or die "$pic pic on web.nuu? $@";
+                $row{url} = "http://web.nuu.edu.tw/~greg/pics/$remote";
+                $pics->update_or_create( \%row );
+                push @newurls, \%row;
+                $needed--;
+            }
+        }
+        DumpFile $word . 'info.yaml', \@yaml;
+        $c->stash->{urls} = \@newurls;
+    }
+    else { $c->stash->{urls} = \@oldurls; }
+}
 
 =head2 info
 
@@ -261,5 +283,8 @@ This library is free software, you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
 =cut
+
+# vim: set ts=8 sts=4 sw=4 noet:
+#
 
 1;
