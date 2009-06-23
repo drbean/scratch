@@ -20,7 +20,7 @@ Back to <a href="[% Catalyst.uri_for('/play/update/') _ id %]">[% title %] Exerc
 <tr>
  [% FOREACH pic IN urls -%]
    <td>
-    <a href="[%- pic.url -%]">[% pic.title %]</a>
+    <img src="[%- pic.url -%]" alt="[% pic.title %]">
    </td>
  [% "</tr><tr>" UNLESS ( loop.count % 6 ) %]
  [% END -%]
