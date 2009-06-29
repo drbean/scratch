@@ -59,7 +59,7 @@ topic:
 
   -
     id: nonverbal
-    topic: Non-verbal communication
+    title: Non-verbal communication
     story:
       -
         id: secondlife
