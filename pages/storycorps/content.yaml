@@ -1,5 +1,12 @@
 ---
-task: Fill in the blanks in the <a href=http://203.64.184.141:3000/login?exercise=
+id: storycorps
+title: Storycorps--American stories
+blurb: |
+         <p>
+         <a href=http://www.storycorps.net>Storycorps</a> is an American project to record the stories of everyday Americans. You can hear them each Friday morning on <a href=http://www.npr.org/templates/story/story.php?storyId=4516989>NPR radio.</a>
+         <br>
+         A lot of the stories are not difficult to understand. So they are suitable for people learning English. At the same time, they are real stories, moving, interesting, informative and likeable. 
+         </p>
 topic:
   -
     id: disease
