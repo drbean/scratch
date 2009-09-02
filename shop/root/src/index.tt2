@@ -1,20 +1,50 @@
-[% META title = 'Persons Seeking/Selling Books' -%]
-<h1>Just Right Pre-Intermediate American Edition</h1>
-<p>
-The book used by 日語文共同學制虛擬班二,  in 中級英文聽說訓練
+[% META title = "Textbooks in Dr Bean's classes" -%]
 
 <p>
-<h2>Sellers!</h2>
+<b>You're either selling or buying a textbook used in Dr Bean's classes? Which book?</b>
 <p>
-You have this book and want to get rid of it? <a href=[%  c.uri_for('seller_signup') %]>Advertise</a> the book here.
+<h1>Choose one:</h1>
 
-<p>
-Alternatively, browse the <a href=[% c.uri_for('buyer_list') %]>buyers list</a> of potential buyers you can sell your book to.
+<form method="post" action="[% c.uri_for('shop') %]">
 
-<p>
-<h2>Buyers!</h2>
-<p>
-You don't have this book and you want to get hold of it? Put an <a href=[%  c.uri_for('buyer_signup') %]>email address or telephone number</a> on the site where sellers can contact you.
+<table>
 
+<tr>
+<td><INPUT type="radio" name="book" value="justright">
+<td><h1>Just Right Pre-Intermediate American Edition</h1>
+The book used by:
+<ul>
+<li>981GL00029: 981中級英文聽說訓練(日語文共同學制虛擬班二甲)
+<li>981GL00030: 981中級英文聽說訓練(日語文共同學制虛擬班二乙)
+<li>981GL00031: 981中級英文聽說訓練(日語文共同學制虛擬班二丙)
+<li>981GL00034: 981中級英文聽說訓練(日語文共同學制虛擬班二丁)
+<li>981FLA0016: 981英語會話(一)(夜應外大學二甲)
+</ul>
+
+<tr>
+<tr>
+<td><INPUT type="radio" name="book" value="marketleader">
+<td><h1>New Edition--Market Leader Pre-intermediate Business English</h1>
 <p>
-Alternatively, browse the <a href=[% c.uri_for('seller_list') %]>sellers list</a> of sellers who have this book.
+The book used by:
+<ul>
+<li>981MIA0017: 981商用英文實務(一)(日資管大學二甲)
+<li>981BMA0099: 981商用英文實務(一)(日經管大學二甲)
+<li>981BMA0100: 981商用英文實務(一)(日經管大學二乙)
+<li>981FLA0030: 981商用英文(夜應外大學四甲)
+</ul>
+
+<tr>
+<tr>
+<td><INPUT type="radio" name="book" value="beyondlanguage">
+<td><h1>Beyond Language: Cross-cultural communication (Second edition)</h1>
+<p>
+The book used by:
+<ul>
+<li>981FLA0027: 981跨文化溝通(夜應外大學二甲)
+</ul>
+
+</table>
+
+<INPUT type="submit" name="Submit" value="Submit">
+</form>
