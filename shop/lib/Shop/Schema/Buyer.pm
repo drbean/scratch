@@ -6,8 +6,10 @@ use warnings;
 use base 'DBIx::Class';
 
 __PACKAGE__->load_components("Core");
-__PACKAGE__->table("buyer");
+__PACKAGE__->table("buyers");
 __PACKAGE__->add_columns(
+  "book",
+  { data_type => "VARCHAR", is_nullable => 0, size => 15 },
   "id",
   { data_type => "SMALLINT", is_nullable => 0, size => 15 },
   "email",
@@ -16,8 +18,10 @@ __PACKAGE__->add_columns(
   { data_type => "VARCHAR", is_nullable => 0, size => 60 },
   "condition",
   { data_type => "VARCHAR", is_nullable => 0, size => 15 },
-  "accessories",
-  { data_type => "VARCHAR", is_nullable => 0, size => 15 },
+  "booklet",
+  { data_type => "VARCHAR", is_nullable => 1, size => 15 },
+  "cd",
+  { data_type => "VARCHAR", is_nullable => 1, size => 15 },
   "price",
   { data_type => "VARCHAR", is_nullable => 0, size => 15 },
   "password",
