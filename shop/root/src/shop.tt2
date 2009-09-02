@@ -1,8 +1,10 @@
 [% META title = 'Persons Seeking/Selling Books' -%]
-<h1>Just Right Pre-Intermediate American Edition</h1>
-<p>
-The book used by 日語文共同學制虛擬班二,  in 中級英文聽說訓練
 
+[% PROCESS bookname.tt2 %]
+
+<p>
+
+<h1>[% bookname %]</h1>
 <p>
 <h2>Sellers!</h2>
 <p>
