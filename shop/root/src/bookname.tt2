@@ -1,0 +1,9 @@
+[% IF book == 'justright' %]
+[% bookname = 'Just Right Pre-Intermediate American Edition' %]
+[% ELSIF book == 'marketleader' %]
+[% bookname = 'New Edition--Market Leader Pre-intermediate Business English' %]
+[% ELSIF book == 'beyondlanguage' %]
+[% bookname = 'Beyond Language: Cross-cultural communication (Second edition)' %]
+[% ELSE %][% bookname = 'Which book??' %]
+[% END %]
+
