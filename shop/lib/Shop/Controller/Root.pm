@@ -117,7 +117,8 @@ sub seller_signoff : Local
 		to => $seller->email,
 		from => "greg\@nuu.edu.tw",
 		subject => "Deletion from Just Right Sellers List",
-		body => "Somebody is deleting a book from the Just Right Sellers List.
+		body =>
+"Somebody is deleting a book from the Just Right Sellers List.
 If that person is you, that is, if you are no longer selling your book,
 and you want it to be removed from the web page, please confirm the request
 at " . $c->uri_for('/seller_delete/') . $seller->password,
@@ -125,9 +126,12 @@ at " . $c->uri_for('/seller_delete/') . $seller->password,
 	$c->forward( $c->view('Email') );
 	if ( scalar( @{ $c->error } ) ) {
 		$c->error(0); # Reset the error condition if you need to
-		$c->response->body('The entry cannot be deleted. Are you sure you used a valid email address when you entered the book in the list. Contact Dr Bean at drbean(a)freeshell.org.');
+		$c->response->body(
+'The entry cannot be deleted. Are you sure ', $seller->email . 
+', the email address you used when you entered the book in the list is valid. Contact Dr Bean at drbean(a)freeshell.org.');
 	} else {
-	$c->stash->{status_msg} = 'The book is being deleted. But before it is deleted, we will<br>
+	$c->stash->{status_msg} =
+'The book is being deleted. But before it is deleted, we will<br>
 check that you really want to remove it from the site.<br>
 <br>
 To do this, we are sending an email to the email address you<br>
