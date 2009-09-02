@@ -41,6 +41,22 @@ sub default :Path {
     
 }
 
+
+=head2 shop
+
+Which book are they dealing with?
+
+=cut
+
+sub shop :Local {
+	my ($self, $c) = @_;
+	my $book = $c->request->params->{book};
+	$c->session->{book} = $book;
+	$c->stash->{book} = $book;
+	$c->stash->{template} = "shop.tt2";
+}
+
+
 =head2 end
 
 Attempt to render a view, if needed.
@@ -59,6 +75,7 @@ Serve seller form
 sub seller_signup : Local
 {
 	my ($self, $c) = @_;
+	$c->stash->{book} = $c->session->{book};
 	$c->stash->{template} = 'seller_signup.tt2';
 }
 
@@ -73,7 +90,9 @@ sub seller_create : Local
 {
 	my ($self, $c) = @_;
 	my $seller = $c->request->params;
+	my $book = $c->session->{book};
 	$c->model('DB::Seller')->update_or_create({
+			book => $book,
 			email => $seller->{email},
 			contact => $seller->{contact},
 			condition => $seller->{condition},
