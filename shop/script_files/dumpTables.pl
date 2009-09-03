@@ -55,7 +55,7 @@ while ( my $r = $s->next )
 	my %values = map { $_ => $r->get_column($_) } @columns;
 	if ( $callback->( %values ) )
 	{
-		print "\t" . ( $values{$_} || '~' ) for @columns;
+		print "\t" . ( $values{$_} // '~' ) for @columns;
 		print "\n";
 	}
 }
