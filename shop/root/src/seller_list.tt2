@@ -13,18 +13,18 @@
 <th>CD</th>
   [% END %]
 <th>Asking Price</th></tr>
-[% FOREACH book IN sellers -%]
+[% FOREACH seller IN sellers -%]
   <tr>
-    <td>[% book.id %]</td>
-    <td>[% book.contact %]</td>
-    <td>[% book.condition %]</td>
+    <td>[% seller.id %]</td>
+    <td>[% seller.contact %]</td>
+    <td>[% seller.condition %]</td>
   [% IF book == 'justright' %]
-    <td>[% book.booklet %]</td>
+    <td>[% seller.booklet %]</td>
   [% END %]
-  [% IF book == 'justright' or book == 'marketleader' %]
-    <td>[% book.cd %]</td>
+  [% IF ( book == 'justright' ) or ( book == 'marketleader' ) %]
+    <td>[% seller.cd %]</td>
   [% END %]
-    <td>[% book.price %]</td>
+    <td>[% seller.price %]</td>
     <td><a href=[% c.uri_for( 'seller_signoff/' ) _ book.id %]>Delete</a></td>
   </tr>
 [% END -%]
