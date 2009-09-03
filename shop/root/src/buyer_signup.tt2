@@ -1,5 +1,7 @@
 [% META title = "Creating buyer list entry" -%]
 
+[% PROCESS bookname.tt2 %]
+
 <h2>For [% bookname %]</h2>
 
 <form method="post" action="[% c.uri_for('buyer_create') %]">
