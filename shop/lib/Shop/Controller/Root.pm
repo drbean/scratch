@@ -50,7 +50,9 @@ Which book are they dealing with?
 
 sub shop :Local {
 	my ($self, $c) = @_;
-	my $book = $c->request->params->{book};
+	my $book;
+	$book  = $c->session->{book}? $c->session->{book} :
+				$c->request->params->{book};
 	$c->session->{book} = $book;
 	$c->stash->{book} = $book;
 	$c->stash->{template} = "shop.tt2";
@@ -117,6 +119,7 @@ sub seller_list : Local
 {
 	my ($self, $c) = @_;
 	my $sellers = [$c->model('DB::Seller')->search({deleted => 0})];
+	$c->stash->{book} = $c->session->{book};
 	$c->stash->{sellers} = $sellers;
 	$c->stash->{template} = 'seller_list.tt2';
 }
@@ -137,10 +140,10 @@ sub seller_signoff : Local
 		from => "greg\@nuu.edu.tw",
 		subject => "Deletion from Just Right Sellers List",
 		body =>
-"Somebody is deleting a book from the Just Right Sellers List.
+"Somebody is deleting a book from Dr Bean's Textbook Swap Shop.
 If that person is you, that is, if you are no longer selling your book,
-and you want it to be removed from the web page, please confirm the request
-at " . $c->uri_for('/seller_delete/') . $seller->password,
+and you want your entry to be removed from the web page, please confirm
+the request at " . $c->uri_for('/seller_delete/') . $seller->password,
 		};
 	$c->forward( $c->view('Email') );
 	if ( scalar( @{ $c->error } ) ) {
@@ -156,7 +159,7 @@ check that you really want to remove it from the site.<br>
 To do this, we are sending an email to the email address you<br>
 used when you put the book on the site. When you get the email,<br>
 click on the URL in it to confirm you really want the entry deleted.';
-	$c->forward('index');
+	$c->forward('shop');
 	}
 }
 
@@ -175,7 +178,7 @@ sub seller_delete : Local
 	$deleted[0]->update({deleted => 1}) if @deleted;
 	my $id = $deleted[0]->id;
 	$c->stash->{status_msg} = "Book $id deleted.";
-	$c->forward('index');
+	$c->forward('shop');
 }
 
 
@@ -188,6 +191,7 @@ Serve buyer form
 sub buyer_signup : Local
 {
 	my ($self, $c) = @_;
+	$c->stash->{book} = $c->session->{book};
 	$c->stash->{template} = 'buyer_signup.tt2';
 }
 
@@ -202,11 +206,14 @@ sub buyer_create : Local
 {
 	my ($self, $c) = @_;
 	my $buyer = $c->request->params;
+	my $book = $c->session->{book};
 	$c->model('DB::Buyer')->update_or_create({
+			book => $book,
 			email => $buyer->{email},
 			contact => $buyer->{contact},
 			condition => $buyer->{condition},
-			accessories => $buyer->{accessories},
+			booklet => $buyer->{booklet},
+			cd => $buyer->{cd},
 			price => $buyer->{price},
 			password => int(rand(1000000)),
 			deleted => 0,
@@ -225,6 +232,7 @@ sub buyer_list : Local
 {
 	my ($self, $c) = @_;
 	my $buyers = [$c->model('DB::Buyer')->search({deleted => 0})];
+	$c->stash->{book} = $c->session->{book};
 	$c->stash->{buyers} = $buyers;
 	$c->stash->{template} = 'buyer_list.tt2';
 }
@@ -244,7 +252,7 @@ sub buyer_signoff : Local
 		to => $buyer->email,
 		from => "greg\@nuu.edu.tw",
 		subject => "Deletion from Just Right Buyers List",
-		body => "Somebody is leaving the Just Right buyers List.
+		body => "Somebody is leaving Dr Bean's Textbook Swap Shop.
 If that person is you, that is, if you are no longer looking for a book,
 and you want your info to be removed from the web page, please confirm the
 request at " . $c->uri_for('/buyer_delete/') . $buyer->password,
@@ -255,7 +263,7 @@ request at " . $c->uri_for('/buyer_delete/') . $buyer->password,
 		$c->response->body('The entry cannot be deleted. Are you sure you used a valid email address when you entered your information in the list. Contact Dr Bean at drbean(a)freeshell.org.');
 	} else {
 	$c->stash->{status_msg} = 'You are being deleted. But before you are deleted, we will check that you really want to remove your information from the site. To do this, we are sending an email to the email address you used when you put your information on the site. When you get the email, click on the URL in it to confirm you really want your entry deleted.';
-	$c->forward('index');
+	$c->forward('shop');
 	}
 }
 
