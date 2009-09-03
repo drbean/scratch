@@ -51,8 +51,8 @@ Which book are they dealing with?
 sub shop :Local {
 	my ($self, $c) = @_;
 	my $book;
-	$book  = $c->session->{book}? $c->session->{book} :
-				$c->request->params->{book};
+	$book  = defined $c->request->params->{book}?
+		$c->request->params->{book}: $c->session->{book};
 	$c->session->{book} = $book;
 	$c->stash->{book} = $book;
 	$c->stash->{template} = "shop.tt2";
