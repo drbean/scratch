@@ -30,6 +30,9 @@ my $starthtml =
 <title> AccessDictations - </title>
 </head>
 <body>
+<h1>Self-Access Listening</h1>
+<p>Links and commentary about sound files on the Internet. Listen to the 
+soundfiles and write down what you hear.</p>
 ';
 my $areastring = '<div class=area id="<TMPL> $id </TMPL>">
 <h2><a name=<TMPL> $id </TMPL>><TMPL> $title </TMPL></a></h2>
@@ -48,7 +51,8 @@ my $storystring = '<div class=story id="<TMPL> $id </TMPL>">
 <TMPL> $comment </TMPL>
 </p>
 <p>
-Fill in the blanks in the <a href=http://203.64.184.141:3000/login?exercise=<TMPL> $id </TMPL>><TMPL> $id </TMPL></a> exercise.
+Fill in the blanks in the <a 
+href=http://203.64.184.141/cgi-bin/dic/script_files/dic_cgi.pl/login?exercise=<TMPL> $id </TMPL>><TMPL> $id </TMPL></a> exercise.
 </p>
 </div>
 ';
