@@ -21,6 +21,7 @@ use YAML qw/LoadFile/;
 use IO::All;
 use Text::Template;
 use Pod::Usage;
+use List::MoreUtils qw/any/;
 
 my $io   = io "-";
 my $starthtml =
@@ -56,7 +57,7 @@ my $storystring = '<div class=story id="<TMPL> $id </TMPL>">
 </p>
 <p>
 Fill in the blanks in the <a 
-href=http://203.64.184.141/cgi-bin/dic/script_files/dic_cgi.pl/login?exercise=<TMPL> $id </TMPL>><TMPL> $id </TMPL></a> exercise. (You will be asked to log in.)
+href=http://203.64.184.141/cgi-bin/<TMPL> $location </TMPL>/script_files/dic_cgi.pl/login?exercise=<TMPL> $id </TMPL>><TMPL> $id </TMPL></a> exercise. (You will be asked to log in.)
 </p>
 </div>
 ';
@@ -82,12 +83,15 @@ sub run {
     pod2usage(1) if $script->help;
     pod2usage( -exitstatus => 0, -verbose => 2 ) if $script->man;
     my $areas = $script->area;
+    my $location;
+    if ( any { $_ eq 'business' } @$areas ) { $location = 'target'; }
+    else { $location = 'dic' }
     $io->print($starthtml);
 
     for my $area ( @$areas ) {
 	my $listening = LoadFile "$area/content.yaml";
 	$io->append( $areatmpl->fill_in( hash => $listening ) );
-	$io->append( topicsAndStories( $listening ) );
+	$io->append( topicsAndStories( $listening, $location ) );
     }
     my $endhtml =
 "<p>
@@ -105,7 +109,7 @@ Note: You need to login to transcribe the conversation.
 </ul>
 </p>
 
-<h3>Contacting Dr Bean</h3>
+<h2>Contacting Dr Bean</h2>
 If you have any problem email me at drbean at (@) freeshell dot (.) org, or come and see me in the Self-Access Learning Room.
 </body>
 </html
@@ -115,9 +119,11 @@ If you have any problem email me at drbean at (@) freeshell dot (.) org, or come
 
 sub topicsAndStories {
     my $area = shift;
+    my $location = shift;
     for my $topic ( @{ $area->{topic} } ) {
 	$io->append( $topictmpl->fill_in( hash => $topic ) );
 	for my $story ( @{ $topic->{story} } ) {
+	    $story->{location} = $location;
 	    $io->append( $storytmpl->fill_in( hash => $story ) );
 	}
 	$io->append("\n</div>\n");
