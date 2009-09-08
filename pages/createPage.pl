@@ -11,6 +11,7 @@ has 'area' => (
     traits      => ['Getopt'],
     is          => 'ro',
     isa         => 'ArrayRef',
+    required => 1,
     cmd_aliases => 'a',
 );
 
@@ -21,7 +22,7 @@ use IO::All;
 use Text::Template;
 use Pod::Usage;
 
-my $io   = io "access.html";
+my $io   = io "-";
 my $starthtml =
 '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -41,6 +42,9 @@ my $areastring = '<div class=area id="<TMPL> $id </TMPL>">
 ';
 my $topicstring = '<div class=topic id="<TMPL> $id </TMPL>">
 <h3><a name=<TMPL> $id </TMPL>><TMPL> $title </TMPL></a></h3>
+<p>
+<TMPL> $blurb </TMPL>
+</p>
 ';
 my $storystring = '<div class=story id="<TMPL> $id </TMPL>">
 <h4><a name=<TMPL> $id </TMPL>><TMPL> $title </TMPL></a></h4>
@@ -52,7 +56,7 @@ my $storystring = '<div class=story id="<TMPL> $id </TMPL>">
 </p>
 <p>
 Fill in the blanks in the <a 
-href=http://203.64.184.141/cgi-bin/dic/script_files/dic_cgi.pl/login?exercise=<TMPL> $id </TMPL>><TMPL> $id </TMPL></a> exercise.
+href=http://203.64.184.141/cgi-bin/dic/script_files/dic_cgi.pl/login?exercise=<TMPL> $id </TMPL>><TMPL> $id </TMPL></a> exercise. (You will be asked to log in.)
 </p>
 </div>
 ';
@@ -85,7 +89,28 @@ sub run {
 	$io->append( $areatmpl->fill_in( hash => $listening ) );
 	$io->append( topicsAndStories( $listening ) );
     }
-    $io->append( "\n</body>\n</html>\n" );
+    my $endhtml =
+"<p>
+<h2>Logging in</h2>
+
+</p>
+
+<p>
+Note: You need to login to transcribe the conversation.
+<ul>
+	<li>Your name is your Chinese name in Chinese characters. Your ID is your school ID. 
+	<li>The first letter of the ID, eg U or N, is a capital (big) letter. 
+	<li>Your password is the first half of your first name. It is in English, not the Chinese character. Thus JiaQi\'s pasword is Jia. See <a href=http://humanum.arts.cuhk.edu.hk/Lexis/Lindict/syllabary>Lin YuTang's Chinese-English dictionary</a> for the spelling.
+	<li>If I was not able to find the first character in your name, your password may be a question mark. Eg, 賴?岑. Other people whose names my computer does not have Chinese characters for are 黃慧? and ?琮婷, but their passwords should be okay.
+</ul>
+</p>
+
+<h3>Contacting Dr Bean</h3>
+If you have any problem email me at drbean at (@) freeshell dot (.) org, or come and see me in the Self-Access Learning Room.
+</body>
+</html
+";
+    $io->append( $endhtml );
 }
 
 sub topicsAndStories {
