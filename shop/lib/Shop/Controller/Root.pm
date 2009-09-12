@@ -183,7 +183,7 @@ sub seller_delete : Local
 	$deleted[0]->update({deleted => 1}) if @deleted;
 	my $id = $deleted[0]->id;
 	$c->stash->{status_msg} = "Book $id deleted.";
-	$c->forward('seller_list');
+	$c->forward('shop');
 }
 
 
