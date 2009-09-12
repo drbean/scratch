@@ -3,7 +3,7 @@
 <p>
 <b>You're either selling or buying a textbook used in Dr Bean's classes? Which book?</b>
 <p>
-<h1>Choose one: <small>click on the circular button next to the book</small></h1>
+<h1>Choose one:</h1>
 
 <form method="post" action="[% c.uri_for('shop') %]">
 
