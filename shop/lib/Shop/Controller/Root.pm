@@ -53,6 +53,11 @@ sub shop :Local {
 	my $book;
 	$book  = defined $c->request->params->{book}?
 		$c->request->params->{book}: $c->session->{book};
+	if ( not $book ) {
+		$c->stash->{error_msg} = "You didn't choose a book. Click the circle next to the book you are buying/selling.";
+		$c->stash->{template} = "index.tt2";
+		return;
+	}
 	$c->session->{book} = $book;
 	$c->stash->{book} = $book;
 	$c->stash->{template} = "shop.tt2";
