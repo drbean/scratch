@@ -3,14 +3,14 @@
 <p>
 <b>You're either selling or buying a textbook used in Dr Bean's classes? Which book?</b>
 <p>
-<h1>Choose one:</h1>
+<h1>Choose one: <small>click on the circular button next to the book</small></h1>
 
 <form method="post" action="[% c.uri_for('shop') %]">
 
 <table>
 
 <tr>
-<td><INPUT type="radio" name="book" value="justright">
+<td><INPUT type="radio" name="book" value="justright" class="geomsize">
 <td><h1>Just Right Pre-Intermediate American Edition</h1>
 The book used by:
 <ul>
@@ -23,7 +23,7 @@ The book used by:
 
 <tr>
 <tr>
-<td><INPUT type="radio" name="book" value="marketleader">
+<td><INPUT type="radio" name="book" value="marketleader" class="geomsize">
 <td><h1>New Edition--Market Leader Pre-intermediate Business English</h1>
 <p>
 The book used by:
@@ -36,7 +36,7 @@ The book used by:
 
 <tr>
 <tr>
-<td><INPUT type="radio" name="book" value="beyondlanguage">
+<td><INPUT type="radio" name="book" value="beyondlanguage" class="geomsize">
 <td><h1>Beyond Language: Cross-cultural communication (Second edition)</h1>
 <p>
 The book used by:
