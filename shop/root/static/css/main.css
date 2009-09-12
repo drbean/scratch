@@ -1,3 +1,8 @@
+/*from http://www.w3.org/TR/WCAG-TECHS/css.html for bigger input controls*/
+input.geomsize {
+ width: 1.8em;
+ height: 1.8em;}
+
 #header {
     text-align: center;
 }
