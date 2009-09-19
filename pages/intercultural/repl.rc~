@@ -1,0 +1,6 @@
+use YAML qw/LoadFile/;
+use IO::All;
+use Text::Template;
+
+my $access = Text::Template->new( type => 'file', source => 'access.tmpl', delimiters => ['<TMPL>', '</TMPL>'] );
+my $txts = LoadFile 'interculture.yaml';

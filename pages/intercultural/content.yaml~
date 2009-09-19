@@ -1,0 +1,103 @@
+---
+id: interculture
+title: Intercultural communication
+topic:
+  -
+    id: taiwan
+    title: Different understandings of Taiwan culture
+    story:
+      -
+        id: moon
+        title: Moon Festival and what it means for foreigners
+        blurb: |
+          <a href=http://www.google.com.tw/search?hl=zh-TW&q=中秋&btnG=Google+搜尋&meta=&aq=f&oq=>Moon Festival</a> is special for Taiwanese, but why is <a href=http://www.google.com/search?hl=en&ie=ISO-8859-1&q=%22Moon%20Festival%22>Moon Festival</a> special for foreigners?
+          <p>
+          Listen to <a href=http://misadventuresintaiwan.gemismyname.com/old/about.html>Gem</a> talk about the <a href=http://web.nuu.edu.tw/~greg/date.mp3>date</a>, <a href=http://web.nuu.edu.tw/~greg/background.mp3>background</a> and <a href=http://web.nuu.edu.tw/~greg/barbecue.mp3>barbecuing</a> from the foreigner's viewpoint. This track is extracted from one of her <a href=http://misadventuresintaiwan.wordpress.com>Misadventures in Taiwan Podcasts</a>
+        comment: She talks pretty fast and she's got a lot to say. How are her ideas about Moon Festival different than your ideas.
+  -
+    id: adjustment
+    title: Cultural Conflict and Adjustment
+    story:
+      -
+        id: shock-1
+        title: Culture Shock, Part 1
+        blurb: Listen to the <a href=http://web.nuu.edu.tw/~greg/cultureshockfile.mp3>culture shock sound file</a>, excerpted from the original at <a href=http://moontan.co.za/cultureshock/2006/07/>Legal Alien</a>. In the original, search for the words, <b>What is culture shock</b>.
+        comment: It's difficult. Think about what you are listening to. Have you ever had this feeling? At a new school, in the first week? At a new job? At a meeting?
+      -
+        id: shock-2
+        title: Culture Shock, Part 2
+        blurb: Now do the second part of the <a href=http://web.nuu.edu.tw/~greg/cultureshockfile.mp3>culture shock sound file</a>, excerpted from the original at <a href=http://moontan.co.za/cultureshock/2006/07/>Legal Alien</a>.
+        comment: Do you know anything about vulgar hand signs and mistakes in communication with them? What do you think is the biggest cause of culture shock?
+
+  -
+    id: multiculturalism
+    title: American culture and multiculturalism
+    story:
+      -
+        id: newyork
+        title: New York City as a multicultural city
+        blurb: Do you know what percentage of the population of New York City is from somewhere else? How would you like to live in a multi-cultural society? What are the problems of a multi-cultural, multi-lingual society?
+        comment: Listen to this podcast from <a href=http://www.wnyc.org>WNYC</a> in New York, titled <a href=http://tw.youtube.com/watch?v=24YR5KLDxwI>WNYC's Leonard Lopate on multiculturalism</a>.
+      -
+        id: immigration
+        title: Opposition in the US to Immigration--The DREAM Act in 2007
+        blurb: |
+          <a href=http://fairus.org>FAIR</a> is a special interest group that wants to stop more immigrants to America. Listen to FAIR president talk with a staffer about the group's <a href=http://www.fairus.org/video/sr_podcast_91907.mp3>telephone calls to lawmakers in Washington</a> in 2007 in an effort to persuade the US Congress not to pass the DREAM Act, a law to allow illegal immigrants to stay in the US.
+          <p>
+          Read about opposition to the DREAM Act on <a href=http://www.steinreport.com/archives/2007_09.html>STEIN REPORT</a>, FAIR president Dan Stein's blog. Search for <b>DREAM Act</b>.
+        comment: What do you think about the fact a lot of people in the US don't want you to immigrate to the US. They don't like foreigners. They don't like you. Why do they think this way? Was FAIR justified in its opposition to the DREAM Act? What do you think about foreigners in Taiwan: Filipino, Thai, Americans, Russians, mainland Chinese?
+
+      -
+        id: swiss
+        title: Multilingualism in Switzerland
+        blurb: There are <b>four</b> official languages in Switzerland. But most people only speak <b>one</b> of those languages. The most common second language they speak is <b>English</b>!!! That's like in Taiwan, Mandarin doesn't exist, everyone speaks either Taiwanese or Hakka, and the only other language they speak is some English. Can you imagine that?
+        comment: Listen to this video recording from a French-speaking Swiss woman, <a href=http://climbtothestars.org/archives/2008/03/30/interviewed-about-multilingualism-by-andrea-vascellari/>Stephanie Booth on multilingualism in Switzerland</a>.
+      -
+        id: biling 
+        title: Bilingual education in San Francisco's Chinatown
+        blurb: Nichols vs Lau, a very famous law case in 1974 introduced bilingual education to the US. Now however, California schools are not allowed to teach students in their first languages for more than one year. Why? What do you think about these changes in bilingual education?
+        comment: Listen to this video recording from <a href=http://www.sfgov.org/site/sfgtv_index.asp?id=11468>>San Francisco Government TV</a> about <a href=http://tw.youtube.com/watch?v=cXhQrJ37gFE>Bilingual education in California</a>.
+
+  -
+    id: nonverbal
+    title: Non-verbal communication
+    story:
+      -
+        id: secondlife
+        title: Personal space and eye contact
+        blurb: Do you know there are rules about interpersonal distance and staring at people? Do these unwritten rules that you unconsciously follow every day in Taiwan apply in all cultures and in virtual worlds, eg Second Life?
+        comment: Listen to this podcast from <a href=http://www.npr.org>National Public Radio</a> in the US, titled <a href=http://www.npr.org/blogs/bryantpark/2007/05/dont_stand_so_close_to_me.html>Don't stand so close and don't stare at me!</a>.
+      -
+        id: smiling
+        title: Smiling
+        blurb: Last Friday, Regina Lee (李蕙丞) was talking about how black people in the US wouldn't look at her. But do <b>Taiwanese people</b> look at Americans the "right way"? In particular, are there differences between the US and Taiwan in when people smile. I remember the wife of a Taiwanese professor laughing when she saw I had hurt my back. She made me feel very bad!
+        comment: Listen to this podcast from a German business English magazine, <a href=http://www.business-spotlight.de>Business Spotlight</a> about <a href=http://odeo.com/episodes/13604823-Intercultural-Non-verbal-communication-The-Business-Spotlight-podcast-for-Tuesday-26-June-2007>smiling in the US and in Germany</a>. Is Taiwan more like the US or Germany?
+  -
+    id: bissky
+    title: Greg Bissky's videos on Chinese communication styles
+    intro: |
+      <a href=http://tw.youtube.com/user/gabissky>Greg Bissky</a> a Canadian business consultant operating in mainland China (and Taiwan) has some interesting videos about Chinese-Western communication problems,
+      <p>
+      See his website: <a href=http://www.treasuremountain.com/>http://www.treasuremountain.com/</a>
+    story:
+      -
+        id: questions
+        title: Bissky on questions and expressing disagreement
+        blurb: |
+          Do you like to ask questions in front of a lot of your peers? Do you like to express your disagreement when you don't agree with someone?
+          <p>
+          Look at Bissky talk about how Western business people find doing business in China frustrating because of the Chinese reluctance to ask questions and express disagreement, in <a href=http://tw.youtube.com/watch?v=RouM6sRpwo0>Western-Chinese Business: Different Rules of Communication</a> on Youtube.
+          <p>
+          This is a long listening passage. Did you get his <b>four</b> rules.
+          <ul>
+          	<li>His Western rule about asking questions.</li>
+          	<li>His Chinese rule about <b>not</b> asking questions.</li>
+          	<li>His rule about not doing anything in groups in China.</li>
+          	<li>His Western rule about stating honest opinions.</li>
+          </ul>
+        comment:  He implies that Chinese do not state their honest opinion, and they also do not express disagreement honestly. What do you think? I don't think what he says is really correct. I think he is exaggerating.
+      -
+        id: disagreement
+        title: Bissky on Disagreement by raising objections
+        blurb: How do you communicate disagreement? What does the other party understand you to mean, when you raise objections to their plan?
+        comment: <a href=http://tw.youtube.com/user/gabissky>Greg Bissky</a> says Westerners and Chinese business people may fail to communicate because of their misunderstanding of what the other party believes objections mean, in <a href=http://tw.youtube.com/watch?v=z4HB1aUE4p4>Western-Chinese Business: Saying No Without Saying No</a> on Youtube.
