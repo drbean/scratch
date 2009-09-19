@@ -14,6 +14,13 @@ has 'area' => (
     required => 1,
     cmd_aliases => 'a',
 );
+has 'location' => (
+    traits      => ['Getopt'],
+    is          => 'ro',
+    isa         => 'Str',
+    required => 1,
+    cmd_aliases => 'l',
+);
 
 package main;
 
@@ -83,9 +90,11 @@ sub run {
     pod2usage(1) if $script->help;
     pod2usage( -exitstatus => 0, -verbose => 2 ) if $script->man;
     my $areas = $script->area;
-    my $location;
-    if ( any { $_ eq 'business' } @$areas ) { $location = 'target'; }
-    else { $location = 'dic' }
+    my $location = $script->location;
+    if ( not $location ) {
+	if ( any { $_ eq 'business' } @$areas ) { $location = 'target'; }
+	else { $location = 'access' }
+    }
     $io->print($starthtml);
 
     for my $area ( @$areas ) {
@@ -95,6 +104,14 @@ sub run {
     }
     my $endhtml =
 "<p>
+<h2>Old Exercises</h2>
+</p>
+
+<p>
+Can't find an exercise you didn't finish in a previous week? You can't do that exercise now for credit. But you may be able to find it on the <a href=http://web.nuu.edu.tw/~greg/Access.html>Self-access</a> page.
+</p>
+
+<p>
 <h2>Logging in</h2>
 
 </p>
