@@ -36,10 +36,10 @@ my $starthtml =
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title> AccessDictations - </title>
+<title> Dictations - </title>
 </head>
 <body>
-<h1>Self-Access Listening</h1>
+<h1>Listening</h1>
 <p>Links and commentary about sound files on the Internet. Listen to the 
 soundfiles and write down what you hear.</p>
 ';
