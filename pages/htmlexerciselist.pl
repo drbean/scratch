@@ -51,7 +51,7 @@ my $areastring = '<div class=area id="<TMPL> $id </TMPL>">
 my $topicstring = '<div class=topic id="<TMPL> $id </TMPL>">
 <h3><a name=<TMPL> $id </TMPL>><TMPL> $title </TMPL></a></h3>
 <p>
-<TMPL> $blurb </TMPL>
+<TMPL> $intro </TMPL>
 </p>
 ';
 my $storystring = '<div class=story id="<TMPL> $id </TMPL>">
