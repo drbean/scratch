@@ -13,7 +13,7 @@ topic:
   -
     id: careers
     title: Getting on top of work
-    blurb: Work is something that is hard to avoid, but which can destroy you. How do you take control of work, and not let work take control of you?
+    intro: Work is something that is hard to avoid, but which can destroy you. How do you take control of work, and not let work take control of you?
     story:
       -
         id: career
@@ -31,4 +31,28 @@ topic:
           <li><b>C students:</b> Listen to SLT talk about <a href=http://web.nuu.edu.tw/~greg/careerC.mp3>teamwork, doing things the hard way and being organized.</a> </li>
           <li><b>D students:</b> Listen to KED suggest you need to <a href=http://web.nuu.edu.tw/~greg/careerD.mp3>keep learning, make sure the boss understands how you think, and think about what you are doing.</a> </li>
           </ul>
+
+      -
+        id: candidate
+        title: Choosing the best candidate: Do you qualify?
+        blurb: |
+          Look at the information about the three candidates for the job of Marketing Manager in Poland for Fast-Track on page 13 of Market Leader. And look at what Fast-Track wants from the successful candidate on page 12.
+        comment: |
+          <p>
+          The three candidates may or may not satisfy the requirements. Say why your candidate should be given the job.
+          </p>
+
+          <ul>
+          <li><b>A students:</b> BDL describes <a href=http://web.nuu.edu.tw/~greg/candidateA.mp3>the ideal candidate.</a> </li>
+          <li><b>B students:</b> SLT describes <a href=http://web.nuu.edu.tw/~greg/candidateB.mp3>Barbara</a> </li>
+          <li><b>C students:</b> Listen to KED talk about <a href=http://web.nuu.edu.tw/~greg/candidateC.mp3>Tadeusz.</a> </li>
+          <li><b>D students:</b> KED describes <a href=http://web.nuu.edu.tw/~greg/candidateD.mp3>Eva</a> </li>
+          </ul>
+      -
+        id: careercandidate
+        title: Thinking about your career--Would you be a good candidate?
+        blurb: |+
+          This week we are doing exams about your career and being a job candidate. Why will the person who has thought about his/her career be the best candidate?
+        comment: |+
+          Only one track this week, the <a href=http://web.nuu.edu.tw/~greg/careercandidate.mp>connection between thinking about your career and being a job candidate</a>. Think about the career tips on page 8. What would the candidates on page 13 choose as most important.
 
