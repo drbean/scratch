@@ -16,7 +16,7 @@ topic:
         id: viviano
         title: Nurse tells daughter about patients dying
         blurb: |
-         Dana Viviano is a nurse who works with cancer patients who are dying. Her daugher, Sarafino was interested in hearing <a href=http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/viviano.mp3>how she feels about the job</a>.
+         Dana Viviano is a nurse who works with cancer patients who are dying. Her daugher, Sarafino was interested in hearing <a href=http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/viviano.mp3>how she feels about the job</a>. Read the <a href=http://www.npr.org/templates/story/story.php?storyId=111633198>NPR report</a>.
         comment: I think being a doctor or a nurse must be a terrible job. What is a way to look at this story and feel good? Why is this a good story?
       -
         id: jackson-1
@@ -75,6 +75,12 @@ topic:
         blurb: |
           Listen to the rest of <a href=http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/kroenke.mp3>Ron Kroenke's story</a>. Some people were angry. Others were disappointed, but more sympathetic.
         comment: How do you think he felt about the different responses? Why do you think the different people felt differently? How would you have felt if you were Ron Kroenke?
+      -
+        id: kroenkeandtrinka
+        title: Men at work--Ron Kroenke and Ed Trinka
+        blurb: |
+          What do Ron and Ed have in common? I think it's a concern about relationships with other people. I summarized my feelings about the two, read <a href=http://web.nuu.edu.tw/~greg/kroenkeandtrinka.mp3>here</a> by the "inhuman" voice of the <a href=http://www.cstr.ed.ac.uk/projects/festival/>>Festival Text-to-Speech system</a>.
+        comment: Try to do the homework before the exam in Week 4,5. What do you think about both stories?
   -
     id: relations
     title: Mixed-message marriage stories
@@ -105,6 +111,7 @@ topic:
   -
     id: bioparent
     title: Meeting birth parents
+    intro: Nowadays, more and more people are looking for their 'real' (??) parents
     story:
       -
         id: biodad
