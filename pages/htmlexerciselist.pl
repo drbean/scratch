@@ -18,7 +18,7 @@ has 'location' => (
     traits      => ['Getopt'],
     is          => 'ro',
     isa         => 'Str',
-    required => 1,
+    required => 0,
     cmd_aliases => 'l',
 );
 
@@ -31,18 +31,6 @@ use Pod::Usage;
 use List::MoreUtils qw/any/;
 
 my $io   = io "-";
-my $starthtml =
-'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title> Dictations - </title>
-</head>
-<body>
-<h1>Listening</h1>
-<p>Links and commentary about sound files on the Internet. Listen to the 
-soundfiles and write down what you hear.</p>
-';
 my $areastring = '<div class=area id="<TMPL> $id </TMPL>">
 <h2><a name=<TMPL> $id </TMPL>><TMPL> $title </TMPL></a></h2>
 <p>
@@ -68,6 +56,7 @@ href=http://203.64.184.141/cgi-bin/<TMPL> $location </TMPL>/script_files/dic_cgi
 </p>
 </div>
 ';
+
 my $areatmpl = Text::Template->new(
     type       => 'string',
     source     => $areastring,
@@ -90,11 +79,31 @@ sub run {
     pod2usage(1) if $script->help;
     pod2usage( -exitstatus => 0, -verbose => 2 ) if $script->man;
     my $areas = $script->area;
+    my ( $area, $Area );
     my $location = $script->location;
     if ( not $location ) {
 	if ( any { $_ eq 'business' } @$areas ) { $location = 'target'; }
-	else { $location = 'access' }
+	if ( @$areas > 1 ) { $location = 'access' }
+	else { $location = 'dic' }
     }
+    if ( @$areas == 1 ) {
+	$area = $areas->[0];
+	$Area = ucfirst $area;
+    }
+    else { $area = 'access'; $Area = 'Access'; }
+
+    my $starthtml =
+'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>' . $Area . ' Dictations</title>
+</head>
+<body>
+<h1>' . $Area . ' Listening</h1>
+<p>Links and commentary about sound files on the Internet. Listen to the 
+soundfiles and write down what you hear.</p>
+';
     $io->print($starthtml);
 
     for my $area ( @$areas ) {
@@ -102,13 +111,14 @@ sub run {
 	$io->append( $areatmpl->fill_in( hash => $listening ) );
 	$io->append( topicsAndStories( $listening, $location ) );
     }
+
     my $endhtml =
 "<p>
 <h2>Old Exercises</h2>
 </p>
 
 <p>
-Can't find an exercise you didn't finish in a previous week? You can't do that exercise now for credit. But you may be able to find it on the <a href=http://web.nuu.edu.tw/~greg/Access.html>Self-access</a> page.
+Can't find an exercise you didn't finish in a previous week? You can't do that exercise now for credit. But you may be able to find it on the <a href=http://web.nuu.edu.tw/~greg/Access.html#$area>Self-access</a> page.
 </p>
 
 <p>
@@ -143,7 +153,7 @@ sub topicsAndStories {
 	    $story->{location} = $location;
 	    $io->append( $storytmpl->fill_in( hash => $story ) );
 	}
-	$io->append("\n</div>\n");
+	$io->append("\n</div>\n\n");
     }
 }
 
