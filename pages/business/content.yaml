@@ -56,3 +56,23 @@ topic:
         comment: |+
           Only one track this week, the <a href=http://web.nuu.edu.tw/~greg/careercandidate.mp>connection between thinking about your career and being a job candidate</a>. Think about the career tips on page 8. What would the candidates on page 13 choose as most important.
 
+  -
+    id: onlinemarketing
+    title: Online Marketing
+    intro: With the Internet, people are transferring their attention from people to computers. People are interacting, not with other people, but computers and the records left by other people on them. Shopping is no different. Instead of buying something from someone, we are buying it from a machine. Hopefully, the thing we have bought is still the same kind of thing it was before the Internet.
+    story:
+      -
+        id: online
+        title: Buying online
+        blurb: Shopping online is becoming more and more popular. Retail stores are finding that they also have to set up online websites to compete. <a href="http://www.argos.co.uk/webapp/wcs/stores/servlet/StoreCatalogDisplay?storeId=10001&GiftMode=Reset&jspStoreDir=argos&action=StoreCatalogDisplay%3FlangId%3D-1&langId=-1&ddkey=ArgosGSGiftModeExitCmd">Argos</a> is a big British retailer which has started an Internet operation. What lessons can we learn from its experience?
+        comment: |+
+          <p>The problems are the website, the different needs of different customers, integrating online and store operation, and increased competition online and what marketers have done about it.
+          <p>
+
+          <ul>
+          <li><b>A students:</b> SLT describes what <a href=http://web.nuu.edu.tw/~greg/onlineA.mp3>the website needs to do.</a> </li>
+          <li><b>B students:</b> KED describes <a href=http://web.nuu.edu.tw/~greg/onlineB.mp3>the different types of customers.</a> </li>
+          <li><b>C students:</b> AWB talks about <a href=http://web.nuu.edu.tw/~greg/onlineC.mp3>Argos's experience with its online operation.</a> </li>
+          <li><b>D students:</b> BDL describes <a href=http://web.nuu.edu.tw/~greg/onlineD.mp3>the increased competition and dual-pricing policies.</a> </li>
+          </ul>
+
