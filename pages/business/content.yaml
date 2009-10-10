@@ -1,0 +1,78 @@
+---
+id: business
+title: Business English--Listening
+blurb: |
+         <p>
+         <b>Business English students.</b> Each week, each member in a group has a different sound track to listen to. Depending on whether you are <b>A</b>, <b>B</b>, <b>C</b> or <b>D</b>, I want you to listen to a <b>different</b> soundfile, After listening to your sound track, tell your partners about it. How is the information on your track different/similar to the information on their tracks? Discuss what <b>you</b> think of the situation that <b>all</b> the tracks are about.
+         <br>
+         The sound files were not recorded by real people. They were produced by the <a href=http://www.cstr.ed.ac.uk/projects/festival/>Festival</a> text-to-speech system, from texts Dr Bean wrote based on each chapter of <a href=http://www.market-leader-net>Market Leader</a>, the textbook.
+         <br>
+         We will work on one chapter over two weeks. So that means we will be doing two sets of homework based on each chapter.
+         </p>
+topic:
+  -
+    id: careers
+    title: Getting on top of work
+    intro: Work is something that is hard to avoid, but which can destroy you. How do you take control of work, and not let work take control of you?
+    story:
+      -
+        id: career
+        title: Week 1: How to get ahead at work
+        blurb: |
+          Look at the 10 ways of thinking about your career in Reading B on page 8 of Market Leader. These are all important things to do if you want to make something of your life. Which are the most important ideas?
+        comment: |
+          <p>
+          All 4 people, AWB, BDL, SLT, and KED have different ideas of what's important when thinking about your career. But they each chose 3 of the 10 ways in the book. Which ways did they choose? Two people each chose one idea which was the same.
+          </p>
+
+          <ul>
+          <li><b>A students:</b> Listen to AWB talk about <a href=http://web.nuu.edu.tw/~greg/careerA.mp3>planning, networking and family.</a> </li>
+          <li><b>B students:</b> Listen to BDL say you need to <a href=http://web.nuu.edu.tw/~greg/careerB.mp3>think about the job and try to make it better.</a> </li>
+          <li><b>C students:</b> Listen to SLT talk about <a href=http://web.nuu.edu.tw/~greg/careerC.mp3>teamwork, doing things the hard way and being organized.</a> </li>
+          <li><b>D students:</b> Listen to KED suggest you need to <a href=http://web.nuu.edu.tw/~greg/careerD.mp3>keep learning, make sure the boss understands how you think, and think about what you are doing.</a> </li>
+          </ul>
+
+      -
+        id: candidate
+        title: Choosing the best candidate: Do you qualify?
+        blurb: |
+          Look at the information about the three candidates for the job of Marketing Manager in Poland for Fast-Track on page 13 of Market Leader. And look at what Fast-Track wants from the successful candidate on page 12.
+        comment: |
+          <p>
+          The three candidates may or may not satisfy the requirements. Say why your candidate should be given the job.
+          </p>
+
+          <ul>
+          <li><b>A students:</b> BDL describes <a href=http://web.nuu.edu.tw/~greg/candidateA.mp3>the ideal candidate.</a> </li>
+          <li><b>B students:</b> SLT describes <a href=http://web.nuu.edu.tw/~greg/candidateB.mp3>Barbara</a> </li>
+          <li><b>C students:</b> Listen to KED talk about <a href=http://web.nuu.edu.tw/~greg/candidateC.mp3>Tadeusz.</a> </li>
+          <li><b>D students:</b> KED describes <a href=http://web.nuu.edu.tw/~greg/candidateD.mp3>Eva</a> </li>
+          </ul>
+      -
+        id: careercandidate
+        title: Thinking about your career--Would you be a good candidate?
+        blurb: |+
+          This week we are doing exams about your career and being a job candidate. Why will the person who has thought about his/her career be the best candidate?
+        comment: |+
+          Only one track this week, the <a href=http://web.nuu.edu.tw/~greg/careercandidate.mp>connection between thinking about your career and being a job candidate</a>. Think about the career tips on page 8. What would the candidates on page 13 choose as most important.
+
+  -
+    id: onlinemarketing
+    title: Online Marketing
+    intro: With the Internet, people are transferring their attention from people to computers. People are interacting, not with other people, but computers and the records left by other people on them. Shopping is no different. Instead of buying something from someone, we are buying it from a machine. Hopefully, the thing we have bought is still the same kind of thing it was before the Internet.
+    story:
+      -
+        id: online
+        title: Buying online
+        blurb: Shopping online is becoming more and more popular. Retail stores are finding that they also have to set up online websites to compete. <a href="http://www.argos.co.uk/webapp/wcs/stores/servlet/StoreCatalogDisplay?storeId=10001&GiftMode=Reset&jspStoreDir=argos&action=StoreCatalogDisplay%3FlangId%3D-1&langId=-1&ddkey=ArgosGSGiftModeExitCmd">Argos</a> is a big British retailer which has started an Internet operation. What lessons can we learn from its experience?
+        comment: |+
+          <p>The problems are the website, the different needs of different customers, integrating online and store operation, and increased competition online and what marketers have done about it.
+          <p>
+
+          <ul>
+          <li><b>A students:</b> SLT describes what <a href=http://web.nuu.edu.tw/~greg/onlineA.mp3>the website needs to do.</a> </li>
+          <li><b>B students:</b> KED describes <a href=http://web.nuu.edu.tw/~greg/onlineB.mp3>the different types of customers.</a> </li>
+          <li><b>C students:</b> AWB talks about <a href=http://web.nuu.edu.tw/~greg/onlineC.mp3>Argos's experience with its online operation.</a> </li>
+          <li><b>D students:</b> BDL describes <a href=http://web.nuu.edu.tw/~greg/onlineD.mp3>the increased competition and dual-pricing policies.</a> </li>
+          </ul>
+
