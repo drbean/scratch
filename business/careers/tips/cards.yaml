@@ -1,0 +1,25 @@
+---
+tips:
+  identifier: getting ahead on the job
+  A: You need to think about what your are doing. Keep your mind on the job, not on the weekend. And have your own goals. How can you achieve those goals? Try to achieve those goals. If the job is bad, make it a good job. If that seems impossible, change jobs.
+  B: Try to get other people involved in your work. Help others, and they will help you. This doesn't mean to take the easy way. No. Accept challenges. But be prepared for failure. Be happy when you fail. It's great then, when you succeed. But be organized about it. Have a plan for each day.
+  C: Try to learn more skills. And study on the weekend, or at night. And talk a lot with the boss. Let the boss know what you think. If you want something from him/her, ask. But think carefully about what you're doing all the time. How could you do it better? Why are you doing what you're doing?
+  D: Be organized. Have a plan for each day. Write something down to look at and see how you're going, today, this month, this year. And get together with others from the company after work. Not just from the same office, but all over the company. But also have a life outside work and spend time with your family.
+  quiz:
+    - question: BDL thinks thinking about the job and your future career are important. If thinking about your job doesn't make it better, get a better job.
+      answer: True
+    - question: BDL thinks you have to think about your future job, rather than your job at the moment. A future job is a better job.
+      answer: False
+    - question: SLT thinks success is easy if you get other people to do your work. You don't even need to plan.
+      answer: False
+    - question: SLT thinks planning and getting other people to work with you to achieve difficult things are important.
+      answer: True
+    - question: KED thinks doing the job is more important than thinking or talking about it. And skills don't need to be learned because the boss won't give you a raise, if you do learn them.
+      answer: False
+    - question: KED thinks learning skills and thinking about the job are important. And telling the boss what you think. Perhaps the boss will give you a raise.
+      answer: True
+    - question: AWB thinks planning, getting together with co-workers and having a life outside work are important.
+      answer: True
+    - question: AWB thinks you need to plan a lot and spend a lot of time at work with co-workers so you can't do things outside work.
+      answer: False
+
