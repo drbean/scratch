@@ -1,0 +1,104 @@
+\documentclass[a4paper]{article}
+\usepackage[T1]{fontenc}
+% \usepackage[absolute,noshowtext,showboxes]{textpos}
+\usepackage[absolute,showboxes]{textpos}
+% \textblockorigin{0.10cm}{1.00cm}
+\textblockorigin{0.00cm}{0.00cm} %HPLaserJet5000LE
+\usepackage{texdraw}
+\pagestyle{empty}
+\setlength{\unitlength}{1cm}
+
+\newcommand{\myIdentifier}[0]{
+candidate 1
+}
+
+\newcommand{\myAcontent}[0]{
+These criteria will be used to choose the candidate: 1. best sales ability, 2. best organizational skills, 3. best academic record, 4. most knowledge of languages, 5. most energetic, confident and outgoing, 6. a natural leader.
+}
+
+\newcommand{\myBcontent}[0]{
+Barbara finished high school and has worked at Fast-Track for 12 years. She had the best sales record for the last 5 years. She knows Polish and Russian, but is not very fluent in English. She is energetic, confident. But sometimes is aggressive. She may not be a good leader.
+}
+
+\newcommand{\myCcontent}[0]{
+Tadeusz has a university degree in engineering but has WORKED IN SALES FOR ALL HIS LIFE. He joined Fast-Track 5 years ago as sales manager for the south of Poland. He increased sales 12\% over the 5 years. He is a hard worker, but not outgoing. His team think he is a good leader.
+}
+
+\newcommand{\myDcontent}[0]{
+Eva has a university degree in history, and worked for 15 years in sales. She has been with Fast-Track for 1 year. She had a good sales record before, but only a satisfactory one now. She speaks German, English, Polish. She is quiet. She might be a good leader, but might be too dependent.
+}
+
+\newcommand{\mycard}[5]{%
+	\vspace{0.1cm}
+	\small #1 #2
+	\par
+	\parbox[t][6.7cm][c]{9.5cm}{%
+	\hspace{0.1cm} \Large#3\\
+	\normalsize#4 #5
+	}
+}
+
+\begin{document}
+\fontfamily{hlst}\fontseries{b}\fontshape{n}\selectfont
+% \begin{picture}(15,20)(+4.8,-22.05)
+% \begin{tabular}[t]{*{2}{|p{10.05cm}}|}
+
+\begin{textblock}{8}(0,0)
+\textblocklabel{picture1}
+\mycard{}{\myIdentifier}{\parbox{9.0cm}{A:
+\myAcontent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(8,0)
+\textblocklabel{picture2}
+\mycard{}{\myIdentifier}{\parbox{9.0cm}{B:
+\myBcontent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(0,4)
+\textblocklabel{picture3}
+\mycard{}{\myIdentifier}{\parbox{9.0cm}{C:
+\myCcontent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(8,4)
+\textblocklabel{picture4}
+\mycard{}{\myIdentifier}{\parbox{9.0cm}{D:
+\myDcontent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(0,8)
+\textblocklabel{picture5}
+\mycard{}{\myIdentifier}{\parbox{9.0cm}{A:
+\myAcontent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(8,8)
+\textblocklabel{picture6}
+\mycard{}{\myIdentifier}{\parbox{9.0cm}{B:
+\myBcontent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(0,12)
+\textblocklabel{picture7}
+\mycard{}{\myIdentifier}{\parbox{9.0cm}{C:
+\myCcontent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(8,12)
+\textblocklabel{picture8}
+\mycard{}{\myIdentifier}{\parbox{9.0cm}{D:
+\myDcontent
+}}{}{} 
+\end{textblock}
+
+\end{document}
+
+

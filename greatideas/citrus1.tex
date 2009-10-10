@@ -1,0 +1,100 @@
+\documentclass[a4paper]{article}
+\usepackage[T1]{fontenc}
+% \usepackage[absolute,noshowtext,showboxes]{textpos}
+\usepackage[absolute,showboxes]{textpos}
+% \textblockorigin{0.10cm}{1.00cm}
+\textblockorigin{0.00cm}{0.00cm} %HPLaserJet5000LE
+\usepackage{texdraw}
+\pagestyle{empty}
+\setlength{\unitlength}{1cm}
+
+\newcommand{\myAcontent}[0]{
+Farmers in Punjab grow rice, but they don't make very much money. The Punjab government wants to help them make more money. Pepsi wants citrus fruit to make fruit drinks. The three decided to work together to grow citrus fruit.
+}
+
+\newcommand{\myBcontent}[0]{
+The farmers let the government grow citrus fruit on their land for 4 years, and the government gives the farmers some money each year. After 4 years, half of the money from sale of the fruit goes to the farmers, and half to the government.
+}
+
+\newcommand{\myCcontent}[0]{
+Pepsi is already making drinks from the fruit produced by the trees planted by the government. Pepsi said it will continue to increase the amount of citrus fruit it buys. It also said it wants to export drinks made from the fruit to other countries.
+}
+
+\newcommand{\myDcontent}[0]{
+Everyone is very happy. The farmers are happy with the money. Pepsi is happy with its source of citrus fruit. The government is happy with growing and collecting the fruit. It appears that the area will become one of the biggest citrus growing areas in the world.
+}
+
+\newcommand{\mycard}[5]{%
+	\vspace{0.1cm}
+	\small #1 #2
+	\par
+	\parbox[t][6.7cm][c]{9.5cm}{%
+	\hspace{0.1cm} \Large#3\\
+	\normalsize#4 #5
+	}
+}
+
+\begin{document}
+\fontfamily{hlst}\fontseries{b}\fontshape{n}\selectfont
+% \begin{picture}(15,20)(+4.8,-22.05)
+% \begin{tabular}[t]{*{2}{|p{10.05cm}}|}
+
+\begin{textblock}{8}(0,0)
+\textblocklabel{picture1}
+\mycard{3}{kroenke}{\parbox{9.0cm}{A:
+\myAcontent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(8,0)
+\textblocklabel{picture2}
+\mycard{3}{kroenke}{\parbox{9.0cm}{B:
+\myBcontent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(0,4)
+\textblocklabel{picture3}
+\mycard{3}{kroenke}{\parbox{9.0cm}{C:
+\myCcontent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(8,4)
+\textblocklabel{picture4}
+\mycard{3}{kroenke}{\parbox{9.0cm}{D:
+\myDcontent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(0,8)
+\textblocklabel{picture5}
+\mycard{3}{kroenke}{\parbox{9.0cm}{A:
+\myAcontent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(8,8)
+\textblocklabel{picture6}
+\mycard{3}{kroenke}{\parbox{9.0cm}{B:
+\myBcontent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(0,12)
+\textblocklabel{picture7}
+\mycard{3}{kroenke}{\parbox{9.0cm}{C:
+\myCcontent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(8,12)
+\textblocklabel{picture8}
+\mycard{3}{kroenke}{\parbox{9.0cm}{D:
+\myDcontent
+}}{}{} 
+\end{textblock}
+
+\end{document}
+
+
