@@ -1,0 +1,73 @@
+---
+-
+  - id
+  - description
+  - genre
+  - target
+  - content
+  - unclozeables
+-
+  - nzshock
+  - New Zealanders' experience of culture shock
+  - intercultural
+  - all
+  - |+
+    7:20 Linda: That's pretty much what culture shock is. This, this negotiation phase. After a while, you start to get used to, used to it, after about six to twelve months. come accustomed, and you start to have a routines, you know what to expect and it's, you know, things've become normal. You, you develop a, I don't know, a kind of an, an understanding of the culture. It's okay. But quite often, this um, this negotiation phase is quite long, you know. You might, you might, grate through it, grate through it, grate through it. And that's why it's a good idea to say, If you move into a country, to go for longer than six months, because if you go after six months, you probably leave right in the middle of this negotiation phase. It's still (inaudible) feeling angry, and you haven't (inaudible) to adjust yet. And so, you leave, not liking the culture, because you haven't got used to it.
+    8:05 Craig: Yeh. That's why I was my problem with the, when we first went overseas, we jumped up through Hong Kong into the UK and down into Malta. And Malta was the first place, that we, uh, worked, and stayed for a while. So we were there for three months, and at the end of three months, we couldn't actually afford to move on and go to the stuff we wanted to do.
+    Linda: 
+    Craig: So, I the economy was shot, pretty . 
+    8:30 Craig: And, um, we had to, um, go away for a week and come back on a bit of a visa run. And when we came back, we spent another two and a half, three months there. And I found that time really difficult. Now it was weird, because we had a bit of a support network by then. We had made some friends. We had met some really lovely people. Um, We knew our colleagues quite well. And you know, you expect with that kind of stuff, with the extra people and knowing your way around, that life would be better. But I was going through the difficulty of this negotiation phase.
+
+    I didn't want to go home. It wasn't homesickness. It was just this kind of, I don't know, angry depression. Kind of emotionally tired from butting your head up against difference all the time.
+
+  - Linda|Craig|7:20|8:05|negotiation phase|grate|inaudible|visa run|butting
+---
+-
+  - genre
+  - text
+  - id
+  - target
+  - content
+  - answer
+-
+  - intercultural
+  - nzshock
+  - 1
+  - all
+  - Linda wants you to spend longer than six months in a country to get used to culture shock.
+  - True
+-
+  - intercultural
+  - nzshock
+  - 2
+  - all
+  - Craig thinks it was weird that he had culture shock, because he had good friends.
+  - True
+-
+  - intercultural
+  - nzshock
+  - 3
+  - all
+  - Craig and Linda say that you may not like the country if you spend three to six months in it.
+  - True
+-
+  - intercultural
+  - nzshock
+  - 4
+  - all
+  - Craig had a good time because he had friends and knew lovely people.
+  - False
+-
+  - intercultural
+  - nzshock
+  - 5
+  - all
+  - Linda says you have to leave the country if you don't like it.
+  - False
+-
+  - intercultural
+  - nzshock
+  - 6
+  - all
+  - Craig was accustomed to the differences, but still felt homesick.
+  - False
