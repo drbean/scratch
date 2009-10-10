@@ -17,6 +17,7 @@ topic:
   -
     id: adjustment
     title: Cultural Conflict and Adjustment
+    intro: Prejudice against foreigners and Culture Shock are two examples of the conflict that results from intercultural contact.
     story:
       -
         id: shock1
@@ -28,6 +29,11 @@ topic:
         title: Culture Shock, Part 2
         blurb: Now do the second part of the <a href=http://web.nuu.edu.tw/~greg/cultureshockfile.mp3>culture shock sound file</a>, excerpted from the original at <a href=http://moontan.co.za/cultureshock/2006/07/>Legal Alien</a>.
         comment: Do you know anything about the <a href=http://en.wikipedia.org/wiki/V_sign>V-sign</a>? It is a vulgar hand sign in England, but not elsewhere.What do you think is the biggest cause of culture shock?
+      -
+        id: nzshock
+        title: New Zealanders' experience of Culture Shock
+        blurb: <a href="http://indietravelpodcast.com/podcast/culture-shock-reentry-shock/">Here</a> are Craig and Linda, two New Zealanders, talking about culture shock. They have traveled to over 40 countries. They divide culture shock into 3 stages and use the phrase, 'negotiation phase' to describe the difficult middle stage after the honeymoon phase.
+        comment: They also talk about re-entry, or reverse, culture shock. the feeling you have when you return to your first country. The podcast is long and the section to transcribe starts at 7:20. Linda speaks extremely quickly. 
 
   -
     id: multiculturalism
