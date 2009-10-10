@@ -1,0 +1,103 @@
+---
+tips:
+  1:
+    identifier: tips 1
+    A: First, you need to think about what you are doing. Keep your mind on the job, not on other things. Second, you need to look for ways to improve your skills, perhaps on weekends or at night. Last, think about your goals and what skills you need to achieve those goals. 
+    B: "First, try to get other people involved in your work. Help others, and they will help you. Second, get together with co-workers. If people know you, they will want to cooperate with you. Last, this doesn't mean to take the easy way. No. Accept challenges, and be prepared for failure."
+    C: First, create your own goals. Decide how to reach those goals. Second, each day have a list of tasks for the day and check how you're going. Last, don't let the job decide what you will do. Try to change the job. If this is impossible, look for another job.
+    D: First, get together with other people from all over the company. Have fun and learn about the company. Second, get other people to help you do your job. Cooperate with them and make work easier. Last, have a life outside the company. Relax with the family on weekends.
+    quiz:
+      - question: A thinks thinking and knowing about work are most important.
+        answer: True
+      - question: B doesn't see work as a social activity.
+        answer: False
+      - question: C thinks you don't need to plan if your mind is on work.
+        answer: False
+      - question: D thinks a job should be easy and fun.
+        answer: True
+      - question: A thinks cooperation is important.
+        answer: False
+      - question: B thinks working with others can/should be a challenge.
+        answer: True
+      - question: C thinks evaluating progress is important.
+        answer: True
+      - question: D thinks you should be too busy to do things outside work.
+        answer: False
+      - question: A and C's ideas are similar and B and D's ideas are similar.
+        answer: True
+  2:
+    identifier: tips 2
+    A: First, get together with other people from all over the company. Have fun and learn about the company. Second, get other people to help you do your job. Cooperate with them and make work easier. Last, have a life outside the company. Relax with the family on weekends.
+    B: First, make sure the boss understands how you feel about the job. If you want something, ask for it. Second, try to make the job a job you like. Or change jobs. Last, think about your goals and what you need to change to achieve those goals. 
+    C: First, look for challenges. Try to do something new. And don't be disappointed if you fail. Second, try to transform your job into an interesting job. Last, have a life outside work. Work can be difficult. Take time off to relax with your family.
+    D: First, try to get other people involved in your work. Help others, and they will help you. Second, get together with co-workers. If people know you, they will want to cooperate with you. Last, this doesn't mean to take the easy way. No. Accept challenges, and be prepared for failure.
+    quiz:
+      - question: A sees work as a social activity.
+        answer: True
+      - question: B thinks acting to make things better is important.
+        answer: True
+      - question: C thinks you should try to make changes.
+        answer: True
+      - question: D thinks a job should be easy and fun.
+        answer: False
+      - question: A thinks cooperation is important.
+        answer: True
+      - question: B thinks a challenge is most important.
+        answer: False
+      - question: C thinks evaluating progress is important.
+        answer: False
+      - question: D thinks working with others is important.
+        answer: True
+      - question: C and D agree: Be comfortable with discomfort.
+        answer: True
+candidate:
+  1:
+    identifier: candidate 1
+    A: These criteria will be used to choose the candidate: 1. best sales ability, 2. best organizational skills, 3. best academic record, 4. most knowledge of languages, 5. most energetic, confident and outgoing, 6. a natural leader.
+    B: Barbara finished high school and has worked at Fast-Track for 12 years. She had the best sales record for the last 5 years. She knows Polish and Russian, but is not very fluent in English. She is energetic, confident. But sometimes is aggressive. She may not be a good leader.
+    C: Tadeusz has a university degree in engineering but has WORKED IN SALES FOR ALL HIS LIFE. He joined Fast-Track 5 years ago as sales manager for the south of Poland. He increased sales 12\% over the 5 years. He is a hard worker, but not outgoing. His team think he is a good leader.
+    D: Eva has a university degree in history, and worked for 15 years in sales. She has been with Fast-Track for 1 year. She had a good sales record before, but only a satisfactory one now. She speaks German, English, Polish. She is quiet. She might be a good leader, but might be too dependent.
+    quiz:
+      - question: Eva appears to be best sales representative.
+        answer: False
+      - question: Tadeusz has the least experience in sales.
+        answer: False
+      - question: Barbara has best sales record,
+        answer: True
+      - question: Tadeusz has most organizational experience.
+        answer: True
+      - question: Barbara has best academic record.
+        answer: False
+      - question: Eva knows most languages.
+        answer: True
+      - question: Barbara is most outgoing and energetic.
+        answer: True
+      - question: Tadeusz will probably be best leader.
+        answer: True
+      - question: Eva has worked longest at Fast-Track.
+        answer: False
+  2:
+    identifier: candidate 2
+    A: These criteria will be used to choose the candidate: 1. a natural leader,2. most energetic, confident and outgoing, 3. best sales record, 4. best organizational skills, 5. best academic record, 6. most knowledge of languages, 
+    B: Barbara has a UNIVERSITY DEGREE and has worked at Fast-Track for 12 years. She had the best sales record for the last 5 years. She knows Polish and Russian, but is not very fluent in English. She is energetic, confident. But sometimes is aggressive. She may not be a good leader.
+    C: Tadeusz ONLY FINISHED HIGH SCHOOL but has worked in many industries, although NONE OF THESE WAS IN SALES. He joined Fast-Track 5 years ago as sales manager for the south of Poland. He increased sales 12\% over the 5 years. He is a hard worker, but not outgoing. His team think he is a good leader.
+    D: Eva has a university degree in history, and worked for 15 years in sales. She has been with Fast-Track for 1 year. She had a good sales record before, but only a satisfactory one now. She speaks German, English, Polish. She is quiet. She might be a good leader, but might be too dependent.
+    quiz:
+      - question: Tadeusz has most leadership experience.
+        answer: True
+      - question: Tadeusz has the best academic background.
+        answer: False
+      - question: The most energetic person is Barbara.
+        answer: True
+      - question: Barbara has the best sales record.
+        answer: True
+      - question: Eva knows most languages.
+        answer: False
+      - question: Eva has most organizational experience.
+        answer: False
+      - question: Tadeusz has worked longest at Fast-Track.
+        answer: False
+      - question: Tadeusz has the most sales experience.
+        answer: False
+      - question: Tadeusz has the highest position at Fast-Track now.
+        answer: True
