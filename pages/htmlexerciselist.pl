@@ -35,14 +35,17 @@ my $areastring = '<div class=area id="<TMPL> $id </TMPL>">
 <h2><a name=<TMPL> $id </TMPL>><TMPL> $title </TMPL></a></h2>
 <p>
 <TMPL> $blurb </TMPL>
+
 ';
 my $topicstring = '<div class=topic id="<TMPL> $id </TMPL>">
 <h3><a name=<TMPL> $id </TMPL>><TMPL> $title </TMPL></a></h3>
 <p>
 <TMPL> $intro </TMPL>
 </p>
+
 ';
-my $storystring = '<div class=story id="<TMPL> $id </TMPL>">
+my $storystring = '
+<div class=story id="<TMPL> $id </TMPL>">
 <h4><a name=<TMPL> $id </TMPL>><TMPL> $title </TMPL></a></h4>
 <p>
 <TMPL> $blurb </TMPL>
