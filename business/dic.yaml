@@ -294,23 +294,24 @@
     Length of contract: Lifetime wants the contract to be for three years. There is uncertainty about whether the venture will be successful or not.
     Range of destinations: It wants the destinations to be only in the Mediterranean. This is the area where it is losing market share.
     Car hire and insurance: It does not want these to be part of the venture. People who want these probably will not order online.
-    Advertising: It wants to invest 100,000 dollars in advertising on a 50-50 basis. Direct Sun probably has its own ideas about advertising so it should use its own money to try those ideas out.
+    Advertising: It wants to invest 100,000 dollars in advertising on a fifty-fifty basis. Direct Sun probably has its own ideas about advertising so it should use its own money to try those ideas out.
     Structure: It wants to manage the project because it has greater management experience and knowledge.
     You are willing to negotiate some of these requirements. But some of them are not negotiable. You aren't willing to compromise on them. B has the details. So, how will you change your position? And will Direct Sun accept your position?
-    Lifetime Holidays|Direct Sun
+  - Lifetime Holidays|Direct Sun|Mediterranean
 -
   - vacations
   - Negotiating Travel Company Joint Venture--What Lifetime Holidays is prepared to offer
   - business
   - B
   - |+
-    You, together with B, are negotiating for Lifetime Holidays, an older company with a large number of travel packages. On the other hand, C and D are representing a newer online travel company, Direct Sun. 
+    You, together with A, are negotiating for Lifetime Holidays, an older company with a large number of travel packages. On the other hand, C and D are representing a newer online travel company, Direct Sun. 
     Length of contract: Lifetime is prepared to have the contract be for one year more than what A told Direct. You are encouraged by D's confidence the joint venture will be successful.
     Range of destinations: It is willing to add North European destinations, a stable area where Lifetime makes little profit.
     Car hire and insurance: It is willing to have insurance be part of the venture. You don't want to share you knowledge of the car hire market with Direct.
     Advertising: Lifetime is willing to invest 100,000 dollars more in advertising than A told Direct. It is not willing to change the ratio between the two companies' share of the advertising costs.
     Structure: It is not willing to compromise on this point. It is afraid that Direct will take all its knowledge of the vacation market and give it nothing.
     You don't have to change your position if C and D will accept it. But if they don't, you will have to negotiate some requirements. Will C and D accept your new position?
+  - Lifetime Holidays|Direct Sun|ratio
 -
   - vacations
   - Negotiating Travel Company Joint Venture--What Direct Sun wants
@@ -324,6 +325,7 @@
     Advertising: It wants to invest 300,000 dollars in advertising on a 70 percent to 30 percent basis. You think Lifetime probably has more money to spend.
     Structure: It wants to manage the project because it has greater experience and knowledge of selling online.
     You are willing to negotiate some of these requirements. But some of them are not negotiable. You aren't willing to compromise on them. D has the details. So, how will you change your position? And will Lifetime accept your position?
+  - Lifetime Holidays|Direct Sun
 -
   - vacations
   - Negotiating Travel Company Joint Venture--What Direct Sun is prepared to accept
@@ -334,12 +336,11 @@
     Length of contract: You are prepared to have the contract be for one year less than what C told Lifetime. 
     Range of destinations: It will accept the destinations being all European destinations. This is a big concession. It wanted North American, Asian and Pacific destinations too.
     Car hire and insurance: You are willing to not include insurance. You must have car hire. You want Lifetime's market knowledge.
-    Advertising: It is willing to invest 100,000 dollars less in advertising than the amount C told Lifetime. It is also willing to share advertising costs 50-50.
+    Advertising: It is willing to invest 100,000 dollars less in advertising than the amount C told Lifetime. It is also willing to share advertising costs fifty-fifty.
     Structure: It wants equal management rights to the project. Its intention is to transfer Lifetime's knowledge of the travel market to Direct.
     You don't have to change your position if A and B will accept what C said. But if they don't, you will have to negotiate some of those requirements. Which parts of your position will A and B find unacceptable? And will A and B accept your new position?
+  - Lifetime Holidays|Direct Sun
 
-
-    
 -
   - uniqlo-1
   - Uniqlo's marketing mix
@@ -1321,6 +1322,62 @@
   - 2
   - D
   - You are unable to compromise on some of your requirements. For example, you will not agree to finish the site in a time shorter than two months.
+  - False
+-
+  - business
+  - vacations
+  - 1
+  - A
+  - You are not certain the project will be successful.
+  - True
+-
+  - business
+  - vacations
+  - 2
+  - A
+  - You want to lose market share and your range of destinations in the Mediterranean.
+  - False
+-
+  - business
+  - vacations
+  - 1
+  - B
+  - You are afraid that Direct Sun will profit more from the project than you do, by taking your knowledge of the travel market.
+  - True
+-
+  - business
+  - vacations
+  - 2
+  - B
+  - You are willing for Direct Sun to take all your knowledge of the travel market, if it compromises on the other things.
+  - False
+-
+  - business
+  - vacations
+  - 1
+  - C
+  - You are sure the project will be profitable. But you realize you know little about some parts of it.
+  - True
+-
+  - business
+  - vacations
+  - 2
+  - C
+  - You have many more destinations than the other company all over the world, And you have more money than it.
+  - False
+-
+  - business
+  - vacations
+  - 1
+  - D
+  - You wanted Lifetime's market knowledge, but you will concede many travel markets not in Europe not being included.
+  - True
+-
+  - business
+  - vacations
+  - 2
+  - D
+  - You are willing to concede the right to management of the project if it accepts your position of transfer of market knowledge.
   - False
 -
   - business
