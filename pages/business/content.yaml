@@ -112,3 +112,19 @@ topic:
           <li><b>C students:</b> You are negotiating for Direct Sun. You have details of <a href=http://web.nuu.edu.tw/~greg/business/vacationsC.mp3>their requirements or demands.</a> </li>
           <li><b>D students:</b> You are also negotiating for Direct Sun. You have details of <a href=http://web.nuu.edu.tw/~greg/business/vacationsD.mp3>what they are willing or unwilling to compromise on, ie their demands and concessions.</a> </li>
           </ul>
+  -
+    id: companies
+    title: Companies
+    intro: In business management, a key concept is the 'company', an organization of people paid to do work.
+    story:
+      -
+        id: ikea
+        title: IKEA
+        blurb: <a href="http://en.wikipedia.org/wiki/IKEA">IKEA</a> is the world's largest furniture retailer. Comedian <a href="http://www.markmalkoff.com">Mark Malkoff</a> spent a <a href="http://marklivesinikea.com">week</a> there. Listen to the separate videos and fill in the blanks.
+        comment: |+
+          <ul>
+          <li><b>A students:</b> Listen to <a href="http://marklivesinikea.com/01_video/02_mark_moves_into_ikea.html">Mark moves into IKEA</a>
+          <li><b>B students:</b> Listen to <a href="http://marklivesinikea.com/01_video/04_mark_gets_lost_in_ikea.html">Mark gets lost in IKEA</a> and <a href="http://marklivesinikea.com/01_video/05_marks_first_night_in_ikea.html">Mark's first night in IKEA</a>
+          <li><b>C students:</b> Listen to <a href="http://marklivesinikea.com/01_video/06_marks_ikea_word_scramble_01.html">Mark's IKEA word scramble #1</a> and <a href="http://marklivesinikea.com/01_video/07_mark_gets_buff_in_ikea.html">Mark gets buff in IKEA</a> and <a href="http://marklivesinikea.com/01_video/08_mark_hitchhikes_in_ikea.html">Mark hitchhikes in IKEA</a> and <a href="http://marklivesinikea.com/01_video/09_mark_closes_ikea.html">Mark closes IKEA</a>.
+          <li><b>D students:</b> Listen to <a href="http://marklivesinikea.com/01_video/11_marks_date_in_ikea_01.html">Mark's date in IKEA Part 01</a>, <a href="http://marklivesinikea.com/01_video/12_marks_date_in_ikea_02.html">Mark's date in IKEA Part 02</a>, <a href="http://marklivesinikea.com/01_video/13_marks_date_in_ikea_03.html">Mark's date in IKEA Part 03</a>, and <a href="http://marklivesinikea.com/01_video/14_marks_date_in_ikea_04.html">Mark's date in IKEA Part 04</a>.
+          </ul>
