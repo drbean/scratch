@@ -348,81 +348,28 @@
   - A
   - |+
     Mark: Today's the big day. IKEA is letting me move into their store for a week. First, I need to introduce myself to the people I'm going to live with for the next week--the great employees of IKEA. Now that I'm living here, it's kind of like they're working for me.
-
     ...
-
     So everyone I've met here at IKEA so far has been really friendly. The janitor Louis, is very knowledgeable and friendly. If you need any help, (To Louis) I'm happy to mop, or do whatever you want. Nice meeting you.
-
     Louis: Nice meeting you, too.
-
     Cashier: I think it's pretty weird. I mean to stay here for six days and, you know, six nights, or whatever. 
 
     Mark: Right now, we have forty-five minutes until the store opens, so we have to find the bedroom set of my dream. There are hundreds to choose from. But, this has to be the best bedroom set ever. Let's do it. 
 
     And then I found it. The perfect place for me to crash for the week. Wow! This is it.
-
     Cool, man. I can make cookies tonight. Wow. Bake pasta. This is awesome. All my cooking needs. A refrigerator. Wow! A bedroom set for the twins I don't have. This place has everything. An apartment like this in New York City would cost three thousand dollars a month.
 
     Let's see what they have in the wardrobe. Oh, this is cute. Let's see what they left for me. Oh, wow. Well, this is hot. I love that the hanger comes with it. You can't remove the hanger from the clothing. They're based out of Sweden. This must be the latest fashion. This is hot.
 
     IKEA even gave me some free stuff. The Swedish are the kings of hospitality.
-
     On behalf of IKEA, we'd like to present you with these gifts, welcoming you into the neighborhood.
-
     Mark: My gosh. Thank you so much. Um, Scott, I'm going to be here all week. So if you want to hang out, definitely stop by. We'll have a lot of fun. Just, next time you come up, knock. Okay.
-
     Scott: Okay. I will. Sorry about that.
-
     Mark: Don't worry about it.
-
-    One thing about living in this store is you get lots of house guests.
-
-    One of you guys want to help shave me?
-
-    All right. I'm living in IKEA. Mark's living in IKEA.
-
-    What do you want to do when you grow up?
-
-    Oh, ladies. Come on in. First take off your shoes.
-
-    Ow.
-
-    This is pull-out? I don't know. Pillow fight. 
-
-    Is there a reason you guys are in my house?
-
-    Store customers: Oh, I'm so sorry.
-
-    Mark: I think I have a concussion.
-
-    Cashier: People like overly looking at you. A whole week. I mean, what'd you do? 
-
-    Mark: Wait. Hold on. What are you doing?
-
-    Store customer: I'm purchasing this chair.
-
-    Mark: This is my chair. I live here. Put it down! 
-
-    Store customer: Sorry.
-
-    Mark: You bet you're sorry. You'd better be sorry. Walking into someone's . I will crush you.
-
+  - Mark|janitor|Louis|Cashier|pasta|Sweden|Swedish|hospitality
 
 -
   - ikea
-  - Mark lives in IKEA--Going to lunch
-  - business
-  - B
-  - |+
-    Mark: My name's Mark. I'm living and sleeping here for an entire week. Will someone here let me sit with them? Where're you guys from?
-    Woman: [Spanish]
-    Mark: Where're you guys from?
-    Woman: Middletown, New York.
-    Mark: Middletown, New York. I'm from about three feet from here. would you like some vegetables? Either of you?
-
--
-  - ikea
-  - Mark lives in IKEA--Getting lost
+  - Mark lives in IKEA--Getting lost, First night
   - business
   - B
   - |+
@@ -435,19 +382,13 @@
     Mark: My bedroom set! Yo, man. Thank you. Are you okay? Thanks, bro'. I'll talk to you soon.
     Cashier: This's pretty weird.
 
-
--
-  - ikea
-  - Mark lives in IKEA--First night
-  - business
-  - B
-  - |+
     Mark's Voice: Testing. Testing. Attention, IKEA customers. The store is now closed. Please bring all purchases to check-out. Some people want to sleep here for crying out loud.
     Mark: This is Thor, the god of Swedish furniture. Please bring your purchases to the front immediately.
     Voice-over: Customers were leaving. Security was locking up. And I realized I could do whatever I wanted. 
     Mark: Yeh! Hi, honey. Oh, not much. It's pretty boring around here. I think I'm probably going to go to bed soon. Oooh. I think my cellphone is going, Ouch. Sssh.
 
-    Look at me. I'm skateboarding past breakables. Caution. Do not enter. It's just a bunch of shopping carts. Kind of smells like urine.
+    Look at me. I'm skateboarding past breakables. Caution. Do not enter. It's just a bunch of shopping carts.
+    Kind of smells like urine.
 
     So we found this hidden corridor. No IKEA customers know about it. We're going to explore it. Follow me. Oh, my gosh. It's something I can't pronounce.
 
@@ -456,6 +397,7 @@
     Mark: I'm going to be staying here in the middle of the night. Does it get scary?
     Jarvis: It does. It does get scary. After midnight, all the lights shut off. And then we start hearing squeaks and sounds and whistlings. If I was you, I would like to stay in the light. Care to go play ...
     Mark: In the balls?
+  - Cashier|Voice-over|Mark|sheepskin|rug|Thor|Swedish|urine|hidden|corridor|Security|Guard|Jarvis
 
 -
   - ikea
@@ -465,16 +407,15 @@
   - |+
     Mark: Tonight's IKEA word scramble is NROJEMNBLOH. Can you correctly unscramble these letters to identify this piece of IKEA furniture? The answer in a minute. .. If you guessed BJORNHOLMEN, a TV storage unit, then you were correct. Congratulations.
 
-    Mark: All right. Robert. This is Robert, my certified personal trainer. He is here in IKEA to give me a workout. Now in preparation
-    Mark: I haven't had a work-out in about two weeks. so you're going to get me into top condition. and you're going to go easy on me, right?
+    Mark: All right. here it is. Robert. This is Robert Brace, my certified personal trainer. He is here in IKEA to give me a workout. Now in preparation for IKEA, I have not been able to work out for about two weeks. so you're going to get me back into top physical condition. and you're going to go easy on me, right?
     Robert: No.
     Mark: I can't take it any more.
     Robert: No, Mark.
     Mark: I'm a man. I'm strong.
     Mark: No, no. I need a five-minute break.
-
-    Robert: go, go. Okay, you get five minutes. Five minutes.
-    Robert: Mark, Mark. I've been looking all over for you. What, what are you doing? Get off my back. I need this.
+    Robert: Go! Go! Okay, you get five minutes, but that's all. Five minutes.
+    Robert: Mark, Mark. I've been looking all over for you. Dude, what are you doing?
+    Mark: Get off my back. I need this.
     Mark: Same time next week?
     Robert: Yeh. Same time next week.
 
@@ -485,18 +426,19 @@
     Thank you. I really appreciate it.
     A little bit forward.
     Wait a minute. I want to see how much these are.
-    All right, we did it. We did it. Come on up. You can keep the crust if you want.
+    All right, we did it. We did it. Come on up. You can keep the [inaudible]
+    if you want.
 
-
-    Test. Test. This is the mayor of IKEA. Please go to the registers now. I need to get some sleep. Seriously, lady in the red sweater. Get out of the store. I'm tired. I wanted to give a shout-out to the showroom staff. You're my homies. If you find a box of green lime boxer shorts in the cafeteria, please return them. They aren't yours.
+    Test. Test. This is the mayor of IKEA. Please go to the registers now. I need to get some sleep. Seriously, lady in the red sweater. Get out of the store. I'm tired. I wanted to give a shout-out to the showroom staff. You're my homies. [inaudible] anyone find a box of lime green boxer shorts in the cafeteria, please return them. They aren't yours.
+  - Mark|scramble|NROJEMNBLOH|BJORNHOLMEN|storage|Robert|Brace|certified|personal|trainer|Dude|mayor|inaudible|pillows|shout-out|homies|lime green
 -
   - ikea
-  - Mark lives in IKEA--Date, Parts 1, 2, 3
+  - Mark lives in IKEA--Date, Parts 1, 2, 3, 4
   - business
-  - all
+  - D
   - |+
-    Wife: What it feels like. You're having an affair with a furniture store. That you are. Yeh, yeh. I feel like you are [inaudible] more than me. Um, I love you.
-    Mark: Hello? Um, I was wondering if you would come by tonight. Come on, please. Seriously, it's going to be really special. I'm going to play tons of thought into this. And I promise I'll make up for dropping the ball. I love IKEA and I also love you. But I really love IKEA. 
+    Wife: What it feels like. You're having an affair with a furniture store. That you are. Yeh, yeh. I feel like you are [inaudible]. Um, I love you.
+    Mark: Hello? Um, I was wondering if you would come by tonight. Come on, please. Seriously, it's going to be really special. I'm going to put tons of thought into this. And I promise I'll make up for dropping the ball. I love IKEA and I also love you. But I really love IKEA. 
     Wife: Um, okay.
     Mark: All right. Wear something nice.
 
@@ -511,10 +453,10 @@
     Um, I don't know. I don't think that [inaudible] instructions.
     I'm telling you, instructions are over-rated.
 
-    Mark: So my wife is upset at me because I moved into IKEA for the week. What do I do to get back into her good graces?
-    Woman: Women like flowers.
-    Mark: Fake flowers.
-    Woman: Candles.
+    Mark: So my wife is upset at me because I moved into IKEA [inaudible] for the week. What do I do to get back in her good graces?
+    Woman: Send her flowers.
+    Mark: All I have here are fake flowers. Will that do it?
+    Woman: Candles [inaudible].
     Mark: All right. Sparkling apple juice. Hopefully, this will last us ..
     You know I don't eat meat, but I'm going to go for the Swedish ham.
     Man: You just can't take this stuff.
@@ -535,6 +477,7 @@
     Mark: Forgot my tux.
     Woman: I don't know .. Got the bow tie, Laura?
     Mark: [inaudible] a young Orville Redenbacher.
+  - Wife|Mark|affair|inaudible|dropping the ball|emergency|Warren|over-rated|good graces|fake|Candles|Sparkling|Swedish|ham|crawl|cinnabuns|tux|Women|Woman|bow tie|Laura|Orville Redenbacher
 
 -
   - uniqlo-1
@@ -1573,6 +1516,62 @@
   - 2
   - D
   - You are willing to concede the right to management of the project if it accepts your position of transfer of market knowledge.
+  - False
+-
+  - business
+  - ikea
+  - 1
+  - A
+  - Mark found a place to live for the week in the store which would cost three thousand dollars a month in New York.
+  - True
+-
+  - business
+  - ikea
+  - 2
+  - A
+  - Mark is working in IKEA as an employee in New York for three thousand dollars a month.
+  - False
+-
+  - business
+  - ikea
+  - 1
+  - B
+  - IKEA is a big place. Mark gets lost and needs an employee to help him get home.
+  - True
+-
+  - business
+  - ikea
+  - 2
+  - B
+  - Mark wanted security to lock up after midnight so he could go to sleep.
+  - False
+-
+  - business
+  - ikea
+  - 1
+  - C
+  - Mark gets a ride from customers from the warehouse to his bedroom space.
+  - True
+-
+  - business
+  - ikea
+  - 2
+  - C
+  - The word that Mark asks people to unscramble is easy to identify.
+  - False
+-
+  - business
+  - ikea
+  - 1
+  - D
+  - Mark can't build the table he wants to put together for his wife.
+  - True
+-
+  - business
+  - ikea
+  - 2
+  - D
+  - Mark thinks the instructions for building the table are very helpful.
   - False
 -
   - business
