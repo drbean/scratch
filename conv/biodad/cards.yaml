@@ -1,0 +1,46 @@
+---
+identifier: biodad
+A: 
+B: 
+C: 
+D: 
+White: |+
+  \begin{normalsize}Facts about single parents\end{normalsize}
+  \normalsize
+  \begin{description}
+  \item [Definition] Single parents are parents who care for one or more children without the assistance of the other parent in the home.
+  \item [Background] The living and parenting arrangements of single parents are of many different types. Some live in households with family or other adults.
+  \item [Statistics] In the US, around 12.9 million, or 9 percent of all, families are  headed by a single-parent, 80 percent of them by a female. An example is US President Obama's family.
+  \item [Effects] Single parent families are more likely to be poor than other families, and on average single mothers have poorer health than other mothers. \\
+  Single parenting results in a number of negative social, behavioral and emotional outcomes for children. However while the association is strong, the size of the effects and the actual numbers of children affected are not that big. Most children from single parent families do well. \\
+  The factors which influence how children develop in single-parent families include the parent's age, education, and occupation; the family's income and support network of friends and extended family members.
+  \end{description}
+Black: |+
+  \begin{normalsize}Nick Shepard, Eloise Shepard and the man'story\end{normalsize}
+  \normalsize
+  \begin{description}
+  \item [Married life] PJ and her husband's relationship started out very well after their first meeting in a bar, But their marriage wasn't always pretty. They sometimes acted like little childrens, yelling at each other. They were separated for two years and came close a number of times to getting a divorce.
+  \item [Love] PJ says that if you love someone you will act in a certain way, as well as just have a feeling for them. You will be kind, for example. She loves her kids a lot. So she tries to give them a good time and treat them with respect.
+  \item [Listener Reaction] Listeners to PJ's story said they like the fact that she could talk openly to her son about her relationship with his dad like to another adult.
+  \end{description}
+quiz:
+  - question: PJ and her husband are separated.
+    answer: False
+  - question: PJ tries to do the best she can for her kids.
+    answer: True
+  - question: PJ says love is how you feel, not what you do for the person you love.
+    answer: False
+  - question: There is not much for a mom and her kids to do in Tampa.
+    answer: False
+  - question: PJ and her husband's relationship was good at first.
+    answer: True
+  - question: PJ teaches high school.
+    answer: True
+  - question: Listeners liked that she treated her son like an adult.
+    answer: True
+  - question: PJ has a website about living in Tampa.
+    answer: True
+  - question: Sam and his brothers yelled at their parents when they separated.
+    answer: False
+  - question: Disneyland is in Tampa, Florida.
+    answer: False
