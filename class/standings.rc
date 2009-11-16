@@ -1,0 +1,13 @@
+use Cwd;
+use YAML qw/LoadFile DumpFile/;
+
+my $cwd = getcwd;
+my $id = basename($cwd);
+my $l = LoadFile "$cwd/league.yaml";
+my %m = map { $_->{id} => $_ } @{ $league->{member} };
+
+my $standings = LoadFile '/var/www/cgi-bin/target/standings.yaml';
+
+my %p = map { $_ => $standings->{$id}->{$_}->{"vacations"} } keys %m;
+
+my %g = map { $_ => $p->{$_} >= 450? 2: $p->{$_} > 50? 1: 0 } keys %m;
