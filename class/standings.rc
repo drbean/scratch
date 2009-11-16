@@ -4,7 +4,7 @@ use YAML qw/LoadFile DumpFile/;
 my $cwd = getcwd;
 my $id = basename($cwd);
 my $l = LoadFile "$cwd/league.yaml";
-my %m = map { $_->{id} => $_ } @{ $league->{member} };
+my %m = map { $_->{id} => $_ } @{ $l->{member} };
 
 my $standings = LoadFile '/var/www/cgi-bin/target/standings.yaml';
 
