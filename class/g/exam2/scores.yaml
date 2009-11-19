@@ -1,0 +1,94 @@
+---
+Chinese:
+  Black:                  2
+  Brown:                  1
+  DarkBlue:               0
+  DarkGreen:              0
+  Gray:                   1
+  LightBlue:              0
+  LightGreen:             1
+  Orange:                 1
+  Pink:                   0
+  Purple:                 0
+  Red:                    0
+  White:                  0
+  Yellow:                 0
+letters:
+  Black:
+    A:                    7
+    B:                    5
+    C:                    3
+    D:                    7
+    story:                lifetime1
+  Brown:
+    A:                    8
+    B:                    7
+    C:                    5
+    D:                    3
+    story:                lifetime2
+  DarkBlue:
+    A:                    5
+    B:                    8
+    C:                    6
+    D:                    6
+    story:                lifetime5
+  DarkGreen:
+    A:                    5
+    B:                    8
+    C:                    7
+    D:                    9
+    story:                lifetime1
+  Gray:
+    A:                    8
+    B:                    7
+    C:                    8
+    D:                    4
+    story:                website1
+  LightBlue:
+    A:                    2
+    B:                    5
+    C:                    5
+    D:                    5
+    story:                lifetime1
+  LightGreen:
+    A:                    5
+    B:                    5
+    C:                    3
+    D:                    6
+    story:                website5
+  Orange:
+    A:                    5
+    B:                    3
+    C:                    5
+    D:                    4
+    story:                lifetime4
+  Pink:
+    A:                    9
+    B:                    6
+    C:                    6
+    D:                    6
+    story:                lifetime1
+  Purple:
+    A:                    7
+    B:                    9
+    C:                    9
+    D:                    5
+    story:                lifetime2
+  Red:
+    A:                    5
+    B:                    3
+    C:                    8
+    D:                    3
+    story:                website2
+  White:
+    A:                    4
+    B:                    7
+    C:                    4
+    D:                    3
+    story:                website4
+  Yellow:
+    A:                    8
+    B:                    8
+    C:                    7
+    D:                   7
+    story:                website6

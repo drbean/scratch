@@ -1,0 +1,75 @@
+---
+round: Exam 1
+week: 5
+texts:
+questions:
+  - 9
+pass: 5
+assistant:
+absent:
+group:
+  Black:
+    A: Mango
+    B: Pear
+    C: Lynn
+    D: Allen
+  Brown:
+    A: Mo-mo
+    B: Shiny
+    C: Ba-si
+    D: Wade
+  DarkBlue:
+    A: Iverson
+    B: Wendy
+    C: Edison
+    D: Gary
+  DarkGreen:
+    A: Lyle
+    B: Eddie
+    C: Tracy1
+    D: Eva
+  Gray:
+    A: Soul
+    B: Frank
+    C: T-Mac
+    D: Dark
+  LightBlue:
+    A: "O'Neal"
+    B: Kobe
+    C: Brook
+    D: Kin
+  LightGreen:
+    A: Jack
+    B: Willy
+    C: Andy
+    D: Chris
+  Orange:
+    A: Ways
+    B: Ron
+    C: Jeter
+    D: Jenny
+  Pink:
+    A: Rita
+    B: Chester
+    C: Sky
+    D: Frad
+  Purple:
+    A: Simon
+    B: Kent
+    C: Isaac
+    D: Yu
+  Red:
+    A: Steven
+    B: Joe
+    C: Angela
+    D: Mike
+  White:
+    A: Aron
+    B: Mark
+    C: William
+    D: Diana
+  Yellow:
+    A: Tracy2
+    B: Eric
+    C: Kim
+    D: World

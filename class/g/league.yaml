@@ -1,0 +1,317 @@
+---
+id: MIA0017
+league: 日資管大學二甲
+field: 商用英文實務(一)
+member:
+  - Chinese: 王孟傑
+    name: Mango
+    password: meng
+    id: U9733001
+  - Chinese: 吳佳蓉
+    name: Mo-mo
+    password: jia
+    id: U9733002
+  - Chinese: 盧俊廷
+    name: Iverson
+    password: jun
+    id: U9733003
+  - Chinese: 羅文旺
+    name: Lyle
+    password: wen
+    id: U9733004
+  - Chinese: 楊佳坤
+    name: Soul
+    password: jia
+    id: U9733005
+  - Chinese: 謝韶恩
+    name: "O'Neal"
+    password: shao
+    id: U9733006
+  - Chinese: 呂敏煌
+    name: Jack
+    password: min
+    id: U9733007
+  - Chinese: 魏子偉
+    name: Ways
+    password: zi
+    id: U9733008
+  - Chinese: 黃上嘉
+    name: Rita
+    password: shang
+    id: U9733009
+  - Chinese: 黃振瑜
+    name: Simon
+    password: zhen
+    id: U9733010
+  - Chinese: 張峻華
+    name: Isaac
+    password: jun
+    id: U9733011
+  - Chinese: 宮承豪
+    name: Sky
+    password: cheng
+    id: U9733012
+  - Chinese: 蔡承運
+    name: Jeter
+    password: cheng
+    id: U9733013
+  - Chinese: 劉奕昇
+    name: Andy
+    password: yi
+    id: U9733014
+  - Chinese: 余玟霈
+    name: Brook
+    password: wen
+    id: U9733015
+  - Chinese: 莊駿緯
+    name: T-Mac
+    password: jun
+    id: U9733016
+  - Chinese: 張鈺新
+    name: Tracy1
+    password: yu
+    id: U9733018
+  - Chinese: 邵柏翔
+    name: Edison
+    password: bai
+    id: U9733019
+  - Chinese: 吳怡嬅
+    name: Ba-si
+    password: yi
+    id: U9733020
+  - Chinese: 許齡方
+    name: Lynn
+    password: ling
+    id: U9733021
+  - Chinese: 謝宏業
+    name: Steven
+    password: hong
+    id: U9733022
+  - Chinese: 張家振
+    name: Aron
+    password: jia
+    id: U9733023
+  - Chinese: 曾心薇
+    name: Tracy2
+    password: xin
+    id: U9733024
+  - Chinese: 蘇詩雯
+    name: Angela
+    password: shi
+    id: U9733025
+  - Chinese: 林佑澤
+    name: Kim
+    password: you
+    id: U9733026
+  - Chinese: 陳諭璿
+    name: William
+    password: yu
+    id: U9733027
+  - Chinese: 陳楷欣
+    name: Eric
+    password: kai
+    id: U9733028
+  - Chinese: 蔡捷恩
+    name: Mark
+    password: jie
+    id: U9733029
+  - Chinese: 葉致宏
+    name: Joe
+    password: zhi
+    id: U9733030
+  - Chinese: 蔡昀倫
+    name: Allen
+    password: yun
+    id: U9733031
+  - Chinese: 謝允中
+    name: Wade
+    password: yun
+    id: U9733032
+  - Chinese: 張智維
+    name: Gary
+    password: zhi
+    id: U9733033
+  - Chinese: 吳佳宬
+    name: Eva
+    password: jia
+    id: U9733034
+  - Chinese: 王裕凱
+    name: Dark
+    password: yu
+    id: U9733035
+  - Chinese: 曾熏翊
+    name: Kin
+    password: xun
+    id: U9733036
+  - Chinese: 莊盛淵
+    name: Chris
+    password: sheng
+    id: U9733038
+  - Chinese: 賴秀瑩
+    name: Jenny
+    password: xiu
+    id: U9733039
+  - Chinese: 朱雁飛
+    name: Frad
+    password: yan
+    id: U9733040
+  - Chinese: 劉育辰
+    name: Yu
+    password: yu
+    id: U9733041
+  - Chinese: 簡毓儇
+    name: Kent
+    password: yu
+    id: U9733042
+  - Chinese: 蘇楷揚
+    name: Chester
+    password: kai
+    id: U9733043
+  - Chinese: 王竣玄
+    name: Ron
+    password: jun
+    id: U9733044
+  - Chinese: 李建緯
+    name: Willy
+    password: jian
+    id: U9733045
+  - Chinese: 吳明城
+    name: Kobe
+    password: ming
+    id: U9733046
+  - Chinese: 蔡明達
+    name: Frank
+    password: ming
+    id: U9733047
+  - Chinese: 許駿志
+    name: Eddie
+    password: jun
+    id: U9733048
+  - Chinese: 簡培倫
+    name: Wendy
+    password: pei
+    id: U9733049
+  - Chinese: 林品菁
+    name: Shiny
+    password: pin
+    id: U9733050
+  - Chinese: 張?心
+    name: Pear
+    password: ?
+    id: U9733051
+  - Chinese: 陳鈺禮
+    name: Mike
+    password: yu
+    id: U9633015
+  - Chinese: 湯琬萍
+    name: Diana
+    password: wan
+    id: U9733054
+  - Chinese: 楊偉文
+    name: World
+    password: wei
+    id: U9733055
+absent:
+  - None
+series:
+  - first
+  - second
+  - third
+hw: /home/drbean/class/MIA0017/homework
+hwMax: 2
+exams:
+  - exam1
+  - exam2
+examMax: 15
+weights:
+  classwork: 20
+  homework : 20
+  exams    : 60
+regions:
+  Front:
+    - Black
+    - DarkGreen
+    - LightGreen
+    - Purple
+  Middle:
+    - Brown
+    - Gray
+    - Orange
+    - Red
+  Back:
+    - White
+    - Pink
+    - LightBlue
+    - Yellow
+    - DarkBlue
+expertseats:
+  Front:
+    A : [08, 07, 16, 15]
+    B : [06, 05, 14, 13]
+    C : [04, 03, 12, 11]
+    D : [02, 01, 10, 09]
+  Middle:
+    A: [24, 23, 32, 31]
+    B: [22, 21, 30, 29]
+    C: [20, 19, 28, 27]
+    D: [18, 17, 26, 25]
+  Back:
+    A  : [40, 39, 48, 47, 55]
+    B  : [38, 37, 46, 45, 53]
+    C  : [36, 35, 44, 43, 51]
+    D  : [34, 33, 42, 41, 49]
+originalexpertseats:
+  4:
+    A: [08, 07, 16]
+    B: [24, 23, 32]
+    C: [40, 39, 48]
+    D: [56, 55, 47]
+  3:
+    A: [06, 05, 14]
+    B: [22, 21, 30]
+    C: [38, 37, 46]
+    D: [54, 53, 45]
+  2:
+    A: [04, 03, 12]
+    B: [20, 19, 28]
+    C: [36, 35, 44]
+    D: [52, 51, 62]
+  1:
+    A: [02, 01, 10]
+    B: [18, 17, 26]
+    C: [34, 33, 42]
+    D: [50, 49, 60]
+ 
+oldseats:
+  9 : [08, 07, 16, 15]
+  11: [06, 05, 14, 13]
+  12: [04, 03, 12, 11]
+  6 : [02, 01, 10, 09, 17]
+
+  8 : [24, 23, 32, 31]
+  10: [22, 21, 30, 29]
+  5 : [20, 19, 28, 27, 18]
+
+  1 : [40, 39, 48, 47]
+  2 : [38, 37, 46, 45]
+  3 : [36, 35, 44, 43]
+  4 : [34, 33, 42, 41, 26]
+ 
+seats:
+  Purple    : [08, 07, 16, 15]
+  LightGreen: [06, 05, 14, 13]
+  DarkGreen : [04, 03, 12, 11]
+  Black     : [02, 01, 10, 09]
+
+  Red       : [24, 23, 32, 31]
+  Orange    : [22, 21, 30, 29]
+  Gray      : [20, 19, 28, 27]
+  Brown     : [18, 17, 26, 25]
+
+  White     : [40, 39, 48, 47]
+  Pink      : [38, 37, 46, 45]
+  LightBlue : [36, 35, 44, 43]
+  DarkBlue  : [34, 33, 42, 41]
+ 
+  Yellow     : [56, 55, 54, 53]
+approach: groupwork
