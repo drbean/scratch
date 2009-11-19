@@ -11,7 +11,7 @@ my $week = '221perhaps';;
 use Grades;;
 my $l = League->new( id => '.' );;
 my $g = Grades->new( league => $l );;;
-my $s = LoadFile '$session/${week}work.yaml';
+my $s = LoadFile '$session/${week}.work.yaml';
 
 my $b = $g->beancans( $session );
 my %m = map { $_->{id} => $_ } @$members;
