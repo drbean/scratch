@@ -1,0 +1,64 @@
+<TMPL>$autogen</TMPL>
+\documentclass[a4paper]{article}
+\usepackage[T1]{fontenc}
+% \usepackage[absolute,noshowtext,showboxes]{textpos}
+\usepackage[absolute,showboxes]{textpos}
+\TPMargin{0.2cm}
+\usepackage{CJK}
+% \textblockorigin{0.30cm}{0.35cm} % HP810C
+% \textblockorigin{0.30cm}{2.35cm} % w5 LaserJet
+\textblockorigin{0.00cm}{0.05cm} % hp deskjet 5160
+\usepackage{texdraw}
+\pagestyle{empty}
+\setlength{\unitlength}{1cm}
+\renewcommand{\baselinestretch}{0.5}
+\newcommand{\mycard}[2]{%
+\parbox[b][29.0cm][t]{4.6cm}{ \Large #1\\
+\normalsize
+\begin{description}
+#2
+\end{description}
+}
+}
+
+\begin{document}
+\begin{CJK}{UTF8}{song}
+
+\begin{textblock}{15}(0,0)
+\textblocklabel{picture0,0}
+\Large <TMPL>$league</TMPL> Report for <TMPL>$round</TMPL> Exam, Week <TMPL>$week</TMPL>\\
+\end{textblock}
+
+\begin{textblock}{3.5}(0,0.7)
+\textblocklabel{picture0,0.7}
+\mycard
+{Player's Score}
+{<TMPL>$indScores</TMPL>}
+\end{textblock}
+
+\begin{textblock}{4.25}(3.5,0.7)
+\textblocklabel{picture3.5,0.7}
+\hspace{-0.5cm}
+\mycard
+{Group's Total Score}
+{<TMPL>$groupScores</TMPL>}
+\end{textblock}
+
+\begin{textblock}{4.25}(7.75,0.7)
+\textblocklabel{picture8.0,0.7}
+\hspace{-0.5cm}
+\mycard
+{Raw Grade}
+{<TMPL>$points</TMPL>}
+\end{textblock}
+
+\begin{textblock}{3.5}(12.0,0.7)
+\textblocklabel{picture11.5,0.7}
+\hspace{-0.5cm}
+\mycard
+{Adjusted Grade}
+{<TMPL>$grades</TMPL>}
+\end{textblock}
+
+\end{CJK}
+\end{document}

@@ -1,0 +1,94 @@
+---
+Chinese:
+  Black:                  0
+  Brown:                  0
+  DarkBlue:               1
+  DarkGreen:              0
+  Gray:                   1
+  LightBlue:              1
+  LightGreen:             0
+  Orange:                 0
+  Pink:                   1
+  Purple:                 0
+  Red:                    0
+  White:                  1
+  Yellow:                 0
+letters:
+  Black:
+    A:                    4
+    B:                    6
+    C:                    6
+    D:                    7
+    story:                tips 2
+  Brown:
+    A:                    4
+    B:                    8
+    C:                    6
+    D:                    6
+    story:                tips 2
+  DarkBlue:
+    A:                    8
+    B:                    8
+    C:                    2
+    D:                    2
+    story:                candidate 2
+  DarkGreen:
+    A:                    7
+    B:                    6
+    C:                    9
+    D:                    5
+    story:                tips 1
+  Gray:
+    A:                    6
+    B:                    4
+    C:                    4
+    D:                    6
+    story:                candidate 1
+  LightBlue:
+    A:                    4
+    B:                    6
+    C:                    8
+    D:                    6
+    story:                candidate 1
+  LightGreen:
+    A:                    5
+    B:                    4
+    C:                    6
+    D:                    6
+    story:                candidate 2
+  Orange:
+    A:                    6
+    B:                    5
+    C:                    6
+    D:                    5
+    story:                candidate 2
+  Pink:
+    A:                    6
+    B:                    8
+    C:                    7
+    D:                    6
+    story:                tips 2
+  Purple:
+    A:                    6
+    B:                    6
+    C:                    5
+    D:                    4
+    story:                candidate 1
+  Red:
+    A:                    7
+    B:                    6
+    C:                    8
+    D:                    7
+    story:                tips 1
+  White:
+    A:                    5
+    B:                    8
+    C:                    8
+    D:                    6
+    story:                tips 1
+  Yellow:
+    A:                    8
+    B:                    8
+    C:                    8
+    D:                    5
+    story:                tips 1
