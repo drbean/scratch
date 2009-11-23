@@ -1,0 +1,38 @@
+---
+Chinese:
+  Brown:                 1
+  DarkBlue:              0
+  DarkGreen:             0
+  LightGreen:            1
+  Orange:                0
+letters:
+  Brown:
+    A:                    9
+    B:                    5
+    C:                    5
+    D:                    9
+    story:                clay3
+  DarkBlue:
+    A:                    8
+    B:                    7
+    C:                    5
+    D:                    6
+    story:                viviano
+  DarkGreen:
+    A:                    5
+    B:                    3
+    C:                    7
+    D:                    8
+    story:                jackson0
+  LightGreen:
+    A:                    6
+    B:                    4
+    C:                    6
+    D:                    5
+    story:                jackson1
+  Orange:
+    A:                    6
+    B:                    6
+    C:                    9
+    D:                    3
+    story:                goetz
