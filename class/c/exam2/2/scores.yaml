@@ -1,0 +1,38 @@
+---
+Chinese:
+  Brown:                 1
+  DarkBlue:              0
+  DarkGreen:             0
+  LightGreen:            0
+  Orange:                0
+letters:
+  Brown:
+    A:                    8
+    B:                    7
+    C:                    8
+    D:                    9
+    story:                goetz
+  DarkBlue:
+    A:                    8
+    B:                    9
+    C:                    8
+    D:                    6
+    story:                clay3
+  DarkGreen:
+    A:                    5
+    B:                    8
+    C:                    8
+    D:                    6
+    story:                clay5
+  LightGreen:
+    A:                    8
+    B:                    8
+    C:                    9
+    D:                    9
+    story:                goetz
+  Orange:
+    A:                    7
+    B:                    8
+    C:                    4
+    D:                    7
+    story:                clay5

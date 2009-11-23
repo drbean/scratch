@@ -1,0 +1,50 @@
+---
+round: Exam 1 (Part2)
+week: 4
+texts:
+questions:
+  - 9
+pass: 5
+assistant:
+  - Yi-Fan
+  - Yu-min
+  - Ya-hui
+  - Howard
+  - Gladys
+absent:
+  - Stewart
+  - Xiu-Jie
+  - Chien-Yu
+  - Leon
+group:
+  Brown:
+    A: Allen
+    B: Philip
+    C: Kenny
+    D: Phil
+  DarkBlue:
+    A: David
+    B: Jeff
+    C: Marie
+    D: Yong-hung
+  LightGreen:
+    A: Eva
+    B: Ken
+    C: Ya-hui
+    D: Gladys
+  Orange:
+    A: Hong-Zhi
+    B: Meng-sun
+    C: Howard
+    D: Yu-min
+  Pink:
+    A: Yi-Fan
+    B: Frank
+    C: Yu-min
+    D: Lisa
+  Purple:
+    A: Yi-Fan
+    B: Ya-hui
+    C: Howard
+    D: Gladys
+
