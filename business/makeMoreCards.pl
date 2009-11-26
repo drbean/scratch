@@ -14,12 +14,16 @@ for my $t ( keys %$cards ) {
 	next unless ref $topic eq 'HASH';
 	for my $f ( keys %$topic ) {
 		my $form = $topic->{$f};
+                my $pairtmpl = Text::Template->new( type => 'file',
+                        source =>  'oneA4fourpairs.tmpl' ,
+                        delimiters => [ '<TMPL>', '</TMPL>' ]);
 		my $fourtmpl = Text::Template->new( type => 'file',
 			source =>  'oneA4twogroups.tmpl' ,
 			delimiters => [ '<TMPL>', '</TMPL>' ]);
 		my $quiztmpl = Text::Template->new( type => 'file',
 			source =>  'questionsB5.tmpl' ,
 			delimiters => [ '<TMPL>', '</TMPL>' ]);
+                my $cio = io "$ARGV[0]/pair$t$f.tex";
 		my $fio = io "$ARGV[0]/four$t$f.tex";
 		my $qio = io "$ARGV[0]/quiz$t$f.tex";
 		my $hio = io "$ARGV[0]/quiz$t$f.html";
@@ -29,6 +33,7 @@ for my $t ( keys %$cards ) {
 			$form->{ "q$n" } = $qa->{question};
 			$n++;
 		}
+                $cio->print( $cardtmpl->fill_in( hash=> $form ) );
 		$fio->print( $fourtmpl->fill_in( hash=> $form ) );
 		$qio->print( $quiztmpl->fill_in( hash=> $form ) );
 		my @htmlq = map { $form->{"q$_"} } 1 .. $n-1;
