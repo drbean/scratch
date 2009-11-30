@@ -13,7 +13,7 @@ my $points;
 # $p->{correct} = $c->{correct};
 
 for my $player ( keys %$opponents ) {
-	if ( $player eq 'bye' ) {
+	if ( $player =~ m/bye/i ) {
 		my $byer = $opponents->{$player};
 		$points->{$byer} = 5;
 		next;
@@ -25,11 +25,8 @@ for my $player ( keys %$opponents ) {
 		}
 		next;
 	}
-	if ( $player eq 'unpaired' ) {
-		my $unpaired = $opponents->{$player};
-		# for my $unpaired ( @$unpaired ) {
-			$points->{$unpaired} = 0;
-		# }
+	if ( $opponents->{$player} =~ m/unpaired/i ) {
+		$points->{$player} = 0;
 		next;
 	}
 	my $opponent = $opponents->{$player};
