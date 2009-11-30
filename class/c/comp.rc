@@ -1,5 +1,5 @@
 use YAML qw/LoadFile DumpFile/;
-my $comp = 'biodad';
+my $comp = 'biomom';
 my $league = LoadFile 'league.yaml';
 my %members = map { $_->{id} => $_ } @{ $league->{member} };
 
@@ -27,9 +27,9 @@ for my $player ( keys %$opponents ) {
 	}
 	if ( $player eq 'unpaired' ) {
 		my $unpaired = $opponents->{$player};
-		for my $unpaired ( @$unpaired ) {
+		# for my $unpaired ( @$unpaired ) {
 			$points->{$unpaired} = 0;
-		}
+		# }
 		next;
 	}
 	my $opponent = $opponents->{$player};
@@ -37,10 +37,13 @@ for my $player ( keys %$opponents ) {
 	die
 "${player}'s opponent is $opponent, but
 ${opponent}'s opponent is $opponentopponent" unless
-	$opponent and $opponentopponent and $player eq $opponentopponent;
-	die "No $player quiz card?" unless exists $correct->{$player};
+	$opponent and $opponentopponent and $player eq $opponentopponent
+	or $opponent eq 'Unpaired' and not $opponentopponent;
+	die "No $player quiz card?" unless exists $correct->{$player} or 
+		$opponents->{$player} eq 'Unpaired';
 	my $ourcorrect = $correct->{$player};
-	die "No $opponent card against $player?" unless exists $correct->{$opponent};
+	die "No $opponent card against $player?" unless exists
+		$correct->{$opponent} or $opponents->{$player} eq 'Unpaired';
 	my $theircorrect = $correct->{$opponent};
 	if ( not defined $ourcorrect ) {
 		$points->{$player} = 0;
