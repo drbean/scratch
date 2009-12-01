@@ -13,16 +13,8 @@ my $points;
 # $p->{correct} = $c->{correct};
 
 for my $player ( keys %$opponents ) {
-	if ( $player =~ m/bye/i ) {
-		my $byer = $opponents->{$player};
-		$points->{$byer} = 5;
-		next;
-	}
-	if ( $player eq 'late' ) {
-		my $unpaired = $opponents->{$player};
-		for my $unpaired ( @$unpaired ) {
-			$points->{$unpaired} = 1;
-		}
+       if ( $opponents->{$player} =~ m/bye/i ) {
+		$points->{$player} = 5;
 		next;
 	}
 	if ( $opponents->{$player} =~ m/unpaired/i ) {
@@ -34,13 +26,10 @@ for my $player ( keys %$opponents ) {
 	die
 "${player}'s opponent is $opponent, but
 ${opponent}'s opponent is $opponentopponent" unless
-	$opponent and $opponentopponent and $player eq $opponentopponent
-	or $opponent eq 'Unpaired' and not $opponentopponent;
-	die "No $player quiz card?" unless exists $correct->{$player} or 
-		$opponents->{$player} eq 'Unpaired';
+	$opponent and $opponentopponent and $player eq $opponentopponent;
+	die "$player returned quiz card?" unless exists $correct->{$player};
 	my $ourcorrect = $correct->{$player};
-	die "No $opponent card against $player?" unless exists
-		$correct->{$opponent} or $opponents->{$player} eq 'Unpaired';
+	die "$opponent returned card against $player?" unless exists $correct->{$opponent} or $opponent eq 'Bye';
 	my $theircorrect = $correct->{$opponent};
 	if ( not defined $ourcorrect ) {
 		$points->{$player} = 0;
@@ -54,4 +43,4 @@ ${opponent}'s opponent is $opponentopponent" unless
 				$ourcorrect < $theircorrect? 3: 4
 }
 
-# DumpFile "${comp}/points.yaml", $points;
+DumpFile "${comp}/points.yaml", $points;
