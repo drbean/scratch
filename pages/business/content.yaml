@@ -128,3 +128,29 @@ topic:
           <li><b>C students:</b> Listen to <a href="http://marklivesinikea.com/01_video/06_marks_ikea_word_scramble_01.html">Mark's IKEA word scramble #1</a> and <a href="http://marklivesinikea.com/01_video/07_mark_gets_buff_in_ikea.html">Mark gets buff in IKEA</a> and <a href="http://marklivesinikea.com/01_video/08_mark_hitchhikes_in_ikea.html">Mark hitchhikes in IKEA</a> and <a href="http://marklivesinikea.com/01_video/09_mark_closes_ikea.html">Mark closes IKEA</a>.
           <li><b>D students:</b> Listen to <a href="http://marklivesinikea.com/01_video/11_marks_date_in_ikea_01.html">Mark's date in IKEA Part 01</a>, <a href="http://marklivesinikea.com/01_video/12_marks_date_in_ikea_02.html">Mark's date in IKEA Part 02</a>, <a href="http://marklivesinikea.com/01_video/13_marks_date_in_ikea_03.html">Mark's date in IKEA Part 03</a>, and <a href="http://marklivesinikea.com/01_video/14_marks_date_in_ikea_04.html">Mark's date in IKEA Part 04</a>.
           </ul>
+  -
+    id: greatideas
+    title: Great business ideas
+    intro: The secret to business success is a great idea. IKEA's ideas were great. Here are some other great ideas.
+    story:
+      -
+        id: greatideacars1
+        title: Las Vegas car showroom charges admission fee
+        blurb: The car showroom sells expensive cars and people were just coming to look. That is the problem. What was the good idea? Did it work? What can you learn from their experiment?
+        comment: |+
+          <ul>
+          <li><b>A students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/greatideacars1A.mp3">A</a>
+          <li><b>B students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/greatideacars1B.mp3">B</a>
+          <li><b>C students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/greatideacars1c.mp3">C</a>
+          <li><b>D students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/greatideacars1D.mp3">D</a>
+          </ul>
+      -
+        id: citrus1
+        title: Farmers, Government create market. Pepsi buys their citrus.
+        blurb: Punjab farmers and the government were able to develop the area by growing citrus. The government takes farmers' land for 4 years and gives farmers 50 percent from sale of the fruit. What do you think?
+        comment: This week, listen to the whole of the <a href="http://web.nuu.edu.tw/~greg/business/citrus.mp3">sound file</a>, but only transcribe your section. From this week, this homework is only worth one point.
+      -
+        id: internet1
+        title: Money making idea on Internet
+        blurb: Ian Tew made a million dollars by offering advertisers space on his home page. <a href="http://web.nuu.edu.tw/~greg/business/internet1.mp3">Listen</a> how he did it.
+        comment: Listen to the whole of the <a href="http://web.nuu.edu.tw/~greg/business/internet1.mp3">sound file</a>, but only transcribe your section. Each person in your group has a separate section to transcribe. Again, this week the homework is only worth one point.
