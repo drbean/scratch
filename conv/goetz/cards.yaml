@@ -1,13 +1,9 @@
 ---
 identifier: Mother talks to son about marriage
-A: You met your wife, PJ in a bar when you were 22. You showed her you loved her, then. After you got married, you showed your love for her less. You spent more time with Dick and other old friends. PJ was unhappy, and you separated for 2 years. Now you are back together and your marriage is strong.
-B: After your marriage, Dan didn't have much time for you. And you were busy teaching and having Sam and your other kids. You both became unhappy. You separated for two years and came close to getting a divorce. Now your marriage is strong, but Dan still only sometimes does things with you on the weekend.
-C: You are Dan's old friend. You still meet him almost every weekend. Eight years ago, you were surprised when he and his wife separated. Even though you liked spending time with Dan, you realized that PJ was unhappy about how much time Dan spent with his friends. You told Dan to show PJ more love.
-D: Your mother tells you that love is not just what you feel for another person. It's also what you do for them. You think your mom is telling you that she wants Dad to spend more time with the family doing things on the weekend. He isn't at home much on the weekend, even now. 
-AA: You started working and left home when you were sixteen. So when you met this guy, Dan in a bar when you were eighteen, he swept you off your feet. Now the relationship isn't as good as before. But you love your kids, especially the youngest, Sam.
-AB: Your mom, PJ, tells you about her life. She was on her own, but you have a mom and dad and brothers, who are a lot older than you. You were born twelve years after your mother got married. You wonder if Mom and Dad got on better then. You wish they got along better now.
-AC: You met PJ in a bar. You were twenty-two. You had an exciting relationship then. Now life isn't so good as it was. Supporting the family is a huge responsibility. You don't think PJ is a very good homemaker. You wish her mother, Ann could have taught her to be a better mother and better wife.
-AD: You died when your daughter was seven. If you had been alive, you wouldn't have liked this guy she married. He doesn't seem very responsible. Your daughter is working, but he doesn't have a good job. You don't think he is a very good husband.
+A: You started working and left home when you were sixteen. So when you met this guy, Dan in a bar when you were eighteen, he swept you off your feet. Now the relationship isn't as good as before. But you love your kids, especially the youngest, Sam.
+B: Your mom, PJ, tells you about her life. She was on her own, but you have a mom and dad and brothers, who are a lot older than you. You were born twelve years after your mother got married. You wonder if Mom and Dad got on better then. You wish they got along better now.
+C: You met PJ in a bar. You were twenty-two. You had an exciting relationship then. Now life isn't so good as it was. Supporting the family is a huge responsibility. You don't think PJ is a very good homemaker. You wish her mother, Ann could have taught her to be a better mother and better wife.
+D: You died when your daughter was seven. If you had been alive, you wouldn't have liked this guy she married. He doesn't seem very responsible. Your daughter is working, but he doesn't have a good job. You don't think he is a very good husband.
 White: |+
   \begin{normalsize}Facts about PJ Goetz\end{normalsize}
   \normalsize
@@ -24,27 +20,6 @@ Black: |+
   \item [Listener Reaction] Listeners to PJ's story said they like the fact that she could talk openly to her son about her relationship with his dad like to another adult.
   \end{description}
 quiz:
-  - question: A is Dan
-    answer: True
-  - question: B is Dick
-    answer: False
-  - question: C is PJ
-    answer: False
-  - question: D is Sam
-    answer: True
-  - question: PJ and her husband are separated.
-    answer: False
-  - question: PJ says love is how you feel, not what you do.
-    answer: False
-  - question: Dan and Dick spend a lot of time together.
-    answer: True
-  - question: Dan and PJ's marriage is strong.
-    answer: True
-  - question: Dick told Dan to show PJ more love.
-    answer: True
-  - question: Dan is not much with his family on the weekend.
-    answer: False
-Aquiz:
   - question: PJ and her husband are separated.
     answer: False
   - question: PJ tries to do the best she can for her kids.
