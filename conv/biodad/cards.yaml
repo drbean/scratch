@@ -47,7 +47,7 @@ biodad:
         answer: False
       - question: Nick may want to see his dad less than vice-versa.
         answer: False
-  2:
+  comp2:
     identifier: biodad2
     A: 
     B: 
@@ -90,6 +90,53 @@ biodad:
         answer: False
       - question: Nick wanted to see his biological dad.
         answer: True
+  2:
+    identifier: biodad 2
+    A: When you were a student, you were living with a student called Eloise. When Eloise got pregnant, you didn't want her to keep the child. You didn't want children. She refused to give up the child, so you left her.
+    B: When you were a student, you were living with a graduate student called Jock. You wanted to get married when you got pregnant, but he refused to and left you to bring up the child alone.
+    C: Your daughter was an unmarried mother. She was determined to bring up the child alone. You tried to contact Jock, the father, but Eloise wouldn't help. You loved Nick, your grandson, but hated his father.
+    D: You are Jock's son. But you didn't know your dad. Your grandmother, Margaret told you your father had not been a good man. Your mother only told you his name. She never talked about him with you.
+    quiz:
+      - question: A
+        option:
+          - Eloise
+          - Jock
+          - Margaret
+          - Nick
+        answer: Eloise
+      - question: B
+        option:
+          - Eloise
+          - Jock
+          - Margaret
+          - Nick
+        answer: Jock
+      - question: C
+        option:
+          - Eloise
+          - Jock
+          - Margaret
+          - Nick
+        answer: Margaret
+      - question: D
+        option:
+          - Eloise
+          - Jock
+          - Margaret
+          - Nick
+        answer: Nick
+      - question: A wanted to have children.
+        answer  : False
+      - question: B didn't want to get married.
+        answer  : False
+      - question: C hates her grandson.
+        answer  : False
+      - question: D didn't know A.
+        answer  : True
+      - question: C wanted to contact A about the child.
+        answer  : True
+      - question: B didn't talk to D about his father.
+        answer  : True
   3:
     identifier: biodad3
     A: You didn't know your father wasn't your biological father growing up. You learned your biological father's name was Jock when you were 19. You got a shock when your parents told you. Although you don't feel anything about this man, you are curious about him and want to meet him. 
