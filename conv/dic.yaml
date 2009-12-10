@@ -269,25 +269,49 @@
   - "biomom"
   - "Relationship of adopted child with birth mother"
   - "intermediate"
-  - "all"
+  - A
   - |+
-    "Dimasi: When did you decide to give me up for adoption.
-    Adam: Well, I was in my final year of university, and I wasn't in a serious relationship with anyone. It was kind of a fluke. You know they say it only takes once. And it turned out to be true. And it was probably the loneliest time of my entire life. When I was in the hospital, I was there for hours by myself. And then they took you away, and they wouldn't allow me to see you. But one of the nurses took pity on me and brought you in to my room in the middle of the night one night so that I could count fingers and toes. But then the other, uhm, practice was that in the case of adoption, I had to actually carry you out of the hospital and hand you to the doctor, physically. That was supposed to be an indication of my willingness to give up the child. And, that was hard.
-    Dimasi: I want you to know that I never was angry. I never resented your decision. I've never had reason to. I knew that I was adopted, and my parents always made it a positive part of my life, that they picked me, that they really wanted me. And I just remember your being a question mark. That part of who I was was just a question mark. And I got to a point in my early twenties when I was just so curious, and I asked my parents if they had, you know, any legal papers or, or hospital papers. And my father took me upstairs and gave me a pile of papers, and that's when I discovered the hospital bill that had your name on it.
+    Dimasi: When did you decide to give me up for adoption.
+    Adam: Well, I was in my final year of university, and I wasn't in a serious relationship with anyone. It was kind of a fluke. You know they say it only takes once. And it turned out to be true. And it was probably the loneliest time of my entire life. When I was in the hospital, I was there for hours by myself. And then they took you away, and they wouldn't allow me to see you. But one of the nurses took pity on me and brought you in to my room in the middle of the night one night so that I could count fingers and toes.
+  - "Adam|Dimasi|fluke"
+-
+  - "biomom"
+  - "Relationship of adopted child with birth mother"
+  - "intermediate"
+  - B
+  - |+
+    Adam: But then the other, uhm, practice was that in the case of adoption, I had to actually carry you out of the hospital and hand you to the doctor, physically. That was supposed to be an indication of my willingness to give up the child. And, that was hard.
+    Dimasi: I want you to know that I never was angry. I never resented your decision. I've never had reason to. I knew that I was adopted, and my parents always made it a positive part of my life, that they picked me, that they really wanted me. And I just remember your being a question mark. That part of who I was was just a question mark. And I got to a point in my early twenties when I was just so curious ...
+  - "Adam|Dimasi|resented"
+-
+  - "biomom"
+  - "Relationship of adopted child with birth mother"
+  - "intermediate"
+  - C
+  - |+
+    Dimasi: And I asked my parents if they had, you know, any legal papers or, or hospital papers. And my father took me upstairs and gave me a pile of papers, and that's when I discovered the hospital bill that had your name on it.
     Adam: Mmh-hmm.
     Dimasi: On all the other papers, your name was blacked out with a magic marker. But there was this one for, like, aspirin.
     Adam: Ha, ha, ha.
     Dimasi: It was the most inconsequential bill, but there was your name, and it was the first moment that you as a person were concrete to me.
     Adam: Mmh.
     Dimasi: And it knocked me down.
-    Adam: I remember that first phone call that we had. You had left me a message. So I had your voice on my machine and I kept listening to it over and over and over again, 'cause it just had never crossed my mind that I would ever hear your voice. I think it was at least midnight by the time I called you, maybe later. And we talked for two or three hours, it just seemed so easy. We haven't shut up much since.
+    Adam: I remember that first phone call that we had. You had left me a message. 
+  - "Adam|Dimasi|legal|magic marker|aspirin|inconsequential"
+-
+  - "biomom"
+  - "Relationship of adopted child with birth mother"
+  - "intermediate"
+  - D
+  - |+
+    Adam: So I had your voice on my machine and I kept listening to it over and over and over again, 'cause it just had never crossed my mind that I would ever hear your voice. I  think it was at least midnight by the time I called you, maybe later. And we talked for two or three hours, it just seemed so easy. We haven't shut up much since.
     Dimasi: No.  
     Adam: Ha, ha, ha.
     Dimasi: That's true.
     Dimasi: When I describe our relationship to people, I say that you're more like a mentor than a mother. You're a person that I turn to for advice and someone that I enjoy talking to about all the things that I'm passionate about.
     Adam: I'm really grateful. I love you.
-    Dimasi: I love you too."
-  - "Adam|Dimasi|resented|fluke|legal|magic marker|aspirin|inconsequential|mentor"
+    Dimasi: I love you too.
+  - "Adam|Dimasi|mentor"
 -
   - "biodad"
   - "intermediate"
@@ -375,6 +399,93 @@
 
     This is Morning Edition, from NPR News."
   - "oral|recording booth|Judy|Allen|Kelly|Edwards|Portland|Oregon|Grand Central Terminal|empowered|philandering|heaved|proceedings|Alaska|schlepped|Saturn"
+-
+  - undertaker
+  - Reed tells class of undertaker dream
+  - intermediate
+  - A
+  - |+
+    I remember one time in the first grade, my teacher, she was going round to everyone, and, uh, she asked them what they wanted to be. So she got to me. And she says, Sammy Reed. They all called me Sammy, instead of Samuel. What do you want to be when you grow up. And I said I want to be an undertaker. And, everybody thought that was crazy. But I was always fascinated with the way a dead person looked when you went to see them.
+    Coming up, you would listen to the elders talk about a person was killed in a car wreck.
+  - undertaker|Samuel
+-
+  - undertaker
+  - Reed's early funeral experiences
+  - intermediate
+  - B
+  - |+
+    Coming up, you would listen to the elders talk about a person was killed in a car wreck, and they was messed up and everything. But when you got to the funeral, you would hear them say, Wow, Grandma looked great. She looked at peace. And, and I wanted to know how to do that.
+
+    And whenever I had a pet die, you know, I always would bury the pet, on the side of the creek bank. I would have my little sisters. They would pick flowers, and we'd just stand around, have a little funeral, you know.
+  - wreck|messed|peace|creek bank|funeral
+-
+  - undertaker
+  - Reed on undertaker stereotypes
+  - intermediate
+  - C
+  - |+
+    So, I just knew that this was what I was destined to do, to deal with the dead.
+
+    And, I always get this. You don't look like an undertaker. And I said, Well, what does an undertaker look like. They said, They look dead. And, they look old. And they drink a lot. I said, Well, I'm not dead. I don't think I look old, even for my age. And I said, I don't drink.
+
+    You know, a lot of people think because we're morticians, and we're in the business of dealing with this on a day-to-day basis, that we're cold.
+  - destined|undertaker|morticians|day-to-day
+-
+  - undertaker
+  - Undertakers' reaction to death
+  - intermediate
+  - D
+  - |+
+    I said, Well, I'm not dead. I don't think I look old, even for my age. And I said, I don't drink.
+
+    You know, a lot of people think because we're morticians, and we're in the business of dealing with this on a day-to-day basis, that we're cold. But we react the same way when we lose a loved one. I mean, there's no different. And the best part is, meeting the needs of the families. Their loads should just be a little bit lighter. That's what I strive to do every day, to make people feel better.
+  - morticians|day-to-day|loads|strive
+-
+  - pestcontroller
+  - Identifying insects
+  - intermediate
+  - A
+  - |+
+    We need to identify the insect. That's the first thing you have to do. You have to identify the pest. Believe it or not, this is very scientific type of work.
+
+    Uh, one of the big issues of the day is bed bugs. I had a gentleman, came in yesterday. Thought he had bed bugs. He shows me a sample. I look at it. It's a ladybug, just an Asian beetle. Big deal. And the guy almost cried.
+  - Asian|ladybug
+-
+  - pestcontroller
+  - Spectacular bugs
+  - intermediate
+  - B
+  - |+
+
+    He's all, Thank God, I thought I had bed bugs. And I do this every day. 
+
+    I don't respect an insect. But if you look deep enough, there's always something fascinating about even the most unpleasant creatures.
+
+    I mean, roaches. Let's face it. Roaches are spectacular. They've been around for billions of years. There's something to be said about an insect like that.
+
+    In this field, you don't expect a person with an ...
+  - billions
+-
+  - pestcontroller
+  - Becoming a pest controller
+  - intermediate
+  - C
+  - |+
+
+    ... advanced degree, speaks three languages, who is a classically-trained musician, because it doesn't make sense. What the hell are you doing killing bugs? That's the question: How'd you get involved in doing this?
+
+    My uncle had a pest control company. When I hit the brick wall, and couldn't find employment, my uncle just happened to be ready to retire. Because it wasn't what I had trained for, it wasn't what I expected, I went in ...
+  - classically-trained
+-
+  - pestcontroller
+  - Change of mind about job
+  - intermediate
+  - D
+  - |+
+    ... with a great deal of resentment. And for a time I was turning off customers, 'cause I would answer the phone that way, just, 'Bug off.' So I had to follow that up, 'Bug off .. Pest Control Center, can I help you?' You know, ha-ha, so I wouldn't lose that much clientele.
+
+    Then I changed the mindset, and I said, Wait. If I make somebody feel better, and he's more, you know, at ease, that's, that's golden.
+  - clientele
 ---
 -
   - genre
@@ -653,43 +764,50 @@
   - "intermediate"
   - "biomom"
   - 1
-  - "all"
+  - "C"
   - "Dimasi discovered her mother's name with a hospital bill."
   - "True" 
 -
   - "intermediate"
   - "biomom"
   - 2
-  - "all"
+  - "D"
   - "The two people have a good relationship, but the child does not think of her mother as a mother."
   - "True" 
 -
   - "intermediate"
   - "biomom"
   - 3
-  - "all"
+  - "C"
   - "The first phone call they had, the two people talked for two or three hours."
   - "True" 
 -
   - "intermediate"
   - "biomom"
   - 4
-  - "all"
+  - "C"
   - "The mother left a message on her child's phone,"
   - "False" 
 -
   - "intermediate"
   - "biomom"
   - 5
-  - "all"
+  - "B"
   - "The father never told his child she was adopted."
   - "False" 
 -
   - "intermediate"
   - "biomom"
   - 6
-  - "all"
+  - "C"
   - "The father didn't want his child to know her mother's name."
+  - "False" 
+-
+  - "intermediate"
+  - "biomom"
+  - 7
+  - "A"
+  - "She had a serious relationship with some one."
   - "False" 
 -
   - "intermediate"
@@ -859,3 +977,115 @@
   - "all"
   - "Patients are not prepared when they are told they are going to die."
   - "False" 
+-
+  - intermediate
+  - undertaker
+  - 1
+  - A
+  - Everybody thought Reed's fascination with being an undertaker was crazy.
+  - True
+-
+  - intermediate
+  - undertaker
+  - 2
+  - A
+  - Reed didn't want to be an undertaker when he was in first grade.
+  - False
+-
+  - intermediate
+  - undertaker
+  - 3
+  - B
+  - Grandma was killed in a car, but when she was buried she looked great.
+  - True
+-
+  - intermediate
+  - undertaker
+  - 4
+  - B
+  - Reed would kill a pet sister and have a funeral.
+  - False
+-
+  - intermediate
+  - undertaker
+  - 5
+  - C
+  - People think undertakers are old, cold and drink a lot.
+  - True
+-
+  - intermediate
+  - undertaker
+  - 6
+  - C
+  - Reed looks old and cold and drinks a lot.
+  - False
+-
+  - intermediate
+  - undertaker
+  - 7
+  - D
+  - People in the business are no different to a lot of people when they lose loved ones.
+  - True
+-
+  - intermediate
+  - undertaker
+  - 8
+  - D
+  - People in the business react coldly when a lot of people lose loved ones.
+  - False
+-
+  - intermediate
+  - pestcontroller
+  - 1
+  - A
+  - The bed bug sample was a ladybug, not a bed bug.
+  - True
+-
+  - intermediate
+  - pestcontroller
+  - 2
+  - A
+  - The ladybug is a big bug that can make you cry.
+  - False
+-
+  - intermediate
+  - pestcontroller
+  - 3
+  - B
+  - The roach is an unpleasant, but spectacular, creature in his mindset.
+  - True
+-
+  - intermediate
+  - pestcontroller
+  - 4
+  - B
+  - He respects the unpleasant but spectacular, roach, because it looks deep.
+  - False
+-
+  - intermediate
+  - pestcontroller
+  - 5
+  - C
+  - When his uncle retired, he started his involvement in his pest control company.
+  - True
+  -
+  - intermediate
+  - pestcontroller
+  - 6
+  - C
+  - He hit a brick wall and killed his uncle, employed at his uncle's pest control company.
+  - False
+-
+  - intermediate
+  - pestcontroller
+  - 7
+  - D
+  - You can turn off somebody by saying, 'Bug off' to them.
+  - True
+-
+  - intermediate
+  - pestcontroller
+  - 8
+  - D
+  - Customers resented his involvement in pest control and turned off their phones,
+  - False
