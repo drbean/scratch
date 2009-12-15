@@ -19,7 +19,7 @@ my $id = basename($cwd);
 
 my $l = League->new( id => $cwd );
 my $g = Grades->new( league => $l );
-my $members = $league->members;
+my $members = $l->members;
 my %m = map { $_->{id} => $_ } @$members;
 
 my $standings = LoadFile '/var/www/cgi-bin/target/standings.yaml';
