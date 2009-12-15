@@ -12,7 +12,7 @@ my $one = $script->one;
 
 use Cwd;
 use File::Basename;
-use YAML qw/LoadFile DumpFile/;
+use YAML qw/LoadFile Dump/;
 
 my $cwd = getcwd;
 my $id = basename($cwd);
@@ -30,3 +30,6 @@ $p{two} = $two;
 $p{exercise} = $exercise;
 
 my %g = map { $_ => $p{$_} >= $two? 2: $p{$_} > $one? 1: 0 } keys %m;
+
+print Dump \%g;
+print Dump \%p;
