@@ -1,30 +1,30 @@
 use YAML qw/LoadFile DumpFile/;
 
-my @ids = qw/GL00030/;
+my @ids = qw/GL00031/;
 my %leagues;
 $leagues{$_} = LoadFile "/home/drbean/class/$_/league.yaml" for @ids;
 my %member = map { my $league = $leagues{$_}; $_ => { map { $_->{id} => $_ } @{ $league->{member} } } } @ids;
 
-my $standings = LoadFile '/var/www/cgi-bin/dic/standings.yaml';
+my $standings = LoadFile '/var/www/cgi-bin/target/standings.yaml';
 
 my %p1 = map {
 	my $id = $_;
 			map {
-				$_ => $standings->{$id}->{$_}->{"relations-1"}
+				$_ => $standings->{$id}->{$_}->{"undertaker"}
 			} keys %{ $member{$id} }
 	} @ids;
 
 #my %p2 = map {
 #	my $id = $_;
 #			map {
-#				$_ => $standings->{$id}->{$_}->{"clay-2"}
+#				$_ => $standings->{$id}->{$_}->{"jackson-2"}
 #			} keys %{ $member{$id} }
 #	} @ids;
 
 my %g = map {
 	my $id = $_;
 			map {
-				$_ => $p1{$_} > 550? 2: $p1{$_} > 40? 1: 0
+				$_ => $p1{$_} > 150? 1: $p1{$_} > 50? 0.5: 0
 			} keys %{ $member{$id} }
 	} @ids;
 
