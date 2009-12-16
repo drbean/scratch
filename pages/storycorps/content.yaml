@@ -95,6 +95,17 @@ topic:
         title: A Life with the Dead
         blurb: Sam Reed, an undertaker and caretaker of <a href="http://www.oaklandcemetery.com/">Historic Oakland Cemetery</a> in Atlanta, Georgia speaks of <a href="http://www.npr.org/templates/story/story.php?storyId=120127584">life as an undertaker</a>.
         comment: In the United States, the casket with the dead body is often left open and people go up to pay their last respects. Because the body is often not pleasant to look at after death, a mortician will often put makeup on the face to make the face easier to look at. In England and Australia, the casket (or coffin) is kept closed. What do you think about these practices?
+      -
+        id: pestcontroller
+        title: Pest Control--The Good, the Bad and the Ugly
+        blurb: Running the <a href=http://www.bugoffpccenter.com>Bug Off Pest Control Company</a> wasn't the career Andy Linares wanted to pursue. Listen to his <a href=http://www.npr.org/templates/story/story.php?storyId=5017591>story</a>, or <a href=http://www.storycorps.org/wordpress/wp-content/uploads/listen/audio/linares.mp3>download</a> it.
+        comment: Look at the information about <a href=http://en.wikipedia.org/wiki/Bedbug>bedbugs</a>, <a href=http://en.wikipedia.org/wiki/Coccinellidae>ladybugs</a> and <a href=http://en.wikipedia.org/wiki/Cockroach>cockroaches</a>. Do you think they're 'spectacular', 'fantastic', a <a href=http://www.google.com/search?hl=en&lr=&num=100&ie=ISO-8859-1&q=site%3Aurbandictionary.com+big+deal&btnG=Search'big deal'>'big deal'</a>? What does he mean by 'hit a brick wall?'
+      -
+        id: butler
+        title: A woman in a man's job
+        blurb: During World War 2 in the United States, many woman who had not worked before outside the home started doing men's jobs to help the war effort. <a href=http://www.npr.org/templates/story/story.php?storyId=6628524>Dot Kelley</a> was one of these <a href=http://en.wikipedia.org/wiki/Rosie_the_Riveter>Rosie, the Riveters</a>. See the <a href=http://www.npr.org/templates/transcript/transcript.php?storyId=6628524>transcript</a>.
+        comment: After the war, women lost these jobs to men returning from the war. This may or may not have contributed to the <a href=http://scriptorium.lib.duke.edu/wlm/womlib/>Women's Liberation</a> movement.
+
   -
     id: relations
     title: Mixed-message marriage stories
