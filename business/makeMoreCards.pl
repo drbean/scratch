@@ -15,7 +15,7 @@ for my $t ( keys %$cards ) {
 	for my $f ( keys %$topic ) {
 		my $form = $topic->{$f};
                 my $pairtmpl = Text::Template->new( type => 'file',
-                        source =>  'oneA4fourpairs.tmpl' ,
+                        source =>  'oneA4twopairs.tmpl' ,
                         delimiters => [ '<TMPL>', '</TMPL>' ]);
 		my $fourtmpl = Text::Template->new( type => 'file',
 			source =>  'oneA4twogroups.tmpl' ,
@@ -33,11 +33,11 @@ for my $t ( keys %$cards ) {
 			$form->{ "q$n" } = $qa->{question};
 			$n++;
 		}
-                $cio->print( $cardtmpl->fill_in( hash=> $form ) );
+                $cio->print( $pairtmpl->fill_in( hash=> $form ) );
 		$fio->print( $fourtmpl->fill_in( hash=> $form ) );
 		$qio->print( $quiztmpl->fill_in( hash=> $form ) );
 		my @htmlq = map { $form->{"q$_"} } 1 .. $n-1;
 		$,="\n<li>";
-		$hio->print("<h2>$cards->{identifier}</h2><ol>", @htmlq);
+		$hio->print("<h2>$form->{identifier}</h2><ol>", @htmlq);
 	}
 }
