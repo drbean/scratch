@@ -46,49 +46,6 @@ undertaker:
           answer: True
         - question: Perpetual-care cemeteries are cheaper than other cemeteries.
           answer: False
-    comp2:
-      identifier: biodad2
-      A: 
-      B: 
-      C: 
-      D: 
-      White: |+
-        \begin{normalsize}Rod as Nick's father\end{normalsize}
-        \normalsize
-        \begin{description}
-        \item [Meeting] Eloise was a single mother when Rod met her at a party. She was working in the government. Rod fell in love with her because she was a lovely woman and Nick was a cute kid.
-        \item [Relationship] Rod and Eloise got married 24 years ago and they have been together ever since. Eloise is still working in the government.
-        \item [Children] Rod had a boy and a girl with Eloise and, togther with Nick, that makes three children. Rod treated Nick like his own kid. He didn't differentiate between the kids. But when Nick started college, he told Eloise they should tell him about his biological father.
-        \end{description}
-      Black: |+
-        \begin{normalsize}Jock's story\end{normalsize}
-        \normalsize
-        \begin{description}
-        \item [Meeting] Jock met Eloise in graduate school. They were both taking many of the same classes. Eloise was generous and loving. Jock fell in love with her, because their personalities were very different.
-        \item [Relationship] Jock and Eloise lived together for 2 years until they both finished graduate school. Then Eloise got pregnant and Jock broke off the relationship. Jock went to teach at a university in Scotland and Eloise started working for the government.
-        \item [Later Life] Jock never married. He spent all his time on his studies. He sometimes regrets getting involved with Eloise. At other times, he thinks it was a good period in his life.
-        \end{description}
-      quiz:
-        - question: Nick was born as a result of Rod and Eloise's relationship.
-          answer: False
-        - question: Nick was brought up by Rod.
-          answer: True
-        - question: Nick spent the first two years of his life in a single-parent family.
-          answer: True
-        - question: Nick wasn't aware his biological father was not there, growing up.
-          answer: True
-        - question: Nick regarded Jock as his real father, growing up.
-          answer: False
-        - question: Nick loved Rod.
-          answer: True
-        - question: Nick loved Jock.
-          answer: False
-        - question: Nick's parents broke up before he was born.
-          answer: True
-        - question: Eloise had three children with Jock.
-          answer: False
-        - question: Nick wanted to see his biological dad.
-          answer: True
   jigsaw:
     1:
       identifier: undertaker 1
@@ -137,70 +94,19 @@ undertaker:
           answer  : True
         - question: Doug thinks Dred's case is sad.
           answer  : True
-    3:
-      identifier: biodad3
-      A: You didn't know your father wasn't your biological father growing up. You learned your biological father's name was Jock when you were 19. You got a shock when your parents told you. Although you don't feel anything about this man, you are curious about him and want to meet him. 
-      B: After you broke up with the father of Nick, you brought him up alone for two years. But then you met a nice man and you got married. You never told Nick who his real father was when he was growing up, but when he turned 19, your husband said he should be told. 
-      C: Eloise already had one child when you married her. You were the biological father of her other two children. But you treated all three kids the same. They all love you. The oldest, Nick, regards you as his real father, even though you aren't his biological father.
-      D: You left Eloise after she got pregnant. You didn't want her to have the child. That was 26 years ago. You never married. You know Eloise married a man called Rod. You are not interested in their relationship, but you are curious about your son, whose name you don't know.
-      White: |+
-      Black: |+
-      quiz:
-        - question: A
-          option: 
-            - Eloise
-            - Jock
-            - Nick
-            - Rod
-          answer: Nick
-        - question: B
-          option: 
-            - Eloise
-            - Jock
-            - Nick
-            - Rod
-          answer: Eloise
-        - question: C
-          option: 
-            - Eloise
-            - Jock
-            - Nick
-            - Rod
-          answer: Rod
-        - question: D
-          option: 
-            - Eloise
-            - Jock
-            - Nick
-            - Rod
-          answer: Jock
-        - question: Nick spent the first two years of his life in a single-parent family.
-          answer: True
-        - question: Nick's biological parents broke up before he was born.
-          answer: True
-        - question: A was brought up by D.
-          answer: False
-        - question: Nick wanted to see his biological dad.
-          answer: True
-        - question: Jock loved Rod.
-          answer: False
-        - question: Nick loved Jock.
-          answer: False
 pestcontroller:
   compcomp:
     1:
       White: |+
-        \begin{normalsize}How birth mothers talk about adoption\end{normalsize}
+        \begin{normalsize}Job of pest controller\end{normalsize}
         \normalsize
         \begin{description}
-        \item [Timing] Woman are not ready to talk about the adoption when they want to talk about it, or when circumstances force them to talk.
-        \item [Circumstances] Every woman has a different story to tell. The circumstances of every adoption are different. And women tell their stories to different people. They know some of these people well, because they are friends and family. Others they don't know well. And every one of their listeners has different ideas about adoption. Some people don't approve of what they did. 
-        \item [Considerations]
-        \indent What words does the woman use: 'relinquished my child for adoption,' 'placed my child for adoption,' 'gave up my child,' or 'share my child with another family?'\\
-        \indent With what expression does she speak? A sad expression? Or a smile?\\
-        \indent Does she say if she is in contact with her child? Does she say what she thinks about that?\\
-        \indent Does she want to change her listeners' ideas about adoption?\\
-        \indent How much of her story does she tell?\\
+        \item [Definition] Pest control workers remove unwanted creatures like roaches, rats, ants and fleas. They rely on their knowledge of pests and use many types of chemicals, traps, and other equipment. They may even cut or drill into buildings. The final choice of action may be left to the consumer.
+        \item [Actions] Pest controllers use general-use insecticides and restricted-use pesticides that the government only allows to professionals. They also use `integrated pest management' to try to prevent pests coming back.
+        \item [Integrated pest management] The use of a number of different techniques, like baits, traps, and physical barriers together with chemicals is popular, because pesticides harm the environment and the pests soon return.
+        \item [Training] The government requires pest controllers to have training. A person with a high school diploma can apply to do certification tests. Entry-level training usually requires 10 hours in the classroom and 60 hours on the job. But they must continue to attend training sessions throughout their careers. Employers usually also want people who are good communicators and who have good health, because it is physically hard work, eg sliding into a narrow crawlspace in winter.
+        \item [Employment] There are more jobs in the South than the North and in large cities than in small cities. It is likely that there will continue to be many jobs open for pestcontrollers, because many people don't find the job appealing. The average earnings was \$13 per hour in 2006.
+        \item [Link] http://www.bls.gov/oco/ocos254.htm
         \end{description}
       Black: |+
         \begin{normalsize}Terri Rimmer's story\end{normalsize}
@@ -282,58 +188,3 @@ pestcontroller:
           answer: True
         - question: A loves D.
           answer: False
-    2:
-      identifier: biomom 2
-      A: You were studying in France, away from your friends and family, when you met Robert, and you slept with him. You regret this, but you have now returned to the US and are pregnant. You don't want to have an abortion, but you don't think you can bring the child up alone.
-      B: Your biological mom is Sue, but she gave you up for adoption. You were brought up by your parents, Don and Devonna. You love them. You know your birth mother, and you also love her, even though your relationship is not like mother and daughter.
-      C: You are Deborah's adoptive mother. You told her she was adopted when she was 5. She is a happy person. You are proud of her. You have met Sue, her birth mother. You and your husband get on quite well with Sue. You tell Sue that Deborah is the best thing in your life.
-      D: You are Deborah's biological father, but know nothing about her. You are French. You met Sue at a party in France and went to bed with her, but then left her. You don't know where Sue is. You think she probably went back to the US. She was an American student.
-      White: |+
-      Black: |+
-      quiz:
-        - question: A
-          option: 
-           - Deborah
-           - Dovonna
-           - Robert
-           - Sue
-          answer: Sue
-        - question: B
-          option:
-           - Deborah
-           - Dovonna
-           - Robert
-           - Sue
-          answer: Deborah
-        - question: C
-          option:
-           - Deborah
-           - Dovonna
-           - Robert
-           - Sue
-          answer: Dovonna
-        - question: D
-          option:
-           - Deborah
-           - Dovonna
-           - Robert
-           - Sue
-          answer: Robert
-        - question: Deborah is a birthmother.
-          answer: False
-        - question: Sue was an American student in France.
-          answer: True
-        - question: Robert is Deborah's adoptive father.
-          answer: False
-        - question: B loves A.
-          answer: True
-        - question: C gets on well with A.
-          answer: True
-        - question: B gets on well with D.
-          answer: False
-    3:
-      identifier: biomom 3
-      A: You got drunk at a party and you went to bed with someone there. You regret this, but you are now pregnant. You don't want to have an abortion, but you don't think you can bring the child up alone.
-      B: Your biological mom is Sue, but she gave you up for adoption. You were brought up by your parents, Don and Devonna. You love them. You want to find out about the woman who gave you birth.
-      C: You adopted Deborah when she was one month old, You love her very much and she loves you too. You told her she was adopted when she was 5. She is a happy person. You are proud of her.
-      D: You are Deborah's father. When she was in her early twenties, she asked if you could help her contact her birth mother. You gave her all the papers that the adoption agency had given you twenty years ago.
