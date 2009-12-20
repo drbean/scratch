@@ -488,23 +488,126 @@
   - clientele
 -
   - butler
-  - Woman in a man's job
+  - Woman in need of a job
   - intermediate
-  - all
+  - A
   - |+
     After the divorce, there wasn't much money. So my mother worked in a laundry and different places, and she finally got a job at Montgomery Ward's Department Store.
 
     And, these young women would come in, all dressed in these big boots and these kind of rough overalls. And, and they would have checks of six hundred dollars to cash. And she finally asked one of them, Where do you work ...
+  - laundry|Montgomery Ward's|overalls
 
+-
+  - butler
+  - Interviewing for a man's job
+  - intermediate
+  - B
+  - |+
     ... that you make so much money? And they said, In the shipyard.
 
     So my mother went over and the man who interviewed her said, Did she want to be a welder or a burner? And my mother said, Which pays the most? And he said, A welder. And she said, That's what I want to do. And he said, Oh, mercenary, huh? And she said, No. I have four children to ...
+  - welder|mercenary
     
-    ... take care of. It was bitter cold in the winter going into the bowels of those steel ships. They had to wiggle into narrow crawl spaces and lay on their backs, and weld overhead. And I rememher her neck and her chest here all spotted with burn marks from the sparks. And her shift was midnight to six am. So she could be home with us during the day. I remember her dressing
+-
+  - butler
+  - The hardships of working in a shipyard
+  - intermediate
+  - C
+  - |+
+    ... take care of. It was bitter cold in the winter going into the bowels of those steel ships. They had to wiggle into narrow crawl spaces and lay on their backs, and weld overhead. And I remember her neck and her chest here all spotted with burn marks from the sparks. And her shift was midnight to six am. So she could be home with us during the day. I remember her dressing
+  - wiggle|crawl spaces|sparks|shift
 
+-
+  - butler
+  - Hard times in the shipyard and after
+  - intermediate
+  - D
+  - |+
     ... in heavy clothing, men's clothing. Once she fell and hurt her ankle,
 
     and they brought her home in the middle of the night. And she was weeping. I remember that. After the shipyard closed, she needed to have two jobs to make enough money. And we kids were more or less on our own. And that was not a happy time. But still she was determined to keep us together as a family.
+  - ankle|weeping
+
+-
+  - shirley
+  - Becoming a barber
+  - intermediate
+  - A
+  - |+
+    SHIRLEY: My name is David Shirley.
+
+    ANTHONY: And I'm Lawrence Anthony. We're in Drexel, North Carolina.
+
+    SHIRLEY: In the back of Drexel Barber Shop.
+
+    ANTHONY: When I was about 18 years old, my daddy wanted me to take my
+    little brother to the neighbors to get his hair cut. And the neighbor said I
+    was drunk last night. Ain't no way I can cut hair. You'll have to do it. I
+    said, I ain't never cut a head of hair in my life, ain't never touched
+    clippers. He said, you go ahead and cut it. If you mess it up, I'll
+    straighten it out.
+  - SHIRLEY|ANTHONY|Drexel|Carolina|Ain't|clippers
+-
+  - shirley
+  - Two barber shop stories
+  - intermediate
+  - B
+  - |+
+    I went ahead and cut my brother's hair. And got through - he said, well, 
+    that's better than I could do. So, he took his little hand clippers with 
+    comb and scissors and he said, here, I'm going to sell you these two for 
+    fifty cent. That's when I went in the barber business for fifty cent.
+
+    SHIRLEY: We have doctors and lawyers and judges and town drunks, and people
+    that's got a million and probably owe a million. I remember a gentleman 
+    would come in and we would ask what type of haircut he wanted. And he said, 
+    well, cut one sideburn above my ear and leave the other one below ...
+  - SHIRLEY|clippers|comb|lawyers|drunks|sideburn
+
+-
+  - shirley
+  - Changes in Drexel
+  - intermediate
+  - C
+  - |+
+     ... and leave my alfalfa sticking up. And we would say, we can't cut your 
+     hair like that. And he said, why? That's the way you cut it last time.
+
+     (Soundbite of laughter)
+
+     SHIRLEY: Well, if they like it, tell them I cut it. If they don't like it,
+     tell them Lawrence cut it.
+
+     I've been in and around barber shops all my life. There's a customer that 
+     I cut his grandfather's, his father's, his, his son's and his grandson's. 
+     I'm on the fifth generation, and they remind you that time has elapsed.
+
+     ANTHONY: Forty, fifty years ago, Drexel was a thriving little town. But 
+     for the last forty years, with ...
+  - alfalfa|Soundbite|SHIRLEY|Lawrence|elapsed|ANTHONY|Drexel
+-
+  - shirley
+  - Looking back at a career and a town
+  - intermediate
+  - D
+  - |+
+    
+    ... good management and careful planning, we now have nothing.
+
+    (Soundbite of laughter)
+
+    ANTHONY: We've got the barber shop and there ain't much going on with
+    Drexel no more. It's kind of just faded away. Try not to think about that 
+    too much. It might make you feel sad.
+
+    SHIRLEY: When I think about retiring, I think, well, maybe just a little
+    longer because I would hate to think of the time that I have to turn the key
+    for the last time and walk off. As I get older, I think I'm a rich man - not
+    dollar-wise necessarily; I don't mean that - but in memories and friends, 
+    I've been thoroughly blessed.
+  - Soundbite|ANTHONY|Drexel|SHIRLEY
+
+
 ---
 -
   - genre
@@ -1107,4 +1210,116 @@
   - 8
   - D
   - Customers resented his involvement in pest control and turned off their phones,
+  - False
+-
+  - intermediate
+  - butler
+  - 1
+  - A
+  - After working in a laundry and a department store, she finally asked women with big checks where they worked.
+  - True
+-
+  - intermediate
+  - butler
+  - 2
+  - A
+  - She worked in a department store, dressed in boots and overalls.
+  - False
+-
+  - intermediate
+  - butler
+  - 3
+  - B
+  - The mother wanted to do that which pays the most. She wanted the most for her four children.
+  - True
+-
+  - intermediate
+  - butler
+  - 4
+  - B
+  - The mother's four children wanted to be burners. That pays the most.
+  - False
+-
+  - intermediate
+  - butler
+  - 5
+  - C
+  - She had burn marks on her chest from lying on her back and welding overhead.
+  - True
+-
+  - intermediate
+  - butler
+  - 6
+  - C
+  - She shifted the burns from her neck and her chest to her back at home with a narrow overhead weld.
+  - False
+-
+  - intermediate
+  - butler
+  - 7
+  - D
+  - After, she had two jobs to make more money. She was determined to keep the kids together, but they were on their own more of the time.
+  - True
+-
+  - intermediate
+  - butler
+  - 8
+  - D
+  - The men brought some clothing to her home, but she was not happy. It hurt her ankle.
+  - False
+-
+  - intermediate
+  - shirley
+  - 1
+  - A
+  - He cut his brother's hair, because the neighbor was drunk and said to go ahead and cut it.
+  - True
+-
+  - intermediate
+  - shirley
+  - 2
+  - A
+  - He messed up his brother's hair because he was drunk, and the neighbor had to straighten it up.
+  - False
+-
+  - intermediate
+  - shirley
+  - 3
+  - B
+  - He cut his brother's hair well, so the gentleman wanted to sell him scissors for fifty cent.
+  - True
+-
+  - intermediate
+  - shirley
+  - 4
+  - B
+  - The barber business owes a million, so he wanted to sell it for fifty cents.
+  - False
+-
+  - intermediate
+  - shirley
+  - 5
+  - C
+  - There is laughter when they say the customer reminds them they cut his hair that way last time.
+  - True
+-
+  - intermediate
+  - shirley
+  - 6
+  - C
+  - Drexel has been a thriving town for as long as they've been cutting hair.
+  - False
+-
+  - intermediate
+  - shirley
+  - 7
+  - D
+  - They hate to think there ain't much going on no more, because it makes you sad.
+  - True
+-
+  - intermediate
+  - shirley
+  - 8
+  - D
+  - He thinks he's a rich, older man but not wise about memories and friends.
   - False
