@@ -97,6 +97,7 @@ undertaker:
 pestcontroller:
   compcomp:
     1:
+      identifier: pestcontroller
       White: |+
         \begin{normalsize}Job of pest controller\end{normalsize}
         \normalsize
@@ -109,83 +110,130 @@ pestcontroller:
         \item [Link] http://www.bls.gov/oco/ocos254.htm
         \end{description}
       Black: |+
-        \begin{normalsize}Andy Linare's story\end{normalsize}
+        \begin{normalsize}Andy Linares' story\end{normalsize}
         \normalsize
         \begin{description}
-        \item [Start] In the Storycorps soundfile, Linares suggests he started work as a pest controller after he couldn't find a job using his graduate degree in political science. In fact, he started working for his uncle's pest control company, Matador, when he was in high school. Then it was simply a way to make money. He said he enjoyed getting paid well. He said he spent the money to help pay for school and girls.
+        \item [Start] In the Storycorps soundfile, Linares suggests he started work as a pest controller after he couldn't find a job using his graduate degree in political science. In fact, he started working for his uncle's pest control company, Matador, when he was in high school. Then it was simply a way to make money.
         \item [Dream] While in graduate school, he worked at the United Nations organizing meetings, but the job led nowhere, although his French became very good. He felt like he had hit a brick wall at the UN, so he left to find a job in an international institution or company. But he was unsuccessful.
         \item [Company owner] Finally, he bought his uncle's pest control business from him when he retired, but he wasn't happy.
-        \item [Changes] It's not clear why he finally came to be happy with his job. But perhaps it is because, after taking over his uncle's pest control company, he made changes which have been satisfying to him. He started selling pesticides to smaller companies that needed supplies. He also ran training programs for people who wanted to get pest control licenses. Now, he also runs exhibitions where pest control companies come and show what they are doing.
-        \item [Satisfaction] He says there is a great deal of satisfaction in knowing he's helped improve people's lives.
+        \item [Changes] It's not clear why he finally came to be happy with his job. Anyway, after taking over his uncle's pest control company, he made changes. He started selling pesticides to smaller companies that needed supplies. He also ran training programs for people who wanted to get pest control licenses. Now, he also runs exhibitions where pest control companies come and show what they are doing.
+        \item [Satisfaction] He says he is generous with his knowledge, and it's satisfying to know he's helped people. 
         \item [Video] http://www.youtube.com/watch?v=5-v2iEsBKQg
         \item [Link]  http://www.mypmp.net/pestcontrol/Newsmaker/The-Man-Who-Never-Sleeps/ArticleStandard/Article/detail/631609
         \end{description}
       quiz:
-        - question: Terri Rimmer's story is different than Sue Adam's.
+        - question: Linares might have done some pest control training while in high school.
           answer: True
-        - question: Birth mothers find it difficult to tell their stories.
-          answer: True
-        - question: The parents who adopted Terri's girl didn't maintain contact.
+        - question: On the Storycorps soundfile, Linares says he started working for his uncle in high school.
           answer: False
-        - question: Sue Adam may not have told as many people as Terri did.
-          answer: True
-        - question: Women will feel bad if people they speak to don't approve.
-          answer: True
-        - question: Women have to choose the words they use to describe the adoption.
-          answer: True
-        - question: Women should not think about whether to smile when they talk about the adoption.
+        - question: Pest controllers generally just rely on using pesticides.
           answer: False
-        - question: Sometimes Terri felt bad about the adoption. Sometimes she is happy.
+        - question: Linares left the UN because he couldn't advance to a better job there.
           answer: True
-        - question: Terri takes her daughter back from her adoptive parents.
+        - question: You only need a high school diploma to start training as a pest controller.
+          answer: True
+        - question: Linares bought his uncle's business, but was unhappy about it.
+          answer: True
+        - question: If you don't train when you start the job, you need to do some training later. But if you do train when you start, then you don't need to.
           answer: False
-        - question: Terri probably did not want to change the way people feel about adoption.
+        - question: Integrated pest management means using a number of different pest control methods together.
+          answer: True
+        - question: Linares think he should have stayed at the UN or gotten an international job.
+          answer: False
+        - question: Linares probably did not want to change the lives of people.
           answer: False
   jigsaw:
     1:
-      identifier: biomom 1
-      A: You got drunk at a party and you went to bed with someone there. You regret this, but you are now pregnant. You don't want to have an abortion, but you don't think you can bring the child up alone.
-      B: You're biological mom is Sue, but she gave you up for adoption. You were brought up by your parents, Don and Dovonna. You love them. You want to find out about the woman who gave you birth.
-      C: You adopted Deborah when she was one month old, You love her very much and she loves you too. You told her she was adopted when she was 5. She is a happy person. You are proud of her.
-      D: You are Deborah's father, Don. When she was in her early twenties, she asked if you could help her contact her birth mother. You gave her all the papers that the adoption agency had given you twenty years ago.
+      identifier: pestcontroller
+      A: You get a call from Debbie, an old classmate in graduate school. She has bed bugs. You talk with her about her career. She was very good at French and got a good job with a French company in New York. She was happy but now she is unhappy and wants to change careers.
+      B: Your old classmate is Charles. You are both in France. He works at the US Consulate in Paris. He interviews French people who want to emigrate to the US. Your French is not so good. You teach English. You didn't like it at first, but now you like being an English teacher. 
+      C: You studied French with the other three people in graduate school and  now work for the US government in France. You don't have a very good job, but you enjoy speaking French every day, and, like Bruce, you enjoy your job. Unlike him, you are doing what you had wanted to do all your life.
+      D: You are surprised to see Andy is a pest controller. He says he wasn't happy with his career, when he first started in the business. But he is happy now. He reminds you of Bruce, who went to France to learn French, but became an English teacher instead, and liked it.
       quiz:
         - question: A
           option: 
-           - Deborah
-           - Don
-           - Dovonna
-           - Sue
-          answer: Sue
+           - Andy
+           - Bruce
+           - Charles
+           - Debbie
+          answer: Andy
         - question: B
           option:
-           - Deborah
-           - Don
-           - Dovonna
-           - Sue
-          answer: Deborah
+           - Andy
+           - Bruce
+           - Charles
+           - Debbie
+          answer: Bruce
         - question: C
           option:
-           - Deborah
-           - Don
-           - Dovonna
-           - Sue
-          answer: Dovonna
+           - Andy
+           - Bruce
+           - Charles
+           - Debbie
+          answer: Charles
         - question: D
           option:
-           - Deborah
-           - Don
-           - Dovonna
-           - Sue
-          answer: Don
-        - question: Dovonna is the birthmother.
+           - Andy
+           - Bruce
+           - Charles
+           - Debbie
+          answer: Debbie
+        - question: Debbie is a pest controller.
           answer: False
-        - question: Deborah was an adopted child.
+        - question: Andy and Bruce both grew to like their careers.
           answer: True
-        - question: Don is Deborah's biological father.
+        - question: Debbie is happy in her career.
           answer: False
-        - question: A was adopted by D.
-          answer: False
-        - question: B loves C.
+        - question: A wanted to have a career like Debbie.
+          answer: True
+        - question: Charles and Debbie both have the careers they started out in. Andy and Bruce don't.
           answer: True
         - question: A loves D.
+          answer: False
+butler:
+  compcomp:
+    1:
+      identifier: butler 1
+      White: |+
+        \begin{normalsize}Women in men's jobs during World War II\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [The need for women] World War II started in the US in 1941. Women were brought into war work from 1942. Men were going to war and many industries were switching to war production. At first, there was lots of reluctance on the parts of managers, husbands, male workers, and many women, too.
+        \item [Groups of women workers] Some women were already working, for example in laundries, like Dorothy Butler. Others had worked before but had lost their jobs. The third group was first-time workers. Many were married, white and middle-class and had to be encouraged to stop being housewives and go out to work.
+        \item [Propaganda] The US government got magazines, movies and other forms of mass media to promote the idea of women helping the war effort. There was a song called Rosie the Riveter and images of women working appeared on posters and magazine covers.
+        \item [War effort] When the war work got going, the US produced phenomenal amounts of war material. A shipyard in California, like the one Dorothy Butler was working at, produced 747 ships in 5 years. One time, they produced a ship in 5 days. Usually, it took them 2 weeks.
+        \item [Women's Liberation] It is not clear whether women's war work affected the position of women after the war. Did their working sow the seeds of the second wave of feminism, ie Women's Liberation? Anyway, the number of working women never again fell to pre-war levels. The recognition that middle-class married women could work and run a home was significant. 
+        \item [What women said] Inez Sauer: "   "My mother warned ... 'You will never want to go back to being a housewife.' At that time I didn't think it would change a thing. But she was right, it definitely did. . . . at Boeing I found a freedom and an independence that I had never known. After the war I could never go back to playing bridge .." Inez Sauer, Boeing tool clerk. \\
+        "You came out to California, put on your pants, and took your lunch pail to a man's job. This was the beginning of women's feeling that they could do something more." Sybil Lewis, Lockheed riveter.
+        \end{description}
+      Black: |+
+        \begin{normalsize}Dorothy Butler and her children\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Early life] She was born in 1907 in Portland. Her father was the pastor in a church. She got married to Charles Kelley in 1927, and got divorced in 1942, after 15 years of marriage, taking her four children, Joan, John (born 1931), Joyce (born 1933), and Robert Eaton.
+        \item [Supporting the family] Although her husband regularly sent her money after the divorce, she needed to also go to work. sometimes at two jobs, to support her children. From 1943 until World War II ended in 1945, she was a welder on the Liberty Ships in the South Portland shipyard.  After the war, she worked days at Portland's Montgomery Ward department store and evenings as a paper sorter in the S.D. Warren mill in Westbrook, a job she held until her retirement in 1957. 
+        \item [Re-marriage] She was married to Forrest Hamblen, 1948-1952. She then married Roger Meserve and that marriage continued until his death in 1985.
+        \item [Interests] Among other things, she wrote poetry. Her interest in reading and writing was passed on to her children. She continued reading until her death in 2002, despite eyesight problems.
+        \item [Children] John became a university biology professor. Joyce Butler studied English in college but after getting married became a writer about the history of Maine, the area where she and her mother live. And Robert Eaton writes novels.
+        \end{description}
+      quiz:
+        - question: Funeral directors don't have to go and pick up the body when someone dies.
+          answer: False
+        - question: The funeral home that Reed was working at was probably a small business.
+          answer: True
+        - question: A funeral director has to dig the grave that the body is placed in.
+          answer: False
+        - question: A funeral home will call the cemetery and expect the burial the next day.
+          answer: False
+        - question: Funeral directors will remove the blood from bodies and replace it with fluid.
+          answer: True
+        - question: If you jump down into a grave, it might be difficult to get out unless you are very tall.
+          answer: True
+        - question: In the US, burials are traditional, but cremation is becoming more popular.
+          answer: True
+        - question: Oakland is a very new, expensive, perpetual-care cemetery.
+          answer: False
+        - question: The person who tells the government someone died is usually the funeral director.
+          answer: True
+        - question: Perpetual-care cemeteries are cheaper than other cemeteries.
           answer: False
