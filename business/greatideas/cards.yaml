@@ -1,6 +1,7 @@
 ---
 genre: business
 cars:
+ jigsaw:
   1:
     identifier: cars 1
     problem   : At the Penske-Wynn showroom in Las Vegas, people didn't want to buy the cars. they just wanted to look at them. The problem was that there were lots of these people. Many Americans who aren't rich go to Las Vegas because they dream about winning lots of money. These people like to look at expensive cars.
@@ -24,8 +25,6 @@ cars:
         answer  : True
       - question: Most car showrooms are not showing expensive cars and they do not have many visitors.
         answer  : True
-      - question: Penske-Wynn's good idea was to open up the showroom so everyone could look at the cars for free.
-        answer  : False
   2:
     identifier: cars 2
     problem   : The Penske-Wynn showroom is in Las Vegas in a famous hotel. The people who stay at the hotel want to win lots of money at Las Vegas and become rich. Now they are not rich. They cannot buy the cars in the showroom. But they want to look at them. The problem was that there were so many people just looking at the cars.
@@ -49,9 +48,8 @@ cars:
         answer  : True
       - question: There are other car showrooms with an entrance fee.
         answer  : False
-      - question: Penske-Wynn's good idea was to open up the showroom so everyone could look at the cars for free.
-        answer  : False
 citrus:
+ jigsaw:
   1:
     identifier: citrus 1
     problem   : Farmers in Punjab grow rice, but they don't make very much money. The Punjab government wants to help them make more money. Pepsi wants citrus fruit to make fruit drinks. The three decided to work together to grow citrus fruit.
@@ -81,8 +79,6 @@ citrus:
         answer  : False
       - question: The government is not happy about growing citrus fruit for the farmers.
         answer  : False
-      - question: The government's good idea is to help farmers grow citrus and sell it to Pepsi
-        answer  : True
   2:
     identifier: citrus 2
     problem   : Farmers in Punjab grow rice, but they don't make very much money. The Punjab government wants to help them make more money. Pepsi wants citrus fruit to make fruit drinks. The three decided to work together to grow citrus fruit.
@@ -106,9 +102,8 @@ citrus:
         answer  : False
       - question: The government is happy about growing citrus fruit for Pepsi.
         answer  : True
-      - question: The government's good idea is to take farmers' land and their money from them.
-        answer  : False
 internet:
+ jigsaw:
   1:
     identifier: internet 1
     wholelot   : |+
@@ -137,8 +132,6 @@ internet:
         answer  : True
       - question: All critics thought the site was very good and the services were very useful.
         answer  : False
-      - question: His idea worked because he was able to get people interested in advertising on his page.
-        answer: True
   2:
     identifier: internet 2
     problem   : The website was not his first website. But he did not earn a lot of money from the other sites. The simple but attractive idea was to sell advertising space on a single page. But after he got a little money, he needed to promote the site so that people would know about it and find it interesting.
@@ -161,7 +154,5 @@ internet:
       - question: He said he wasn't sure that the idea would be as successful as it was.
         answer  : True
       - question: He has continued to develop new ideas on the Internet.
-        answer  : True
-      - question: His idea worked because he was able to get people interested in advertising on his page.
         answer  : True
 
