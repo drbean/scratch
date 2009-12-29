@@ -652,70 +652,60 @@
   - business
   - A
   - |+
-    CLB: So many people have lost their jobs. I am afraid I will be next. Because we work in the Human Resources department, we were responsible for firing those people. Now it is our turn to be fired. It's funny, in a way.
+    So many people are losing their jobs. I am afraid I will be next. Because we work in the Human Resources department, we are responsible for firing the people. Now it is our turn to be fired.
 
     It would be okay if there were less work to do, but with fewer and fewer people here now, there is more and more work to do.
 
-    We are under a lot of pressure and there is never enough time to do a good job. In a way, I will be glad when I'm fired. Not really, of course. But, the stress is killing me.
+    We are under a lot of pressure and there is never enough time to do a good job. I will be glad when I'm fired. The stress is killing me.
 
     I just can't cope any more. 
 
-  - CLB|Human Resources
+  - Human Resources
 -
   - stress-1
-  - Pressure and control without support
+  - Pressure and effectiveness
   - business
   - B
   - |+
-    SLT: My major complaint is the amount of pressure that management is trying to put on me and my co-workers. It's unbelievable. Everything that doesn't go according to management's plan is my or someone else's fault, management says.
+    My major complaint is the amount of pressure that management is trying to put on me and my co-workers. It's unbelievable. Everything that doesn't go according to management's plan is my fault or someone else's fault, management says.
 
-    That would be okay if I felt like what I did had an effect. But I don't feel like I have any control over what is happening. Nothing I do seems to have an effect. It's a very stressful situation.
-
-    It would also be okay if had some freedom to make my own decisions. But none of us are allowed to think for ourselves. Management is always telling us what to do. Everything we do is monitored. We are expected to follow orders blindly.
-
-    And management is not supportive. We are not told we are doing a good job. We are only blamed when management is unhappy. Management doesn't care if we are happy or not. And it doesn't help us to do things which we think are difficult.
+    That would be okay if I felt like what I did had an effect. But I don't feel like I have any control over what is happening. Nothing I do seems to work. I am very confused. I don't understand the situration. I don't know what's happening. It's a very stressful situation.
 
     I feel like I am falling off a cliff. I can't take it any more.
+  - complaint}fault|confused|cliff
 
-  - SLT|monitored|supportive|cliff
 -
   - stress-1
-  - The physical environment
+  - Pressure and freedom
   - business
   - C
   - |+
-    RMS: I can't focus on my work, because of the environment. I don't have my own space. I feel like I'm homeless, living in the street. 
+    My major complaint is the amount of pressure that management is trying to put on me and my co-workers. It's unbelievable.
 
-    Oh, I have a chair and a desk, but I have to share it. And there are always people I don't know walking past me. It is crowded and there are three other people, all in the same area, without even a window.
+    It would also be okay if I had some freedom to make my own decisions. But none of us are allowed to think for ourselves. Management is always telling us what to do. Everything we do is monitored. We are expected to follow orders blindly.
 
-    It's also very noisy with five telephones always ringing, people shouting, and others interrupting me. 
+    And management never tells us we are doing a good job. We are only blamed when it is unhappy. It doesn't care if we are happy or not.
 
-    The computers and the air conditioning are noisy too, when they're not broken. Often it's too hot in the office to work.
+    I feel like I am about to explode. I can't take it any more.
 
-    And of course, I don't have my own computer. I have to share one with the three other people in the same space. I wish they wouldn't download all those files they do. The computer has lots of viruses, of course.
-
-    I think I deserve my own office. But I don't get the treatment I deserve from the company, I think.
-
-  - RMS|homeless|conditioning|viruses|deserve|treatment
+  - complaint|monitored|blindly|explode
 -
   - stress-1
-  - Slave driver as boss
+  - Slave driver
   - business
   - D
   - |+
-    Alan: I, and everyone else, is really unhappy with our manager. We can't talk to her. She never listens to what we say. The only time she talks to us is when she has some new order to give us. The only thing she ever says to us is: 'Do this. Do that.' It's impossible to have a conversation with her.
+    I am really unhappy with our manager. She never listens to what we say. The only thing she ever says to us is: 'Do this. Do that.'
 
-    She never tries to understand our point of view. When we ask her for something, the only thing she ever says is, 'No.' Talking to her is like talking to a brick wall. 
+    When we ask her for something, the only thing she ever says is, 'No.'
 
-    I've been patient. We've all been patient, hoping things would change. But the worse the situation the company is in, the worse she has become. She just won't make any effort to see our point of view.
+    She also never tells us what management's plans are. If she told us more, we would feel less stress.
 
-    She also never tells us what management is thinking. We have no idea about what management's plans are. If she told us more about what is happening, we would feel much less stress.
-
-    Whenever she does speak to us, it is only to criticize us and to blame us for things that are not our fault and to say other unpleasant things. 
+    Whenever she does speak to us, it is only to criticize us and to blame us for things that are not our fault. 
 
     We meet our targets, we work long hours. But she never says, 'Well done.' It's very demotivating.
 
-  - Alan|brick wall|patient|criticize|unpleasant|targets|demotivating
+  - criticize|blame|targets|demotivating
 -
   - stress-2
   - Food changes
@@ -767,6 +757,78 @@
     So, my idea is one-day company tours, once a month, and three- or four- day tours, once or twice a year.
 
   - KED|amusement|picnic|scenic|Korea|winter|skiing
+-
+  - bradshaw
+  - Cause of stress
+  - business
+  - A
+  - |+
+    Stress doesn't usually have only one cause. Usually, there are a number of factors which together result in people feeling stress. A particularly bad combination is where someone is under a lot of pressure, but they also feel that whatever they do has no effect and that they have no support from other people. That combination can cause severe stress and depression. People in that situation often feel helpless. And that's a very bad feeling.
+  - depression
+-
+  - bradshaw
+  - What Bradshaw offers
+  - business
+  - B
+  - |+
+    Bradshaw is a business consultant, and he has a consultancy called In Equilibrium. He helps companies where stress is a problem by identifying the causes of high levels of stress there. He calls this stress risk assessment. The idea is to identify hotspots, areas or people where the risk of stress is high. Perhaps there is a dangerous and unpleasant environment in one part of the company. Or perhaps one manager puts a lot of pressure on workers.
+  - consultancy|Bradshaw|In Equilibrium
+-
+  - bradshaw
+  - Bradshaw's Manager Training
+  - business
+  - C
+  - |+
+    Besides helping companies understand why there is lots of stress at their companies, Bradshaw also trains managers to do the same kind of thing as he does. He shows them how to become more sensitive to how much stress there is in the company. He teaches them how to listen carefully to their workers. He also gives them the skills to reduce stress. He shows them how different ways of managing workers produce different levels of stress. 
+  - Bradshaw|trains
+-
+  - bradshaw
+  - Differences in ways men and women handle stress
+  - business
+  - D
+  - |+
+    Men and women deal with stress differently. Women tend to report more stress. They talk about their problems. Men don't do this. Women usually cope with stress better. They're better at asking for and and getting support. 
+
+    Men don't like to report stress, because they don't want to appear weak. They don't want people to think they can't do their job. Actually, they are worse at coping with stress. They find it difficult to talk to managers about stress.
+  - support|cope
+-
+  - cusp
+  - CUSP overview
+  - business
+  - A
+  - |+
+    A good working climate is one where stress is largely prevented. With this in mind and in the next three minutes, I would like to provide a brief overview of a critically-important In Equilibrium framework, called the CUSP. The CUSP can be used both to prevent stress and to reduce the risks to an individual's health ...
+  - In Equilibrium|CUSP
+-
+  - cusp
+  - The CUSP characteristics--Control
+  - business
+  - B
+  - |+
+    when stress has occurred. The CUSP really is a very useful model, and is based on what we know from thousands of psychological studies and from experience.
+
+    We know that stressful situations, especially those at work, have particular characteristics. Stressful situations tend to be where individuals feel that they have very little control over what is happening.
+  - psychological|CUSP
+-
+  - cusp
+  - The CUSP characteristics--Uncertainty and Support
+  - business
+  - C
+  - |+
+    They're often high in uncertainty. And they tend to be situations where individuals feel unsupported, or feel that they are receiving the wrong kind of support.
+
+    The way the CUSP works is very simple. The framework suggests that as a manager, if you can do anything to boost someone's sense of control, if you can ...
+  - boost|CUSP
+-
+  - cusp
+  - CUSP reduction of stress
+  - business
+  - D
+  - |+
+    ... reduce the level of uncertainty in the situation, or if you can offer support, either directly or facilitated from elsewhere, then that will tend to reduce the level of the pressure impacting on stress risk.
+
+    Hence, the 'C' stands for Control. The 'U' for Uncertainty, the 'S' for Support, and the 'P' for Pressure.
+  - facilitated|impacting|CUSP
 -
   - conference
   - Importance of venue
@@ -2152,6 +2214,118 @@
   - 4
   - D
   - KED thinks it would be too cold in Korea in winter to go there.
+  - False
+-
+  - business
+  - bradshaw
+  - 1
+  - A
+  - A very bad feeling for people can be the result of pressure and the feeling they have no effectiveness.
+  - True
+-
+  - business
+  - bradshaw
+  - 2
+  - A
+  - Usually there is only one very bad cause of stress. 
+  - False
+-
+  - business
+  - bradshaw
+  - 3
+  - B
+  - The consultant help by identifying areas or people causing stress to be a problem.
+  - True
+-
+  - business
+  - bradshaw
+  - 4
+  - B
+  - Usually there is only one very bad cause of stress. 
+  - False
+-
+  - business
+  - bradshaw
+  - 5
+  - C
+  - Bradshaw trains managers to be sensitive to stress and shows them ways to reduce stress.
+  - True
+-
+  - business
+  - bradshaw
+  - 6
+  - C
+  - Bradshaw trains workers to listen carefully to their managers as a way to reduce stress.
+  - False
+-
+  - business
+  - bradshaw
+  - 7
+  - D
+  - Men don't report the stress they actually have and they are worse at coping with that stress.
+  - True
+-
+  - business
+  - bradshaw
+  - 8
+  - D
+  - Men are better than women at coping with stress, because they report less stress and are better at getting support.
+  - False
+-
+  - business
+  - cusp
+  - 1
+  - A
+  - The CUSP can be used to provide a good working climate where stress is prevented and health risks reduced.
+  - True
+-
+  - business
+  - cusp
+  - 2
+  - A
+  - It is important in the CUSP framework to be critical of one's work and provide brief overviews of one's mind.
+  - False
+-
+  - business
+  - cusp
+  - 3
+  - B
+  - Stress occurs at work where people experience little control over what is happening.
+  - True
+-
+  - business
+  - cusp
+  - 4
+  - B
+  - The experience of stress tends to occur where people have the particular characteristic of being little.
+  - False
+-
+  - business
+  - cusp
+  - 5
+  - C
+  - If a manager can suggest individuals have control, and can receive support, this is a very simple way for individuals not to feel risk.
+  - True
+-
+  - business
+  - cusp
+  - 6
+  - C
+  - Usually there is only one very bad cause of stress. 
+  - False
+-
+  - business
+  - cusp
+  - 7
+  - D
+  - Reducing uncertainty and offering support will tend to reduce the level of stress.
+  - True
+-
+  - business
+  - cusp
+  - 8
+  - D
+  - Uncertainty and pressure in the situation reduce the level of stress. Support risks reducing the will.
   - False
 -
   - business
