@@ -93,7 +93,8 @@ webnegotiation:
       - question: The designer will not accept more images.
         answer: True
       - question: They reach agreement on image number.
-        answer: False
+        answer: True
+
   3:
     identifier: Michelle--website designer negotiation 3
     A: |
@@ -128,16 +129,16 @@ webnegotiation:
       - question: The designer will not accept more images.
         answer: False
       - question: They reach agreement on image number.
-        answer: False
+        answer: True
       - question: Michelle wanted the site up in 4 weeks.
         answer: False
       - question: The designer is willing to do it in 3 weeks.
         answer: True
       - question: They reach agreement on the schedule.
         answer: True
-      - question: Michelle wanted to pay 600 dollars/hour.
+      - question: Michelle wanted to pay 600 dollars/day.
         answer: False
-      - question: The designer will accept 560 dollars/hour.
+      - question: The designer will accept 560 dollars/day.
         answer: False
       - question: They reach agreement on payment.
         answer: True
@@ -275,7 +276,7 @@ webnegotiation:
         answer: True
       - question: The designer wanted ten images per page.
         answer: False
-      - question: They reach agreement on payment.
+      - question: They reach agreement on image number.
         answer: False
       - question: Michelle wanted a Taiwan-style site.
         answer: False
