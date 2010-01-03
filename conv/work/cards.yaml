@@ -1,4 +1,3 @@
----
 genre: intermediate
 undertaker:
   compcomp:
@@ -93,6 +92,100 @@ undertaker:
         - question: Mort is preparing a funeral for Ms Ma.
           answer  : True
         - question: Doug thinks Dred's case is sad.
+          answer  : True
+    11:
+      identifier: undertaker 11
+      A: 
+      B: 
+      C: 
+      D: 
+      quiz:
+        - question: A
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Dred
+        - question: B
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Doug
+        - question: C
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Ms Ma
+        - question: D
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Mort
+        - question: A was a student.
+          answer  : True
+        - question: B is a funeral director.
+          answer  : False
+        - question: C is A's mother.
+          answer  : True
+        - question: D digs graves at cemeteries.
+          answer  : False
+        - question: D is preparing a funeral for A.
+          answer  : True
+        - question: The grave digger thinks Dred's case is sad.
+          answer  : True
+    12:
+      identifier: undertaker 12
+      A: 
+      B: 
+      C: 
+      D: 
+      quiz:
+        - question: A
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Dred
+        - question: B
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Doug
+        - question: C
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Ms Ma
+        - question: D
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Mort
+        - question: B is a funeral director.
+          answer  : False
+        - question: D digs graves at cemeteries.
+          answer  : False
+        - question: C is A's mother.
+          answer  : True
+        - question: A's body is being prepared by B.
+          answer  : False
+        - question: B thinks the story is sad.
+          answer  : True
+        - question: C is going out of her mind.
           answer  : True
 pestcontroller:
   compcomp:
@@ -190,6 +283,100 @@ pestcontroller:
           answer: True
         - question: A loves D.
           answer: False
+    11:
+      identifier: pestcontroller 11
+      A: 
+      B: 
+      C: 
+      D: 
+      quiz:
+        - question: A
+          option: 
+           - Andy
+           - Bruce
+           - Charles
+           - Debbie
+          answer: Andy
+        - question: B
+          option:
+           - Andy
+           - Bruce
+           - Charles
+           - Debbie
+          answer: Bruce
+        - question: C
+          option:
+           - Andy
+           - Bruce
+           - Charles
+           - Debbie
+          answer: Charles
+        - question: D
+          option:
+           - Andy
+           - Bruce
+           - Charles
+           - Debbie
+          answer: Debbie
+        - question: D is a pest controller.
+          answer: False
+        - question: B and C are Americans in France.
+          answer: True
+        - question: A and D have similar careers.
+          answer: False
+        - question: A and B are not doing what they intended.
+          answer: True
+        - question: A and B are happy.
+          answer: True
+        - question: D is happy.
+          answer: False
+    12:
+      identifier: pestcontroller 12
+      A: 
+      B: 
+      C: 
+      D: 
+      quiz:
+        - question: A
+          option: 
+           - Andy
+           - Bruce
+           - Charles
+           - Debbie
+          answer: Andy
+        - question: B
+          option:
+           - Andy
+           - Bruce
+           - Charles
+           - Debbie
+          answer: Bruce
+        - question: C
+          option:
+           - Andy
+           - Bruce
+           - Charles
+           - Debbie
+          answer: Charles
+        - question: D
+          option:
+           - Andy
+           - Bruce
+           - Charles
+           - Debbie
+          answer: Debbie
+        - question: D has a good job.
+          answer: True
+        - question: B and C are Americans in France.
+          answer: True
+        - question: A and D have similar careers.
+          answer: False
+        - question: A and B ended up doing what they intended.
+          answer: False
+        - question: D is not happy.
+          answer: True
+        - question: A and B are not happy.
+          answer: False
 butler:
   compcomp:
     1:
@@ -284,6 +471,100 @@ butler:
           answer: False
         - question: D wanted C to work on ships.
           answer: False
+    11:
+      identifier: butler 11
+      A: 
+      B: 
+      C: 
+      D: 
+      quiz:
+        - question: A
+          option: 
+           - Dorothy
+           - Joyce
+           - Ray
+           - Robert Eaton
+          answer: Joyce
+        - question: B
+          option:
+           - Dorothy
+           - Joyce
+           - Ray
+           - Robert Eaton
+          answer: Robert Eaton
+        - question: C
+          option:
+           - Dorothy
+           - Joyce
+           - Ray
+           - Robert Eaton
+          answer: Dorothy
+        - question: D
+          option:
+           - Dorothy
+           - Joyce
+           - Ray
+           - Robert Eaton
+          answer: Ray
+        - question: A was a single mother.
+          answer: False
+        - question: B is a writer of novels.
+          answer: True
+        - question: C worked in a shipyard.
+          answer: True
+        - question: D was a boss.
+          answer: True
+        - question: A is B's mother.
+          answer: False
+        - question: D wanted C to work on ships.
+          answer: False
+    12:
+      identifier: butler 12
+      A: 
+      B: 
+      C: 
+      D: 
+      quiz:
+        - question: A
+          option: 
+           - Dorothy
+           - Joyce
+           - Ray
+           - Robert Eaton
+          answer: Joyce
+        - question: B
+          option:
+           - Dorothy
+           - Joyce
+           - Ray
+           - Robert Eaton
+          answer: Robert Eaton
+        - question: C
+          option:
+           - Dorothy
+           - Joyce
+           - Ray
+           - Robert Eaton
+          answer: Dorothy
+        - question: D
+          option:
+           - Dorothy
+           - Joyce
+           - Ray
+           - Robert Eaton
+          answer: Ray
+        - question: D was a boss in a shipyard.
+          answer: False
+        - question: A and C were both single mothers.
+          answer: True
+        - question: A and B both write.
+          answer: True
+        - question: B is C's mother.
+          answer: False
+        - question: D wasn't very happy about having C.
+          answer: True
+        - question: C mostly had a good life.
+          answer: False
 shirley:
   compcomp:
     1:
@@ -292,10 +573,9 @@ shirley:
         \begin{normalsize}Hair dressers--the job in the US\end{normalsize}
         \normalsize
         \begin{description}
-        \item [Licenses/Training] All hair dressers need to be licensed in the US. This usually requires a high school diploma, and also graduation from a hair dressing school. After graduation from the school, there is a government exam that may include a practical test. Full-time programs usually last 9 months, but most professionals take advanced classes to keep up with new trends. Licenses are issued by state governments. so it is difficult for hair dressers to move to another state without doing additional training.
+        \item [Licenses/Training] All hair dressers need to be licensed in the US. This usually requires a high school diploma, and also graduation from a hair dressing school. After graduation, there is a government exam that may include a practical test. Full-time programs usually last 9 months, but most professionals take advanced classes to keep up with new trends. Licenses are issued by state governments. so it is difficult for hair dressers to move to work in another state.
         \item [Employment] About half of all hairdressers are self-employed, having their own salon, or renting a chair from a salon's owner. Nearly every town in the US has a barber shop or beauty salon, but most hair dressers are concentrated in the cities. Many full-time barbers work 40 hours per week, but longer hours (often in the evening) are common. Many determine their own hours and about 30\%  are part-time.
-        \item [Prices] The average cost of a haircut in the US is \$21-45, but you can also pay \$800.
-        \item [Wages] The average hourly wage of hairdressers, including tips, is \$11. Wages vary greatly depending on the location of the hair salon, and the ability to attract new customers. Being able to attract and hold new customers is an important determiner of how much money a hairdresser can make.
+        \item [Money] The average cost of a haircut in the US is \$21-45, but you can also pay \$800. The average hourly wage of hairdressers is \$11. Wages vary greatly depending on the location of the hair salon, and your ability to attract and hold customers.
         \item [The future] The number of jobs for hair dressers is expected to increase faster than jobs for other people until 2018. Opportunities for beginners should be good, but competition for top-paying jobs will be strong.
         \item [Link] http://www.bls.gov/oco/ocos332.htm
         \end{description}
@@ -303,29 +583,28 @@ shirley:
         \begin{normalsize}Life in Drexel\end{normalsize}
         \normalsize
         \begin{description}
-        \item [The place] Drexel is in the Blue Ridge Mountains in the south-east of the United States. The people in the area used to be called `hillbillies.' Most Americans looked down on them, because they were poor and rough. However, people liked their music, and, when recorded from the mid-1920s, it contributed to the creation of 'country music,' a popular style of music in the US and around the world.
-        \item [Lawrence Anthony] Anthony, who died in December, 2009, was born about the time that the music started becoming popular, 80 years ago. Besides being a barber, Anthony also liked to play traditional styles of country music on guitar. Amateur guitarists from the area gathered in the back of his barber shop on Saturdays, to play with him. Those 'picking sessions' may or may not be continuing with his death. Probably they have ended.
-        \item [Economic conditions] Drexel now is almost a `ghost town.' About 2,000 people live in the town and the unemployment rate is about 10\%. From the 1920's to the 1990's, however, business in the town was good.
-        \item [Drexel Furniture Company] The Drexel Furniture Company, started in 1903, was one of a number of furniture companies in the Piedmont area. The area was suitable for furniture making because of the supply of wood, cheap labor and water power. However, the quality of the furniture was poor. Gradually, however, Drexel grew to become the third biggest furniture company in the US, making many different styles of medium-priced furniture. Conditions for workers were okay, but not great. Unions were not allowed in the company. Since the 1990's, with the economic slow-down in the US, Drexel's factories have closed one after the other, and the furniture is now made outside the US.
+        \item [The place] Drexel is in the Blue Ridge Mountains in the south-east of the United States. People there used to be called `hillbillies.' Most Americans looked down on them, because they were poor and rough. However, people liked their music, and, when recorded from the mid-1920s, it contributed to the creation of `country music.'
+        \item [Lawrence Anthony] Anthony, who died in December, 2009, was born about the time that the music started becoming popular, 80 years ago. Besides being a barber, Anthony also liked to play traditional styles of country music on guitar. Amateur guitarists from the area gathered in the back of his barber shop on Saturdays, to play with him. Those `picking sessions' may or may not be continuing. There's not much happening in Drexel now.
+        \item [Drexel Furniture Company] The company, started in 1903, was one of a number of furniture makers in the Piedmont area. The supply of wood and cheap labor there was good, But, the quality of their furniture was poor. Gradually, however, Drexel grew to become the third biggest furniture company in the US, making many different styles of medium-priced furniture. But since the 1990's, with the economic slow-down in the US, Drexel's factories have closed one after the other, and the furniture is now made outside the US.
         \end{description}
       quiz:
-        - question: Funeral directors don't have to go and pick up the body when someone dies.
-          answer: False
-        - question: The funeral home that Reed was working at was probably a small business.
+        - question: If Anthony were starting as a barber today, he would have had to go to barber school.
           answer: True
-        - question: A funeral director has to dig the grave that the body is placed in.
-          answer: False
-        - question: A funeral home will call the cemetery and expect the burial the next day.
-          answer: False
-        - question: Funeral directors will remove the blood from bodies and replace it with fluid.
+        - question: People might have looked down on Anthony.
           answer: True
-        - question: If you jump down into a grave, it might be difficult to get out unless you are very tall.
-          answer: True
-        - question: In the US, burials are traditional, but cremation is becoming more popular.
-          answer: True
-        - question: Oakland is a very new, expensive, perpetual-care cemetery.
+        - question: Shirley works at Anthony's barbershop, so Anthony is Shirley's boss.
           answer: False
-        - question: The person who tells the government someone died is usually the funeral director.
-          answer: True
-        - question: Perpetual-care cemeteries are cheaper than other cemeteries.
+        - question: Anthony's job was to play music for customers while Shirley cut their hair.
           answer: False
+        - question: Most barbers work in small towns like Anthony and Shirley.
+          answer: False
+        - question: Anthony may be continuing to play in the barbershop.
+          answer: False
+        - question: Popular barbers make more money than unpopular barbers.
+          answer: True
+        - question: People first started buying Drexel furniture because it was cheap.
+          answer: True
+        - question: Barbers will find it difficult to get jobs in the future.
+          answer: False
+        - question: Drexel's closing was bad news for Anthony and Shirley.
+          answer: True
