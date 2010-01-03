@@ -199,21 +199,114 @@ butler:
         \normalsize
         \begin{description}
         \item [The need for women] World War II started in the US in 1941. Women were brought into war work from 1942. Men were going to war and many industries were switching to war production. At first, there was lots of reluctance on the parts of managers, husbands, male workers, and many women, too.
-        \item [War effort] A shipyard in California, like the one Dorothy Butler was working at, where 25\% of the workers were women, produced 747 ships in 5 years. One time, they produced a ship in 5 days. Usually, it took them 2 weeks.
-        \item [Groups of women workers] Some women were already working, for example in laundries, like Dorothy Butler. Others had worked before but had lost their jobs. The third group was first-time workers. Many were married, white and middle-class and had to be encouraged to stop being housewives and go out to work.
+        \item [War effort] A shipyard in California, like the one Dorothy Kelley was working at, where 25\% of the workers were women, produced 747 ships in 5 years. One time, they produced a ship in 5 days. Usually, it took them 2 weeks.
+        \item [Groups of women workers] Some women were already working, for example in laundries, like Dorothy Kelley Others had worked before but had lost their jobs. The third group was first-time workers. Many were married, white and middle-class and had to be encouraged to stop being housewives and go out to work.
         \item [Women's Liberation] It is not clear whether women's war work affected the position of women after the war. Did their working sow the seeds of the second wave of feminism, ie Women's Liberation?
-        \item [What women said] "My mother warned ... 'You will never want to go back to being a housewife.' .. [S]he was right ... [A]t Boeing I found a freedom and an independence that I had never known." Inez Sauer, Boeing tool clerk. \\
+        \item [Women's voices] "My mother warned, 'You will never want to go back to being a housewife.' She was right. At Boeing I found a freedom and an independence that I had never known." Inez Sauer, Boeing clerk.\\
         "You came out to California, put on your pants, and took your lunch pail to a man's job. This was the beginning of women's feeling that they could do something more." Sybil Lewis, Lockheed riveter.
         \end{description}
       Black: |+
-        \begin{normalsize}Dorothy Butler and her children\end{normalsize}
+        \begin{normalsize}Dorothy Kelley and her children\end{normalsize}
         \normalsize
         \begin{description}
         \item [Early life] She was born in 1907 in Portland. Her father was the pastor in a church. She got married to Charles Kelley in 1927, and got divorced in 1942, after 15 years of marriage, taking her four children, Joan, John (born 1931), Joyce (born 1933), and Robert Eaton.
         \item [Supporting the family] Although her husband regularly sent her money after the divorce, she needed to also go to work. sometimes at two jobs, to support her children. From 1943 until World War II ended in 1945, she was a welder on the Liberty Ships in the South Portland shipyard.  After the war, she worked days at Portland's Montgomery Ward department store and evenings as a paper sorter in the S.D. Warren mill in Westbrook, a job she held until her retirement in 1957. 
-        \item [Re-marriage] She was married to Forrest Hamblen, 1948-1952. She then married Roger Meserve and that marriage continued until his death in 1985.
+        \item [Re-marriage] She was married to Forrest Hamblen, 1948-1952. She then married Roger Meserve in 1953 and that marriage continued until his death in 1985.
         \item [Interests] Among other things, she wrote poetry. Her interest in reading and writing was passed on to her children. She continued reading until her death in 2002, despite eyesight problems.
         \item [Children] John became a university biology professor. Joyce Butler studied English in college but after getting married became a writer about the history of Maine, the area where she and her mother live. And Robert Eaton writes novels.
+        \end{description}
+      quiz:
+        - question: There were no problems getting women involved in the US war effort.
+          answer: False
+        - question: Dorothy Kelley's main motive for working at the shipyard was to help the war effort.
+          answer: False
+        - question: At one shipyard, 25 percent of the workers were women.
+          answer: True
+        - question: Her husband didn't support her with money.
+          answer: False
+        - question: Some women who started to work during the war had never worked before.
+          answer: True
+        - question: After the war, she worked at a department store in the daytime. She also worked at night.
+          answer: True
+        - question: There may or may not be a connection between women's work during the war and the start of Women's Liberation in the US.
+          answer: True
+        - question: Her children were not able to go to college, because she was a single mother.
+          answer: False
+        - question: Some women said the war work had a big effect on their feeling of independence.
+          answer: True
+        - question: The problems that she had as a single mother bringing up her children prevented them from doing anything significant in their lives.
+          answer: False
+  jigsaw:
+    1:
+      identifier: Dorothy Kelley, her work and her children
+      A: Your mother, Dorothy loved to read and even though she never had a job that involved writing, her children did. Her life was good, except for the war period when she was a single mother. You studied English at college but started writing history after you got married.
+      B: You are the brother of Joyce. Like her, you are a writer. She writes about the history of Maine, where your family comes from. You write novels. You don't live in your hometown. You live in Germany, the country which your country was fighting in World War Two.
+      C: Before the war, you were a housewife. After the divorce, you worked in a laundry, then in a department store, then in a shipyard, which was hard work, but paid well. Your boss was Ray. After the war, you went back to the department store, but you also had to work at night in a paper mill to make enough money.
+      D: You gave Dorothy a job during the war at the shipyard. You weren't too sure if employing her was a good idea, because it was hard work, even for a man. You had to build one ship every 3 to 4 weeks. She had 4 children to look after, two of whom are here, Joyce and Robert Eaton. After the war, she married again.
+      quiz:
+        - question: A
+          option: 
+           - Dorothy
+           - Joyce
+           - Ray
+           - Robert Eaton
+          answer: Joyce
+        - question: B
+          option:
+           - Dorothy
+           - Joyce
+           - Ray
+           - Robert Eaton
+          answer: Robert Eaton
+        - question: C
+          option:
+           - Dorothy
+           - Joyce
+           - Ray
+           - Robert Eaton
+          answer: Joyce
+        - question: D
+          option:
+           - Dorothy
+           - Joyce
+           - Ray
+           - Robert Eaton
+          answer: Ray
+        - question: A was a single mother.
+          answer: False
+        - question: B is a writer of novels.
+          answer: True
+        - question: C worked in a shipyard.
+          answer: True
+        - question: D was a boss.
+          answer: True
+        - question: A is B's mother.
+          answer: False
+        - question: D wanted C to work on ships.
+          answer: False
+shirley:
+  compcomp:
+    1:
+      identifier: shirley 1
+      White: |+
+        \begin{normalsize}Hair dressers--the job in the US\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Licenses/Training] All hair dressers need to be licensed in the US. This usually requires a high school diploma, and also graduation from a hair dressing school. After graduation from the school, there is a government exam that may include a practical test. Full-time programs usually last 9 months, but most professionals take advanced classes to keep up with new trends. Licenses are issued by state governments. so it is difficult for hair dressers to move to another state without doing additional training.
+        \item [Employment] About half of all hairdressers are self-employed, having their own salon, or renting a chair from a salon's owner. Nearly every town in the US has a barber shop or beauty salon, but most hair dressers are concentrated in the cities. Many full-time barbers work 40 hours per week, but longer hours (often in the evening) are common. Many determine their own hours and about 30\%  are part-time.
+        \item [Prices] The average cost of a haircut in the US is \$21-45, but you can also pay \$800.
+        \item [Wages] The average hourly wage of hairdressers, including tips, is \$11. Wages vary greatly depending on the location of the hair salon, and the ability to attract new customers. Being able to attract and hold new customers is an important determiner of how much money a hairdresser can make.
+        \item [The future] The number of jobs for hair dressers is expected to increase faster than jobs for other people until 2018. Opportunities for beginners should be good, but competition for top-paying jobs will be strong.
+        \item [Link] http://www.bls.gov/oco/ocos332.htm
+        \end{description}
+      Black: |+
+        \begin{normalsize}Life in Drexel\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [The place] Drexel is in the Blue Ridge Mountains in the south-east of the United States. The people in the area used to be called `hillbillies.' Most Americans looked down on them, because they were poor and rough. However, people liked their music, and, when recorded from the mid-1920s, it contributed to the creation of 'country music,' a popular style of music in the US and around the world.
+        \item [Lawrence Anthony] Anthony, who died in December, 2009, was born about the time that the music started becoming popular, 80 years ago. Besides being a barber, Anthony also liked to play traditional styles of country music on guitar. Amateur guitarists from the area gathered in the back of his barber shop on Saturdays, to play with him. Those 'picking sessions' may or may not be continuing with his death. Probably they have ended.
+        \item [Economic conditions] Drexel now is almost a `ghost town.' About 2,000 people live in the town and the unemployment rate is about 10\%. From the 1920's to the 1990's, however, business in the town was good.
+        \item [Drexel Furniture Company] The Drexel Furniture Company, started in 1903, was one of a number of furniture companies in the Piedmont area. The area was suitable for furniture making because of the supply of wood, cheap labor and water power. However, the quality of the furniture was poor. Gradually, however, Drexel grew to become the third biggest furniture company in the US, making many different styles of medium-priced furniture. Conditions for workers were okay, but not great. Unions were not allowed in the company. Since the 1990's, with the economic slow-down in the US, Drexel's factories have closed one after the other, and the furniture is now made outside the US.
         \end{description}
       quiz:
         - question: Funeral directors don't have to go and pick up the body when someone dies.
