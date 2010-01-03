@@ -240,7 +240,7 @@ biomom:
     1:
       identifier: biomom 1
       A: You got drunk at a party and you went to bed with someone there. You regret this, but you are now pregnant. You don't want to have an abortion, but you don't think you can bring the child up alone.
-      B: You're biological mom is Sue, but she gave you up for adoption. You were brought up by your parents, Don and Dovonna. You love them. You want to find out about the woman who gave you birth.
+      B: Your biological mom is Sue, but she gave you up for adoption. You were brought up by your parents, Don and Dovonna. You love them. You want to find out about the woman who gave you birth.
       C: You adopted Deborah when she was one month old, You love her very much and she loves you too. You told her she was adopted when she was 5. She is a happy person. You are proud of her.
       D: You are Deborah's father, Don. When she was in her early twenties, she asked if you could help her contact her birth mother. You gave her all the papers that the adoption agency had given you twenty years ago.
       quiz:
@@ -333,9 +333,3 @@ biomom:
           answer: True
         - question: B gets on well with D.
           answer: False
-    3:
-      identifier: biomom 3
-      A: You got drunk at a party and you went to bed with someone there. You regret this, but you are now pregnant. You don't want to have an abortion, but you don't think you can bring the child up alone.
-      B: Your biological mom is Sue, but she gave you up for adoption. You were brought up by your parents, Don and Devonna. You love them. You want to find out about the woman who gave you birth.
-      C: You adopted Deborah when she was one month old, You love her very much and she loves you too. You told her she was adopted when she was 5. She is a happy person. You are proud of her.
-      D: You are Deborah's father. When she was in her early twenties, she asked if you could help her contact her birth mother. You gave her all the papers that the adoption agency had given you twenty years ago.
