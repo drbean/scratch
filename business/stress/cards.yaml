@@ -137,35 +137,31 @@ hotspot:
         answer  : False
   2:
     identifier: In Equilibrium hotspot 1
-    A: You are Alan Bradshaw. You head a group of consultants who help companies which have problems with stress. But your group is experiencing stress! You give your consultants Control, you reduce Uncertainty. you Support them and don't Pressure them. So, where is the hotspot?
-    B: You are Dot Goulay. You believe in CUSP. You argue with Tan. You tell her to stop promoting Slow Living. You tell her that your group is a CUSP group. You tell her she is causing the group stress. You tell her to support the group, not pressure it.
-    C: You are Philomena Tan. You believe in Slow Living as the answer. You believe stress is caused by the fast pace of modern life and can only be avoided by not working so hard, and by doing things with less money. You tell Dot that she is wrong about stress. You tell her to work less.
-    D: You are David Brown. You are a doctor. You consult on the effect of stress on health. The argument of Dot and Tan is making you feel sick. You shout at Tan, 'I can't work less. My family needs the money.' You believe in CUSP but tell Alan he must stop Dot and Tan arguing.
+    A: You are Alan. You head a group of consultants who help companies which have problems with stress. But your group is experiencing stress! You give your consultants Control, you reduce Uncertainty. and you don't Pressure them. So, where is the hotspot?
+    B: You are Dot. You believe in CUSP. You argue with Tan. You tell her to stop promoting Slow Living. You tell her that your group is a CUSP group. You tell her she is causing the group stress. You tell her to support the group, not pressure it.
+    C: You are Tan. You believe in Slow Living as the answer. You believe stress is caused by the fast pace of modern life and can only be avoided by not working so hard, and by doing things with less money. You tell Dot that she is wrong about stress. You tell her to work less.
+    D: You are David. You are a doctor, but you are not in good health, so you don't work very much. The argument of Dot and Tan is making you feel bad. You shout at Tan, `I don't work very hard!' You tell Alan he must stop Tan and Dot arguing.
     quiz:
       - question: The hotspot
         option:
-          - Alan Bradshaw
-          - Dot Goulay
-          - Philomena Tan
-          - David Brown
+          - Alan
+          - Dot
+          - Tan
+          - David
         answer:   Tan
-      - question: A, Alan believes that giving his consultants control over their own activities will reduce stress.
+      - question: A gives B, C and D control.
         answer  : True
-      - question: D, David, wants A, Alan to take away Dot and Tan's freedom to argue.
+      - question: D wants A to put pressure on B and C.
         answer  : True
-      - question: C, Tan, believes that the cause of stress is CUSP.
+      - question: B's problem is uncertainty about CUSP.
         answer  : False
-      - question: B, Dot believes in Slow Living.
-        answer  : False
-      - question: A, Alan, is the leader of the group.
+      - question: C's problem is pressure from B and D.
         answer  : True
-      - question: B, Dot, supports A, Alan. They both believe in CUSP.
+      - question: A is giving B, C and D support.
+        answer  : False
+      - question: B says C is putting pressure on the group.
         answer  : True
-      - question: C, Tan, supports B, Dot, in her beliefs about stress.
-        answer  : False
-      - question: D, David, doesn't feel stress as a result of B and C.
-        answer  : False
-      - question: A, Alan, puts lots of pressure on the group.
+      - question: C wants A to support B and D.
         answer  : False
   3:
     identifier: In Equilibrium hotspot 2
