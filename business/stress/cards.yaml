@@ -108,7 +108,7 @@ stress:
 hotspot:
  jigsaw:
   1:
-    identifier: hotspot 1
+    identifier: Camping goods hotspot 1
     A: On Friday last week, Olivier got a large order from Carrefour for camping goods. The goods had to be delivered by January 15 for the winter vacation. There is a lot of conflict in the company. Many people shout, 'You're fired!' and, 'I quit!' You are Charles, CEO of the company. You look for the stress hotspot.
     B: You are Jacques, the Production Manager. You complain to the Sales Department about Olivier's order. You tell Todd that you cannot produce the goods by January 15, because now is the busiest time of the year for the production department, and your workers are new and untrained. You say that Olivier is rude and impossible to work with.
     C: You are Olivier, the Sales Department's best salesman. You are brilliant. Sales from your area amount to 24\% of the company's total sales. You are very rude to Jacques when he tells you the Production Department's situation. You are under a lot of pressure from Todd to produce reports and attend meetings.
@@ -169,9 +169,9 @@ hotspot:
   3:
     identifier: In Equilibrium hotspot 2
     A: You are Alan Bradshaw. You head a group of consultants who help companies which have problems with stress, but your group is very difficult to control. So, you put pressure on them. You tell them they must promote the CUSP framework. But you don't tell them why. They are experiencing stress.
-    B: You are Dot Goulay. Alan told you you must talk about CUSP. CUSP means giving people control, removing uncertainty, giving support, and removing pressure. You don't want to do this. You like to listen to other people's ideas. You don't like to tell them what to think. You argue with Alan.
-    C: You are Philomena Tan. You believe in Slow Living as the answer. You believe stress is caused by the fast pace of modern life. But Alan wants you to promote the CUSP framework. He doesn't think Slow Living is the answer. You are unhappy about working with the group.
-    D: You are David Brown. You are a doctor. You are a member of Alan's group. You give advice on how to reduce stress. But you are feeling a lot of stress. The argument of Dot and Alan is making you feel sick. You shout at Alan, 'I believe in CUSP, but I can't stand this.' Alan looks unhappy.
+    B: You are Dot Goulay. Alan told you you must talk about CUSP: giving people control, removing uncertainty, giving support, and removing pressure. You like the framework, but you don't want to talk about it. You like to listen to other people's ideas. You don't like to tell them what to think. You argue with Alan.
+    C: You are Philomena Tan. You believe in Slow Living as the answer. You believe stress is caused by the fast pace of modern life. But Alan wants you to promote the CUSP framework. He doesn't think Slow Living is the answer. You are unhappy about working with the group. Only you believe in Slow Living.
+    D: You are David Brown. You are a doctor. You are a member of Alan's group. You give advice on how to reduce stress. But you are feeling a lot of stress. The argument of Dot and Alan is making you feel sick. You shout at Alan and Dot, 'I believe in CUSP, but I can't stand this.' Alan looks unhappy.
     quiz:
       - question: The hotspot
         option:
@@ -197,4 +197,59 @@ hotspot:
       - question: D, David, doesn't feel stress as a result of A, Alan and B, Dot.
         answer  : False
       - question: A, Alan, doesn't feel stress as a result of B, C, and D.
+        answer  : False
+  4:
+    identifier: Camping goods hotspot 2
+    A: You are Charles, CEO of a camping goods company. On Friday last week, you told Olivier it was OK to accept a large order from Carrefour for camping goods, The goods had to be delivered in 2 weeks. You know that it is almost impossible for your company to deliver the goods. But you want the money.
+    B: You are Jacques, the Production Manager. You complain to the Sales Department about Olivier's order. You tell Todd that you cannot produce the goods in 2 weeks, because now is the busiest time of the year for the production department. You ask who okayed the order.
+    C: You are Olivier, the Sales Department's best salesman. You are very sorry for Jacques because the Production Department cannot handle the Carrefour order. Charles, the CEO, is your friend, and he asked you to take the order. You are under a lot of pressure from Charles to increase sales.
+    D: You are Todd the Sales Manager. You ask Olivier why he took the order from Carrefour. You know the Production Department is very busy now. Olivier tells you Charles told him it was OK to take the order. You are unhappy Olivier did not ask you. You are mad at Charles for okaying the order.
+    quiz:
+      - question: The hotspot
+        option:
+          - Charles
+          - Jacques
+          - Olivier
+          - Todd
+      - question: A, the CEO, puts pressure on B, C, and D.
+        answer  : True
+      - question: B is feeling stress.
+        answer  : True
+      - question: C is feeling stress from D, the Sales Manager.
+        answer  : False
+      - question: D has the situation under control.
+        answer  : False
+      - question: A did not tell D what he was doing.
+        answer  : True
+      - question: If A supports D in handling Carrefour, D will feel stress.
+        answer  : False
+      - question: A did not put pressure directly on D.
+        answer  : True
+  5:
+    identifier: Camping goods hotspot 5
+    A: You are Charles, CEO of a camping goods company. On Friday last week, Olivier got a large order from Carrefour for camping goods. The goods have to be delivered by January 15 for the winter vacation. There is a lot of conflict between Jacques, Olivier and Todd over the order.
+    B: You are Jacques, the Production Manager. You complain to the Sales Department about Olivier's order. You tell Todd that you cannot produce the goods by January 15. You tell him that you argued with Olivier about the order. You say Olivier is rude and impossible to work with.
+    C: You are Olivier, the Sales Department's best salesman. You are brilliant. You tell Jacques he must try to produce the goods for Carrefour. You argue with him when he tells you he cannot do that. This is stressful for you. And the pressure Todd puts on you to follow his policy is stressful too.
+    D: You are Todd the Sales Manager. You are Olivier's boss. Jacques is angry with you about Olivier's order. You put a lot of pressure on Olivier and try to control him. The company is so dependent on his sales ability that it is difficult to tell him what to do.
+    quiz:
+      - question: The hotspot
+        option:
+          - Charles
+          - Jacques
+          - Olivier
+          - Todd
+        answer: Olivier
+      - question: A, the CEO, puts pressure on B, C, and D.
+        answer  : False
+      - question: B's problem is one of uncertainty.
+        answer  : False
+      - question: C puts pressure on B.
+        answer  : True
+      - question: D puts pressure on C.
+        answer  : True
+      - question: C has the situation under control.
+        answer  : False
+      - question: D's problem is control over C.
+        answer  : True
+      - question: A is giving support to D.
         answer  : False
