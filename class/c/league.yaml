@@ -1,193 +1,22 @@
 ---
+league<TAB>
 id: GL00030
 league: 日語文共同學制虛擬班乙
 field: 中級英文聽說訓練
 member:
-  - Chinese: 張語修
-    name: Allen
-    password: yu
-    id: 9414207
-    rating: 1400
+member<TAB>
   - Chinese: 季德維
     name: David
     password: de
     id: 9521291
     rating: 600
-  - Chinese: 邱永閎
-    name: Yong-hung
-    password: yong
-    id: 9521303
-    rating: 600
-  - Chinese: 賴怡涵
-    name: Eva
-    password: yi
-    id: 9631210
-    rating: 1000
-  - Chinese: 廖怡繁
-    name: Yi-Fan
-    password: yi
-    id: 9633231
-    rating: 600
-  - Chinese: 曹力云
-    name: Lisa
-    password: li
-    id: T9716016
-    rating: 1700
-  - Chinese: 陳芯俞
-    name: Queena
-    password: xin
-    id: T9716050
-    rating: 1000
-  - Chinese: 林芝羽
-    name: Tina
-    password: zhi
-    id: U9634037
-    rating: 700
-  - Chinese: 劉幸姍
-    name: Krista
-    password: xing
-    id: U9634042
-    rating: 700
-  - Chinese: 簡浩軒
-    name: Howard
-    password: hao
-    id: U9713021
-    rating: 600
-  - Chinese: 張欽舜
-    name: Phil
-    password: qin
-    id: U9715015
-    rating: 800
-  - Chinese: 洪千淯
-    name: Chien-yu
-    password: qian
-    id: U9717023
-    rating: 600
-  - Chinese: 陳麒元
-    name: Leon
-    password: qi
-    id: U9717040
-    rating: 600
-  - Chinese: 陳裕文
-    name: Stewart
-    password: yu
-    id: U9717047
-    rating: 1700
-  - Chinese: 劉旭杰
-    name: Xiu-Jie
-    password: xu
-    id: U9717048
-    rating: 600
-  - Chinese: 楊尚融
-    name: Jeff
-    password: shang
-    id: U9722128
-    rating: 600
-  - Chinese: 楊昆翰
-    name: Philip
-    password: kun
-    id: U9731150
-    rating: 800
-  - Chinese: 陳禹旻
-    name: Yu-min
-    password: yu
-    id: 9522283
-    rating: 1600
-  - Chinese: 康秉強
-    name: John
-    password: bing
-    id: U9711134
-    rating: 700
-  - Chinese: 吳孟珊
-    name: Meng-sun
-    password: meng
-    id: 9631233
-    rating: 800
-  - Chinese: 羅雲松
-    name: Kristen
-    password: yun
-    id: U9713017
-    rating: 700
-  - Chinese: 顧桂玲
-    name: Gladys
-    password: gui
-    id: U9731134
-    rating: 1400
-  - Chinese: 李韋儒
-    name: Kenny
-    password: wei
-    id: U9824026
-    rating: 800
-  - Chinese: 許靖玫
-    name: Marie
-    password: jing
-    id: 9631209
-    rating: 1200
-  - Chinese: 陳世浦
-    name: Ken
-    password: shi
-    id: 9521307
-    rating: 700
-  - Chinese: 呂宏志
-    name: Hong-Zhi
-    password: hong
-    id: 9521304
-    rating: 700
-  - Chinese: 李志文
-    name: Frank
-    password: zhi
-    id: M9722010
-    rating: 1000
+rest<TAB>
 out:
-  - Chinese: 林雅惠
-    name: Ya-hui
-    password: ya
-    id: 9631234
-    rating: 800
-  - Chinese: 陳睿媛
-    name: 陳睿媛
-    password: rui
-    id: U9721151
-  - Chinese: 黃世慈
-    name: 黃世慈
-    password: shi
-    id: U9714131
-  - Chinese: 高健桓
-    name: 高健桓
-    password: jian
-    id: U9634026
-  - Chinese: 劉美欣
-    name: 劉美欣
-    password: mei
-    id: 9633210
-  - Chinese: 唐瀅惠
-    name: 唐瀅惠
-    password: ying
-    id: 9633209
-  - Chinese: 柳鳳鶯
-    name: Gina
-    password: feng
-    id: U9692014
-  - Chinese: 溫惠晴
-    name: Beryl
-    password: hui
-    id: U9692017
 absent:
   - None
 series:
- - first
- - second
- - third
 conversations:
-  - compdiscussion
-  - trinka
-  - viviano
-  - clay
-  - goetz
-  - biodad
-  - biomom
 exams:
-  - exam1
 seats:
   DarkGreen : [21, 13, 22, 14]
   DarkBlue  : [19, 11, 20, 12]
@@ -196,7 +25,6 @@ seats:
   LightGreen: [37, 27, 38, 28]
   Orange    : [39, 29, 40, 30]
   Pink      : [41, 31, 42, 32]
-#  Purple    : [43, 33, 44, 34]
 alternativeseats:
   Black     : [25, 25a, 26, 26a]
   Blue      : [23, 15, 24, 16]
@@ -271,4 +99,4 @@ weights:
   homework: 15
   classwork: 70
   exams: 15
-approach: compwork
+approach: CompComp
