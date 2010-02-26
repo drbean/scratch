@@ -1,0 +1,74 @@
+# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom::Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: Vroom!
+indent: 5
+height: 18
+width: 69
+skip: 0
+
+# The following options are for Gvim usage.
+# vim: gvim
+# fuopt: maxhorz,maxvert
+# guioptions: egmLtT
+# guicursor: a:blinkon0-ver25-Cursor
+# guifont: Bitstream_Vera_Sans_Mono:h18
+
+---- center
+Comprehension Competition
+
+by Dr Bean
+
+(hint: press the spacebar or Backspace)
+
+----
+== Ways of working
+
+There are 2 ways of working in the class
+
+* 4 people in a group cooperating to share information
+
+and 
+
++* 2 people in a group competing to understand each other's information
+
+----
+== Classwork
+
+Each week we will:
+
+* co-operate in a group of 4 to share information
+* compete in a group of 2 to get information from each other
+
+----
+== Grades
+
+* Classwork. Each week you get points:
+  * 0, if absent
+  * 1, if late for 2-partner competition
+  * 3, if you lose to your partner
+  * 4, if you draw with your partner
+  * 5, if you beat your partner
+
++* Homework. Each week listen to a sound file and fill in the missing words for 2 points.
+  * http://web.nuu.edu.tw/~greg/DictationExercises
+
++* Exams.
+  * Week 4, 9, 13, 18
+    * a 4-partner jigsaw activity with your group for 4 points
+    * 1 or 2 2-partner discussions for 5 or 10 points
+
+----
+== Grade computation
+* Classwork: 70 percent
+* Homework: 15 percent
+* Exams: 15 percent
+
+----
+== The End
