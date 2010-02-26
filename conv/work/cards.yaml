@@ -59,28 +59,28 @@ undertaker:
             - Ms Ma
             - Mort
             - Dred
-          answer: Jock
+          answer: Dred
         - question: B
           option:
             - Doug
             - Ms Ma
             - Mort
             - Dred
-          answer: Eloise
+          answer: Doug
         - question: C
           option:
             - Doug
             - Ms Ma
             - Mort
             - Dred
-          answer: Margaret
+          answer: Ms Ma
         - question: D
           option:
             - Doug
             - Ms Ma
             - Mort
             - Dred
-          answer: Nick
+          answer: Mort
         - question: Mort was a student.
           answer  : False
         - question: Doug is a funeral director.
@@ -451,7 +451,7 @@ butler:
            - Joyce
            - Ray
            - Robert Eaton
-          answer: Joyce
+          answer: Dorothy
         - question: D
           option:
            - Dorothy
@@ -516,7 +516,7 @@ butler:
           answer: True
         - question: A is B's mother.
           answer: False
-        - question: D wanted C to work on ships.
+        - question: D asked C to work in a shipyard.
           answer: False
     12:
       identifier: butler 12
@@ -554,9 +554,9 @@ butler:
            - Robert Eaton
           answer: Ray
         - question: D was a boss in a shipyard.
-          answer: False
-        - question: A and C were both single mothers.
           answer: True
+        - question: A and C were both single mothers.
+          answer: False
         - question: A and B both write.
           answer: True
         - question: B is C's mother.
@@ -564,7 +564,7 @@ butler:
         - question: D wasn't very happy about having C.
           answer: True
         - question: C mostly had a good life.
-          answer: False
+          answer: True
 shirley:
   compcomp:
     1:
@@ -608,3 +608,46 @@ shirley:
           answer: False
         - question: Drexel's closing was bad news for Anthony and Shirley.
           answer: True
+drbean:
+  compcomp:
+    1:
+      identifier: drbean 1
+      White: |+
+        \begin{normalsize}Dr Bean's father's career\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Starting] Dr Bean's father, Bill, started working soon after World War 2 as a chemical engineer. He stayed with his company, a paint manufacturer, for 30 years, and ended up as the plant manager.
+        \item [Ending] He left the company because there was no opportunity for advancement and spent the last 10 years of his career as the manager of a sewerage treatment plant.
+        \item [Interests] This description of his career gives no indication of his real interests, which were building and sailing boats. When he was younger, he had been interested in hiking and a number of other recreations, but after getting married and building a house for the family (his father had been a builder), sailing and building boats became his prime interest. In the evenings after work, he would work on the boats. He lived for the weekend. He got up earlier on the weekend than he did during the week to go sailing in summer and build boats in the winter.
+        \item [Children] Dr Bean's mother says his three sons are all the opposite to him. They are all `workaholics,' and have no interests outside their work. One is a theater director and the other is a graphic (book) designer. However, perhaps they selected careers where they did not have to divide their lives into the `work' and `play' sections the way their father had to.
+        \end{description}
+      Black: |+
+        \begin{normalsize}Dr Bean's career\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Before] Like Andy Linares, who didn't intend to become a pest controller, Dr Bean didn't intend to be an English teacher. In fact, he didn't see himself as having a regular career. It was only 15 years after dropping out from graduate school, that he got a job he stayed in for more than a year. when he started working as an editor at The Korea Times, It was the experience of learning Japanese in Japan that made English teaching very interesting for him.
+        \item [Starting] Clearly, the reason he started working regularly was to support his wife, who he had met in Japan. He used to joke about English teaching, `I'm only in it for the money.' But clearly he enjoyed teaching too.
+        \item [Life outside work] Although Dr Bean may appear to be a `workaholic,' he does have interests outside teaching English. For him, computer programming is relaxing. Only incidentally does it help him in his classes. He finds teaching stressful. He can't get the students to do what he wants them to do. But he can get the computer to do what he wants it to do. He enjoys that.
+        \item [Career] Dr Bean is not sure if he has a `career.' He has a job. He has work. He is happy doing what he is doing, But he doesn't want recognition for his work, and he doesn't want a position in society. He is glad that he can get paid for doing what he likes to do.
+        \end{description}
+      quiz:
+        - question: Dr Bean's father had a regular career, but Dr Bean hasn't had one.
+          answer: True
+        - question: Dr Bean's father's children all had major interests that they were not able to make part of their careers.
+          answer: False
+        - question: Dr Bean's father had a very different career path to the paths of his children.
+          answer  : True
+        - question: Dr Bean originally intended to be a pest controller.
+          answer  : False
+        - question: It took Dr Bean a long time after leaving college to get a regular job.
+          answer  : True
+        - question: Dr Bean's father was a `workaholic,' so all of his children hate working. They don't have regular jobs.
+          answer  : False
+        - question: Dr Bean started working a regular job to support his wife.
+          answer  : True
+        - question: Dr Bean can't get his students to do what he wants them to do.
+          answer  : True
+        - question: Dr Bean regards computer programming as part of his job.
+          answer  : False
+        - question: Dr Bean's father's children have careers in science and technology, like their father.
+          answer  : False
