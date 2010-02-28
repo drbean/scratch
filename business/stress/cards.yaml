@@ -111,7 +111,7 @@ hotspot:
     identifier: Camping goods hotspot 1
     A: You are Charles, CEO of a camping goods company. On Friday last week, Olivier got a large order from Carrefour for camping goods. The goods have to be delivered by January 15 for the winter vacation. There is a lot of conflict between Jacques, Olivier and Todd over the order.
     B: You are Jacques, the Production Manager. You complain to the Sales Department about Olivier's order. You tell Todd that you cannot produce the goods by January 15. You tell him that you argued with Olivier about the order. You say Olivier is rude and impossible to work with.
-    C: You are Olivier, the Sales Department's best salesman. You are brilliant. You tell Jacques he must try to produce the goods for Carrefour. You argue with him when he tells you he cannot do that. This is stressful for you. And the pressure Todd puts on you to follow his policy is stressful too.
+    C: You are Olivier, the Sales Department's best salesman. You are brilliant. You tell Jacques he must try to produce the goods for Carrefour. You argue with him when he tells you he cannot do that. This is stressful for you. And the pressure Todd puts on you is stressful too.
     D: You are Todd the Sales Manager. You are Olivier's boss. Jacques is angry with you about Olivier's order. You put a lot of pressure on Olivier and try to control him. The company is so dependent on his sales ability that it is difficult to tell him what to do.
     quiz:
       - question: The hotspot
@@ -140,7 +140,7 @@ hotspot:
     A: You are Alan. You head a group of consultants who help companies which have problems with stress. But your group is experiencing stress! You give your consultants Control, you reduce Uncertainty. and you don't Pressure them. So, where is the hotspot?
     B: You are Dot. You believe in CUSP. You argue with Tan. You tell her to stop promoting Slow Living. You tell her that your group is a CUSP group. You tell her she is causing the group stress. You tell her to support the group, not pressure it.
     C: You are Tan. You believe in Slow Living as the answer. You believe stress is caused by the fast pace of modern life and can only be avoided by not working so hard, and by doing things with less money. You tell Dot that she is wrong about stress. You tell her to work less.
-    D: You are David. You are a doctor, but you are not in good health, so you don't work very much. The argument of Dot and Tan is making you feel bad. You shout at Tan, `I don't work very hard!' You tell Alan he must stop Tan and Dot arguing.
+    D: You are David. You are a doctor, but you are not in good health, so you don't work very much. The argument of Dot and Tan is making you feel bad. You shout at Tan, `I DON'T work very much!' You tell Alan he must stop Tan and Dot arguing.
     quiz:
       - question: The hotspot
         option:
@@ -165,35 +165,31 @@ hotspot:
         answer  : False
   3:
     identifier: In Equilibrium hotspot 2
-    A: You are Alan Bradshaw. You head a group of consultants who help companies which have problems with stress, but your group is very difficult to control. So, you put pressure on them. You tell them they must promote the CUSP framework. But you don't tell them why. They are experiencing stress.
-    B: You are Dot Goulay. Alan told you you must talk about CUSP: giving people control, removing uncertainty, giving support, and removing pressure. You like the framework, but you don't want to talk about it. You like to listen to other people's ideas. You don't like to tell them what to think. You argue with Alan.
-    C: You are Philomena Tan. You believe in Slow Living as the answer. You believe stress is caused by the fast pace of modern life. But Alan wants you to promote the CUSP framework. He doesn't think Slow Living is the answer. You are unhappy about working with the group. Only you believe in Slow Living.
-    D: You are David Brown. You are a doctor. You are a member of Alan's group. You give advice on how to reduce stress. But you are feeling a lot of stress. The argument of Dot and Alan is making you feel sick. You shout at Alan and Dot, 'I believe in CUSP, but I can't stand this.' Alan looks unhappy.
+    A: You are Alan. You head a group of consultants who help companies which have problems with stress, but your group is very difficult to control. So, you put pressure on them. You tell them they must promote the CUSP framework. But you don't tell them why. They are experiencing stress.
+    B: You are Dot. Alan told you you must talk about CUSP: giving people control, removing uncertainty, giving support, and removing pressure. You like the framework, but you don't want to talk about it. You like to listen to other people's ideas. You don't like to tell them what to think. You argue with Alan.
+    C: You are Tan. You believe in Slow Living as the answer. You believe stress is caused by the fast pace of modern life. But Alan wants you to promote the CUSP framework. He doesn't think Slow Living is the answer. You are unhappy about working with the group. Only you believe in Slow Living.
+    D: You are David. You are a doctor, but you are not in good health. You are feeling a lot of stress. The argument of Dot and Alan is making you feel sick. You shout at Alan and Dot, `I believe in CUSP, but I can't stand this.' Alan looks unhappy.
     quiz:
       - question: The hotspot
         option:
-          - Alan Bradshaw
-          - Dot Goulay
-          - Philomena Tan
-          - David Brown
+          - Alan
+          - Dot
+          - Tan
+          - David
         answer:   Alan
-      - question: A, Alan believes that giving his consultants control over their own activities will reduce stress.
+      - question: A's problem is control of the group.
         answer  : True
-      - question: D, David, wants A, Alan to stop arguing with B. Dot.
+      - question: B's problem is control of what she tells others.
         answer  : True
-      - question: C, Tan, believes that the cause of stress is CUSP.
+      - question: A probably isn't causing C to feel any stress.
         answer  : False
-      - question: B, Dot believes in promoting CUSP.
+      - question: D's problem is uncertainty about what A and B want.
         answer  : False
-      - question: A, Alan, is the leader of the group.
+      - question: If A supports C's idea of Slow Living, C will feel more stress.
+        answer  : False
+      - question: D supports A. They both believe in CUSP.
         answer  : True
-      - question: D, David supports A, Alan. They both believe in CUSP.
-        answer  : True
-      - question: C, Tan, supports A, Alan, in his beliefs about stress.
-        answer  : False
-      - question: D, David, doesn't feel stress as a result of A, Alan and B, Dot.
-        answer  : False
-      - question: A, Alan, doesn't feel stress as a result of B, C, and D.
+      - question: A doesn't feel stress as a result of B, C, and D's actions.
         answer  : False
   4:
     identifier: Camping goods hotspot 2
@@ -208,17 +204,48 @@ hotspot:
           - Jacques
           - Olivier
           - Todd
+        answer: Charles
       - question: A, the CEO, puts pressure on B, C, and D.
         answer  : True
       - question: B is feeling stress.
         answer  : True
-      - question: C is feeling stress from D, the Sales Manager.
+      - question: D is putting pressure on C.
         answer  : False
       - question: D has the situation under control.
         answer  : False
       - question: A did not tell D what he was doing.
         answer  : True
-      - question: If A supports D in handling Carrefour, D will feel stress.
+      - question: If A supports D in handling Carrefour, D will feel more stress.
         answer  : False
       - question: A did not put pressure directly on D.
         answer  : True
+grades:
+ compcomp:
+   1:
+     identifier: grades 1
+     White: |+
+       \begin{large}Dr Bean's grading system\end{large}\\
+       \normalsize
+       Think about A-ho's reaction to Dr Bean's system in terms of CUSP--Control, Uncertainty, Support, Pressure
+       \begin{description}
+       \item [Plan] Dr Bean thinks A-ho is not a good learner. She doesn't enjoy studying. Dr Bean wants to make A-ho a good learner. He thinks Aho doesn't know if she is going well or badly. He thinks if A-ho understood her progress, she would find learning more enjoyable. He decides to give A-ho some feedback on her learning by putting her grades on the Internet at http://sac.nuu.edu.tw/grades/. He thinks this will motivate A-ho and reduce her stress. He finds writing the web application very relaxing, even though it had lots of bugs. 
+       \item [Problem] Dr Bean's grading system is quite complicated and because it is a computer program, there is no paper record to show A-ho. Dr Bean's teaching system is not traditional, and he doesn't know if it is too difficult for the students.  After the course, A-ho asks Dr Bean about her grade. He is surprised by her grade. Dr Bean feels lots of stress. He feels pressure from A-ho. He also feels he can't produce the evidence that will convince A-ho about her grade. He doesn't understand his system, and has forgotten how it works.
+       \end{description}
+     Black: |+
+       \begin{large}Student A-ho's learning behavior\end{large}\\
+       \normalsize
+       Think about Dr Bean's reaction to A-ho in terms of CUSP--Control, Uncertainty, Support, Pressure
+       \begin{description}
+       \item [Stress] A-ho finds studying stressful. She only studies because Dr Bean requires her to study. She is not interested in her grade, on http://sac.nuu.edu.tw/grades/, during the semester, and she does not feel stress, if Dr Bean warns her she may fail. It becomes more stressful at the end of the semester before the exam, when she doesn't know what will be on the exam. It is also stressful during the exam, because it is difficult for her to put what she knows into words. After the exam, it is less stressful. She knows whether she did OK or not. But she doesn't know what grade Dr Bean will give her. And that is stressful.
+       \item [Failure] A-ho did not understand what Dr Bean wanted her to do, and did the wrong homework. She only got 55. She failed the course. She asks Dr Bean why she failed the course. She is not happy, but she is calm and polite. A number of other students have questions. She tells him it was not clear which website she was supposed to do her homework on. She asks him if she can do the homework again.
+       \end{description}
+     quiz:
+       - question: The first paragraph is about Control, Uncertainty, Support or Pressure?
+         answer: Uncertainty
+       - question: In the middle of the semester, a long way before the exam, Dr Bean puts more pressure on A-ho than A-ho puts on Dr Bean.
+         answer: True
+       - question: Dr Bean's thinks uncertainty about progress is a reason that A-ho doesn't like studying, but A-ho does not think so.
+         answer: True
+       - question: After the exam, A-ho feels more pressure from Dr Bean than Dr Bean feels from A-ho.
+         answer: False
+        
