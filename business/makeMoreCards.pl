@@ -16,7 +16,7 @@ for my $t ( keys %$cards ) {
 	for my $f ( keys %$compcomp ) {
 		my $form = $compcomp->{$f};
                 my $pairtmpl = Text::Template->new( type => 'file',
-                        source =>  'oneA4twopairs.tmpl' ,
+                        source =>  'oneA4fourpairs.tmpl' ,
                         delimiters => [ '<TMPL>', '</TMPL>' ]);
 		my $quiztmpl = Text::Template->new( type => 'file',
 			source =>  'questionsB5.tmpl' ,
