@@ -647,6 +647,51 @@
     All these things have an effect on sales of Uniqlo clothes.
   - Uniqlo|catalogs|newsletters|Michael Jordan|Nike|Scha Dara Parr|logo
 -
+  - p-problem
+  - Marketing podcast
+  - business
+  - A
+  - |+
+
+    Hello and welcome to the Smart Method Podcast, where you can listen to the audio versions of some of my blog posts, along with interviews I will conduct on marketing, culture, smart design. Visit my blog at rolandsmart.com, to learn more and access links and resources mentioned in these posts.
+
+    January 19, 2009. Where marketers are today:
+
+    For those who have studied marketing, you’ll recall the 4 P’s:, Product, Price, Placement and Promotion.
+  - Podcast|audio|rolandsmart
+-
+  - p-problem
+  - Who manages the 4 P's?
+  - business
+  - B
+  - |+
+ 
+    Today, however, three out of four of those P’s have often been usurped by other parts of the organization. Product is often managed by a research and development, or product development, group. Price is often set by the sales team, or in some cases by customers. Placement is within the purview of the distribution arm, which leaves marketers with Promotion.
+
+    Now, Promotion is often interpreted by other departments as "making it pretty" or is at the service of the sales organization.
+  - usurped|purview
+-
+  - p-problem
+  - Making marketing's position worse
+  - business
+  - C
+  - |+
+    To make matters worse, organizations are siloed so these different internal organs are not well coordinated or even on the same page. With increasing pressure to demonstrate ROI metrics around Promotion, marketers are less empowered and less able to bring value to their organizations.
+    
+    At the same time, the context in which they are operating has become far more complex. New technologies offer new communication channels, and has changed the dynamics of communication.
+  - siloed|organs|metrics|empowered|context|dynamics
+-
+  - p-problem
+  - Marketing's own failures
+  - business
+  - D
+  - |+
+
+    Managing the marketing mix, and optimizing it, is increasingly complex. Many traditional marketers not only don’t get the new context, but they are still trying to apply a broadcast framework when they need to adopt a conversational one. This reality has degraded marketing’s reputation within organizations. And, that said, we need marketing more than ever at this moment, and I believe it can bring significant value to these companies.
+
+    First and foremost, marketing needs to be ....
+  - context|broadcast|adopt|degraded|reputation|foremost
+-
   - stress-1
   - Fear
   - business
@@ -1990,6 +2035,62 @@
   - 8
   - D
   - Michael Jordan promotes Uniqlo clothes.
+  - False
+-
+  - business
+  - p-problem
+  - 1
+  - A
+  - This Smart Method Podcast is a version of a blog post.
+  - True
+-
+  - business
+  - p-problem
+  - 2
+  - A
+  - The Podcast you listen to, Where marketers are today, is about culture and smart design.
+  - False
+-
+  - business
+  - p-problem
+  - 3
+  - B
+  - Product, Price and Placement are often not managed by marketers, but are set by other departments.
+  - True
+-
+  - business
+  - p-problem
+  - 4
+  - B
+  - Product, Price, Placement and Promotion are managed and set by marketers and interpreted by others.
+  - False
+-
+  - business
+  - p-problem
+  - 5
+  - C
+  - Marketers operate in a complex context because of little coordination, increasing pressure and new technologies,
+  - True
+-
+  - business
+  - p-problem
+  - 6
+  - C
+  - There is less pressure on marketers, because organizations are not well coordinated or empowered.
+  - False
+-
+  - business
+  - p-problem
+  - 7
+  - D
+  - The new context is increasingly complex and traditional marketers are not optimizing it.
+  - True
+-
+  - business
+  - p-problem
+  - 8
+  - D
+  - Traditional marketers are bringing significant value to marketing's reputation with a new framework.
   - False
 -
   - business
