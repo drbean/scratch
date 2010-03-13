@@ -39,6 +39,37 @@ topic:
           Listen to <a href=http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/jackson.mp3>the rest</a> of <a href=http://www.storycorps.org/listen/stories/charles-jackson>Charles Jackson</a>'s story about his mother's and his <a href=http://en.wikipedia.org/wiki/Alzheimer's_disease>Alzheimer's disease</a>.
         comment: Alzheimer's disease is a hereditary condition. Charles' mother's family all had the problem. Now Charles has it too. Is his family coping with it better now than it did with his mother's Alzheimer's?
   -
+    id: activities
+    title: People having fun
+    intro: What are some fun things to do? What about going outside and doing something? Or do you prefer to stay inside?
+    story:
+      -
+        id: connell
+        title: Boy Scouts with special needs
+        blurb: |
+          In the US, the <a href=http://en.wikipedia.org/wiki/Scouting>Boy Scouts</a> is a popular organization for boys to get together and do <a href=http://www.boyscouttrail.com/boy-scouts/boy-scout-activities.asp>things</a> outside. But there are also special-needs boy scout groups. Listen to <a href=http://www.pnj.com/article/99999999/NEWS15/310100002/1172/NEWS15>scoutmaster Richard Coleman</a> talk with <a href=http://www.npr.org/templates/story/story.php?storyId=123378499>his wife and Derek Connell, one of their special-needs scouts</a>, who is an <a href=http://en.wikipedia.org/wiki/Eagle_Scout_(Boy_Scouts_of_America)>Eagle Scout</a>. You can also download <a href=http://storycorps.org/wordpress/wp-content/uploads/listen/audio/connell.mp3>the file</a>.
+        comment: |
+          Lots of interesting vocabulary:
+          <ul>
+            <li><a href=http://en.wikipedia.org/wiki/Troop>troop</a>
+            <li><a href=http://www.urbandictionary.com/define.php?term=guys%20night%20out>Night out with the boys</a>
+            <li><a href=http://en.wikipedia.org/wiki/World_Book>World Book</a>
+            <li><a href=http://www.thefreedictionary.com/can-do>can-do</a>
+            <li><a href=http://dictionary.reference.com/browse/pfft>phfft</a>
+
+          </ul>
+  -
+    id: life
+    title: The stories people tell
+    intro: What is some incident that happened in your life that you would be willing to tell? What would you do if the events in these stories happened to you?
+    story:
+      -
+        id: roxborough
+        title: Embarrassment in the bath
+        blurb: |
+          The <a href=http://www.naacp.org>NAACP</a> is an American civil rights organization protecting the rights of black people in the US. <a href=http://www.thehistorymakers.com/biography/biography.asp?bioindex=1135>Mildred Bond Roxborough</a>, an executive member tells of being <a http://www.npr.org/templates/story/story.php?storyId=112075660>Caught in the Bath</a>. You can also <a http://storycorps.org/listen/stories/mildred-bond-roxborough-and-maxim-thorne>download</a> the MP3 file.
+        comment: What would you do if you were caught in the bath?
+  -
     id: work
     title: People at work
     intro: <a href="http://en.wikipedia.org/wiki/Studs_Terkel">Studs Terkel</a>, a pioneering collector of stories from Americans, said work was a search for 'daily meaning as well as daily bread.'
