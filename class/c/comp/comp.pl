@@ -1,5 +1,14 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+use Grades;
 use YAML qw/LoadFile DumpFile/;
-my $comp = 'biomom';
+
+my $script = Grades::Script->new_with_options;
+
+my $comp = $script->round;
 my $league = LoadFile 'league.yaml';
 my %members = map { $_->{id} => $_ } @{ $league->{member} };
 
