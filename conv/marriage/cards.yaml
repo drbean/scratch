@@ -117,3 +117,50 @@ allen:
           answer  : True
         - question: Doug thinks Dred's case is sad.
           answer  : True
+    2:
+      identifier: judy allen 2
+      A: You and your husband, Rex, got divorced. He had a girlfriend. You went to her house and threw a big rock through his car window.
+      B: You had a girlfriend, Alice. After your wife divorced you, you married her. But you kept the rock that your first wife threw through your car window.
+      C: Your boyfriend was already married when you met him. It was difficult for you, because his wife, Judy was mad at you and him.
+      D: You are the rock that Judy threw through Rex's car window at his girlfriend's house. You were as big as a bowling ball.
+      quiz:
+        - question: A
+          option:
+            - Alice
+            - Judy
+            - Rex
+            - Rock
+          answer: Judy
+        - question: B
+          option:
+            - Alice
+            - Judy
+            - Rex
+            - Rock
+          answer: Rex
+        - question: C
+          option:
+            - Alice
+            - Judy
+            - Rex
+            - Rock
+          answer: Alice
+        - question: D
+          option:
+            - Alice
+            - Judy
+            - Rex
+            - Rock
+          answer: Rock
+        - question: Judy had a boyfriend.
+          answer  : False
+        - question: Rex made Judy mad.
+          answer  : True
+        - question: Rex damaged Judy's car.
+          answer  : False
+        - question: Rex stayed married to Judy.
+          answer  : False
+        - question: Alice married Rex.
+          answer  : True
+        - question: Rex kept the rock.
+          answer  : True
