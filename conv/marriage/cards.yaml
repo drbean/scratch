@@ -1,0 +1,119 @@
+genre: intermediate
+allen:
+  compcomp:
+    1:
+      identifier: 
+      White: |+
+        \begin{normalsize}Judy Allen's story\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Your job] You worked and your husband worked too. You wanted to support yourself and not be dependent on your husband. But after work, you were unhappy when you had to spend lots of time by yourself at home. 
+        \item [His work] You didn't like how your husband never had time for you. You thought he worked too much. You missed him when he was away, traveling. And you were angry and cold with him when he came home, late from work.
+        \item [Divorce] You didn't want to divorce your husband, but because he was unfaithful to you, you were forced to divorce him.
+        \end{description}
+      Black: |+
+        \begin{normalsize}Judy Allen's husband (Rex)'s story\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Your Work] You work very hard and were not often at home. You traveled and worked till late at night every day at the office.
+        \item [Her job] She always said that she wanted to work, but she never made much money at her job. You didn't want her to work, because you made a lot of money with your job.  You wanted her to stay at home all day.
+        \item [Girlfriend] A woman at work was attracted to you, and you were attracted to her. She became your girlfriend.
+        \item [Divorce] You didn't want to divorce Judy. She applied for the divorce.
+        \end{description}
+      quiz:
+        - question: Judy's husband wanted her to work, but Judy didn't want to work.
+          answer: False
+        - question: Judy thought her husband worked too much, but he thought he needed to work.
+          answer: True
+        - question: Judy was cold to her husband because he wouldn't spend much time with her.
+          answer: True
+        - question: Both the husband and the wife caused the divorce.
+          answer: True
+        - question: Judy divorced her husband.
+          answer: True
+        - question: Perhaps Judy was responsible for her husband being attracted by another woman.
+          answer: True
+        - question: They both wanted the divorce.
+          answer: False
+    2:
+      identifier: 
+      White: |+
+        \begin{normalsize}Judy Allen's story\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Your job] You worked and your husband worked too. You wanted to support yourself and not be dependent on your husband. But after work, you were unhappy when you had to spend lots of time by yourself at home. 
+        \item [His work] You didn't like how your husband never had time for you. You thought he worked too much. You missed him when he was away, traveling. And you were angry and cold with him when he came home, late from work.
+        \item [Divorce] You didn't want to divorce your husband, but because he was unfaithful to you, you were forced to divorce him.
+        \end{description}
+      Black: |+
+        \begin{normalsize}Judy Allen's husband (Rex)'s story\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Your Work] You work very hard and were not often at home. You traveled and worked till late at night every day at the office.
+        \item [Her job] She always said that she wanted to work, but she never made much money at her job. You didn't want her to work, because you made a lot of money with your job.  You wanted her to stay at home all day.
+        \item [Girlfriend] A woman at work was attracted to you, and you were attracted to her. She became your girlfriend.
+        \item [Divorce] You didn't want to divorce Judy. She applied for the divorce.
+        \end{description}
+      quiz:
+        - question: Judy's husband wanted her to work, but Judy didn't want to work.
+          answer: False
+        - question: Judy thought her husband worked too much, but he thought he needed to work.
+          answer: True
+        - question: Judy was cold to her husband because he wouldn't spend much time with her.
+          answer: True
+        - question: Both the husband and the wife caused the divorce.
+          answer: True
+        - question: Judy divorced her husband.
+          answer: True
+        - question: Perhaps Judy was responsible for her husband being attracted by another woman.
+          answer: True
+        - question: They both wanted the divorce.
+          answer: False
+  jigsaw:
+    1:
+      identifier: 
+      A: 
+      B: 
+      C: 
+      D: 
+      quiz:
+        - question: A
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Dred
+        - question: B
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Doug
+        - question: C
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Ms Ma
+        - question: D
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Mort
+        - question: Mort was a student.
+          answer  : False
+        - question: Doug is a funeral director.
+          answer  : False
+        - question: Ms Ma is Doug's mother.
+          answer  : False
+        - question: Doug is digging a grave for Dred.
+          answer  : True
+        - question: Mort is preparing a funeral for Ms Ma.
+          answer  : True
+        - question: Doug thinks Dred's case is sad.
+          answer  : True
