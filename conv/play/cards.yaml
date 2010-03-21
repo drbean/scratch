@@ -87,3 +87,50 @@ connell:
           answer  : True
         - question: Richard's sons are in the troop.
           answer  : False
+    2:
+      identifier: connell 2
+      A: You can't speak and move your arms and legs very well. But you are very dedicated. You try very hard to work with your scoutmaster, Richard, and his wife, and help the other scouts.
+      B: You can't walk because you had a traffic accident when you were young. Derek and the other scouts with mental and physical problems help to pull you around in a wheelchair.
+      C: Your husband Richard is a scoutmaster. He has been a scoutmaster for much of his life. You help him. You are proud of Derek because he is dedicated and helps Randy and the other scouts.
+      D: You and your wife, Claudia, have a scout troop. You are proud that your scouts try to do what they can. The troop has become very important to you. You are especially proud of your Eagle Scout, Derek.
+      quiz:
+        - question: A
+          option:
+            - Claudia
+            - Richard
+            - Derek
+            - Randy
+          answer: Derek
+        - question: B
+          option:
+            - Claudia
+            - Richard
+            - Derek
+            - Randy
+          answer: Randy
+        - question: C
+          option:
+            - Claudia
+            - Richard
+            - Derek
+            - Randy
+          answer: Claudia
+        - question: D
+          option:
+            - Claudia
+            - Richard
+            - Derek
+            - Randy
+          answer: Richard
+        - question: Richard is a scoutmaster.
+          answer  : True
+        - question: Derek is an Eagle Scout.
+          answer  : True
+        - question: Claudia is unhappy about Derek.
+          answer  : False
+        - question: Randy helps pull Derek around.
+          answer  : False
+        - question: Derek is the leader of the scout troop.
+          answer  : False
+        - question: Derek has mental \& physical problems.
+          answer  : True
