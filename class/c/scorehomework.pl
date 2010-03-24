@@ -17,7 +17,7 @@ use YAML qw/LoadFile Dump/;
 my $cwd = getcwd;
 my $id = basename($cwd);
 
-my $l = League->new( id => $cwd );
+my $l = League->new( id => $id );
 my $g = Grades->new( league => $l );
 my $members = $l->members;
 my %m = map { $_->{id} => $_ } @$members;
