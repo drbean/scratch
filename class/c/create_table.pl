@@ -1,7 +1,7 @@
 #!/usr/bin/perl 
 
 # Created: 西元2010年04月07日 09時52分04秒
-# Last Edit: 2010  4月 07, 10時02分52秒
+# Last Edit: 2010  4月 07, 14時32分36秒
 # $Id$
 
 =head1 NAME
@@ -19,6 +19,7 @@ our $VERSION = '0.01';
 use strict;
 use warnings;
 use Cwd; use File::Basename;
+use YAML qw/Dump/;
 
 =head1 SYNOPSIS
 
@@ -27,9 +28,13 @@ perl script_files/create_table.pl -l MIA0009 -r 5
 =cut
 
 use Grades;
+
+my $script = Grades::Script->new_with_options;
 my $id = $script->league || basename( getcwd );
-my $round = $script->round;
 my $league = League->new( id => $id );
+my $g = Grades->new( league => $league );
+my $lastround = $g->conversations->[-1];
+my $round = $script->round || $lastround;
 
 =head1 DESCRIPTION
 
@@ -38,7 +43,7 @@ Not having a Games::Tournament::Card-style table table in the database was a mis
 =cut
 
 my $o = $g->opponents( $round );
-my $r = $g->inspect( $g->compdirs . $round . '/role.yaml' );
+my $r = $g->inspect( $g->compcompdirs . '/' . $round . '/role.yaml' );
 my @w = grep { $r->{$_} eq 'White' } keys %$r;
 my %t = map { $_ => { White => $_ , Black => $o->{$_} } } @w;
 print Dump \%t;
