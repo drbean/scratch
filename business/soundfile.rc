@@ -1,23 +1,51 @@
 use YAML qw/LoadFile DumpFile/;
 use IO::All;
 my ($texts, $questions) = LoadFile 'dic.yaml';
-my $a = $texts->[55]->[4];
-my $b = $texts->[56]->[4];
-my $c = $texts->[57]->[4];
-my $d = $texts->[58]->[4];
-my $io1 = io 'stress/transcript1.txt';
-$io1->print( $a );
-system( 'text2wave stress/transcript1.txt -eval "(voice_nitech_us_slt_arctic_hts)" -otype wav -o business.wav');
-system( 'lame -h -V 0 business.wav ~/soundfiles/business/bradshawA.mp3' );
-my $io2 = io 'stress/transcript2.txt';
-$io2->print( $b );
-system( 'text2wave stress/transcript2.txt -eval "(voice_nitech_us_rms_arctic_hts)" -otype wav -o business.wav');
-system( 'lame -h -V 0 business.wav ~/soundfiles/business/bradshawB.mp3' );
-my $io3 = io 'stress/transcript3.txt';
-$io3->print( $c );
-system( 'text2wave stress/transcript3.txt -eval "(voice_nitech_us_awb_arctic_hts)" -otype wav -o business.wav');
-system( 'lame -h -V 0 business.wav ~/soundfiles/business/bradshawC.mp3' );
-my $io4 = io 'stress/transcript4.txt';
-$io4->print( $d );
-system( 'text2wave stress/transcript4.txt -eval "(voice_nitech_us_clb_arctic_hts)" -otype wav -o business.wav');
-system( 'lame -h -V 0 business.wav ~/soundfiles/business/bradshawD.mp3' );
+# my $a = ;
+my $b = $questions->[208]->[4];
+my $c = $questions->[209]->[4];
+my $d = $questions->[210]->[4];
+my $e = $questions->[211]->[4];
+my $f = $questions->[212]->[4];
+my $g = $questions->[213]->[4];
+my $h = $questions->[214]->[4];
+# my $b = $questions->[87]->[4];
+# my $c = $questions->[88]->[4];
+# my $d = $questions->[89]->[4];
+my $io1 = io 'transcript1.txt';
+$io1->print( $e );
+my @soundfiles = (
+	[ 211, "voice_nitech_us_rms_arctic_hts", "compA" ],
+	[ 212, "voice_nitech_us_rms_arctic_hts", "compB" ],
+	[ 213, "voice_nitech_us_rms_arctic_hts", "compC" ],
+	[ 214, "voice_nitech_us_rms_arctic_hts", "compD" ],
+	);
+
+for ( @soundfiles ) {
+	# my ( $text, $voice, $local ) = @$_;
+	
+	# my $text = io('transcript.txt')->print( "$questions->[$_->[0]]->[4]" );
+	my $text = $questions->[$_->[0]]->[4];
+	my $voice = $_->[1];
+	my $local = "~/soundfiles/business/$_->[2].mp3";
+	system( "echo \"$text\" |
+		text2wave -eval \"($voice)\" -otype wav -o /tmp/business.wav"
+		) == 0 or die "text2wave? $@,";
+	system(	"lame -h -V 0 /tmp/business.wav $local" ) == 0 or
+		die "lame? $@,";
+}
+
+# system( 'text2wave transcript1.txt -eval "(voice_nitech_us_rms_arctic_hts)" -otype wav -o business.wav');
+# system( 'lame -h -V 0 business.wav ~/soundfiles/business/compA.mp3' );
+# my $io2 = io 'transcript2.txt';
+# $io2->print( $f );
+# system( 'text2wave transcript2.txt -eval "(voice_nitech_us_awb_arctic_hts)" -otype wav -o business.wav');
+# system( 'lame -h -V 0 business.wav ~/soundfiles/business/compB.mp3' );
+# my $io3 = io 'transcript3.txt';
+# $io3->print( $g );
+# system( 'text2wave transcript3.txt -eval "(voice_nitech_us_clb_arctic_hts)" -otype wav -o business.wav');
+# system( 'lame -h -V 0 business.wav ~/soundfiles/business/compC.mp3' );
+# my $io4 = io 'transcript4.txt';
+# $io4->print( $h );
+# system( 'text2wave transcript4.txt -eval "(voice_nitech_us_slt_arctic_hts)" -otype wav -o business.wav');
+# system( 'lame -h -V 0 business.wav ~/soundfiles/business/compD.mp3' );
