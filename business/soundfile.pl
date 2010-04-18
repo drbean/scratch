@@ -1,3 +1,8 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
 use YAML qw/LoadFile DumpFile/;
 my ($texts, $questions) = LoadFile 'dic.yaml';
 my @soundfiles = ( [ 211,
