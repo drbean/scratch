@@ -1,0 +1,520 @@
+genre: business
+kendall:
+ compcomp:
+  influences:
+    identifier: influences on Kendall
+    White: |+
+       \vspace{0.2cm}
+       \begin{large}Craig Sams\end{large}\\
+       \normalsize
+       How are Craig Sams and Prince Charles similar and different?
+       \begin{description}
+       \item [Birth] Born on a farm in America.
+       \item [Education] Graduated from University of Pennsylvania Business School in 1966.
+       \item [Business] Is president of Green and Black Chocolates. Sales of 100 million pounds.
+       \item [Lifestyle] Eats brown rice, but no meat, tomatoes, sugar. Doesn't smoke.
+       \item [Medicine] Believes in alternative medicine. Doesn't believe in Western medicine.
+       \end{description}
+    Black: |+
+       \vspace{0.2cm}
+       \begin{large}Prince Charles\end{large}\\
+       \normalsize
+       How are Craig Sams and Prince Charles similar and different?
+       \begin{description}
+       \item [Birth] Born in a palace in England.
+       \item [Education] Graduated from Oxford University in 1970.
+       \item [Business] Has a farm. Sells its products and donates profits to charities. Sales of 50 million pounds per year.
+       \item [Lifestyle] Eats meat. Doesn't eat or grow genetically-modified foods.
+       \item [Medicine] Believes in alternative medicine. Doesn't believe in Western medicine.
+       \end{description}
+    quiz:
+      - question: Prince Charles is older than Craig Sams.
+        answer: False
+      - question: Craig Sams and Prince Charles were born in different countries.
+        answer: True
+      - question: Craig Sams was born on a farm.
+        answer: True
+      - question: Prince Charles was born on a farm.
+        answer: False
+      - question: Both Craig Sams and Prince Charles studied at a university.
+        answer: True
+      - question: Craig Sams has a farm.
+        answer: False
+      - question: Prince Charles has a farm.
+        answer: True
+      - question: Prince Charles' businesses make more money than Craig Sams'.
+        answer: False
+      - question: Craig Sams eats meat but the Prince doesn't eat meat.
+        answer: False
+      - question: Both Craig Sams and Prince Charles think Western medicine is wrong and alternative medicine is right.
+        answer: True
+  coventgreen:
+    identifier: Kendall's businesses
+    White: |+
+       \vspace{0.2cm}
+       \begin{large}Covent Garden Soup Company\end{large}\\
+       \normalsize
+       Covent Garden \& Green and Black's differences
+       \begin{description}
+       \item [Entry] Was hired by the owners for one month to buy carrots for the soup.
+       \item [Control] Became CEO after investors asked the owners to give him control of the company.
+       \item [Management] Made many mistakes, but learned from the mistakes. Did not give his managers freedom to make their own decisions. This was a mistake.
+       \item [Planning] Did not plan how to leave the company. Competed with bigger businesses. Found it very difficult to sell the company to other, bigger businesses.
+       \end{description}
+    Black: |+
+       \vspace{0.2cm}
+       \begin{large}Green and Black\end{large}\\
+       \normalsize
+       Covent Garden \& Green and Black's differences
+       \begin{description}
+       \item [Entry] Bought 80 percent of the company from Craig Sams. Sams continued as chairman of the company.
+       \item [Financing] Sams hadn't been able to find investors. Kendall (and partner Nick Beard) were able to. Got Cadbury's to invest 10 percent.
+       \item [Management] Gave managers freedom to do their job. Saw his job as planning the company's development.
+       \item [Planning] Planned not to compete, but cooperate with bigger businesses, so they would buy him out.
+       \end{description}
+    quiz:
+      - question: William Kendall started at Green and Black first.
+        answer: False
+      - question: William Kendall was CEO at both companies.
+        answer: True
+      - question: William Kendall started at both companies as CEO.
+        answer: False
+      - question: Investors asked William Kendall to leave the Covent Garden Soup Company.
+        answer: False
+      - question: William Kendall wasn't as good at finding money as Craig Sams, the previous Green and Black owner.
+        answer: False
+      - question: William Kendall did not allow managers to make decisions at the first company.
+        answer: True
+      - question: William Kendall saw his job as planning rather than managing at the second company.
+        answer: True
+      - question: William Kendall competed with big businesses at his first company and cooperated with them at the second company.
+        answer: True
+      - question: William Kendall found it easy to sell the first company to a big business, when he wanted to leave.
+        answer: False
+      - question: William Kendall cooperated with Cadbury's when it invested ten percent in Green and Black.
+        answer: True
+drbean:
+ jigsaw:
+  0:
+    identifier: Planning failure
+    A: |
+      \\
+      \textbf{Graham}: How clear are your plans?\\
+      \textbf{Bean}: They are very clear. I want to develop a Course Management System like Moodle, Blackboard, or 旭聯數位學習平台 at http://elearning.nuu.edu.tw.
+    B: |
+      \\
+      \textbf{Graham}: Do you keep your plans up-to-date? Do you show them to people and see what they think?\\
+      \textbf{Bean}: Yes, I write a diary when I make changes to the software. People who use the software can see this diary of the changes I made.
+    C: |
+      \\
+      \textbf{Graham}: Are other people involved in your planning? Or do you plan by yourself and then announce your plans?\\
+      \textbf{Bean}: I first started writing the software. But now other programmers and teachers have taken ownership of the software and we work together to decide which direction to go.
+    D: |
+      \\
+      \textbf{Graham}: What do you think of William Kendall and organic food?\\
+      \textbf{Bean}: He was very interested in marketing and making a lot of money. I am not. I don't care about being popular. I don't want to make a lot of money. I am just writing the software for my own use.
+    quiz:
+      - question: A
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: clear
+      - question: B
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: interactive
+      - question: C
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: social
+      - question: D
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: Kendall
+      - question: Which of the 4 is the problem?
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: Kendall
+  1:
+    identifier: CompComp failure
+    A: |
+      \textbf{Graham}: What would William Kendall think? What is the lesson of organic food?\\
+      \textbf{Bean}: The lesson is marketing and making something popular. I need to get lots of other teachers doing the CompComp activity. I'm sure Kendall would think the CompComp is not a good idea. He would think it would be hard to sell.
+    B: |
+      \textbf{Graham}: Tell me about your plans for the CompComp activity?\\
+      \textbf{Bean}: I think conversation is cooperative and competitive at the same time. I want the students to try to understand more of their partners' information than their partners' understand of theirs.
+      \textbf{Graham}: I'm not too sure what you mean. I don't understand.\\
+    C: |
+      \textbf{Graham}: Do the students understand what you are trying to do with the CompComp activity? Are you changing your plans depending on the students' reactions.\\ 
+      \textbf{Bean}: Some understand, but a lot don't. It's difficult showing them what I want to do. I don't think they want to compete. But I won't give up. I will stick to my plan even if the students don't understand.
+    D: |
+      \textbf{Graham}: Are the students involved in the planning of your CompComp activity? Or do you plan by yourself and then announce your plans?\\
+      \textbf{Bean}: The activity is my idea. I would like the students to take ownership of the activity and we work together to decide which direction to go. But that hasn't happened.
+    quiz:
+      - question: A
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: Kendall
+      - question: B
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: clear
+      - question: C
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: interactive
+      - question: D
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: social
+      - question: Which of the 4 is the problem?
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+          - all
+        answer: all
+  2:
+    identifier: Planning failure 2
+    A: |
+      \\
+      \textbf{Graham}: How clear are your plans?\\
+      \textbf{Bean}: They are very clear. I want to develop an on-line system to show students their grade now, not just at the end of the semester.\\
+      \textbf{Graham}: Seems pretty clear.\\
+
+    B: |
+      \\
+      \textbf{Graham}: Do you keep your plans up-to-date? Do you show them to people and see what they think?\\
+      \textbf{Bean}: Yes, when I develop a new teaching technique, I plan changes to the software, so students can see their grades on the new activity. I tell them about my plans with the software.
+    C: |
+      \\
+      \textbf{Graham}: Are other people involved in your planning? Or do you plan by yourself and then announce your plans?\\
+      \textbf{Bean}: I am the only person writing the software. The students are not involved. I would like to get them involved so we plan the system together, but at the moment we are not.
+    D: |
+      \\
+      \textbf{Graham}: What do you think of William Kendall and organic food?\\
+      \textbf{Bean}: He was very good at planning and changing his plans as a result of information. I think I am good at planning and flexible like him.
+    quiz:
+      - question: A
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: clear
+      - question: B
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: interactive
+      - question: C
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: social
+      - question: D
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: Kendall
+      - question: Which of the 4 is the problem?
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: Kendall
+  3:
+    identifier: 3
+    A: |
+      \textbf{Graham}: What do you think of William Kendall? Why are you interested in him?
+      \textbf{Bean}: The lesson is marketing and making something popular. He made a lot of money selling organic chocolate. I want to make my CompComp activity very successful too. I need to learn from him.
+    B: |
+      \textbf{Graham}: Tell me about your plans for the CompComp activity?\\
+      \textbf{Bean}: I think conversation is cooperative and competitive at the same time. I want the students to try to understand more of their partners' information than their partners' understand of theirs.\\
+      \textbf{Graham}: What do you mean? I don't understand.\\
+    C: |
+      \textbf{Graham}: Do the students understand what you are trying to do with the CompComp activity? Are you changing your plans depending on the students' reactions.\\ 
+      \textbf{Bean}: I try to tell them, but only some understand. I don't think they want to compete. I will change my plans if the students don't enjoy the exercise.
+    D: |
+      \textbf{Graham}: Are the students involved in the planning of your CompComp activity? Or do you plan by yourself and then announce your plans?\\
+      \textbf{Bean}: The activity is my idea. But I am involving the students by talking to them about my plans. I want the students to take ownership of the activity and we decide together which direction to go.
+    quiz:
+      - question: A
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: Kendall
+      - question: B
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: clear
+      - question: C
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: interactive
+      - question: D
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: social
+      - question: Which of the 4 is the problem?
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: clear
+  4:
+    identifier: 4
+    A: |
+      \textbf{Graham}: Are the students involved in the planning of your CompComp activity? Or do you plan by yourself and then announce your plans?\\
+      \textbf{Bean}: The activity is my idea. But I am involving the students by talking to them about my plans. I want the students to take ownership of the activity and we decide together which direction to go.
+    B: |
+      \textbf{Graham}: What do you think of William Kendall? Why are you interested in him?
+      \textbf{Bean}: The lesson is marketing and making something popular. He made a lot of money selling organic chocolate. I want to make my CompComp activity very successful too. I need to learn from him.
+    C: |
+      \textbf{Graham}: Tell me about your plans for the CompComp activity?\\
+      \textbf{Bean}: I want to develop a language game that is like conversation, but is also like tennis, where there are rules that determine a winner. The person who understands more of their partner's information is the winner.\\
+      \textbf{Graham}: I see. Interesting.\\
+    D: |
+      \textbf{Graham}: Do the students understand what you are trying to do with the CompComp activity? Are you changing your plans depending on the students' reactions.\\ 
+      \textbf{Bean}: I try to tell them to compete, but only some understand. I don't think they want to compete. But I won't give up. I won't change my plan to get the students to compete.
+    quiz:
+      - question: A
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: Kendall
+      - question: B
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: clear
+      - question: C
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: interactive
+      - question: D
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: social
+      - question: Which of the 4 is the problem?
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: interactive
+  5:
+    identifier: 5
+    A: |
+      \textbf{Graham}: Do the students understand what you are trying to do with the CompComp activity? Are you changing your plans depending on the students' reactions.\\ 
+      \textbf{Bean}: I try to tell them to compete, but only some understand. I don't think they want to compete. But I won't give up. I won't change my plan to get the students to compete. I won't give up.
+    B: |
+      \textbf{Graham}: Are the students involved in the planning of your CompComp activity? Or do you plan by yourself and then announce your plans?\\
+      \textbf{Bean}: The activity is my idea. But I am involving the students by talking to them about my plans. The students also take ownership of the activity and decide which way they want to play it.
+    C: |
+      \textbf{Graham}: You know a lot about William Kendall? What do you think his lesson is?
+      \textbf{Bean}: The lesson is planning and changing those plans when they don't succeed. He was very successful with the new idea of organic chocolate. I want to follow his example.
+    D: |
+      \textbf{Graham}: Tell me about your plans for the CompComp activity?\\
+      \textbf{Bean}: I want to get the students to speak English. I want to develop a language game that is like conversation, but is also like tennis, The person who understands more of their partner's information is the winner.\\
+      \textbf{Graham}: I see. Interesting.\\
+    quiz:
+      - question: A
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: Kendall
+      - question: B
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: clear
+      - question: C
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: interactive
+      - question: D
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: social
+      - question: Which of the 4 is the problem?
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: interactive
+  6:
+    identifier: 6
+    A: |
+      \textbf{Graham}: Are your plans for the CompComp activity clear and simple?\\
+      \textbf{Bean}: I think so. I want to get the students to speak English. I think a language game that is like conversation, but is also like tennis, is easy to understand, There is a winner and a loser.\\
+      \textbf{Graham}: I guess that's clear.\\
+    B: |
+      \textbf{Graham}: Do the students understand what you are trying to do with the CompComp activity? Are you keeping your plans up-to-date?\\ 
+      \textbf{Bean}: I tell them they are supposed to compete, and some understand. But I don't think they want to compete. I will change my plan if I can't get the students to compete. I will make it a co-operative exercise.
+    C: |
+      \textbf{Graham}: Are the students involved in the planning of your CompComp activity? Or do you plan by yourself and then announce your plans?\\
+      \textbf{Bean}: The activity is my idea. But I am involving the students by talking to them about my plans. The students also take ownership of the activity and decide which way they want to play it.
+    D: |
+      \textbf{Graham}: You know a lot about William Kendall? What do you think his lesson is?\\
+      \textbf{Bean}: I want to avoid becoming like Kendall. I don't want to follow his ideas. He was very successful with the new idea of organic chocolate. I hate the idea of having to make my ideas popular like he made organic chocolate popular.
+    quiz:
+      - question: A
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: Kendall
+      - question: B
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: clear
+      - question: C
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: interactive
+      - question: D
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: social
+      - question: Which of the 4 is the problem?
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: interactive
+nicholson:
+ jigsaw:
+  0:
+    identifier: 
+    A: |
+    B: |
+    C: | 
+    D: |
+    quiz :
+      - question: 
+        answer  : False
+ compcomp:
+  stealing:
+    identifier: boss stealing manager's ideas
+    White: |+
+       \vspace{0.2cm}
+       \begin{large}Nicole Wilson\end{large}\\
+       \normalsize
+       The boss says her ideas are his ideas.
+       \begin{description}
+       \item [Background] Nicole Wilson is a manager, and her boss, the big boss is taking her ideas, but not telling people they are Nicole's ideas.
+       \item [Problem] She wants people to know the ideas are hers. She is very unhappy she is not getting credit for her ideas. She intends to quit the job.
+       \item [Being a woman] She thinks it is unfair that men's ideas are recognized, but women's ideas aren't recognized.
+       \item [Nicholson's advice.] Seems like a good idea.
+       \end{description}
+    Black: |+
+       \vspace{0.2cm}
+       \begin{large}Nigel Nicholson\end{large}\\
+       \normalsize
+       Advice for woman whose boss is 'stealing' her ideas.
+       \begin{description}
+       \item [Information] Women often have this problem. Male bosses often don't tell if new ideas come from a woman.
+       \item [Advice 1] She should write her ideas down.
+       \item [Advice 2] She should discuss ways to work better together with him and ask him to help her by recognizing her ideas.
+       \item [Warning] If the boss agrees to give her recognition, he might ask her to work harder.
+       \end{description}
+    quiz:
+      - question: Wilson is stealing her boss's ideas.
+        answer: False
+      - question: Nicholson is Wilson's boss.
+        answer: False
+      - question: Male bosses don't want people to know if the idea is a woman's.
+        answer: True
+      - question: Wilson is unhappy the boss is not recognizing her ideas are hers.
+        answer: True
+      - question: Wilson is unhappy about the different treatment of men and women.
+        answer: True
+      - question: Nicholson's advice is to not write ideas down.
+        answer: False
+      - question: His advice is to ask the boss to recognize her ideas.
+        answer: True
+      - question: His advice is to tell the boss he has to treat her better.
+        answer: False
+      - question: He warns the boss might ask her for something, if she asks for recognition.
+        answer: True
+      - question: It is clear she will not follow his advice.
+        answer: False
