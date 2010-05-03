@@ -317,3 +317,14 @@ topic:
           <li><a href=http://web.nuu.edu.tw/~greg/business/nicholsonknowledge.mp3>How does the manager do his/her job? By motivating people. That requires he/she understands people.</a>
           <li><a href=http://web.nuu.edu.tw/~greg/business/nicholsonstealingideas.mp3>What advice will Nicholson have for a woman whose manager is stealing her ideas?</a>
           </ul>
+  -
+    id: conflict
+    title: Conflict and how to handle it
+    intro: Conflict results when 2 parties interests do not coincide. For example, management wants to keep wages low. Labor wants high wages. Negotiation is the efforts by each of the two parties to get the other party to accept their demands.
+    story:
+      -
+        id: olivier
+        title: Olivier--a difficult sales representative
+        blurb: The listening passage is Track 19.wav on the CD in the Market Leader textbook. Contact me if you can't find the track. Listen to Olivier and Todd discuss the issues.
+        comment: |+
+          Do you understand what is happening? What do you think about it? What should Charles, the owner of the company do? Who is at fault? Charles? Jacques, Olivier, or Todd?
