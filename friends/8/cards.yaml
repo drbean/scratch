@@ -1,0 +1,99 @@
+genre: friends
+3:
+  jigsaw:
+    0:
+      identifier: Rachel tells Ross
+      A: You know who the father is. You pretend you don't know when Ross tells you. You are also upset about the 97 percent failure rate of contraceptives. You intend to call Monica and Chandler and ask them if it's OK to chop down your door to get into their apartment, because you smell gas.
+      B: You pretend you don't know when Ross tells you that Rachel is expecting. You ask the building superintendent not to tell Monica and Chandler that their door is broken. The superintendent chopped down the door when you said you could smell gas inside. You told the superintendent you could smell gas, to get him to open the door so you could get inside.
+      C: You know who the father is. But you don't know that Ross knows. You don't know that your door is wrecked. You are on your honeymoon. You are indignant that the honeymooning couple in front of you get freebies you don't get. You tell Joey it's OK to break down your door.
+      D: You are the father. But you don't know it. When Rachel talks to you,  you expect her to suggest you go to bed together again, and you act cool. You don't expect her to tell you that she is expecting. You are indignant that the contraceptive device you used is only 97 percent effective. How do you know that Rachel knows you are the father?
+      quiz:
+        - question: A
+          option:
+            - Joey
+            - Mondler
+            - Phoebe
+            - Ross
+          answer: Tag
+        - question: B
+          option:
+            - Joey
+            - Mondler
+            - Phoebe
+            - Ross
+          answer: Phoebe
+        - question: C
+          option:
+            - Joey
+            - Mondler
+            - Phoebe
+            - Ross
+          answer: 
+        - question: D
+          option:
+            - Joey
+            - Mondler
+            - Phoebe
+            - Ross
+          answer: Monica
+        - question: Ross doesn't know that Rachel is expecting and he's the father.
+          answer  : True
+        - question: Ross is happy when he hears that he's going to be a father again.
+          answer  : False
+        - question: Joey is indignant about the failure rate of contraceptives.
+          answer  : True
+        - question: Phoebe is indignant about the failure rate of contraceptives.
+          answer  : False
+        - question: Joey and Phoebe chopped down Monica and Chandler's door.
+          answer  : False
+        - question: Joey and Phoebe will ask Monica and Chandler if it's OK to chop down their door.
+          answer  : True
+        - question: Monica and Chandler are enjoying the facilities provided them (the stuff given to them) on their honeymoon.
+          answer  : True
+        - question: Ross doesn't know Rachel's pregnant, but he suspects she is (thinks she might be) pregnant.
+          answer  : False
+        - question: Ross know Rachel's pregnant, but he doesn't know how she knows she is pregnant.
+          answer  : True
+12:
+  compcomp:
+    0: 
+      identifier: Joey \& Rachel
+      White: |+
+        Joey and others
+        \normalsize
+        \begin{description}
+        \item [Background] Joey and Rachel have been sharing an apartment.
+        \item [Arranging a date] Joey talks to Rachel about dating and suggests to Rachel they go on a date.
+        \item [On the date] They are just pretending to be dating,
+        \item [In the aftermath] Joey falls in love with Rachel. He can't talk to anyone about it. Monica thinks he is in love with Phoebe. He tells Phoebe he is not in love with her.
+        \end{description}
+      Black: |+
+        Rachel
+        \normalsize
+        \begin{description}
+        \item [Background] Joey moved in with Rachel when the apartment she was sharing with Phoebe caught fire.
+        \item [Arranging a date] Rachel is pregnant and fears life will be less interesting as a mom. She goes out with Joey when he suggests it.
+        \item [On the date] Rachel has fun. She makes Joey feel good.
+        \item [Back at the apartment] Rachel kisses Joey.
+        \end{description}
+      quiz:
+        - question: Rachel and Joey were already living together before this incident.
+          answer: True
+        - question: It is Rachel's idea that they go on a date.
+          answer: False
+        - question: Rachel doesn't want to go on a date because she is pregnant.
+          answer: False
+        - question: Rachel and Joey enjoy each other's company on the date.
+          answer: True
+        - question: They act as if they are really dating, but they aren't.
+          answer: True
+        - question: It is Joey who kissed the other person, rather than Rachel who kissed Joey, 
+          answer: False
+        - question: Joey already realized he was in love with Rachel before the kiss.
+          answer: False
+        - question: Rachel is in love with Joey too.
+          answer: False
+        - question: Joey has difficulty talking about how he feels.
+          answer: True
+        - question: People think he is in love with Phoebe.
+          answer: True
