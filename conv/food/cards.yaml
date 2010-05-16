@@ -1,0 +1,108 @@
+genre: intermediate
+lerman:
+  compcomp:
+    0:
+      identifier: eating disorders
+      White: |+
+        \begin{normalsize} Undereating \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [People] Most commonly affects women. In the US, 40 percent of 9-10 year old girls are trying to lose weight.
+        \item [Causes] Personality and psychological causes are most common, but biological causes, parents and friends' influence and cultural pressure are also important.
+        \item [Treatment] Most of the treatments are psychological, rather than medical. One form of treatment is support/self-help groups, where undereaters get together and encourage each other to eat normally. Lots of undereaters are helped by treatment. 50-85 percent recover completely.
+        \end{description}
+      Black: |+
+        \begin{normalsize} Overeating \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Binge eating] 1. Little control over eating. 2. Large amounts of food at one time. 3. Fast eating until feelings of discomfort, even when not hungry. 4. Eating alone during a binge. 5. Feelings of disgust with binge.
+        \item [People] Women are more affected than men. 3.5 percent of women and 2 percent of men in the US are binge eaters. Most are overweight.
+        \item [Causes] Feelings of unhappiness, anger or boredom are associated with binge eating, but the feelings may or may not be the cause of the problem.
+        \end{description}
+      quiz:
+        - question: Young American women are more likely to start out undereating, than overeating.
+          answer: True
+        - question: More men than women are affected by eating disorders.
+          answer: False
+        - question: The causes are probably usually psychological, rather than biological.
+          answer: True
+        - question: A binge is a period of overeating.
+          answer: True
+        - question: A binge is a happy period with friends and good eating.
+          answer: False
+        - question: Treatment of eating disorders usually involves eating medicine.
+          answer: False
+        - question: Not many people recover from eating disorders.
+          answer: False
+        - question: One form of treatment is talking to other people with the same problem.
+          answer: False
+  jigsaw:
+    0:
+      identifier: contest
+      A: You are a Jewish mother and like to eat soup with matzo balls made of chicken fat and flour. You are a reporter. But now you are in a contest organized by George to eat as many fist-sized matzo balls as possible. 
+      B: You are Jewish and you never did anything. But now you are a 'somebody' because you can eat a lot of matzo balls in 5 minutes, much more than Emily, who only ate 6 balls in 5 minutes. However, she is a woman, and 6 balls in 5 minutes equals the woman's record.
+      C: You are the champion matzo ball eater. You are not Jewish, you are black, but you ate 30 matzo balls, 5 more than the second contender, a Jewish man.
+      D: You are the organizer of the contest. The winner is Eric, who ate 30 balls. The second placed person was "Moses", who ate 25 balls. Last was the woman, who ate only 6 balls. There isn't a separate event for women in your contest. So she came in last.
+      quiz:
+        - question: A
+          option: 
+           - Emily
+           - Eric
+           - George
+           - Moses
+          answer: Emily
+        - question: B
+          option: 
+           - Emily
+           - Eric
+           - George
+           - Moses
+          answer: Moses
+        - question: C
+          option: 
+           - Emily
+           - Eric
+           - George
+           - Moses
+          answer: Eric
+        - question: D
+          option: 
+           - Emily
+           - Eric
+           - George
+           - Moses
+          answer: George
+        - question: Two of the contestants are Jewish.
+          answer: True
+        - question: One of the contestants is black.
+          answer: True
+        - question: Matzo balls are a Jewish food.
+          answer: True
+        - question: The winner is Jewish.
+          answer: False
+        - question: Emily ate more matzo balls than Moses.
+          answer: False
+        - question: Moses used to be a 'somebody,' but now he's a 'nobody.'
+          answer: False
+tyson:
+  compcomp:
+    0:
+      identifier: Being large
+      White: |+
+        \begin{normalsize} Feelings \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Problem] Not all big or overweight people are worried. But people who are are more likely to feel unhappy about themselves.
+        \item [Others] who aren't overweight often don't understand it's not a simple problem solved by exercising or dieting. If it were simple, no one would be overweight.
+        \item [Concerns] People who are overweight worry about what others think of them. And, teasing or bullying can be a real problem.
+        \item [Solutions] These problems can make overweight people avoid socializing. But the best thing is to seek out social situations that take the mind off weight.
+        \end{description}
+      Black: |+
+        \begin{normalsize} Medical issues \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Bodies] come in different shapes and sizes. The best weight for you is the one right for your body size.
+        \item [Inheritance] plays a big part in determining size and weight. Big-boned people weigh more than thinner people. 2 people of the same height with different weights can still both be the right weight.
+        \item [Being overweight] can also be result of poor eating and exercise habits that also run in families, but which are not inherited.
+        \item [Exercise] just 3 times a day, for 10 minutes each, can make a difference, if you are overweight. But exercise is a good idea, even if you are underweight. Building stronger muscles can increase your weight.
+        \end{description}
