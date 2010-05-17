@@ -1,0 +1,168 @@
+genre: business
+story:
+ jigsaw:
+  0: ~
+  1: ~
+  2: ~
+  3:
+    identifier: story 3
+    A: Charles is your friend. You have been working with him for 12 years. But you aren't head of your department. Your manager is Todd. He has been only working for the company for two years, You don't want to be sales manager. But Todd is afraid of you. He tries to control you by making you write reports. He wants to know everything you are doing.
+    B: You are the CEO of the company. You wanted Olivier to be marketing manager, but he refused. He likes to go out and have fun with buyers. You gave Todd the job as marketing manager, because he knows a lot about sales and marketing. But he has a bad relationship with Olivier. You think you might fire Todd, because Olivier is your friend and the company's best sales representative. 
+    C: You usually have a good relationship with both Olivier and Todd. But you know they don't have a good relationship with each other. A lot of the orders you produce in the Production Department come from Olivier, so you see him a lot. When you have a problem, you go to see Todd. Todd always says bad things to you about Olivier. But Olivier never says bad things to you about Todd.
+    D: You don't like Olivier. You are his boss, but he makes more money than you do, because he is a super-salesman. You are jealous of his ability as a salesman. You try to prevent him selling so much by not giving him any freedom. You criticize him for his car accident and for his entertainment expenses. You ask him to to write reports and telephone you all the time. You want him to leave the company.
+  4:
+    identifier: story 4
+    A: You are a super salesman, and Charles, the CEO is your friend. But you aren't sales manager. The sales manager is Todd. He is afraid of you. He tries to control you by making you write reports. He wants to know everything you are doing.
+    B: You are the CEO of the company. You wanted Olivier to be marketing manager, but he refused. He likes to go out and have fun with buyers. You gave Todd the job as marketing manager, because he knows a lot about sales and marketing. But he has a bad relationship with Olivier. You think you might fire Todd, because Olivier is your friend and the company's best sales representative. 
+    C: You usually have a good relationship with both Olivier and Todd. But you know they don't have a good relationship with each other. A lot of the orders you produce in the Production Department come from Olivier, so you see him a lot. When you have a problem, you go to see Todd. Todd always says bad things to you about Olivier. But Olivier never says bad things to you about Todd.
+    D: You don't like Olivier. You are his boss, but he makes more money than you do, because he is a super-salesman. You are jealous of his ability as a salesman. You try to prevent him selling so much by not giving him any freedom. You criticize him for his car accident and for his entertainment expenses. You ask him to to write reports and telephone you all the time. You want him to leave the company.
+ compcomp:
+  0:
+    identifier: 2 stories
+    White: |+
+       \vspace{-0.2cm}
+       \begin{large}The Carrefour Order: Story 1\end{large}\\
+       \normalsize
+       \begin{description}
+       \item [Background] Olivier is a very good salesman, but he is also a good person. He is sorry he has to give Jacques the Carrefour order, due in two weeks. He knows that the Production Department is very busy now.
+       \item [Charles] knows that his company cannot produce the goods for the Carrefour order in two weeks. But he wants the money.
+       \item [Jacques] asks Todd who okayed the Carrefour order. He tells Todd he cannot produce the goods in two weeks.
+       \item [Todd] tells Olivier he didn't okay the order. He asks Olivier who did. Olivier says Charles did.
+       \end{description}
+    Black: |+
+       \vspace{-0.2cm}
+       \begin{large}The Carrefour Order: Story 2\end{large}\\
+       \normalsize
+       \begin{description}
+       \item [Background] Charles was surprised by a large Carrefour order. Carrefour had never before ordered goods from the company. He asked Todd.
+       \item [Todd] asked Jacques. Jacques asked Todd not to tell Charles. He said he would give him some money.
+       \item [Olivier] said he knew nothing about the order. He was as surprised and as unhappy as Charles.
+       \item [Conclusion] It was impossible the sales manager not know about an order in the production department. Jacques was cheating the company.
+       \end{description}
+    quiz:
+      - question: Olivier is bad/the cause of conflict in both the stories.
+        answer: False
+      - question: Charles is concerned about the production department in both stories.
+        answer: True
+      - question: Charles is concerned about the sales department in both stories.
+        answer: False
+      - question: Charles is concerned about the production department in both stories.
+        answer: True
+olivier:
+ jigsaw:
+  0:
+    identifier: super salesman
+    A: You are Charles, the CEO of the camping equipment company. The company is very successful, because you have a good sales team. Todd is the marketing manager. Olivier is a super salesman. Todd and Olivier are fighting. Olivier won't cooperate with Todd. You want to help Todd and Olivier stop fighting. And you don't want Olivier to leave the company.
+    B: You are Jacques, the production manager. You don't like Olivier. He promises delivery dates to customers that are impossible. He does not understand that the company cannot produce the products in time. He just thinks about what he wants, rather than what is good for the company. You want him to leave the company. 
+    C: You are Olivier. You are a super salesman. It is very exciting. You love getting customers to buy your products. You have decided to leave the company, because you do not get any respect from Jacques, Todd and the other people for your hard work. They don't try to help you be a better salesman. They just try to control what you are doing.
+    D: You are Todd. You are the manager of the sales team. Olivier only thinks about his own job, not about what other people have to do. He doesn't help the other sales people and he doesn't want you to know about his customers. You don't want him to leave the company, but you think he may be hurting the company.
+    quiz :
+      - question: Who doesn't want Charles to leave the company?
+      - question: What are the 2 arms of the company?
+      - question: What is the problem?
+      - question: Whose fault is the problem?
+  1:
+    identifier: hot spot 1
+    A: On Friday last week, Olivier got a large order from Carrefour for camping goods. The goods had to be delivered by January 15 for the winter vacation. There is a lot of conflict in the company. Many people shout, 'You're fired!' and, 'I quit!' You are Charles, CEO of the company. You look for the stress hotspot.
+    B: You are Jacques, the Production Manager. You complain to the Sales Department about Olivier's order. You tell Todd that you cannot produce the goods by January 15, because now is the busiest time of the year for the production department, and your workers are new and untrained. You say that Olivier is rude and impossible to work with.
+    C: You are Olivier, the Sales Department's best salesman. You are brilliant. Sales from your area amount to 24\% of the company's total sales. You are very rude to Jacques when he tells you the Production Department's situation. You are under a lot of pressure from Todd to produce reports and attend meetings.
+    D: You are Todd the Sales Manager. Olivier was mad at Jacques and was extremely rude to him. You have a lot of problems with Olivier. You see he is under stress, and you want to help him. The company is so dependent on his sales ability that it is difficult to control him. You also feel a lot of stress when you make him write reports and meet the whole sales team.
+    quiz:
+      - question: A is putting pressure on people.
+        answer: False
+      - question: B is causing someone to feel stress.
+        answer: True
+      - question: C is causing people to feel stress.
+        answer: True
+      - question: D is under pressure.
+        answer: True
+      - question: Where is stress hotspot?
+        option:
+        answer: Olivier
+      - question: Who doesn't want Charles to leave the company?
+#	Charles
+#	Jacques
+#	Olivier
+#	Todd
+      - question: What are the 2 arms of the company?
+#	Sales and marketing
+#	Production and sales
+#	Sales and administration
+      - question: What is the problem?
+      - question: Whose fault is the problem?
+ compcomp:
+  0:
+    identifier: Olivier and Todd
+    White: |+
+       \vspace{0.2cm}
+       \begin{large}Olivier\end{large}\\
+       \normalsize
+       Olivier's good and bad points
+       \begin{description}
+       \item [Background] Oliver got a large order from a very big retailer for delivery in two weeks. He told Jacques, the production manager. Jacques said he could not produce the goods by that date. Olivier became very angry and was rude to Jacques.
+       \vspace{-0.2cm}
+       \item [Good] Brilliant salesman. Sales from his area are 24 percent of total sales
+       \vspace{-0.2cm}
+       \item [Bad] Spends too much on entertainment for customers.
+       \vspace{-0.2cm}
+       \item [Bad] Has not introduced Todd to major buyers.
+       \vspace{-0.2cm}
+       \item [Bad] Doesn't answer phone, meet Todd or write reports.
+       \end{description}
+    Black: |+
+       \vspace{0.2cm}
+       \begin{large}Todd\end{large}\\
+       \normalsize
+       Todd's thinking and actions
+       \begin{description}
+       \item [Background] Jacques complained to Todd about Jacques' order. Jacques said Olivier was rude and impossible to work with. Jacques said this was the busiest time of year for the production department. He told Todd he would complain to Charles, the CEO, if Todd didn't control Jacques.
+       \vspace{-0.2cm}
+       \item [Entertainment] Olivier gets orders by 'bribing' buyers.
+       \vspace{-0.2cm}
+       \item [Contacts] Olivier will take buyers if he changes companies.
+       \vspace{-0.2cm}
+       \item [Information] Olivier doesn't tell company the truth.
+       \end{description}
+    quiz:
+      - question: Jacques complained about the size of Olivier's order.
+        answer: False
+      - question: Jacques is putting pressure on Todd.
+        answer: True
+      - question: Jacques wants Todd to prevent Olivier putting more pressure on him.
+        answer: True
+      - question: Olivier is responsible for one fourth of the company's total sales.
+        answer: True
+      - question: Some buyers probably give Olivier orders because he spends money on them.
+        answer: True
+      - question: Todd knows the major buyers well and the buyers know Todd well.
+        answer: False
+      - question: The major buyers have strong links to the company and are sure to continue to buy from it. 
+        answer: False
+      - question: Olivier thinks meeting Todd, giving him and the company information, is important.
+        answer: False
+      - question: Olivier will not use the information he has about the buyers if he changes companies.
+        answer: False
+  1:
+    quiz:
+      - question: Jacques is responsible for conflict between Todd and Jacques.
+        answer: True
+      - question: Jacques wants Todd to stop Olivier taking orders the production department cannot produce.
+        answer: True
+      - question: Olivier is responsible for one half of the company's total sales.
+        answer: False
+      - question: Some buyers may be giving Olivier orders because they like to be entertained by him.
+        answer: True
+      - question: Todd is unhappy he doesn't know major buyers.
+        answer: True
+      - question: The major buyers' links to the company are strong, but their links to Olivier are weak.
+        answer: False
+      - question: It is not possible that the major buyers would stop buying from the company, if Olivier left the company.
+        answer: False
+      - question: Olivier thinks it is important that the company have full information about what what he is doing.
+        answer: False
+      - question: Olivier will not be able to use the information he has about the buyers if he changes companies.
+        answer: False
+      - question: Olivier is hurting the company by keeping information about buyers to himself.
+        answer: True
+
+
