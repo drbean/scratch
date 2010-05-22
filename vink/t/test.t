@@ -1,5 +1,5 @@
 use Test::More tests => 1;
 
-use Vroom::Vroom;
+use Vroom::Vroom::Link;
 
-pass 'Vroom::Vroom loaded with no errors.';
+pass 'Vroom::Vroom::Link loaded with no errors.';
