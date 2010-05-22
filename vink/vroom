@@ -1,0 +1,5 @@
+#!/usr/bin/perl
+
+use Vroom::Vroom;
+Vroom::Vroom->vroom;
+
