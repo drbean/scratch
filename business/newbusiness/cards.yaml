@@ -1,0 +1,207 @@
+genre: business
+ingredients:
+ jigsaw:
+  0:
+    identifier: ingredients 0
+    A: You and your friends are very enthusiastic about your new idea to make money on the Internet, and 1) they are very good about making other people enthusiastic. 2) You have a lot of business knowledge and they have a lot of 3) experience writing Web applications, and experience helping other people use them. You worked with them in a previous start-up. 4) You have many different contacts. 5) You and they are willing to work hard.
+    B: Making money from the Internet is hard, because everything there is free. You need to think about a new business model. You can't expect people to pay you for your software. It is too easy to copy software. They will get it from a friend. People (eg Google) do however make money, because some people are prepared to spend money. Heavy users of software are prepared to pay for other services, eg hosting of their sites on your servers, or help with problems using your software.
+    C: Because everything is free, you don't need as much money as in other areas to set up an Internet business. However you and your team all need to eat and live somewhere. You also may need lots of computers, which are not cheap. You need to be able to find some way of getting the money to do that. That means having a business plan you can show to people who might be willing to loan you money, but who need to be persuaded they can make money too.
+    D: Google made lots of money from the fact the Internet doesn't have a telephone book, classified by the kind of company that has the telephone number. Unlike the telephone system, there is no one organization which is in control of the whole of the Internet. In the real world, you can walk around and see what service you want. For example, here, there's a 7-11. There, there's the post office. On the Internet, you are blind and need help.
+
+    quiz:
+      - question: A?
+        option:
+          - financing
+          - innovation
+          - opportunity
+          - team
+        answer: team
+      - question: B?
+        option:
+          - financing
+          - innovation
+          - opportunity
+          - team
+        answer: opportunity
+      - question: C?
+        option:
+          - financing
+          - innovation
+          - opportunity
+          - team
+        answer: financing
+      - question: D?
+        option:
+          - financing
+          - innovation
+          - opportunity
+          - team
+        answer: innovation
+ compcomp:
+  0:
+    identifier: ingredients
+    White: |+
+       \vspace{-0.2cm}
+       \begin{large}The Team\end{large}\\
+       \normalsize
+       \begin{description}
+       \item [First] The ability to sell its vision to other people, the ability to make people enthusiastic about your ideas.
+       \item [Second] The ability to understand the cash flow and to be able to control it.
+       \item [Third] Experience in 1, working with customers in this kind of business, 2. making products in this kind of business, 3. working in a start-up.
+       \item [Fourth] Contacts of many, many different kinds. A wide network of people who you have relationships with and who can help you.
+       \item [Fifth] The ability to give up time and money for the idea.
+       \end{description}
+    Black: |+
+       \vspace{-0.2cm}
+       \begin{large}5 Skills of the Innovative Entrepreneur\end{large}\\
+       \normalsize
+       \begin{description}
+       \item [Question] asking more questions, especially ones that challenge the status quo. Children are always asking questions. Innovators do the same thing.
+       \item [Observe] watching people, especially potential customers, to observe how they react to a product or service. Ordinary people can't see the buying experience from their customers' point of view. Innovators are able to see things other people cannot.
+       \item [Experiment] being eager to learn new skills, or to work in areas outside their comfort zone or culture. Innovators regard life as an adventure.
+       \item [Network] connecting with others simply for the opportunity to uncover fresh ideas and perspectives. Innovators know many different kinds of people.
+       \item [Associate] easily making connections between seemingly unrelated ideas or problems. Innovators are like the scientist making a discovery.
+       \end{description}
+    quiz:
+      - question: 2 stories: Question 1. Story 1 and Story 2 are the same as the story in the textbook.
+        answer: False
+      - question: 2 stories: Question 2. Olivier is causing the conflict in both Story 1 and Story 2.
+        answer: False
+      - question: 2 stories: Question 3. Todd is the cause of conflict in both Story 1 and Story 2.
+        answer: False
+      - question: 2 stories: Question 4. Charles is the bad guy in Story 1, and Jacques is the bad guy in Story 2.
+        answer: True
+      - question: 2 stories: Question 5. In both stories, the bad guys are doing bad things for money.
+        answer: True
+      - question: 2 stories: Question 6. In Story 1, Charles didn't know about an order that the production department started work on.
+        answer: False
+      - question: 2 stories: Question 7. In Story 2, Charles didn't know about the order that the production department was working on.
+        answer: True
+      - question: 2 stories: Question 8. In Story 1, Charles' okaying of the order caused problems for the production department.
+        answer: True
+      - question: 2 stories: Question 9. In Story 2, Jacques and the production department caused problems for the company.
+        answer: True
+      - question: 2 stories: Question 10. In Story 1, Jacques thinks Olivier and Todd are part of the problem.
+        answer: True
+      - question: 2 stories: Question 11. In Story 2, Olivier and Todd think Charles is part of the problem.
+        answer: False
+olivier:
+ jigsaw:
+  0:
+    identifier: super salesman
+    A: You are Charles, the CEO of the camping equipment company. The company is very successful, because you have a good sales team. Todd is the marketing manager. Olivier is a super salesman. Todd and Olivier are fighting. Olivier won't cooperate with Todd. You want to help Todd and Olivier stop fighting. And you don't want Olivier to leave the company.
+    B: You are Jacques, the production manager. You don't like Olivier. He promises delivery dates to customers that are impossible. He does not understand that the company cannot produce the products in time. He just thinks about what he wants, rather than what is good for the company. You want him to leave the company. 
+    C: You are Olivier. You are a super salesman. It is very exciting. You love getting customers to buy your products. You have decided to leave the company, because you do not get any respect from Jacques, Todd and the other people for your hard work. They don't try to help you be a better salesman. They just try to control what you are doing.
+    D: You are Todd. You are the manager of the sales team. Olivier only thinks about his own job, not about what other people have to do. He doesn't help the other sales people and he doesn't want you to know about his customers. You don't want him to leave the company, but you think he may be hurting the company.
+    quiz :
+      - question: Who doesn't want Charles to leave the company?
+      - question: What are the 2 arms of the company?
+      - question: What is the problem?
+      - question: Whose fault is the problem?
+  1:
+    identifier: hot spot 1
+    A: On Friday last week, Olivier got a large order from Carrefour for camping goods. The goods had to be delivered by January 15 for the winter vacation. There is a lot of conflict in the company. Many people shout, 'You're fired!' and, 'I quit!' You are Charles, CEO of the company. You look for the stress hotspot.
+    B: You are Jacques, the Production Manager. You complain to the Sales Department about Olivier's order. You tell Todd that you cannot produce the goods by January 15, because now is the busiest time of the year for the production department, and your workers are new and untrained. You say that Olivier is rude and impossible to work with.
+    C: You are Olivier, the Sales Department's best salesman. You are brilliant. Sales from your area amount to 24\% of the company's total sales. You are very rude to Jacques when he tells you the Production Department's situation. You are under a lot of pressure from Todd to produce reports and attend meetings.
+    D: You are Todd the Sales Manager. Olivier was mad at Jacques and was extremely rude to him. You have a lot of problems with Olivier. You see he is under stress, and you want to help him. The company is so dependent on his sales ability that it is difficult to control him. You also feel a lot of stress when you make him write reports and meet the whole sales team.
+    quiz:
+      - question: A is putting pressure on people.
+        answer: False
+      - question: B is causing someone to feel stress.
+        answer: True
+      - question: C is causing people to feel stress.
+        answer: True
+      - question: D is under pressure.
+        answer: True
+      - question: Where is stress hotspot?
+        option:
+        answer: Olivier
+      - question: Who doesn't want Charles to leave the company?
+#	Charles
+#	Jacques
+#	Olivier
+#	Todd
+      - question: What are the 2 arms of the company?
+#	Sales and marketing
+#	Production and sales
+#	Sales and administration
+      - question: What is the problem?
+      - question: Whose fault is the problem?
+ compcomp:
+  0:
+    identifier: Olivier and Todd
+    White: |+
+       \vspace{0.2cm}
+       \begin{large}Olivier\end{large}\\
+       \normalsize
+       Olivier's good and bad points
+       \begin{description}
+       \item [Background] Oliver got a large order from a very big retailer for delivery in two weeks. He told Jacques, the production manager. Jacques said he could not produce the goods by that date. Olivier became very angry and was rude to Jacques.
+       \vspace{-0.2cm}
+       \item [Good] Brilliant salesman. Sales from his area are 24 percent of total sales
+       \vspace{-0.2cm}
+       \item [Bad] Spends too much on entertainment for customers.
+       \vspace{-0.2cm}
+       \item [Bad] Has not introduced Todd to major buyers.
+       \vspace{-0.2cm}
+       \item [Bad] Doesn't answer phone, meet Todd or write reports.
+       \end{description}
+    Black: |+
+       \vspace{0.2cm}
+       \begin{large}Todd\end{large}\\
+       \normalsize
+       Todd's thinking and actions
+       \begin{description}
+       \item [Background] Jacques complained to Todd about Jacques' order. Jacques said Olivier was rude and impossible to work with. Jacques said this was the busiest time of year for the production department. He told Todd he would complain to Charles, the CEO, if Todd didn't control Jacques.
+       \vspace{-0.2cm}
+       \item [Entertainment] Olivier gets orders by 'bribing' buyers.
+       \vspace{-0.2cm}
+       \item [Contacts] Olivier will take buyers if he changes companies.
+       \vspace{-0.2cm}
+       \item [Information] Olivier doesn't tell company the truth.
+       \end{description}
+    quiz:
+      - question: Jacques complained about the size of Olivier's order.
+        answer: False
+      - question: Jacques is putting pressure on Todd.
+        answer: True
+      - question: Jacques wants Todd to prevent Olivier putting more pressure on him.
+        answer: True
+      - question: Olivier is responsible for one fourth of the company's total sales.
+        answer: True
+      - question: Some buyers probably give Olivier orders because he spends money on them.
+        answer: True
+      - question: Todd knows the major buyers well and the buyers know Todd well.
+        answer: False
+      - question: The major buyers have strong links to the company and are sure to continue to buy from it. 
+        answer: False
+      - question: Olivier thinks meeting Todd, giving him and the company information, is important.
+        answer: False
+      - question: Olivier will not use the information he has about the buyers if he changes companies.
+        answer: False
+  1:
+    quiz:
+      - question: Olivier and Todd: Question 1. Olivier is responsible for conflict between Todd and Jacques.
+        answer: True
+      - question: Olivier and Todd: Question 2. Jacques wants Todd to stop Olivier taking orders the production department cannot produce.
+        answer: True
+      - question: Olivier and Todd: Question 3. Olivier is responsible for one half of the company's total sales.
+        answer: False
+      - question: Olivier and Todd: Question 4. Some buyers may be giving Olivier orders because they like to be entertained by him.
+        answer: True
+      - question: Olivier and Todd: Question 5. Todd is unhappy he doesn't know major buyers.
+        answer: True
+      - question: Olivier and Todd: Question 6. The major buyers' links to the company are strong, but their links to Olivier are weak.
+        answer: False
+      - question: Olivier and Todd: Question 7. It is not possible that the major buyers would stop buying from the company, if Olivier left the company.
+        answer: False
+      - question: Olivier and Todd: Question 8. Olivier thinks it is important that the company have full information about what what he is doing.
+        answer: False
+      - question: Olivier and Todd: Question 9. Olivier will not be able to use the information he has about the buyers if he changes companies.
+        answer: False
+      - question: Olivier and Todd: Question 10. Olivier is hurting the company by keeping information about buyers to himself.
+        answer: True
+      - question: Olivier and Todd: Question 11. Olivier and Jacques should have spoken to Charles about the problem.
+        answer: True
+
+
