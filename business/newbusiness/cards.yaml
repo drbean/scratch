@@ -57,151 +57,46 @@ ingredients:
        \normalsize
        \begin{description}
        \item [Question] asking more questions, especially ones that challenge the status quo. Children are always asking questions. Innovators do the same thing.
-       \item [Observe] watching people, especially potential customers, to observe how they react to a product or service. Ordinary people can't see the buying experience from their customers' point of view. Innovators are able to see things other people cannot.
-       \item [Experiment] being eager to learn new skills, or to work in areas outside their comfort zone or culture. Innovators regard life as an adventure.
-       \item [Network] connecting with others simply for the opportunity to uncover fresh ideas and perspectives. Innovators know many different kinds of people.
-       \item [Associate] easily making connections between seemingly unrelated ideas or problems. Innovators are like the scientist making a discovery.
+       \item [Observe] watching people, especially potential customers, to observe how they react to a product or service.
+       \item [Experiment] being eager to learn new skills, or to work in areas outside their comfort zone or culture.
+       \item [Network] connecting with others simply for the opportunity to uncover fresh ideas and perspectives.
+       \item [Associate] easily making connections between seemingly unrelated ideas or problems.
        \end{description}
     quiz:
-      - question: 2 stories: Question 1. Story 1 and Story 2 are the same as the story in the textbook.
+      - question: Good cashflow management is a requirement.
+        answer: True
+      - question: Don't ask questions. Other people can do that for you.
         answer: False
-      - question: 2 stories: Question 2. Olivier is causing the conflict in both Story 1 and Story 2.
+      - question: An effective team needs experience in 3 areas.
+        answer: True
+      - question: You need to know a lot about buyers and what they think.
+        answer: True
+      - question: You need to know a lot about one thing, but not a lot about many things.
         answer: False
-      - question: 2 stories: Question 3. Todd is the cause of conflict in both Story 1 and Story 2.
+      - question: Building the right team is a "silver bullet." or magic formula.
         answer: False
-      - question: 2 stories: Question 4. Charles is the bad guy in Story 1, and Jacques is the bad guy in Story 2.
-        answer: True
-      - question: 2 stories: Question 5. In both stories, the bad guys are doing bad things for money.
-        answer: True
-      - question: 2 stories: Question 6. In Story 1, Charles didn't know about an order that the production department started work on.
+      - question: You need to be friends with people who are quite different than you.
         answer: False
-      - question: 2 stories: Question 7. In Story 2, Charles didn't know about the order that the production department was working on.
-        answer: True
-      - question: 2 stories: Question 8. In Story 1, Charles' okaying of the order caused problems for the production department.
-        answer: True
-      - question: 2 stories: Question 9. In Story 2, Jacques and the production department caused problems for the company.
-        answer: True
-      - question: 2 stories: Question 10. In Story 1, Jacques thinks Olivier and Todd are part of the problem.
-        answer: True
-      - question: 2 stories: Question 11. In Story 2, Olivier and Todd think Charles is part of the problem.
+      - question: You need to be able to put different ideas together and see a relationship.
         answer: False
-olivier:
- jigsaw:
-  0:
-    identifier: super salesman
-    A: You are Charles, the CEO of the camping equipment company. The company is very successful, because you have a good sales team. Todd is the marketing manager. Olivier is a super salesman. Todd and Olivier are fighting. Olivier won't cooperate with Todd. You want to help Todd and Olivier stop fighting. And you don't want Olivier to leave the company.
-    B: You are Jacques, the production manager. You don't like Olivier. He promises delivery dates to customers that are impossible. He does not understand that the company cannot produce the products in time. He just thinks about what he wants, rather than what is good for the company. You want him to leave the company. 
-    C: You are Olivier. You are a super salesman. It is very exciting. You love getting customers to buy your products. You have decided to leave the company, because you do not get any respect from Jacques, Todd and the other people for your hard work. They don't try to help you be a better salesman. They just try to control what you are doing.
-    D: You are Todd. You are the manager of the sales team. Olivier only thinks about his own job, not about what other people have to do. He doesn't help the other sales people and he doesn't want you to know about his customers. You don't want him to leave the company, but you think he may be hurting the company.
-    quiz :
-      - question: Who doesn't want Charles to leave the company?
-      - question: What are the 2 arms of the company?
-      - question: What is the problem?
-      - question: Whose fault is the problem?
-  1:
-    identifier: hot spot 1
-    A: On Friday last week, Olivier got a large order from Carrefour for camping goods. The goods had to be delivered by January 15 for the winter vacation. There is a lot of conflict in the company. Many people shout, 'You're fired!' and, 'I quit!' You are Charles, CEO of the company. You look for the stress hotspot.
-    B: You are Jacques, the Production Manager. You complain to the Sales Department about Olivier's order. You tell Todd that you cannot produce the goods by January 15, because now is the busiest time of the year for the production department, and your workers are new and untrained. You say that Olivier is rude and impossible to work with.
-    C: You are Olivier, the Sales Department's best salesman. You are brilliant. Sales from your area amount to 24\% of the company's total sales. You are very rude to Jacques when he tells you the Production Department's situation. You are under a lot of pressure from Todd to produce reports and attend meetings.
-    D: You are Todd the Sales Manager. Olivier was mad at Jacques and was extremely rude to him. You have a lot of problems with Olivier. You see he is under stress, and you want to help him. The company is so dependent on his sales ability that it is difficult to control him. You also feel a lot of stress when you make him write reports and meet the whole sales team.
-    quiz:
-      - question: A is putting pressure on people.
-        answer: False
-      - question: B is causing someone to feel stress.
-        answer: True
-      - question: C is causing people to feel stress.
-        answer: True
-      - question: D is under pressure.
-        answer: True
-      - question: Where is stress hotspot?
-        option:
-        answer: Olivier
-      - question: Who doesn't want Charles to leave the company?
-#	Charles
-#	Jacques
-#	Olivier
-#	Todd
-      - question: What are the 2 arms of the company?
-#	Sales and marketing
-#	Production and sales
-#	Sales and administration
-      - question: What is the problem?
-      - question: Whose fault is the problem?
+innovation:
  compcomp:
   0:
-    identifier: Olivier and Todd
+    identifier: Steve Jobs and innovation
     White: |+
-       \vspace{0.2cm}
-       \begin{large}Olivier\end{large}\\
+       \vspace{-0.2cm}
+       \begin{large}Ideas about innovation\end{large}\\
        \normalsize
-       Olivier's good and bad points
        \begin{description}
-       \item [Background] Oliver got a large order from a very big retailer for delivery in two weeks. He told Jacques, the production manager. Jacques said he could not produce the goods by that date. Olivier became very angry and was rude to Jacques.
-       \vspace{-0.2cm}
-       \item [Good] Brilliant salesman. Sales from his area are 24 percent of total sales
-       \vspace{-0.2cm}
-       \item [Bad] Spends too much on entertainment for customers.
-       \vspace{-0.2cm}
-       \item [Bad] Has not introduced Todd to major buyers.
-       \vspace{-0.2cm}
-       \item [Bad] Doesn't answer phone, meet Todd or write reports.
+       \item [Ingredients] The most important ability is \textbf{inquisitiveness} or \textbf{curiosity} about things, wanting to find out about things. But you also need the ability to \textbf{associate} different things, and bring different ideas together and see how they are related.
+       \item [Environment] A helpful environment which makes the innovator feel positive, and encourages innovation is also necessary. But it is still difficult.
+       \item [Desire for success] The successful innovator also has greater desire to succeed and is willing to accept more pain while achieving success.
+       \item [Company policy] To encourage innovativeness, companies \textit{must} remove barriers, 
        \end{description}
     Black: |+
-       \vspace{0.2cm}
-       \begin{large}Todd\end{large}\\
+       \vspace{-0.2cm}
+       \begin{large}Steve Jobs and Apple\end{large}\\
        \normalsize
-       Todd's thinking and actions
        \begin{description}
-       \item [Background] Jacques complained to Todd about Jacques' order. Jacques said Olivier was rude and impossible to work with. Jacques said this was the busiest time of year for the production department. He told Todd he would complain to Charles, the CEO, if Todd didn't control Jacques.
-       \vspace{-0.2cm}
-       \item [Entertainment] Olivier gets orders by 'bribing' buyers.
-       \vspace{-0.2cm}
-       \item [Contacts] Olivier will take buyers if he changes companies.
-       \vspace{-0.2cm}
-       \item [Information] Olivier doesn't tell company the truth.
+       \item [Cell phones]Jobs: What do we all hate? Staff: Cell phones! Jobs: What would be the ideal cell phone? Staff: One with a computer inside.
        \end{description}
-    quiz:
-      - question: Jacques complained about the size of Olivier's order.
-        answer: False
-      - question: Jacques is putting pressure on Todd.
-        answer: True
-      - question: Jacques wants Todd to prevent Olivier putting more pressure on him.
-        answer: True
-      - question: Olivier is responsible for one fourth of the company's total sales.
-        answer: True
-      - question: Some buyers probably give Olivier orders because he spends money on them.
-        answer: True
-      - question: Todd knows the major buyers well and the buyers know Todd well.
-        answer: False
-      - question: The major buyers have strong links to the company and are sure to continue to buy from it. 
-        answer: False
-      - question: Olivier thinks meeting Todd, giving him and the company information, is important.
-        answer: False
-      - question: Olivier will not use the information he has about the buyers if he changes companies.
-        answer: False
-  1:
-    quiz:
-      - question: Olivier and Todd: Question 1. Olivier is responsible for conflict between Todd and Jacques.
-        answer: True
-      - question: Olivier and Todd: Question 2. Jacques wants Todd to stop Olivier taking orders the production department cannot produce.
-        answer: True
-      - question: Olivier and Todd: Question 3. Olivier is responsible for one half of the company's total sales.
-        answer: False
-      - question: Olivier and Todd: Question 4. Some buyers may be giving Olivier orders because they like to be entertained by him.
-        answer: True
-      - question: Olivier and Todd: Question 5. Todd is unhappy he doesn't know major buyers.
-        answer: True
-      - question: Olivier and Todd: Question 6. The major buyers' links to the company are strong, but their links to Olivier are weak.
-        answer: False
-      - question: Olivier and Todd: Question 7. It is not possible that the major buyers would stop buying from the company, if Olivier left the company.
-        answer: False
-      - question: Olivier and Todd: Question 8. Olivier thinks it is important that the company have full information about what what he is doing.
-        answer: False
-      - question: Olivier and Todd: Question 9. Olivier will not be able to use the information he has about the buyers if he changes companies.
-        answer: False
-      - question: Olivier and Todd: Question 10. Olivier is hurting the company by keeping information about buyers to himself.
-        answer: True
-      - question: Olivier and Todd: Question 11. Olivier and Jacques should have spoken to Charles about the problem.
-        answer: True
-
-
