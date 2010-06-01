@@ -88,15 +88,46 @@ innovation:
        \begin{large}Ideas about innovation\end{large}\\
        \normalsize
        \begin{description}
-       \item [Ingredients] The most important ability is \textbf{inquisitiveness} or \textbf{curiosity} about things, wanting to find out about things. But you also need the ability to \textbf{associate} different things, and bring different ideas together and see how they are related.
-       \item [Environment] A helpful environment which makes the innovator feel positive, and encourages innovation is also necessary. But it is still difficult.
+       \item [Ingredients] The most important ability is \textbf{inquisitiveness} or \textbf{curiosity}, wanting to find out. This is something everyone has. But you also need the ability to \textbf{associate} different things, and bring different ideas together and relate them.
+       \vspace{-0.2cm}
+       \item [Environment] A helpful environment which makes the innovator feel positive, and encourages innovation is also necessary.
+       \vspace{-0.2cm}
        \item [Desire for success] The successful innovator also has greater desire to succeed and is willing to accept more pain while achieving success.
-       \item [Company policy] To encourage innovativeness, companies \textit{must} remove barriers, 
+       \vspace{-0.2cm}
+       \item [Companies] \textit{must} remove barriers to innovation, help innovators organize others, and encourage networking.
        \end{description}
     Black: |+
        \vspace{-0.2cm}
        \begin{large}Steve Jobs and Apple\end{large}\\
        \normalsize
+       \vspace{-0.3cm}
        \begin{description}
-       \item [Cell phones]Jobs: What do we all hate? Staff: Cell phones! Jobs: What would be the ideal cell phone? Staff: One with a computer inside.
+       \item [Cell phones] Apple was innovative with the cell phone
+       \vspace{-0.25cm}
+        \begin{description}
+        \item [Jobs:] What do we all hate?
+       \vspace{-0.25cm}
+        \item [Staff:] Cell phones!
+       \vspace{-0.25cm}
+        \item [Jobs:] What would be the ideal cell phone?
+       \vspace{-0.25cm}
+        \item [Staff:] One with a computer inside.
+        \end{description}
+       \vspace{-0.25cm}
+       \item [Managing innovation] Apple hires people who want to make the best things. Staff work very hard. Apple has very disciplined management processes, but Jobs thinks innovation comes from people getting together informally.
+       \vspace{-0.2cm}
+       \item [Motivation] Jobs thinks Apple is product-oriented, rather than sales-oriented. His idea is that it should make the best PCs.
        \end{description}
+    quiz:
+      - question: Everyone could be innovative as Apple with the cell phone if they pulled different ideas together.
+        answer: True
+      - question: Jobs was involved with staff in Apple's cell phone innovation.
+        answer: True
+      - question: The environment that encourages innovation at Apple is not really helpful for innovators.
+        answer: False
+      - question: Jobs thinks hard work is part of the answer to managing innovation.
+        answer: True
+      - question: Apple has solved the problem of managing innovation with its work processes.
+        answer: False
+      - question: Apple doesn't encourage networking by staff.
+        answer: False
