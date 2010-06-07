@@ -1,0 +1,267 @@
+genre: business
+kendall:
+ jigsaw:
+  0:
+    identifier: Uniqlo's marketing mix
+    A: |
+    B: |
+    C: | 
+    D: |
+    quiz :
+      - question: Kendall buys Green and Black
+        answer  : False
+      - question: Green and Black appears promising company.
+        answer  : False
+      - question: Cadbury's buys Green and Black.
+        answer  : False
+      - question: Kendall works on a farm for first time.
+        answer  : False
+      - question: Kendall CEO at Covent Garden Soup Company.
+        answer  : False
+      - question: Kendall is lawyer, banker.
+        answer  : False
+      - question: Craig Sams is macrobiotic.
+        answer  : False
+ compcomp:
+  influences:
+    identifier: influences on Kendall
+    White: |+
+       \vspace{0.2cm}
+       \begin{large}Craig Sams\end{large}\\
+       \normalsize
+       How are Craig Sams and Prince Charles similar and different?
+       \begin{description}
+       \item [Birth] Born on a farm in America.
+       \item [Education] Graduated from University of Pennsylvania Business School in 1966.
+       \item [Business] Is president of Green and Black Chocolates. Sales of 100 million pounds.
+       \item [Lifestyle] Eats brown rice, but no meat, tomatoes, sugar. Doesn't smoke.
+       \item [Medicine] Believes in alternative medicine. Doesn't believe in Western medicine.
+       \end{description}
+    Black: |+
+       \vspace{0.2cm}
+       \begin{large}Prince Charles\end{large}\\
+       \normalsize
+       How are Craig Sams and Prince Charles similar and different?
+       \begin{description}
+       \item [Birth] Born in a palace in England.
+       \item [Education] Graduated from Oxford University in 1970.
+       \item [Business] Has a farm. Sells its products and donates profits to charities. Sales of 50 million pounds per year.
+       \item [Lifestyle] Eats meat. Doesn't eat or grow genetically-modified foods.
+       \item [Medicine] Believes in alternative medicine. Doesn't believe in Western medicine.
+       \end{description}
+    quiz:
+      - question: Sams is older than the Prince.
+        answer: True
+      - question: The Prince was born on a farm.
+        answer: False
+      - question: Sams was born on a farm.
+        answer: True
+      - question: Sams has a farm.
+        answer: False
+      - question: The Prince has a farm.
+        answer: True
+      - question: The Prince's businesses make more money than Sams'.
+        answer: False
+      - question: Sams eats meat but the Prince doesn't.
+        answer: False
+  coventgreen:
+    identifier: Kendall's businesses
+    White: |+
+       \vspace{0.2cm}
+       \begin{large}Covent Garden Soup Company\end{large}\\
+       \normalsize
+       Covent Garden \& Green and Black's differences
+       \begin{description}
+       \item [Entry] Was hired by the owners for one month to buy carrots for the soup.
+       \item [Control] Became CEO after investors asked the owners to give him control of the company.
+       \item [Management] Made many mistakes, but learned from the mistakes. Did not give his managers freedom to make their own decisions. This was a mistake.
+       \item [Planning] Did not plan how to leave the company. Competed with bigger businesses. Found it very difficult to sell the company to other, bigger businesses.
+       \end{description}
+    Black: |+
+       \vspace{0.2cm}
+       \begin{large}Green and Black\end{large}\\
+       \normalsize
+       Covent Garden \& Green and Black's differences
+       \begin{description}
+       \item [Entry] Bought 80 percent of the company from Craig Sams. Sams continued as chairman of the company.
+       \item [Financing] Sams hadn't been able to find investors. Kendall (and partner Nick Beard) were able to. Got Cadbury's to invest 10 percent.
+       \item [Management] Gave managers freedom to do their job. Saw his job as planning the company's development.
+       \item [Planning] Planned not to compete, but cooperate with bigger businesses, so they would buy him out.
+       \end{description}
+    quiz:
+      - question: Started at Green and Black first.
+        answer: False
+      - question: Started at both companies in a low position
+        answer: False
+      - question: Was CEO at both companies.
+        answer: True
+      - question: Gave managers more freedom at the second company.
+        answer: True
+      - question: Planned to sell first company, but not second.
+        answer: False
+      - question: Competed with big business at first company, cooperated at second.
+        answer: True
+drbean:
+ jigsaw:
+  0:
+    identifier: Planning failure
+    A: |
+      \\
+      \textbf{Graham}: How clear are your plans?\\
+      \textbf{Bean}: They are very clear. I want to develop a Course Management System like Moodle, Blackboard, or 旭聯數位學習平台 at http://elearning.nuu.edu.tw.
+    B: |
+      \\
+      \textbf{Graham}: Do you keep your plans up-to-date? Do you show them to people and see what they think?\\
+      \textbf{Bean}: Yes, I write a diary when I make changes to the software. People who use the software can see this diary of the changes I made.
+    C: |
+      \\
+      \textbf{Graham}: Are other people involved in your planning? Or do you plan by yourself and then announce your plans?\\
+      \textbf{Bean}: I first started writing the software. But now other programmers and teachers have taken ownership of the software and we work together to decide which direction to go.
+    D: |
+      \\
+      \textbf{Graham}: What do you think of William Kendall and organic food?\\
+      \textbf{Bean}: He was very interested in marketing and making a lot of money. I am not. I don't care about being popular. I don't want to make a lot of money. I am just writing the software for my own use.
+    quiz:
+      - question: A
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: clear
+      - question: B
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: interactive
+      - question: C
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: social
+      - question: D
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: Kendall
+      - question: Which of the 4 is the problem?
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: Kendall
+  1:
+    identifier: CompComp failure
+    A: |
+      \textbf{Graham}: What would William Kendall think? What is the lesson of organic food?\\
+      \textbf{Bean}: The lesson is marketing and making something popular. I need to get lots of other teachers doing the CompComp activity. I'm sure Kendall would think the CompComp is not a good idea. He would think it would be hard to sell.
+    B: |
+      \textbf{Graham}: Tell me about your plans for the CompComp activity?\\
+      \textbf{Bean}: I think conversation is cooperative and competitive at the same time. I want the students to try to understand more of their partners' information than their partners' understand of theirs.
+      \textbf{Graham}: I'm not too sure what you mean. I don't understand.\\
+    C: |
+      \textbf{Graham}: Do the students understand what you are trying to do with the CompComp activity? Are you changing your plans depending on the students' reactions.\\ 
+      \textbf{Bean}: Some understand, but a lot don't. It's difficult showing them what I want to do. I don't think they want to compete. But I won't give up. I will stick to my plan even if the students don't understand.
+    D: |
+      \textbf{Graham}: Are the students involved in the planning of your CompComp activity? Or do you plan by yourself and then announce your plans?\\
+      \textbf{Bean}: The activity is my idea. I would like the students to take ownership of the activity and we work together to decide which direction to go. But that hasn't happened.
+    quiz:
+      - question: A
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: Kendall
+      - question: B
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: clear
+      - question: C
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: interactive
+      - question: D
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: social
+      - question: Which of the 4 is the problem?
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+          - all
+        answer: all
+  2:
+    identifier: Planning failure 2
+    A: |
+      \\
+      \textbf{Graham}: How clear are your plans?\\
+      \textbf{Bean}: They are very clear. I want to develop an on-line system to show students their grade now, not just at the end of the semester.\\
+      \textbf{Graham}: Seems pretty clear.\\
+
+    B: |
+      \\
+      \textbf{Graham}: Do you keep your plans up-to-date? Do you show them to people and see what they think?\\
+      \textbf{Bean}: Yes, when I develop a new teaching technique, I plan changes to the software, so students can see their grades on the new activity. I tell them about my plans with the software.
+    C: |
+      \\
+      \textbf{Graham}: Are other people involved in your planning? Or do you plan by yourself and then announce your plans?\\
+      \textbf{Bean}: I am the only person writing the software. The students are not involved. I would like to get them involved so we plan the system together, but at the moment we are not.
+    D: |
+      \\
+      \textbf{Graham}: What do you think of William Kendall and organic food?\\
+      \textbf{Bean}: He was very good at planning and changing his plans as a result of information. I think I am good at planning and flexible like him.
+    quiz:
+      - question: A
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: clear
+      - question: B
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: interactive
+      - question: C
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: social
+      - question: D
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: Kendall
+      - question: Which of the 4 is the problem?
+        option:
+          - clear
+          - interactive
+          - social
+          - Kendall
+        answer: Kendall
