@@ -163,13 +163,13 @@ sale:
       - question: The product is okay.
         answer: True
       - question: The price is right.
-        answer: True
+        answer: False
       - question: The place is right.
         answer: True
       - question: The promotion is satisfactory.
         answer: True
       - question: A sale is made.
-        answer: True
+        answer: False
   oil:
     identifier: oil
     White: |+
@@ -196,7 +196,7 @@ sale:
        \end{description}
     quiz:
       - question: The product is okay.
-        answer: True
+        answer: False
       - question: The price is right.
         answer: True
       - question: The place is right.
@@ -204,7 +204,7 @@ sale:
       - question: The promotion is satisfactory.
         answer: True
       - question: A sale is made.
-        answer: True
+        answer: False
   rice:
     identifier: rice
     White: |+
@@ -233,7 +233,7 @@ sale:
       - question: The product is okay.
         answer: True
       - question: The price is right.
-        answer: True
+        answer: False
       - question: The place is right.
         answer: True
       - question: The promotion is satisfactory.
