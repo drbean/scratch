@@ -214,3 +214,127 @@ breakstone:
       B: Your daughter comes home crying, saying Chrissie Urban told her there is no Santa Claus. You are upset that your daughter is upset. You try to find out what happened and she says she punched her in the face.
       C: One Christmas Eve, you saw Santa Claus in your living room kissing your Mom, so you believe in Santa Claus. So you punched Chrissie. Now your Mom tells you he doesn't exist. You don't know what to believe.
       D: Children believe in you, but adults don't. You live at the North Pole and at Christmas you ride a sleigh with reindeers through the sky and deliver presents to good children and a piece of coal to bad.
+duplantier:
+  compcomp:
+    0:
+      identifier: katrina 1
+      White: |+
+        \begin{normalsize} 921 Earthquake \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Date] The earthquake occurred early in the morning of September 21, 1999.
+        \item [Severity] It was the second deadliest earthquake in Taiwan in the 20th century.
+        \item [Casualties] 2,416 people were killed, more than 11,441 were injured and more than 100,000 people were left homeless.
+        \item [Damage] NT\$300 billion worth of damage was done. At one measuring station, movement of 3 meters/second was recorded, the highest recorded anywhere. Some sections of land were raised 7 meters. The central part of Taiwan was most affected, 
+        \end{description}
+      Black: |+
+        \begin{normalsize} Hurricane Katrina \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Date] The hurricane lasted August 23-30, 2005.
+        \item [Severity] It was one of the five deadliest in US history, the sixth strongest in recorded Atlantic hurricanes, and the costliest (\$85 billion) in US history.
+        \item [Casualties] 1,836 people were confirmed dead.
+        \item [Damage] Most severe loss of life occurred in New Orleans, where the levee system failed, and 80 percent of the city was flooded. However worst property damage occurred in Mississippi gulf towns where flood waters reached 10-20 kilometers from the beach.
+        \end{description}
+      quiz:
+        - question: The earthquake was more recent.
+          answer: False
+        - question: The typhoon resulted in more deaths.
+          answer: False
+        - question: The earthquake was more costly.
+          answer: False
+        - question: The earthquake lasted for a longer period.
+          answer: False
+        - question: The earthquake involved material moving greater distances.
+          answer: False
+  jigsaw:
+    0:
+      identifier: duplantier 0
+      A: You were evacuated from New Orleans as Hurricane Katrina approached. You left your husband, David, a police officer. You didn't have anywhere to stay. You were sleeping in a school inland, and couldn't take a shower for a week.
+      B: You wanted to leave New Orleans with everyone else, after the city government told everyone to leave, but the government told you to remain at the pump station where you worked. The levees failed and the pumps didn't work, but you stayed at your post.
+      C: You were a police officer, The authorities ordered you to stay at the Superdome and control the 26,000 people who took refuge there. This was an ordeal. You were worried about your wife. You wanted her to know you were alive.
+      D: You were President Bush. You were criticized for the area's lack of preparedness for the hurricane, by half the people in a survey, but the mayor of New Orleans was criticized more than you. In a later survey, you were still criticized, but more people said no one was to blame.
+desilvey:
+  compcomp:
+    0:
+      identifier: desilvey 0
+      White: |+
+        \begin{large} Duplantier: compare and contrast with DeSilvey \end{large}
+        \normalsize
+        \begin{description}
+        \item [Before] a police officer in New Orleans.
+        \item [Married] to Melissa Eugene.
+        \item [Experience] Not directly in flooding. Problem was crowd control in the Superdome under conditions of unlawlessness and lack of medical care. The Superdome had been used before in previous hurricanes and damages by the evacuees was worth thousands of dollars. This time it was called a `refuge of last resort.' More than 20,000 people were there. 3 people died. 
+        \item [Deaths] None of the family.
+        \end{description}
+      Black: |+
+        \begin{large} DeSilvey: compare and contrast with Duplantier\end{large}
+        \normalsize
+        \begin{description}
+        \item [Before] lived in Biloxi, in Mississippi, to the east.
+        \item [Married] to Linda Kay Allen, but they were divorced or separated.
+        \item [Experience] A wall of water suddenly flooded the first floor of the house and wind took off the roof. The walls collapsed and when the roof came down the second floor collapsed, and everyone was thrown into the water.
+        \item [Deaths] All of the family, except him.
+        \end{description}
+      quiz:
+        - question: Their stories are dissimilar.
+          answer: True
+        - question: Both lived in the same city.
+          answer: False
+        - question: DeSilvey's relationship with wife was more complicated.
+          answer: True
+        - question: Duplantier's story is sadder.
+          answer: False
+        - question: DeSilvey's experience was more about the water.
+          answer: True
+        - question: Duplantier's experience was more about destruction of buildings.
+          answer: False
+        - question: Duplantier met more people.
+          answer: True
+        - question: Duplantier faced more death.
+          answer: False
+        - question: Fewer of DeSilvey's family died.
+          answer: False
+  jigsaw:
+    0:
+      identifier: desilvey 0
+      A: After the hurricane you went from your home in Indiana to help Douglas re-roof his house. His in-laws' home, in which he had sheltered, was destroyed. But his house only lost its roof. Afterwards, he traveled to see you at your graduation ceremony.
+      B: You drowned in the flooding. Your father and mother, Linda, were there. You didn't live with your parents. You were just visiting at the time. Like your father, you were interested in keeping fit. You were a sports trainer. You were physicaly fit, but you died too.
+      C: Your daughter, Donna who you had with your ex-husband, died with you. You were separated from, but he went to stay with you and your family during the hurricane, as he always did. The hurricane brought you closer together with him again, but you died immediately afterward.
+      D: You didn't die, but you are very sad that all of the women in your family did die, especially your ex-wife and your daughter. You are grateful for the help Alicia and some students from Indiana gave you re-roofing your house. You go to their graduation.
+conant:
+  jigsaw:
+    0:
+      identifier: conant 0
+      A: You represent the children on the plane. There were 52 children, because United Airlines was having a promotion for children to fly that day. You were traveling alone, so Angel, one of the flight attendants, looked after you. You did not die. Angel helped you escape from the plane.
+      B: You were the pilot of the plane. You were able to bring the plane down to the ground, but it crash-landed and and 111 people died. Afterwards, you became famous. And when your daughter needed money for an operation, Martha and other survivors sent you money.
+      C: You survived the crash. It troubled you that you survived and others didn't. You decided you should be grateful for being alive and live a life free of regrets. You sent Captain Haynes money when his daughter needed an expensive operation.
+      D: You were a flight attendant on the plane. All of the other crew on the plane survived, but you died from breathing smoke when the plane crash-landed. You helped Tina escape from the plane, but weren't able to escape yourself. 
+  compcomp:
+    0:
+      identifier: conant 0
+      White: |+
+        \begin{large} United Airlines Flight 232 \end{large}
+        \normalsize
+        \begin{description}
+        \item [Circumstances] A DC-10 was one hour into a flight from Denver to Chicago and at 37,000 feet.
+        \item [Cause] A tail jet engine fan broke up and metal parts from it cut all three hydraulic systems controlling the plane's ability to change direction.
+        \item [Development] The pilots used just the engines to land the plane in Iowa, but it crashed and burned on landing.
+        \item [Casualties] Of the 296 people, 111 died, some due to smoke. 41 were seriously injured and 121 had minor injuries. 13 had no injuries.
+        \end{description}
+      Black: |+
+        \begin{large} China Airlines Flight 611 \end{large}
+        \normalsize
+        \begin{description}
+        \item [Circumstances] A Boeing 747 was 50 minutes into a flight from Taipei to Hong Kong and at 35,000 feet.
+        \item [Cause] A report concluded and a crack in the body of the plane widened and the plane broke up, perhaps into 4 parts.
+        \item [Development] The parts of the plane fell from the sky, many in the sea near Penghu, but some in Changhwa.
+        \item [Casualties] All 225 people died. Many had no clothes, because when the air escaped from the plane, it ripped their clothes off.
+        \end{description}
+      quiz:
+        - question: Both planes were the same type of plane.
+          answer: False
+        - question: Both accidents occurred about the same time into the flight.
+          answer: True
+        - question: Pilot error was the cause of the China Airlines crash.
+          answer: False
