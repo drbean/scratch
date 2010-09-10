@@ -1,0 +1,63 @@
+# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom::Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: Vroom!
+indent: 5
+height: 18
+width: 69
+skip: 0
+
+# The following options are for Gvim usage.
+# vim: gvim
+# fuopt: maxhorz,maxvert
+# guioptions: egmLtT
+# guicursor: a:blinkon0-ver25-Cursor
+# guifont: Bitstream_Vera_Sans_Mono:h18
+
+---- center
+Vroom!
+
+by Ingy döt Net
+
+(hint: press the spacebar)
+
++ question: Some overweight people are not worried.
++ question: More people who are overweight are unhappy
+than people who are not overweight.
++ question: Someone who is very heavy may not be
+overweight, if they are big-boned.
++ question: Because there are people who are overweight,
+being overweight is not a simple problem solved by exercise
+and dieting.
++ question: People don't understand there is an easy solution.
++ question: Exercising is an easy solution to being overweight.
++ question: People who are overweight are worried both about
+themselves and about what other people think about them.
++ question: It is best to avoid social situations that take
+the mind off weight.
++ question: Social situations are a problem, but also a
+solution for people who are overweight.
++ question: Exercise is not a good idea if you are underweight.
+
+
+----
+== Overeaters and undereaters
+
++ 1: Young American women are more likely to start
+out undereating, than overeating.
++ 2: More men than women are affected by eating disorders.
++ 3: The causes are probably usually psychological,
+rather than biological.
++ 4: A binge is a period of overeating.
++ 5: A binge is a happy period with friends and good eating.
++ 6: Treatment of eating disorders usually involves
+eating medicine.
++ 7: Not many people recover from eating disorders.
++ 8: One form of treatment is talking to other people
+with the same problem.
