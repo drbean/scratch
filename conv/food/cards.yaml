@@ -106,3 +106,54 @@ tyson:
         \item [Being overweight] can also be result of poor eating and exercise habits that also run in families, but which are not inherited.
         \item [Exercise] just 3 times a day, for 10 minutes each, can make a difference, if you are overweight. But exercise is a good idea, even if you are underweight. Building stronger muscles can increase your weight.
         \end{description}
+      quiz:
+        - question: Some overweight people are not worried.
+          answer: True
+        - question: More people who are overweight are unhappy than people who are not overweight.
+          answer: True
+        - question: Someone who is very heavy may not be overweight, if they are big-boned.
+          answer: True
+        - question: Because there are people who are overweight, being overweight is not a simple problem solved by exercise and dieting.
+          answer: True
+        - question: People don't understand there is an easy solution.
+          answer: False
+        - question: Exercising is an easy solution to being overweight.
+          answer: False
+  jigsaw:
+    0:
+      identifier: tyson
+      A: You and your husband are big, but your daughter is bigger than both of you. All of your family and your husband's family are big. You know your daughter doesn't feel good about her size, but there is little you can do. You tell her you love her and to forget her size.
+      B: Ella asks you to help her daughter in class, but there is little you can do to stop the other kids calling her 'Fatso,' and teasing her. You don't ask her to do anything, so that attention isn't drawn to her. She is as big as an elephant.
+      C: You are self-conscious and embarrassed about your size and sensitive about what other people think. Your teacher, Ms Jones, makes you feel worse. At the hospital, a white doctor, Ray, draws everyone's attention to your size. But you accept it, move on and do well.
+      D: A black teenage girl, Johnnie comes to the hospital to get weighed. A lot of black people are big. She is as big as an elephant. You tell people to come and look at her. You realize this may hurt her feelings, but you want them to know some people are giants.
+      quiz:
+        - question: A
+          option: 
+            - Ella
+            - Johnnie
+            - Ms Jones
+            - Ray
+          answer: Ella
+        - question: B
+          option: 
+            - Ella
+            - Johnnie
+            - Ms Jones
+            - Ray
+          answer: Ms Jones
+        - question: C
+          option: 
+            - Ella
+            - Johnnie
+            - Ms Jones
+            - Ray
+          answer: Johnnie
+        - question: D
+          option: 
+            - Ella
+            - Johnnie
+            - Ms Jones
+            - Ray
+          answer: Ray
+        - question: Ella is Ray's mother
+          answer: False
