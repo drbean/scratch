@@ -1,0 +1,46 @@
+# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom::Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: Vroom!
+indent: 5
+height: 18
+width: 40
+skip: 0
+
+# The following options are for Gvim usage.
+# vim: gvim
+# fuopt: maxhorz,maxvert
+# guioptions: egmLtT
+# guicursor: a:blinkon0-ver25-Cursor
+# guifont: Bitstream_Vera_Sans_Mono:h18
+
+---- center
+Judy Allen!
+
+by Dr Bean
+
+(hint: press the spacebar)
+
+----
+== Questions
+
+
++question: The girlfriend was the only cause of disagreement between the two.
++question: Judy's husband wanted her to work, but Judy didn't want to work.
++question: Judy thought her husband worked too much, but he thought he needed to work.
++question: Judy was cold to her husband because he wouldn't spend much time with her.
++question: Both the husband and the wife caused the divorce.
++question: Judy divorced her husband.
++question: Perhaps Judy was responsible for her husband being attracted by another woman.
++question: They both wanted the divorce.
+
+
+
+----
+== The End
