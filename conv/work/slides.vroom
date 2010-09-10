@@ -1,0 +1,68 @@
+# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom::Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: Vroom!
+indent: 5
+height: 18
+width: 69
+skip: 0
+
+# The following options are for Gvim usage.
+# vim: gvim
+# fuopt: maxhorz,maxvert
+# guioptions: egmLtT
+# guicursor: a:blinkon0-ver25-Cursor
+# guifont: Bitstream_Vera_Sans_Mono:h18
+
+---- center
+Vroom!
+
+by Ingy döt Net
+
+(hint: press the spacebar)
+
+----
+== Mainland Chinese vs American shoppers
+
+
+----
+== Mainland visitors vs year-round residents
+
++ 1. The visitors and year-round residents have a lot in common.
++ 2. The visitors probably are making more money than the locals.
++ 3. The number of visitors is about 4 times the number of locals.
++ 4. Some of the residents don't speak English.
++ 5. Some famous Americans spend their summers on the island.
++ 6. President Obama spends his summer on the island.
++ 7. Obama is about the only black person on the island.
+
+
+----
+==== Australian Christmases
+
++ question: Christmas is at a different time of year 
+in Australia.
+
++ question: The weather at the Australian 
+Christmas is very different than a northern 
+hemisphere one.
+
++ question: Australian Christmas cards are the 
+same as northern hemisphere cards with snow and 
+reindeers.
+
++ question: Being Santa Claus makes you feel cool 
+in Australia.
+
++ question: There is a lot of kissing of children 
+by their aunts and uncles at Australian 
+Christmases.
+
++ question: Many Australians spend their 
+Christmases outdoors.
