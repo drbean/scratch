@@ -36,6 +36,39 @@ xmas:
           answer: True
         - question: Easter has no connection with the spring break at schools.
           answer: False
+    2:
+      identifier: Australian Xmas
+      White: |+
+        \begin{normalsize} Christmas in the northern hemisphere\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Time] Christmas is December 25, each year, in the middle of winter.
+        \item [Weather] It is cold and often cloudy. There may be lots of snow.
+        \item [Customs] Traditional Christmas cards. Santa Clauses in warm red suits and white fur trimming. Turkey dinner with other meats, Christmas pudding, cake with coins in it. Presents under the Christmas tree. Wearing paper hats at dinner. Relatives kissing each other under the mistletoe.
+        \item [Vacation] People often don't go to work for a week, but often just spend it at home, or visiting family.
+        \end{description}
+      Black: |+
+        \begin{normalsize} Christmas in the southern hemisphere\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Time] Christmas is December 25, each year, in the middle of summer.
+        \item [Weather] It is hot and sunny. The temperature is 35-40 degrees C.
+        \item [Customs] Traditional Christmas cards. Santa Clauses in warm red suits and white fur trimming. Turkey dinner with other meats, Christmas pudding, cake with coins in it. Presents under the Christmas tree. Wearing paper hats at dinner.
+        \item [Vacations] Because the weather, families go on vacations, going camping or to the beach for 3-4 days.
+        \end{description}
+      quiz:
+        - question: Christmas is at a different time of year in Australia.
+          answer: False
+        - question: The weather at the Australian Christmas is very different than a northern hemisphere one.
+          answer: True
+        - question: Australian Christmas cards are the same as northern hemisphere cards with snow and reindeers.
+          answer: True
+        - question: Being Santa Claus makes you feel cool in Australia.
+          answer: False
+        - question: There is a lot of kissing of children by their aunts and uncles at Australian Christmases.
+          answer: False
+        - question: Many Australians spend their Christmases outdoors.
+          answer: True
 breakstone:
   jigsaw:
     1:
@@ -44,3 +77,11 @@ breakstone:
       B: Your daughter comes home crying, saying Chrissie Urban told her there is no Santa Claus. You are upset that your daughter is upset. You try to find out what happened and she says she punched her in the face.
       C: One Christmas Eve, you saw Santa Claus in your living room kissing your Mom, so you believe in Santa Claus. So you punched Chrissie. Now your Mom tells you he doesn't exist. You don't know what to believe.
       D: Children believe in you, but adults don't. You live at the North Pole and at Christmas you ride a sleigh with reindeers through the sky and deliver presents to good children and a piece of coal to bad.
+desantis:
+  jigsaw:
+    0:
+      identifier: desantis 0
+      A: Your son, Joe is missing in action, in World War 2. You are afraid he is dead. It is Christmas, but as you are sad, you tell your children that you won't be having a Christmas tree this year.
+      B: You have two brothers. One of them, Joe is in the services, fighting in Germany. The other, John is not a soldier. He lives at home and works at an office in New York City. Joe is missing, you are afraid to tell your parents.
+      C: You are a soldier fighting in Germany. You get separated from your unit. Later your unit finds you. You write a Christmas letter to your mother,  Anna from hospital. You ask if your family is putting up a Christmas tree.
+      D: You bought a Christmas tree and put it under the front steps, and you tell Marie, your sister, but you don't tell your mother. You hope she will change her mind about the tree. 
