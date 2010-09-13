@@ -1,6 +1,6 @@
 package Vroom::Vroom::Link;
 
-use parent qw/Vroom::Vroom/;
+use parent qw/Vroom/;
 
 use strict;
 use warnings;
