@@ -1,0 +1,258 @@
+# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom::Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: Vroom!
+indent: 5
+height: 18
+width: 40
+skip: 0
+
+# The following options are for Gvim usage.
+# vim: gvim
+# fuopt: maxhorz,maxvert
+# guioptions: egmLtT
+# guicursor: a:blinkon0-ver25-Cursor
+# guifont: Bitstream_Vera_Sans_Mono:h18
+
+---- center
+Comprehension Competition
+
+by Dr Bean
+
+----
+== Battleships
+
+http://en.wikipedia.org/wiki/Battleship_(game)
+
+The idea
+
++ 2 people in a group competing to understand
+each other's information by asking questions
+
+----
+== Asking questions
+
+Ask Dr Bean questions!!
+
+Who is he?
+What is he doing?
+Where is he going?
+
+Think of more WH words you can use to ask
+Dr Bean questions.
+
+----
+Dr Bean: My name is X.
+
+Yes/No Question:
++ Is your name X?
+
+WH Question:
++ What is your name?
+
+----
+Dr Bean: I am from X.
+
+Yes/No Question:
++ Are you from X?
+
+WH Question:
++ Where are you from?
+
+----
+Dr Bean: I come from X.
+
+Yes/No Question:
++ Do you come from X?
+
+WH Question:
++ Where do you come from?
+
+----
+Dr Bean: I have been X years/months/weeks/days in Taiwan.
+
+Yes/No Question:
++ Have you been X years/months/weeks/days in Taiwan?
+
+WH Question:
++ How long/how many years have you been in Taiwan?
+
+----
+Dr Bean: I live in X in Miaoli.
+
+Yes/No Question:
++ Do you live in X in Miaoli?
+
+WH Question:
++ Where (in Miaoli) do you live?
+
+I come from Y in X.
+
+----
+Dr Bean: My family is in X.
+
+Yes/No Question:
++ Is your family in X?
+
+WH Question:
++ Where is your family?
+
+----
+Dr Bean: I go back to Y every X years.
+
+Yes/No Question:
++ Do you go back to Y every X years?
+
+WH Question:
++ How often do you go back to Y?
+
+----
+Dr Bean: I came to Taiwan in 200X.
+
+Yes/No Question:
++ Did you come to Taiwan in 200X?
+
+WH Question:
++ When did you come to Taiwan?
+
+----
+Dr Bean: I came to Taiwan to do X.
+
+Yes/No Question:
++ Did you come to Taiwan to do X?
+
+WH Question:
++ Why did you come to Taiwan?
+
+----
+Dr Bean: I am X cm tall.
+
+Yes/No Question:
++ Are you X cm tall?
+
+WH Question:
++ How tall are you?
+
+----
+Dr Bean: I am X years old.
+
+Yes/No Question:
++ Are you X years old?
+
+WH Question:
++ How old are you?
+
+----
+Dr Bean: I admire X.
+
+Yes/No Question:
++ Do you admire X?
+
+WH Question:
++ Who do you admire?
+
+----
+Dr Bean: X admires me.
+
+Yes/No Question:
++ Does X admire you?
+
+WH Question:
++ Who admires you?
+
+----
+Dr Bean: I might/will leave Taiwan in 200X.
+
+Yes/No Question:
++ Might/will you leave Taiwan in 200X?
+
+WH Question:
++ When will you leave Taiwan?
+
+----
+Dr Bean: I plan to stay in Taiwan for X years/until 200X.
+
+Yes/No Question:
++ Do you plan to stay in Taiwan for X years/until 200X?
+
+WH Question:
++ How long do you plan to stay in Taiwan?
+
+----
+Dr Bean: I can speak X languages.
+
+Yes/No Question:
++ Can you speak X languages?
+
+WH Question:
++ How many languages can you speak?
+
+----
+Dr Bean: I am called X.
+
+Yes/No Question:
++ Are you called X?
+
+WH Question:
++ What are you called?
+
+----
+== CompComp System
+
+In normal quiz competitions, the person who answers the question
+gets the point.
+
+In CompComp, the person who asks the question gets the point.
+	
+----
+== Rules
+
+1. In turn, White first.
+2. Wait 30 seconds.
+3. Is the question well-formed?
+4. The answerer must answer truthfully.
+5. You can't repeat your question, but you can use
+	your partner/others' questions.
+6. You can't look at partner's card.
+7. The person who asks most questions and gets most
+	questions answered is the winner.
+8. Winners get 5 points
+   Losers get 3 points.
+9. Dr Bean's bonus questions.
+10. You can't ask questions you know the answer to.
+
+----
+== The card: The top part
+
+Table: The number of your pair on the draw table.
+
+Subject: The little identifier in the top left hand
+corner of the information card.
+
+Scorers: The people helping the players decide whether
+the question is well-formed and whether there is an
+answer.
+
+----
+== The card: The bottom part
+
+For each turn, 1-30, White and then Black ask their questions.
+
+Form:	0 if there is no question.
+	1 if there is a question, but it is not
+		grammatically well-formed, eg
+		'Where are you come from?'
+	2 if the question is well-formed.
+
+Answer: 0 if the opponent does not know the answer, and
+		so cannot tell the questioner.
+	1 if the opponent DOES know the answer, and
+		so CAN tell the questioner.
+----
+== The End
