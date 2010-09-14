@@ -39,6 +39,23 @@ topic:
           Listen to <a href=http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/jackson.mp3>the rest</a> of <a href=http://www.storycorps.org/listen/stories/charles-jackson>Charles Jackson</a>'s story about his mother's and his <a href=http://en.wikipedia.org/wiki/Alzheimer's_disease>Alzheimer's disease</a>.
         comment: Alzheimer's disease is a hereditary condition. Charles' mother's family all had the problem. Now Charles has it too. Is his family coping with it better now than it did with his mother's Alzheimer's?
   -
+    id: ceremonies
+    title: Cultural events
+    intro: What are some events where people get together and celebrate something? Christmas is one. In the West, <a href="http://en.wikipedia.org/wiki/Christmas">Christmas</a> is a family event, especially significant for children because it's the one occasion in the year when they get new toys. Some families intentionally mislead children, having them believe Santa Claus really exists. Putting presents under a decorated <a href="http://en.wikipedia.org/wiki/Christmas_tree">Christmas tree</a> and opening them on Christmas morning is an important part of Christmas.
+    story:
+      -
+        id: breakstone
+        title: Christmas, Sant Claus and Christmas trees
+        blurb: |
+          Listen to Mary Breakstone describe <a href="http://storycorps.org/listen/stories/mary-and-bob-breakstone">Christmas as the child sees it</a>. Christmas corresponds to <a href="http://en.wikipedia.org/wiki/Chinese_New_Year">Chinese New Year</a>, I think.
+        comment: No comment.
+      -
+        id: desantis
+        title: Christmas in wartime
+        blurb: |
+          During war, eg <a href="http://en.wikipedia.org/wiki/World_War_II>World War II"</a>, Christmas goes, or <a href="http://www.npr.org/templates/story/story.php?storyId=6660388">went,</a> on.
+        comment: Or download the file <a href="http://storycorps.org/wordpress/wp-content/uploads/listen/audio/desantis.mp3">here</a>.
+  -
     id: activities
     title: People having fun
     intro: What are some fun things to do? What about going outside and doing something? Or do you prefer to stay inside?
@@ -69,6 +86,45 @@ topic:
         blurb: |
           The <a href=http://www.naacp.org>NAACP</a> is an American civil rights organization protecting the rights of black people in the US. <a href=http://www.thehistorymakers.com/biography/biography.asp?bioindex=1135>Mildred Bond Roxborough</a>, an executive member tells of being <a href=http://www.npr.org/templates/story/story.php?storyId=112075660>Caught in the Bath</a>. You can also <a href=http://storycorps.org/listen/stories/mildred-bond-roxborough-and-maxim-thorne>download</a> the MP3 file.
         comment: What would you do if you were caught in the bath?
+      -
+        id: lerman
+        title: Competitive eating
+        blurb: |
+          <a href=http://www.ifoce.com/rankings.php?action=detail&sn=13>Don Lerman</a>, with his <a href=http://donmoseslerman.com>web page</a>, was a competitor in <a href=http://www.ifoce.com>eating contests</a>. Listen to him talk about <a href=http://www.npr.org/templates/story/story.php?storyId=4677856>why he did it</a>. Read/listen to <a href=http://www.slate.com/id/2117577>an account of an eating competition</a>.
+        comment: I like to eat, but I can't understand why people would want to try and eat more than other people and to eat so much that it hurts and you want to vomit. I think it is not good for their bodies. What do you think?
+      -
+        id: tyson
+        title: Being heavy
+        blurb: |
+          Listen to <a href=http://www.npr.org/templates/story/story.php?storyId=6913145>Johnnie Tyson, a big woman</a> describe how being heavy made her feel bad, but also how she overcome bad feelings. You can also <a href=" http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/tyson.mp3">download the file</a>.
+        comment: A <a href=http://storycorps.org/blog/west-mobilebooth/little-rock-ar/weighty-matters/>picture</a>. She apparently had surgery to cut down on her weight. But her size was determined from birth.
+  -
+    id: katrina
+    title: Hurrican Katrina
+    intro: The hurricane lasted August 23-30, 2005. It was one of the five deadliest in US history, the sixth strongest in recorded Atlantic hurricanes, and the costliest ($85 billion) in US history. 1,836 people were confirmed dead. Most severe loss of life occurred in New Orleans, where the levee system failed, and 80 percent of the city was flooded. However worst property damage occurred in Mississippi gulf towns where flood waters reached 10-20 kilometers from the beach. Listen to the <a href="http://www.npr.org/templates/story/story.php?storyId=5704652">Stories from Katrina survivors</a>.
+    story:
+      -
+        id: duplantier
+        title: Hurricane Katrina
+        blurb: |
+          <a href="http://www.google.com/search?hl=en&source=hp&ie=ISO-8859-1&q=hurricane+katrina&btnG=Google+Search">Hurricane Katrina</a> <a href="http://www.npr.org/templates/story/story.php?storyId=5704652#commentBlock">stories</a>. Listen to the second story by David Duplantier and Melissa Eugene. Or download the <a href="http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/duplantier.mp3">file</a>.
+        comment: All letters of the words in the web page are blank, except for the first and the last one. Try answering the question, to get full score. Or fill in all the missing letters. Email me if you want to know what a word is.
+      -
+        id: desilvey
+        title: Douglas DeSilvey's story
+        blurb: |
+          DeSilvey lives in <a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Biloxi,+MS,+United+States&sll=37.0625,-95.677068&sspn=38.911557,75.498047&ie=UTF8&hq=&hnear=Biloxi,+Harrison,+Mississippi&ll=30.39183,-88.879395&spn=5.30568,9.437256&t=h&z=7">Biloxi, MS</a>, one of the areas where there was most property damage. He was actually separated or divorced from his wife. <a href=http://www.gulflive.com/mississippipress/pdf/090805.pdf>Details of what happened</a>, and <a href=http://www.seata.org/memorial.htm>his daughter who died</a>. Students from the North came to help him reroof his house. <a href="http://www.news-banner.com/index/news-app/story.4197/menu./sec./home."> He traveled North to their graduation, in thanks</a>.
+        comment: All letters except the last one of each word are blanked this time. Again, you can answer the question to get full score.
+  -
+    id: crashes
+    title: Airplane crashes
+    intro: Some airlines have better safety records. People say, <a href="http://www.youtube.com/watch?v=KeYf-rhMQIQ&feature=PlayList&p=E789C6C4AA1C087E&playnext_from=PL&playnext=1&index=16">Qantas never crashed,</a> but it has had crashes. Every airline has had crashes, eg <a href="http://en.wikipedia.org/wiki/United_Airlines_Flight_232">United Airlines Flight 232</a>, or <a href="http://en.wikipedia.org/wiki/China_Airlines_Flight_611">China Airlines Flight 611</a>.
+    story:
+      -
+        id: conant
+        title: United Airlines Flight 232
+        blurb: |
+          <a href="http://www.lifewisecoach.com/about.html">Martha Conant</a> talks about <a href="http://www.npr.org/templates/story/story.php?storyId=18007783">surviving the United Airlines Flight 232 crash</a>. After, she realized she needed to live a life of no regrets, one where she recognized that the people around her wonderful, and one where she felt thankful for being alive.
   -
     id: work
     title: People at work
@@ -141,6 +197,16 @@ topic:
         title: Drexel barber shop
         blurb: <a href="http://www.npr.org/templates/story/story.php?storyId=106946912">Lawrence Anthony and David Shirley</a> have worked in barber shops for more than 40 years and are still going strong. Their town, Drexel, however. has seen better days.
         comment: See the transcript linked from the above page. And read the <a href="http://www.storycorps.org/blog/east-mobilebooth/asheville-nc/shave-and-a-haircut-two-bits/">Storycorps blog story</a>.
+      -
+        id: schifrin
+        title: Wedding ring stories
+        blurb: <a href="http://www.unusualweddingrings.com/">Bill Schifrin</a> has <a href="http://www.npr.org/templates/story/story.php?storyId=100655882">4 stories</a> to tell about selling wedding rings. One about couples kissing in the street, one about men returning wedding rings, one about a woman asking for 'No refunds, no returns' to be engraved in a ring, and one about the ring he gave his fiance on marriage. Which is your story?
+        comment: Read about the <a href=http://mrbellersneighborhood.com/2006/01/my-first-kreplach">NY jewelry district</a>.
+      -
+        id: cronig
+        title: Martha Vineyard store story
+        blurb: <a href="http://www.npr.org/templates/story/story.php?storyId=12471418">Robbie Cronig</a> (born 1918) on <a href=http://www.cronigsmarket.com/>Cronig's Market</a>, and <a href=http://history.vineyard.net/mainst/seven/33/index.html>the history of his family's store</a>. Or <a href=http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/cronig.mp3>download it</a>
+        comment: His family were <a href=http://www.jewishvirtuallibrary.org/jsource/vjw/vineyard.html>Jewish immigrants</a>. <a href=http://www.manta.com/c/mmgx7mt/cronig-s-markets>Cronig's Market</a> is now owned by Steve Bernier. But times are <a href=http://www.mvgazette.com/article.php?17552>tough<a/> on <a href=http://en.wikipedia.org/wiki/Martha's_Vineyard>Martha's Vineyard</a>.
 
   -
     id: relations
