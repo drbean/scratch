@@ -328,3 +328,38 @@ topic:
         blurb: The listening passage is Track 19.wav on the CD in the Market Leader textbook. Contact me if you can't find the track. Listen to Olivier and Todd discuss the issues.
         comment: |+
           Do you understand what is happening? What do you think about it? What should Charles, the owner of the company do? Who is at fault? Charles? Jacques, Olivier, or Todd?
+      -
+        id: responsibility
+        title: A different story about Olivier, Todd, Jacques, and Charles
+        blurb: I wrote a different story about European Campers. Olivier is not the cause of the conflict. Some other person, Todd, Jacques, or Charles is the problem. In fact I wrote two different stories and mixed them up. Can you sort out the two different stories?
+        comment: A and B and C and D each have half of one of the stories. In one half there is information about Charles and Jacques. In the other half there is information about Olivier and Todd. Which half goes with which half? Who is the problem in each of the two different stories? Find out which of the four soundfiles, <a href=http://web.nuu.edu.tw/~greg/business/responsibilityA.mp3>I</a>, <a href=http://web.nuu.edu.tw/~greg/business/responsibilityB.mp3>II</a>, <a href=http://web.nuu.edu.tw/~greg/business/responsibilityC.mp3>III</a>, <a href=http://web.nuu.edu.tw/~greg/business/responsibilityD.mp3>IV</a>, you need to listen to. Talk to the other people in your group.
+      -
+        id: todd
+        title: Todd is the bad one
+        blurb: In this story about European Campers. Todd is the cause of conflict. Next week, in the exam, you will have to find out who is the cause of conflict. It will be either this story, or the 2 stories we did last week, where Jacques, and Charles was the problem. Last week I wrote two different stories and mixed them up. This week there is only one story, the jigsaw story we did in class. In the exam next week, there will be one of these 3 stories about Charles, Jacques or Todd.
+        comment: Find your sound file from the following files. Are you Olivier, Charles, Todd or Jacques. Are you the cause of the confict? Who is the cause of the conflict? Talk to the other people in your group. The four soundfiles: <a href=http://web.nuu.edu.tw/~greg/business/toddA.mp3>I</a>, <a href=http://web.nuu.edu.tw/~greg/business/toddB.mp3>II</a>, <a href=http://web.nuu.edu.tw/~greg/business/toddC.mp3>III</a>, <a href=http://web.nuu.edu.tw/~greg/business/toddD.mp3>IV</a>. <br> Last week's sound files about Charles and Jacques were: <a href=http://web.nuu.edu.tw/~greg/business/responsibilityA.mp3>I (where Charles is causing the problem)</a>, <a href=http://web.nuu.edu.tw/~greg/business/responsibilityB.mp3>II (where Charles is causing the problem)</a>, <a href=http://web.nuu.edu.tw/~greg/business/responsibilityC.mp3>III (where Jacques is causing the problem)</a>, <a href=http://web.nuu.edu.tw/~greg/business/responsibilityD.mp3>IV (where Jacques is causing the problem)</a>, you need to listen to. Talk to the other people in your group.
+  -
+    id: newbusiness
+    title: The problems of new businesses
+    intro: What determines whether a new business is going to succeed or not? What do you need to do if you are starting a new business?
+    story:
+      -
+        id: new
+        title: Taylor-Rose on the financing of new businesses
+        blurb: A <a href="http://uk.linkedin.com/in/anthonytaylorrose">banker</a> <a href="http://businesslink.edgeboss.net/download/businesslink/nat_podcasts/03_businesslink_bpaf.mp3">talks</a> to a British <a href=http://www.businesslink.gov.uk>small business support service</a> about the financing of business start8-ups.
+        comment: <a href="http://www.businesslink.gov.uk/bdotg/action/detail?type=CAMPAIGN&itemId=1081008683#content">Read more</a>
+      -
+        id: team
+        title: The team at Cooliris
+        blurb: A <a href="http://www.cooliris.com">Cooliris</a> is a start-up doing "cool" things with web browser plugins, like showing pages when you move your mouse over a link. The founding team <a href=http://ecorner.stanford.edu/authorMaterialInfo.html?mid=2107>talks</a> with Tina Seelig from Stanford University's <a href=http://ecorner.stanford.edu>Entrepreneurship Corner</a> The Entrepreneurship Corner is a collection of web resources on entrepreneurship and is set up by Stanford's <a href=http://stvp.stanford.edu>Stanford Technology Ventures Project</a>, a Stanford program to help engineering graduates start up their own companies.
+        comment: Or <a href="http://www.stanford.edu/group/edcorner/uploads/podcast/bhumkar090121.mp3">download the file</a>. The Indian CEO, Soujanya Bhumkar, speaks perfect English, but he will be very difficult for you to understand.
+      -
+        id: huang
+        title: Jensen Huang's vision or perspective
+        blurb: <a href="http://en.wikipedia.org/wiki/Jen-Hsun_Huang">Jensen Huang</a> is the Taiwan-born founder of <a href="http://en.wikipedia.org/wiki/NVIDIA">NVIDIA</a>, the first manufacturer of video cards for games software, and now the biggest producer of video cards. Listen to the start of a <a href=http://ecorner.stanford.edu/authorMaterialInfo.html?mid=2212>lecture</a> at Stanford University's <a href=http://ecorner.stanford.edu>Entrepreneurship Corner</a> The Entrepreneurship Corner is a collection of web resources on entrepreneurship and is set up by Stanford's <a href=http://stvp.stanford.edu>Stanford Technology Ventures Project</a>, a Stanford program to help engineering graduates start up their own companies.
+        comment: Or <a href="http://www.stanford.edu/group/edcorner/uploads/podcast/huang090408.mp3">download the file</a>. Huang speaks standard American English and is a lot easier to understand than the Indian CEO, of Cooliris. So, this week the dictation is more difficult. For each word in the dictation, only the last letter is given. Again, either answer the question or fill in the letters.
+      -
+        id: vision
+        title: Jensen Huang at Stanford
+        blurb: Listen to more of the <a href=http://ecorner.stanford.edu/authorMaterialInfo.html?mid=2212>lecture</a> by <a href="http://en.wikipedia.org/wiki/Jen-Hsun_Huang">Jensen Huang</a>. He talks about his vision (really, only a perspective, or point of view), and how older people were surprised by the success of the cheap graphics cards market.
+        comment: Or <a href="http://www.stanford.edu/group/edcorner/uploads/podcast/huang090408.mp3">download the file</a>. Some vocabulary: 1. A <a href=http://en.wikipedia.org/wiki/Killer_application>killer app</a> is something which makes you buy the system on which it runs, because you want that thing so badly. A very desirable computer program. 2. <a href=http://en.wikipedia.org/wiki/Sand_Hill_Road>Sand Hill Road</a> is an area near <a href=http://maps.google.com.tw/maps?f=q&source=s_q&hl=en&geocode=&q=Stanford+University,+Stanford,+CA,+United+States&vps=1&sll=24.271496,120.626149&sspn=0.021908,0.036864&brcurrent=h3,0x3469ae5edf253d4d:0xa2a6edebfd4ffa,,0x3468548a0b5ad393:0xcca86fee4f60881b&ie=UTF8&hq=&hnear=Stanford,+Santa+Clara,+California,+United+States>Stanford University</a> where many <a href="http://en.wikipedia.org/wiki/Venture_Capitalists">venture capitalists</a> have their offices.
