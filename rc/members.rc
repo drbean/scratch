@@ -8,43 +8,8 @@ use Cwd;
 
 $_REPL->load_plugin('DumpHistory');
 
-# (my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
-# use Grades;
-# my $l = League->new( leagues => '/home/drbean/class', id => $dir );
-# my $g = Grades->new({ league => $l });
-# my %m = map { $_->{id} => $_ } @{ $l->members };
-
-# my $io;
-# $io = io '../admin/991/991MIA0014.txt';
-# my @r = $io->slurp;
-# my @m = map { { id => $_->[0], Chinese => $_->[1], name => undef, password => undef, rating => 500 } } map { [ split /\s/, $_] } @r;
-
 my $io = io 'members.txt';
 my @m = $io->slurp;
 chomp for @m;
-$_ = substr( $_, 3 ) for @m;
-my $n = $#m / 5;
-my @mm = map { {name =>  $m[5*$_+1], Chinese =>  $m[5*$_+1], id => $m[5*$_], password => undef, rating => 500} } 0..$n;
-
-my %o;
-#for my $league ( reverse qw/982FLA0018 982FLA0027 982FLA0031 981FL0016 981FL0027 981FL0030/ ) {
-#	my $ol = LoadFile "../records/$league/league.yaml";
-#	my $o = $ol->{member};
-#	$o{$_->{id}} = $_ for @$o;
-#}
-
-for my $league ( reverse qw/FLA0014/ ) {
-	my $ol = LoadFile "../$league/league.yaml";
-	my $o = $ol->{member};
-	$o{$_->{id}} = $_ for @$o;
-}
-
-# my $ol = LoadFile "../FLA0030/league.yaml";
-# my $o = $ol->{member};
-# $o{$_->{id}} = $_ for @$o;
-
-# my $ratings = LoadFile "../FLA0030/ratings.yaml";
-
-# my @mm = values %m;
-# my @mmm = map { { name => $o{$_->{id}}->{name} || $_->{name}, Chinese => $_->{Chinese}, id => $_->{id}, password => $o{$_->{id}}->{password}, rating => $ratings->{$_->{id}} || $o{$_->{id}}->{rating} || $_->{rating} } } @mm;
-my @mmm = map { { name => $o{$_->{id}}->{name} || $_->{name}, Chinese => $_->{Chinese}, id => $_->{id}, password => $o{$_->{id}}->{password}, rating => $o{$_->{id}}->{rating} || $_->{rating} } } @mm;
+$_ = [ split ] for @m;
+my @mm = map { {name =>  $_->[1], Chinese =>  $_->[1], id => $_->[0], password => undef, rating => $_->[-1]} } @m;
