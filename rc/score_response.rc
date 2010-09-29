@@ -21,6 +21,5 @@ my %s = map {
 	my $table = $_; my $r = $rs->{$table}; $table =>
 		{ map { my $p = $r->{$_}; $_ => sum ( values %$p ) } keys %$r }
 			} keys %$rs;
-\%s
 
 # DumpFile 'comp/1/scores.yaml', \%s
