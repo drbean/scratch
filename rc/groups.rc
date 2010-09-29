@@ -19,7 +19,7 @@ my %m = map { $_->{id} => $_ } @{ $l->members };
 my $gs = LoadFile 'classwork/1/groups.yaml';
 my @colors = sort keys %$gs;
 my ( %g, @t, $m );
-push @t, [ $_, $m{$_}->{name} ] for sort keys %m;
+push @t, [ $_, $m{$_}->{Chinese} ] for sort keys %m;
 my $fourth = ceil @t/4;
 my $rumpPlayers = @t % 4;
 my $rumpGroups = $rumpPlayers == 0?	0: 4 - $rumpPlayers;
