@@ -14,6 +14,13 @@ has 'area' => (
     required => 1,
     cmd_aliases => 'a',
 );
+has 'id' => (
+    traits      => ['Getopt'],
+    is          => 'ro',
+    isa         => 'Str',
+    required => 0,
+    cmd_aliases => 'i',
+);
 has 'location' => (
     traits      => ['Getopt'],
     is          => 'ro',
