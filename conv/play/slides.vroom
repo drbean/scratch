@@ -23,9 +23,7 @@ skip: 0
 ---- center
 Connell!
 
-by Ingy döt Net
-
-(hint: press the spacebar)
+by Dr Bean
 
 ----
 == Fours Questions
@@ -53,37 +51,6 @@ by Ingy döt Net
 + question: You can do bungee jumping in the scouts.
 + question: There are a lot of things scouts can earn badges in.
 
-
-* Write a file called 'slides.vroom'.
-  * Do this in a new directory.
-* Run 'vroom --vroom'.
-* Voilà!
-
-----
-== Navigation
-
-* Hit <SPACE> to move forward.
-* Hit <BACKSPACE> to go backwards.
-* Hit 'Q' to quit.
-
----- perl,i4
-# This is some Perl code.
-# Notice the syntax highlighting.
-# Run it with the <RR> vim command.
-for my $word (qw(Vroom totally rocks!)) {
-    print "$word\n";
-}
-
-----
-== Get Vroom!
-
-* http://search.cpan.org/dist/Vroom/
-* http://github.com/ingydotnet/vroom-pm/
-
-----
-== Vroom as HTML
-
-* http://ingydotnet.github.com/vroom-pm/
 
 ----
 == The End
