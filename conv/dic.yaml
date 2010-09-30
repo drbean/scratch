@@ -1204,6 +1204,51 @@
     So it was quite interesting walking off of the airplane, coming down the stairs and receiving applause from thousands of people from Kansas City that I, I had no idea who they were, but it was kind of nice that they were at our wedding.
   - Kansas|KCI|TWA
 
+-
+  - ward
+  - The Divorce Ranch
+  - upper
+  - A
+  - |+
+    Robbie: Most of the guests came from New York, New Jersey. At the end of their six weeks, Mother would go to court with them and testify that they had been a resident at the ranch and she had seen them every day.
+    Beth: Many of them said, 'Well, you can just testify that I was here the last two weeks. But she'd say, 'Oh no. Oh no.'
+    Robbie: Mother liked to have things nice and smooth. And no fussing and fuming.
+  - Robbie|Beth|testify|resident|fuming
+-
+  - ward
+  - The Divorce Ranch
+  - upper
+  - B
+  - |+
+    Beth: One guest cried for six weeks. Any time a man would walk, oh, heh, heh, it reminded her of Joe! And we finally saw Joe. And I don't know where the tears came from. Because he was no prize package, I can tell you that.
+
+    But as a whole, most of the people who came there, they wanted a divorce, so it wasn't an unhappy time for them. They just thought it was great that there was some place they could come to get one.
+  - Robbie|Beth|fuming
+-
+  - ward
+  - The Divorce Ranch
+  - upper
+  - C
+  - |+
+    Beth: They just thought it was great that there was some place they could come to get one.
+
+    Robbie: An awful lot of them had plans for after their six weeks. When they checked in, they'd say, 'My cousin will be with us.
+
+    Beth: They had somebody in the other room, waiting to walk down the aisle with. And six weeks later, of course, they were married.
+
+    Robbie: Listening to stories from the guests, I think we probably thought many times, I sure won't make that mistake!
+  - Robbie|Beth|fuming
+-
+  - ward
+  - The Divorce Ranch
+  - upper
+  - D
+  - |+
+
+    Robbie: Listening to stories from the guests, I think we probably thought many times, I sure won't make that mistake!
+    Beth: Robbie had a good marriage with her husband. And I'd been married and divorced and then remarried. The man I remarried, his wife had been there for a divorce. He came over and asked me out for dinner. And next thing I knew, I was married. So, it was the greatest move that I think we ever made.
+  - Robbie|Beth|fuming
+
 ---
 -
   - genre
@@ -2653,4 +2698,60 @@
   - 8
   - D
   - Receiving the news of her wedding, thousands of people had come to her house, so they flew away in a plane.
+  - False
+-
+  - upper
+  - ward
+  - 1
+  - A
+  - Their mother would say to the court that the guests had been with her for six weeks.
+  - True
+-
+  - upper
+  - ward
+  - 2
+  - A
+  - Their mother would say the guests had been with her for six weeks, but they had been at the ranch for just two weeks.
+  - False
+-
+  - upper
+  - ward
+  - 3
+  - B
+  - One guest fussed and fumed for six weeks, because of her divorce, but her Joe wasn't a nice or smooth man.
+  - True
+-
+  - upper
+  - ward
+  - 4
+  - B
+  - Joe reminded people that there were no prizes in a package divorce, if you were unhappy and if you thought they were great.
+  - False
+-
+  - upper
+  - ward
+  - 5
+  - C
+  - Some guests made awful mistakes when they walked down the aisle. Many married again after.
+  - True
+-
+  - upper
+  - ward
+  - 6
+  - C
+  - They listened to their guests and thought they were awful, but their mistakes were great.
+  - False
+-
+  - upper
+  - ward
+  - 7
+  - D
+  - The man she married had been divorced. She knew his wife before she married him. She was his next wife.
+  - True
+-
+  - upper
+  - ward
+  - 8
+  - D
+  - She thinks her move to divorce her husband and marry a divorcee was a great mistake.
   - False
