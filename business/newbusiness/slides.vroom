@@ -1,0 +1,160 @@
+"# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom::Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: New business and innovation!
+indent: 5
+height: 18
+width: 50
+skip: 0
+
+# The following options are for Gvim usage.
+# vim: gvim
+# fuopt: maxhorz,maxvert
+# guioptions: egmLtT
+# guicursor: a:blinkon0-ver25-Cursor
+# guifont: Bitstream_Vera_Sans_Mono:h18
+
+----
+== NVIDIA
+
++ 1: Investors didn't see a market opportunity for NVIDIA at start-up.
++ 2: From Huang's perspective, it also wasn't easy to see a market.
++ 3: NVIDIA had no competitors when it started out.
++ 4: HP and Dell could see a market opportunity for the expensive NVIDIA cards.
++ 5: It was easy for Huang to forget what the market was telling him about the NVIDIA cards.
++ 6: NVIDIA's opportunity was because of a  new need rather than improved solution
+
+----
+== new businesses
+
++ 1: Good cashflow management is a requirement.
++ 2: Don't ask questions. Other people can do that for you.
++ 3: An effective team needs experience in 3 areas.
++ 4: You need to know a lot about buyers and what they think.
++ 5: You don't need to spend lots of time and money if your product is innovative.
++ 6: You need to know a lot about one thing, but not a lot about many things.
++ 7: Building the right team is a "silver bullet." or magic formula.
++ 8: You need to be friends with people who are quite different than you.
++ 9: You need to be able to put different ideas together and see a relationship.
+
+----
+Google's innovation
+
+Brin and Page developed the PageRank algorithm.
+that converted the backlink data they gathered into 
+a measure of importance for a given web page. 
+
+Their innovation was the idea that a search 
+engine based on PageRank would produce better 
+results than existing techniques (existing search 
+engines at the time essentially ranked results 
+according to how many times the search term 
+appeared on a page).
+
+----
+== Jobs and innovation
+
+
++ 1: Everyone could be innovative as Apple
+with the cell phone if they could pull different ideas together.
++ 2: Jobs was involved with staff in Apple's cell phone innovation.
++ 3: The environment that encourages innovation at Apple is not
+really helpful for innovators.
++ 4: Jobs thinks hard work is part of the answer to managing innovation.
++ 5: Apple has solved the problem of managing innovation with
+its work processes.
++ 6: Apple doesn't encourage networking by staff.
+
+----
+== Huang: Cultivating next-generation leaders
+
++ 1. a) innovation b) the team c) market opportunity d) financial strategy
++ 2. The main idea is that the CEO needs to pick a few good managers and
+train them.
++ 3. The lesson for Dr Bean: Get together with workers and talk with them,
+get them to think of new directions the company can go.
+
+----
+== Huang: The challenge of constant rebuilding
+
++ 1. a) innovation b) the team c) market opportunity d) financial strategy
++ 2. The main idea is that the company may have to give up a technology
+it has already developed and invent a new technology based on the old one.
++ 3. The lesson for Dr Bean: Stick with the CompComp activity and Dictation
+Exercises, because they work.
+
+----
+== Huang: The first 6 months of NVIDIA
+
++ 1. a) innovation b) the team c) market opportunity d) financial strategy
+e) none of the above
++ 2. The main idea is that setting up a company is complicated, but having
+great people makes it easier.
++ 3. The lesson for Dr Bean: Find contacts in the financial industry, or
+peole who have money and who respect his ability as a teacher and get
+money from them. Develop a great team who believe in him and who 
+have good contacts in the financial industry.
+
+----
+== Huang: Comfort in ambiguity
+
++ 1. a) innovation b) the team c) market opportunity d) financial strategy
+e) none of the above
++ 2. The main idea is that CEOs need to constantly be thinking about
+the future, but not be worried if they don't know what's going to happen.
++ 3. The lesson for Dr Bean: Don't worry, be happy. But constantly be
+thinking about where the school is going.
+
+
+----
+== Huang: Setting prices, evaluating opportunities
+
++ 1. a) innovation b) the team c) market opportunity d) financial strategy
+e) none of the above
++ 2. The main idea is that the CEO needs to allocate scarce resources where
+the economics are best and the costs (opportunity costs) are least.
++ 3. The lesson for Dr Bean: See what the competitors do, and if they 
+are reducing prices and setting up new courses, eg Business English,
+do the same thing.
+
+----
+== Huang: Trump Yourself--Or the competition will
+
++ 1. a) innovation b) the team c) market opportunity d) financial strategy
+e) none of the above
++ 2. The main idea is that in high-tech industries if you're not 
+reinventing yourself you're dying quite quickly.
++ 3. The lesson for Dr Bean: Keep changing the company. Even if a new kind
+of course is starting to become popular, immediately change it.
+
+----
+== Huang: Building a company culture
+
++ 1. a) innovation b) the team c) market opportunity d) financial strategy
+e) none of the above
++ 2. The main idea is that building the company requires skill and training,
+but passion is perhaps more important because it can be frightening.
++ 3. The lesson for Dr Bean: Let someone else take responsibility for 
+organization, so he can concentrate on relationships with students.
+
+----
+== Huang and Dr Bean
+
++ 1: It's hard to understand why Huang is successful but Dr Bean isn't.
++ 2: Dr Bean doesn' have a technology to teach.
++ 3: Huang was able to see a new market opportunity, but Dr Bean can't.
++ 4: People thought the NVIDIA graphics cards were expensive, but they bought them anyway.
++ 5: Huang was more innovative than Dr Bean.
++ 6: Investors gave Huang money because he gave them a good feeling.
++ 7: Dr Bean looks forward to asking people for money.
+
+
+
+----
+== The End
