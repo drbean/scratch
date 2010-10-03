@@ -79,44 +79,18 @@ allen:
       quiz:
         - question: A
           option:
-            - Doug
-            - Ms Ma
-            - Mort
-            - Dred
-          answer: Dred
+          answer: ~
         - question: B
           option:
-            - Doug
-            - Ms Ma
-            - Mort
-            - Dred
-          answer: Doug
+          answer: ~
         - question: C
           option:
-            - Doug
-            - Ms Ma
-            - Mort
-            - Dred
-          answer: Ms Ma
+          answer: ~
         - question: D
           option:
-            - Doug
-            - Ms Ma
-            - Mort
-            - Dred
-          answer: Mort
-        - question: Mort was a student.
-          answer  : False
-        - question: Doug is a funeral director.
-          answer  : False
-        - question: Ms Ma is Doug's mother.
-          answer  : False
-        - question: Doug is digging a grave for Dred.
-          answer  : True
-        - question: Mort is preparing a funeral for Ms Ma.
-          answer  : True
-        - question: Doug thinks Dred's case is sad.
-          answer  : True
+          answer: ~
+        - question: ~
+          answer  : ~
     2:
       identifier: judy allen 2
       A: You and your husband, Rex, got divorced. He had a girlfriend. You went to her house and threw a big rock through his car window.
@@ -164,3 +138,24 @@ allen:
           answer  : True
         - question: Rex kept the rock.
           answer  : True
+ward:
+  jigsaw:
+    0:
+      identifier: ward 0
+      A: You were getting a divorce from your husband, because you were incompatible. T H Ranch helped people get divorced, so you stayed there. You met Beth, whose family ran the ranch, but who also socialized with the women who had come to get divorced.
+      B: Your sister said that she would never marry anyone who had been married to anyone else. She had heard too many stories from the women who had come to the ranch. But she married Brad, the husband of one of the women who she had socialized with.
+      C: You came to Reno to try to persuade Rhonda, your wife not to divorce you. She wouldn't listen to you. On the rebound, a beautiful woman at your wife's ranch knocked you off your feet. She was divorced, like you would be soon. You proposed to her and she accepted. 
+      D: You tried to explain to Robbie why you decided to marry Brad, He was handsome. He came from a respected family. He had money and a good job. He seemed like a nice guy. His wife, Rhonda apparently had restarted a relationship with an old flame. You felt sorry for her.
+      quiz:
+        - question: A
+          option:
+            - Beth
+            - Brad
+            - Rhonda
+            - Robbie
+          answer: Rhonda
+  comp:
+    0:
+      identifier: ward 0
+      White: |+
+      Black: |+
