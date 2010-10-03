@@ -1,0 +1,112 @@
+# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom::Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: Vroom!
+indent: 5
+height: 18
+width: 50
+skip: 0
+
+# The following options are for Gvim usage.
+# vim: gvim
+# fuopt: maxhorz,maxvert
+# guioptions: egmLtT
+# guicursor: a:blinkon0-ver25-Cursor
+# guifont: Bitstream_Vera_Sans_Mono:h18
+
+---- center
+Marketing Mix--Product, Price, Place, Promotion
+
+by Dr Bean
+
+(hint: press the spacebar)
+
+----
+== Questions about Product
+
++* question: Uniqlo is continually developing new styles.
++* question: Uniqlo develops new styles for the spring and fall seasons.
++* question: Uniqlo designs new clothes and sees if customers like them, but also tries to foresee what clothes will be popular.
+
+----
+== Questions about Price
+
++* question: The price of Uniqlo clothes is completely determined by what it costs to make them.
++* question: Uniqlo is a low-priced brand.
+
+----
+== Questions about Place
+
++* question: Uniqlo clothes can be bought anywhere.
++* question: Uniqlo thinks that the clothes-buying experience helps to sell its clothes.
+
+----
+== Questions about Promotion
+
++* question: Uniqlo has sports stars wear its clothes.
++* question: Uniqlo promotion is designed to keep Uniqlo clothes in the public's mind.
+
+----
+== Products you bought recently
+
+	* Why?
+	* Which of the 4 P's was a factor?
+	* Was it a combination of factors?
+
+----
+== A marketing campaign that impressed you
+
+	* Google's release of gmail accounts
+		* someone had to sponsor you
+		* you could only sponsor 7-8 other people
+
+----
+== Typical consumer profiles 
+	
+	* Car: BMW
+	* Newspaper/Magazine:
+	* Watch/jewelry:
+	* Clothing/shoe:
+
+	Age?
+	Sex?
+	Job?
+	Income level?
+	Other products the consumer might buy?
+
+	"The typical BMW owner drinks ... "
+	"People who wear Adidas often wear Nike shoes."
+
+----
+== Taiwan advertising campaign
+
+	* How else would you increase sales for above brands?
+
+----
+== Dr Bean buying behavior
+	
+	* Talking with your opponent, you have to decide whether Dr Bean
+	and the merchant do a deal or not, 
++	WITHOUT helping your opponent decide whether they do a deal or not.
+
++	Also you have to think of the 4 P's. Which of the 4 P's of the
+	merchant are factors in DrBean's decision.
+	and the merchant.
+
+----
+== Dr Bean buys fruit
+
++      - question: The product is okay.
++      - question: The price is right.
++      - question: The place is right.
++      - question: The promotion is satisfactory.
++      - question: A sale is made.
+
+----
+== The End
