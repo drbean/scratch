@@ -330,28 +330,28 @@ drbean:
           - interactive
           - social
           - Kendall
-        answer: Kendall
+        answer: social
       - question: B
         option:
           - clear
           - interactive
           - social
           - Kendall
-        answer: clear
+        answer: Kendall
       - question: C
         option:
           - clear
           - interactive
           - social
           - Kendall
-        answer: interactive
+        answer: clear
       - question: D
         option:
           - clear
           - interactive
           - social
           - Kendall
-        answer: social
+        answer: interactive
       - question: Which of the 4 is the problem?
         option:
           - clear
@@ -381,35 +381,35 @@ drbean:
           - interactive
           - social
           - Kendall
-        answer: Kendall
+        answer: interactive
       - question: B
         option:
           - clear
           - interactive
           - social
           - Kendall
-        answer: clear
+        answer: social
       - question: C
         option:
           - clear
           - interactive
           - social
           - Kendall
-        answer: interactive
+        answer: Kendall
       - question: D
         option:
           - clear
           - interactive
           - social
           - Kendall
-        answer: social
+        answer: clear
       - question: Which of the 4 is the problem?
         option:
           - clear
           - interactive
           - social
           - Kendall
-        answer: interactive
+        answer: clear
   6:
     identifier: 6
     A: |
@@ -432,35 +432,35 @@ drbean:
           - interactive
           - social
           - Kendall
-        answer: Kendall
+        answer: clear
       - question: B
         option:
           - clear
           - interactive
           - social
           - Kendall
-        answer: clear
+        answer: interactive
       - question: C
         option:
           - clear
           - interactive
           - social
           - Kendall
-        answer: interactive
+        answer: social
       - question: D
         option:
           - clear
           - interactive
           - social
           - Kendall
-        answer: social
+        answer: Kendall
       - question: Which of the 4 is the problem?
         option:
           - clear
           - interactive
           - social
           - Kendall
-        answer: interactive
+        answer: Kendall
 nicholson:
  jigsaw:
   0:
@@ -498,23 +498,23 @@ nicholson:
        \item [Warning] If the boss agrees to give her recognition, he might ask her to work harder.
        \end{description}
     quiz:
-      - question: Wilson is stealing her boss's ideas.
+      - question: Nicole Wilson is stealing her boss's ideas.
         answer: False
-      - question: Nicholson is Wilson's boss.
+      - question: Nigel Nicholson is Nicole Wilson's boss.
         answer: False
       - question: Male bosses don't want people to know if the idea is a woman's.
         answer: True
-      - question: Wilson is unhappy the boss is not recognizing her ideas are hers.
+      - question: Nicole Wilson is unhappy the boss is not recognizing her ideas are hers.
         answer: True
-      - question: Wilson is unhappy about the different treatment of men and women.
+      - question: Nicole Wilson is unhappy about the different treatment of men and women.
         answer: True
-      - question: Nicholson's advice is to not write ideas down.
+      - question: Nigel Nicholson's advice to Nicole Wilson is to not write ideas down.
         answer: False
-      - question: His advice is to ask the boss to recognize her ideas.
+      - question: Nigel Nicholson's advice to Nicole Wilson is to ask the boss to recognize her ideas.
         answer: True
-      - question: His advice is to tell the boss he has to treat her better.
+      - question: Nigel Nicholson's advice to Nicole Wilson is to tell the boss he has to treat her better.
         answer: False
-      - question: He warns the boss might ask her for something, if she asks for recognition.
+      - question: Nigel Nicholson warns Nicole Wilson that the boss might ask her for something, if she asks for recognition.
         answer: True
-      - question: It is clear she will not follow his advice.
+      - question: It is clear Nicole Wilson will not follow Nigel Nicholson's advice.
         answer: False
