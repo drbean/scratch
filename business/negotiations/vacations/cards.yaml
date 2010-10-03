@@ -1,0 +1,56 @@
+---
+identifier: Lifetime Holidays-Direct Sun joint venture negotiation
+A: |
+      You and B are negotiating for Lifetime, an older, bigger business, which is not doing well.
+      You want the contract to be for 3 years.
+      You want the range of destinations to be only in the USA.
+      You want the advertising budget to be 100,000 dollars, with the 2 companies contributing 50,000 dollars each.
+      You want Lifetime to manage the project because it has greater management experience and knowledge.
+B: |
+      You and A are negotiating for Lifetime, an older, bigger business, which is not doing well.
+      You are willing for the contract to be 1 year longer.
+      You are willing for the destinations to include Canada, Mexico and South America.
+      You are willing for the advertising budget to be 100,000 dollars more than what A said, contributed 50-50.
+      You are ready for the two companies to share responsibility for management.
+C: |
+      You and D are negotiating for Direct, a new online travel company.
+      You want the contract to be for 5 years.
+      You want the destinations to be all Lifetime's destinations all over the world.
+      You want the advertising budget to be 300,000 dollars. each company contributing 50-50.
+      You want Direct to manage the project, because it has greater knowledge of online selling.
+D: |
+      You and C are negotiating for Direct, a new online travel company.
+      You are willing for the contract to be 1 year less than what you hoped for.
+      You are willing for the destinations to be only America and Europe.
+      You are willing for advertising spending to be 100,000 dollars less than what you wanted, shared 50-50.
+      You are ready for the two companies to share responsibility for management.
+quiz:
+  - question: Lifetime and Direct were not able to reach an agreement.
+    answer: True
+  - question: Lifetime first wanted the contract to be for 3 years.
+    answer: True
+  - question: Direct finally agreed for the contract to be for 4 years.
+    answer: True
+  - question: Lifetime finally agreed for the destinations to include Europe.
+    answer: False
+  - question: Direct first wanted the destinations to be all over the world.
+    answer: True
+  - question: Lifetime agreed for the advertising budget to be 300,000 dollars.
+    answer: False
+  - question: Direct also finally agreed to have the advertising budget be 300,000 dollars.
+    answer: False
+  - question: Lifetime first wanted management of the project to be shared.
+    answer: False
+  - question: Direct also first wanted management of the project to be shared.
+    answer: False
+  - question: The biggest problem in coming to agreement is the range of destinations.
+    answer: True
+  - question: 
+    answer: True
+  - question: 
+    answer: False
+  - question: 
+    answer: True
+  - question: 
+    answer: True
+
