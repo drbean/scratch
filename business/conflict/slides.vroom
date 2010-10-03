@@ -1,0 +1,249 @@
+# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom::Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: Conflict!
+indent: 5
+height: 18
+width: 50
+skip: 0
+
+# The following options are for Gvim usage.
+# vim: gvim
+# fuopt: maxhorz,maxvert
+# guioptions: egmLtT
+# guicursor: a:blinkon0-ver25-Cursor
+# guifont: Bitstream_Vera_Sans_Mono:h18
+
+----
+== Jacques and Charles compcomp
+
++ 1: Olivier is bad/the cause of conflict in both the stories.
++ 2: Charles is concerned about the production department in both stories.
++ 3: Charles is concerned about the sales department in both stories.
++ 4: Charles is concerned about the production department in both stories.
++ 5: IN story 1, the bad guy is Oliver.
++ 6: IN story 1, the bad guy is Oliver.
+
+
+----
+== Olivier and Todd CompComp
+
++ 1: Jacques complained about the size of Olivier's order.
++ 2: Jacques is putting pressure on Todd.
++ 3: Jacques wants Todd to prevent Olivier putting 
+more pressure on him.
++ 4: Olivier is responsible for one fourth of the 
+company's total sales.
++ 5: Some buyers probably give Olivier orders 
+because he spends money on them.
++ 6: Todd knows the major buyers well and the 
+buyers know Todd well.
++ 7: The major buyers have strong links to the 
+company and are sure to continue to buy from it. 
++ 8: Olivier thinks meeting Todd, giving him and 
+the company information, is important.
++ 9: Olivier will not use the information he has 
+about the buyers if he changes companies.
+
+----
+== Stress hotspot
+
++ 1: A is putting pressure on people.
++ 2: B is causing someone to feel stress.
++ 3: C is causing people to feel stress.
++ 4: D is under pressure.
++ 5: Where is stress hotspot?
++ 6: Who doesn't want Charles to leave the company?
+
+----
+== European campers
+
++ 1: Who doesn't want Olivier to leave the company?
++	Charles
++	Jacques
++	Olivier
++	Todd
++ 2: What are the 2 arms of the company?
++	Sales and marketing
++	Production and sales
++	Sales and administration
++ 3: What is the problem?
++ 4: Whose fault is the problem?
++	Charles
++	Jacques
++	Olivier
++	Todd
++ 5: Why is there a problem?
+
+----
+== Conflict pictures
+
+Woman/man Boss/subordinate
+
+----
+== Olivier
+
+1. Who has the upper hand/is taking the initiative/making the move?
+	Who is talking? Who is listening?
+2. Who looks better? (Is more handsome/better dressed? Has a nicer hairstyle?)
+3. Who is the boss?
+4. Who is American/French?
+----
+== Clear, simple goals
+
+Graham: How clear are your plans?
+
++ 1: I want to develop a new language learning game,
+similar to tennis but using language instead of a ball.
+
++ 2: I want to apply linguistics, language learning theory
+and computer science to the teaching of English to large classes.
+
++ 1: Good, 2: Bad
+
+----
+== Interactive planning
+
+Graham: Do you keep your plans up-to-date? Do you show them
+to people and see what they think?
+
++ 1: Students know what I want them to do.
+Their reactions help me redesign the game.
+
++ 2: Students have no idea of what I'm doing.
+But I will not give up because they don't understand.
+
++ 1: Good, 2: Bad
+
+----
+== Social planning
+
+Graham: Are other people involved in your planning?
+Or do you plan by yourself and then announce your plans?
+
++ 1: The game is my idea. The students are not involved
+in planning it. I give it to them and I see what they think.
+But I have little control over what they think of it.
+They are not involved in development.
+
++ 2: Students give me ideas and I give them ideas and
+together we decide what direction we should go with
+development of the game.
+
++ 1: Bad, 2: Good
+
+----
+== Covent Garden and Green and Black
+
++ Started at Green and Black first.
++ Started at both companies in a low position
++ Was CEO at both companies.
++ Gave managers more freedom at the second company.
++ Planned to sell first company, but not second.
++ Competed with big business at first company,
+	and cooperated at second.
+
+---- 
+= Kendall
+
+- A: Kendall buys Green and Black
+- B: Green and Black appears promising company.
+- C: Cadbury's buys Green and Black.
+- D: Kendall works on a farm for first time.
+- E: Kendall CEO at Covent Garden Soup Company.
+- F: Kendall is lawyer, banker.
+- question: Craig Sams is macrobiotic.
+
+----
+== Craig Sams and Prince Charles
+
++ question: Sams is older than the Prince.
++ question: The Prince was born on a farm.
++ question: Sams was born on a farm.
++ question: Sams has a farm.
++ question: The Prince has a farm.
++ question: The Prince's businesses make more money than Sams'.
++ question: Sams eats meat but the Prince doesn't.
+
+----
+== Questions about Price
+
++* question: The price of Uniqlo clothes is completely determined by what it costs to make them.
++* question: Uniqlo is a low-priced brand.
+
+----
+== Questions about Place
+
++* question: Uniqlo clothes can be bought anywhere.
++* question: Uniqlo thinks that the clothes-buying experience helps to sell its clothes.
+
+----
+== Questions about Promotion
+
++* question: Uniqlo has sports stars wear its clothes.
++* question: Uniqlo promotion is designed to keep Uniqlo clothes in the public's mind.
+
+----
+== Products you bought recently
+
+	* Why?
+	* Which of the 4 P's was a factor?
+	* Was it a combination of factors?
+
+----
+== A marketing campaign that impressed you
+
+	* Google's release of gmail accounts
+		* someone had to sponsor you
+		* you could only sponsor 7-8 other people
+
+----
+== Typical consumer profiles 
+	
+	* Car: BMW
+	* Newspaper/Magazine:
+	* Watch/jewelry:
+	* Clothing/shoe:
+
+	Age?
+	Sex?
+	Job?
+	Income level?
+	Other products the consumer might buy?
+
+	"The typical BMW owner drinks ... "
+	"People who wear Adidas often wear Nike shoes."
+
+----
+== Taiwan advertising campaign
+
+	* How else would you increase sales for above brands?
+
+----
+== Dr Bean buying behavior
+	
+	* Talking with your opponent, you have to decide whether Dr Bean
+	and the merchant do a deal or not, 
++	WITHOUT helping your opponent decide whether they do a deal or not.
+
++	Also you have to think of the 4 P's. Which of the 4 P's of the
+	merchant are factors in DrBean's decision.
+	and the merchant.
+
+----
+== Dr Bean buys fruit
+
++      - question: The product is okay.
++      - question: The price is right.
++      - question: The place is right.
++      - question: The promotion is satisfactory.
++      - question: A sale is made.
+
+----
+== The End
