@@ -1,0 +1,126 @@
+# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom::Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: Vroom!
+indent: 5
+height: 18
+width: 50
+skip: 0
+
+# The following options are for Gvim usage.
+# vim: gvim
+# fuopt: maxhorz,maxvert
+# guioptions: egmLtT
+# guicursor: a:blinkon0-ver25-Cursor
+# guifont: Bitstream_Vera_Sans_Mono:h18
+
+---- center
+Careers
+
+by Dr Bean
+
+(hint: press the spacebar)
+
+----
+== Textbook
+
+New Edition Market Leader, ISBN: 1-405-88138-0
+Pre-Intermediate
+張桂豪 0921-763872
+khchang@tunghua.com.tw
+東華書局 02-2311-4027
+
+----
+== The unexamined life is not worth living--Socrates
+
+What should be your aim living life, working in business?
+
+To make money, OK.
+
+But also, to examine your actions and thoughts
+
+----
+== Careers
+
+It's hard for you to think about what is in the future.
+
+But think for yourself. Have your own goal.
+
+----
+== Career tips
+
+p8 Market Leader
+
+
++ Think about what you're doing
++ Do things the hard way
++ Seek satisfaction. Change your job. Or change jobs.
++ Get others to help you do your job
++ Learn while away from the job
++ Create your own goals
++ Have a schedule
++ Get together with co-workers outside work
++ Be clear about what you want from the boss
++ Take time to relax on the weekends
+
+Does Mr/Ms X think you should Y.
+Does Mr/MS X Y? Eg, Does Barbara create her own goals?
+Does Mr/Ms X believe in Y-ing?
+
+----
+== From homework
+
+Have a plan. You need to know what to do each day. 
+Have something you can look at to see how you are 
+going today, this month and this year.  Are things 
+going according to the plan?
+
+Think about what you are doing. Don't think about 
+the weekend when you are at work. How could you do 
+what you are doing better? What is the purpose of 
+what you are doing? Keep that in mind.
+
+Don't think of your job as something just you do. 
+You are part of a team. If the other people in 
+your team know you are working for their success, 
+they will want to help YOU be successful too.
+
+Study part-time at colleges in the evening or 
+weekend, and by reading. Be a life-long learner.
+
+Get to know your co-workers and do things with 
+them after work and on the weekends. Go on trips, 
+and belong to company clubs.
+
+Create your own goals, different than your 
+company's goals. Think about what work you 
+want to do in the future and think about 
+what you have to do to get that kind of work.
+
+Be dissatisfied if things are too easy. Prefer to 
+do the difficult, rather than the easy, thing.
+Be prepared for failure and learn from it. Try 
+something different and achieve something great.
+
+Let the boss know what you think. If you want 
+something, ask for it. The boss may not give it to 
+you, but a raise which is smaller than you 
+wanted is better than no raise at all.
+
+Have a life outside work. Spend time with your 
+family on the weekend. Come back to work feeling good. 
+This will help you do a good job at the company.
+
+If you're unhappy with your job, don't 
+just keep on working in it. Find ways to make 
+it a better job in your eyes. If you can't 
+make the job a better job, look for a new job.
+
+----
+== The End
