@@ -14,7 +14,7 @@ $ftp->cwd("public_html/$genre") or die
 $ftp->binary;
 
 use YAML qw/LoadFile DumpFile/;
-my ($texts) = LoadFile 'PlanningManaging/cards.yaml';
+my ($texts) = LoadFile 'newbusiness/cards.yaml';
 my @soundfiles;
 push @soundfiles, (
 			 [ 0, "voice_nitech_us_rms_arctic_hts", "1" ],
@@ -27,12 +27,13 @@ push @soundfiles, (
 			 [ 7, "voice_nitech_us_slt_arctic_hts", "8" ],
 			 [ 8, "voice_nitech_us_rms_arctic_hts", "9" ],
 			 [ 9, "voice_nitech_us_awb_arctic_hts", "10" ],
+			 # [ 10, "voice_nitech_us_awb_arctic_hts", "11" ],
 	);
 
 for my $topicform (
-	[ qw/kendall influences/ ],
-	[ qw/kendall coventgreen/ ],
-	[ qw/nicholson stealing/ ],
+	[ qw/innovation 1/ ],
+	[ qw/market 1/ ],
+	[ qw/huang 1/ ],
 ) {
 
 	my $topic = $topicform->[0];
