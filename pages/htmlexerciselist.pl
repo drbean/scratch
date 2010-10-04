@@ -172,7 +172,6 @@ sub topicsAndStories {
     my @topicids = split /,/, $topics;
     my @storyids = split /,/, $stories;
     for my $topic ( @{ $area->{topic} } ) {
-$DB::single=1;
 	next unless any { $topic->{id} eq $_ } @topicids;
 	$io->append( $topictmpl->fill_in( hash => $topic ) );
 	for my $story ( @{ $topic->{story} } ) {
