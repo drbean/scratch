@@ -9,6 +9,8 @@
 
 <table>
 
+<!--
+
 <tr>
 <td><INPUT type="radio" name="book" value="justright" class="geomsize">
 <td><h1>Just Right Pre-Intermediate American Edition</h1>
@@ -21,6 +23,8 @@ The book used by:
 <li>981FLA0016: 981英語會話(一)(夜應外大學二甲)
 </ul>
 
+-->
+
 <tr>
 <tr>
 <td><INPUT type="radio" name="book" value="marketleader" class="geomsize">
@@ -28,10 +32,8 @@ The book used by:
 <p>
 The book used by:
 <ul>
-<li>981MIA0017: 981商用英文實務(一)(日資管大學二甲)
-<li>981BMA0099: 981商用英文實務(一)(日經管大學二甲)
-<li>981BMA0100: 981商用英文實務(一)(日經管大學二乙)
-<li>981FLA0030: 981商用英文(夜應外大學四甲)
+<li>991MIA0014: 991商用英文實務(一)(日資管大學二甲)
+<li>991BMA0071: 991商用英文實務(一)(日經管大學二甲)
 </ul>
 
 <tr>
@@ -41,7 +43,7 @@ The book used by:
 <p>
 The book used by:
 <ul>
-<li>981FLA0027: 981跨文化溝通(夜應外大學二甲)
+<li>991FLA0017: 991跨文化溝通(夜應外大學二甲)
 </ul>
 
 </table>
