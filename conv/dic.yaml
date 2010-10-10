@@ -48,12 +48,12 @@
   - "disappointed|murmuring|barked|stormed|scooted|startled|sincerely|out of the blue"
 
 -
-  - "trinka-1"
+  - "trinka"
   - "Getting the doorman job"
-  - "intermediate"
-  - "all"
+  - "upper"
+  - A
   - |+
-    "Debra: How did you get the job as doorman at the Plaza Hotel.
+    Debra: How did you get the job as doorman at the Plaza Hotel.
     Ed: Well, my father was a garage manager at the Plaza for thirty years.
     And he was friends with all the doormen.
     And when I graduated from high school, he said,
@@ -66,20 +66,29 @@
     And then, uh, it was great.
     
     Debra: What was the best tip you ever got? 
+  - Debra|Ed|graduated|tip
+-
+  - "trinka"
+  - "The best tip"
+  - "upper"
+  - B
+  - |+
+    Debra: What was the best tip you ever got? 
     Ed: Well, I was always tell the story about Jackie Gleason, for Christmas time. 
     He says to me, What was the biggest tip you ever got.
     And I says, Well, a hundred dollars.
     And he says, Here's a hundred and fifty dollars. Merry Christmas.
     And he says, By the way, who was the one who gave you a hundred?
-    And I says, Well, that was you last year."
-  - "Debra|Ed|graduated|tip|Jackie|Gleason|Merry Christmas"
+    And I says, Well, that was you last year.
+    Debra: Now, I got to know you because I walk to work every morning, and I cut by the Plaza, and you made my day. \"Good morning, young lady.\" \"Beautiful day.\"
+    Ed: Eh, that's what it's all about.
+  - "Debra|Ed|Jackie|Gleason|Merry Christmas"
 -
-  - "trinka-2"
-  - "How to treat people"
-  - "intermediate"
-  - "all"
+  - "trinka"
+  - "Making everyone happy"
+  - "upper"
+  - C
   - |+
-    "Debra: Now, I got to know you because I walk to work every morning, and I cut by the Plaza, and you made my day. \"Good morning, young lady.\" \"Beautiful day.\"
     Ed: Eh, that's what it's all about.
     Out being in front there and smiling. 
     And just making everybody happy.
@@ -91,17 +100,22 @@
     And he had to go to a very important meeting.
     And he asked me where he could get his shoes shined.
     And I says, It don't open till eight o'clock. Our barber shop.
-    So I said, I tell you what. Give me the shoes and you come back in a half an hour or so and I'll have them done.
-    I ran down to my locker, got my shoeshine kit, which I have in my locker to shine my shoes,
-    shined them up for him,
-    come back up. He come by, put his shoes on,
-    and he went to the meeting, and he's one of my best friends.
+    So I said, I tell you what. Give me the shoes and you come back in a half an hour...
+  - "Ed|shined|barber"
+-
+  - "trinka"
+  - "Shining a guest's shoes"
+  - "upper"
+  - D
+  - |+
+    Ed: You come back in a half an hour or so and I'll have them done.
+    I ran down to my locker, got my shoeshine kit, which I have in my locker to shine my shoes, shined them up for him, come back up. He come by, put his shoes on, and he went to the meeting, and he's one of my best friends.
     Matter of fact, he comes back to the Plaza all the time.
+
     You know, my father told me years ago,
-    He said, Be such a man, and live such a life, that if,
-    Everybody lived a life like yours, this would be God's paradise.
-    And I go by that."
-  - "Plaza|Ed|Debra|shined|barber|locker|shoeshine|kit|paradise"
+    He said, Be such a man, and live such a life, that if, everybody lived a life like yours, this would be God's paradise.
+    And I go by that.
+  - "Ed|shined|locker|shoeshine|kit|paradise"
 -
   - "jackson-1"
   - "Charles on his mom with Alzheimers"
@@ -1300,101 +1314,101 @@
   - "Rose tells Ron: \"You're kind for fixing the piano.\""
   - "False" 
 -
-  - "intermediate"
-  - "trinka-1"
+  - "upper"
+  - "trinka"
   - 1
-  - "all"
+  - A
   - "Ed started working at the Plaza after he graduated from high school."
   - "True" 
 -
-  - "intermediate"
-  - "trinka-1"
+  - "upper"
+  - "trinka"
   - 2
-  - "all"
+  - A
   - "Ed got his first job at the Plaza when one of the doormen was sick."
   - "True" 
 -
-  - "intermediate"
-  - "trinka-1"
+  - "upper"
+  - "trinka"
   - 3
-  - "all"
-  - "Jackie Gleason gave Ed his biggest tip of one hundred and fifty dollars."
-  - "True" 
--
-  - "intermediate"
-  - "trinka-1"
-  - 4
-  - "all"
+  - A
   - "When Ed got sick, they put a hat and coat on him."
   - "False" 
 -
-  - "intermediate"
-  - "trinka-1"
+  - "upper"
+  - "trinka"
+  - 4
+  - B
+  - "Jackie Gleason gave Ed his biggest tip of one hundred and fifty dollars."
+  - "True" 
+-
+  - "upper"
+  - "trinka"
   - 5
-  - "all"
+  - B
   - "Jackie Gleason got the best tip from Ed Trinka, one hundred and fifty dollars."
   - "False" 
 -
-  - "intermediate"
-  - "trinka-1"
+  - "upper"
+  - "trinka"
   - 6
-  - "all"
+  - B
   - "Jackie Gleason, a garage manager at the Plaza, was Ed's father."
   - "False" 
 -
-  - "intermediate"
-  - "trinka-2"
-  - 1
-  - "all"
+  - "upper"
+  - "trinka"
+  - 7
+  - C
   - "Ed shone the shoes of a guest at the Plaza because the barber shop wasn't open."
   - "True" 
 -
-  - "intermediate"
-  - "trinka-2"
-  - 2
-  - "all"
+  - "upper"
+  - "trinka"
+  - 8
+  - C
   - "Ed's thing is to treat guests like VIPs and make them happy, because they are VIPs."
   - "True" 
 -
-  - "intermediate"
-  - "trinka-2"
-  - 3
-  - "all"
+  - "upper"
+  - "trinka"
+  - 9
+  - D
   - "Ed's father told him to live the life he is living and treat people very well."
   - "True" 
 -
-  - "intermediate"
-  - "trinka-2"
-  - 4
-  - "all"
+  - "upper"
+  - "trinka"
+  - 10
+  - C
   - "Ed Trinka made Debra's day by smiling and being happy."
   - "True" 
 -
-  - "intermediate"
-  - "trinka-2"
-  - 5
-  - "all"
+  - "upper"
+  - "trinka"
+  - 11
+  - D
   - "Ed Trinka shined a guest's shoes with his shoeshine kit."
   - "True" 
 -
-  - "intermediate"
-  - "trinka-2"
-  - 6
-  - "all"
+  - "upper"
+  - "trinka"
+  - 12
+  - B
   - "Debra met Ed when she was working at the Plaza Hotel as a VIP and he shone her shoes."
   - "False" 
 -
-  - "intermediate"
-  - "trinka-2"
-  - 7
-  - "all"
+  - "upper"
+  - "trinka"
+  - 13
+  - D
   - "Ed shone his shoes because he had an important meeting with a guest."
   - "False" 
 -
-  - "intermediate"
-  - "trinka-2"
-  - 8
-  - "all"
+  - "upper"
+  - "trinka"
+  - 14
+  - C
   - "Ed shines his shoes every morning because he has an important meeting with Debra."
   - "False" 
 -
