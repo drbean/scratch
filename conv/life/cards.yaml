@@ -86,28 +86,28 @@ roxborough:
         - question: A
           option:
             - Aretha
-            - James Brown
+            - J. Brown
             - Mildred
             - Tammy
           answer: Derek
         - question: B
           option:
             - Aretha
-            - James Brown
+            - J. Brown
             - Mildred
             - Tammy
           answer: Randy
         - question: C
           option:
             - Aretha
-            - James Brown
+            - J. Brown
             - Mildred
             - Tammy
           answer: Claudia
         - question: D
           option:
             - Aretha
-            - James Brown
+            - J. Brown
             - Mildred
             - Tammy
           answer: Richard
