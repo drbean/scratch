@@ -222,7 +222,7 @@ connell:
           answer  : False
         - question: Randy helps pull Derek around.
           answer  : False
-        - question: Derek is the leader of the scout troop.
+        - question: Derek controls what the scouts do in the troop.
           answer  : False
         - question: Derek has mental \& physical problems.
           answer  : True
