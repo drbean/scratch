@@ -1,0 +1,320 @@
+# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom::Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: Intercultural communication
+indent: 5
+height: 18
+width: 69
+skip: 0
+
+# The following options are for Gvim usage.
+# vim: gvim
+# fuopt: maxhorz,maxvert
+# guioptions: egmLtT
+# guicursor: a:blinkon0-ver25-Cursor
+# guifont: Bitstream_Vera_Sans_Mono:h18
+
+---- center
+Intercultural communication
+
+by Dr Bean
+
+----
+== Aim of the class
+
+I want you to show me you are good intercultural
+communicators.
+
+----
+== What is intercultural communication?
+
+It's not how well you speak English.
+
+You can speak Chinese and communicate with people from
+somewhere else.
+
+It's not about how to speak.
+It's about what to say.
+
+
+----
+== Experience
+
+Communicating with someone from a different culture
+is very interesting.
+
+You have to forget the rules you learned to communicate
+and learn new rules.
+
+----
+== Examples of intercultural relationships
+
++ Taiwanese-American
++ Taiwanese-Japanese
++ Taiwanese-mainland Chinese
++ Han-aboriginal
++ Hakka-Minnan
++ 本生-外生
++ Male-Female
++ Taiwanese-Guest worker from Thailand, Philippines
++ Taiwanese-Guest worker from US, England
+
+----
+== Grades
+
++* Homework. Each week write a 50 word message on
+http://elearning.nuu.edu.tw
+And write another 50 words in comment on other
+messages.
+
+I will close the discussion board at 1pm each 
+Monday. I want to read all the homework
+and give grades before the class.
+
++* Exams.
+  * Week 4, 9, 13, 18
+    * 2 2-page essays on intercultural communication
+
++* Classwork
+ ??????
+
+----
+== Grade computation
+* Classwork: 20 percent
+* Homework: 60 percent
+* Exams: 20 percent
+
+----
+== Textbook
+	
+	* Beyond Language: Cross cultural communication
+	Levine and Adelman, Pearson/Longman
+	ISBN 0-13-094855-1
+
+----
+== Ugly American accosts woman in Saigon (Ho Chi Min 
+City), Vietnam
+
+http://www.youtube.com/watch?v=PKXbDXmzwnk
+
+----
+== Unacceptable
+
+      I think that men's behavior is rude. I do 
+      not like the ugly American. 
+      
+      I think most Americans feel shame and anger 
+      at this video. 
+
+----
+== Understandable
+
+      Americans are usually friendly. So they 
+      accost the woman.
+
+      They think maybe it is not polite but 
+      their meaning is not bad!
+
+----
+== Discussion of Ugly American
+
+In groups, decide whether you support 
+'Unacceptable' or 'Understandable'
+
+Think about Double Standards.
+http://www.urbandictionary.com/define.php?term=double+standards
+
+Think about the 5 savoirs. Slide 8 of 
+http://www.international-studies.aau.dk/f-2007/slides/ICC-model.ppt
+
+Report on what your group talked about. Vote for 
+what you think. Vote for what Americans think.
+
+The groups which report most get most points.
+
+----
+== German-American misunderstanding about smiling
+
+ http://odeo.com/episodes/13604823-Intercultural-Non-verbal-communication-The-Business-Spotlight-podcast-for-Tuesday-26-June-2007
+
+
+----
+== Cross-cultural understanding and Intercultural 
+understanding
+
+Cross-cultural: about cultural differences and
+		similarities
+
+Intercultural: about communication between people 
+		from different cultures
+
+----
+== Cross-cultural
+
+Cross-cultural:	eg, In the US, people act this way, 
+		say these things.
+		On the other hand, in Vietnam,
+		people act that way and
+		say those things.
+
+		ie, cultural differences
+		http://en.wikipedia.org/wiki/Love
+
+----
+== Intercultural
+
+Intercultural:	eg, Vietnamese-Americans communicate
+		with their children across 
+		cultural barriers.
+		Vietnamese and Americans have a
+		hard time understanding each 
+		other, because of cultural 
+		differences.
+
+		ie communication between people 
+		from different cultures
+
+----
+== Test: Which message is intercultural,
+		which is cross-cultural?
+
+A: Theresa is like the mothers in Asian that can't 
+   say love easily but she expresse her love to her 
+   daughter with actions although culture is 
+   difference between the Vietnam and the United 
+   States the mothers' love to their kids are all the 
+   same Just sometimes they don't know how to express 
+   their love in oral
+
+B: In my opinion, this mom has the very big 
+   courage.Because living the different culture in 
+   America and she must upbringing little girl.But 
+   she must to keep Asian tradition,keep the family 
+   together.In her pressure,Stephanie worry about she 
+   not too well.In fact,they love each other.It's 
+   wonderful.
+
+
+----
+== 5 Savoirs
+
+* Savoir 
+
++ Attitudes (savoir etre):
+
+21 Jul 2010 ... When he interviewed Nelson Mandela, Snow said he
+found him "even more interested in you than you were in him".
+
+Mandela was asking the questions, and the interviewer was
+answering them!!
+
+http://www.bbc.co.uk/journalism/blog/2010/07/the-right-kind-of-snow.shtml
+
++ Knowledge (savoirs):
+
+Learned from a book, school, or experience in the other culture.
+
++ Skills of understanding and relating (savoir comprendre):
+
+Ability to see how the strange foreign behavior is similar to
+something familiar.
+
+Smelly cheese and stinky tofu. 
+http://wandering-taiwan.blogspot.com/2010/09/stinky-tofu.html
+
++ Skills of discovery and interaction (savoir apprendre/faire):
+
++ Critical cultural awareness (savoir s'engager):
+
+----
+== Savoir 1
+Curiosity and openness, readiness to suspend 
+disbelief about other cultures and belief about 
+one's own.
+
+This means a willingness to relativize one's own 
+values, beliefs and behaviors, not to assume they 
+are the only possible ones, and to be able to see 
+how they might look from an outsider's perspective 
+who has a different set of values, beliefs and 
+behaviors. This can be called the ability to 
+decenter.
+  
+----
+== Savoir 2
+Knowledge (savoirs):
+Of social groups and their products and practices 
+in one's own and in one's interlocutor's country, 
+and the general processes of societal and 
+individual interaction.
+
+----
+== Savoir 3
+Skills of interpreting and relating (savoir comprendre):
+Ability to interpret a document or event from 
+another culture, to explain it and relate it to 
+documents from one's own.
+
+----
+== Savoir 4
+Skills of discovery and interaction (savoir apprendre/faire):
+Ability to acquire new knowledge of a culture and 
+cultural practices and the ability to operate 
+knowledge, attitudes and skills under the 
+constraints of real-time communication and 
+interaction.
+
+----
+== Savoir 5
+Critical cultural awareness (savoir s'engager):
+An ability to evaluate, critically and on the 
+basis of explicit criteria, perspectives, 
+practices and products in one's own and other 
+cultures and countries.
+
+----
+== 5 Savoirs
+These 5 competences are from Byram, Gribkova and 
+Starkey (2002) "Developing the intercultural 
+dimension in language teaching: A practical 
+introduction for teachers." Council of Europe. You 
+can download it from 
+http://www.coe.int/t/dg4/linguistic/Source/Guide_dimintercult_EN.pdf 
+
+----
+== Exam 1
+
+	2 1-page essays ( 2x150 words ) on
+	Intercultural Communicative Competence
+
+  1. Discuss the 3 situations we looked at in 
+     Weeks 1-3.
+     a. Asian Mom in US
+     b. Ugly Americans Accost Woman
+     c. German-American Attitudes to Smiling
+    Relate your discussion to the 5 savoirs
+
+  2. Tell of an intercultural communication 
+     problem you had with someone from a different 
+     culture. eg Minnan-Hakka, American-Taiwanese
+
+    Relate your discussion to the 5 savoirs. I 
+    want you to show that you understand the 5 
+    savoirs.
+
+Not the usual sort of writing exam. It's OK to 
+talk to each other and look at each other's 
+essays. In fact I will ask you to walk around and 
+look at each other's essays at 6:50 pm and 7:35 pm.
+
+I want to talk to you about what you're saying 
+too. I want you to ask me for advice.
+
+----
+== The End
