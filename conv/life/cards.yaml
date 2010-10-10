@@ -125,7 +125,7 @@ roxborough:
           answer  : True
     2:
       identifier: roxborough 2
-      A: You are the president of the local branch of the NAACP. You work to help black people get the local schools integrated. But many whites, like Tammy, don't want the schools integrated.
+      A: You are the president of the local branch of the NAACP. You are working to get the local schools integrated. But many whites, like Tammy, don't want the schools integrated.
       B: You work for the NAACP, traveling around southern states in the US. Everyone sees you stuck in a tub. The president of the local branch, James, introduces you at a NAACP meeting. 
       C: Mildred, the NAACP activist is staying at your home. You support her efforts to organize black parents. After she gets stuck in a tub, you take her outside to get her out of the tub.
       D: You see Aretha, your cleaning lady, with another black woman with nothing on, in her back yard. You think black people don't act right. You don't want black children in your children's school.
@@ -158,7 +158,7 @@ roxborough:
             - Mildred
             - Tammy
           answer: Tammy
-        - question: James works together with Mildred.
+        - question: James is working together with Mildred.
           answer  : True
         - question: Aretha gets stuck and Mildred helps her.
           answer  : False
