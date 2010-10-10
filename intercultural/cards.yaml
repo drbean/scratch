@@ -1,0 +1,57 @@
+---
+genre: intercultural
+classroom:
+  compcomp:
+    1:
+      identifier:
+      White: 
+      Black: 
+      quiz:
+        - question: 
+          answer: 
+  jigsaw:
+    1:
+      identifier: students using chinese 1
+      A: You are an English teacher. You are unhappy because the students don't talk English in small groups unless you are standing over them. You think they are lazy, or they lack confidence. They don't really tell you what they think. Donna, however tells you what she thinks.  
+      B: You are a lazy student who lacks confidence, and whose English is not very good. You prefer not to speak in English in class, even when Charles starts speaking in English.
+      C: You are a good student and like to speak English to other students, but Bertha starts the discussion in Chinese and other students speak Chinese too. So, you use Chinese to fit in and not create tension.
+      D: You are an older student. You tell Albert that his Chinese is not very good and that if his Chinese were better, he would understand why students speak Chinese. You tell Albert that if he spoke Chinese to the students, the students might speak English to him.
+      quiz:
+        - question: A's lack of savoir
+          option:
+            - Savoir 1
+            - Savoir 5
+          answer: Savoir 1
+        - question: B's lack of savoir
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Eloise
+        - question: C
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Margaret
+        - question: D
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Nick
+        - question: Mort was a student.
+          answer  : False
+        - question: Doug is a funeral director.
+          answer  : False
+        - question: Ms Ma is Doug's mother.
+          answer  : False
+        - question: Doug is digging a grave for Dred.
+          answer  : True
+        - question: Mort is preparing a funeral for Ms Ma.
+          answer  : True
+        - question: Doug thinks Dred's case is sad.
+          answer  : True
