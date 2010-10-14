@@ -99,10 +99,10 @@ novak:
   jigsaw:
     0:
       identifier: novak 0
-      A: You were a pilot for TWA and flew "Connies" from Kansas City until Boeing jets were introduced in the 1960s. You once shook hands with the owner of TWA, Howard Hughes. After you retired you performed marriages. You married Star and her husband on a "Connie."
-      B: You immigrated to the United States from Austria and flew on a TWA "Connie" piloted by Dick. You never flew again, but you went to live in Kansas City, where TWA had its headquarters. You never met Howard Hughes, but you went to the movies he made.
-      C: You love planes and flying, though you are not a pilot. Your mother, Olga flew to the US on a "Connie" and you got married on a "Connie". You work in a small aircraft parts company near Kansas City. You don't know much about Howard Hughes. He was before your time.
-      D: You owned TWA, and helped design the "Connie". You were forced out of TWA, when you wanted to help design a new jet. Investors didn't want you to design it. Earlier in life you made movies, but later you became afraid of contact with other people, and you never appeared in public.
+      A: You were a pilot for TWA and flew "Connies" from Kansas City until Boeing jets were introduced in the 1960s. You once shook hands with the owner of TWA, Howard Hughes. After you retired, you performed marriages, making people husband and wife. You married Star and her husband on a "Connie."
+      B: You immigrated to the United States from Austria and flew on a TWA "Connie" piloted by Dick. You never flew again, but you went to live in Kansas City, where TWA had its headquarters, and where your daughter, Star, was born. You never met Howard Hughes, but you went to the movies he made.
+      C: You love planes and flying, though you are not a pilot. Your mother, Olga flew to the US on a "Connie" and you got married on a "Connie". You work in a small aircraft parts company near Kansas City. You don't know much about Howard Hughes. He was before your time. But you know he owned TWA and helped design the "Connie."
+      D: You were the richest man in the world. You owned TWA, and helped design the "Connie". Earlier in life you made movies, but later you became afraid of contact with other people, and you never appeared in public. People thought you were crazy. By then, you no longer owned TWA. Investors didn't want you to run the company.
       quiz:
         - question: A
           option:
@@ -132,18 +132,18 @@ novak:
             - Olga
             - Star
           answer: Howard Hughes
-        - question: Howard Hughes was friends with these people
+        - question: Howard Hughes was friends with Olga.
           answer  : False
         - question: Olga was born in the US.
           answer  : False
-        - question: The pilot sent money to Martha.
-          answer  : False
-        - question: Angel was the only 1 of 4 to die.
+        - question: Dick married Star and her husband.
           answer  : True
-        - question: Tina helped the flight attendant.
-          answer  : False
-        - question: Martha now wants a life worth living.
+        - question: Howard Hughes owned TWA \& made movies.
           answer  : True
+        - question: Dick was a TWA pilot.
+          answer  : True
+        - question: Star is an airplane pilot.
+          answer  : False
   compcomp:
     0:
       identifier: novak 0
