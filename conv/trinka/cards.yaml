@@ -1,6 +1,107 @@
 ---
 genre: intermediate
 trinka:
+  jigsaw:
+    0:
+      identifier: trinka 0
+      A: You are a happy person, and you make everyone feel happy too, because of that, not because your boss, Shane wants you to. You are quite different than Jackie Gleason. You are not famous like him, but you are well-known in New York City, to people like Debra.
+      B: You are a New Yorker. Most New Yorkers are unfriendly and they don't have time to talk to other people. But Ed is different. You are not a guest at his hotel, the Plaza Hotel. You just walk past the hotel. But he is friendly to you too.
+      C: You are a famous comedian. You are not a happy person, but you make people laugh with what you say. You makes lots of money, but you spend it all at expensive hotels, on drinking, and shows. You gave Ed a big tip.
+      D: You are the manager of the Plaza Hotel. The hotel is very famous, very expensive, but also very old. Not as many people stay as before. You are not happy because the hotel doesn't make as much money as before and relationships with staff are not good. You tell Ed to treat everyone like a VIP.
+    1:
+      identifier: trinka 1
+      A: You are the doorman at the Plaza Hotel, an old and famous hotel in New York. You love your job. You are a happy person, and you like to make everyone feel happy too, A lot of the guests at the hotel have lots of money and many of them are famous VIPs, like Jackie Gleason. But you treat everyone like VIPs, even Debra and other people who aren't guests. 
+      B: You are a New Yorker. Most New Yorkers are unfriendly. They don't have time to talk to other people. But Ed is different. You are not a guest at his hotel. You are not famous. You just walk past the hotel every day. But he became your friend too. You ask him to record his story. You ask him questions about working at the Plaza Hotel.
+      C: You are a famous comedian. You are not a happy person, but you make people laugh because you say funny things. You make lots of money, but you spend it all. Ed makes you feel happy so you give him a very big tip. You ask him if anyone else gave him a very big tip. He tells you that you gave him his biggest tip.
+      D: You are a rich businessman staying at the Plaza Hotel. Your name is David. It is very early in the morning, but you need your shoes shined. You ask Ed where you can get your shoes shined. He says it is too early. Instead, he shines them for you. You give him a tip. And you decide to always stay at the Plaza, because Ed is very friendly and helpful.
+      quiz:
+        - question: A
+          option:
+            - David
+            - Debra
+            - Ed
+            - Jackie Gleason
+          answer: Ed
+        - question: B
+          option:
+            - David
+            - Debra
+            - Ed
+            - Jackie Gleason
+          answer: Debra
+        - question: C
+          option:
+            - David
+            - Debra
+            - Ed
+            - Jackie Gleason
+          answer: Jackie Gleason
+        - question: D
+          option:
+            - David
+            - Debra
+            - Ed
+            - Jackie Gleason
+          answer: David
+        - question: Ed treats VIPs differently than others.
+          answer  : True
+        - question: Debra is a Plaza guest.
+          answer  : False
+        - question: Gleason is not happy.
+          answer  : False
+        - question: David stays at the Plaza, because it's famous.
+          answer  : True
+        - question: Gleason gave Ed his biggest tip.
+          answer  : False
+        - question: Ed told Debra his story.
+          answer  : True
+    2:
+      identifier: trinka 2
+      A: You are old. You have now stopped working at the Plaza Hotel. You worked there as a doorman for almost 50 years. Your father, Tony got you the job. You enjoyed your job every day and you tried very hard to do your best. However, you didn't get on with the boss, Shane. You didn't think he was a good manager.
+      B: You are Ed's father. You worked at the Plaza too and you got Ed his job there. Workers made a lot of the decisions about who would work at the hotel. Sometimes relationships with the managers weren't good at the hotel, but you enjoyed working there. When Ed was young, you told him to be a good man, and to live a good life. And he did that.
+      C: Your name is Mary. You are now dead. You were Ed's wife. You met him when you were working at the hotel. He was a good husband. At home, he was happy, friendly and helpful, just like when he was at work. He loved you very much and you loved him. Now he is sad, because you are dead. Now he is looking for a new wife. 
+      D: You are the manager. You are not happy, because the hotel is old and not as many people stay as before. It is also difficult to control Ed and the others. They have too much freedom and do not listen to you. Ed left the hotel for one year and worked at another hotel after you told him to do a better job.You asked him to come back, because he was popular.
+      quiz:
+        - question: A
+          option:
+            - Ed
+            - Mary
+            - Shane
+            - Tony
+          answer: Ed
+        - question: B
+          option:
+            - Ed
+            - Mary
+            - Shane
+            - Tony
+          answer: Tony
+        - question: C
+          option:
+            - Ed
+            - Mary
+            - Shane
+            - Tony
+          answer: Mary
+        - question: D
+          option:
+            - Ed
+            - Mary
+            - Shane
+            - Tony
+          answer: Shane
+        - question: Ed still works at the Plaza.
+          answer  : False
+        - question: Tony told Ed to be a good man.
+          answer  : True
+        - question: Mary is dead.
+          answer  : True
+        - question: Shane is unhappy.
+          answer  : True
+        - question: Tony is Ed's boss.
+          answer  : False
+        - question: Shane is Mary's father-in-law.
+          answer  : False
   compcomp:
     0:
       identifier: Ed Trinka--doorman
