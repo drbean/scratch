@@ -1,36 +1,159 @@
 ---
-identifier: getting ahead on the job
-A: You are Eva, German, 42. You have a university degree in history, and worked for 15 years in Germany, the US and Poland in sales. You have been with Fast-Track for 1 year. You had a good sales record before, and a satisfactory one now. You speak German, English, Polish. You are quiet, and strong but nervous. You might be a good leader, but might be too dependent.
-B: You, Dr Bean, 61, were Fast-Track's old Polish Sales Manager. Sales were poor and staff was unmotivated, during the 6 months you worked at Fast-Track. You were energetic, but not confident or outgoing, and you had never worked in sales before. You had a graduate degree and were good at administration, but you had no knowledge of Polish, German or Russian.
-C: You are Barbara, Polish, 30. You finished high school and have a marketing diploma. You have been at Fast-Track for 12 years. You are the best sales rep in the Polish team. You know lots of English words, but are not very fluent. You are very strong, energetic, confident. But sometimes you appeared aggressive. You may not be a good team-player.
-D: You are Tadeusz, Polish, 52. You have a university degree in engineering and worked in many industries before joining Fast-Track 5 years ago. You are sales manager for the south of Poland. You increased sales 12\% over the 5 years. You are very relaxed, but a hard worker. You are not creative, but are happy to use others' good ideas. People think you are practical and reliable.
-quiz:
-  - question: The successful candidate will be expected to motivate the sales team.
-    answer: True
-  - question: The successful candidate will be someone with a successful academic career.
-    answer: False
-  - question: Barbara is a very good sales representative, the best at Fast-Track.
-    answer: True
-  - question: Barbara will be a team player, because she is strong and aggressive.
-    answer: False
-  - question: Tadeusz is Fast-Track's manager for all of Poland.
-    answer: False
-  - question: Tadeusz worked in other industries before joining Fast-Track.
-    answer: True
-  - question: Eva's sales record at Fast-Track doesn't appear to have been as good as at her previous jobs.
-    answer: True
-  - question: Eva has worked for Fast-Track for over fifteen years.
-    answer: False
-  - question: The sales representative with the best results is Eva.
-    answer: False
-  - question: The most experienced manager is Tadeusz.
-    answer: True
-  - question: The most energetic person is Barbara.
-    answer: True
-  - question: The person with the best academic background is Barbara.
-    answer: False
-  - question: The person who knows most languages is Eva.
-    answer: True
-  - question: The most creative person is Tadeusz.
-    answer: True
-
+genre: business
+candidate:
+  jigsaw:
+    0:
+      identifier: candidate 0
+      A: You are Eva, German, 42. You have a university degree in history, and worked for 15 years in Germany, the US and Poland in sales. You have been with Fast-Track for 1 year. You had a good sales record before, and a satisfactory one now. You speak German, English, Polish. You are quiet, and strong but nervous. You might be a good leader, but might be too dependent.
+      B: You, Dr Bean, 61, were Fast-Track's old Polish Sales Manager. Sales were poor and staff was unmotivated, during the 6 months you worked at Fast-Track. You were energetic, but not confident or outgoing, and you had never worked in sales before. You had a graduate degree and were good at administration, but you had no knowledge of Polish, German or Russian.
+      C: You are Barbara, Polish, 30. You finished high school and have a marketing diploma. You have been at Fast-Track for 12 years. You are the best sales rep in the Polish team. You know lots of English words, but are not very fluent. You are very strong, energetic, confident. But sometimes you appeared aggressive. You may not be a good team-player.
+      D: You are Tadeusz, Polish, 52. You have a university degree in engineering and worked in many industries before joining Fast-Track 5 years ago. You are sales manager for the south of Poland. You increased sales 12\% over the 5 years. You are very relaxed, but a hard worker. You are not creative, but are happy to use others' good ideas. People think you are practical and reliable.
+      quiz:
+        - question: The successful candidate will be expected to motivate the sales team.
+          answer: True
+        - question: The successful candidate will be someone with a successful academic career.
+          answer: False
+        - question: Barbara is a very good sales representative, the best at Fast-Track.
+          answer: True
+        - question: Barbara will be a team player, because she is strong and aggressive.
+          answer: False
+        - question: Tadeusz is Fast-Track's manager for all of Poland.
+          answer: False
+        - question: Tadeusz worked in other industries before joining Fast-Track.
+          answer: True
+        - question: Eva's sales record at Fast-Track doesn't appear to have been as good as at her previous jobs.
+          answer: True
+        - question: Eva has worked for Fast-Track for over fifteen years.
+          answer: False
+        - question: The sales representative with the best results is Eva.
+          answer: False
+        - question: The most experienced manager is Tadeusz.
+          answer: True
+        - question: The most energetic person is Barbara.
+          answer: True
+        - question: The person with the best academic background is Barbara.
+          answer: False
+        - question: The person who knows most languages is Eva.
+          answer: True
+        - question: The most creative person is Tadeusz.
+          answer: True
+  compcomp:
+    0:
+      identifier: candidate 0
+      White: |+
+        % \vspace{-0.5cm}
+        \begin{large}Barbara \& Tadeusz's strong/weak points\end{large}\\
+        % \vspace{0.5cm}
+        \begin{minipage}{9.1cm}
+        \begin{multicols}{2}
+        \begin{large}Barbara's strong points\end{large}\\
+        \vspace{-0.5cm}
+        \normalsize
+        \begin{description}
+        \item [1:] Best sales results
+        \vspace{-0.3cm}
+        \item [2:] Strong, energetic, confident.
+        \vspace{-0.3cm}
+        \item [3:] Diploma in Marketing
+        \vspace{-0.3cm}
+        \item [4:] Knows computers well.
+        \vspace{-0.3cm}
+        \end{description}
+        \begin{large}Barbara's weak points\end{large}\\
+        \vspace{-0.5cm}
+        \normalsize
+        \begin{description}
+        \item [1:] No concern for others.
+        \vspace{-0.3cm}
+        \item [2:] No university degree.
+        \vspace{-0.3cm}
+        \item [3:] No leadership experience
+        \vspace{-0.3cm}
+        \item [4:] Not fluent in English.
+        \end{description}
+        \begin{large}Tadeusz's strong points\end{large}\\
+        \vspace{-0.5cm}
+        \normalsize
+        \begin{description}
+        \item [1:] Industry experience
+        \vspace{-0.3cm}
+        \item [2:] Leadership experience
+        \vspace{-0.3cm}
+        \item [3:] Good sales results
+        \vspace{-0.3cm}
+        \item [4:] Practical, reliable
+        \vspace{-0.3cm}
+        \end{description}
+        \begin{large}Tadeusz's weak points\end{large}\\
+        \vspace{-0.5cm}
+        \normalsize
+        \begin{description}
+        \item [1:] No new marketing ideas
+        \vspace{-0.3cm}
+        \item [2:] Moves and talks slowly.
+        \vspace{-0.3cm}
+        \item [3:] Speaks only Polish, English
+        \vspace{-0.3cm}
+        \item [4:] Not a lot of sales experience
+        \end{description}
+        \end{multicols}
+        \end{minipage}
+      Black: |+
+        % \vspace{-0.5cm}
+        \begin{large}Eva \&  Dr Bean's strong/weak points\end{large}\\
+        % \vspace{0.5cm}
+        \begin{minipage}{9.1cm}
+        \begin{multicols}{2}
+        \begin{large}Eva's strong points\end{large}\\
+        \normalsize
+        \begin{description}
+        \vspace{-0.5cm}
+        \item [1:] Much sales experience
+        \vspace{-0.3cm}
+        \item [2:] Good sales record
+        \vspace{-0.3cm}
+        \item [3:] Speaks 3 languages
+        \vspace{-0.3cm}
+        \item [4:] Likes administration.
+        \vspace{-0.3cm}
+        \end{description}
+        \begin{large}Eva's weak points\end{large}\\
+        \normalsize
+        \begin{description}
+        \vspace{-0.5cm}
+        \item [1:] No leadership experience
+        \vspace{-0.3cm}
+        \item [2:] Quiet, nervous
+        \vspace{-0.3cm}
+        \item [3:] Few marketing ideas
+        \vspace{-0.3cm}
+        \item [4:] Dependent on others
+        \end{description}
+        \begin{large}Dr Bean's strong points\end{large}\\
+        \normalsize
+        \begin{description}
+        \vspace{-0.5cm}
+        \item [1:] Good at administration
+        \vspace{-0.3cm}
+        \item [2:] Graduate degree
+        \vspace{-0.3cm}
+        \item [3:] Energetic
+        \vspace{-0.3cm}
+        \item [4:] Good at English
+        \vspace{-0.3cm}
+        \end{description}
+        \begin{large}Dr Bean's weak points\end{large}\\
+        \normalsize
+        \begin{description}
+        \vspace{-0.5cm}
+        \item [1:] No sales experience
+        \vspace{-0.3cm}
+        \item [2:] No knowledge of Polish
+        \vspace{-0.3cm}
+        \item [3:] Poor Fast-Track record
+        \vspace{-0.3cm}
+        \item [4:] Not confident, outgoing
+        \end{description}
+        \end{multicols}
+        \end{minipage}
+        % \vspace{-0.5cm}
