@@ -1,0 +1,42 @@
+"# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom::Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: Careers--Tips and Candidates
+indent: 5
+height: 18
+width: 50
+skip: 0
+
+# The following options are for Gvim usage.
+# vim: gvim
+# fuopt: maxhorz,maxvert
+# guioptions: egmLtT
+# guicursor: a:blinkon0-ver25-Cursor
+# guifont: Bitstream_Vera_Sans_Mono:h18
+
+----
+== Candidates
+
++ 1: Who has worked longest at Fast-Track?
++ 2: Who has had the best sales results?
++ 3: Who is the oldest?
++ 4: Who has had most leadership experience?
++ 5: Who speaks most languages?
++ 6: Who has probably worked the longest in sales?
++ 7: Who has the most academic qualifications?
++ 8: Who has the fewest weak points?
++ 9: Who worked the shortest?
++ 10: Who was a failure as sales manager?
++ 11: What criteria should Fast-Track use to choose a
+	manager?
++ 12: What is a weak point in a sales manager?
++ 13: Who should Fast-Track choose as the next manager?
+
+----
+== The End
