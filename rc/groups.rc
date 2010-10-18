@@ -16,10 +16,12 @@ my $l = League->new( leagues => '/home/drbean/class', id => $dir );
 # my $g = Grades->new({ league => $l });
 my %m = map { $_->{id} => $_ } @{ $l->members };
 
-my $gs = LoadFile 'classwork/1/groups.yaml';
+my $session = 2;
+
+my $gs = LoadFile "classwork/$session/groups.yaml";
 my @colors = sort keys %$gs;
 my ( %g, @t, $m );
-push @t, [ $_, $m{$_}->{Chinese} ] for sort keys %m;
+push @t, [ $_, $m{$_}->{name} ] for sort keys %m;
 my $fourth = ceil @t/4;
 my $rumpPlayers = @t % 4;
 my $rumpGroups = $rumpPlayers == 0?	0: 4 - $rumpPlayers;
@@ -41,4 +43,4 @@ for my $i ( $rumpGroups .. $fourth-1 ) {
 									$t[ -1 - $i ]->[1] ];
 }
 
-# DumpFile 'classwork/1/groups.yaml', \%g;
+# DumpFile "classwork/$session/groups.yaml", \%g;
