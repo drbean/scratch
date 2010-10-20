@@ -119,7 +119,7 @@
   - business
   - B
   - |+
-    Tadeusz: I want to do a good job for the company. I think we should expand slowly over the next five years. We're in a very competitive market, so I won't take too many risks. T think we could increase our market share in the long term, but we must be patient and realistic.
+    Tadeusz: I want to do a good job for the company. I think we should expand slowly over the next five years. We're in a very competitive market, so I won't take too many risks. I think we could increase our market share in the long term, but we must be patient and realistic.
 
     I feel I have the ability and experience to do this job. I'm a 'safe pair of hands,' as they say. People respect me because I have good judgement.
   - Tadeusz
@@ -137,11 +137,11 @@
   - interview
   - Dr Bean speaks
   - business
-  - A
+  - D
   - |+
     Dr Bean: I tried very hard to motivate the sales team. But frankly they were very poor sales people, and they did a very bad job. I was unable to get them to enjoy selling Fast-Track material, although I tried very hard, setting up various systems to allow them to see the results of their efforts.
 
-    I don't know, perhaps it's because I don't have a lot of sales experience, myself, or perhaps it was because of my personality. I'm not confident or outgoing. And, although I enjoyed administration of the team, it was very difficult because I don't know any Polish.
+    I don't know, perhaps it's because I don't have any sales experience, myself. Or perhaps it was because of my personality. I'm not confident or outgoing. And, although I enjoyed administration of the team, it was very difficult because I don't know any Polish.
   - Dr Bean
 -
   - careercandidate
@@ -1976,6 +1976,62 @@
   - 2
   - D
   - She has worked for Fast-Track for over fifteen years.
+  - False
+-
+  - business
+  - interview
+  - 1
+  - A
+  - A few people would not like to see Barbara get the job, because it would be difficult for them with her at the top.
+  - True
+-
+  - business
+  - interview
+  - 2
+  - A
+  - Barbara offers the job to a director, because she can't see herself getting the job soon.
+  - False
+-
+  - business
+  - interview
+  - 3
+  - B
+  - Tadeusz doesn't think the company should take too many risks, so it should be patient and increase its market share slowly.
+  - True
+-
+  - business
+  - interview
+  - 4
+  - B
+  - Tadeusz wants to share the job in the long term with people in the company who have good judgement.
+  - False
+-
+  - business
+  - interview
+  - 5
+  - C
+  - Eva organizes people as head of the local business club. She thinks this experience will help her improve the sales team.
+  - True
+-
+  - business
+  - interview
+  - 6
+  - C
+  - Eva will choose people who enjoy working in sales and like organizing other people and telling them what to do.
+  - False
+-
+  - business
+  - interview
+  - 7
+  - D
+  - The experience at Fast-Track was difficult for Dr Bean, because he couldn't motivate the sales team and he didn't know Polish.
+  - True
+-
+  - business
+  - interview
+  - 8
+  - D
+  - Dr Bean motivated people by getting them to enjoy selling Fast-Track material and administration of the team.
   - False
 -
   - business
