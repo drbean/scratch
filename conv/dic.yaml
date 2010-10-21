@@ -784,6 +784,71 @@
     Bernier: We'd love to have you there.
   - Cronig|Bernier|bickering|nonsense
 -
+  - spano
+  - Running a restaurant
+  - upper
+  - A
+  - |+
+    Father: When we opened the restaurant we really didn't know what we were doing. We had some pots and pans from the house and I never cooked anything until we opened that restaurant. I said to myself, my gosh, I don't know how to cook, do I? But I did. And I didn't realize I knew. I learned by watching my grandmother and my mother, and now you're doing it.
+
+    Son: Now we're feeding a thousand people a week.
+
+    Father: Yeah, amazing, isn't it? That's a lot of pasta.
+
+    Son: I never realized before I started working with you, you sure knew how to drew the line between son and employee. And I mean I can remember when I was the first dishwasher at Spano's ..
+  - Father|Son|gosh|pasta|Spano's
+-
+  - spano
+  - Running a restaurant
+  - upper
+  - B
+  - |+
+    Son: .. and I was wondering, why do I have to be the dishwasher?  
+
+    Father: Yeah. I'm the son, I'm supposed to be the executive.  
+
+    Son: Right, I didn't think I was supposed to be the dishwasher.
+
+    Father: You wanted to be president.
+
+    Son: Right. I did. I wanted to walk in, I wanted to wear a shirt and tie my first day on the job.
+
+    Father: But you also saw your dad washing dishes too at that same sink.
+
+    Son: I don't know if you knew early on that I was going to want to do this forever. I don't know if that was part of it and you were trying to teach me or if you were just doing it because that's way it's supposed to be.
+  - Father|Son|executive
+-
+  - spano
+  - Running a restaurant
+  - upper
+  - C
+  - |+
+
+    Father: No, we were trying to teach you a work ethic; whether you were in a restaurant business or not, I think we did a heck of a job.
+
+    Son: Right, but it wasn't until started doing it for myself that I realized, okay, this is why they did it the way they did it.
+
+    Father: Yeah, well, you know, they say the older you get, the smarter your parents get.
+
+    Son: Yeah, I'm real - now I know. Just this past Friday night, my dishwasher got sick and the guys in the kitchen were busy and I took my coat off and I took my tie off and I put an apron on and I started scrubbing dishes. And I mean the guys in the kitchen, they were amazed.
+  - Father|Son|heck|ethic
+-
+  - spano
+  - Running a restaurant
+  - upper
+  - D
+  - |+
+    Son: I guess they had never seen the owner scrubbing dishes before.
+
+    Father: What do you like about the restaurant business? It's not easy, is it?
+
+    Son: No, but if I hit the lottery tomorrow and never had to work another day in my life, I would not close the restaurant down.
+
+    Father: Um-hum.
+
+    Son: Because, you can have all the money in the world, but if you don't do something that has any meaning, I mean, what's the point? When somebody's plate comes back completely empty, that's instant gratification. Or they were starving to death, one of the two, and that makes it all worthwhile. There's no other job like that. You know, at least every day I can make somebody happy.
+  - Father|Son|lottery
+-
   - roxborough
   - An embarassing incident
   - intermediate
@@ -2187,6 +2252,62 @@
   - 8
   - D
   - To close a deal, you have to negotiate and nod with approval, and the deal is done.
+  - False
+-
+  - upper
+  - spano
+  - 1
+  - A
+  - They had never cooked when they opened the restaurant. But they knew how to cook by watching their mother.
+  - True
+-
+  - upper
+  - spano
+  - 2
+  - A
+  - When he started working in the restaurant as a dishwasher he realized he was the son rather than an employee.
+  - False
+-
+  - upper
+  - spano
+  - 3
+  - B
+  - He didn't want to wash dishes, but his dad also washed dishes. He wanted to teach his son the way to do the job.
+  - True
+-
+  - upper
+  - spano
+  - 4
+  - B
+  - The dad wanted to teach his son that the president was supposed to execute his job, but didn't have to wash dishes.
+  - False
+-
+  - upper
+  - spano
+  - 5
+  - C
+  - His parents were teaching him that in the restaurant, his job includes scrubbing dishes if the guys in the kitchen get sick.
+  - True
+-
+  - upper
+  - spano
+  - 6
+  - C
+  - The restaurant business is a heck of a job. The guys in it do the work smarter than the way their parents did.
+  - False
+-
+  - upper
+  - spano
+  - 7
+  - D
+  - He likes the restaurant business because it has meaning. It is gratifying when somebody likes the dishes and is happy.
+  - True
+-
+  - upper
+  - spano
+  - 8
+  - D
+  - The owner is gratified when starving people come back with one or two empty plates and scrub them.
   - False
 -
   - intermediate
