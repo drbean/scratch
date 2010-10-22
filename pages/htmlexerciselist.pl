@@ -69,7 +69,7 @@ my $storystring = '
 </p>
 <p>
 Fill in the blanks in the <a 
-href=http://203.64.184.141/cgi-bin/<TMPL> $location </TMPL>/script_files/dic_cgi.pl/login?exercise=<TMPL> $id </TMPL>><TMPL> $id </TMPL></a> exercise. (You will be asked to log in.)
+href=http://203.64.184.141/<TMPL> $location </TMPL>/login?exercise=<TMPL> $id </TMPL>><TMPL> $id </TMPL></a> exercise. (You will be asked to log in.)
 </p>
 </div>
 
