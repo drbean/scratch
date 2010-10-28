@@ -157,3 +157,11 @@ tyson:
           answer: Ray
         - question: Ella is Ray's mother
           answer: False
+spano:
+  jigsaw:
+    0:
+      identifier: spano 0
+      A: You established an Italian restaurant with your son, Joe, Jr, even though you had never cooked before. When you started, you wanted your son to realize the value of hard work, so you gave him unimportant jobs, like dishwashing, to teach him that. 
+      B: You liked the cooking and the atmosphere at Spano's Italian Restaurant, so you were sad when you read that it was closing because it could not compete with the chain restaurants in the town. You always appreciated Joe's interest in your reaction to the food.
+      C: You and your father started a restaurant. He left you to handle it, while he went on to other things. It is very gratifying to you when guests like Luke tell you they love the cooking, and they empty their plates. You know this shows they loved the meal. You tell your cook, Manny.
+      D: You were surprised when Joe washed the dishes at the restaurant one night when the usual dishwasher was sick. He told you that all the work of the restaurant is important. He said the cooking and the attention to detail is why the restaurant is popular.
