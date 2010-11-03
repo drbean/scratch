@@ -5,6 +5,7 @@ use warnings;
 use IO::All;
 use YAML qw/LoadFile DumpFile/;
 use List::Util qw/sum/;
+use List::MoreUtils qw/any/;
 use Cwd;
 
 $_REPL->load_plugin('DumpHistory');
@@ -13,10 +14,12 @@ $_REPL->load_plugin('DumpHistory');
 use Grades;
 my $l = League->new( leagues => '/home/drbean/class', id => $dir );
 my $g = Grades->new({ league => $l });
-my $pool = $l->yaml->{pool};
+my $pool = $l->yaml->{member};
 my %m = map { $_->{id} => $_ } @$pool;
+my @roles = qw/White Black/;
 
-my $round = 1;
+my $round = 7;
+
 my $roundfile = LoadFile "comp/$round/round.yaml";
 my $activities = $roundfile->{activity};
 
@@ -25,7 +28,7 @@ for my $key ( sort keys %$activities ) {
 	my $topic = $activities->{$key};
 	for my $form ( sort keys %$topic ) {
 		my $pairs = $topic->{$form};
-	    push @ids, map { values %$_ } @$pairs;
+	    push @ids, map { @$_{@roles} } @$pairs;
 	}
 }
 
@@ -33,7 +36,14 @@ if ( $roundfile->{bye} ) {
 	push @ids, $roundfile->{bye};
 }
 
-my @members = map { $m{$_} } @ids;
-DumpFile "comp/$round/members.yaml", \@members;
+if ( $roundfile->{late} ) {
+	my $tardies = $roundfile->{late};
+	for my $tardy ( @$tardies ) {
+		push @ids, $tardy unless any { $tardy eq $_ } @ids;
+	}
+}
 
-# DumpFile 'comp/1/members.yaml', \@members
+my @sorted = sort @ids;
+my @members = map { $m{$_} } @sorted;
+
+# DumpFile "comp/$round/members.yaml", \@members;
