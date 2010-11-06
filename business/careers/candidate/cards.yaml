@@ -37,6 +37,190 @@ candidate:
           answer: True
         - question: The most creative person is Tadeusz.
           answer: True
+    1:
+      identifier: candidate 1
+      A: You are Eva, German, 42. You have a university degree, and have worked for 15 years in Germany, the US and Poland in sales. You believe in learning away from the job. You have been with Fast-Track for 1 year. You have a good sales record. You speak German, English, Polish. You are quiet, and strong but nervous. You might be a good leader, but you are too dependent on others.
+      B: You, Dr Bean, 61, were Fast-Track's old Polish Sales Manager. You believe in doing things the hard way. Sales were poor and staff was unmotivated, during your 6 months at Fast-Track. You had never worked in sales before, and had no knowledge of Polish, German or Russian. You had been a computer programmer. You had a Ph.D. in computer science.
+      C: You are Barbara, Polish, 30. You believe in setting your own goals. You finished high school, and have been at Fast-Track for 12 years. You are the best sales rep in the team, but you are not very fluent in English. You are very strong, energetic, confident. But you only think about yourself, and you are not a good team-player.
+      D: You are Tadeusz, Polish, 52. You believe in thinking about the job you are doing. You have a university degree and worked in many industries before joining Fast-Track 5 years ago. You are sales manager for the south of Poland. You have had good sales results. You are very relaxed, but a hard worker. You are not creative. People think you are practical and reliable.
+      quiz:
+        - question: Who believes you should have your own goals?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+            - Dr Bean
+          answer: Barbara
+        - question: Who had most schooling (education)?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+            - Dr Bean
+          answer: Dr Bean
+        - question: Who speaks fewest languages?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+            - Dr Bean
+          answer: Dr Bean
+        - question: Who has worked in sales longest?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+            - Dr Bean
+          answer: Eva
+        - question: Whose weak point is working with others?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+            - Dr Bean
+          answer: Barbara
+        - question: Whose strong point is industry experience?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+            - Dr Bean
+          answer: Tadeusz
+    2:
+      identifier: candidate 2
+      quiz:
+        - question: Who thinks thinking about the job is important?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+            - Dr Bean
+          answer: Tadeusz
+        - question: Who has had best sales results?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+            - Dr Bean
+          answer: Barbara
+        - question: Who speaks Polish but not that much English?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+            - Dr Bean
+          answer: Barbara
+        - question: Who has least sales experience?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+            - Dr Bean
+          answer: Dr Bean
+        - question: Whose strong point is knowledge of languages?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+            - Dr Bean
+          answer: Eva
+        - question: Whose weak point is thinking of new ideas?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+            - Dr Bean
+          answer: Tadeusz
+    3:
+      identifier: candidate 3
+      quiz:
+        - question: Who thinks you should do things the hard way.
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+            - Dr Bean
+          answer: Dr Bean
+        - question: Who has had the least amount of schooling?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+            - Dr Bean
+          answer: Barbara
+        - question: Who has had the most sales experience?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+            - Dr Bean
+          answer: Eva
+        - question: Who has the worst sales record?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+            - Dr Bean
+          answer: Dr Bean
+        - question: Who is oldest?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+            - Dr Bean
+          answer: Dr Bean
+        - question: Whose strong point is industry experience?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+            - Dr Bean
+          answer: Tadeusz
+    4:
+      identifier: candidate 4
+      quiz:
+        - question: Who believes in learning when away from the job?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+            - Dr Bean
+          answer: Eva 
+        - question: Who is youngest?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+            - Dr Bean
+          answer: Barbara
+        - question: Who has most leadership experience?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+            - Dr Bean
+          answer: Tadeusz
+        - question: Who speaks the most English and least Polish?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+            - Dr Bean
+          answer: Dr Bean
+        - question: Who has worked at Fast-Track the longest?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+            - Dr Bean
+          answer: Barbara
+        - question: Whose weak point is sales results?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+            - Dr Bean
+          answer: Dr Bean
   compcomp:
     0:
       identifier: candidate 0
