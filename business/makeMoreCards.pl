@@ -43,7 +43,7 @@ for my $t ( keys %$cards ) {
 			source =>  'oneA4twogroups.tmpl' ,
 			delimiters => [ '<TMPL>', '</TMPL>' ]);
 		my $quiztmpl = Text::Template->new( type => 'file',
-			source =>  'namequestionsA4.tmpl' ,
+			source =>  '../tmpl/namequestionsA4.tmpl' ,
 			delimiters => [ '<TMPL>', '</TMPL>' ]);
 		my $fio = io "$ARGV[0]/jigsaw$t$f.tex";
 		my $qio = io "$ARGV[0]/quiz$t$f.tex";
