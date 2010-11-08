@@ -121,7 +121,7 @@ breakstone:
       A: Your mother told you Santa Claus is an imaginary person, and doesn't really exist. You feel you must tell everyone. You tell Mary Breakstone, and she punches you in the face.
       B: Your daughter comes home crying, saying Chrissie told her there is no Santa Claus. She says she punched Chrissie in the face. You tell her that Chrissie is right. There is no Santa Claus.
       C: One Christmas Eve, you saw Santa Claus in your living room kissing your Mom, so you believe in Santa Claus. Now Chrissie and your Mom tell you he doesn't exist. You are upset. 
-      D: Children believe in you, but adults don't. You live at the North Pole and at Christmas you ride through the sky and deliver presents to children all around the world.
+      D: Children believe in you, but adults don't. You live at the North Pole and at Christmas you deliver gifts. Sometimes parents dress up as you for fun. Their children don't know.
       quiz:
         - question: A
           option: 
@@ -162,7 +162,7 @@ breakstone:
         - question: Mary saw Santa kissing Mom.
           answer: True
         - question: Mary perhaps saw Dad.
-          answer: False
+          answer: True
 desantis:
   jigsaw:
     1:
