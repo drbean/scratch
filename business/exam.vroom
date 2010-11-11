@@ -1,0 +1,27 @@
+# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom::Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: Exam 2
+indent: 5
+height: 18
+width: 50
+skip: 0
+
+---- center
+Exam 2
+
+by Dr Bean
+
+(hint: press the spacebar)
+
+----
+== Read these slides
+
+How to do the 2-person Comprehension Question questions
+http://web.nuu.eedu.
