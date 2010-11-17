@@ -48,14 +48,6 @@ vacations:
           answer: False
         - question: The biggest problem in coming to agreement is the range of destinations.
           answer: True
-        - question: 
-          answer: True
-        - question: 
-          answer: False
-        - question: 
-          answer: True
-        - question: 
-          answer: True
   compcomp:
     0:
       identifier: vacations 0
