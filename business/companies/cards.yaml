@@ -1,0 +1,55 @@
+---
+identifier: ikea
+ikea:
+  jigsaw:
+    0:
+      identifier: ikea 0
+      A: Swedish wood design has always been very good. But IKEA has its designers cooperate with the producers of furniture. The designers go into the factories and understand the production process. So the designs are not just good. They are also cheap to make and easy to package.
+      B: Ninety percent of IKEA stores are in Europe. It has also focused on cheap DIY products, which is high volume, but is also just one section of the furniture market. Some customers also have problems putting the furniture together. When they take it back to the store, the service center cannot help them.
+      C: IKEA now has operations in Japan, Hong Kong, Singapore, mainland China, Malaysia and Taiwan and is planning to open in Korea. It would like to set up stores in India, where it buys \$600 million in textiles and other goods, but India limits foreign ownership of single-brand retailers.
+      D: The world economy is tough. People don't have money to buy furniture. In 2008/09, IKEA sales grew only by 1.4 percent. IKEA shoppers are focusing on price and are buying less on sudden impulse. An economic recovery is not seen in the next two years. 27\% of store closings in 2007 in the US were of furniture stores.
+      quiz:
+        - question: 
+          answer: True
+  compcomp:
+    0:
+      identifier: swot 0
+      White: |+
+        \begin{normalsize} IKEA's strengths and weaknesses \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Strengths] \begin{minipage}{6.9cm}
+                \begin{description}
+                \item [Idea] Simple, easy to understand, unique idea of cheap, quality DIY furniture.
+                \item [Culture] Strong company culture, symbolized by the yellow and blue of the Swedish flag.
+                \item [Design] Good designers who work with producers and understand packaging.
+                \end{description}
+                \end{minipage}
+        \item [Weaknesses] \begin{minipage}{6.9cm}
+                \begin{description}
+                \item [Base] European-based, not international.
+                \item [Service] After-sales service not good.
+                \end{description}
+                \end{minipage}
+                
+        \end{description}
+
+      Black: |+
+        \begin{normalsize} IKEA's opportunities and threats \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Opportunities] \begin{minipage}{6.1cm}
+                \begin{description}
+                \item [Markets] Asian/East European operations.
+                \item [Products] Mid-/high-priced products.
+                \item [Ecommerce] But customers want to see/touch the product.
+                \end{description}
+                \end{minipage}
+        \item [Threats] \begin{minipage}{6.9cm}
+                \begin{description}
+                \item [Economy] Weak economy means buyers don't have the money to buy furniture.
+                \item [Competition] Now there are few very similar direct competitors who are strong, but there could be more.
+                \end{description}
+                \end{minipage}
+        \end{description}
+
