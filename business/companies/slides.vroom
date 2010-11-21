@@ -1,0 +1,77 @@
+# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom::Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: Companies
+indent: 5
+height: 18
+width: 50
+skip: 0
+
+---- center
+Companies
+
+by Dr Bean
+
+(hint: press the spacebar)
+
+----
+
+SWOT
+
++ Strengths
++ Weaknesses
++ Opportunities
++ Threats
+
+----
+SWOT diagram
+
+
+		   Positive (good)        Negative (bad)
+
+Internal              Strengths         Weaknesses
+(Inside the company)
+
+External              Opportunities     Threats
+(Outside the company
+in the environment)
+
+----
+IKEA
+
+http://www.ikea.com
+
+
+http://www.youtube.com/watch?v=kP9PZYjVwUo&NR=1	IKEA product testing
+http://www.youtube.com/watch?v=rYKLs25f9y8&NR=1&feature=fvwp	IKEA DIY problems
+http://www.youtube.com/watch?v=vOHtaecissg&feature=fvst	Prankster at IKEA
+http://www.youtube.com/user/ikea?blend=1&ob=4#p/c/8CC8DEC2CC198AC3/0/pVtHPWY9BOs	Cooking with IKEA
+http://www.youtube.com/watch?v=IBnRe9iJxyU&feature=PlayList&p=B0BAEAF9FD56C818&index=36&playnext=6&playnext_from=PL	IKEA commercial sequence
+http://www.youtube.com/watch?v=DvQvHTiFFZM&feature=related	IKEA Sleep like a rock
+http://www.youtube.com/watch?v=b0YZH1Mjyx4&NR=1	Nate Dern on IKEA
+http://www.youtube.com/watch?v=U1WJ1qCqtn8&feature=related	Matthew Murray on IKEA
+http://www.youtube.com/watch?v=g-SJ31eM-IY	Peter Correale on IKEA
+http://www.youtube.com/watch?v=MP5ndHZfFUQ&feature=related	News about family lost in IKEA
+http://www.youtube.com/watch?v=0FS0t8vPn7w&feature=related	People freeze at IKEA
+http://marklivesinikea.com	Mark's adventures in IKEA
+
+----
+Which of the 4 areas is relevant.
+
++ IKEA customers don't have as much money as they used to.
++ Threats
++ IKEA is opening a new store in Australia.
++ Opportunities
++ IKEA's idea is simple to understand
++ Strengths
++ IKEA's executives are all European
++ Weakness
+
+----
+== The End
