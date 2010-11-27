@@ -143,7 +143,26 @@ topic:
           </ul>
         comment:  He implies that Chinese do not state their honest opinion, and they also do not express disagreement honestly. What do you think? I don't think what he says is really correct. I think he is exaggerating.
       -
-        id: disagreement
+        id: no
         title: Bissky on Disagreement by raising objections
         blurb: How do you communicate disagreement? What does the other party understand you to mean, when you raise objections to their plan? How do you say 'No' in English?
         comment: <a href=http://tw.youtube.com/user/gabissky>Greg Bissky</a> says Westerners and Chinese business people may fail to communicate because of their misunderstanding of what the other party believes objections mean, in <a href=http://tw.youtube.com/watch?v=z4HB1aUE4p4>Western-Chinese Business: Saying No Without Saying No</a> on Youtube.
+  -
+    id: verbal
+    title: Verbal intercultural communication 
+    story:
+      -
+        id: leaving
+        title: You'll be wanting to leave now.
+        blurb: Dr Bean lived 5 years with <a href=http://images.google.com/images?hl=en&source=imghp&biw=1028&bih=611&q=australian+aborigines&gbv=2&aq=0&aqi=g10&aql=&oq=Australian+abo&gs_rfai=>Aboriginals</a> in <a href=http://images.google.com/images?hl=en&biw=1028&bih=611&gbv=2&tbs=isch%3A1&sa=1&q=northern+australia&aq=0&aqi=g1g-m1&aql=&oq=Northern+Austr&gs_rfai=>Northern Australia</a>. Listen to him talk about <a href=http://web.nuu.edu.tw/~greg/intercultural/leaving1.wav>an intercultural communication problem</a>.
+        comment: How can you get someone to leave without hurting their feelings? It is very difficult. Perhaps this man was able to do it with me. Or perhaps he just felt that I wanted to leave and was giving me an excuse.
+      -
+        id: melissa
+        title: Hakka woman tells Minnan story
+        blurb: Melissa tells a <a href=http://web.nuu.edu.tw/~greg/intercultural/minnanstory.wav>story</a> about trying to learn Minnan from classmates and trying to teach them Hakka.
+        comment: Is it better to be considerate and not laugh at someone's pronunciation because it may hurt their feelings? What do you think?
+      -
+        id: frank3
+        title: Hakka man shopping with Minnan father-in-law
+        blurb: Frank Liu (劉發州) N9561766 tells a <a href=http://web.nuu.edu.tw/~greg/intercultural/frank3.wav>story about Hakka-Minnan intercultural miscommunication</a>.
+        comment: Is Frank's analysis of Hakka and Minnan attitudes to payment by other than the host correct?
