@@ -39,9 +39,9 @@ topic:
           Listen to <a href=http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/jackson.mp3>the rest</a> of <a href=http://www.storycorps.org/listen/stories/charles-jackson>Charles Jackson</a>'s story about his mother's and his <a href=http://en.wikipedia.org/wiki/Alzheimer's_disease>Alzheimer's disease</a>.
         comment: Alzheimer's disease is a hereditary condition. Charles' mother's family all had the problem. Now Charles has it too. Is his family coping with it better now than it did with his mother's Alzheimer's?
   -
-    id: ceremonies
+    id: festivals
     title: Cultural events
-    intro: What are some events where people get together and celebrate something? Christmas is one. In the West, <a href="http://en.wikipedia.org/wiki/Christmas">Christmas</a> is a family event, especially significant for children because it's the one occasion in the year when they get new toys. Some families intentionally mislead children, having them believe Santa Claus really exists. Putting presents under a decorated <a href="http://en.wikipedia.org/wiki/Christmas_tree">Christmas tree</a> and opening them on Christmas morning is an important part of Christmas.
+    intro: What are some events where people get together and celebrate something? Christmas is one. In the West, <a href="http://en.wikipedia.org/wiki/Christmas">Christmas</a> is a family event, especially significant for children because it's the one occasion in the year, besides birthdays, when they get new toys. Some families intentionally mislead children, having them believe Santa Claus really exists. Putting presents under a decorated <a href="http://en.wikipedia.org/wiki/Christmas_tree">Christmas tree</a> and opening them on Christmas morning is an important part of Christmas.
     story:
       -
         id: breakstone
@@ -55,6 +55,32 @@ topic:
         blurb: |
           During war, eg <a href="http://en.wikipedia.org/wiki/World_War_II>World War II"</a>, Christmas goes, or <a href="http://www.npr.org/templates/story/story.php?storyId=6660388">went,</a> on.
         comment: Or download the file <a href="http://storycorps.org/wordpress/wp-content/uploads/listen/audio/desantis.mp3">here</a>.
+      -
+        id: conley
+        title: Stretching the Christmas dollar
+        blurb: |
+          <a href=http://www.npr.org/templates/story/story.php?storyId=17469155>Carrie Conley tells her son</a> about <a href=http://www.english-idioms.net/cgi-bin/idiom.cgi?idiom=stretch%20the%20dollar>stretching the dollar</a> at Christmas. Like buying old toys at a <a href=http://www.salvationarmyusa.org/usn/www_usn_2.nsf/vw-dynamic-index/e3610fb5ddd550a1802573250030e32a?opendocument>Salvation Army store</a>
+        comment: What do you think about buying second-hand goods? Or donating old things to people in need? Where can you buy second-hand things in Taiwan, Miaoli?
+      -
+        id: breaksantschif
+        title: Christmas, marriage stories
+        blurb: |
+          Listen to soundfiles produced by the <a href=http://www.cstr.ed.ac.uk/projects/festival/>Festival</a> text-to-speech system, of the stories of <a href="http://storycorps.org/listen/stories/mary-and-bob-breakstone">Mary Breakstone</a>, <a href="http://www.npr.org/templates/story/story.php?storyId=6660388">Marie Desantis</a>, and <a href="http://www.npr.org/templates/story/story.php?storyId=100655882">Bill Schifrin</a>.
+        comment: |+
+          No questions this week. Just fill in the blanks.<p>
+          <ul>
+          <li><a href=http://web.nuu.edu.tw/~greg/intermediate/breaksantschifA.mp3>A students</a> 
+          <li><a href=http://web.nuu.edu.tw/~greg/intermediate/breaksantschifB.mp3>B students</a> 
+          <li><a href=http://web.nuu.edu.tw/~greg/intermediate/breaksantschifC.mp3>C students</a> 
+          <li><a href=http://web.nuu.edu.tw/~greg/intermediate/breaksantschifD.mp3>D students</a> 
+          </ul>
+      -
+        id: macaulay
+        title: Cooking Thanksgiving dinner for 80
+        blurb: |
+          <a href=http://www.npr.org/2010/11/18/131425207/one-man-s-tradition-thanksgiving-dinner-for-strangers>Scott Macaulay</a> cooks <a href=http://en.wikipedia.org/wiki/Thanksgiving>Thanksgiving</a> dinner for 80 people who have no one to eat it together with each year. What do people without families do at Chinese New Year and Autumn Moon Festival here in Taiwan.
+        comment: Very interesting idioms here: in the same boat, Gee, rotten, fake, Norman Rockwell.
+
   -
     id: play
     title: People having fun
@@ -137,6 +163,23 @@ topic:
     intro: <a href="http://en.wikipedia.org/wiki/Studs_Terkel">Studs Terkel</a>, a pioneering collector of stories from Americans, said work was a search for 'daily meaning as well as daily bread.'
     story:
       - 
+        id: trinka
+        title: Ed Trinka, hotel doorman
+        blurb: |
+          <p>Ed Trinka is well-known in New York.
+          <ul>
+          <li><a href=http://www.storycorps.net/listen/ed-trinka-and-debra-goodman>Plaza Hotel doorman</a></li>
+          <li><a href=http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/trinka.mp3>The MP3</a></li>
+          <li>Dead link: <a href=http://www.cliftonjournal.com/NC/0/1012.html>Ed Trinka Retires from Plaza Hotel at 65</a></li>
+          <li><a href=http://www.nydailynews.com/services/realestate/2007/09/27/2007-09-27_welcome_home.html>Plaza Hotel in NY Daily News</a></li>
+          <li><a href=http://www.npr.org/templates/story/story.php?storyId=15017817>NPR Transcript</a></li>
+          <li><a href=http://images.google.com/images?gbv=2&svnum=10&hl=en&q=+plaza+hotel+New+York+ed+trinka&btnG=Search+Images>Plaza and Ed Trinka pictures</a></li>
+          <li><a href=http://www.classichollywoodbios.com/jackiegleason.htm>Jackie Gleason</a></li>
+          <li><a href=http://www.youtube.com/watch?v=qDp2OTi_4Jk>Jackie Gleason on Youtube</a></li>
+          </ul>
+          He has now retired. Telling his <a href=http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/trinka.mp3>his story</a>, he looks back at the job and talks about how to treat people. He was a great doorman, because he treated everyone like a VIP. His philosophy was to make people feel good.
+        comment: Why do you think he is so popular? Would you like to be a doorman? What do you think a doorman job involves? What do you think about treating everyone like a VIP?
+      - 
         id: trinka-1
         title: Ed Trinka, hotel doorman
         blurb: |
@@ -213,6 +256,85 @@ topic:
         title: Martha Vineyard store story
         blurb: <a href="http://www.npr.org/templates/story/story.php?storyId=12471418">Robbie Cronig</a> (born 1918) on <a href=http://www.cronigsmarket.com/>Cronig's Market</a>, and <a href=http://history.vineyard.net/mainst/seven/33/index.html>the history of his family's store</a>. Or <a href=http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/cronig.mp3>download it</a>
         comment: His family were <a href=http://www.jewishvirtuallibrary.org/jsource/vjw/vineyard.html>Jewish immigrants</a>. <a href=http://www.manta.com/c/mmgx7mt/cronig-s-markets>Cronig's Market</a> is now owned by Steve Bernier. But times are <a href=http://www.mvgazette.com/article.php?17552>tough<a/> on <a href=http://en.wikipedia.org/wiki/Martha's_Vineyard>Martha's Vineyard</a>.
+      -
+        id: spano
+        title: Finding meaning in Italian restaurant
+        blurb: The restaurant business, as seen by <a href="http://www.npr.org/templates/story/story.php?storyId=93845948">Joe Spano, Senior and Joe Spano, Junior</a>. The Texas restaurant has now <a href=http://www.reporternews.com/news/2007/nov/06/spanos-restaurant-closes-down>closed down</a>. and <a href=http://www.tripadvisor.co.uk/ShowUserReviews-g46745-d1113401-r71487874-Spano_s_Ristorante_Italiano-Point_Pleasant_Beach_New_Jersey.html#REVIEWS>reopened in New Jersey</a>. You can <a href=http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/spano.mp3>download</a> the soundfile.
+        comment: |
+          They are speaking quickly, so the dialogue may be difficult to understand.
+          Interesting vocabulary:
+          <ul>
+            <li><a href=http://www.urbandictionary.com/define.php?term=heck>heck</a>
+            <li><a href=http://en.wikipedia.org/wiki/Gratification>instant gratification</a>
+          </ul>
+  -
+    id: hotel
+    title: The hotel industry
+    intro: In NYC, one of the most expensive places in the US to visit, there are many different hotels, ranging from the $700-per-night <a href=http://en.wikipedia.org/wiki/Plaza_Hotel>Plaza Hotel</a> to the $10-a-night Sunshine Hotel in the <a href=http://en.wikipedia.org/wiki/Bowery>the Bowery</a>
+    story:
+      -
+        id: trinka
+        title: Ed Trinka, hotel doorman
+        blurb: |
+          <p>Ed Trinka is well-known in New York.
+          <ul>
+          <li><a href=http://www.storycorps.net/listen/ed-trinka-and-debra-goodman>Plaza Hotel doorman</a></li>
+          <li><a href=http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/trinka.mp3>The MP3</a></li>
+          <li>Dead link: <a href=http://www.cliftonjournal.com/NC/0/1012.html>Ed Trinka Retires from Plaza Hotel at 65</a></li>
+          <li><a href=http://www.nydailynews.com/services/realestate/2007/09/27/2007-09-27_welcome_home.html>Plaza Hotel in NY Daily News</a></li>
+          <li><a href=http://www.npr.org/templates/story/story.php?storyId=15017817>NPR Transcript</a></li>
+          <li><a href=http://images.google.com/images?gbv=2&svnum=10&hl=en&q=+plaza+hotel+New+York+ed+trinka&btnG=Search+Images>Plaza and Ed Trinka pictures</a></li>
+          <li><a href=http://www.classichollywoodbios.com/jackiegleason.htm>Jackie Gleason</a></li>
+          <li><a href=http://www.youtube.com/watch?v=qDp2OTi_4Jk>Jackie Gleason on Youtube</a></li>
+          </ul>
+          He has now retired. Telling his <a href=http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/trinka.mp3>his story</a>, he looks back at the job and talks about how to treat people. He was a great doorman, because he treated everyone like a VIP. His philosophy was to make people feel good.
+        comment: Why do you think he is so popular? Would you like to be a doorman? What do you think a doorman job involves? What do you think about treating everyone like a VIP?
+      - 
+        id: trinka-1
+        title: Ed Trinka, hotel doorman
+        blurb: |
+          <p>Ed Trinka is well-known in New York.
+          <ul>
+          <li><a href=http://www.storycorps.net/listen/ed-trinka-and-debra-goodman>Plaza Hotel doorman</a></li>
+          <li><a href=http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/trinka.mp3>The MP3</a></li>
+          <li><a href=http://www.cliftonjournal.com/NC/0/1012.html>Ed Trinka Retires from Plaza Hotel at 65</a></li>
+          <li><a href=http://www.nydailynews.com/services/realestate/2007/09/27/2007-09-27_welcome_home.html>Plaza Hotel in NY Daily News</a></li>
+          <li><a href=http://www.npr.org/templates/story/story.php?storyId=15017817>NPR Transcript</a></li>
+          <li><a href=http://images.google.com/images?gbv=2&svnum=10&hl=en&q=+plaza+hotel+New+York+ed+trinka&btnG=Search+Images>Plaza and Ed Trinka pictures</a></li>
+          <li><a href=http://www.classichollywoodbios.com/jackiegleason.htm>Jackie Gleason</a></li>
+          <li><a href=http://www.youtube.com/watch?v=qDp2OTi_4Jk>Jackie Gleason on Youtube</a></li>
+          </ul>
+        comment: Why do you think he is so popular? Would you like to be a doorman?
+      - 
+        id: trinka-2
+        title: Ed Trinka on how to treat people
+        blurb: |
+          Ed Trinka has now retired. In the rest of <a href=http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/trinka.mp3>his story</a>, he looks back at the job and talks about how to treat people. He was a great doorman, because he treated everyone like a VIP. His philosophy was to make people feel good.
+        comment: What do you think a doorman job involves? What do you think about treating everyone like a VIP? Would you like to be a doorman?
+      -
+        id: sunshine
+        title: Last New York flophouse
+        blurb: |
+          Listen to Storycorps founder, Dave Isay's <a href=http://www.soundportraits.org/media/sunshine_hotel.ram>The Sunshine Hotel</a>, a documentary about the <a href=http://soundportraits.org/on-air/the_sunshine_hotel/>Sunshine Hotel</a>, one of the last <a href=http://en.wikipedia.org/wiki/Flophouse>flophouses</a> in New York. This soundfile requires <a href=http://huxley.real.com/real/player/player.html?dc=112011191118>RealAudio</a>.
+        comment: |
+          Interesting vocabulary:
+            <ul>
+            <li><a href=http://www.urbandictionary.com/define.php?term=Ten%20Four>ten-four</a>, police radio code for "了解"
+            <li><a href=http://en.wikipedia.org/wiki/Chicken_wire>chicken wire</a>
+            </ul>
+      -
+        id: spanosunconley
+        title: Good lives/Bad lives
+        blurb: Listen to soundfiles produced by the <a href=http://www.cstr.ed.ac.uk/projects/festival/>Festival</a> text-to-speech system, of the stories of <a href="http://www.npr.org/templates/story/story.php?storyId=93845948">Joe Spano, Senior and Joe Spano, Junior</a>, <a href=http://www.soundportraits.org/media/sunshine_hotel.ram>The Sunshine Hotel</a>, and <a href=http://www.npr.org/templates/story/story.php?storyId=17469155>Carrie Conley and her son, Jerry Johnson</a>.
+        comment: |+
+          No questions this week. Just fill in the blanks.<p>
+          <ul>
+          <li><a href=http://web.nuu.edu.tw/~greg/upper/spanosunconleyA.mp3>A students</a> 
+          <li><a href=http://web.nuu.edu.tw/~greg/upper/spanosunconleyB.mp3>B students</a> 
+          <li><a href=http://web.nuu.edu.tw/~greg/upper/spanosunconleyC.mp3>C students</a> 
+          <li><a href=http://web.nuu.edu.tw/~greg/upper/spanosunconleyD.mp3>D students</a> 
+          </ul>
+
 
   -
     id: relations
