@@ -49,6 +49,13 @@ topic:
           <li><b>D students:</b> KED describes <a href=http://web.nuu.edu.tw/~greg/business/candidateD.mp3>Eva</a> </li>
           </ul>
       -
+        id: interview
+        title: Barbara, Tadeusz, Eva, Dr Bean speak
+        blurb: |
+          Listen to the three candidates for the job of Marketing Manager in Poland for Fast-Track on page 13 of Market Leader. And listen to Dr Bean's experience as manager.
+        comment: |
+          The files are at <a href=http://elearning.nuu.edu.tw> http://elearning.nuu.edu.tw</a>. Login and find them in the Learning Interaction Area.
+      -
         id: careercandidate
         title: Thinking about your career--Would you be a good candidate?
         blurb: |+
@@ -70,10 +77,10 @@ topic:
           <p>
 
           <ul>
-          <li><b>A students:</b> SLT describes what <a href=http://web.nuu.edu.tw/~greg/onlineA.mp3>the website needs to do.</a> </li>
-          <li><b>B students:</b> KED describes <a href=http://web.nuu.edu.tw/~greg/onlineB.mp3>the different types of customers.</a> </li>
-          <li><b>C students:</b> AWB talks about <a href=http://web.nuu.edu.tw/~greg/onlineC.mp3>Argos's experience with its online operation.</a> </li>
-          <li><b>D students:</b> BDL describes <a href=http://web.nuu.edu.tw/~greg/onlineD.mp3>the increased competition and dual-pricing policies.</a> </li>
+          <li><b>A students:</b> SLT describes what <a href=http://web.nuu.edu.tw/~greg/business/onlineA.mp3>the website needs to do.</a> </li>
+          <li><b>B students:</b> KED describes <a href=http://web.nuu.edu.tw/~greg/business/onlineB.mp3>the different types of customers.</a> </li>
+          <li><b>C students:</b> AWB talks about <a href=http://web.nuu.edu.tw/~greg/business/onlineC.mp3>Argos's experience with its online operation.</a> </li>
+          <li><b>D students:</b> BDL describes <a href=http://web.nuu.edu.tw/~greg/business/onlineD.mp3>the increased competition and dual-pricing policies.</a> </li>
           </ul>
 
       -
@@ -93,7 +100,7 @@ topic:
       -
         id: webnegotiation
         title: Negotiating a web design contract
-        blurb: Negotiation is a very important business subject. In these soundfiles we listen to information about a negotiation by Michelle, an online bookstore operator and a website designer. Look at page 18 of Market Leader.
+        blurb: Negotiation is a very important business subject. You need to be good at language. The Chinese are regarded as good negotiators. In these soundfiles we listen to information about a negotiation by Michelle, an online bookstore operator and a website designer. Look at page 18 of Market Leader. What they want is different than what they are prepared to accept. They want more, but will accept less.
         comment: |+
           <ul>
           <li><b>A students:</b> You are negotiating for Michelle. You have details of <a href=http://web.nuu.edu.tw/~greg/business/webnegotiationA.mp3>Michelle's requirements or demands.</a> </li>
@@ -104,7 +111,7 @@ topic:
       -
         id: vacations
         title: Negotiating Travel Company Joint Venture
-        blurb: Look at the <b>Lifetime Holidays</b> Case Study on p 20-21 and <b>p 139</b> and <b>p 140</b> of the textbook. Lifetime Holidays wants to negotiate a <a href=http://en.wikipedia.org/wiki/Joint_venture>joint venture</a> with an online travel company, Direct Sun. Will they be able to reach an agreement?
+        blurb: Look at the <b>Lifetime Holidays</b> Case Study on p 20-21 and <b>p 139</b> and <b>p 140</b> of the textbook. Lifetime Holidays, a company like Japan's <a href=http://www.jtbcorp.jp/en/>Japan Travel Bureau</a> wants to negotiate a <a href=http://en.wikipedia.org/wiki/Joint_venture>joint venture</a> with an online travel company, Direct Sun, which is like <a href=http://www.eztravel.com.tw>EZ Travel</a>. Will they be able to reach an agreement?
         comment: |+
           <ul>
           <li><b>A students:</b> You are negotiating for Lifetime Holidays. You have details of <a href=http://web.nuu.edu.tw/~greg/business/vacationsA.mp3>their requirements or demands.</a> </li>
@@ -128,6 +135,18 @@ topic:
           <li><b>C students:</b> Listen to <a href="http://marklivesinikea.com/01_video/06_marks_ikea_word_scramble_01.html">Mark's IKEA word scramble #1</a> and <a href="http://marklivesinikea.com/01_video/07_mark_gets_buff_in_ikea.html">Mark gets buff in IKEA</a> and <a href="http://marklivesinikea.com/01_video/08_mark_hitchhikes_in_ikea.html">Mark hitchhikes in IKEA</a> and <a href="http://marklivesinikea.com/01_video/09_mark_closes_ikea.html">Mark closes IKEA</a>.
           <li><b>D students:</b> Listen to <a href="http://marklivesinikea.com/01_video/11_marks_date_in_ikea_01.html">Mark's date in IKEA Part 01</a>, <a href="http://marklivesinikea.com/01_video/12_marks_date_in_ikea_02.html">Mark's date in IKEA Part 02</a>, <a href="http://marklivesinikea.com/01_video/13_marks_date_in_ikea_03.html">Mark's date in IKEA Part 03</a>, and <a href="http://marklivesinikea.com/01_video/14_marks_date_in_ikea_04.html">Mark's date in IKEA Part 04</a>.
           </ul>
+      -
+        id: swotikea
+        title: IKEA SWOT analysis
+        blurb: <a href="http://en.wikipedia.org/wiki/SWOT_analysis">SWOT</a> may or may not be helpful to the business person, but there are lots of a <a href=http://www.google.com/search?q=ikea%20swot%20analysis&num=30>IKEA swot analyses</a> on the Internet. I extracted some of the common points and made soundfiles of them.
+        comment: |+
+          <ul>
+          <li><b>A students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/companies/swotikeaA.mp3">IKEA strengths</a>.
+          <li><b>B students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/companies/swotikeaB.mp3">IKEA weaknesses</a>.
+          <li><b>C students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/companies/swotikeaC.mp3">IKEA opportunities</a>.
+          <li><b>D students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/companies/swotikeaD.mp3">IKEA threats</a>.
+          </ul>
+          
   -
     id: greatideas
     title: Great business ideas
