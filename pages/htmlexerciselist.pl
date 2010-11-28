@@ -42,7 +42,8 @@ use YAML qw/LoadFile/;
 use IO::All;
 use Text::Template;
 use Pod::Usage;
-use List::MoreUtils qw/any/;
+use List::Util qw/first/;
+use List::MoreUtils qw/any all/;
 
 my $io   = io "-";
 my $areastring = '<div class=area id="<TMPL> $id </TMPL>">
@@ -151,7 +152,7 @@ Note: You need to login to transcribe the conversation.
 <ul>
 	<li>Your name is your Chinese name in Chinese characters. Your ID is your school ID. 
 	<li>The first letter of the ID, eg U or N, is a capital (big) letter. 
-	<li>Your password is the first half of your first name. It is in English, not the Chinese character. Thus JiaQi\'s pasword is Jia. See <a href=http://humanum.arts.cuhk.edu.hk/Lexis/Lindict/syllabary>Lin YuTang's Chinese-English dictionary</a> for the spelling.
+	<li>Your password is the first half of your first name. It is in English, not the Chinese character. Thus JiaQi\'s pasword is Jia. See <a href=http://humanum.arts.cuhk.edu.hk/Lexis/Lindict/syllabary>Lin YuTang's Chinese-English dictionary</a> for the Hanyu Pinyin (漢語拼音) spelling.
 	<li>If I was not able to find the first character in your name, your password may be a question mark. Eg, 賴?岑. Other people whose names my computer does not have Chinese characters for are 黃慧? and ?琮婷, but their passwords should be okay.
 </ul>
 </p>
@@ -171,16 +172,23 @@ sub topicsAndStories {
     my $location = shift;
     my @topicids = split /,/, $topics;
     my @storyids = split /,/, $stories;
-    for my $topic ( @{ $area->{topic} } ) {
-	next unless any { $topic->{id} eq $_ } @topicids;
+    my %seen; @seen{ @storyids } = ( undef ) x @storyids;
+    my $topicLibrary = $area->{topic};
+    for my $id ( @topicids ) {
+	my $topic = first { $_->{id} eq $id } @$topicLibrary;
+	die "No $id topic," unless $topic;
 	$io->append( $topictmpl->fill_in( hash => $topic ) );
-	for my $story ( @{ $topic->{story} } ) {
-	    next unless any { $story->{id} eq $_ } @storyids;
+	my $storyLibrary = $topic->{story};
+	for my $id ( @storyids ) {
+	    my $story = first { $_->{id} eq $id } @$storyLibrary;
+	    next unless $story;
+	    $seen{$id}++;
 	    $story->{location} = $location;
 	    $io->append( $storytmpl->fill_in( hash => $story ) );
 	}
 	$io->append("\n</div>\n\n");
     }
+    die "Missing story," unless all { $seen{$_} } keys %seen;
 }
 
 # vim: set ts=8 sts=4 sw=4 noet:
