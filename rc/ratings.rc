@@ -1,0 +1,30 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use IO::All;
+use YAML qw/LoadFile DumpFile/;
+use Cwd; use File::Basename;
+
+$_REPL->load_plugin('DumpHistory');
+
+my $dir = basename( getcwd );
+
+use Grades;
+my $l = League->new( leagues => '/home/drbean/class', id => $dir );
+my $g = Grades->new({ league => $l });
+my %m = map { $_->{id} => $_ } @{ $l->members };
+my $approach = $l->approach;
+my $grades = $g->grades;
+
+my $yaml = $l->yaml;
+my $members = $l->members;
+my @rated;
+for my $member ( @$members ) {
+	my $id = $member->{id};
+	$member->{rating} = $grades->{ $id };
+	push @rated, $member;
+}
+
+$yaml->{member} = \@rated;
+# DumpFile 'league.yaml', $yaml;
