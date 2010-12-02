@@ -85,3 +85,68 @@ desantis:
       B: You have two brothers. One of them, Joe is in the services, fighting in Germany. The other, John is not a soldier. He lives at home and works at an office in New York City. Joe is missing, you are afraid to tell your parents.
       C: You are a soldier fighting in Germany. You get separated from your unit. Later your unit finds you. You write a Christmas letter to your mother,  Anna from hospital. You ask if your family is putting up a Christmas tree.
       D: You bought a Christmas tree and put it under the front steps, and you tell Marie, your sister, but you don't tell your mother. You hope she will change her mind about the tree. 
+conley:
+  jigsaw:
+    0:
+      identifier: conley 0
+      A: Most black people like the idea of you, an imaginary person, giving people presents at Christmas. But you got no respect from Jerry's mom. You are a man and she is a woman. She was the one providing everything for their family. Jerry's father left her to be with another woman.
+      B: At Christmas, you always felt you were the luckiest kid in the world, because of all the toys. You never thought much about where the toys came from. Your mother, never talked about Santa. You guessed she was the one who was providing them, like everything else.
+      C: You brought up your six children by yourself after Sam walked out. But you never misled your kids about who was providing the presents and food at Christmas. You had worked so hard to buy lots of toys and food for them, And the idea that some man was doing this for them annoyed you.
+      D: You and your wife, Carrie had six children, but you split up. You did not provide any support for the children after the break-up, so it was tough for her. But she had worked even when you were together, so she was able to provide for the kids by stretching the dollar.
+  compcomp:
+    0:
+      identifier: conley 0
+      White: |+
+        \begin{normalsize} Buying second-hand things \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Items] Clothes, electrical goods, furniture and cars are some of the things Westerners buy second-hand. There are huge numbers of used car yards.
+        \item [Charity] Thrift stores (AmE) or charity shops (BrE) are run by charities like the Salvation Army and sell clothes to both poorer people and to wealthier people for Halloween costumes, for instance.
+        \item [Garage sales] Individuals also clear out large numbers of unused things they don't need on weekends, before moving, for example. These are advertised in the neigborhood on power poles.
+         \end{description}
+      Black: |+
+        \begin{normalsize} Shopping overseas \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Politeness] Westerners are usually polite to the shop people. When you want to see something, say, Could I have a X please? Say, Thank you, when they hand you something. When clothes don't fit, be polite.
+        \item [Friendliness] If the shop assistant wants to be friendly, be friendly back. Look them in the eye and smile.
+         \item [Xmas] If 2 weeks before Christmas, some item is not on the shelves, it is out of stock. Everyone in the country is buying Christmas goods now. Don't ask them to go in the back and check.
+         \end{description}
+      quiz:
+        - question: Westerners buy second-hand things only if they have no money.
+          answer: False
+        - question: Politeness is considered to be very important when you're shopping in the West.
+          answer: True
+        - question: A garage sale is where you buy a place to park your car.
+          answer: False
+        - question: At the shopping mall, it's common for some items to be out of stock in the weeks before Christmas.
+          answer: True
+macaulay:
+  jigsaw:
+    0:
+      identifier: macaulay 0
+      A:  You are a woman and a pastor at the First Baptist Church. You are 92, but you are still active in the church. In particular, you help Scott at his annual Thanksgiving dinner for people who do not have family to share Thanksgiving dinner with. You take people without transport to the church and say a prayer before people start to eat the Thanksgiving meal.
+      B: You are a member of the First Baptist Church, in Melrose, Massachusetts, but your family is on the other side of the country. So you go to Scott's Thanksgiving dinner every year, because Thanksgiving is a time to be with family. You do not have a car, so Veronica (Ronnie) gives you a ride to the church in the church's van. 
+      C: You are the senior pastor at the First Baptist Church, Like Veronica, you are a woman. Baptist churches have not always welcomed woman pastors. But your church appreciates the work you do for it. You appreciate the work Veronica does and the Thanksgiving dinners Scott has put on for the last 25 years at the church.
+      D: You are not a regular attender at the First Baptist Church, and Thanksgiving is a secular festival, rather than a religious one, but putting your dinner on at the church seems appropriate to you. It's no problem to you that the church is headed by Damaris, a woman. You get on well with her. You also welcome Lonnie, who comes each year to the dinner.
+  compcomp:
+    0:
+      identifier: thanksgiving 0
+      White: |+
+        \begin{normalsize} Thanksgiving \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Date] The fourth Thursday in November in the US. The second Monday in October in Canada.
+        \item [Character] A secular (non-religious) festival to give thanks for the harvest. In fact, similar festivals in Europe have a religious ( but not necessarily Christian) nature.
+        \item [Activities] No gift-giving, but there is eating, family reunions, taking a nap, and watching football on TV.
+        \item [History] Some Canadians disagree, but most people think the ceremony originated in a Pilgrim feast the first settlers had with the Indians in New England, in thanks for helping them survive in the new land.
+        \end{description}
+      Black: |+
+        \begin{normalsize} Christmas \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Date] December 25
+        \item [Character] A religious festival to celebrate the birth of Jesus Christ. In fact, nowadays, it is more an occasion to meet family and exchange lots of presents, and eat lots of food.
+        \item [Activities] Gift-giving, eating, family reunions, taking a nap, watching special Christmas shows on TV.
+        \item [History] Christmas celebrates the birth of Jesus Christ, but in fact it was originally a non-Christian Roman festival called Saturnalia.
+        \end{description}
