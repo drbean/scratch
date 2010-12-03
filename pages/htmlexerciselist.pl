@@ -14,13 +14,6 @@ has 'area' => (
     required => 1,
     cmd_aliases => 'a',
 );
-has 'topic' => (
-    traits      => ['Getopt'],
-    is          => 'ro',
-    isa         => 'Str',
-    required => 0,
-    cmd_aliases => 't',
-);
 has 'story' => (
     traits      => ['Getopt'],
     is          => 'ro',
@@ -98,7 +91,6 @@ sub run {
     pod2usage(1) if $script->help;
     pod2usage( -exitstatus => 0, -verbose => 2 ) if $script->man;
     my $areas = $script->area;
-    my $topics = $script->topic;
     my $stories = $script->story;
     my ( $area, $Area );
     my $location = $script->location;
@@ -130,7 +122,7 @@ soundfiles and write down what you hear.</p>
     for my $area ( @$areas ) {
 	my $listening = LoadFile "$area/content.yaml";
 	$io->append( $areatmpl->fill_in( hash => $listening ) );
-	$io->append( topicsAndStories( $topics, $stories, $listening, $location ) );
+	$io->append( topicsAndStories( $stories, $listening, $location ) );
     }
 
     my $endhtml =
@@ -166,29 +158,29 @@ If you have any problem email me at drbean at (@) freeshell dot (.) org, or come
 }
 
 sub topicsAndStories {
-    my $topics = shift;
     my $stories = shift;
     my $area = shift;
     my $location = shift;
-    my @topicids = split /,/, $topics;
     my @storyids = split /,/, $stories;
     my %seen; @seen{ @storyids } = ( undef ) x @storyids;
     my $topicLibrary = $area->{topic};
-    for my $id ( @topicids ) {
-	my $topic = first { $_->{id} eq $id } @$topicLibrary;
-	die "No $id topic," unless $topic;
-	$io->append( $topictmpl->fill_in( hash => $topic ) );
-	my $storyLibrary = $topic->{story};
-	for my $id ( @storyids ) {
+    my $presentTopic = '';
+    for my $id ( @storyids ) {
+	for my $topic ( @$topicLibrary ) {
+	    my $storyLibrary = $topic->{story};
 	    my $story = first { $_->{id} eq $id } @$storyLibrary;
 	    next unless $story;
-	    $seen{$id}++;
+	    unless ( $presentTopic eq $topic->{id} ) {
+		$io->append("\n</div>\n\n");
+		$io->append( $topictmpl->fill_in( hash => $topic ) )
+	    }
+	    $presentTopic = $topic->{id};
 	    $story->{location} = $location;
 	    $io->append( $storytmpl->fill_in( hash => $story ) );
+	    $seen{$id}++;
 	}
-	$io->append("\n</div>\n\n");
     }
-    die "Missing story," unless all { $seen{$_} } keys %seen;
+    die "Missing $_ story," for grep { not $seen{$_} } keys %seen;
 }
 
 # vim: set ts=8 sts=4 sw=4 noet:
