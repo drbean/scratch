@@ -3,13 +3,14 @@ id: contest
 title: Dictation Contest
 blurb: |
          <p>
-         <b>Dictation Contestants.</b> <ol><li>Open 2 windows in Internet Explorer or Firefox. <li>In one window, choose one of the following topics and the sound track that goes with it to listen to. The topics are ordered by difficulty, from easier to more difficult.  <li>While listening to the sound track in the first window, log in in the second window to the dictation exercise that goes with the topic, and fill in the blanks.
+         <b>Dictation Contestants.</b> 
+         <ol><li>Open 2 windows in Internet Explorer or Firefox. <li>In one window, choose one of the following topics and the sound track that goes with it to listen to. The topics are ordered by difficulty, from easier to more difficult.
+         <li>While listening to the sound track in the first window, log in in the second window to the dictation exercise that goes with the topic, and fill in the blanks.
          <br>
          After logging in, you can move between exercises using the links below, or at the <a href="http://sac.nuu.edu.tw/contest/exercises/list">Exercise List</a>.
-         <br>
-         The winners are the people who fill in most letters. You can check how you are going at <a href="http://web.nuu.edu.tw/~greg/standings.txt">standings</a>.
-         <br>
-         If you want to help a friend, read <a href="http://web.nuu.edu.tw/~greg/friendrules.txt">Rules for helping a friend</a>.
+         <li> Don't use any other software than the soundfile player and the web browser. Don't go to any other sites than the ones linked from this page.
+         <li> The winners are the people who fill in most letters. You can check how you are going at <a href="http://web.nuu.edu.tw/~greg/standings.txt">standings</a>.
+         <li> If you want to help a friend, read <a href="http://web.nuu.edu.tw/~greg/friendrules.txt">Rules for helping a friend</a>.
          </p>
 topic:
   -
