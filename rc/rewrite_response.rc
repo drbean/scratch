@@ -1,0 +1,31 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use IO::All;
+use YAML qw/LoadFile DumpFile/;
+use Cwd; use File::Basename;
+
+$_REPL->load_plugin('DumpHistory');
+
+my $dir = basename( getcwd );
+use Grades;
+my $l = League->new( leagues => '/home/drbean/class', id => $dir );
+my $g = Grades->new({ league => $l });
+my %m = map { $_->{id} => $_ } @{ $l->members };
+
+my $round = 1;
+my $config = LoadFile "comp/$round/round.yaml";
+my $activity = $config->{activity};
+my $topickey = ( keys %$activity )[0];
+my $topic = $activity->{$topickey};
+my $formkey = ( keys %$topic )[0];
+
+my %new;
+my $old = LoadFile "comp/$round/response.yaml";
+for my $table ( keys %$old ) {
+	$new{$table} = { $topickey => { $formkey => $old->{$table} } };
+}
+
+# rename "comp/$round/response.yaml", "comp/$round/response.yaml.orig";
+# DumpFile "comp/$round/response.yaml", \%new;
