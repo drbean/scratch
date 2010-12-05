@@ -37,6 +37,7 @@ use Text::Template;
 use Pod::Usage;
 use List::Util qw/first/;
 use List::MoreUtils qw/any all/;
+use FindBin qw/$Bin/;
 
 my $io   = io "-";
 my $areastring = '<div class=area id="<TMPL> $id </TMPL>">
@@ -120,7 +121,7 @@ soundfiles and write down what you hear.</p>
     $io->print($starthtml);
 
     for my $area ( @$areas ) {
-	my $listening = LoadFile "$area/content.yaml";
+	my $listening = LoadFile "$Bin/$area/content.yaml";
 	$io->append( $areatmpl->fill_in( hash => $listening ) );
 	$io->append( topicsAndStories( $stories, $listening, $location ) );
     }
