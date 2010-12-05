@@ -146,6 +146,17 @@ topic:
           <li><b>C students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/companies/swotikeaC.mp3">IKEA opportunities</a>.
           <li><b>D students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/companies/swotikeaD.mp3">IKEA threats</a>.
           </ul>
+      -
+        id: dictation
+        title: Dr Bean's company
+        blurb: Dr Bean wants to set up a company to make money from his Dictation Exercise.
+        comment: |+
+          <ul>
+          <li><b>A students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/companies/dictationA.mp3">Dr Bean's idea</a>.
+          <li><b>B students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/companies/dictationB.mp3">Dr Bean's problem with money</a>.
+          <li><b>C students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/companies/dictationC.mp3">Dr Bean's character and the English market</a>.
+          <li><b>D students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/companies/dictationD.mp3">Dr Bean's customers</a>.
+          </ul>
           
   -
     id: greatideas
