@@ -176,9 +176,9 @@ douglas:
     1:
       identifier: douglas 1
       A: Your father is the manager for a car wash company. You are embarrassed that the owner of the company, an old man called Frank, ran faster than your dad in a race. You want your dad to get into shape and to beat Frank in a second race.
-      B: The owner of your company made you feel bad about your weight. He said he could run faster than you. You had been in bad shape before. But after surgery, you felt you could beat him. You challenged him to a race. You lost. Your son, Jackson wanted you to race him again.
+      B: The owner of your company made you feel bad about your weight. He said he could run faster than you. After surgery, you felt you could beat him. You challenged him to a race. You lost. Your son, Jackson wanted you to race him again in a second race.
       C: You worked in a car wash company. Your boss, Antonio was not in good shape, even after surgery. The owner of the company, Frank always joked about Antonio's weight, but some of the jokes were unkind. So you want Antonio to run a second race against Frank, and to win.
-      D: You are the owner of a car wash company. You are 70. One of your managers, Antonio was not in good shape, so you joked about his weight with John, one of the employees at the car wash. John didn't like the jokes. John and everyone else wants Antonio to win the second race.
+      D: You own a car wash company. You are 70. One of your managers, Antonio was not in good shape, so you joked about his weight with John, one of the employees at the car wash. John didn't like the jokes. John and everyone else wants Antonio to win the second race.
       quiz:
         - question: A
           option: 
