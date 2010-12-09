@@ -165,3 +165,33 @@ spano:
       B: You liked the cooking and the atmosphere at Spano's Italian Restaurant, so you were sad when you read that it was closing because it could not compete with the chain restaurants in the town. You always appreciated Joe's interest in your reaction to the food.
       C: You and your father started a restaurant. He left you to handle it, while he went on to other things. It is very gratifying to you when guests like Luke tell you they love the cooking, and they empty their plates. You know this shows they loved the meal. You tell your cook, Manny.
       D: You were surprised when Joe washed the dishes at the restaurant one night when the usual dishwasher was sick. He told you that all the work of the restaurant is important. He said the cooking and the attention to detail is why the restaurant is popular.
+douglas:
+  jigsaw:
+    0:
+      identifier: douglas 0
+      A: Your father is the manager for a car wash company. You are embarrassed that the owner of the company, Frank, ran faster than your dad in a race. You want your dad to get into shape and to whip Frank in a second race.
+      B: The owner of your company to a race always said you were not in good shape. And you had been in bad shape before you had bypass surgery. You weighed 150 kg. After bypass surgery, you weighed 110 kg. You challenged him to a race. You lost.
+      C: You worked in a car wash company. Your boss, Antonio was not in good shape, even after bypass surgery. He lost the first race. You want him to run a second race against Frank, the owner. You hope he can win it. 
+      D: You loved Antonio and his son, Jackson, You wanted him to get into shape, so you joked about his weight with John, one of the employees at the car wash. Some of the jokes were unkind. So John really wanted to see Antonio win the second race too. 
+  compcomp:
+    0:
+      identifier: douglas 0
+      White: |+
+        \begin{normalsize} NAACP \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Character] The US's oldest, largest, most-recognized interest group advocating the interests of black people.
+        \item [History] Started in 1909 in New York, by a group of mostly white people. 
+        \item [Membership] 500,000
+        \item [Finances] In 2004, it spent \$4 million more than it earned. It spent \$360,000 lobbying in Washington, in 2008.
+        \item [Pressure] Without the same amount of money, prestige, or membership as other interest groups. It has to apply pressure on government from `outside,' rather than go `inside' like the AARP and other groups.
+        \end{description}
+      Black: |+
+        \begin{normalsize} AARP \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Character] One of the largest membership organizations in the US. It is an interest (pressure) group, advocating the interests of older people, but it also sells insurance to members and has other services for them.
+        \item [History] Started in 1958, by a retired teacher. Some people say the aim of selling insurance was more important than promoting older people's interests.
+        \item [Membership] 40,000,000
+        \item [Finances] Revenue for 2006 was approximately \$1 billion and \$23 million was spent on lobbying government.
+        \end{description}
