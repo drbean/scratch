@@ -173,6 +173,53 @@ douglas:
       B: The owner of your company to a race always said you were not in good shape. And you had been in bad shape before you had bypass surgery. You weighed 150 kg. After bypass surgery, you weighed 110 kg. You challenged him to a race. You lost.
       C: You worked in a car wash company. Your boss, Antonio was not in good shape, even after bypass surgery. He lost the first race. You want him to run a second race against Frank, the owner. You hope he can win it. 
       D: You loved Antonio and his son, Jackson, You wanted him to get into shape, so you joked about his weight with John, one of the employees at the car wash. Some of the jokes were unkind. So John really wanted to see Antonio win the second race too. 
+    1:
+      identifier: douglas 1
+      A: Your father is the manager for a car wash company. You are embarrassed that the owner of the company, an old man called Frank, ran faster than your dad in a race. You want your dad to get into shape and to beat Frank in a second race.
+      B: The owner of your company made you feel bad about your weight. He said he could run faster than you. You had been in bad shape before. But after surgery, you felt you could beat him. You challenged him to a race. You lost. Your son, Jackson wanted you to race him again.
+      C: You worked in a car wash company. Your boss, Antonio was not in good shape, even after surgery. The owner of the company, Frank always joked about Antonio's weight, but some of the jokes were unkind. So you want Antonio to run a second race against Frank, and to win.
+      D: You are the owner of a car wash company. You are 70. One of your managers, Antonio was not in good shape, so you joked about his weight with John, one of the employees at the car wash. John didn't like the jokes. John and everyone else wants Antonio to win the second race.
+      quiz:
+        - question: A
+          option: 
+           - Antonio
+           - Frank
+           - Jackson
+           - John
+          answer: Jackson
+        - question: B
+          option: 
+           - Antonio
+           - Frank
+           - Jackson
+           - John
+          answer: Antonio
+        - question: C
+          option: 
+           - Antonio
+           - Frank
+           - Jackson
+           - John
+          answer: John
+        - question: D
+          option: 
+           - Antonio
+           - Frank
+           - Jackson
+           - John
+          answer: Frank
+        - question: Antonio works for Frank.
+          answer: True
+        - question: Antonio is John's boss.
+          answer: True
+        - question: Antonio likes Frank's jokes.
+          answer: False
+        - question: John likes Frank's jokes.
+          answer: False
+        - question: Jackson wants Frank to win.
+          answer: False
+        - question: John wants Antonio to win.
+          answer: True
   compcomp:
     0:
       identifier: douglas 0
