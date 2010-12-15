@@ -287,37 +287,44 @@ fourswot:
     0:
       identifier: fourswot 0
       A: |+
-        \begin{bfseries}IKEA\end{bfseries} On-line shopping is important but difficult for companies which already have stores.\\
-        \textbf{Valentino} People think that someone who eats Valentino's chocolates is rich.\\
-        \textbf{Dr Bean}\\
-        \textbf{Flicker} was the first company to develop the cheap plastic lighter.
+        \item [IKEA] On-line shopping is important but difficult for companies which already have stores.\\
+        \item [Valentino] People think that someone who eats Valentino's chocolates is rich.\\
+        \item [Dr Bean] is \\
+        \item [Flicker] was the first company to develop cheap plastic lighters.
       B: |+
-        \textbf{IKEA} Some people like to go to stores to see the furniture, but many people don't want to go to the store.\\
-        \textbf{Valentino} Customers buy Valentino's expensive chocolates because it shows they are rich.
-        \textbf{Dr Bean}\\
-        \textbf{Flicker}
+        \item [IKEA] Some people like to go to stores to see the furniture, but many people don't want to go to the store.\\
+        \item [Valentino] Customers buy Valentino's expensive chocolates because it shows they are rich.\\
+        \item [Dr Bean] is\\
+        \item [Flicker] researchers' recent discoveries mean cheaper lighters are possible.
       C: |+
-        \textbf{IKEA} IKEA's distribution system makes delivery of the furniture easy and cheap.
-        \textbf{Valentino} thinks that if it makes cheaper chocolates, people who cannot afford them now might start to buy them.
-        \textbf{Dr Bean}\\
-        \textbf{Flicker}
+        \item [IKEA]'s distribution system makes delivery of the furniture easy and cheap.\\
+        \item [Valentino] thinks that if it makes cheaper chocolates, people who cannot afford them now might start to buy them.\\
+        \item [Dr Bean] is\\
+        \item [Flicker] Other manufacturers of cigarette lighters pay Flicker to use its technology.
       D: |+
-        \textbf{IKEA} IKEA furniture has always been DYI (do-it-yourself). People have to assemble it themselves.\\
-        \textbf{Valentino} A marketing expert told the company that it will lose its customers if it starts to make cheap chocolates.
-        \textbf{Dr Bean}\\
-        \textbf{Flicker}
+        \item [IKEA] furniture has always been DYI (do-it-yourself). People have to assemble it themselves.\\
+        \item [Valentino] A marketing expert told the company that it will lose its customers if it starts to make cheap chocolates.\\
+        \item [Dr Bean] is \\
+        \item [Flicker] spends lots of money on research and development.
       quiz:
         - question: IKEA is thinking about on-line shopping. On-line shopping for IKEA is a:
           option:
-            - Strength
-            - Weakness
-            - Opportunity
-            - Threat
-          answer: Opportunity
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: an opportunity
         - question: Valentino is thinking about making chocolate which is cheaper than other chocolate makers. A price competition for Valentino is a:
           option:
-            - Strength
-            - Weakness
-            - Opportunity
-            - Threat
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
           answer: Opportunity
+        - question: Flicker's technology is a:
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a strength
