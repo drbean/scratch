@@ -1,5 +1,111 @@
 ---
-identifier: ikea
+identifier: companies
+ikval:
+  compcomp:
+    0:
+      identifier: ikval 0
+      White: |+
+        \begin{normalsize} IKEA company profile \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Description] The world's biggest mass-market retailer: 100,000 employees and 230 stores in 33 countries.
+        \item [Financial status] The company is privately-owned (not on the stock market). Revenue (Sales) last year was \$32 billion. Profits are believed to be about \$2 billion before tax. Despite the economic downturn, company sales and profit are still strong.
+        \item [Idea] It has achieved success with cheap but attractively-designed furniture, which is assembled by users at home. IKEA designers must think about how the furniture will be manufactured at the same time as they design the furniture.
+        \end{description}
+      Black: |+
+        \begin{normalsize} Valentino company profile \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Description] Valentino is a medium-size European chocolate manufacturer and retailer with 300 employees and 75 stores in 6 countries.
+        \item [Financial status] The company is privately-owned (not on the stock market). Revenue (Sales) last year was \$90 million. Profits before tax are believed to be about \$2 million. Rising costs and slowing sales mean profit has fallen.
+        \item [Idea] The company has emphasized more-expensive, high-quality, good-tasting, good-looking chocolates, sold only in its own stores. People think the buyers of Valentino chocolates are rich.
+        \end{description}
+four:
+  jigsaw:
+    0:
+      identifier: four companies 0
+      A: Flicker manufactures cigarette lighters. Ten years ago, revenue from sales of cigarette lighters was \$160 million. Now it's only \$120 million. Of this, \$8 million is from sales in China. It has a factory in China. It plans to develop new products like camping equipment and clothes there.
+      B: Dr Bean produces dictation exercises for English learners. He has not sold any product. He wants to sell his product to schools and people who send him a soundfile. His problem is dictation is not interesting, and other companies have similar exercises.
+      C: IKEA had sales last year of \$32 billion and profits of about \$2 billion. It has achieved success with cheap furniture which is attractively designed. Most of its sales are in the Europe, but it is also strong in the US, and is now expanding to Asia and Russia.
+      D: Valentino had revenue of \$90 million last year. Profit is probably now only about \$2 million. It is trying to develop new products and find new markets. It can invest in coffee shops which sell its products, or it can set up a new factory in the United States, or it can sell on the Internet.
+      quiz:
+        - question: The company with no sales:
+          option:
+            - Dr Bean
+            - Flicker
+            - IKEA
+            - Valentino
+          answer: Dr Bean
+        - question: The biggest company:
+          option:
+            - Dr Bean
+            - Flicker
+            - IKEA
+            - Valentino
+          answer: IKEA
+        - question: Strength is cheap, attractively-designed furniture.
+          option:
+            - Dr Bean
+            - Flicker
+            - IKEA
+            - Valentino
+          answer: IKEA
+        - question: Threat is competing companies.
+          option:
+            - Dr Bean
+            - Flicker
+            - IKEA
+            - Valentino
+          answer: Dr Bean
+        - question: Opportunity is coffee shop investment.
+          option:
+            - Dr Bean
+            - Flicker
+            - IKEA
+            - Valentino
+          answer: Valentino
+        - question: Weakness is uninteresting product.
+          option:
+            - Dr Bean
+            - Flicker
+            - IKEA
+            - Valentino
+          answer: Dr Bean
+        - question: Opportunity is camping and clothes products.
+          option:
+            - Dr Bean
+            - Flicker
+            - IKEA
+            - Valentino
+          answer: Flicker
+        - question: IKEA can ask Flickr to make camping furniture which it will sell.
+          option:
+            - Strength
+            - Weakness
+            - Opportunity
+            - Threat
+          answer: Opportunity
+        - question: Valentino hears IKEA sells cheap, but nice, chocolates in its own coffee shops.
+          option:
+            - Strength
+            - Weakness
+            - Opportunity
+            - Threat
+          answer: Threat
+        - question: The top executives at Dr Bean and Flicker only speak English.
+          option:
+            - Strength
+            - Weakness
+            - Opportunity
+            - Threat
+          answer: Weakness
+        - question: IKEA and Valentino have people who know how their suppliers work.
+          option:
+            - Strength
+            - Weakness
+            - Opportunity
+            - Threat
+          answer: Strength
 ikea:
   jigsaw:
     0:
@@ -9,8 +115,34 @@ ikea:
       C: IKEA now has operations in Japan, Hong Kong, Singapore, mainland China, Malaysia and Taiwan and is planning to open in Korea. It would like to set up stores in India, where it buys \$600 million in textiles and other goods, but India limits foreign ownership of single-brand retailers.
       D: The world economy is tough. People don't have money to buy furniture. In 2008/09, IKEA sales grew only by 1.4 percent. IKEA shoppers are focusing on price and are buying less on sudden impulse. An economic recovery is not seen in the next two years. 27\% of store closings in 2007 in the US were of furniture stores.
       quiz:
-        - question: 
-          answer: True
+        - question: IKEA customers don't have as much money as they used to.
+          option:
+            - strength
+            - weakness
+            - opportunity
+            - threat
+          answer: threat
+        - question: IKEA is opening a new store in Australia.
+          option:
+            - strength
+            - weakness
+            - opportunity
+            - threat
+          answer: opportunity
+        - question: IKEA's idea is simple to understand.
+          option:
+            - strength
+            - weakness
+            - opportunity
+            - threat
+          answer: strength
+        - question: IKEA's executives are all European.
+          option:
+            - strength
+            - weakness
+            - opportunity
+            - threat
+          answer: weakness
   compcomp:
     0:
       identifier: swot 0
@@ -52,4 +184,140 @@ ikea:
                 \end{description}
                 \end{minipage}
         \end{description}
+valentino:
+  jigsaw:
+    0:
+      identifier: valentino 0
+      A: Valentino chocolates are a luxury product and a well-known European brand. The company has expanded quickly over the past ten years. It now has 300 employees, 75 company-owned stores, and revenue each year of \$90 million. However in the last 2 years, sales have slowed down and costs have risen. What should the company do?
+      B: Some reasons for falling profits: 1) Competitors are selling luxury chocolates at lower prices. 2) New Valentino chocolates developed 6 months ago are not as popular as expected and old, popular products are losing popularity. 3) Sales staff are disappointed by 2), and are not trying as hard to sell the company's chocolates.
+      C: Industry analysts say Valentino can continue to grow, only if it develops new products and new markets. The company has decided to spend money on new development projects. It is thinking of 1) buying new chocolate-making machinery, 2) spending more money on developing new chocolates, 3) setting up a factory in the US.
+      D: Valentino is also thinking of 3) buying a local competitor, 4) investing in existing coffee shops which already sell Valentino chocolates, 5) selling chocolates on the Internet, 6) buying cars for the sales staff, 7) surveying the East European and Asian markets, 8) making cake, cookies and/or candy, that is, products without chocolate.
 
+dictation:
+  compcomp:
+    0:
+      identifier: dictation 0
+      White: |+
+        \begin{normalsize} Dr Bean's strengths and weaknesses \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Strengths] \begin{minipage}{6.9cm}
+                \begin{description}
+                \item [Simple idea] Listening to a soundfile and filling in the blanks is easy to understand. Doing it with other people could be `game-like.'
+                \item [Programming] Dr Bean can write the web applications himself, so they do exactly what he and users want.
+                \end{description}
+                \end{minipage}
+        \item [Weaknesses] \begin{minipage}{6.9cm}
+                \begin{description}
+                \item [Money] He has none.
+                \item [Friends \& Contacts] He doesn't know anyone who can help him.
+                \item [Experience] He hasn't run a company before.
+                \end{description}
+                \end{minipage}
+                
+        \end{description}
+
+      Black: |+
+        \begin{normalsize} Dr Bean's opportunities and threats \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Opportunities] \begin{minipage}{6.1cm}
+                \begin{description}
+                \item [Interest in English] is widespread. Many people need to learn it.
+                \item [Schools] might buy it for their students.
+                \item [Individuals] might buy a website for an interesting file.
+                \end{description}
+                \end{minipage}
+        \item [Threats] \begin{minipage}{6.9cm}
+                \begin{description}
+                \item [Hard work] is not enjoyed by many.
+                \item [The Internet] is a place where everything is free.
+                \item [Competitors] have produced similar dictation software.
+                \end{description}
+                \end{minipage}
+        \end{description}
+  jigsaw:
+    0:
+      identifier: dictation 0
+      A: Dr Bean wants to make money from his Dictation Exercises website. He thinks he could set up a company to develop websites and write software to run listening exercises on the Internet. But would his company be a success? Do people want to pay money to do dictation exercises?
+      B: On the Internet, everything is free, so it is difficult to make money. But some companies, like Google, do make a lot of money. To start a company, you also need money. Dr Bean doesn't have any money and he doesn't know how to borrow money. He doesn't have any experience of running a company.
+      C: He is enthusiastic about the idea and about writing software, but he is not good at making other people enthusiastic about his ideas, and he is not a professional programmer. Many people however, want to learn English, even though they don't want to study very hard. It is very difficult to learn English.
+      D: Some people who might pay Dr Bean for his dictation websites are schools which want to make their students do listening activities. Others who might pay Dr Bean are people who have an interest in a particular soundfile. They might give the soundfile to Dr Bean and ask him to create a website.
+flicker:
+  compcomp:
+    0:
+      identifier: flicker 0
+      White: |+
+        \begin{normalsize} Flicker's strengths and weaknesses \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Strengths] \begin{minipage}{6.9cm}
+                \begin{description}
+                \item [Experience \& know-how] It has lighter design and production technology and experience.
+                \item [China] It has a factory in China and sells lighters there.
+                \end{description}
+                \end{minipage}
+        \item [Weaknesses] \begin{minipage}{6.9cm}
+                \begin{description}
+                \item [Markets] There are few big markets similar to the cigarette lighter market that Flicker can move into.
+                \item [Money] It makes less money from its main market, cigarette lighters, than before.
+                \end{description}
+                \end{minipage}
+                
+        \end{description}
+
+      Black: |+
+        \begin{normalsize} Flicker's opportunities and threats \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Opportunities] \begin{minipage}{6.1cm}
+                \begin{description}
+                \item [New products] It is developing a lighter for barbecues and camping fires. It is also planning to sell camping equipment and clothes.
+                \item [New markets] Its strategy is to market lighters in Europe, Russia and Asia.
+                \end{description}
+                \end{minipage}
+        \item [Threats] \begin{minipage}{6.9cm}
+                \begin{description}
+                \item [Smoking restrictions] More restrictions on smoking mean less sales of cigarette lighters.
+                \end{description}
+                \end{minipage}
+        \end{description}
+fourswot:
+  jigsaw:
+    0:
+      identifier: fourswot 0
+      A: |+
+        \begin{bfseries}IKEA\end{bfseries} On-line shopping is important but difficult for companies which already have stores.\\
+        \textbf{Valentino} People think that someone who eats Valentino's chocolates is rich.\\
+        \textbf{Dr Bean}\\
+        \textbf{Flicker} was the first company to develop the cheap plastic lighter.
+      B: |+
+        \textbf{IKEA} Some people like to go to stores to see the furniture, but many people don't want to go to the store.\\
+        \textbf{Valentino} Customers buy Valentino's expensive chocolates because it shows they are rich.
+        \textbf{Dr Bean}\\
+        \textbf{Flicker}
+      C: |+
+        \textbf{IKEA} IKEA's distribution system makes delivery of the furniture easy and cheap.
+        \textbf{Valentino} thinks that if it makes cheaper chocolates, people who cannot afford them now might start to buy them.
+        \textbf{Dr Bean}\\
+        \textbf{Flicker}
+      D: |+
+        \textbf{IKEA} IKEA furniture has always been DYI (do-it-yourself). People have to assemble it themselves.\\
+        \textbf{Valentino} A marketing expert told the company that it will lose its customers if it starts to make cheap chocolates.
+        \textbf{Dr Bean}\\
+        \textbf{Flicker}
+      quiz:
+        - question: IKEA is thinking about on-line shopping. On-line shopping for IKEA is a:
+          option:
+            - Strength
+            - Weakness
+            - Opportunity
+            - Threat
+          answer: Opportunity
+        - question: Valentino is thinking about making chocolate which is cheaper than other chocolate makers. A price competition for Valentino is a:
+          option:
+            - Strength
+            - Weakness
+            - Opportunity
+            - Threat
+          answer: Opportunity
