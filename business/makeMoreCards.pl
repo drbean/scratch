@@ -40,7 +40,7 @@ for my $t ( keys %$cards ) {
 	for my $f ( keys %$jigsaw ) {
 		my $form = $jigsaw->{$f};
 		my $fourtmpl = Text::Template->new( type => 'file',
-			source =>  'oneA4twogroups.tmpl' ,
+			source =>  '../tmpl/oneA4twogroups.tmpl' ,
 			delimiters => [ '<TMPL>', '</TMPL>' ]);
 		my $quiztmpl = Text::Template->new( type => 'file',
 			source =>  '../tmpl/namequestionsA4.tmpl' ,
