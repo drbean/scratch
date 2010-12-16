@@ -287,44 +287,102 @@ fourswot:
     0:
       identifier: fourswot 0
       A: |+
-        \item [IKEA] On-line shopping is important but difficult for companies which already have stores.\\
-        \item [Valentino] People think that someone who eats Valentino's chocolates is rich.\\
-        \item [Dr Bean] is \\
+        \item [IKEA] On-line shopping is important but difficult for companies which already have stores.
+        \item [Valentino] Many people want to try a different, new type of chocolate.
+        \item [Dr Bean] Schools are looking for software to teach English to students.
         \item [Flicker] was the first company to develop cheap plastic lighters.
       B: |+
-        \item [IKEA] Some people like to go to stores to see the furniture, but many people don't want to go to the store.\\
-        \item [Valentino] Customers buy Valentino's expensive chocolates because it shows they are rich.\\
-        \item [Dr Bean] is\\
+        \item [IKEA] Some people like to go to stores to see furniture, but many people don't.
+        \item [Valentino] can produce new chocolates, but it has to change the production process to produce them.
+        \item [Dr Bean] The government gives money to schools for the teaching of English.
         \item [Flicker] researchers' recent discoveries mean cheaper lighters are possible.
       C: |+
-        \item [IKEA]'s distribution system makes delivery of the furniture easy and cheap.\\
-        \item [Valentino] thinks that if it makes cheaper chocolates, people who cannot afford them now might start to buy them.\\
-        \item [Dr Bean] is\\
-        \item [Flicker] Other manufacturers of cigarette lighters pay Flicker to use its technology.
+        \item [IKEA]'s distribution system makes delivery of the furniture easy and cheap.
+        \item [Valentino] changes the production process by stopping production and changing machines.
+        \item [Dr Bean] has written dictation software.
+        \item [Flicker] Other cigarette lighter manufacturers pay Flicker to use its technology.
       D: |+
-        \item [IKEA] furniture has always been DYI (do-it-yourself). People have to assemble it themselves.\\
-        \item [Valentino] A marketing expert told the company that it will lose its customers if it starts to make cheap chocolates.\\
-        \item [Dr Bean] is \\
+        \item [IKEA] furniture is DYI (do-it-yourself). People assemble it themselves.
+        \item [Valentino] takes longer to change machines than other chocolate companies take. It is more difficult.
+        \item [Dr Bean] English teachers like dictation.
         \item [Flicker] spends lots of money on research and development.
       quiz:
-        - question: IKEA is thinking about on-line shopping. On-line shopping for IKEA is a:
+        - question: IKEA is thinking about on-line shopping. On-line shopping for IKEA is:
           option:
             - a strength
             - a weakness
             - an opportunity
             - a threat
           answer: an opportunity
-        - question: Valentino is thinking about making chocolate which is cheaper than other chocolate makers. A price competition for Valentino is a:
+        - question: The way Valentino starts production of a new chocolate is:
           option:
             - a strength
             - a weakness
             - an opportunity
             - a threat
-          answer: Opportunity
-        - question: Flicker's technology is a:
+          answer: a weakness
+        - question: Dr Bean has:
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: an opportunity
+        - question: Flicker's technology is:
           option:
             - a strength
             - a weakness
             - an opportunity
             - a threat
           answer: a strength
+    1:
+      identifier: fourswot 1
+      A: |+
+        \item [IKEA]s furniture is cheap but attractively designed.
+        \item [Valentino] is one of many chocolate manufacturers in Europe.
+        \item [Dr Bean] A company needs different people who are good at different things.
+        \item [Flicker]' most important product is cigarette lighters.
+      B: |+
+        \item [IKEA]'s designers think about how the product will be made as they design it.
+        \item [Valentino]'s chocolates are expensive, high-quality, traditional chocolates.
+        \item [Dr Bean] Nobody has all the skills one company needs to be successful.
+        \item [Flicker] Sales from cigarette lighters are decreasing.
+      C: |+
+        \item [IKEA]'s designers think about how the production process can be made most efficient.
+        \item [Valentino] New chocolate manufacturers are producing new types of chocolate.
+        \item [Dr Bean] has written dictation software.
+        \item [Flicker] technology can be used to manufacture products like BBQ lighters.
+      D: |+
+        \item [IKEA] furniture is cheap because it is cheap to manufacture.
+        \item [Valentino] New types of chocolate are not expensive and they are becoming popular.
+        \item [Dr Bean] English teachers think dictation is a good way to learn English. 
+        \item [Flicker] is thinking about developing new products.
+      quiz:
+        - question: The way IKEA's designers focus on the production process is:
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a strength
+        - question: For Valentino, the popularity of new chocolates is:
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a threat
+        - question: Dr Bean has:
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: an opportunity
+        - question: For Flicker, BBQ lighters are:
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: an opportunity
