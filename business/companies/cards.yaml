@@ -341,21 +341,21 @@ fourswot:
         \item [IKEA]s furniture is cheap but attractively designed.
         \item [Valentino] is one of many chocolate manufacturers in Europe.
         \item [Dr Bean] A company needs different people who are good at different things.
-        \item [Flicker]' most important product is cigarette lighters.
+        \item [Flicker]'s most important product is cigarette lighters.
       B: |+
         \item [IKEA]'s designers think about how the product will be made as they design it.
         \item [Valentino]'s chocolates are expensive, high-quality, traditional chocolates.
         \item [Dr Bean] Nobody has all the skills one company needs to be successful.
         \item [Flicker] Sales from cigarette lighters are decreasing.
       C: |+
-        \item [IKEA]'s designers think about how the production process can be made most efficient.
+        \item [IKEA]'s designers want to help the manufacturers who make the product.
         \item [Valentino] New chocolate manufacturers are producing new types of chocolate.
-        \item [Dr Bean] has written dictation software.
+        \item [Dr Bean] doesn't know any one who is excited about working with him. 
         \item [Flicker] technology can be used to manufacture products like BBQ lighters.
       D: |+
         \item [IKEA] furniture is cheap because it is cheap to manufacture.
-        \item [Valentino] New types of chocolate are not expensive and they are becoming popular.
-        \item [Dr Bean] English teachers think dictation is a good way to learn English. 
+        \item [Valentino] New types of chocolate are not expensive and are becoming popular.
+        \item [Dr Bean] prefers to work by himself, running the business alone.
         \item [Flicker] is thinking about developing new products.
       quiz:
         - question: The way IKEA's designers focus on the production process is:
@@ -372,14 +372,14 @@ fourswot:
             - an opportunity
             - a threat
           answer: a threat
-        - question: Dr Bean has:
+        - question: Dr Bean's running a one-man business is:
           option:
             - a strength
             - a weakness
             - an opportunity
             - a threat
-          answer: an opportunity
-        - question: For Flicker, BBQ lighters are:
+          answer: a weakness
+        - question: For Flicker, BBQ (barbecue) lighters are:
           option:
             - a strength
             - a weakness
