@@ -3,7 +3,20 @@
 use strict;
 use warnings;
 
-my $genre = 'business';
+use Getopt::Long;
+use Pod::Usage;
+use FindBin;
+use lib "$FindBin::Bin/../lib";
+
+my $help = 0;
+my ( $genre, $area, $topic, $form );
+ 
+GetOptions(
+    'genre|l=s'      => \$genre,
+    'area|l=s'  => \$area,
+    'topic|l=s'  => \$topic,
+    'form|l=s'  => \$form,
+);
 
 use Net::FTP;
 my $ftp = Net::FTP->new('web.nuu.edu.tw') or
@@ -14,7 +27,7 @@ $ftp->cwd("public_html/$genre") or die
 $ftp->binary;
 
 use YAML qw/LoadFile DumpFile/;
-my ($texts) = LoadFile 'newbusiness/cards.yaml';
+my ($texts) = LoadFile "$area/cards.yaml";
 my @soundfiles;
 push @soundfiles, (
 			 [ 0, "voice_nitech_us_rms_arctic_hts", "1" ],
@@ -31,9 +44,7 @@ push @soundfiles, (
 	);
 
 for my $topicform (
-	[ qw/innovation 1/ ],
-	[ qw/market 1/ ],
-	[ qw/huang 1/ ],
+	[ $topic, $form ],
 ) {
 
 	my $topic = $topicform->[0];
