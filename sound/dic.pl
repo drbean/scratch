@@ -3,39 +3,52 @@
 use strict;
 use warnings;
 
-my $genre = 'business';
+use Getopt::Long;
+use Pod::Usage;
+use FindBin;
+use lib "$FindBin::Bin/../lib";
+
+my $help = 0;
+my $area = '.';
+my ( $genre, $story, );
+ 
+GetOptions(
+    'genre|l=s'      => \$genre,
+    'area|l=s'  => \$area,
+    'story|l=s'  => \$story,
+);
 
 use Net::FTP;
 my $ftp = Net::FTP->new('web.nuu.edu.tw') or
 			die "web.nuu.edu.tw? $@";
 $ftp->login('greg', '1514') or die "web.nuu.edu.tw login? $@";
-$ftp->cwd("public_html/$genre") or die
+$ftp->cwd("public_html/$genre/$area") or die
 	"web.nuu.edu.tw/~greg/public_html? $@";
 $ftp->binary;
 
-use YAML qw/LoadFile DumpFile/;
-my ($texts, $questions) = LoadFile 'dic.yaml';
-my @soundfiles = ( [ 90,
-						"voice_nitech_us_rms_arctic_hts",
-	"compA" ], [ 91,
-						"voice_nitech_us_awb_arctic_hts",
-	"compB" ], [ 92,
-						"voice_nitech_us_clb_arctic_hts",
-	"compC" ], [ 93,
-						"voice_nitech_us_slt_arctic_hts",
-	"compD" ],
-	);
+my @targets = ( 'A' .. 'D' );
+my @voices = (
+			"voice_nitech_us_rms_arctic_hts",
+			"voice_nitech_us_awb_arctic_hts",
+			"voice_nitech_us_clb_arctic_hts",
+			"voice_nitech_us_slt_arctic_hts",
+		);
 
-for ( @soundfiles ) {
-	# my ( $text, $voice, $local ) = @$_;
-	my $text = $texts->[$_->[0]]->[4];
-	my $voice = $_->[1];
-	my $local = "/home/drbean/soundfiles/$genre/$_->[2].mp3";
-	system( "echo \"$text\" |
+use YAML qw/LoadFile DumpFile/;
+my ($texts, $questions) = LoadFile "$area/dic.yaml";
+my $i = 0;
+for my $text ( @$texts ) {
+	$i++;
+	next unless $text->[0] eq $story;
+	my $targetindex = $i % @targets;
+	my $target = $targets[ $targetindex ];
+	my $voice = $voices[ $targetindex ];
+	my $content = $text->[4];
+	my $local = "/home/drbean/soundfiles/$genre/$area/$story$target.mp3";
+	system( "echo \"$content\" |
 		text2wave -eval \"($voice)\" -otype wav -o /tmp/$genre.wav"
 		) == 0 or die "text2wave? $@,";
 	system(	"lame -h -V 0 /tmp/$genre.wav $local" ) == 0 or
 		die "lame? $@,";
 	$ftp->put($local) or die "put $_->[2].mp3 on web.nuu.edu.tw? $@";
 }
-
