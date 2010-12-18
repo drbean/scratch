@@ -184,6 +184,16 @@ ikea:
                 \end{description}
                 \end{minipage}
         \end{description}
+      quiz:
+        - question: Question 1, IKEA's SWOT: IKEA has more strengths than weaknesses.
+          answer: True
+        - question: Question 2, IKEA's SWOT: IKEA has more opportunities than threats.
+          answer: False
+        - question: Question 3, IKEA's SWOT: On-line shopping is a threat to IKEA.
+          answer: False
+        - question: Question 4, IKEA's SWOT: Selling higher priced articles in Asia is an opportunity for IKEA.
+          answer: True
+
 valentino:
   jigsaw:
     0:
@@ -236,6 +246,15 @@ dictation:
                 \end{description}
                 \end{minipage}
         \end{description}
+      quiz:
+        - question: Question 5, Dr Bean's SWOT: Dr Bean has more opportunities than threats.
+          answer: False
+        - question: Question 6, Dr Bean's SWOT: Dr Bean has not much chance of success with his present product.
+          answer: True
+        - question: Question 7, Dr Bean's SWOT: If Dr Bean could make the dictation more game-like, it would be a stronger product.
+          answer: True
+        - question: Question 8, Dr Bean's SWOT: Dr Bean's wish to run a one-man company is a strength.
+          answer: False
   jigsaw:
     0:
       identifier: dictation 0
@@ -282,29 +301,38 @@ flicker:
                 \end{description}
                 \end{minipage}
         \end{description}
+      quiz:
+        - question: Question 9, Flicker's SWOT: Flicker has more strengths than weaknesses.
+          answer: False
+        - question: Question 10, Flicker's SWOT: Flicker has more threats than opportunities
+          answer: True
+        - question: Question 11, Flicker's SWOT: Flicker is a good company to invest in.
+          answer: False
+        - question: Question 12, Flicker's SWOT: The barbecue and camping fire lighter markets are not big markets compared to the cigarette lighter market.
+          answer: True
 fourswot:
   jigsaw:
     0:
       identifier: fourswot 0
       A: |+
-        \item [IKEA] On-line shopping is important but difficult for companies which already have stores.
+        \item [IKEA] On-line shopping is important, but difficult, for companies with stores.
         \item [Valentino] Many people want to try a different, new type of chocolate.
-        \item [Dr Bean] Schools are looking for software to teach English to students.
+        \item [Dr Bean] wants to make dictation software which is enjoyable and game-like.
         \item [Flicker] was the first company to develop cheap plastic lighters.
       B: |+
         \item [IKEA] Some people like to go to stores to see furniture, but many people don't.
-        \item [Valentino] can produce new chocolates, but it has to change the production process to produce them.
-        \item [Dr Bean] The government gives money to schools for the teaching of English.
+        \item [Valentino] can produce new chocolates by changing the production process.
+        \item [Dr Bean] Studying English is hard work and not interesting for students.
         \item [Flicker] researchers' recent discoveries mean cheaper lighters are possible.
       C: |+
         \item [IKEA]'s distribution system makes delivery of the furniture easy and cheap.
-        \item [Valentino] changes the production process by stopping production and changing machines.
-        \item [Dr Bean] has written dictation software.
+        \item [Valentino] changes the production process by stopping it and changing machines.
+        \item [Dr Bean] Interesting games in Chinese are uninteresting for students in English.
         \item [Flicker] Other cigarette lighter manufacturers pay Flicker to use its technology.
       D: |+
         \item [IKEA] furniture is DYI (do-it-yourself). People assemble it themselves.
-        \item [Valentino] takes longer to change machines than other chocolate companies take. It is more difficult.
-        \item [Dr Bean] English teachers like dictation.
+        \item [Valentino] takes longer to change machines than other chocolate companies.
+        \item [Dr Bean] is thinking about how to interest students in English.
         \item [Flicker] spends lots of money on research and development.
       quiz:
         - question: IKEA is thinking about on-line shopping. On-line shopping for IKEA is:
@@ -321,13 +349,13 @@ fourswot:
             - an opportunity
             - a threat
           answer: a weakness
-        - question: Dr Bean has:
+        - question: For Dr Bean, the problem of how students feel about English is a:
           option:
             - a strength
             - a weakness
             - an opportunity
             - a threat
-          answer: an opportunity
+          answer: a threat
         - question: Flicker's technology is:
           option:
             - a strength
@@ -386,3 +414,105 @@ fourswot:
             - an opportunity
             - a threat
           answer: an opportunity
+    2:
+      identifier: fourswot 2
+      A: |+
+        \item [IKEA]s furniture is cheap but attractively designed.
+        \item [Valentino] Many people want to try a different, new type of chocolate.
+        \item [Dr Bean] wants to make dictation software which is enjoyable and game-like.
+        \item [Flicker]'s most important product is cigarette lighters.
+      B: |+
+        \item [IKEA]'s designers think about how the product will be made as they design it.
+        \item [Valentino] can produce new chocolates by changing the production process.
+        \item [Dr Bean] Studying English is hard work and not interesting for students.
+        \item [Flicker] Sales from cigarette lighters are decreasing.
+      C: |+
+        \item [IKEA]'s designers want to help the manufacturers who make the product.
+        \item [Valentino] changes the production process by stopping it and changing machines.
+        \item [Dr Bean] Interesting games in Chinese are uninteresting for students in English.
+        \item [Flicker] technology can be used to manufacture products like BBQ lighters.
+      D: |+
+        \item [IKEA] furniture is cheap because it is cheap to manufacture.
+        \item [Valentino] takes longer to change machines than other chocolate companies.
+        \item [Dr Bean] is thinking about how to interest students in English.
+        \item [Flicker] is thinking about developing new products.
+      quiz:
+        - question: The way IKEA's designers focus on the production process is:
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a strength
+        - question: The way Valentino starts production of a new chocolate is:
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a weakness
+        - question: For Dr Bean, the problem of how students feel about English is a:
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a threat
+        - question: For Flicker, BBQ (barbecue) lighters are:
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: an opportunity
+    3:
+      identifier: fourswot 3
+      A: |+
+        \item [IKEA] On-line shopping is important, but difficult, for companies with stores.
+        \item [Valentino] is one of many chocolate manufacturers in Europe.
+        \item [Dr Bean] A company needs different people who are good at different things.
+        \item [Flicker] was the first company to develop cheap plastic lighters.
+      B: |+
+        \item [IKEA] Some people like to go to stores to see furniture, but many people don't.
+        \item [Valentino]'s chocolates are expensive, high-quality, traditional chocolates.
+        \item [Dr Bean] Nobody has all the skills one company needs to be successful.
+        \item [Flicker] researchers' recent discoveries mean cheaper lighters are possible.
+      C: |+
+        \item [IKEA]'s distribution system makes delivery of the furniture easy and cheap.
+        \item [Valentino] New chocolate manufacturers are producing new types of chocolate.
+        \item [Dr Bean] doesn't know any one who is excited about working with him. 
+        \item [Flicker] Other cigarette lighter manufacturers pay Flicker to use its technology.
+      D: |+
+        \item [IKEA] furniture is DYI (do-it-yourself). People assemble it themselves.
+        \item [Valentino] New types of chocolate are not expensive and are becoming popular.
+        \item [Dr Bean] prefers to work by himself, running the business alone.
+        \item [Flicker] spends lots of money on research and development.
+      quiz:
+        - question: IKEA is thinking about on-line shopping. On-line shopping for IKEA is:
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: an opportunity
+        - question: For Valentino, the popularity of new chocolates is:
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a threat
+        - question: Dr Bean's running a one-man business is:
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a weakness
+        - question: Flicker's technology is:
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a strength
