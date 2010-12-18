@@ -1,4 +1,14 @@
-#!/usr/bin/perl
+#!/usr/bin/perl 
+
+# Created: 西元2010年12月18日 10時28分17秒
+# Last Edit: 2010 12月 18, 19時24分26秒
+# $Id$
+
+=head1 NAME
+
+comp.pl - Generate, upload soundfiles for CompComp listening questions
+
+=cut
 
 use strict;
 use warnings;
@@ -7,6 +17,12 @@ use Getopt::Long;
 use Pod::Usage;
 use FindBin;
 use lib "$FindBin::Bin/../lib";
+
+=head1 SYNOPSIS
+
+perl ../sound/comp.pl -g business -a companies -t ikea -f 0
+
+=cut
 
 my $help = 0;
 my ( $genre, $area, $topic, $form );
@@ -17,6 +33,12 @@ GetOptions(
     'topic|l=s'  => \$topic,
     'form|l=s'  => \$form,
 );
+
+=head1 DESCRIPTION
+
+Uses Festival to generate readings of questions in cards.yaml compcomp quiz. Getopt::Long rather than Grades::Script for args.
+
+=cut
 
 use Net::FTP;
 my $ftp = Net::FTP->new('web.nuu.edu.tw') or
@@ -63,3 +85,21 @@ for my $topicform (
 	}
 }
 
+
+
+=head1 AUTHOR
+
+Dr Bean C<< <drbean at cpan, then a dot, (.), and org> >>
+
+=head1 COPYRIGHT & LICENSE
+
+Copyright 2010 Dr Bean, all rights reserved.
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
+=cut
+
+# End of comp.pl
+
+# vim: set ts=8 sts=4 sw=4 noet:
