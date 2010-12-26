@@ -23,7 +23,7 @@ sub makeHTML {
         $text = Template::Toolkit::Simple->new()->render(
             $self->slideTemplate,
             {
-                title => "$slide",
+                title => $self->config->{title} . " $slide",
                 prev => $prev,
                 next => $next,
                 content => \@textwithLinks,
