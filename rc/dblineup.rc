@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 use IO::All;
-use YAML qw/LoadFile DumpFile/;
+use YAML qw/LoadFile DumpFile Bless/;
 use List::Util qw/sum/;
 use Cwd;
 use Grades;
@@ -23,7 +23,7 @@ my $pool = $l->yaml->{pool};
 my %m = map { $_->{id} => $_ } @$pool;
 my @roles = qw/White Black/;
 
-my $round = 5;
+my $round = 13;
 
 my $connect_info = Swiss::Model::DB->config->{connect_info};
 my $d = Swiss::Schema->connect( @$connect_info );
@@ -31,10 +31,12 @@ my $d = Swiss::Schema->connect( @$connect_info );
 my $m = $d->resultset('Matches')->search({ tournament => $dir,
 		round => $round });
 
-my @players;
+my %players;
 my $n = 0;
-while ( my $match = $m->find({ pair => $n++ }) )  {
-	push @players, { White => $match->white, Black => $match->black };
+while ( my $match = $m->find({ pair => $n }) )  {
+	my $pair = { White => $match->white, Black => $match->black };
+	Bless( $pair )->keys( [ qw/White Black/ ] );
+	$players{ $n++ } = $pair;
 }
 
-# DumpFile "comp/$round/members.yaml", \@players;
+# DumpFile "comp/$round/members.yaml", \%players;
