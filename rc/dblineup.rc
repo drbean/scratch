@@ -23,20 +23,23 @@ my $pool = $l->yaml->{pool};
 my %m = map { $_->{id} => $_ } @$pool;
 my @roles = qw/White Black/;
 
-my $round = 13;
-
 my $connect_info = Swiss::Model::DB->config->{connect_info};
 my $d = Swiss::Schema->connect( @$connect_info );
+
+my $round = $d->resultset('Round')->find( { tournament => $dir } )
+                ->value;
 
 my $m = $d->resultset('Matches')->search({ tournament => $dir,
 		round => $round });
 
-my %players;
+my $players;
 my $n = 0;
 while ( my $match = $m->find({ pair => $n }) )  {
 	my $pair = { White => $match->white, Black => $match->black };
 	Bless( $pair )->keys( [ qw/White Black/ ] );
-	$players{ $n++ } = $pair;
+	$players->{ $n++ } = $pair;
 }
 
-# DumpFile "comp/$round/members.yaml", \%players;
+my @tables = sort {$a<=>$b} keys %$players;
+Bless( $players )->keys([ @tables ]); 
+# DumpFile "comp/$round/members.yaml", $players;
