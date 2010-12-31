@@ -248,7 +248,7 @@ conant:
         - question: Martha now wants a life worth living.
           answer  : True
   compcomp:
-    1:
+    0:
       identifier: conant 0
       White: |+
         \begin{large} United Airlines Flight 232 \end{large}
