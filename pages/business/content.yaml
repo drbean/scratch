@@ -157,6 +157,11 @@ topic:
           <li><b>C students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/companies/dictationC.mp3">Dr Bean's character and the English market</a>.
           <li><b>D students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/companies/dictationD.mp3">Dr Bean's customers</a>.
           </ul>
+      -
+        id: flicker
+        title: Flicker introduction
+        blurb: Listen again to the presentation by Hal Bonelli on the Flicker Lighter Company. It is on <a href="http://elearning.nuu.edu.tw">http://elearning.nuu.edu.tw</a>. If you can't find it, email me.
+        comment: 
           
   -
     id: greatideas
@@ -164,15 +169,15 @@ topic:
     intro: The secret to business success is a great idea. IKEA's ideas were great. Here are some other great ideas.
     story:
       -
-        id: greatideacars1
+        id: cars
         title: Las Vegas car showroom charges admission fee
-        blurb: The car showroom sells expensive cars and people were just coming to look. That is the problem. What was the good idea? Did it work? What can you learn from their experiment?
+        blurb: The car showroom sells expensive cars and people were just coming to look. That is the problem. What was the good idea? Did it work? What can you learn from their experiment? Look at page 36 in the textbook, Market Leader.
         comment: |+
           <ul>
-          <li><b>A students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/greatideacars1A.mp3">A</a>
-          <li><b>B students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/greatideacars1B.mp3">B</a>
-          <li><b>C students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/greatideacars1c.mp3">C</a>
-          <li><b>D students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/greatideacars1D.mp3">D</a>
+          <li><b>A students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/greatideas/carsA.mp3">A</a>
+          <li><b>B students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/greatideas/carsB.mp3">B</a>
+          <li><b>C students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/greatideas/carsC.mp3">C</a>
+          <li><b>D students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/greatideas/carsD.mp3">D</a>
           </ul>
       -
         id: citrus1
