@@ -301,18 +301,18 @@ harllee:
     0:
       identifier: harllee 0
       White: |+
-        \begin{large} The 10st Airborne Division \end{large}
+        \begin{large} The 101st Airborne Division \end{large}
         \normalsize
         \begin{description}
         \item [Character] The "Screaming Eagles" is one of the most prestigious divisions in the US Army. It is renowned for action in World War II, and has seen action in Vietnam, the Persian Gulf and Iraq and Afghanistan.
         \item [Airborne] Its members traditionally parachuted into action. Now they mainly fly helicopters into action.
-        \item [Vietnam] 4,011 members killed in action. 18,259 wounded in action. Twice the casualties of World War II. 3rd highest casualties of US Army divisions in Vietnam.
+        \item [Vietnam] 4,011 members killed in action. 18,259 wounded in action. Twice the casualties of World War II.
         \item [Insignia] Depicts an American bald eagle, but to the Vietnamese and others it looked like a chicken. So, in Vietnam they were called Chicken or Rooster Men.
         \end{description}
       Black: |+
-        \begin{large} The 10st Airborne Division \end{large}
+        \begin{large} The job of chaplain \end{large}
         \normalsize
         \begin{description}
-        \item [Character] The "Screaming Eagles" is one of the most prestigious divisions in the US Army. It is renowned for action in World War II, and has seen action in Vietnam, the Persian Gulf and Iraq and Afghanistan.
-        \item [Character] Its members traditionally parachuted into action. Now they mainly fly helicopters into action.
+        \item [Character] A professional trained to serve the spiritual needs of members of the military. In addition to giving individuals spiritual care, chaplains will advise senior officers on issues of religion, ethics, morale, and morals. They may also now meet local religious leaders to understand the role of religion in both hostility and reconciliation.
+        \item [Casualties] 100 US chaplains lost their lives in World War II, the 3rd highest US casualty rate of the war.
         \end{description}
