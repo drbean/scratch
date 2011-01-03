@@ -289,3 +289,30 @@ conant:
           answer: False
         - question: Air crash Question 10: Many bodies in the China Airlines crash were without clothes.
           answer: True
+harllee:
+  jigsaw:
+    0:
+      identifier: harllee 0
+      A: You are a member of the Viet Cong fighting the "Chicken Men," who are good soldiers, but your enemy. You fire your gun at Rod and hit him. Some soldiers carry him away. You don't know if he died or not. One of the Chicken Men fires at you and kills you.
+      B: You are a member of Rod's unit. A Viet Cong sniper, Diem shoots Rod and you shoot Diem. You and Bob stand by him at his hospital bed. 30 years later, Bob dies of a heart attack. You tell his wife, `Bob was a spiritual giant. He was there when I faced challenges.'
+      C: You are a chaplain with the 101st Airborne. Rod is dying in hospital. You knew him and his family back home. He talks to you and Jerry about his sons and his mother. He doesn't make much sense. It is very hard for you to talk to him and to say something meaningful.
+      D: You are dying in hospital after being shot by a Viet Cong sniper. You know that dying is something that happens to soldiers. You do not want to die, but there is nothing you can do. You feel weak. You talk to Chaplain Harllee about your children and your mother.
+  compcomp:
+    0:
+      identifier: harllee 0
+      White: |+
+        \begin{large} The 10st Airborne Division \end{large}
+        \normalsize
+        \begin{description}
+        \item [Character] The "Screaming Eagles" is one of the most prestigious divisions in the US Army. It is renowned for action in World War II, and has seen action in Vietnam, the Persian Gulf and Iraq and Afghanistan.
+        \item [Airborne] Its members traditionally parachuted into action. Now they mainly fly helicopters into action.
+        \item [Vietnam] 4,011 members killed in action. 18,259 wounded in action. Twice the casualties of World War II. 3rd highest casualties of US Army divisions in Vietnam.
+        \item [Insignia] Depicts an American bald eagle, but to the Vietnamese and others it looked like a chicken. So, in Vietnam they were called Chicken or Rooster Men.
+        \end{description}
+      Black: |+
+        \begin{large} The 10st Airborne Division \end{large}
+        \normalsize
+        \begin{description}
+        \item [Character] The "Screaming Eagles" is one of the most prestigious divisions in the US Army. It is renowned for action in World War II, and has seen action in Vietnam, the Persian Gulf and Iraq and Afghanistan.
+        \item [Character] Its members traditionally parachuted into action. Now they mainly fly helicopters into action.
+        \end{description}
