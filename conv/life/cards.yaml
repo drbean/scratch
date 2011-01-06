@@ -381,7 +381,7 @@ nightcourt:
         \begin{large} Trial procedures \end{large}
         \normalsize
         \begin{description}
-        \item [Plaintiff] The person who seeks justice. He/she speaks first. In a criminal case, he/she is `The People' in the US, and `The Queen' in the UK, Canada, Australia.
+        \item [Plaintiff] The person who has a \textit{complaint} and seeks justice. In a criminal case, he/she is `The People' in the US, and `The Queen' in the UK, Canada, Australia.
         \item [Opening statement] Each side says why they should win, beginning with the plaintiff.
         \item [Hearing of evidence] The plaintiff and his/her witnesses will come forward and tell their stories and be cross-examined in turn by the defense. The defendant's side will then do the same.
         \item [Submissions and judgement] The 2 sides will give their reasons. And the court will then give judgement.
@@ -390,7 +390,8 @@ nightcourt:
         \begin{large} Public defender \end{large}
         \normalsize
         \begin{description}
-        \item [Character] A lawyer (attorney) who represents people charged with a crime but who don't have the money to pay a lawyer.
-        \item [History] The first public defender system started 100 years ago in the US. In 1963, after a US Supreme Court decision, public defender systems became universal in the US.
-        \item [Funding] The money to pay the lawyers comes from the state or federal government in the US, but is often not enough to allow the lawyers to do a good job for all their cases.
+        \item [Character] A lawyer (attorney) who represents people charged with a crime but who can't afford a lawyer.
+        \item [History] The first public defender system started 100 years ago in the US. In 1963, after a US Supreme Court decision, public defender systems became universal.
+        \item [Funding] The money to pay the lawyers comes from the state or federal government in the US, but is often not enough to allow the lawyers to do a good job.
+        \item [Pay] Lawyers who are employed full-time as public defenders make the same as prosecutors. This is generally less than a private lawyer makes.
         \end{description}
