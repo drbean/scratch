@@ -338,3 +338,59 @@ conant:
           answer: True
         - question: Pilot error was the cause of the China Airlines crash.
           answer: False
+pigott:
+  jigsaw:
+    0:
+      identifier: pigott 0
+      A: Your friend was an old drinking friend and he had been out of jail for 6 weeks. He took your watch and the keys to your car. You were mad. You called Sheriff Tom and told him to go to his place and get him and lock him up. You regretted that. Joe sent him back to jail for 3 years.
+      B: You liked Pip and you think he liked you, but he regularly committed crimes, and it was your job to send criminals to prison or to fine them. When you retired, he came to a ceremony where your picture was hung on the wall of the courtroom, your `hanging' he said.
+      C: It was your job to enforce the law in your local district. You ran the jail. When Robert called you and said his friend had taken his car keys, you went out and the friend gave you Robert's keys. He was mad his friend had called you. You put him in your car and took him to jail.
+      D: You appeared many times before Joe, the judge in the local court. He sent you to jail for three years for just taking your friend's watch and his car keys. You were `ticked off' at getting such a severe sentence for what was only a minor offense. You `had words' with Joe.
+  compcomp:
+    0:
+      identifier: pigott 0
+      White: |+
+        \begin{large} The job of judge \end{large}
+        \normalsize
+        \begin{description}
+        \item [Career route] Judges begin careers as lawyers after getting a bachelor's degree, doing 3 years at law school, and passing the bar exam. After years in the field, they are either appointed as judges by high-ranking political officials or are elected by the communities they serve.
+        \item [Responsibilities] Overseeing court trials and other legal proceedings. Deciding innocence or guilt of a defendant in criminal cases. Determining liability (who is at fault) in civil cases.
+        \item [Salary] Judges make an average annual \$100,450.
+        \end{description}
+      Black: |+
+        \begin{large} The job of sheriff \end{large}
+        \normalsize
+        \begin{description}
+        \item [Job] A sheriff is responsible for law enforcement in a county (area outside a city). In a city, the job would correspond to police chief.
+        \item [Deputies] In most areas, the sheriff will supervise deputies who will patrol the roads, staff the courtrooms, run jails, et cetera.
+        \item [Career route] Sheriffs are elected by the community, but most will choose a sheriff with a law enforcement background.
+        \item [Salary] A typical sheriff/police chief will make an annual \$95,460.
+        \end{description}
+nightcourt:
+  jigsaw:
+    0:
+      identifier: nightcourt 0
+      A: You were arrested and charged for holding up traffic when you took too long to cross the street. You move very slowly. You don't have a lawyer and Christine defends you in court. The prosecutor, Dan is not polite. You are unhappy about his attitude, but you say nothing.
+      B: You are a lawyer working for the New York state government. You are prosecuting Willy for holding up the traffic, but you are also in a hurry to go on a vacation afterward. Willy's slowness makes you nervous and angry. You tell the court that the state is dropping the charges.
+      C: Your client has been arrested and charged for crossing the street against the red light. You show Harry, the judge a card which shows that Willy has a medical disorder and he can only move slowly. You ask Harry to be kind to him.
+      D: You are hearing a case involving a man arrested for obstructing traffic, when he was crossing the road. Dan, the prosecutor is acting unprofessionally by showing his feelings, but you ignore this. You don't give your verdict, because the state drops the charges.
+  compcomp:
+    0:
+      identifier: nightcourt 0
+      White: |+
+        \begin{large} Trial procedures \end{large}
+        \normalsize
+        \begin{description}
+        \item [Plaintiff] The person who seeks justice. He/she speaks first. In a criminal case, he/she is `The People' in the US, and `The Queen' in the UK, Canada, Australia.
+        \item [Opening statement] Each side says why they should win, beginning with the plaintiff.
+        \item [Hearing of evidence] The plaintiff and his/her witnesses will come forward and tell their stories and be cross-examined in turn by the defense. The defendant's side will then do the same.
+        \item [Submissions and judgement] The 2 sides will give their reasons. And the court will then give judgement.
+        \end{description}
+      Black: |+
+        \begin{large} Public defender \end{large}
+        \normalsize
+        \begin{description}
+        \item [Character] A lawyer (attorney) who represents people charged with a crime but who don't have the money to pay a lawyer.
+        \item [History] The first public defender system started 100 years ago in the US. In 1963, after a US Supreme Court decision, public defender systems became universal in the US.
+        \item [Funding] The money to pay the lawyers comes from the state or federal government in the US, but is often not enough to allow the lawyers to do a good job for all their cases.
+        \end{description}
