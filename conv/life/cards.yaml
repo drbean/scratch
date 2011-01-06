@@ -381,7 +381,7 @@ nightcourt:
         \begin{large} Trial procedures \end{large}
         \normalsize
         \begin{description}
-        \item [Plaintiff] The person who has a \textit{complaint} and seeks justice. In a criminal case, he/she is `The People' in the US, and `The Queen' in the UK, Canada, Australia.
+        \item [Plaintiff] The person who has a \begin{itshape} complaint \end{itshape} and seeks justice. In a criminal case, he/she is `The People' in the US, and `The Queen' in the UK, Canada, Australia.
         \item [Opening statement] Each side says why they should win, beginning with the plaintiff.
         \item [Hearing of evidence] The plaintiff and his/her witnesses will come forward and tell their stories and be cross-examined in turn by the defense. The defendant's side will then do the same.
         \item [Submissions and judgement] The 2 sides will give their reasons. And the court will then give judgement.
