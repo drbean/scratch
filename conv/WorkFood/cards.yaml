@@ -98,19 +98,19 @@ cronig:
           answer: True
         - question: Martha's Vineyard, Question 2: The visitors probably are making more money than the locals.
           answer: True
-        - question: Martha's Vineyard, Question 3: The number of visitors is 6-7 times the number of locals.
-          answer: True
-        - question: Martha's Vineyard, Question 4: The cost of living on the island is higher than average.
-          answer: True
-        - question: Martha's Vineyard, Question 5: Year-round residents make more money than the average worker in the state.
+        - question: Martha's Vineyard, Question 3: The Brazilian immigrants probably have good jobs.
           answer: False
-        - question: Martha's Vineyard, Question 6: Land on the island is not expensive.
+        - question: Martha's Vineyard, Question 4: Land on the island is not expensive.
           answer: False
+        - question: Martha's Vineyard, Question 5: The number of visitors is 6-7 times the number of locals.
+          answer: True
+        - question: Martha's Vineyard, Question 6: The cost of living on the island is higher than average.
+          answer: True
         - question: Martha's Vineyard, Question 7: The Cronig family were Jewish immigrants.
           answer: True
         - question: Martha's Vineyard, Question 8: Some of the residents don't speak English.
           answer: True
-        - question: Martha's Vineyard, Question 9: The Brazilian immigrants probably have good jobs.
+        - question: Martha's Vineyard, Question 9: Year-round residents make more money than the average worker in the state.
           answer: False
         - question: Martha's Vineyard, Question 10: The black people there are working, not vacationing.
           answer: False
@@ -137,23 +137,23 @@ lerman:
       quiz:
         - question: Eating disorders, Question 1: Men and women are equally affected by eating disorders.
           answer: False
-        - question: Eating disorders, Question 2: Young American girls probably have more of a problem with undereating, than overeating.
-          answer: True
-        - question: Eating disorders, Question 3: The causes are probably biological, rather than psychological.
+        - question: Eating disorders, Question 2: A binge is a happy period with friends and good eating.
           answer: False
-        - question: Eating disorders, Question 4: A binge is a period of overeating.
+        - question: Eating disorders, Question 3: Most people recover from eating disorders.
           answer: True
-        - question: Eating disorders, Question 5: Binge eaters are more likely to be men than women.
-          answer: False
-        - question: Eating disorders, Question 6: A binge is a happy period with friends and good eating.
-          answer: False
-        - question: Eating disorders, Question 7: Treatment of eating disorders usually involves eating medicine.
-          answer: False
-        - question: Eating disorders, Question 8: Most people recover from eating disorders.
+        - question: Eating disorders, Question 4: It is not known whether bad feelings cause overeating.
           answer: True
-        - question: Eating disorders, Question 9: One form of treatment is talking to other people with the same problem.
+        - question: Eating disorders, Question 5: Young American girls probably have more of a problem with undereating, than overeating.
           answer: True
-        - question: Eating disorders, Question 10: It is not known whether bad feelings cause overeating.
+        - question: Eating disorders, Question 6: The causes are probably biological, rather than psychological.
+          answer: False
+        - question: Eating disorders, Question 7: A binge is a period of overeating.
+          answer: True
+        - question: Eating disorders, Question 8: Binge eaters are more likely to be men than women.
+          answer: False
+        - question: Eating disorders, Question 9: Treatment of eating disorders usually involves eating medicine.
+          answer: False
+        - question: Eating disorders, Question 10: One form of treatment is talking to other people with the same problem.
           answer: True
   jigsaw:
     1:
@@ -201,7 +201,7 @@ lerman:
           answer: False
         - question: Emily ate more matzo balls than Moses.
           answer: False
-        - question: Moses used to be a 'somebody,' but now he's a 'nobody.'
+        - question: Moses used to be a `somebody,' but now he's a `nobody.'
           answer: False
 tyson:
   compcomp:
@@ -228,22 +228,22 @@ tyson:
       quiz:
         - question: Being large, Question 1: Some overweight people are not worried about their weight.
           answer: True
-        - question: Being large, Question 2: More people who are overweight are unhappy than people who are not overweight.
+        - question: Being large, Question 2: Someone who is very heavy may not be overweight, if they are big-boned.
           answer: True
-        - question: Being large, Question 3: Someone who is very heavy may not be overweight, if they are big-boned.
-          answer: True
-        - question: Being large, Question 4: Because there are people who are overweight, being overweight is not a simple problem solved by exercise and dieting.
-          answer: True
-        - question: Being large, Question 5: People don't understand that exercising and dieting can reduce your weight.
+        - question: Being large, Question 3: People don't understand that exercising and dieting can reduce your weight.
           answer: False
-        - question: Being large, Question 6: It's easy, by exercising and dieting, to stop being overweight.
-          answer: False
-        - question: Being large, Question 7: People who are overweight are worried both about themselves and about what other people think about them.
+        - question: Being large, Question 4: Social situations are a problem, but also a solution for people who are overweight.
           answer: True
-        - question: Being large, Question 8: It is best to avoid social situations that take the mind off weight.
-          answer: False
-        - question: Being large, Question 9: Social situations are a problem, but also a solution for people who are overweight.
+        - question: Being large, Question 5: More people who are overweight are unhappy than people who are not overweight.
           answer: True
+        - question: Being large, Question 6: Because there are people who are overweight, being overweight is not a simple problem solved by exercise and dieting.
+          answer: True
+        - question: Being large, Question 7: It's easy, by exercising and dieting, to stop being overweight.
+          answer: False
+        - question: Being large, Question 8: People who are overweight are worried both about themselves and about what other people think about them.
+          answer: True
+        - question: Being large, Question 9: It is best to avoid social situations that take the mind off weight.
+          answer: False
         - question: Being large, Question 10: Exercise is not a good idea if you are underweight.
           answer: False
   jigsaw:
