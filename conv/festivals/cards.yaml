@@ -150,3 +150,33 @@ macaulay:
         \item [Activities] Gift-giving, eating, family reunions, taking a nap, watching special Christmas shows on TV.
         \item [History] Christmas celebrates the birth of Jesus Christ, but in fact it was originally a non-Christian Roman festival called Saturnalia.
         \end{description}
+watterson:
+  jigsaw:
+    0:
+      identifier: watterson 0
+      A: A child told you that for Christmas he wanted his sister, Bridget to be able to hear. You told his mother that she should get him anything and everything he wanted for Christmas because it was the best request you had had all day. Other kids had only wanted things for themselves.
+      B: You have two children, one, your daughter, is deaf. The other, Mitchel isn't deaf. Mitchel comforts his sister a lot when she has problems. Often she is upset because children at school make fun of her deafness. You appreciate his concern for his younger sister at that time.
+      C: Once, when you were four, and your sister was two, at Xmas, you sat on Santa's knee. And you told him that for Christmas you wanted your sister to be able to hear. Your mother tells you Santa liked your Christmas wish, because all the kids that day had just told Santa they wanted things for themselves.
+      D: You are eight, and your brother is ten. You are deaf. Your mother, Debbie does what she can to help you. But at school and when you are playing with other children, she can't help you. At that time, your brother protects you from unkind children who make fun of you.
+  compcomp:
+    0:
+      identifier: watterson 0
+      White: |+
+        \begin{normalsize} Parent's guide to being a good Santa \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Books] Read Xmas books to your kids before Christmas.
+        \item [Lists] Help them write lists of the things they want, so they are things that they could actually receive from you.
+        \item [Use list] Shop for items at the top of your child's list, so they are under the tree on Xmas morning, if possible.
+        \item [Arrangement] Highlight the biggest gifts even if they aren't most expensive. Bigger boxes excite kids more.
+        \item [Fairness] Make the size and amount of the gifts that each child receives about the same. For most of the year, it's hard to treat all kids equally. It's easier at Xmas.
+        \end{description}
+      Black: |+
+        \begin{normalsize} Santa Claus in department stores \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Timeline] Starting 100-150 years ago in the US, Santa has appeared in stores for the 2-4 weeks before Christmas.
+        \item [Function] To promote the store image by distributing small gifts. To give children a Christmas experience by listening to their wishlists as they sit on his knee.
+        \item [Setup] The surrounding area is decorated, and there is a large throne. Photographs with Santa may be offered.
+        \item [Pretense] If Santa is detected to be fake (eg child pulls beard, sees it's not real). the child will be told the fake is standing in for the real Santa, who is very busy. Most children seem to accept this.
+        \end{description}
