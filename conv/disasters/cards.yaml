@@ -122,7 +122,7 @@ desilvey:
           answer: True
         - question: Katrina stories, Question 2: Both lived in the same city.
           answer: False
-        - question: Katrina stories, Question 3: We know one, but not both's, occupation.
+        - question: Katrina stories, Question 3: We know one, but not both people's, occupation.
           answer: True
         - question: Katrina stories, Question 4: DeSilvey's relationship with his wife was more complicated.
           answer: True
@@ -316,5 +316,5 @@ harllee:
         \item [Character] A professional trained to serve the spiritual needs of members of the military. They will give individuals spiritual care, and may advise senior officers on issues of religion, ethics, morale, and morals.
         \item [Non-combatants] They are expected to be unarmed, but in the US are accompanied by an armed assistant. If captured, they should be returned to their countries.
         \item [Casualties] 100 US chaplains lost their lives in World War II, the 3rd highest US casualty rate of the war.
-        \item [Application] Clergymen/women can apply to become chaplains in the US, but they need their faith group (church) to support them, and then the military has its own requirements, like health, and physical fitness.
+        \item [Application] Clergymen/women can apply to become chaplains in the US, but they need their church's support, and the military requires `suitability.'
         \end{description}
