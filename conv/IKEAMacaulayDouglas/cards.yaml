@@ -1,8 +1,13 @@
 genre: upper
 ikea:
   jigsaw:
+    mark:
     1:
       identifier: ikea 1
+      A: It's inconvenient for the staff to have Mark living in your store for a week, but the video he is making will be good publicity for IKEA. You ask a shopper, James, to wheel him back to his "home" in a shopping cart.
+      B: Your husband hasn't been home for some weeks. He asks you to go on a "date" at his new home, IKEA. You ask the manager, Scott, if Mark is annoying the staff. You know your husband is a very annoying person.
+      C: You are asked by the manager of the IKEA store to cooperate with Mark making his video. Mark asks you to wheel him to his IKEA "home" in your shopping cart. You are busy and don't want to do it, but you do do it.
+      D: You are making a video about living in IKEA. The place is nicer than the place you live in. You invite your wife, Wanda on a date to the store. You introduce her to the manager, Scott.
       quiz:
         - question: A
           option: 
@@ -105,6 +110,12 @@ macaulay:
           answer: True
         - question: Question 4, Thanksgiving and Christmas: Thanksgiving is celebrated outside North America, but at a different date.
           answer: False
+        - question: Question 5, Thanksgiving and Christmas: Thanksgiving is connected to the harvest in some way.
+          answer: True
+        - question: Question 6, Thanksgiving and Christmas: Originally, Thanksgiving and Christmas were different to what they are now.
+          answer: True
+        - question: Question 7, Thanksgiving and Christmas: Thanksgiving is celebrated at an earlier date in the United States than in Canada.
+          answer: False
 douglas:
   jigsaw:
     1:
@@ -166,3 +177,9 @@ douglas:
           answer: True
         - question: Question 8, Interest groups: Some people think the AARP's real aim is to get old people to buy the organization's insurance.
           answer: True
+        - question: Question 9, Interest groups: The AARP spends a lot more than the NAACP on lobbying in Washington.
+          answer: True
+        - question: Question 10, Interest groups: The AARP is twice as old as the NAACP
+          answer: False
+        - question: Question 11, Interest groups: The NAACP represents more people than the AARP.
+          answer: False
