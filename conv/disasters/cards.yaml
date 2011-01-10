@@ -297,6 +297,53 @@ harllee:
       B: You are a member of Rod's unit. A Viet Cong sniper, Diem shoots Rod and you shoot Diem. You and Bob stand by him at his hospital bed. 30 years later, Bob dies of a heart attack. You tell his wife, `Bob was a spiritual giant. He was there when I faced challenges.'
       C: You are a chaplain with the 101st Airborne. Rod is dying in hospital. You knew him and his family back home. He talks to you and Jerry about his sons and his mother. He doesn't make much sense. It is very hard for you to talk to him and to say something meaningful.
       D: You are dying in hospital after being shot by a Viet Cong sniper. You know that dying is something that happens to soldiers. You do not want to die, but there is nothing you can do. You feel weak. You talk to Chaplain Harllee about your children and your mother.
+    1:
+      identifier: harllee 1
+      A: You are a member of the Viet Cong fighting the Chicken Men. You shoot Rod. Jerry shoots you and you die. Jerry and some soldiers carry Rod to the hospital. You don't know if Rod died or not.
+      B: You are a member of Rod's unit. You shoot Diem, a Viet Cong sniper who shot Rod. In the hospital, you and Bob talk to Rod as he dies. 30 years later, Bob dies. You tell his wife, `Bob was a spiritual giant.'
+      C: You are a chaplain with the Chicken Men. Rod is dying in hospital. He talks to you and Jerry about his family. He doesn't make much sense. It is very hard for you to say something meaningful to him.
+      D: You are dying in hospital after being shot by a Viet Cong sniper. You know that many Chicken Men have died. You do not want to die. You feel weak. You talk to Bob about your children and your mother.
+      quiz:
+        - question: A
+          option:
+            - Bob
+            - Diem
+            - Jerry
+            - Rod
+          answer: Diem
+        - question: B
+          option:
+            - Bob
+            - Diem
+            - Jerry
+            - Rod
+          answer: Jerry
+        - question: C
+          option:
+            - Bob
+            - Diem
+            - Jerry
+            - Rod
+          answer: Bob
+        - question: D
+          option:
+            - Bob
+            - Diem
+            - Jerry
+            - Rod
+          answer: Rod
+        - question: Diem was one of the Chicken Men.
+          answer  : False
+        - question: Bob was a chaplain.
+          answer  : True
+        - question: Diem shot and killed Jerry.
+          answer  : False
+        - question: It was easy for Bob to talk to Rod in the hospital.
+          answer  : False
+        - question: Rod did not want to die.
+          answer  : True
+        - question: Jerry called Bob `a spiritual giant.'
+          answer  : True
   compcomp:
     0:
       identifier: harllee 0
@@ -318,3 +365,16 @@ harllee:
         \item [Casualties] 100 US chaplains lost their lives in World War II, the 3rd highest US casualty rate of the war.
         \item [Application] Clergymen/women can apply to become chaplains in the US, but they need their church's support, and the military requires `suitability.'
         \end{description}
+      quiz:
+        - question: Question 9. Chaplain in 101st Airborne: The Chicken Men had a chaplain to care for their spiritual needs.
+          answer: True
+        - question: Question 10. Chaplain in 101st Airborne: Chicken Men casualties were higher in World War II than in Vietnam.
+          answer: False
+        - question: Question 11. Chaplain in 101st Airborne: A chaplain will be unarmed, but may perhaps have an armed assistant.
+          answer: True
+        - question: Chaplain in 101st Airborne Question a: The insignia worn by the Chicken Men shows an American chicken.
+          answer: False
+        - question: Chaplain in 101st Airborne Question b: In the US, the military requires chaplains to be suitable and to be supported by their church.
+          answer: True
+        - question: Chaplain in 101st Airborne Question c: The Screaming Eagles probably parachute into action now in Afghanistan.
+          answer: False
