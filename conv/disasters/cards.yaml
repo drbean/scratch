@@ -241,7 +241,7 @@ conant:
           answer  : False
         - question: The pilot sent money to Martha.
           answer  : False
-        - question: Angel was the only 1 of 4 to die.
+        - question: Angel was the only 1 of the 4 to die.
           answer  : True
         - question: Tina helped the flight attendant.
           answer  : False
