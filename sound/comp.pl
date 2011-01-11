@@ -1,7 +1,7 @@
 #!/usr/bin/perl 
 
 # Created: 西元2010年12月18日 10時28分17秒
-# Last Edit: 2010 12月 18, 19時24分26秒
+# Last Edit: 2011  1月 11, 13時36分46秒
 # $Id$
 
 =head1 NAME
@@ -50,8 +50,8 @@ $ftp->binary;
 
 use YAML qw/LoadFile DumpFile/;
 my ($texts) = LoadFile "$area/cards.yaml";
-my @soundfiles;
-push @soundfiles, (
+my @questions;
+push @questions, (
 			 [ 0, "voice_nitech_us_rms_arctic_hts", "1" ],
 			 [ 1, "voice_nitech_us_awb_arctic_hts", "2" ],
 			 [ 2, "voice_nitech_us_clb_arctic_hts", "3" ],
@@ -71,11 +71,10 @@ for my $topicform (
 
 	my $topic = $topicform->[0];
 	my $form = $topicform->[1];
-	for ( @soundfiles ) {
-		# my ( $text, $voice, $local ) = @$_;
-		my $text = $texts->{$topic}->{compcomp}->{$form}->{quiz}->[$_->[0]]->{question};
-		my $voice = $_->[1];
-		my $local = "/home/drbean/soundfiles/$genre/${topic}_${form}_$_->[2].mp3";
+	for my $q ( @questions ) {
+		my ( $text, $voice, $id ) = @$q;
+		my $text = $texts->{$topic}->{compcomp}->{$form}->{quiz}->[$text]->{question};
+		my $local = "/home/drbean/soundfiles/$genre/${topic}_${form}_$id.mp3";
 		system( "echo \"$text\" |
 			text2wave -eval \"($voice)\" -otype wav -o /tmp/$genre.wav"
 			) == 0 or die "text2wave? $@,";
