@@ -465,10 +465,10 @@ fourideas:
         \item [Cars] Car buyers didn't like there to be many people there when they were buying a car.
         \item [Cars] The showroom started charging people an entrance fee.
       B: |+
-        \item [Citrus] Pepsi sells lots of fruit drink, and needs lots of citrus.
         \item [Citrus] Pepsi wants Punjab farmers to grow citrus, and farmers want to, also.
         \item [Citrus] Farmers don't have the money to start growing citrus.
-        \item [Citrus] Pepsi asks the Punjab government to help farmers.
+        \item [Citrus] Pepsi asks the Punjab government to give farmers some money.
+        \item [Citrus] The government gives farmers money to grow citrus and takes it back when the citrus is sold.
       C: |+ 
       D: |+
       quiz:
@@ -479,7 +479,7 @@ fourideas:
             - result
             - lesson
           answer: result
-        - question: The government decided to give money to 
+        - question: Farmers are angry Pepsi will not pay the price it promised them. 
           option:
             - problem
             - idea
