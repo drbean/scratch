@@ -461,16 +461,24 @@ fourideas:
       identifier: fourideas 4
       A: |+
         \item [Cars] The Ferrari showroom was always full of people who just wanted to look at the cars.
-        \item [Cars] People who wanted to buy a car weren't going to the showroom.
-        \item [Cars] Car buyers didn't like there to be many people there when they were buying a car.
-        \item [Cars] The showroom started charging people an entrance fee.
+        \item [Citrus] Pepsi sells lots of fruit drink, and needs lots of citrus
+        \item [Dr Bean] wants the students to listen to soundfiles and answer the questions.
+        \item [Internet] Harvard is slow to produce a school facebook with student pictures.
       B: |+
+        \item [Cars] People who wanted to buy a car weren't going to the showroom.
         \item [Citrus] Pepsi wants Punjab farmers to grow citrus, and farmers want to, also.
-        \item [Citrus] Farmers don't have the money to start growing citrus.
-        \item [Citrus] Pepsi asks the Punjab government to give farmers some money.
-        \item [Citrus] The government gives farmers money to grow citrus and takes it back when the citrus is sold.
+        \item [Dr Bean] wants the students to compete. He wants them to get different answers.
+        \item [Internet] Mark hacks the school network, gets pictures, and writes a facebook site.
       C: |+ 
+        \item [Cars] Car buyers didn't like there to be many people around when they were buying a car.
+        \item [Citrus] Pepsi asks the Punjab government to give farmers some money.
+        \item [Dr Bean]'s students want to get the same answer. They want to know their partner's answer.
+        \item [Internet] The site has 450 visitors in the first 4 hours.
       D: |+
+        \item [Cars] The showroom started charging people an entrance fee.
+        \item [Citrus] The government gives farmers the money to grow citrus and takes it back when the citrus is sold.
+        \item [Dr Bean] doesn't want them to look at each other's answer. But he cannot stop the students looking.
+        \item [Internet] Harvard shuts down the site. And Mark starts Facebook.
       quiz:
         - question: The showroom is selling more cars now and making a lot of money from entrance fees.
           option:
@@ -479,11 +487,24 @@ fourideas:
             - result
             - lesson
           answer: result
-        - question: Farmers are angry Pepsi will not pay the price it promised them. 
+        - question: Farmers didn't have the money to start growing citrus fruit themselves.
           option:
             - problem
             - idea
             - result
             - lesson
-          answer: result
-
+          answer: problem
+        - question: Dr Bean decides to read the question to the 2 students and watch them write their answers.
+          option:
+            - problem
+            - idea
+            - result
+            - lesson
+          answer: idea
+        - question: An NUU student who wrote an NUU facebook, like Mark, would attract attention.
+          option:
+            - problem
+            - idea
+            - result
+            - lesson
+          answer: lesson
