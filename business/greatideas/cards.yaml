@@ -508,3 +508,41 @@ fourideas:
             - result
             - lesson
           answer: lesson
+    5:
+      identifier: fourideas 5
+      A: |+
+        \item [Cars] 
+      C: |+
+        \item [Dr Bean] has developed a number of different teaching ideas to teach students.
+        \item [Dr Bean] thinks students need help speaking English to each other.
+        \item [Dr Bean]'s ideas are not always successful. Often students don't want to use English to do them.
+        \item [Dr Bean] thinks some of his ideas are valuable. He plans to continue using them.
+      D: |+
+        \item [Internet] The Million Dollar Homepage, with links to other sites, represented the Internet in 2005.
+        \item [Internet] In 2010, the Internet is a different, social experience, like Facebook.
+        \item [Internet] Alex loves Facebook. He thinks Mark is a genius who changed the Internet.
+        \item [Internet] Alex wants to have a site that represents the new Internet, like Facebook.
+
+
+      quiz:
+        - question: Now, Pepsi will not pay the price it promised farmers, so they are angry.
+          option:
+            - problem
+            - idea
+            - result
+            - lesson
+          answer: result
+        - question: Other teachers will find it difficult to try Dr Bean's ideas. They require a lot of preparation.
+          option:
+            - problem
+            - idea
+            - result
+            - lesson
+          answer: lesson
+        - question: Other teachers will find it difficult to try Dr Bean's ideas. They require a lot of preparation.
+          option:
+            - problem
+            - idea
+            - result
+            - lesson
+          answer: lesson
