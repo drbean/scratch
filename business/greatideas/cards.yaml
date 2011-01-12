@@ -512,6 +512,11 @@ fourideas:
       identifier: fourideas 5
       A: |+
         \item [Cars] 
+      B: |+
+        \item [Citrus] Pepsi wants citrus, but farmers don't grow citrus in the Punjab.
+        \item [Citrus] Pepsi tells the Punjab government it will give farmers a good price for citrus.
+        \item [Citrus] The Punjab government decides to give farmers money to grow citrus.
+        \item [Citrus] The farmers give the money back when they sell the citrus to Pepsi.
       C: |+
         \item [Dr Bean] has developed a number of different teaching ideas to teach students.
         \item [Dr Bean] thinks students need help speaking English to each other.
@@ -525,24 +530,24 @@ fourideas:
 
 
       quiz:
-        - question: Now, Pepsi will not pay the price it promised farmers, so they are angry.
+        - question: Now, Pepsi will not pay the price it promised the government. Farmers are angry.
           option:
             - problem
             - idea
             - result
             - lesson
           answer: result
-        - question: Other teachers will find it difficult to try Dr Bean's ideas. They require a lot of preparation.
+        - question: Other teachers probably will not want to try Dr Bean's unsuccessful ideas. They require a lot of preparation.
           option:
             - problem
             - idea
             - result
             - lesson
           answer: lesson
-        - question: Other teachers will find it difficult to try Dr Bean's ideas. They require a lot of preparation.
+        - question: Alex decides to collect people's pictures and put them in a `book' on the Internet, a face book.
           option:
             - problem
             - idea
             - result
             - lesson
-          answer: lesson
+          answer: idea
