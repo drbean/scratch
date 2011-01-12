@@ -93,15 +93,15 @@ cars:
                 If I could afford a Ferrari, I wouldn't complain. But \$145 for a polo shirt, just because it has a Ferrari logo on it? \$53 for a t-shirt?
                 \end{minipage}
         \end{description}
-    quiz      :
-      - question: Question 1. Penske-Wynn Ferrari Showroom: All of the showroom reviews conclude spending the ten-dollar entrance fee and going to look at the cars was worth it.
-        answer  : False
-      - question: Question 2. Penske-Wynn Ferrari Showroom: One of the showroom reviews says something bad about the Ferrari clothes store and one says something good.
-        answer  : True
-      - question: Question 3. Penske-Wynn Ferrari Showroom: None of the showroom reviews concludes the ten-dollar entrance fee is too much.
-        answer  : True
-      - question: Question 4. Penske-Wynn Ferrari Showroom: When you go into the showroom, you get a ticket which you can take with you when you leave.
-        answer  : False
+      quiz      :
+        - question: Question 1. Penske-Wynn Ferrari Showroom: All of the showroom reviews conclude spending the ten-dollar entrance fee and going to look at the cars was worth it.
+          answer  : False
+        - question: Question 2. Penske-Wynn Ferrari Showroom: One of the showroom reviews says something bad about the Ferrari clothes store and one says something good.
+          answer  : True
+        - question: Question 3. Penske-Wynn Ferrari Showroom: None of the showroom reviews concludes the ten-dollar entrance fee is too much.
+          answer  : True
+        - question: Question 4. Penske-Wynn Ferrari Showroom: When you go into the showroom, you get a ticket which you can take with you when you leave.
+          answer  : False
 citrus:
  jigsaw:
   1:
@@ -355,3 +355,135 @@ fourideas:
             - result
             - lesson
           answer: result
+    2:
+      identifier: fourideas 2
+      A: |+
+        \item [Cars] There were very many people visiting the Ferrari showroom.
+        \item [Citrus] Pepsi needs citrus, but no-one grows citrus in the Punjab.
+        \item [Flicker] is earning less and less money from cigarette lighters.
+        \item [Internet] Alex wants to make money from the Internet.
+      B: |+
+        \item [Cars] They didn't want to buy a car. They just wanted to look at them.
+        \item [Citrus] Punjab farmers grow rice. They don't have citrus trees. 
+        \item [Flicker] More and more people are not smoking cigarettes.
+        \item [Internet] Websites have no way of advertising themselves.
+      C: |+
+        \item [Cars] Penske-Wynn started charging people ten dollars to look at the cars.
+        \item [Citrus] Pepsi tells farmers it will give them a good price for citrus.
+        \item [Flicker] decided to develop new products like BBQ lighters.
+        \item [Internet] Alex thinks a popular home page would attract advertisers.
+      D: |+
+        \item [Cars] The showroom is making almost a hundred thousand dollars a month from entrance fees.
+        \item [Citrus] Farmers want to grow citrus but don't know where to find citrus seeds.
+        \item [Flicker] may not make a lot of money with its new products.
+        \item [Internet] Alex sells advertising space on his home page.
+      quiz:
+        - question: Other car showrooms may not be able to charge an entrance fee. They aren't showing very expensive cars.
+          option:
+            - problem
+            - idea
+            - result
+            - lesson
+          answer: lesson
+        - question: Pepsi will get citrus seeds from the U.S. and give them to farmers.
+          option:
+            - problem
+            - idea
+            - result
+            - lesson
+          answer: idea
+        - question: Flicker needed to find ways to make more money because it was making less from cigarette lighters.
+          option:
+            - problem
+            - idea
+            - result
+            - lesson
+          answer: problem
+        - question: Advertisers give Alex one million dollars for space on his home page.
+          option:
+            - problem
+            - idea
+            - result
+            - lesson
+          answer: result
+    3:
+      identifier: fourideas 3
+      A: |+
+        \item [Cars] Steve Wynn, a very rich casino operator, drives a Ferrari.
+        \item [Citrus] Punjab farmers are not making much money.
+        \item [Dr Bean] is thinking about how to interest students in English.
+        \item [Internet] Alex decided to make a website of many people's pictures.
+      B: |+
+        \item [Cars] Some people who come to his casino win a lot of money from him.
+        \item [Citrus] Pepsi wants to buy citrus fruit.
+        \item [Dr Bean] wants to make language learning enjoyable and game-like.
+        \item [Internet] About 6,000 people have put their pictures on Alex's website since September.
+      C: |+
+        \item [Cars] Wynn wants to get back some of the money people win from him.
+        \item [Citrus] The government helps farmers to grow citrus.
+        \item [Dr Bean] thought a comprehension competition might interest students.
+        \item [Internet] The website is not as popular as his earlier million dollar homepage.
+      D: |+
+        \item [Cars] Many people who have a lot of money want to buy a Ferrari.
+        \item [Citrus] Pepsi promises to pay a good price.
+        \item [Dr Bean] Dr Bean asked students to compete to see who understood more.
+        \item [Internet] The earlier site earned one million dollars in four months.
+      quiz:
+        - question: Wynn thinks of selling Ferrari cars in his casino.
+          option:
+            - problem
+            - idea
+            - result
+            - lesson
+          answer: idea
+        - question: In Taiwan, similar action might not be possible. Here, citrus is too cheap.
+          option:
+            - problem
+            - idea
+            - result
+            - lesson
+          answer: lesson
+        - question: 
+          option: Dr Bean's comprehension competition failed to interest students.
+            - problem
+            - idea
+            - result
+            - lesson
+          answer: result
+        - question: Alex was looking for something to do to follow his earlier site.
+          option:
+            - problem
+            - idea
+            - result
+            - lesson
+          answer: problem
+    4:
+      identifier: fourideas 4
+      A: |+
+        \item [Cars] The Ferrari showroom was always full of people who just wanted to look at the cars.
+        \item [Cars] People who wanted to buy a car weren't going to the showroom.
+        \item [Cars] Car buyers didn't like there to be many people there when they were buying a car.
+        \item [Cars] The showroom started charging people an entrance fee.
+      B: |+
+        \item [Citrus] Pepsi sells lots of fruit drink, and needs lots of citrus.
+        \item [Citrus] Pepsi wants Punjab farmers to grow citrus, and farmers want to, also.
+        \item [Citrus] Farmers don't have the money to start growing citrus.
+        \item [Citrus] Pepsi asks the Punjab government to help farmers.
+      C: |+ 
+      D: |+
+      quiz:
+        - question: The showroom is selling more cars now and making a lot of money from entrance fees.
+          option:
+            - problem
+            - idea
+            - result
+            - lesson
+          answer: result
+        - question: The government decided to give money to 
+          option:
+            - problem
+            - idea
+            - result
+            - lesson
+          answer: result
+
