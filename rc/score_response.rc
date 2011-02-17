@@ -15,7 +15,9 @@ my $l = League->new( leagues => '/home/drbean/class', id => $dir );
 my $g = Grades->new({ league => $l });
 my %m = map { $_->{id} => $_ } @{ $l->members };
 
-my $rs = LoadFile 'comp/2/response.yaml';
+my $round = 6;
+
+my $rs = LoadFile "comp/$round/response.yaml";
 
 my %s = map {
 	my $table = $_; my $r = $rs->{$table}; $table =>
@@ -23,4 +25,4 @@ my %s = map {
 												values( %{$p->{a}} ) ) } keys %$r }
 			} keys %$rs;
 
-# DumpFile 'comp/1/scores.yaml', \%s
+# DumpFile "comp/$round/scores.yaml", \%s
