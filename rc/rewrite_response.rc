@@ -15,7 +15,7 @@ my $l = League->new( leagues => '/home/drbean/class', id => $dir );
 my $g = Grades->new({ league => $l });
 my %m = map { $_->{id} => $_ } @{ $l->members };
 
-my $round = 8;
+my $round = 13;
 my $config = LoadFile "comp/$round/round.yaml";
 my $activity = $config->{activity};
 my %color;
@@ -34,20 +34,20 @@ my $old = LoadFile "comp/$round/response.yaml";
 for my $table ( keys %$old ) {
 	my $play = $old->{$table};
 	for my $topic ( keys %$play ) {
-		my $topicplay = $old->{$topic};
+		my $topicplay = $play->{$topic};
 		for my $form ( keys %$topicplay ) {
 			my $formplay = $topicplay->{$form};
-			my $player = keys %$formplay;
+			my @player = keys %$formplay;
 			my ($white, $black);
-			if ( $color{ $player->[0] } eq 'White' ) {
-				( $white, $black ) = @$player;
+			if ( $color{ $player[0] } eq 'White' ) {
+				( $white, $black ) = @player;
 			}
 			else {
-				( $white, $black ) = reverse @$player;
+				( $white, $black ) = reverse @player;
 			}
 		$new->{$table}->{$topic}->{$form}->{ free } = $formplay;
-		my $ans = { $player->[0] => { 1 => undef },
-			$player->[1] => { 1 => undef } };
+		my $ans = { $player[0] => { 1 => undef },
+			$player[1] => { 1 => undef } };
 		Bless( $ans )->keys( [ $white, $black ] );
 		$new->{$table}->{$topic}->{$form}->{ set } = $ans;
 		}
@@ -55,4 +55,4 @@ for my $table ( keys %$old ) {
 }
 
 rename "comp/$round/response.yaml", "comp/$round/response.yaml.orig";
-# DumpFile "comp/$round/response.yaml", $new;
+DumpFile "comp/$round/response.yaml", $new;
