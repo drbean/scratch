@@ -13,15 +13,17 @@ $_REPL->load_plugin('DumpHistory');
 (my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
 use Grades;
 my $l = League->new( leagues => '/home/drbean/class', id => $dir );
-# my $g = Grades->new({ league => $l });
-my %m = map { $_->{id} => $_ } @{ $l->members };
+my $g = Grades->new({ league => $l });
+my %m = map { $_->{id} => $_ } @{ $l->yaml->{active} };
+my $grades = $g->grades;
 
-my $session = 2;
+my $session = 4;
 
 my $gs = LoadFile "classwork/$session/groups.yaml";
 my @colors = sort keys %$gs;
 my ( %g, @t, $m );
-push @t, [ $_, $m{$_}->{name} ] for sort keys %m;
+my @graded = sort { $grades->{$a} <=> $grades->{$b} }keys %m;
+push @t, [ $_, $m{$_}->{name} ] for @graded;
 my $fourth = ceil @t/4;
 my $rumpPlayers = @t % 4;
 my $rumpGroups = $rumpPlayers == 0?	0: 4 - $rumpPlayers;
@@ -43,4 +45,4 @@ for my $i ( $rumpGroups .. $fourth-1 ) {
 									$t[ -1 - $i ]->[1] ];
 }
 
-# DumpFile "classwork/$session/groups.yaml", \%g;
+DumpFile "classwork/$session/groups.yaml", \%g;
