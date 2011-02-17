@@ -8,7 +8,8 @@ use List::Util qw/sum/;
 use Cwd;
 use Grades;
 
-use lib '../../swiss/web/lib';
+# use lib '../../swiss/web/lib';
+use lib '/var/www/cgi-bin/swiss/lib';
 use Swiss;
 use Swiss::Model::DB;
 use Swiss::Schema;
@@ -42,4 +43,4 @@ while ( my $match = $m->find({ pair => $n }) )  {
 
 my @tables = sort {$a<=>$b} keys %$players;
 Bless( $players )->keys([ @tables ]); 
-# DumpFile "comp/$round/members.yaml", $players;
+DumpFile "comp/$round/members.yaml", $players;
