@@ -21,11 +21,11 @@ duplantier:
         \item [Damage] Most severe loss of life occurred in New Orleans, where the levee system failed, and 80 percent of the city was flooded. However worst property damage occurred in Mississippi gulf towns where flood waters reached 10-20 kilometers from the beach.
         \end{description}
       quiz:
-        - question: Typhoon, earthquake. Question 1: The typhoon was more recent.
+        - question: Question 1. Typhoon, earthquake: The typhoon was more recent.
           answer: True
-        - question: Typhoon, earthquake. Question 2: The earthquake resulted in more deaths.
+        - question: Question 2. Typhoon, earthquake: The earthquake resulted in more deaths.
           answer: True
-        - question: Typhoon, earthquake. Question 3: The earthquake was more costly.
+        - question: Question 3. Typhoon, earthquake: The earthquake was more costly.
           answer: False
         - question: Typhoon, earthquake. Question 4: The earthquake lasted for a longer period.
           answer: False
@@ -41,6 +41,21 @@ duplantier:
           answer: True
         - question: Typhoon, earthquake. Question 10: Worst damaged typhoon area was New Orleans.
           answer: False
+    2:
+      identifier: katrina 2
+      quiz:
+        - question: Question 1. Typhoon, earthquake: The typhoon was more recent.
+          answer: True
+        - question: Question 2. Typhoon, earthquake: The earthquake resulted in more deaths.
+          answer: True
+        - question: Question 3. Typhoon, earthquake: The earthquake was more costly.
+          answer: False
+        - question: Typhoon, earthquake. Question a: The earthquake was the worst in Taiwan ever.
+          answer: False
+        - question: Typhoon, earthquake. Question b: The typhoon was the United States' worst ever.
+          answer: False
+        - question: Typhoon, earthquake. Question 10: Worst damaged in the typhoon were Mississippi gulf towns.
+          answer: True
   jigsaw:
     0:
       identifier: duplantier 0
@@ -137,6 +152,21 @@ desilvey:
         - question: Katrina stories, Question 9: Duplantier faced more death.
           answer: False
         - question: Katrina stories, Question 10: Fewer of DeSilvey's family died.
+          answer: False
+    2:
+      identifier: desilvey 2
+      quiz:
+        - question: Question 5. Katrina stories: The two stories are dissimilar.
+          answer: True
+        - question: Question 6. Katrina stories: We know both people's jobs or occupations.
+          answer: False
+        - question: Question 7. Katrina stories: Duplantier's story is sadder than Desilvey's.
+          answer: False
+        - question: Question a. Katrina stories: DeSilvey's relationship with his wife was more dificult than Duplantier's relationship.
+          answer: True
+        - question: Question b. Katrina stories: DeSilvey's story is more about the water than Duplantier's.
+          answer: True
+        - question: Question c. Katrina stories: Duplantier faced more death than Desilvey.
           answer: False
   jigsaw:
     0:
@@ -245,7 +275,7 @@ conant:
           answer  : True
         - question: Tina helped the flight attendant.
           answer  : False
-        - question: Martha now wants a life worth living.
+        - question: Martha now wants to live a life free of regret.
           answer  : True
   compcomp:
     0:
@@ -288,6 +318,21 @@ conant:
         - question: Air crash Question 9: In both crashes, the pilots were able to take action.
           answer: False
         - question: Air crash Question 10: Many bodies in the China Airlines crash were without clothes.
+          answer: True
+    1:
+      identifier: conant 1
+      quiz:
+        - question: Question 9. Air crash: There were more people on the China Airlines flight.
+          answer: False
+        - question: Question 10. Air crash: There were more survivors on the United Airlines flight.
+          answer: True
+        - question: Question 11. Air crash: Metal failure was the cause of the crash on both planes.
+          answer: True
+        - question: Air crash Question a: The parts of the United Airlines plane were found over a wider area than those of the China Airlines plane.
+          answer: False
+        - question: Air crash Question b: The pilot of the China Airlines plane was able to do more to save the plane.
+          answer: False
+        - question: Air crash Question 10: Both accidents occurred about the same time into the flight.
           answer: True
 harllee:
   jigsaw:
@@ -366,15 +411,15 @@ harllee:
         \item [Application] Clergymen/women can apply to become chaplains in the US, but they need their church's support, and the military requires `suitability.'
         \end{description}
       quiz:
-        - question: Question 9. Chaplain in 101st Airborne: The Chicken Men had a chaplain to care for their spiritual needs.
+        - question: Question 13. Chaplain in 101st Airborne: The Chicken Men had a chaplain to care for their spiritual needs.
           answer: True
-        - question: Question 10. Chaplain in 101st Airborne: Chicken Men casualties were higher in World War II than in Vietnam.
+        - question: Question 14. Chaplain in 101st Airborne: Chicken Men casualties were higher in World War II than in Vietnam.
           answer: False
-        - question: Question 11. Chaplain in 101st Airborne: A chaplain will be unarmed, but may perhaps have an armed assistant.
+        - question: Question 15. Chaplain in 101st Airborne: A chaplain will be unarmed, but may perhaps have an armed assistant.
           answer: True
         - question: Chaplain in 101st Airborne Question a: The insignia worn by the Chicken Men shows an American chicken.
           answer: False
         - question: Chaplain in 101st Airborne Question b: In the US, the military requires chaplains to be suitable and to be supported by their church.
           answer: True
-        - question: Chaplain in 101st Airborne Question c: The Screaming Eagles probably parachute into action now in Afghanistan.
+        - question: Chaplain in 101st Airborne Question c:  Fighting in Afghanistan now, the Screaming Eagles probably parachute into action.
           answer: False
