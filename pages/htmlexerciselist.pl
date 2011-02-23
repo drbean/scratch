@@ -136,16 +136,16 @@ Can't find an exercise you didn't finish in a previous week? You can't do that e
 </p>
 
 <p>
-<h2>Logging in</h2>
+<h2><a name=\"login\"> Logging in </a></h2>
 
 </p>
 
 <p>
 Note: You need to login to transcribe the conversation.
 <ul>
-	<li>Your name is your Chinese name in Chinese characters. Your ID is your school ID. 
+	<li>Your name is any name you want to use. English is good, Chinese is OK too. Your ID is your school ID. 
 	<li>The first letter of the ID, eg U or N, is a capital (big) letter. 
-	<li>Your password is the first half of your first name. It is in English, not the Chinese character. Thus JiaQi\'s pasword is Jia. See <a href=http://humanum.arts.cuhk.edu.hk/Lexis/Lindict/syllabary>Lin YuTang's Chinese-English dictionary</a> for the Hanyu Pinyin (漢語拼音) spelling.
+	<li>Your password is the first half of your first (second?) Chinese name. It is in English, not the Chinese character. Thus JiaQi\'s pasword is Jia. See <a href=http://humanum.arts.cuhk.edu.hk/Lexis/Lindict/syllabary>Lin YuTang's Chinese-English dictionary</a> for the Hanyu Pinyin (漢語拼音) spelling.
 	<li>If I was not able to find the first character in your name, your password may be a question mark. Eg, 賴?岑. Other people whose names my computer does not have Chinese characters for are 黃慧? and ?琮婷, but their passwords should be okay.
 </ul>
 </p>
