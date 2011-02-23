@@ -82,7 +82,6 @@ topic:
           <p>
           Read about opposition to the DREAM Act on <a href=http://www.steinreport.com/archives/2007_09.html>STEIN REPORT</a>, FAIR president Dan Stein's blog. Search for <b>DREAM Act</b>.
         comment: What do you think about the fact a lot of people in the US don't want you to immigrate to the US. They don't like foreigners. They don't like you. Why do they think this way? Was FAIR justified in its opposition to the DREAM Act? What do you think about foreigners in Taiwan: Filipino, Thai, Americans, Russians, mainland Chinese?
-
       -
         id: swiss
         title: Multilingualism in Switzerland
@@ -94,11 +93,41 @@ topic:
         blurb: Nichols vs Lau, a very famous law case in 1974 introduced bilingual education to the US. Now however, California schools are not allowed to teach students in their first languages for more than one year. Why? What do you think about these changes in bilingual education?
         comment: Listen to this video recording from <a href=http://www.sfgov.org/site/sfgtv_index.asp?id=11468>>San Francisco Government TV</a> about <a href=http://tw.youtube.com/watch?v=cXhQrJ37gFE>Bilingual education in California</a>.
       -
+        id: ebonics
+        title: Black English, or Ebonics
+        blurb: Black people in the US speak a distinct dialect of English, sometimes called Ebonics. White people, especially young people, take words from it, like 'chill out,' but Black people and their dialect generally don't get much respect. Teachers want black kids to succeed, so when they are teaching black kids they try to use Standard American English. But should they use Black English? Listen to <a href="http://www.youtube.com/watch?v=Kg_sPZV2ry8">Toni Cook</a>, who says schools need to recognize Ebonics to get Black kids to speak Standard American English. <a href="http://www.youtube.com/watch?v=klxGFAnY4nI&feature=related">Steve Harvey</a> makes fun of Ebonics speakers at the same time as he shows respect.
+        comment: What about the situation in Taiwan? Should schools teaching in Miaoli teach in Hakka? Should schools in the south of Taiwan use Minnan? What do you think?
+
+      -
         id: nguyen
         title: Living in 2 different cultures at the same time
         blurb: Asian and American ideas about upbringing are very different. How should Asian-Americans bring up their children? The American way or the Asian way?
         comment: Listen to a Vietnamese mother and daughter <a href=http://www.npr.org/templates/story/story.php?storyId=129305738>talk about the way the daughter was brought up.</a> Is the mother good at intercultural communication? Why? <a href=http://web.nuu.edu.tw/~greg/intermediate/nguyen.mp3>Download</a> the file.
 
+  -
+    id: secret
+    title: Minorities use their language as 'secret language'
+    intro: What do you think of people who talk about you in a language you don't understand? Is it okay to do this or not? If you don't have an opinion, you don't have Savoir 5! If you do have an opinion, you must be able to say why. If you are critical of the people who use a secret language, someone with Savoir 5 will be critical of you too. Be critical of the other culture and of your own culture.
+    story:
+      -
+        id: eunice2
+        title: Using Hakka when other people don't understand Hakka
+        blurb: A Hakka woman tells a story of a time when <a href=http://web.nuu.edu.tw/~greg/intercultural/eunice2.mp3>people using Hakka to keep their conversation private were understood by a third party</a>.
+        comment: Have you ever done something like this? I have in Japan with a friend in the train, talking about the passengers, because we believed they wouldn't understand what we are talking about.
+      -
+        id: timaya
+        title: Honey, can you please speak English?
+        blurb: In a similar situation, an American black person complains about people <a href="http://www.youtube.com/watch?v=y5LPCuzR818">using their native language to talk about him/her</a>.
+        comment: What can we say about talking about other people? Taiwanese people have a habit of lowering their voices when talking about someone else.
+      -
+        id: monica1
+        title: Tenant upset by Hakka landlord speaking Hakka
+        blurb: Andrew, a non-Hakka student at NUU, was renting a place from a Hakka couple and was upset by them speaking Hakka in front of him. Monica, a Hakka student at NUU in the 跨文化溝通 class 2 years ago, <a href="http://web.nuu.edu.tw/~greg/intercultural/monica1.mp3">evaluated the actions of the two parties</a>.
+      -
+        id: chinese
+        title: Using Chinese in class
+        blurb: In this intercultural communication class, we talked about intercultural communication. But the class is also an example of intercultural communication. Think about your use of Chinese in the class, a language which I know only a little of, as a private language. Think of Savoir 5, being critical, and criticize me and yourself. Listen to my <a href="http://web.nuu.edu.tw/~greg/intercultural/chineseinclass.mp3">thoughts</a>.
+        comment: The text of what I said about Monica's essay is at <a href="http://web.nuu.edu.tw/~greg/intercultural/monica1.txt">http://web.nuu.edu.tw/~greg/intercultural/monica1.txt</a>.
   -
     id: nonverbal
     title: Non-verbal communication
@@ -166,3 +195,13 @@ topic:
         title: Hakka man shopping with Minnan father-in-law
         blurb: Frank Liu (劉發州) N9561766 tells a <a href=http://web.nuu.edu.tw/~greg/intercultural/frank3.wav>story about Hakka-Minnan intercultural miscommunication</a>.
         comment: Is Frank's analysis of Hakka and Minnan attitudes to payment by other than the host correct?
+  -
+    id: savoirs
+    title: The 5 savoirs
+    intro: 1. Interest 2. Knowledge 3. Understanding 4. Skill 5. Critical awareness
+    story:
+      -
+        id: evaluation
+        title: Do you have the 5 savoirs?
+        blurb: Dr Bean's <a href="http://web.nuu.edu.tw/~greg/intercultural/self_evaluation.mp3">self-evaluation</a> of his intercultural communication attitudes and ability. He thinks he has Savoir 3 and 5, and a little Savoir 4, but not much Savoir 1 or 2.
+        comment: Do you agree with his self-evaluation? What about yourself? What about your partners? Do you and they have the 5 savoirs. Evaluate yourself.
