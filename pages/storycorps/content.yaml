@@ -18,20 +18,26 @@ topic:
   -
     id: disease
     title: Coping with disease
-    intro: Worse than being a nurse is being a patient. Losing your memory doesn't seem to be a very bad physical condition, but the consequences for the family of the patient can be worse than other forms of sickness.
+    intro: Disease, sickness and accidents can make people feel life is not worth living. But other events can give hope.
     story:
+      -
+        id: watterson
+        title: Deaf sister and Christmas wishes
+        blurb: |
+         A mother talks with her son about the boy's deaf sister and <a href="http://www.npr.org/templates/story/story.php?storyId=121289913">his treatment of her</a>.
+        comment: This is a touching story for Christmas. Read about <a href="http://en.wikipedia.org/wiki/Santa_Claus">Santa Claus</a> in <a href="http://en.wikipedia.org/wiki/Santa_Claus#Parades.2C_department_stores.2C_and_shopping_malls">department stores</a>.
       -
         id: viviano
         title: Nurse tells daughter about patients dying
         blurb: |
          Dana Viviano is a nurse who works with cancer patients who are dying. Her daugher, Sarafino was interested in hearing <a href=http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/viviano.mp3>how she feels about the job</a>. Read the <a href=http://www.npr.org/templates/story/story.php?storyId=111633198>NPR report</a>.
-        comment: I think being a doctor or a nurse must be a terrible job. What is a way to look at this story and feel good? Why is this a good story?
+        comment: I think being a doctor or a nurse must be a terrible job. Even worse than being a nurse is being a patient. What is a way to look at this story and feel good? Why is this a good story?
       -
         id: jackson-1
         title: Alzheimer's disease
         blurb: |
           Listen to <a href=http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/jackson.mp3>the story</a> of <a href=http://www.npr.org/templates/story/story.php?storyId=16748176</a> and his family's failure to cope with his mother's <a href=http://en.wikipedia.org/wiki/Alzheimer's_disease>Alzheimer's disease</a>.
-        comment: In the US and Europe, the families of people with Alzheimer's disease find caring for them very difficult. How is it in Taiwan? 
+        comment: Losing your memory doesn't seem to be a very bad physical condition, but the consequences for the family of the patient can be worse than other forms of sickness. In the US and Europe, the families of people with Alzheimer's disease find caring for them very difficult. How is it in Taiwan? 
       -
         id: jackson-2
         title: Charles' own Alzheimers
@@ -136,6 +142,31 @@ topic:
         blurb: |
           Listen to <a href=http://signal.baldwincity.com/photos/2006/jun/22/10002/>Star Novak</a> talk about <a href=http://www.youtube.com/watch?v=DO4EciJgVD8>falling in love with flying,</a> a condition many Americans have, in <a href=http://www.youtube.com/watch?v=G-kcF89MHNc&feature=related>Kansas City</a>. See <a href=http://www.airliners.net</a> or <a href=http://www.smilinjack.com>http://www.smilinjack.com</a>. She is talking about the <a href=http://en.wikipedia.org/TWA>TWA</a> <a href=http://en.wikipedia.org/wiki/Lockheed_Constellation>Constellation</a>, in both of which <a href=http://en.wikipedia.org/wiki/Howard_Hughes>Howard_Hughes</a> had a hand.
         comment: Note the <a href=http://www.youtube.com/t/captions_about>closed captions, CC</a> on the Star Novak sound file. There is also a Chinese translation. Unfortunately (heh-heh), there are many errors in it.
+      -
+        id: pigott
+        title: Judge's relationship with criminal
+        blurb: |
+          A judge talks about <a href="http://www.npr.org/templates/story/story.php?storyId=8939266">a man who stole to pay for his drinking</a>
+        comment: Listen for the court vocabulary: "come up before", "pled guilty", "parole board", sentence, <a href="http://www.mvtimes.com/news/2006/11/16/judge_brian_rowe.php">hanging the judge</a>, penitentiary, arrest, sheriff.
+      -
+        id: nightcourt
+        title: Summary justice at Night Court
+        blurb: |
+          Night court, from 5:30pm to 1am, is for quick handling of minor legal incidents, not major crimes.
+        comment: |
+          <a href="http://www.google.com/search?q=%22night%20court%22&num=30">Night Court</a> was a 1980's TV comedy series. We will watch 4 Youtube clips:
+          <ul>
+          <li><a href="http://www.youtube.com/watch?v=wD5Cx4Arfvg">Fran Drescher on NIGHT COURT</a></li>
+          <li><a href="http://www.youtube.com/watch?v=JxoPPR_V5uw">Michael Richards on NIGHT COURT</a></li>
+          <li><a href="http://www.youtube.com/watch?v=kz2ZM3eR-nQ">Ferrigno on Night Court</a></li>
+          <li><a href="http://www.youtube.com/watch?v=S6lm__xmapQ">Night Court - First appearance of Bob & June Wheeler</a></li>
+          </ul>
+      -
+        id: harllee
+        title: A chaplain at war
+        blurb: |
+          A <a href="http://www.google.com/search?q=chaplain&num=30">chaplain</a> is a religious person who cares for the spiritual needs of soldiers at war, or people in other non-religious organizations. Bob Harllee describes being a <a href="http://www.npr.org/templates/story/story.php?storyId=5430603">chaplain in Vietnam</a>.
+        comment: The other disasters we discussed were a plane crash and a hurricane, or <a href="http://www.google.com/search?q=acts%20of%20god&num=30">Acts of God</a>. War, on the other hand, is the Work of Man.
   -
     id: katrina
     title: Hurrican Katrina
@@ -163,6 +194,13 @@ topic:
         title: United Airlines Flight 232
         blurb: |
           <a href="http://www.lifewisecoach.com/about.html">Martha Conant</a> talks about <a href="http://www.npr.org/templates/story/story.php?storyId=18007783">surviving the United Airlines Flight 232 crash</a>. After, she realized she needed to live a life of no regrets, one where she recognized that the people around her wonderful, and one where she felt thankful for being alive.
+      -
+        id: eckert
+        title: Widowed in 9/11 attacks
+        blurb: |
+          http://www.youtube.com/watch?v=AKrjZCPOuv8
+          http://www.youtube.com/watch?v=VYPQFnazzYg&feature=related (AP)
+          http://www.youtube.com/watch?v=wsIMO7OINhw&feature=relmfu (Obama)
   -
     id: work
     title: People at work
