@@ -178,8 +178,14 @@ citrus:
         \item [Government measures] The government has tried to teach farmers how to reduce production and marketing costs and improve growing techniques. 
         \end{description}
       quiz      :
-        - question: Question 1. Punjab and Taiwanese citrus industries: All of the showroom reviews conclude spending the ten-dollar entrance fee and going to look at the cars was worth it.
+        - question: Question 5. Punjab and Taiwanese citrus industries: The Punjab has a longer history of growing citrus.
           answer  : False
+        - question: Question 6. Punjab and Taiwanese citrus industries: The government has given money to grow citrus in the Punjab, but it has not given money to grow citrus in Taiwan.
+          answer  : True
+        - question: Question 7. Punjab and Taiwanese citrus industries: The economic situation in the two industries is similar.
+          answer  : False
+        - question: Question 8. Punjab and Taiwanese citrus industries: There has been more change in the Punjab citrus industry recently, than in the Taiwan citrus industry.
+          answer  : True
 internet:
  jigsaw:
   1:
@@ -253,13 +259,13 @@ internet:
         \item [Financing] In September 2010, he was charging \$3 for pictures. Now it's free. He is looking for sponsors to put ads on the site. There are now about 6,000 pictures.
         \end{description}
       quiz      :
-        - question: Question 1. Facebook and the One Million People page: Facebook is more popular than the One Million People page.
+        - question: Question 9. Facebook and the One Million People page: Facebook is more popular than the One Million People page.
           answer  : True
-        - question: Question 2. Facebook and the One Million People page: Alex's first site, the Million Dollar Home Page, made more money than his second, the One Million People page.
+        - question: Question 10. Facebook and the One Million People page: Alex's first site, the Million Dollar Home Page, made more money than his second, the One Million People page.
           answer  : True
-        - question: Question 3. Facebook and the One Million People page: Mark Zuckerberg made up the name, Facebook, in 2003 at Harvard.
+        - question: Question 11. Facebook and the One Million People page: Mark Zuckerberg made up the name, Facebook, in 2003 at Harvard.
           answer: False
-        - question: Question 2. Facebook and the One Million People page: Alex had a big influence on Mark, but Mark had no influence on Alex.
+        - question: Question 12. Facebook and the One Million People page: Alex had a big influence on Mark, but Mark had no influence on Alex.
           answer  : False
 
 fourideas:
@@ -472,24 +478,24 @@ fourideas:
     4:
       identifier: fourideas 4
       A: |+
-        \item [Cars] The Ferrari showroom was always full of people who just wanted to look at the cars.
-        \item [Citrus] Pepsi sells lots of fruit drink, and needs lots of citrus
+        \item [Cars] The showroom was always full of people just looking at the cars.
+        \item [Citrus] Pepsi sells lots of fruit drink, and needs lots of citrus.
         \item [Dr Bean] wants the students to listen to soundfiles and answer the questions.
         \item [Internet] Harvard is slow to produce a school facebook with student pictures.
       B: |+
         \item [Cars] People who wanted to buy a car weren't going to the showroom.
         \item [Citrus] Pepsi wants Punjab farmers to grow citrus, and farmers want to, also.
         \item [Dr Bean] wants the students to compete. He wants them to get different answers.
-        \item [Internet] Mark hacks the school network, gets pictures, and writes a facebook site.
+        \item [Internet] Mark hacks the school network, gets pictures, writes a facebook site.
       C: |+ 
-        \item [Cars] Car buyers didn't like there to be many people around when they were buying a car.
+        \item [Cars] Car buyers didn't think the showroom was a good place to buy a car.
         \item [Citrus] Pepsi asks the Punjab government to give farmers some money.
-        \item [Dr Bean]'s students want to get the same answer. They want to know their partner's answer.
+        \item [Dr Bean]'s students want to work together to get the same answer.
         \item [Internet] The site has 450 visitors in the first 4 hours.
       D: |+
         \item [Cars] The showroom started charging people an entrance fee.
-        \item [Citrus] The government gives farmers the money to grow citrus and takes it back when the citrus is sold.
-        \item [Dr Bean] doesn't want them to look at each other's answer. But he cannot stop the students looking.
+        \item [Citrus] The farmers get money, which they pay back when Pepsi pays them.
+        \item [Dr Bean] can't stop the students looking at each other's answers.
         \item [Internet] Harvard shuts down the site. And Mark starts Facebook.
       quiz:
         - question: The showroom is selling more cars now and making a lot of money from entrance fees.
@@ -523,25 +529,33 @@ fourideas:
     5:
       identifier: fourideas 5
       A: |+
-        \item [Cars] 
-      B: |+
+        \item [Cars] When the showroom opened, people were coming in just to look at the cars.
         \item [Citrus] Pepsi wants citrus, but farmers don't grow citrus in the Punjab.
-        \item [Citrus] Pepsi tells the Punjab government it will give farmers a good price for citrus.
-        \item [Citrus] The Punjab government decides to give farmers money to grow citrus.
-        \item [Citrus] The farmers give the money back when they sell the citrus to Pepsi.
+        \item [Dr Bean] has some ideas about how to teach students to speak English.
+        \item [Internet] In 2005, the Internet was like the Million Dollar Homepage.
+      B: |+
+        \item [Cars] The showroom's good idea was to charge people an entrance fee.
+        \item [Citrus] Pepsi tells the Punjab government it will pay farmers well for citrus.
+        \item [Dr Bean]'s students often don't understand what he wants them to do.
+        \item [Internet] In 2010, the Internet is a more social experience, like Facebook.
       C: |+
-        \item [Dr Bean] has developed a number of different teaching ideas to teach students.
-        \item [Dr Bean] thinks students need help speaking English to each other.
-        \item [Dr Bean]'s ideas are not always successful. Often students don't want to use English to do them.
-        \item [Dr Bean] thinks some of his ideas are valuable. He plans to continue using them.
+        \item [Cars] The showroom made lots from the entrance fee and from selling more cars.
+        \item [Citrus] The Punjab government decides to give farmers money to grow citrus.
+        \item [Dr Bean] spends a lot of time preparing to teach but he is often not successful.
+        \item [Internet] Alex thinks Facebook changed the Internet, making it more social.
       D: |+
-        \item [Internet] The Million Dollar Homepage, with links to other sites, represented the Internet in 2005.
-        \item [Internet] In 2010, the Internet is a different, social experience, like Facebook.
-        \item [Internet] Alex loves Facebook. He thinks Mark is a genius who changed the Internet.
-        \item [Internet] Alex wants to have a site that represents the new Internet, like Facebook.
-
-
+        \item [Cars] Other car showrooms will probably not be able to charge an entrance fee.
+        \item [Citrus] The farmers give the money back when they sell the citrus to Pepsi.
+        \item [Dr Bean] sometimes doesn't know what to do to make his students learn English.
+        \item [Internet] Alex wants to develop a new site, like Facebook, that is also social.
       quiz:
+        - question: Salesmen were spending all their time controlling the crowds, instead of selling cars.
+          option:
+            - problem
+            - idea
+            - result
+            - lesson
+          answer: problem
         - question: Now, Pepsi will not pay the price it promised the government. Farmers are angry.
           option:
             - problem
@@ -549,7 +563,7 @@ fourideas:
             - result
             - lesson
           answer: result
-        - question: Other teachers probably will not want to try Dr Bean's unsuccessful ideas. They require a lot of preparation.
+        - question: Dr Bean's experience shows teaching English is difficult.
           option:
             - problem
             - idea

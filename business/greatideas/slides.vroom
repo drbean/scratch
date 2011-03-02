@@ -1,0 +1,354 @@
+# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom::Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: ideas
+indent: 5
+height: 18
+width: 50
+skip: 0
+
+---- center
+Great Ideas
+
+by Dr Bean
+
+(hint: press the spacebar)
+
+----
+What was IKEA's great idea? It's simple idea?
+
+Analysis
+
++ The problem
++ The great idea
++ Did it work?
++ What can we learn?
+
+----
+Penske-Wynn in Las Vegas
+
+ Steve Wynn
+http://en.wikipedia.org/wiki/Steve_Wynn_(entrepreneur)
+ Wynn Las Vegas Casino Hotel/Resort
+http://en.wikipedia.org/wiki/Wynn_Las_Vegas
+ Ferrari showroom
+http://www.vegas.com/attractions/on_the_strip/wynnferrari.html
+ Visitor reviews
+http://www.yelp.com/biz/penske-wynn-ferrari-maserati-las-vegas
+
+----
+Questions
+
+The problem was that too many people wanted to look at the cars.
++ True
+
+----
+People go to Las Vegas to spend lots of money,
+not win lots of money.
++ False
+
+----
+People had to pay a 10-dollar entrance fee,
+only if they said they didn't want to buy a car.
++ True
+
+----
+Children had to pay a five-dollar entrance fee.
++ False
+
+----
+Most of the visitors didn't pay. They said they wanted to buy a car.
++ False
+
+----
+The showroom was making almost 100,000 dollars a month.
++ True
+
+----
+Other car showrooms may not be able to copy Penske-Wynn's solution.
++ True
+
+----
+Most car showrooms are showing very expensive cars
+and they have many visitors.
++ False
+
+----
+Problem
+
+a) The cars were too expensive
+b) There were too many people looking
+and not buying.
+c) The entrance fee was too cheap
+
++ b) There were too many people looking
+and not buying.
+
+
+----
+Solution
+
+a) Penske-Wynn charged an entry fee
+b) Penske-Wynn opened a Ferrari store
+b) Penske-Wynn opened a Ferrari showroom
+
++ a) Penske-Wynn charged an entry fee
+c) 
+
+----
+Did it work?
+
++ Yes
+
+
+----
+The lesson
+
+a) You too can charge an entrance fee
+b) You may not have as much luck as Penske-Wynn
+c) You must charge \$10 to get in.
+
++ b) You may not have as much luck as Penske-Wynn
+
+----
+The 4 answers in the final exam
+
++ The problem
++ The solution: or, The Great Idea
++ The result: or, Did it work?
++ The lesson: or, What can we learn?
+
+----
+Citrus, the Punjab and Pepsi
+
+	The Punjab
+http://en.wikipedia.org/wiki/Punjab_region
+	News article, video on 3-way tie-up
+http://ibnlive.in.com/news/pepsico-ties-up-with-punjab-govt-farmers-to-benefit/59976-7.html
+	Dissenting views
+http://infochangeindia.org/200506036439/Other/Features/Contract-farming-in-the-Punjab.html
+http://www.indianexpress.com/news/citrus-gone-sour-councils-to-be-disbanded-merged/656171/0
+
+----
+	The Taiwan citrus industry's problems
+
+	Government efforts to help Taiwan's citrus farmers
+http://www.agnet.org/library/eb/438/eb438.pdf
+	Taiwan citrus products
+http://www.alibaba.com/countrysearch/TW/citrus.html
+
+----
+Questions
+
+----
+Farmers are giving their land up to the government for 4 years.
++ True
+
+----
+Pepsi wants citrus fruit from farmers.
++ True
+
+----
+Farmers are growing citrus on government land.
++ False
+
+----
+The government is giving farmers some money each
+year and growing trees for them.
++ True
+
+----
+After 4 years, all of the money from sale of the
+fruit goes to the government
++ False
+
+----
+Pepsi is making drinks from fruit produced by
+government-planted trees.
++ True
+
+----
+Farmers are not happy about the government taking
+their land.
++ False
+
+----
+The government is not happy about growing citrus
+fruit for the farmers.
++ False
+
+----
+Problem
+
+a) Farmers had little money and Pepsi needed
+citrus.
+b) Farmers didn't know how to grow the citrus
+that Pepsi wanted.
+c) Farmers were growing more citrus than
+Pepsi could buy.
+
++ a) Farmers had little money and Pepsi needed
+citrus.
+
+----
+Solution
+
+a) Pepsi asked the Punjab government to
+help.
+b) The Punjab government gives money to
+farmers and Pepsi pays for the citrus produced.
+c) Pepsi gave the government money to buy
+farmers' land.
+
++ b) The Punjab government gives money to
+farmers and Pepsi pays for the citrus produced.
+
+----
+Did it work?
+
++ Yes, apparently
++ But, it may not have.
+
+----
+The lesson
+
+a) Government-Industry-Farmer cooperation works
+b) The Punjab will become the biggest
+citrus-growing area.
+c) The Taiwan citrus industry faces
+competition from the Punjab.
+
++ a) Government-Industry-Farmer cooperation works.
++ At least, that's what the book thinks. But, in
+fact, it may not have.
+
+	Dissenting views
+http://infochangeindia.org/200506036439/Other/Features/Contract-farming-in-the-Punjab.html
+http://www.indianexpress.com/news/citrus-gone-sour-councils-to-be-disbanded-merged/656171/0
+
+----
+Penske-Wynn is thinking about raising the 
+admission charge.
++ solution/idea
+
+----
+It may be difficult to copy Google unless you 
+have a lot of computers.
++ lesson/what we can learn
+
+----
+Dr Bean thinks students might be interested 
+in competing to see whose English was better.
+
++ A: Dr Bean wants to make dictation software
+which is enjoyable and game-like.
++ B: Studying English is hard work and not
+interesting for students:
++ C: Interesting games in Chinese are 
+uninteresting for students in English
++ D: Dr Bean is thinking about how to
+interest students in English.
+
++ solution/idea
+
+----
+- question: Flicker has now closed down its research and 
+development program, because it was losing money and 
+failed to produce a new lighter.
+
++ A: Flicker was the first company to make
+cheap plastic lighters.
++ B: Flicker researchers are trying to develop
+cheaper lighters.
++ C: Flicker wants to sell its technology to
+other cigarette lighter manufacturers.
++ D: Flicker spends lots of money on research
+and development.
+
++ result/does it work
+
+----
+== The Million Dollar Home Page
+
+http://milliondollarhomepage.com
+http://onemilllionpeople.com
+
+competitors
+http://millionpeoplepage.com
+
+Dr Bean's bookmarks
+http://sac.nuu.edu.tw/~drbean/links
+
+----
+His idea was to sell advertising space on his website.
++ True
+----
+The first few spaces were bought by Yahoo and 
+well-known advertisers.
++ False
+----
+He had to do very little work to advertise his website.
++ False
+----
+He went to the US and appeared on television there.
++ True
+----
+All of the space on the website was sold.
++ True
+----
+Most of the advertisers were well known.
++ False
+----
+Some people couldn't understand why advertisers 
+wanted space on the site.
++ True
+----
+All critics thought the site was very good and the 
+services were very useful.
++ False
+
+----
+Jigsaw
+
+1. Read the cards to each other.
+2. Decide what the Problem and the Idea (solution) are.
+3. Decide whether the sentence is:
+	the problem
+	the idea
+	the result (did the idea work?)
+	the lesson (what can we learn?)
+
+----
+The Innovation Works
+
+The place was set up to help the university
+interact with students more effectively.
++ False
+
+----
+Business people can use the place for 
+problem-solving and team-building
++ True
+
+----
+They use special wallpaper that people 
+can draw and paint on.
++ False?
+
+----
+Not all people have a chance to speak
+during brainstorming sessions.
+
+----
+They encourage people to look at problems
+from different points of view.
++ True
+
+
+== The End
