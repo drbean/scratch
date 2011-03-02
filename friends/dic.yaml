@@ -795,6 +795,75 @@
     Rachel: All right, I gotta go to bed. Honey, I had such a wonderful time.
     Joey: Oh. Yeah. Me too.
   - Rachel|Joey
+-
+  - 9.06
+  - Chandler as a funny guy
+  - friends
+  - A
+  - |+
+    Joey: Hey!
+    Ross: Hey...! Rachel and I hired a male nanny.
+    Joey: Really...? Guys do that...? That's... weird...
+    Ross: Thank you!
+    Joey: That's like a woman wanting to be a...
+    Ross: ...a what? A what? What's the end of that sentence?
+    Monica: Yes... What is the end of that sentence?
+    Joey: Uhm... A penis model. Anyway, hey... Did you tell Chandler that some guy from work is the funniest guy you've ever met?
+    Monica: Yeah, so?
+    Ross: Wow!
+    Joey: Really? Do you not know Chandler?
+    Monica: Is that why he's acting so weird...? He's jealous...? Oh my God, that is crazy.
+  - Joey|Ross|Rachel|Monica
+-
+  - 9.06
+  - Chandler as a funny guy
+  - friends
+  - B
+  - |+
+    Monica: It's not like I'm attracted to Geoffrey...
+    Joey: So what? Being funny is Chandler's thing... You know, like Ross's thing is...
+    Ross: Science...? Academia...? Being a good father...?
+    Joey: ...No... 
+    Monica: I can't believe he's that upset about this...
+    Joey: Monica, you have to do some damage control here, okay. 'Cause he's feeling like...
+    Chandler: Hey!
+    Joey: Heeeyy! Hey!
+    Chandler: What are you guys talking about?
+    Ross: Uhm... Rachel and I hired a male nanny.
+    Chandler: You got a man who's a nanny...? You got a manny...?
+    Chandler: You know, I don't mind a... male nanny, but I do draw the line at a male wet nurse.
+  - Joey|Ross|Rachel|Monica|Geoffrey|Academia
+-
+  - 9.06
+  - Chandler as a funny guy
+  - friends
+  - C
+  - |+
+    Monica: Ohhh, ooohhh... you are on a roll, mister!
+    Chandler: If I'd known you guys were coming over, I would have brought more pizza.
+    Monica: Okay, okay... Chandler you... you stop it!
+    Chandler: What is so funny about that?
+    Monica: Well, I don't know... I-It's... just the way you say it... I mean, you're funny... You have that funny thing. You're a funny guy!
+    Chandler: Did you tell her what we talked about?
+    Joey: Yeah....
+    Chandler: So those were pity laughs? Pity laughs?
+    Monica: Honey, listen... You have nothing to worry about with Geoffrey.
+    Chandler: Oh yeah? Is he funnier than me?
+  - Joey|Ross|Rachel|Monica|Geoffrey
+-
+  - 9.06
+  - Chandler as a funny guy
+  - friends
+  - D
+  - |+
+    Chandler: Oh yeah? Is he funnier than me?
+    Monica: Well, you're... you're different funny... I mean, you're...  you're more sarcastic a-a-and... well, he does... bits... and impressions... and... and limericks...
+    Chandler: I do limericks... uhm... There once was a man named Chandler, whose wife made him die inside.
+    Monica: Honey, you know I think you're hilarious! Come on, you know that joke you told me last week? The one about Jerry Lewis and the girl with the lazy eye...? That slayed me.
+    Ross: Hey... I made up that joke and told it to you!
+    Joey: Not knowing when to shut up...
+    Ross: Yep! That's my thing...
+  - Joey|Ross|Rachel|Monica
 ---
 -
   - genre
@@ -1306,4 +1375,102 @@
   - 8
   - D
   - Joey tells Rachel he would like her to make embarrassing sounds with her lips and body.
+  - False
+-
+  - friends
+  - 9.06
+  - 1
+  - A
+  - Ross wants to tell Monica and Joey that hiring a guy to be a nanny is weird, crazy.
+  - True
+-
+  - friends
+  - 9.06
+  - 2
+  - A
+  - Joey likes a woman who wants to be a model, or a nanny.
+  - False
+-
+  - friends
+  - 9.06
+  - 21
+  - A
+  - Monica tells a guy from work Chandler is the funniest guy she ever met.
+  - False
+-
+  - friends
+  - 9.06
+  - 3
+  - B
+  - Chandler is upset that Monica feels Geoffrey is a funny guy.
+  - True
+-
+  - friends
+  - 9.06
+  - 31
+  - B
+  - Joey, Ross and Monica mind what they are talking about because Chandler is upset.
+  - True
+-
+  - friends
+  - 9.06
+  - 4
+  - B
+  - Chandler feels like he's got to control the guys' damage to his maleness, by drawing the line at a wet nurse.
+  - False
+-
+  - friends
+  - 9.06
+  - 41
+  - B
+  - Joey, Ross and Monica feel that Chandler's lines are funny.
+  - False
+-
+  - friends
+  - 9.06
+  - 5
+  - C
+  - Monica worries that Chandler knows the laughs were pity laughs.
+  - True
+-
+  - friends
+  - 9.06
+  - 6
+  - C
+  - The way Chandler talks is funny, so the guys tell him they pity him.
+  - False
+-
+  - friends
+  - 9.06
+  - 61
+  - C
+  - Chandler is funny, so Joey, Ross and Monica laugh.
+  - False
+-
+  - friends
+  - 9.06
+  - 7
+  - D
+  - Ross slayed Chandler when he told the guys it was he that made the joke up, not Chandler.
+  - True
+-
+  - friends
+  - 9.06
+  - 71
+  - D
+  - The limerick about Chandler is not funny. But it is sarcastic. And that is funny.
+  - True
+-
+  - friends
+  - 9.06
+  - 72
+  - D
+  - Chandler is a funny man. But more, he is sarcastic. And that is not funny.
+  - True
+-
+  - friends
+  - 9.06
+  - 8
+  - D
+  - Monica made Chandler think he is hilarious when she told him the joke slayed her.
   - False
