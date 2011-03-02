@@ -1,0 +1,957 @@
+# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom::Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: Pop culture
+# indent: 25
+height: 18
+width: 50
+skip: 0
+
+# The following options are for Gvim usage.
+# vim: gvim
+# fuopt: maxhorz,maxvert
+# guioptions: egmLtT
+# guicursor: a:blinkon0-ver25-Cursor
+# guifont: Bitstream_Vera_Sans_Mono:h18
+
+---- center
+Pop culture
+
+by Dr Bean
+
+(hint: press the spacebar)
+
+----
+== Start
+
+* Not happy to be teaching this course
+	* Not interested
+	 * high(brow) vs low(brow) culture
+	 * black popular music in college
+	 * watched TV as teenager
+	 * parents took me to movies as a child
+
+----
+== What are you interested in?
+	* Movies
+	* TV programs
+	* Music
+	* Novels
+	* Comics
+	* Online games
+
+----
+
+What kind of music do you like?
+Who/s your favorite artist?
+What do you watch?
+Do you like movies? What kind?
+
+----
+== What we will be doing in this course
+
+	* A CONVERSATION course where the content is 
+	the TV series, Friends.
+	
+	* A PRONUNCIATION course practicing difficult 
+	sounds in English by singing songs with 
+	those sounds. The sounds are /m/ and /æ/.
+	As distinct from /n/ and /ɛ/.
+
+	Find some words, names, expressions, sentences, etc
+	from pop culture with the sounds /m/ and /æ/.
+
+----
+== Barbara Ann  /æ/ and /ɛ/.
+
+http://www.youtube.com/watch?v=654H4xfDYKM&feature=related
+
+http://www.youtube.com/watch?v=hFOb8lAuDSs&feature=related
+
+http://en.wikipedia.org/wiki/Barbara_Ann
+
+----
+== Barbara Ann Lyrics
+Ah, ba ba ba ba barbara ann
+Ba ba ba ba barbara ann
+Oh barbara ann, take my hand
+Barbara ann
+You got me rockin and a-rollin
+Rockin and a-reelin
+Barbara ann ba ba
+Ba barbara ann
+
+----
+== Barbara Ann First Verse
+
+Went to a dance, lookin for romance
+Saw barbara ann, so I thought I'd take a chance
+With barbara ann, barbara ann
+Take my hand
+You got me rockin and a-rollin
+(oh! oh!)
+Rockin and a-reelin
+Barbara ann ba ba
+
+
+----
+== More Barbara Ann Lyrics
+
+   Tried peggy sue
+   Tried betty lou
+   Tried mary lou
+   But I knew she wouldn't do
+   Barbara ann, barbara ann
+   Take my hand
+   Barbara ann
+   Take my hand
+   You got me rockin and a-rollin
+   Rockin and a-reelin
+   Barbara ann ba ba
+   Ba barbara ann
+   Ba ba ba ba barbara ann
+   Ba ba ba ba barbara ann
+
+----
+== Barbara Ann Last Verse
+
+   Barbara ann
+   Take my hand
+   Barbara ann
+   You got me rockin and a-rollin
+   Rockin and a-reelin
+   Barbara ann ba ba
+   Ba barbara ann
+   Barbara ann, barbara ann
+   Oh, barbara ann, barbara ann
+   Yeah, barbara ann, barbara ann
+   Barbara ann, barbara ann
+   You got me rockin and a-rollin
+   Rockin and a-reelin
+   Barbara ann ba ba
+   Ba barbara ann
+ 
+----
+== Henery the Eighth, I am.
+http://www.youtube.com/watch?v=TsCeVdCDqjE
+
+Herman's Hermits
+
+http://en.wikipedia.org/wiki/I'm_Henery_the_Eighth,_I_Am
+
+     I'm Henery the Eighth, I am,
+     Henery the Eighth I am, I am!
+     I got married to the widow next door,
+     She'd been married seven times before.
+     And every one was an Henery
+     She wouldn't have a Willie or a Sam
+     I'm her eighth old man named Henery
+     Henery the Eighth, I am!
+
+
+
+----
+== The Biggest Aspidistra in the World
+http://www.youtube.com/watch?v=dzyS79eEgPs&feature=related
+
+http://www.google.com/images?q=aspidistra&hl=zh-TW&gbv=2&tbs=isch:1&sa=N&start=120&ndsp=20
+
+Gracie Fields
+
+   For years we 'ad an Aspidistra
+   In a flowerpot,
+   On the What-not, near the 'at stand in the 'all.
+   It didn't seem to grow,
+   Till one day our Brother Joe,
+   Had a notion that he'd make it strong and tall.
+   So 'e crossed it with an acorn from an oak tree,
+   And 'e planted it against the garden wall.
+   It shot up like a rocket
+   Till it nearly touched the sky.
+   It's the biggest Aspidistra in the world.
+   We couldn't see the top of it -
+   It got so bloomin' high.
+   It's the biggest Aspidistra in the world.
+   When father's 'ad a skinful
+   At his pub the 'Bunch of Grapes',
+   He doesn't go all fighting mad,
+   And getting into scrapes;
+   You'll find 'im in 'is bearskin
+   Playing 'Tarzan of the Apes'
+   Up the biggest Aspidistra in the world.
+     We 'ave to get it watered
+   By the local fire brigade,
+   So they've put the water rate up 'arf a crown.
+   The roots stop up the drains,
+   Grow along the country lanes,
+   And they come up 'arf a mile outside the Town.
+   Once we 'ired the Crystal Palace for an 'ot 'ouse,
+   But a jealous rival went and burned it down.
+   The Tom Cats and the Moggies
+   Love to spend their evenings out
+   Up the biggest Aspidistra in the world.
+   They all begin miaowing
+   When the buds begin to sprout
+   From the biggest Aspidistra in the world.
+   The dogs line up for miles and miles,
+   A funny sight to see -
+   They sniff around for hours on end
+   And wag their tails with glee,
+   So I've 'ad to put a notice up
+   To say it's not a tree,
+   It's the biggest Aspidistra in the world.
+
+   It's getting worn and weary
+   And its leaves are turning grey,
+   It's the oldest Aspidistra in the world.
+   So we water it with 'alf a pint
+   Of Guinness ev'ry day,
+   It's the stoutest Aspidistra in the world.
+   The Borough Council told us that
+   We've got to chop it down;
+   It interferes with aeroplanes
+   That fly above the Town,
+   So we sold it to a woodyard
+   For a lousy 'alf a crown.
+   It's the biggest Aspidistra in the world.
+
+
+----
+== TOW with the Male Nanny
+
+Chandler as a funny guy
+http://www.youtube.com/watch?v=YPKMn28gvxw
+
+Sandy the male nanny
+http://www.youtube.com/watch?v=9hmWCH3JXqU
+http://www.youtube.com/watch?v=tTZSZlbE5SY
+
++ 1: Sandy's name matches his interests.
++ 2: Rachel and Ross disagree about Sandy right
+from the start.
++ 3: Rachel thinks Sandy won't be a suitable nanny.
++ 4: Ross doesn't want Sandy as a nanny, because
+he doesn't want a man getting close to Rachel.
++ 5: Ross disapproves of men crying.
++ 6: Ross is saying a queen, because she is a female
+king, is weird.
++ 7: Rachel tries to stop Ross from firing Sandy.
++ 8: Joey doesn't like Sandy.
++ 9: Joey plays with Sandy's puppets and musical
+instruments.
++ 10: Sandy cries when Ross fires him.
++ 11: Ross cries telling Sandy of his dad's disapproval.
+
+
+----
+== TOW Rachel has the baby Part 2
+http://www.youtube.com/watch?v=R_xF0OiQrbw
+
++ 1: Ross is the baby's father, but now Rachel
+is living with Joey.
++ 2: Rachel agreed on the name, 'Isabella,' but is
+now not happy with it. 
++ 3: Rachel is not happy with the name, 'Emma' and
+doesn't want it.
++ 4: When Monica said she wanted to name her daughter
+Emma, Rachel thought about taking the name for her daughter.
++ 5: Rachel wants no more from Ross than what he has
+done to support her with the baby.
++ 6: Rachel is happy to be an unmarried mother. 
++ 7: Ross doesn't want to go to bed with Rachel again.
++ 8: Joey asks Rachel to marry him.
++ 9: The ring Joey shows Rachel belongs to Ross.
++ 10: Rachel tells Joey she is willing to marry him.
++ 11: Joey may not understand what Rachel is agreeing
+to do with him.
+
+
+----
+== TOW Joey takes Rachel on a date
+http://www.youtube.com/watch?v=wQg8Bj2SHsw&feature=related
+
++ 1: Rachel and Joey were already living together before this    +incident.
++ 2: It is Rachel's idea that they go on a date.                           
++ 3: Rachel doesn't want to go on a date because she is pregnant.
++ 4: Rachel and Joey enjoy each other's company on the date.
++ 5: They act as if they are really dating, but they aren't.               
++ 6: It is Joey who kissed the other person, rather than Rachel  +who kissed Joey, 
++ 7: Joey already realized he was in love with Rachel before the +kiss.
++ 8: Rachel is in love with Joey too.
++ 9: Joey has difficulty talking about how he feels.
++ 10: People think he is in love with Phoebe.
+
+
+----
+== Lefty Frizzell's If you got the money, I got the time
+
+http://www.youtube.com/watch?v=vYUr4wNdDZc
+
+If you've got the money I've got the time
+we'll go honky tonkin' and we'll have a time
+We'll make all the night spots dance drink beer and wine
+If you've got the money honey I've got the time
+[ steel ]
+There ain't no use to tarry so let's start out tonight
+We'll spread joy oh boy oh boy and we'll spread it right
+We'll have more fun baby all way down the line
+If you've got the money honey I've got the time
+[ piano ]
+If you've got the money I've got the time
+we'll go honky tonkin' and we'll have a time
+Bring along your Cadillac leave my old wreck behind
+If you've got the money honey I've got the time
+[ fiddle ]
+Yes we'll go honky tonkin' make every club in town
+We'll go to the park where it's dark we won't fool around
+But if you run short of money I'll run short of time
+Cause you with no more money honey I've no more time
+[ guitar ]
+If you've got the money I've got the time
+we'll go honky tonkin' and we'll have a time
+We'll make all the night spots dance drink beer and wine
+If you've got the money honey I've got the time
+
+----
+== Chicago's All that jazz
+
+http://www.youtube.com/watch?v=G-XuW2oEWFs&feature=fvw
+
+----
+== All that jazz
+
+Chicago (Movie) - All that jazz Lyrics
+Album:
+Announcer: 5,6,7,8
+[Velma Kelly]
+Come on babe why don't we paint the town
+and all that jazz
+I'm gonna rouge my knees
+and roll my stockings down
+and all that jazz
+Start the car I know a whoopee spot
+Where the gin is cold
+but the piano's hot!
+It's justy a noisy hall
+Where there's a nightly brawl
+And all that jazz
+And all that jazz
+And all that jazz
+Slick your hair
+And wear your buckle shoes
+And all that Jazz
+I hear that Father Dip
+Is gonna blow the blues
+And all that Jazz
+Hold on, hon
+We're gonna bunny hug
+I bought some aspirin
+Down at United Drug
+I case you shake apart
+And want a brand new start
+To do that
+[Roxie Hart] (imagine)
+Jazz
+[Velma Kelly]
+Find a flask
+We're playing fast and loose
+And all that jazz
+Right up here
+Is where I store the juice
+And all that jazz
+Come on, babe
+We're gonna brush the sky
+I bet you luck Lindy
+Never flew so high
+'Cause in the stratosphere
+How could he lend an ear
+to all that jazz?
+Oh, you're gonna see your sheba shimmy shake
+[Company]
+And all that jazz
+[Velma Kelly]
+Oh, she's gonna shimmy 'till her garters break
+[Company]
+And all that jazz
+[Velma Kelly]
+Show her where to park her girdle
+Oh, her mother's blood'd curdle
+[Company]
+If she'd hear her baby's queer
+[Velma Kelly]
+For all that jazz
+All that jazz
+Come on, babe
+Why Don't we paint
+The town?
+And all that jazz
+And all that jazz
+I'm gonna rouge my knees
+And roll my stockings down
+And all that jazz
+And all that jazz
+Start the car
+I know a whoopee spot
+Where the gin is cold
+But the piano's hot
+It's just a noisy hall
+Where there's a nightly brawl
+And all that jazz
+No, I'm no one's wife
+But, Oh, I love my life
+And all
+that
+Jazz!
+That Jazz!
+
+----
+== Rachel's pregnancy in Season 8
+
+http://www.youtube.com/watch?v=1AD7x_Frmm0 Rachel tells Ross
+http://www.youtube.com/watch?v=fUczKLTs7S0&feature=PlayList&p=CB1C1AA50D241DC0&playnext_from=PL&playnext=1&index=6 Highlights from Season 8
+
+http://www.youtube.com/watch?v=DnB-PjCv6U4&feature=PlayList&p=E74B834194ED07F8&playnext_from=PL&playnext=1&index=14 Season 8 Part 2 Bloopers
+
+----
+Episode 3
++ 1: Ross doesn't know that Rachel is expecting and he's the     +father.  
++ 2: Ross is happy when he hears that he's going to be a father  +again.
++ 3: Joey is indignant about the failure rate of contraceptives.
++ 4: Phoebe is indignant about the failure rate of               +contraceptives.
++ 5: Joey and Phoebe chopped down Monica and Chandler's door.
++ 6: Joey and Phoebe will ask Monica and Chandler if it's OK to  +chop down their door.
++ 7: Monica and Chandler are enjoying the facilities provided    +them (the stuff given to them) on their honeymoon.
++ 8: Ross doesn't know Rachel's pregnant, but he suspects she is +(thinks she might be) pregnant.
++ 9: Ross know Rachel's pregnant, but he doesn't know how she    +knows she is pregnant.
+
+----
+== Muddy Water's Mannish Boy (I'm a Man)
+
+http://www.youtube.com/watch?v=DQzZhkn0h98                  with the Band
+http://www.youtube.com/watch?v=k4t2AVTtPSQ&feature=related in club with audience
+http://www.youtube.com/watch?v=w5IOou6qN1o&feature=fvw     with black band
+http://www.youtube.com/watch?v=Ekoh2HJAwBk&feature=related original on 78
+http://www.youtube.com/watch?v=hIEHrbcluxc&feature=related in 1978 dancing
+http://www.youtube.com/watch?v=BYO2oxDv_ZU&feature=related with Rolling Stones
+http://www.youtube.com/watch?v=kdwo9lC6loY&feature=related in Chicago
+
+Oooh yeah (ooo-oooh)
+Oh yeah (ooo-oooh)
+E'rything gonna be alright, this mo'nin
+Oh, yeah!
+Now, when I was young boy
+At the age a-five
+My mother say I's gonna be
+The greatest man alive
+But now I'm a man
+I past twenty-one
+I want you to believe me, honey
+I have lots a-fun
+I'm a man
+Spell, M-A chile, N
+That'll well within' man
+No, B.O. child Y
+That mean mannish boy
+I'm a man
+I'm a full grown man
+I'm a man
+I'm a natural born lover's man
+I'm a man, child
+I'm a rollin' stone
+I'm a man, child
+I'm a Hoochie Coochie Man
+(Instrumental & guitar)
+Settin' on the outside
+Just me and my mate
+You know I made the moon, honey
+Come up two hours late
+Was that a man?
+I spell, M-A, child, N
+   That well within' man
+   No, B-O, child, Y
+   That mean mannish boy
+   A man
+   I'm a full grown man
+   I'm a natural born lover's man
+   I'm a man
+   I'm a rollin' stone
+   I'm a man, child
+   I'm a Hoochie Coochie Man
+   Oh, yea-yeah
+   I'm a natural born lover, child
+   Whoa, yeah
+   I'm a rollin' stone
+   Whoa, yeah
+   I'm a natural born lover's man
+
+----
+== Dean Martin : Wham! Bam! Thank You Ma'am! Lyrics
+
+http://www.urbandictionary.com/define.php?term=wham%20bam%20thank%20you%20ma%27am
+http://www.urbandictionary.com/define.php?term=wham%20bam%20thank%20you%20ma%27m
+
+http://www.youtube.com/watch?v=ysJMfaESLE8 Dean Martin
+http://www.youtube.com/watch?v=cD51cxqY_uQ David Bowie
+
+   (1950)
+   (Wham bam thank you ma'am I hope you're satisfied)
+   I never knew what love would do 'til I saw your smile
+   And when I did I flipped my lid and almost went plum wild
+   But now I know I'll never show my love to anyone
+   'cause wham bam you broke my heart and I hope that you had fun
+   (Wham bam thank you ma'am) Hope you're satisfied
+   You took my heart and tore it apart you hurt me deep inside
+   I'll never be a fool again you really crushed my pride
+   (Wham bam thank you ma'am) Hope you're satisfied
+   I looked at you and thought I knew just how the game was played
+   My shirt tail ran right up my back just like a window shade
+   I cross my heart I'll never start to pal for anyone
+   ''cause wham bam you broke my heart and hope that you had fun
+   (Wham bam thank you ma'am) Hope you're satisfied
+   You took my heart and you tore it apart you hurt me deep inside
+   I'll never be a fool again you really crushed my pride
+   (Wham bam thank you ma'am) and I hope you're satisfied
+   I made a mess of things I guess but now I'll recognize
+   The next young thing that tries to say its a love-light in her eye
+   The love light that you spoke about was only just a flame
+   ''cause every tome you meet a man it lights right up again
+   (Wham bam thank you ma'am) Hope you're satisfied
+   You took my heart and you tore it apart you hurt me deep inside
+   I'll never be a fool again you really crushed my pride
+   (Wham bam thank you ma'am) I hope you're satisfied
+
+----
+== Wang Dang Doodle
+http://www.youtube.com/watch?v=oxCa16-nxtM Koko Taylor
+http://www.youtube.com/watch?v=nEjUfu9-W-w Howling Wolf original
+http://www.youtube.com/watch?v=w-NNk8-qj-w PJ Harvey
+http://www.youtube.com/watch?v=HK7qtq-CP_A PJ Harvey live
+http://www.youtube.com/watch?v=PtJ5XNzZVYc Levon Helm band
+http://www.youtube.com/watch?v=OLFgroDqAsI Koko Taylor 2008
+
+----
+== Wang Dang Doodle lyrics
+
+     Tell automatic Slim
+     To tell razor toting Jim
+     To tell butcher knife toting Annie
+     To tell fast-talking Fanny
+     We're gonna pitch a ball
+     Down to the union hall
+     We're gonna romp and stomp till midnight
+     We're gonna fuss and fight till daylight
+     Chorus
+     We're gonna pitch a wang dang doodle all night long
+     All night long
+     All night long
+     All night long
+     All night long
+     We're gonna pitch a wang dang doodle all night long
+     Tell kudzu crawling Red
+     To tell Abyssinian Ned
+     To tell old Pistol Pete
+     To tell everybody he meet
+     Tonight we need no rest
+     We gonna really throw a mess
+     We're gonna kick out all the windows
+     We're gonna knock down all the doors
+     [chorus]
+     Tell Fats and Washboard Sam
+     That everybody's gonna jam
+     Tell shaking Boxcar Joe
+     We got sawdust on the floor
+     Tell Peg and Carol Dine
+     We gonna have a hell of a time
+     And when the fish scent fill the air
+     There'll be snuff juice everywhere
+     [chorus]
+     All night long
+     All night long
+     All night long
+
+
+
+----
+== Shall We Dance (from The King and I)
+http://www.youtube.com/watch?v=PdyqmN5cnRQ
+http://www.youtube.com/watch?v=ElqYH2bxKtY&NR=1
+http://www.youtube.com/watch?v=2y6dbMafIFQ&feature=related
+
+----
+== Dream a little dream of me
+
+http://www.youtube.com/watch?v=MWZfKcYlefE Mama Cass
+http://www.youtube.com/watch?v=r035et3sz5o Rita Hayworth
+http://www.youtube.com/watch?v=io0uqrp9dco Louis Armstrong/Ella Fitzgerald
+http://www.youtube.com/watch?v=vZPmZ64m3_4 Mama Cass on bed
+http://www.youtube.com/watch?v=B2_KAUwdYzc Eastern European singer
+http://www.youtube.com/watch?v=7ThRVUcmSa0 Zooey Deschanel
+
+---
+== Lyrics
+
+   Stars shining bright above you
+   Night breezes seem to whisper, "I love you"
+   Birds singin in the sycamore trees
+   Dream a little dream of me
+
+   Say nighty-night and kiss me
+   Just hold me tight and tell me you'll miss me
+   While I'm alone and blue as can be
+   Dream a little dream of me
+
+   Stars fading but I linger on dear
+   Still craving your kiss
+   I'm longin to linger till dawn dear
+   Just saying this
+
+   Sweet dreams till sunbeams find you
+   Sweet dreams that leave all worries behind you
+   But in your dreams whatever they be
+   Dream a little dream of me
+   (instrumental break)
+
+   Stars shining up above you
+   Night breezes seem to whisper, "I love you"
+   Birds singin in the sycamore trees
+   Dream a little dream of me
+
+   Sweet dreams till sunbeams find you
+   Sweet dreams that leave all worries behind you
+   But in your dreams whatever they be
+   Dream a little dream of me
+   Yes, dream a little dream of me
+
+----
+== Japanese assimilation
+
+ん -> [ŋ], [n], [m], [??]
+
+人気, 神道, 新聞, 山陰 (西院)
+
+----
+=== Rachel and Ross
+
++ Rachel's feelings for Ross are stronger than Ross's for her.
++ Ross suggests going to bed together, and Rachel accepts.
++ Monica catches the two kissing and is upset.
++ Rachel wanted to sleep with Ross, but changes her mind.
++ Ross wanted to watch Rachel change.
++ Ross wanted to watch Rachel change clothes.
++ Rachel wanted to have more noise and excitement than Monica.
++ Rachel wanted to sleep with Ross to steal Monica's thunder.
++ Rachel wanted Monica to think she was sleeping with Ross.
+----
+== Jim Croce's Bad Bad Leroy Brown
+
+http://www.youtube.com/watch?v=CMWnMbQeWlg&feature=related
+http://www.youtube.com/watch?v=qRkoqBSt3mg&feature=related Live
+http://www.youtube.com/watch?v=VaVPASJmeMU&NR=1 Face
+http://www.youtube.com/watch?v=tDXnkvRTqH8 by Helmut Lotti
+http://www.youtube.com/watch?v=6mBLvV1lNFs by Butch Lacy
+
+----
+== Lyrics
+
+Well the south side of chicago
+Is the baddest part of town
+And if you go down there
+You better just beware
+Of a man named leroy brown
+
+Now leroy more than trouble
+You see he stand bout six foot four
+All the downtown ladies call him treetop lover
+All the mens just call him sir
+
+And its bad, bad leroy brown
+The baddest man in the whole damn town
+Badder than old king kong
+And meaner than a junkyard dog
+
+Now leroy he a gambler
+And he like his fancy clothes
+And he like to wave his diamond rings
+In front of everybodys nose
+He got a custom continental
+He got an eldorado too
+He got a 32 gun in his pocket for fun
+He got a razor in his shoe
+
+And its bad, bad leroy brown
+The baddest man in the whole damn town
+Badder than old king kong
+And meaner than a junkyard dog
+
+Well friday bout a week ago
+Leroy shootin dice
+And at the edge of the bar
+Sat a girl named doris
+And ooh that girl looked nice
+Well he cast his eyes upon her
+And the trouble soon began
+And leroy brown learned a lesson
+bout messin with the wife of a jealous man
+And its bad, bad leroy brown
+The baddest man in the whole damned town
+Badder than old king kong
+And meaner than a junkyard dog,
+
+Well the two men took to fightin
+And when they pulled them from the floor
+Leroy looked like a jigsaw puzzle
+With a couple of pieces gone
+
+And its bad, bad leroy brown
+The baddest man in the whole damn town
+Badder than old king kong
+And meaner than a junkyard dog
+
+---
+== South Side, Chicago
+
+Obama's house
+http://www.flickr.com/photos/mss2400/462315720/
+
+Flickr "South Side, Chicago black' photos
+http://www.flickr.com/search/?q=south side%2C chicago black&w=all&s=int
+http://www.flickr.com/photos/metroblossom/sets/72157600338250546/
+
+----
+== The Holiday Armadillo
+
++  Ross wants his son to know about his Jewish background.
++  Ross is Jewish, so he wanted to dress up as a Hanukkah figure.
++  Ross's relationship with Ben is difficult.
++  Ross is upset that Ben is more interested in Chandler.
++  At the end Ross is still unhappy with Chandler over the fact that Ben is more interested in Chandler than him.
++  Ben's roots in his Jewish heritage are strong.
+
+----
+== 
+        - question: Monica wants Phoebe to play at her wedding.
+        - question: Rachel wants a professional relationship with Tag.
+        - question: Phoebe is attracted to Tag.
+        - question: Phoebe feels Monica's verbal commitment is not enough.
+          answer  : False
+        - question: Monica didn't really promise to let Phoebe play.
+          answer  : True
+        - question: Monica's boyfriend's deposit does not represent a real commitment.
+
+----
+==  nammmmmmmmmme, sammmmmmmmmme --Joe South's "Hush"
+
+http://www.youtube.com/watch?v=kisv8SYugQk Joe South
+http://www.youtube.com/watch?v=GiNdKrUsPRo Gary's Orchestra
+http://www.youtube.com/watch?v=nDIDDOeYJZ8 Fred Vidal
+http://www.youtube.com/watch?v=c6l2vMCWwXY Backing
+http://www.youtube.com/watch?v=KiXcqxms3Bs Deep Purple with Hugh Hefner
+http://www.youtube.com/watch?v=ByXqtckmKxU&feature=related South with lyrics
+http://www.youtube.com/watch?v=KCV-Y2OPLT8&feature=related Billie Joe Royal
+
+---
+== Hush lyrics
+
+   Na, nana, na, nana, na, nana, na.
+   Na, nana, na, nana, na, nana, na.
+   I got a certan little girl she's on my mind
+   No doubt about it she looks so fine
+   She's the best girl that I ever had
+   Sometimes she's gonna make me feel so bad
+   Na, nana, na, nana, na, nana, na.
+   Na, nana, na, nana, na, nana, na.
+
+   Hush, hush
+   Thought I heard her calling my name now
+   Hush, hush
+   She broke my heart but I love her just the same now
+   Hush, hush
+   Thought I heard her calling my name now
+   Hush, hush
+   I need your love and I'm not to blame now
+
+   Love, love
+   They got it early in the morning
+   Love, love
+   They got it late in the evening
+   Love, love
+   Well, I want that needing
+   Love, love
+   Oh, I gotta get ahead of it
+   She's got a love like quicksand
+   Only took one touch of her hand
+   Blow my mind and I'm in so deep
+   That I can't eat and I can't sleep
+   Listen
+
+   Hush, hush
+   Thought I heard her calling my name now
+   Hush, hush
+   She broke my heart but I love her just the same now
+   Hush, hush
+   Thought I heard her calling my name now
+   Hush, hush
+   I need your love and I'm not to blame now
+   Love, love
+   They got it early in the morning
+   Love, love
+   They got it late in the evening
+   Love, love
+   Well, I want that needing
+   Love, love
+   Oh, I gotta get ahead of it
+
+
+----
+== Friends
+
+	* http://en.wikipedia.org/wiki/Friends
+	* http://www.imdb.com/title/tt0108778/
+Plot: 
+	* http://www.imdb.com/title/tt0108778/plotsummary
+	* http://www.friends-tv.org/epshort.html
+Characters:
+	* http://en.wikipedia.org/wiki/Rachel_Green
+	* http://en.wikipedia.org/wiki/Ross_Geller
+	* http://en.wikipedia.org/wiki/Phoebe_Buffay
+	* http://en.wikipedia.org/wiki/Joey_Tribbiani
+	* http://en.wikipedia.org/wiki/Chandler_Bing
+	* http://en.wikipedia.org/wiki/Monica_Geller
+
+----
+== Friends Battleships
+
+|                      | Ross | Phoebe | Rachel | Monica | Chandler | Joey |
+|----------------------+------+--------+--------+--------+----------+------|
+| 1. Gender            |      |        |        |        |          |      |
+| 2. Marital status    |      |        |        |        |          |      |
+| 3. Relationship with |      |        |        |        |          |      |
+| 4. Job               |      |        |        |        |          |      |
+
+Gender: Man/Woman/Male/Female
+Marital status: Single/Married/Divorced
+Relationships: Family (Brother, sister)/Boy friend & girl friend/Just friends
+Job: Professor/Office worker (Executive)/Chef/Actor/Masseuse
+
+----
+== Battleship questions
+
+Is Ross male/female/a man/a woman?
+Is Phoebe married?
+Is the relationship of Ross and Phoebe brother and sister?
+Does Ross call Phoebe sister?
+Is Ross married to Phoebe?
+Is Ross in a relationship with Phoebe?
+Is Ross Phoebe's sister?
+Is Ross a professor?
+Does Ross work as a professor?
+
+
+----
+== Quiz questions
+
++         - question: A, B, C, D
++           - Chandler
++           - Monica
++           - Rachel
++           - Ross
+ 
++        - question: Ross and Rachel have a baby.
++        - question: Monica is a chef.
++        - question: Rachel is Ross's old flame.
++        - question: Ross is a scientist.
++        - question: No-one knows what Chandler's job is.
++        - question: The two other friends' names are Joey and Phoebe.
+
+----
+== I want to quit the gym
+http://www.youtube.com/watch?v=C_ESeEZD_OY
+
++       - question: The real reason Ross couldn't go into the gym was because it is for members only.
++       - question: Ross and Chandler leave the gym but Chandler is still a member of the gym at the end.
++       - question: Ross is stronger than Chandler.
++       - question: Chandler is satisfied with his body.
++       - question: Chandler prevents Ross joining the gym.
++       - question: With the trick, Chandler is still a member of the gym.
+  
+----
+== Elvis Presley's Heartbreak Hotel
+
+http://www.youtube.com/watch?v=aM7Wl7GEoDI
+
+Well, since my baby left me,
+I found a new place to dwell.
+Its down at the end of Lonely Street
+At Heartbreak Hotel.
+You make me so lonely baby,
+I get so lonely,
+I get so lonely I could die.
+And although it's always crowded,
+You still can find some room.
+Where broken hearted lovers
+Do cry away their gloom.
+You make me so lonely baby,
+I get so lonely,
+I get so lonely I could die.
+Well, the bell hops tears keep flowin,
+And the desk clerks dressed in black.
+Well they been so long on Lonely Street
+They aint ever gonna look back.
+You make me so lonely baby,
+I get so lonely,
+I get so lonely I could die.
+Hey now, if your baby leaves you,
+And you got a tale to tell.
+Just take a walk down Lonely Street
+To Heartbreak Hotel.
+
+----
+= Barry Manilow's Mandy
+
+http://www.youtube.com/watch?v=wA3KdznkjpQ&feature=related
+http://www.youtube.com/watch?v=GK8-gZVkYsk&feature=related
+http://www.youtube.com/watch?v=guR_Y4WHBYU&feature=related
+http://www.youtube.com/watch?v=GChTai6xoOM&feature=related
+
+----
+== Season 6, Episode 1-8
+
+Divorce
+
+- question: A is moving in to his girlfriend's apartment.
+- question: B is an actor.
+- question: C is a scientist.
+- question: The relationship between Ross and Rachel is difficult to understand.
+- question: Joey is attracted to his roommate.
+
+----
++ question: Paul is a professor.
++ question: Elizabeth is a student.
++ question: Paul and Rachel are having a relationship.
++ question: Elizabeth's father wants Ross to stop doing what he's
+doing.
++ question: Ross wants his wife to have a relationship with Paul.
+
+----
+== Season 6, Episode 18-25
++ question: Chandler is ready for marriage, but Monica isn't.
++ question: Richard's appearance at the restaurant prevents
+Chandler from proposing to Monica.
++ question: Richard doesn't want to marry Monica now.
++ question: After Monica talks to Richard, Monica is unhappy and
+after Chandler talks to Richard, Chandler is unhappy.
++ question: Chandler doesn't expect to find Monica in the
+apartment.
++ question: Monica accepts Richard's rather than Chandler's
+proposal of marriage.
+
+
+----
+==
+== The End
