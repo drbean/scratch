@@ -40,3 +40,26 @@ genre: friends
           answer: True
         - question: 
           answer: False
+category:
+  compcomp:
+    0:
+      identifier: categories
+      White: |+
+        \begin{normalsize}Something about Ross, Rachel and Monica \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Gender] Ross is male and Rachel and Monica are women.
+        \item [Marital Status] Ross has been married twice before and is divorced. Now, he may or may not be married to Rachel. Rachel had been involved with someone else, but didn't marry him. Monica is not married.
+        \item [Relationships] Ross and Rachel are an on-again-off-again couple. Ross and Monica are brother and sister. Monica and Rachel are best friends.
+        \item [Job] Ross is a professor studying dinosaurs. Rachel has had a number of jobs. Now she has a good job, working in a fashion company. Monica is a chef.
+        \end{description}
+      Black: |+
+        \begin{normalsize}Something about Chandler, Phoebe and Joey \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Gender] Chandler and Joey are men and Phoebe is female.
+        \item [Marital Status] None of Chandler, Joey and Phoebe are married, now. Later, Chandler will get married to Monica, and Phoebe will marry someone else.
+        \item [Relationships] Chandler is Monica's boyfriend.
+        Chandler, Joey and Phoebe are just good friends. Joey and Phoebe have a special relationship not shared with the others, but they are not boyfriend and girlfriend.
+        \item [Job] Chandler works with statistics. He is a manager in an office. Phoebe is a masseuse. She works in a spa, giving body massages. Joey is an actor.
+        \end{description}
