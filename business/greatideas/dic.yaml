@@ -1,0 +1,293 @@
+---
+-
+  - id
+  - description
+  - genre
+  - target
+  - content
+  - unclozeables
+-
+  - cars
+  - Penske-Wynn's problem
+  - business
+  - A
+  - At the Penske-Wynn Maserati-Ferrari showroom in Las Vegas, people didn't want to buy the cars. they just wanted to look at them. The problem was that there were lots of these people. Many Americans who aren't rich go to Las Vegas because they dream about winning lots of money. These people like to look at expensive cars.
+  - Penske-Wynn|Maserati-Ferrari|Las Vegas
+-
+  - cars
+  - A good idea
+  - business
+  - B
+  -  Penske-Wynn started charging a 10 dollar entrance fee. People who said they weren't going to buy a Ferrari or Maserati, and who just wanted to look at the cars had to pay this 10 dollars. Children with their parents didn't have to pay. Ferrari clothes were also sold.
+  - Penske-Wynn|Ferrari|Maserati
+-
+  - cars
+  - The results of the experiment
+  - business
+  - C
+  - About one-fifth of the visitors said they were thinking of buying a car, so didn't have to pay. But there were so many visitors, the showroom was getting almost 100,000 dollars a month in admission fees. In addition, it was selling twenty to thirty cars a month.
+  - fifth|admission
+-
+  - cars
+  - What others can learn from the experiment
+  - business
+  - D
+  - The experiment was very successful. But other car showrooms may not be able to copy Penske-Wynn's solution. Other showrooms are not in Las Vegas. They do not have many visitors, and are not showing expensive cars to people who dream of being rich. 
+  - Penske-Wynn|Las Vegas
+
+-
+  - citrus1
+  - Indian farming problem
+  - business
+  - A
+  - Farmers in Punjab grow rice, but they don't make very much money. The Punjab government wants to help them make more money. Pepsi wants citrus fruit to make fruit drinks. The three decided to work together to grow citrus fruit. The idea is for the farmers to let the government grow citrus fruit on their land.
+  - Punjab|Pepsi|citrus
+-
+  - citrus1
+  - A good farming idea
+  - business
+  - B
+  -  The idea is for the farmers to let the government grow citrus fruit on their land for four years, and the government gives the farmers some money each year. After four years, half of the money from sale of the fruit goes to the farmers, and half to the government. Pepsi is already making drinks from the fruit.
+  - citrus|Pepsi
+-
+  - citrus1
+  - The results of the experiment
+  - business
+  - C
+  - Pepsi is already making drinks from the fruit produced by the trees planted by the government. The government is taking 50 percent and giving farmers the rest. Pepsi said it will continue to increase the amount of citrus fruit it buys. It also said it wants to export drinks made from the fruit to other countries.
+  - Pepsi|citrus
+-
+  - citrus1
+  - What others can learn from the experiment
+  - business
+  - D
+  - The farmers are happy with the money. Pepsi is happy with its source of citrus fruit. The government is happy the area is being developed. The Punjab area may become the world's biggest citrus producer. But other areas may not be able to copy this solution. The area is more suited to growing citrus than other areas.
+  - Pepsi|citrus|Punjab
+-
+  - internet1
+  - Making money from the Internet
+  - business
+  - A
+  - |+
+    He thought he could make money on the Internet by selling advertising space on his website. Some friends and some of his family gave him some money for the first few advertisements. He used the money to promote the site. Although his idea looks very simple and easy, he had to work very hard to advertise the site.
+  - website|space|promote
+-
+  - internet1
+  - Hard work on the Internet
+  - business
+  - B
+  - |+
+    He contacted lots of television and newspaper companies about his idea, and people were very interested in listening to him talk. He hired a person to contact TV and newspaper companies in the US for him. He went to the US for one week and appeared on television there. All the space on his site was sold and he made one million dollars.
+  - contacted|hired
+-
+  - internet1
+  - Internet success
+  - business
+  - C
+  - |+
+    All the space on his site was sold and he made one million dollars. A few advertisers on the site were well-known, like Yahoo. But most of the advertisers are not well-known and their services are not good. For example, dating services, Internet gambling and free download sites. The website was criticized because the services of the advertisers on it were not good. 
+  - gambling|criticized
+-
+  - internet1
+  - Criticism of site
+  - business
+  - D
+  - |+
+    The website was criticized because the services of the advertisers on it were not good. Some people could not understand why advertisers were attracted by the website. Others said that he made too much money too quickly. He said that he needed the money to go to college, but one million dollars was too much.
+  - criticized|attracted
+
+-
+  - uniqlo-1
+  - Uniqlo's marketing mix
+  - business
+  - all
+  - |+
+    Uniqlo is a Japanese clothing brand. It started as a small suit maker in 1963 and is now one of the biggest Japanese clothing companies.
+
+    Uniqlo's name has always been connected to the Japanese music scene. Its customers are young and fashionable.
+
+    Uniqlo has developed a unique marketing mix. It has the right combination of product, price, promotion and place.
+
+    If a clothes company wants to be successful, it needs to have the right marketing mix. Every company has a different marketing mix of product, price, promotion and place.
+
+    The product is what Uniqlo sells. The price is how much the customer pays. Promotion is what Uniqlo does to keep Uniqlo in customers' minds. Place is where and how the customer buys Uniqlo clothes.
+
+    The company has to make the right decisions about all of product, price, promotion and place to make the most money. And decisions about each of these things affects decisions about the other things.
+
+  - Uniqlo|Japanese
+---
+-
+  - genre
+  - text
+  - id
+  - target
+  - content
+  - answer
+-
+  - business
+  - cars
+  - 1
+  - A
+  - The problem was that too many people wanted to look at the cars.
+  - True
+-
+  - business
+  - cars
+  - 2
+  - A
+  - People go to Las Vegas because they want to get more money, not spend money.
+  - True
+-
+  - business
+  - cars
+  - 3
+  - B
+  - Everyone had to pay a 10-dollar entrance fee, even if they wanted to buy a car.
+  - False
+-
+  - business
+  - cars
+  - 4
+  - B
+  - Children had to pay a five-dollar entrance fee.
+  - False
+-
+  - business
+  - cars
+  - 5
+  - C
+  - About one-fifth of the visitors didn't pay. They said they would buy a car.
+  - True
+-
+  - business
+  - cars
+  - 6
+  - C
+  - The showroom was making almost 100,000 dollars a month.
+  - True
+-
+  - business
+  - cars
+  - 7
+  - D
+  - Many other car showrooms may be able to copy Penske-Wynn's solution.
+  - False
+-
+  - business
+  - cars
+  - 8
+  - D
+  - Most car showrooms are not showing expensive cars and they do not have many visitors.
+  - True
+-
+  - business
+  - citrus1
+  - 1
+  - A
+  - Farmers don't make much money from growing rice in the Punjab.
+  - True
+-
+  - business
+  - citrus1
+  - 2
+  - A
+  - The idea is for Pepsi to grow citrus fruit on farmers' land.
+  - False
+-
+  - business
+  - citrus1
+  - 3
+  - B
+  - The government gives the farmers some money each year for four years.
+  - True
+-
+  - business
+  - citrus1
+  - 4
+  - B
+  - The farmers give some money to the government to grow citrus fruit for them for four years.
+  - False
+-
+  - business
+  - citrus1
+  - 5
+  - C
+  - Pepsi gives money to the government and the government takes 50 percent and gives farmers 50 percent.
+  - True
+-
+  - business
+  - citrus1
+  - 6
+  - C
+  - Pepsi said it wants to buy citrus trees and give them to farmers to plant.
+  - False
+-
+  - business
+  - citrus1
+  - 7
+  - D
+  - Farmers, the government and Pepsi are happy with the development. 
+  - True
+-
+  - business
+  - citrus1
+  - 8
+  - D
+  - Other areas more suited to citrus may become the biggest citrus producers.
+  - False
+-
+  - business
+  - internet1
+  - 1
+  - A
+  - The idea was very simple, but he worked very hard to make it work.
+  - True
+-
+  - business
+  - internet1
+  - 2
+  - A
+  - He gave friends and family money for a few advertisements on the site.
+  - False
+-
+  - business
+  - internet1
+  - 3
+  - B
+  - He talked to lots of people about the site and appeared on television.
+  - True
+-
+  - business
+  - internet1
+  - 4
+  - B
+  - Companies contacted him and talked to him for one week and one million dollars.
+  - False
+-
+  - business
+  - internet1
+  - 5
+  - C
+  - Most of the well-known advertisers like Yahoo's services are good.
+  - True
+-
+  - business
+  - internet1
+  - 6
+  - C
+  - Critics liked Yahoo's free Internet dating sites.
+  - False
+-
+  - business
+  - internet1
+  - 7
+  - D
+  - Some critics could not understand why he needed one million dollars.
+  - True
+-
+  - business
+  - internet1
+  - 8
+  - D
+  - Some people criticized the advertisers for needing to make money.
+  - False
