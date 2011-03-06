@@ -39,7 +39,6 @@ giant    = list2OnePlacePred [T]
 wizard   = list2OnePlacePred [W,V]
 sword    = list2OnePlacePred [F]
 dagger   = list2OnePlacePred [X]
-unspec   = list2OnePlacePred [Unspec]
 
 child, person, man, woman, male, female, thing :: OnePlacePred
 
@@ -61,7 +60,7 @@ shudder = list2OnePlacePred [S]
 love, admire, help, defeat :: TwoPlacePred
 
 love   = curry (`elem` [(Y,E),(B,S),(R,S)])
-admire = curry (`elem` [(x,G) | x <- entities, person x || unspec x])
+admire = curry (`elem` [(x,G) | x <- entities, person x])
 help   = curry (`elem` [(W,W),(V,V),(S,B),(D,M)])
 defeat = curry (`elem` [(x,y) | x <- entities, 
                                 y <- entities,
@@ -81,12 +80,6 @@ kill = curry3 (`elem` [(Y,T,F),(Unspec,D,X),
 passivize :: TwoPlacePred -> OnePlacePred
 passivize r = \ x -> r Unspec x
 
-passivize3 :: ThreePlacePred -> TwoPlacePred
-passivize3 r = \x y -> r Unspec x y
-
--- self ::  (a -> a -> b) -> a -> b
-self :: TwoPlacePred -> OnePlacePred
+self ::  (a -> a -> b) -> a -> b
 self p = \ x -> p x x 
 
-self3DO :: (a -> a -> a -> b) -> a -> a -> b
-self3DO p x = \s -> p s x s
