@@ -105,6 +105,76 @@ stress:
         answer  : False
       - question: Boss never says anything good.
         answer  : True
+ compcomp:
+   0:
+     identifier: stress causes 0
+     White: |+
+       \begin{large}The reasons A and B feel stress \end{large}\\
+       \normalsize
+       Think about the stress A and B feel in terms of CUSP--Control, Uncertainty, Support, Pressure
+       \begin{description}
+       \item [Control] Only B thinks that their lack of effectiveness, or inability to control what is happening, is a cause of their stress. B: `I don't feel like I have any control ..'
+        \item [Uncertainty] A is afraid of what is going to happen. A: `It is our turn to be fired. I am afraid I will be next.'
+        \item [Support] Only B says management is not supportive.
+        \item [Pressure] B talks about pressure from management. A says they are under pressure. This is probably also management pressure.
+        \end{description}
+     Black: |+
+       \begin{large}The reasons C and D feel stress \end{large}\\
+       \normalsize
+       Think about the stress C and D feel in terms of CUSP--Control, Uncertainty, Support, Pressure
+       \begin{description}
+       \item [Control] C and D don't talk about whether they are doing a good job, and how they feel about the results of their work. Control is not causing C \& D stress.
+        \item [Uncertainty] D doesn't know what management is trying to do. D: `If she told us what is happening, we would feel less stress.'
+        \item [Support] D doesn't think the manager is helpful.
+        \item [Pressure] C feels pressure from the environment. D feels the boss is critical and won't listen. That's pressure.
+        \end{description}
+adventure:
+ jigsaw:
+  0:
+    identifier: adventure stress 0
+    A: |
+        \item [Students] The teacher gives lots of difficult homework.
+        \item [Ellen MacArthur] is alone on the boat.
+        \item [Dr Bean] tries to teach the students English.
+        \item [Steve Fossett] made six attempts to fly around the world in a balloon.
+    B: |
+        \item [Students] If you don't do the homework, you fail the class.
+        \item [Ellen MacArthur] There is a team which she can contact by radio.
+        \item [Dr Bean] can make the students sit down and be quiet.
+        \item [Steve Fossett] failed five times because of weather and balloon problems.
+    C: |
+        \item [Students] The teacher tells the students the homework is very important.
+        \item [Ellen MacArthur] It is difficult for the team to understand the problems.
+        \item [Dr Bean] often can't make the students speak English.
+        \item [Steve Fossett] The sixth attempt also had weather and balloon problems.
+    D: |
+        \item [Students] The students don't like to do the homework.
+        \item [Ellen MacArthur] has many problems on the boat, which she has to solve herself.
+        \item [Dr Bean] has no control over what the students say, think and learn.
+        \item [Steve Fossett] didn't know if he could succeed.
+ compcomp:
+   0:
+     identifier: adventure stress causes 0
+     White: |+
+       \begin{large}The reasons students and teachers feel stress \end{large}\\
+       \normalsize
+       Think about the stress students and teachers feel in terms of CUSP--Control, Uncertainty, Support, Pressure
+       \begin{description}
+       \item [Control] Teachers think they have little control of their students' learning. Students think they have little control of their own learning. Both suffer from lack of control. Teachers, students: `I don't feel like I have any control ..'
+        \item [Uncertainty] Teachers don't feel uncertainty. Teaching is very predictable. Students do feel there is uncertainty. Student: `I don't know what will be on the exam. I am afraid I will fail.'
+        \item [Support] Teachers work alone. They don't get help from other teachers. If they are having problems, there is no one who can really help them. Students can ask other students, or the teacher, or the school for help.
+        \item [Pressure] Teachers don't have lots of pressure from the school. They have lots of freedom. Students are more under pressure from teachers and their parents to do well in school. They don't have freedom in school.
+        \end{description}
+     Black: |+
+       \begin{large}The reasons Steve Fossett and Ellen MacArthur  feel stress \end{large}\\
+       \normalsize
+       Think about the stress Steve Fossett and Ellen MacArthur feel in terms of CUSP--Control, Uncertainty, Support, Pressure
+       \begin{description}
+       \item [Control] Steve doesn't feel much control. He is blown by the wind, which is in control. He also has accidents. Ellen does feel control. She has a good boat and can make it do what she wants.
+        \item [Uncertainty] Steve feels a lot of uncertainty
+        \item [Support] D doesn't think the manager is helpful.
+        \item [Pressure] C feels pressure from the environment. D feels the boss is critical and won't listen. That's pressure.
+        \end{description}
 hotspot:
  jigsaw:
   1:
