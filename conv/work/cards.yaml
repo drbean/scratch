@@ -825,6 +825,53 @@ bruno:
       B: You don't know Angelo Bruno. He is a garbage man and you are a doorman. But he is like you. He is very friendly and helpful. Most people in New York don't usually appear to be friendly, but you and he always do. You make more than him in tips perhaps, but his salary may be better than yours.
       C: You are not as famous as Ed Trinka, the doorman at the Plaza, who everyone knows about, but like him, you try to help people and be friendly when you pick up their trash. When Christmas comes, people give you and Eddie more money and gifts than other trash men to show their thanks.
       D: You like working with Angelo because he is a great person. He really tries to do a good job. However, often it is you who do all the work, lifting the garbage into the truck. He just stands around and talks to people, like Sister Helen, the nun. But you miss him because he has retired.
+    1:
+      identifier: bruno 1
+      A: You think Angelo is a nice person. He and Eddie carry your trash from your door out to the garbage truck. You give them a Christmas present. You are a nun, but you kiss Angelo on the cheek. You are sad and cry when he retires.
+      B: Angelo Bruno is a garbage man and you are a doorman. You both work in New York City. People there don't appear friendly. But you and he always do.You make more than him in tips perhaps, but his salary may be better than yours.
+      C: You are not as famous as Ed Trinka, the doorman at the Plaza, but you are friendly and helpful like him, when you pick up the trash. When Christmas comes, people give you and Eddie more money and gifts than other co-workers to show their thanks.
+      D: You like working with Angelo because he is a great person. He really tries to do a good job. However, often it is you who do the work, lifting the garbage into the truck. He just stands and talks to people, like Sister Helen, the nun.
+      quiz:
+        - question: A
+          option:
+            - Angelo
+            - Eddie
+            - Ed Trinka
+            - Sr Helen
+          answer: Sr Helen
+        - question: B
+          option:
+            - Angelo
+            - Eddie
+            - Ed Trinka
+            - Sr Helen
+          answer: Ed Trinka
+        - question: C
+          option:
+            - Angelo
+            - Eddie
+            - Ed Trinka
+            - Sr Helen
+          answer: Angelo
+        - question: D
+          option:
+            - Angelo
+            - Eddie
+            - Ed Trinka
+            - Sr Helen
+          answer: Eddie
+        - question: Sister Helen is a nun in New York City.
+          answer: True
+        - question: Angelo is more famous than Ed Trinka.
+          answer: False
+        - question: Sister Helen kissed Ed Trinka.
+          answer: False
+        - question: Angelo works together with Eddie.
+          answer: True
+        - question: Angelo does more work than Eddie.
+          answer: False
+        - question: People thank Angelo at Christmas.
+          anwer: True
   compcomp:
     0:
       identifier: bruno 0
@@ -846,3 +893,16 @@ bruno:
         \item [Job opportunities] Garbage men/women are employed by municipal and private organizations. Jobs may be found online or in local newspapers.
         \item [Job requirements] Must be comfortable with early morning hours. Must be able to lift heavy objects and work outdoors in all weathers. Typically, must drive very large truck and work alone.
         \end{description}
+      quiz:
+        - question: Question 1. Doorman, Garbage man: Both doorman and garbage man jobs are physically demanding work.
+          answer: True
+        - question: Question 2. Doorman, Garbage man: Social skills are more of a requirement in the garbage man job than in the doorman job.
+          answer: False
+        - question: Question 3. Doorman, Garbage man: A criminal record is less of a problem in the doorman job than in the garbage man job.
+          answer: False
+        - question: Question a. Doorman, Garbage man: A doorman will probably work longer hours than a garbage man will.
+          answer: True
+        - question: Question b. Doorman, Garbage man: Only the garbage man job involves outside work.
+          answer: False
+        - question: Question c. Doorman, Garbage man: Both doorman and garbage man jobs involve carrying things (if the doorman is working at a hotel.)
+          answer: True
