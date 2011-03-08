@@ -158,6 +158,47 @@ watterson:
       B: You have two children, one, your daughter, is deaf. The other, Mitchel isn't deaf. Mitchel comforts his sister a lot when she has problems. Often she is upset because children at school make fun of her deafness. You appreciate his concern for his younger sister at that time.
       C: Once, when you were four, and your sister was two, at Xmas, you sat on Santa's knee. And you told him that for Christmas you wanted your sister to be able to hear. Your mother tells you Santa liked your Christmas wish, because all the kids that day had just told Santa they wanted things for themselves.
       D: You are eight, and your brother is ten. You are deaf. Your mother, Debbie does what she can to help you. But at school and when you are playing with other children, she can't help you. At that time, your brother protects you from unkind children who make fun of you.
+      quiz:
+        - question: A
+          option:
+            - Bridget
+            - Debbie
+            - Mitchel
+            - Santa
+          answer: Santa
+        - question: B
+          option:
+            - Bridget
+            - Debbie
+            - Mitchel
+            - Santa
+          answer: Debbie
+        - question: C
+          option:
+            - Bridget
+            - Debbie
+            - Mitchel
+            - Santa
+          answer: Mitchel
+        - question: D
+          option:
+            - Bridget
+            - Debbie
+            - Mitchel
+            - Santa
+          answer: Bridget
+        - question: School kids make fun of Bridget.
+          answer: True
+        - question: Santa liked what Mitchel said.
+          answer: True
+        - question: Debbie is unhappy with Mitchel.
+          answer: False
+        - question: Mitchel is older than Bridget.
+          answer: True
+        - question: Mitchel wants to be deaf.
+          answer: False
+        - question: Mitchel wants to be able to hear.
+          answer: False
   compcomp:
     0:
       identifier: watterson 0
@@ -180,3 +221,16 @@ watterson:
         \item [Setup] The surrounding area is decorated, and there is a large throne. Photographs with Santa may be offered.
         \item [Pretense] If Santa is detected to be fake (eg child pulls beard, sees it's not real). the child will be told the fake is standing in for the real Santa, who is very busy. Most children seem to accept this.
         \end{description}
+      quiz:
+        - question: Question 5. General knowledge questions about Christmas: Christmas is very much directed at children.
+          answer: True
+        - question: Question 6. General knowledge questions about Christmas: Christmas involves lots of shopping.
+          answer: True
+        - question: Question 7. General knowledge questions about Christmas: Parents will not look at wishlists of the Christmas gifts their children want.
+          answer: False
+        - question: Question a. General knowledge questions about Christmas: Children are excited by the real value of their gifts, rather than their size.
+          answer: False
+        - question: Question b. General knowledge questions about Christmas: Santa will appear at department stores and listen to what children want for Christmas.
+          answer: True
+        - question: Question c. General knowledge questions about Christmas: If a child believes Santa is fake, it is difficult to convince him/her that the real Santa is too busy to be there.
+          answer: True
