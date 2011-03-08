@@ -1,0 +1,57 @@
+# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom::Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: 9-11!
+indent: 5
+height: 18
+width: 69
+skip: 0
+
+# The following options are for Gvim usage.
+# vim: gvim
+# fuopt: maxhorz,maxvert
+# guioptions: egmLtT
+# guicursor: a:blinkon0-ver25-Cursor
+# guifont: Bitstream_Vera_Sans_Mono:h18
+
+---- center
+9-11!
+
+by Dr Bean
+
+(hint: press the spacebar)
+
+----
+==== 9-11 Battleships
+
+                                Timeline
+
+|                | Feb 12, | May 29, |      |      | Sep 11, | Sep 11, | Feb 12, |
+|                | 1951    | 1951    | 1962 | 1968 | 2001    | 2001    | 2009    |
+| Births/Deaths  |         |         |      |      | 8:46    | 10:00   |         |
+|----------------+---------+---------+------+------+---------+---------+---------|
+| Sean Rooney    |         |         |      |      |         |         |         |
+| Mohamed Atta   |         |         |      |      |         |         |         |
+| Marvin Renslow |         |         |      |      |         |         |         |
+| Beverly Eckert |         |         |      |      |         |         |         |
+
+----
+==== 9-11 Battleships Questions
+
+Was X born on February 12, 1951?
+Was Y born in 1968?
+Did X die at 8:46 on September 11, 2001?
+Did Y die on May 29, 1951?
+Did Y die in 1968?
+
+
+When 
+
+----
+== The end

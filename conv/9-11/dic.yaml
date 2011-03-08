@@ -1,0 +1,128 @@
+---
+-
+  - id
+  - description
+  - genre
+  - target
+  - content
+  - unclozeables
+-
+  - eckert
+  - Widowed in 9/11 attacks
+  - intermediate
+  - A
+  - |+
+    Sean had warm brown eyes and dark curly hair and, uh, he was a good hugger. We met when we were only 16, at a high school dance. When he died we were 50. It was about 9:30 a.m. when he called and he told me he was on the 105th floor and he'd been trying to find a way out. He told me that he, you know, hadn't had any success and now the stairwell was full of smoke. I asked if it hurt for him to breathe and ...
+  - Sean|hugger
+-
+  - eckert
+  - Widowed in 9/11 attacks
+  - intermediate
+  - B
+  - |+
+    ... he paused for a moment, and said, No. He loved me enough to lie.
+
+    We stopped talking about escape routes and then we just began talking about all of the happiness we shared during our lives together. I told him that I wanted to be there with him, die with him, but he said, no, no he wanted me to live a full life. As the smoke got thicker he just kept whispering I love you, over and over. I just wanted to crawl through the phone lines to him ...
+  - escape|routes
+-
+  - eckert
+  - Widowed in 9/11 attacks
+  - intermediate
+  - C
+  - |+
+    ... to hold him, one last time. Then I heard a sharp crack, followed by the sound of an avalanche. It was the building beginning to collapse. I called his name into the phone over and over, then I just sat there, pressing the phone to my heart. I think about that last half hour with Sean all the time.
+    I remember how I didn't want that day to end, terrible as it was, I didn't want to go to sleep because, as long as I was awake ...
+  - Sean|building
+-
+  - eckert
+  - Widowed in 9/11 attacks
+  - intermediate
+  - D
+  - |+
+    ... it was still a day that I'd shared with Sean. You know, he kissed me goodbye just before going to work. I could still say that was just a little while ago, that was only this morning. And, uh, looking back on all that has happened since he died and the causes I fought for and the things I've done, I just think of myself as living life for both of us now. And I like to think that Sean would be proud of me.
+  - Sean|causes
+-
+  - obama
+  - Obama remembers Beverly
+  - intermediate
+  - A
+  - |+
+    Obama: Before I begin, I want to say a brief word about the terrible tragedy that took place outside of Buffalo last night. Our thoughts and prayers are with the families and friends who lost loved ones, and as always, our thanks go out to the brave first responders who arrived immediately to try and save lives, and who are still on the scene keeping people safe.
+    Tragic events such as these remind us of the fragility of life and the value of every single day. One person who understood that well was Beverly Eckert, who was on that flight and who I met with just a few days ago. You see, Beverly lost her husband on 9/11, and became a tireless advocate for the families, those whose lives were forever changed on that September day. And in keeping with that passionate commitment, she was on her way to Buffalo to mark what would have been her husband's birthday and launch a scholarship in his memory. So she was an inspiration to me and to so many others, and I pray that her family finds peace and comfort in the hard days ahead.
+
+   Newscaster: Of all the deaths in Thursday's plane crash near Buffalo, hers may stand out the most. Beverly Eckert, was a Sept. 11 widow who put her never-ending grief to good use to make the country safer, including a visit with President Barack Obama, earlier this month.
+   Obama: She was an inspiration to me and to so many others, and I pray that her family finds peace and comfort in the hard days ahead.
+
+   Newscaster: Her husband was in the World Trade Center when it was hit and she was on the phone with him until his last moments.
+   She was going to Buffalo Thursday to mark what would have been his fifty-eighth birthday and launch a scholarship in his memory. Now she is the one being mourned by everyone from top officials to her Connecticut neighbors.
+
+   Clinton: Beverly became known to me, and a friend to me, and to many New Yorkers, because of her tireless advocacy for the families of the victims of 9-11.
+   Annalisa: Disbelief, shock, Umm. It couldn't be happening again. You know, we were close with her husband, as well. That was just an enormous tragedy for this neighborhood.
+   Christine: Of course my reaction is, it's devastating. It's, uh, just horrible.
+   Newscaster: More recently, Eckert turned her energy to Habitat to Humanity, helping build homes for low-income families. Diane Keppling, the Associated Press.
+
+
+---
+-
+  - genre
+  - text
+  - id
+  - target
+  - content
+  - answer
+-
+  - intermediate
+  - eckert
+  - 1
+  - A
+  - Sean was on the 105th floor trying to find a way out, but the stairwell was full of smoke.
+  - True
+-
+  - intermediate
+  - eckert
+  - 2
+  - A
+  - Sean didn't have any success finding some way to smoke. The stairwell was full of dancers finding their breath.
+  - False
+-
+  - intermediate
+  - eckert
+  - 3
+  - B
+  - She wanted to crawl through the phone and die with him, but he wanted her to live a full life.
+  - True
+-
+  - intermediate
+  - eckert
+  - 4
+  - B
+  - She told him she loved him, but for just a moment, he lied about his love for her.
+  - False
+-
+  - intermediate
+  - eckert
+  - 5
+  - C
+  - Terrible as the day was, she didn't want it to end, because it was a time with Sean. 
+  - True
+-
+  - intermediate
+  - eckert
+  - 6
+  - C
+  - She half heard Sean collapse as the building cracked in an avalanche of sounds.
+  - False
+-
+  - intermediate
+  - eckert
+  - 7
+  - D
+  - She just kissed him that morning, but now she has to live life for both of them.
+  - True
+-
+  - intermediate
+  - eckert
+  - 8
+  - D
+  - She says she's proud of the life she's living and the things she has done for Sean since he died. 
+  - False
