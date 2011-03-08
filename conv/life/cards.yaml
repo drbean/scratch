@@ -346,6 +346,54 @@ pigott:
       B: You liked Pip and you think he liked you, but he regularly committed crimes, and it was your job to send criminals to prison or to fine them. When you retired, he came to a ceremony where your picture was hung on the wall of the courtroom, your `hanging' he said.
       C: It was your job to enforce the law in your local district. You ran the jail. When Robert called you and said his friend had taken his car keys, you went out and the friend gave you Robert's keys. He was mad his friend had called you. You put him in your car and took him to jail.
       D: You appeared many times before Joe, the judge in the local court. He sent you to jail for three years for just taking your friend's watch and his car keys. You were `ticked off' at getting such a severe sentence for what was only a minor offense. You `had words' with Joe.
+    1:
+      identifier: pigott 1
+      A: Your friend had been out of jail for 6 weeks. He took your watch and the keys to your car. You called Sheriff Tom and told him to go to his place and get him and lock him up. After Tom picked him up, Joe sent him back to jail for 3 years.
+      B: You liked Pip and you think he liked you, but he regularly committed crimes, and it was your job to send criminals to prison or to fine them. When you retired, he came to a ceremony where your picture was hung on the wall of the courtroom.
+      C: It was your job to enforce the law in your local district. You ran the jail. When Robert called you and said his friend had taken his car keys, you went out and the friend, Pip gave you Robert's keys. You put him in your car and took him to jail.
+      D: You appeared many times before Joe, the judge in the local court. He sent you to jail for three years for just taking your friend's watch and his car keys. You were unhappy with this long jail term of three years. You told Joe.
+      quiz:
+        - question: A
+          option:
+            - Joe
+            - Robert
+            - Pip
+            - Tom
+          answer: Robert
+        - question: B
+          option:
+            - Joe
+            - Robert
+            - Pip
+            - Tom
+          answer: Joe
+        - question: C
+          option:
+            - Joe
+            - Robert
+            - Pip
+            - Tom
+          answer: Tom
+        - question: D
+          option:
+            - Joe
+            - Robert
+            - Pip
+            - Tom
+          answer: Pip
+        - question: Pip was a criminal.
+          answer: True
+        - question: Pip asked Tom to lock Robert up.
+          answer: False
+        - question: Tom put Robert in jail.
+          answer: False
+        - question: Joe sent Pip back to jail for 3 years.
+          answer: True
+        - question: Pip thought 3 years was not too long.
+          answer: False
+        - question: Joe saw Pip after he went back to jail.
+          answer: True
+        - 
   compcomp:
     0:
       identifier: pigott 0
@@ -366,6 +414,19 @@ pigott:
         \item [Career route] Sheriffs are elected by the community, but most will choose a sheriff with a law enforcement background.
         \item [Salary] A typical sheriff/police chief will make an annual \$95,460.
         \end{description}
+      quiz:
+        - question: Question 9. The jobs of judge and sheriff: Both jobs involve law enforcement in a community.
+          answer: True
+        - question: Question 10. The jobs of judge and sheriff: Sheriffs will probably be better at argument than judges.
+          answer: False
+        - question: Question 11. The jobs of judge and sheriff: Sheriffs will probably have more gun experience than judges.
+          answer: True
+        - question: Question a. The jobs of judge and sheriff: Sheriffs will probably not supervise as many people as judges.
+          answer: False
+        - question: Question b. The jobs of judge and sheriff: Judges will probably not make as much money as sheriffs.
+          answer: False
+        - question: Question c. The jobs of judge and sheriff: Judges will oversee civil cases where sheriffs have no role.
+          answer: True
 nightcourt:
   jigsaw:
     0:
@@ -374,6 +435,47 @@ nightcourt:
       B: You are a lawyer working for the New York state government. You are prosecuting Willy for holding up the traffic, but you are also in a hurry to go on a vacation afterward. Willy's slowness makes you nervous and angry. You tell the court that the state is dropping the charges.
       C: Your client has been arrested and charged for crossing the street against the red light. You show Harry, the judge a card which shows that Willy has a medical disorder and he can only move slowly. You ask Harry to be kind to him.
       D: You are hearing a case involving a man arrested for obstructing traffic, when he was crossing the road. Dan, the prosecutor is acting unprofessionally by showing his feelings, but you ignore this. You don't give your verdict, because the state drops the charges.
+      quiz:
+        - question: A
+          option:
+            - Christine
+            - Dan
+            - Harry
+            - Willy
+          answer: Willy
+        - question: B
+          option:
+            - Christine
+            - Dan
+            - Harry
+            - Willy
+          answer: Dan
+        - question: C
+          option:
+            - Christine
+            - Dan
+            - Harry
+            - Willy
+          answer: Christine
+        - question: D
+          option:
+            - Christine
+            - Dan
+            - Harry
+            - Willy
+          answer: Harry
+        - question: The public defender is Dan.
+          answer  : False
+        - question: The prosecutor is Christine.
+          answer  : False
+        - question: Harry says the defendant is not guilty.
+          answer  : False
+        - question: Willy has a medical problem.
+          answer: True
+        - question: Christine asks the judge to be kind.
+          answer: True
+        - question: Dan is going on a vacation.
+          answer: True
   compcomp:
     0:
       identifier: nightcourt 0
@@ -395,3 +497,16 @@ nightcourt:
         \item [Funding] The money to pay the lawyers comes from the state or federal government in the US, but is often not enough to allow the lawyers to do a good job.
         \item [Pay] Lawyers who are employed full-time as public defenders make the same as prosecutors. This is generally less than a private lawyer makes.
         \end{description}
+      quiz:
+        - question: Question 13. Trial procedures and the role of the public defender: The plaintiff is the defendant.
+          answer: False
+        - question: Question 14. Trial procedures and the role of the public defender: In a criminal case, the plaintiff is the People in the United States, or the Queen in the United Kingdom.
+          answer: True
+        - question: Question 15. Trial procedures and the role of the public defender: People who cannot afford a lawyer have to defend themselves.
+          answer: False
+        - question: Question a. Trial procedures and the role of the public defender: Defendants only have to pay the public defender if they are found not guilty.
+          answer: False
+        - question: Question b. Trial procedures and the role of the public defender: In a court trial, plaintiffs speak first, and say why they think the defendant did a wrong thing.
+          answer: True
+        - question: Question c. Trial procedures and the role of the public defender: A defense by a public defender may not be as good as one by a private lawyer.
+          answer: True
