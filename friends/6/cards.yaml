@@ -23,6 +23,22 @@ genre: friends
         \item [Last night] Rachel and Monica are mad at each other because they list all the things that have been bothering them about the other.
         \item [Conclusion] Monica and Rachel get along again after listing the nice things they do for each other and are really sad about not living together anymore.
         \end{description}
+    2:
+      identifier: Who's living with who?
+      White: |+
+        \begin{normalsize}Who Ross, Phoebe, Chandler are living with \end{normalsize}
+        \begin{description}
+        \item [Ross]is living with Chandler. Rachel then moves in with Ross.
+        \item [Phoebe]offers Rachel a room in her apartment, but Rachel doesn't move in.
+        \item [Chandler]is living with Ross, but moves out and moves in with Monica.
+        \end{description}
+      Black: |+
+        \begin{normalsize}Who Monica, Rachel, Joey are living with \end{normalsize}
+        \begin{description}
+        \item [Monica]is living with Rachel. Monica asks her to leave, so her boyfriend can move in.
+        \item [Rachel] is living with Monica, but she moves out and moves in with Ross, who may or may not be her husband.
+        \item [Joey] is living with a woman called Janine, but they do not have a relationship. He wants to flirt with her, but doesn't.
+        \end{description}
       quiz:
         - question: If Chandler moves in with Rachel and Monica, they will all be living in the same room.
           answer: False
