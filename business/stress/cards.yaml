@@ -197,22 +197,33 @@ adventure:
      identifier: adventure stress causes 1
      White: |+
        \normalsize The stress students and teachers feel as a result of (CU)SP--ie Support and Pressure \\
+        \vspace{-0.8cm}
        \begin{description}
        \item [Students] \hfill\\
                 \vspace{-0.8cm} \begin{description}
-                \item [Support] Students feel supported by their classmates. They talk with each other about problems. Some good students give other students answers.
-                \item [Pressure] Students, especially high school students, feel pressure from exams and homework. Teachers and family put pressure on students to do well in school.
+                \item [Support] Students feel supported by their classmates. They talk with each other about problems. Good students give out answers.
+                \item [Pressure] (High school) students feel pressure from exams and homework. Teachers and family put pressure on students to do well in school.
                 \end{description}
+        \vspace{-0.8cm}
        \item [Teachers] \hfill\\
-                \item [Support] Teachers don't feel supported. They act individually. They must solve their own problems. Other teachers and the school does not help them.
+                \vspace{-0.8cm} \begin{description}
+                \item [Support] Teachers act individually. They solve their own problems. Other teachers and the school do not help. This can cause stress.
                 \item [Pressure] Teachers are not really under pressure (in Taiwan.) Generally schools, society and students respect them and don't pressure them.
+                \end{description}
         \end{description}
      Black: |+
        \normalsize The stress Steve Fossett and Ellen MacArthur feel as a result of (CU)SP--ie Support and Pressure \\
+        \vspace{-0.8cm}
        \begin{description}
        \item [Steve] \hfill\\
                 \vspace{-0.8cm} \begin{description}
-                 \item [Support] Steve was alone in the balloon and Virgin Atlantic Flier, but he was in contact with his team on the ground, so he felt supported.
+                 \item [Support] Steve was alone, but his team was on the ground. He felt supported.
+                 \item [Pressure] He wanted to set the records and he made six attempts in his solo balloon. This put pressure on him to succeed.
+                \end{description}
+       \item [Ellen] \hfill\\
+                \vspace{-0.8cm} \begin{description}
+                \item [Support] Ellen said that her record would have been impossible without her team. They calmed her.
+                \item [Pressure] The record of fastest solo circumnavigation put pressure on Ellen. She wanted to beat the record.
                 \end{description}
         \end{description}
 hotspot:
