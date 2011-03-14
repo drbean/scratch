@@ -152,6 +152,28 @@ adventure:
         \item [Ellen MacArthur] has many problems on the boat, which she has to solve herself.
         \item [Dr Bean] has no control over what the students say, think and learn.
         \item [Steve Fossett] didn't know if he could succeed.
+  1:
+    identifier: adventure stress 1
+    A: |
+        \item [Students] in a class all have the same homework.
+        \item [Ellen] does not have money to build a big fast boat.
+        \item [Dr Bean] can't predict if today will be a good day.
+        \item [Steve]'s balloon went in the direction of the wind.
+    B: |
+        \item [Students] can discuss the homework with each other.
+        \item [Ellen] asks B\&Q to pay for the boat \& it does pay.
+        \item [Dr Bean] is often surprised by what the students do.
+        \item [Steve] was unable to turn off the gas. The handle froze.
+    C: |
+        \item [Students] with problems can ask others to help them.
+        \item [Ellen] B\&Q tells Ellen the race is very important.
+        \item [Dr Bean] doesn't know what the students are thinking.
+        \item [Steve]'s balloon caught fire. Luckily it was a small fire.
+    D: |
+        \item [Students] Some students give homework answers to others.
+        \item [Ellen]'s relationship with B\&Q is stressful for her.
+        \item [Dr Bean] often doesn't know what to do.
+        \item [Steve] was afraid strong winds would destroy the balloon.
  compcomp:
    0:
      identifier: adventure stress causes 0
@@ -170,6 +192,25 @@ adventure:
        \begin{description}
        \item [Control] Steve doesn't feel much control. He has accidents \& is blown by the wind, which is in control. Ellen does feel control. She has a good boat and can make it do what she wants even when the wind is against it.
         \item [Uncertainty] Steve feels a lot of uncertainty. He doesn't know if he will be able to make it all the way around the world. It depends on the wind. Ellen also is afraid. She doesn't know if the boat will sink or not.
+        \end{description}
+   1:
+     identifier: adventure stress causes 1
+     White: |+
+       \normalsize The stress students and teachers feel as a result of (CU)SP--ie Support and Pressure \\
+       \begin{description}
+       \item [Students] \hfill\\
+                \vspace{-0.8cm} \begin{description}
+                \item [Support] Students feel supported by their classmates. They will talk with each other about problems in the class. Students don't often study together, but some good students will give other students answers to the homework.
+                \item [Pressure] Students, especially high school students, feel pressure from exams and homework. Teachers and family put pressure on students to do well in school.
+                \end{description}
+        \end{description}
+     Black: |+
+       \normalsize The stress Steve Fossett and Ellen MacArthur feel as a result of (CU)SP--ie Support and Pressure \\
+       \begin{description}
+       \item [Steve] \hfill\\
+                \vspace{-0.8cm} \begin{description}
+                 \item [Support] Steve was alone in the balloon and Virgin Atlantic Flier, but he was in contact with his team on the ground, so he felt supported.
+                \end{description}
         \end{description}
 hotspot:
  jigsaw:
