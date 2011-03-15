@@ -42,25 +42,78 @@
     ... it was still a day that I'd shared with Sean. You know, he kissed me goodbye just before going to work. I could still say that was just a little while ago, that was only this morning. And, uh, looking back on all that has happened since he died and the causes I fought for and the things I've done, I just think of myself as living life for both of us now. And I like to think that Sean would be proud of me.
   - Sean|causes
 -
-  - obama
-  - Obama remembers Beverly
+  - obit
+  - Beverly's death
   - intermediate
   - A
   - |+
-    Obama: Before I begin, I want to say a brief word about the terrible tragedy that took place outside of Buffalo last night. Our thoughts and prayers are with the families and friends who lost loved ones, and as always, our thanks go out to the brave first responders who arrived immediately to try and save lives, and who are still on the scene keeping people safe.
-    Tragic events such as these remind us of the fragility of life and the value of every single day. One person who understood that well was Beverly Eckert, who was on that flight and who I met with just a few days ago. You see, Beverly lost her husband on 9/11, and became a tireless advocate for the families, those whose lives were forever changed on that September day. And in keeping with that passionate commitment, she was on her way to Buffalo to mark what would have been her husband's birthday and launch a scholarship in his memory. So she was an inspiration to me and to so many others, and I pray that her family finds peace and comfort in the hard days ahead.
+    Before I begin, I want to say a brief word about the terrible tragedy that took place outside of Buffalo last night. Our thoughts and prayers are with the families and friends who lost loved ones, and as always, our thanks go out to the brave first responders who arrived immediately to try and save lives, and who are still on the scene keeping people safe.
+    Tragic events such as these remind us of the fragility of life and the value of every single day. One person who understood that well was Beverly Eckert, who was on that flight.
+  - Buffalo|responders|fragility|Beverly Eckert
+-
+  - obit
+  - Beverly's death
+  - intermediate
+  - B
+  - |+
+    Beverly Eckert, who was on that flight and who I met with just a few days ago. You see, Beverly lost her husband on 9/11, and became a tireless advocate for the families, those whose lives were forever changed on that September day. And in keeping with that passionate commitment, she was on her way to Buffalo to mark what would have been her husband's birthday and launch a scholarship in his memory. So she was an inspiration to me and to so many others, and I pray that her family finds peace and comfort in the hard days ahead.
+  - Buffalo|advocate|passionate|Beverly Eckert
+-
+  - obit
+  - Beverly's death
+  - intermediate
+  - C
+  - |+
 
-   Newscaster: Of all the deaths in Thursday's plane crash near Buffalo, hers may stand out the most. Beverly Eckert, was a Sept. 11 widow who put her never-ending grief to good use to make the country safer, including a visit with President Barack Obama, earlier this month.
+   Newscaster: Of all the deaths in Thursday's plane crash near Buffalo, hers may stand out the most. Beverly Eckert, was a September 11 widow who put her never-ending grief to good use to make the country safer, including a visit with President Barack Obama, earlier this month.
    Obama: She was an inspiration to me and to so many others, and I pray that her family finds peace and comfort in the hard days ahead.
-
    Newscaster: Her husband was in the World Trade Center when it was hit and she was on the phone with him until his last moments.
-   She was going to Buffalo Thursday to mark what would have been his fifty-eighth birthday and launch a scholarship in his memory. Now she is the one being mourned by everyone from top officials to her Connecticut neighbors.
-
+  - Newscaster|Buffalo|Beverly Eckert|Barack|Obama
+-
+  - obit
+  - Beverly's death
+  - intermediate
+  - D
+  - |+
+   Newscaster: She was going to Buffalo Thursday to mark what would have been his fifty-eighth birthday and launch a scholarship in his memory. Now she is the one being mourned by everyone from top officials to her Connecticut neighbors.
    Clinton: Beverly became known to me, and a friend to me, and to many New Yorkers, because of her tireless advocacy for the families of the victims of 9-11.
    Annalisa: Disbelief, shock, Umm. It couldn't be happening again. You know, we were close with her husband, as well. That was just an enormous tragedy for this neighborhood.
-   Christine: Of course my reaction is, it's devastating. It's, uh, just horrible.
-   Newscaster: More recently, Eckert turned her energy to Habitat to Humanity, helping build homes for low-income families. Diane Keppling, the Associated Press.
+   Christine: Of course my reaction is, it's devastating.
+  - Newscaster|Buffalo|Connecticut|Clinton|Annalisa|Christine
+-
+  - conspiracy
+  - 9-11 conspiracy
+  - intermediate
+  - A
+  - |+
+    Bannon: A new book called, "The Truth about September 11th" claims to present evidence that the destruction of the World Trade Center was not the work of terrorists, but was in fact perpetrated by the US government. With us, the much maligned book's author, William Gerard.
 
+    Gerard: Most of the mainstream media, they're just too afraid to even have me on. So, thank you.
+    Bannon: Also joining us is Omar Al-Farouk of Al-Qaeda. He's an outspoken critic of what he calls Gerard's 9-11 conspiracy theories. 
+    Al-Farouq: Yes, Michael, I assure you that is all this book is is complete nonsense.
+    Bannon: Mr Gerard, how did you arrive at the conclusions in your book? Where are the facts?
+    Gerard: Scientific examination of Ground Zero. For example, the melted core.
+    Al-Farouq: Here we go.
+    Gerard: We have evidence that there were thermite bombs that were used in bringing down those buildings.
+    Al-Farouq: I can assure you, we did not use thermite bombs. I did the research myself. It would not have worked. We flew an enormous airplane into a building, okay? I think it is obvious what caused the building to crumble.
+    Gerard: Why are you being so close-minded to this, sir?
+    Al-Farouq: How would you like it if you spent your two months in a mountain cave, sleeping on rocks, planning something really special, only to have someone take the credit away from us. Oh, no. You don't deserve the credit.
+    Gerard: Open up your minds.
+    Bannon: Mr Gerard, Mr Gerard. Why in the world would the US government want to stage this attack on their own soil.
+    Gerard: Greed, of course. And to increase the oil revenues. the weapons industry, and security industry. And these are all things that Bush and his puppet master Chaney, they've got their stakes in.
+    Al-Farouq: Bush's administration, they're a den of jackals. We certainly have common ground there. But what does not follow is why would they kill 3,000 of their own infidels?
+    Gerard: Does not follow? Well, of course, it was all part of their plan to build a case for the war in Iraq. Think about it.
+    Al-Farouq: Why is his approval rating, you know, in El Hamam and why is Osama bin Laden safe in, somewhere.
+    Bannon: Yes, the Iraq war has done serious damage to the Bush administration.
+    Al-Farouq: Here, here. Look, look. I have names, phone numbers, everyone involved in this. okay? I have here the voucher for the lessons, for the flight lessons.
+    Gerard: You've got to be kidding. Names and phone numbers. This is obviously forged documents. Come on, did President Bush give you these himself? This is ridiculous.
+    Al-Farouq: Me and Bush. We go out. We hang.
+    ...
+    Al-Farouq: Talking to you is like talking to a goat.
+    Gerard: This is the kind of thing our government does.
+    Bannon: Let Mr Farouq of Al-Qaeda speak.
+    Al-Farouq: I have a suggestion for you. Why don't you go to the Washington Momument. Take the family. Let's say October 12, 2009, round 3 or 4. Take a guided tour to the top. And just wait there. I think that you'll see that Al-Qaeda is very good at organizing things.
+    Bannon: Gentlemen, gentlemen. Thank you.Why
 
 ---
 -
@@ -125,4 +178,60 @@
   - 8
   - D
   - She says she's proud of the life she's living and the things she has done for Sean since he died. 
+  - False
+-
+  - intermediate
+  - obit
+  - 1
+  - A
+  - He wants to thank the people who tried to save lives and to remind people of the value of Beverly's life.
+  - True
+-
+  - intermediate
+  - obit
+  - 2
+  - A
+  - Beverly lost family and friends in the flight, and his thoughts and prayers are with her.
+  - False
+-
+  - intermediate
+  - obit
+  - 3
+  - B
+  - His memory of Beverly inspires his prayers that her family be comforted.
+  - True
+-
+  - intermediate
+  - obit
+  - 4
+  - B
+  - Beverly's marking of her husband's birthday inspires his commitment to peace and scholarship.
+  - False
+-
+  - intermediate
+  - obit
+  - 5
+  - C
+  - Her death stands out. She inspired Obama and put her grief to use, making the country safer.
+  - True
+-
+  - intermediate
+  - obit
+  - 6
+  - C
+  - The president inspired her to put her grief to use in a visit with him earlier.
+  - False
+-
+  - intermediate
+  - obit
+  - 7
+  - D
+  - The neighbors were devastated by what happened to Beverly. 
+  - True
+-
+  - intermediate
+  - obit
+  - 8
+  - D
+  - Clinton couldn't have Beverly as a friend, because Beverly was close with her husband.
   - False
