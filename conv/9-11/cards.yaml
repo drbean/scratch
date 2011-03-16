@@ -54,6 +54,85 @@ eckert:
                 \item [Marvin Renslow] died on February 12, 2009, Sean Rooney's birthday, as the plane he was flying crashed on landing in Buffalo.
                 \end{description}
         \end{description}
+    2:
+      identifier: eckert 2
+      White: |+
+        \begin{normalsize} Who knew Anthony and Shawn \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Anthony] \hfill\\
+                \vspace{-0.8cm} \begin{description}
+                \item [Shawn]didn't, but Beverly told him Anthony was writing a book about her. He didn't meet Anthony when Anthony visited their home.
+                \item [Obama] didn't know about the book or Anthony.
+                \item [Neal] didn't. Beverly may have told him about him.
+                \end{description}
+        \item [Shawn] \hfill\\
+                \vspace{-0.8cm} \begin{description}
+                \item [Anthony]didn't. He found out from Neal's blog on the Internet that Beverly had a boyfriend.
+                \item [Obama] didn't know about Beverly's boyfriend.
+                \item [Neil] sailed with Shawn and Beverly on their boat.
+                \end{description}
+        \end{description}
+      Black: |+
+        \begin{normalsize} Who knew Obama and Neal \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Obama] \hfill\\
+                \vspace{-0.8cm} \begin{description}
+                \item [Shawn]didn't know Obama. He knew Beverly met him.
+                \item [Anthony]didn't know Obama. He knew Beverly met him.
+                \item [Neal]didn't know Obama. He knew Beverly met him.
+                \end{description}
+        \item [Neal] \hfill\\
+                \vspace{-0.8cm} \begin{description}
+                \item [Shawn] knew Neal well and and sailed with him.
+                \item [Anthony]didn't. He found out about Neal through Neal's blog on the Internet.
+                \item [Obama] didn't know about him.
+                \end{description}
+        \end{description}
+    3:
+      identifier: eckert 3
+      White: |+
+        \begin{normalsize} Barack Obama and Khalid Sheikh Mohammed \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Obama] \hfill\\
+                \vspace{-0.8cm} \begin{description}
+                \item [January 20, 2009] becomes 44th US president
+                \item [February 6, 2009] meets Beverly, other 9-11 people
+                \item [March, 2011] announces Guantanamo continuation
+                \end{description}
+        \item [Khalid Sheikh Mohammed] \hfill\\
+                \vspace{-0.8cm} \begin{description}
+                \item [1964, or 1965] Born
+                \item [1986] Graduates from US college
+                \item [March 1, 2003] Captured in Pakistan
+                \item [March, 2003] Tortured
+                \item [September, 2006] Taken to Guantanamo
+                \item [March, 2007] Confesses to 9-11
+                \end{description}
+        \end{description}
+      Black: |+
+        \begin{normalsize} Beverly Eckert and Neal Petersen \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Beverly Eckert] \hfill\\
+                \vspace{-0.8cm} \begin{description}
+                \item [July 4, 2005] meets Neal Petersen
+                \item [February 6, 2009] meets Obama
+                \item [February 12, 2009] dies in Buffalo plane crash
+                \end{description}
+        \item [Neal Petersen] \hfill\\
+                \vspace{-0.8cm} \begin{description}
+                \item [1967] Born
+                \item [1998-1999] Sails around world alone
+                \item [July 4, 2005] meets Beverly Eckert
+                \item [2007] sails with Beverly in Caribbean
+                \item [Novemher, 2008] Visits Guantanamo first time
+                \item [February, 2009] Returns to talk to soldiers
+                \end{description}
+        \end{description}
+
 
   jigsaw:
     0:
@@ -74,3 +153,9 @@ eckert:
       B: You are a teacher and a writer, studying Middle Eastern affairs. Beverly became well-known as a 9-11 activist. You asked her if you could write a book about her. She said OK. She told you about the meeting with Obama. She didn't tell you about Shawn and their boat.
       C: You met Beverly after 9-11. Both of you liked boats. She became your girlfriend. You moved into the home she had shared with Sean. You and she sailed a boat called Neverland. The two of you went on a trip with Neal in the boat to Bermuda. 
       D: You didn't know Beverly. You met her once at the White House, a week before she died. You asked her what the U.S. should do with terrorists. She told you that the government should close its special terrorist prison. She talked to Anthony about the meeting.
+    3:
+      identifier: eckert 3
+      A: When you met Obama in February after he became president, you asked him to close Guantanamo and put Khalid Sheik Mohammed on trial. This is what Obama said he wanted to do when he was elected. You talked with Neal's wife about meeting Obama.
+      B: The US Army asked you to go to Guantanamo to make the soldiers feel good. But you weren't allowed to meet the terrorist, Khalid Sheik Mohammed. You told the soldiers to have hope and try hard. At the same time, Beverly, your sailing friend, was meeting Obama. 
+      C: Before you became president, you said you would close Guantanamo and try Khalid Sheik Mohammed. But now you have decided not to do this. Congress does not want it. And there may not be enough evidence to show Mohammed is guilty. And he was tortured.
+      D: You studied in the US. After returning to the Middle East, you organized terrorist attacks on the US. You were caught in Pakistan in 2003 and taken to Guantanamo and tortured. In 2007, you said you organized the 9-11 attacks.
