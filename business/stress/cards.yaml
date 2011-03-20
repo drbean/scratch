@@ -174,6 +174,50 @@ adventure:
         \item [Ellen]'s relationship with B\&Q is stressful for her.
         \item [Dr Bean] often doesn't know what to do.
         \item [Steve] was afraid strong winds would destroy the balloon.
+  2:
+    identifier: adventure stress 1
+    A: |
+        \item [Students] don't know what the teacher will do in class.
+        \item [Students] don't understand what the teacher is talking about.
+        \item [Students] don't know what will be in the exam.
+        \item [Students] don't know if they will get a good grade or fail.
+    B: |
+        \item [Dr Bean] has a lot of freedom to teach the way he wants.
+        \item [Dr Bean] is not told by the school his classes are important.
+        \item [Dr Bean] doesn't feel stress as a result of the students.
+        \item [Dr Bean] can fail many students if he wants to fail them.
+    C: |
+        \item [Ellen] was busy sailing the boat herself. She did all the work.
+        \item [Ellen]'s boat was very good and Ellen was a very good sailor.
+        \item [Ellen] was able to make the boat do what she wanted.
+        \item [Ellen] was able to sail away from danger.
+    D: |
+        \item [Steve] didn't feel alone. He was busy.
+        \item [Steve]'s team was on the ground. They helped him in the air.
+        \item [Steve] was communicating with his team during the flight.
+        \item [Steve] had some problems and he asked his team about them.
+  3:
+    identifier: adventure stress 1
+    A: |
+        \item [Students] sometimes try hard but can't get a good grade.
+        \item [Students] feel stress when they can't improve their grades.
+        \item [Students] sometimes don't study, but still pass the class.
+        \item [Students] don't see the effects of their efforts to study.
+    B: |
+        \item [Dr Bean] doesn't talk to other teachers about his classes.
+        \item [Dr Bean] has to handle his problems by himself.
+        \item [Dr Bean] problems are not the same as other teachers' problems.
+        \item [Dr Bean] sometimes wants other teachers' help with problems.
+    C: |
+        \item [Ellen] didn't know if she would be safe or the fastest.
+        \item [Ellen] was afraid her boat might have an accident.
+        \item [Ellen] was afraid the wind would be too strong or too weak.
+        \item [Ellen] felt stress, not knowing what was going to happen.
+    D: |
+        \item [Steve] wanted to be the first to fly solo around world.
+        \item [Steve] had already made 5 attempts in his balloon.
+        \item [Steve] didn't use his own money to pay for his successful flight.
+        \item [Steve] felt stress because of all these things.
  compcomp:
    0:
      identifier: adventure stress causes 0
@@ -202,9 +246,9 @@ adventure:
        \item [Students] \hfill\\
                 \vspace{-0.8cm} \begin{description}
                 \item [Support] Students feel supported by their classmates. They talk with each other about problems. Good students give out answers.
-                \item [Pressure] Students feel pressure from exams and homework. Teachers and family put pressure on students.
+                \item [Pressure] Students feel pressure from exams. Teachers and family put pressure on them.
                 \end{description}
-        \vspace{-0.8cm}
+        \vspace{-0.4cm}
        \item [Teachers] \hfill\\
                 \vspace{-0.8cm} \begin{description}
                 \item [Support] Teachers act individually. They solve their own problems. Other teachers and the school do not help. This can cause stress.
