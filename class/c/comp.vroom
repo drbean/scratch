@@ -203,15 +203,20 @@ WH Question:
 + What are you called?
 
 ----
-== CompComp System
+== 2 CompComp Question Styles
 
-In normal quiz competitions, the person who answers the question
-gets the point.
+Normal, "Teaching" Style:
+In a normal quiz competition, the questioner knows the answers
+and tests the other person, who answers the question.
+The answerer gets the point if they are correct.
 
-In CompComp, the person who asks the question gets the point.
+Battleship Style:
+In Battleship style, the questioner doesn't have the answers.
+They ask the other person, who tells them whether they are
+correct or not. If the questioner is correct, they get the point.
 	
 ----
-== Rules
+== Battleship Rules
 
 1. In turn, White first.
 2. Wait 30 seconds.
@@ -224,8 +229,7 @@ In CompComp, the person who asks the question gets the point.
 	questions answered is the winner.
 8. Winners get 5 points
    Losers get 3 points.
-9. Dr Bean's bonus questions.
-10. You can't ask questions you know the answer to.
+9. You can't ask questions you know the answer to.
 
 ----
 == The card: The top part
