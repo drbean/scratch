@@ -7,7 +7,7 @@
 #
 ---- config
 # Basic config options.
-title: Vroom!
+title: Cclass!
 indent: 5
 height: 18
 width: 69
@@ -27,7 +27,7 @@ by Dr Bean
 
 (hint: press the spacebar or Backspace)
 
----- include exam.vroom
+---- include intermediate_exam.vroom
 
 ----
 == Ways of working
@@ -59,6 +59,7 @@ Each week we will:
   * 5, if you beat your partner
 
 +* Homework. Each week listen to a sound file and fill in the missing words for 2 points.
+  * http://web.nuu.edu.tw/~greg/business/stress-1A.mp3
   * http://web.nuu.edu.tw/~greg/DictationExercises
 
 +* Exams.
@@ -68,9 +69,9 @@ Each week we will:
 
 ----
 == Grade computation
-* Classwork: 70 percent
-* Homework: 15 percent
-* Exams: 15 percent
+* Classwork: 60/70 percent
+* Homework: 15/20 percent
+* Exams: 15/20 percent
 
 ----
 == Textbook
