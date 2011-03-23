@@ -1,4 +1,4 @@
-module MCWPL (Term(..), NP(..)) where 
+module MCWPL (Term(..), NP(..), DET(..), RCN, Formula(..)) where 
 
 import Data.List
 import FSynF
