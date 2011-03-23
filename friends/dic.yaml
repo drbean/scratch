@@ -372,7 +372,7 @@
     Monica: Hey, you think, you can keep it another night?
     Chandler: Santa? Really?
     Monica: Yes, is that okay?
-  - Ross|Armadillo|Ben|Monica|Chandler|turtle|Hanukkah|belly
+  - Ross|Armadillo|Ben|Monica|Chandler|Hanukkah|belly
 -
   - 7.10
   - The Holiday Armadillo
@@ -396,7 +396,7 @@
     Ben: Okay, Santa!
     Ross: All right, it's time for the story of Hanukkah. Years and years ago, there were these people called the Maccabees.
     Joey: Merry Christmas!
-  - Ross|Armadillo|Ben|Monica|Chandler|turtle|Maccabees|Joey|Maccabees
+  - Ross|Armadillo|Ben|Monica|Chandler|Hanukkah|Maccabees|Joey
 -
   - 7.1-8
   - Tag and Rachel
@@ -1094,7 +1094,7 @@
   - 7.10
   - 8
   - D
-  - Ross doesn't like Chandler because Ross is Ben's dad, but Monica, Ben's mother, is with Chandler, not Ross.
+  - Ross doesn't like Chandler because Ross is Ben's dad. And Monica, Ben's mother, is with Chandler, not Ross.
   - False
 -
   - friends
