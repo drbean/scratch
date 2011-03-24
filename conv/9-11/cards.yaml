@@ -46,7 +46,7 @@ eckert:
         \item [Births] \hfill\\
                 \vspace{-0.7cm} \begin{description}
                 \item [Sean Rooney] was born on February 12, 1951 in Buffalo, and became an executive at a big insurance broker in New York City.
-                \item [Marvin Renslow], pilot, was born in 1968 in Iowa.
+                \item [Marvin Renslow], pilot, was born in 1962 in Iowa.
                 \end{description}
         \item [Deaths] \hfill\\
                 \vspace{-0.7cm} \begin{description}
@@ -54,6 +54,15 @@ eckert:
                 \item [Marvin Renslow] died on February 12, 2009, Sean Rooney's birthday, as the plane he was flying crashed on landing in Buffalo.
                 \end{description}
         \end{description}
+      quiz:
+        - question: Question 1. Dates of Births, Deaths. Mohammed Atta was older than Marvin Renslow.
+          answer: False
+        - question: Question 2. Dates of Births, Deaths. Mohammed Atta died before Sean Rooney.
+          answer: True
+        - question: Question 3. Dates of Births, Deaths. Sean Rooney was younger than Beverly Eckert.
+          answer: False
+        - question: Question 4. Dates of Births, Deaths. Beverly Eckert died at the same time as Marvin Renslow.
+          answer: True
     2:
       identifier: eckert 2
       White: |+
@@ -90,6 +99,15 @@ eckert:
                 \item [Obama] didn't know about him.
                 \end{description}
         \end{description}
+      quiz:
+        - question: Question 5. Who knew who? Obama didn't know about Anthony.
+          answer: True
+        - question: Question 6. Who knew who? Shawn didn't know about Neal.
+          answer: False
+        - question: Question 7. Who knew who? Neal didn't know about Obama.
+          answer: False
+        - question: Question 8. Who knew who? Anthony didn't know about Shawn.
+          answer: True
     3:
       identifier: eckert 3
       White: |+
@@ -118,7 +136,7 @@ eckert:
         \begin{description}
         \item [Beverly Eckert] \hfill\\
                 \vspace{-0.8cm} \begin{description}
-                \item [July 4, 2005] meets Neal Petersen
+                \item [July 4 weekend, 2005] meets Neal Petersen
                 \item [February 6, 2009] meets Obama
                 \item [February 12, 2009] dies in Buffalo plane crash
                 \end{description}
@@ -126,12 +144,21 @@ eckert:
                 \vspace{-0.8cm} \begin{description}
                 \item [1967] Born
                 \item [1998-1999] Sails around world alone
-                \item [July 4, 2005] meets Beverly Eckert
+                \item [July 4 weekend, 2005] meets Beverly Eckert
                 \item [2007] sails with Beverly in Caribbean
                 \item [Novemher, 2008] Visits Guantanamo first time
                 \item [February, 2009] Returns to talk to soldiers
                 \end{description}
         \end{description}
+      quiz:
+        - question: Question 9.  Timeline. Neal visits Guantanamo before Obama becomes president.
+          answer: True
+        - question: Question 10. Timeline. Mohammed is captured after 9-11.
+          answer: True
+        - question: Question 11. Timeline. Neal meets Beverly after Mohammed is taken to Guantanamo.
+          answer: False
+        - question: Question 12. Timeline. Beverly meets Obama before Obama becomes president.
+          answer: False
 
 
   jigsaw:
@@ -141,12 +168,71 @@ eckert:
       B: You were the pilot of the aircraft on which Beverly died. The wings stopped lifting the aircraft as it neared the ground, but instead of pointing the plane down further to gain speed, you tried to point the plane up.
       C: After your husband, Sean died, you devoted your life to promoting the goals of the families of the people who died in the 9-11 attacks. You wanted the U.S. government to do more. But you died in the plane piloted by Arthur.
       D: You attacked the World Trade Center, because you hated the U.S. You didn't know Beverly and her husband, but you thought their deaths were justified. Anyway, you and all of the others are dead now.
+      quiz:
+        - question: A:
+          option:
+            - Beverly
+            - Marvin
+            - Mohamed
+            - Sean
+          answer:
+        - question: B:
+          option:
+            - Beverly
+            - Marvin
+            - Mohamed
+            - Sean
+          answer:
+        - question: C:
+          option:
+            - Beverly
+            - Marvin
+            - Mohamed
+            - Sean
+          answer:
+        - question: D:
+          option:
+            - Beverly
+            - Marvin
+            - Mohamed
+            - Sean
+          answer:
     1:
       identifier: eckert 1
       A: Two weeks after taking office, you talked with Beverly and 20-30 people about what to do with terrorism suspects. One week later, she died. After she died, you told everybody that she was an inspiration to you.
       B: You talked with your friend and neighbor and her boyfriend, Shawn before she flew to Buffalo to remember her husband. She told you she had talked with Barack Obama about terrorism suspects. She wanted Obama to put them on trial.
       C: You met your girlfriend on a trip to Block Island, near Martha's Vineyard. She loved her husband very much, but she started a relationship with you two or three years after he died. You were living at her home when she died.
       D: You flew to your hometown to remember your husband who died in the 9-11 attacks. You left your boyfriend at home. Before returning to Buffalo you talked to your friend and neighbor, Annalisa.
+      quiz:
+        - question: A:
+          option:
+            - Beverly
+            - Neal
+            - Obama
+            - Shawn
+          answer:
+        - question: B:
+          option:
+            - Beverly
+            - Neal
+            - Obama
+            - Shawn
+          answer:
+        - question: C:
+          option:
+            - Beverly
+            - Neal
+            - Obama
+            - Shawn
+          answer:
+        - question: D:
+          option:
+            - Beverly
+            - Neal
+            - Obama
+            - Shawn
+          answer:
+ 
     2:
       identifier: eckert 2
       A: You sailed around the world, but now only take short trips in boats. You met Beverly and Shawn in their boat. You were thinking of buying a boat like their boat. You found out Beverly had lost her husband, Sean in the 9-11 attacks after 5 hours with her.
@@ -159,3 +245,38 @@ eckert:
       B: The US Army asked you to go to Guantanamo to make the soldiers feel good. But you weren't allowed to meet the terrorist, Khalid Sheik Mohammed. You told the soldiers to have hope and try hard. At the same time, Beverly, your sailing friend, was meeting Obama. 
       C: Before you became president, you said you would close Guantanamo and try Khalid Sheik Mohammed. But now you have decided not to do this. Congress does not want it. And there may not be enough evidence to show Mohammed is guilty. And he was tortured.
       D: You studied in the US. After returning to the Middle East, you organized terrorist attacks on the US. You were caught in Pakistan in 2003 and taken to Guantanamo and tortured. In 2007, you said you organized the 9-11 attacks.
+    31:
+      identifier: eckert 31
+      A: You met Obama in February after he became president. You asked him to close Guantanamo and put Mohammed on trial. Obama told you he wanted to do this. You talked with Neal's wife about meeting Obama.
+      B: You went to Guantanamo to make the soldiers feel good. But you didn't meet the terrorist, Mohammed. You told the soldiers to have hope and try hard. Beverly died as you flew home from Guantanamo.
+      C: Before you became president, you said you would close Guantanamo and try Mohammed. Now you will not do this. Many people do not want it. It may be difficult to show Mohammed is guilty.
+      D: You were born in the Middle East, but studied in the US. After returning home, you organized terrorist attacks on the US. You were caught in 2003 and taken to Guantanamo. You are still there.
+      quiz:
+        - question: A:
+          option:
+            - Beverly
+            - Neal
+            - Obama
+            - Mohammed
+          answer:
+        - question: B:
+          option:
+            - Beverly
+            - Neal
+            - Obama
+            - Mohammed
+          answer:
+        - question: C:
+          option:
+            - Beverly
+            - Neal
+            - Obama
+            - Mohammed
+          answer:
+        - question: D:
+          option:
+            - Beverly
+            - Neal
+            - Obama
+            - Mohammed
+          answer:
