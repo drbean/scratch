@@ -89,14 +89,15 @@
     Bannon: A new book called, "The Truth about September 11th" claims to present evidence that the destruction of the World Trade Center was not the work of terrorists, but was in fact perpetrated by the US government. With us, the much maligned book's author, William Gerard.
 
     Gerard: Most of the mainstream media, they're just too afraid to even have me on. So, thank you.
-    Bannon: Also joining us is Omar Al-Farouk of Al-Qaeda. He's an outspoken critic of what he calls Gerard's 9-11 conspiracy theories. 
+    Bannon: Also joining us is Omar Al-Farouq of Al-Qaeda. He's an outspoken critic of what he calls Gerard's 9-11 conspiracy theories. 
     Al-Farouq: Yes, Michael, I assure you that is all this book is is complete nonsense.
     Bannon: Mr Gerard, how did you arrive at the conclusions in your book? Where are the facts?
+  - Bannon|Gerard|Al-Farouq|perpetrated|maligned|Omar|Michael
 -
   - conspiracy
   - 9-11 conspiracy
   - intermediate
-  - A
+  - B
   - |+
     Bannon: Mr Gerard, how did you arrive at the conclusions in your book? Where are the facts?
     Gerard: Scientific examination of Ground Zero. For example, the melted core.
@@ -105,22 +106,24 @@
     Al-Farouq: I can assure you, we did not use thermite bombs. I did the research myself. It would not have worked. We flew an enormous airplane into a building, okay? I think it is obvious what caused the building to crumble.
     Gerard: Why are you being so close-minded to this, sir?
     Al-Farouq: How would you like it if you spent your two months in a mountain cave ..
+  - Bannon|Gerard|Al-Farouq|Ground Zero|thermite|mountain cave
 -
   - conspiracy
   - 9-11 conspiracy
   - intermediate
-  - A
+  - C
   - |+
     Al-Farouq: .. two months in a mountain cave, sleeping on rocks, planning something really special, only to have someone take the credit away from us. Oh, no. You don't deserve the credit.
     Gerard: Open up your minds.
     Bannon: Mr Gerard, Mr Gerard. Why in the world would the US government want to stage this attack on their own soil.
     Gerard: Greed, of course. And to increase the oil revenues. the weapons industry, and security industry. And these are all things that Bush and his puppet master Chaney, they've got their stakes in.
     Al-Farouq: Bush's administration, they're a den of jackals. We certainly have common ground there. But what does not follow is why would they kill ...
+  - Bannon|Gerard|Al-Farouq|cave|Greed|puppet master|den|jackals
 -
   - conspiracy
   - 9-11 conspiracy
   - intermediate
-  - A
+  - D
   - |+
     Al-Farouq: ... 3,000 of their own infidels?
     Gerard: Does not follow? Well, of course, it was all part of their plan to build a case for the war in Iraq. Think about it.
@@ -128,6 +131,7 @@
     Bannon: Yes, the Iraq war has done serious damage to the Bush administration.
     Al-Farouq: Here, here. Look, look. I have names, phone numbers, everyone involved in this. okay? I have here the voucher for the lessons, for the flight lessons.
     Gerard: You've got to be kidding. Names and phone numbers. This is obviously forged documents. Come on, did President Bush give you these himself? This is ridiculous.
+  - Bannon|Gerard|Al-Farouq|infidels|El Haman|Osama bin|voucher
 
 ---
 -
@@ -248,4 +252,60 @@
   - 8
   - D
   - Clinton couldn't have Beverly as a friend, because Beverly was close with her husband.
+  - False
+-
+  - intermediate
+  - conspiracy
+  - 1
+  - A
+  - The book author claims a government conspiracy was critical in destruction of the World Trade Center.
+  - True
+-
+  - intermediate
+  - conspiracy
+  - 2
+  - A
+  - The book's author claims an Al-Qaeda conspiracy was critical in destruction of the World Trade Center.
+  - False
+-
+  - intermediate
+  - conspiracy
+  - 3
+  - B
+  - Mr Gerard thinks there is evidence the buildings were bombed and no airplane flew into them.
+  - True
+-
+  - intermediate
+  - conspiracy
+  - 4
+  - B
+  - Mr al-Farouq assures us al-Qaeda used bombs to bring down the buildings, An airplane would not have worked.
+  - False
+-
+  - intermediate
+  - conspiracy
+  - 5
+  - C
+  - For Mr Gerard, the Bush government master minded the attacks on their own soil because of greed.
+  - True
+-
+  - intermediate
+  - conspiracy
+  - 6
+  - C
+  - Mr Al-Farouq wants the Bush government, not al-Qaeda, to take credit for the attacks.
+  - False
+-
+  - intermediate
+  - conspiracy
+  - 7
+  - D
+  - Al-Farouq thinks the documents build a case for Osama bin Laden's involvement.
+  - True
+-
+  - intermediate
+  - conspiracy
+  - 8
+  - D
+  - Gerard thinks the names and phone numbers document bin Laden's involvement in the war.
   - False
