@@ -146,6 +146,41 @@
 
     Hence, the 'C' stands for Control. The 'U' for Uncertainty, the 'S' for Support, and the 'P' for Pressure.
   - facilitated|impacting|CUSP
+-
+  - cusp2
+  - CUSP reduction of stress
+  - business
+  - A
+  - |+
+    Enabling control is not about abdicating managerial responsibility. What it is about is encouraging people to take responsibility for their own day-to-day performance. Through for example, effective delegation, applying flexibility, encouraging assertive communication, and consultation within workload.
+  - abdicating|delegation|assertive|consultation
+-
+  - cusp2
+  - CUSP reduction of stress
+  - business
+  - B
+  - |+
+    The key to reducing uncertainty is timely and effective face-to-face communication. With some other elements to also consider. For example, management and team openness and management approachability. As managers, you are in a unique position to provide both social and practical support to your staff.
+  - approachability
+-
+  - cusp2
+  - CUSP reduction of stress
+  - business
+  - C
+  - |+
+    Directly, the message is to always make time for one-to-ones with your staff. Team meetings, listening carefully to comments and difficulties, and always allowing two-way communication. This is your team. You know them best.  You are the best-placed to prevent stress risk ...
+  - one-to-ones
+-
+  - cusp2
+  - CUSP reduction of stress
+  - business
+  - D
+  - |+
+    ... and also to pick up problems as they occur. 
+    And the CUSP in these latter situations allows a manager to look at practical options in a very structured way for placement within a consulted and agreed action plan.
+    Good luck.
+  - latter|options
+
 ---
 -
   - genre
@@ -489,4 +524,60 @@
   - 8
   - D
   - Uncertainty and pressure in the situation reduce the level of stress. Support risks reducing the will.
+  - False
+-
+  - business
+  - cusp2
+  - 1
+  - A
+  - Enabling control encourages people to perform responsibly.
+  - True
+-
+  - business
+  - cusp2
+  - 2
+  - A
+  - People encouraged to take control abdicate responsibility.
+  - False
+-
+  - business
+  - cusp2
+  - 3
+  - B
+  - Approachable managers reduce uncertainty.
+  - True
+-
+  - business
+  - cusp2
+  - 4
+  - B
+  - Time is key to the effect of communication on uncertainty.
+  - False
+-
+  - business
+  - cusp2
+  - 5
+  - C
+  - Difficulties communicating directly make for stress risk.
+  - True
+-
+  - business
+  - cusp2
+  - 6
+  - C
+  - Listening carefully to team meetings is stressful.
+  - False
+-
+  - business
+  - cusp2
+  - 7
+  - D
+  - CUSP structures the problem in a way that allows practical action.
+  - True
+-
+  - business
+  - cusp2
+  - 8
+  - D
+  - Managers pick problems for placement within action plans.
   - False
