@@ -128,6 +128,19 @@ stress:
         \item [Support] D doesn't think the manager is helpful.
         \item [Pressure] C feels pressure from the environment. D feels the boss is critical and won't listen. That's pressure.
         \end{description}
+     quiz      :
+       - question: Question 1. A, B, C, D stress causes: A, B, C, and D all agree lack of control is causing them stress.
+         answer  : False
+       - question: Question 2. A, B, C, D stress causes: A and D are feeling stress because of uncertainty.
+         answer  : True
+       - question: Question 3. A, B, C, D stress causes: A, B, C, and D all agree lack of support is causing them stress.
+         answer  : False
+       - question: Question 4a. A, B, C, D stress causes: A, B, C, and D all agree they are under pressure and this is causing them stress.
+         answer  : True
+       - question: Question 4b. A, B, C, D stress causes: In general, Lack of control is not a big problem for A, B, C, and D.
+         answer  : True
+       - question: Question 4c. A, B, C, D stress causes: A, B, C, and D all have the same Control, Uncertainy, Support, Pressure problems.
+         answer  : False
 adventure:
  jigsaw:
   0:
@@ -218,6 +231,123 @@ adventure:
         \item [Steve] had already made 5 attempts in his balloon.
         \item [Steve] didn't use his own money to pay for his successful flight.
         \item [Steve] felt stress because of all these things.
+  4:
+    identifier: adventure stress 4
+    A: |
+        \item [Students] sometimes try hard but can't get a good grade.
+        \item [Dr Bean] can't predict if today will be a good day.
+        \item [Ellen] is alone on the boat.
+        \item [Steve] wanted to be the first to fly solo around world.
+    B: |
+        \item [Students] feel stress when they can't improve their grades.
+        \item [Dr Bean] is often surprised by what the students do.
+        \item [Ellen] There is a team which she can contact by radio.
+        \item [Steve] had already made 5 attempts in his balloon.
+    C: |
+        \item [Students] sometimes don't study, but still pass the class.
+        \item [Dr Bean] doesn't know what the students are thinking.
+        \item [Ellen] It is difficult for the team to understand the problems.
+        \item [Steve] didn't use his own money to pay for his successful flight.
+    D: |
+        \item [Students] don't see the effects of their efforts to study.
+        \item [Dr Bean] often doesn't know what to do.
+        \item [Ellen] has many problems on the boat, which she has to solve herself.
+        \item [Steve] felt stress because of all these things.
+    quiz:
+      - question: The students' issue:
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: 
+      - question: Dr Bean's issue:
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: 
+      - question: Ellen's issue:
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: 
+      - question: Steve's issue:
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: 
+  5:
+    identifier: adventure stress 5
+    A: |
+        \item [Students] The teacher gives lots of difficult homework.
+        \item [Dr Bean] tries to teach the students English.
+        \item [Ellen] didn't know if she would be safe or the fastest.
+        \item [Steve] didn't feel lonely. He was busy.
+    B: |
+        \item [Students] If you don't do the homework, you fail the class.
+        \item [Dr Bean] can make the students sit down and be quiet.
+        \item [Ellen] was afraid her boat might have an accident.
+        \item [Steve]'s team was on the ground. They helped him in the air.
+    C: |
+        \item [Students] The teacher tells the students the homework is very important.
+        \item [Dr Bean] often can't make the students speak English.
+        \item [Ellen] was afraid the wind would be too strong or too weak.
+        \item [Steve] was communicating with his team during the flight.
+    D: |
+        \item [Students] The students don't like to do the homework.
+        \item [Dr Bean] has no control over what the students say, think and learn.
+        \item [Ellen] felt stress, not knowing what was going to happen.
+        \item [Steve] had some problems and he asked his team about them.
+  6:
+    identifier: adventure stress 6
+    A: |
+        \item [Students] in a class all have the same homework.
+        \item [Dr Bean] has a lot of freedom to teach the way he wants.
+        \item [Ellen] was busy sailing the boat herself. She did all the work.
+        \item [Steve] didn't know if it was possible to fly round the world.
+    B: |
+        \item [Students] can discuss the homework with each other.
+        \item [Dr Bean] is not told by the school his classes are important.
+        \item [Ellen]'s boat was very good and Ellen was a very good sailor.
+        \item [Steve] made six attempts to fly around the world in a balloon.
+    C: |
+        \item [Students] with problems can ask others to help them.
+        \item [Dr Bean] doesn't feel stress as a result of the students.
+        \item [Ellen] was able to make the boat do what she wanted.
+        \item [Steve] didn't know if he could succeed on the sixth attempt.
+    D: |
+        \item [Students] Some students give homework answers to others.
+        \item [Dr Bean] can fail as many students as he wants to fail.
+        \item [Ellen] was able to sail away from danger.
+        \item [Steve] felt stress. He didn't know if the weather would be good.
+  7:
+    identifier: adventure stress 7
+    A: |
+        \item [Students] don't know what the teacher will do in class.
+        \item [Dr Bean] doesn't talk to other teachers about his classes.
+        \item [Ellen] does not have money to build a big fast boat.
+        \item [Steve]'s balloon went in the direction of the wind.
+    B: |
+        \item [Students] don't understand what the teacher is talking about.
+        \item [Dr Bean] has to handle his problems by himself.
+        \item [Ellen] asks B\&Q to pay for the boat \& it does pay.
+        \item [Steve] was unable to turn off the gas. The handle froze.
+    C: |
+        \item [Students] don't know what will be in the exam.
+        \item [Dr Bean] problems are not the same as other teachers' problems.
+        \item [Ellen] B\&Q tells Ellen the race is very important.
+        \item [Steve]'s balloon caught fire. Luckily it was a small fire.
+    D: |
+        \item [Students] don't know if they will get a good grade or fail.
+        \item [Dr Bean] sometimes wants other teachers' help with problems.
+        \item [Ellen]'s relationship with B\&Q is stressful for her.
+        \item [Steve] was afraid strong winds would destroy the balloon.
  compcomp:
    0:
      identifier: adventure stress causes 0
@@ -237,6 +367,19 @@ adventure:
        \item [Control] Steve doesn't feel much control. He has accidents \& is blown by the wind, which is in control. Ellen does feel control. She has a good boat and can make it do what she wants even when the wind is against it.
         \item [Uncertainty] Steve feels a lot of uncertainty. He doesn't know if he will be able to make it all the way around the world. It depends on the wind. Ellen also is afraid. She doesn't know if the boat will sink or not.
         \end{description}
+     quiz      :
+       - question: Question 5. Control and uncertainty in the classroom and in sports: Of the 4 people, only Ellen feels like she has control.
+         answer  : True
+       - question: Question 6. Control and uncertainty in the classroom and in sports: Of the 4 people, all except teachers feel a lot of uncertainty about what is happening.
+         answer  : True
+       - question: Question 7. Control and uncertainty in the classroom and in sports: All of the 4 people feel a lot of stress because of uncertainty.
+         answer  : False
+       - question: Question 8a. Control and uncertainty in the classroom and in sports: All of the 4 people feel stress because of lack of control.
+         answer  : False
+       - question: Question 8b. Control and uncertainty in the classroom and in sports: All of the 4 people have different Control and Uncertainty problems.
+         answer  : True
+       - question: Question 8c. Control and uncertainty in the classroom and in sports: Teachers and Ellen have the most similar Control and Uncertainty problems.
+         answer  : False
    1:
      identifier: adventure stress causes 1
      White: |+
@@ -270,6 +413,19 @@ adventure:
                 \item [Pressure] The record of fastest solo circumnavigation put pressure on Ellen. She wanted to beat the record.
                 \end{description}
         \end{description}
+     quiz      :
+       - question: Question 9. Support and pressure in the classroom and in sports: Students have support, but Steve didn't have support.
+         answer  : False
+       - question: Question 10. Support and pressure in the classroom and in sports: Teachers don't have pressure, but Ellen did have pressure.
+         answer  : True
+       - question: Question 11. Support and pressure in the classroom and in sports: All of the 4 people feel a lot of stress because of pressure.
+         answer  : False
+       - question: Question 12a. Support and pressure in the classroom and in sports: One of the 4 people might feel stress because of lack of support.
+         answer  : True
+       - question: Question 12b. Support and pressure in the classroom and in sports: Teachers' Support and Pressure problems are different than the other three's Support and Pressure problems.
+         answer  : True
+       - question: Question 12c. Support and pressure in the classroom and in sports: All of the 4 people feel stress because of lack of support and pressure.
+         answer  : False
 hotspot:
  jigsaw:
   1:
