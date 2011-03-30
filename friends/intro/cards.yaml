@@ -63,3 +63,15 @@ category:
         Chandler, Joey and Phoebe are just good friends. Joey and Phoebe have a special relationship not shared with the others, but they are not boyfriend and girlfriend.
         \item [Job] Chandler works with statistics. He is a manager in an office. Phoebe is a masseuse. She works in a spa, giving body massages. Joey is an actor.
         \end{description}
+      quiz:
+        - question: Question 1. Gender. The number of men and the number of women is equal.
+          answer: True
+        - question: Question 2. Marital status. Only one of the friends has been married before.
+          answer: True
+        - question: Question 3. Relationships. All of the friends are in romantic relationships with each other.
+          answer: False
+        - question: Question 4a. Job. Ross and Chandler don't have jobs requiring a college degree.
+          answer: False
+        - question: Question 4b. Relationships. Ross's best friend, Chandler is his sister's boyfriend.
+          answer: True
+        - question: Question 4c. Marital status. Chandler will later marry Monica.
