@@ -1,0 +1,100 @@
+genre: friends
+category:
+  compcomp:
+    0:
+      identifier: categories
+      White: |+
+        \begin{normalsize}Something about Ross, Rachel and Monica \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Gender] Ross is male and Rachel and Monica are women.
+        \item [Marital Status] Ross has been married twice before and is divorced. Now, he may or may not be married to Rachel. Rachel had been involved with someone else, but didn't marry him. Monica is not married.
+        \item [Relationships] Ross and Rachel are an on-again-off-again couple. Ross and Monica are brother and sister. Monica and Rachel are best friends.
+        \item [Job] Ross is a professor studying dinosaurs. Rachel has had a number of jobs. Now she has a good job, working in a fashion company. Monica is a chef.
+        \end{description}
+      Black: |+
+        \begin{normalsize}Something about Chandler, Phoebe and Joey \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Gender] Chandler and Joey are men and Phoebe is female.
+        \item [Marital Status] None of Chandler, Joey and Phoebe are married, now. Later, Chandler will get married to Monica, and Phoebe will marry someone else.
+        \item [Relationships] Chandler is Monica's boyfriend.
+        Chandler, Joey and Phoebe are just good friends. Joey and Phoebe have a special relationship not shared with the others, but they are not boyfriend and girlfriend.
+        \item [Job] Chandler works with statistics. He is a manager in an office. Phoebe is a masseuse. She works in a spa, giving body massages. Joey is an actor.
+        \end{description}
+      quiz:
+        - question: Question 1. Gender. The number of men and the number of women is equal.
+          answer: True
+        - question: Question 2. Marital status. Only one of the friends has been married before.
+          answer: True
+        - question: Question 3. Relationships. All of the friends are in romantic relationships with each other.
+          answer: False
+        - question: Question 4a. Job. Ross and Chandler don't have jobs requiring a college degree.
+          answer: False
+        - question: Question 4b. Relationships. Ross's best friend, Chandler is his sister's boyfriend.
+          answer: True
+        - question: Question 4c. Marital status. Chandler will later marry Monica.
+18-25:
+  compcomp:
+    1:
+      identifier: season 6, part 3
+      White: |+
+        \begin{normalsize}Chandler proposes\end{normalsize}\\
+        \normalsize
+        Chandler's story
+        \begin{description}
+        \item [Background] Chandler tells Monica he isn't ready for marriage. But secretly Chandler has decided to ask Monica to marry him.
+        \item [Actions] He intends to propose at a restaurant. Then Richard appears. When he tries to find Monica again later, he can't. He goes to see Richard. Richard tells him he also loves Monica. Chandler thinks he has lost Monica.
+        \item [Conclusion] Chandler returns to the apartment and proposes.
+        \end{description}
+      Black: |+
+        \begin{normalsize}Monica's reply\end{normalsize}\\
+        \normalsize
+        Monica's story
+        \begin{description}
+        \item [Background] Monica wants to get married to Chandler and books a marriage hall.
+        \item [Actions] Monica and Chandler meet Monica's old boyfriend, Richard. Monica is getting weary of Chandler's reluctance to marry and goes to see Richard. Richard asks her to marry him. After leaving Richard, she disappears.
+        \item [Conclusion] Monica says, 'Yes.'
+        \end{description}
+      quiz:
+        - question: Chandler is ready for marriage, but Monica isn't.
+          answer: False
+        - question: Richard's appearance at the restaurant prevents Chandler from proposing to Monica.
+          answer: True
+        - question: Richard doesn't want to marry Monica now.
+          answer: False
+        - question: After Monica talks to Richard, Monica is unhappy and after Chandler talks to Richard, Chandler is unhappy.
+          answer: True
+        - question: Chandler doesn't expect to find Monica in the apartment.
+          answer: True
+        - question: Monica accepts Richard's rather than Chandler's proposal of marriage.
+          answer: False
+    2:
+      identifier: Who's related to who?
+      White: |+
+        \begin{normalsize} The relationships of Paul, Elizabeth and Monica \end{normalsize}
+        \begin{description}
+        \item [Paul] is Elizabeth's father and Rachel's boyfriend. As a result he is the boyfriend of Ross's wife.
+        \item [Elizabeth] is Paul's daughter and Ross's student. Ross and Elizabeth are also involved in a romantic/sexual relationship.
+        \item [Monica] is Chandler's boyfriend and Ross's sister. Richard is her old boyfriend.
+        \end{description}
+      Black: |+
+        \begin{normalsize} The relationships of Rachel, Richard and Ross \end{normalsize}
+        \begin{description}
+        \item [Rachel] is Ross's wife, and Paul's girlfriend.
+        \item [Richard] is Monica's old boyfriend.
+        \item [Ross] is Rachel's husband and Elizabeth's teacher. But he is also seeing Elizabeth outside class. Paul, Elizabeth's father wants to end Ross's relationship with his daughter. So, Paul is both the father of Ross's girlfriend and the boyfriend of Ross's wife.
+        \end{description}
+      quiz:
+        - question: Question 9. Relationships. Ross and Rachel have a good marriage and they are faithful to each other.
+          answer: False
+        - question: Question 10. Relationships. Paul is Elizabeth's father and Rachel's boyfriend.
+          answer: True
+        - question: Question 11. Relationships. Ross is dating Paul's daughter. And Paul is dating Ross's wife.
+          answer: True
+        - question: Question 12a. Relationships. Monica is Chandler's sister and Ross's boyfriend.
+          answer: False
+        - question: Question 12b. Relationships. Richard is Monica's old boyfriend.
+          answer: True
+        - question: Question 12c. Relationships. Richard is Monica's brother and Elizabeth's teacher.
+          answer: False
