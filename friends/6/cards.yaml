@@ -52,6 +52,19 @@ genre: friends
         \item [Rachel] is living with Monica, but she moves out and moves in with Ross.
         \item [Joey] is living with a woman called Janine, but they do not have a relationship.
         \end{description}
+      quiz:
+        - question: Question 5. Living arrangements. When Chandler moves in with Monica, there are 3 people, Chandler, Monica and Rachel all living in the same apartment.
+          answer: False
+        - question: Question 6. Living arrangements. When Chandler moves out of the apartment with Joey, Joey finds a woman called Janine to share the apartment with him.
+          answer: True
+        - question: Question 7. Living arrangements. When Rachel leaves the apartment she shares with Monica, Phoebe offers her a room in her apartment.
+          answer: True
+        - question: Question 8a. Living arrangements. Chandler was living with Ross, before he moved in with Monica.
+          answer: False
+        - question: Question 8b. Living arrangements. Ross was living by himself, before Rachel moved in.
+          answer: True
+        - question: Question 8c. Living arrangements. Phoebe was living with Joey. But Joey left, and Rachel moved in.
+          answer: True
   jigsaw:
     1:
       identifier: season 6, part 1
@@ -96,9 +109,9 @@ genre: friends
           answer  : True
         - question: Monica wants Ross to move in.
           answer  : False
-        - question: Joey wants to flirt with his roommate.
+        - question: Joey's roommate, a woman, is a problem.
           answer  : True
-        - question: Joey old roommate was Chandler.
+        - question: Joey's old roommate was Chandler.
           answer  : True
 18-25:
   compcomp:
@@ -151,6 +164,19 @@ genre: friends
         \item [Richard] is Monica's old boyfriend.
         \item [Ross] is Rachel's husband and Elizabeth's teacher. But he is also seeing Elizabeth outside class. Paul, Elizabeth's father wants to end Ross's relationship with his daughter. So, Paul is both the father of Ross's girlfriend and the boyfriend of Ross's wife.
         \end{description}
+      quiz:
+        - question: Question 9. Relationships. Ross and Rachel have a good marriage and they are faithful to each other.
+          answer: False
+        - question: Question 10. Relationships. Paul is Elizabeth's father and Rachel's boyfriend.
+          answer: True
+        - question: Question 11. Relationships. Ross is dating Paul's daughter. And Paul is dating Ross's wife.
+          answer: True
+        - question: Question 12a. Relationships. Monica is Chandler's sister and Ross's boyfriend.
+          answer: False
+        - question: Question 12b. Relationships. Richard is Monica's old boyfriend.
+          answer: True
+        - question: Question 12c. Relationships. Richard is Monica's brother and Elizabeth's teacher.
+          answer: False
   jigsaw:
     1:
       identifier: season 6, part 3
@@ -189,13 +215,13 @@ genre: friends
           answer: Paul
         - question: Paul is a professor.
           answer  : False
-        - question: Elizabeth is Ross's student.
-          answer  : True
+        - question: Elizabeth is Ross's daughter.
+          answer  : False
         - question: Paul and Rachel are dating.
           answer  : True
-        - question: Elizabeth's father wants Ross to stop.
+        - question: Paul wants Elizabeth to date Ross.
+          answer  : False
+        - question: Ross wants Rachel to date Paul.
           answer  : True
-        - question: Ross wants his wife to date Paul.
-          answer  : True
-        - question: Ross is immature.
+        - question: Elizabeth stops dating Ross.
           answer  : True
