@@ -7,7 +7,7 @@
 #
 ---- config
 # Basic config options.
-title: Vroom!
+title: Marketing!
 indent: 5
 height: 18
 width: 50
@@ -128,14 +128,11 @@ If Dr Bean remembers hearing the question before, 1 point.
 about bananas (Product)
 
 Dr Bean: White. Go. (Waits up to 10 seconds)
-Black (Researcher): Will Dr Bean be happy with ordinary quality 
+White (Researcher): Will Dr Bean be happy with ordinary quality 
 bananas? (2 points)
-White (Dr Bean): Yes (2 points)
+Black (Dr Bean): Yes (2 points)
 
-Then Dr Bean asks:
-
-White (Dr Bean): Are the bananas good quality? (2 points)
-Black (Merchant): They're ordinary quality. (2 points)
+Then Black is the researcher and White is Dr Bean.
 
 ----
 == Market researcher's questions about Dr Bean's feelings
@@ -143,12 +140,11 @@ about bananas. (Price)
 
 Dr Bean: White. Go. (Waits up to 10 seconds)
 
-Black (Researcher): How much is Dr Bean prepared to pay?
+White (Researcher): How much is Dr Bean prepared to pay?
 (2 points)
-White (Dr Bean): 15 NT per kilogram (2 points)
+Black (Dr Bean): 15 NT per kilogram (2 points)
 
-White (Dr Bean): How much are the bananas? (2 points)
-Black (Merchant): They're 20 NT per kilogram. (2 points)
+Then Black is the researcher and White is Dr Bean.
 
 ----
 == Market researcher questions
