@@ -187,6 +187,7 @@ biodad:
       - question: Nick loved Jock.
         answer: False
 biomom:
+  jigsaw:
   1:
     identifier: biomom 1
     A: You got drunk at a party and you went to bed with someone there. You regret this, but you are now pregnant. You don't want to have an abortion, but you don't think you can bring the child up alone.
@@ -289,48 +290,50 @@ biomom:
     B: Your biological mom is Sue, but she gave you up for adoption. You were brought up by your parents, Don and Devonna. You love them. You want to find out about the woman who gave you birth.
     C: You adopted Deborah when she was one month old, You love her very much and she loves you too. You told her she was adopted when she was 5. She is a happy person. You are proud of her.
     D: You are Deborah's father. When she was in her early twenties, she asked if you could help her contact her birth mother. You gave her all the papers that the adoption agency had given you twenty years ago.
-    White: |+
-      \begin{normalsize}How birth mothers talk about adoption\end{normalsize}
-      \normalsize
-      \begin{description}
-      \item [Timing] Woman are not ready to talk about the adoption when they want to talk about it, or when circumstances force them to talk.
-      \item [Circumstances] Every woman has a different story to tell. The circumstances of every adoption are different. And women tell their stories to different people. They know some of these people well, because they are friends and family. Others they don't know well. And every one of their listeners has different ideas about adoption. Some people don't approve of what they did. 
-      \item [Considerations]
-      \indent What words does the woman use: 'relinquished my child for adoption,' 'placed my child for adoption,' 'gave up my child,' or 'share my child with another family?'\\
-      \indent With what expression does she speak? A sad expression? Or a smile?\\
-      \indent Does she say if she is in contact with her child? Does she say what she thinks about that?\\
-      \indent Does she want to change her listeners' ideas about adoption?\\
-      \indent How much of her story does she tell?\\
-      \end{description}
-    Black: |+
-      \begin{normalsize}Terri Rimmer's story\end{normalsize}
-      \normalsize
-      \begin{description}
-      \item [Diary] Terri kept a diary for 6 months after the adoption of her daughter. Unlike Deborah's parents, the parents who adopted Terri's child sent Terri emails and pictures in the new 'open' style of adoption.
-      \item [Relationships] Terri talks to a lot of women who gave their children up for adoption. This makes her feel better. However, she also feels depressed and sometimes cries.
-      \item [Telling others] She sends her diary to friends and asks what they think. She wants to show pictures of her daughter to her family but they don't want to look at them.
-      \item [TV] She appears on TV to talk about giving up her baby. Then she gets more baby pictures and she feels guilty and lost. Some people are rude and mean to her.
-      \item [Events] She feels new and alive when her dog won't let her stop playing. She feels her daughter is lucky. Then she meets her daughter and adoptive parents. She is happy and then sad. 
-      \item [The end] She is ashamed of herself but not ashamed of the adoption.
-      \end{description}
-    quiz:
-      - question: Terri Rimmer's story is different than Sue Adam's.
-        answer: True
-      - question: Birth mothers find it difficult to tell their stories.
-        answer: True
-      - question: The parents who adopted Terri's girl didn't maintain contact.
-        answer: False
-      - question: Sue Adam may not have told as many people as Terri did.
-        answer: True
-      - question: Women will feel bad if people they speak to don't approve.
-        answer: True
-      - question: Women have to choose the words they use to describe the adoption.
-        answer: True
-      - question: Women should not think about whether to smile when they talk about the adoption.
-        answer: False
-      - question: Sometimes Terri felt bad about the adoption. Sometimes she is happy.
-        answer: True
-      - question: Terri takes her daughter back from her adoptive parents.
-        answer: False
-      - question: Terri probably did not want to change the way people feel about adoption.
-        answer: False
+  compcomp:
+    1:
+      White: |+
+        \begin{normalsize}How birth mothers talk about adoption\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Timing] Woman are not ready to talk about the adoption when they want to talk about it, or when circumstances force them to talk.
+        \item [Circumstances] Every woman has a different story to tell. The circumstances of every adoption are different. And women tell their stories to different people. They know some of these people well, because they are friends and family. Others they don't know well. And every one of their listeners has different ideas about adoption. Some people don't approve of what they did. 
+        \item [Considerations]
+        \indent What words does the woman use: 'relinquished my child for adoption,' 'placed my child for adoption,' 'gave up my child,' or 'share my child with another family?'\\
+        \indent With what expression does she speak? A sad expression? Or a smile?\\
+        \indent Does she say if she is in contact with her child? Does she say what she thinks about that?\\
+        \indent Does she want to change her listeners' ideas about adoption?\\
+        \indent How much of her story does she tell?\\
+        \end{description}
+      Black: |+
+        \begin{normalsize}Terri Rimmer's story\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Diary] Terri kept a diary for 6 months after the adoption of her daughter. Unlike Deborah's parents, the parents who adopted Terri's child sent Terri emails and pictures in the new 'open' style of adoption.
+        \item [Relationships] Terri talks to a lot of women who gave their children up for adoption. This makes her feel better. However, she also feels depressed and sometimes cries.
+        \item [Telling others] She sends her diary to friends and asks what they think. She wants to show pictures of her daughter to her family but they don't want to look at them.
+        \item [TV] She appears on TV to talk about giving up her baby. Then she gets more baby pictures and she feels guilty and lost. Some people are rude and mean to her.
+        \item [Events] She feels new and alive when her dog won't let her stop playing. She feels her daughter is lucky. Then she meets her daughter and adoptive parents. She is happy and then sad. 
+        \item [The end] She is ashamed of herself but not ashamed of the adoption.
+        \end{description}
+      quiz:
+        - question: Terri Rimmer's story is different than Sue Adam's.
+          answer: True
+        - question: Birth mothers find it difficult to tell their stories.
+          answer: True
+        - question: The parents who adopted Terri's girl didn't maintain contact.
+          answer: False
+        - question: Sue Adam may not have told as many people as Terri did.
+          answer: True
+        - question: Women will feel bad if people they speak to don't approve.
+          answer: True
+        - question: Women have to choose the words they use to describe the adoption.
+          answer: True
+        - question: Women should not think about whether to smile when they talk about the adoption.
+          answer: False
+        - question: Sometimes Terri felt bad about the adoption. Sometimes she is happy.
+          answer: True
+        - question: Terri takes her daughter back from her adoptive parents.
+          answer: False
+        - question: Terri probably did not want to change the way people feel about adoption.
+          answer: False
