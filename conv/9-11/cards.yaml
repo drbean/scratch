@@ -59,9 +59,9 @@ eckert:
           answer: False
         - question: Question 2. Dates of Births, Deaths. Mohammed Atta died before Sean Rooney.
           answer: True
-        - question: Question 3. Dates of Births, Deaths. Sean Rooney was younger than Beverly Eckert.
+        - question: Question 3a. Dates of Births, Deaths. Sean Rooney was younger than Beverly Eckert.
           answer: False
-        - question: Question 4. Dates of Births, Deaths. Beverly Eckert died at the same time as Marvin Renslow.
+        - question: Question 3b. Dates of Births, Deaths. Beverly Eckert died at the same time as Marvin Renslow.
           answer: True
     2:
       identifier: eckert 2
@@ -104,9 +104,9 @@ eckert:
           answer: True
         - question: Question 6. Who knew who? Shawn didn't know about Neal.
           answer: False
-        - question: Question 7. Who knew who? Neal didn't know about Obama.
+        - question: Question 7a. Who knew who? Neal didn't know about Obama.
           answer: False
-        - question: Question 8. Who knew who? Anthony didn't know about Shawn.
+        - question: Question 7b. Who knew who? Anthony didn't know about Shawn.
           answer: True
     3:
       identifier: eckert 3
@@ -155,9 +155,9 @@ eckert:
           answer: True
         - question: Question 10. Timeline. Mohammed is captured after 9-11.
           answer: True
-        - question: Question 11. Timeline. Neal meets Beverly after Mohammed is taken to Guantanamo.
+        - question: Question 11a. Timeline. Neal meets Beverly after Mohammed is taken to Guantanamo.
           answer: False
-        - question: Question 12. Timeline. Beverly meets Obama before Obama becomes president.
+        - question: Question 11b. Timeline. Beverly meets Obama before Obama becomes president.
           answer: False
 
 
@@ -175,28 +175,28 @@ eckert:
             - Marvin
             - Mohamed
             - Sean
-          answer:
+          answer: Sean
         - question: B:
           option:
             - Beverly
             - Marvin
             - Mohamed
             - Sean
-          answer:
+          answer: Marvin
         - question: C:
           option:
             - Beverly
             - Marvin
             - Mohamed
             - Sean
-          answer:
+          answer: Beverly
         - question: D:
           option:
             - Beverly
             - Marvin
             - Mohamed
             - Sean
-          answer:
+          answer: Mohamed
     1:
       identifier: eckert 1
       A: Two weeks after taking office, you talked with Beverly and 20-30 people about what to do with terrorism suspects. One week later, she died. After she died, you told everybody that she was an inspiration to you.
@@ -210,28 +210,28 @@ eckert:
             - Neal
             - Obama
             - Shawn
-          answer:
+          answer: Obama
         - question: B:
           option:
             - Beverly
             - Neal
             - Obama
             - Shawn
-          answer:
+          answer: Neal
         - question: C:
           option:
             - Beverly
             - Neal
             - Obama
             - Shawn
-          answer:
+          answer: Shawn
         - question: D:
           option:
             - Beverly
             - Neal
             - Obama
             - Shawn
-          answer:
+          answer: Beverly
  
     2:
       identifier: eckert 2
@@ -258,25 +258,25 @@ eckert:
             - Neal
             - Obama
             - Mohammed
-          answer:
+          answer: Beverly
         - question: B:
           option:
             - Beverly
             - Neal
             - Obama
             - Mohammed
-          answer:
+          answer: Neal
         - question: C:
           option:
             - Beverly
             - Neal
             - Obama
             - Mohammed
-          answer:
+          answer: Obama
         - question: D:
           option:
             - Beverly
             - Neal
             - Obama
             - Mohammed
-          answer:
+          answer: Mohammed
