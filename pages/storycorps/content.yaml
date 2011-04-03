@@ -194,13 +194,42 @@ topic:
         title: United Airlines Flight 232
         blurb: |
           <a href="http://www.lifewisecoach.com/about.html">Martha Conant</a> talks about <a href="http://www.npr.org/templates/story/story.php?storyId=18007783">surviving the United Airlines Flight 232 crash</a>. After, she realized she needed to live a life of no regrets, one where she recognized that the people around her wonderful, and one where she felt thankful for being alive.
+  -
+    id: 9-11
+    title: The September 11 attacks
+    intro: The <a href="http://en.wikipedia.org/wiki/September_11_attacks">September 11 attacks</a> were a <a href="http://en.wikipedia.org/wiki/Terrorism"> terrorist</a> attack on the United States.
+    story:
       -
         id: eckert
         title: Widowed in 9/11 attacks
         blurb: |
-          http://www.youtube.com/watch?v=AKrjZCPOuv8
-          http://www.youtube.com/watch?v=VYPQFnazzYg&feature=related (AP)
-          http://www.youtube.com/watch?v=wsIMO7OINhw&feature=relmfu (Obama)
+          <a href="http://en.wikipedia.org/wiki/Beverly_Eckert">Beverly Eckert</a> was widowed when her husband, Sean Rooney, died in the <a href="http://en.wikipedia.org/wiki/September_11_attacks">September 11 attacks</a>. She died when <a href="http://http://en.wikipedia.org/wiki/Continental_Connection_Flight_3407">Colgan Flight 3407</a> crashed. Listen to her talk about <a href="http://www.national911memorial.org/site/PageServer?pagename=new_museum_StoryCorps2">the last moments</a> with her husband. The track is halfway down the page. Or <a href="http://media.storycorps.org/wordpress/wp-content/uploads/listen/audio/eckert.mp3">download</a> it.
+        comment: |
+          We will watch newsreports after her death:
+          <ul>
+          <li><a href="http://www.youtube.com/watch?v=AKrjZCPOuv8">CBS News Report after Beverly Eckert died</a>
+          <li><a href=" http://www.youtube.com/watch?v=VYPQFnazzYg&feature=related"> AP News Report after Beverly Eckert died</a>
+          <li><a href="http://www.youtube.com/watch?v=wsIMO7OINhw&feature=relmfu"> Obama remembers Beverly Eckert</a>
+          </ul>
+      -
+        id: obit
+        title: Eckert's 9/11 work ends
+        blurb: |
+          What Beverly asked Obama to do was to close the <a href="http://en.wikipedia.org/wiki/Guantanamo_Bay_detention_camp">Guantanamo prison</a> that holds <a href="http://en.wikipedia.org/wiki/Khalid_Sheikh_Mohammed">Khalid_Sheikh_Mohammed</a>, the main architect of the <a href="http://en.wikipedia.org/wiki/September_11_attacks">September 11 attacks</a> and put him on trial. But now she is dead.
+        comment: |
+          Watch the newsreports after her death:
+          <ul>
+          <li><a href=" http://www.youtube.com/watch?v=VYPQFnazzYg&feature=related"> AP News Report after Beverly Eckert died</a>
+          <li><a href="http://www.youtube.com/watch?v=wsIMO7OINhw&feature=relmfu"> Obama remembers Beverly Eckert</a>
+          </ul>
+      -
+        id: conspiracy
+        title: 9/11 conspiracy theory
+        blurb: |
+          <a href="http://en.wikipedia.org/wiki/Conspiracy_theory">Conspiracy theorists</a> believe conventional explanations of surprising events are wrong. The <a href="http://en.wikipedia.org/wiki/9/11_Truth_movement">9-11 Truth movement</a> questions the idea that <a href="http://en.wikipedia.org/wiki/Al-Qaeda">al Qaeda</a> was responsible for the <a href="http://en.wikipedia.org/wiki/September_11_attacks">September 11 attacks</a> 
+        comment: |
+          Watch a video of a 9-11 Truth debate: <a href="http://www.youtube.com/watch?v=Q_OIXfkXEj0">'9/11 Conspiracy Theories Ridiculous' - Al Qaeda</a>. Do you believe that this is a real debate?
+
   -
     id: work
     title: People at work
@@ -431,15 +460,14 @@ topic:
         comment: | 
           What do you think?
   -
-    id: bioparent
-    title: Meeting birth parents
-    intro: Nowadays, more and more people are looking for their 'real' (??) parents
+    id: parents
+    title: Meeting parents
+    intro: Nowadays, more and more adopted people are looking for their 'real' (??) parents. Some adopted people have sad stories of relationships with parents. Others with happier stories say: The older I get, the wiser my parents were.
     story:
       -
         id: biodad
         title: Bio-dad
         blurb: |
-          <h3>Do this homework by Friday 13.</h3>
           A story about meeting a biological father for the first time. <a href=http://www.storycorps.org/listen/stories/nick-shepard-hugh-ryan>Nick Shepard</a>'s mother and father split up. We don't learn the details from Nick or his father. Perhaps he was brought up by his mother alone. Perhaps not. Read the <a href=http://www.npr.org/templates/story/story.php?storyId=11532743>NPR write-up</a>.
         comment: | 
           How do you think Nick's mother, father and his mother's mother feel about each other? How does Nick feel about these people?
@@ -447,7 +475,6 @@ topic:
         id: biomom
         title: Bio-mom
         blurb: |
-          Before we listened to a story with a biological father. Here is one with a <a href=http://www.wordspy.com/words/bio-mom.asp>bio-mom</a>. <a href=http://www.storycorps.org/wordpress/wp-content/uploads/listen/audio/adam.mp3>Listen</a> to Sue Adam and Deborah Dimasi talk about their relationship. Read the <a href=http://www.npr.org/templates/story/story.php?storyId=103920363>NPR story and comments</a>. <b>And read an <a href=http://www.storycorps.org/blog/storybooths/new-york-new-york/a-birth-mother-daughter-relationship/>account of the recording</a> with <a href=http://www.storycorps.org/blog/storybooths/new-york-new-york/a-birth-mother-daughter-relationship/#comment-1613>comment from Deborah's "other mother</a>.</b>"
+          Here is a story about a <a href=http://www.wordspy.com/words/bio-mom.asp>bio-mom</a>. <a href=http://www.storycorps.org/wordpress/wp-content/uploads/listen/audio/adam.mp3>Listen</a> to Sue Adam and Deborah Dimasi talk about their relationship. Read the <a href=http://www.npr.org/templates/story/story.php?storyId=103920363>NPR story and comments</a>. <b>And read an <a href=http://www.storycorps.org/blog/storybooths/new-york-new-york/a-birth-mother-daughter-relationship/>account of the recording</a> with <a href=http://www.storycorps.org/blog/storybooths/new-york-new-york/a-birth-mother-daughter-relationship/#comment-1613>comment from Deborah's "other mother</a>.</b>"
         comment: | 
           Read the <a href="http://adoption.about.com/od/birthfirstmothers/a/diarybirthmom.htm">diary</a> of a woman who gave up her child in an open adoption, and an essay about <a href=http://birthparents.adoptionblogs.com/weblogs/how-do-you-explain-your-adoption-story>what to say to people if you are a birthmother</a>.
-          The homework is shorter than before. I have divided the sound file up into 4 parts. Listen to the whole of the sound file, but just fill in part of it. Do this homework by November 27, ie <b>2 weeks' time</b>. It is worth one point to your grade.
