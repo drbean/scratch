@@ -97,37 +97,37 @@
   - "intermediate"
   - "biomom"
   - 1
-  - "C"
-  - "Dimasi discovered her mother's name with a hospital bill."
-  - "True" 
+  - "A"
+  - She wasn't allowed to see the child, but a nurse brought her to be with her.
+  - True
 -
   - "intermediate"
   - "biomom"
   - 2
-  - "D"
-  - "The two people have a good relationship, but the child does not think of her mother as a mother."
-  - "True" 
+  - "A"
+  - "The mother had a serious relationship with some one."
+  - "False" 
 -
   - "intermediate"
   - "biomom"
   - 3
-  - "C"
-  - "The first phone call they had, the two people talked for two or three hours."
-  - "True" 
+  - "B"
+  - The hospital made it a practice of making the parent hand the child to a doctor.
+  - True 
 -
   - "intermediate"
   - "biomom"
   - 4
-  - "C"
-  - "The mother left a message on her child's phone,"
+  - "B"
+  - "The child never knew that she was adopted by her parents."
   - "False" 
 -
   - "intermediate"
   - "biomom"
   - 5
-  - "B"
-  - "The father never told his child she was adopted."
-  - "False" 
+  - "C"
+  - "Dimasi discovered her mother's name with a hospital bill."
+  - "True" 
 -
   - "intermediate"
   - "biomom"
@@ -139,9 +139,30 @@
   - "intermediate"
   - "biomom"
   - 7
-  - "A"
-  - "The mother had a serious relationship with some one."
+  - "C"
+  - "The mother left a message on her child's phone,"
   - "False" 
+-
+  - "intermediate"
+  - "biomom"
+  - 8
+  - "D"
+  - "The first phone call they had, the two people talked for two or three hours."
+  - "True" 
+-
+  - "intermediate"
+  - "biomom"
+  - 9
+  - "D"
+  - "The two people have a good relationship, but the child does not think of her mother as a mother."
+  - "True" 
+-
+  - "intermediate"
+  - "biomom"
+  - 10
+  - "D"
+  - Her advice to her mother is to enjoy their relationship and be passionate about love.
+  - False
 -
   - "intermediate"
   - "biodad"
