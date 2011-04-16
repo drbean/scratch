@@ -16,7 +16,7 @@ for my $t ( keys %$cards ) {
 	for my $f ( keys %$compcomp ) {
 		my $form = $compcomp->{$f};
                 my $pairtmpl = Text::Template->new( type => 'file',
-                        source =>  '../tmpl/B5twopairs.tmpl' ,
+                        source =>  '../tmpl/compcompA4.tmpl' ,
                         delimiters => [ '<TMPL>', '</TMPL>' ]);
 		my $quiztmpl = Text::Template->new( type => 'file',
 			source =>  '../tmpl/questionsB5.tmpl' ,
@@ -40,7 +40,7 @@ for my $t ( keys %$cards ) {
 	for my $f ( keys %$jigsaw ) {
 		my $form = $jigsaw->{$f};
 		my $fourtmpl = Text::Template->new( type => 'file',
-			source =>  'oneA4twogroups.tmpl' ,
+			source =>  '../tmpl/oneA4twogroups.tmpl' ,
 			delimiters => [ '<TMPL>', '</TMPL>' ]);
 		my $quiztmpl = Text::Template->new( type => 'file',
             source =>  '../tmpl/namequestionsA4.tmpl' ,
@@ -57,7 +57,7 @@ for my $t ( keys %$cards ) {
 		$fio->print( $fourtmpl->fill_in( hash=> $form ) );
 		$qio->print( $quiztmpl->fill_in( hash=> $form ) );
 		my @htmlq = map { $form->{"q$_"} } 1 .. $n-1;
-		$,="\n<li>";
+		$,="\n<h1><li>";
 		$hio->print("<h2>$form->{identifier}</h2><ol>", @htmlq);
 	}
 }
