@@ -1,6 +1,7 @@
 module FSynF where
 
 import Data.List
+import qualified Parents ( NP )
 
 data Column = A' | B' | C' | D' | E' 
             | F' | G' | H' | I' | J'
@@ -34,9 +35,10 @@ data DET  = The | Every | Some | No | Most
           deriving Show
 data CN   = Girl   | Boy   | Princess | Dwarf | Giant 
           | Wizard | Sword | Dagger
+	  | Man | Woman | Son | Daughter | Father | Mother | Child | Parent
           deriving Show 
 data ADJ  = Fake deriving Show
-data RCN  = RCN1 CN That VP | RCN2 CN That NP TV
+data RCN  = RCN1 CN That VP | RCN2 CN That NP TV | RCN2 CN That Parents.NP TV 
           | RCN3 ADJ CN
           deriving Show
 data That = That deriving Show
