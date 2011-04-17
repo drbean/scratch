@@ -1,0 +1,60 @@
+# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom::Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: Parents--single and otherwise!
+indent: 5
+height: 18
+width: 69
+skip: 0
+
+# The following options are for Gvim usage.
+# vim: gvim
+# fuopt: maxhorz,maxvert
+# guioptions: egmLtT
+# guicursor: a:blinkon0-ver25-Cursor
+# guifont: Bitstream_Vera_Sans_Mono:h18
+
+---- center
+Parents--single and otherwise!
+
+by Dr Bean
+
+(hint: press the spacebar)
+
+----
+== Biomom roleplay
+
+Pretend that you gave a child up for adoption.
+The other members of the group may or may not have given
+their children up too.
+
+But they have all had babies and none of them are in relationships 
+with the babies' fathers.
+
+How do you ask about adoption?
+How do you tell about adoption?
+
+----
+Questions
+
+Is there no/any effect on children from not having a father?
+May Nick have had a father to bring him up?
+
+question: Obama's family was a single-parent family.
+question: Nick wasn't aware of his father's name, growing up.
+question: Single-parent families are often poorer.
+question: Nick may have caused his parents' break-up.
+question: The effects of being without a dad are not big.
+question: It is not clear why Nick's parents broke up.
+question: The effect of not having a dad depends on mom's age.
+question: Nick may want to see his dad less than vice-versa.
+
+
+----
+== The end
