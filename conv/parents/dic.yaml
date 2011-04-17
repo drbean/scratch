@@ -55,36 +55,110 @@
   - "Adam|Dimasi|mentor"
 -
   - "biodad"
-  - "intermediate"
   - "15-minute father"
-  - "all"
+  - "intermediate"
+  - "A"
   - |+
     "Shepard: I woke up the morning after I got to Glasgow and I decided to just go to the university to look around, see what I thought. I had the address written down for my biological father and I went there.
 
     I looked down the hallway and I saw a sign with his name. Finally, I just said this is probably the only chance in my life I will ever have to do this.
 
     Walked up to the door and knocked. He looked at me with a look that was not quite hostile, but impatient. I said, Do you have a minute? He said, Sure. And I said, Do you remember living in Connecticut 20 years ago. And he got this kind of odd smile on his face and said, Yes, I remember it.
-
-    I said, Well, do you remember a relationship with a woman named Eloise, that you had? And he says, Yes, yes I do.
+  - Shepard|Glasgow|Connecticut
+-
+  - "biodad"
+  - "15-minute father"
+  - "intermediate"
+  - "B"
+  - |+
+    Shepard: I said, Well, do you remember a relationship with a woman named Eloise, that you had? And he says, Yes, yes I do.
 
     And I says, Well, uhm, I'm the result of that relationship, And he says, Aaaaaah.
 
     Walks over towards me, and I have this panic that he's going to touch me. But he doesn't. He walks past me and he closes the door and walks back and sits down at the table where I'm seated, and says, So, you're here.
 
-    And I said, Yeh. And I told him that I had three questions that I wanted to ask him. He said, Sure. And I said, First, I want to know if there is any history of diseases or things that I needed to be aware of, genetically, just to get that baseline out of the way. And, he said, No, not that I know of.
+    And I said, Yeh. And I told him that I had three questions that I wanted to ask him. He said, Sure. And I said, First, I want to know if there is any history of diseases or things that I needed to be aware of, genetically ...
+  - Shepard|Eloise|genetically
+-
+  - "biodad"
+  - "15-minute father"
+  - "intermediate"
+  - "C"
+  - |+
+    Shepard: ... just to get that baseline out of the way. And, he said, No, not that I know of.
 
-    And then I asked him if he would be willing to just explain a little the circumstances surrounding my birth, and how it came to be that I was born and he left. And for the first time and only time over the course of our fifteen-minute conversation, the grin left his face. And eventually, he said, Well, I think that at that point, Eloise was ready to have a child. And I said, And you were't. And he laughed, and said, No. Never was, never have been, He didn't really offer me anything more.
+    And then I asked him if he would be willing to just explain a little the circumstances surrounding my birth, and how it came to be that I was born and he left. And for the first time and only time over the course of our fifteen-minute conversation, the grin left his face. And eventually, he said, Well, I think that at that point, Eloise was ready to have a child. And I said, And you weren't. And he laughed, and said, No. Never was, never have been, He didn't really offer me anything more.
 
     Ryan: Did you ask your third question?
 
-    Shepard: Yeh, I looked at him for a minute, and then I asked my third question, May I take a picture of you? I had a little disposable camera, took a picture of him, and, um, that was that.
+    Shepard: Yeh, I looked at him for a minute, and then I asked ...
+  - Shepard|Ryan|Eloise
+-
+  - "biodad"
+  - "15-minute father"
+  - "intermediate"
+  - "D"
+  - |+
+    Shepard: ... my third question, May I take a picture of you? I had a little disposable camera, took a picture of him, and, um, that was that.
 
     It ended with me, saying, Well, I don't want to take up too much of your time. And I said, Goodbye, and he turned to walk back towards his computer, and he says, Goodbye for now.
 
     I don't know if I'll ever contact him, if I will ever want him to be a part of my life in any way. But for now, I don't.
 
     And, so, I walked back through this park in Glasgow back towards this place where I was staying and I felt that I had made a peace with a part of myself that I never expected, that I never even thought possible."
-  - "Shepard|Ryan|Glasgow|Connecticut|Eloise|baseline|disposable"
+  - "Shepard|Glasgow|disposable"
+-
+  - emersonj
+  - Man takes on son
+  - intermediate
+  - A
+  - |+
+    Brian: When I adopted you, they had said that you had something called Post Traumatic Stress Syndrome, which I didn't understand except from soldiers that came back from a war that had what they used to call shell shock. So, yeah, I don't think you knew how scared I was the first six months.
+
+    Johnathan: I think I used to throw things - desks, pencils and pens, I believe.
+
+    Brian: Yeah. It was probably the first year and you were at school. I used to tell the staff there: if he's not paying attention to you, if he's not doing what you ask, call me.
+  - Brian|Johnathan|Post Traumatic Stress|shell shock
+-
+  - emersonj
+  - Man takes on son
+  - intermediate
+  - B
+  - |+
+    Brian: And so one time they did call me and you went around after the calls and you ripped the phones out the wall.
+
+    Johnathan: I was very distraught, yes.
+
+    Brian: And I thought, I said, I think he's worried that if I hear bad things I'm going to give him back. I don't know, was that true?
+
+    Johnathan: You know, it's kind of hard to explain, but yeah.
+
+    Brian: Yeah. The first year or two, sometimes I'd have to take the television away for whatever reason. You'd look at me and you'd say, wait till I tell the judge this.
+  - Brian|Johnathan|distraught|judge|ripped
+-
+  - emersonj
+  - Man takes on son
+  - intermediate
+  - C
+  - |+
+    Brian: And I used to have to remind you, it's over, Johnathan, you're adopted. There's no more judges in your life. I think it didn't sink into you for a couple of years that, you know, the adoption was final.
+
+    But the moment that it hit me is when I was in church and you were in some little skit in the Sunday school. And you did something and the whole congregation started cracking up and then everybody looked at me.  And I was sitting around going, yeah, that's my kid.
+
+    And I remember one day ...
+  - Brian|Johnathan|judges|church|skit|congregation
+-
+  - emersonj
+  - Man takes on son
+  - intermediate
+  - D
+  - |+
+    Brian: ... when I worried about you, just worried about, well, what if Johnathan got in a car accident, and I just started crying. And then I said, oh, that must be what parents feel and that's what I feel like.
+
+    When people tell me, oh, you know, what a wonderful thing you did, adopting a seven-year-old boy, I said, you don't understand. I didn't do this to save some little child. It's father and son but it's also, it's, you know, you are my best friend; there's no doubt about it. You know more about me than anybody else.
+
+    I'm glad we did this.
+  - Brian|Johnathan|judges|church|skit|congregation
 ---
 -
   - genre
@@ -167,41 +241,111 @@
   - "intermediate"
   - "biodad"
   - 1
-  - "all"
-  - "He doesn't know if he ever wants to contact his father again."
+  - "A"
+  - He decides to go to the university to have a look and he sees the name of his biological father. 
   - "True" 
 -
   - "intermediate"
   - "biodad"
   - 2
-  - "all"
-  - "The father and child only ever had a fifteen-minute conversation."
-  - "True" 
+  - "A"
+  - "The father was hostile to the child when he went to see him."
+  - "False" 
 -
   - "intermediate"
   - "biodad"
   - 3
-  - "all"
+  - "B"
   - "The father didn't want to have the child but the woman did."
   - "True" 
 -
   - "intermediate"
   - "biodad"
   - 4
-  - "all"
+  - "B"
   - "The father felt panic that his child had come to ask him questions."
   - "False" 
 -
   - "intermediate"
   - "biodad"
   - 5
-  - "all"
-  - "The father was hostile to the child when he came to see him."
-  - "False" 
+  - "C"
+  - He explains a little about the circumstances of his child's birth, but isn't willing to offer more.
+  - "True" 
 -
   - "intermediate"
   - "biodad"
   - 6
-  - "all"
-  - "The child wants to see his father again, but the father doesn't want to see his child again."
+  - "C"
+  - The child asked for the circumstances of his birth but he said he didn't know anything about it.
   - "False" 
+-
+  - "intermediate"
+  - "biodad"
+  - 7
+  - "D"
+  - "He doesn't know if he ever wants to contact his father again."
+  - "True" 
+-
+  - "intermediate"
+  - "biodad"
+  - 8
+  - "D"
+  - "He wants to contact his father again, but his father doesn't want any contact with him."
+  - "False" 
+-
+  - intermediate
+  - emersonj
+  - 1
+  - A
+  - For months after the adoption, they were scared, thinking of things.
+  - True 
+-
+  - intermediate
+  - emersonj
+  - 2
+  - A
+  - At school they threw a pencil or pen at him if he was not paying attention.
+  - False 
+-
+  - intermediate
+  - emersonj
+  - 3
+  - B
+  - It's hard to explain why he did what he did, but he was worried.
+  - True 
+-
+  - intermediate
+  - emersonj
+  - 4
+  - B
+  - The reason they had no television was they were worried the judge would hear it.
+  - False 
+-
+  - intermediate
+  - emersonj
+  - 5
+  - C
+  - He remembers sitting in church and and everybody cracking up over what he did.
+  - True 
+-
+  - intermediate
+  - emersonj
+  - 6
+  - C
+  - The adopted kid didn't go to church. Everyone looked at him when he cracked up.
+  - False 
+-
+  - intermediate
+  - emersonj
+  - 7
+  - D
+  - He adopted a son and he got a friend, a boy who knows more about him than anybody.
+  - True 
+-
+  - intermediate
+  - emersonj
+  - 8
+  - D
+  - He tells his friends, crying, it's wonderful to adopt a seven-year-old boy.
+  - False 
