@@ -337,3 +337,31 @@ biomom:
           answer: False
         - question: Terri probably did not want to change the way people feel about adoption.
           answer: False
+emersonj:
+  jigsaw:
+    0:
+      identifier: emersonj 0
+      A: After your boyfriend left you, you took drugs, you engaged in prostitution and you neglected your baby Johnathan. and the state took him away. You deny that you abandoned or gave up your baby. You ask Suzy to give him back to you.
+      B: You adopt Johnathan when he is 2, but disrupt the adoption because he is constantly screaming and struggling. He shows no love for you and you get no satisfaction from caring for him. The disruption is extremely distressing for you. You think Fay must have abused him.
+      C: You are a foster mother. You get paid by the state for looking after children without families. The pay isn't good, but you have no other work. Johnathan was not a loveable child. He cried and struggled all the time. You are glad when Suzy says Jane wants to adopt him.
+      D: You are a social worker. You tell Mamie if she stops taking drugs and engaging in prostitution, then Johnathan can return to her. But Mamie doesn't, and Johnathan spends one year in foster care with Fay as a very unhappy baby. You decide to allow him to be adopted by Jane.
+
+  compcomp:
+    0:
+      identifier: emersonj 0
+      White: |+
+        \begin{normalsize} Save the family--prevent adoption? \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Different family problems] Some children are given up by single unmarried woman. Other children are given up by, or \ul{taken away from}, families in trouble.
+        \item [Saving families] 40 years ago, social welfare agencies in the US started to think that trying to help families that were breaking up to get together again was a good idea. They thought it was better for the children to be reunited with their families than to be adopted.
+        \item [Foster care] While social workers tried to solve the families' problems, the children were held in foster care, and weren't allowed to be adopted.
+        \end{description}
+      Black: |+
+        \begin{normalsize} Foster care--lesser of 2 evils? \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Children without families] When children have no one to look after them in the US, and are not immediately adopted by a family, they are placed in foster care.
+        \item [Foster parents] In the US, families (foster parents) are paid to take care of them. Some families give the children lots of love. Others give them less love. Many children suffer Post-Traumatic Stress Disorder.
+        \item [Failed adoptions] In the US, 10-35 percent of adoptions, especially of older children, are `disrupted,' and the children returned to foster care. This can make for some very disturbed children, like Johnathan.
+        \end{description}
