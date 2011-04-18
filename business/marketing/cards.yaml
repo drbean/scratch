@@ -512,3 +512,21 @@ water:
           - place
           - promotion
         answer: price
+  5:
+    identifier: Kristal5 
+    A: |
+      \\
+      Question: Kristal is more expensive than other brands. Do you think it's worth paying extra for it?\\
+      Answer: It is expensive. I buy a lot of bottled water. But Kristal is more expensive. So I don't buy it.
+    B: |
+      \\
+      Question: Have you heard about Kristal bottled water? Have you ever tried it?\\
+      Answer: I saw the advertisements on TV. I want to try it, but I haven't tried it yet.
+    C: |
+      \\
+      Question: Do you buy Kristal bottled water? Where do you buy it?\\
+      Answer: At health food stores. It's not available at 7-11 or DingHao. I think that means it is better water. But I don't know.
+    D: |
+      \\
+      Question: Have you ever bought Kristal bottled water? What did you think of it?\\
+      Answer: Yes, I tried it once. It was okay. It had a fresh taste. It may be better than other bottled water.
