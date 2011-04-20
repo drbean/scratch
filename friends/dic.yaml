@@ -613,7 +613,7 @@
   - 7.24
   - Monica, Chandler's marriage
   - friends
-  - A
+  - AA
   - |+
      Joey: That's my line! I can take it from here, thanks. Dearly beloved, I'm sorry I'm a little late. You may be confused by this now, but you won't be Memorial Day weekend 2002. Well, let's get started before the groom takes off again, huh? We are gathered here today, to join this man and this woman in the bonds of holy matrimony. I've known Monica and Chandler for a long time, and I can not imagine two people more perfect for each other. And now, as I've left my notes in my dressing room. We shall proceed to the vows. Monica?
   - Joey|beloved|Memorial Day|bonds of holy matrimony|proceed
@@ -621,7 +621,7 @@
   - 7.24
   - Monica, Chandler's marriage
   - friends
-  - B
+  - BB
   - |+
      Monica: He took off?
      Rachel: Go on! Go on.
@@ -633,11 +633,80 @@
   - 7.24
   - Monica, Chandler's marriage
   - friends
-  - C
+  - CC
   - |+
     Chandler: .. this was going to be the most difficult thing I ever had to do.  But when I saw you walking down that aisle I realized how simple it was. I love you. Any surprises that come our way it's okay, because I will always love you. You are the person I was meant to spend the rest of my life with. You want to know if I'm sure?
      Joey: You may now kiss the bride. So, I guess by the powers vested in me by the state of New York and the Internet guys, I now pronounce you husband and wife.
   - Chandler|Joey|vested|Internet guys
+-
+  - 7.24
+  - Monica, Chandler's marriage
+  - friends
+  - A
+  - |+
+     Joey: Oh wait! Do you take each other?
+     Chandler: I do.
+     Monica: I do.
+     Joey: Yeah you do!
+     Ross: Rings?
+     Joey: Aw crap! Okay, uh, uh let's-let's do the rings.
+     Joey: We good? Yeah? Good? Once again, I pronounce you husband and wife. Now kiss her again.
+     Chandler: I love you. And I know about the baby.
+     Monica: What baby?
+     Chandler: Our baby.
+     Monica: We have a baby?
+     Chandler: Phoebe found your pregnancy test in the trash.
+     Monica: I didn't take a pregnancy test.
+     Chandler: Then, who did?
+     Phoebe: Oh and they're going to have a baby.
+     Rachel: Uh-huh.
+  - Chandler|Joey|Monica|Phoebe|Rachel
+-
+  - 7.24
+  - Monica, Chandler's marriage
+  - friends
+  - B
+  - |+
+     Joey: Oh wait! Do you take each other?
+     Chandler: I do.
+     Monica: I do.
+     Joey: Yeah you do!
+     Ross: Rings?
+     Joey: Aw crap! Okay, uh, uh let's-let's do the rings.
+     Joey: We good? Yeah? Good? Once again, I pronounce you husband and wife. Now kiss her again.
+     Chandler: I love you. And I know about the baby.
+     Monica: What baby?
+     Chandler: Our baby.
+     Monica: We have a baby?
+     Chandler: Phoebe found your pregnancy test in the trash.
+     Monica: I didn't take a pregnancy test.
+     Chandler: Then, who did?
+     Phoebe: Oh and they're going to have a baby.
+     Rachel: Uh-huh.
+  - Chandler|Joey|Monica|Phoebe|Rachel
+-
+  - 7.24
+  - Monica, Chandler's marriage
+  - friends
+  - C
+  - |+
+     Joey: Oh wait! Do you take each other?
+     Chandler: I do.
+     Monica: I do.
+     Joey: Yeah you do!
+     Ross: Rings?
+     Joey: Aw crap! Okay, uh, uh let's-let's do the rings.
+     Joey: We good? Yeah? Good? Once again, I pronounce you husband and wife. Now kiss her again.
+     Chandler: I love you. And I know about the baby.
+     Monica: What baby?
+     Chandler: Our baby.
+     Monica: We have a baby?
+     Chandler: Phoebe found your pregnancy test in the trash.
+     Monica: I didn't take a pregnancy test.
+     Chandler: Then, who did?
+     Phoebe: Oh and they're going to have a baby.
+     Rachel: Uh-huh.
+  - Chandler|Joey|Monica|Phoebe|Rachel
 -
   - 7.24
   - Monica, Chandler's marriage
@@ -1226,29 +1295,71 @@
   - friends
   - 7.24
   - 3
-  - B
+  - BB
   - Monica wanted comfort from a friend, and instead found her soul mate.
   - True
 -
   - friends
   - 7.24
   - 4
-  - B
+  - BB
   - Monica did not find comfort. Her soul mate wanted her to spend her life with her.
   - False
 -
   - friends
   - 7.24
   - 5
-  - C
+  - CC
   - Chandler guessed it was difficult to walk down the aisle, but it was simple. He loves the bride.
   - True
 -
   - friends
   - 7.24
   - 6
-  - C
+  - CC
   - Chandler loves surprises. He realized they meant the bride loves him.
+  - False
+-
+  - friends
+  - 7.24
+  - 1
+  - A
+  - Chandler didn't know Monica didn't take a pregnancy test. 
+  - True
+-
+  - friends
+  - 7.24
+  - 2
+  - A
+  - Monica is having a baby, but she doesn't know about it.
+  - False
+-
+  - friends
+  - 7.24
+  - 3
+  - B
+  - Chandler didn't know Monica didn't take a pregnancy test. 
+  - True
+-
+  - friends
+  - 7.24
+  - 4
+  - B
+  - Monica is having a baby, but she doesn't know about it.
+  - False
+-
+  - friends
+  - 7.24
+  - 5
+  - C
+  - Chandler didn't know Monica didn't take a pregnancy test. 
+  - True
+-
+  - friends
+  - 7.24
+  - 6
+  - C
+  - Monica is having a baby, but she doesn't know about it.
   - False
 -
   - friends
