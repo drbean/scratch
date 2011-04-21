@@ -209,6 +209,7 @@ mort, dred, doug, ma, foster
 mort	= M
 dred	= D
 doug	= U
+reed	= R
 ma	= A
 foster	= F
 memorial= H
@@ -221,7 +222,7 @@ woman	= list2OnePlacePred [A]
 boy	= list2OnePlacePred [D]
 cemetery= list2OnePlacePred [O]
 hospital= list2OnePlacePred [H]
-sexton	= pred1 [U]
+sexton	= pred1 [U,R]
 grave	= pred1 [G]
 
 cry	= pred1 [A]
@@ -237,9 +238,6 @@ person, thing :: OnePlacePred
 
 person	= \ x -> (man x || woman x || boy x)
 thing	= \ x -> not (person x || x == Unspec)
-
--- parent	= \x -> ( bioparent x || adopter x )
--- mother	= \x -> ( woman x && parent x )
 
 working = [M,U,F]
 studying = [D]
@@ -428,7 +426,7 @@ formula4 =  Impl (Atom "R" [tx,ty])
 formula5 = Forall x ( Forall y formula4 )
 
 formula6 = 
-	(Exists x1 (Conj [Atom "Woman" [tx1], Atom "Cry" [tx1] ] ) )
+	(Exists x (Conj [Atom "Woman" [tx], Atom "Cry" [tx] ] ) )
 
 checkForm :: Formula Term -> Bool
 checkForm f = evl entities int fint (\(Variable _ _) -> A) f
