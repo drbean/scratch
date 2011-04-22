@@ -267,11 +267,21 @@ topic:
           <li><b>Text 4:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/uniqlo-2D.mp3">D</a>
           </ul>
       -
+        id: uniqlo-3
+        title: Uniqlo's success and goals
+        blurb: A youtube video, <a href="http://www.youtube.com/watch?v=SCOJcDvbPeo">Uniqlo Profile</a>. We talked about the Uniqlo's marketing mix and how it handles the four different P's: product, price, promotion and place.But I made some mistakes, particularly about price. What would you say about Uniqlo's prices and its products, places and promotion.
+        comment: |+
+      -
         id: p-problem
         title: The powerlessness of the marketing department.
         blurb: <a href="http://en.wikipedia.org/wiki/Peter_Drucker">Peter Drucker</a>'s statement, that marketing and innovation are the most important things a company does, suggests marketers should be in control. Actually, often the marketing department has very little power, especially in companies set up by engineers. <a href=http://www.rolandsmart.com/2009/01/where-marketers-are-today/">Roland Smart</a> analyzes who has the <a href="http://www.rolandsmart.com/wp-content/uploads/2009/01/where-marketers-are-today.mp3">Real Control over the Four P's</a>.
         comment: |+
           This is something Mr Smart wrote and then read. It is difficult for you, I think. Each member of the group is responsible for part of the text. 
+      -
+        id: turner
+        title: The 3 skills of the great marketer
+        blurb: Jonathan Turner heads <a href="http://www.oxfordsm.com">Oxford Strategic Management</a>, a market research company. He thinks there are 3 things the successful marketer must have, a feeling for what consumers are thinking, an understanding of how the company makes money from its consumers, and an ability to excite everyone in the company about the company's marketing strategy.
+        comment: Find the soundfile on elearning. It's the 'Recording' at the end of the menu bar for the 'Study Communication Center'. Find your section on it.
   -
     id: kendall
     title: Kendall and planning
