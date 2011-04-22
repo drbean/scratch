@@ -16,6 +16,13 @@ blurb: |+
 
 topic:
   -
+    id: dying
+    title: Death and dying
+    intro: The next three weeks we will be studying practices in the West connected with dying. This might seem <a href="http://www.google.com/search?q=morbid&num=30">morbid</a>. In fact, he doesn't want students to feel bad. He wants them to be able to feel good talking about something other people feel bad about.
+    story:
+      -
+        id: watterson
+  -
     id: disease
     title: Coping with disease
     intro: Disease, sickness and accidents can make people feel life is not worth living. But other events can give hope.
