@@ -1,0 +1,190 @@
+---
+genre: intermediate
+undertaker:
+  compcomp:
+    1:
+      identifier: undertaker 1
+      White: |+
+        \begin{normalsize}Funeral directors--the job\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Definition] A funeral director is someone who takes the body to a place where it will remain until buried, and then prepares the remains, before performing a funeral ceremony and transporting the body to a cemetery. The job requires someone who is good at comforting the family of the dead person.
+        \item [Embalming] If it will take more than 24 hours for the body to be buried or cremated (burned), most US states require the body to be embalmed or refrigerated. When embalming, funeral directors will wash the body with germ-killing soap, and replace the blood with embalming fluid that prevents the body going bad. They may reshape and reconstruct damaged bodies with clay, cotton or wax. They may also put cosmetics on the face, dress the body, and put it in a casket (box).
+        \item [Funerals] In the US, burial in the ground in a casket is most common, although entombment in a structure above ground also is done. Cremation, or burning the body, is becoming increasingly popular because it can be less expensive and more convenient.
+        \item [Paperwork] Funeral directors also handle the paperwork required by the government when someone dies.
+        \item [Businesses] Most funeral homes are small family-run businesses.
+        \item [Link] http://www.bls.gov/oco/ocos011.htm
+        \end{description}
+      Black: |+
+        \begin{normalsize}Sam Reed in Oakland Cemetery\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Starting] Reed was working at a funeral home and when asked if he would be interested in the job looking after the cemetery and digging graves, he said, Yes, because he wasn't getting any benefits (eg health insurance, yearly bonus) at the funeral home.
+        \item [Burials] Reed usually has one and a half days to prepare for a burial. A funeral home might call on Monday and want the burial on Wednesday. It takes 5-6 man hours to dig a grave, because they do it by hand, without a machine. The grave is 90 cm wide, 240 cm long and 180 cm (6 feet) deep.
+        \item [Oakland Cemetery] It's a very old cemetery and doesn't have many new graves. They usually do one funeral a month. Reed has buried 300 people there. He doesn't think that's a lot. 
+        \item [Perpetual care] The cemetery is not 'perpetual care'. 'Perpetual care' cemeteries are more expensive, because you have to pay for the cemeteries to be cared for. Most states require cemeteries to be perpetual care. Some people prefer to have their relatives buried in cemeteries which are \textbf{NOT} perpetual care, because it is cheaper.
+        \item [Link] http://blogs.creativeloafing.com/freshloaf/2009/05/17/profile-sam-reed-cemetery-caretaker/
+        \end{description}
+      quiz:
+        - question: Funeral directors don't have to go and pick up the body when someone dies.
+          answer: False
+        - question: The funeral home that Reed was working at was probably a small business.
+          answer: True
+        - question: A funeral director has to dig the grave that the body is placed in.
+          answer: False
+        - question: A funeral home will call the cemetery and expect the burial the next day.
+          answer: False
+        - question: Funeral directors will remove the blood from bodies and replace it with fluid.
+          answer: True
+        - question: If you jump down into a grave, it might be difficult to get out unless you are very tall.
+          answer: True
+        - question: In the US, burials are traditional, but cremation is becoming more popular.
+          answer: True
+        - question: Oakland is a very new, expensive, perpetual-care cemetery.
+          answer: False
+        - question: The person who tells the government someone died is usually the funeral director.
+          answer: True
+        - question: Perpetual-care cemeteries are cheaper than other cemeteries.
+          answer: False
+  jigsaw:
+    1:
+      identifier: undertaker 1
+      A: You are dead. You died in a motor cycle accident, late at night, when a car drove through a red light and hit you on the head. Your face doesn't look very good. Mort comes to pick you up from the hospital
+      B: You care for a cemetery and also dig the graves there for people who have died. You are now digging a grave for a young man called Dred. A very sad case, but it happens every day.
+      C: Your son was a promising student, but he was killed in a traffic accident. You are going out of your mind. The hospital where your son was taken calls a funeral home for you.
+      D: You are a funeral director. You get a call for a job for Ms Ma. Her son died in a traffic accident. You will do some work on his face. You call Doug, the manager at a reasonably-priced, perpetual-care cemetery, to arrange a burial.
+      quiz:
+        - question: A
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Dred
+        - question: B
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Doug
+        - question: C
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Ms Ma
+        - question: D
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Mort
+        - question: Mort was a student.
+          answer  : False
+        - question: Doug is a funeral director.
+          answer  : False
+        - question: Ms Ma is Doug's mother.
+          answer  : False
+        - question: Doug is digging a grave for Dred.
+          answer  : True
+        - question: Mort is preparing a funeral for Ms Ma.
+          answer  : True
+        - question: Doug thinks Dred's case is sad.
+          answer  : True
+    11:
+      identifier: undertaker 11
+      A: 
+      B: 
+      C: 
+      D: 
+      quiz:
+        - question: A
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Dred
+        - question: B
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Doug
+        - question: C
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Ms Ma
+        - question: D
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Mort
+        - question: A was a student.
+          answer  : True
+        - question: B is a funeral director.
+          answer  : False
+        - question: C is A's mother.
+          answer  : True
+        - question: D digs graves at cemeteries.
+          answer  : False
+        - question: D is preparing a funeral for A.
+          answer  : True
+        - question: The grave digger thinks Dred's case is sad.
+          answer  : True
+    12:
+      identifier: undertaker 12
+      A: 
+      B: 
+      C: 
+      D: 
+      quiz:
+        - question: A
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Dred
+        - question: B
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Doug
+        - question: C
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Ms Ma
+        - question: D
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Mort
+        - question: B is a funeral director.
+          answer  : False
+        - question: D digs graves at cemeteries.
+          answer  : False
+        - question: C is A's mother.
+          answer  : True
+        - question: A's body is being prepared by B.
+          answer  : False
+        - question: B thinks the story is sad.
+          answer  : True
+        - question: C is going out of her mind.
+          answer  : True
