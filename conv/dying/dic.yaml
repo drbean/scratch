@@ -1,0 +1,130 @@
+---
+-
+  - id
+  - description
+  - genre
+  - target
+  - content
+  - unclozeables
+-
+  - "viviano"
+  - "Nurse tells daughter about patients dying"
+  - "intermediate"
+  - "all"
+  - |+
+    "Sarafino: I understand your mom had breast cancer. What was that like?
+    Dana: It was very scary. She'd been very sick. And they took her to a hospital. And a physician came out to talk to us when we got there. And told us that she had cancer and that they didn't expect her to survive. And I remember thinking that there was a way that they could have told us that was softer.
+    Sarafino: Is that why you wanted to become a cancer nurse?
+    Dana: You know, I think so. I can't imagine doing anything else.
+    Sarafino: How does it feel to you telling someone they're going to die.
+    Dana: Oh, it's horrible. A lot of times when you get to that point, they know it. And you know it. Because they don't feel good. And they know what we're doing to them is not making them better. So a lot of times when we have that talk with them, they've kind of prepared for it.
+    Sarafino: Are you friends with some patients?
+    Dana: Mmh-hmm. They all teach you something. They've taught me to celebrate the smallest things in life, like hair growing back. I learn about fear. And I learn about hope, and I really learn what love is. Love is that deep, intense feeling for another person's soul. And that it's okay to let that person go. We all don't know how long we're going to be on this planet. And that's why it's important to love each other and to, you know, cherish a human being.
+    Sarafino: I really think God wanted you to be what you are, because you're awesome at it. You make patients smile. You walk in there, and they're all like, Dana. Oh, my gosh, she's here. To me, you are maybe the angels on earth. You come down and try your best to heal people. You are my hero.
+    Dana: Thank you."
+  - "Sarafino|physician|Dana|soul|planet|cherish"
+-
+  - undertaker
+  - Reed tells class of undertaker dream
+  - intermediate
+  - A
+  - |+
+    I remember one time in the first grade, my teacher, she was going round to everyone, and, uh, she asked them what they wanted to be. So she got to me. And she says, Sammy Reed. They all called me Sammy, instead of Samuel. What do you want to be when you grow up. And I said I want to be an undertaker. And, everybody thought that was crazy. But I was always fascinated with the way a dead person looked when you went to see them.
+    Coming up, you would listen to the elders talk about a person was killed in a car wreck.
+  - undertaker|Samuel
+-
+  - undertaker
+  - Reed's early funeral experiences
+  - intermediate
+  - B
+  - |+
+    Coming up, you would listen to the elders talk about a person was killed in a car wreck, and they was messed up and everything. But when you got to the funeral, you would hear them say, Wow, Grandma looked great. She looked at peace. And, and I wanted to know how to do that.
+
+    And whenever I had a pet die, you know, I always would bury the pet, on the side of the creek bank. I would have my little sisters. They would pick flowers, and we'd just stand around, have a little funeral, you know.
+  - wreck|messed|peace|creek bank|funeral
+-
+  - undertaker
+  - Reed on undertaker stereotypes
+  - intermediate
+  - C
+  - |+
+    So, I just knew that this was what I was destined to do, to deal with the dead.
+
+    And, I always get this. You don't look like an undertaker. And I said, Well, what does an undertaker look like. They said, They look dead. And, they look old. And they drink a lot. I said, Well, I'm not dead. I don't think I look old, even for my age. And I said, I don't drink.
+
+    You know, a lot of people think because we're morticians, and we're in the business of dealing with this on a day-to-day basis, that we're cold.
+  - destined|undertaker|morticians|day-to-day
+-
+  - undertaker
+  - Undertakers' reaction to death
+  - intermediate
+  - D
+  - |+
+    I said, Well, I'm not dead. I don't think I look old, even for my age. And I said, I don't drink.
+
+    You know, a lot of people think because we're morticians, and we're in the business of dealing with this on a day-to-day basis, that we're cold. But we react the same way when we lose a loved one. I mean, there's no different. And the best part is, meeting the needs of the families. Their loads should just be a little bit lighter. That's what I strive to do every day, to make people feel better.
+  - morticians|day-to-day|loads|strive
+---
+-
+  - genre
+  - text
+  - id
+  - target
+  - content
+  - answer
+-
+  - intermediate
+  - undertaker
+  - 1
+  - A
+  - Everybody thought Reed's fascination with being an undertaker was crazy.
+  - True
+-
+  - intermediate
+  - undertaker
+  - 2
+  - A
+  - Reed didn't want to be an undertaker when he was in first grade.
+  - False
+-
+  - intermediate
+  - undertaker
+  - 3
+  - B
+  - Grandma was killed in a car, but when she was buried she looked great.
+  - True
+-
+  - intermediate
+  - undertaker
+  - 4
+  - B
+  - Reed would kill a pet sister and have a funeral.
+  - False
+-
+  - intermediate
+  - undertaker
+  - 5
+  - C
+  - People think undertakers are old, cold and drink a lot.
+  - True
+-
+  - intermediate
+  - undertaker
+  - 6
+  - C
+  - Reed looks old and cold and drinks a lot.
+  - False
+-
+  - intermediate
+  - undertaker
+  - 7
+  - D
+  - People in the business are no different to a lot of people when they lose loved ones.
+  - True
+-
+  - intermediate
+  - undertaker
+  - 8
+  - D
+  - People in the business react coldly when a lot of people lose loved ones.
+  - False
