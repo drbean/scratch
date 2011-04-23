@@ -129,11 +129,11 @@ sale:
         answer: True
       - question: The price is right.
         answer: True
-      - question: The place is right.
-        answer: True
       - question: The promotion is satisfactory.
         answer: True
       - question: A sale is made.
+        answer: True
+      - question: The place is right.
         answer: True
   banana2:
     identifier: banana
@@ -160,15 +160,15 @@ sale:
        \item [Promotion] There are always a lot of fruit on display.
        \end{description}
     quiz:
-      - question: The product is okay.
-        answer: True
-      - question: The price is right.
-        answer: False
       - question: The place is right.
         answer: True
       - question: The promotion is satisfactory.
         answer: True
       - question: A sale is made.
+        answer: False
+      - question: The product is okay.
+        answer: True
+      - question: The price is right.
         answer: False
   oil:
     identifier: oil
@@ -197,9 +197,9 @@ sale:
     quiz:
       - question: The product is okay.
         answer: False
-      - question: The price is right.
-        answer: True
       - question: The place is right.
+        answer: True
+      - question: The price is right.
         answer: True
       - question: The promotion is satisfactory.
         answer: True
@@ -230,15 +230,15 @@ sale:
        \item [Promotion] The rice on sale is always displayed at the front of the store.
        \end{description}
     quiz:
-      - question: The product is okay.
-        answer: True
       - question: The price is right.
         answer: False
-      - question: The place is right.
-        answer: True
       - question: The promotion is satisfactory.
         answer: True
+      - question: The product is okay.
+        answer: True
       - question: A sale is made.
+        answer: True
+      - question: The place is right.
         answer: True
 water:
  jigsaw:
