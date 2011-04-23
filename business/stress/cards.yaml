@@ -260,28 +260,28 @@ adventure:
           - uncertainty
           - support
           - pressure
-        answer: 
+        answer: control
       - question: Dr Bean's issue:
         option:
           - control
           - uncertainty
           - support
           - pressure
-        answer: 
+        answer: uncertainty
       - question: Ellen's issue:
         option:
           - control
           - uncertainty
           - support
           - pressure
-        answer: 
+        answer: support
       - question: Steve's issue:
         option:
           - control
           - uncertainty
           - support
           - pressure
-        answer: 
+        answer: pressure
   5:
     identifier: adventure stress 5
     A: |
@@ -304,6 +304,35 @@ adventure:
         \item [Dr Bean] has no control over what the students say, think and learn.
         \item [Ellen] felt stress, not knowing what was going to happen.
         \item [Steve] had some problems and he asked his team about them.
+    quiz:
+      - question: The students' issue:
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: pressure
+      - question: Dr Bean's issue:
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: control
+      - question: Ellen's issue:
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: uncertainty
+      - question: Steve's issue:
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: support
   6:
     identifier: adventure stress 6
     A: |
@@ -326,6 +355,35 @@ adventure:
         \item [Dr Bean] can fail as many students as he wants to fail.
         \item [Ellen] was able to sail away from danger.
         \item [Steve] felt stress. He didn't know if the weather would be good.
+    quiz:
+      - question: The students' issue:
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: support
+      - question: Dr Bean's issue:
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: pressure
+      - question: Ellen's issue:
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: control
+      - question: Steve's issue:
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: uncertainty
   7:
     identifier: adventure stress 7
     A: |
@@ -348,6 +406,35 @@ adventure:
         \item [Dr Bean] sometimes wants other teachers' help with problems.
         \item [Ellen]'s relationship with B\&Q is stressful for her.
         \item [Steve] was afraid strong winds would destroy the balloon.
+    quiz:
+      - question: The students' issue:
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: uncertainty
+      - question: Dr Bean's issue:
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: support
+      - question: Ellen's issue:
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: pressure
+      - question: Steve's issue:
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: control
  compcomp:
    0:
      identifier: adventure stress causes 0
