@@ -34,41 +34,39 @@ category:
         - question: Question 4b. Relationships. Ross's best friend, Chandler is his sister's boyfriend.
           answer: True
         - question: Question 4c. Marital status. Chandler will later marry Monica.
-18-25:
+1-8:
   compcomp:
-    1:
-      identifier: season 6, part 3
+    2:
+      identifier: Who's living with who?
       White: |+
-        \begin{normalsize}Chandler proposes\end{normalsize}\\
-        \normalsize
-        Chandler's story
+        \begin{normalsize}Who Ross, Phoebe, Chandler are living with \end{normalsize}
         \begin{description}
-        \item [Background] Chandler tells Monica he isn't ready for marriage. But secretly Chandler has decided to ask Monica to marry him.
-        \item [Actions] He intends to propose at a restaurant. Then Richard appears. When he tries to find Monica again later, he can't. He goes to see Richard. Richard tells him he also loves Monica. Chandler thinks he has lost Monica.
-        \item [Conclusion] Chandler returns to the apartment and proposes.
+        \item [Ross]is living with Chandler. Rachel then moves in with Ross.
+        \item [Phoebe]offers Rachel a room in her apartment, but Rachel doesn't move in.
+        \item [Chandler]is living with Ross, but moves out and moves in with Monica.
         \end{description}
       Black: |+
-        \begin{normalsize}Monica's reply\end{normalsize}\\
-        \normalsize
-        Monica's story
+        \begin{normalsize}Who Monica, Rachel, Joey are living with \end{normalsize}
         \begin{description}
-        \item [Background] Monica wants to get married to Chandler and books a marriage hall.
-        \item [Actions] Monica and Chandler meet Monica's old boyfriend, Richard. Monica is getting weary of Chandler's reluctance to marry and goes to see Richard. Richard asks her to marry him. After leaving Richard, she disappears.
-        \item [Conclusion] Monica says, 'Yes.'
+        \item [Monica]is living with Rachel. Monica asks her to leave, so her boyfriend can move in.
+        \item [Rachel] is living with Monica, but she moves out and moves in with Ross.
+        \item [Joey] is living with a woman called Janine, but they do not have a relationship.
         \end{description}
       quiz:
-        - question: Chandler is ready for marriage, but Monica isn't.
+        - question: Question 5. Living arrangements. When Chandler moves in with Monica, there are 3 people, Chandler, Monica and Rachel all living in the same apartment.
           answer: False
-        - question: Richard's appearance at the restaurant prevents Chandler from proposing to Monica.
+        - question: Question 6. Living arrangements. When Chandler moves out of the apartment with Joey, Joey finds a woman called Janine to share the apartment with him.
           answer: True
-        - question: Richard doesn't want to marry Monica now.
+        - question: Question 7. Living arrangements. When Rachel leaves the apartment she shares with Monica, Phoebe offers her a room in her apartment.
+          answer: True
+        - question: Question 8a. Living arrangements. Chandler was living with Ross, before he moved in with Monica.
           answer: False
-        - question: After Monica talks to Richard, Monica is unhappy and after Chandler talks to Richard, Chandler is unhappy.
+        - question: Question 8b. Living arrangements. Ross was living by himself, before Rachel moved in.
           answer: True
-        - question: Chandler doesn't expect to find Monica in the apartment.
+        - question: Question 8c. Living arrangements. Phoebe was living with Joey. But Joey left, and Rachel moved in.
           answer: True
-        - question: Monica accepts Richard's rather than Chandler's proposal of marriage.
-          answer: False
+18-25:
+  compcomp:
     2:
       identifier: Who's related to who?
       White: |+
