@@ -93,8 +93,11 @@ topic:
         id: 8.3
         title: Rachel tells Ross she is pregnant
         blurb: |
-          Ross handles <a href=http://www.youtube.com/watch?v=1AD7x_Frmm0>the news</a> badly. What a <a href="http://www.urbandictionary.com/define.php?term=jerk">jerk</a>!
-        comment: But his and Joey's <a href="www.thefreedictionary.com/indignant">indignation</a> is very funny.
+          <ol>
+          <li>Ross handles <a href="http://www.youtube.com/watch?v=AoHYkHSIBDs">the news</a> badly. What a <a href="http://www.urbandictionary.com/define.php?term=jerk">jerk</a>!
+          <li>Phoebe and Ross <a href="http://www.youtube.com/watch?v=Pb8RYD0fjbg&NR=1">hear the news from Ross.</a>
+          </ol>
+        comment: But his and Joey's <a href="http://www.thefreedictionary.com/indignant">indignation</a> is very funny.
       -
         id: 8.12
         title: The One Where Joey dates Rachel
