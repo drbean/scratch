@@ -18,10 +18,13 @@ topic:
   -
     id: dying
     title: Death and dying
-    intro: The next three weeks we will be studying practices in the West connected with dying. This might seem <a href="http://www.google.com/search?q=morbid&num=30">morbid</a>. In fact, he doesn't want students to feel bad. He wants them to be able to feel good talking about something other people feel bad about.
+    intro: The next three weeks we will be studying how to die in English. Death might seem a <a href="http://www.google.com/search?q=morbid&num=30">morbid</a> subject. But the idea is not to feel bad. The idea is to have a good time talking about things others feel bad about.
     story:
       -
-        id: watterson
+        id: reed
+        title: A Life with the Dead
+        blurb: Sam Reed, an undertaker and caretaker of <a href="http://www.oaklandcemetery.com/">Historic Oakland Cemetery</a> in Atlanta, Georgia speaks of <a href="http://www.npr.org/templates/story/story.php?storyId=120127584">life as an undertaker</a>.
+        comment: Oakland Cemetery is in <a href="http://maps.google.com/?ie=UTF8&ll=33.746824,-84.374657&spn=0.039395,0.083342&z=14&layer=c&cbll=33.746817,-84.375026&panoid=jZj_3DDl3FEXmB5LKuro3Q&cbp=12,359.91,,0,0">Atlanta, Georgia</a> in the South of the United States. Sam Reed speaks with a <a href="http://en.wikipedia.org/wiki/Southern_American_English">Southern accent</a>. Listen to <a href="http://www.asiteaboutnothing.net/w_southern.html">some Southern speakers</a>.
   -
     id: disease
     title: Coping with disease
