@@ -299,25 +299,25 @@ genre: friends
             - Rachel
             - Ross
           answer: Phoebe
-        - question: A
+        # - question: A
           #option:
           #  - Monica
           #  - Phoebe
           #  - Rachel
           #  - Ross
-          answer: Other
+          # answer: Other
         - question: Rachel wanted to steal Monica's thunder.
           answer: False
-        - question: Monica is mad that Rachel and Ross were kissing.
+        - question: Monica is mad at Rachel and Ross.
           answer: True
-        - question: Rachel started the argument.
+        - question: "To 'steal thunder' means to be less noisy."
           answer: False
         - question: Monica wanted all eyes on her.
           answer: True
-        - question: Phobe shouts because she is mad at Monica.
+        - question: Phoebe is very happy and shouts with joy.
           answer: True
-        #- question: Ross doesn't mind that Rachel changed her mind.
-        #  answer: False
+        - question: Ross doesn't mind that Rachel changed her mind.
+          answer: False
 24:
   compcomp:
     0:
