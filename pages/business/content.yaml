@@ -283,10 +283,15 @@ topic:
         blurb: Jonathan Turner heads <a href="http://www.oxfordsm.com">Oxford Strategic Management</a>, a market research company. He thinks there are 3 things the successful marketer must have, a feeling for what consumers are thinking, an understanding of how the company makes money from its consumers, and an ability to excite everyone in the company about the company's marketing strategy.
         comment: Find the soundfile on elearning. It's the 'Recording' at the end of the menu bar for the 'Study Communication Center'. Find your section on it.
   -
-    id: kendall
+    id: planning
     title: Kendall and planning
     intro: William Kendall became a millionaire with an organic chocolate company.
     story:
+      -
+        id: graham
+        title: Teresa Graham talks about plans
+        blurb: Teresa Graham on page 72 of the textbook, Market Leader, talks about why plans are necessary, and how to use your customers to help you make them.
+        comment: Find the soundfiles on elearning. They're the 'Graham1,2,3' files at the end of the menu bar for the 'Study Communication Center'. Find your section in them.
       -
         id: plans
         title: Plans and how they help a company succeed
