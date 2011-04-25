@@ -16,14 +16,14 @@ my $l = League->new( leagues => '/home/drbean/992', id => $dir );
 my $g = Grades->new({ league => $l });
 my $members = $l->members;
 my %m = map { $_->{id} => $_ } @$members;
-# my $grades = $g->grades;
+my $grades = $g->grades;
 
-my $session = 1;
+my $session = 3;
 
 my $gs = LoadFile "classwork/$session/groups.yaml";
 my @colors = sort keys %$gs;
 my ( %g, @t, $m );
-my @graded = sort { $m{$a}->{rating} <=> $m{$b}->{rating} }keys %m;
+my @graded = sort { $grades->{$a} <=> $grades->{$b} }keys %m;
 push @t, [ $_, $m{$_}->{name} ] for @graded;
 my $fourth = ceil @t/4;
 my $rumpPlayers = @t % 4;
