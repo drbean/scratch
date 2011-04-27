@@ -43,20 +43,20 @@ topic:
         id: 6.1-8
         title: Season 6, Part 1 (Episodes 1-8)
         blurb: |
-          This <a href="http://www.youtube.com/watch?v=ZedZ2Vw7Fqk">collection of short clips from the first 8 episodes of the 6th season</a> is difficult to understand unless you read the <a href="http://www.imdb.com/title/tt0108778/episodes#season-6">Episode 1-8 plot summaries</a>. Look also at <a href="http://www.tv.com/friends/the-one-where-phoebe-runs/episode/472/trivia.html">Season 6, Episode 7 notes</a>
+          This <a href="http://www.youtube.com/watch?v=ZedZ2Vw7Fqk">collection of short clips from the first 8 episodes of the 6th season</a> is difficult to understand unless you read the <a href="http://www.imdb.com/title/tt0108778/episodes#s-6">Episode 1-8 plot summaries</a>. Look also at <a href="http://www.tv.com/friends/the-one-where-phoebe-runs/episode/472/trivia.html">Season 6, Episode 7 notes</a>
         comment: |
           Chandler is moving out of the apartment with Joey and moving in with Monica. Joey finds a woman to move in with him. Ross and Rachel are married to each other, but are trying to get a divorce or annulment, even though they like each other. Ross is trying to date other women, but he thinks he repels them.
       -
         id: 6.18-25
         title: Season 6, Part 3 (Episodes 18-25)--Chandler proposes to Monica
         blurb: |
-          We will skip Part 2 and do Part 3, where Chandler<a href=http://www.google.com/search?hl=en&source=hp&ie=ISO-8859-1&q=propose&btnG=Google+Search> proposes</a> to Monica. This <a href="http://www.youtube.com/watch?v=BJ2veDOC0RI">collection of short clips from the last 8 episodes of the 6th season</a> will be difficult to understand unless you read the <a href="http://www.imdb.com/title/tt0108778/episodes#season-6">Episode 18-25 plot summaries</a>. Look also at <a href="http://www.tv.com/friends/show/71/episode.html?season=6&tag=list_header;paginator;6">Season 6 Episode Guide</a>
+          We will skip Part 2 and do Part 3, where Chandler<a href=http://www.google.com/search?hl=en&source=hp&ie=ISO-8859-1&q=propose&btnG=Google+Search> proposes</a> to Monica. This <a href="http://www.youtube.com/watch?v=BJ2veDOC0RI">collection of short clips from the last 8 episodes of the 6th season</a> will be difficult to understand unless you read the <a href="http://www.imdb.com/title/tt0108778/episodes#s-6">Episode 18-25 plot summaries</a>. Look also at <a href="http://www.tv.com/friends/show/71/episode.html?season=6&tag=list_header;paginator;6">Season 6 Episode Guide</a>
         comment: |
           Ross is trying to date Elizabeth, his student, but Elizabeth's father, Paul, who is dating Rachel, says he will get him fired until Ross threatens to reveals Paul's self-identification as Rachel's 'love machine.' Meanwhile Joey misses an audition and breaks his fridge. He asks Chandler and Ross to pay for a new one.
   -
     id: 7
     title: Season 7
-    intro: <a href="http://www.imdb.com/title/tt0108778/episodes#season-7">This season</a> features Chandler and Monica's preparations for their wedding, Rachel's relationships, and Joey's acting career.
+    intro: <a href="http://www.imdb.com/title/tt0108778/episodes#s-7">This season</a> features Chandler and Monica's preparations for their wedding, Rachel's relationships, and Joey's acting career.
     story:
       -
         id: 7.10
@@ -87,7 +87,7 @@ topic:
   -
     id: 8
     title: Season 8
-    intro: <a href="http://www.imdb.com/title/tt0108778/episodes#season-8">This season</a> features Rachel's pregnancy
+    intro: <a href="http://www.imdb.com/title/tt0108778/episodes#s-8">This season</a> features Rachel's pregnancy
     story:
       -
         id: 8.3
@@ -112,7 +112,7 @@ topic:
   -
     id: 9
     title: Season 9
-    intro: <a href="http://www.imdb.com/title/tt0108778/episodes#season-8">This season</a> features Rachel's pregnancy
+    intro: <a href="http://www.imdb.com/title/tt0108778/episodes#s-9">This season</a> features Rachel and her baby.
     story:
       -
         id: 9.06
