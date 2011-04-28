@@ -1,150 +1,13 @@
-   #[1]IMDb
-
-   IFRAME:
-   [2]/images/SF8dcd77f70a5de2a050e47b985a4dfa00/a/js/scriptloader.html#aa
-   n,fc
-
-   IFRAME: [3]floating1
-
-   [4]advertisement
-
-   IFRAME: [5]top_ad
-
-   [6]advertisement
-   [7]IMDb
-   [8]Search
-   [9][(1)__All........] [10]____________________  ([11]Submit)
-   Go  [12]More
-   [13]Register | [14]Login | [15]Help
-     * [16]Movies
-          + [17]Now Playing
-          + [18]Top Movies
-          + [19]Showtimes & Tickets
-          + [20]Trailers
-          + [21]My Movies
-          + [22]DVD & Blu-Ray
-          + [23]Independent Film
-          + [24]Top 250
-          + [25]Site Index
-          + [26]Genres
-          + [27]Horror
-          + [28]Summer Movie Guide
-          + [29]Tribeca Film Festival
-          + [30]TCM Classic Film Festival
-     * [31]TV
-          + [32]TV Home
-          + [33]TV Listings
-          + [34]TV Episodes & Clips
-          + [35]Best TV Series
-     * [36]News
-          + [37]Top News
-          + [38]Movie News
-          + [39]TV News
-          + [40]Celebrity News
-          + [41]Featured News
-          + [42]IMDb Snapshot
-     * [43]Videos
-          + [44]Videos Home
-          + [45]HD Trailer Gallery
-          + [46]Trailers
-          + [47]TV Episodes & Clips
-          + [48]Browse Videos
-     * [49]Community
-          + [50]Message Boards
-          + [51]Contributor Zone
-          + [52]Lists
-          + [53]Rate Titles
-          + [54]Your Ratings
-          + [55]Jobs at IMDb
-     * [56]IMDbPro
-          + [57]IMDbPro
-          + [58]IMDb Resume
-          + [59]Content Licensing
-
-   NEW!  [60]Your Watchlist
-
-   [61]IMDb > [62]"Friends" (1994) > Episode list
-   [63]"Friends"
-
-   [64]Watch it at Amazon
-   [65]Buy it at Amazon
      __________________________________________________________________
 
-   [66]More at IMDb Pro [67]Discuss in Boards [68]More at IMDb Pro [69]Add
-   to My Movies [70]Update Data
-
-Quicklinks
-
-   [71][(5)__episode list.......]
-
-Top Links
-
-   [72]trailers and videos[73]full cast and crew[74]trivia[75]official
-   sites[76]memorable quotes
-
-Overview
-
-   [77]main details[78]combined details[79]full cast and crew[80]company
-   credits[81]episode list[82]episodes cast[83]episode ratings[84]... by
-   rating[85]... by votes
-
-Awards & Reviews
-
-   [86]user reviews[87]external reviews[88]awards[89]user
-   ratings[90]recommendations[91]message board
-
-Plot & Quotes
-
-   [92]plot summary[93]plot keywords[94]memorable quotes
-
-Did You Know?
-
-   [95]trivia[96]goofs[97]soundtrack listing[98]crazy credits[99]alternate
-   versions[100]movie connections[101]FAQ
-
-Other Info
-
-   [102]box office/business[103]release dates[104]filming
-   locations[105]technical specs[106]literature listings[107]NewsDesk
-
-Promotional
-
-   [108]taglines [109]trailers and videos [110]posters [111]photo gallery
-
-External Links
-
-   [112]showtimes[113]official
-   sites[114]miscellaneous[115]photographs[116]sound clips[117]video clips
-
-Episode list for
-[118]"Friends" ([119]1994) [120]More at IMDbPro »
-
-   IFRAME: [121]top_rhs
-
-   [122]advertisement
-   [123]ad feedback
-
-View by:
-
-   Episodes: All (238)  |  With full-length videos ()  |  With videos ()
-   | [124]See all videos (5) »
-
-   Season: 1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  10
-   Year: 1994  |  1995  |  1996  |  1997  |  1998  |  1999  |  2000  |
-   2001  |  2002  |  2003  |  2004
-     __________________________________________________________________
-
-[125]Season 1
-     __________________________________________________________________
-
-Season 1, Episode 1: [126]The One Where Monica Gets a Roommate
+Season 1, Episode 1: The One Where Monica Gets a Roommate
 
    Original Air Date—22 September 1994
    Rachel runs from her wedding and meets the friends in the coffee place.
    Ross is depressed about his divorce but he still has a crush on Rachel.
      __________________________________________________________________
 
-Season 1, Episode 2: [127]The One with the Sonogram at the End
+Season 1, Episode 2: The One with the Sonogram at the End
 
    Original Air Date—29 September 1994
    In this episode, Ross finds out that his ex-wife Carol is pregnant with
@@ -156,7 +19,7 @@ Season 1, Episode 2: [127]The One with the Sonogram at the End
    honor Mindy.
      __________________________________________________________________
 
-Season 1, Episode 3: [128]The One with the Thumb
+Season 1, Episode 3: The One with the Thumb
 
    Original Air Date—6 October 1994
    Monica is reluctant to introduce her new boyfriend, Alan, to her
@@ -171,7 +34,7 @@ Season 1, Episode 3: [128]The One with the Thumb
    thumb, so the soda company gives her $7,000.
      __________________________________________________________________
 
-Season 1, Episode 4: [129]The One with George Stephanopoulos
+Season 1, Episode 4: The One with George Stephanopoulos
 
    Original Air Date—13 October 1994
    Joey and Chandler take Ross to a hockey game to keep his mind off of
@@ -180,7 +43,7 @@ Season 1, Episode 4: [129]The One with George Stephanopoulos
    Monica's balcony.
      __________________________________________________________________
 
-Season 1, Episode 5: [130]The One with the East German Laundry Detergent
+Season 1, Episode 5: The One with the East German Laundry Detergent
 
    Original Air Date—20 October 1994
    Eager to spend time with Rachel, Ross pretends his building's washroom
@@ -199,7 +62,7 @@ Season 1, Episode 5: [130]The One with the East German Laundry Detergent
    desperately trying to break up with neurotic Janice.
      __________________________________________________________________
 
-Season 1, Episode 6: [131]The One with the Butt
+Season 1, Episode 6: The One with the Butt
 
    Original Air Date—27 October 1994
    The friends attend Joey's new musical, Freud. At the theater, Chandler
@@ -208,7 +71,7 @@ Season 1, Episode 6: [131]The One with the Butt
    boyfriend.
      __________________________________________________________________
 
-Season 1, Episode 7: [132]The One with the Blackout
+Season 1, Episode 7: The One with the Blackout
 
    Original Air Date—3 November 1994
    When a power-cut blacks out most of New York City, Chandler, to his
@@ -231,7 +94,7 @@ Season 1, Episode 7: [132]The One with the Blackout
    Ross's flirting, even not being able to speak English.
      __________________________________________________________________
 
-Season 1, Episode 8: [133]The One Where Nana Dies Twice
+Season 1, Episode 8: The One Where Nana Dies Twice
 
    Original Air Date—10 November 1994
    Chandler is shocked to learn that people he works with think that he is
@@ -244,7 +107,7 @@ Next US airings:
    [134]Wed. Apr. 27 [135]5:30 PM [136]TBS
      __________________________________________________________________
 
-Season 1, Episode 9: [137]The One Where Underdog Gets Away
+Season 1, Episode 9: The One Where Underdog Gets Away
 
    Original Air Date—17 November 1994
    With their parents away Monica and Ross decide to have Thanksgiving
@@ -261,7 +124,7 @@ Season 1, Episode 9: [137]The One Where Underdog Gets Away
    cheese sandwiches.
      __________________________________________________________________
 
-Season 1, Episode 10: [138]The One with the Monkey
+Season 1, Episode 10: The One with the Monkey
 
    Original Air Date—15 December 1994
    It is almost New Years and lonely Ross adopts capucin monkey Marcel.
@@ -271,7 +134,7 @@ Season 1, Episode 10: [138]The One with the Monkey
    madness, Joey kisses Chandler at midnight.
      __________________________________________________________________
 
-Season 1, Episode 11: [139]The One with Mrs. Bing
+Season 1, Episode 11: The One with Mrs. Bing
 
    Original Air Date—5 January 1995
    Chandler's popular, best-selling author mom, Nora Tyler Bing, announces
@@ -295,7 +158,7 @@ Next US airings:
    [140]Thur. Apr. 28 [141]5:30 PM [142]TBS
      __________________________________________________________________
 
-Season 1, Episode 12: [143]The One with the Dozen Lasagnas
+Season 1, Episode 12: The One with the Dozen Lasagnas
 
    Original Air Date—12 January 1995
    Paolo and Rachel prepare for a weekend getaway, but before they go
@@ -308,7 +171,7 @@ Next US airings:
    [144]Fri. Apr. 29 [145]5:30 PM [146]TBS
      __________________________________________________________________
 
-Season 1, Episode 13: [147]The One with the Boobies
+Season 1, Episode 13: The One with the Boobies
 
    Original Air Date—19 January 1995
    Chandler inadvertently sees Rachel's breasts as she comes out of the
@@ -321,7 +184,7 @@ Next US airings:
    [148]Mon. May 2 [149]5:30 PM [150]TBS
      __________________________________________________________________
 
-Season 1, Episode 14: [151]The One with the Candy Hearts
+Season 1, Episode 14: The One with the Candy Hearts
 
    Original Air Date—9 February 1995
    It is Valentine's day and only the boys have got dates. After an
@@ -341,7 +204,7 @@ Season 1, Episode 14: [151]The One with the Candy Hearts
    calling three hunky firemen to the apartment.
      __________________________________________________________________
 
-Season 1, Episode 15: [152]The One with the Stoned Guy
+Season 1, Episode 15: The One with the Stoned Guy
 
    Original Air Date—16 February 1995
    Phoebe's friend Steve is looking for a new chef for his restaurant.
@@ -354,7 +217,7 @@ Next US airings:
    [153]Tue. May 3 [154]5:30 PM [155]TBS
      __________________________________________________________________
 
-Season 1, Episode 16: [156]The One with Two Parts: Part 1
+Season 1, Episode 16: The One with Two Parts: Part 1
 
    Original Air Date—23 February 1995
    Chandler's boss orders him to tell his foxy junior co-worker Nina that
@@ -374,7 +237,7 @@ Next US airings:
    [157]Wed. May 4 [158]5:30 PM [159]TBS
      __________________________________________________________________
 
-Season 1, Episode 17: [160]The One with Two Parts: Part 2
+Season 1, Episode 17: The One with Two Parts: Part 2
 
    Original Air Date—23 February 1995
    Following an accident in the apartment, Rachel is admitted to hospital
@@ -387,7 +250,7 @@ Next US airings:
    [161]Thur. May 5 [162]5:30 PM [163]TBS
      __________________________________________________________________
 
-Season 1, Episode 18: [164]The One with All the Poker
+Season 1, Episode 18: The One with All the Poker
 
    Original Air Date—2 March 1995
    The friends play poker together.
@@ -397,7 +260,7 @@ Next US airings:
    [165]Fri. May 6 [166]5:30 PM [167]TBS
      __________________________________________________________________
 
-Season 1, Episode 19: [168]The One Where the Monkey Gets Away
+Season 1, Episode 19: The One Where the Monkey Gets Away
 
    Original Air Date—9 March 1995
    Rachel loses Ross's monkey, and everyone looks for him.
@@ -407,7 +270,7 @@ Next US airings:
    [169]Mon. May 9 [170]5:30 PM [171]TBS
      __________________________________________________________________
 
-Season 1, Episode 20: [172]The One with the Evil Orthodontist
+Season 1, Episode 20: The One with the Evil Orthodontist
 
    Original Air Date—6 April 1995
    The friends are angry to discover someone watches them by telescope,
@@ -421,14 +284,14 @@ Season 1, Episode 20: [172]The One with the Evil Orthodontist
    confiding she suspects Barry to have an affair.
      __________________________________________________________________
 
-Season 1, Episode 21: [173]The One with the Fake Monica
+Season 1, Episode 21: The One with the Fake Monica
 
    Original Air Date—27 April 1995
    Monica becomes friends with a woman who stole her credit card. Ross has
    to get rid of his monkey.
      __________________________________________________________________
 
-Season 1, Episode 22: [174]The One with the Ick Factor
+Season 1, Episode 22: The One with the Ick Factor
 
    Original Air Date—4 May 1995
    Rachel had a dream about her and Chandler having sex and Ross is
@@ -447,7 +310,7 @@ Season 1, Episode 22: [174]The One with the Ick Factor
    hospital.
      __________________________________________________________________
 
-Season 1, Episode 23: [175]The One with the Birth
+Season 1, Episode 23: The One with the Birth
 
    Original Air Date—11 May 1995
    When Ross' ex wife Carol is rushed to the hospital to have their baby,
@@ -460,7 +323,7 @@ Season 1, Episode 23: [175]The One with the Birth
    the pair, to lock all three of them in a janitorial closet.
      __________________________________________________________________
 
-Season 1, Episode 24: [176]The One Where Rachel Finds Out
+Season 1, Episode 24: The One Where Rachel Finds Out
 
    Original Air Date—18 May 1995
    Joey is taking part in a fertility study and he really likes his
@@ -477,7 +340,7 @@ Season 1, Episode 24: [176]The One Where Rachel Finds Out
 [177]Season 2
      __________________________________________________________________
 
-Season 2, Episode 1: [178]The One with Ross's New Girlfriend
+Season 2, Episode 1: The One with Ross's New Girlfriend
 
    Original Air Date—21 September 1995
    Now Ross is back from China, but has brought a new girlfriend, Chandler
@@ -491,7 +354,7 @@ Season 2, Episode 1: [178]The One with Ross's New Girlfriend
    intimate manual contact at groin height.
      __________________________________________________________________
 
-Season 2, Episode 2: [179]The One with the Breast Milk
+Season 2, Episode 2: The One with the Breast Milk
 
    Original Air Date—28 September 1995
    Joey is having trouble with a new guy at work who dresses like a cowboy
@@ -504,7 +367,7 @@ Season 2, Episode 2: [179]The One with the Breast Milk
    Ross tries the breast milk after all.
      __________________________________________________________________
 
-Season 2, Episode 3: [180]The One Where Heckles Dies
+Season 2, Episode 3: The One Where Heckles Dies
 
    Original Air Date—5 October 1995
    Heckles who lives in the appartement underneath Monica and Rachel is
@@ -515,7 +378,7 @@ Season 2, Episode 3: [180]The One Where Heckles Dies
    Heckles and is afraid he will die all alone just like Heckles.
      __________________________________________________________________
 
-Season 2, Episode 4: [181]The One with Phoebe's Husband
+Season 2, Episode 4: The One with Phoebe's Husband
 
    Original Air Date—12 October 1995
    Six years Phoebe got married to a gay friend of hers from Canada who
@@ -531,7 +394,7 @@ Season 2, Episode 4: [181]The One with Phoebe's Husband
    to talk Ross out of sleeping with Julie but doesn't succeed.
      __________________________________________________________________
 
-Season 2, Episode 5: [182]The One with Five Steaks and an Eggplant
+Season 2, Episode 5: The One with Five Steaks and an Eggplant
 
    Original Air Date—19 October 1995
    Chandler gets a phone call from a strange woman who wanted to call her
@@ -545,14 +408,14 @@ Season 2, Episode 5: [182]The One with Five Steaks and an Eggplant
    for taking 5 steaks and an eggplant from work.
      __________________________________________________________________
 
-Season 2, Episode 6: [183]The One with the Baby on the Bus
+Season 2, Episode 6: The One with the Baby on the Bus
 
    Original Air Date—2 November 1995
    When Monica takes Ross to the hospital, Joey and Chandler are in charge
    of baby Ben. Phoebe deals with a new musician in Central Perk.
      __________________________________________________________________
 
-Season 2, Episode 7: [184]The One Where Ross Finds Out
+Season 2, Episode 7: The One Where Ross Finds Out
 
    Original Air Date—9 November 1995
    Rachel claims to be over Ross and Monica sets her up with a date.
@@ -566,7 +429,7 @@ Season 2, Episode 7: [184]The One Where Ross Finds Out
    knew and now he isn't. They argue and kiss - for the first time!
      __________________________________________________________________
 
-Season 2, Episode 8: [185]The One with the List
+Season 2, Episode 8: The One with the List
 
    Original Air Date—16 November 1995
    Rachel tells Phoebe and Monica, Ross tells Chandler and Joey about
@@ -582,7 +445,7 @@ Season 2, Episode 8: [185]The One with the List
    with Ross anymore. Ross gives everything to win Rachel back.
      __________________________________________________________________
 
-Season 2, Episode 9: [186]The One with Phoebe's Dad
+Season 2, Episode 9: The One with Phoebe's Dad
 
    Original Air Date—14 December 1995
    The friends are preparing for the festive season. Rachel is still mad
@@ -598,7 +461,7 @@ Season 2, Episode 9: [186]The One with Phoebe's Dad
    disappointed in her dad and doesn't go to meet her dad.
      __________________________________________________________________
 
-Season 2, Episode 10: [187]The One with Russ
+Season 2, Episode 10: The One with Russ
 
    Original Air Date—4 January 1996
    Joey gets lots of bad reviews for his play. Monica is back with Bobby
@@ -615,7 +478,7 @@ Season 2, Episode 10: [187]The One with Russ
    for Ross and Russ and she fall for each other.
      __________________________________________________________________
 
-Season 2, Episode 11: [188]The One with the Lesbian Wedding
+Season 2, Episode 11: The One with the Lesbian Wedding
 
    Original Air Date—18 January 1996
    Ross isn't confident enough to accept attending his ex Carol's lesbian
@@ -633,7 +496,7 @@ Season 2, Episode 11: [188]The One with the Lesbian Wedding
    Carol's parents won't give her away...
      __________________________________________________________________
 
-Season 2, Episode 12: [189]The One After the Superbowl: Part 1
+Season 2, Episode 12: The One After the Superbowl: Part 1
 
    Original Air Date—28 January 1996
    Joey's first fan-mail -for his character, Dr. Drake Ramore- is from
@@ -648,7 +511,7 @@ Season 2, Episode 12: [189]The One After the Superbowl: Part 1
    they all go there...
      __________________________________________________________________
 
-Season 2, Episode 13: [190]The One After the Superbowl: Part 2
+Season 2, Episode 13: The One After the Superbowl: Part 2
 
    Original Air Date—28 January 1996
    At the site of the movie co-starring the capucin Marcel, Ross is
@@ -663,7 +526,7 @@ Season 2, Episode 13: [190]The One After the Superbowl: Part 2
    the kick... Finally Ross gets a surprise.
      __________________________________________________________________
 
-Season 2, Episode 14: [191]The One with the Prom Video
+Season 2, Episode 14: The One with the Prom Video
 
    Original Air Date—1 February 1996
    Monica still can't get a job, and money is becoming tight. Ross gets
@@ -675,7 +538,7 @@ Season 2, Episode 14: [191]The One with the Prom Video
    discovered, Ross's true feelings for Rachel are shown.
      __________________________________________________________________
 
-Season 2, Episode 15: [192]The One Where Ross and Rachel... You Know
+Season 2, Episode 15: The One Where Ross and Rachel... You Know
 
    Original Air Date—8 February 1996
    Joey buys two armchairs and a big screen TV and they never want to get
@@ -684,7 +547,7 @@ Season 2, Episode 15: [192]The One Where Ross and Rachel... You Know
    her parents who is 21 years older than her.
      __________________________________________________________________
 
-Season 2, Episode 16: [193]The One Where Joey Moves Out
+Season 2, Episode 16: The One Where Joey Moves Out
 
    Original Air Date—15 February 1996
    Phoebe talks Rachel into getting a tattoo despite, or rather because
@@ -697,7 +560,7 @@ Season 2, Episode 16: [193]The One Where Joey Moves Out
    he has a good contract and another actor moves to an even posher one.
      __________________________________________________________________
 
-Season 2, Episode 17: [194]The One Where Eddie Moves In
+Season 2, Episode 17: The One Where Eddie Moves In
 
    Original Air Date—22 February 1996
    Joey shows the friends his new apartment. Chandler and Joey miss each
@@ -710,7 +573,7 @@ Season 2, Episode 17: [194]The One Where Eddie Moves In
    Baywatch...
      __________________________________________________________________
 
-Season 2, Episode 18: [195]The One Where Dr. Ramoray Dies
+Season 2, Episode 18: The One Where Dr. Ramoray Dies
 
    Original Air Date—21 March 1996
    Chandler finds out Eddy is not only much less fun then Joey, but
@@ -723,7 +586,7 @@ Season 2, Episode 18: [195]The One Where Dr. Ramoray Dies
    his death, ending his DOOL-career.
      __________________________________________________________________
 
-Season 2, Episode 19: [196]The One Where Eddie Won't Go
+Season 2, Episode 19: The One Where Eddie Won't Go
 
    Original Air Date—28 March 1996
    Even accommodating gentleman Chandler loses it when he finds out Eddie
@@ -739,7 +602,7 @@ Season 2, Episode 19: [196]The One Where Eddie Won't Go
    finds the perfect way to solve both his and Joey's problem.
      __________________________________________________________________
 
-Season 2, Episode 20: [197]The One Where Old Yeller Dies
+Season 2, Episode 20: The One Where Old Yeller Dies
 
    Original Air Date—4 April 1996
    Ross is upset that he misses so many of Ben's first things. Phoebe
@@ -754,7 +617,7 @@ Season 2, Episode 20: [197]The One Where Old Yeller Dies
    cool dad. Rachel is the only one who hears Ben speak his first word.
      __________________________________________________________________
 
-Season 2, Episode 21: [198]The One with the Bullies
+Season 2, Episode 21: The One with the Bullies
 
    Original Air Date—25 April 1996
    A bully at Central Perk steals Chandler's cap. Monica has a job
@@ -769,7 +632,7 @@ Season 2, Episode 21: [198]The One with the Bullies
    with the bullies on their side!
      __________________________________________________________________
 
-Season 2, Episode 22: [199]The One with the Two Parties
+Season 2, Episode 22: The One with the Two Parties
 
    Original Air Date—2 May 1996
    Planning Rachel's surprise birthday party. To prevent Rachel's parents
@@ -779,7 +642,7 @@ Season 2, Episode 22: [199]The One with the Two Parties
    the boys' great party. Rachel can't cope with their parents separation.
      __________________________________________________________________
 
-Season 2, Episode 23: [200]The One with the Chicken Pox
+Season 2, Episode 23: The One with the Chicken Pox
 
    Original Air Date—9 May 1996
    Ryan, a guy in the navy who Phoebe used to go out with is coming to the
@@ -794,7 +657,7 @@ Season 2, Episode 23: [200]The One with the Chicken Pox
    thing he is obsessive about. Ryan leaves.
      __________________________________________________________________
 
-Season 2, Episode 24: [201]The One with Barry and Mindy's Wedding
+Season 2, Episode 24: The One with Barry and Mindy's Wedding
 
    Original Air Date—16 May 1996
    Joey has a problem: he has to kiss a guy for an audition and Warren
@@ -816,7 +679,7 @@ Season 2, Episode 24: [201]The One with Barry and Mindy's Wedding
 [202]Season 3
      __________________________________________________________________
 
-Season 3, Episode 1: [203]The One with the Princess Leia Fantasy
+Season 3, Episode 1: The One with the Princess Leia Fantasy
 
    Original Air Date—16 September 1996
    Monica is a wandering zombie after dumping Richard for not sharing her
@@ -830,7 +693,7 @@ Season 3, Episode 1: [203]The One with the Princess Leia Fantasy
    Chandler's sake.
      __________________________________________________________________
 
-Season 3, Episode 2: [204]The One Where No One's Ready
+Season 3, Episode 2: The One Where No One's Ready
 
    Original Air Date—26 September 1996
    Ross becomes very frustrated with his friends when they fail to be
@@ -838,7 +701,7 @@ Season 3, Episode 2: [204]The One Where No One's Ready
    publicly moans at Rachel, she get her revenge by dressing outrageously.
      __________________________________________________________________
 
-Season 3, Episode 3: [205]The One with the Jam
+Season 3, Episode 3: The One with the Jam
 
    Original Air Date—3 October 1996
    Monica makes tons of jam to take control of her life and to get over
@@ -849,7 +712,7 @@ Season 3, Episode 3: [205]The One with the Jam
    family not just a child.
      __________________________________________________________________
 
-Season 3, Episode 4: [206]The One with the Metaphorical Tunnel
+Season 3, Episode 4: The One with the Metaphorical Tunnel
 
    Original Air Date—10 October 1996
    Joey misses an important audition because Phoebe forgot to give him the
@@ -868,7 +731,7 @@ Next US airings:
    [207]Sun. May 1 [208]8:00 PM [209]CW
      __________________________________________________________________
 
-Season 3, Episode 5: [210]The One with Frank Jr.
+Season 3, Episode 5: The One with Frank Jr.
 
    Original Air Date—17 October 1996
    Phoebe meets her brother Frank for the second time. The friends make
@@ -879,7 +742,7 @@ Next US airings:
    [211]Sun. May 1 [212]8:30 PM [213]CW
      __________________________________________________________________
 
-Season 3, Episode 6: [214]The One with the Flashback
+Season 3, Episode 6: The One with the Flashback
 
    Original Air Date—31 October 1996
    The friends remember the events three years earlier, when several of
@@ -890,7 +753,7 @@ Next US airings:
    [215]Sun. May 8 [216]8:00 PM [217]CW
      __________________________________________________________________
 
-Season 3, Episode 7: [218]The One with the Race Car Bed
+Season 3, Episode 7: The One with the Race Car Bed
 
    Original Air Date—7 November 1996
    Joey becomes a learning extension teacher in soap acting, and loves the
@@ -910,7 +773,7 @@ Next US airings:
    [219]Sun. May 8 [220]8:30 PM [221]CW
      __________________________________________________________________
 
-Season 3, Episode 8: [222]The One with the Giant Poking Device
+Season 3, Episode 8: The One with the Giant Poking Device
 
    Original Air Date—14 November 1996
    Phoebe doesn't want to go to the dentist because every time she does,
@@ -924,7 +787,7 @@ Season 3, Episode 8: [222]The One with the Giant Poking Device
    to her husband and child. Ugly Naked Guy is alive!
      __________________________________________________________________
 
-Season 3, Episode 9: [223]The One with the Football
+Season 3, Episode 9: The One with the Football
 
    Original Air Date—21 November 1996
    It's Thanksgiving, so everyone is dining Monica's festive meal. After
@@ -938,7 +801,7 @@ Season 3, Episode 9: [223]The One with the Football
    boys-girls, and every dirty trick is tried...
      __________________________________________________________________
 
-Season 3, Episode 10: [224]The One Where Rachel Quits
+Season 3, Episode 10: The One Where Rachel Quits
 
    Original Air Date—12 December 1996
    Ross breaks a girl's leg who was selling cookies in order to win a
@@ -950,7 +813,7 @@ Season 3, Episode 10: [224]The One Where Rachel Quits
    be Christmas trees. Rachel gets a new job.
      __________________________________________________________________
 
-Season 3, Episode 11: [225]The One Where Chandler Can't Remember Which Sister
+Season 3, Episode 11: The One Where Chandler Can't Remember Which Sister
 
    Original Air Date—9 January 1997
    Rachel hates her new 'fashion' job too as another dead end- Monica
@@ -964,7 +827,7 @@ Season 3, Episode 11: [225]The One Where Chandler Can't Remember Which Sister
    even let him get a word in.
      __________________________________________________________________
 
-Season 3, Episode 12: [226]The One with All the Jealousy
+Season 3, Episode 12: The One with All the Jealousy
 
    Original Air Date—16 January 1997
    It's Rachel's first day at the new job. Mark is taking her out for
@@ -978,7 +841,7 @@ Season 3, Episode 12: [226]The One with All the Jealousy
    friendship with Mark.
      __________________________________________________________________
 
-Season 3, Episode 13: [227]The One Where Monica and Richard Are Just Friends
+Season 3, Episode 13: The One Where Monica and Richard Are Just Friends
 
    Original Air Date—30 January 1997
    Monica bumps into Richard at the video shop. They go out for a burger
@@ -991,7 +854,7 @@ Season 3, Episode 13: [227]The One Where Monica and Richard Are Just Friends
    where they were and they both know how it's gonna end.
      __________________________________________________________________
 
-Season 3, Episode 14: [228]The One with Phoebe's Ex-Partner
+Season 3, Episode 14: The One with Phoebe's Ex-Partner
 
    Original Air Date—6 February 1997
    Phoebe's ex singing partner Leslie plays at Central Perk. Leslie left
@@ -1008,7 +871,7 @@ Season 3, Episode 14: [228]The One with Phoebe's Ex-Partner
    third nipple. Chandler lets the third nipple be removed surgically.
      __________________________________________________________________
 
-Season 3, Episode 15: [229]The One Where Ross and Rachel Take a Break
+Season 3, Episode 15: The One Where Ross and Rachel Take a Break
 
    Original Air Date—13 February 1997
    After a bitter fight with Rachel, Ross ends up sleeping with another
@@ -1016,7 +879,7 @@ Season 3, Episode 15: [229]The One Where Ross and Rachel Take a Break
    her.
      __________________________________________________________________
 
-Season 3, Episode 16: [230]The One the Morning After
+Season 3, Episode 16: The One the Morning After
 
    Original Air Date—20 February 1997
    The morning after Rachel declared they needed a break, she wakes up
@@ -1028,7 +891,7 @@ Season 3, Episode 16: [230]The One the Morning After
    dare to leave the bedroom where Monica and Phoebe had been waxing.
      __________________________________________________________________
 
-Season 3, Episode 17: [231]The One Without the Ski Trip
+Season 3, Episode 17: The One Without the Ski Trip
 
    Original Air Date—6 March 1997
    It's a week after Ross and Rachel broke up and they still don't get
@@ -1040,7 +903,7 @@ Season 3, Episode 17: [231]The One Without the Ski Trip
    hang out together again. Rachel and Ross promise to be civil.
      __________________________________________________________________
 
-Season 3, Episode 18: [232]The One with the Hypnosis Tape
+Season 3, Episode 18: The One with the Hypnosis Tape
 
    Original Air Date—13 March 1997
    Phoebe's brother Frank is getting married to a woman twice his age who
@@ -1052,7 +915,7 @@ Season 3, Episode 18: [232]The One with the Hypnosis Tape
    smoke. He begins to act like a female.
      __________________________________________________________________
 
-Season 3, Episode 19: [233]The One with the Tiny T-Shirt
+Season 3, Episode 19: The One with the Tiny T-Shirt
 
    Original Air Date—27 March 1997
    Monica thinks Pete is perfect but she is just not attracted to him.
@@ -1066,7 +929,7 @@ Season 3, Episode 19: [233]The One with the Tiny T-Shirt
    a crush on Kate but she is seeing the director of the play.
      __________________________________________________________________
 
-Season 3, Episode 20: [234]The One with the Dollhouse
+Season 3, Episode 20: The One with the Dollhouse
 
    Original Air Date—10 April 1997
    Kate is the first woman Joey liked who doesn't like him back. Monica's
@@ -1084,14 +947,14 @@ Season 3, Episode 20: [234]The One with the Dollhouse
    the courage to tell Joanna he doesn't want to see her again.
      __________________________________________________________________
 
-Season 3, Episode 21: [235]The One with the Chick and the Duck
+Season 3, Episode 21: The One with the Chick and the Duck
 
    Original Air Date—17 April 1997
    Joey buys a chick for him and Chandler, Monica gets offered a
    restaurant by Pete, and Ross gives up being on TV for Rachel.
      __________________________________________________________________
 
-Season 3, Episode 22: [236]The One with the Screamer
+Season 3, Episode 22: The One with the Screamer
 
    Original Air Date—24 April 1997
    They all go to Joey's play together. Joey is bringing Kate, Ross is
@@ -1103,7 +966,7 @@ Season 3, Episode 22: [236]The One with the Screamer
    in L.A..
      __________________________________________________________________
 
-Season 3, Episode 23: [237]The One with Ross's Thing
+Season 3, Episode 23: The One with Ross's Thing
 
    Original Air Date—1 May 1997
    "Ross' Thing" is something on his derrière. He doesn't know what it is.
@@ -1127,14 +990,14 @@ Season 3, Episode 23: [237]The One with Ross's Thing
    up making it for her when they meet each other.
      __________________________________________________________________
 
-Season 3, Episode 24: [238]The One with the Ultimate Fighting Champion
+Season 3, Episode 24: The One with the Ultimate Fighting Champion
 
    Original Air Date—8 May 1997
    Monica begs Pete to stop fighting after he is beaten up. Chandler is
    unnerved when his boss slaps his butt. Ross starts dating a new woman.
      __________________________________________________________________
 
-Season 3, Episode 25: [239]The One at the Beach
+Season 3, Episode 25: The One at the Beach
 
    Original Air Date—15 May 1997
    The friends go to the beach to learn more about Phoebe's family. Rachel
@@ -1144,7 +1007,7 @@ Season 3, Episode 25: [239]The One at the Beach
 [240]Season 4
      __________________________________________________________________
 
-Season 4, Episode 1: [241]The One with the Jellyfish
+Season 4, Episode 1: The One with the Jellyfish
 
    Original Air Date—25 September 1997
    Ross and Rachel get back together after Ross unknowingly takes full
@@ -1152,7 +1015,7 @@ Season 4, Episode 1: [241]The One with the Jellyfish
    was stung by a jellyfish, and Phoebe is mad after her mother.
      __________________________________________________________________
 
-Season 4, Episode 2: [242]The One with the Cat
+Season 4, Episode 2: The One with the Cat
 
    Original Air Date—2 October 1997
    A cat walks into Central Perk and Phoebe is convinced that it is her
@@ -1167,7 +1030,7 @@ Season 4, Episode 2: [242]The One with the Cat
    trade the entertainment center for a canoe.
      __________________________________________________________________
 
-Season 4, Episode 3: [243]The One with the 'Cuffs
+Season 4, Episode 3: The One with the 'Cuffs
 
    Original Air Date—9 October 1997
    Chandler sleeps with Rachel's boss Joanna. Rachel makes him end it.
@@ -1182,7 +1045,7 @@ Season 4, Episode 3: [243]The One with the 'Cuffs
    after all and they finally get along.
      __________________________________________________________________
 
-Season 4, Episode 4: [244]The One with the Ballroom Dancing
+Season 4, Episode 4: The One with the Ballroom Dancing
 
    Original Air Date—16 October 1997
    The superintendent makes Rachel cry because he is upset about them
@@ -1202,7 +1065,7 @@ Season 4, Episode 4: [244]The One with the Ballroom Dancing
    fired because her boss caught them kissing.
      __________________________________________________________________
 
-Season 4, Episode 5: [245]The One with Joey's New Girlfriend
+Season 4, Episode 5: The One with Joey's New Girlfriend
 
    Original Air Date—30 October 1997
    Ross is trying to make Rachel jealous by going out with a girl called
@@ -1218,7 +1081,7 @@ Season 4, Episode 5: [245]The One with Joey's New Girlfriend
    pretending as if they found love in other relationships.
      __________________________________________________________________
 
-Season 4, Episode 6: [246]The One with the Dirty Girl
+Season 4, Episode 6: The One with the Dirty Girl
 
    Original Air Date—6 November 1997
    Chandler has gone to extreme trouble to get Kathy the ideal birthday
@@ -1237,7 +1100,7 @@ Season 4, Episode 6: [246]The One with the Dirty Girl
    fortunately Kathy guesses the truth.
      __________________________________________________________________
 
-Season 4, Episode 7: [247]The One Where Chandler Crosses the Line
+Season 4, Episode 7: The One Where Chandler Crosses the Line
 
    Original Air Date—13 November 1997
    Chandler sees Kathy naked and feels like he is being tortured because
@@ -1257,7 +1120,7 @@ Season 4, Episode 7: [247]The One Where Chandler Crosses the Line
    kissed Kathy and that's why she broke up with Joey who is furious.
      __________________________________________________________________
 
-Season 4, Episode 8: [248]The One with Chandler in a Box
+Season 4, Episode 8: The One with Chandler in a Box
 
    Original Air Date—20 November 1997
    Joey is not about to forgive Chandler, nor Rachel Ross, even now
@@ -1277,7 +1140,7 @@ Season 4, Episode 8: [248]The One with Chandler in a Box
    feel almost incestuous. When Kathy drops by...
      __________________________________________________________________
 
-Season 4, Episode 9: [249]The One Where They're Going to Party!
+Season 4, Episode 9: The One Where They're Going to Party!
 
    Original Air Date—11 December 1997
    Phoebe and Monica get a van for their catering business. Rachel applies
@@ -1301,7 +1164,7 @@ Season 4, Episode 9: [249]The One Where They're Going to Party!
    head chef Emilio got fired.
      __________________________________________________________________
 
-Season 4, Episode 10: [250]The One with the Girl from Poughkeepsie
+Season 4, Episode 10: The One with the Girl from Poughkeepsie
 
    Original Air Date—18 December 1997
    Ross meets an amazing girl from Poughkeepsie on the train. Rachel hates
@@ -1323,7 +1186,7 @@ Season 4, Episode 10: [250]The One with the Girl from Poughkeepsie
    and the people at the restaurant finally respect Monica.
      __________________________________________________________________
 
-Season 4, Episode 11: [251]The One with Phoebe's Uterus
+Season 4, Episode 11: The One with Phoebe's Uterus
 
    Original Air Date—8 January 1998
    Phoebe's brother Frank and Alice got married. They were trying to get
@@ -1349,7 +1212,7 @@ Next US airings:
    [252]Wed. Apr. 27 [253]5:30 PM [254]CW
      __________________________________________________________________
 
-Season 4, Episode 12: [255]The One with the Embryos
+Season 4, Episode 12: The One with the Embryos
 
    Original Air Date—15 January 1998
    Phoebe has accepted to host in her uterus the artificially inseminated
@@ -1368,7 +1231,7 @@ Next US airings:
    [256]Thur. Apr. 28 [257]5:30 PM [258]CW
      __________________________________________________________________
 
-Season 4, Episode 13: [259]The One with Rachel's Crush
+Season 4, Episode 13: The One with Rachel's Crush
 
    Original Air Date—29 January 1998
    After her former department at Bloomingdales was abolished, Rachel gets
@@ -1389,7 +1252,7 @@ Next US airings:
    [260]Fri. Apr. 29 [261]5:30 PM [262]CW
      __________________________________________________________________
 
-Season 4, Episode 14: [263]The One with Joey's Dirty Day
+Season 4, Episode 14: The One with Joey's Dirty Day
 
    Original Air Date—5 February 1998
    Joey goes on a fishing trip while Chandler is still depressed about his
@@ -1411,7 +1274,7 @@ Next US airings:
    [264]Mon. May 2 [265]5:30 PM [266]CW
      __________________________________________________________________
 
-Season 4, Episode 15: [267]The One with All the Rugby
+Season 4, Episode 15: The One with All the Rugby
 
    Original Air Date—26 February 1998
    Chandler goes to get his nails done with Rachel and they bump into
@@ -1430,7 +1293,7 @@ Next US airings:
    [268]Tue. May 3 [269]5:30 PM [270]CW
      __________________________________________________________________
 
-Season 4, Episode 16: [271]The One with the Fake Party
+Season 4, Episode 16: The One with the Fake Party
 
    Original Air Date—19 March 1998
    Emily will be leaving in 2 days and Ross is very sad but they both knew
@@ -1452,7 +1315,7 @@ Next US airings:
    [272]Wed. May 4 [273]5:30 PM [274]CW
      __________________________________________________________________
 
-Season 4, Episode 17: [275]The One with the Free Porn
+Season 4, Episode 17: The One with the Free Porn
 
    Original Air Date—26 March 1998
    Joey hits a button on the remote control and free porn is on TV. They
@@ -1475,7 +1338,7 @@ Next US airings:
    [276]Thur. May 5 [277]5:30 PM [278]CW
      __________________________________________________________________
 
-Season 4, Episode 18: [279]The One with Rachel's New Dress
+Season 4, Episode 18: The One with Rachel's New Dress
 
    Original Air Date—2 April 1998
    Frank and Alice name two of the babies and let Phoebe pick a name for
@@ -1497,7 +1360,7 @@ Next US airings:
    [280]Fri. May 6 [281]5:30 PM [282]CW
      __________________________________________________________________
 
-Season 4, Episode 19: [283]The One with All the Haste
+Season 4, Episode 19: The One with All the Haste
 
    Original Air Date—9 April 1998
    Rachel and Monica can't stand the apartment anymore and want to trade
@@ -1517,7 +1380,7 @@ Next US airings:
    [284]Mon. May 9 [285]5:30 PM [286]CW
      __________________________________________________________________
 
-Season 4, Episode 20: [287]The One with All the Wedding Dresses
+Season 4, Episode 20: The One with All the Wedding Dresses
 
    Original Air Date—16 April 1998
    Rachel and Ross talk about Ross's plans to get married. Rachel pretends
@@ -1532,7 +1395,7 @@ Season 4, Episode 20: [287]The One with All the Wedding Dresses
    cheer Rachel up.
      __________________________________________________________________
 
-Season 4, Episode 21: [288]The One with the Invitation
+Season 4, Episode 21: The One with the Invitation
 
    Original Air Date—23 April 1998
    Emily's surprised remark she wouldn't want her ex-lovers on the wedding
@@ -1542,7 +1405,7 @@ Season 4, Episode 21: [288]The One with the Invitation
    after reminiscing as well about her with and without Ross.
      __________________________________________________________________
 
-Season 4, Episode 22: [289]The One with the Worst Best Man Ever
+Season 4, Episode 22: The One with the Worst Best Man Ever
 
    Original Air Date—30 April 1998
    Ross decides that Joey will be his best man but after the bachelor
@@ -1559,7 +1422,7 @@ Season 4, Episode 22: [289]The One with the Worst Best Man Ever
    man but Ross wants them both to be there.
      __________________________________________________________________
 
-Season 4, Episode 23: [290]The One with Ross's Wedding: Part 1
+Season 4, Episode 23: The One with Ross's Wedding: Part 1
 
    Original Air Date—7 May 1998
    Even before they leave the apartment, Joey drives Chandler crazy by
@@ -1582,7 +1445,7 @@ Season 4, Episode 23: [290]The One with Ross's Wedding: Part 1
    solution: a romantic make-over of the hall's ruin...
      __________________________________________________________________
 
-Season 4, Episode 24: [291]The One with Ross's Wedding: Part 2
+Season 4, Episode 24: The One with Ross's Wedding: Part 2
 
    Original Air Date—7 May 1998
    Ross' and Emily's parents meet and prove quite antagonistic; Stephen
@@ -1605,7 +1468,7 @@ Season 4, Episode 24: [291]The One with Ross's Wedding: Part 2
 [292]Season 5
      __________________________________________________________________
 
-Season 5, Episode 1: [293]The One After Ross Says Rachel
+Season 5, Episode 1: The One After Ross Says Rachel
 
    Original Air Date—24 September 1998
    Everyone is shocked to hear Ross say Rachel instead of Emily but they
@@ -1621,7 +1484,7 @@ Season 5, Episode 1: [293]The One After Ross Says Rachel
    Ross chases after her while Rachel waits for him on the plane.
      __________________________________________________________________
 
-Season 5, Episode 2: [294]The One with All the Kissing
+Season 5, Episode 2: The One with All the Kissing
 
    Original Air Date—1 October 1998
    Monica and Chandler are still seeing each other without telling anyone.
@@ -1638,14 +1501,14 @@ Season 5, Episode 2: [294]The One with All the Kissing
    friends are about to leave for their trip Phoebe's water breaks.
      __________________________________________________________________
 
-Season 5, Episode 3: [295]The One Hundredth
+Season 5, Episode 3: The One Hundredth
 
    Original Air Date—8 October 1998
    Phoebe is having her brother's babies, 2 girls and a boy, Leslie,
    Chandler and Frank Jr. Jr.
      __________________________________________________________________
 
-Season 5, Episode 4: [296]The One Where Phoebe Hates PBS
+Season 5, Episode 4: The One Where Phoebe Hates PBS
 
    Original Air Date—18 October 1998
    Almost caught once again, Chandler arrives with champagne for Monica,
@@ -1672,7 +1535,7 @@ Season 5, Episode 4: [296]The One Where Phoebe Hates PBS
    whatever Emily wants to get her over to New York.
      __________________________________________________________________
 
-Season 5, Episode 5: [297]The One with the Kips
+Season 5, Episode 5: The One with the Kips
 
    Original Air Date—29 October 1998
    Chandler and Monica plan a weekend on false work-related pretenses so
@@ -1688,14 +1551,14 @@ Season 5, Episode 5: [297]The One with the Kips
    secrecy.
      __________________________________________________________________
 
-Season 5, Episode 6: [298]The One with the Yeti
+Season 5, Episode 6: The One with the Yeti
 
    Original Air Date—5 November 1998
    Emily tells Ross she wants a divorce after he decides to keep seeing
    Rachel.
      __________________________________________________________________
 
-Season 5, Episode 7: [299]The One Where Ross Moves In
+Season 5, Episode 7: The One Where Ross Moves In
 
    Original Air Date—12 November 1998
    Emily's cousin kicks Ross out, so he moves in with Chandler and Joey.
@@ -1706,14 +1569,14 @@ Season 5, Episode 7: [299]The One Where Ross Moves In
    Chandler and Joey decide to let Ross stay.
      __________________________________________________________________
 
-Season 5, Episode 8: [300]The One with the Thanksgiving Flashbacks
+Season 5, Episode 8: The One with the Thanksgiving Flashbacks
 
    Original Air Date—19 November 1998
    The friends had a great Thanksgiving dinner and remember their worst
    Thanksgivings they ever had. Chandler tells Monica he loves her.
      __________________________________________________________________
 
-Season 5, Episode 9: [301]The One with Ross's Sandwich
+Season 5, Episode 9: The One with Ross's Sandwich
 
    Original Air Date—10 December 1998
    Ross brings his leftover thanksgiving sandwich to work, but someone
@@ -1730,7 +1593,7 @@ Next US airings:
    [302]Wed. Apr. 27 [303]5:00 PM [304]TBS
      __________________________________________________________________
 
-Season 5, Episode 10: [305]The One with the Inappropriate Sister
+Season 5, Episode 10: The One with the Inappropriate Sister
 
    Original Air Date—17 December 1998
    Joey's new roommate Ross is bored out of his mind, while on sabbatical,
@@ -1757,7 +1620,7 @@ Next US airings:
    [306]Thur. Apr. 28 [307]5:00 PM [308]TBS
      __________________________________________________________________
 
-Season 5, Episode 11: [309]The One with All the Resolutions
+Season 5, Episode 11: The One with All the Resolutions
 
    Original Air Date—7 January 1999
    It's New Year's Eve and the friends discuss their resolutions. Ross'
@@ -1772,7 +1635,7 @@ Season 5, Episode 11: [309]The One with All the Resolutions
    while he has a date. Joey and Rachel talk about Monica and Chandler.
      __________________________________________________________________
 
-Season 5, Episode 12: [310]The One with Chandler's Work Laugh
+Season 5, Episode 12: The One with Chandler's Work Laugh
 
    Original Air Date—21 January 1999
    Rachel wants to know all details about Chandler and Monica, Joey paid
@@ -1796,7 +1659,7 @@ Next US airings:
    [311]Fri. Apr. 29 [312]5:00 PM [313]TBS
      __________________________________________________________________
 
-Season 5, Episode 13: [314]The One with Joey's Bag
+Season 5, Episode 13: The One with Joey's Bag
 
    Original Air Date—4 February 1999
    Phoebe's grandma has died. Joey wants to look great for an audition and
@@ -1814,7 +1677,7 @@ Next US airings:
    [315]Mon. May 2 [316]5:00 PM [317]TBS
      __________________________________________________________________
 
-Season 5, Episode 14: [318]The One Where Everybody Finds Out
+Season 5, Episode 14: The One Where Everybody Finds Out
 
    Original Air Date—11 February 1999
    Ugly Naked Guy is moving and Ross is trying to get his great apartment.
@@ -1844,7 +1707,7 @@ Next US airings:
    [319]Tue. May 3 [320]5:00 PM [321]TBS
      __________________________________________________________________
 
-Season 5, Episode 15: [322]The One with the Girl Who Hits Joey
+Season 5, Episode 15: The One with the Girl Who Hits Joey
 
    Original Air Date—18 February 1999
    Ross has found out about Chandler and Monica's relationship and is
@@ -1869,7 +1732,7 @@ Next US airings:
    [323]Wed. May 4 [324]5:00 PM [325]TBS
      __________________________________________________________________
 
-Season 5, Episode 16: [326]The One with the Cop
+Season 5, Episode 16: The One with the Cop
 
    Original Air Date—25 February 1999
    After Joey saw Monica and Chandler doing a crossword together, he
@@ -1890,7 +1753,7 @@ Next US airings:
    [327]Thur. May 5 [328]5:00 PM [329]TBS
      __________________________________________________________________
 
-Season 5, Episode 17: [330]The One with Rachel's Inadvertent Kiss
+Season 5, Episode 17: The One with Rachel's Inadvertent Kiss
 
    Original Air Date—18 March 1999
    Phoebe claims that she and Gary are the hotter couple than Monica and
@@ -1911,7 +1774,7 @@ Next US airings:
    [331]Fri. May 6 [332]5:00 PM [333]TBS
      __________________________________________________________________
 
-Season 5, Episode 18: [334]The One Where Rachel Smokes
+Season 5, Episode 18: The One Where Rachel Smokes
 
    Original Air Date—8 April 1999
    Joey is envious when Ross' boy Ben gets an audition for a commercial,
@@ -1944,7 +1807,7 @@ Next US airings:
    [335]Mon. May 9 [336]5:00 PM [337]TBS
      __________________________________________________________________
 
-Season 5, Episode 19: [338]The One Where Ross Can't Flirt
+Season 5, Episode 19: The One Where Ross Can't Flirt
 
    Original Air Date—22 April 1999
    First Ross takes Chandler's natural joking with pizza delivery girl
@@ -1964,13 +1827,13 @@ Season 5, Episode 19: [338]The One Where Ross Can't Flirt
    him...
      __________________________________________________________________
 
-Season 5, Episode 20: [339]The One with the Ride Along
+Season 5, Episode 20: The One with the Ride Along
 
    Original Air Date—29 April 1999
    The guys goes on a ride along with Gary.
      __________________________________________________________________
 
-Season 5, Episode 21: [340]The One with the Ball
+Season 5, Episode 21: The One with the Ball
 
    Original Air Date—6 May 1999
    Gary wants to ask Phoebe to move in with him. Phoebe is freaked because
@@ -1985,7 +1848,7 @@ Season 5, Episode 21: [340]The One with the Ball
    Phoebe drops the ball.
      __________________________________________________________________
 
-Season 5, Episode 22: [341]The One with Joey's Big Break
+Season 5, Episode 22: The One with Joey's Big Break
 
    Original Air Date—11 May 1999
    Joey is excited to get the lead in a thriller, Shutterspeed, so he and
@@ -2000,7 +1863,7 @@ Season 5, Episode 22: [341]The One with Joey's Big Break
    bridge. Chandler feels terribly guilty, but when Joey arrives...
      __________________________________________________________________
 
-Season 5, Episode 23: [342]The One in Vegas: Part 1
+Season 5, Episode 23: The One in Vegas: Part 1
 
    Original Air Date—20 May 1999
    Joey calls Phoebe; refusing to take Chandler's apologies for not
@@ -2021,7 +1884,7 @@ Season 5, Episode 23: [342]The One in Vegas: Part 1
    demands Chandler is supportive this time.
      __________________________________________________________________
 
-Season 5, Episode 24: [343]The One in Vegas: Part 2
+Season 5, Episode 24: The One in Vegas: Part 2
 
    Original Air Date—20 May 1999
    Monica gambles instead of making up with Chandler. While Rachel is
@@ -2040,7 +1903,7 @@ Season 5, Episode 24: [343]The One in Vegas: Part 2
 [344]Season 6
      __________________________________________________________________
 
-Season 6, Episode 1: [345]The One After Vegas
+Season 6, Episode 1: The One After Vegas
 
    Original Air Date—23 September 1999
    Ross and Rachel wake up in bed together not remembering anything from
@@ -2060,7 +1923,7 @@ Season 6, Episode 1: [345]The One After Vegas
    even though he didn't.
      __________________________________________________________________
 
-Season 6, Episode 2: [346]The One Where Ross Hugs Rachel
+Season 6, Episode 2: The One Where Ross Hugs Rachel
 
    Original Air Date—30 September 1999
    Chandler and Monica tell everyone they're going to move in together.
@@ -2077,7 +1940,7 @@ Season 6, Episode 2: [346]The One Where Ross Hugs Rachel
    instead.
      __________________________________________________________________
 
-Season 6, Episode 3: [347]The One with Ross's Denial
+Season 6, Episode 3: The One with Ross's Denial
 
    Original Air Date—7 October 1999
    Rachel is looking for a room and Joey offers her Chandler's old room.
@@ -2091,7 +1954,7 @@ Season 6, Episode 3: [347]The One with Ross's Denial
    idea because it'll be awkward when they date other people.
      __________________________________________________________________
 
-Season 6, Episode 4: [348]The One Where Joey Loses His Insurance
+Season 6, Episode 4: The One Where Joey Loses His Insurance
 
    Original Air Date—14 October 1999
    Ross gets a part time job as guest lecturer at the university. Joey's
@@ -2109,7 +1972,7 @@ Season 6, Episode 4: [348]The One Where Joey Loses His Insurance
    Joey gets his health insurance back.
      __________________________________________________________________
 
-Season 6, Episode 5: [349]The One with Joey's Porsche
+Season 6, Episode 5: The One with Joey's Porsche
 
    Original Air Date—21 October 1999
    Joey finds keys to a Porsche and wants to leave them at the lost and
@@ -2129,7 +1992,7 @@ Season 6, Episode 5: [349]The One with Joey's Porsche
    they both thought if they ever got married it would last.
      __________________________________________________________________
 
-Season 6, Episode 6: [350]The One on the Last Night
+Season 6, Episode 6: The One on the Last Night
 
    Original Air Date—4 November 1999
    Chandler shows Joey how to pay the bills but Joey doesn't have enough
@@ -2144,7 +2007,7 @@ Season 6, Episode 6: [350]The One on the Last Night
    Chandler's trick and won't accept his money. Rachel leaves.
      __________________________________________________________________
 
-Season 6, Episode 7: [351]The One Where Phoebe Runs
+Season 6, Episode 7: The One Where Phoebe Runs
 
    Original Air Date—4 November 1999
    Joey finds sexy Janine, a dancer from Australia, as a roommate. Rachel
@@ -2160,7 +2023,7 @@ Season 6, Episode 7: [351]The One Where Phoebe Runs
    about people staring.
      __________________________________________________________________
 
-Season 6, Episode 8: [352]The One with Ross' Teeth
+Season 6, Episode 8: The One with Ross' Teeth
 
    Original Air Date—18 November 1999
    Joey is afraid that Janine makes their place too girlie with all her
@@ -2178,7 +2041,7 @@ Season 6, Episode 8: [352]The One with Ross' Teeth
    and Kim forgives her.
      __________________________________________________________________
 
-Season 6, Episode 9: [353]The One Where Ross Got High
+Season 6, Episode 9: The One Where Ross Got High
 
    Original Air Date—25 November 1999
    The Gellar parents are coming over for Thanksgiving but they don't know
@@ -2196,7 +2059,7 @@ Season 6, Episode 9: [353]The One Where Ross Got High
    Ross during his "drug problems" and for "taking on Monica as well".
      __________________________________________________________________
 
-Season 6, Episode 10: [354]The One with the Routine
+Season 6, Episode 10: The One with the Routine
 
    Original Air Date—16 December 1999
    Janine is going to be a party person in a New Year's Eve TV broadcast
@@ -2210,7 +2073,7 @@ Season 6, Episode 10: [354]The One with the Routine
    they get back home Janine kisses Joey.
      __________________________________________________________________
 
-Season 6, Episode 11: [355]The One with the Apothecary Table
+Season 6, Episode 11: The One with the Apothecary Table
 
    Original Air Date—6 January 2000
    Rachel ordered an apothecary table but Phoebe will hate it because it
@@ -2227,7 +2090,7 @@ Season 6, Episode 11: [355]The One with the Apothecary Table
    much more to him.
      __________________________________________________________________
 
-Season 6, Episode 12: [356]The One with the Joke
+Season 6, Episode 12: The One with the Joke
 
    Original Air Date—13 January 2000
    Ross has sent a joke to be printed in Playboy magazine, which they did
@@ -2245,13 +2108,13 @@ Season 6, Episode 12: [356]The One with the Joke
    Rachel has him re-hired.
      __________________________________________________________________
 
-Season 6, Episode 13: [357]The One with Rachel's Sister
+Season 6, Episode 13: The One with Rachel's Sister
 
    Original Air Date—3 February 2000
    Ross dates Rachel's sister. Monica won't admit she is sick.
      __________________________________________________________________
 
-Season 6, Episode 14: [358]The One Where Chandler Can't Cry
+Season 6, Episode 14: The One Where Chandler Can't Cry
 
    Original Air Date—10 February 2000
    Chandler admits that he hasn't cried since he was a child. Phoebe
@@ -2260,7 +2123,7 @@ Season 6, Episode 14: [358]The One Where Chandler Can't Cry
    relationship.
      __________________________________________________________________
 
-Season 6, Episode 15: [359]The One That Could Have Been: Part 1
+Season 6, Episode 15: The One That Could Have Been: Part 1
 
    Original Air Date—17 February 2000
    After Rachel finds our that Barry (her ex-fiancé) & Mindy (her ex-best
@@ -2271,7 +2134,7 @@ Season 6, Episode 15: [359]The One That Could Have Been: Part 1
    our lives' & *Monica was still fat. ...
      __________________________________________________________________
 
-Season 6, Episode 16: [360]The One That Could Have Been: Part 2
+Season 6, Episode 16: The One That Could Have Been: Part 2
 
    Original Air Date—17 February 2000
    In the Friends' continuing imagination, fat Monica dates pedantic Dr.
@@ -2284,7 +2147,7 @@ Season 6, Episode 16: [360]The One That Could Have Been: Part 2
    hospital, only to hear she was just fired.
      __________________________________________________________________
 
-Season 6, Episode 17: [361]The One with Unagi
+Season 6, Episode 17: The One with Unagi
 
    Original Air Date—24 February 2000
    Rachel and Phoebe take a self-defense class, and claim they can defeat
@@ -2294,7 +2157,7 @@ Season 6, Episode 17: [361]The One with Unagi
    make them.
      __________________________________________________________________
 
-Season 6, Episode 18: [362]The One Where Ross Dates a Student
+Season 6, Episode 18: The One Where Ross Dates a Student
 
    Original Air Date—9 March 2000
    Ross gets his anonymous teacher evaluations back and finds out that he
@@ -2316,7 +2179,7 @@ Season 6, Episode 18: [362]The One Where Ross Dates a Student
    it.
      __________________________________________________________________
 
-Season 6, Episode 19: [363]The One with Joey's Fridge
+Season 6, Episode 19: The One with Joey's Fridge
 
    Original Air Date—23 March 2000
    Joey's fridge is broken and he tries to get everyone to pay for his
@@ -2338,7 +2201,7 @@ Next US airings:
    [364]Wed. Apr. 27 [365]5:00 PM [366]CW
      __________________________________________________________________
 
-Season 6, Episode 20: [367]The One with Mac and C.H.E.E.S.E.
+Season 6, Episode 20: The One with Mac and C.H.E.E.S.E.
 
    Original Air Date—13 April 2000
    Monica has an interview for a chef position, but leaves when the boss
@@ -2358,7 +2221,7 @@ Next US airings:
    [368]Thur. Apr. 28 [369]5:00 PM [370]CW
      __________________________________________________________________
 
-Season 6, Episode 21: [371]The One Where Ross Meets Elizabeth's Dad
+Season 6, Episode 21: The One Where Ross Meets Elizabeth's Dad
 
    Original Air Date—27 April 2000
    Elizabeth's dad meets Ross to tell him he doesn't like him going out
@@ -2379,7 +2242,7 @@ Next US airings:
    [372]Fri. Apr. 29 [373]5:00 PM [374]CW
      __________________________________________________________________
 
-Season 6, Episode 22: [375]The One Where Paul's the Man
+Season 6, Episode 22: The One Where Paul's the Man
 
    Original Air Date—4 May 2000
    Elizabeth's dad Paul tells Ross not to see Elizabeth anymore or he will
@@ -2403,7 +2266,7 @@ Next US airings:
    [376]Mon. May 2 [377]5:00 PM [378]CW
      __________________________________________________________________
 
-Season 6, Episode 23: [379]The One with the Ring
+Season 6, Episode 23: The One with the Ring
 
    Original Air Date—11 May 2000
    Only Phoebe is allowed to know about Chandler's plan to propose to
@@ -2423,7 +2286,7 @@ Next US airings:
    [380]Tue. May 3 [381]5:00 PM [382]CW
      __________________________________________________________________
 
-Season 6, Episode 24: [383]The One with the Proposal: Part 1
+Season 6, Episode 24: The One with the Proposal: Part 1
 
    Original Air Date—18 May 2000
    Tonight is the big night for Chandler: he will propose to Monica.
@@ -2443,7 +2306,7 @@ Next US airings:
    [384]Wed. May 4 [385]5:00 PM [386]CW
      __________________________________________________________________
 
-Season 6, Episode 25: [387]The One with the Proposal: Part 2
+Season 6, Episode 25: The One with the Proposal: Part 2
 
    Original Air Date—18 May 2000
    Richard tells Monica that letting her go was the stupidest thing he's
@@ -2470,7 +2333,7 @@ Next US airings:
 [391]Season 7
      __________________________________________________________________
 
-Season 7, Episode 1: [392]The One with Monica's Thunder
+Season 7, Episode 1: The One with Monica's Thunder
 
    Original Air Date—12 October 2000
    It's still the night of Monica and Chandler's engagement and they all
@@ -2489,7 +2352,7 @@ Next US airings:
    [393]Fri. May 6 [394]5:00 PM [395]CW
      __________________________________________________________________
 
-Season 7, Episode 2: [396]The One with Rachel's Book
+Season 7, Episode 2: The One with Rachel's Book
 
    Original Air Date—12 October 2000
    The wedding planning starts and Monica already has a whole book full of
@@ -2514,7 +2377,7 @@ Next US airings:
    [397]Mon. May 9 [398]5:00 PM [399]CW
      __________________________________________________________________
 
-Season 7, Episode 3: [400]The One with Phoebe's Cookies
+Season 7, Episode 3: The One with Phoebe's Cookies
 
    Original Air Date—19 October 2000
    The gang discuss what to get Monica and Chandler as engagement
@@ -2536,7 +2399,7 @@ Season 7, Episode 3: [400]The One with Phoebe's Cookies
    in the marina drinking beer.
      __________________________________________________________________
 
-Season 7, Episode 4: [401]The One with Rachel's Assistant
+Season 7, Episode 4: The One with Rachel's Assistant
 
    Original Air Date—26 October 2000
    Joey and Rachel compete over who has the best news. Rachel was promoted
@@ -2557,7 +2420,7 @@ Season 7, Episode 4: [401]The One with Rachel's Assistant
    starting a series of spilled secrets the three use against each-other.
      __________________________________________________________________
 
-Season 7, Episode 5: [402]The One with the Engagement Picture
+Season 7, Episode 5: The One with the Engagement Picture
 
    Original Air Date—2 November 2000
    Monica's mom arranged to get their wedding announced in the paper, but
@@ -2574,14 +2437,14 @@ Season 7, Episode 5: [402]The One with the Engagement Picture
    stop too but Tag decides to go back to his ex-girlfriend.
      __________________________________________________________________
 
-Season 7, Episode 6: [403]The One with the Nap Partners
+Season 7, Episode 6: The One with the Nap Partners
 
    Original Air Date—9 November 2000
    Joey and Ross have a nap together, and Rachel and Phoebe need to decide
    who will be Monica's bridesmaid.
      __________________________________________________________________
 
-Season 7, Episode 7: [404]The One with Ross' Library Book
+Season 7, Episode 7: The One with Ross' Library Book
 
    Original Air Date—16 November 2000
    Monica runs into Janice and Janice is shocked to hear that she is
@@ -2594,7 +2457,7 @@ Season 7, Episode 7: [404]The One with Ross' Library Book
    way. Chandler and Monica can finally get rid of Janice.
      __________________________________________________________________
 
-Season 7, Episode 8: [405]The One Where Chandler Doesn't Like Dogs
+Season 7, Episode 8: The One Where Chandler Doesn't Like Dogs
 
    Original Air Date—23 November 2000
    It's Thanksgiving and the friends and Tag are preparing for dinner.
@@ -2609,7 +2472,7 @@ Season 7, Episode 8: [405]The One Where Chandler Doesn't Like Dogs
    kiss.
      __________________________________________________________________
 
-Season 7, Episode 9: [406]The One with All the Candy
+Season 7, Episode 9: The One with All the Candy
 
    Original Air Date—7 December 2000
    Monica makes candy for their neighbours even though they don't know
@@ -2625,7 +2488,7 @@ Season 7, Episode 9: [406]The One with All the Candy
    Phoebe training wheels.
      __________________________________________________________________
 
-Season 7, Episode 10: [407]The One with the Holiday Armadillo
+Season 7, Episode 10: The One with the Holiday Armadillo
 
    Original Air Date—14 December 2000
    Ross wants to introduce Ben to Chanukah. In order to entice Rachel to
@@ -2633,7 +2496,7 @@ Season 7, Episode 10: [407]The One with the Holiday Armadillo
    between Rachel and current roomie Joey.
      __________________________________________________________________
 
-Season 7, Episode 11: [408]The One with All the Cheesecakes
+Season 7, Episode 11: The One with All the Cheesecakes
 
    Original Air Date—4 January 2001
    Chandler and Rachel eat a cheesecake that was accidentally delivered to
@@ -2648,7 +2511,7 @@ Season 7, Episode 11: [408]The One with All the Cheesecakes
    Phoebe meets David, the love her life, again but he lives in Russia.
      __________________________________________________________________
 
-Season 7, Episode 12: [409]The One Where They're Up All Night
+Season 7, Episode 12: The One Where They're Up All Night
 
    Original Air Date—11 January 2001
    In the beginning, the 6 friends plus Tag are sitting on the roof
@@ -2666,7 +2529,7 @@ Season 7, Episode 12: [409]The One Where They're Up All Night
    room and then Rachel drops the papers in Tags desk.
      __________________________________________________________________
 
-Season 7, Episode 13: [410]The One Where Rosita Dies
+Season 7, Episode 13: The One Where Rosita Dies
 
    Original Air Date—1 February 2001
    Rachel wants to have a place to sit in front of the TV but Joey tells
@@ -2685,7 +2548,7 @@ Season 7, Episode 13: [410]The One Where Rosita Dies
    just as much as he loves Ross.
      __________________________________________________________________
 
-Season 7, Episode 14: [411]The One Where They All Turn Thirty
+Season 7, Episode 14: The One Where They All Turn Thirty
 
    Original Air Date—8 February 2001
    It's Rachel's 30th birthday and they all reflect on all their 30th
@@ -2694,7 +2557,7 @@ Season 7, Episode 14: [411]The One Where They All Turn Thirty
    never be the man she would want to spend the rest of her life with.
      __________________________________________________________________
 
-Season 7, Episode 15: [412]The One with Joey's New Brain
+Season 7, Episode 15: The One with Joey's New Brain
 
    Original Air Date—15 February 2001
    Joey's character on Day of Our Lives will finally come out of the coma
@@ -2705,7 +2568,7 @@ Season 7, Episode 15: [412]The One with Joey's New Brain
    doing a movie in Mexico.
      __________________________________________________________________
 
-Season 7, Episode 16: [413]The One with the Truth About London
+Season 7, Episode 16: The One with the Truth About London
 
    Original Air Date—22 February 2001
    Rachel watches Ben for an hour and is a little scared because she's
@@ -2723,7 +2586,7 @@ Season 7, Episode 16: [413]The One with the Truth About London
    will stop teaching them to Ben.
      __________________________________________________________________
 
-Season 7, Episode 17: [414]The One with the Cheap Wedding Dress
+Season 7, Episode 17: The One with the Cheap Wedding Dress
 
    Original Air Date—15 March 2001
    Monica takes the other girls to an overpriced store to choose her
@@ -2737,7 +2600,7 @@ Season 7, Episode 17: [414]The One with the Cheap Wedding Dress
    get so carried away cheating on the deal that she runs off altogether.
      __________________________________________________________________
 
-Season 7, Episode 18: [415]The One with Joey's Award
+Season 7, Episode 18: The One with Joey's Award
 
    Original Air Date—29 March 2001
    Joey is nominated for a Soapy Award for his part on Days of Our Lives
@@ -2755,7 +2618,7 @@ Season 7, Episode 18: [415]The One with Joey's Award
    new things with Chandler as well.
      __________________________________________________________________
 
-Season 7, Episode 19: [416]The One with Ross and Monica's Cousin
+Season 7, Episode 19: The One with Ross and Monica's Cousin
 
    Original Air Date—19 April 2001
    Joey is tickled pink when he gets a Catholic Italian immigrant part in
@@ -2774,7 +2637,7 @@ Season 7, Episode 19: [416]The One with Ross and Monica's Cousin
    bride.
      __________________________________________________________________
 
-Season 7, Episode 20: [417]The One with Rachel's Big Kiss
+Season 7, Episode 20: The One with Rachel's Big Kiss
 
    Original Air Date—26 April 2001
    Rachel bumps into her old friend Melissa from college who she once
@@ -2793,7 +2656,7 @@ Season 7, Episode 20: [417]The One with Rachel's Big Kiss
    - which was worn by Diane Keaton.
      __________________________________________________________________
 
-Season 7, Episode 21: [418]The One with the Vows
+Season 7, Episode 21: The One with the Vows
 
    Original Air Date—3 May 2001
    Monica and Chandler are getting married in 4 weeks and have to write
@@ -2801,7 +2664,7 @@ Season 7, Episode 21: [418]The One with the Vows
    reflect on their past.
      __________________________________________________________________
 
-Season 7, Episode 22: [419]The One with Chandler's Dad
+Season 7, Episode 22: The One with Chandler's Dad
 
    Original Air Date—10 May 2001
    Finding out she's the only one of the friends who never got to drive
@@ -2818,7 +2681,7 @@ Season 7, Episode 22: [419]The One with Chandler's Dad
    to face, Chandler makes a decision.
      __________________________________________________________________
 
-Season 7, Episode 23: [420]The One with Monica and Chandler's Wedding: Part 1
+Season 7, Episode 23: The One with Monica and Chandler's Wedding: Part 1
 
    Original Air Date—17 May 2001
    Joey unexpectedly gets a part in a movie about soldiers in World War I
@@ -2835,7 +2698,7 @@ Season 7, Episode 23: [420]The One with Monica and Chandler's Wedding: Part 1
    pregnancy test in Monica's bathroom waste basket.
      __________________________________________________________________
 
-Season 7, Episode 24: [421]The One with Monica and Chandler's Wedding: Part 2
+Season 7, Episode 24: The One with Monica and Chandler's Wedding: Part 2
 
    Original Air Date—17 May 2001
    Ross tries to find Chandler with Phoebe's help. Meanwhile Rachel tries
@@ -2845,7 +2708,7 @@ Season 7, Episode 24: [421]The One with Monica and Chandler's Wedding: Part 2
 [422]Season 8
      __________________________________________________________________
 
-Season 8, Episode 1: [423]The One After I Do
+Season 8, Episode 1: The One After I Do
 
    Original Air Date—27 September 2001
    Bride Monica emphatically denies the rumor of her pregnancy, which has
@@ -2862,14 +2725,14 @@ Season 8, Episode 1: [423]The One After I Do
    angel.
      __________________________________________________________________
 
-Season 8, Episode 2: [424]The One with the Red Sweater
+Season 8, Episode 2: The One with the Red Sweater
 
    Original Air Date—4 October 2001
    Monica, Phoebe and Joey advise Rachel to tell the father about the
    pregnancy. Chandler and Ross lose the wedding photos.
      __________________________________________________________________
 
-Season 8, Episode 3: [425]The One Where Rachel Tells...
+Season 8, Episode 3: The One Where Rachel Tells...
 
    Original Air Date—11 October 2001
    Even on honeymoon, Monica is pushy and is annoyed that Chandler
@@ -2889,14 +2752,14 @@ Season 8, Episode 3: [425]The One Where Rachel Tells...
    although she can't even see their baby on the first ultrasound.
      __________________________________________________________________
 
-Season 8, Episode 4: [426]The One with the Videotape
+Season 8, Episode 4: The One with the Videotape
 
    Original Air Date—18 October 2001
    Ross and Rachel tell the friends about the night they were together.
    Ross tells that he has a tape from that night.
      __________________________________________________________________
 
-Season 8, Episode 5: [427]The One with Rachel's Date
+Season 8, Episode 5: The One with Rachel's Date
 
    Original Air Date—25 October 2001
    Phoebe dates Monica's sous-chef Tim and Monica doesn't fire him for
@@ -2910,7 +2773,7 @@ Season 8, Episode 5: [427]The One with Rachel's Date
    anyone.
      __________________________________________________________________
 
-Season 8, Episode 6: [428]The One with the Halloween Party
+Season 8, Episode 6: The One with the Halloween Party
 
    Original Air Date—1 November 2001
    Monica and Chandler are having a costume party for Halloween. Phoebe
@@ -2923,7 +2786,7 @@ Season 8, Episode 6: [428]The One with the Halloween Party
    gone.
      __________________________________________________________________
 
-Season 8, Episode 7: [429]The One with the Stain
+Season 8, Episode 7: The One with the Stain
 
    Original Air Date—8 November 2001
    Chandler hires a maid to clean the apartment and Monica promises to
@@ -2944,7 +2807,7 @@ Season 8, Episode 7: [429]The One with the Stain
    with Joey.
      __________________________________________________________________
 
-Season 8, Episode 8: [430]The One with the Stripper
+Season 8, Episode 8: The One with the Stripper
 
    Original Air Date—15 November 2001
    Chandler finds out that Monica had a bacholerette party with stripper
@@ -2963,7 +2826,7 @@ Season 8, Episode 8: [430]The One with the Stripper
    everything to her dad and Mona who makes up with Ross.
      __________________________________________________________________
 
-Season 8, Episode 9: [431]The One with the Rumor
+Season 8, Episode 9: The One with the Rumor
 
    Original Air Date—22 November 2001
    Will, an old friend of Ross' is in town and Monica invited him for
@@ -2981,7 +2844,7 @@ Season 8, Episode 9: [431]The One with the Rumor
    having a baby together.
      __________________________________________________________________
 
-Season 8, Episode 10: [432]The One with Monica's Boots
+Season 8, Episode 10: The One with Monica's Boots
 
    Original Air Date—6 December 2001
    Monica buys really expensive but fabulous boots. Chandler wants to
@@ -2995,7 +2858,7 @@ Season 8, Episode 10: [432]The One with Monica's Boots
    for Phoebe.
      __________________________________________________________________
 
-Season 8, Episode 11: [433]The One with Ross's Step Forward
+Season 8, Episode 11: The One with Ross's Step Forward
 
    Original Air Date—13 December 2001
    Ross and Mona took pictures of themselves at the Rockefeller Center and
@@ -3008,7 +2871,7 @@ Season 8, Episode 11: [433]The One with Ross's Step Forward
    has to have dinner with Chandler and his boss.
      __________________________________________________________________
 
-Season 8, Episode 12: [434]The One Where Joey Dates Rachel
+Season 8, Episode 12: The One Where Joey Dates Rachel
 
    Original Air Date—10 January 2002
    Phoebe gives Chandler and Monica a late wedding present: the game Ms
@@ -3022,7 +2885,7 @@ Season 8, Episode 12: [434]The One Where Joey Dates Rachel
    about it.
      __________________________________________________________________
 
-Season 8, Episode 13: [435]The One Where Chandler Takes a Bath
+Season 8, Episode 13: The One Where Chandler Takes a Bath
 
    Original Air Date—17 January 2002
    After his openhearted evening with Rachel, Joey finds it impossible to
@@ -3039,21 +2902,21 @@ Season 8, Episode 13: [435]The One Where Chandler Takes a Bath
    barges in the bathroom, the boat gets a more modest purpose.
      __________________________________________________________________
 
-Season 8, Episode 14: [436]The One with the Secret Closet
+Season 8, Episode 14: The One with the Secret Closet
 
    Original Air Date—31 January 2002
    Chandler's very curious about a locked closet, but Monica won't tell
    him what is inside.
      __________________________________________________________________
 
-Season 8, Episode 15: [437]The One with the Birthing Video
+Season 8, Episode 15: The One with the Birthing Video
 
    Original Air Date—7 February 2002
    During Valentine's Day, Chandler discovers the miracle of birth seeing
    an extremely graphic video.
      __________________________________________________________________
 
-Season 8, Episode 16: [438]The One Where Joey Tells Rachel
+Season 8, Episode 16: The One Where Joey Tells Rachel
 
    Original Air Date—28 February 2002
    Ross freaks out when Joey tells him that he is in love with Rachel
@@ -3068,7 +2931,7 @@ Season 8, Episode 16: [438]The One Where Joey Tells Rachel
    feel the same way about Joey and they both start crying.
      __________________________________________________________________
 
-Season 8, Episode 17: [439]The One with the Tea Leaves
+Season 8, Episode 17: The One with the Tea Leaves
 
    Original Air Date—7 March 2002
    Chandler and Monica are happy together - their worst problem is his
@@ -3085,27 +2948,27 @@ Season 8, Episode 17: [439]The One with the Tea Leaves
    and dives behind the couch when she enters with a studly new lover...
      __________________________________________________________________
 
-Season 8, Episode 18: [440]The One in Massapequa
+Season 8, Episode 18: The One in Massapequa
 
    Original Air Date—28 March 2002
    Phoebe has an extremely enthusiast friend, who makes a fuss of
    everything.
      __________________________________________________________________
 
-Season 8, Episode 19: [441]The One with Joey's Interview
+Season 8, Episode 19: The One with Joey's Interview
 
    Original Air Date—4 April 2002
    Joey gives an interview to a soap opera magazine.
      __________________________________________________________________
 
-Season 8, Episode 20: [442]The One with the Baby Shower
+Season 8, Episode 20: The One with the Baby Shower
 
    Original Air Date—25 April 2002
    Monica gives a baby shower for Rachel, where the future mother will
    find out that she doesn't know to much about babies.
      __________________________________________________________________
 
-Season 8, Episode 21: [443]The One with the Cooking Class
+Season 8, Episode 21: The One with the Cooking Class
 
    Original Air Date—2 May 2002
    Monica gets angry with a critic who wrote an awful review about a soup,
@@ -3113,7 +2976,7 @@ Season 8, Episode 21: [443]The One with the Cooking Class
    to give him once again her soup and he could write a better review.
      __________________________________________________________________
 
-Season 8, Episode 22: [444]The One Where Rachel Is Late
+Season 8, Episode 22: The One Where Rachel Is Late
 
    Original Air Date—9 May 2002
    Rachel's in a bad mood because she's tired of being pregnant. She wants
@@ -3121,7 +2984,7 @@ Season 8, Episode 22: [444]The One Where Rachel Is Late
    about the date of the birth.
      __________________________________________________________________
 
-Season 8, Episode 23: [445]The One Where Rachel Has a Baby: Part 1
+Season 8, Episode 23: The One Where Rachel Has a Baby: Part 1
 
    Original Air Date—16 May 2002
    Ross and Rachel go to the hospital to have their baby but it's a long
@@ -3131,7 +2994,7 @@ Season 8, Episode 23: [445]The One Where Rachel Has a Baby: Part 1
    to have a baby.
      __________________________________________________________________
 
-Season 8, Episode 24: [446]The One Where Rachel Has a Baby: Part 2
+Season 8, Episode 24: The One Where Rachel Has a Baby: Part 2
 
    Original Air Date—16 May 2002
    After 21 hours Rachel is finally ready to go to the delivery room and
@@ -3150,14 +3013,14 @@ Season 8, Episode 24: [446]The One Where Rachel Has a Baby: Part 2
 [447]Season 9
      __________________________________________________________________
 
-Season 9, Episode 1: [448]The One Where No One Proposes
+Season 9, Episode 1: The One Where No One Proposes
 
    Original Air Date—26 September 2002
    Rachel thinks that Joey has proposed to her. Monica and Chandler begin
    trying to have a baby.
      __________________________________________________________________
 
-Season 9, Episode 2: [449]The One Where Emma Cries
+Season 9, Episode 2: The One Where Emma Cries
 
    Original Air Date—3 October 2002
    Rachel doesn't know what to do so Emma will stop crying and Monica is
@@ -3166,20 +3029,20 @@ Season 9, Episode 2: [449]The One Where Emma Cries
    agreeing to being transferred.
      __________________________________________________________________
 
-Season 9, Episode 3: [450]The One with the Pediatrician
+Season 9, Episode 3: The One with the Pediatrician
 
    Original Air Date—10 October 2002
    Joey arranges a blind date for Phoebe. Chandler is leaving for Tulsa
    without Monica, because she has got a great job offer.
      __________________________________________________________________
 
-Season 9, Episode 4: [451]The One with the Sharks
+Season 9, Episode 4: The One with the Sharks
 
    Original Air Date—17 October 2002
    Monica thinks Chandler is aroused by shark documentaries.
      __________________________________________________________________
 
-Season 9, Episode 5: [452]The One with Phoebe's Birthday Dinner
+Season 9, Episode 5: The One with Phoebe's Birthday Dinner
 
    Original Air Date—31 October 2002
    Phoebe will celebrate her birthday by having a dinner with her friends
@@ -3187,32 +3050,32 @@ Season 9, Episode 5: [452]The One with Phoebe's Birthday Dinner
    series of problems.
      __________________________________________________________________
 
-Season 9, Episode 6: [453]The One with the Male Nanny
+Season 9, Episode 6: The One with the Male Nanny
 
    Original Air Date—7 November 2002
    Ross and Rachel hire a male nanny.
      __________________________________________________________________
 
-Season 9, Episode 7: [454]The One with Ross's Inappropriate Song
+Season 9, Episode 7: The One with Ross's Inappropriate Song
 
    Original Air Date—14 November 2002
    Ross finds a way to make Emma laugh - singing "Baby Got Back."
      __________________________________________________________________
 
-Season 9, Episode 8: [455]The One with Rachel's Other Sister
+Season 9, Episode 8: The One with Rachel's Other Sister
 
    Original Air Date—21 November 2002
    Rachel's middle sister shows up on Thanksgiving Day.
      __________________________________________________________________
 
-Season 9, Episode 9: [456]The One with Rachel's Phone Number
+Season 9, Episode 9: The One with Rachel's Phone Number
 
    Original Air Date—5 December 2002
    Rachel is ready to start hanging out again. She and Phoebe goes to a
    bar, where they meet two guys.
      __________________________________________________________________
 
-Season 9, Episode 10: [457]The One with Christmas in Tulsa
+Season 9, Episode 10: The One with Christmas in Tulsa
 
    Original Air Date—12 December 2002
    Chandler must spend Christmas in Tulsa, which Monica thinks he might
@@ -3220,7 +3083,7 @@ Season 9, Episode 10: [457]The One with Christmas in Tulsa
    Chandler comes home early to announce that he quit his job.
      __________________________________________________________________
 
-Season 9, Episode 11: [458]The One Where Rachel Goes Back to Work
+Season 9, Episode 11: The One Where Rachel Goes Back to Work
 
    Original Air Date—9 January 2003
    Chandler starts looking for a job and is anxious about having a baby,
@@ -3228,7 +3091,7 @@ Season 9, Episode 11: [458]The One Where Rachel Goes Back to Work
    Joey's show.
      __________________________________________________________________
 
-Season 9, Episode 12: [459]The One with Phoebe's Rats
+Season 9, Episode 12: The One with Phoebe's Rats
 
    Original Air Date—16 January 2003
    Since Rachel didn't see it in her, Ross got to hire a hot nanny for
@@ -3242,7 +3105,7 @@ Season 9, Episode 12: [459]The One with Phoebe's Rats
    both of them to, to Ross's horror...
      __________________________________________________________________
 
-Season 9, Episode 13: [460]The One Where Monica Sings
+Season 9, Episode 13: The One Where Monica Sings
 
    Original Air Date—30 January 2003
    Monica sings at Mike's bar, and everyone likes her singing. Later,
@@ -3255,7 +3118,7 @@ Season 9, Episode 13: [460]The One Where Monica Sings
    his eyebrows so they look somewhat normal.
      __________________________________________________________________
 
-Season 9, Episode 14: [461]The One with the Blind Dates
+Season 9, Episode 14: The One with the Blind Dates
 
    Original Air Date—6 February 2003
    As they think Ross and Rachel should get back together with Emma, Joey
@@ -3270,7 +3133,7 @@ Season 9, Episode 14: [461]The One with the Blind Dates
    perversion' next to the bedroom...
      __________________________________________________________________
 
-Season 9, Episode 15: [462]The One with the Mugging
+Season 9, Episode 15: The One with the Mugging
 
    Original Air Date—13 February 2003
    Joey gets a part in a stage-play in a painful way. Ross and Phoebe are
@@ -3278,7 +3141,7 @@ Season 9, Episode 15: [462]The One with the Mugging
    years ago. Chandler starts his new career as advertising writer.
      __________________________________________________________________
 
-Season 9, Episode 16: [463]The One with the Boob Job
+Season 9, Episode 16: The One with the Boob Job
 
    Original Air Date—20 February 2003
    When Monica and Chandler both ask Joey for money not wanting the other
@@ -3289,7 +3152,7 @@ Season 9, Episode 16: [463]The One with the Boob Job
    go insane when he can't open anything.
      __________________________________________________________________
 
-Season 9, Episode 17: [464]The One with the Memorial Service
+Season 9, Episode 17: The One with the Memorial Service
 
    Original Air Date—13 March 2003
    When Chandler and Ross joke around on their college website, Ross is
@@ -3298,7 +3161,7 @@ Season 9, Episode 17: [464]The One with the Memorial Service
    Hugsy, to Emma. Monica helps Phoebe not call Mike.
      __________________________________________________________________
 
-Season 9, Episode 18: [465]The One with the Lottery
+Season 9, Episode 18: The One with the Lottery
 
    Original Air Date—3 April 2003
    When everyone except Ross pools together to buy tickets for the
@@ -3308,7 +3171,7 @@ Season 9, Episode 18: [465]The One with the Lottery
    his advertising firm, and Emma is due to say her first word.
      __________________________________________________________________
 
-Season 9, Episode 19: [466]The One with Rachel's Dream
+Season 9, Episode 19: The One with Rachel's Dream
 
    Original Air Date—17 April 2003
    Joey is insecure now his Days of Our Lives character Dr. Drake Ramore
@@ -3327,7 +3190,7 @@ Season 9, Episode 19: [466]The One with Rachel's Dream
    ever did...
      __________________________________________________________________
 
-Season 9, Episode 20: [467]The One with the Soap Opera Party
+Season 9, Episode 20: The One with the Soap Opera Party
 
    Original Air Date—24 April 2003
    Joey secretly plans a party for Soap Opera Stars because Monica,
@@ -3341,7 +3204,7 @@ Season 9, Episode 20: [467]The One with the Soap Opera Party
    kissing.
      __________________________________________________________________
 
-Season 9, Episode 21: [468]The One with the Fertility Test
+Season 9, Episode 21: The One with the Fertility Test
 
    Original Air Date—1 May 2003
    After trying and not yet being able to conceive a child, Monica and
@@ -3361,7 +3224,7 @@ Season 9, Episode 21: [468]The One with the Fertility Test
    planned route through the museum.
      __________________________________________________________________
 
-Season 9, Episode 22: [469]The One with the Donor
+Season 9, Episode 22: The One with the Donor
 
    Original Air Date—8 May 2003
    When Joey hears that his girlfriend Charlie is an insecure shopper, he
@@ -3380,7 +3243,7 @@ Season 9, Episode 22: [469]The One with the Donor
    who is back from Minsk, for good...
      __________________________________________________________________
 
-Season 9, Episode 23: [470]The One in Barbados: Part 1
+Season 9, Episode 23: The One in Barbados: Part 1
 
    Original Air Date—15 May 2003
    Chandler gives advice to David, but that makes David want to propose to
@@ -3393,7 +3256,7 @@ Season 9, Episode 23: [470]The One in Barbados: Part 1
    feelings for him.
      __________________________________________________________________
 
-Season 9, Episode 24: [471]The One in Barbados: Part 2
+Season 9, Episode 24: The One in Barbados: Part 2
 
    Original Air Date—15 May 2003
    To the other friends' fury, it keeps raining except during Ross's
@@ -3410,7 +3273,7 @@ Season 9, Episode 24: [471]The One in Barbados: Part 2
 [472]Season 10
      __________________________________________________________________
 
-Season 10, Episode 1: [473]The One After Joey and Rachel Kiss
+Season 10, Episode 1: The One After Joey and Rachel Kiss
 
    Original Air Date—25 September 2003
    Monica, Chandler and Phoebe find out that they can hear through the
@@ -3424,7 +3287,7 @@ Season 10, Episode 1: [473]The One After Joey and Rachel Kiss
    and Joey kissing.
      __________________________________________________________________
 
-Season 10, Episode 2: [474]The One Where Ross Is Fine
+Season 10, Episode 2: The One Where Ross Is Fine
 
    Original Air Date—2 October 2003
    Ross deals with finding out about Rachel and Joey's relationship almost
@@ -3440,7 +3303,7 @@ Season 10, Episode 2: [474]The One Where Ross Is Fine
    that Phoebe gave birth to them which they also did not know.
      __________________________________________________________________
 
-Season 10, Episode 3: [475]The One with Ross's Tan
+Season 10, Episode 3: The One with Ross's Tan
 
    Original Air Date—9 October 2003
    Ross tries to get a tan, but seems to do it poorly. Rachel and Joey try
@@ -3448,7 +3311,7 @@ Season 10, Episode 3: [475]The One with Ross's Tan
    Amanda comes to visit.
      __________________________________________________________________
 
-Season 10, Episode 4: [476]The One with the Cake
+Season 10, Episode 4: The One with the Cake
 
    Original Air Date—23 October 2003
    On Emma's first birthday, Rachel won't let the party start until Emma
@@ -3457,7 +3320,7 @@ Season 10, Episode 4: [476]The One with the Cake
    get back, the others are playing with Emma's toys.
      __________________________________________________________________
 
-Season 10, Episode 5: [477]The One Where Rachel's Sister Babysits
+Season 10, Episode 5: The One Where Rachel's Sister Babysits
 
    Original Air Date—30 October 2003
    Monica and Chandler let Joey write a letter of recommendation for
@@ -3468,7 +3331,7 @@ Season 10, Episode 5: [477]The One Where Rachel's Sister Babysits
    pierced.
      __________________________________________________________________
 
-Season 10, Episode 6: [478]The One with Ross' Grant
+Season 10, Episode 6: The One with Ross' Grant
 
    Original Air Date—6 November 2003
    Monica and Rachel fight over who gets Phoebe's ugly painting. Joey gets
@@ -3478,7 +3341,7 @@ Season 10, Episode 6: [478]The One with Ross' Grant
    with Ross to get back together with her ex-boyfriend.
      __________________________________________________________________
 
-Season 10, Episode 7: [479]The One with the Home Study
+Season 10, Episode 7: The One with the Home Study
 
    Original Air Date—13 November 2003
    Phoebe and Mike keep changing their minds about donating their wedding
@@ -3487,7 +3350,7 @@ Season 10, Episode 7: [479]The One with the Home Study
    one-night-stand with her.
      __________________________________________________________________
 
-Season 10, Episode 8: [480]The One with the Late Thanksgiving
+Season 10, Episode 8: The One with the Late Thanksgiving
 
    Original Air Date—20 November 2003
    Monica wasn't even volunteering to cook her annual Thankgiving feast
@@ -3504,7 +3367,7 @@ Season 10, Episode 8: [480]The One with the Late Thanksgiving
    Suddenly an unexpected phone-call changes Monica's mood completely...
      __________________________________________________________________
 
-Season 10, Episode 9: [481]The One with the Birth Mother
+Season 10, Episode 9: The One with the Birth Mother
 
    Original Air Date—8 January 2004
    After Rachel confirms Joey is more mature in relationships, Phoebe
@@ -3521,7 +3384,7 @@ Season 10, Episode 9: [481]The One with the Birth Mother
    only makes it worse, but Chandler explains privately...
      __________________________________________________________________
 
-Season 10, Episode 10: [482]The One Where Chandler Gets Caught
+Season 10, Episode 10: The One Where Chandler Gets Caught
 
    Original Air Date—15 January 2004
    Chandler and Monica have decided they want to raise their offspring in
@@ -3533,7 +3396,7 @@ Season 10, Episode 10: [482]The One Where Chandler Gets Caught
    a gang, till Nancy calls about their bid on the house...
      __________________________________________________________________
 
-Season 10, Episode 11: [483]The One Where the Stripper Cries
+Season 10, Episode 11: The One Where the Stripper Cries
 
    Original Air Date—5 February 2004
    Phoebe's bachelorette party has no strippers, and Phoebe wanted one. So
@@ -3546,7 +3409,7 @@ Season 10, Episode 11: [483]The One Where the Stripper Cries
    kissed Monica.
      __________________________________________________________________
 
-Season 10, Episode 12: [484]The One with Phoebe's Wedding
+Season 10, Episode 12: The One with Phoebe's Wedding
 
    Original Air Date—12 February 2004
    Monica is driving Phoebe insane as she plans Phoebe's wedding. At the
@@ -3564,7 +3427,7 @@ Season 10, Episode 12: [484]The One with Phoebe's Wedding
    marry Phoebe and Mike & Chandler then plays Phoebe's father.
      __________________________________________________________________
 
-Season 10, Episode 13: [485]The One Where Joey Speaks French
+Season 10, Episode 13: The One Where Joey Speaks French
 
    Original Air Date—19 February 2004
    Ross accompanies Rachel to Long Island after Rachel's father has a
@@ -3577,7 +3440,7 @@ Season 10, Episode 13: [485]The One Where Joey Speaks French
    french, and running out on their lessons.
      __________________________________________________________________
 
-Season 10, Episode 14: [486]The One with Princess Consuela
+Season 10, Episode 14: The One with Princess Consuela
 
    Original Air Date—26 February 2004
    When Phoebe goes to get her name changed she realizes she can change it
@@ -3593,14 +3456,14 @@ Season 10, Episode 14: [486]The One with Princess Consuela
    takes her for dinner to discuss a job offer for her.
      __________________________________________________________________
 
-Season 10, Episode 15: [487]The One Where Estelle Dies
+Season 10, Episode 15: The One Where Estelle Dies
 
    Original Air Date—22 April 2004
    Ross tries to get Rachel to go back to Ralph Lauren, Joey doesn't know
    that his agent has died, and Monica and Chandler bump into Janice.
      __________________________________________________________________
 
-Season 10, Episode 16: [488]The One with Rachel's Going Away Party
+Season 10, Episode 16: The One with Rachel's Going Away Party
 
    Original Air Date—29 April 2004
    As Rachel prepares to move to Paris, Monica throws a going-away party
@@ -3615,17 +3478,17 @@ Season 10, Episode 16: [488]The One with Rachel's Going Away Party
    They turn out to be Monica and Ross's grandma's handcuffs.
      __________________________________________________________________
 
-Season 10, Episode 17: [489]The One with All the Other Ones: Part 1
+Season 10, Episode 17: The One with All the Other Ones: Part 1
 
    Original Air Date—6 May 2004
      __________________________________________________________________
 
-Season 10, Episode 18: [490]The One with All the Other Ones: Part 2
+Season 10, Episode 18: The One with All the Other Ones: Part 2
 
    Original Air Date—6 May 2004
      __________________________________________________________________
 
-Season 10, Episode 19: [491]The Last One: Part 1
+Season 10, Episode 19: The Last One: Part 1
 
    Original Air Date—6 May 2004
    Erica has gone into labor, three weeks early and Chandler has a hard
@@ -3640,7 +3503,7 @@ Season 10, Episode 19: [491]The Last One: Part 1
    Monica finishes the packing.
      __________________________________________________________________
 
-Season 10, Episode 20: [492]The Last One: Part 2
+Season 10, Episode 20: The Last One: Part 2
 
    Original Air Date—6 May 2004
    Ross and Phoebe race to the other airport, afraid they are not going to
@@ -3660,629 +3523,5 @@ Season 10, Episode 20: [492]The Last One: Part 2
    Joey, Pheoebe , Rachel & Ross all go downstairs to have one more cup of
    coffee in Central Perk.
 
-   IFRAME: [493]sponsored_links_afc_iframe
      __________________________________________________________________
 
-Related Links
-
- [494]Episode cast             [495]Episode ratings [496]Episode ratings by date
- [497]Episode ratings by votes [498]Series credits  [499]Plot summary
- [500]TV schedule              [501]Main details
-   ([502]Submit) Add episode
-
-   You may add a new episode for this TV series by clicking the 'add
-   episode' button
-   _______________________________________________________________________
-
-
-   [503]Home | [504]Search | [505]Site Index | [506]NowPlaying | [507]Top
-        Movies | [508]MyMovies | [509]Top 250 | [510]TV | [511]News |
-             [512]Video | [513]Message Boards | [514]Press Room
-        [515]Register | [516]RSS Feeds [517]RSS | [518]Advertising |
-    [519]Content Licensing | [520]Contact Us | [521]Jobs | [522]IMDbPro |
-        [523]IMDb Resume | [524]Box Office Mojo | [525]Withoutabox |
-                   [526]Follow us on Twitter | [527]Mobile
-    International Sites: [528]IMDb Germany | [529]IMDb Italy | [530]IMDb
-                Spain | [531]IMDb France | [532]IMDb Portugal
-
-               [533]Copyright © 1990-2011 [534]IMDb.com, Inc.
-   [535]Terms and [536]Privacy Policy under which this service is provided
-                                   to you.
-
-   An [537][b.gif] company.
-
-                  Amazon Affiliates:
-   [538]AmazonWireless
-   [539]Cellphones &
-   Wireless Plans [540]Askville
-   [541]Community
-   Answers [542]Audible
-   [543]Download
-   Audio Books [544]DPReview
-   [545]Digital
-   Photography [546]Endless
-   [547]Shoes &
-   More [548]Fabric
-   [549]Sewing, Quilting
-   & Knitting [550]Shopbop
-   [551]Designer
-   Fashion Brands [552]Small Parts
-   [553]Industrial
-   Supplies [554]Warehouse Deals
-   [555]Open-Box
-   Discounts [556]Zappos
-   [557]Shoes
-   Clothing
-
-   IFRAME: [558]bottom_ad
-
-   [559]advertisement
-
-   [p?c1=2&c2=6034961&c3=&c4=http%3A%2F%2Fwww.imdb.com%2Ftitle%2Ftt0108778
-   %2Fepisodes&c5=c6=&15=&cj=1]
-
-References
-
-   不隱藏的鏈結
-   1. http://i.media-imdb.com/images/SF1c05d2599bfc9132fc0ec9b4f6ae1e74/imdbsearch.xml
-   2. http://www.imdb.com/images/SF8dcd77f70a5de2a050e47b985a4dfa00/a/js/scriptloader.html#aan,fc
-   3. http://www.imdb.com/images/SF99c7f777fc74f1d954417f99b985a4af/a/ifb/doubleclick/expand.html#imdb2.consumer.title/;tile=2;sz=1x1,4x1;p=f1;ifb=pf;ct=com;g=brc;id=tt0108778;g=co;g=ro;tt=tv;coo=usa;k=c;b=t250a;bpx=1;[PASEGMENTS];u=[CLIENT_SIDE_ORD];ord=[CLIENT_SIDE_ORD]?
-   4. http://ad.doubleclick.net/jump/imdb2.consumer.title/;tile=2;sz=1x1,4x1;p=f1;ifb=pf;ct=com;g=brc;id=tt0108778;g=co;g=ro;tt=tv;coo=usa;k=c;b=t250a;bpx=1;ord=985899616847?
-   5. http://www.imdb.com/images/SF99c7f777fc74f1d954417f99b985a4af/a/ifb/doubleclick/expand.html#imdb2.consumer.title/;tile=3;sz=728x90,1008x150,1008x200,1008x30,9x1;p=t;p=top;ct=com;g=brc;id=tt0108778;g=co;g=ro;tt=tv;coo=usa;k=c;b=t250a;bpx=1;[PASEGMENTS];u=[CLIENT_SIDE_ORD];ord=[CLIENT_SIDE_ORD]?
-   6. http://ad.doubleclick.net/jump/imdb2.consumer.title/;tile=3;sz=728x90,1008x150,1008x200,1008x30,9x1;p=t;p=top;ct=com;g=brc;id=tt0108778;g=co;g=ro;tt=tv;coo=usa;k=c;b=t250a;bpx=1;ord=985899616847?
-   7. http://www.imdb.com/
-   8. http://www.imdb.com/search/
-   9. form field = popup menu
-  10. form field = 文字輸入欄位
-  11. form field = submit button
-  12. http://www.imdb.com/search/
-  13. http://www.imdb.com/register/?why=personalize
-  14. http://www.imdb.com/register/login
-  15. http://www.imdb.com/help/
-  16. http://www.imdb.com/nowplaying/
-  17. http://www.imdb.com/nowplaying/
-  18. http://www.imdb.com/chart/
-  19. http://www.imdb.com/showtimes/
-  20. http://www.imdb.com/features/video/trailers/
-  21. http://www.imdb.com/mymovies/list
-  22. http://www.imdb.com/sections/dvd/
-  23. http://www.imdb.com/sections/indie/
-  24. http://www.imdb.com/chart/top
-  25. http://www.imdb.com/a2z/
-  26. http://www.imdb.com/genre
-  27. http://www.imdb.com/sections/horror/
-  28. http://www.imdb.com/features/summermovieguide/2011/
-  29. http://www.imdb.com/features/tribeca/2011/
-  30. http://www.imdb.com/features/tcm/2011/
-  31. http://www.imdb.com/sections/tv/
-  32. http://www.imdb.com/sections/tv/
-  33. http://www.imdb.com/tvgrid/
-  34. http://www.imdb.com/features/video/tv/
-  35. http://www.imdb.com/search/title?num_votes=5000,&sort=user_rating,desc&title_type=tv_series
-  36. http://www.imdb.com/news/top
-  37. http://www.imdb.com/news/top
-  38. http://www.imdb.com/news/movie
-  39. http://www.imdb.com/news/tv
-  40. http://www.imdb.com/news/celebrity
-  41. http://www.imdb.com/news/
-  42. http://www.imdb.com/photo_galleries/new_photos/2010/
-  43. http://www.imdb.com/features/video/
-  44. http://www.imdb.com/features/video/
-  45. http://www.imdb.com/features/hdgallery
-  46. http://www.imdb.com/features/video/trailers/
-  47. http://www.imdb.com/features/video/tv/
-  48. http://www.imdb.com/features/video/browse/
-  49. http://www.imdb.com/boards/
-  50. http://www.imdb.com/boards/
-  51. http://www.imdb.com/czone/
-  52. http://www.imdb.com/lists
-  53. http://www.imdb.com/list/ratings?tab=builder
-  54. http://www.imdb.com/list/ratings
-  55. http://www.imdb.com/imdbjobs/
-  56. http://www.imdb.com/r/IMDbTabNB/
-  57. http://www.imdb.com/r/IMDbTabNB/
-  58. http://www.imdb.com/r/IMDbResumeNB/https://resume.imdb.com/
-  59. http://www.imdb.com/licensing/
-  60. http://www.imdb.com/list/watchlist
-  61. http://www.imdb.com/
-  62. http://www.imdb.com/title/tt0108778/
-  63. http://www.imdb.com/rg/action-box-title/primary-photo/media/rm1469160448/tt0108778
-  64. http://www.imdb.com/rg/action-box-title/watch-at-amazon/r/50703000000050a0904747031303837373830000001036a08046f677e6c6f6164600000010d6a02045750000001037a0104700000010f5a09096d64626d21667f6460000001047
-  65. http://www.imdb.com/rg/action-box-title/buy-at-amazon/r/50703000000040a0904747031303837373830000001036a03046674600000010d6a02045750000001037a0104700000010f5
-  66. http://www.imdb.com/r/tt_shop/http://pro.imdb.com/title/tt0108778/
-  67. http://www.imdb.com/rg/action-box-title/boards-link/title/tt0108778/board
-  68. http://www.imdb.com/rg/action-box-title/pro-link/http://pro.imdb.com/title/tt0108778/
-  69. http://www.imdb.com/rg/action-box-title/add-to-my-movies/mymovies/list?pending&add=0108778
-  70. http://www.imdb.com/rg/action-box-title/update-data/updates?auto=legacy/title/tt0108778/
-  71. form field = popup menu
-  72. http://www.imdb.com/title/tt0108778/trailers
-  73. http://www.imdb.com/title/tt0108778/fullcredits
-  74. http://www.imdb.com/title/tt0108778/trivia
-  75. http://www.imdb.com/title/tt0108778/officialsites
-  76. http://www.imdb.com/title/tt0108778/quotes
-  77. http://www.imdb.com/title/tt0108778/maindetails
-  78. http://www.imdb.com/title/tt0108778/combined
-  79. http://www.imdb.com/title/tt0108778/fullcredits
-  80. http://www.imdb.com/title/tt0108778/companycredits
-  81. http://www.imdb.com/title/tt0108778/episodes
-  82. http://www.imdb.com/title/tt0108778/epcast
-  83. http://www.imdb.com/title/tt0108778/epdate
-  84. http://www.imdb.com/title/tt0108778/eprate
-  85. http://www.imdb.com/title/tt0108778/epvote
-  86. http://www.imdb.com/title/tt0108778/usercomments
-  87. http://www.imdb.com/title/tt0108778/externalreviews
-  88. http://www.imdb.com/title/tt0108778/awards
-  89. http://www.imdb.com/title/tt0108778/ratings
-  90. http://www.imdb.com/title/tt0108778/recommendations
-  91. http://www.imdb.com/title/tt0108778/board
-  92. http://www.imdb.com/title/tt0108778/plotsummary
-  93. http://www.imdb.com/title/tt0108778/keywords
-  94. http://www.imdb.com/title/tt0108778/quotes
-  95. http://www.imdb.com/title/tt0108778/trivia
-  96. http://www.imdb.com/title/tt0108778/goofs
-  97. http://www.imdb.com/title/tt0108778/soundtrack
-  98. http://www.imdb.com/title/tt0108778/crazycredits
-  99. http://www.imdb.com/title/tt0108778/alternateversions
- 100. http://www.imdb.com/title/tt0108778/movieconnections
- 101. http://www.imdb.com/title/tt0108778/faq
- 102. http://www.imdb.com/title/tt0108778/business
- 103. http://www.imdb.com/title/tt0108778/releaseinfo
- 104. http://www.imdb.com/title/tt0108778/locations
- 105. http://www.imdb.com/title/tt0108778/technical
- 106. http://www.imdb.com/title/tt0108778/literature
- 107. http://www.imdb.com/title/tt0108778/news
- 108. http://www.imdb.com/title/tt0108778/taglines
- 109. http://www.imdb.com/title/tt0108778/trailers
- 110. http://www.imdb.com/title/tt0108778/posters
- 111. http://www.imdb.com/title/tt0108778/photogallery
- 112. http://www.imdb.com/title/tt0108778/cinemashowtimes
- 113. http://www.imdb.com/title/tt0108778/officialsites
- 114. http://www.imdb.com/title/tt0108778/miscsites
- 115. http://www.imdb.com/title/tt0108778/photosites
- 116. http://www.imdb.com/title/tt0108778/soundsites
- 117. http://www.imdb.com/title/tt0108778/videosites
- 118. http://www.imdb.com/title/tt0108778/
- 119. http://www.imdb.com/year/1994/
- 120. http://pro.imdb.com/rg/episodes-title/tconst-pro-header-link/title/tt0108778/
- 121. http://www.imdb.com/images/SF99c7f777fc74f1d954417f99b985a4af/a/ifb/doubleclick/expand.html#imdb2.consumer.title/;tile=4;sz=300x250,11x1;p=tr;p=tc;ct=com;g=brc;id=tt0108778;g=co;g=ro;tt=tv;coo=usa;k=c;b=t250a;bpx=1;[PASEGMENTS];u=[CLIENT_SIDE_ORD];ord=[CLIENT_SIDE_ORD]?
- 122. http://ad.doubleclick.net/jump/imdb2.consumer.title/;tile=4;sz=300x250,11x1;p=tr;p=tc;ct=com;g=brc;id=tt0108778;g=co;g=ro;tt=tv;coo=usa;k=c;b=t250a;bpx=1;ord=985899616847?
- 123. http://www.imdb.com/title/tt0108778/episodes
- 124. http://www.imdb.com/title/tt0108778/videogallery
- 125. http://www.imdb.com/title/tt0108778/episodes#s-1
- 126. http://www.imdb.com/title/tt0583459/
- 127. http://www.imdb.com/title/tt0583647/
- 128. http://www.imdb.com/title/tt0583653/
- 129. http://www.imdb.com/title/tt0583521/
- 130. http://www.imdb.com/title/tt0583599/
- 131. http://www.imdb.com/title/tt0583585/
- 132. http://www.imdb.com/title/tt0583579/
- 133. http://www.imdb.com/title/tt0583462/
- 134. http://www.imdb.com/tvgrid/2011-04-27/1730#TBS
- 135. http://www.imdb.com/tvgrid/2011-04-27/1730#TBS
- 136. http://www.imdb.com/tvgrid/2011-04-27/TBS
- 137. http://www.imdb.com/title/tt0583492/
- 138. http://www.imdb.com/title/tt0583630/
- 139. http://www.imdb.com/title/tt0583534/
- 140. http://www.imdb.com/tvgrid/2011-04-28/1730#TBS
- 141. http://www.imdb.com/tvgrid/2011-04-28/1730#TBS
- 142. http://www.imdb.com/tvgrid/2011-04-28/TBS
- 143. http://www.imdb.com/title/tt0583598/
- 144. http://www.imdb.com/tvgrid/2011-04-29/1730#TBS
- 145. http://www.imdb.com/tvgrid/2011-04-29/1730#TBS
- 146. http://www.imdb.com/tvgrid/2011-04-29/TBS
- 147. http://www.imdb.com/title/tt0583582/
- 148. http://www.imdb.com/tvgrid/2011-05-02/1730#TBS
- 149. http://www.imdb.com/tvgrid/2011-05-02/1730#TBS
- 150. http://www.imdb.com/tvgrid/2011-05-02/TBS
- 151. http://www.imdb.com/title/tt0583587/
- 152. http://www.imdb.com/title/tt0583649/
- 153. http://www.imdb.com/tvgrid/2011-05-03/1730#TBS
- 154. http://www.imdb.com/tvgrid/2011-05-03/1730#TBS
- 155. http://www.imdb.com/tvgrid/2011-05-03/TBS
- 156. http://www.imdb.com/title/tt0583568/
- 157. http://www.imdb.com/tvgrid/2011-05-04/1730#TBS
- 158. http://www.imdb.com/tvgrid/2011-05-04/1730#TBS
- 159. http://www.imdb.com/tvgrid/2011-05-04/TBS
- 160. http://www.imdb.com/title/tt0583569/
- 161. http://www.imdb.com/tvgrid/2011-05-05/1730#TBS
- 162. http://www.imdb.com/tvgrid/2011-05-05/1730#TBS
- 163. http://www.imdb.com/tvgrid/2011-05-05/TBS
- 164. http://www.imdb.com/title/tt0583510/
- 165. http://www.imdb.com/tvgrid/2011-05-06/1730#TBS
- 166. http://www.imdb.com/tvgrid/2011-05-06/1730#TBS
- 167. http://www.imdb.com/tvgrid/2011-05-06/TBS
- 168. http://www.imdb.com/title/tt0583493/
- 169. http://www.imdb.com/tvgrid/2011-05-09/1730#TBS
- 170. http://www.imdb.com/tvgrid/2011-05-09/1730#TBS
- 171. http://www.imdb.com/tvgrid/2011-05-09/TBS
- 172. http://www.imdb.com/title/tt0583602/
- 173. http://www.imdb.com/title/tt0583603/
- 174. http://www.imdb.com/title/tt0583616/
- 175. http://www.imdb.com/title/tt0583577/
- 176. http://www.imdb.com/title/tt0583469/
- 177. http://www.imdb.com/title/tt0108778/episodes#s-2
- 178. http://www.imdb.com/title/tt0583562/
- 179. http://www.imdb.com/title/tt0583583/
- 180. http://www.imdb.com/title/tt0583453/
- 181. http://www.imdb.com/title/tt0583539/
- 182. http://www.imdb.com/title/tt0583519/
- 183. http://www.imdb.com/title/tt0583574/
- 184. http://www.imdb.com/title/tt0583481/
- 185. http://www.imdb.com/title/tt0583625/
- 186. http://www.imdb.com/title/tt0583537/
- 187. http://www.imdb.com/title/tt0583567/
- 188. http://www.imdb.com/title/tt0583624/
- 189. http://www.imdb.com/title/tt0583439/
- 190. http://www.imdb.com/title/tt0831047/
- 191. http://www.imdb.com/title/tt0583635/
- 192. http://www.imdb.com/title/tt0583488/
- 193. http://www.imdb.com/title/tt0583456/
- 194. http://www.imdb.com/title/tt0583448/
- 195. http://www.imdb.com/title/tt0583447/
- 196. http://www.imdb.com/title/tt0583449/
- 197. http://www.imdb.com/title/tt0583465/
- 198. http://www.imdb.com/title/tt0583584/
- 199. http://www.imdb.com/title/tt0583656/
- 200. http://www.imdb.com/title/tt0583591/
- 201. http://www.imdb.com/title/tt0583514/
- 202. http://www.imdb.com/title/tt0108778/episodes#s-3
- 203. http://www.imdb.com/title/tt0583634/
- 204. http://www.imdb.com/title/tt0583464/
- 205. http://www.imdb.com/title/tt0583619/
- 206. http://www.imdb.com/title/tt0583629/
- 207. http://www.imdb.com/tvgrid/2011-05-01/2000#CW
- 208. http://www.imdb.com/tvgrid/2011-05-01/2000#CW
- 209. http://www.imdb.com/tvgrid/2011-05-01/CW
- 210. http://www.imdb.com/title/tt0583520/
- 211. http://www.imdb.com/tvgrid/2011-05-01/2030#CW
- 212. http://www.imdb.com/tvgrid/2011-05-01/2030#CW
- 213. http://www.imdb.com/tvgrid/2011-05-01/CW
- 214. http://www.imdb.com/title/tt0583606/
- 215. http://www.imdb.com/tvgrid/2011-05-08/2000#CW
- 216. http://www.imdb.com/tvgrid/2011-05-08/2000#CW
- 217. http://www.imdb.com/tvgrid/2011-05-08/CW
- 218. http://www.imdb.com/title/tt0583637/
- 219. http://www.imdb.com/tvgrid/2011-05-08/2030#CW
- 220. http://www.imdb.com/tvgrid/2011-05-08/2030#CW
- 221. http://www.imdb.com/tvgrid/2011-05-08/CW
- 222. http://www.imdb.com/title/tt0583609/
- 223. http://www.imdb.com/title/tt0583607/
- 224. http://www.imdb.com/title/tt0583474/
- 225. http://www.imdb.com/title/tt0583443/
- 226. http://www.imdb.com/title/tt0583506/
- 227. http://www.imdb.com/title/tt0583461/
- 228. http://www.imdb.com/title/tt0583538/
- 229. http://www.imdb.com/title/tt0583487/
- 230. http://www.imdb.com/title/tt0583501/
- 231. http://www.imdb.com/title/tt0583495/
- 232. http://www.imdb.com/title/tt0583615/
- 233. http://www.imdb.com/title/tt0583654/
- 234. http://www.imdb.com/title/tt0583596/
- 235. http://www.imdb.com/title/tt0583590/
- 236. http://www.imdb.com/title/tt0583643/
- 237. http://www.imdb.com/title/tt0583565/
- 238. http://www.imdb.com/title/tt0583657/
- 239. http://www.imdb.com/title/tt0583496/
- 240. http://www.imdb.com/title/tt0108778/episodes#s-4
- 241. http://www.imdb.com/title/tt0583620/
- 242. http://www.imdb.com/title/tt0583588/
- 243. http://www.imdb.com/title/tt0583571/
- 244. http://www.imdb.com/title/tt0583576/
- 245. http://www.imdb.com/title/tt0583529/
- 246. http://www.imdb.com/title/tt0583595/
- 247. http://www.imdb.com/title/tt0583444/
- 248. http://www.imdb.com/title/tt0583515/
- 249. http://www.imdb.com/title/tt0583490/
- 250. http://www.imdb.com/title/tt0583611/
- 251. http://www.imdb.com/title/tt0583541/
- 252. http://www.imdb.com/tvgrid/2011-04-27/1730#CW
- 253. http://www.imdb.com/tvgrid/2011-04-27/1730#CW
- 254. http://www.imdb.com/tvgrid/2011-04-27/CW
- 255. http://www.imdb.com/title/tt0583600/
- 256. http://www.imdb.com/tvgrid/2011-04-28/1730#CW
- 257. http://www.imdb.com/tvgrid/2011-04-28/1730#CW
- 258. http://www.imdb.com/tvgrid/2011-04-28/CW
- 259. http://www.imdb.com/title/tt0583547/
- 260. http://www.imdb.com/tvgrid/2011-04-29/1730#CW
- 261. http://www.imdb.com/tvgrid/2011-04-29/1730#CW
- 262. http://www.imdb.com/tvgrid/2011-04-29/CW
- 263. http://www.imdb.com/title/tt0583525/
- 264. http://www.imdb.com/tvgrid/2011-05-02/1730#CW
- 265. http://www.imdb.com/tvgrid/2011-05-02/1730#CW
- 266. http://www.imdb.com/tvgrid/2011-05-02/CW
- 267. http://www.imdb.com/title/tt0583512/
- 268. http://www.imdb.com/tvgrid/2011-05-03/1730#CW
- 269. http://www.imdb.com/tvgrid/2011-05-03/1730#CW
- 270. http://www.imdb.com/tvgrid/2011-05-03/CW
- 271. http://www.imdb.com/title/tt0583604/
- 272. http://www.imdb.com/tvgrid/2011-05-04/1730#CW
- 273. http://www.imdb.com/tvgrid/2011-05-04/1730#CW
- 274. http://www.imdb.com/tvgrid/2011-05-04/CW
- 275. http://www.imdb.com/title/tt0583608/
- 276. http://www.imdb.com/tvgrid/2011-05-05/1730#CW
- 277. http://www.imdb.com/tvgrid/2011-05-05/1730#CW
- 278. http://www.imdb.com/tvgrid/2011-05-05/CW
- 279. http://www.imdb.com/title/tt0583552/
- 280. http://www.imdb.com/tvgrid/2011-05-06/1730#CW
- 281. http://www.imdb.com/tvgrid/2011-05-06/1730#CW
- 282. http://www.imdb.com/tvgrid/2011-05-06/CW
- 283. http://www.imdb.com/title/tt0583505/
- 284. http://www.imdb.com/tvgrid/2011-05-09/1730#CW
- 285. http://www.imdb.com/tvgrid/2011-05-09/1730#CW
- 286. http://www.imdb.com/tvgrid/2011-05-09/CW
- 287. http://www.imdb.com/title/tt0583513/
- 288. http://www.imdb.com/title/tt0583618/
- 289. http://www.imdb.com/title/tt0583659/
- 290. http://www.imdb.com/title/tt0583566/
- 291. http://www.imdb.com/title/tt0831991/
- 292. http://www.imdb.com/title/tt0108778/episodes#s-5
- 293. http://www.imdb.com/title/tt0583437/
- 294. http://www.imdb.com/title/tt0583507/
- 295. http://www.imdb.com/title/tt0583440/
- 296. http://www.imdb.com/title/tt0583467/
- 297. http://www.imdb.com/title/tt0583622/
- 298. http://www.imdb.com/title/tt0583660/
- 299. http://www.imdb.com/title/tt0583486/
- 300. http://www.imdb.com/title/tt0583652/
- 301. http://www.imdb.com/title/tt0583563/
- 302. http://www.imdb.com/tvgrid/2011-04-27/1700#TBS
- 303. http://www.imdb.com/tvgrid/2011-04-27/1700#TBS
- 304. http://www.imdb.com/tvgrid/2011-04-27/TBS
- 305. http://www.imdb.com/title/tt0583617/
- 306. http://www.imdb.com/tvgrid/2011-04-28/1700#TBS
- 307. http://www.imdb.com/tvgrid/2011-04-28/1700#TBS
- 308. http://www.imdb.com/tvgrid/2011-04-28/TBS
- 309. http://www.imdb.com/title/tt0583511/
- 310. http://www.imdb.com/title/tt0583517/
- 311. http://www.imdb.com/tvgrid/2011-04-29/1700#TBS
- 312. http://www.imdb.com/tvgrid/2011-04-29/1700#TBS
- 313. http://www.imdb.com/tvgrid/2011-04-29/TBS
- 314. http://www.imdb.com/title/tt0583523/
- 315. http://www.imdb.com/tvgrid/2011-05-02/1700#TBS
- 316. http://www.imdb.com/tvgrid/2011-05-02/1700#TBS
- 317. http://www.imdb.com/tvgrid/2011-05-02/TBS
- 318. http://www.imdb.com/title/tt0583452/
- 319. http://www.imdb.com/tvgrid/2011-05-03/1700#TBS
- 320. http://www.imdb.com/tvgrid/2011-05-03/1700#TBS
- 321. http://www.imdb.com/tvgrid/2011-05-03/TBS
- 322. http://www.imdb.com/title/tt0583610/
- 323. http://www.imdb.com/tvgrid/2011-05-04/1700#TBS
- 324. http://www.imdb.com/tvgrid/2011-05-04/1700#TBS
- 325. http://www.imdb.com/tvgrid/2011-05-04/TBS
- 326. http://www.imdb.com/title/tt0583593/
- 327. http://www.imdb.com/tvgrid/2011-05-05/1700#TBS
- 328. http://www.imdb.com/tvgrid/2011-05-05/1700#TBS
- 329. http://www.imdb.com/tvgrid/2011-05-05/TBS
- 330. http://www.imdb.com/title/tt0583551/
- 331. http://www.imdb.com/tvgrid/2011-05-06/1700#TBS
- 332. http://www.imdb.com/tvgrid/2011-05-06/1700#TBS
- 333. http://www.imdb.com/tvgrid/2011-05-06/TBS
- 334. http://www.imdb.com/title/tt0583475/
- 335. http://www.imdb.com/tvgrid/2011-05-09/1700#TBS
- 336. http://www.imdb.com/tvgrid/2011-05-09/1700#TBS
- 337. http://www.imdb.com/tvgrid/2011-05-09/TBS
- 338. http://www.imdb.com/title/tt0583479/
- 339. http://www.imdb.com/title/tt0583639/
- 340. http://www.imdb.com/title/tt0583575/
- 341. http://www.imdb.com/title/tt0583524/
- 342. http://www.imdb.com/title/tt0583500/
- 343. http://www.imdb.com/title/tt0831990/
- 344. http://www.imdb.com/title/tt0108778/episodes#s-6
- 345. http://www.imdb.com/title/tt0583438/
- 346. http://www.imdb.com/title/tt0583483/
- 347. http://www.imdb.com/title/tt0583560/
- 348. http://www.imdb.com/title/tt0583455/
- 349. http://www.imdb.com/title/tt0583530/
- 350. http://www.imdb.com/title/tt0756481/
- 351. http://www.imdb.com/title/tt0583468/
- 352. http://www.imdb.com/title/tt0583559/
- 353. http://www.imdb.com/title/tt0583482/
- 354. http://www.imdb.com/title/tt0583641/
- 355. http://www.imdb.com/title/tt0583572/
- 356. http://www.imdb.com/title/tt0583621/
- 357. http://www.imdb.com/title/tt0583555/
- 358. http://www.imdb.com/title/tt0583502/
- 359. http://www.imdb.com/title/tt0583441/
- 360. http://www.imdb.com/title/tt0583442/
- 361. http://www.imdb.com/title/tt0583570/
- 362. http://www.imdb.com/title/tt0583480/
- 363. http://www.imdb.com/title/tt0583526/
- 364. http://www.imdb.com/tvgrid/2011-04-27/1700#CW
- 365. http://www.imdb.com/tvgrid/2011-04-27/1700#CW
- 366. http://www.imdb.com/tvgrid/2011-04-27/CW
- 367. http://www.imdb.com/title/tt0756482/
- 368. http://www.imdb.com/tvgrid/2011-04-28/1700#CW
- 369. http://www.imdb.com/tvgrid/2011-04-28/1700#CW
- 370. http://www.imdb.com/tvgrid/2011-04-28/CW
- 371. http://www.imdb.com/title/tt0583485/
- 372. http://www.imdb.com/tvgrid/2011-04-29/1700#CW
- 373. http://www.imdb.com/tvgrid/2011-04-29/1700#CW
- 374. http://www.imdb.com/tvgrid/2011-04-29/CW
- 375. http://www.imdb.com/title/tt0583466/
- 376. http://www.imdb.com/tvgrid/2011-05-02/1700#CW
- 377. http://www.imdb.com/tvgrid/2011-05-02/1700#CW
- 378. http://www.imdb.com/tvgrid/2011-05-02/CW
- 379. http://www.imdb.com/title/tt0583640/
- 380. http://www.imdb.com/tvgrid/2011-05-03/1700#CW
- 381. http://www.imdb.com/tvgrid/2011-05-03/1700#CW
- 382. http://www.imdb.com/tvgrid/2011-05-03/CW
- 383. http://www.imdb.com/title/tt0583636/
- 384. http://www.imdb.com/tvgrid/2011-05-04/1700#CW
- 385. http://www.imdb.com/tvgrid/2011-05-04/1700#CW
- 386. http://www.imdb.com/tvgrid/2011-05-04/CW
- 387. http://www.imdb.com/title/tt0954401/
- 388. http://www.imdb.com/tvgrid/2011-05-05/1700#CW
- 389. http://www.imdb.com/tvgrid/2011-05-05/1700#CW
- 390. http://www.imdb.com/tvgrid/2011-05-05/CW
- 391. http://www.imdb.com/title/tt0108778/episodes#s-7
- 392. http://www.imdb.com/title/tt0756483/
- 393. http://www.imdb.com/tvgrid/2011-05-06/1700#CW
- 394. http://www.imdb.com/tvgrid/2011-05-06/1700#CW
- 395. http://www.imdb.com/tvgrid/2011-05-06/CW
- 396. http://www.imdb.com/title/tt0583546/
- 397. http://www.imdb.com/tvgrid/2011-05-09/1700#CW
- 398. http://www.imdb.com/tvgrid/2011-05-09/1700#CW
- 399. http://www.imdb.com/tvgrid/2011-05-09/CW
- 400. http://www.imdb.com/title/tt0583536/
- 401. http://www.imdb.com/title/tt0583544/
- 402. http://www.imdb.com/title/tt0583601/
- 403. http://www.imdb.com/title/tt0583632/
- 404. http://www.imdb.com/title/tt0583558/
- 405. http://www.imdb.com/title/tt0583431/
- 406. http://www.imdb.com/title/tt0583503/
- 407. http://www.imdb.com/title/tt0583613/
- 408. http://www.imdb.com/title/tt0583504/
- 409. http://www.imdb.com/title/tt0583491/
- 410. http://www.imdb.com/title/tt0583478/
- 411. http://www.imdb.com/title/tt0583489/
- 412. http://www.imdb.com/title/tt0583528/
- 413. http://www.imdb.com/title/tt0583655/
- 414. http://www.imdb.com/title/tt0583589/
- 415. http://www.imdb.com/title/tt0583522/
- 416. http://www.imdb.com/title/tt0583556/
- 417. http://www.imdb.com/title/tt0583545/
- 418. http://www.imdb.com/title/tt0756484/
- 419. http://www.imdb.com/title/tt0583516/
- 420. http://www.imdb.com/title/tt0583531/
- 421. http://www.imdb.com/title/tt0583532/
- 422. http://www.imdb.com/title/tt0108778/episodes#s-8
- 423. http://www.imdb.com/title/tt0583435/
- 424. http://www.imdb.com/title/tt0583638/
- 425. http://www.imdb.com/title/tt0583476/
- 426. http://www.imdb.com/title/tt0583658/
- 427. http://www.imdb.com/title/tt0583548/
- 428. http://www.imdb.com/title/tt0583612/
- 429. http://www.imdb.com/title/tt0583648/
- 430. http://www.imdb.com/title/tt0583650/
- 431. http://www.imdb.com/title/tt0583642/
- 432. http://www.imdb.com/title/tt0583533/
- 433. http://www.imdb.com/title/tt0583594/
- 434. http://www.imdb.com/title/tt0583454/
- 435. http://www.imdb.com/title/tt0583446/
- 436. http://www.imdb.com/title/tt0583644/
- 437. http://www.imdb.com/title/tt0583578/
- 438. http://www.imdb.com/title/tt0583458/
- 439. http://www.imdb.com/title/tt0583651/
- 440. http://www.imdb.com/title/tt0583499/
- 441. http://www.imdb.com/title/tt0583527/
- 442. http://www.imdb.com/title/tt0583573/
- 443. http://www.imdb.com/title/tt0583592/
- 444. http://www.imdb.com/title/tt0583473/
- 445. http://www.imdb.com/title/tt0583471/
- 446. http://www.imdb.com/title/tt0583472/
- 447. http://www.imdb.com/title/tt0108778/episodes#s-9
- 448. http://www.imdb.com/title/tt0583463/
- 449. http://www.imdb.com/title/tt0583450/
- 450. http://www.imdb.com/title/tt0583633/
- 451. http://www.imdb.com/title/tt0583645/
- 452. http://www.imdb.com/title/tt0583535/
- 453. http://www.imdb.com/title/tt0583627/
- 454. http://www.imdb.com/title/tt0583561/
- 455. http://www.imdb.com/title/tt0583553/
- 456. http://www.imdb.com/title/tt0583554/
- 457. http://www.imdb.com/title/tt0583518/
- 458. http://www.imdb.com/title/tt0583470/
- 459. http://www.imdb.com/title/tt0583540/
- 460. http://www.imdb.com/title/tt0583460/
- 461. http://www.imdb.com/title/tt0583580/
- 462. http://www.imdb.com/title/tt0583631/
- 463. http://www.imdb.com/title/tt0583581/
- 464. http://www.imdb.com/title/tt0583628/
- 465. http://www.imdb.com/title/tt0583626/
- 466. http://www.imdb.com/title/tt0583549/
- 467. http://www.imdb.com/title/tt0583646/
- 468. http://www.imdb.com/title/tt0583605/
- 469. http://www.imdb.com/title/tt0583597/
- 470. http://www.imdb.com/title/tt0583497/
- 471. http://www.imdb.com/title/tt0583498/
- 472. http://www.imdb.com/title/tt0108778/episodes#s-10
- 473. http://www.imdb.com/title/tt0583436/
- 474. http://www.imdb.com/title/tt0583484/
- 475. http://www.imdb.com/title/tt0583564/
- 476. http://www.imdb.com/title/tt0583586/
- 477. http://www.imdb.com/title/tt0583477/
- 478. http://www.imdb.com/title/tt0583557/
- 479. http://www.imdb.com/title/tt0583614/
- 480. http://www.imdb.com/title/tt0583623/
- 481. http://www.imdb.com/title/tt0583432/
- 482. http://www.imdb.com/title/tt0583445/
- 483. http://www.imdb.com/title/tt0583494/
- 484. http://www.imdb.com/title/tt0583542/
- 485. http://www.imdb.com/title/tt0583457/
- 486. http://www.imdb.com/title/tt0583543/
- 487. http://www.imdb.com/title/tt0583451/
- 488. http://www.imdb.com/title/tt0583550/
- 489. http://www.imdb.com/title/tt0583508/
- 490. http://www.imdb.com/title/tt0583509/
- 491. http://www.imdb.com/title/tt0583433/
- 492. http://www.imdb.com/title/tt0583434/
- 493. about:blank
- 494. http://www.imdb.com/title/tt0108778/epcast
- 495. http://www.imdb.com/title/tt0108778/eprate
- 496. http://www.imdb.com/title/tt0108778/epdate
- 497. http://www.imdb.com/title/tt0108778/epvote
- 498. http://www.imdb.com/title/tt0108778/fullcredits
- 499. http://www.imdb.com/title/tt0108778/plotsummary
- 500. http://www.imdb.com/title/tt0108778/tvschedule
- 501. http://www.imdb.com/title/tt0108778/maindetails
- 502. form field = submit button
- 503. http://www.imdb.com/
- 504. http://www.imdb.com/search
- 505. http://www.imdb.com/a2z
- 506. http://www.imdb.com/nowplaying/
- 507. http://www.imdb.com/chart/
- 508. http://www.imdb.com/register/?why=mymovies_footer
- 509. http://www.imdb.com/chart/top
- 510. http://www.imdb.com/sections/tv/
- 511. http://www.imdb.com/news/
- 512. http://www.imdb.com/features/video/
- 513. http://www.imdb.com/boards/
- 514. http://www.imdb.com/pressroom/
- 515. http://www.imdb.com/register/?why=footer
- 516. http://www.imdb.com/help/show_article?rssavailable
- 517. http://www.imdb.com/help/show_article?rssavailable
- 518. http://www.imdb.com/advertising/
- 519. http://www.imdb.com/tiger_redirect?FT_LIC&licensing/
- 520. http://www.imdb.com/helpdesk/contact
- 521. http://www.imdb.com/jobs
- 522. https://secure.imdb.com/r/IMDbFooter/register/subscribe?c=a394d4442664f6f6475627
- 523. http://resume.imdb.com/
- 524. http://www.boxofficemojo.com/
- 525. http://www.withoutabox.com/
- 526. http://www.twitter.com/imdb
- 527. http://m.imdb.com/
- 528. http://www.imdb.de/
- 529. http://www.imdb.it/
- 530. http://www.imdb.es/
- 531. http://www.imdb.fr/
- 532. http://www.imdb.pt/
- 533. http://www.imdb.com/help/show_article?conditions
- 534. http://www.imdb.com/help/
- 535. http://www.imdb.com/help/show_article?conditions
- 536. http://www.imdb.com/privacy
- 537. http://www.amazon.com/exec/obidos/redirect-home/internetmoviedat
- 538. http://wireless.amazon.com/
- 539. http://wireless.amazon.com/
- 540. http://askville.amazon.com/
- 541. http://askville.amazon.com/
- 542. http://www.audible.com/
- 543. http://www.audible.com/
- 544. http://www.dpreview.com/
- 545. http://www.dpreview.com/
- 546. http://www.endless.com/
- 547. http://www.endless.com/
- 548. http://www.fabric.com/
- 549. http://www.fabric.com/
- 550. http://www.shopbop.com/welcome
- 551. http://www.shopbop.com/welcome
- 552. http://www.smallparts.com/
- 553. http://www.smallparts.com/
- 554. http://www.amazon.com/b/ref=footer_wrhsdls?ie=UTF8&node=1267877011
- 555. http://www.amazon.com/b/ref=footer_wrhsdls?ie=UTF8&node=1267877011
- 556. http://www.zappos.com/
- 557. http://www.zappos.com/
- 558. http://www.imdb.com/images/SF99c7f777fc74f1d954417f99b985a4af/a/ifb/doubleclick/expand.html#imdb2.consumer.title/;tile=1;sz=728x90,2x1;p=b;ct=com;g=brc;id=tt0108778;g=co;g=ro;tt=tv;coo=usa;k=c;b=t250a;bpx=1;[PASEGMENTS];u=[CLIENT_SIDE_ORD];ord=[CLIENT_SIDE_ORD]?
- 559. http://ad.doubleclick.net/jump/imdb2.consumer.title/;tile=1;sz=728x90,2x1;p=b;ct=com;g=brc;id=tt0108778;g=co;g=ro;tt=tv;coo=usa;k=c;b=t250a;bpx=1;ord=985899616847?
-
-   隱藏的鏈結：
- 560. http://www.imdb.com/
