@@ -315,7 +315,7 @@ genre: friends
         - question: Monica wanted all eyes on her.
           answer: True
         - question: Phoebe is very happy and shouts with joy.
-          answer: True
+          answer: False
         - question: Ross doesn't mind that Rachel changed her mind.
           answer: False
 24:
