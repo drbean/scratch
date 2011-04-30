@@ -3,9 +3,9 @@ genre: friends
   jigsaw:
     0:
       identifier: Rachel tells Ross
-      A: You know who the father is. You pretend you don't know when Ross tells you. You are also upset about the 97 percent failure rate of contraceptives. You intend to call Monica and Chandler and ask them if it's OK to chop down your door to get into their apartment, because you smell gas.
+      A: You know who the father is. You pretend you don't know when Ross tells you. You are also upset about the 97 percent failure rate of contraceptives. You intend to call Monica and Chandler and ask them if it's OK to chop down their door to get into their apartment, because you smell gas.
       B: You pretend you don't know when Ross tells you that Rachel is expecting. You ask the building superintendent not to tell Monica and Chandler that their door is broken. The superintendent chopped down the door when you said you could smell gas inside. You told the superintendent you could smell gas, to get him to open the door so you could get inside.
-      C: You know who the father is. But you don't know that Ross knows. You don't know that your door is wrecked. You are on your honeymoon. You are indignant that the honeymooning couple in front of you get freebies you don't get. You tell Joey it's OK to break down your door.
+      C: You know who the father is. But you don't know that Ross knows. You don't know that your door is wrecked. You are on your honeymoon. You are questioned by security officers, who think you may be terrorists. You tell Joey it's OK to break down your door.
       D: You are the father. But you don't know it. When Rachel talks to you,  you expect her to suggest you go to bed together again, and you act cool. You don't expect her to tell you that she is expecting. You are indignant that the contraceptive device you used is only 97 percent effective. How do you know that Rachel knows you are the father?
       quiz:
         - question: A
