@@ -72,6 +72,7 @@ data DET  = The | Every | Some | No | Most
 data CN   = Man | Woman | Mother   | Boy   | Undertaker | Gravedigger | Doctor
 		| Sexton
 		| Hospital | Cemetery
+		| Ghost | Ghost_hunter
           deriving Show 
 data ADJ  = Fake deriving Show
 data RCN  = RCN1 CN That VP | RCN2 CN That NP TV
@@ -221,35 +222,38 @@ entities	=  [minBound..maxBound]
 
 
 mort, dred, doug, ma, foster,
-	robert, sam, david, robert's_ghost
+	robert, sam, david, robert's_ghost,
+	don, mike, philip
                                                 :: Entity
 
-mort	= M
-dred	= D
+mort	= T
+dred	= E
 doug	= U
 ma	= A
 foster	= F
 memorial= H
 oakland	= O
-philip	= P
 
-sam	= R
-robert	= B
-david	= V
+sam	= S
+robert	= R
+david	= D
 robert's_ghost	= G
+
+philip	= P
+mike	= M
+don	= N
 
 man, woman :: OnePlacePred
 
-man	= list2OnePlacePred [F,M,U]
+man	= list2OnePlacePred [T,E,U,S,R,D,M,N]
 woman	= list2OnePlacePred [A]
-boy	= list2OnePlacePred [D]
 cemetery= list2OnePlacePred [O]
 hospital= list2OnePlacePred [H]
-sexton	= pred1 [U,R]
+sexton	= pred1 [U,S]
 grave	= pred1 [G]
 
 cry	= pred1 [A]
-die	= pred1 [P]
+die	= pred1 [P,R]
 
 type OnePlacePred	= Entity -> Bool
 type TwoPlacePred	= Entity -> Entity -> Bool
@@ -260,7 +264,7 @@ list2OnePlacePred xs	= \ x -> elem x xs
 
 person, thing :: OnePlacePred
 
-person	= \ x -> (man x || woman x || boy x)
+person	= \ x -> (man x || woman x )
 thing	= \ x -> not (person x || x == Unspec)
 
 working = [M,U,F, S]
@@ -279,7 +283,7 @@ parenting	= [ (A,D)]
 loving	= parenting
 hiring	= [(A,M), (M,U)]
 helping = [(O,A)]
-burying = [(U,D)]
+burying = [(U,E), (Unspec, P), (Unspec, R)]
 
 handing = [(O,D,M)]
 
@@ -315,7 +319,6 @@ type Interp a	= String -> [a] -> Bool
 int :: Interp Entity
 int "Man"	= \ [x] -> man x
 int "Woman"	= \ [x] -> woman x
-int "Boy" = \ [x] -> boy x
 
 int "Person"	= \ [x] -> person x
 int "Thing"	= \ [x]	-> thing x
@@ -350,14 +353,22 @@ ass :: Variable -> Entity
 ass	= \v -> E
 
 fint :: FInterp Entity
-fint "Dred" [] =	D
-fint "Mort" [] =	M
+fint "Dred" [] =	E
+fint "Mort" [] =	T
 fint "Ms_Ma" [] =	A
 fint "Doug" [] =	U
 fint "Foster" [] =	F
 fint "Oakland" [] =	O
 fint "Memorial" [] =	H
+
+fint "Robert" [] =	R
+fint "Sam" [] =		S
+fint "David" [] =	D
+fint "Robert's_Ghost" [] =	G
+
 fint "Philip" [] =	P
+fint "Mike" [] =	M
+fint "Don" [] =		N
 
 
 type Lookup a = Variable -> a
