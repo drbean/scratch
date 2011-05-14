@@ -2,7 +2,7 @@ module P where
 
 import Data.List
 import Data.Char
-import FPH
+import FPH hiding ( process )
 
 data ParseTree a b =  Ep | Leaf a | Branch b [ParseTree a b] 
                    deriving Eq
