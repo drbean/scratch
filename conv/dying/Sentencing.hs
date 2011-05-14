@@ -64,6 +64,7 @@ lfSent (Sent np vp)	= (lfNP np) (lfVP vp)
 
 data Sent = Sent NP VP deriving Show
 data NP   = Ms_Ma | Dred | Doug | Mort | Foster | Memorial
+		| Robert | Sam |David | Robert's_Ghost
           | NP1 DET CN | NP2 DET RCN 
           deriving Show
 data DET  = The | Every | Some | No | Most
@@ -81,7 +82,9 @@ data VP   = Died | Cried | Sighed
           | VP1 TV NP | VP2 DV NP NP
           | VP3 AV To INF
           deriving Show 
-data TV   = Loved   | Hired | Helped
+data TV   = Loved | Hired | Helped
+		| Frightened | Believed
+		| Dug | Sold | Killed | Buried | Owned | Saw
           deriving Show 
 
 data DV   = Handed deriving Show
@@ -110,6 +113,11 @@ lfNP Doug	= \p -> p (Struct "Doug" [])
 lfNP Mort	= \p -> p (Struct "Mort" [])
 lfNP Foster	= \p -> p (Struct "Foster" [])
 
+lfNP Robert	= \p -> p (Struct "Robert" [])
+lfNP Sam	= \p -> p (Struct "Sam" [])
+lfNP David	= \p -> p (Struct "David" [])
+lfNP Robert's_Ghost	= \p -> p (Struct "Robert's_Ghost" [])
+
 lfNP (NP1 det cn)  = (lfDET det) (lfCN cn) 
 lfNP (NP2 det rcn) = (lfDET det) (lfRCN rcn) 
 
@@ -128,6 +136,14 @@ lfVP (VP2 dv np1 np2) =
 lfTV :: TV -> (Term,Term) -> LF
 lfTV Hired	= \ (t1,t2) -> Atom "hire"   [t1,t2]
 lfTV Helped	= \ (t1,t2) -> Atom "help"   [t1,t2]
+lfTV Frightened	= \ (t1,t2) -> Atom "frighten"   [t1,t2]
+lfTV Saw	= \ (t1,t2) -> Atom "see"   [t1,t2]
+lfTV Believed	= \ (t1,t2) -> Atom "believe"   [t1,t2]
+lfTV Killed	= \ (t1,t2) -> Atom "kill"   [t1,t2]
+lfTV Buried	= \ (t1,t2) -> Atom "bury"   [t1,t2]
+lfTV Owned	= \ (t1,t2) -> Atom "own"   [t1,t2]
+lfTV Dug	= \ (t1,t2) -> Atom "dig"   [t1,t2]
+lfTV Sold	= \ (t1,t2) -> Atom "sell"   [t1,t2]
 
 lfDV :: DV -> (Term,Term,Term) -> LF
 lfDV Handed	= \ (t1,t2,t3) -> Atom "hand" [t1,t2,t3]
@@ -204,18 +220,23 @@ entities :: [Entity]
 entities	=  [minBound..maxBound] 
 
 
-mort, dred, doug, ma, foster
+mort, dred, doug, ma, foster,
+	robert, sam, david, robert's_ghost
                                                 :: Entity
 
 mort	= M
 dred	= D
 doug	= U
-reed	= R
 ma	= A
 foster	= F
 memorial= H
 oakland	= O
 philip	= P
+
+sam	= R
+robert	= B
+david	= V
+robert's_ghost	= G
 
 man, woman :: OnePlacePred
 
@@ -242,7 +263,7 @@ person, thing :: OnePlacePred
 person	= \ x -> (man x || woman x || boy x)
 thing	= \ x -> not (person x || x == Unspec)
 
-working = [M,U,F]
+working = [M,U,F, S]
 studying = [D]
 
 pred1 :: [Entity] -> OnePlacePred
