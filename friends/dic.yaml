@@ -868,6 +868,85 @@
     Joey: Oh. Yeah. Me too.
   - Rachel|Joey
 -
+  - 8.24
+  - Naming the baby, Joey proposes
+  - friends
+  - A
+  - |+
+    Chandler: So do you know what you're going to call her yet?
+    Rachel: Oh.
+    Phoebe: Wait a minute. It's not going to be 'Baby Girl?' I thought that was so original.
+    Ross: Uh, actually, we've nailed it down to two names.
+    Rachel: Yeh, and you know what, I love them both. So why don't you just pick one and that'll be it.
+    Ross: Well, um, okay, uh. Everyone, this is Isabella.
+    All: Oh, Isabella.
+    Rachel: (cries)
+    Ross: What?
+    Rachel: That's not her name. I'm sorry. She just doesn't feel like an Isabella.
+  - Chandler|Rachel|Phoebe|Ross|All|Joey
+-
+  - 8.24
+  - Naming the baby, Joey proposes
+  - friends
+  - B
+  - |+
+    Chandler: So, then I guess Ferdinand is out.
+    Joey: What was the other one, Ross?
+    Ross: Um, Delilah?
+    Rachel: Oh, great. Suddenly she sounds like a biblical whore.
+    Ross: Well. So I guess we're back to 'Baby Girl.'
+    Phoebe: Yay!
+    Rachel: Well, what're we going to do.
+    Monica: It's okay, honey. You'll find a name.
+    Ross: Uh, easy for you to say. You already know what your kids names are going to be.
+    Chandler: You do?
+    Monica: Yeh. Had them picked out since I was fourteen.
+    Chandler: Oh, no. It's going to be named after some snack or baked good, isn't it.
+  - Chandler|Ross|Rachel|Monica|biblical
+-
+  - 8.24
+  - Naming the baby, Joey proposes
+  - friends
+  - C
+  - |+
+    Rachel: Well, tell us. What are they?
+    Monica: Um, okay. If it's a boy, it's Daniel.
+    Rachel: And if it's a girl?
+    Monica: I don't want to say.
+    Rachel: Oh, tell us. We're not going to want it.
+    Monica: Okay, it's Emma.
+    Rachel: Oh, Emma. See I don't want it.
+    Monica: Take it.
+    Rachel: What?
+    Monica: It's clearly an Emma.
+    Rachel: Oh, but you love that name.
+    Monica: Yeh. But I love you more.
+
+    Rachel: Joey? Oh, my God. Okay. So uh, I guess we should make it official, huh?
+  - Chandler|Rachel|Monica|official
+-
+  - 8.24
+  - Naming the baby, Joey proposes
+  - friends
+  - D
+  - |+
+    Joey: Uh, look Rach. Hey, Ross is here. Hey look, it's my good friend, Ross. Hey, Ross.
+    Ross: Hey, Joey. Hey you.
+    Rachel: Hey you.
+    Joey: Hey, and look. He brought flowers. Thanks Ross. But I'm really more of a candy kind of guy. Ha, ha, ha.
+    Ross: You're weird today. Listen, I uh, wanted to talk to you about something.
+    Rachel: Yeh, actually I kind of need to talk to you, too.
+    Ross: Uh, Joey, can you give us just a minute?
+    Joey: No.
+    Ross: What?
+    Joey: I'm sorry, I meant, No.
+    Monica: Hi. Hey, look who's here.
+
+  - Joey|Ross|Rachel|Monica
+
+
+
+-
   - 9.06
   - Chandler as a funny guy
   - friends
@@ -1490,6 +1569,62 @@
   - D
   - Joey tells Rachel he would like her to make embarrassing sounds with her lips and body.
   - False
+-
+  - friends
+  - 8.24
+  - 1
+  - A
+  - The baby will have two names. One that he likes and one that she likes. That'll do her.
+  - False
+-
+  - friends
+  - 8.24
+  - 2
+  - A
+  - She thought she liked them, but she doesn't like both girl's names that Ross picks.
+  - True
+-
+  - friends
+  - 8.24
+  - 3
+  - B
+  - The fourteen are going good with great guesses like Honey, which sounds okay for the name of a girl, she says.
+  - False
+-
+  - friends
+  - 8.24
+  - 4
+  - B
+  - She had no liking for the name Delilah. A girl named Delilah isn't a good girl.
+  - True
+-
+  - friends
+  - 8.24
+  - 5
+  - C
+  - They clearly don't want the baby to be named Emma, but Daniel is okay if it's a boy.
+  - False
+-
+  - friends
+  - 8.24
+  - 6
+  - C
+  - Monica guesses they are going to want the name if she says it, and clearly Rachel wants it.
+  - True
+-
+  - friends
+  - 8.24
+  - 7
+  - D
+  - He wanted to give his weird, but good, friend a minute to talk to Rach about something.
+  - False
+-
+  - friends
+  - 8.24
+  - 8
+  - D
+  - He is sorry good guy Ross brought flowers as Rach wanted something weird of him.
+  - True
 -
   - friends
   - 9.06
