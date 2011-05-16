@@ -224,6 +224,12 @@ olivier:
 #	Sales and administration
       - question: What is the problem?
       - question: Whose fault is the problem?
+  2:
+    identifier: hot spot 2
+    A: On Friday last week, Olivier got a large order from Carrefour for camping goods. The goods had to be delivered by January 15 for the winter vacation. There is a lot of conflict and stress in the company. Many people shout and argue. You are CEO of the company. You look for the stress hotspot.
+    B: You are the Production Manager. You complain to the Sales Department about Olivier's order. You tell Todd that you cannot produce the goods by January 15, because now is the busiest time of the year for the production department. You say that Olivier is rude and impossible to work with.
+    C: You are the Sales Department's best salesman. You are brilliant. Sales from your area amount to 24\% of the company's total sales. You are very rude to Jacques when he tells you the Production Department's situation. You are under a lot of pressure from Todd to produce reports and attend meetings.
+    D: You are the Sales Manager. Olivier was mad at Jacques and was extremely rude to him. You talk to Charles, your boss. The company is so dependent on Olivier's sales ability that it is difficult to control him. You also feel a lot of stress when you make him write reports and meet the whole sales team.
  compcomp:
   0:
     identifier: Olivier and Todd
