@@ -1,0 +1,158 @@
+# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom::Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: Dying!
+indent: 5
+height: 18
+width: 69
+skip: 0
+
+# The following options are for Gvim usage.
+# vim: gvim
+# fuopt: maxhorz,maxvert
+# guioptions: egmLtT
+# guicursor: a:blinkon0-ver25-Cursor
+# guifont: Bitstream_Vera_Sans_Mono:h18
+
+---- center
+Dying!
+
+by Dr Bean
+
+(hint: press the spacebar)
+
+----
+== Zombies
+
+books brains breakdown
+fiction fictional
+horror hungry
+night
+person popular population
+success
+television
+voodoo
+wizard
+zombies (x2)
+
+A zombie (Haitian Creole: zonbi; North Mbundu: nzumbe) can be 
+either a _____(1) undead monster or a _____(2) in an entranced 
+_____(3) believed to be controlled by a bokor or _____(4) These 
+latter are the original _____(5), occurring in the West African 
+Vodun _____(6) and its American offshoots Haitian Vodou and New 
+Orleans _____(7)
+
+Zombies became a _____(8) device in modern _____(9) fiction, 
+largely because of the _____(1) of George A. Romero's 1968 film 
+_____(1) of the Living Dead and they have appeared as plot 
+devices in various _____(2), films and in _____(3) shows.
+
+Zombie ______(4) is now a sizeable sub-genre of horror, usually 
+describing a ______(5) of civilization occurring when most of the 
+______(6) become flesh-eating ______(7) – a zombie apocalypse. 
+The monsters are usually ______(8) for human flesh, often 
+specifically ______(9)
+
+----
+== Ghost hunting
+
+activity classified equipment evidence ghosts (x2) haunted
+hunting investigators locations techniques paranormal scientific 
+
+Ghost Hunting is the process of investigating ______[1] that are
+reported to be ______[2] by ______[3].
+
+Typically, a ghost ______[4] team will attempt to collect ______[5]
+claimed to be supportive of paranormal ______[6] Ghost hunters
+often utilize a variety of electronic ______[7]. 
+
+Traditional ______[8] such as conducting interviews and
+researching the history of a site are also employed. Some
+ghost hunters refer to themselves as paranormal
+______[9]
+
+While many groups claim to utilize ______[10] methods in their
+search for the______[11] , science can not confirm the existence of
+______[12] Ghost hunting can be ______[13] as a pseudoscience.
+
+
+----
+== More: ghost beliefs, ghost hunting popularity
+acceptance according Americans availability declining ghosts
+ghost-hunting individuals Internet responsible television showed survey
+
+Beliefs in ghosts
+
+______[1] to a ______[2] conducted in October 2008 by the
+Associated Press and Ipsos, 34 percent of ______[3] say they
+believe in the existence of ______[4]. Moreover, a Gallup poll
+conducted on June 6–8, 2005 ______[5] that one-third (32%) of
+Americans believe that ghosts exist, with belief ______[6] with
+age.
+
+Ghost hunting popularity
+
+The ______[7], films (like Ghostbusters), and ______[8] programs
+(like Most Haunted, and Ghost Adventures), along with the
+increasing ______[9] of high-tech equipment are thought to be
+partly ______[10] for the boom in ghost hunting. Despite its lack
+of ______[11] in academic circles, the popularity of _______[12]
+reality TV shows have influenced a number of ______[13] to take up
+the pursuit.
+
+
+----
+Military funerals
+
+http://www.youtube.com/watch?v=qhXkP2emFII
+
+----
+Taps
+
+http://www.youtube.com/watch?v=ZQ_DCCFFkwA&feature=related
+http://www.youtube.com/watch?v=Nhtr5J00ntA&feature=related
+
+
+--
+Hoe
+
+blood drove face.  chest.  compressions fishtailing fluid
+loaded streets horns frantically mouth quit seven
+trucks drowning.  give shouted vehicle
+
+
+Hoe was dead, but his men refused to believe it
+.
+They ____(1) him into the Stryker and ____(2) to the combat support
+hospital about ____(3) miles away. The 21-ton ____(4) raced 60 mph through
+the ____(5) of Mosul, ____(6) around corners, air ____(7) blasting.
+Inside the lead ____(8), Mauney ____(9) performed chest
+compressions while Myers gave Hoe ____(10)-to-mouth.
+"I was covered in his ____(11)," Myers recalled somberly. "We were doing
+the ____(12), and every time there would be something coming out of
+something and hitting me in the ____(13)
+
+
+
+There was swelling in his chest
+area; the blood was pooling up in his ____(1) We turned him on
+his side to get the ____(2) out of his lungs, like you'd do when somebody
+is ____(2) A large volume of ____(2) came out at that point."
+"Don't ____(2) up!" Myers ____(2) at Hoe. "Don't you (expletive) ____(2) on
+me!"
+
+   Mauney and Myers helped carry Hoe into the emergency room. A doctor
+   walked over to Myers to see if he too had been wounded. When the doctor
+   learned that Myers was covered in Hoe's blood, he took out a white rag
+   and tenderly wiped off his face, "like I was some kid who had candy all
+   over him," Myers said.
+
+----
+== The end
+
