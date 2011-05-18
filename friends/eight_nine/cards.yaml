@@ -243,3 +243,19 @@ genre: friends
           answer: False
         - question: The male nanny, Question 11: Ross cries telling Sandy of his dad's disapproval.
           answer: True
+13:
+  jigsaw:
+    0:
+      identifier: break up
+      A: When you start work again, you and a co-worker tease each other. You hate him. But at your birthday party, you kiss him. Ross feels bad about this and you fight with him. You move out, and start dating other men. Phoebe finds a date for you, but it goes badly. You are mad at Phoebe.
+      B: Rachel moves in with you again. But you are no longer in love with her. You and Phoebe try to bring Ross and Rachel together again by giving Ross a bad experience, waiting for a date who doesn't appear. Ross realizes that you played a trick on him. He chases you down the street.
+      C: Rachel asks you if you know a man who she can date. You don't want her to date other men. You know an unlikeable man. Rachel's date with him is bad. After, Rachel \& Ross talk and realize that you and Joey tricked them. They are mad at you and run after you.
+      D: You feel bad about Rachel's actions and while looking after the baby, you see her kissing a co-worker. The two of you fight. You start looking for a new woman. Joey and Phoebe tell you they have arranged a blind date for you. But no woman turns up. You talk to Rachel. 
+      quiz:
+        - question: A
+          option:
+            - Joey
+            - Phoebe
+            - Ross
+            - Rachel
+          answer: Rachel
