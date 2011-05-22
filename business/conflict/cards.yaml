@@ -1,11 +1,102 @@
 genre: business
 story:
  jigsaw:
-  0: ~
-  1: ~
-  2: ~
   3:
     identifier: story 3
+    A: Olivier comes to you and says he has received a large order from Ben. He tells you Ben wants the order before the end of May. You tell Olivier the end of May is impossible. You ask Todd to tell Ben that the company cannot do the order.
+    B: You are a buyer for Carrefour. Olivier asks you to give his company an order. You ask him if  delivery before the end of May is possible. Olivier says, Yes. You give Olivier the order. Later, Todd tells you the company cannot do the order.
+    C: Jacques comes to you and tells you the company cannot do Olivier's order. You ask him why the order is impossible. He tells you the production department is too busy. You tell Ben that the company cannot do the the order.
+    D: You ask Ben, who is a Carrefour buyer, to give you an order. Ben gives you the order. You go to Jacques and say Carrefour wants the order before the end of May. He says it is impossible. You are angry. You ask Jacques to talk to Todd.
+    quiz:
+      - question: A?
+        option:
+          - Ben
+          - Jacques
+          - Olivier
+          - Todd
+        answer: Jacques
+      - question: B?
+        option:
+          - Ben
+          - Jacques
+          - Olivier
+          - Todd
+        answer: Ben
+      - question: C?
+        option:
+          - Ben
+          - Jacques
+          - Olivier
+          - Todd
+        answer: Todd
+      - question: D?
+        option:
+          - Ben
+          - Jacques
+          - Olivier
+          - Todd
+        answer: Olivier
+      - question: Ben and Jacques are co-workers.
+        answer: False
+      - question: Ben gave the order to Todd.
+        answer  : False
+      - question: Jacques tells Todd the end of May is impossible.
+        answer  : True
+      - question: Todd tells Ben the order is impossible.
+        answer  : True
+      - question: Olivier tells Ben the end of May is possible.
+        answer  : True
+      - question: Jacques tells Olivier it is possible.
+        answer  : False
+  2:
+    identifier: story 2
+    A: You are an engineer in the production department. Your boss is Jacques. Jacques asks you if delivery of Olivier's Carrefour order is possible before the end of May. You tell him it is impossible. You are very busy at the moment.
+    B: You are a salesman. You ask Jacques, the production manager, if he can do a big Carrefour order. It must be delivered before the end of May. Jacques says he can't. He says, Ned and other production engineers are too busy.
+    C: You are the production manager. You go to Todd to complain about Olivier. You tell Todd that Ned and other production engineers cannot deliver Olivier's order before the end of May. Todd tells you that he will talk to Olivier.
+    D: You are the sales manager. You tell Olivier that Jacques is unhappy. You tell him he should know that Ned and other production engineers are too busy now. You tell him he can't accept orders it is impossible for the company to deliver.
+    quiz:
+      - question: A?
+        option:
+          - Jacques
+          - Ned
+          - Olivier
+          - Todd
+        answer: Ned
+      - question: B?
+        option:
+          - Jacques
+          - Ned
+          - Olivier
+          - Todd
+        answer: Olivier
+      - question: C?
+        option:
+          - Jacques
+          - Ned
+          - Olivier
+          - Todd
+        answer: Jacques
+      - question: D?
+        option:
+          - Jacques
+          - Ned
+          - Olivier
+          - Todd
+        answer: Todd
+      - question: Todd and Jacques work together.
+        answer: False
+      - question: Jacques and Ned work together.
+        answer  : True
+      - question: Jacques tells Todd he will talk to Ned.
+        answer  : False
+      - question: Ned tells Jacques he will talk to Todd.
+        answer  : False
+      - question: Todd tells Jacques he will talk to Olivier.
+        answer  : True
+      - question: Todd asks Olivier to think before accepting orders.
+        answer  : True
+  33:
+    identifier: story 33
     A: Charles is your friend. You have been working with him for 12 years. But you aren't head of your department. Your manager is Todd. He has been only working for the company for two years, You don't want to be sales manager. But Todd is afraid of you. He tries to control you by making you write reports. He wants to know everything you are doing.
     B: You are the CEO of the company. You wanted Olivier to be marketing manager, but he refused. He likes to go out and have fun with buyers. You gave Todd the job as marketing manager, because he knows a lot about sales and marketing. But he has a bad relationship with Olivier. You think you might fire Todd, because Olivier is your friend and the company's best sales representative. 
     C: You usually have a good relationship with both Olivier and Todd. But you know they don't have a good relationship with each other. A lot of the orders you produce in the Production Department come from Olivier, so you see him a lot. When you have a problem, you go to see Todd. Todd always says bad things to you about Olivier. But Olivier never says bad things to you about Todd.
