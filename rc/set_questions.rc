@@ -1,0 +1,9 @@
+use YAML qw/LoadFile DumpFile/;
+
+my $area = 'managing';
+my $topic = 'story';
+my $form = '0';
+
+my $c = LoadFile "$area/cards.yaml";
+my @q = map { $_->{question} } @{ $t->{$topic}->{compcomp}->{$form}->{quiz} };
+# DumpFile "$area/setquestions.yaml", \@q;
