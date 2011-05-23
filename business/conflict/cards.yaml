@@ -235,10 +235,15 @@ story:
        \begin{large}The Carrefour Order: Story 1\end{large}\\
        \normalsize
        \begin{description}
+       \vspace{-0.2cm}
        \item [Background] Olivier is a very good salesman, but he is also a good person. He is sorry he has to give Jacques the Carrefour order, due in two weeks. He knows that the Production Department is very busy now.
+       \vspace{-0.2cm}
        \item [Charles] knows that his company cannot produce the goods for the Carrefour order in two weeks. But he wants the money.
-       \item [Jacques] asks Todd who okayed the Carrefour order. He tells Todd he cannot produce the goods in two weeks.
+       \vspace{-0.2cm}
+       \item [Jacques] asks Todd who okayed the Carrefour order. He tells Todd he can't produce the goods in two weeks.
+       \vspace{-0.2cm}
        \item [Todd] tells Olivier he didn't okay the order. He asks Olivier who did. Olivier says Charles did.
+       \vspace{-0.2cm}
        \end{description}
     Black: |+
        \vspace{-0.2cm}
