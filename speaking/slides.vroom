@@ -1216,15 +1216,13 @@ Yellow		Purple	←	Green		Blue
 YellowYellow ←	Red		└		Brown
 
 ----
-== Connections Week 14 Round 1 by C
+== Connections Week 14 Round 1
 
-		┌	GrayC&D
-
-White		Pink	→	GrayA&B	→	Black
-	↑
-Yellow		Purple	←	Green		Blue
-↑							↓
-YellowYellow ←	Red		└		Brown
+White	→	PinkA&B	PinkC&D	→	Gray		Black
+							↓
+Yellow		Purple		Green		Blue
+↑			↓		↑
+YellowYellow 	Red		└		Brown
 
 ----
 == Semifinals
