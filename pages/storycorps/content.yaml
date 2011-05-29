@@ -38,8 +38,13 @@ topic:
       -
         id: wardead
         title: War dead
-        blurb: Vietnam war veterans, <a href="http://web.nuu.edu.tw/~greg/intermediate/collman.mp3">Jerald Collman</a> and <a href="http://web.nuu.edu.tw/~greg/intermediate/redlinski.mp3">Gary Redlinski</a> remember working at a mortuary, where the bodies of dead soldiers were collected and shipped back to the United States.
+        blurb: Vietnam war veterans, <a href="http://cdn.storycorps.org/wordpress/wp-content/uploads/listen/audio/collman.mp3">Jerald Collman</a> and <a href="http://cdn.storycorps.org/wordpress/wp-content/uploads/listen/audio/redlinski.mp3">Gary Redlinski</a> remember working at a mortuary, where the bodies of dead soldiers were collected and shipped back to the United States.
         comment: What do you think?
+      -
+        id: hoe
+        title: Memorial Day memories
+        blurb: Last week's story about the US Army lieutenant killed in Iraq. His father <a href="http://www.npr.org/templates/story/story.php?storyId=104389637">describes</a> accidentally meeting the trauma nurse who prepared his body for viewing at a Memorial Day ceremony.
+        comment: The father placed a <a href="http://images.google.com/search?tbm=isch&hl=en&source=hp&biw=624&bih=611&q=lei&btnG=Search+Images&gbv=2&aq=f&aqi=g10&aql=&oq=">lei</a> around her neck. <a href="http://en.wikipedia.org/wiki/Lei_(Hawaii)">Giving a lei</a> is a Hawaiian custom.
   -
     id: disease
     title: Coping with disease
