@@ -1,0 +1,120 @@
+---
+-
+  - id
+  - description
+  - genre
+  - target
+  - content
+  - unclozeables
+-
+  - brock
+  - Being schizophrenic
+  - intermediate
+  - A
+  - |+
+
+    John: At the time there was a lack for other resources for what a family could do when they had a family member who was not well.  Having no other choice, my parents had me committed. I was put into a small room, locked, bars on the door. The doctor told my parents that I was hopelessly insane, that I would never leave Bryce, that they should visit me less. At home they should speak of me less ..
+  - John|Bryce
+-
+  - brock
+  - Being schizophrenic
+  - intermediate
+  - B
+  - |+
+    John: .. and at a point they should move on with their lives and leave me behind.
+
+    Glenny: Do you remember anything that happened to you in the hospital?
+
+    John: Yes. I began to be given a shock treatments. My older sister, Kay, visited and I spoke with great feeling about it and asked that she have them stop. Kay said that she would. And as the day went on, I spoke with the doctor. I said, Doctor ..
+  - John|Glenny
+-
+  - brock
+  - Being schizophrenic
+  - intermediate
+  - C
+  - |+
+    John: I'm not supposed to get a shock treatment today. Permission had been removed by my family. He looked at me and he said, Get up on the table. And I do remember a slam of the electricity through my head.
+
+    Some years after I looked at my psychiatric records, and Kay had removed family permission for them to give me shock treatments.
+
+    Glenny: How did you get out?
+
+    John: In a word, I lied. I started studying television programs.
+  - John|Glenny
+-
+  - brock
+  - Being schizophrenic
+  - intermediate
+  - D
+  - |+
+    John: I would just watch people, listen to how they interacted. I knew that to the degree that someone seemed normal, the doctors, the nurses, they were more interested in thinking of that person as someone who could leave Bryce Hospital.
+
+    Glenny: Watching how you have lived your life makes me think that it is possible to fight through things and to live. I think it sort of made me brave. Thank you, Dad.
+
+    John: Thank you, Glenny.
+  - John|Glenny|Bryce
+
+---
+-
+  - genre
+  - text
+  - id
+  - target
+  - content
+  - answer
+-
+  - intermediate
+  - brock
+  - 1
+  - A
+  - His parents would speak hopelessly of his insane commitment to locking his room. 
+  - False
+-
+  - intermediate
+  - brock
+  - 2
+  - A
+  - He was committed by his family and doctors locked him up in a small room.
+  - True
+-
+  - intermediate
+  - brock
+  - 3
+  - B
+  - He asked his sister to have the treatments stopped and she spoke to the hospital.
+  - True
+-
+  - intermediate
+  - brock
+  - 4
+  - B
+  - His sister said she was shocked by the treatment he would be given by the doctors.
+  - False
+-
+  - intermediate
+  - brock
+  - 5
+  - C
+  - After Kay removed his family, his treatment was for his head to be slammed on the table.
+  - False
+-
+  - intermediate
+  - brock
+  - 6
+  - C
+  - After his family removed permission, he was not supposed to get shock treatments.
+  - True
+-
+  - intermediate
+  - brock
+  - 7
+  - D
+  - To the degree he seemed normal, doctors and nurses were more interested in him leaving the hospital.
+  - True
+-
+  - intermediate
+  - brock
+  - 8
+  - D
+  - He would fight the people who would think of him as someone who just seemed normal.
+  - False
