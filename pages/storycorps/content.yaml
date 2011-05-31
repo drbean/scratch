@@ -16,6 +16,16 @@ blurb: |+
 
 topic:
   -
+    id: psych
+    title: Psychiatric problems
+    intro: The next three weeks we will be listening to people talk about psychiatric problems. Abnormal psychology might seem like another <a href="http://www.google.com/search?q=morbid&num=30">morbid</a> subject. But let's not let it make us feel depressed. Depression is itself a psychological/psychiatric problem.
+    story:
+      -
+        id: brock
+        title: Being schizophrenic
+        blurb: When he was about 22, John Block spent some time in a psychiatric facility, where he was treated for schizophrenia. He <a href="http://www.npr.org/2011/03/25/134828647/father-moves-past-a-once-unforgiving-diagnosis">talks with his daughter</a> about the experience.
+        comment: What part of the US does John come from? You should be able to tell from his accent.
+  -
     id: dying
     title: Death and dying
     intro: The next three weeks we will be studying how to die in English. Death might seem a <a href="http://www.google.com/search?q=morbid&num=30">morbid</a> subject. But the idea is not to feel bad. The idea is to have a good time talking about things others feel bad about.
