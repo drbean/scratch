@@ -1218,7 +1218,7 @@ YellowYellow ←	Red		└		Brown
 ----
 == Connections Week 14 Round 1
 
-White	→	PinkA&B	PinkC&D	→	Gray		Black
+White →	 PinkA&B		PinkC&D → Gray		Black
 							↓
 Yellow		Purple		Green		Blue
 ↑			↓		↑
@@ -1227,8 +1227,9 @@ YellowYellow 	Red		└		Brown
 ----
 == Semifinals
 
-	FrontLeft with BackLeft
-	FrontRight with BackRight
+	o Left: Far Left with Middle Left
+	  (White, Yellow & Yellow) with (Pink, Purple & Red)
+	o FrontRight with BackRight
 
 ----
 == Finals
@@ -1321,6 +1322,10 @@ YellowYellow 	Red		└		Brown
 69. Drinking coffee every day makes people healthy.
 70. Mountain climbing is good.
 71. Being very thin can be good for health.
+
+72. This is useful for you learning English.
+73. It is better to go abroad to learn English.
+74. It is good for a man to wear his hair longer than regular length.
 
 
 ----
