@@ -83,26 +83,3 @@ brock:
           answer  : True
         - question:
           answer  : True
-selassie:
-  compcomp:
-    0:
-      identifier: selassie 0
-      White: |+
-        \begin{normalsize}Schizophrenia--some types of symptoms\end{normalsize}
-      quiz:
-        - question: She cut her finger but forgot, laughing hysterically at the rabbit puppet.
-          answer  : True
-        - question: She reaches into the can with the rabbit puppet and gets the puppet gooey from the ravioli.
-          answer  : True
-        - question: Her mother would wait outside the school, because she was paranoid that people would drop her out the window.
-          answer  : True
-        - question: Her mother was always outside the school. She would look out the window and see her.
-          answer  : True
-        - question: People meeting her do not know she did not have a fun life and that she has anxieties, 
-          answer  : True
-        - question: Anxieties are always a combination of wondering what you will eventually end up having told someone.
-          answer  : True
-        - question: She thinks her mental illness was probably much worse than it'll be in time.
-          answer  : True
-        - question: She thinks something worse than mental illness is having a mother who didn't care.
-          answer  : True
