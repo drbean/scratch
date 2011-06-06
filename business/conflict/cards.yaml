@@ -262,21 +262,23 @@ story:
         answer: False
       - question: 2 stories: Question 3. Todd is the cause of conflict in both Story 1 and Story 2.
         answer: False
-      - question: 2 stories: Question 4. Charles is the bad guy in Story 1, and Jacques is the bad guy in Story 2.
+      - question: 2 stories: Question 4a. Charles is the bad guy in Story 1, and Jacques is the bad guy in Story 2.
         answer: True
-      - question: 2 stories: Question 5. In both stories, the bad guys are doing bad things for money.
+      - question: 2 stories: Question 4b. In both stories, the bad guys are doing bad things for money.
         answer: True
-      - question: 2 stories: Question 6. In Story 1, Charles didn't know about an order that the production department started work on.
+      - question: 2 stories: Question 4c. In Story 1, Charles didn't know about an order that the production department started work on.
         answer: False
-      - question: 2 stories: Question 7. In Story 2, Charles didn't know about the order that the production department was working on.
+      - question: 2 stories: Question 5. In Story 2, Charles didn't know about the order that the production department was working on.
         answer: True
-      - question: 2 stories: Question 8. In Story 1, Charles' okaying of the order caused problems for the production department.
+      - question: 2 stories: Question 6. In Story 1, Charles' okaying of the order caused problems for the production department.
         answer: True
-      - question: 2 stories: Question 9. In Story 2, Jacques and the production department caused problems for the company.
+      - question: 2 stories: Question 7. In Story 2, Jacques and the production department caused problems for the company.
         answer: True
-      - question: 2 stories: Question 10. In Story 1, Jacques thinks Olivier and Todd are part of the problem.
+      - question: 2 stories: Question 8a. In Story 1, Jacques thinks Olivier and Todd are part of the problem.
         answer: True
-      - question: 2 stories: Question 11. In Story 2, Olivier and Todd think Charles is part of the problem.
+      - question: 2 stories: Question 8b. In Story 2, Olivier and Todd think Charles is part of the problem.
+        answer: False
+      - question: 2 stories: Question 8c. In Story 1, Charles told Todd about the order.
         answer: False
 olivier:
  jigsaw:
