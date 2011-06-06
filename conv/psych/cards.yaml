@@ -1,0 +1,108 @@
+---
+genre: intermediate
+brock:
+  compcomp:
+    0:
+      identifier: brock 0
+      White: |+
+        \begin{normalsize}Schizophrenia--some types of symptoms\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Paranoid] Delusions and hallucinations are present, but thought disorder, disorganized behavior, and emotional "flatness" may be absent.
+        \item [Disorganized] Thought disorder and emotional flatness are present together.
+        \item [Catatonic] The patient may be almost immobile or exhibit agitated, purposeless movement. Symptoms can include catatonic stupor and "waxy" flexibility.
+        \item [Undifferentiated] Psychotic symptoms are present but are not symptoms of the paranoid, disorganized, or catatonic types.
+        \end{description}
+      Black: |+
+        \begin{normalsize}Treatment of schizophrenia\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Medication] Drugs are used to control symptoms, but have serious side effects. They have a good effect in 40-50 percent of cases, and no effect in 20 percent.
+        \item [Psychological/social support] Therapy for all the patient's family may help. Training also helps patients get jobs, learn skills and manage their lives.
+        \item [Hospitalization] Long-term stays in hospital used to be common, but are now rare. Some people may be held in hospital against their will.
+        \item [Expectations] Most patients don't get much better. Most smoke or take drugs. Most don't lead healthy lifestyles and die earlier than normal.
+        \end{description}
+      quiz:
+        - question: Question 1. 
+          answer: False
+        - question: Question 2. 
+          answer: True
+        - question: Question 3. 
+          answer: False
+        - question: Question 4a. 
+          answer: False
+        - question: Question 4b. 
+          answer: True
+        - question: Question 4c. 
+          answer: True
+  jigsaw:
+    0:
+      identifier: brock 0
+      A: Your mother, Fanny had your brother put in hospital. You visited him in the hospital. He told you that he was getting shock treatment. You asked the hospital staff that that be stopped. Later, you were surprised when he said it hadn't.
+      B: You had a patient in your psychiatric hospital who may have been schizophrenic. You gave him shock treatment. He told you that his family had withdrawn permission for that. Anyway, he got better. That may or may not have been due to the treatment. 
+      C: Your son John, went through a difficult time when he was young. He was strangely quiet and didn't do anything. He wouldn't talk, or said things which made no sense. You thought he was going crazy. Doctor Smith told you he was schizophrenic.
+      D: When you were 22, you had some problems at home and your mother got you put in a psychiatric hospital. You were willing to go at first, but after Doctor Smith started giving you shock treatments you wanted to get out. You asked Kay to help.
+      quiz:
+        - question: A
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Dred
+        - question: B
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Doug
+        - question: C
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Ms Ma
+        - question: D
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Mort
+        - question: 
+          answer  : False
+        - question: 
+          answer  : False
+        - question: 
+          answer  : False
+        - question: 
+          answer  : True
+        - question: 
+          answer  : True
+        - question:
+          answer  : True
+selassie:
+  compcomp:
+    0:
+      identifier: selassie 0
+      White: |+
+        \begin{normalsize}Schizophrenia--some types of symptoms\end{normalsize}
+      quiz:
+        - question: She cut her finger but forgot, laughing hysterically at the rabbit puppet.
+          answer  : True
+        - question: She reaches into the can with the rabbit puppet and gets the puppet gooey from the ravioli.
+          answer  : True
+        - question: Her mother would wait outside the school, because she was paranoid that people would drop her out the window.
+          answer  : True
+        - question: Her mother was always outside the school. She would look out the window and see her.
+          answer  : True
+        - question: People meeting her do not know she did not have a fun life and that she has anxieties, 
+          answer  : True
+        - question: Anxieties are always a combination of wondering what you will eventually end up having told someone.
+          answer  : True
+        - question: She thinks her mental illness was probably much worse than it'll be in time.
+          answer  : True
+        - question: She thinks something worse than mental illness is having a mother who didn't care.
+          answer  : True
