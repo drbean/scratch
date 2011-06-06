@@ -27,6 +27,8 @@ $ftp->cwd("public_html/$genre/$area") or die
 $ftp->binary;
 
 my @targets = ( 'A' .. 'D' );
+my $n = 0;
+my $order = { map { $_ => $n++ } @targets };
 my @voices = (
 			"voice_nitech_us_rms_arctic_hts",
 			"voice_nitech_us_awb_arctic_hts",
@@ -38,9 +40,8 @@ use YAML qw/LoadFile DumpFile/;
 my ($texts, $questions) = LoadFile "$area/dic.yaml";
 my $i = 0;
 for my $text ( @$texts ) {
-	$i++;
 	next unless $text->[0] eq $story;
-	my $targetindex = $i % @targets;
+	my $targetindex = $i++ % @targets;
 	my $target = $targets[ $targetindex ];
 	my $voice = $voices[ $targetindex ];
 	my $content = $text->[4];
