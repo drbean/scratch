@@ -252,6 +252,7 @@ hospital= list2OnePlacePred [H]
 sexton	= pred1 [U,S]
 grave	= pred1 [G]
 
+sigh	= pred1 [U]
 cry	= pred1 [A]
 die	= pred1 [P,R]
 
@@ -333,7 +334,7 @@ int "Mother" = \ [x] -> mother x
 
 int "Cry" = \ [x] -> cry x
 int "Die" = \ [x] -> die x
-
+int "Sigh" = \ [x] -> sigh x
 
 int "Hand"	= \ [x,y,z] ->	hand z y x
 int "Hire" = \ [x,y] -> hire y x
@@ -375,42 +376,6 @@ type Lookup a = Variable -> a
 
 change :: Lookup a -> Variable -> a -> Lookup a 
 change g x d = \ v -> if x == v then d else g v
-
-ass0, ass1, ass10 :: Lookup Entity
-ass0 = \ v -> A
-
--- ass1 = change ass0 y B
-ass1 = change ass0 z S
-ass10 = change ass1 x E
-
-eval :: Eq a => 
-    [a]              -> 
-    Interp a         -> 
-    Lookup a         -> 
-    Formula Variable -> Bool
-
-eval domain i = eval' where 
-  eval' g (Atom str vs) = i str (map g vs)
-  eval' g (Eq   v1 v2)  = (g v1) == (g v2) 
-  eval' g (Neg  f)      = not (eval' g f)
-  eval' g (Impl f1 f2)  = not ((eval' g f1) && 
-                               not (eval' g f2))
-  eval' g (Equi f1 f2)  = (eval' g f1) == (eval' g f2)
-  eval' g (Conj fs)     = and (map (eval' g) fs)
-  eval' g (Disj fs)     = or  (map (eval' g) fs)
-  eval' g (Forall v f)  = and [ eval' (change g v d) f | 
-                                d <- domain ]
-  eval' g (Exists v f)  = or  [ eval' (change g v d) f | 
-                                d <- domain ]
-
-int1 :: String -> [Int] -> Bool
-int1 "R" = rconvert (<)
-     where 
-           rconvert :: (a -> a -> Bool) -> [a] -> Bool
-           rconvert r [x,y] = r x y 
-
-ass2 :: Variable -> Int
-ass2 r = if r == x then 1 else if r == y then 2 else 0
 
 type FInterp a = String -> [a] -> a
 
