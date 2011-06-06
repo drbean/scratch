@@ -29,9 +29,9 @@ biodad:
         - question: Nick may have had a father to bring him up.
           answer: True
         - question: Obama's family was a single-parent family.
-          answer: False
+          answer: True
         - question: Nick wasn't aware of his father's name, growing up.
-          answer: False
+          answer: True
         - question: Single-parent families are often poorer.
           answer: True
         - question: Nick may have caused his parents' break-up.
@@ -41,9 +41,9 @@ biodad:
         - question: It is not clear why Nick's parents broke up.
           answer: True
         - question: The effect of not having a dad depend on mom's age.
-          answer: False
+          answer: True
         - question: Nick may want to see his dad less than vice-versa.
-          answer: False
+          answer: True
     2:
       identifier: biodad2
       White: |+
