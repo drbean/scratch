@@ -1,7 +1,7 @@
 #!/usr/bin/perl 
 
 # Created: 西元2010年12月18日 10時28分17秒
-# Last Edit: 2011  1月 11, 13時36分46秒
+# Last Edit: 2011  6月 06, 13時15分02秒
 # $Id$
 
 =head1 NAME
@@ -17,6 +17,8 @@ use Getopt::Long;
 use Pod::Usage;
 use FindBin;
 use lib "$FindBin::Bin/../lib";
+use Text::Template;
+use IO::All;
 
 =head1 SYNOPSIS
 
@@ -43,7 +45,7 @@ Uses Festival to generate readings of questions in cards.yaml compcomp quiz. Get
 use Net::FTP;
 my $ftp = Net::FTP->new('web.nuu.edu.tw') or
 			die "web.nuu.edu.tw? $@";
-$ftp->login('greg', '1514') or die "web.nuu.edu.tw login? $@";
+$ftp->login('greg', '1949') or die "web.nuu.edu.tw login? $@";
 $ftp->cwd("public_html/$genre") or die
 	"web.nuu.edu.tw/~greg/public_html? $@";
 $ftp->binary;
@@ -62,26 +64,31 @@ push @questions, (
 			 [ 7, "voice_nitech_us_slt_arctic_hts", "8" ],
 			 [ 8, "voice_nitech_us_rms_arctic_hts", "9" ],
 			 [ 9, "voice_nitech_us_awb_arctic_hts", "10" ],
-			 # [ 10, "voice_nitech_us_awb_arctic_hts", "11" ],
+			 [ 10, "voice_nitech_us_awb_arctic_hts", "11" ],
+			 [ 11, "voice_nitech_us_awb_arctic_hts", "12" ],
 	);
 
-for my $topicform (
-	[ $topic, $form ],
-) {
-
-	my $topic = $topicform->[0];
-	my $form = $topicform->[1];
-	for my $q ( @questions ) {
-		my ( $text, $voice, $id ) = @$q;
-		my $text = $texts->{$topic}->{compcomp}->{$form}->{quiz}->[$text]->{question};
-		my $local = "/home/drbean/soundfiles/$genre/${topic}_${form}_$id.mp3";
-		system( "echo \"$text\" |
-			text2wave -eval \"($voice)\" -otype wav -o /tmp/$genre.wav"
-			) == 0 or die "text2wave? $@,";
-		system(	"lame -h -V 0 /tmp/$genre.wav $local" ) == 0 or
-			die "lame? $@,";
-		$ftp->put($local) or die "put $_->[2].mp3 on web.nuu.edu.tw? $@";
+for my $topicform ( [ $topic, $form ],) {
+    my ( $topic, $form ) = @$topicform;
+    for my $q ( @questions ) {
+	my ( $text, $voice, $id ) = @$q;
+	$text =
+	    $texts->{$topic}->{compcomp}->{$form}->{quiz}->[$text]->{question};
+	my $local = "/home/drbean/soundfiles/$genre/${topic}_${form}_$id.mp3";
+	if ( $text ) {
+	    system( "echo \"$text\" |
+		text2wave -eval \"($voice)\" -otype wav -o /tmp/$genre.wav"
+		) == 0 or die "text2wave? $@,";
+	    system(	"lame -h -V 0 /tmp/$genre.wav $local" ) == 0 or
+		    die "lame? $@,";
+	    $ftp->put($local) or die "put $_->[2].mp3 on web.nuu.edu.tw? $@";
 	}
+    }
+    my $htmllinks = Text::Template->new( type => 'file', 
+			source => '../tmpl/examsoundfiles.tmpl' );
+    io('-')->print( $htmllinks->fill_in( hash => { topic => $topic,
+		form => $form, n => ( $#questions + 1 ) } ) );
+
 }
 
 
