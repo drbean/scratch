@@ -2,7 +2,7 @@ genre: business
 kendall:
  jigsaw:
   0:
-    identifier: Uniqlo's marketing mix
+    identifier: Kendall history
     A: |
     B: |
     C: | 
@@ -22,6 +22,147 @@ kendall:
         answer  : False
       - question: Craig Sams is macrobiotic.
         answer  : False
+  1:
+    identifier: Kendall people
+    A: You love chocolates, beauty and fashion. With your husband, Sams, you started Green and Black's in 1991. Like him, you are interested in organic products and eco-friendly living. But you also have an expensive lifestyle and you like delicious foods.
+    B: You had a soup company that was successful, but which was difficult to sell. When you bought Green and Black's, you got a big chocolate company to invest 10\%. You later sold Green and Black's to the big company. Graham realized you were smart.
+    C: You eat organic foods like brown rice. You started a chocolate company with your wife, Fairley, but it became popular only with eaters of health food. You could not find investors to make it more popular. So you sold it to Kendall, a good businessman.
+    D: You help small companies with advice. You tell them about Kendall. His soup company hurt big companies and they didn't want to buy it. His second chocolate company cooperated with a big chocolate company. The big company liked Kendall and bought his company.
+    quiz :
+      - question: A
+        option:
+          - Fairley
+          - Graham
+          - Kendall
+          - Sams
+        answer: Fairley
+      - question: B
+        option:
+          - Fairley
+          - Graham
+          - Kendall
+          - Sams
+        answer: Kendall
+      - question: C
+        option:
+          - Fairley
+          - Graham
+          - Kendall
+          - Sams
+        answer: Sams
+      - question: D
+        option:
+          - Fairley
+          - Graham
+          - Kendall
+          - Sams
+        answer: Graham
+      - question: Kendall and Fairley are husband and wife.
+        answer  : False
+      - question: Sams sold Green and Black's to Kendall.
+        answer  : True
+      - question: Graham thinks Kendall is a good businessman.
+        answer  : True
+      - question: The soup company competed with big companies.
+        answer  : True
+      - question: Sams likes chocolate more than Fairley.
+        answer  : False
+      - question: Kendall couldn't sell Green and Black's.
+        answer  : False
+  2:
+    identifier: Kendall 2
+    A: You are a business man who sells organic foods. You started a chocolate company, which became popular. But you could not find investors to make it more popular. You sold it to Kendall, a businessman interested in organic food.
+    B: You help small companies with advice. You tell them about Kendall. He gives his managers freedom to make their own decisions. When Palmer said the company should give lots of free chocolate to people, he was surprised, but he said OK.
+    C: You are a successful business man. You bought an organic chocolate company from Sams. When you took over the company, you brought in Palmer, a marketer. He helped you make it very big. Graham thinks you are very good businessman.
+    D: You are a very good marketer. You knew the best way to get people to try the chocolate was to give it to them for free. Sams thought being organic was important, but you and Kendall thought the taste made people buy the chocolate.
+    quiz :
+      - question: A
+        option:
+          - Graham
+          - Kendall
+          - Palmer
+          - Sams
+        answer: Sams
+      - question: B
+        option:
+          - Graham
+          - Kendall
+          - Palmer
+          - Sams
+        answer: Graham
+      - question: C
+        option:
+          - Graham
+          - Kendall
+          - Palmer
+          - Sams
+        answer: Kendall
+      - question: D
+        option:
+          - Graham
+          - Kendall
+          - Palmer
+          - Sams
+        answer: Palmer
+      - question: Kendall and Graham work together.
+        answer  : False
+      - question: Kendall bought the company from Sams.
+        answer  : True
+      - question: Kendall brought in Palmer.
+        answer  : True
+      - question: The free chocolates was Palmer's idea.
+        answer  : True
+      - question: Graham thinks Kendall controls Palmer tightly.
+        answer  : False
+      - question: Being organic was more important to Sams than Kendall.
+        answer  : True
+  3:
+    identifier: Kendall 3
+    A: You are a business man who sells organic foods. You started a chocolate company. You sold it to Kendall He is also interested in organic food. You know and like Prince Charles. You don't eat tomatoes, meat, sugar or chocolate.
+    B: You have a farm which is organic. You sell the products of your farm and give the money away to good people who don't have money. You know and like Sams and you agree with him about farm chemicals, but you eat meat and chocolate.
+    C: You bought Sams and Fairley's chocolate company and made it very successful even with people who don't eat organic food. You also have a farm which you made organic, after visiting Prince Charles' farm. You eat a little chocolate.
+    D: You love chocolates, beauty and fashion. You started a chocolate company with your husband, Sams. Like him, you are interested in organic products and eco-friendly living. But you have an expensive lifestyle and you eat a lot of chocolate.
+    quiz :
+      - question: A
+        option:
+          - Charles
+          - Fairley
+          - Kendall
+          - Sams
+        answer: Sams
+      - question: B
+        option:
+          - Charles
+          - Fairley
+          - Kendall
+          - Sams
+        answer: Graham
+      - question: C
+        option:
+          - Charles
+          - Fairley
+          - Kendall
+          - Sams
+        answer: Kendall
+      - question: D
+        option:
+          - Charles
+          - Fairley
+          - Kendall
+          - Sams
+        answer: Palmer
+      - question: The only woman of the four is Fairley.
+        answer  : True
+      - question: Charles and Sams don't know each other.
+        answer  : False
+      - question: Kendall and Charles have organic farms.
+        answer  : True
+      - question: Only organic-food people eat the chocolate.
+        answer  : False
+      - question: Charles and Sams eat the same food.
+        answer  : False
+      - question: Fairley eats the most chocolate.
+        answer  : True
  compcomp:
   influences:
     identifier: influences on Kendall
