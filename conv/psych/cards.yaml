@@ -83,3 +83,74 @@ brock:
           answer  : True
         - question:
           answer  : True
+selassie:
+  compcomp:
+    0:
+      identifier: selassie 0
+      White: |+
+        \begin{normalsize}Possession by spirits in Ethiopia\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Religions] 66\% of Ethiopians are Christian. 33\% are Muslim. The others believe in African religions. All believe in spirit possession, or 'mental disorder.'
+        \item [Prevalence] More women than men are possessed. With the evil eye, you can cause spirits to enter others.
+        \item [Ritual] Women perform one common spirit possession ritual. After dancing they finally fall down in a trance.
+        \item [Exorcism] Christian priests will try to drive out spirits from people who have not been helped by Western medicine. Songs, bible readings, prayers and confrontation with the spirit are used.
+        \end{description}
+      Black: |+
+        \begin{normalsize}Mental health in Ethiopia\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Ethiopia] is a poor, developing country. Agriculture could be developed more, but there are droughts, the people are uneducated, and the political system is unstable.
+        \item [Psychiatric services] There are only 1-2 psychiatric hospitals, and only 15-30 psychiatrists. 
+        \item [Stigma] Many Ethiopians with psychiatric problems won't look for help, because they and their families are afraid what other people will think about them.
+        \item [Prevalence] WHO estimates that 15\% of all Ethiopian adults and 11\% of all children need psychological help.
+        \end{description}
+  jigsaw:
+    0:
+      identifier: selassie 0
+      A: You were born, brought up and had a family in Ethiopia, but you left for a better life in America. However, your life in America was not good. Your daughter, Showaye told you you had paranoid schizophrenia. But you believed you were possessed by a spirit called Haile.
+      B: You liked your Ethiopian-American classmate, Showaye. Her mother was crazy. She tried to hit you with an umbrella when she saw you close to her. Like Showaye, you were black. But you speak Black English. She speaks Standard American English.
+      C: You were the spirit which possessed Saba. You killed her. You didn't want her to leave Ethiopia. You wanted her children to be Ethiopians, not Americans, so you locked them up and tried to prevent them from interacting with Americans.
+      D: Doctors told you your mother, Saba had paranoid schizophrenia. She died because she refused to see a doctor when she was sick. She also didn't feed you. Your school used to give John and you a good, free lunch everyday, because Saba had no money. Your family often had nowhere to stay.
+
+      quiz:
+        - question: A
+          option:
+            - Doug
+            - Ms Ma
+            - Saba
+            - Showaye
+          answer: Dred
+        - question: B
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Doug
+        - question: C
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Ms Ma
+        - question: D
+          option:
+            - Doug
+            - Ms Ma
+            - Mort
+            - Dred
+          answer: Mort
+        - question: 
+          answer  : False
+        - question: 
+          answer  : False
+        - question: 
+          answer  : False
+        - question: 
+          answer  : True
+        - question: 
+          answer  : True
+        - question:
+          answer  : True
