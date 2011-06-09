@@ -440,3 +440,10 @@ huang:
         answer: False
       - question: Huang and Bean, Question 10: People probably will want to give Dr Bean more money than they gave Huang.
         answer: False
+ jigsaw:
+  0:
+    identifier: ingredients 0
+    A: You grew up in China and went to the US to study. After working for many years in the US, you came to Taiwan to set up a very profitable chip maker. NVIDIA is one of your important customers. You have a good relationship with Jensen, the CEO of NVIDIA.
+    B: You teach English in Taiwan. Your students have difficulty speaking English. You tried some new ideas. But they didn't work. Everyone wants to study English so there is a market opportunity. But you don't have any great ideas or a great team.
+    C: You and Chris set up NVIDIA. Your first chip design didn't work. Then, you took over control of the company. You still believed there was a market opportunity if you could design a working chip. Unlike Dr Bean, you finally succeeded. Morris's company made the chip for you.
+    D: The two of you set up NVIDIA with Jensen. After the failure of your first chip, you let Jensen take control of managing the company and you control k
