@@ -221,6 +221,7 @@
     Audience: (laughter)
     Huang: And so with that, I have no other questions. (Laughs). First, first of all. Welcome. So, let me ask, let me frame it, let me break it down a bit. So, Morris, both of us are founders of our companies, and uhm, we think about building products, but not only that, we think about building companies. And in the process of building companies, we go through several phases and as I think of the history of NVIDIA, which you were involved in, many of the phases of my company. you know as you think of TSMC, what were the phases, distinct phases that you could remember ...
     Chang: Yeh. The first phase of course was just survival. We started the company with a lot of money, 220 million dollars, back in 1985-1986.
+  - Huang|Chang|Audience
 
 -
   - chang
@@ -229,6 +230,7 @@
   - B
   - |+
     Chang: .. considered to be a lot of money. a lot of money, even now I think. And particularly in Taiwan, In Taiwan, it was very difficult to raise that much money. As Jensen said, the government funded about half of it, about 48 percent, actually, of the 220 million. And Philips pitched in with another 27 percent. And the rest, about 25 percent, was from a dozen Taiwan investors. But, .. Anyway, 220 million dollars total was a lot of money and I was, uh, really ... The first priority was to protect that money. You know [unintelligible],  I can't afford to lose the money. So the first phase was survival. But I had a lot of experience, operating experience, before founding TSMC. So I had decided what the values of the company should be. Those values I think were very important to us. Not only the first phase but from then on. And we have maintained them. We have actually followed them. They are our compass really.
+  - Huang|Chang
 -
   - chang
   - Morris Chang with Jen-Hsun Huang
@@ -238,6 +240,7 @@
     Chang: The values are pretty simple. At first, there were just three. Integrity was number one. Commitment. We really wanted employees to be totally committed to TSMC. But in return, the company is committed to the employees, too. And also commitment applies to customers. We want the customers to be committed to TSMC. But we, in return, are totally committed to customers. So that's .. Ingegrity is pretty simple, self-explanatory. Commitment works between employees and the company, and between customers and the company. And then the third one is Innovation. We knew that we couldn't compete at all without constantly innovating. So those were our three values. And then we also had a vision. The vision changed. Values don't change. The three values that we had at the beginning are still values today.
     Huang: And in fact the first time I went to visit you in Taiwan. Instead of a presentation about all the capabilities of TSMC, you gave me a brochure of the core values of TSMC.  
     Chang: That's right. That's right. And I did the same thing ...
+  - Huang|Chang
 -
   - chang
   - Morris Chang with Jen-Hsun Huang
@@ -246,7 +249,7 @@
   - |+
     Chang: ... with a lot of visitors, with every customer, with every potential customer, uh, and in the last 10-15 years, we, as you pointed out, we have been the most valuable company in Taiwan. So we have attracted a lot of public attention, too. Political candidates, usually before they started campaigning, would call on me. So the president, the presidential candidate came and they told me all his big vision about Taiwan, and I handed him our values: Integrity, Commitment and Innovation. Presidential candidates from both parties. And in fact, I thought that I detected in each of them a little surprise, you know. They got this, they don't know what to do with it. But look, every company goes through phases. First is the survival phase. And then is the rapid growth phase.
     Huang: Now when did you guys get traction? When did you guys get business traction? And you started to feel like, You know what, somebody is going to buy this?
-    Chang: Well, that didn't happen, because we. I guess we were too expensive, I think. Even at the beginning.
+  - Huang|Chang
 
 
 
@@ -484,3 +487,59 @@
   - D
   - Nobody created video games companies because they felt that it was common sense that they were unique.
   - False
+-
+  - business
+  - chang
+  - 1
+  - A
+  - He asked him to talk about the back-breaking work and the body-building he did at TSMC.
+  - False
+-
+  - business
+  - chang
+  - 2
+  - A
+  - The questions are about what he did to build the company, not just about building the products.
+  - True
+-
+  - business
+  - chang
+  - 3
+  - B
+  - 27 percent of the funding was from Philips, but the rest was Taiwan money.
+  - True
+-
+  - business
+  - chang
+  - 4
+  - B
+  - A very important value the company decided to follow was not to lose money.
+  - False
+-
+  - business
+  - chang
+  - 5
+  - C
+  - The company was committed to three values. One of them was commitment.
+  - True
+-
+  - business
+  - chang
+  - 6
+  - C
+  - The company is committed to change, so the values changed when capabilities changed.
+  - False
+-
+  - business
+  - chang
+  - 7
+  - D
+  - In the first phase, he campaigned for the survival of Taiwan political parties.
+  - False
+-
+  - business
+  - chang
+  - 8
+  - D
+  - He pointed out his values to all of his visitors, but somebody was a little surprised.
+  - True
