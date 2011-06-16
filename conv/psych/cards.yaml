@@ -111,37 +111,37 @@ selassie:
       A: You were born, brought up and had a family in Ethiopia, but you left for a better life in America. However, your life in America was not good. Your daughter, Showaye told you you had paranoid schizophrenia. But you believed you were possessed by a spirit called Haile.
       B: You liked your Ethiopian-American classmate, Showaye. Her mother was crazy. She tried to hit you with an umbrella when she saw you close to her. Like Showaye, you were black. But you speak Black English. She speaks Standard American English.
       C: You were the spirit which possessed Saba. You killed her. You didn't want her to leave Ethiopia. You wanted her children to be Ethiopians, not Americans, so you locked them up and tried to prevent them from interacting with Americans.
-      D: Doctors told you your mother, Saba had paranoid schizophrenia. She died because she refused to see a doctor when she was sick. She also didn't feed you. Your school used to give John and you a good, free lunch everyday, because Saba had no money. Your family often had nowhere to stay.
+      D: Doctors told you Saba was schizophrenic. She didn't feed you properly. Your school used to give John and you free lunch everyday, because Saba didn't. Your family often had nowhere to stay. She died because she refused to see a doctor when she was sick.
 
       quiz:
         - question: A
           option:
-            - Doug
-            - Ms Ma
+            - Haile
+            - John
             - Saba
             - Showaye
-          answer: Dred
+          answer: Saba
         - question: B
           option:
-            - Doug
-            - Ms Ma
-            - Mort
-            - Dred
-          answer: Doug
+            - Haile
+            - John
+            - Saba
+            - Showaye
+          answer: John
         - question: C
           option:
-            - Doug
-            - Ms Ma
-            - Mort
-            - Dred
-          answer: Ms Ma
+            - Haile
+            - John
+            - Saba
+            - Showaye
+          answer: Haile
         - question: D
           option:
-            - Doug
-            - Ms Ma
-            - Mort
-            - Dred
-          answer: Mort
+            - Haile
+            - John
+            - Saba
+            - Showaye
+          answer: Showaye
         - question: 
           answer  : False
         - question: 
@@ -154,3 +154,23 @@ selassie:
           answer  : True
         - question:
           answer  : True
+tremonte:
+  jigsaw:
+    0:
+      identifier: tremonte 0
+      A: You spent time in a psychiatric institution, like Rockland. After you got out, you wanted Sig to show more respect for Rockland patients and to listen to them. You got Ralph and Don to tell Storycorps about their humiliating lives as children at Rockland.
+      B: You were mentally retarded and very fearful of people. Your family couldn't handle you. They had Sig admit you to Rockland in 1960 when you were 8. You made friends with Ralph. Both of you got out of Rockland in 1970. You hadn't seen Ralph in 40 years.
+      C: You were a psychiatrist at Rockland. You told Jim it was difficult to treat the patients with respect and kindness, because of their behavior, which was not normal. But with new drugs, many of the patients were able to live outside. So you closed the hospital.
+      D: Your family asked Sig to put you in Rockland when you were 8, the same age as Don. You were the opposite of Don. He was in a shell and never talked. You were very wild and angry. But you became friends. In 2010, Jim asked you to meet Don again and talk about Rockland.
+  compcomp:
+    0:
+      identifier: tremonte 0
+      White: |+
+        \begin{normalsize}Deinstitutionalization\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Definition] The process of replacing long-stay psychiatric hospitals with less-isolated community mental health services.
+        \item [Criticism of psychiatric hospitals] Deinstitutionalization started in the 1950's with shocking revelations in the mass media of the terrible conditions in mental hospitals.
+        \item [Drugs] New drugs were developed from the 1950s that reduced severe symptoms of mental illness and allowed them to live more normal lives.
+        \item [President Kennedy] Kennedy's sister had been treated for psychiatric problems. Under Kennedy, programs that increased community 
+        \end{description}
