@@ -23,17 +23,15 @@ brock:
         \item [Expectations] Most patients don't get much better. Most smoke or take drugs. Most don't lead healthy lifestyles and die earlier than normal.
         \end{description}
       quiz:
-        - question: Question 1. 
-          answer: False
-        - question: Question 2. 
+        - question: Question 1. Schizophrenia: Drugs are used to control delusions and hallucinations in paranoid schizophrenic patients.
           answer: True
-        - question: Question 3. 
-          answer: False
-        - question: Question 4a. 
-          answer: False
-        - question: Question 4b. 
+        - question: Question 2. Schizophrenia: Drugs are effective in many cases but patients still don't have good lives.
           answer: True
-        - question: Question 4c. 
+        - question: Question 3. Schizophrenia: Most patients have to live in hospitals, even though they don't want to.
+          answer: False
+        - question: Question 4. Schizophrenia: All paranoid patients with delusions and hallucinations will show disorganized thought and behavior and a lack of emotion.
+          answer: False
+        - question: Question 5. Schizophrenia: There are a number of different types of schizophrenia, making it difficult to decide what type you have.
           answer: True
   jigsaw:
     0:
@@ -45,43 +43,43 @@ brock:
       quiz:
         - question: A
           option:
-            - Doug
-            - Ms Ma
-            - Mort
-            - Dred
-          answer: Dred
+            - Dr Smith
+            - Fanny
+            - John
+            - Kay
+          answer: Kay
         - question: B
           option:
-            - Doug
-            - Ms Ma
-            - Mort
-            - Dred
-          answer: Doug
+            - Dr Smith
+            - Fanny
+            - John
+            - Kay
+          answer: Dr Smith
         - question: C
           option:
-            - Doug
-            - Ms Ma
-            - Mort
-            - Dred
-          answer: Ms Ma
+            - Dr Smith
+            - Fanny
+            - John
+            - Kay
+          answer: Fanny
         - question: D
           option:
-            - Doug
-            - Ms Ma
-            - Mort
-            - Dred
-          answer: Mort
-        - question: 
+            - Dr Smith
+            - Fanny
+            - John
+            - Kay
+          answer: John
+        - question: John thought Smith's treatment was good.
           answer  : False
-        - question: 
+        - question: Kay wanted John to get shock treatment.
           answer  : False
-        - question: 
-          answer  : False
-        - question: 
+        - question: Smith is not sure if the treatment worked.
           answer  : True
-        - question: 
+        - question: Fanny didn't want Smith to help John.
+          answer  : False
+        - question: Kay thought Smith had stopped shock treatment.
           answer  : True
-        - question:
+        - question: John recovered and left hospital.
           answer  : True
 selassie:
   compcomp:
@@ -105,6 +103,17 @@ selassie:
         \item [Stigma] Many Ethiopians with psychiatric problems won't look for help, because they and their families are afraid what other people will think about them.
         \item [Prevalence] WHO estimates that 15\% of all Ethiopian adults and 11\% of all children need psychological help.
         \end{description}
+      quiz:
+        - question: Question 6. Ethiopia: The aim of psychiatry is very different than the aim of exorcism and spirit possession rituals.
+          answer: False
+        - question: Question 7. Ethiopia: One reason for the lack of psychiatrists may be a lack of psychological problems there.
+          answer: False
+        - question: Question 8. Ethiopia: Believers in all religions believe in spirit possession there.
+          answer: True
+        - question: Question 9. Ethiopia: Christian priests will exorcise spirits from people who have already looked for help from Western doctors.
+          answer: True
+        - question: Question 10. Ethiopia: Assuming all people who have psychological problems are possessed by spirits, the number of women who have psychological problems is below 15 percent.
+          answer: False
   jigsaw:
     0:
       identifier: selassie 0
@@ -142,17 +151,17 @@ selassie:
             - Saba
             - Showaye
           answer: Showaye
-        - question: 
+        - question: Haile was an American.
           answer  : False
-        - question: 
-          answer  : False
-        - question: 
-          answer  : False
-        - question: 
+        - question: Saba was schizophrenic or possessed by Haile.
           answer  : True
-        - question: 
+        - question: Haile wanted Showaye to be American.
+          answer  : False
+        - question: Saba didn't realize she had problems.
+          answer  : False
+        - question: Haile/Saba tried to stop John knowing Showaye.
           answer  : True
-        - question:
+        - question: Saba died/was killed by Haile.
           answer  : True
 tremonte:
   jigsaw:
@@ -166,11 +175,40 @@ tremonte:
     0:
       identifier: tremonte 0
       White: |+
-        \begin{normalsize}Deinstitutionalization\end{normalsize}
+        \vspace{0.5cm}
+        \begin{normalsize}Deinstitutionalization\end{normalsize}\\
+        \normalsize
+        The replacing of long-stay psychiatric hospitals with community mental health services depended on:
+        \begin{description}
+        \vspace{-0.2cm}
+        \item [Criticism of psychiatric hospitals] Shocking 50s mass media revelations of mental hospital conditions.
+        \vspace{-0.2cm}
+        \item [Drugs] New drugs helped patients live more normal lives.
+        \vspace{-0.2cm}
+        \item [President Kennedy] His sister had had psychiatric problems. Under him, community services started.
+        \vspace{-0.2cm}
+        \item [Quality of life] Psychiatrists saw life could be better for patients outside.
+        \vspace{-0.2cm}
+        \item [Government spending] Hospitalization was expensive. Community services were cheaper.
+        \end{description}
+      Black: |+
+        \begin{normalsize}Mental health advocacy movement\end{normalsize}
         \normalsize
         \begin{description}
-        \item [Definition] The process of replacing long-stay psychiatric hospitals with less-isolated community mental health services.
-        \item [Criticism of psychiatric hospitals] Deinstitutionalization started in the 1950's with shocking revelations in the mass media of the terrible conditions in mental hospitals.
-        \item [Drugs] New drugs were developed from the 1950s that reduced severe symptoms of mental illness and allowed them to live more normal lives.
-        \item [President Kennedy] Kennedy's sister had been treated for psychiatric problems. Under Kennedy, programs that increased community 
+        \item [Start] People who had been patients in psychiatric hospitals started forming groups in the 70's. Some groups were for self-help. Others were anti-psychiatry, opposed to psychiatry and the way people treat them. Some groups were a mixture of these ideas.
+        \item [Government involvement] In the late '70s, government money was given to advocacy groups. 
+        \item [Split] This money split the movement into `consumer' groups, which took medication willingly and got more money, and `survivor' groups, which rejected psychiatry and didn't get as much money. The `survivors' are against forcing patients to take medication.
         \end{description}
+      quiz:
+        - question: Question 11. De-institutionalization: De-institutionalization means the moving of patients out of long-stay psychiatric hospitals.
+          answer: True
+        - question: Question 12. De-institutionalization: Psychiatrists did not want patients to be de-institutionalized.
+          answer: False
+        - question: Question 13. De-institutionalization: There were a number of reasons why politicians, psychiatrists and psychiatric patients agreed about de-institutionalization.
+          answer: True
+        - question: Question 14. De-institutionalization: Early mental health advocated had no experience of living in psychiatric hospitals.
+          answer: False
+        - question: Question 15. De-institutionalization: If the government had not given money to advocacy groups, the movement might not have split into consumer and survivor groups.
+          answer: True
+        - question: Question 16. De-institutionalization: Jim Rye, Ralph Tremonte and Donald Weiss belong to the consumer group, rather than the survivor group.
+          answer: False
