@@ -153,15 +153,15 @@ selassie:
           answer: Showaye
         - question: Haile was an American.
           answer  : False
-        - question: Saba was schizophrenic or possessed by Haile.
+        - question: Saba was schizophrenic (or possessed.)
           answer  : True
         - question: Haile wanted Showaye to be American.
           answer  : False
         - question: Saba didn't realize she had problems.
           answer  : False
-        - question: Haile/Saba tried to stop John knowing Showaye.
+        - question: Haile/Saba wanted John to stay away.
           answer  : True
-        - question: Saba died/was killed by Haile.
+        - question: Saba died (was killed by Haile.)
           answer  : True
 tremonte:
   jigsaw:
@@ -171,6 +171,47 @@ tremonte:
       B: You were mentally retarded and very fearful of people. Your family couldn't handle you. They had Sig admit you to Rockland in 1960 when you were 8. You made friends with Ralph. Both of you got out of Rockland in 1970. You hadn't seen Ralph in 40 years.
       C: You were a psychiatrist at Rockland. You told Jim it was difficult to treat the patients with respect and kindness, because of their behavior, which was not normal. But with new drugs, many of the patients were able to live outside. So you closed the hospital.
       D: Your family asked Sig to put you in Rockland when you were 8, the same age as Don. You were the opposite of Don. He was in a shell and never talked. You were very wild and angry. But you became friends. In 2010, Jim asked you to meet Don again and talk about Rockland.
+      quiz:
+        - question: A
+          option:
+            - Don
+            - Jim
+            - Ralph
+            - Sig
+          answer: Jim
+        - question: B
+          option:
+            - Haile
+            - John
+            - Saba
+            - Showaye
+          answer: Don
+        - question: C
+          option:
+            - Don
+            - Jim
+            - Ralph
+            - Sig
+          answer: Sig
+        - question: D
+          option:
+            - Don
+            - Jim
+            - Ralph
+            - Sig
+          answer: Ralph
+        - question: Jim was in a hospital before.
+          answer  : True
+        - question: Jim doesn't want Don and Ralph to talk.
+          answer  : False
+        - question: Ralph and Don were friends.
+          answer  : True
+        - question: Ralph last saw Don 40 years ago.
+          answer  : True
+        - question: Jim asks Sig to give Don \& Ralph drugs.
+          answer  : False
+        - question: Ralph, Don \& Jim are happy with Sig.
+          answer  : False
   compcomp:
     0:
       identifier: tremonte 0
