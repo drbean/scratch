@@ -106,6 +106,104 @@
 
     Showaye: You know, I could have had a parent that didn't care about me, so even though she went through what she went through, I still consider her one of the most fascinating people I'll ever meet.
   - Showaye|Susan
+-
+  - tremonte
+  - Institutionalized kids
+  - intermediate
+  - A
+  - |+
+    Ralph: I'm seeing you after 40 years and I'm seeing fear in you. Let me ask you a very important question. Do you feel institutionalized?
+
+    Donald: No.
+
+    Ralph: Because I'd like you to come out of that shell, man.
+
+    Donald: I'm--I'm...
+
+    Ralph: Because you're not free in that shell and I'm...
+
+    Donald: I'm free.
+
+    Ralph: And I want you to be free.
+
+    Donald: I'm free. I can do what I want now but the only thing is...
+
+    Ralph: But you're still scared.
+
+    Donald: No, I'm not.
+
+    Ralph: Yes, you are. And I want to tell you something else.  Don't stop having interest in women. You're a free man ...
+  - Ralph|Donald
+-
+  - tremonte
+  - Institutionalized kids
+  - intermediate
+  - B
+  - |+
+    Ralph: .. and you should feel that maybe you could pick up a lady or meet a lady.
+
+    Donald: I have one.
+
+    Ralph: That's great.
+
+    Donald: Her name is Marion.
+
+    Ralph: And another thing--what you should do is make your home more comfortable to live in. Get yourself a CD player, listen to some music. Don't stay in that shell. Do you do a lot of reading?
+
+    Donald: Yes, dirty novels.
+
+    Ralph: See, I do--well, dirty novels is all right. That's not against the law. That's why they sell them, Donald. You're not allowing yourself to exercise your freedom, man. And that's what I want you to do, man ...
+  - Ralph|Donald|Marion
+-
+  - tremonte
+  - Institutionalized kids
+  - intermediate
+  - C
+  - |+
+    Ralph: ...  because that will make me real happy and you'll be able to come out of that shell, man, because I really don't want you in that shell for the rest of your life. That's the way I feel about it, man. Go ahead, Donald, I want to hear you. I haven't seen you in 40 years.
+
+    Donald: That fear in that darn lousy hospital is still in my system as it ever...
+
+    Ralph: Well, you're never going to get rid of that, but guess what...
+
+    Donald: I might get rid of it. Half of it is gone.
+
+    Ralph: The memory is always going to be there. 
+  - Ralph|Donald
+-
+  - tremonte
+  - Institutionalized kids
+  - intermediate
+  - D
+  - |+
+
+    Ralph: But guess what?
+
+    Donald: Yeah.
+
+    Ralph: You don't have to live it the rest of your life.
+
+    Donald: For years I used to bite my fingers. I [stutters].
+
+    Ralph: Donald, they don't have that many hospitals to put anybody in no more.
+
+    Donald: I know.
+
+    Ralph: We're not living in that era anymore. That era is dead.  That era...
+
+    Donald: It's dead. It's dead and buried [stutters] rotted.
+
+    Ralph: You don't ever let anybody tell you they can do something to you. You're free, man, you don't have to take that. Am I right, Donald?
+
+    Donald: Right.
+
+    Ralph: Say it loud and clear.
+
+    Donald: Right, 100 percent.
+  - Ralph|Donald|stutters
+
+
+
 ---
 -
   - genre
@@ -225,4 +323,60 @@
   - 8
   - D
   - She thinks having a mother who didn't care could be worse than having one with mental illness.
+  - True
+-
+  - intermediate
+  - tremonte
+  - 1
+  - A
+  - They don't feel institutionalized now, but 40 years ago they were institutionalized.
+  - False
+-
+  - intermediate
+  - tremonte
+  - 2
+  - A
+  - They were institutionalized 40 years.
+  - True
+-
+  - intermediate
+  - tremonte
+  - 3
+  - B
+  - One man feels he exercises his freedom, They don't all feel comfortable with that.
+  - True
+-
+  - intermediate
+  - tremonte
+  - 4
+  - B
+  - One man is against another exercising his freedoms.
+  - False
+-
+  - intermediate
+  - tremonte
+  - 5
+  - C
+  - Life in the hospital was lousy and memories of it don't make the man happy.
+  - True
+-
+  - intermediate
+  - tremonte
+  - 6
+  - C
+  - He is really rid of the memories of life in the hospital.
+  - False
+-
+  - intermediate
+  - tremonte
+  - 7
+  - D
+  - The dead are buried for free at hospitals.
+  - False
+-
+  - intermediate
+  - tremonte
+  - 8
+  - D
+  - They are not living in hospitals. They are 100-percent free to live life their way.
   - True
