@@ -1,0 +1,33 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use IO::All;
+use YAML qw/LoadFile DumpFile/;
+use Cwd; use File::Basename;
+use Encode;
+
+my $dir = basename( getcwd );
+
+use Grades;
+my $l = League->new( leagues => '/home/drbean/001', id => $dir );
+my $g = Grades->new({ league => $l });
+my $c = $l->yaml;
+my %m = map { $_->{id} => $_ } @{ $l->members };
+my $io = io("../../admin/001/$dir.txt");
+my @members;
+my @lines = $io->slurp;
+for my $line ( @lines ) {
+	my $dline = decode( 'UTF-8', $line);
+	chomp $dline;
+	my ($id, $name, $other) = split ' ', $dline; 
+	push @members, {
+		id => $id,
+		Chinese => $name,
+		name => $name,
+		password => undef,
+		rating => undef,
+	};
+}
+$c->{member} = \@members;
+DumpFile 'league.yaml', $c;
