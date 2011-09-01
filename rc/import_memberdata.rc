@@ -13,7 +13,7 @@ my $dir = basename( getcwd );
 my $oldid = 'FLA0030';
 
 use Grades;
-my $l = League->new( leagues => '/home/drbean/992', id => $dir );
+my $l = League->new( leagues => '/home/drbean/001', id => $dir );
 my $g = Grades->new({ league => $l });
 my %m = map { $_->{id} => $_ } @{ $l->members };
 my $approach = $l->approach;
