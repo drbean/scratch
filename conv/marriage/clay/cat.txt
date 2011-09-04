@@ -1,0 +1,12 @@
+[.S[Thrd,Masc,Sg] [frank NP[Masc,Sg,Thrd,Nom][],
+	[.VP[Tense] [gave VP[Tense]
+		[NP[AccOrDat],NP[AccOrDat]],
+			rebia NP[Thrd,Fem,Sg][],
+				[.NP[Neutr,Sg,Thrd]
+					[the DET[][],ring CN[Thrd,Neutr,Sg][]]]]]]]
+
+[.S[Thrd,Masc,Sg] [frank NP[Masc,Sg,Thrd,Nom][],
+	[.VP[Tense] [gave VP[Tense]
+		[NP[AccOrDat],PP[To]], [.NP[Neutr,Sg,Thrd]
+			[the DET[][],ring CN[Thrd,Neutr,Sg][]]],
+				[.PP[Fem,Sg,Thrd,AccOrDat,To] [to PREP[To][],rebia NP[Fem,Sg,Thrd,AccOrDat][]]]]]]]
