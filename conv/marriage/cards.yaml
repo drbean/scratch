@@ -1,8 +1,83 @@
 genre: intermediate
+clay:
+  jigsaw:
+    1:
+      identifier: clay 1
+      A: You have two kids and you are pregnant, but your man has left you. You are at a dance party, and a man comes up to you and says he wants to marry you. You don't think he is serious, but you feel pleased and annoyed at the same time.
+      B: You are attracted to a woman, and to tease her you go up to her and say you want to marry her, but you aren't really serious. She seems interested in you.
+      C: Your mom and dad split up, and you don't know where your dad has gone. Life is pretty tough as your mom doesn't make much money, and she can't take care of you because she isn't home all the time.
+      D: You are the rings that Frank didn't give to Rebia when they got married, but that he did give her when he had more money, five years after they got married. They showed his love for her, and her commitment to him.
+    2:
+      identifier: clay two too
+      A: You left your wife in Chicago after 17 years and moved to Michigan. There you met another woman, who has or had a boyfriend. You help her with some problems because she seems soft and helpless.
+      B: You have a relationship with a boyfriend, but this other man is showing interest in you. You are kind of attracted to him, because the relationship with the old boyfriend was so-so. This new guy seems to be a kind man and fun.
+      C: Your mom and dad split up, and you loved your dad, even though he is/was not your biological father. And he has gone. You don't know what happened to your biological father or why your mom and him split up 17 years ago.
+      D: You are angry that your girlfriend seems to be falling in love with this man from Chicago, although they both deny this. He wants to fight you and you shoot at him. He runs away as you fire and he is hit in the back and dies.
+    3:
+      identifier: clay 3
+      A: When you got married, your husband, Frank didn't have enough money to buy you a ring. He tried to give you his ring, but it was a man's ring, not a woman's ring. Five years after you got married, he gave you two rings. You loved the rings, and you loved him, because he was kind and thoughtful. He was a gentleman.
+      B: Rebia already had three children when you married her. You were the biological father of her fourth child, Mike. But you treated all four kids the same. They all loved you, because you were a good dad. The youngest one is just like you. But the others are also good kids. All of the kids are gentle and happy.
+      C: Your father is Frank. You and your older brothers thought he was a great dad. He was a happy guy. He was gentle with your mother and you. Your mother says you are quiet just like he was. You don't know what happened between your mother and your father. He got a job in Michigan and didn't come home so much.
+      D: You are the food that Rebia cooked for her husband and her four children. Rebia was a good cook, but she was not a great cook. Sometimes Rebia made a mistake cooking, or she didn't have enough time to cook something really good. Then the food wasn't so great. But even then, Frank said it tasted good. He was kind to her.
+    4:
+      identifier: clay 4
+      A: You got a job in Michigan and you left your wife in Chicago while you worked there. On the job you met a woman called Jill, who had some problems with her boyfriend. She said her boyfriend is not gentle. You wanted to help her with these problems. You tell her she should leave her boyfriend if he isn't a nice guy.
+      B: You have a boyfriend, Jack, but he doesn't treat you well. You ask a man at work for help, and he tells you that your boyfriend isn't a nice guy. He tells you that you should split up with Jack if he doesn't treat you better. You like this guy at work, because he is kind and helpful.
+      C: Your mom and dad split up, and your dad moved to Michigan. You don't know the details, but he was killed while he was helping a woman. You don't know why the man shot your dad. You think that your dad may have been in love with the woman. But you don't know. You don't know what your mother thinks.
+      D: You are angry that a man who your girlfriend works with told her to split up with you. Your girlfriend says this man is a good man. And she says you are a bad man. You go to see him. He tells you to be good to your girlfriend and you shoot at him. He runs away as you fire and he is hit in the back and dies.
+    5:
+      identifier: clay 5
+      A: You were married to your husband, Frank for 17 years. He is the father of your fourth child. He was a gentleman. He was kind to you and your four children. He treated all the kids the same. But he left you. And now he is dead. You don't know the details. But he was killed in Michigan.
+      B: You were married to Rebia for 17 years. You had a good marriage, but you left your wife and moved to Michigan. There you met a woman called Jill, who you got involved with. You were attracted to her, and she needed some help. However, she had a boyfriend. You fought with the boyfriend and he shot you.
+      C: You are an attractive woman. Your boyfriend doesn't like other men to show interest in you. You don't care if other men show interest in you. You are not interested in them. You love your boyfriend. But this other man thought you needed some help. Perhaps he was interested in you. You don't know. Anyway, your boyfriend, Jack is mad.
+      D: You are angry with a man who appears interested in your girlfriend. He used some bad language with you. You used some bad language with him. You start fighting. He has a gun. You try to take the gun from him. As you pull the gun from him, it goes off and he is hit in the back. He dies.
+  compcomp:
+    0:
+      identifier: Rebia Mixon Clay and Frank Mixon
+      White: |
+        \begin{normalsize}Facts about Rebia Mixon Clay\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Family Relationships] After Frank died, she got married again. This third person with whom she had a relationship died last year.
+        \indent She is now caring for her brother, who cannot dress himself or use the restroom himself.
+        \item [Black families] 
+          The percentage of single-parent families among blacks is higher than the percentage in the general population. The percentage of black men who are involved in crime is also higher.
+        \item [Work and Union Activity] 
+          She doesn't really have a job. She is getting money from the state government for the 'job' of looking after her brother, but it is not very much. She is poor.
+          \indent She went to Washington, DC for a workers' union to speak to US Congress.
+      
+            \end{description}
+      Black: |
+        \begin{normalsize}The story told by Rebia Mixon Clay\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [First years] She met Frank Mixon when she was pregnant. Frank went up to her and told her she was going to become his wife. Then they got married. They didn't have any money. He wanted to give her his school ring, but she didn't want to put it on.
+        \item [Married life] He finally bought her an engagement and a wedding ring. He was very kind to her and to the children she had from the earlier relationship. The son she had with him was also gentle. The elder children regard Frank as their real father.
+        \item [Separation] Frank and Rebia separated. Rebia doesn't say why they separated. She doesn't know much about how he died but she says that he was helping a woman and the boyfried of the woman shot him in the back. 
+        \end{description}
+      quiz:
+        - question: Rebia had a relationship only with one man.
+          answer: False
+        - question: Rebia is now caring for her brother, who cannot look after himself.
+          answer: True
+        - question: Rebia belongs to a workers' union and went to Washington.
+          answer: True
+        - question: Rebia's children regarded Frank as their father.
+          answer: True
+        - question: Black men are less involved in crime than other men.
+          answer: False
+        - question: Frank gave Rebia 2 rings when they got married.
+          answer: False
+        - question: She wants the state government to cut money for poor people.
+          answer: False
+        - question: Her brother is now caring for her, because she is sick.
+          answer: False
+        - question: Apparently, Frank was killed when he was helping a woman.
+          answer: True
 allen:
   compcomp:
-    1:
-      identifier: 
+    0:
+      identifier: Judy Allen 0
       White: |+
         \begin{normalsize}Judy Allen's story\end{normalsize}
         \normalsize
@@ -70,29 +145,14 @@ allen:
         - question: They both wanted the divorce.
           answer: False
   jigsaw:
+    0:
+      identifier: allen 0
+      A: Your husband, Rex told you he was going to work, but you realized he was going to his girlfriend's house. You went to her house and threw a big rock through his car window. Then you divorced him. Years later, he called you. You went to his office and he gave you a big box.
+      B: Your mother, Judy tells you a story about how her ex-husband gave her a box with the rock that she had thrown through his car window many years before. You don't know her ex-husband. Your father was the man your mother married after she divorced her ex-husband.
+      C: You had a wife and a girl-friend. Your wife got mad and divorced you. Many years later, you played a joke on her. You gave her back the rock that she had thrown through your car window. You put it in a big box, so she didn't know it was the rock.
+      D: You are the rock that Judy tells her daughter, Kelley about. You are heavy and as big as a bowling ball. After Judy threw you through Rex's car window, Rex kept you. He thought he could show you to people who didn't believe that Judy had hurt his car. Later, as a joke, he gave you back to Judy.
     1:
-      identifier: 
-      A: 
-      B: 
-      C: 
-      D: 
-      quiz:
-        - question: A
-          option:
-          answer: ~
-        - question: B
-          option:
-          answer: ~
-        - question: C
-          option:
-          answer: ~
-        - question: D
-          option:
-          answer: ~
-        - question: ~
-          answer  : ~
-    2:
-      identifier: judy allen 2
+      identifier: judy allen 1
       A: You and your husband, Rex, got divorced. He had a girlfriend. You went to her house and threw a big rock through his car window.
       B: You had a girlfriend, Alice. After your wife divorced you, you married her. But you kept the rock that your first wife threw through your car window.
       C: Your boyfriend was already married when you met him. It was difficult for you, because his wife, Judy was mad at you and him.
@@ -138,6 +198,14 @@ allen:
           answer  : True
         - question: Rex kept the rock.
           answer  : True
+goetz:
+  jigsaw:
+    0:
+      identifier: goetz 0
+      A: You started working and left home when you were sixteen. So when you met this guy, Dan in a bar when you were eighteen, he swept you off your feet. Now the relationship isn't as good as before. But you love your kids, especially the youngest, Sam.
+      B: Your mom, PJ, tells you about her life. She was on her own, but you have a mom and dad and brothers, who are a lot older than you. You were born twelve years after your mother got married. You wonder if Mom and Dad got on better then. You wish they got along better now.
+      C: You met PJ in a bar. You were twenty-two. You had an exciting relationship then. Now life isn't so good as it was. Supporting the family is a huge responsibility. You don't think PJ is a very good homemaker. You wish her mother, Ann could have taught her to be a better mother and better wife.
+      D: You died when your daughter was seven. If you had been alive, you wouldn't have liked this guy she married. He doesn't seem very responsible. Your daughter is working, but he doesn't have a good job. You don't think he is a very good husband.
 ward:
   jigsaw:
     0:
