@@ -7,18 +7,11 @@
 #
 ---- config
 # Basic config options.
-title: Vroom!
+title: Careers--Tips and Candidates
 indent: 5
 height: 18
 width: 50
 skip: 0
-
-# The following options are for Gvim usage.
-# vim: gvim
-# fuopt: maxhorz,maxvert
-# guioptions: egmLtT
-# guicursor: a:blinkon0-ver25-Cursor
-# guifont: Bitstream_Vera_Sans_Mono:h18
 
 ---- center
 Careers
@@ -123,28 +116,24 @@ it a better job in your eyes. If you can't
 make the job a better job, look for a new job.
 
 ----
-== The End
-"# This is a sample Vroom input file. It should help you get started.
-#
-# Edit this file with your content. Then run `vroom --vroom` to start
-# the show!
-#
-# See `perldoc Vroom::Vroom` for complete details.
-#
----- config
-# Basic config options.
-title: Careers--Tips and Candidates
-indent: 5
-height: 18
-width: 50
-skip: 0
+== Dr Bean's career
 
-# The following options are for Gvim usage.
-# vim: gvim
-# fuopt: maxhorz,maxvert
-# guioptions: egmLtT
-# guicursor: a:blinkon0-ver25-Cursor
-# guifont: Bitstream_Vera_Sans_Mono:h18
+1. Listen to his story:
+	Birthplace
+	Education
+		a. High school, b. University/college, c. Graduate school
+	Interests
+	Work experience
+	Family
+2. Ask your partners questions in English about Dr Bean's story.
+	Each person in the group asks 2 questions.
+3. Write on the board 1 question and its answer.
+
+----
+== Your partners stories
+0. Tell stories in English
+1. Ask questions in English
+2. Write questions/answers on board.
 
 ----
 == Candidates
