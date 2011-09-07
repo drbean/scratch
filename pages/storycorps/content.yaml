@@ -25,6 +25,16 @@ topic:
         title: Being schizophrenic
         blurb: When he was about 22, John Block spent some time in a psychiatric facility, where he was treated for schizophrenia. He <a href="http://www.npr.org/2011/03/25/134828647/father-moves-past-a-once-unforgiving-diagnosis">talks with his daughter</a> about the experience.
         comment: What part of the US does John come from? You should be able to tell from his accent.
+      -
+        id: selassie
+        title: Schizophrenic mom
+        blurb: Listen to Showaye Selassie describe <a href="http://www.npr.org/templates/story/story.php?storyId=131063265">life with a schizophrenic mom</a>.
+        comment: Showaye didn't have a home, as her mother moved her around from place to place. Now <a href="http://www.blessednightout.org/witness/showaye-selassie">she</a> is involved with <a href="http://www.blessednightout.org/register">a homeless group</a>.
+      -
+        id: tremonte
+        title: Institutionalized kids
+        blurb: <a href="http://www.npr.org/templates/story/story.php?storyId=4965883">Ralph Tremonte and Donald Weiss</a> were committed to a psychiatric hospital when they were children. They don't feel being in the hospital was good for them. They resist what was done to them there.
+        comment: Many psychiatric hospitals now have far fewer patients than they used to have. This is called <a href="http://en.wikipedia.org/wiki/Deinstitutionalisation">Deinstitutionalization</a>.
   -
     id: dying
     title: Death and dying
