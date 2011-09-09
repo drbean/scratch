@@ -198,46 +198,8 @@ int "women"	= \ [x] -> woman x
 int "person"	= \ [x] -> people x
 int "thing"	= \ [x]	-> things x
 
-int "parent" = \ [x] -> parent x
-int "parents" = \ [x] -> parent x
-int "mother" = \ [x] -> mother x
-int "father" = \ [x] -> father x
-int "daughter" = \ [x] -> daughter x
-int "son" = \ [x] -> son x
-int "boyfriend" = \[x] -> boyfriend x
-int "girlfriend" = \[x] -> girlfriend x
-
-int "rings" = \ [x] -> rings x
-int "ring" = \ [x] -> rings x
-int "class_ring" = \ [x] -> class_ring x
-int "engagement_ring" = \ [x] -> engagement_ring x
-int "wedding_ring" = \ [x] -> wedding_ring x
-
-int "died" = \ [x] -> died x
-int "die" = \ [x] -> died x
-
-int "married"	= \ [x,y] -> married y x
-int "marry"	= \ [x,y] -> married y x
-int "parented"	= \ [x,y] -> parented y x
-int "divorced"	= \ [x,y] -> divorced y x
-int "divorce"	= \ [x,y] -> divorced y x
-int "leave"	= \ [x,y] -> leave y x
-int "left"	= \ [x,y] -> leave y x
-int "killed"	= \ [x,y] -> kill y x
-int "kill"	= \ [x,y] -> kill y x
-int "approached"	= \ [x,y] -> approach y x
-int "approach"	= \ [x,y] -> approach y x
-int "put_on"	= \ [x,y] -> wear y x
-int "had"	= \ [x,y] -> have y x
-int "have"	= \ [x,y] -> have y x
-int "helped"	= \ [x,y] -> helped y x
-
-int "gave"	= \ [x,y,z] ->	give z y x
-int "give"	= \ [x,y,z] ->	give z y x
-int "handed"	= \ [x,y,z] ->	hand z y x
-int "hand"	= \ [x,y,z] ->	hand z y x
-
-
+int "graduated_from"	= \ [x,y] -> graduated_from y x
+int "graduate_from"	= \ [x,y] -> graduated_from y x
 
 type FInterp = String -> [Entity] -> Entity
 
