@@ -142,62 +142,17 @@ lexicon "that"    = [Cat "that"  "REL" []      [],
 lexicon "which"   = [Cat "which" "REL" [Neutr] [], 
                      Cat "which" "DET" [Wh]    []]
 
-lexicon "rebia"	= [Cat "rebia"	"NP" [Thrd,Fem,Sg] []]
-lexicon "frank"	= [Cat "frank"	"NP" [Thrd,Masc,Sg] []]
-lexicon "terry"	= [Cat "terry"	"NP" [Thrd,Masc,Sg] []]
-lexicon "caesar"	= [Cat "caesar"	"NP" [Thrd,Masc,Sg] []]
-lexicon "albert"	= [Cat "albert"	"NP" [Thrd,Masc,Sg] []]
-lexicon "mike"	= [Cat "mike"	"NP" [Thrd,Masc,Sg] []]
-lexicon "jill"	= [Cat "jill"	"NP" [Thrd,Fem,Sg] []]
-lexicon "jack"	= [Cat "jack"	"NP" [Thrd,Masc,Sg] []]
+lexicon "eva"	= [Cat "eva"	"NP" [Thrd,Fem,Sg] []]
+lexicon "tadeusz"	= [Cat "tadeusz"	"NP" [Thrd,Masc,Sg] []]
+lexicon "barbara"	= [Cat "barbara"	"NP" [Thrd,Masc,Sg] []]
+lexicon "fast_track"	= [Cat "fast_track"	"NP" [Thrd,Neutr,Sg] []]
+lexicon "college"	= [Cat "college"	"NP" [Thrd,Neutr,Sg] []]
+lexicon "high_school"	= [Cat "high_school"	"NP" [Thrd,Neutr,Sg] []]
 
-lexicon "mother" = [Cat "mother" "CN" [Sg,Fem,Thrd] []]
-lexicon "daughter" = [Cat "daughter" "CN" [Sg,Fem,Thrd] []]
-lexicon "father"    = [Cat "father"    "CN" [Sg,Masc,Thrd] []]
-lexicon "son"    = [Cat "son"    "CN" [Sg,Masc,Thrd] []]
-lexicon "boyfriend"	= [Cat "boyfriend"	"CN" [Thrd,Masc,Sg] []]
-lexicon "girlfriend"	= [Cat "girlfriend"	"CN" [Thrd,Fem,Sg] []]
+lexicon "company"	= [Cat "company"	"CN" [Thrd,Neutr,Sg] []]
 
-
-lexicon "ring"	= [Cat "ring"	"CN" [Thrd,Neutr,Sg] []]
-lexicon "rings"	= [Cat "rings"	"CN" [Thrd,Neutr,Pl] []]
-lexicon "food"	= [Cat "food"	"CN" [Thrd,Neutr,Sg] []]
-lexicon "class_ring" = [Cat "class_ring" "CN" [Thrd,Neutr,Sg] []]
-lexicon "engagement_ring" = [Cat "engagement_ring" "CN" [Thrd,Neutr,Sg] []]
-lexicon "wedding_ring" = [Cat "wedding_ring" "CN" [Thrd,Neutr,Sg] []]
-
-lexicon "died"    = [Cat "died"    "VP" [Tense] []]
-lexicon "die"     = [Cat "die"     "VP" [Infl]  []]
-
-lexicon "helped"	= [Cat "helped"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
-lexicon "help"	= [Cat "help"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]]
-
-lexicon "had"	= [Cat "had"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
-lexicon "have"	= [Cat "have"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]]
-lexicon "loved"	= [Cat "loved"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
-lexicon "love"	= [Cat "love"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]]
-lexicon "married"	= [Cat "married"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
-lexicon "marry"	= [Cat "marry"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]]
-lexicon "divorced"	= [Cat "divorced"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
-lexicon "divorce"	= [Cat "divorce"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]]
-lexicon "left"	= [Cat "left"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
-lexicon "leave"	= [Cat "leave"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]]
-lexicon "killed"	= [Cat "killed"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
-lexicon "kill"	= [Cat "kill"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]]
-lexicon "approached"	= [Cat "approached"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
-lexicon "approach"	= [Cat "approach"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
-lexicon "parented"	= [Cat "parented"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
---nound and verb
-lexicon "parent"	= [Cat "parent"	"VP" [Infl] 
-				[Cat "_" "NP" [AccOrDat] []],
-			   Cat "parent" "CN" 
-			   	[Sg,MascOrFem,Thrd]   []]
-lexicon "parents"	= [Cat "parents" "CN" 
-			   	[Pl,MascOrFem,Thrd]   []]
-lexicon "put_on"	=
- [Cat "put_on"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
-  Cat "put_on"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
-
+lexicon "graduated_from"	= [Cat "graduated_from"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
+lexicon "graduate_from"	= [Cat "graduate_from"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
 
 
 
@@ -223,12 +178,8 @@ lexicon "thing"   = [Cat "thing"   "CN" [Sg,Neutr,Thrd] []]
 lexicon "things"  = [Cat "things"  "CN" [Pl,Neutr,Thrd] []]
 lexicon "person"  = [Cat "person"  "CN" [Sg,Masc,Thrd]  []]
 lexicon "persons" = [Cat "persons" "CN" [Pl,Masc,Thrd]  []]
-lexicon "boy"     = [Cat "boy"     "CN" [Sg,Masc,Thrd]  []]
-lexicon "boys"    = [Cat "boys"    "CN" [Pl,Masc,Thrd]  []]
 lexicon "man"     = [Cat "man"     "CN" [Sg,Masc,Thrd]  []]
 lexicon "men"     = [Cat "men"     "CN" [Pl,Masc,Thrd]  []]
-lexicon "girl"    = [Cat "girl"    "CN" [Sg,Fem,Thrd]   []]
-lexicon "girls"   = [Cat "girls"   "CN" [Pl,Fem,Thrd]   []]
 lexicon "woman"   = [Cat "woman"   "CN" [Sg,Fem,Thrd]   []]
 lexicon "women"   = [Cat "women"   "CN" [Pl,Fem,Thrd]   []]
 
@@ -276,13 +227,10 @@ pronouns = ["i","me","we","us","you",
 reflexives = ["myself","ourselves","yourself","yourselves",
 	"himself","herself","itself","themselves"]
 interrogatives = ["who","whom","what","that","which"]
-people_names = ["rebia","frank","terry","caesar","oldest_child",
-	"mike", "jill","jack"]
-object_names = ["ring","rings","food",
-	"class_ring","engagement_ring","wedding_ring"]
+people_names = ["tadeusz","barbara","eva"]
+object_names = ["high_school", "college","company"]
 intransitive_names = ["died","die"]
-transitives = ["helped","help","had","have","loved","love",
-	"married","marry","left","leave", "killed","kill","put_on"]
+transitives = ["graduate_from","graduated_from"]
 determiners = ["every","all","some","several","a","no","the",
 	"most","many","few","this","these","those"]
 class_names = ["thing","things","person","persons","boy","boys",
@@ -310,6 +258,9 @@ preproc ["?"]              = []
 preproc (",":xs)           = preproc xs
 
 preproc ("put":"on":xs)	= "put_on" : preproc xs
+preproc ("graduate":"from":xs)	= "graduate_from" : preproc xs
+preproc ("graduated":"from":xs)	= "graduated_from" : preproc xs
+preproc ("high":"school":xs)	= "high_school" : preproc xs
 
 preproc ("class":"ring":xs) = "class_ring" : preproc xs
 preproc ("engagement":"ring":xs) = "engagement_ring" : preproc xs
