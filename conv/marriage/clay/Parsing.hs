@@ -157,6 +157,7 @@ lexicon "father"    = [Cat "father"    "CN" [Sg,Masc,Thrd] []]
 lexicon "son"    = [Cat "son"    "CN" [Sg,Masc,Thrd] []]
 lexicon "boyfriend"	= [Cat "boyfriend"	"CN" [Thrd,Masc,Sg] []]
 lexicon "girlfriend"	= [Cat "girlfriend"	"CN" [Thrd,Fem,Sg] []]
+lexicon "caregiver"	= [Cat "caregiver"	"CN" [Thrd,MascOrFem,Sg] []]
 
 
 lexicon "ring"	= [Cat "ring"	"CN" [Thrd,Neutr,Sg] []]
@@ -197,6 +198,14 @@ lexicon "parents"	= [Cat "parents" "CN"
 lexicon "put_on"	=
  [Cat "put_on"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
   Cat "put_on"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
+lexicon "care_for"	=
+ [Cat "care_for" "VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
+lexicon "cared_for"	=
+ [Cat "cared_for" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
+lexicon "look_after"	=
+ [Cat "look_after" "VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
+lexicon "looked_after"	=
+ [Cat "looked_after" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
 
 
 
@@ -310,6 +319,10 @@ preproc ["?"]              = []
 preproc (",":xs)           = preproc xs
 
 preproc ("put":"on":xs)	= "put_on" : preproc xs
+preproc ("look":"after":xs)	= "look_after" : preproc xs
+preproc ("looked":"after":xs)	= "looked_after" : preproc xs
+preproc ("care":"for":xs)	= "care_for" : preproc xs
+preproc ("cared":"for":xs)	= "cared_for" : preproc xs
 
 preproc ("class":"ring":xs) = "class_ring" : preproc xs
 preproc ("engagement":"ring":xs) = "engagement_ring" : preproc xs
