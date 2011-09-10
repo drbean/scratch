@@ -95,6 +95,7 @@ wearing	= [ (I,W), (I,Y) ]
 siblings	= [
 			(I,J), (L,M)
 			]
+caregiving = [(I,J)]
 			
 giving = [(R,C,I),(R,W,I),(R,Y,I)]
 handing = [(I,W,R),(I,Y,R)]
@@ -110,6 +111,7 @@ approach		= pred2 approaches
 leave		= pred2 walkouts
 wear	= pred2 wearing
 helped	= pred2 help
+cared_for	= pred2 caregiving
 have	= pred2 $ parenting ++ marriages ++ unmarried_couples
 			++ ( map swap $ parenting ++ marriages ++ unmarried_couples )
 
@@ -123,6 +125,7 @@ daughter	= \x -> ( female x && child x )
 son	= \x -> ( male x && child x )
 boyfriend	= pred1 $ map fst unmarried_couples
 girlfriend	= pred1 $ map snd unmarried_couples
+caregiver	= pred1 $ map fst caregiving
 died	= pred1 $ map snd killings
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
