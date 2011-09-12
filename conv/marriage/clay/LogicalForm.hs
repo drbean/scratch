@@ -260,6 +260,10 @@ lift fint (Struct str ts) =
            fint str (map (lift fint) ts)
 lift fint _     = R
 
+term2ent :: Term -> Entity
+term2ent (Const a) = a
+term2ent _ = R
+
 data Answer = Boolean Bool | Yes | No | NoAnswer
 	deriving (Eq)
 instance Show Answer where
@@ -273,27 +277,33 @@ eval NonProposition = NoAnswer
 eval lf = Boolean $ evl lf
 
 
-evl (Rel r as)	= int r $ reverse (map (lift fint) as)
+evl (Rel r as)	= int r $ reverse (map term2ent as)
 evl (Eq a b)	= a == b
 evl (Neg lf)	= not $ evl lf
 evl (Impl f1 f2)	= not ( evl f1 && ( not $ evl f2 ) )
 evl (Equi f1 f2)	= evl f1 == evl f2
 evl (Conj lfs)	= and ( map ( evl ) lfs )
 evl (Disj lfs)	= or ( map ( evl ) lfs )
-evl (Forall scope)	= and $ map (ttest scope) ents
-evl (Exists scope)	= or	[evl (scope (Const e))
-          		| e <- ents ]
-evl (Several scope)	= ( length ( filter (ttest scope) ents ) < 4 )
-		&& ( length ( filter (ttest scope) ents ) > 1 )
-evl (Many scope)	= ( length ( filter (ttest scope) ents ) > 5 )
-evl (Most scope)	= length ( filter (ttest scope) ents ) >
-			length ( filter (revttest scope) ents )
+evl (Forall scope)	= and $ testents scope
+evl (Exists scope)	= or $ testents scope
+evl (Several scope)	= length ( filter id $ testents scope ) < 4
+		&& length ( filter id $ testents scope ) > 1
+evl (Many scope)	= length ( filter id $ testents scope ) > 5
+evl (Most scope)	= length ( filter id $ testents scope ) >
+			length ( filter not $ testents scope )
 
+testents :: (Term -> LF) -> [Bool]
+testents scope = [ evl (scope (Const e)) | e <- ents ]
+
+passents :: (Term -> LF) -> [Entity]
+passents scope = map fst $ filter snd $ zip ents $ testents scope
 evalW :: LF -> [Entity]
-evalW (WH scope)	= filter (ttest scope) ents
+evalW (WH scope)	= passents  scope
 
-ttest :: (Term -> LF) -> Entity -> Bool
-ttest scope = \x -> evl (scope (Const x))
+ttest :: (Term -> LF) -> Term -> Bool
+ttest scope (Const a) = evl (scope (Const a))
+ttest scope _ = evl (scope (Const R))
+
 revttest scope = \x -> not $ evl (scope (Const x))
 
 singleton :: [a] -> Bool
