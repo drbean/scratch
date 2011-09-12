@@ -246,7 +246,7 @@ int "hand"	= \ [x,y,z] ->	hand z y x
 type FInterp = String -> [Entity] -> Entity
 
 fint :: FInterp
-fint name [] =	maybe (entities !! 26) id $ lookup name characters
+fint name [] =	maybe (entities!!26) id $ lookup name characters
 
 ents = entities
 term entity = maybe "NoName" id $ lookup entity names
