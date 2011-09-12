@@ -154,11 +154,9 @@ transVP (Branch (Cat _ "VP" _ _)
                 [Leaf (Cat "#" "AUX" _ []),vp]) = 
         transVP vp 
 
-transWH :: ParseTree Cat Cat -> LF
-transWH (Branch (Cat _ "WH" _ _ ) [wh,s]) = case s of
-	(Branch (Cat _ "S" _ _ ) [np,vp]) ->
-		(transNP np) (transVP vp)
-	(Branch (Cat _ "YN" _ _ ) [_,s']) -> transS s'
+transWH :: ParseTree Cat Cat -> (Term -> LF)
+transWH (Branch (Cat _ "WH" _ _ ) [wh,s]) =
+	(\v -> Conj [transW wh, transS s])
 
 transW :: ParseTree Cat Cat -> LF
 transW (Branch (Cat _ "NP" fs _) [det,cn]) = 
