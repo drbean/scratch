@@ -326,10 +326,11 @@ wh_questions =[
 	"Who did Rebia marry?",
 	"Who married Rebia?",
 	"Who gave the rings to Rebia?",
-	"Who did Frank give some rings to?",
-	"To whom did Frank give some rings?",
+	"Who gave some rings to Rebia?",
 	"Which person died?",
-	"Which person did Rebia marry?"
+	"Which person did Rebia marry?",
+	"To whom did Frank give some rings?",
+	"Who did Frank give some rings to?"
 	]
 ungrammatical = [
 	"Did Rebia died?",
