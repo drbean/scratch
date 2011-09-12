@@ -158,7 +158,7 @@ transWH :: ParseTree Cat Cat -> LF
 transWH (Branch (Cat _ "WH" _ _ ) [wh,s]) = case s of
 	(Branch (Cat _ "S" _ _ ) [np,vp]) ->
 		(transNP np) (transVP vp)
-	(Branch (Cat _ "YN" _ _ ) [_,s']) -> Neg (transS s')
+	(Branch (Cat _ "YN" _ _ ) [_,s']) -> transS s'
 
 transW :: ParseTree Cat Cat -> LF
 transW (Branch (Cat _ "NP" fs _) [det,cn]) = 
