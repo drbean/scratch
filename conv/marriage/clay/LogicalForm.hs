@@ -6,18 +6,7 @@ import Model
 import Data.Maybe
 import Data.List
 
-type Name = String
-type Index = [Int]
-data Variable = Variable Name Index deriving (Eq,Ord,Show)
-
---instance Show Variable where
---	show Variable name [] = show name
---	show Variable name [i] = show name ++ show i
---	show Variable name is = show name ++ showints is where
---		showints [] = ""
---		showints i:is = i
-
-data Term = Const Entity | Var Variable | Struct String [Term]
+data Term = Const Entity | Var Int | Struct String [Term]
 	deriving (Eq)
 
 data LF = NonProposition
@@ -28,12 +17,12 @@ data LF = NonProposition
         | Equi LF LF 
         | Conj [LF]
         | Disj [LF] 
-        | Forall Term LF
-        | Exists Term LF
-        | Several Term  LF
-        | Many Term  LF
-        | Most Term  LF
-        | WH Term  LF
+        | Forall (Term -> LF)
+        | Exists (Term -> LF)
+        | Several (Term -> LF)
+        | Many (Term -> LF)
+        | Most (Term -> LF)
+        | WH (Term -> LF)
 --	deriving Eq
 
 instance Show Term where
@@ -42,21 +31,37 @@ instance Show Term where
   show (Struct s []) = s
   show (Struct s ts) = s ++ show ts
 
-instance Show LF where 
-  show (Rel s [])   = s
-  show (Rel s xs)   = s ++ show xs 
-  show (Eq t1 t2)    = show t1 ++ "==" ++ show t2
-  show (Neg form)    = '~' : (show form)
-  show (Impl f1 f2)  = "(" ++ show f1 ++ "==>" 
-                           ++ show f2 ++ ")"
-  show (Equi f1 f2)  = "(" ++ show f1 ++ "<=>" 
-                           ++ show f2 ++ ")"
-  show (Conj [])     = "true" 
-  show (Conj fs)     = "conj" ++ show fs 
-  show (Disj [])     = "false" 
-  show (Disj fs)     = "disj" ++ show fs 
-  show (Forall v f)  = "A " ++  show v ++ (' ' : show f)
-  show (Exists v f)  = "E " ++  show v ++ (' ' : show f)
+instance Show LF where
+	show form = ishow form 1
+ishow NonProposition i = "NonProposition"
+ishow (Rel r args) i  = r ++ show args
+ishow (Eq t1 t2) i    = show t1 ++ "==" ++ show t2
+ishow (Neg lf) i      = '~': (ishow lf i)
+ishow (Impl lf1 lf2) i = "(" ++ ishow lf1 i ++ "==>" 
+		     ++ ishow lf2 i ++ ")"
+ishow (Equi lf1 lf2) i = "(" ++ ishow lf1 i ++ "<=>" 
+		     ++ ishow lf2 i ++ ")"
+ishow (Conj []) i     = "true" 
+ishow (Conj lfs) i    = "conj" ++ "[" ++ ishowForms lfs i ++ "]"
+ishow (Disj []) i     = "false" 
+ishow (Disj lfs) i    = "disj" ++ "[" ++ ishowForms lfs i ++ "]"
+ishow (Forall scope) i = "Forall x" ++ show i ++ (' ' :
+			(ishow (scope (Var i)) (i+1)))
+ishow (Exists scope) i = "Exists x" ++ show i ++ (' ' :
+			(ishow (scope (Var i)) (i+1)))
+ishow (Several scope) i = "Several x" ++ show i ++ (' ' :
+			(ishow (scope (Var i)) (i+1)))
+ishow (Many scope) i = "Many x" ++ show i ++ (' ' :
+			(ishow (scope (Var i)) (i+1)))
+ishow (Most scope) i = "Most x" ++ show i ++ (' ' :
+			(ishow (scope (Var i)) (i+1)))
+ishow (WH scope) i = "WH x" ++ show i ++ (' ' :
+			(ishow (scope (Var i)) (i+1)))
+
+ishowForms :: [LF] -> Int -> String
+ishowForms [] _ = ""
+ishowForms [f] i = ishow f i
+ishowForms (f:fs) i = ishow f i ++ "," ++ ishowForms fs i
 
 transS :: ParseTree Cat Cat -> LF
 transS Ep = NonProposition
@@ -238,25 +243,22 @@ int "hand"	= \ [x,y,z] ->	hand z y x
 
 
 
-type FInterp a = String -> [a] -> a
+type FInterp = String -> [Entity] -> Entity
 
-fint :: FInterp Entity
+fint :: FInterp
 fint name [] =	maybe (entities!!26) id $ lookup name characters
 
 ents = entities
 term entity = maybe "NoName" id $ lookup entity names
 ided name = maybe Unspec id $ lookup name characters
 
-type Lookup a = Variable -> a
-change :: Lookup a -> Variable -> a -> Lookup a
-change g x d = \v -> if x == v then d else g v
+type TVal = Term -> Entity
 
-type TVal a = Term -> a
-
-liftLookup :: FInterp a -> Lookup a -> TVal a
-liftLookup fint g (Const a)   = g a
-liftLookup fint g (Struct str ts) =
-           fint str (map (liftLookup fint g) ts)
+lift :: FInterp -> TVal
+lift fint (Const a)   = a
+lift fint (Struct str ts) =
+           fint str (map (lift fint) ts)
+lift fint _     = R
 
 data Answer = Boolean Bool | Yes | No | NoAnswer
 	deriving (Eq)
@@ -268,9 +270,10 @@ instance Show Answer where
 eval :: LF ->  Answer
 
 eval NonProposition = NoAnswer
-eval lf = Boolean $ evl lf where
+eval lf = Boolean $ evl lf
 
-evl (Rel r as)	= int r $ reverse (map (liftLookup fint) as)
+
+evl (Rel r as)	= int r $ reverse (map (lift fint) as)
 evl (Eq a b)	= a == b
 evl (Neg lf)	= not $ evl lf
 evl (Impl f1 f2)	= not ( evl f1 && ( not $ evl f2 ) )
@@ -287,9 +290,7 @@ evl (Most scope)	= length ( filter (ttest scope) ents ) >
 			length ( filter (revttest scope) ents )
 
 evalW :: LF -> [Entity]
-evalW (WH scope)	= filter (evlW scope) ents
-evlW (Rel r as)	= int r $ reverse (map (liftLookup fint) as)
-evlW lf = evl lf
+evalW (WH scope)	= filter (ttest scope) ents
 
 ttest :: (Term -> LF) -> Entity -> Bool
 ttest scope = \x -> evl (scope (Const x))
@@ -401,6 +402,7 @@ ditransitive_tests = [
 	]
 
 relclauses = [
+	"A man who married Rebia died.",
 	"The man who married Rebia died.",
 	"Did the man who married Rebia die?",
 	"Did every man who married Rebia die?",
