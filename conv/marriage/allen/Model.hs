@@ -14,34 +14,20 @@ entities :: [Entity]
 entities	=  [minBound..maxBound] 
 
 
---rebia, frank, rebia's_brother, albert, mike, jill, jack, food, rings,
+--alice, rex, kelley, judy, rock
 --                                                :: Entity
-
---rebia	= I
---frank	= R
---rebia's_brother	= J
---albert	= L
---mike	= M
---jill	= G
---jack	= A
---food	= F
---rings	= W
 
 characters :: [ (String, Entity) ]
 
 characters = [
-	( "rebia",	I ),
-	( "frank",	R ),
-	( "terry",	V ),
-	( "caesar",	J ),
-	( "albert",	L ),
-	( "mike",	M ),
-	( "jill",	G ),
-	( "jack",	A ),
-	( "food",	F ),
-	( "class_ring",	C ),
-	( "wedding_ring",	W ),
-	( "engagement_ring",	Y )
+	( "alice",	A ),
+	( "kelley",	K ),
+	( "rex",	X ),
+	( "judy",	J ),
+	( "rock",	R ),
+	( "car_window",	W ),
+	( "story",	S ),
+	( "box",	B )
 
 	]
 
@@ -51,8 +37,8 @@ names = map swap characters
 
 male, female :: OnePlacePred
 
-male	= pred1 [R,J,C,M,A,L,V ]
-female	= pred1 [I,G ]
+male	= pred1 [X]
+female	= pred1 [A,K,J]
 
 type OnePlacePred	= Entity -> Bool
 type TwoPlacePred	= Entity -> Entity -> Bool
@@ -69,51 +55,42 @@ people, things :: OnePlacePred
 people	= \ x -> (male x || female x )
 things	= \ x -> not (people x || x == Unspec)
 
-class_ring	= pred1 [C]
-engagement_ring	= pred1 [Y]
-wedding_ring	= pred1 [W]
-rings	= \x -> (class_ring x || engagement_ring x || wedding_ring x)
-ring	= rings
+rock	= pred1 [R]
+car_window	= pred1 [W]
+box	= pred1 [B]
+story	= pred1 [S]
+worker	= pred1 [X,J,A]
 
 pred2 xs	= curry ( `elem` xs )
 pred3 xs	= curry3 ( `elem` xs )
 
 --(parent,child)
-parenting	= [ (I,L), (I,M), (R,L), (R,M) ]
+parenting	= [ (J,K) ]
 --(husband,wife)
-marriages	= [ (I,R) ]
+marriages	= [ (X,J) ]
 --(initiator,wrongdoer?)
-divorces	= [ (Unspec,Unspec) ]
+divorces	= [ (J,X) ]
 --(boyfriend,girlfriend)
-unmarried_couples	= [ (A,G) ]
-killings	= [ (A,R) ]
-walkouts	= [ (R,I) ]
-breakups	= walkouts ++ divorces
-help	= [ (R,G) ]
-approaches	= [ (R,I) ]
-wearing	= [ (I,W), (I,Y) ]
-siblings	= [
-			(I,J), (L,M)
-			]
-caregiving = [(I,J)]
+unmarried_couples	= [ (X,A) ]
+--(contacter,contactee)
+contacts	= [ (X,J) ]
+coworkers	= [ (X,A) ]
+putting	= [ (X,R,B) ]
+throwing	= [ (J,R,W) ]
+giving	= [ (X,B,J) ]
+telling	= [ (J,S,K) ]
+boxing	= [ (X,R,B) ]
 			
-giving = [(R,C,I),(R,W,I),(R,Y,I)]
-handing = [(I,W,R),(I,Y,R)]
-
 parented, married ::  TwoPlacePred
 
 parented	= pred2 parenting
 raised_by	= pred2 $ map swap parenting
 married		= pred2 $ marriages ++ map swap marriages
 divorced	= pred2 divorces
-kill		= pred2 killings
-approach		= pred2 approaches
-leave		= pred2 walkouts
-wear	= pred2 wearing
-helped	= pred2 help
-cared_for	= pred2 caregiving
 have	= pred2 $ parenting ++ marriages ++ unmarried_couples
 			++ ( map swap $ parenting ++ marriages ++ unmarried_couples )
+contacted	= pred2 contacts
+worked_with	= pred2 $ coworkers ++ map swap coworkers
 
 man	= male
 woman	= female
@@ -125,16 +102,18 @@ daughter	= \x -> ( female x && child x )
 son	= \x -> ( male x && child x )
 boyfriend	= pred1 $ map fst unmarried_couples
 girlfriend	= pred1 $ map snd unmarried_couples
-caregiver	= pred1 $ map fst caregiving
-died	= pred1 $ map snd killings
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
 
-give :: ThreePlacePred
+throw, put :: ThreePlacePred
 
+throw	= pred3 throwing
+put	= pred3 putting
 give	= pred3 giving
-hand	= pred3 handing
+hand	= give
+tell	= pred3 telling
+boxed	= pred3 boxing
 
 passivize :: TwoPlacePred -> OnePlacePred
 passivize r	= \ x -> or ( map ( flip  r x ) entities )
