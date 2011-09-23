@@ -132,7 +132,8 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [])]) =
 transVP (Branch (Cat _ "VP" _ _) 
                 [Leaf (Cat name "VP" _ [_]),np]) = 
         \ subj -> transNP np (\ obj -> Rel name [subj,obj])
-
+--transVP (Branch (Cat _ "VP" _ _) [Branch (Cat name "PP" _ pp) [prep,np]]) =
+--	\subj -> transNP np (\adv -> Rel name [subj,adv])
 transVP (Branch (Cat _ "VP" _ _) 
                 [Leaf (Cat name "VP" _ [_,_]),np,obj2]) = 
 	case (obj2) of 
@@ -201,43 +202,34 @@ int "parents" = \ [x] -> parent x
 int "mother" = \ [x] -> mother x
 int "father" = \ [x] -> father x
 int "daughter" = \ [x] -> daughter x
-int "son" = \ [x] -> son x
 int "boyfriend" = \[x] -> boyfriend x
 int "girlfriend" = \[x] -> girlfriend x
 
-int "rings" = \ [x] -> rings x
-int "ring" = \ [x] -> rings x
-int "class_ring" = \ [x] -> class_ring x
-int "engagement_ring" = \ [x] -> engagement_ring x
-int "wedding_ring" = \ [x] -> wedding_ring x
+int "rock" = \ [x] -> rock x
+int "car_window" = \ [x] -> car_window x
+int "box" = \ [x] -> box x
+int "story" = \ [x] -> story x
 
-int "died" = \ [x] -> died x
-int "die" = \ [x] -> died x
+int "worked" = \ [x] -> worker x
+int "work" = \ [x] -> worker x
 
-int "married"	= \ [x,y] -> married y x
-int "marry"	= \ [x,y] -> married y x
+int "worked_with"	= \ [x,y] -> worked_with y x
+int "work_with"	= \ [x,y] -> worked_with y x
 int "parented"	= \ [x,y] -> parented y x
 int "divorced"	= \ [x,y] -> divorced y x
 int "divorce"	= \ [x,y] -> divorced y x
-int "leave"	= \ [x,y] -> leave y x
-int "left"	= \ [x,y] -> leave y x
-int "killed"	= \ [x,y] -> kill y x
-int "kill"	= \ [x,y] -> kill y x
-int "approached"	= \ [x,y] -> approach y x
-int "approach"	= \ [x,y] -> approach y x
-int "put_on"	= \ [x,y] -> wear y x
-int "care_for"	= \ [x,y] -> cared_for y x
-int "cared_for"	= \ [x,y] -> cared_for y x
-int "look_after"	= \ [x,y] -> cared_for y x
-int "looked_after"	= \ [x,y] -> cared_for y x
 int "had"	= \ [x,y] -> have y x
 int "have"	= \ [x,y] -> have y x
-int "helped"	= \ [x,y] -> helped y x
 
+int "threw"	= \ [x,y,z] ->	throw z y x
+int "throw"	= \ [x,y,z] ->	throw z y x
 int "gave"	= \ [x,y,z] ->	give z y x
 int "give"	= \ [x,y,z] ->	give z y x
 int "handed"	= \ [x,y,z] ->	hand z y x
 int "hand"	= \ [x,y,z] ->	hand z y x
+int "told"	= \ [x,y,z] ->	tell z y x
+int "tell"	= \ [x,y,z] ->	tell z y x
+int "put" = \ [x,y,z] -> boxed z y x
 
 
 
@@ -309,113 +301,108 @@ singleton [x]	= True
 singleton _	= False
 
 haves = [
-	"Did Rebia have Mike?",
-	"Did Rebia have Albert?",
-	"Did Rebia have Frank?",
-	"Did Rebia have Caesar?",
-	"Did Rebia have Jack?",
-	"Did Rebia have Jill?",
-	"Did Rebia have a mother?",
-	"Did Rebia have a son?",
-	"Did Rebia have a daughter?",
-	"Did Mike have a mother?",
-	"Did Albert have a father?",
-	"Did Jack have a girlfriend?",
-	"Did Frank have a girlfriend?",
-	"Did Rebia have a boyfriend?",
-	"Did Jill have a boyfriend?",
-	"Did Albert have a parent?",
-	"Did Albert have some parents?",
-	"Did Albert have parents?"
+	"Did Judy have Kelley?",
+	"Did Judy have Rex?",
+	"Did Judy have Alice?",
+	"Did Judy have a mother?",
+	"Did Judy have a son?",
+	"Did Judy have a daughter?",
+	"Did Kelley have a mother?",
+	"Did Rex have a girlfriend?",
+	"Did Judy have a boyfriend?",
+	"Did Alice have a boyfriend?",
+	"Did Alice have a parent?",
+	"Did Alice have some parents?",
+	"Did Alice have parents?"
 	]
 wh_questions =[
-	"Who died?",
-	"Who did Rebia marry?",
-	"Who married Rebia?",
-	"Who gave the rings to Rebia?",
-	"Who gave some rings to Rebia?",
-	"Which person died?",
-	"Which person did Rebia marry?",
-	"To whom did Frank give some rings?",
-	"Who did Frank give some rings to?"
+	"Who worked?",
+	"Who did Judy marry?",
+	"Who married Judy?",
+	"Who gave the box to Judy?",
+	"Who gave some box to Judy?",
+	"Which person worked?",
+	"Which person did Judy marry?",
+	"To whom did Rex give some box?",
+	"Who did Rex give some box to?"
 	]
 ungrammatical = [
-	"Did Rebia died?",
-	"Frank die?",
-	"Man died.",
-	"Some man die.",
-	"No died.",
-	"No-one die.",
-	"Did Rebia marry?",
-	"Rebia marry Frank.",
-	"Frank married."
+	"Did Judy worked?",
+	"Rex work?",
+	"Man worked.",
+	"Some man work.",
+	"No worked.",
+	"No-one work.",
+	"Did Judy marry?",
+	"Judy marry Rex.",
+	"Rex married."
 	]
 intransitives = [
-	"Did Rebia die?",
-	"Did Frank die?",
-	"A man died.",
-	"Some man died.",
-	"No one died.",
-	"No-one died.",
-	"Everybody died.",
-	"Everyone died.",
-	-- "Many persons died.",
-	"No person died.",
-	"Did the man die?",
-	"Did some man die?",
-	"Did some men die?",
-	"Did some woman die?",
-	"Did some women die?",
-	"Most men died.",
-	"Most men didn't die.",
-	"Several men died.",
-	"Several men didn't die.",
-	"Many men died.",
-	"Many men didn't die.",
-	"All men died.",
-	"No man died."
+	"Did Judy work?",
+	"Did Rex work?",
+	"A man worked.",
+	"Some man worked.",
+	"No one worked.",
+	"No-one worked.",
+	"Everybody worked.",
+	"Everyone worked.",
+	-- "Many persons worked.",
+	"No person worked.",
+	"Did the man work?",
+	"Did some man work?",
+	"Did some men work?",
+	"Did some woman work?",
+	"Did some women work?",
+	"Most men worked.",
+	"Most men didn't work.",
+	"Several men worked.",
+	"Several men didn't work.",
+	"Many men worked.",
+	"Many men didn't work.",
+	"All men worked.",
+	"No man worked."
 	]
 transitives = [
-	"Did Rebia marry Frank?",
-	"Rebia married Frank.",
-	"Frank married Rebia.",
-	"Some man married Rebia.",
-	"Some woman married Frank.",
-	"Some man helped Jill.",
-	"A man helped Jill.",
-	"Some woman helped Jill."
+	"Did Judy marry Rex?",
+	"Judy married Rex.",
+	"Rex married Judy.",
+	"Some man married Judy.",
+	"Some woman married Rex.",
+	"Some man helped Alice.",
+	"A man helped Alice.",
+	"Some woman helped Alice."
 	]
 ditransitive_tests = [
-	"Frank gave some rings to Rebia.",
-	"Did Frank give some rings to Rebia.",
-	"Did Frank give the rings to Rebia?",
-	"Did Frank give the rings to someone?",
-	"Frank gave several rings to Rebia.",
-	"Did someone give something to Rebia?",
-	"A man gave the rings to Rebia.",
-	"A man gave the rings to someone.",
+	"Rex gave some box to Judy.",
+	"Did Rex give some box to Judy.",
+	"Did Rex give the box to Judy?",
+	"Did Rex give the box to someone?",
+	"Rex gave several boxes to Judy.",
+	"Did someone give something to Judy?",
+	"A man gave the box to Judy.",
+	"A man gave the box to someone.",
 	"A man gave something to someone.",
 	"Someone gave something to someone.",
 
-	"Frank gave Rebia some rings.",
-	"Did Frank give Rebia some rings?",
-	"Did Frank give Rebia the rings?",
-	"Did Frank give someone the rings?",
-	"Frank gave Rebia several rings.",
-	"Did someone give Rebia something?",
-	"A man gave Rebia the rings.",
-	"A man gave someone the rings.",
+	"Rex gave Judy some box.",
+	"Did Rex give Judy some box?",
+	"Did Rex give Judy the box?",
+	"Did Rex give someone the box?",
+	"Rex gave Judy several box.",
+	"Did someone give Judy something?",
+	"A man gave Judy the box.",
+	"A man gave someone the box.",
 	"A man gave someone something.",
 	"Someone gave someone something."
 	]
 
 relclauses = [
-	"A man who married Rebia died.",
-	"The man who married Rebia died.",
-	"Did the man who married Rebia die?",
-	"Did every man who married Rebia die?",
-	"The man who gave the rings to Rebia died.",
-	"Frank left the woman that he gave the rings to.",
+	"A man who married Judy worked.",
+	"The man who married Judy worked.",
+	"Did the man who married Judy work?",
+	"Did every man who married Judy work?",
+	"The man who gave the box to Judy worked.",
+	"Rex divorced the woman that he gave the box to.",
 	"Who killed the man that helped the woman " 
 	 ++ "that had a boyfriend."
 	]
@@ -427,9 +414,9 @@ handler core tests = putStr $ unlines $ map (\(x,y) -> x++show y) $ zip (map (++
 
 forms tests = putStr $ unlines $ map (\(x,y)->x++show y) $ zip (map (++"\t") tests ) ( map process tests )
 
-lf0 = Rel "died" [ Const(ents!!17) ]
-lf00 = (Conj [(Rel "person" [Var 0]), (Rel "died" [Var 0]) ] ) 
--- lf000 = (Exists (Conj [(Rel "person" [Var 0]), (Rel "died" [Var 0]) ] )) (Const(ents)!!17)
+lf0 = Rel "worked" [ Const(ents!!17) ]
+lf00 = (Conj [(Rel "person" [Var 0]), (Rel "worked" [Var 0]) ] ) 
+-- lf000 = (Exists (Conj [(Rel "person" [Var 0]), (Rel "worked" [Var 0]) ] )) (Const(ents)!!17)
 
 lf1 = (Equi  (Rel "married" [ Const(ents!!9), Const(ents!!1) ]) (Neg (Rel "married" [ Const(ents!!8), Const(ents!!17)]) ) )
 
