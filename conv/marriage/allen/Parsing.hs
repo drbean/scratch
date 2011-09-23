@@ -33,7 +33,7 @@ data Feat = Masc  | Fem  | Neutr | MascOrFem
           | Nom   | AccOrDat 
           | Pers  | Refl | Wh 
           | Tense | Infl
-          | On    | With | By | To | From | Through
+          | In    | On    | With | By | To | From | Through
           deriving (Eq,Show,Ord)
 
 type Agreement = [Feat]
@@ -46,7 +46,7 @@ person   = filter (`elem` [Fst,Snd,Thrd])
 gcase    = filter (`elem` [Nom,AccOrDat])
 pronType = filter (`elem` [Pers,Refl,Wh]) 
 tense    = filter (`elem` [Tense,Infl]) 
-prepType = filter (`elem` [On,With,By,To,From,Through]) 
+prepType = filter (`elem` [In,On,With,By,To,From,Through]) 
 
 prune :: Agreement -> Agreement
 prune fs = if   (Masc `elem` fs || Fem `elem` fs)
@@ -142,51 +142,31 @@ lexicon "that"    = [Cat "that"  "REL" []      [],
 lexicon "which"   = [Cat "which" "REL" [Neutr] [], 
                      Cat "which" "DET" [Wh]    []]
 
-lexicon "rebia"	= [Cat "rebia"	"NP" [Thrd,Fem,Sg] []]
-lexicon "frank"	= [Cat "frank"	"NP" [Thrd,Masc,Sg] []]
-lexicon "terry"	= [Cat "terry"	"NP" [Thrd,Masc,Sg] []]
-lexicon "caesar"	= [Cat "caesar"	"NP" [Thrd,Masc,Sg] []]
-lexicon "albert"	= [Cat "albert"	"NP" [Thrd,Masc,Sg] []]
-lexicon "mike"	= [Cat "mike"	"NP" [Thrd,Masc,Sg] []]
-lexicon "jill"	= [Cat "jill"	"NP" [Thrd,Fem,Sg] []]
-lexicon "jack"	= [Cat "jack"	"NP" [Thrd,Masc,Sg] []]
+lexicon "alice"	= [Cat "alice"	"NP" [Thrd,Fem,Sg] []]
+lexicon "judy"	= [Cat "judy"	"NP" [Thrd,Fem,Sg] []]
+lexicon "kelley"	= [Cat "kelley"	"NP" [Thrd,Fem,Sg] []]
+lexicon "rex"	= [Cat "rex"	"NP" [Thrd,Masc,Sg] []]
 
 lexicon "mother" = [Cat "mother" "CN" [Sg,Fem,Thrd] []]
 lexicon "daughter" = [Cat "daughter" "CN" [Sg,Fem,Thrd] []]
 lexicon "father"    = [Cat "father"    "CN" [Sg,Masc,Thrd] []]
-lexicon "son"    = [Cat "son"    "CN" [Sg,Masc,Thrd] []]
 lexicon "boyfriend"	= [Cat "boyfriend"	"CN" [Thrd,Masc,Sg] []]
 lexicon "girlfriend"	= [Cat "girlfriend"	"CN" [Thrd,Fem,Sg] []]
-lexicon "caregiver"	= [Cat "caregiver"	"CN" [Thrd,MascOrFem,Sg] []]
 
 
-lexicon "ring"	= [Cat "ring"	"CN" [Thrd,Neutr,Sg] []]
-lexicon "rings"	= [Cat "rings"	"CN" [Thrd,Neutr,Pl] []]
-lexicon "food"	= [Cat "food"	"CN" [Thrd,Neutr,Sg] []]
-lexicon "class_ring" = [Cat "class_ring" "CN" [Thrd,Neutr,Sg] []]
-lexicon "engagement_ring" = [Cat "engagement_ring" "CN" [Thrd,Neutr,Sg] []]
-lexicon "wedding_ring" = [Cat "wedding_ring" "CN" [Thrd,Neutr,Sg] []]
+lexicon "car_window"	= [Cat "car_window"	"CN" [Thrd,Neutr,Sg] []]
+lexicon "rock" = [Cat "rock" "CN" [Thrd,Neutr,Sg] []]
+lexicon "box" = [Cat "box" "CN" [Thrd,Neutr,Sg] []]
 
-lexicon "died"    = [Cat "died"    "VP" [Tense] []]
-lexicon "die"     = [Cat "die"     "VP" [Infl]  []]
-
-lexicon "helped"	= [Cat "helped"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
-lexicon "help"	= [Cat "help"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]]
+lexicon "contacted"	= [Cat "contacted"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
+lexicon "contact"	= [Cat "contact"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]]
 
 lexicon "had"	= [Cat "had"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
 lexicon "have"	= [Cat "have"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]]
-lexicon "loved"	= [Cat "loved"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
-lexicon "love"	= [Cat "love"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]]
 lexicon "married"	= [Cat "married"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
 lexicon "marry"	= [Cat "marry"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]]
 lexicon "divorced"	= [Cat "divorced"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
 lexicon "divorce"	= [Cat "divorce"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]]
-lexicon "left"	= [Cat "left"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
-lexicon "leave"	= [Cat "leave"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]]
-lexicon "killed"	= [Cat "killed"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
-lexicon "kill"	= [Cat "kill"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]]
-lexicon "approached"	= [Cat "approached"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
-lexicon "approach"	= [Cat "approach"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
 lexicon "parented"	= [Cat "parented"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
 --nound and verb
 lexicon "parent"	= [Cat "parent"	"VP" [Infl] 
@@ -195,20 +175,6 @@ lexicon "parent"	= [Cat "parent"	"VP" [Infl]
 			   	[Sg,MascOrFem,Thrd]   []]
 lexicon "parents"	= [Cat "parents" "CN" 
 			   	[Pl,MascOrFem,Thrd]   []]
-lexicon "put_on"	=
- [Cat "put_on"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
-  Cat "put_on"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
-lexicon "care_for"	=
- [Cat "care_for" "VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
-lexicon "cared_for"	=
- [Cat "cared_for" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
-lexicon "look_after"	=
- [Cat "look_after" "VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
-lexicon "looked_after"	=
- [Cat "looked_after" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
-
-
-
 
 lexicon "every"   = [Cat "every"   "DET" [Sg]  []]
 lexicon "all"     = [Cat "all"     "DET" [Pl]  []]
@@ -244,16 +210,23 @@ lexicon "women"   = [Cat "women"   "CN" [Pl,Fem,Thrd]   []]
 lexicon "did"    = [Cat "did"    "AUX" [] []]
 lexicon "didn't" = [Cat "didn't" "AUX" [] []]
 
-lexicon "gave"         = 
- [Cat "gave" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-	                   Cat "_" "PP" [To]       []], 
-  Cat "gave" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-	                   Cat "_" "NP" [AccOrDat]  []]]
-lexicon "give"         = 
- [Cat "give" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-                           Cat "_" "PP" [To]       []],
-  Cat "give" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-                           Cat "_" "NP" [AccOrDat] []]]
+lexicon "worked"    = [Cat "worked"    "VP" [Tense] [],
+			Cat "worked"	"VP" [Tense] [Cat "_" "PP" [With] []]]
+lexicon "work"     = [Cat "work"     "VP" [Infl]  [],
+			Cat "work"	"VP" [Tense] [Cat "_" "PP" [With] []]]
+
+lexicon "threw"         = 
+ [Cat "threw" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+	                   Cat "_" "PP" [Through]       []]]
+lexicon "throw"         = 
+ [Cat "throw" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+                           Cat "_" "PP" [Through]       []]]
+
+lexicon "put"         = 
+ [Cat "put" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+	                   Cat "_" "PP" [In]       []],
+  Cat "put" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+                           Cat "_" "PP" [In]       []]]
 
 lexicon "handed"         = 
  [Cat "handed" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
@@ -265,7 +238,28 @@ lexicon "hand"         =
                            Cat "_" "PP" [To]       []],
   Cat "hand" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
                            Cat "_" "NP" [AccOrDat] []]]
+lexicon "gave"         = 
+ [Cat "gave" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+	                     Cat "_" "PP" [To]       []], 
+  Cat "gave" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+	                     Cat "_" "NP" [AccOrDat]  []]]
+lexicon "give"         = 
+ [Cat "give" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+                           Cat "_" "PP" [To]       []],
+  Cat "give" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+                           Cat "_" "NP" [AccOrDat] []]]
+lexicon "told"         = 
+ [Cat "told" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+                           Cat "_" "PP" [To]       []],
+  Cat "told" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+                           Cat "_" "NP" [AccOrDat] []]]
+lexicon "tell"         = 
+ [Cat "tell" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+                           Cat "_" "PP" [To]       []],
+  Cat "tell" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+                           Cat "_" "NP" [AccOrDat] []]]
 
+lexicon "in"   = [Cat "in"   "PREP" [In]   []]
 lexicon "on"   = [Cat "on"   "PREP" [On]   []]
 lexicon "with" = [Cat "with" "PREP" [With] []]
 lexicon "by"   = [Cat "by"   "PREP" [By]   []]
@@ -285,20 +279,17 @@ pronouns = ["i","me","we","us","you",
 reflexives = ["myself","ourselves","yourself","yourselves",
 	"himself","herself","itself","themselves"]
 interrogatives = ["who","whom","what","that","which"]
-people_names = ["rebia","frank","terry","caesar","oldest_child",
-	"mike", "jill","jack"]
-object_names = ["ring","rings","food",
-	"class_ring","engagement_ring","wedding_ring"]
-intransitive_names = ["died","die"]
-transitives = ["helped","help","had","have","loved","love",
-	"married","marry","left","leave", "killed","kill","put_on"]
+people_names = ["alice","judy","kelley","rex"]
+object_names = ["rock","car_window","box","story"]
+aux = ["did","didn't"]
+ditransitives = ["put","gave","give", "handed","hand","threw","throw","told","tell"]
+intransitive_names = ["worked","work"]
+transitives = ["had","have","married","marry","contacted","contact", "divorced","divorce","parented","parent"]
 determiners = ["every","all","some","several","a","no","the",
 	"most","many","few","this","these","those"]
-class_names = ["thing","things","person","persons","boy","boys",
-	"man","men","girl","girls","woman","women"]
-aux = ["did","didn't"]
-ditransitives = ["gave","give", "handed","hand"]
-preps = ["on","with","by","to","from","through"]
+class_names = ["thing","things","person","persons","mother","father","daughter",
+	"man","men","woman","women"]
+preps = ["in","on","with","by","to","from","through"]
 
 scan :: String -> String
 scan []                      = []
@@ -318,15 +309,7 @@ preproc ["."]              = []
 preproc ["?"]              = []
 preproc (",":xs)           = preproc xs
 
-preproc ("put":"on":xs)	= "put_on" : preproc xs
-preproc ("look":"after":xs)	= "look_after" : preproc xs
-preproc ("looked":"after":xs)	= "looked_after" : preproc xs
-preproc ("care":"for":xs)	= "care_for" : preproc xs
-preproc ("cared":"for":xs)	= "cared_for" : preproc xs
-
-preproc ("class":"ring":xs) = "class_ring" : preproc xs
-preproc ("engagement":"ring":xs) = "engagement_ring" : preproc xs
-preproc ("wedding":"ring":xs)	= "wedding_ring" : preproc xs
+preproc ("car":"window":xs)	= "car_window" : preproc xs
 
 preproc ("an":xs)	= "a" : preproc xs
 preproc ("did":"not":xs)   = "didn't" : preproc xs
