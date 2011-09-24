@@ -213,7 +213,7 @@ lexicon "didn't" = [Cat "didn't" "AUX" [] []]
 lexicon "worked"    = [Cat "worked"    "VP" [Tense] [],
 			Cat "worked"	"VP" [Tense] [Cat "_" "PP" [With] []]]
 lexicon "work"     = [Cat "work"     "VP" [Infl]  [],
-			Cat "work"	"VP" [Tense] [Cat "_" "PP" [With] []]]
+			Cat "work"	"VP" [Infl] [Cat "_" "PP" [With] []]]
 
 lexicon "threw"         = 
  [Cat "threw" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
