@@ -132,8 +132,8 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [])]) =
 transVP (Branch (Cat _ "VP" _ _) 
                 [Leaf (Cat name "VP" _ [_]),np]) = 
         \ subj -> transNP np (\ obj -> Rel name [subj,obj])
---transVP (Branch (Cat _ "VP" _ _) [Branch (Cat name "PP" _ pp) [prep,np]]) =
---	\subj -> transNP np (\adv -> Rel name [subj,adv])
+transVP (Branch (Cat _ "VP" _ _) [Branch (Cat name "PP" _ pp) [prep,np]]) =
+	\subj -> transNP np (\adv -> Rel name [subj,adv])
 transVP (Branch (Cat _ "VP" _ _) 
                 [Leaf (Cat name "VP" _ [_,_]),np,obj2]) = 
 	case (obj2) of 
