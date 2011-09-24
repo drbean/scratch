@@ -129,13 +129,13 @@ transPP (Branch (Cat _   "PP" _ _) [prep,np]) = transNP np
 transVP :: ParseTree Cat Cat -> Term -> LF
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [])]) = 
         \ t -> ( Rel name [t] )
-transVP (Branch (Cat _ "VP" _ _) 
-                [Leaf (Cat name "VP" _ [_]),np]) = 
-        \ subj -> transNP np (\ obj -> Rel name [subj,obj])
-transVP (Branch (Cat _ "VP" _ _) [Branch (Cat name "PP" _ pp) [prep,np]]) =
-	\subj -> transNP np (\adv -> Rel name [subj,adv])
-transVP (Branch (Cat _ "VP" _ _) 
-                [Leaf (Cat name "VP" _ [_,_]),np,obj2]) = 
+transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1]) = 
+	case (obj1) of 
+		(Branch (Cat _ "PP" _ _) _ ) ->
+			\subj -> transPP obj1 (\adv -> Rel name [subj,adv])
+		(Leaf (Cat _ "NP" _ _) ) ->
+			\subj -> transNP obj1 (\ obj -> Rel name [subj,obj])
+transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),np,obj2]) = 
 	case (obj2) of 
 		(Branch (Cat _ "PP" _ _) _ ) ->
 			\ subj   -> transNP np 
@@ -210,16 +210,16 @@ int "car_window" = \ [x] -> car_window x
 int "box" = \ [x] -> box x
 int "story" = \ [x] -> story x
 
-int "worked" = \ [x] -> worker x
-int "work" = \ [x] -> worker x
+int "worked" = \ args -> case args of [x] -> worker x; [x,y] -> worked_with y x
+int "work" = int "worked"
 
-int "worked_with"	= \ [x,y] -> worked_with y x
-int "work_with"	= \ [x,y] -> worked_with y x
 int "parented"	= \ [x,y] -> parented y x
 int "divorced"	= \ [x,y] -> divorced y x
-int "divorce"	= \ [x,y] -> divorced y x
+int "divorce"	= int "divorced"
 int "had"	= \ [x,y] -> have y x
 int "have"	= \ [x,y] -> have y x
+int "contacted"	= \ [x,y] -> contacted y x
+int "contact"	= int "contacted"
 
 int "threw"	= \ [x,y,z] ->	throw z y x
 int "throw"	= \ [x,y,z] ->	throw z y x
