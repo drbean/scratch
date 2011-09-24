@@ -74,7 +74,7 @@ divorces	= [ (J,X) ]
 unmarried_couples	= [ (X,A) ]
 --(contacter,contactee)
 contacts	= [ (X,J) ]
-coworkers	= [ (X,A) ]
+coworkers	= [ (X,A),(J,Unspec) ]
 putting	= [ (X,R,B) ]
 throwing	= [ (J,R,W) ]
 giving	= [ (X,B,J) ]
