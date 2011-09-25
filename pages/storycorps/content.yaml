@@ -9,7 +9,7 @@ blurb: |+
          </p>
          <table>
          <tr><td>Pictures and soundfiles:
-         <td><a href=http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/>All Storycorps' sound files in alphabetical order</a>
+         <td><a href=http://www.storycorps.org/listen>All Storycorps' sound files</a>
          <tr><td>Dave Isay, Storycorps leader:
          <td><a href=http://www.storycorps.net/blog/west-mobilebooth/washington-dc-west/dave-isay-on-tv/>Picture</a>
          </table>
@@ -471,22 +471,17 @@ topic:
     intro: Some marriages are a mixture of good things and bad things. Rebia Mixon Clay and Frank Mixon's marriage ended unhappily. PJ Goetz' marriage has seen good times and bad times. And Judy Allen's ended in divorce, but with a humorous twist.
     story:
       -
-        id: clay-1
+        id: clay
         title: Life with Frank Mixon
-        blurb: Listen to <a href=http://www.storycorps.net/listen/rebia-mixon-clay>Rebia Mixon-Clay</a> talking about her late ex-husband, Frank Mixon: <a href=http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/clay.mp3> You're going to be my wife</a>.
-        comment: Frank wanted to give her his class ring, but she didn't want it. Do high school and college students, or military officers wear <a href=http://en.wikipedia.org/wiki/Class_ring>class rings</a> in Taiwan?
-      -
-        id: clay-2
-        title: Remembering Frank
-        blurb: Frank and Rebia separated and Frank was killed helping a woman. She mentions an <a href=http://www.urbandictionary.com/define.php?term=altercation>altercation</a> and a <a href=http://www.urbandictionary.com/define.php?term=damsel+in+distress>damsel in distress</a>. See the <a href=http://en.wikipedia.org/wiki/Damsel_in_distress>Wikipedia</a> entry.
-        comment: Why did they split up if they had such a good relationship? What was the relationship between Frank and the woman he was helping? This is a sad story. So, why does Rebia express so much joy remembering Frank?
+        blurb: Listen to <a href="http://www.npr.org/templates/story/story.php?storyId=14577839">Rebia Mixon-Clay</a> talking about her late ex-husband, Frank Mixon: <a href="http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/clay.mp3">You're going to be my wife</a>. <br> Frank and Rebia separated and Frank was killed helping a woman. She mentions an <a href=http://www.urbandictionary.com/define.php?term=altercation>altercation</a> and a <a href=http://www.urbandictionary.com/define.php?term=damsel+in+distress>damsel in distress</a>. See the <a href=http://en.wikipedia.org/wiki/Damsel_in_distress>Wikipedia</a> entry.
+        comment: Frank wanted to give her his class ring, but she didn't want it. Do high school and college students, or military officers wear <a href=http://en.wikipedia.org/wiki/Class_ring>class rings</a> in Taiwan?  Why did they split up if they had such a good relationship? What was the relationship between Frank and the woman he was helping? This is a sad story. So, why does Rebia express so much joy remembering Frank?
       -
         id: allen
         title: Funny (??) divorce story
         blurb: |
-          <p>Judy Allen tells her daughter, Kelley Edwards about the break-up of her marriage, <a href=http://www.npr.org/templates/story/story.php?storyId=4786526>When You Just Want to Throw Something : NPR</a>. For a shorter version without introductions and endings, you can also listen to the <a href=http://www.storycorps.org/listen/stories/judy-allen-and-kelley-edwards>Storycorps site version</a>
+          <p><a href="http://hoffmanblog.org/http:/hoffmanblog.org/tag/judy-allen">Judy Allen</a> tells her daughter, Kelley Edwards about the break-up of her marriage, <a href=http://www.npr.org/templates/story/story.php?storyId=4786526>When You Just Want to Throw Something : NPR</a>. For a shorter version without introductions and endings, you can also listen to the <a href=http://www.storycorps.org/listen/stories/judy-allen-and-kelley-edwards>Storycorps site version</a>.
         comment: | 
-          Some confusing things: What is the relationship between Judy and her <a href= http://www.urbandictionary.com/define.php?term=ex>ex</a> (ie ex-husband) like now? What is the relationship between Judy's daughter and her ex-husband?
+          Judy writes about <a href="http://judyallen.wordpress.com">healing</a> and has a book, <a href="http://lookingthroughwater.wordpress.com/">Looking through water</a>. <p> Some confusing things: What is the relationship between Judy and her <a href= http://www.urbandictionary.com/define.php?term=ex>ex</a> (ie ex-husband) like now? What is the relationship between Judy's daughter and her ex-husband?
       -
         id: ward
         title: The Divorce Ranch
