@@ -22,6 +22,6 @@ my $approach = $l->approach;
 my %chinese = map { $_->{Chinese} => $_ } @{ $l->members };
 my $cans = $g->beancans( $session );
 my %newnames = map { my $can = $_ ; { $can =>
-	[ map { $chinese{$_}->{name} } @{ $cans->{$can} } ] }
-	keys %cans;
+	[ map { $chinese{$_}->{name}||$_ } @{ $cans->{$can} } ] } }
+	keys %$cans;
 
