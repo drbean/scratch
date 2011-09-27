@@ -184,55 +184,6 @@ process string = map transS (parses string)
 pick ps x = [ ps !! x ]
 
 
---evaluation in model
-
-type Interp a	= String -> [a] -> Bool
-
-int :: Interp Entity
-int "man"	= \ [x] -> man x
-int "men"	= \ [x] -> man x
-int "woman"	= \ [x] -> woman x
-int "women"	= \ [x] -> woman x
-
-int "person"	= \ [x] -> people x
-int "thing"	= \ [x]	-> things x
-
-int "parent" = \ [x] -> parent x
-int "parents" = \ [x] -> parent x
-int "mother" = \ [x] -> mother x
-int "father" = \ [x] -> father x
-int "daughter" = \ [x] -> daughter x
-int "boyfriend" = \[x] -> boyfriend x
-int "girlfriend" = \[x] -> girlfriend x
-
-int "rock" = \ [x] -> rock x
-int "car_window" = \ [x] -> car_window x
-int "box" = \ [x] -> box x
-int "story" = \ [x] -> story x
-
-int "worked" = \ args -> case args of [x] -> worker x; [x,y] -> worked_with y x
-int "work" = int "worked"
-
-int "parented"	= \ [x,y] -> parented y x
-int "divorced"	= \ [x,y] -> divorced y x
-int "divorce"	= int "divorced"
-int "had"	= \ [x,y] -> have y x
-int "have"	= \ [x,y] -> have y x
-int "contacted"	= \ [x,y] -> contacted y x
-int "contact"	= int "contacted"
-
-int "threw"	= \ [x,y,z] ->	throw z y x
-int "throw"	= \ [x,y,z] ->	throw z y x
-int "gave"	= \ [x,y,z] ->	give z y x
-int "give"	= \ [x,y,z] ->	give z y x
-int "handed"	= \ [x,y,z] ->	hand z y x
-int "hand"	= \ [x,y,z] ->	hand z y x
-int "told"	= \ [x,y,z] ->	tell z y x
-int "tell"	= \ [x,y,z] ->	tell z y x
-int "put" = \ [x,y,z] -> boxed z y x
-
-
-
 type FInterp = String -> [Entity] -> Entity
 
 fint :: FInterp
@@ -301,45 +252,45 @@ singleton [x]	= True
 singleton _	= False
 
 haves = [
-	"Did Judy have Kelley?",
-	"Did Judy have Rex?",
-	"Did Judy have Alice?",
-	"Did Judy have a mother?",
-	"Did Judy have a son?",
-	"Did Judy have a daughter?",
-	"Did Kelley have a mother?",
-	"Did Rex have a girlfriend?",
-	"Did Judy have a boyfriend?",
-	"Did Alice have a boyfriend?",
-	"Did Alice have a parent?",
-	"Did Alice have some parents?",
-	"Did Alice have parents?"
+	"Did PJ have Sam?",
+	"Did PJ have Dan?",
+	"Did PJ have Ann?",
+	"Did PJ have a mother?",
+	"Did PJ have a son?",
+	"Did PJ have a daughter?",
+	"Did Sam have a mother?",
+	"Did Dan have a girlfriend?",
+	"Did PJ have a boyfriend?",
+	"Did Ann have a boyfriend?",
+	"Did Ann have a parent?",
+	"Did Ann have some parents?",
+	"Did Ann have parents?"
 	]
 wh_questions =[
 	"Who worked?",
-	"Who did Judy marry?",
-	"Who married Judy?",
-	"Who gave the box to Judy?",
-	"Who gave some box to Judy?",
+	"Who did Dan marry?",
+	"Who married Dan?",
+	"Who gave the phone number to Dan?",
+	"Who gave some phone number to Dan?",
 	"Which person worked?",
-	"Which person did Judy marry?",
-	"To whom did Rex give some box?",
-	"Who did Rex give some box to?"
+	"Which person did Dan marry?",
+	"To whom did PJ give some phone number?",
+	"Who did PJ give some phone number to?"
 	]
 ungrammatical = [
-	"Did Judy worked?",
-	"Rex work?",
+	"Did Dan worked?",
+	"PJ work?",
 	"Man worked.",
 	"Some man work.",
 	"No worked.",
 	"No-one work.",
-	"Did Judy marry?",
-	"Judy marry Rex.",
-	"Rex married."
+	"Did Dan marry?",
+	"Dan marry PJ.",
+	"PJ married."
 	]
 intransitives = [
-	"Did Judy work?",
-	"Did Rex work?",
+	"Did Dan work?",
+	"Did PJ work?",
 	"A man worked.",
 	"Some man worked.",
 	"No one worked.",
@@ -363,46 +314,46 @@ intransitives = [
 	"No man worked."
 	]
 transitives = [
-	"Did Judy marry Rex?",
-	"Judy married Rex.",
-	"Rex married Judy.",
-	"Some man married Judy.",
-	"Some woman married Rex.",
-	"Some man helped Alice.",
-	"A man helped Alice.",
-	"Some woman helped Alice."
+	"Did Dan marry PJ?",
+	"Dan married PJ.",
+	"PJ married Dan.",
+	"Some woman married Dan.",
+	"Some man married PJ.",
+	"Some man helped Ann.",
+	"A man helped Ann.",
+	"Some woman helped Ann."
 	]
 ditransitive_tests = [
-	"Rex gave some box to Judy.",
-	"Did Rex give some box to Judy.",
-	"Did Rex give the box to Judy?",
-	"Did Rex give the box to someone?",
-	"Rex gave several boxes to Judy.",
-	"Did someone give something to Judy?",
-	"A man gave the box to Judy.",
-	"A man gave the box to someone.",
-	"A man gave something to someone.",
+	"PJ gave some phone number to Dan.",
+	"Did PJ give some phone number to Dan.",
+	"Did PJ give the phone number to Dan?",
+	"Did PJ give the phone number to someone?",
+	"PJ gave several phone numbers to Dan.",
+	"Did someone give something to Dan?",
+	"A woman gave the phone number to Dan.",
+	"A woman gave the phone number to someone.",
+	"A woman gave something to someone.",
 	"Someone gave something to someone.",
 
-	"Rex gave Judy some box.",
-	"Did Rex give Judy some box?",
-	"Did Rex give Judy the box?",
-	"Did Rex give someone the box?",
-	"Rex gave Judy several box.",
-	"Did someone give Judy something?",
-	"A man gave Judy the box.",
-	"A man gave someone the box.",
+	"PJ gave Dan some phone number.",
+	"Did PJ give Dan some phone number?",
+	"Did PJ give Dan the phone number?",
+	"Did PJ give someone the phone number?",
+	"PJ gave Dan several phone number.",
+	"Did someone give Dan something?",
+	"A man gave Dan the phone number.",
+	"A man gave someone the phone number.",
 	"A man gave someone something.",
 	"Someone gave someone something."
 	]
 
 relclauses = [
-	"A man who married Judy worked.",
-	"The man who married Judy worked.",
-	"Did the man who married Judy work?",
-	"Did every man who married Judy work?",
-	"The man who gave the box to Judy worked.",
-	"Rex divorced the woman that he gave the box to.",
+	"A woman who married Dan worked.",
+	"The woman who married Dan worked.",
+	"Did the woman who married Dan work?",
+	"Did every woman who married Dan work?",
+	"The woman who gave the phone number to Dan worked.",
+	"PJ divorced the man that she gave the phone number to.",
 	"Who killed the man that helped the woman " 
 	 ++ "that had a boyfriend."
 	]
