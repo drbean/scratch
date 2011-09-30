@@ -88,9 +88,9 @@ transDET (Leaf (Cat "every" "DET" _ _)) =
 transDET (Leaf (Cat "all" "DET" _ _)) = 
   \ p q -> Forall (\v -> Impl (p v) (q v) )
 transDET (Leaf (Cat "some" "DET" _ _)) = 
-  \ p q -> Exists (\v -> Impl (p v) (q v) )
+  \ p q -> Exists (\v -> Conj [p v, q v] )
 transDET (Leaf (Cat "a" "DET" _ _)) = 
-  \ p q -> Exists (\v -> Impl (p v) (q v) )
+  \ p q -> Exists (\v -> Conj [p v, q v] )
 transDET (Leaf (Cat "several" "DET" _ _)) = 
   \ p q -> Several (\v -> Impl (p v) (q v) )
 transDET (Leaf (Cat "no" "DET" _ _)) = 
@@ -133,7 +133,7 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1]) =
 	case (obj1) of 
 		(Branch (Cat _ "PP" _ _) _ ) ->
 			\subj -> transPP obj1 (\adv -> Rel name [subj,adv])
-		(Leaf (Cat _ "NP" _ _) ) ->
+		_ ->
 			\subj -> transNP obj1 (\ obj -> Rel name [subj,obj])
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),np,obj2]) = 
 	case (obj2) of 
@@ -319,9 +319,9 @@ transitives = [
 	"PJ married Dan.",
 	"Some woman married Dan.",
 	"Some man married PJ.",
-	"Some man helped Ann.",
-	"A man helped Ann.",
-	"Some woman helped Ann."
+	"Some man divorced Ann.",
+	"A man divorced Ann.",
+	"Some woman told a story."
 	]
 ditransitive_tests = [
 	"PJ gave some phone number to Dan.",
