@@ -118,12 +118,20 @@ curry3 f x y z	= f (x,y,z)
 met :: ThreePlacePred
 
 meetings	= [ (D,P,B) ]
-telling	= [ (P,S,Y) ]
+telling	= [ (P,Y,S) ]
 giving	= [ (P,N,D) ]
 
 met	= pred3 meetings
 gave	= pred3 giving
 told	= pred3 telling
+
+agent, theme, recipient, location :: (Entity,Entity,Entity) -> Entity
+agent (a,_,_) = a
+theme (_,t,_) = t
+recipient (_,_,r) = r
+location = recipient
+
+recite = pred2 $ map ( \x -> (agent x, theme x) ) telling
 
 passivize :: TwoPlacePred -> OnePlacePred
 passivize r	= \ x -> or ( map ( flip  r x ) entities )
@@ -173,6 +181,7 @@ int "have"	= \ [x,y] -> have y x
 
 int "met"	= \ [x,y,z] ->	met z y x;	int "meet"	= int "met"
 int "gave"	= \ [x,y,z] ->	gave z y x;	int "give"	= int "gave"
-int "told"	= \ [x,y,z] ->	told z y x;	int "tell"	= int "told"
+int "told" = \ args -> case args of [x,y] -> recite y x; [x,y,z] -> told z y x
+int "tell" = int "told"
 
 
