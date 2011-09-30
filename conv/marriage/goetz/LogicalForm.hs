@@ -324,6 +324,9 @@ transitives = [
 	"Some woman told a story."
 	]
 ditransitive_tests = [
+	"PJ told a story.",
+	"PJ told Sam a story.",
+	"PJ told a story to Sam.",
 	"PJ gave some phone number to Dan.",
 	"Did PJ give some phone number to Dan.",
 	"Did PJ give the phone number to Dan?",
