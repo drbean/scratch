@@ -178,7 +178,7 @@
 -
   - ward
   - The Divorce Ranch
-  - upper
+  - intermediate
   - A
   - |+
     Robbie: Most of the guests came from New York, New Jersey. At the end of their six weeks, Mother would go to court with them and testify that they had been a resident at the ranch and she had seen them every day.
@@ -188,7 +188,7 @@
 -
   - ward
   - The Divorce Ranch
-  - upper
+  - intermediate
   - B
   - |+
     Beth: One guest cried for six weeks. Any time a man would walk, oh, heh, heh, it reminded her of Joe! And we finally saw Joe. And I don't know where the tears came from. Because he was no prize package, I can tell you that.
@@ -198,7 +198,7 @@
 -
   - ward
   - The Divorce Ranch
-  - upper
+  - intermediate
   - C
   - |+
     Beth: They just thought it was great that there was some place they could come to get one.
@@ -212,13 +212,20 @@
 -
   - ward
   - The Divorce Ranch
-  - upper
+  - intermediate
   - D
   - |+
 
     Robbie: Listening to stories from the guests, I think we probably thought many times, I sure won't make that mistake!
     Beth: Robbie had a good marriage with her husband. And I'd been married and divorced and then remarried. The man I remarried, his wife had been there for a divorce. He came over and asked me out for dinner. And next thing I knew, I was married. So, it was the greatest move that I think we ever made.
   - Robbie|Beth|fuming
+-
+  - klos
+  - The Divorce Motel
+  - intermediate
+  - A
+  - |+
+    My mother and father owned the Silver State lodge motel.  My dad would come home, he’d say, “Well, got another divorce today.” And my mom’d say, “Oh yeah, who got divorced today?” And he’d say, “Well, you know Mrs. So-and-so, lived in Elm?”. And it was primarily women who came to Reno to file for divorce. Often they were very sad, they were very lonesome, they had left their families behind. So my mother felt sorry for them and she would often visit with them. And there were a couple that after they left they actually gave clothes to my mom. They didn’t want to wear those divorce clothes.
 ---
 -
   - genre
@@ -410,56 +417,56 @@
   - "The husband told her there was a rock in the box."
   - "False" 
 -
-  - upper
+  - intermediate
   - ward
   - 1
   - A
   - Their mother would say to the court that the guests had been with her for six weeks.
   - True
 -
-  - upper
+  - intermediate
   - ward
   - 2
   - A
   - Their mother would say the guests had been with her for six weeks, but they had been at the ranch for just two weeks.
   - False
 -
-  - upper
+  - intermediate
   - ward
   - 3
   - B
   - One guest fussed and fumed for six weeks, because of her divorce, but her Joe wasn't a nice or smooth man.
   - True
 -
-  - upper
+  - intermediate
   - ward
   - 4
   - B
   - Joe reminded people that there were no prizes in a package divorce, if you were unhappy and if you thought they were great.
   - False
 -
-  - upper
+  - intermediate
   - ward
   - 5
   - C
   - Some guests made awful mistakes when they walked down the aisle. Many married again after.
   - True
 -
-  - upper
+  - intermediate
   - ward
   - 6
   - C
   - They listened to their guests and thought they were awful, but their mistakes were great.
   - False
 -
-  - upper
+  - intermediate
   - ward
   - 7
   - D
   - The man she married had been divorced. She knew his wife before she married him. She was his next wife.
   - True
 -
-  - upper
+  - intermediate
   - ward
   - 8
   - D
