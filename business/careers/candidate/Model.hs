@@ -22,7 +22,10 @@ characters = [
 	( "eva",	E ),
 	( "fast_track",	F ),
 	( "high_school",	H),
-	( "college",	U)
+	( "college",	U),
+	( "marketing", M),
+	( "engineering", N),
+	( "history", S)
 
 	]
 
@@ -53,9 +56,12 @@ pred3 xs	= curry3 ( `elem` xs )
 
 --(person,school)
 education	= [ (B,H), (T,U), (E,U) ]
+--(person,subject)
+subjects	= [ (B,M), (T,N), (E,S) ]
 
 graduated_from ::  TwoPlacePred
 graduated_from	= pred2 education
+studied	= pred2 subjects
 
 man	= male
 woman	= female

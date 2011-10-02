@@ -200,6 +200,8 @@ int "thing"	= \ [x]	-> things x
 
 int "graduated_from"	= \ [x,y] -> graduated_from y x
 int "graduate_from"	= \ [x,y] -> graduated_from y x
+int "studied"	= \ [x,y] -> studied y x
+int "study"	= \ [x,y] -> studied y x
 
 type FInterp = String -> [Entity] -> Entity
 

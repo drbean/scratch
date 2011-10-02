@@ -32,7 +32,7 @@ data Feat = Masc  | Fem  | Neutr | MascOrFem
           | Fst   | Snd  | Thrd 
           | Nom   | AccOrDat 
           | Pers  | Refl | Wh 
-          | Tense | Infl
+          | Past | Infl
           | On    | With | By | To | From | Through
           deriving (Eq,Show,Ord)
 
@@ -45,7 +45,7 @@ number   = filter (`elem` [Sg,Pl])
 person   = filter (`elem` [Fst,Snd,Thrd])
 gcase    = filter (`elem` [Nom,AccOrDat])
 pronType = filter (`elem` [Pers,Refl,Wh]) 
-tense    = filter (`elem` [Tense,Infl]) 
+tense    = filter (`elem` [Past,Infl]) 
 prepType = filter (`elem` [On,With,By,To,From,Through]) 
 
 prune :: Agreement -> Agreement
@@ -148,11 +148,16 @@ lexicon "barbara"	= [Cat "barbara"	"NP" [Thrd,Masc,Sg] []]
 lexicon "fast_track"	= [Cat "fast_track"	"NP" [Thrd,Neutr,Sg] []]
 lexicon "college"	= [Cat "college"	"NP" [Thrd,Neutr,Sg] []]
 lexicon "high_school"	= [Cat "high_school"	"NP" [Thrd,Neutr,Sg] []]
+lexicon "marketing"	= [Cat "marketing"	"NP" [Thrd,Neutr,Sg] []]
+lexicon "engineering"	= [Cat "engineering"	"NP" [Thrd,Neutr,Sg] []]
+lexicon "history"	= [Cat "history"	"NP" [Thrd,Neutr,Sg] []]
 
 lexicon "company"	= [Cat "company"	"CN" [Thrd,Neutr,Sg] []]
 
-lexicon "graduated_from"	= [Cat "graduated_from"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
+lexicon "graduated_from"	= [Cat "graduated_from"	"VP" [Past] [Cat "_" "NP" [AccOrDat] []]]
 lexicon "graduate_from"	= [Cat "graduate_from"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
+lexicon "studied"	= [Cat "studied"	"VP" [Past] [Cat "_" "NP" [AccOrDat] []]]
+lexicon "study"	= [Cat "study"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
 
 
 
@@ -187,9 +192,9 @@ lexicon "did"    = [Cat "did"    "AUX" [] []]
 lexicon "didn't" = [Cat "didn't" "AUX" [] []]
 
 lexicon "gave"         = 
- [Cat "gave" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+ [Cat "gave" "VP" [Past] [Cat "_" "NP" [AccOrDat] [],
 	                   Cat "_" "PP" [To]       []], 
-  Cat "gave" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+  Cat "gave" "VP" [Past] [Cat "_" "NP" [AccOrDat] [],
 	                   Cat "_" "NP" [AccOrDat]  []]]
 lexicon "give"         = 
  [Cat "give" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
@@ -198,9 +203,9 @@ lexicon "give"         =
                            Cat "_" "NP" [AccOrDat] []]]
 
 lexicon "handed"         = 
- [Cat "handed" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+ [Cat "handed" "VP" [Past] [Cat "_" "NP" [AccOrDat] [],
 	                     Cat "_" "PP" [To]       []], 
-  Cat "handed" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+  Cat "handed" "VP" [Past] [Cat "_" "NP" [AccOrDat] [],
 	                     Cat "_" "NP" [AccOrDat]  []]]
 lexicon "hand"         = 
  [Cat "hand" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
@@ -228,9 +233,9 @@ reflexives = ["myself","ourselves","yourself","yourselves",
 	"himself","herself","itself","themselves"]
 interrogatives = ["who","whom","what","that","which"]
 people_names = ["tadeusz","barbara","eva"]
-object_names = ["high_school", "college","company"]
+object_names = ["high_school", "college","company","marketing","engineering","history"]
 intransitive_names = ["died","die"]
-transitives = ["graduate_from","graduated_from"]
+transitives = ["graduate_from","graduated_from","study","studied"]
 determiners = ["every","all","some","several","a","no","the",
 	"most","many","few","this","these","those"]
 class_names = ["thing","things","person","persons","boy","boys",
@@ -426,7 +431,7 @@ vpR = \us xs ->
 
 finVpR :: SPARSER Cat Cat
 finVpR = \us xs -> [(vp',vs,ys) | (vp,vs,ys) <- vpR us xs,
-                                   vp' <- assignT Tense vp ]
+                                   vp' <- assignT Past vp ]
 
 auxVpR :: SPARSER Cat Cat
 auxVpR = \us xs -> 
