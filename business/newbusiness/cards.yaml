@@ -208,13 +208,13 @@ ingredients:
        \item [Associate] easily making connections between seemingly unrelated ideas or problems.
        \end{description}
     quiz:
-      - question: Good cashflow management is a requirement.
+      - question: Question 1, Ingredients: Good cashflow management is a requirement.
         answer: True
-      - question: Don't ask questions. Other people can do that for you.
+      - question: Question 2, Ingredients: Don't ask questions. Other people can do that for you.
         answer: False
-      - question: An effective team needs experience in 3 areas.
+      - question: Question 3, Ingredients: An effective team needs experience in 3 areas.
         answer: True
-      - question: You need to know a lot about buyers and what they think.
+      - question: Question 4, Ingredients: You need to know a lot about buyers and what they think.
         answer: True
       - question: You don't need to spend lots of time and money if your product is innovative.
         answer: False
@@ -351,13 +351,13 @@ market:
         answer: True
   1:
     quiz:
-      - question: Market opportunity, Question 1: Investors didn't see that N-VIDIA had a market opportunity.
+      - question: Question 5, Market opportunity: Investors didn't see that N-VIDIA had a market opportunity.
         answer: True
-      - question: Market opportunity, Question 2: Huang also couldn't see a market opportunity.
+      - question: Question 6, Market opportunity: Huang also couldn't see a market opportunity.
         answer: False
-      - question: Market opportunity, Question 3: N-VIDIA had no competitors when it started out.
+      - question: Question 7, Market opportunity: N-VIDIA had no competitors when it started out.
         answer: True
-      - question: Market opportunity, Question 4: N-VIDIA has never had any direct competitors.
+      - question: Question 8, Market opportunity: N-VIDIA has never had any direct competitors.
         answer: False
       - question: Market opportunity, Question 5: H.P and Dell could see a market opportunity for the expensive N-VIDIA cards.
         answer: False
@@ -420,13 +420,13 @@ huang:
         answer: False
   1:
     quiz:
-      - question: Huang and Bean, Question 1: It's hard to understand why Huang is successful but Dr Bean isn't.
+      - question: Huang and Bean, Question 13: It's hard to understand why Huang is successful but Dr Bean isn't.
         answer: False
-      - question: Huang and Bean, Question 2: It's more difficult working with semiconductors than working with people.
+      - question: Huang and Bean, Question 14: It's more difficult working with semiconductors than working with people.
         answer: False
-      - question: Huang and Bean, Question 3: Huang had a new market opportunity, but Dr Bean doesn't.
+      - question: Huang and Bean, Question 15: Huang had a new market opportunity, but Dr Bean doesn't.
         answer: True
-      - question: Huang and Bean, Question 4: NVIDIA produced the cards customers asked for, rather than cards the technology allowed them to produce.
+      - question: Huang and Bean, Question 16: NVIDIA produced the cards customers asked for, rather than cards the technology allowed them to produce.
         answer: False
       - question: Huang and Bean, Question 5: People thought the NVIDIA graphics cards were expensive, but they bought them anyway.
         answer: True
@@ -440,10 +440,199 @@ huang:
         answer: False
       - question: Huang and Bean, Question 10: People probably will want to give Dr Bean more money than they gave Huang.
         answer: False
+  2:
+    identifier: Jensen Huang and Morris Chang
+    White: |+
+       \vspace{-0.2cm}
+       \begin{large}Jensen Huang\end{large}\\
+       \normalsize
+       \vspace{-0.4cm}
+       \begin{description}
+       \item [Chinese name] Huang Ren-Xun 
+       \item [Date of Birth] February 17, 1963
+       \item [Birthplace] Taipei, Taiwan
+       \item [Age when he moved to the US] 10
+       \item [College] Oregon State University (B.S.) Stanford University (M.S) Both in Electrical Engineering
+       \item [Time taken to do Master's degree] Eight years
+       \item [Doctoral degree] Ph.D. Oregon State University (honorary) 2009
+       \vspace{-0.4cm}
+       \item [Company] NVIDIA: World No. 1 video chip producer
+       \end{description}
+    Black: |+
+       \vspace{-0.2cm}
+       \begin{large}Morris Chang\end{large}\\
+       \normalsize
+       \vspace{-0.4cm}
+       \begin{description}
+       \item [Chinese name] Zhang Zhong-Mo
+       \item [Date of Birth] July 10, 1931
+       \item [Birthplace] Ningbo, China
+       \item [Age when he moved to the US] 18
+       \item [College] M.I.T. (B.S and M.S in Mechanical Engineering) 
+       \item [Time taken to do Master's degree] One year
+       \item [Doctoral degree] Ph.D. (Electrical engineering) Stanford 1964
+       \item [Company founded] TSMC: World No. 1 chip foundry
+       \end{description}
+    quiz:
+      - question: Huang and Chang, Question 9: Chang lived longer in the U.S than Huang.
+        answer: False
+      - question: Huang and Chang, Question 10: Chang has more education than Huang.
+        answer: True
+      - question: Huang and Chang, Question 11: Huang has a wider education than Chang.
+        answer: False
+      - question: Huang and Chang, Question 12: Chang's Chinese is probably better than Huang's.
+        answer: False
  jigsaw:
   0:
-    identifier: ingredients 0
-    A: You grew up in China and went to the US to study. After working for many years in the US, you came to Taiwan to set up a very profitable chip maker. NVIDIA is one of your important customers. You have a good relationship with Jensen, the CEO of NVIDIA.
-    B: You teach English in Taiwan. Your students have difficulty speaking English. You tried some new ideas. But they didn't work. Everyone wants to study English so there is a market opportunity. But you don't have any great ideas or a great team.
-    C: You and Chris set up NVIDIA. Your first chip design didn't work. Then, you took over control of the company. You still believed there was a market opportunity if you could design a working chip. Unlike Dr Bean, you finally succeeded. Morris's company made the chip for you.
-    D: The two of you set up NVIDIA with Jensen. After the failure of your first chip, you let Jensen take control of managing the company and you control k
+    identifier: huang 0
+    A: You are Chinese but studied in the US, and worked there for many years. You came to Taiwan in 1985 and set up a very profitable chip maker. NVIDIA is a customer. You have a good relationship with Jensen, the CEO of NVIDIA. But you don't know Dr Bean.
+    B: You teach English in Taiwan. Your students cannot speak English to each other. You tried some new ideas. But they didn't work. Everyone wants to study English so there is a market opportunity. But you don't have any great ideas or a great team. You admire Jensen.
+    C: You and Chris set up NVIDIA. Your first chip design didn't work and you had no money left. You still believed there was a market opportunity if you could design a working chip. Unlike Dr Bean, you finally succeeded. Morris's company made the chip for you.
+    D: You set up NVIDIA with Jensen. After the failure of your first chip, you let Jensen make decisions about managing the company. You concentrate on design of the chips. You know Morris, but you don't have a close relationship with him. And you don't know Dr Bean.
+  00:
+    identifier: huang 00
+    A: You teach English in Taiwan. Your students cannot speak English to each other. You tried some new ideas. But they didn't work. Everyone wants to study English so there is a market opportunity for someone with a good idea. But you don't have any great ideas. You admire Jensen.
+    B: You are Chinese but studied in the US, and worked there for many years. You came to Taiwan in 1985 and set up TSMC, a very profitable chip maker. NVIDIA is a customer. You have a good relationship with Jensen, the CEO of NVIDIA. But you don't know Dr Bean.
+    C: You set up NVIDIA with Jensen. After the failure of your first chip, you let Jensen make decisions about managing the company. You concentrate on design of the chips. You know Morris, but you don't have a close relationship with him. And you don't know Dr Bean.
+    D: You and Chris set up NVIDIA. Your first chip design didn't work. You still believed there was a market opportunity if you could design a working chip. Unlike Dr Bean, you finally succeeded. TSMC made the chip for you. Morris is a friend.
+    quiz:
+      - question: A?
+        option:
+          - Chris
+          - Dr Bean
+          - Jensen
+          - Morris
+        answer: Dr Bean
+      - question: B?
+        option:
+          - Chris
+          - Dr Bean
+          - Jensen
+          - Morris
+        answer: Morris
+      - question: C?
+        option:
+          - Chris
+          - Dr Bean
+          - Jensen
+          - Morris
+        answer: Chris
+      - question: D?
+        option:
+          - Chris
+          - Dr Bean
+          - Jensen
+          - Morris
+        answer: Jensen
+      - question: Morris knows Dr Bean.
+        answer: False
+      - question: Morris doesn't know Chris.
+        answer: False
+      - question: Morris had a market opportunity.
+        answer: True
+      - question: Dr Bean had a market opportunity.
+        answer: False
+      - question: Morris is Jensen's friend.
+        answer: True
+      - question: Jensen \& Chris's first chip  failed.
+        answer: True
+  1:
+    identifier: huang 1
+    A: You are young children. Your father is Jensen Huang. You know Morris, an old man. He visited your home. You ate dinner with him. One time, at the dinner table, he stopped eating and just sat there. You said to your dad, `Morris has gone to sleep!'
+    B: Your company designs computer chips. Morris's company makes the chips for you. Morris is your supplier, but he is also a friend. You invited Morris to visit your family. He ate dinner at your home with your son and daughter, Spencer\&Madison.
+    C: You are Chinese-American. You married Christine, but you got divorced. In 1985 you came to Taiwan and started TSMC. When you visited the U.S., it was good to have friends who would invite you to eat dinner with their families. Jensen invited you to eat with his family.
+    D: You were Morris's first wife. You lived with him in the US and had a family. But you got divorced from Morris. He went to Taiwan and made a lot of money. When he visited the U.S., he didn't see you. He visited customers like Jensen. You don't know Jensen.
+  11:
+    identifier: huang 11
+    A: You are a young boy. Your father is Jensen Huang. You know Morris, an old man. He visited your home. You ate dinner with him. One time, at the dinner table, he stopped eating and just sat there. You said to your dad, `Morris has gone to sleep!'
+    B: You are Chinese-American. You married Christine, but you got divorced. In 1985 you came to Taiwan and started TSMC. When you visited the U.S., it was good to have friends who would invite you to eat dinner with their families. Jensen invited you to eat with his family.
+    C: You were Morris's first wife. You lived with him in the US and had a family. But you got divorced from Morris. He went to Taiwan and made a lot of money. When he visited the U.S., he didn't see you. He visited customers like Jensen. You don't know Jensen.
+    D: Your company designs computer chips. Morris's company makes the chips for you. Morris is your supplier, but he is also a friend. You invited Morris to visit your family. He ate dinner at your home with your family. Spencer, your son said something funny.
+    quiz:
+      - question: A?
+        option:
+          - Christine
+          - Jensen
+          - Morris
+          - Spencer
+        answer: Spencer
+      - question: B?
+        option:
+          - Christine
+          - Jensen
+          - Morris
+          - Spencer
+        answer: Morris
+      - question: C?
+        option:
+          - Christine
+          - Jensen
+          - Morris
+          - Spencer
+        answer: Christine
+      - question: D?
+        option:
+          - Christine
+          - Jensen
+          - Morris
+          - Spencer
+        answer: Jensen
+      - question: Morris knows Spencer.
+        answer: True
+      - question: Morris knows Christine.
+        answer: True
+      - question: Morris sees Christine.
+        answer: False
+      - question: Morris eats with Christine.
+        answer: False
+      - question: Morris eats with Jensen.
+        answer: True
+      - question: Morris sleeps at the dinner table.
+        answer: False
+  2:
+    identifier: huang 2
+    A: You are Jensen's wife. You and Jensen have a lot of money. Your job is to give money to people Jensen likes. You gave 5 million dollars to a hospital that saved your father, James from cancer. You gave 30 million dollars to Jim at Stanford for a new building.
+    B: You started NVIDIA after leaving Stanford. Jim was your teacher at Stanford. He was a good teacher. You and Lori decided to give Jim 30 million dollars for a new building. You also gave 5 million dollars to the hospital that saved the life of James, Lori's father.
+    C: Your daugher, Lori is married to Jensen. You got sick with cancer. You were going to die. But a hospital found a cure for your cancer, and saved your life. So you didn't die. Lori and Jensen gave 5 million dollars to the hospital. You are thankful to Lori and Jensen.
+    D: You were Jensen's teacher at Stanford. He learned a lot from you. He was a good student. You were surprised and happy when Lori, his wife told you he wanted to give Stanford 30 million dollars for a new building. Jensen gave Lori the job of giving you the money.
+    quiz:
+      - question: A?
+        option:
+          - James
+          - Jensen
+          - Jim
+          - Lori
+        answer: Lori
+      - question: B?
+        option:
+          - James
+          - Jensen
+          - Jim
+          - Lori
+        answer: Jensen
+      - question: C?
+        option:
+          - James
+          - Jensen
+          - Jim
+          - Lori
+        answer: James
+      - question: D?
+        option:
+          - James
+          - Jensen
+          - Jim
+          - Lori
+        answer: Jim
+      - question: James was Jensen's teacher.
+        answer: False
+      - question: Lori is James' daughter.
+        answer: True
+      - question: Jensen gave James 5 million dollars.
+        answer: False
+      - question: Jensen gave Jim 5 million dollars.
+        answer: False
+      - question: Jensen paid for a new Stanford building.
+        answer: True
+      - question: Jensen and Lori gave to a hospital.
+        answer: False
