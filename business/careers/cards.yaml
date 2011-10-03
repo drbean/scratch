@@ -221,6 +221,56 @@ candidate:
             - Eva
             - Dr Bean
           answer: Dr Bean
+    5:
+      identifier: candidate 1
+      A: These criteria will be used to choose the candidate: 1. best sales ability, 2. best organizational skills, 3. best academic record, 4. most knowledge of languages, 5. most energetic, confident and outgoing, 6. a natural leader.
+      B: Barbara finished high school and has worked at Fast-Track for 12 years. She had the best sales record for the last 5 years. She knows Polish and Russian, but is not very fluent in English. She is energetic, confident. But sometimes is aggressive. She may not be a good leader.
+      C: Tadeusz has a university degree in engineering but has WORKED IN SALES FOR ALL HIS LIFE. He joined Fast-Track 5 years ago as sales manager for the south of Poland. He increased sales 12\% over the 5 years. He is a hard worker, but not outgoing. His team think he is a good leader.
+      D: Eva has a university degree in history, and worked for 15 years in sales. She has been with Fast-Track for 1 year. She had a good sales record before, but only a satisfactory one now. She speaks German, English, Polish. She is quiet. She might be a good leader, but might be too dependent.
+      quiz:
+        - question: Eva appears to be best sales representative.
+          answer: False
+        - question: Tadeusz has the least experience in sales.
+          answer: False
+        - question: Barbara has best sales record,
+          answer: True
+        - question: Tadeusz has most organizational experience.
+          answer: True
+        - question: Barbara has best academic record.
+          answer: False
+        - question: Eva knows most languages.
+          answer: True
+        - question: Barbara is most outgoing and energetic.
+          answer: True
+        - question: Tadeusz will probably be best leader.
+          answer: True
+        - question: Eva has worked longest at Fast-Track.
+          answer: False
+    6:
+      identifier: candidate 2
+      A: These criteria will be used to choose the candidate: 1. a natural leader,2. most energetic, confident and outgoing, 3. best sales record, 4. best organizational skills, 5. best academic record, 6. most knowledge of languages, 
+      B: Barbara has a UNIVERSITY DEGREE and has worked at Fast-Track for 12 years. She had the best sales record for the last 5 years. She knows Polish and Russian, but is not very fluent in English. She is energetic, confident. But sometimes is aggressive. She may not be a good leader.
+      C: Tadeusz ONLY FINISHED HIGH SCHOOL but has worked in many industries, although NONE OF THESE WAS IN SALES. He joined Fast-Track 5 years ago as sales manager for the south of Poland. He increased sales 12\% over the 5 years. He is a hard worker, but not outgoing. His team think he is a good leader.
+      D: Eva has a university degree in history, and worked for 15 years in sales. She has been with Fast-Track for 1 year. She had a good sales record before, but only a satisfactory one now. She speaks German, English, Polish. She is quiet. She might be a good leader, but might be too dependent.
+      quiz:
+        - question: Tadeusz has most leadership experience.
+          answer: True
+        - question: Tadeusz has the best academic background.
+          answer: False
+        - question: The most energetic person is Barbara.
+          answer: True
+        - question: Barbara has the best sales record.
+          answer: True
+        - question: Eva knows most languages.
+          answer: False
+        - question: Eva has most organizational experience.
+          answer: False
+        - question: Tadeusz has worked longest at Fast-Track.
+          answer: False
+        - question: Tadeusz has the most sales experience.
+          answer: False
+        - question: Tadeusz has the highest position at Fast-Track now.
+          answer: True
   compcomp:
     0:
       identifier: candidate 0
@@ -341,11 +391,256 @@ candidate:
         \end{multicols}
         \end{minipage}
         % \vspace{-0.5cm}
----
-genre: intermediate
 tips:
-  compcomp:
+  jigsaw:
+    0:
+      identifier: getting ahead on the job
+      A: You need to think about what your are doing. Keep your mind on the job, not on the weekend. And have your own goals. How can you achieve those goals? Try to achieve those goals. If the job is bad, make it a good job. If that seems impossible, change jobs.
+      B: Try to get other people involved in your work. Help others, and they will help you. This doesn't mean to take the easy way. No. Accept challenges. But be prepared for failure. Be happy when you fail. It's great then, when you succeed. But be organized about it. Have a plan for each day.
+      C: Try to learn more skills. And study on the weekend, or at night. And talk a lot with the boss. Let the boss know what you think. If you want something from him/her, ask. But think carefully about what you're doing all the time. How could you do it better? Why are you doing what you're doing?
+      D: Be organized. Have a plan for each day. Write something down to look at and see how you're going, today, this month, this year. And get together with others from the company after work. Not just from the same office, but all over the company. But also have a life outside work and spend time with your family.
+      quiz:
+        - question: BDL thinks thinking about the job and your future career are important. If thinking about your job doesn't make it better, get a better job.
+          answer: True
+        - question: BDL thinks you have to think about your future job, rather than your job at the moment. A future job is a better job.
+          answer: False
+        - question: SLT thinks success is easy if you get other people to do your work. You don't even need to plan.
+          answer: False
+        - question: SLT thinks planning and getting other people to work with you to achieve difficult things are important.
+          answer: True
+        - question: KED thinks doing the job is more important than thinking or talking about it. And skills don't need to be learned because the boss won't give you a raise, if you do learn them.
+          answer: False
+        - question: KED thinks learning skills and thinking about the job are important. And telling the boss what you think. Perhaps the boss will give you a raise.
+          answer: True
+        - question: AWB thinks planning, getting together with co-workers and having a life outside work are important.
+          answer: True
+        - question: AWB thinks you need to plan a lot and spend a lot of time at work with co-workers so you can't do things outside work.
+          answer: False
     1:
+      identifier: tips 1
+      A: First, you need to think about what you are doing. Keep your mind on the job, not on other things. Second, you need to look for ways to improve your skills, perhaps on weekends or at night. Last, think about your goals and what skills you need to achieve those goals. 
+      B: "First, try to get other people involved in your work. Help others, and they will help you. Second, get together with co-workers. If people know you, they will want to cooperate with you. Last, this doesn't mean to take the easy way. No. Accept challenges, and be prepared for failure."
+      C: First, create your own goals. Decide how to reach those goals. Second, each day have a list of tasks for the day and check how you're going. Last, don't let the job decide what you will do. Try to change the job. If this is impossible, look for another job.
+      D: First, get together with other people from all over the company. Have fun and learn about the company. Second, get other people to help you do your job. Cooperate with them and make work easier. Last, have a life outside the company. Relax with the family on weekends.
+      quiz:
+        - question: A thinks thinking and knowing about work are most important.
+          answer: True
+        - question: B doesn't see work as a social activity.
+          answer: False
+        - question: C thinks you don't need to plan if your mind is on work.
+          answer: False
+        - question: D thinks a job should be easy and fun.
+          answer: True
+        - question: A thinks cooperation is important.
+          answer: False
+        - question: B thinks working with others can/should be a challenge.
+          answer: True
+        - question: C thinks evaluating progress is important.
+          answer: True
+        - question: D thinks you should be too busy to do things outside work.
+          answer: False
+        - question: A and C's ideas are similar and B and D's ideas are similar.
+          answer: True
+    2:
+      identifier: tips 2
+      A: First, get together with other people from all over the company. Have fun and learn about the company. Second, get other people to help you do your job. Cooperate with them and make work easier. Last, have a life outside the company. Relax with the family on weekends.
+      B: First, make sure the boss understands how you feel about the job. If you want something, ask for it. Second, try to make the job a job you like. Or change jobs. Last, think about your goals and what you need to change to achieve those goals. 
+      C: First, look for challenges. Try to do something new. And don't be disappointed if you fail. Second, try to transform your job into an interesting job. Last, have a life outside work. Work can be difficult. Take time off to relax with your family.
+      D: First, try to get other people involved in your work. Help others, and they will help you. Second, get together with co-workers. If people know you, they will want to cooperate with you. Last, this doesn't mean to take the easy way. No. Accept challenges, and be prepared for failure.
+      quiz:
+        - question: A sees work as a social activity.
+          answer: True
+        - question: B thinks acting to make things better is important.
+          answer: True
+        - question: C thinks you should try to make changes.
+          answer: True
+        - question: D thinks a job should be easy and fun.
+          answer: False
+        - question: A thinks cooperation is important.
+          answer: True
+        - question: B thinks a challenge is most important.
+          answer: False
+        - question: C thinks evaluating progress is important.
+          answer: False
+        - question: D thinks working with others is important.
+          answer: True
+        - question: C and D agree: Be comfortable with discomfort.
+          answer: True
+    3:
+      identifier: tips 3
+      A: Barbara tries to do difficult things. She studies after work. She has her own goals.
+      B: Tadeusz has a team which helps him. He and his team do things the hard way, but he rests on the weekend.
+      C: Eva believes the difficult way is the best way, but gets others to work with her, and she has her own goals.
+      D: Dr Bean makes his work hard for himself, sets his own goals, and relaxes on the weekend.
+      rubric: |+
+        1. \textbf{The plan:} Have a schedule\\
+        2. \textbf{Think!} Keep your mind on what you are doing.\\
+        3. \textbf{Teamwork:} Get others to help you.\\
+        4. \textbf{The student:} Learn while away from the job.\\
+        5. \textbf{Togetherness:} Get together with co-workers off the job.\\
+        6. \textbf{My way:} Have your own goals.\\
+        7. \textbf{Be ambitious:} Do things the hard way.\\
+        8. \textbf{Talk to the boss.} Tell him/her what you want.\\
+        9. \textbf{Get a life!} Relax on the weekend.\\
+        10. \textbf{Change your job!} Make your job better, or get a new job.
+      quiz:
+        - question: '4 of the candidates believe in:'
+          option:
+            - 6. My way
+            - 7. Be ambitious
+          answer: 7. Be ambitious
+        - question: '3 of the candidates believe in:'
+          option:
+            - 6. My way
+            - 9. Get a life
+          answer: 6. My way
+        - question: '2 of the candidates believe in:'
+          option:
+            - 3. Teamwork
+            - 7. Be ambitious
+          answer: 3. Teamwork
+        - question: '1 of the candidates believes in:'
+          option:
+            - 4. The student
+            - 5. Togetherness
+          answer: 4. The student
+        - question: 'None of the candidates believe in:'
+          option:
+            - 1. The plan
+            - 3. Teamwork
+          answer: 1. The plan
+    4:
+      identifier: tips 4
+      A: Barbara wants to study after work. She asks the boss for money to study. She wants to make her job a better job.
+      B: Tadeusz is studying on weekends. He tells the boss he wants to be manager. He plans to become manager next year
+      C: Eva gets together with co-workers outside work to study on the weekends. She asks the boss to give them money.
+      D: Dr Bean studies on weekends. He has his own goals. He wants to make the job a better job.
+      quiz:
+        - question: '4 of the candidates believe in:'
+          option:
+            - 4. The student
+            - 8. Talk to the boss
+          answer: 4. The student
+        - question: '3 of the candidates believe in:'
+          option:
+            - 8. Talk to the boss
+            - 9. Get a life
+          answer: 8. Talk to the boss
+        - question: '2 of the candidates believe in:'
+          option:
+            - 1. The plan
+            - 10. Change your job
+          answer: 10. Change your job
+        - question: '1 of the candidates believes in:'
+          option:
+            - 1. The plan
+            - 2. Think!
+          answer: 1. The plan
+        - question: 'None of the candidates believe in:'
+          option:
+            - 2. Think!
+            - 6. My way
+          answer: 2. Think!
+      rubric: |+
+        1. \textbf{The plan:} Have a schedule\\
+        2. \textbf{Think!} Keep your mind on what you are doing.\\
+        3. \textbf{Teamwork:} Get others to help you.\\
+        4. \textbf{The student:} Learn while away from the job.\\
+        5. \textbf{Togetherness:} Get together with co-workers off the job.\\
+        6. \textbf{My way:} Have your own goals.\\
+        7. \textbf{Be ambitious:} Do things the hard way.\\
+        8. \textbf{Talk to the boss.} Tell him/her what you want.\\
+        9. \textbf{Get a life!} Relax on the weekend.\\
+        10. \textbf{Change your job!} Make your job better, or get a new job.
+    5:
+      identifier: tips 5
+      A: Barbara gets together with co-workers outside work and relaxes on the weekends, but while on the job, she keeps her mind on the job.
+      B: Tadeusz relaxes on the weekend, but while on the job he keeps a schedule and thinks about what he is doing.
+      C: Eva creates her own goals. And she keeps her mind on her job while at work. She wants to make her job a better job.
+      D: Dr Bean thinks about his job while working. He wants to make it a better job. But he relaxes on the weekend.
+      quiz:
+        - question: '4 of the candidates believe in:'
+          option:
+            - 2. Think!
+            - 9. Get a life!
+          answer: 2. Think!
+        - question: '3 of the candidates believe in:'
+          option:
+            - 6. My way
+            - 9. Get a life!
+          answer: 9. Get a life!
+        - question: '2 of the candidates believe in:'
+          option:
+            - 2. Think!
+            - 10. Change your job
+          answer: 10. Change your job
+        - question: '1 of the candidates believes in:'
+          option:
+            - 4. The student
+            - 6. My way
+          answer: 6. My way
+        - question: 'None of the candidates believe in:'
+          option:
+            - 1. The plan
+            - 3. Teamwork
+          answer: 3. Teamwork
+      rubric: |+
+        1. \textbf{The plan:} Have a schedule\\
+        2. \textbf{Think!} Keep your mind on what you are doing.\\
+        3. \textbf{Teamwork:} Get others to help you.\\
+        4. \textbf{The student:} Learn while away from the job.\\
+        5. \textbf{Togetherness:} Get together with co-workers off the job.\\
+        6. \textbf{My way:} Have your own goals.\\
+        7. \textbf{Be ambitious:} Do things the hard way.\\
+        8. \textbf{Talk to the boss.} Tell him/her what you want.\\
+        9. \textbf{Get a life!} Relax on the weekend.\\
+        10. \textbf{Change your job!} Make your job better, or get a new job.
+    6:
+      identifier: tips 6
+      A: Barbara gets her team to help her. She gets together with them after work, and she relaxes on the weekend.
+      B: Tadeusz is studying while away from the job. He believes in doing things the hard way. He asks his team to help him.
+      C: Eva asks her team to help her do the job. Then after work she gets together with them. On the weekends, she is studying.
+      D: Dr Bean is studying while away from the job. Then he gets his team to help him when he is on the job. Then he relaxes on the weekend.
+      quiz:
+        - question: '4 of the candidates believe in:'
+          option:
+            - 3. Teamwork
+            - 7. Be ambitious
+          answer: 3. Teamwork
+        - question: '3 of the candidates believe in:'
+          option:
+            - 4. The student
+            - 9. Get a life
+          answer: 4. The student
+        - question: '2 of the candidates believe in:'
+          option:
+            - 2. Think
+            - 9. Get a life!
+          answer: 9. Get a life!
+        - question: '1 of the candidates believes in:'
+          option:
+            - 4. The student
+            - 7. Be ambitious
+          answer: 7. Be ambitious
+        - question: 'None of the candidates believe in:'
+          option:
+            - 1. The plan
+            - 4. The student
+          answer: 1. The plan
+      rubric: |+
+        1. \textbf{The plan:} Have a schedule\\
+        2. \textbf{Think!} Keep your mind on what you are doing.\\
+        3. \textbf{Teamwork:} Get others to help you.\\
+        4. \textbf{The student:} Learn while away from the job.\\
+        5. \textbf{Togetherness:} Get together with co-workers off the job.\\
+        6. \textbf{My way:} Have your own goals.\\
+        7. \textbf{Be ambitious:} Do things the hard way.\\
+        8. \textbf{Talk to the boss.} Tell him/her what you want.\\
+        9. \textbf{Get a life!} Relax on the weekend.\\
+        10. \textbf{Change your job!} Make your job better, or get a new job.
+
+  compcomp:
+    0:
       identifier: tips 1
       White: |+
         % \vspace{-0.5cm}
@@ -450,28 +745,3 @@ tips:
         \end{multicols}
         \end{minipage}
         % \vspace{-0.5cm}
-  jigsaw:
-    1:
-      identifier: getting ahead on the job
-      A: You need to think about what your are doing. Keep your mind on the job, not on the weekend. And have your own goals. How can you achieve those goals? Try to achieve those goals. If the job is bad, make it a good job. If that seems impossible, change jobs.
-      B: Try to get other people involved in your work. Help others, and they will help you. This doesn't mean to take the easy way. No. Accept challenges. But be prepared for failure. Be happy when you fail. It's great then, when you succeed. But be organized about it. Have a plan for each day.
-      C: Try to learn more skills. And study on the weekend, or at night. And talk a lot with the boss. Let the boss know what you think. If you want something from him/her, ask. But think carefully about what you're doing all the time. How could you do it better? Why are you doing what you're doing?
-      D: Be organized. Have a plan for each day. Write something down to look at and see how you're going, today, this month, this year. And get together with others from the company after work. Not just from the same office, but all over the company. But also have a life outside work and spend time with your family.
-      quiz:
-        - question: BDL thinks thinking about the job and your future career are important. If thinking about your job doesn't make it better, get a better job.
-          answer: True
-        - question: BDL thinks you have to think about your future job, rather than your job at the moment. A future job is a better job.
-          answer: False
-        - question: SLT thinks success is easy if you get other people to do your work. You don't even need to plan.
-          answer: False
-        - question: SLT thinks planning and getting other people to work with you to achieve difficult things are important.
-          answer: True
-        - question: KED thinks doing the job is more important than thinking or talking about it. And skills don't need to be learned because the boss won't give you a raise, if you do learn them.
-          answer: False
-        - question: KED thinks learning skills and thinking about the job are important. And telling the boss what you think. Perhaps the boss will give you a raise.
-          answer: True
-        - question: AWB thinks planning, getting together with co-workers and having a life outside work are important.
-          answer: True
-        - question: AWB thinks you need to plan a lot and spend a lot of time at work with co-workers so you can't do things outside work.
-          answer: False
-    
