@@ -19,6 +19,47 @@ clay:
       B: Rebia already had three children when you married her. You were the biological father of her fourth child, Mike. But you treated all four kids the same. They all loved you, because you were a good dad. The youngest one is just like you. But the others are also good kids. All of the kids are gentle and happy.
       C: Your father is Frank. You and your older brothers thought he was a great dad. He was a happy guy. He was gentle with your mother and you. Your mother says you are quiet just like he was. You don't know what happened between your mother and your father. He got a job in Michigan and didn't come home so much.
       D: You are the food that Rebia cooked for her husband and her four children. Rebia was a good cook, but she was not a great cook. Sometimes Rebia made a mistake cooking, or she didn't have enough time to cook something really good. Then the food wasn't so great. But even then, Frank said it tasted good. He was kind to her.
+      quiz:
+        - question: A
+          option:
+            - Food
+            - Frank
+            - Mike
+            - Rebia
+          answer: Judy
+        - question: B
+          option:
+            - Food
+            - Frank
+            - Mike
+            - Rebia
+          answer: Rex
+        - question: C
+          option:
+            - Food
+            - Frank
+            - Mike
+            - Rebia
+          answer: Alice
+        - question: D
+          option:
+            - Food
+            - Frank
+            - Mike
+            - Rebia
+          answer: Rock
+        - question: Frank was not Mike's real dad.
+          answer  : False
+        - question: After, Frank wasn't home so much.
+          answer  : True
+        - question: Rebia was a great cook.
+          answer  : False
+        - question: Rebia put on Frank's ring when they got married.
+          answer  : False
+        - question: Rebia already had some children.
+          answer  : True
+        - question: Sometimes the food wasn't so great.
+          answer  : True
     4:
       identifier: clay 4
       A: You got a job in Michigan and you left your wife in Chicago while you worked there. On the job you met a woman called Jill, who had some problems with her boyfriend. She said her boyfriend is not gentle. You wanted to help her with these problems. You tell her she should leave her boyfriend if he isn't a nice guy.
@@ -206,6 +247,80 @@ goetz:
       B: Your mom, PJ, tells you about her life. She was on her own, but you have a mom and dad and brothers, who are a lot older than you. You were born twelve years after your mother got married. You wonder if Mom and Dad got on better then. You wish they got along better now.
       C: You met PJ in a bar. You were twenty-two. You had an exciting relationship then. Now life isn't so good as it was. Supporting the family is a huge responsibility. You don't think PJ is a very good homemaker. You wish her mother, Ann could have taught her to be a better mother and better wife.
       D: You died when your daughter was seven. If you had been alive, you wouldn't have liked this guy she married. He doesn't seem very responsible. Your daughter is working, but he doesn't have a good job. You don't think he is a very good husband.
+    1:
+      identifier: Mother talks to son about marriage 2
+      A: You met your wife, PJ in a bar when you were 22. You showed her you loved her, then. After you got married, you showed your love for her less. You spent more time with Dick and other old friends. PJ was unhappy, and you separated for 2 years. Now you are back together and your marriage is strong.
+      B: After your marriage, Dan didn't have much time for you. And you were busy teaching and having Sam and your other kids. You both became unhappy. You separated for two years and came close to getting a divorce. Now your marriage is strong, but Dan still only sometimes does things with you on the weekend.
+      C: You are Dan's old friend. You still meet him almost every weekend. Eight years ago, you were surprised when he and his wife separated. Even though you liked spending time with Dan, you realized that PJ was unhappy about how much time Dan spent with his friends. You told Dan to show PJ more love.
+      D: Your mother tells you that love is not just what you feel for another person. It's also what you do for them. You think your mom is telling you that she wants Dad to spend more time with the family doing things on the weekend. He isn't at home much on the weekend, even now. 
+      quiz:
+        - question: A is Dan
+          answer: True
+        - question: B is Dick
+          answer: False
+        - question: C is PJ
+          answer: False
+        - question: D is Sam
+          answer: True
+        - question: PJ and her husband are separated.
+          answer: False
+        - question: PJ says love is how you feel, not what you do.
+          answer: False
+        - question: Dan and Dick spend a lot of time together.
+          answer: True
+        - question: Dan and PJ's marriage is strong.
+          answer: True
+        - question: Dick told Dan to show PJ more love.
+          answer: True
+        - question: Dan is not much with his family on the weekend.
+          answer: False
+    2:
+      identifier: goetz 2
+      A: Before you married your wife, PJ, you loved her very much. After you got married, you loved her less. You spent more time with Dick an old friend. PJ was unhappy, and you separated for 2 years. Now you are back together with PJ.
+      B: After your marriage, Dan loved you less. Dan spent more time with Dick. And you were busy having your son, Sam. You and Dan became unhappy. You separated for two years and came close to getting a divorce. Now your marriage is strong.
+      C: You are Dan's old friend. Eight years ago, Dan and his wife separated. You knew PJ was unhappy Dan spent more time with you than her. You told Dan PJ was a good woman. You told him to go back to PJ.
+      D: Your mom and dad used to fight a lot. Your dad went away for 2 years. Now he is back. He spends more time with the family on the weekend now. 
+      quiz:
+        - question: A
+          option:
+            - Dan
+            - Dick
+            - PJ
+            - Sam
+          answer: Dan
+        - question: B
+          option:
+            - Dan
+            - Dick
+            - PJ
+            - Sam
+          answer: PJ
+        - question: C
+          option:
+            - Dan
+            - Dick
+            - PJ
+            - Sam
+          answer: Dick
+        - question: D
+          option:
+            - Dan
+            - Dick
+            - PJ
+            - Sam
+          answer: Sam
+        - question: PJ and her husband are still separated.
+          answer: False
+        - question: PJ took Sam and left Dan.
+          answer: False
+        - question: Dan and Dick were together a lot.
+          answer: True
+        - question: Dan and PJ's marriage is stronger now.
+          answer: True
+        - question: Dick told Dan to love PJ more.
+          answer: True
+        - question: Dan isn't with Sam \& PJ on weekends.
+          answer: False
   compcomp:
     0:
       identifier: goetz
