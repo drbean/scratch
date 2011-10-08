@@ -391,6 +391,39 @@ candidate:
         \end{multicols}
         \end{minipage}
         % \vspace{-0.5cm}
+      quiz:
+        - question: Fast-Track Sales Manager Candidates Strengths and Weaknesses. Question 1. Eva has the least sales experience.
+          answer: False
+        - question: Fast-Track Sales Manager Candidates Strengths and Weaknesses. Question 2. Dr Bean has the most education.
+          answer: True
+        - question: Fast-Track Sales Manager Candidates Strengths and Weaknesses. Question 3. Barbara has the best sales record.
+          answer: True
+        - question: Fast-Track Sales Manager Candidates Strengths and Weaknesses. Question 4. Tadeusz has least industry experience.
+          answer: False
+        - question: Fast-Track Sales Manager Candidates Strengths and Weaknesses. Question 5. Barbara is best at working with others.
+          answer: False
+        - question: Fast-Track Sales Manager Candidates Strengths and Weaknesses. Question 6. Tadeusz is not energetic and dynamic.
+          answer: True
+        - question: Fast-Track Sales Manager Candidates Strengths and Weaknesses. Question 7. Eva doesn't appear to be confident or self-reliant.
+          answer: True
+        - question: Fast-Track Sales Manager Candidates Strengths and Weaknesses. Question 8. Dr Bean was successful at Fast-Track with his sales experience.
+          answer: False
+        - question: Fast-Track Sales Manager Candidates Strengths and Weaknesses. Question 9. Tadeusz's combination of leadership experience and good sales results cannot compensate for the fact he hasn't been working in sales very long.
+          answer: False
+        - question: Fast-Track Sales Manager Candidates Strengths and Weaknesses. Question 10. Barbara's inability to work with others suggests she should not be chosen, despite the fact she has the best sales record.
+          answer: True
+        - question: Fast-Track Sales Manager Candidates Strengths and Weaknesses. Question 11. Dr Bean's inability to speak Polish will help him communicate with members of the Fast-Track sales team, and is a reason to choose him.
+          answer: False
+        - question: Fast-Track Sales Manager Candidates Strengths and Weaknesses. Question 12. The fact Eva likes administration and has a good sales record are reasons to choose Eva as new sales manager.
+          answer: True
+        - question: Fast-Track Sales Manager Candidates Strengths and Weaknesses. Question 13. If a man is to be chosen, then Dr Bean is the stronger candidate.
+          answer: False
+        - question: Fast-Track Sales Manager Candidates Strengths and Weaknesses. Question 14. If a woman is to be chosen and the criterion is to be whether the person can work well with others, then Eva will be chosen.
+          answer: True
+        - question: Fast-Track Sales Manager Candidates Strengths and Weaknesses. Question 15. If Tadeusz or Barbara is to be chosen and the criterion is to be language ability, then Tadeusz will be chosen.
+          answer: True
+        - question: Fast-Track Sales Manager Candidates Strengths and Weaknesses. Question 16. If Eva or Dr Bean is to be chosen and the criterion is to be sales record, then Dr Bean will be chosen.
+          answer: False
 tips:
   jigsaw:
     0:
