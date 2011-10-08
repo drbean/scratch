@@ -426,6 +426,58 @@ candidate:
           answer: False
 tips:
   jigsaw:
+    1:
+      identifier: tips 1
+      A: First, you need to think about what you are doing. Keep your mind on the job, not on other things. Second, you need to look for ways to improve your skills, perhaps on weekends or at night. Last, think about your goals and what skills you need to achieve those goals. 
+      B: "First, try to get other people involved in your work. Help others, and they will help you. Second, get together with co-workers. If people know you, they will want to cooperate with you. Last, this doesn't mean to take the easy way. No. Accept challenges, and be prepared for failure."
+      C: First, create your own goals. Decide how to reach those goals. Second, each day have a list of tasks for the day and check how you're going. Last, don't let the job decide what you will do. Try to change the job. If this is impossible, look for another job.
+      D: First, get together with other people from all over the company. Have fun and learn about the company. Second, get other people to help you do your job. Cooperate with them and make work easier. Last, have a life outside the company. Relax with the family on weekends.
+      quiz:
+        - question: A thinks thinking and knowing about work are most important.
+          answer: True
+        - question: B doesn't see work as a social activity.
+          answer: False
+        - question: C thinks you don't need to plan if your mind is on work.
+          answer: False
+        - question: D thinks a job should be easy and fun.
+          answer: True
+        - question: A thinks cooperation is important.
+          answer: False
+        - question: B thinks working with others can/should be a challenge.
+          answer: True
+        - question: C thinks evaluating progress is important.
+          answer: True
+        - question: D thinks you should be too busy to do things outside work.
+          answer: False
+        - question: A and C's ideas are similar and B and D's ideas are similar.
+          answer: True
+    2:
+      identifier: tips 2
+      A: First, get together with other people from all over the company. Have fun and learn about the company. Second, get other people to help you do your job. Cooperate with them and make work easier. Last, have a life outside the company. Relax with the family on weekends.
+      B: First, make sure the boss understands how you feel about the job. If you want something, ask for it. Second, try to make the job a job you like. Or change jobs. Last, think about your goals and what you need to change to achieve those goals. 
+      C: First, look for challenges. Try to do something new. And don't be disappointed if you fail. Second, try to transform your job into an interesting job. Last, have a life outside work. Work can be difficult. Take time off to relax with your family.
+      D: First, try to get other people involved in your work. Help others, and they will help you. Second, get together with co-workers. If people know you, they will want to cooperate with you. Last, this doesn't mean to take the easy way. No. Accept challenges, and be prepared for failure.
+      quiz:
+        - question: A sees work as a social activity.
+          answer: True
+        - question: B thinks acting to make things better is important.
+          answer: True
+        - question: C thinks you should try to make changes.
+          answer: True
+        - question: D thinks a job should be easy and fun.
+          answer: False
+        - question: A thinks cooperation is important.
+          answer: True
+        - question: B thinks a challenge is most important.
+          answer: False
+        - question: C thinks evaluating progress is important.
+          answer: False
+        - question: D thinks working with others is important.
+          answer: True
+        - question: C and D agree: Be comfortable with discomfort.
+          answer: True
+tips:
+  jigsaw:
     0:
       identifier: getting ahead on the job
       A: You need to think about what your are doing. Keep your mind on the job, not on the weekend. And have your own goals. How can you achieve those goals? Try to achieve those goals. If the job is bad, make it a good job. If that seems impossible, change jobs.
