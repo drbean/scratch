@@ -20,16 +20,17 @@ entities	=  [minBound..maxBound]
 characters :: [ (String, Entity) ]
 
 characters = [
-	( "pj",	P ),
-	( "sam",	S ),
-	( "dan",	D ),
-	( "dick",	K ),
-	( "bar",	B ),
-	( "fake_id",	I ),
-	( "phone_number",	N ),
+	( "noe",	N ),
+	( "alex",	A ),
+	( "maria",	M ),
+	( "money",	D ),
+	( "stand",	S ),
+	( "shoes",	O ),
+	( "drugs",	H ),
 	( "story",	Y ),
 	( "teacher",	T ),
-	( "ann",	A )
+	( "school",	L ),
+	( "construction_site",	C )
 
 
 	]
@@ -40,8 +41,8 @@ names = map swap characters
 
 male, female :: OnePlacePred
 
-male	= pred1 [S,D,K]
-female	= pred1 [P,A]
+male	= pred1 [N,A,T]
+female	= pred1 [M]
 
 type OnePlacePred	= Entity -> Bool
 type TwoPlacePred	= Entity -> Entity -> Bool
@@ -58,45 +59,41 @@ people, things :: OnePlacePred
 people	= \ x -> (male x || female x )
 things	= \ x -> not (people x || x == Unspec)
 
-bar	= pred1 [B]
-fake_id	= pred1 [I]
-teacher	= pred1 [T]
-child	= pred1 [S]
-phone_number = pred1 [N]
+money	= pred1 [D]
+shoes	= pred1 [O]
+drugs	= pred1 [H]
+stand	= pred1 [S]
 story	= pred1 [Y]
+construction_site	= pred1 [C]
+school	= pred1 [L]
+
+child	= pred1 [N]
+teacher	= pred1 [A]
+
+cried	= pred1 [M]
 
 pred2 xs	= curry ( `elem` xs )
 pred3 xs	= curry3 ( `elem` xs )
 
 --(parent,child)
-parenting	= [ (D,S),(P,S),(A,P) ]
+parenting	= [ (M,N) ]
 --(husband,wife)
-marriages	= [ (D,P) ]
+-- marriages	= [ (D,P) ]
 --(initiator,wrongdoer?)
-separations	= [ (D,P) ]
-divorces	= []
+-- separations	= [ (D,P) ]
+-- divorces	= []
 --(boyfriend,girlfriend)
-unmarried_couples	= []
+-- unmarried_couples	= []
 --(contacter,contactee)
-possessions	= [ (P,I) ]
-yelling		= [ (P,D) ]
-friendships	= [ (D,K) ]
---(worker,job)
-work	= [ (P,T),(D,Unspec),(K,Unspec) ]
+possessions	= [ (N,M),(M,N),(N,D),(N,S),(A,D) ]
+--(worker,site)
+work	= [ (N,S),(N,C),(M,Unspec),(A,L) ]
+teaching	= [ (A,N) ]
 			
-parented, married ::  TwoPlacePred
-
-parented	= pred2 parenting
 raised_by	= pred2 $ map swap parenting
-married		= pred2 $ marriages ++ map swap marriages
-divorced	= pred2 divorces
-separated	= pred2 separations
-have	= pred2 $ possessions ++ parenting ++ marriages ++ unmarried_couples
-		++ ( map swap $ parenting ++ marriages ++ unmarried_couples )
-knew	= \x y -> ( parented x y || raised_by x y || married x y || divorced x y
-		)
-yelled_at	= pred2 $ yelling ++ map swap yelling
-worked_as	= pred2 work
+have	= pred2 $ possessions ++ parenting
+		++ ( map swap $ parenting )
+worked_at	= pred2 work
 
 boy	= \x -> male x && child x
 man	= \x -> ( not $ boy x ) && male x
@@ -108,8 +105,6 @@ mother	= \x -> ( female x && parent x )
 father	= \x -> ( male x && parent x )
 daughter	= \x -> ( female x && offspring x )
 son	= \x -> ( male x && offspring x )
-boyfriend	= pred1 $ map fst unmarried_couples
-girlfriend	= pred1 $ map snd unmarried_couples
 worker	= pred1 $ map fst work
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
@@ -117,9 +112,9 @@ curry3 f x y z	= f (x,y,z)
 
 met :: ThreePlacePred
 
-meetings	= [ (D,P,B) ]
-telling	= [ (P,Y,S) ]
-giving	= [ (P,N,D) ]
+meetings	= [ (N,A,L) ]
+telling	= [ (N,S,A) ]
+giving	= [ (N,D,M) ]
 
 met	= pred3 meetings
 gave	= pred3 giving
@@ -160,24 +155,18 @@ int "parents" = \ [x] -> parent x
 int "mother" = \ [x] -> mother x
 int "father" = \ [x] -> father x
 int "daughter" = \ [x] -> daughter x
-int "boyfriend" = \[x] -> boyfriend x
-int "girlfriend" = \[x] -> girlfriend x
 
-int "phone_number" = \ [x] -> phone_number x
+int "money" = \ [x] -> money x
+int "stand" = \ [x] -> stand x
 int "teacher" = \ [x] -> teacher x
-int "fake_id" = \ [x] -> fake_id x
+int "shoes" = \ [x] -> shoes x
+int "drugs" = \ [x] -> drugs x
 int "story" = \ [x] -> story x
-int "bar" = \ [x] -> bar x
+int "construction_site" = \ [x] -> construction_site x
+int "school" = \ [x] -> school x
 
-int "worked" = \ args -> case args of [x] -> worker x; [x,y] -> worked_as y x
+int "worked" = \ args -> case args of [x] -> worker x; [x,y] -> worked_at y x
 int "work" = int "worked"
-
-int "parented"	= \ [x,y] -> parented y x
-int "married"	= \ [x,y] -> married y x;	int "marry"	= int "married"
-int "divorced"	= \ [x,y] -> divorced y x;	int "divorce"	= int "divorced"
-int "separated"	= \ [x,y] -> separated y x;	int "separate" = int "separated"
-int "had"	= \ [x,y] -> have y x
-int "have"	= \ [x,y] -> have y x
 
 int "met"	= \ [x,y,z] ->	met z y x;	int "meet"	= int "met"
 int "gave"	= \ [x,y,z] ->	gave z y x;	int "give"	= int "gave"
