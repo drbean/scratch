@@ -95,204 +95,198 @@ assign f c@(Cat phon label fs subcatlist) =
   [Cat phon label fs' subcatlist | 
          fs' <- combine c (Cat "" "" [f] []) ]
 
-type Lexsets = [ (String, [Cat]) ]
-people_names, object_names, class_names, prons, reflexives, interrogatives, aux, intransitives, transitives, ditransitives, determiners, preps, conjuncts :: Lexsets
+type Lexset = [ [Cat] ]
+people_names, object_names, class_names, prons, reflexives, interrogatives, aux, intransitives, transitives, ditransitives, determiners, preps, conjuncts :: Lexset
 
 people_names = [
-	("pj",	[Cat "pj"	"NP" [Thrd,Fem,Sg] []]),
-	("ann",	[Cat "ann"	"NP" [Thrd,Fem,Sg] []]),
-	("dan",	[Cat "dan"	"NP" [Thrd,Masc,Sg] []]),
-	("sam",	[Cat "sam"	"NP" [Thrd,Masc,Sg] []]),
-	("dick",	[Cat "dick"	"NP" [Thrd,Masc,Sg] []])
+	[Cat "noe"	"NP" [Thrd,Fem,Sg] []],
+	[Cat "alex"	"NP" [Thrd,Fem,Sg] []],
+	[Cat "maria"	"NP" [Thrd,Masc,Sg] []]
 	]
 
 object_names = [
-	("phone_number", [Cat "phone_number"	"CN" [Thrd,Neutr,Sg] []]),
-	("fake_id", [Cat "fake_id" "CN" [Thrd,Neutr,Sg] []]),
-	("story", [Cat "story" "CN" [Thrd,Neutr,Sg] []]),
-	("bar", [Cat "bar" "CN" [Thrd,Neutr,Sg] []]),
-	("teacher", [Cat "teacher" "CN" [Thrd,MascOrFem,Sg] []])
+	[Cat "money"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "stand" "CN" [Thrd,Neutr,Sg] []],
+	[Cat "school" "CN" [Thrd,Neutr,Sg] []],
+	[Cat "construction_site" "CN" [Thrd,Neutr,Sg] []],
+	[Cat "shoes" "CN" [Thrd,Neutr,Pl] []],
+	[Cat "drugs" "CN" [Thrd,Neutr,Pl] []],
+	[Cat "story" "CN" [Thrd,Neutr,Sg] []],
+	[Cat "teacher" "CN" [Thrd,MascOrFem,Sg] []]
 	]
 
 class_names = [
 --noun and verb
-	("parent", [Cat "parent" "VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
-		Cat "parent" "CN" [Sg,MascOrFem,Thrd]   []]),
-	("parents",	[Cat "parents" "CN" [Pl,MascOrFem,Thrd]   []]),
-	("mother",  [Cat "mother" "CN" [Sg,Fem,Thrd] []]),
-	("daughter", [Cat "daughter" "CN" [Sg,Fem,Thrd] []]),
-	("father",  [Cat "father"    "CN" [Sg,Masc,Thrd] []]),
-	("son",     [Cat "son"    "CN" [Sg,Masc,Thrd] []]),
-	("boyfriend",	[Cat "boyfriend"	"CN" [Thrd,Masc,Sg] []]),
-	("girlfriend",	[Cat "girlfriend"	"CN" [Thrd,Fem,Sg] []]),
-	("thing",   [Cat "thing"   "CN" [Sg,Neutr,Thrd] []]),
-	("things",  [Cat "things"  "CN" [Pl,Neutr,Thrd] []]),
-	("person",  [Cat "person"  "CN" [Sg,Masc,Thrd]  []]),
-	("persons", [Cat "persons" "CN" [Pl,Masc,Thrd]  []]),
-	("boy",     [Cat "boy"     "CN" [Sg,Masc,Thrd]  []]),
-	("boys",    [Cat "boys"    "CN" [Pl,Masc,Thrd]  []]),
-	("man",     [Cat "man"     "CN" [Sg,Masc,Thrd]  []]),
-	("men",     [Cat "men"     "CN" [Pl,Masc,Thrd]  []]),
-	("girl",    [Cat "girl"    "CN" [Sg,Fem,Thrd]   []]),
-	("girls",   [Cat "girls"   "CN" [Pl,Fem,Thrd]   []]),
-	("woman",   [Cat "woman"   "CN" [Sg,Fem,Thrd]   []]),
-	("women",   [Cat "women"   "CN" [Pl,Fem,Thrd]   []])
+	[Cat "parent" "VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
+		Cat "parent" "CN" [Sg,MascOrFem,Thrd]   []],
+	[Cat "parents" "CN" [Pl,MascOrFem,Thrd]   []],
+	[Cat "mother" "CN" [Sg,Fem,Thrd] []],
+	[Cat "daughter" "CN" [Sg,Fem,Thrd] []],
+	[Cat "father"    "CN" [Sg,Masc,Thrd] []],
+	[Cat "son"    "CN" [Sg,Masc,Thrd] []],
+	[Cat "thing"   "CN" [Sg,Neutr,Thrd] []],
+	[Cat "things"  "CN" [Pl,Neutr,Thrd] []],
+	[Cat "person"  "CN" [Sg,Masc,Thrd]  []],
+	[Cat "persons" "CN" [Pl,Masc,Thrd]  []],
+	[Cat "boy"     "CN" [Sg,Masc,Thrd]  []],
+	[Cat "boys"    "CN" [Pl,Masc,Thrd]  []],
+	[Cat "man"     "CN" [Sg,Masc,Thrd]  []],
+	[Cat "men"     "CN" [Pl,Masc,Thrd]  []],
+	[Cat "girl"    "CN" [Sg,Fem,Thrd]   []],
+	[Cat "girls"   "CN" [Pl,Fem,Thrd]   []],
+	[Cat "woman"   "CN" [Sg,Fem,Thrd]   []],
+	[Cat "women"   "CN" [Pl,Fem,Thrd]   []]
 	]
 
 prons = [
-	("i",   [Cat "i"   "NP" [Pers,Fst,Sg,Nom]        []]),
-	("me",  [Cat "me"  "NP" [Pers,Fst,Sg,AccOrDat]   []]),
-	("we",  [Cat "we"  "NP" [Pers,Fst,Pl,Nom]        []]),
-	("us",  [Cat "us"  "NP" [Pers,Fst,Pl,AccOrDat]   []]),
-	("you", [Cat "you" "NP" [Pers,Snd]               []]),
-	("he",  [Cat "he"  "NP" [Pers,Thrd,Sg,Nom,Masc]  []]),
-	("him", [Cat "him" "NP" [Pers,Thrd,Sg,AccOrDat,Masc] []]),
-	("she", [Cat "she" "NP" [Pers,Thrd,Sg,Nom,Fem]   []]),
-	("her", [Cat "her" "NP" [Pers,Thrd,Sg,AccOrDat,Fem] []]),
-	("it",  [Cat "it"  "NP" [Pers,Thrd,Sg,Neutr]     []]),
-	("they", [Cat "they" "NP" [Pers,Thrd,Pl,Nom]     []]),
-	("them", [Cat "them" "NP" [Pers,Thrd,Pl,AccOrDat] []])
+	[Cat "i"   "NP" [Pers,Fst,Sg,Nom]        []],
+	[Cat "me"  "NP" [Pers,Fst,Sg,AccOrDat]   []],
+	[Cat "we"  "NP" [Pers,Fst,Pl,Nom]        []],
+	[Cat "us"  "NP" [Pers,Fst,Pl,AccOrDat]   []],
+	[Cat "you" "NP" [Pers,Snd]               []],
+	[Cat "he"  "NP" [Pers,Thrd,Sg,Nom,Masc]  []],
+	[Cat "him" "NP" [Pers,Thrd,Sg,AccOrDat,Masc] []],
+	[Cat "she" "NP" [Pers,Thrd,Sg,Nom,Fem]   []],
+	[Cat "her" "NP" [Pers,Thrd,Sg,AccOrDat,Fem] []],
+	[Cat "it"  "NP" [Pers,Thrd,Sg,Neutr]     []],
+	[Cat "they" "NP" [Pers,Thrd,Pl,Nom]     []],
+	[Cat "them" "NP" [Pers,Thrd,Pl,AccOrDat] []]
 	]
 
 reflexives = [
-	("myself",     [Cat "myself"     "NP" [Refl,Sg,Fst,AccOrDat] []]),
-	("ourselves",  [Cat "ourselves"  "NP" [Refl,Pl,Fst,AccOrDat] []]),
-	("yourself",   [Cat "yourself"   "NP" [Refl,Sg,Snd,AccOrDat] []]),
-	("yourselves", [Cat "yourselves" "NP" [Refl,Pl,Snd,AccOrDat] []]),
-	("himself",    [Cat "himself"   "NP" [Refl,Sg,Thrd,AccOrDat,Masc]  []]),
-	("herself",    [Cat "herself"   "NP" [Refl,Sg,Thrd,AccOrDat,Fem]   []]),
-	("itself",     [Cat "itself"    "NP" [Refl,Sg,Thrd,AccOrDat,Neutr] []]),
-	("themselves", [Cat "themselves" "NP" [Refl,Pl,Thrd,AccOrDat] []])
+	[Cat "myself"     "NP" [Refl,Sg,Fst,AccOrDat] []],
+	[Cat "ourselves"  "NP" [Refl,Pl,Fst,AccOrDat] []],
+	[Cat "yourself"   "NP" [Refl,Sg,Snd,AccOrDat] []],
+	[Cat "yourselves" "NP" [Refl,Pl,Snd,AccOrDat] []],
+	[Cat "himself"   "NP" [Refl,Sg,Thrd,AccOrDat,Masc]  []],
+	[Cat "herself"   "NP" [Refl,Sg,Thrd,AccOrDat,Fem]   []],
+	[Cat "itself"    "NP" [Refl,Sg,Thrd,AccOrDat,Neutr] []],
+	[Cat "themselves" "NP" [Refl,Pl,Thrd,AccOrDat] []]
 	]
 
 interrogatives = [
-	("who",     [Cat "who" "NP"  [Wh,Thrd,MascOrFem] [],
-			Cat "who" "REL" [MascOrFem]         []]),
-	("whom",    [Cat "whom" "NP"  [Sg,Wh,Thrd,AccOrDat,MascOrFem] [],
-			Cat "whom" "REL" [Sg,MascOrFem,AccOrDat]         []]),
-	("what",    [Cat "what" "NP"  [Wh,Thrd,AccOrDat,Neutr]    []]),
-	("that",    [Cat "that"  "REL" [] [], Cat "that"  "DET" [Sg]    []]),
-	("which",   [Cat "which" "REL" [Neutr] [], Cat "which" "DET" [Wh] []])
+	[Cat "who" "NP"  [Wh,Thrd,MascOrFem] [],
+			Cat "who" "REL" [MascOrFem]         []],
+	[Cat "whom" "NP"  [Sg,Wh,Thrd,AccOrDat,MascOrFem] [],
+			Cat "whom" "REL" [Sg,MascOrFem,AccOrDat]         []],
+	[Cat "what" "NP"  [Wh,Thrd,AccOrDat,Neutr]    []],
+	[Cat "that"  "REL" [] [], Cat "that"  "DET" [Sg]    []],
+	[Cat "which" "REL" [Neutr] [], Cat "which" "DET" [Wh] []]
 	]
 
 determiners = [
-	("every",   [Cat "every"   "DET" [Sg]  []]),
-	("all",     [Cat "all"     "DET" [Pl]  []]),
-	("some",    [Cat "some"    "DET" []    []]),
-	("several", [Cat "several" "DET" [Pl]  []]),
-	("a",       [Cat "a"       "DET" [Sg]  []]),
-	("no",      [Cat "no"      "DET" []    []]),
-	("the",     [Cat "the"     "DET" []    []]),
-	("most",    [Cat "most"    "DET" [Pl]  []]),
-	("many",    [Cat "many"    "DET" [Pl]  []]),
-	("few",     [Cat "few"     "DET" [Pl]  []]),
-	("this",    [Cat "this"    "DET" [Sg]  []]),
-	("these",   [Cat "these"   "DET" [Pl]  []]),
-	("those",   [Cat "those"   "DET" [Pl]  []]),
-	("less_than", [Cat "less_than" "DF" [Pl] []]),
-	("more_than", [Cat "more_than" "DF" [Pl] []])
+	[Cat "every"   "DET" [Sg]  []],
+	[Cat "all"     "DET" [Pl]  []],
+	[Cat "some"    "DET" []    []],
+	[Cat "several" "DET" [Pl]  []],
+	[Cat "a"       "DET" [Sg]  []],
+	[Cat "no"      "DET" []    []],
+	[Cat "the"     "DET" []    []],
+	[Cat "most"    "DET" [Pl]  []],
+	[Cat "many"    "DET" [Pl]  []],
+	[Cat "few"     "DET" [Pl]  []],
+	[Cat "this"    "DET" [Sg]  []],
+	[Cat "these"   "DET" [Pl]  []],
+	[Cat "those"   "DET" [Pl]  []],
+	[Cat "less_than" "DF" [Pl] []],
+	[Cat "more_than" "DF" [Pl] []]
 	]
 
 aux = [
-	("did",    [Cat "did"    "AUX" [] []]),
-	("didn't", [Cat "didn't" "AUX" [] []])
+	[Cat "did"    "AUX" [] []],
+	[Cat "didn't" "AUX" [] []]
 	]
 
 intransitives = [
-	("worked",
 	[Cat "worked"    "VP" [Tense] [],
-			Cat "worked"	"VP" [Tense] [Cat "_" "PP" [As] []]] ),
-	("work",     [Cat "work"     "VP" [Infl]  [],
-			Cat "work"	"VP" [Infl] [Cat "_" "PP" [As] []]]),
-	("yelled",    [Cat "yelled"    "VP" [Tense] [],
-			Cat "yelled"	"VP" [Tense] [Cat "_" "PP" [At] []]]),
-	("yell",     [Cat "yell"     "VP" [Infl]  [],
-			Cat "yell"	"VP" [Infl] [Cat "_" "PP" [At] []]]),
-	("separated",    [Cat "separated"    "VP" [Tense] []] ),
-	("separate",     [Cat "separate"     "VP" [Infl]  []] )
+			Cat "worked"	"VP" [Tense] [Cat "_" "PP" [As] []]],
+	[Cat "work"     "VP" [Infl]  [],
+			Cat "work"	"VP" [Infl] [Cat "_" "PP" [As] []]],
+	[Cat "yelled"    "VP" [Tense] [],
+			Cat "yelled"	"VP" [Tense] [Cat "_" "PP" [At] []]],
+	[Cat "yell"     "VP" [Infl]  [],
+			Cat "yell"	"VP" [Infl] [Cat "_" "PP" [At] []]],
+	[Cat "separated"    "VP" [Tense] []] ,
+	[Cat "separate"     "VP" [Infl]  []]
 	]
 
 transitives = [
-	("contacted", [Cat "contacted" "VP" [Tense]
-						[Cat "_" "NP" [AccOrDat] []]]),
-	("contact", [Cat "contact" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]]),
-	("had",	[Cat "had"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]),
-	("have", [Cat "have"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]]),
-	("married", [Cat "married" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]),
-	("marry", [Cat "marry"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]]),
-	("divorced", [Cat "divorced" "VP" [Tense]
-						[Cat "_" "NP" [AccOrDat] []]]),
-	("divorce", [Cat "divorce" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]]),
-	("parented", [Cat "parented" "VP" [Tense]
-						[Cat "_" "NP" [AccOrDat] []]])
+	[Cat "contacted" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "contact" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "had"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "have"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "married" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "marry"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "divorced" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "divorce" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "parented" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
 	]
 
 ditransitives = [
-	("met",         [Cat "met" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [In]       []]]),
-	("meet",         [Cat "meet" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [In]       []]]),
-	("asked",	[Cat "asked" "VP" [Tense] [Cat "_" "PP" [For] []],
+	[Cat "met" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [], Cat "_" "PP" [In] []]],
+	[Cat "meet" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [], Cat "_" "PP" [In] []]],
+	[Cat "asked" "VP" [Tense] [Cat "_" "PP" [For] []],
 			Cat "asked" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-					Cat "_" "PP" [For]       []]]),
-	("ask",	[Cat "ask" "VP" [Infl] [Cat "_" "PP" [For]       []],
+					Cat "_" "PP" [For]       []]],
+	[Cat "ask" "VP" [Infl] [Cat "_" "PP" [For]       []],
 		 Cat "ask" "VP" [Infl]	[Cat "_" "NP" [AccOrDat] [],
-					 Cat "_" "PP" [For]       []]]),
-	("put",         [Cat "put" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+					 Cat "_" "PP" [For]       []]],
+	[Cat "put" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [In]       []],
 			Cat "put" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [In]       []]]),
-	("handed",	[Cat "handed" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [In]       []]],
+	[Cat "handed" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
 							Cat "_" "PP" [To] []],
 			Cat "handed" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "NP" [AccOrDat]  []]]),
-	("hand",         [Cat "hand" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "NP" [AccOrDat]  []]],
+	[Cat "hand" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [To] []],
 			Cat "hand" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "NP" [AccOrDat] []]]),
-	("gave",         [Cat "gave" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "NP" [AccOrDat] []]],
+	[Cat "gave" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [To]       []],
 			Cat "gave" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "NP" [AccOrDat]  []]]),
-	("give",         [Cat "give" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "NP" [AccOrDat]  []]],
+	[Cat "give" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [To]       []],
 			Cat "give" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "NP" [AccOrDat] []]]),
-	("told",        [Cat "told" "VP" [Tense]  [Cat "_" "NP" [AccOrDat] []],
+						Cat "_" "NP" [AccOrDat] []]],
+	[Cat "told" "VP" [Tense]  [Cat "_" "NP" [AccOrDat] []],
 			Cat "told" "VP" [Tense]  [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [To]       []],
 			Cat "told" "VP" [Tense]  [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "NP" [AccOrDat] []]]),
-	("tell",        [Cat "tell" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] []],
+						Cat "_" "NP" [AccOrDat] []]],
+	[Cat "tell" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] []],
 			Cat "tell" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [To]       []],
 			Cat "tell" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "NP" [AccOrDat] []]])
+						Cat "_" "NP" [AccOrDat] []]]
 	]
 
 preps = [
-	("as",   [Cat "as"   "PREP" [As]   []]),
-	("at",   [Cat "at"   "PREP" [At]   []]),
-	("by",   [Cat "by"   "PREP" [By]   []]),
-	("for",  [Cat "for"  "PREP" [For]  []]),
-	("from", [Cat "from" "PREP" [From] []]),
-	("in",   [Cat "in"   "PREP" [In]   []]),
-	("on",   [Cat "on"   "PREP" [On]   []]),
-	("to",   [Cat "to"   "PREP" [To]   []]),
-	("through", [Cat "through" "PREP" [Through] []]),
-	("with", [Cat "with" "PREP" [With] []])
+	[Cat "as"   "PREP" [As]   []],
+	[Cat "at"   "PREP" [At]   []],
+	[Cat "by"   "PREP" [By]   []],
+	[Cat "for"  "PREP" [For]  []],
+	[Cat "from" "PREP" [From] []],
+	[Cat "in"   "PREP" [In]   []],
+	[Cat "on"   "PREP" [On]   []],
+	[Cat "to"   "PREP" [To]   []],
+	[Cat "through" "PREP" [Through] []],
+	[Cat "with" "PREP" [With] []]
 	]
 
 conjuncts = [
-	("and",   [Cat "and"  "CONJ" [] []]),
-	(".",     [Cat "."    "CONJ" [] []]),
-	("if",    [Cat "if"   "COND" [] []]),
-	("then",  [Cat "then" "THEN" [] []])
+	[Cat "and"  "CONJ" [] []],
+	[Cat "."    "CONJ" [] []],
+	[Cat "if"   "COND" [] []],
+	[Cat "then" "THEN" [] []]
 	]
 
 lexicon :: String -> [Cat]
 
 lexicon lexeme = maybe [Cat "_" "" [] []] id $ lookup lexeme $
+	map (\x -> (phon (head x), x) ) $
 	people_names ++ object_names ++ class_names ++
 	prons ++ reflexives ++ interrogatives ++
 	aux ++ intransitives ++ transitives ++ ditransitives ++
