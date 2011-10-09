@@ -1,5 +1,8 @@
 import Model
+import Parsing
 
 main = do
-	putStr $ concat $ map (\(x,y) -> unlines [x, show y]) characters
+	putStr $ concat $ map (\x ->
+		unlines [x, show $ maybe Unspec id $ lookup x characters]) $
+			map (phon . head) people_names
 
