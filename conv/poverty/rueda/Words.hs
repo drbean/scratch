@@ -2,9 +2,9 @@ import Parsing
 import Data.Char
 import Data.List
 
-characters = sort $ map (\(x:xs) -> (toUpper x) : xs) $ map fst people_names
+characters = sort $ map (\(x:xs) -> (toUpper x) : xs) $ map (phon . head) people_names
 
-otherwords = map fst $
+otherwords = map (phon . head) $
 	object_names ++ class_names ++
 --	prons ++ reflexives ++ interrogatives ++
 	aux ++ intransitives ++ transitives ++ ditransitives ++
