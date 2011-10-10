@@ -424,7 +424,7 @@ candidate:
           answer: True
         - question: Fast-Track Sales Manager Candidates Strengths and Weaknesses. Question 16. If Eva or Dr Bean is to be chosen and the criterion is to be sales record, then Dr Bean will be chosen.
           answer: False
-tips:
+firsttips:
   jigsaw:
     1:
       identifier: tips 1
