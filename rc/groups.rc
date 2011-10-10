@@ -12,13 +12,13 @@ $_REPL->load_plugin('DumpHistory');
 
 (my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
 use Grades;
-my $l = League->new( leagues => '/home/drbean/992', id => $dir );
+my $l = League->new( leagues => '/home/drbean/001', id => $dir );
 my $g = Grades->new({ league => $l });
 my $members = $l->members;
 my %m = map { $_->{id} => $_ } @$members;
 my $grades = $g->grades;
 
-my $session = 3;
+my $session = 2;
 
 my $gs = LoadFile "classwork/$session/groups.yaml";
 my @colors = sort keys %$gs;
