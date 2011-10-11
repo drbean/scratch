@@ -26,28 +26,28 @@ clay:
             - Frank
             - Mike
             - Rebia
-          answer: Judy
+          answer: Rebia
         - question: B
           option:
             - Food
             - Frank
             - Mike
             - Rebia
-          answer: Rex
+          answer: Frank
         - question: C
           option:
             - Food
             - Frank
             - Mike
             - Rebia
-          answer: Alice
+          answer: Mike
         - question: D
           option:
             - Food
             - Frank
             - Mike
             - Rebia
-          answer: Rock
+          answer: Food
         - question: Frank was not Mike's real dad.
           answer  : False
         - question: After, Frank wasn't home so much.
