@@ -1,0 +1,70 @@
+# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom::Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: Poverty!
+indent: 5
+height: 18
+width: 40
+skip: 0
+
+# The following options are for Gvim usage.
+# vim: gvim
+# fuopt: maxhorz,maxvert
+# guioptions: egmLtT
+# guicursor: a:blinkon0-ver25-Cursor
+# guifont: Bitstream_Vera_Sans_Mono:h18
+
+---- center
+Poverty: Noe Rueda
+
+by Dr Bean
+
+(hint: press the spacebar)
+
+----
+= Poverty
+
+14 1993 2010 acceptable highest lacks live
+lived money poor poverty
+
+_____(1) is the state of being _____(2). Someone who is
+poor _____(3) enough _____(4) or possessions to _____(5)
+in a socially-_____(6) manner. In the U.S. in _____(7),
+15% of people _____(8) in poverty, up from _____(9)% in
+2009. This the _____(10) level since _____(11).
+
+----
+== The poverty level
+
+
+2011 $22,000 75 ages below four half least level lives point
+
+In _____(12), the poverty _____(13) for a family of _____(14)
+was set at _____(15). A _____(16) of all Americans spend at
+_____(17) one year _____(18) the poverty line at some
+_____(19) in their _____(20) between the _____(21) of 25 and
+_____(22).
+
+
+----
+== Poverty demographics
+
+Asians food Hispanics married over poor(x2) single-parent under
+
+Five percent of people in _____(23) families are _____(24).
+25 percent of people in _____(25) families are poor. Ten
+percent of whites and _____(26) are poor. 25 percent of
+blacks and _____(27) are poor. 18 percent of people
+_____(28) 18 are poor. 10 percent of people _____(29) the
+age of 65 are _____(30). Ten percent of American
+households don't have enough _____(31) at some point
+during the year.
+
+----
+== The End
