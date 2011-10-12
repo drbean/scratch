@@ -114,7 +114,7 @@ curry3 f x y z	= f (x,y,z)
 met :: ThreePlacePred
 
 meetings	= [ (N,A,L) ]
-telling	= [ (N,S,A) ]
+telling	= [ (N,Y,A) ]
 giving	= [ (N,D,M),(V,D,N) ]
 --(teacher,subject,student) or (teacher,school,student)
 teaching = [ (A,E,N),(A,L,N) ]
