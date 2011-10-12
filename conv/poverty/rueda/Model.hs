@@ -116,7 +116,8 @@ met :: ThreePlacePred
 meetings	= [ (N,A,L) ]
 telling	= [ (N,S,A) ]
 giving	= [ (N,D,M),(V,D,N) ]
-teaching = [ (A,E,N) ]
+--(teacher,subject,student) or (teacher,school,student)
+teaching = [ (A,E,N),(A,L,N) ]
 --(worker,job,site)
 working	= [ (N,Unspec,S),(N,Unspec,C),(M,Unspec,Unspec),(A,T,L) ]
 
@@ -153,8 +154,10 @@ type Interp a	= String -> [a] -> Bool
 int :: Interp Entity
 int "man"	= \ [x] -> man x
 int "men"	= \ [x] -> man x
+int "boy"	= \ [x] -> boy x; int "boys" = int "boy"
 int "woman"	= \ [x] -> woman x
 int "women"	= \ [x] -> woman x
+int "girl"	= \ [x] -> girl x; int "girls" = int "girl"
 
 int "person"	= \ [x] -> people x
 int "thing"	= \ [x]	-> things x
