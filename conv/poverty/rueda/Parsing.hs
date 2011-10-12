@@ -101,12 +101,13 @@ people_names, object_names, class_names, prons, reflexives, interrogatives, aux,
 people_names = [
 	[Cat "noe"	"NP" [Thrd,Masc,Sg] []],
 	[Cat "alex"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "maria"	"NP" [Thrd,Fem,Sg] []]
+	[Cat "maria"	"NP" [Thrd,Fem,Sg] []],
+	[Cat "steve"	"NP" [Thrd,Masc,Sg] []]
 	]
 
 object_names = [
 	[Cat "money"	"CN" [Thrd,Neutr,Sg] [],
-		Cat "money" "NP" [AccOrDat] []],
+		Cat "money" "NP" [Thrd,Neutr,Sg] []],
 	[Cat "stand" "CN" [Thrd,Neutr,Sg] []],
 	[Cat "economics" "CN" [Thrd,Neutr,Sg] [],
 		Cat "economics" "NP" [AccOrDat] []],
