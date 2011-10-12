@@ -23,6 +23,7 @@ characters = [
 	( "noe",	N ),
 	( "alex",	A ),
 	( "maria",	M ),
+	( "steve",	V ),
 	( "money",	D ),
 	( "stand",	S ),
 	( "shoes",	O ),
@@ -114,7 +115,7 @@ met :: ThreePlacePred
 
 meetings	= [ (N,A,L) ]
 telling	= [ (N,S,A) ]
-giving	= [ (N,D,M) ]
+giving	= [ (N,D,M),(V,D,N) ]
 teaching = [ (A,E,N) ]
 --(worker,job,site)
 working	= [ (N,Unspec,S),(N,Unspec,C),(M,Unspec,Unspec),(A,T,L) ]
