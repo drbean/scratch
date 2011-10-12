@@ -16,6 +16,16 @@ blurb: |+
 
 topic:
   -
+    id: poverty
+    title: Poverty, or economic hardship
+    intro: The next four weeks we will be listening to people talk about economic problems, having barely enough money to survive.
+    story:
+      -
+        id: rueda
+        title: Being poor
+        blurb: When he was about 8, Noe Rueda started selling things on the street to help his mom, and he also worked on a construction site when he was in elementary school. He <a href="http://www.npr.org/2011/04/15/135415519/a-young-sons-goal-making-money-for-his-mother">talks with a teacher</a> about the experience.
+        comment: What ethnic group in the US does Noe come from? You should be able to tell from the name of his teacher. Children working to support their families sounds like something from the <a href="http://www.historyplace.com/unitedstates/childlabor/">the past</a> in the U.S. Clearly, however, some people there are still very poor.
+  -
     id: psych
     title: Psychiatric problems
     intro: The next three weeks we will be listening to people talk about psychiatric problems. Abnormal psychology might seem like another <a href="http://www.google.com/search?q=morbid&num=30">morbid</a> subject. But let's not let it make us feel depressed. Depression is itself a psychological/psychiatric problem.
@@ -484,9 +494,9 @@ topic:
           Judy writes about <a href="http://judyallen.wordpress.com">healing</a> and has a book, <a href="http://lookingthroughwater.wordpress.com/">Looking through water</a>. <p> Some confusing things: What is the relationship between Judy and her <a href= http://www.urbandictionary.com/define.php?term=ex>ex</a> (ie ex-husband) like now? What is the relationship between Judy's daughter and her ex-husband?
       -
         id: ward
-        title: The Divorce Ranch
+        title: The Divorce Ranch/Motel
         blurb: |
-          Sisters Robbie McBride and Beth Ward <a href=http://www.npr.org/templates/story/story.php?storyId=128545233>tell stories</a> from a <a href="http://en.wikipedia.org/wiki/Reno">Reno</a> <a href="http://www.slate.com/id/2261131/pagenum/all/">divorce ranch</a>, which was a hotel for people waiting for a <a href="http://www.google.com/search?q=%22quickie%20divorce%22&num=30">"quickie divorce"</a> in the state of Nevada in the USA. You can also <a href="http://media.storycorps.org/wordpress/wp-content/uploads/listen/audio/ward.mp3">download the file.</a>
+          Sisters Robbie McBride and Beth Ward <a href=http://www.npr.org/templates/story/story.php?storyId=128545233>tell stories</a> from a <a href="http://en.wikipedia.org/wiki/Reno">Reno</a> <a href="http://www.slate.com/id/2261131/pagenum/all/">divorce ranch</a>, which was a hotel for people waiting for a <a href="http://www.google.com/search?q=%22quickie%20divorce%22&num=30">"quickie divorce"</a> in the state of Nevada in the USA, like <a href="http://images.google.com/search?tbm=isch&hl=en&source=hp&biw=797&bih=740&q=divorce+ranch&gbv=2&oq=divorce+ran&aq=0S&aqi=g-S2g-sS1g-mS1&aql=&gs_sm=e&gs_upl=726l5442l0l9714l11l11l0l2l2l0l171l927l5.4l9l0#hl=en&gbv=2&tbm=isch&sa=1&q=lazy+a+guest+ranch&pbx=1&oq=lazy+a+guest+ranch&aq=f&aqi=&aql=&gs_sm=e&gs_upl=768642l775247l0l775700l30l21l0l9l0l2l169l1120l5.6l12l0&bav=on.2,or.r_gc.r_pw.&fp=1c2d68bb305ba4a2&biw=797&bih=740">Lazy A Guest Ranch</a>, and the <a href="http://www.roadsidepeek.com/losttreas/silverstatelodge/index.htm">Silver State Lodge</a> motel, the place that Patricia Klos's parents ran. You can also download the <a href="http://media.storycorps.org/wordpress/wp-content/uploads/listen/audio/ward.mp3">ward</a> and <a href="http://media.storycorps.org/listen/audio/klos.mp3">klos</a> files.
 
         comment: |
           With the liberalization of laws in other states, Nevada is now no longer the "divorce capital" of the United States. <br>
