@@ -91,6 +91,8 @@ transDET (Leaf (Cat "some" "DET" _ _)) =
   \ p q -> Exists (\v -> Conj [p v, q v] )
 transDET (Leaf (Cat "a" "DET" _ _)) = 
   \ p q -> Exists (\v -> Conj [p v, q v] )
+transDET (Leaf (Cat "zero" "DET" _ _)) = 
+  \ p q -> Exists (\v -> Conj [p v, q v] )
 transDET (Leaf (Cat "several" "DET" _ _)) = 
   \ p q -> Several (\v -> Impl (p v) (q v) )
 transDET (Leaf (Cat "no" "DET" _ _)) = 
@@ -142,6 +144,10 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),np,obj2]) =
 			(\ obj   -> transPP obj2
 			 (\ iobj -> Rel name [subj,obj,iobj]))
 		(Branch (Cat _ "NP" _ _) _ ) ->
+			\ subj   -> transNP np 
+			(\ iobj   -> transNP obj2
+			 (\ obj -> Rel name [subj,obj,iobj]))
+		(Leaf (Cat _ "NP" _ _) ) ->
 			\ subj   -> transNP np 
 			(\ iobj   -> transNP obj2
 			 (\ obj -> Rel name [subj,obj,iobj]))
@@ -252,45 +258,41 @@ singleton [x]	= True
 singleton _	= False
 
 haves = [
-	"Did PJ have Sam?",
-	"Did PJ have Dan?",
-	"Did PJ have Ann?",
-	"Did PJ have a mother?",
-	"Did PJ have a son?",
-	"Did PJ have a daughter?",
-	"Did Sam have a mother?",
-	"Did Dan have a girlfriend?",
-	"Did PJ have a boyfriend?",
-	"Did Ann have a boyfriend?",
-	"Did Ann have a parent?",
-	"Did Ann have some parents?",
-	"Did Ann have parents?"
-	]
-wh_questions =[
-	"Who worked?",
-	"Who did Dan marry?",
-	"Who married Dan?",
-	"Who gave the phone number to Dan?",
-	"Who gave some phone number to Dan?",
-	"Which person worked?",
-	"Which person did Dan marry?",
-	"To whom did PJ give some phone number?",
-	"Who did PJ give some phone number to?"
+	"Did Noe have Maria?",
+	"Did Noe have Alex?",
+	"Did Noe have a mother?",
+	"Did Noe have a son?",
+	"Did Noe have a daughter?",
+	"Did Maria have a mother?",
+	"Did Noe have shoes?",
+	"Did Noe have some shoes?",
+	"Did Noe have money?",
+	"Did Maria have money?",
+	"Did Alex have money?",
+	"Did Noe have a parent?",
+	"Did Noe have some parents?",
+	"Did Noe have parents?",
+	"Did Maria have a parent?",
+	"Did Maria have some parents?",
+	"Did Maria have parents?",
+	"Did Noe have work?",
+	"Did Alex have work?",
+	"Did Maria have work?"
 	]
 ungrammatical = [
-	"Did Dan worked?",
-	"PJ work?",
+	"Did Alex worked?",
+	"Noe work?",
 	"Man worked.",
 	"Some man work.",
 	"No worked.",
 	"No-one work.",
-	"Did Dan marry?",
-	"Dan marry PJ.",
-	"PJ married."
+	"Did Alex teach?",
+	"Alex teach Noe.",
+	"Noe taught."
 	]
 intransitives = [
-	"Did Dan work?",
-	"Did PJ work?",
+	"Did Alex work?",
+	"Did Noe work?",
 	"A man worked.",
 	"Some man worked.",
 	"No one worked.",
@@ -314,49 +316,58 @@ intransitives = [
 	"No man worked."
 	]
 transitives = [
-	"Did Dan marry PJ?",
-	"Dan married PJ.",
-	"PJ married Dan.",
-	"Some woman married Dan.",
-	"Some man married PJ.",
-	"Some man divorced Ann.",
-	"A man divorced Ann.",
+	"Did Alex teach Noe?",
+	"Alex taught Noe.",
+	"Noe taught Alex.",
+	"Some woman taught Alex.",
+	"Some man taught Noe.",
+	"Some man parented Noe.",
+	"A man parented Alex",
 	"Some woman told a story."
 	]
 ditransitive_tests = [
-	"PJ told a story.",
-	"PJ told Sam a story.",
-	"PJ told a story to Sam.",
-	"PJ gave some phone number to Dan.",
-	"Did PJ give some phone number to Dan.",
-	"Did PJ give the phone number to Dan?",
-	"Did PJ give the phone number to someone?",
-	"PJ gave several phone numbers to Dan.",
-	"Did someone give something to Dan?",
-	"A woman gave the phone number to Dan.",
-	"A woman gave the phone number to someone.",
+	"Noe told a story.",
+	"Noe told Maria a story.",
+	"Noe told a story to Maria.",
+	"Noe gave some drugs to Alex.",
+	"Did Noe give some drugs to Alex.",
+	"Did Noe give the drugs to Alex?",
+	"Did Noe give the drugs to someone?",
+	"Noe gave several drugs to Alex.",
+	"Did someone give something to Alex?",
+	"A woman gave the drugs to Alex.",
+	"A woman gave the drugs to someone.",
 	"A woman gave something to someone.",
 	"Someone gave something to someone.",
-
-	"PJ gave Dan some phone number.",
-	"Did PJ give Dan some phone number?",
-	"Did PJ give Dan the phone number?",
-	"Did PJ give someone the phone number?",
-	"PJ gave Dan several phone number.",
-	"Did someone give Dan something?",
-	"A man gave Dan the phone number.",
-	"A man gave someone the phone number.",
+	"Noe gave Alex some drugs.",
+	"Did Noe give Alex some drugs?",
+	"Did Noe give Alex the drugs?",
+	"Did Noe give someone the drugs?",
+	"Noe gave Alex several drugs.",
+	"Did someone give Alex something?",
+	"A man gave Alex the drugs.",
+	"A man gave someone the drugs.",
 	"A man gave someone something.",
 	"Someone gave someone something."
 	]
-
+wh_questions =[
+	"Who worked?",
+	"Who did Alex teach?",
+	"Who taught Alex?",
+	"Who gave the drugs to Alex?",
+	"Who gave some drugs to Alex?",
+	"Which person worked?",
+	"Which person did Alex teach?",
+	"To whom did Noe give some drugs?",
+	"Who did Noe give some drugs to?"
+	]
 relclauses = [
-	"A woman who married Dan worked.",
-	"The woman who married Dan worked.",
-	"Did the woman who married Dan work?",
-	"Did every woman who married Dan work?",
-	"The woman who gave the phone number to Dan worked.",
-	"PJ divorced the man that she gave the phone number to.",
+	"A woman who taught Alex worked.",
+	"The woman who taught Alex worked.",
+	"Did the woman who taught Alex work?",
+	"Did every woman who taught Alex work?",
+	"The woman who gave the drugs to Alex worked.",
+	"Noe divorced the man that she gave the drugs to.",
 	"Who killed the man that helped the woman " 
 	 ++ "that had a boyfriend."
 	]
