@@ -41,6 +41,19 @@ website:
       quiz:
         - question: 
           answer: True
+    1:
+      identifier: website negotiation 1
+      A: |
+            Michelle wants the website operating within one month. She wants the website to have lots of information. She wants to pay the designer 6,000 dollars after the site is finished. She wants the site to show images of all the books that the bookstore sells.
+      B: |
+            Michelle is not willing to compromise on the time the web designer takes to finish the site. But she will compromise on the amount of information and images on the site. She is not willing to pay more than she said. But will compromise on when the designer is paid,
+      C: |
+            The designer wants to take two months to finish the website, and limit the amount of information on the website. He wants to charge Michelle fifty dollars an hour. He wants to limit the size of the site, with images of a few of the popular books.
+      D: |
+            The designer is ready to finish the job quicker than he said, eg, a month. But Michelle would have to compromise on the amount of information. He is willing to be paid a fixed price. But in return, he wants half the fee to be paid before starting work. He is willing to have one or two images on each page.
+      quiz:
+        - question: 
+          answer: True
   compcomp:
     0:
       identifier: website 0
