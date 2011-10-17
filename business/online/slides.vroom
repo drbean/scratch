@@ -1,0 +1,240 @@
+# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom::Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: Online Marketing!
+indent: 5
+height: 18
+width: 50
+skip: 0
+
+# The following options are for Gvim usage.
+# vim: gvim
+# fuopt: maxhorz,maxvert
+# guioptions: egmLtT
+# guicursor: a:blinkon0-ver25-Cursor
+# guifont: Bitstream_Vera_Sans_Mono:h18
+
+---- center
+Online Marketing
+
+by Dr Bean
+
+(hint: press the spacebar)
+
+----
+=Buying online
+
+http://www.eztravel.com.tw
+
+Books and magazines
+designer clothes
+CDs
+computers/electronic goods
+groceries
+jewelry
+travel/concert tickets
+
+----
+Indira Thambia, head of E-commerce at Argos
+Problems combining internet and store operations
+
+appropriate customers(x2) experience online product sometimes
+store(x2) telephone time understand website
+
+We don't treat _____(1) as online customers or
+_____(2) customers. Our _____(3) shows that customers
+will sometimes buy _____(4), sometimes order on the
+_____(5) and and _____(6) go into the _____(7) to pick
+up goods. So we need to _____(8) what our _____(9)
+want at the _____(10) they are on the website, and
+what they want depending on the _____(11) they are
+buying. We need to serve those customers in the most
+_____(12) way.
+
+----
+How to combine internet and store operations
+
+call channel inquire integrated(x2) operation
+order pay prices run store website
+
+
+Our operations are fully _____(1). The _____(2) that we
+show on the _____(3) are identical to the prices that
+you _____(4) in the _____(5).
+
+You can _____(6) up a call center and _____(7) about
+about an _____(8) than you placed through any
+_____(9). We don't _____(10) operations side-by-side.
+We run a truly _____(11) multi-channel _____(12)
+
+----
+
+Argos 4 cards
+
+A: Competitive
+Dual pricing
+Integrated options
+
+B:
+Easy to find, looks good
+Good information, images
+Prices, special offers
+Delivery information
+Fast and easy to find, order and pay
+
+C:
+Not everyone likes buying online
+Different users have different uses
+Individual users change what they want to do
+
+D:
+Argos
+Stores and online operation are integrated
+Order online and pick up at the store
+
+----
+== Questions
+
++ 0. Online retailing is having a big 
+effect on the retail industry.
++ 1. Prices on the Internet are more 
+expensive than in stores.
+It's expensive to run a web site.
++ 2. The look of the site isn't so important.
++ 3. An integrated operation is one where buying
+online and going to the store are handled the same way
+by the business.
++ 4. It is becoming more difficult for retailers to charge 
+different prices.
++ 5. What's important on the site are 
+information, images and speed.
+
+----
+== Website Design Negotiation
+
+Homework: What was it about
++ p18 Textbook: Market Leader http://sac.nuu.edu.tw/shop/
+
+Area       Michelle       |     designer     | Agreement
+        wants  | accepts  |  wants | accepts |
+       --------|--------- |--------|---------|
+Time  |        |          |        |         |  Y/N
+      |        |          |        |         |
+Pay   |        |          |        |         |  Y/N
+      |        |          |        |         | 
+Design|        |          |        |         |  Y/N
+  -------------------------------------------|----
+                               Is it a deal? |  Y/N
+----
+== Website Design Negotiation
+
+Area       Michelle       |     designer       Agreement 
+        wants  | accepts  |  wants | accepts             
+       --------|--------- |--------|----------           
+Time  |1 month |1 month,  |2 months|1 month     Y/N      
+      |        |less pages|        |                     
+Pay   | $6,000 |$6,000    | $50/hr |$3000 now,  Y/N      
+      |        |$3,000 now|        |$3000 later          
+Design| covers | 2 images |1 image |2 images    Y/N      
+  -------------------------------------------|----
+                               Is it a deal? |  Y/N
+
+----
+== Joint venture
+
+Joint venture: 2 companies agree to develop a new 
+company with their money and resources and to 
+share profits and control of the company.
+
+----
+== Lifetime Holidays--Direct Sun joint venture
+
+Lifetime is an older travel company that 
+has a lot of resources, but is losing customers.
+
+Direct is a new Internet travel company that has a 
+lot of customers but it can only send them to places 
+in a few countries.
+
+----
+== Reason for Lifetime and Direct joint venture
+
+Both think they can use each other's resources to 
+develop their own business.
+
+But can they agree on length of contract, range of 
+vacation destinations, advertising budget and who 
+will run the joint venture?
+
+----
+== Exam 2 
+
+Negotiations of 2 Areas from:
+
+Length of contract
+Destinations
+Advertising budget
+Management
+
+A has information about Lifetime's original
+position.
+B has information about what Lifetime is
+prepared to accept.
+C has information about Direct's original
+position.
+D has information about what Direct is
+prepared to accept.
+
+----
+== Exam 2 Questions
+
+1. Lifetime wants a contract of 5 years.
+True False
+
+2. They are able to agree on length of contract.
+True False
+
+3. Direct is ready to accept just European destinations
+True False
+
+4. They are able to agree on destinations
+True False
+
+5. "It's a deal!"
+True False
+
+----
+== Lifetime
+
+Area		Position
+Length of contract	: 3 years
+Destinations		: Mediterranean
+Customers		: 30-50 years old
+Car hire & insurance	: No
+Advertising		: $100,000
+Investment & profits	: 60% Lifetime, 40% Direct
+Management		: Lifetime, because of 
+		greater management experience
+
+----
+== Direct
+
+Area		Position
+Length of contract	: 5 years
+Destinations		: Both companies catalogs
+Customers		: All age groups
+Car hire & insurance	: Yes
+Advertising		: $300,000, Lifetime: 70%
+		radio & TV
+Investment & profits	: 50% Lifetime, 50% Direct
+Management		: Direct, because of 
+		greater online experience
+
+----
+== The End
