@@ -2,12 +2,12 @@ import Parsing
 import Data.Char
 import Data.List
 
-upperizer :: String -> String
-upperizer (x:[]) = toUpper x : []
-upperizer (x:'_':xs) = (toUpper x) : '_': (upperizer xs)
-upperizer (x:xs) = x : upperizer xs
+toupper = reverse . upperizer . reverse where
+	upperizer (x:[]) = toUpper x : []
+	upperizer (x:'_':xs) = (toUpper x) : '_': (upperizer xs)
+	upperizer (x:xs) = x : upperizer xs
 
-characters = sort $ map ( reverse . upperizer . reverse ) $ map (phon . head) people_names
+characters = sort $ map toupper $ map (phon . head) people_names
 
 otherwords = map (phon . head) $
 	object_names ++ class_names ++
