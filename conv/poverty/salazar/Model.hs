@@ -92,9 +92,10 @@ marriages	= [ (H,E) ]
 --(boyfriend,girlfriend)
 -- unmarried_couples	= []
 --(contacter,contactee)
-possessions	= [ (H,F),(L,O),(J,O) ]
+possessions	= [ (H,F),(L,O),(J,O),(K,O) ]
 
 raised_by	= pred2 $ map swap parenting
+parented	= pred2 parenting
 have	= pred2 $ possessions ++ marriages ++ parenting 
 		++ ( map swap $ marriages ++ parenting )
 		++ ( map (\x->(agent x,W) ) working )
@@ -147,7 +148,7 @@ location4 (_,l,_,_) = l
 theme4 (_,_,t,_) = t
 recipient4 (_,_,_,r) = r
 
-studied = pred3 $ map ( \x -> (location4 x, theme4 x, recipient4 x) )
+studied = pred3 $ map ( \x -> (recipient4 x, theme4 x, location4 x) )
 				schooling
 studied_what = pred2 $ map (\x -> (recipient4 x, theme4 x) ) schooling
 studied_where = pred2 $ map (\x -> (recipient4 x, location4 x) ) schooling
@@ -178,7 +179,10 @@ int "girl"	= \ [x] -> girl x; int "girls" = int "girl"
 int "person"	= \ [x] -> people x
 int "thing"	= \ [x]	-> things x
 
-int "parent" = \ [x] -> parent x
+int "parent" = \args -> case args of 
+	[x] -> parent x
+	[x,y] -> parented y x
+int "parented" = \[x,y] -> parented y x
 int "parents" = \ [x] -> parent x
 int "mother" = \ [x] -> mother x
 int "father" = \ [x] -> father x
@@ -190,6 +194,7 @@ int "toys" = \ [x] -> toy x; int "toy" = int "toys"
 int "shoes" = \ [x] -> shoe x; int "shoe" = int "shoes"
 int "bikes" = \ [x] -> bike x; int "bike" = int "bikes"
 int "story" = \ [x] -> story x
+int "farm" = \ [x] -> farm x
 
 int "work" = \args -> case args of
 	[x] -> worker x
