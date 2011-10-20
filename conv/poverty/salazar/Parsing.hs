@@ -99,28 +99,33 @@ type Lexset = [ [Cat] ]
 people_names, object_names, class_names, prons, reflexives, interrogatives, aux, intransitives, transitives, ditransitives, determiners, preps, conjuncts :: Lexset
 
 people_names = [
-	[Cat "noe"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "alex"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "maria"	"NP" [Thrd,Fem,Sg] []],
-	[Cat "steve"	"NP" [Thrd,Masc,Sg] []]
+	[Cat "colorado_college" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "michigan_law" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "ken"	"NP" [Thrd,Masc,Sg] []],
+	[Cat "john"	"NP" [Thrd,Masc,Sg] []],
+	[Cat "leroy"	"NP" [Thrd,Masc,Sg] []],
+	[Cat "henry"	"NP" [Thrd,Masc,Sg] []],
+	[Cat "emma"	"NP" [Thrd,Fem,Sg] []]
 	]
 
 object_names = [
 	[Cat "money"	"CN" [Thrd,Neutr,Sg] [],
 		Cat "money" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "stand" "CN" [Thrd,Neutr,Sg] []],
-	[Cat "economics" "CN" [Thrd,Neutr,Sg] [],
-		Cat "economics" "NP" [AccOrDat] []],
-	[Cat "high_school" "CN" [Thrd,Neutr,Sg] [],
-		Cat "high_school" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "construction_site" "CN" [Thrd,Neutr,Sg] []],
+	[Cat "economics" "NP" [AccOrDat] []],
+	[Cat "law" "NP" [AccOrDat] []],
+	[Cat "school" "CN" [Thrd,Neutr,Sg] [],
+		Cat "school" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "farm" "CN" [Thrd,Neutr,Sg] []],
+	[Cat "shoe" "CN" [Thrd,Neutr,Sg] []],
 	[Cat "shoes" "CN" [Thrd,Neutr,Pl] []],
-	[Cat "drugs" "CN" [Thrd,Neutr,Pl] []],
+	[Cat "toy" "CN" [Thrd,Neutr,Sg] []],
+	[Cat "toys" "CN" [Thrd,Neutr,Pl] []],
+	[Cat "bike" "CN" [Thrd,Neutr,Sg] []],
+	[Cat "bikes" "CN" [Thrd,Neutr,Pl] []],
 	[Cat "story" "CN" [Thrd,Neutr,Sg] []]
 	]
 
 class_names = [
-	[Cat "teacher" "CN" [Thrd,MascOrFem,Sg] []],
 --noun and verb
 	[Cat "parent" "VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
 		Cat "parent" "CN" [Sg,MascOrFem,Thrd]   []],
@@ -204,33 +209,29 @@ aux = [
 	]
 
 intransitives = [
-	[Cat "cried"    "VP" [Tense] []],
-	[Cat "cry"     "VP" [Infl]  []],
-	[Cat "separated"    "VP" [Tense] []] ,
-	[Cat "separate"     "VP" [Infl]  []]
 	]
 
 transitives = [
-	[Cat "contacted" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "contact" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "had"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "have"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "sold" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "sell"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "painted" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "paint" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "went" "VP" [Tense] [Cat "_" "PP" [To] []]],
+	[Cat "go"	"VP" [Infl]  [Cat "_" "PP" [To] []]],
 	[Cat "parented" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
 	]
 
 ditransitives = [
-	[Cat "met" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [], Cat "_" "PP" [In] []]],
-	[Cat "meet" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [], Cat "_" "PP" [In] []]],
 	[Cat "asked" "VP" [Tense] [Cat "_" "PP" [For] []],
 			Cat "asked" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
 					Cat "_" "PP" [For]       []]],
 	[Cat "ask" "VP" [Infl] [Cat "_" "PP" [For]       []],
 		 Cat "ask" "VP" [Infl]	[Cat "_" "NP" [AccOrDat] [],
-					 Cat "_" "PP" [For]       []]],
+					Cat "_" "PP" [For]       []]],
+	[Cat "studied" "VP" [Tense] [Cat "_" "PP" [At] []],
+		Cat "studied" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+					Cat "_" "PP" [At] []]],
+	[Cat "study" "VP" [Infl] [Cat "_" "PP" [At] []],
+		Cat "study" "VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
+					Cat "_" "PP" [At] []]],
 	[Cat "worked" "VP" [Tense] [],
 		Cat "worked" "VP" [Tense] [Cat "_" "PP" [As,MascOrFem] []],
 		Cat "worked" "VP" [Tense] [Cat "_" "PP" [At,Neutr] []],
@@ -240,36 +241,6 @@ ditransitives = [
 		Cat "work" "VP" [Infl] [Cat "_" "PP" [As,MascOrFem] []],
 		Cat "work" "VP" [Infl] [Cat "_" "PP" [At,Neutr] []],
 		Cat "work" "VP" [Infl] [Cat "_" "PP" [In,Neutr] []]],
-	[Cat "taught" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
-		Cat "taught" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "NP" [AccOrDat] []],
-		Cat "taught" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [To] []],
-		Cat "taught" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [At] []],
-		Cat "taught" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [In] []]],
-	[Cat "teach" "VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
-		Cat "teach" "VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "NP" [AccOrDat] []],
-		Cat "teach" "VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [To] []],
-		Cat "teach" "VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [At] []],
-		Cat "teach" "VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [In] []]],
-	[Cat "put" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [In]       []],
-			Cat "put" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [In]       []]],
-	[Cat "handed" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-							Cat "_" "PP" [To] []],
-			Cat "handed" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "NP" [AccOrDat]  []]],
-	[Cat "hand" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [To] []],
-			Cat "hand" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "NP" [AccOrDat] []]],
 	[Cat "gave" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [To]       []],
 			Cat "gave" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
@@ -337,8 +308,8 @@ preproc ["."]              = []
 preproc ["?"]              = []
 preproc (",":xs)           = preproc xs
 
-preproc ("high":"school":xs)	= "high_school" : preproc xs
-preproc ("construction":"site":xs)	= "construction_site" : preproc xs
+preproc ("colorado":"college":xs)	= "colorado_college" : preproc xs
+preproc ("michigan":"law":xs)	= "michigan_law" : preproc xs
 
 preproc ("an":xs)	= "a" : preproc xs
 preproc ("did":"not":xs)   = "didn't" : preproc xs
