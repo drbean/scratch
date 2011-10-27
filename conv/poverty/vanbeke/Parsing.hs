@@ -99,29 +99,20 @@ type Lexset = [ [Cat] ]
 people_names, object_names, class_names, prons, reflexives, interrogatives, aux, intransitives, transitives, ditransitives, determiners, preps, conjuncts :: Lexset
 
 people_names = [
-	[Cat "colorado_college" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "michigan_law" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "ken"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "john"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "leroy"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "henry"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "emma"	"NP" [Thrd,Fem,Sg] []]
+	[Cat "charles"	"NP" [Thrd,Masc,Sg] []],
+	[Cat "william"	"NP" [Thrd,Masc,Sg] []],
+	[Cat "mrs_blaisdell"	"NP" [Thrd,Fem,Sg] []],
+	[Cat "eva"	"NP" [Thrd,Fem,Sg] []],
+	[Cat "mary"	"NP" [Thrd,Fem,Sg] []]
 	]
 
 object_names = [
 	[Cat "money"	"CN" [Thrd,Neutr,Sg] [],
 		Cat "money" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "economics" "NP" [AccOrDat] []],
-	[Cat "law" "NP" [AccOrDat] []],
-	[Cat "school" "CN" [Thrd,Neutr,Sg] [],
-		Cat "school" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "farm" "CN" [Thrd,Neutr,Sg] []],
 	[Cat "shoe" "CN" [Thrd,Neutr,Sg] []],
 	[Cat "shoes" "CN" [Thrd,Neutr,Pl] []],
-	[Cat "toy" "CN" [Thrd,Neutr,Sg] []],
-	[Cat "toys" "CN" [Thrd,Neutr,Pl] []],
-	[Cat "bike" "CN" [Thrd,Neutr,Sg] []],
-	[Cat "bikes" "CN" [Thrd,Neutr,Pl] []],
+	[Cat "clothes" "CN" [Thrd,Neutr,Pl] [],
+		Cat "clothes" "NP" [Thrd,Neutr,Sg] []],
 	[Cat "story" "CN" [Thrd,Neutr,Sg] []]
 	]
 
@@ -145,7 +136,13 @@ class_names = [
 	[Cat "girl"    "CN" [Sg,Fem,Thrd]   []],
 	[Cat "girls"   "CN" [Pl,Fem,Thrd]   []],
 	[Cat "woman"   "CN" [Sg,Fem,Thrd]   []],
-	[Cat "women"   "CN" [Pl,Fem,Thrd]   []]
+	[Cat "women"   "CN" [Pl,Fem,Thrd]   []],
+	[Cat "help"    "CN" [Sg,Fem,Thrd]   [],
+		Cat "help"    "NP" [Sg,Fem,Thrd]   []],
+	[Cat "butcher"	"CN" [Thrd,Masc,Sg] []],
+	[Cat "bones"	"CN" [Thrd,Neutr,Pl] []]
+
+
 	]
 
 prons = [
@@ -209,9 +206,17 @@ aux = [
 	]
 
 intransitives = [
+	[Cat "died"   "VP" [Tense] []],
+	[Cat "die"    "VP" [Infl] []],
+	[Cat "passed" "VP" [Tense] []],
+	[Cat "pass"   "VP" [Infl] []]
 	]
 
 transitives = [
+	[Cat "washed"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "wash"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "killed"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "kill"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "had"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "have"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "went" "VP" [Tense] [Cat "_" "PP" [To] []]],
@@ -230,12 +235,14 @@ ditransitives = [
 					Cat "_" "PP" [At] []]],
 	[Cat "worked" "VP" [Tense] [],
 		Cat "worked" "VP" [Tense] [Cat "_" "PP" [As,MascOrFem] []],
+		Cat "worked" "VP" [Tense] [Cat "_" "PP" [For,MascOrFem] []],
 		Cat "worked" "VP" [Tense] [Cat "_" "PP" [At,Neutr] []],
 		Cat "worked" "VP" [Tense] [Cat "_" "PP" [On,Neutr] []],
 		Cat "worked" "VP" [Tense] [Cat "_" "PP" [In,Neutr] []]],
 	[Cat "work" "NP" [AccOrDat] [],
 		Cat "work" "VP" [Infl] [],
 		Cat "work" "VP" [Infl] [Cat "_" "PP" [As,MascOrFem] []],
+		Cat "work" "VP" [Infl] [Cat "_" "PP" [For,MascOrFem] []],
 		Cat "work" "VP" [Infl] [Cat "_" "PP" [At,Neutr] []],
 		Cat "work" "VP" [Infl] [Cat "_" "PP" [On,Neutr] []],
 		Cat "work" "VP" [Infl] [Cat "_" "PP" [In,Neutr] []]],
@@ -247,6 +254,12 @@ ditransitives = [
 						Cat "_" "PP" [To]       []],
 			Cat "give" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "NP" [AccOrDat] []]],
+	[Cat "got" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
+			Cat "got" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [From]  []]],
+	[Cat "get" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] []],
+			Cat "get" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [From] []]],
 	[Cat "told" "VP" [Tense]  [Cat "_" "NP" [AccOrDat] []],
 			Cat "told" "VP" [Tense]  [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [To]       []],
@@ -306,8 +319,7 @@ preproc ["."]              = []
 preproc ["?"]              = []
 preproc (",":xs)           = preproc xs
 
-preproc ("colorado":"college":xs)	= "colorado_college" : preproc xs
-preproc ("michigan":"law":xs)	= "michigan_law" : preproc xs
+preproc ("mrs":"blaisdell":xs)	= "mrs_blaisdell" : preproc xs
 
 preproc ("an":xs)	= "a" : preproc xs
 preproc ("did":"not":xs)   = "didn't" : preproc xs
