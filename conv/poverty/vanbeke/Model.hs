@@ -7,7 +7,7 @@ import Data.Maybe
 data Entity	= A | B | C | D | E | F | G
             | H | I | J | K | L | M | N 
             | O | P | Q | R | S | T | U 
-            | V | W | X | Y | Z | Unspec
+            | V | W | X | Y | Z | Someone | Something | Unspec
      deriving (Eq,Show,Bounded,Enum,Ord)
 
 entities :: [Entity]
@@ -20,23 +20,22 @@ entities	=  [minBound..maxBound]
 characters :: [ (String, Entity) ]
 
 characters = [
-	( "ken",	K ),
-	( "john",	J ),
-	( "leroy",	L ),
-	( "henry",	H ),
-	( "emma",	E ),
+	( "mary",	M ),
+	( "charles",	C ),
+	( "william",	A ),
+	( "eva",	E ),
+	( "mrs_blaisdell",	B ),
 	( "money",	D ),
-	( "farm",	F ),
 	( "shoe",	O ),
-	( "toy",	T ),
-	( "bike",	B ),
+	( "clothes",	L ),
 	( "story",	Y ),
 	( "work",	W ),
-	( "law",	A ),
-	( "school",	S ),
-	( "colorado_college",	C ),
-	( "michigan_law",	M )
-
+	( "wire",	I ),
+	( "electrocution",	U ),
+	( "house",	H ),
+	( "butcher",	R ),
+	( "bones",	N ),
+	( "help",	P )
 
 	]
 
@@ -46,8 +45,8 @@ names = map swap characters
 
 male, female :: OnePlacePred
 
-male	= pred1 [K,J,L,H]
-female	= pred1 [E]
+male	= pred1 [C,A]
+female	= pred1 [M,E,B]
 
 type OnePlacePred	= Entity -> Bool
 type TwoPlacePred	= Entity -> Entity -> Bool
@@ -61,21 +60,20 @@ pred1	= flip elem
 
 people, things :: OnePlacePred
 
-people	= \ x -> (male x || female x )
-things	= \ x -> not (people x || x == Unspec)
+people	= \ x -> (male x || female x || x == Unspec)
+things	= \ x -> (x == Unspec || not ( people x ) )
 
 money	= pred1 [D]
 shoe	= pred1 [O]
-toy	= pred1 [T]
-bike	= pred1 [B]
-farm	= pred1 [F]
+clothes	= pred1 [L]
+help	= pred1 [P,M,E]
+house	= pred1 [H]
+wire	= pred1 [I]
 story	= pred1 [Y]
-law	= pred1 [A]
-school	= pred1 [C,M,S]
-college	= pred1 [C]
-law_school = pred1 [M]
+butcher	= pred1 [R]
+bones	= pred1 [N]
 
-child	= pred1 [K,J,L]
+child	= pred1 [M]
 
 
 pred2 xs	= curry ( `elem` xs )
@@ -83,22 +81,28 @@ pred3 xs	= curry3 ( `elem` xs )
 pred4 xs	= curry4 ( `elem` xs )
 
 --(parent,child)
-parenting	= [  (H,L),(H,J),(H,K),(E,L),(E,J),(E,K) ]
+parenting	= [  (A,M),(E,M),(M,C) ]
 --(husband,wife)
-marriages	= [ (H,E) ]
+marriages	= [ (A,E) ]
 --(divorcer,divorced)
 -- separations	= [ (D,P) ]
 -- divorces	= []
 --(boyfriend,girlfriend)
 -- unmarried_couples	= []
 --(contacter,contactee)
-possessions	= [ (H,F),(L,O),(J,O),(K,O) ]
-
+possessions	= [ (E,O),(E,L),(M,O),(M,L),(B,D) ]
+laundering	= [ (M,L),(E,L) ]
+cleaning	= [ (M,H),(E,H) ]
+dropping	= [ (Unspec,I) ]
 raised_by	= pred2 $ map swap parenting
 parented	= pred2 parenting
+married		= pred2 $ marriages ++ map swap marriages
 have	= pred2 $ possessions ++ marriages ++ parenting 
 		++ ( map swap $ marriages ++ parenting )
 		++ ( map (\x->(agent x,W) ) working )
+wash	= pred2 laundering
+clean	= pred2 cleaning
+drop	= pred2 dropping
 
 boy	= \x -> male x && child x
 man	= \x -> ( not $ boy x ) && male x
@@ -110,37 +114,43 @@ mother	= \x -> ( female x && parent x )
 father	= \x -> ( male x && parent x )
 daughter	= \x -> ( female x && offspring x )
 son	= \x -> ( male x && offspring x )
-worker	= pred1 $ map agent working
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
 curry4 f x y z w	= f (x,y,z,w)
 
-met :: ThreePlacePred
-
-meetings	= []
-telling	= [ (K,Y,J),(J,Y,K) ]
-giving	= [ (L,O,J) ]
---(worker,job,site)
-working	= [ (H,Unspec,F) ]
-
-met	= pred3 meetings
-gave	= pred3 giving
-told	= pred3 telling
-
-agent, theme, recipient, location :: (Entity,Entity,Entity) -> Entity
+agent, theme, recipient, location, instrument ::
+	(Entity,Entity,Entity) -> Entity
 agent (a,_,_) = a
 theme (_,t,_) = t
 recipient (_,_,r) = r
 location = recipient
+instrument = recipient
 
+meetings	= []
+telling	= [ (M,Y,C) ]
+giving	= [ (Unspec,O,E),(R,N,E),(R,N,M) ]
+--(worker,job,site)
+working	= [ (E,P,Unspec),(M,P,B) ]
+--(killer,killed,instrument)
+deaths	= [ (Unspec,A,U) ]
+
+met	= pred3 meetings
+gave	= pred3 giving
+told	= pred3 telling
+kill_with = pred3 deaths
+kill = forgetful kill_with
+
+die = passivize kill
+
+worker	= pred1 $ map agent working
 recite = pred2 $ map ( \x -> (agent x, theme x) ) telling
 work_where	= pred2 $ map (\x -> (agent x, location x) ) working
 work_as = pred2 $ map (\x -> (agent x, theme x) ) working
+work_for	= pred2 $ map (\x -> (agent x, recipient x) ) working
 
 --(teacher,school,subject,student)
-schooling = [ (Unspec,C,Unspec,K),(Unspec,M,A,K), (Unspec,Unspec,Unspec,L),
-			(Unspec,Unspec,Unspec,J) ]
+schooling = []
 
 agent4, theme4, recipient4, location4 :: (Entity,Entity,Entity,Entity) -> Entity
 agent4 (a,_,_,_) = a
@@ -153,6 +163,8 @@ studied = pred3 $ map ( \x -> (recipient4 x, theme4 x, location4 x) )
 studied_what = pred2 $ map (\x -> (recipient4 x, theme4 x) ) schooling
 studied_where = pred2 $ map (\x -> (recipient4 x, location4 x) ) schooling
 
+forgetful :: ThreePlacePred -> TwoPlacePred
+forgetful r u v = or ( map ( r u v ) entities )
 passivize :: TwoPlacePred -> OnePlacePred
 passivize r	= \ x -> or ( map ( flip  r x ) entities )
 
@@ -183,27 +195,33 @@ int "parent" = \args -> case args of
 	[x] -> parent x
 	[x,y] -> parented y x
 int "parented" = \[x,y] -> parented y x
+int "married"	= \ [x,y] -> married y x;	int "marry"	= int "married"
 int "parents" = \ [x] -> parent x
 int "mother" = \ [x] -> mother x
 int "father" = \ [x] -> father x
 int "daughter" = \ [x] -> daughter x
 int "son" = \ [x] -> son x
+int "butcher" = \ [x] -> butcher x
 
 int "money" = \ [x] -> money x
-int "toys" = \ [x] -> toy x; int "toy" = int "toys"
 int "shoes" = \ [x] -> shoe x; int "shoe" = int "shoes"
-int "bikes" = \ [x] -> bike x; int "bike" = int "bikes"
+int "clothes" = \ [x] -> clothes x
 int "story" = \ [x] -> story x
-int "farm" = \ [x] -> farm x
+int "bones" = \ [x] -> bones x
 
+int "washed" = \[x,y] -> wash y x; int "wash" = int "washed"
 int "work" = \args -> case args of
 	[x] -> worker x
-	[x,y] -> work_where y x || work_as y x
+	[x,y] -> work_where y x || work_as y x || work_for y x
 int "worked" = int "work"
 int "had" = \[x,y] -> have y x;	int "have" = int "had"
+int "kill" = \args -> case args of [x,y] -> kill y x; [x,y,z] -> kill_with z y x
+int "killed" = int "kill"
+int "die"	= \[x] -> die x; int "died"	= int "die"
 
 int "met"	= \ [x,y,z] ->	met z y x;	int "meet"	= int "met"
 int "gave"	= \ [x,y,z] ->	gave z y x;	int "give"	= int "gave"
+int "got" = \[x,y,z] -> gave x y z; int "get" = int "got"
 int "told" = \ args -> case args of [x,y] -> recite y x; [x,y,z] -> told z y x
 int "tell" = int "told"
 int "studied" = \args -> case args of
