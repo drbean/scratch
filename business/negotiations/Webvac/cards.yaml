@@ -547,11 +547,12 @@ vacations:
         - question: They reach agreement on advertising budget.
           answer: True
     6:
-      identifier: Lifetime Holidays-Direct Sun joint venture negotiation 6
+      identifier: vacations 6
       A: Lifetime's position: It wants the contract to be for four years.  And it wants the range of destinations to be only in the Mediterranean. Lifetime is willing to discuss Direct's offers.
       B: Lifetime's offers: It is willing for the contract to be one year longer than four years. It is willing to include destinations all over Europe as well as the Mediterranean.
       C: Direct's position: It wants the contract to be for six years.  It wants the destinations to be all over the world. Direct is willing to discuss Lifetime's offers.
       D: Direct's offers: It is willing for the contract to be one year less than six years. It is willing for the destinations to be only in the USA and in Europe.
+      rubric: \input{/home/drbean/class/tmpl/negotiation.tex}
       quiz:
         - question: Lifetime is willing for the contract to be five years.
           answer: True
@@ -564,11 +565,12 @@ vacations:
         - question: It's a deal.
           answer: False
     7:
-      identifier: Lifetime Holidays-Direct Sun joint venture negotiation 7
+      identifier: vacations 7
       A: Lifetime's position: It wants the advertising budget to be 100,000 dollars. It wants to have control of the joint venture. It is willing to discuss Direct's offers.
       B: Lifetime's offers: It is willing for advertising to be 100,000 dollars more than the original 100,000 dollars. It is willing for the joint venture to be run by directors from both companies.
       C: Direct's position: It wants the advertising budget to be 400,000 dollars. It wants to have control of the joint venture. It is willing to discuss Lifetime's offers.
       D: Direct's offers: It is willing for advertising to be 100,000 dollars less than 400,000 dollars. It is willing to share control with Lifetime by having a board of directors from both companies.
+      rubric: \input{/home/drbean/class/tmpl/negotiation.tex}
       quiz:
         - question: Direct wanted the advertising budget to be 100,000 dollars.
           answer: False
@@ -581,11 +583,12 @@ vacations:
         - question: It's a deal.
           answer: False
     8:
-      identifier: Lifetime Holidays-Direct Sun joint venture negotiation 8
+      identifier: vacations 8
       A: Lifetime's position: It wants destinations to be only in Europe. It wants the advertising budget to be 100,000 dollars. It is willing to discuss Direct's offers.
       B: Lifetime's offers: It is willing to include destinations in America as well as Europe. It is willing for advertising to be 100,000 dollars more than the original 100,000 dollars.
       C: Direct's position: It wants travel destinations to be all over the world. It wants the advertising budget to be 300,000 dollars. It is willing to discuss Lifetime's offers.
       D: Direct's offers: It is willing for advertising to be 100,000 dollars less than 300,000 dollars. It is willing for the destinations to be only in America and in Europe.
+      rubric: \input{/home/drbean/class/tmpl/negotiation.tex}
       quiz:
         - question: Direct originally wanted destinations to be in America and Europe.
           answer: False
@@ -598,11 +601,12 @@ vacations:
         - question: It's a deal.
           answer: True
     9:
-      identifier: Lifetime Holidays-Direct Sun joint venture negotiation 9
+      identifier: vacations 9
       A: Lifetime's position: It wants the contract to be for one year. It wants to have control over running the joint venture. It is willing to discuss Direct's offers.
       B: Lifetime's offers: It is willing for the contract to be two years longer than one year. It is willing for the joint venture to be managed by a board of directors from both companies.
       C: Direct's position: It wants the contract to be for five years. It wants the company to be run by people from Direct. It is willing to discuss Lifetime's offers.
       D: Direct's offers: It is willing for the contract to be two years less than five years. It is willing for the company to be controlled by vote by a board of directors from both companies.
+      rubric: \input{/home/drbean/class/tmpl/negotiation.tex}
       quiz:
         - question: Direct was willing for the contract to be three years less than five years.
           answer: False
