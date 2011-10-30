@@ -7,7 +7,8 @@
 \usepackage{keyval}
 % \textblockorigin{+1.75cm}{0.45cm} % HPLaserJ 2300
 % \textblockorigin{0.30cm}{0.55cm} %HPDeskJet5160
-\textblockorigin{0.30cm}{0.30cm} %HPDeskJet5160
+% \textblockorigin{0.30cm}{0.30cm} %HPDeskJet5160
+\textblockorigin{0.29cm}{0.31cm} %HPDeskJet5160
 % \textblockorigin{0.05cm}{0.70cm} % A4 HPLaserJ5000LE
 \pagestyle{empty}
 \setlength{\unitlength}{1cm}
@@ -115,15 +116,17 @@
 }%
 \makeatother 
 
+\newcommand{\NameAndId}{%
+	\textbf{Name:} \rule{2.5cm}{0.2pt} \textbf{ID:} \rule{2.5cm}{0.2pt}\\
+}
 \newcommand\SpecifyBlock[1][]{%
-	\parbox[t][12.17cm][c]{7.8cm}{%
+	\parbox[t][11.87cm][c]{7.8cm}{%
 	\begin{description}
   \setkeys{TFQuestions}{#1}%
 	\end{description}
-	\vspace{0.5cm}
+	\vspace{+0.25cm}
 	<TMPL>$rubric</TMPL>
 	}
-	\vspace{-0.2cm}
 }
 
 \newcommand{\myshortquestion}[5]{%
@@ -166,6 +169,8 @@
 \begin{textblock}{8}(8,0)
 \textblocklabel{picture8,0}
 \begin{tiny}<TMPL>$identifier</TMPL>\end{tiny}\\
+\vspace{-0.2cm}
+\NameAndId
 \SpecifyBlock[
 Question1 = {1. <TMPL>$q1</TMPL>},
 Question2 = {2. <TMPL>$q2</TMPL>},
@@ -184,6 +189,8 @@ Question5 = {5. <TMPL>$q5</TMPL>},
 \begin{textblock}{8}(0,0)
 \textblocklabel{picture0,0}
 \begin{tiny}<TMPL>$identifier</TMPL>\end{tiny}\\
+\vspace{-0.2cm}
+\NameAndId
 \SpecifyBlock[
 Question1 = {1. <TMPL>$q1</TMPL>},
 Question2 = {2. <TMPL>$q2</TMPL>},
@@ -202,6 +209,8 @@ Question5 = {5. <TMPL>$q5</TMPL>},
 \begin{textblock}{8}(8,8)
 \textblocklabel{picture8,8}
 \begin{tiny}<TMPL>$identifier</TMPL>\end{tiny}\\
+\vspace{-0.2cm}
+\NameAndId
 \SpecifyBlock[
 Question1 = {1. <TMPL>$q1</TMPL>},
 Question2 = {2. <TMPL>$q2</TMPL>},
@@ -220,6 +229,8 @@ Question5 = {5. <TMPL>$q5</TMPL>},
 \begin{textblock}{8}(0,8)
 \textblocklabel{picture0,8}
 \begin{tiny}<TMPL>$identifier</TMPL>\end{tiny}\\
+\vspace{-0.2cm}
+\NameAndId
 \SpecifyBlock[
 Question1 = {1. <TMPL>$q1</TMPL>},
 Question2 = {2. <TMPL>$q2</TMPL>},
