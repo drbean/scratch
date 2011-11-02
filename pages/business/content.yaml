@@ -98,7 +98,12 @@ topic:
           <li><b>Soundfile 3:</b> AWB talks about <a href=http://web.nuu.edu.tw/~greg/business/onlineC.mp3>Argos's experience with its online operation.</a> </li>
           <li><b>Soundfile 4:</b> BDL describes <a href=http://web.nuu.edu.tw/~greg/business/onlineD.mp3>the increased competition and dual-pricing policies.</a> </li>
           </ul>
-
+      -
+        id: argos
+        title: IT manager discusses the role of the website in Argos marketing policy
+        blurb: <a href="http://www.ybs.co.uk/your_society/financial/agm_2009/whos_who/directors/directors_indira.html">Indira Thambiah</a> developed the <a href="http://www.argos.co.uk/webapp/wcs/stores/servlet/StoreCatalogDisplay?storeId=10001&GiftMode=Reset&jspStoreDir=argos&action=StoreCatalogDisplay%3FlangId%3D-1&langId=-1&ddkey=ArgosGSGiftModeExitCmd">Argos</a> website. She talks about the importance of understanding what customers want to do on the website when they are there. Customers online are similar to customers in a store. But customers are all individuals with different needs. There are many different things they want to do when they interact with a retailer.
+        comment: |+
+          Listen to the 3 soundfiles on <a href="http://elearning.nuu.edu.tw">http://elearning.nuu.edu.tw</a> and find the section which goes with your text.
       -
         id: advocacy
         title: IBM advice to online retailers about advocacy
@@ -127,13 +132,14 @@ topic:
       -
         id: vacations
         title: Negotiating Travel Company Joint Venture
-        blurb: Look at the <b>Lifetime Holidays</b> Case Study on p 20-21 and <b>p 139</b> and <b>p 140</b> of the textbook. Lifetime Holidays, a company like Japan's <a href=http://www.jtbcorp.jp/en/>Japan Travel Bureau</a> wants to negotiate a <a href=http://en.wikipedia.org/wiki/Joint_venture>joint venture</a> with an online travel company, Direct Sun, which is like <a href=http://www.eztravel.com.tw>EZ Travel</a>. Will they be able to reach an agreement?
+        blurb: Next week in the exam in Week 9, we will look at a <a href="http://en.wikipedia.org/wiki/Negotiation">negotiation</a> by 2 travel companies. Lifetime Holidays, an old, big company like Japan's <a href=http://www.jtbcorp.jp/en/>Japan Travel Bureau</a> wants to negotiate a <a href=http://en.wikipedia.org/wiki/Joint_venture>joint venture</a> with a successful new online travel company, Direct Sun, which is like <a href=http://www.eztravel.com.tw>EZ Travel</a>. Will they be able to reach an agreement?
         comment: |+
+          There are 4 roles. Find the right role for your exercise:
           <ul>
-          <li><b>A students:</b> You are negotiating for Lifetime Holidays. You have details of <a href=http://web.nuu.edu.tw/~greg/business/vacationsA.mp3>their requirements or demands.</a> </li>
-          <li><b>B students:</b> You are also negotiating for Lifetime Holidays. You have details of <a href=http://web.nuu.edu.tw/~greg/business/vacationsB.mp3>what it is willing or unwilling to compromise on, ie its demands and concessions.</a> </li>
-          <li><b>C students:</b> You are negotiating for Direct Sun. You have details of <a href=http://web.nuu.edu.tw/~greg/business/vacationsC.mp3>their requirements or demands.</a> </li>
-          <li><b>D students:</b> You are also negotiating for Direct Sun. You have details of <a href=http://web.nuu.edu.tw/~greg/business/vacationsD.mp3>what they are willing or unwilling to compromise on, ie their demands and concessions.</a> </li>
+          <li><b>Role 1:</b> You are negotiating for Lifetime Holidays. You have details of <a href=http://web.nuu.edu.tw/~greg/business/vacationsA.mp3>their requirements or demands. That is Lifetime's position.</a> </li>
+          <li><b>Role 2:</b> You are also negotiating for Lifetime Holidays. You have details of <a href=http://web.nuu.edu.tw/~greg/business/vacationsB.mp3>what it is willing or unwilling to compromise on, ie its demands and concessions. Those are Lifetime's offers.</a> </li>
+          <li><b>Role 3:</b> You are negotiating for Direct Sun. You have details of <a href=http://web.nuu.edu.tw/~greg/business/vacationsC.mp3>their requirements or demands. That is Direct's position.</a> </li>
+          <li><b>Role 4:</b> You are also negotiating for Direct Sun. You have details of <a href=http://web.nuu.edu.tw/~greg/business/vacationsD.mp3>what they are willing or unwilling to compromise on, ie their demands and concessions. Those are Direct's offers.</a> </li>
           </ul>
   -
     id: companies
