@@ -1,6 +1,7 @@
 module LogicalForm where
 
 import Parsing
+import Interpretation
 import Model
 
 import Data.Maybe
@@ -77,8 +78,8 @@ transNP :: ParseTree Cat Cat ->
                 (Term -> LF) -> LF
 transNP (Leaf (Cat "#"  "NP" _ _)) = \ p -> p (Var 0)
 transNP (Leaf (Cat name "NP" _ _)) = \ p -> p (Const (ided name))
-transNP (Branch (Cat _ "NP" _ _) [det,cn]) = 
-                             (transDET det) (transCN cn) 
+transNP (Branch (Cat _ "NP" _ _) [det,cn]) = (transDET det) (transCN cn) 
+--transNP (Branch (Cat _ "NP" _ _) [pos,np1,cn2]) = \p x -> Conj [p (transCN cn2), Rel "has" [(transNP np1),(transCN cn2)] ]
 
 transDET :: ParseTree Cat Cat -> (Term -> LF)
                               -> (Term -> LF)
@@ -257,6 +258,25 @@ singleton :: [a] -> Bool
 singleton [x]	= True
 singleton _	= False
 
+test_possessives = [
+	"Jose's father ate pumpkin_pie.",
+	"Did Jose's father eat pumpkin_pie?",
+	"Did Jose's brother eat pumpkin_pie?",
+	"Did Jose's mother speak English?",
+	"Did Jose's father speak English?",
+	"Did Jose's brother speak English?",
+	"Did Jose's mother speak Spanish?",
+	"Did Jose's brother know Spanish?",
+	"Did the sister of Jose know Spanish?",
+	"Did the father of Jose eat pumpkin_pie?",
+	"Did the brother of Jose eat pumpkin_pie?",
+	"Did the mother of Jose speak English?",
+	"Did the father of Jose speak English?",
+	"Did the brother of Jose speak English?",
+	"Did the mother of Jose speak Spanish?",
+	"Did the brother of Jose know Spanish?",
+	"Did the sister of Jose know Spanish?"
+	]
 haves = [
 	"Did Ken have Henry?",
 	"Did Ken have John?",
