@@ -235,7 +235,13 @@ transitives = [
 		Cat "ate" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
 					Cat "_" "PP" [For] []]],
 	[Cat "talked"	"VP" [Tense] [Cat "_" "PP" [To] []]],
+--		Cat "talked"	"VP" [Tense] [Cat "_" "PP" [About] []],
+--		Cat "talked"	"VP" [Tense] [Cat "_" "PP" [To] [],
+--					Cat "_" "PP" [About] []]],
 	[Cat "talk"	"VP" [Infl]  [Cat "_" "PP" [To] []]],
+--		Cat "talk"	"VP" [Infl] [Cat "_" "PP" [About] []],
+--		Cat "talk"	"VP" [Infl] [Cat "_" "PP" [To] [],
+--					Cat "_" "PP" [About] []]],
 	[Cat "knew"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
 		Cat "knew"	"VP" [Tense] [Cat "_" "PP" [About] []]],
 	[Cat "know"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []],
@@ -296,6 +302,7 @@ ditransitives = [
 	]
 
 preps = [
+	[Cat "about"   "PREP" [About]   []],
 	[Cat "as"   "PREP" [As]   []],
 	[Cat "at"   "PREP" [At]   []],
 	[Cat "by"   "PREP" [By]   []],
