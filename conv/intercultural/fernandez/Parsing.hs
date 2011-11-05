@@ -30,10 +30,11 @@ subtrees t = [ subtree t p | p <- pos t ]
 data Feat = Masc  | Fem  | Neutr | MascOrFem 
           | Sg    | Pl 
           | Fst   | Snd  | Thrd 
-          | Nom   | AccOrDat 
+          | Nom   | AccOrDat
           | Pers  | Refl | Wh 
           | Tense | Infl
-          | At | As | In | On | For | With | By | To | From | Through
+          | About | At | As | In | On | For | With | By | To | From | Through
+	  | ApostropheS     | Of
           deriving (Eq,Show,Ord)
 
 type Agreement = [Feat]
@@ -46,7 +47,8 @@ person   = filter (`elem` [Fst,Snd,Thrd])
 gcase    = filter (`elem` [Nom,AccOrDat])
 pronType = filter (`elem` [Pers,Refl,Wh]) 
 tense    = filter (`elem` [Tense,Infl]) 
-prepType = filter (`elem` [As,At,In,On,For,With,By,To,From,Through]) 
+prepType = filter (`elem` [About,As,At,In,On,For,With,By,To,From,Through]) 
+posType  = filter (`elem` [ApostropheS,Of])
 
 prune :: Agreement -> Agreement
 prune fs = if   (Masc `elem` fs || Fem `elem` fs)
@@ -96,23 +98,29 @@ assign f c@(Cat phon label fs subcatlist) =
          fs' <- combine c (Cat "" "" [f] []) ]
 
 type Lexset = [ [Cat] ]
-people_names, object_names, class_names, prons, reflexives, interrogatives, aux, intransitives, transitives, ditransitives, determiners, preps, conjuncts :: Lexset
+proper_names, object_names, class_names, prons, reflexives, interrogatives, aux, intransitives, transitives, ditransitives, determiners, preps, conjuncts :: Lexset
 
-people_names = [
-	[Cat "charles"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "william"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "mrs_blaisdell"	"NP" [Thrd,Fem,Sg] []],
-	[Cat "eva"	"NP" [Thrd,Fem,Sg] []],
-	[Cat "mary"	"NP" [Thrd,Fem,Sg] []]
+proper_names = [
+	[Cat "thanksgiving" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "english" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "spanish" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "the_united_states" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "jose"	"NP" [Thrd,Masc,Sg] []],
+	[Cat "jose's_father"	"NP" [Thrd,Masc,Sg] []],
+	[Cat "jose's_brother"	"NP" [Thrd,Masc,Sg] []],
+	[Cat "jack_johnson"	"NP" [Thrd,Masc,Sg] []],
+	[Cat "teresita"	"NP" [Thrd,Fem,Sg] []]
 	]
 
 object_names = [
-	[Cat "money"	"CN" [Thrd,Neutr,Sg] [],
-		Cat "money" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "shoe" "CN" [Thrd,Neutr,Sg] []],
-	[Cat "shoes" "CN" [Thrd,Neutr,Pl] []],
-	[Cat "clothes" "CN" [Thrd,Neutr,Pl] [],
-		Cat "clothes" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "class" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "patron_saint" "CN" [Thrd,Neutr,Sg] []],
+	[Cat "missal" "CN" [Thrd,Neutr,Sg] []],
+	[Cat "dinner" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "pumpkin_pie" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "piece" "CN" [Thrd,Neutr,Sg] []],
+	[Cat "oven" "CN" [Thrd,Neutr,Sg] []],
+	[Cat "knife" "CN" [Thrd,Neutr,Sg] []],
 	[Cat "story" "CN" [Thrd,Neutr,Sg] []]
 	]
 
@@ -138,11 +146,12 @@ class_names = [
 	[Cat "woman"   "CN" [Sg,Fem,Thrd]   []],
 	[Cat "women"   "CN" [Pl,Fem,Thrd]   []],
 	[Cat "help"    "CN" [Sg,Fem,Thrd]   [],
-		Cat "help"    "NP" [Sg,Fem,Thrd]   []],
-	[Cat "butcher"	"CN" [Thrd,Masc,Sg] []],
-	[Cat "bones"	"CN" [Thrd,Neutr,Pl] []]
+		Cat "help"    "NP" [Sg,Fem,Thrd]   []]
+	]
 
-
+possessives = [
+	[Cat "'s" "APOS" [ApostropheS] []],
+	[Cat "of" "OFPOS" [Of] []]
 	]
 
 prons = [
@@ -206,20 +215,34 @@ aux = [
 	]
 
 intransitives = [
-	[Cat "died"   "VP" [Tense] []],
-	[Cat "die"    "VP" [Infl] []],
-	[Cat "passed" "VP" [Tense] []],
-	[Cat "pass"   "VP" [Infl] []]
 	]
 
 transitives = [
-	[Cat "washed"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "wash"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "killed"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "kill"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "looked"	"VP" [Tense] [Cat "_" "PP" [At] []]],
+	[Cat "look"	"VP" [Infl] [Cat "_" "PP" [At] []]],
+	[Cat "saw"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "see"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "say"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "said"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "asked"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "ask"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "spoke"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "speak"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "ate"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
+		Cat "ate" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+					Cat "_" "PP" [For] []]],
+	[Cat "eat"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []],
+		Cat "ate" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+					Cat "_" "PP" [For] []]],
+	[Cat "talked"	"VP" [Tense] [Cat "_" "PP" [To] []]],
+	[Cat "talk"	"VP" [Infl]  [Cat "_" "PP" [To] []]],
+	[Cat "knew"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
+		Cat "knew"	"VP" [Tense] [Cat "_" "PP" [About] []]],
+	[Cat "know"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []],
+		Cat "knew"	"VP" [Tense] [Cat "_" "PP" [About] []]],
 	[Cat "had"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "have"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "went" "VP" [Tense] [Cat "_" "PP" [To] []]],
+	[Cat "went"	"VP" [Tense] [Cat "_" "PP" [To] []]],
 	[Cat "go"	"VP" [Infl]  [Cat "_" "PP" [To] []]],
 	[Cat "parented" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
 	]
@@ -296,10 +319,10 @@ conjuncts = [
 
 lexicon lexeme = maybe [Cat "" "" [] []] id $
 	find (\x -> phon (head x) == lexeme ) $
-	people_names ++ object_names ++ class_names ++
+	proper_names ++ object_names ++ class_names ++
 	prons ++ reflexives ++ interrogatives ++
 	aux ++ intransitives ++ transitives ++ ditransitives ++
-	preps ++ determiners ++ conjuncts
+	possessives ++ preps ++ determiners ++ conjuncts
 
 scan :: String -> String
 scan []                      = []
@@ -319,7 +342,11 @@ preproc ["."]              = []
 preproc ["?"]              = []
 preproc (",":xs)           = preproc xs
 
-preproc ("mrs":"blaisdell":xs)	= "mrs_blaisdell" : preproc xs
+preproc ("pumpkin":"pie":xs)	= "pumpkin_pie" : preproc xs
+preproc ("the":"united":"states":xs)	= "the_united_states" : preproc xs
+preproc ("jack":"johnson":xs)	= "jack_johnson" : preproc xs
+preproc ("jose's":"brother":xs)	= "jose's_brother" : preproc xs
+preproc ("jose's":"father":xs)	= "jose's_father" : preproc xs
 
 preproc ("an":xs)	= "a" : preproc xs
 preproc ("did":"not":xs)   = "didn't" : preproc xs
@@ -452,7 +479,8 @@ cond2R = \ us xs ->
          (s2,ws,zs)   <- prsS vs2 ys2 ]
 
 prsNP :: SPARSER Cat Cat 
-prsNP = leafPS "NP" <||> npR <||> npRZ <||> pop "NP" 
+--prsNP = prsGEN  <||> leafPS "NP" <||> npR <||> pop "NP" 
+prsNP = leafPS "NP" <||> npR <||> pop "NP" 
 
 npR :: SPARSER Cat Cat
 npR = \ us xs -> 
@@ -462,19 +490,40 @@ npR = \ us xs ->
        fs         <- combine (t2c det) (t2c cn),
       agreeC det cn ]
 
-npRZ :: SPARSER Cat Cat
-npRZ = \ us xs -> 
-  [ (Branch (Cat "_" "NP" fs []) [det,cn], (us++ws), zs) | 
-      (det,vs,ys) <- prsDET [] ((Cat "zero" "DET" [Pl] []):xs),
-      (cn,ws,zs)  <- prsCN vs ys,
-       fs         <- combine (t2c det) (t2c cn),
-      agreeC det cn ]
+--prsGEN :: SPARSER Cat Cat
+---- prsGEN = prsNP <::> aposR <::> prsCN
+--prsGEN = aposR <||> ofR
+--
+--aposR :: SPARSER Cat Cat
+--aposR = \us xs ->
+--  [ (Branch (Cat "_" "NP" (fs (t2c cn2)) []) [pos,np1,cn2], (us++os), ps) |
+--      (np1,vs,ys) <- leafPS "NP" us xs,
+--      (pos,ws,zs) <- prsAPOS vs ys,
+--      (cn2,os,ps) <- prsCN ws zs
+--      ]
+--
+--ofR :: SPARSER Cat Cat
+--ofR = \us xs ->
+--  [ (Branch (Cat "_" "NP" (fs (t2c np1)) []) [pos,np2,np1], (us++os), ps) |
+--      (np1,vs,ys) <- npR us xs,
+--      (pos,ws,zs) <- prsOFPOS vs ys,
+--      (np2,os,ps) <- leafPS "NP" ws zs
+--      ]
+--
+--prsAPOS :: SPARSER Cat Cat
+--prsAPOS = leafPS "APOS"
+--
+--prsOFPOS :: SPARSER Cat Cat
+--prsOFPOS = leafPS "OFPOS"
+
+prsZERO :: SPARSER Cat Cat
+prsZERO = succeedS $ Leaf (Cat "zero" "DET" [Pl] [])
 
 prsDET :: SPARSER Cat Cat
-prsDET = leafPS "DET"
+prsDET = leafPS "DET" <||> prsZERO 
 
 prsCN :: SPARSER Cat Cat
-prsCN = leafPS "CN" <||> cnrelR 
+prsCN = leafPS "CN" <||> cnrelR
 
 prsVP :: SPARSER Cat Cat
 prsVP = finVpR <||> auxVpR
