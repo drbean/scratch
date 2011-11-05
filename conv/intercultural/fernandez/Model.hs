@@ -108,7 +108,7 @@ marriages	= [ (J,W) ]
 --(boyfriend,girlfriend)
 -- unmarried_couples	= []
 --(contacter,contactee)
-eating	= [ (F,I),(J,I) ]
+eating	= [  (F,P),(J,P),(F,I),(J,I) ]
 possessions	= [ (Unspec,D),(M,O),(M,L),(B,D) ]
 
 raised_by	= pred2 $ map swap parenting
@@ -151,6 +151,8 @@ seeing	= []
 
 said	= pred2 $ map (\x->(agent x, theme x) ) communications
 asked	= pred2 $ map (\x->(agent x, recipient x) ) communications
+talked	= pred2 $ map (\x->(agent x, recipient x) ) communications
+talk_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) communications
 
 
 gave	= pred3 giving
