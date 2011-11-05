@@ -106,8 +106,6 @@ proper_names = [
 	[Cat "spanish" "NP" [Thrd,Neutr,Sg] []],
 	[Cat "the_united_states" "NP" [Thrd,Neutr,Sg] []],
 	[Cat "jose"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "jose's_father"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "jose's_brother"	"NP" [Thrd,Masc,Sg] []],
 	[Cat "jack_johnson"	"NP" [Thrd,Masc,Sg] []],
 	[Cat "teresita"	"NP" [Thrd,Fem,Sg] []]
 	]
@@ -133,6 +131,7 @@ class_names = [
 	[Cat "daughter" "CN" [Sg,Fem,Thrd] []],
 	[Cat "father"    "CN" [Sg,Masc,Thrd] []],
 	[Cat "son"    "CN" [Sg,Masc,Thrd] []],
+	[Cat "brother"    "CN" [Sg,Masc,Thrd] []],
 	[Cat "thing"   "CN" [Sg,Neutr,Thrd] []],
 	[Cat "things"  "CN" [Pl,Neutr,Thrd] []],
 	[Cat "person"  "CN" [Sg,Masc,Thrd]  []],
@@ -333,7 +332,7 @@ lexicon lexeme = maybe [Cat "" "" [] []] id $
 
 scan :: String -> String
 scan []                      = []
-scan (x:xs) | x `elem` ".,?" = ' ':x:scan xs
+scan (x:xs) | x `elem` "'.,?" = ' ':x:scan xs
             | otherwise      =     x:scan xs
 
 type Words = [String]
@@ -352,8 +351,6 @@ preproc (",":xs)           = preproc xs
 preproc ("pumpkin":"pie":xs)	= "pumpkin_pie" : preproc xs
 preproc ("the":"united":"states":xs)	= "the_united_states" : preproc xs
 preproc ("jack":"johnson":xs)	= "jack_johnson" : preproc xs
-preproc ("jose's":"brother":xs)	= "jose's_brother" : preproc xs
-preproc ("jose's":"father":xs)	= "jose's_father" : preproc xs
 
 preproc ("an":xs)	= "a" : preproc xs
 preproc ("did":"not":xs)   = "didn't" : preproc xs
@@ -486,8 +483,8 @@ cond2R = \ us xs ->
          (s2,ws,zs)   <- prsS vs2 ys2 ]
 
 prsNP :: SPARSER Cat Cat 
---prsNP = prsGEN  <||> leafPS "NP" <||> npR <||> pop "NP" 
-prsNP = leafPS "NP" <||> npR <||> pop "NP" 
+prsNP = prsGEN  <||> leafPS "NP" <||> npR <||> pop "NP" 
+-- prsNP = leafPS "NP" <||> npR <||> pop "NP" 
 
 npR :: SPARSER Cat Cat
 npR = \ us xs -> 
@@ -497,31 +494,31 @@ npR = \ us xs ->
        fs         <- combine (t2c det) (t2c cn),
       agreeC det cn ]
 
---prsGEN :: SPARSER Cat Cat
----- prsGEN = prsNP <::> aposR <::> prsCN
---prsGEN = aposR <||> ofR
---
---aposR :: SPARSER Cat Cat
---aposR = \us xs ->
---  [ (Branch (Cat "_" "NP" (fs (t2c cn2)) []) [pos,np1,cn2], (us++os), ps) |
---      (np1,vs,ys) <- leafPS "NP" us xs,
---      (pos,ws,zs) <- prsAPOS vs ys,
---      (cn2,os,ps) <- prsCN ws zs
---      ]
---
---ofR :: SPARSER Cat Cat
---ofR = \us xs ->
---  [ (Branch (Cat "_" "NP" (fs (t2c np1)) []) [pos,np2,np1], (us++os), ps) |
---      (np1,vs,ys) <- npR us xs,
---      (pos,ws,zs) <- prsOFPOS vs ys,
---      (np2,os,ps) <- leafPS "NP" ws zs
---      ]
---
---prsAPOS :: SPARSER Cat Cat
---prsAPOS = leafPS "APOS"
---
---prsOFPOS :: SPARSER Cat Cat
---prsOFPOS = leafPS "OFPOS"
+prsGEN :: SPARSER Cat Cat
+-- prsGEN = prsNP <::> aposR <::> prsCN
+prsGEN = aposR <||> ofR
+
+aposR :: SPARSER Cat Cat
+aposR = \us xs ->
+  [ (Branch (Cat "_" "NP" (fs (t2c cn2)) []) [pos,np1,cn2], (us++os), ps) |
+      (np1,vs,ys) <- leafPS "NP" us xs,
+      (pos,ws,zs) <- prsAPOS vs ys,
+      (cn2,os,ps) <- prsCN ws zs
+      ]
+
+ofR :: SPARSER Cat Cat
+ofR = \us xs ->
+  [ (Branch (Cat "_" "NP" (fs (t2c np1)) []) [pos,np2,np1], (us++os), ps) |
+      (np1,vs,ys) <- npR us xs,
+      (pos,ws,zs) <- prsOFPOS vs ys,
+      (np2,os,ps) <- leafPS "NP" ws zs
+      ]
+
+prsAPOS :: SPARSER Cat Cat
+prsAPOS = leafPS "APOS"
+
+prsOFPOS :: SPARSER Cat Cat
+prsOFPOS = leafPS "OFPOS"
 
 prsZERO :: SPARSER Cat Cat
 prsZERO = succeedS $ Leaf (Cat "zero" "DET" [Pl] [])
