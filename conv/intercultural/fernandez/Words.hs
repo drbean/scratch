@@ -7,7 +7,7 @@ toupper = reverse . upperizer . reverse where
 	upperizer (x:'_':xs) = (toUpper x) : '_': (upperizer xs)
 	upperizer (x:xs) = x : upperizer xs
 
-characters = sort $ map toupper $ map (phon . head) people_names
+characters = sort $ map toupper $ map (phon . head) proper_names
 
 otherwords = map (phon . head) $
 	object_names ++ class_names ++
