@@ -20,22 +20,24 @@ entities	=  [minBound..maxBound]
 characters :: [ (String, Entity) ]
 
 characters = [
-	( "mary",	M ),
-	( "charles",	C ),
-	( "william",	A ),
-	( "eva",	E ),
-	( "mrs_blaisdell",	B ),
-	( "money",	D ),
-	( "shoe",	O ),
-	( "clothes",	L ),
+	( "jose",	J ),
+	( "teresita",	W ),
+	( "jose's_father",	F ),
+	( "jose's_brother",	B ),
+	( "jack_johnson",	A ),
+	( "thanksgiving",	T ),
+	( "class",	C ),
+	( "english",	E ),
+	( "the_united_states",	U ),
+	( "patron_saint",	S ),
+	( "missal",	M ),
+	( "spanish",	H ),
+	( "dinner",	D ),
+	( "pumpkin_pie",	P ),
+	( "piece",	I ),
+	( "oven",	O ),
 	( "story",	Y ),
-	( "work",	W ),
-	( "wire",	I ),
-	( "electrocution",	U ),
-	( "house",	H ),
-	( "butcher",	R ),
-	( "bones",	N ),
-	( "help",	P )
+	( "knife",	K )
 
 	]
 
@@ -45,8 +47,8 @@ names = map swap characters
 
 male, female :: OnePlacePred
 
-male	= pred1 [C,A]
-female	= pred1 [M,E,B]
+male	= pred1 [J,F,B,A]
+female	= pred1 [W]
 
 type OnePlacePred	= Entity -> Bool
 type TwoPlacePred	= Entity -> Entity -> Bool
@@ -63,57 +65,67 @@ people, things :: OnePlacePred
 people	= \ x -> (male x || female x || x == Unspec)
 things	= \ x -> (x == Unspec || not ( people x ) )
 
-money	= pred1 [D]
-shoe	= pred1 [O]
-clothes	= pred1 [L]
-help	= pred1 [P,M,E]
-house	= pred1 [H]
-wire	= pred1 [I]
-story	= pred1 [Y]
-butcher	= pred1 [R]
-bones	= pred1 [N]
+thanksgiving	= pred1 [T]
+klass	= pred1 [C]
+english	= pred1 [E]
+united_states	= pred1 [U]
+patronsaint	= pred1 [S]
+missal	= pred1 [M]
+spanish	= pred1 [H]
+language	= pred1 [E,H]
+dinner	= pred1 [D]
+pumpkin_pie	= pred1 [P]
+piece	= pred1 [I]
+oven	= pred1 [O]
+knife	= pred1 [K]
 
-child	= pred1 [M]
+child	= pred1 [J,B]
 
+boy	= \x -> male x && child x
+isMan	= \x -> ( not $ boy x ) && male x
+isGirl	= \x -> ( female x && child x )
+isWoman	= \x -> ( not $ isGirl x ) && female x
+isParent	= pred1 $ map fst parenting
+isOffspring	= pred1 $ map snd parenting
+isMother	= \x -> ( female x && isParent x )
+father	= \x -> ( male x && isParent x )
+daughter	= \x -> ( female x && isOffspring x )
+son	= \x -> ( male x && isOffspring x )
 
+pred2 :: [(Entity,Entity)] -> TwoPlacePred
+pred3 :: [(Entity,Entity,Entity)] -> ThreePlacePred
 pred2 xs	= curry ( `elem` xs )
 pred3 xs	= curry3 ( `elem` xs )
 pred4 xs	= curry4 ( `elem` xs )
 
 --(parent,child)
-parenting	= [  (A,M),(E,M),(M,C) ]
+parenting	= [  (F,J),(F,B) ]
 --(husband,wife)
-marriages	= [ (A,E) ]
+marriages	= [ (J,W) ]
 --(divorcer,divorced)
 -- separations	= [ (D,P) ]
 -- divorces	= []
 --(boyfriend,girlfriend)
 -- unmarried_couples	= []
 --(contacter,contactee)
-possessions	= [ (E,O),(E,L),(M,O),(M,L),(B,D) ]
-laundering	= [ (M,L),(E,L) ]
-cleaning	= [ (M,H),(E,H) ]
-dropping	= [ (Unspec,I) ]
+eating	= [ (F,I),(J,I) ]
+possessions	= [ (Unspec,D),(M,O),(M,L),(B,D) ]
+
 raised_by	= pred2 $ map swap parenting
 parented	= pred2 parenting
 married		= pred2 $ marriages ++ map swap marriages
+parentMaybe :: Entity -> (Entity,Entity) -> Maybe Entity
+parentMaybe child = \rel -> if child == snd rel then Just (fst rel) else Nothing
+parents		= \child -> map (parentMaybe child) parenting
+siblings	= \a b -> (any . flip elem) (parents a) (parents b)
 have	= pred2 $ possessions ++ marriages ++ parenting 
 		++ ( map swap $ marriages ++ parenting )
-		++ ( map (\x->(agent x,W) ) working )
-wash	= pred2 laundering
-clean	= pred2 cleaning
-drop	= pred2 dropping
-
-boy	= \x -> male x && child x
-man	= \x -> ( not $ boy x ) && male x
-girl	= \x -> ( female x && child x )
-woman	= \x -> ( not $ girl x ) && female x
-parent	= pred1 $ map fst parenting
-offspring	= pred1 $ map snd parenting
-mother	= \x -> ( female x && parent x )
-father	= \x -> ( male x && parent x )
-daughter	= \x -> ( female x && offspring x )
-son	= \x -> ( male x && offspring x )
+		++ ( map (\x->(recipient x, theme x) ) giving )
+		++ eating
+knowledge	= [ (J,Unspec),(B,Unspec),(A,E),(F,E),(W,E),(J,H),(B,H),(F,H),(W,H) ]
+know	= pred2 knowledge
+speak	= \x y -> language y && know x y
+eat	= pred2 eating
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
@@ -127,30 +139,27 @@ recipient (_,_,r) = r
 location = recipient
 instrument = recipient
 
-meetings	= []
-telling	= [ (M,Y,C) ]
-giving	= [ (Unspec,O,E),(R,N,E),(R,N,M) ]
---(worker,job,site)
-working	= [ (E,P,Unspec),(M,P,B) ]
+communications	= [ (J,Unspec,A),(B,Unspec,A),(A,Unspec,F),(F,Unspec,J),(F,Unspec,B),(J,Y,W) ]
+giving	= [ (Unspec,P,F),(Unspec,P,J) ]
 --(killer,killed,instrument)
-deaths	= [ (Unspec,A,U) ]
+cuts	= [ (J,P,K),(F,P,K) ]
+--(putter,theme,location)
+cooking	= [ (Unspec,P,O),(A,P,O) ]
+--(agent,theme,location)
+looking_for	= [ (J,Unspec,M),(B,Unspec,M) ]
+seeing	= []
 
-met	= pred3 meetings
+said	= pred2 $ map (\x->(agent x, theme x) ) communications
+asked	= pred2 $ map (\x->(agent x, recipient x) ) communications
+
+
 gave	= pred3 giving
-told	= pred3 telling
-kill_with = pred3 deaths
-kill = forgetful kill_with
+told	= pred3 communications
+cut_with	= pred3 cuts
+cut	= forgetful cut_with
+bake	= pred3 cooking
 
-die = passivize kill
-
-worker	= pred1 $ map agent working
-recite = pred2 $ map ( \x -> (agent x, theme x) ) telling
-work_where	= pred2 $ map (\x -> (agent x, location x) ) working
-work_as = pred2 $ map (\x -> (agent x, theme x) ) working
-work_for	= pred2 $ map (\x -> (agent x, recipient x) ) working
-
---(teacher,school,subject,student)
-schooling = []
+recite = pred2 $ map ( \x -> (agent x, theme x) ) communications
 
 agent4, theme4, recipient4, location4 :: (Entity,Entity,Entity,Entity) -> Entity
 agent4 (a,_,_,_) = a
@@ -158,10 +167,13 @@ location4 (_,l,_,_) = l
 theme4 (_,_,t,_) = t
 recipient4 (_,_,_,r) = r
 
+-- (teacher,school,subject,student)
+schooling = [(Unspec,Unspec,Unspec,J),(Unspec,Unspec,Unspec,B)]
 studied = pred3 $ map ( \x -> (recipient4 x, theme4 x, location4 x) )
 				schooling
 studied_what = pred2 $ map (\x -> (recipient4 x, theme4 x) ) schooling
 studied_where = pred2 $ map (\x -> (recipient4 x, location4 x) ) schooling
+student = pred1 $ map recipient4 schooling
 
 forgetful :: ThreePlacePred -> TwoPlacePred
 forgetful r u v = or ( map ( r u v ) entities )
@@ -175,59 +187,3 @@ passivize4 r = \x y z -> or ( map (\u -> r u x y z ) entities )
 
 self ::  (a -> a -> b) -> a -> b
 self p	= \ x -> p x x 
-
---evaluation in model
-
-type Interp a	= String -> [a] -> Bool
-
-int :: Interp Entity
-int "man"	= \ [x] -> man x
-int "men"	= \ [x] -> man x
-int "boy"	= \ [x] -> boy x; int "boys" = int "boy"
-int "woman"	= \ [x] -> woman x
-int "women"	= \ [x] -> woman x
-int "girl"	= \ [x] -> girl x; int "girls" = int "girl"
-
-int "person"	= \ [x] -> people x
-int "thing"	= \ [x]	-> things x
-
-int "parent" = \args -> case args of 
-	[x] -> parent x
-	[x,y] -> parented y x
-int "parented" = \[x,y] -> parented y x
-int "married"	= \ [x,y] -> married y x;	int "marry"	= int "married"
-int "parents" = \ [x] -> parent x
-int "mother" = \ [x] -> mother x
-int "father" = \ [x] -> father x
-int "daughter" = \ [x] -> daughter x
-int "son" = \ [x] -> son x
-int "butcher" = \ [x] -> butcher x
-
-int "money" = \ [x] -> money x
-int "shoes" = \ [x] -> shoe x; int "shoe" = int "shoes"
-int "clothes" = \ [x] -> clothes x
-int "story" = \ [x] -> story x
-int "bones" = \ [x] -> bones x
-
-int "washed" = \[x,y] -> wash y x; int "wash" = int "washed"
-int "work" = \args -> case args of
-	[x] -> worker x
-	[x,y] -> work_where y x || work_as y x || work_for y x
-int "worked" = int "work"
-int "had" = \[x,y] -> have y x;	int "have" = int "had"
-int "kill" = \args -> case args of [x,y] -> kill y x; [x,y,z] -> kill_with z y x
-int "killed" = int "kill"
-int "die"	= \[x] -> die x; int "died"	= int "die"
-
-int "met"	= \ [x,y,z] ->	met z y x;	int "meet"	= int "met"
-int "gave"	= \ [x,y,z] ->	gave z y x;	int "give"	= int "gave"
-int "got" = \[x,y,z] -> gave x y z; int "get" = int "got"
-int "told" = \ args -> case args of [x,y] -> recite y x; [x,y,z] -> told z y x
-int "tell" = int "told"
-int "studied" = \args -> case args of
-	[x,y] -> (studied_where y x || studied_what y x)
-	[x,y,z] -> studied z y x
-int "study" = int "studied"
-int "went" = int "studied"
-int "go" = int "went"
-
