@@ -25,6 +25,7 @@ int "mother" = \ [x] -> isMother x
 int "father" = \ [x] -> father x
 int "daughter" = \ [x] -> daughter x
 int "son" = \ [x] -> son x
+int "brother" = \ [x] -> brother x
 
 int "had" = \[x,y] -> have y x;	int "have" = int "had"
 int "cut" = \args -> case args of [x,y] -> cut y x; [x,y,z] -> cut_with z y x
@@ -49,3 +50,6 @@ int "study" = int "studied"
 int "went" = int "studied"
 int "go" = int "went"
 
+int "pumpkin_pie" = \[x] -> pumpkin_pie x
+int "knife"	= \[x] -> knife x
+int "missal"	= \[x] -> missal x

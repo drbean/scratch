@@ -100,6 +100,18 @@ assign f c@(Cat phon label fs subcatlist) =
 type Lexset = [ [Cat] ]
 proper_names, object_names, class_names, prons, reflexives, interrogatives, aux, intransitives, transitives, ditransitives, determiners, preps, conjuncts :: Lexset
 
+collect_lex = [
+	("auxiliary verbs", aux),
+	("intransitive verbs", intransitives),
+	("transitive verbs", transitives),
+	("ditransitive verbs", ditransitives),
+	("object_names", object_names),
+	("class_names", class_names),
+	("prepositions", preps),
+	("determiners", determiners),
+	("possessives", possessives)
+	]
+
 proper_names = [
 	[Cat "thanksgiving" "NP" [Thrd,Neutr,Sg] []],
 	[Cat "english" "NP" [Thrd,Neutr,Sg] []],
@@ -115,7 +127,8 @@ object_names = [
 	[Cat "patron_saint" "CN" [Thrd,Neutr,Sg] []],
 	[Cat "missal" "CN" [Thrd,Neutr,Sg] []],
 	[Cat "dinner" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "pumpkin_pie" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "pumpkin_pie" "NP" [Thrd,Neutr,Sg] [],
+		Cat "pumpkin_pie" "CN" [Thrd,Neutr,Sg] []],
 	[Cat "piece" "CN" [Thrd,Neutr,Sg] []],
 	[Cat "oven" "CN" [Thrd,Neutr,Sg] []],
 	[Cat "knife" "CN" [Thrd,Neutr,Sg] []],
@@ -127,8 +140,6 @@ class_names = [
 	[Cat "parent" "VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
 		Cat "parent" "CN" [Sg,MascOrFem,Thrd]   []],
 	[Cat "parents" "CN" [Pl,MascOrFem,Thrd]   []],
-	[Cat "mother" "CN" [Sg,Fem,Thrd] []],
-	[Cat "daughter" "CN" [Sg,Fem,Thrd] []],
 	[Cat "father"    "CN" [Sg,Masc,Thrd] []],
 	[Cat "son"    "CN" [Sg,Masc,Thrd] []],
 	[Cat "brother"    "CN" [Sg,Masc,Thrd] []],
@@ -149,8 +160,7 @@ class_names = [
 	]
 
 possessives = [
-	[Cat "'s" "APOS" [ApostropheS] []],
-	[Cat "of" "OFPOS" [Of] []]
+	[Cat "'s" "APOS" [ApostropheS] []]
 	]
 
 prons = [
@@ -227,6 +237,12 @@ transitives = [
 	[Cat "ask"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "spoke"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "speak"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "cut"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
+		Cat "cut" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+					Cat "_" "PP" [With] []]],
+	[Cat "cut"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
+		Cat "cut" "VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
+					Cat "_" "PP" [With] []]],
 	[Cat "ate"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
 		Cat "ate" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
 					Cat "_" "PP" [For] []]],
@@ -253,27 +269,6 @@ transitives = [
 	]
 
 ditransitives = [
-	[Cat "studied" "VP" [Tense] [Cat "_" "PP" [At] []],
-		Cat "studied" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
-		Cat "studied" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-					Cat "_" "PP" [At] []]],
-	[Cat "study" "VP" [Infl] [Cat "_" "PP" [At] []],
-		Cat "study" "VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
-		Cat "study" "VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
-					Cat "_" "PP" [At] []]],
-	[Cat "worked" "VP" [Tense] [],
-		Cat "worked" "VP" [Tense] [Cat "_" "PP" [As,MascOrFem] []],
-		Cat "worked" "VP" [Tense] [Cat "_" "PP" [For,MascOrFem] []],
-		Cat "worked" "VP" [Tense] [Cat "_" "PP" [At,Neutr] []],
-		Cat "worked" "VP" [Tense] [Cat "_" "PP" [On,Neutr] []],
-		Cat "worked" "VP" [Tense] [Cat "_" "PP" [In,Neutr] []]],
-	[Cat "work" "NP" [AccOrDat] [],
-		Cat "work" "VP" [Infl] [],
-		Cat "work" "VP" [Infl] [Cat "_" "PP" [As,MascOrFem] []],
-		Cat "work" "VP" [Infl] [Cat "_" "PP" [For,MascOrFem] []],
-		Cat "work" "VP" [Infl] [Cat "_" "PP" [At,Neutr] []],
-		Cat "work" "VP" [Infl] [Cat "_" "PP" [On,Neutr] []],
-		Cat "work" "VP" [Infl] [Cat "_" "PP" [In,Neutr] []]],
 	[Cat "gave" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [To]       []],
 			Cat "gave" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
