@@ -116,8 +116,9 @@ parented	= pred2 parenting
 married		= pred2 $ marriages ++ map swap marriages
 parentMaybe :: Entity -> (Entity,Entity) -> Maybe Entity
 parentMaybe child = \rel -> if child == snd rel then Just (fst rel) else Nothing
-parents		= \child -> map (parentMaybe child) parenting
-siblings	= \a b -> (any . flip elem) (parents a) (parents b)
+parents		= \child -> mapMaybe (parentMaybe child) parenting
+isSiblings	= \a b -> (any . flip elem) (parents a) (parents b)
+brother	= \x -> any ( \i -> isSiblings x i ) entities
 have	= pred2 $ possessions ++ marriages ++ parenting 
 		++ ( map swap $ marriages ++ parenting )
 		++ ( map (\x->(recipient x, theme x) ) giving )
