@@ -1,0 +1,62 @@
+genre: intermediate
+fernandez:
+  jigsaw:
+    0:
+      identifier: fernandez 0
+      A: You are a young Anglo-American man, who has some new Mexican immigrants as neighbors. They don't speak much English, and you don't speak Spanish. So you have problems telling Pedro about Thanksgiving.  But you are interested in their interest in Thanksgiving.
+      B: You immigrated with your kids to the US. You can speak English. Jose and Juan ask you to talk to Jack and ask him to explain Thanksgiving. Jack tells you about pumpkin pie, so you go out and buy some pumpkin pie. But it tastes horrible.
+      C: There is no school for a few days for you and your brother Juan because of Thanksgiving. You are curious about this American holiday. Jack tells your dad about pumpkin pie. So your dad goes and buys some frozen pumpkin pie. But you can't cut it.
+      D: You and your brother Jose have no school because of Thanksgiving. You think Thanksgiving is some saint's name. San (as in San Francisco) means saint, in Spanish. You look in a church missal for San-Giving, but can't find it.
+      quiz:
+        - question: A
+          option:
+            - Jack
+            - Jose
+            - Juan
+            - Pedro
+          answer: Maria
+        - question: B
+          option:
+          answer: Alex
+        - question: C
+          option:
+          answer: Steve
+        - question: D
+          option:
+          answer: Noe
+        - question: 
+          answer  : True
+  compcomp:
+    0:
+      identifier: fernandez 0
+      White: |
+        \begin{normalsize} Thanksgiving \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Date] The fourth Thursday in November in the US. The second Monday in October in Canada.
+        \item [Character] A secular (non-religious) festival to give thanks for the harvest. In fact, similar festivals in Europe have a Christian or pagan nature.
+        \item [Activities] No gift-giving, but there is eating, family reunions, taking a nap, and watching football on TV.
+        \item [History] Most people (but not Canadians) think the ceremony started in a feast the first Pilgrims had with the Indians in New England, in thanks for helping them survive in the new land.
+        \end{description}
+      Black: |
+        \begin{normalsize}Mexicans in the US\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Resentment] There is bad feeling between many white Americans and Mexicans.
+        \item [Reasons] Much of the US used to belong to Mexico, but the US took it in wars. There are about 7 millions Mexicans in the US who are there illegally. Many Americans don't like to hear Spanish being spoken.
+        \item [Assimilation] Mexicans do become more similar to Anglo-Americans after 2-3 generations, but because of the way ordinary Americans discriminate against them, they may resist this process of assimilation.
+        \item [Thanksgiving] Mexicans in the US celebrate Thanksgiving the same way as ordinary Americans, even eating the same kind of food.
+        \end{description}
+      quiz:
+        - question: Steve has an organization called, 'Network for Teaching Entrepreneurship.'
+          answer: True
+        - question: Alex now teaches Noe economics in college.
+          answer: False
+        - question: Noe hurt himself working on a building site in elementary school.
+          answer: True
+        - question: Maria didn't need the money that Noe made selling cleaning supplies.
+          answer: False
+        - question: Noe pays for his own college education by working at a job.
+          answer: False
+        - question: Noe is the first person in his family to go to college.
+          answer: True
