@@ -327,7 +327,8 @@ lexicon lexeme = maybe [Cat "" "" [] []] id $
 
 scan :: String -> String
 scan []                      = []
-scan (x:xs) | x `elem` "'.,?" = ' ':x:scan xs
+scan ('\'':'s':xs)            = " 's" ++ scan xs
+scan (x:xs) | x `elem` ".,?" = ' ':x:scan xs
             | otherwise      =     x:scan xs
 
 type Words = [String]
