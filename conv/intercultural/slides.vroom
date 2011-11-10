@@ -1,0 +1,74 @@
+# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom::Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: Intercultural--People from other places moving to the US!
+indent: 5
+height: 18
+width: 40
+skip: 0
+
+# The following options are for Gvim usage.
+# vim: gvim
+# fuopt: maxhorz,maxvert
+# guioptions: egmLtT
+# guicursor: a:blinkon0-ver25-Cursor
+# guifont: Bitstream_Vera_Sans_Mono:h18
+
+---- center
+Intercultural: People from other places moving to the US
+
+by Dr Bean
+
+(hint: press the spacebar)
+
+----
+== Mexicans in the US
+
+advancement Americans disagreements educational hundred
+integrate July make Mexican population separate society voting
+
+Mexican _____(1) are Americans of Mexican descent. As of _____(2)
+2009, Mexican Americans _____(3) up 10.3% of the United States'
+_____(4) with over 31,689,000 Americans listed as of _____(5)
+ancestry. 
+
+Over the past _____(6) years Mexican Americans have campaigned for
+_____(7) rights, stood against _____(8) and employment
+discrimination and stood for economic and social _____(9). In the
+1960s and 1970s, there were deeper _____(10) over whether to
+_____(11) into or remain _____(12) from mainstream American
+_____(13).
+
+
+----
+== Pumpkin pie at Thanksgiving
+
+
+both earlier evolved fruits Indians New_ World pumpkin recipes
+savory settlers substituting Thanksgiving thick tradition
+
+There is a great _____(1) of serving Pumpkin Pie on _____(2) Day.
+After the European _____(3) first came to the _____(4) and were
+introduced to the _____(5) by the American _____(6), they began
+using it in _____(7) sweet and _____(8) dishes. They first made a
+pumpkin pie by _____(9) fresh pumpkin for the _____(10) pulp of
+other _____(11) that were used in their _____(12) sweet pie
+_____(13). Today the pumpkin pie has _____(12) into an open-faced
+single crust pie shell ..
+
+ ... that is filled with a smooth
+custard-like filling made with pumpkin puree, eggs, cream or milk,
+sugar, and spices (mixture usually consisting of cinnamon, ginger,
+allspice, and cloves). It is considered a "soft" pie because it is made
+with an unbaked crust and uncooked filling that is baked until the
+crust has browned and the filling has set. After letting the pie cool  
+to room temperature, it is usually served with a [53]dollop of softly
+whipped cream.
+
+

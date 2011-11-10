@@ -141,7 +141,7 @@ recipient (_,_,r) = r
 location = recipient
 instrument = recipient
 
-communications	= [ (J,Unspec,A),(B,Unspec,A),(A,Unspec,F),(F,Unspec,J),(F,Unspec,B),(J,Y,W) ]
+comms	= [ (J,Unspec,A),(B,Unspec,A),(A,Unspec,F),(F,Unspec,J),(F,Unspec,B),(J,Y,W) ]
 giving	= [ (Unspec,P,F),(Unspec,P,J) ]
 --(killer,killed,instrument)
 cuts	= [ (J,P,K),(F,P,K) ]
@@ -151,19 +151,20 @@ cooking	= [ (Unspec,P,O),(A,P,O) ]
 looking_for	= [ (J,Unspec,M),(B,Unspec,M) ]
 seeing	= []
 
-said	= pred2 $ map (\x->(agent x, theme x) ) communications
-asked	= pred2 $ map (\x->(agent x, recipient x) ) communications
-talked	= pred2 $ map (\x->(agent x, recipient x) ) communications
-talk_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) communications
+said	= pred2 $ map (\x->(agent x, theme x) ) comms
+asked	= pred2 $ map (\x->(agent x, recipient x) ) comms
+talked	= pred2 $ map (\x->(agent x, recipient x) ) comms
+              ++  map (\(agent,theme,recipient)->(recipient, agent) ) comms
+talk_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
 
 
 gave	= pred3 giving
-told	= pred3 communications
+told	= pred3 comms
 cut_with	= pred3 cuts
 cut	= forgetful cut_with
 bake	= pred3 cooking
 
-recite = pred2 $ map ( \x -> (agent x, theme x) ) communications
+recite = pred2 $ map ( \x -> (agent x, theme x) ) comms
 
 agent4, theme4, recipient4, location4 :: (Entity,Entity,Entity,Entity) -> Entity
 agent4 (a,_,_,_) = a
