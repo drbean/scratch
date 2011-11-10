@@ -124,7 +124,8 @@ have	= pred2 $ possessions ++ marriages ++ parenting
 		++ ( map (\x->(recipient x, theme x) ) giving )
 		++ eating
 knowledge	= [ (J,Unspec),(B,Unspec),(A,E),(F,E),(W,E),(J,H),(B,H),(F,H),(W,H) ]
-know	= pred2 knowledge
+acquaintances	= [ (A,F),(A,J),(A,B) ]
+know	= pred2 $ knowledge ++ acquaintances ++ map swap acquaintances
 speak	= \x y -> language y && know x y
 eat	= pred2 eating
 
