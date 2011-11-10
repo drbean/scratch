@@ -8,9 +8,9 @@ data ParseTree a b =  Ep | Leaf a | Branch b [ParseTree a b]
 
 instance (Show a, Show b) => Show (ParseTree a b) where
   show Ep            = "[]"
-  show (Leaf t)      = "Leaf " ++ show t
+  show (Leaf t)      = "\n\tLeaf " ++ show t
   show (Branch l ts) = "\n[Branch " ++ "\t" ++ show l  ++ "\t" 
-                            ++ show ts ++ "]"
+                            ++ show ts ++ "\n]"
 type Pos = [Int]
 
 pos ::  ParseTree a b -> [Pos]
@@ -34,7 +34,7 @@ data Feat = Masc  | Fem  | Neutr | MascOrFem
           | Pers  | Refl | Wh 
           | Tense | Infl
           | About | At | As | In | On | For | With | By | To | From | Through
-	  | ApostropheS     | Of
+	  | Of
           deriving (Eq,Show,Ord)
 
 type Agreement = [Feat]
@@ -48,7 +48,7 @@ gcase    = filter (`elem` [Nom,AccOrDat])
 pronType = filter (`elem` [Pers,Refl,Wh]) 
 tense    = filter (`elem` [Tense,Infl]) 
 prepType = filter (`elem` [About,As,At,In,On,For,With,By,To,From,Through]) 
-posType  = filter (`elem` [ApostropheS,Of])
+posType  = filter (`elem` [Of])
 
 prune :: Agreement -> Agreement
 prune fs = if   (Masc `elem` fs || Fem `elem` fs)
@@ -62,8 +62,8 @@ data Cat      = Cat Phon CatLabel Agreement [Cat]
               deriving Eq
 
 instance Show Cat where
-  show (Cat "_"  label agr subcatlist) = label ++ show agr
-  show (Cat phon label agr subcats) = phon  ++ " " ++ label ++ show agr ++ show subcats
+  show (Cat "_"  label agr subcatlist) = "Cat " ++ label ++ show agr ++ show subcatlist
+  show (Cat phon label agr subcats) = "Cat " ++ phon  ++ " " ++ label ++ show agr ++ show subcats
 
 phon :: Cat -> String
 phon (Cat ph _ _ _) = ph
@@ -160,7 +160,7 @@ class_names = [
 	]
 
 possessives = [
-	[Cat "'s" "APOS" [ApostropheS] []]
+	[Cat "'s" "APOS" [] []]
 	]
 
 prons = [
@@ -479,8 +479,7 @@ cond2R = \ us xs ->
          (s2,ws,zs)   <- prsS vs2 ys2 ]
 
 prsNP :: SPARSER Cat Cat 
-prsNP = prsGEN  <||> leafPS "NP" <||> npR <||> pop "NP" 
--- prsNP = leafPS "NP" <||> npR <||> pop "NP" 
+prsNP = leafPS "NP" <||> npR <||> pop "NP" 
 
 npR :: SPARSER Cat Cat
 npR = \ us xs -> 
@@ -490,16 +489,11 @@ npR = \ us xs ->
        fs         <- combine (t2c det) (t2c cn),
       agreeC det cn ]
 
-prsGEN :: SPARSER Cat Cat
--- prsGEN = prsNP <::> aposR <::> prsCN
-prsGEN = aposR <||> ofR
-
 aposR :: SPARSER Cat Cat
 aposR = \us xs ->
-  [ (Branch (Cat "_" "NP" (fs (t2c cn2)) []) [pos,np1,cn2], (us++os), ps) |
+  [ (Branch (Cat "_" "DET" [] []) [pos,np1], (us++ws), zs) |
       (np1,vs,ys) <- leafPS "NP" us xs,
-      (pos,ws,zs) <- prsAPOS vs ys,
-      (cn2,os,ps) <- prsCN ws zs
+      (pos,ws,zs) <- prsAPOS vs ys
       ]
 
 ofR :: SPARSER Cat Cat
@@ -520,7 +514,7 @@ prsZERO :: SPARSER Cat Cat
 prsZERO = succeedS $ Leaf (Cat "zero" "DET" [Pl] [])
 
 prsDET :: SPARSER Cat Cat
-prsDET = leafPS "DET" <||> prsZERO 
+prsDET = leafPS "DET" <||> aposR <||> prsZERO 
 
 prsCN :: SPARSER Cat Cat
 prsCN = leafPS "CN" <||> cnrelR

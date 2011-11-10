@@ -79,12 +79,13 @@ transNP :: ParseTree Cat Cat ->
 transNP (Leaf (Cat "#"  "NP" _ _)) = \ p -> p (Var 0)
 transNP (Leaf (Cat name "NP" _ _)) = \ p -> p (Const (ided name))
 transNP (Branch (Cat _ "NP" _ _) [det,cn]) = (transDET det) (transCN cn) 
-transNP (Branch (Cat _ "NP" _ _) [pos,np1,cn2]) =
-	(transDET (Leaf (Cat "some" "DET" [] []))) (transCN cn2)
 
 transDET :: ParseTree Cat Cat -> (Term -> LF)
                               -> (Term -> LF)
                               -> LF
+transDET (Branch (Cat _ "DET" _ _)
+	[Leaf (Cat "'s" "APOS" _ _), Leaf (Cat _ "NP" _ _)]) =
+	  \ p q -> Exists (\v -> Conj [p v, q v] )
 transDET (Leaf (Cat "every" "DET" _ _)) = 
   \ p q -> Forall (\v -> Impl (p v) (q v) )
 transDET (Leaf (Cat "all" "DET" _ _)) = 
