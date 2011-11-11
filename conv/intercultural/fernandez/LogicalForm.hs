@@ -64,6 +64,11 @@ ishowForms [] _ = ""
 ishowForms [f] i = ishow f i
 ishowForms (f:fs) i = ishow f i ++ "," ++ ishowForms fs i
 
+transTXT :: ParseTree Cat Cat -> LF
+transTXT (Branch (Cat _ "S" _ _) [s]) = transS s
+transTXT (Branch (Cat _ "TXT" _ _) [s,conj,txt]) =
+	Conj [ transS s, transTXT txt ]
+
 transS :: ParseTree Cat Cat -> LF
 transS Ep = NonProposition
 transS (Branch (Cat _ "S" _ _) [np,vp]) = 
@@ -264,11 +269,11 @@ test_possessives = [
 	"Jose's father ate pumpkin_pie.",
 	"Did Jose's father eat pumpkin_pie?",
 	"Did Jose's brother eat pumpkin_pie?",
-	"Did Jose's mother speak English?",
 	"Did Jose's father speak English?",
 	"Did Jose's brother speak English?",
-	"Did Jose's mother speak Spanish?",
 	"Did Jose's brother know Spanish?",
+	-- "Did Jose's mother speak Spanish?",
+	-- "Did Jose's mother speak English?",
 	"Did the sister of Jose know Spanish?",
 	"Did the father of Jose eat pumpkin_pie?",
 	"Did the brother of Jose eat pumpkin_pie?",
