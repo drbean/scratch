@@ -233,8 +233,12 @@ transitives = [
 	[Cat "see"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "say"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "said"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "asked"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "ask"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "asked"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
+		Cat "asked"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+					Cat "_" "PP" [About] []]],
+	[Cat "ask"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []],
+		Cat "ask"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
+					Cat "_" "PP" [About] []]],
 	[Cat "spoke"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "speak"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "cut"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
@@ -249,14 +253,14 @@ transitives = [
 	[Cat "eat"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []],
 		Cat "ate" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
 					Cat "_" "PP" [For] []]],
-	[Cat "talked"	"VP" [Tense] [Cat "_" "PP" [To] []]],
+	[Cat "talked"	"VP" [Tense] [Cat "_" "PP" [To] []],
 --		Cat "talked"	"VP" [Tense] [Cat "_" "PP" [About] []],
---		Cat "talked"	"VP" [Tense] [Cat "_" "PP" [To] [],
---					Cat "_" "PP" [About] []]],
-	[Cat "talk"	"VP" [Infl]  [Cat "_" "PP" [To] []]],
+		Cat "talked"	"VP" [Tense] [Cat "_" "PP" [To] [],
+					Cat "_" "PP" [About] []]],
+	[Cat "talk"	"VP" [Infl]  [Cat "_" "PP" [To] []],
 --		Cat "talk"	"VP" [Infl] [Cat "_" "PP" [About] []],
---		Cat "talk"	"VP" [Infl] [Cat "_" "PP" [To] [],
---					Cat "_" "PP" [About] []]],
+		Cat "talk"	"VP" [Infl] [Cat "_" "PP" [To] [],
+					Cat "_" "PP" [About] []]],
 	[Cat "knew"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
 		Cat "knew"	"VP" [Tense] [Cat "_" "PP" [About] []]],
 	[Cat "know"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []],
@@ -311,9 +315,10 @@ preps = [
 
 conjuncts = [
 	[Cat "and"  "CONJ" [] []],
-	[Cat "."    "CONJ" [] []],
-	[Cat "if"   "COND" [] []],
-	[Cat "then" "THEN" [] []]
+	[Cat "but"  "CONJ" [] []],
+	[Cat "."    "CONJ" [] []]
+	-- [Cat "if"   "COND" [] []],
+	-- [Cat "then" "THEN" [] []]
 	]
 
 --lexicon :: String -> [Cat]
@@ -327,7 +332,7 @@ lexicon lexeme = maybe [Cat "" "" [] []] id $
 
 scan :: String -> String
 scan []                      = []
-scan ('\'':'s':xs)            = " 's" ++ scan xs
+scan ('\'':'s':xs)           = " 's" ++ scan xs
 scan (x:xs) | x `elem` ".,?" = ' ':x:scan xs
             | otherwise      =     x:scan xs
 
