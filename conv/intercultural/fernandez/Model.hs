@@ -141,7 +141,7 @@ recipient (_,_,r) = r
 location = recipient
 instrument = recipient
 
-comms	= [ (J,Unspec,A),(B,Unspec,A),(A,Unspec,F),(F,Unspec,J),(F,Unspec,B),(J,Y,W) ]
+comms	= [ (J,T,A),(B,T,A),(A,T,F),(F,T,J),(F,T,B),(J,Y,W) ]
 giving	= [ (Unspec,P,F),(Unspec,P,J) ]
 --(killer,killed,instrument)
 cuts	= [ (J,P,K),(F,P,K) ]
@@ -153,6 +153,7 @@ seeing	= []
 
 said	= pred2 $ map (\x->(agent x, theme x) ) comms
 asked	= pred2 $ map (\x->(agent x, recipient x) ) comms
+ask_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
 talked	= pred2 $ map (\x->(agent x, recipient x) ) comms
               ++  map (\(agent,theme,recipient)->(recipient, agent) ) comms
 talk_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
