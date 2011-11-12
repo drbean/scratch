@@ -66,8 +66,11 @@ ishowForms (f:fs) i = ishow f i ++ "," ++ ishowForms fs i
 
 transTXT :: ParseTree Cat Cat -> LF
 transTXT (Branch (Cat _ "S" _ _) [s]) = transS s
-transTXT (Branch (Cat _ "TXT" _ _) [s,conj,txt]) =
-	Conj [ transS s, transTXT txt ]
+transTXT (Branch (Cat _ "S" _ _) s@[np,vp]) = transS $ head s
+transTXT (Branch (Cat _ "TXT" _ _) [s,conj, s2@(Branch (Cat _ "S" _ _) _)]) =
+	Conj [ transS s, transS s2 ]
+transTXT (Branch (Cat _ "TXT" _ _) [s,conj, s2@(Branch (Cat _ "TXT" _ _) _)]) =
+	Conj [ transS s, transTXT s2 ]
 
 transS :: ParseTree Cat Cat -> LF
 transS Ep = NonProposition
@@ -265,6 +268,18 @@ singleton :: [a] -> Bool
 singleton [x]	= True
 singleton _	= False
 
+test_text = [
+	"Jose's brother spoke Spanish.",
+	"Jose had a brother and a brother spoke Spanish.",
+	"Jose knew Spanish and Jack Johnson spoke English.",
+	"Jose spoke Spanish but Jack Johnson didn't speak Spanish.",
+	"Jose talked to Jack Johnson and Jack Johnson talked to Jose's father.",
+	"Jose talked to Jack Johnson and Jack Johnson talked to Jose's father " ++
+		"and Jose's father talked to Jose.",
+	"Jose's brother looked at a missal. " ++
+	"Jose talked to Jack Johnson. " ++
+	"Jose asked Jack Johnson about Thanksgiving."
+	]
 test_possessives = [
 	"Jose's father ate pumpkin_pie.",
 	"Did Jose's father eat pumpkin_pie?",
