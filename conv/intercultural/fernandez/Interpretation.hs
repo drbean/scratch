@@ -31,7 +31,10 @@ int "had" = \[x,y] -> have y x;	int "have" = int "had"
 int "cut" = \args -> case args of [x,y] -> cut y x; [x,y,z] -> cut_with z y x
 int "knew" = \[x,y] -> know y x; int "know" = int "knew"
 int "spoke" = \[x,y] -> speak y x; int "speak" = int "spoke"
-int "asked" = \[x,y] -> asked y x; int "ask" = int "asked"
+int "asked" = \args -> case args of 
+	[x,y] -> asked y x
+	[x,y,z] -> ask_about z y x
+int "ask" = int "asked"
 int "talked" = \args -> case args of 
 	[x,y] -> talked y x
 	[x,y,z] -> talk_about z y x
