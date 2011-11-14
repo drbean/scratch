@@ -20,24 +20,24 @@ entities	=  [minBound..maxBound]
 characters :: [ (String, Entity) ]
 
 characters = [
-	( "jose",	J ),
-	( "teresita",	W ),
-	( "jose's_father",	F ),
-	( "jose's_brother",	B ),
-	( "jack_johnson",	A ),
-	( "thanksgiving",	T ),
-	( "class",	C ),
+	( "theresa",	T ),
+	( "stephanie",	S ),
+	( "mai",	F ),
+	( "matthew",	B ),
+	( "culture",	C ),
+	( "upbringing",	G ),
+	( "boy",	O ),
+	( "necklace",	N ),
+	( "vietnam",	V ),
+	( "vietnamese",	M ),
 	( "english",	E ),
 	( "the_united_states",	U ),
-	( "patron_saint",	S ),
-	( "missal",	M ),
-	( "spanish",	H ),
-	( "dinner",	D ),
-	( "pumpkin_pie",	P ),
-	( "piece",	I ),
-	( "oven",	O ),
-	( "story",	Y ),
-	( "knife",	K )
+	( "present",	P ),
+	( "sense",	I ),
+	( "right",	R ),
+	( "wrong",	W ),
+	( "disappointment",	K ),
+	( "story",	Y)
 
 	]
 
@@ -47,8 +47,8 @@ names = map swap characters
 
 male, female :: OnePlacePred
 
-male	= pred1 [J,F,B,A]
-female	= pred1 [W]
+male	= pred1 [F,B,O]
+female	= pred1 [T,S]
 
 type OnePlacePred	= Entity -> Bool
 type TwoPlacePred	= Entity -> Entity -> Bool
@@ -65,21 +65,16 @@ people, things :: OnePlacePred
 people	= \ x -> (male x || female x || x == Unspec)
 things	= \ x -> (x == Unspec || not ( people x ) )
 
-thanksgiving	= pred1 [T]
-klass	= pred1 [C]
-english	= pred1 [E]
-united_states	= pred1 [U]
-patronsaint	= pred1 [S]
-missal	= pred1 [M]
-spanish	= pred1 [H]
-language	= pred1 [E,H]
-dinner	= pred1 [D]
-pumpkin_pie	= pred1 [P]
-piece	= pred1 [I]
-oven	= pred1 [O]
-knife	= pred1 [K]
+culture	= pred1 [C]
+upbringing	= pred1 [G]
+necklace	= pred1 [N]
+present	= pred1 [P]
+sense	= pred1 [I]
+language	= pred1 [E,V]
+disappointment	= pred1 [K]
+story	= pred1 [Y]
 
-child	= pred1 [J,B]
+child	= pred1 [S,B]
 
 boy	= \x -> male x && child x
 isMan	= \x -> ( not $ boy x ) && male x
@@ -99,16 +94,15 @@ pred3 xs	= curry3 ( `elem` xs )
 pred4 xs	= curry4 ( `elem` xs )
 
 --(parent,child)
-parenting	= [  (F,J),(F,B) ]
+parenting	= [  (T,S),(F,S),(T,B),(F,B) ]
 --(husband,wife)
-marriages	= [ (J,W) ]
+marriages	= [ (F,T) ]
 --(divorcer,divorced)
 -- separations	= [ (D,P) ]
 -- divorces	= []
 --(boyfriend,girlfriend)
 -- unmarried_couples	= []
 --(contacter,contactee)
-eating	= [  (F,P),(J,P),(F,I),(J,I) ]
 possessions	= [ (Unspec,D),(M,O),(M,L),(B,D) ]
 
 raised_by	= pred2 $ map swap parenting
@@ -119,15 +113,16 @@ parentMaybe child = \rel -> if child == snd rel then Just (fst rel) else Nothing
 parents		= \child -> mapMaybe (parentMaybe child) parenting
 isSiblings	= \a b -> (any . flip elem) (parents a) (parents b)
 brother	= \x -> any ( \i -> isSiblings x i ) entities
+
+disappointment = []
+disappoint	= pred2 $ disappointment
 have	= pred2 $ possessions ++ marriages ++ parenting 
 		++ ( map swap $ marriages ++ parenting )
 		++ ( map (\x->(recipient x, theme x) ) giving )
-		++ eating
-knowledge	= [ (J,Unspec),(B,Unspec),(A,E),(F,E),(W,E),(J,H),(B,H),(F,H),(W,H) ]
-acquaintances	= [ (A,F),(A,J),(A,B) ]
+knowledge	= [(F,E),(F,V),(T,E),(T,V),(S,E),(S,V),(B,E),(B,V)]
+acquaintances	= [ (O,S) ]
 know	= pred2 $ knowledge ++ acquaintances ++ map swap acquaintances
 speak	= \x y -> language y && know x y
-eat	= pred2 eating
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
@@ -141,16 +136,17 @@ recipient (_,_,r) = r
 location = recipient
 instrument = recipient
 
-comms	= [ (J,T,A),(B,T,A),(A,T,F),(F,T,J),(F,T,B),(J,Y,W) ]
-giving	= [ (Unspec,P,F),(Unspec,P,J) ]
+comms	= [ (T,G,S) ]
+giving	= [ (O,N,S) ]
 --(killer,killed,instrument)
-cuts	= [ (J,P,K),(F,P,K) ]
 --(putter,theme,location)
-cooking	= [ (Unspec,P,O),(A,P,O) ]
+cooking = []
 --(agent,theme,location)
-looking_for	= [ (J,Unspec,M),(B,Unspec,M) ]
+looking_back	= [(T,G,Unspec)]
 seeing	= []
 
+look_back	= pred1 $ map agent looking_back
+look_back_on	= pred2 $ map (\x->(agent x, theme x) ) looking_back
 said	= pred2 $ map (\x->(agent x, theme x) ) comms
 asked	= pred2 $ map (\x->(agent x, recipient x) ) comms
 ask_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
@@ -161,9 +157,6 @@ talk_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
 
 gave	= pred3 giving
 told	= pred3 comms
-cut_with	= pred3 cuts
-cut	= forgetful cut_with
-bake	= pred3 cooking
 
 recite = pred2 $ map ( \x -> (agent x, theme x) ) comms
 
@@ -174,7 +167,7 @@ theme4 (_,_,t,_) = t
 recipient4 (_,_,_,r) = r
 
 -- (teacher,school,subject,student)
-schooling = [(Unspec,Unspec,Unspec,J),(Unspec,Unspec,Unspec,B)]
+schooling = []
 studied = pred3 $ map ( \x -> (recipient4 x, theme4 x, location4 x) )
 				schooling
 studied_what = pred2 $ map (\x -> (recipient4 x, theme4 x) ) schooling

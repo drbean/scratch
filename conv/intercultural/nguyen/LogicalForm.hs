@@ -65,8 +65,7 @@ ishowForms [f] i = ishow f i
 ishowForms (f:fs) i = ishow f i ++ "," ++ ishowForms fs i
 
 transTXT :: ParseTree Cat Cat -> LF
-transTXT (Branch (Cat _ "S" _ _) [s]) = transS s
-transTXT (Branch (Cat _ "S" _ _) s@[np,vp]) = transS $ head s
+transTXT s@(Branch (Cat _ "S" _ _) _) = transS s
 transTXT (Branch (Cat _ "TXT" _ _) [s,conj, s2@(Branch (Cat _ "S" _ _) _)]) =
 	Conj [ transS s, transS s2 ]
 transTXT (Branch (Cat _ "TXT" _ _) [s,conj, s2@(Branch (Cat _ "TXT" _ _) _)]) =
@@ -269,35 +268,38 @@ singleton [x]	= True
 singleton _	= False
 
 test_text = [
-	"Jose's brother spoke Spanish.",
-	"Jose had a brother and a brother spoke Spanish.",
-	"Jose knew Spanish and Jack Johnson spoke English.",
-	"Jose spoke Spanish but Jack Johnson didn't speak Spanish.",
-	"Jose talked to Jack Johnson and Jack Johnson talked to Jose's father.",
-	"Jose talked to Jack Johnson and Jack Johnson talked to Jose's father " ++
-		"and Jose's father talked to Jose.",
-	"Jose's brother looked at a missal. " ++
-	"Jose talked to Jack Johnson. " ++
-	"Jose asked Jack Johnson about Thanksgiving."
+	"Stephanie spoke Vietnamese.",
+	"Stephanie's brother spoke Vietnamese.",
+	"Stephanie had a brother and a brother spoke Vietnamese.",
+	"Stephanie knew Vietnamese and Theresa spoke English.",
+	"Stephanie spoke Vietnamese but Theresa didn't speak Vietnamese.",
+	"Stephanie talked to Theresa and Theresa talked to Stephanie's father.",
+	"Stephanie talked to Theresa and Theresa talked to Stephanie's father " ++
+		"and Stephanie's father talked to Stephanie.",
+	"Stephanie's brother looked back on Stephanie's upbringing. \
+	\Stephanie talked to Theresa. \
+	\Stephanie asked Theresa about Vietnam."
 	]
 test_possessives = [
-	"Jose's father ate pumpkin_pie.",
-	"Did Jose's father eat pumpkin_pie?",
-	"Did Jose's brother eat pumpkin_pie?",
-	"Did Jose's father speak English?",
-	"Did Jose's brother speak English?",
-	"Did Jose's brother know Spanish?",
-	-- "Did Jose's mother speak Spanish?",
-	-- "Did Jose's mother speak English?",
-	"Did the sister of Jose know Spanish?",
-	"Did the father of Jose eat pumpkin_pie?",
-	"Did the brother of Jose eat pumpkin_pie?",
-	"Did the mother of Jose speak English?",
-	"Did the father of Jose speak English?",
-	"Did the brother of Jose speak English?",
-	"Did the mother of Jose speak Spanish?",
-	"Did the brother of Jose know Spanish?",
-	"Did the sister of Jose know Spanish?"
+	"Theresa looked back.",
+	"Stephanie's father looked back.",
+	"Stephanie's father looked back on Stephanie's upbringing.",
+	"Did Stephanie's father look back on Stephanie's upbringing?",
+	"Did Stephanie's brother look back on Stephanie's upbringing?",
+	"Did Stephanie's father speak English?",
+	"Did Stephanie's brother speak English?",
+	"Did Stephanie's brother know Vietnamese?",
+	"Did Stephanie's mother speak Vietnamese?",
+	"Did Stephanie's mother speak English?",
+	"Did the sister of Stephanie know Vietnamese?",
+	"Did the father of Stephanie look back on Stephanie's upbringing?",
+	"Did the brother of Stephanie look back on Stephanie's upbringing?",
+	"Did the mother of Stephanie speak English?",
+	"Did the father of Stephanie speak English?",
+	"Did the brother of Stephanie speak English?",
+	"Did the mother of Stephanie speak Vietnamese?",
+	"Did the brother of Stephanie know Vietnamese?",
+	"Did the sister of Stephanie know Vietnamese?"
 	]
 haves = [
 	"Did Ken have Henry?",
@@ -317,49 +319,49 @@ haves = [
 	"Did Henry have a parent?",
 	"Did Henry have some parents?",
 	"Did Henry have parents?",
-	"Did Ken have work?",
-	"Did John have work?",
-	"Did Henry have work?"
+	"Did Ken have look back?",
+	"Did John have look back?",
+	"Did Henry have look back?"
 	]
 ungrammatical = [
-	"Did John worked?",
-	"Ken work?",
-	"Man worked.",
+	"Did John looked back?",
+	"Ken look back?",
+	"Man looked back.",
 	"Some man work.",
-	"No worked.",
+	"No looked back.",
 	"No-one work.",
 	"Did John teach?",
 	"John teach Ken.",
 	"Ken taught."
 	]
 intransitives = [
-	"Did John work?",
-	"Did Ken work?",
-	"Did Henry work?",
-	"A man worked.",
-	"Some man worked.",
-	"No one worked.",
-	"No-one worked.",
-	"Everybody worked.",
-	"Everyone worked.",
-	-- "Many persons worked.",
-	"No person worked.",
-	"Did the man work?",
-	"Did some man work?",
-	"Did some men work?",
-	"Did some woman work?",
-	"Did some women work?",
-	"Most men worked.",
-	"Most men didn't work.",
-	"Several men worked.",
-	"Several men didn't work.",
-	"Many men worked.",
+	"Did Stephanie look back?",
+	"Did Theresa look back?",
+	"Did Stephanie's father look back?",
+	"A man looked back.",
+	"Some man looked back.",
+	"No one looked back.",
+	"No-one looked back.",
+	"Everybody looked back.",
+	"Everyone looked back.",
+	-- "Many persons looked back.",
+	"No person looked back.",
+	"Did the man look back?",
+	"Did some man look back?",
+	"Did some men look back?",
+	"Did some woman look back?",
+	"Did some women look back?",
+	"Most men looked back.",
+	"Most men didn't look back.",
+	"Several men looked back.",
+	"Several men didn't look back.",
+	"Many men looked back.",
 	"Many men didn't work.",
-	"All men worked.",
-	"No man worked.",
-	"Did Henry work at a farm?",
-	"Henry worked on a farm?",
-	"Henry worked in a farm?"
+	"All men looked back.",
+	"No man looked back.",
+	"Did Henry look back at a farm?",
+	"Henry looked back on a farm?",
+	"Henry looked back in a farm?"
 	]
 transitives = [
 	"Did John study law?",
@@ -404,22 +406,22 @@ ditransitive_tests = [
 	"Someone gave someone something."
 	]
 wh_questions =[
-	"Who worked?",
+	"Who looked back?",
 	"Who did John teach?",
 	"Who taught John?",
 	"Who gave the shoes to John?",
 	"Who gave some shoes to John?",
-	"Which person worked?",
+	"Which person looked back?",
 	"Which person did John teach?",
 	"To whom did Ken give some shoes?",
 	"Who did Ken give some shoes to?"
 	]
 relclauses = [
-	"A woman who taught John worked.",
-	"The woman who taught John worked.",
-	"Did the woman who taught John work?",
-	"Did every woman who taught John work?",
-	"The woman who gave the shoes to John worked.",
+	"A woman who taught John looked back.",
+	"The woman who taught John looked back.",
+	"Did the woman who taught John look back?",
+	"Did every woman who taught John look back?",
+	"The woman who gave the shoes to John looked back.",
 	"Ken divorced the man that she gave the shoes to.",
 	"Who killed the man that helped the woman " 
 	 ++ "that had a boyfriend."

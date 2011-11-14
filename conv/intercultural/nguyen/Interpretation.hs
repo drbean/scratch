@@ -27,9 +27,14 @@ int "daughter" = \ [x] -> daughter x
 int "son" = \ [x] -> son x
 int "brother" = \ [x] -> brother x
 
+int "disappointed" = \[x,y] -> disappoint y x
+int "disappointed" = int "disappointed"
 int "had" = \[x,y] -> have y x;	int "have" = int "had"
-int "cut" = \args -> case args of [x,y] -> cut y x; [x,y,z] -> cut_with z y x
 int "knew" = \[x,y] -> know y x; int "know" = int "knew"
+int "look_back" = \args -> case args of
+	[x] -> look_back x
+	[x,y] -> look_back_on y x
+int "looked_back" = int "look_back"
 int "spoke" = \[x,y] -> speak y x; int "speak" = int "spoke"
 int "asked" = \args -> case args of 
 	[x,y] -> asked y x
@@ -40,10 +45,10 @@ int "talked" = \args -> case args of
 	[x,y,z] -> talk_about z y x
 int "talk" = int "talked"
 int "said" = \[x,y] -> said y x; int "say" = int "said"
-int "ate" = \[x,y] -> eat y x; int "eat" = int "ate"
 
 int "gave"	= \ [x,y,z] ->	gave z y x;	int "give"	= int "gave"
 int "got" = \[x,y,z] -> gave x y z; int "get" = int "got"
+int "accepted" = int "got"; int "accept" = int "accepted"
 int "told" = \ args -> case args of [x,y] -> recite y x; [x,y,z] -> told z y x
 int "tell" = int "told"
 int "studied" = \args -> case args of
@@ -53,6 +58,9 @@ int "study" = int "studied"
 int "went" = int "studied"
 int "go" = int "went"
 
-int "pumpkin_pie" = \[x] -> pumpkin_pie x
-int "knife"	= \[x] -> knife x
-int "missal"	= \[x] -> missal x
+int "culture" = \[x] -> culture x
+int "upbringing"	= \[x] -> upbringing x
+int "necklace"	= \[x] -> necklace x
+int "present"	= \[x] -> present x
+int "sense"	= \[x] -> sense x
+int "story"	= \[x] -> story x
