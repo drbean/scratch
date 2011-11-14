@@ -66,6 +66,7 @@ ishowForms (f:fs) i = ishow f i ++ "," ++ ishowForms fs i
 
 transTXT :: ParseTree Cat Cat -> LF
 transTXT s@(Branch (Cat _ "S" _ _) _) = transS s
+transTXT (Branch (Cat _ "YN" _ _) [Leaf (Cat _ "AUX" _ _),s]) = transS s
 transTXT (Branch (Cat _ "TXT" _ _) [s,conj, s2@(Branch (Cat _ "S" _ _) _)]) =
 	Conj [ transS s, transS s2 ]
 transTXT (Branch (Cat _ "TXT" _ _) [s,conj, s2@(Branch (Cat _ "TXT" _ _) _)]) =
@@ -282,7 +283,10 @@ test_text = [
 	]
 test_possessives = [
 	"Theresa looked back.",
+	"Theresa's daughter looked back.",
 	"Stephanie's father looked back.",
+	"Theresa's daughter looked back on Stephanie's upbringing.",
+	-- "Theresa's daughter looked back on Theresa's daughter's upbringing.",
 	"Stephanie's father looked back on Stephanie's upbringing.",
 	"Did Stephanie's father look back on Stephanie's upbringing?",
 	"Did Stephanie's brother look back on Stephanie's upbringing?",
