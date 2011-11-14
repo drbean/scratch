@@ -8,9 +8,9 @@ data ParseTree a b =  Ep | Leaf a | Branch b [ParseTree a b]
 
 instance (Show a, Show b) => Show (ParseTree a b) where
   show Ep            = "[]"
-  show (Leaf t)      = "\n\tLeaf " ++ show t
-  show (Branch l ts) = "\n[Branch " ++ "\t" ++ show l  ++ "\t" 
-                            ++ show ts ++ "\n]"
+  show (Leaf t)      = "\n\tLeaf " ++ "(" ++ show t ++ ")"
+  show (Branch l ts) = "\nBranch " ++ "\t" ++ show l  ++ "\t" 
+                            ++ show ts ++ "\n"
 type Pos = [Int]
 
 pos ::  ParseTree a b -> [Pos]
@@ -113,25 +113,24 @@ collect_lex = [
 	]
 
 proper_names = [
-	[Cat "thanksgiving" "NP" [Thrd,Neutr,Sg] []],
 	[Cat "english" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "spanish" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "vietnam" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "vietnamese" "NP" [Thrd,Neutr,Sg] []],
 	[Cat "the_united_states" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "jose"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "jack_johnson"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "teresita"	"NP" [Thrd,Fem,Sg] []]
+	[Cat "mai"	"NP" [Thrd,Masc,Sg] []],
+	[Cat "stephanie"	"NP" [Thrd,Fem,Sg] []],
+	[Cat "theresa"	"NP" [Thrd,Fem,Sg] []]
 	]
 
 object_names = [
-	[Cat "class" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "patron_saint" "CN" [Thrd,Neutr,Sg] []],
-	[Cat "missal" "CN" [Thrd,Neutr,Sg] []],
-	[Cat "dinner" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "pumpkin_pie" "NP" [Thrd,Neutr,Sg] [],
-		Cat "pumpkin_pie" "CN" [Thrd,Neutr,Sg] []],
-	[Cat "piece" "CN" [Thrd,Neutr,Sg] []],
-	[Cat "oven" "CN" [Thrd,Neutr,Sg] []],
-	[Cat "knife" "CN" [Thrd,Neutr,Sg] []],
+	[Cat "culture" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "upbringing" "CN" [Thrd,Neutr,Sg] []],
+	[Cat "necklace" "CN" [Thrd,Neutr,Sg] []],
+	[Cat "present" "CN" [Thrd,Neutr,Sg] []],
+	[Cat "sense" "CN" [Thrd,Neutr,Sg] []],
+	[Cat "right" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "wrong" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "disappointment" "CN" [Thrd,Neutr,Sg] []],
 	[Cat "story" "CN" [Thrd,Neutr,Sg] []]
 	]
 
@@ -141,6 +140,8 @@ class_names = [
 		Cat "parent" "CN" [Sg,MascOrFem,Thrd]   []],
 	[Cat "parents" "CN" [Pl,MascOrFem,Thrd]   []],
 	[Cat "father"    "CN" [Sg,Masc,Thrd] []],
+	[Cat "mother"    "CN" [Sg,Fem,Thrd] []],
+	[Cat "daughter"    "CN" [Sg,Fem,Thrd] []],
 	[Cat "son"    "CN" [Sg,Masc,Thrd] []],
 	[Cat "brother"    "CN" [Sg,Masc,Thrd] []],
 	[Cat "thing"   "CN" [Sg,Neutr,Thrd] []],
@@ -154,9 +155,7 @@ class_names = [
 	[Cat "girl"    "CN" [Sg,Fem,Thrd]   []],
 	[Cat "girls"   "CN" [Pl,Fem,Thrd]   []],
 	[Cat "woman"   "CN" [Sg,Fem,Thrd]   []],
-	[Cat "women"   "CN" [Pl,Fem,Thrd]   []],
-	[Cat "help"    "CN" [Sg,Fem,Thrd]   [],
-		Cat "help"    "NP" [Sg,Fem,Thrd]   []]
+	[Cat "women"   "CN" [Pl,Fem,Thrd]   []]
 	]
 
 possessives = [
@@ -227,8 +226,12 @@ intransitives = [
 	]
 
 transitives = [
-	[Cat "looked"	"VP" [Tense] [Cat "_" "PP" [At] []]],
-	[Cat "look"	"VP" [Infl] [Cat "_" "PP" [At] []]],
+	[Cat "disappointed"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "disappoint"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "looked_back"	"VP" [Tense] [],
+		Cat "looked_back"	"VP" [Tense] [Cat "_" "PP" [On] []]],
+	[Cat "look_back"	"VP" [Infl] [],
+		Cat "look_back"	"VP" [Infl] [Cat "_" "PP" [On] []]],
 	[Cat "saw"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "see"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "say"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
@@ -286,6 +289,12 @@ ditransitives = [
 						Cat "_" "PP" [From]  []]],
 	[Cat "get" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] []],
 			Cat "get" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [From] []]],
+	[Cat "accepted" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
+			Cat "accepted" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [From]  []]],
+	[Cat "accept" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] []],
+			Cat "accept" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [From] []]],
 	[Cat "told" "VP" [Tense]  [Cat "_" "NP" [AccOrDat] []],
 			Cat "told" "VP" [Tense]  [Cat "_" "NP" [AccOrDat] [],
@@ -349,9 +358,9 @@ preproc ["."]              = []
 preproc ["?"]              = []
 preproc (",":xs)           = preproc xs
 
-preproc ("pumpkin":"pie":xs)	= "pumpkin_pie" : preproc xs
 preproc ("the":"united":"states":xs)	= "the_united_states" : preproc xs
-preproc ("jack":"johnson":xs)	= "jack_johnson" : preproc xs
+preproc ("look":"back":xs)	= "look_back" : preproc xs
+preproc ("looked":"back":xs)	= "looked_back" : preproc xs
 
 preproc ("an":xs)	= "a" : preproc xs
 preproc ("did":"not":xs)   = "didn't" : preproc xs
