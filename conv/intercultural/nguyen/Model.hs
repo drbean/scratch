@@ -114,8 +114,8 @@ parents		= \child -> mapMaybe (parentMaybe child) parenting
 isSiblings	= \a b -> (any . flip elem) (parents a) (parents b)
 brother	= \x -> any ( \i -> isSiblings x i ) entities
 
-disappointment = []
-disappoint	= pred2 $ disappointment
+disappointments = []
+disappoint	= pred2 $ disappointments
 have	= pred2 $ possessions ++ marriages ++ parenting 
 		++ ( map swap $ marriages ++ parenting )
 		++ ( map (\x->(recipient x, theme x) ) giving )
@@ -142,7 +142,7 @@ giving	= [ (O,N,S) ]
 --(putter,theme,location)
 cooking = []
 --(agent,theme,location)
-looking_back	= [(T,G,Unspec)]
+looking_back	= [(T,G,Unspec),(S,G,Unspec)]
 seeing	= []
 
 look_back	= pred1 $ map agent looking_back
