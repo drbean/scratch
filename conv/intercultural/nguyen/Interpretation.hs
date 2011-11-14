@@ -28,7 +28,7 @@ int "son" = \ [x] -> son x
 int "brother" = \ [x] -> brother x
 
 int "disappointed" = \[x,y] -> disappoint y x
-int "disappointed" = int "disappointed"
+int "disappoint" = int "disappointed"
 int "had" = \[x,y] -> have y x;	int "have" = int "had"
 int "knew" = \[x,y] -> know y x; int "know" = int "knew"
 int "look_back" = \args -> case args of
