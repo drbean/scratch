@@ -65,8 +65,8 @@ nguyen:
       identifier: nguyen 0
       A: You were born in Vietnam and left when you were 18. You love your daughter and you really want her to succeed in the U.S. You demand a lot and are unhappy when she doesn't do well. You don't think a pajama party at Pam's house is good for her.
       B: You are Stephanie's Anglo-American classmate. You invite her to sleep over at your house, but she says her mother won't let her go. Your mother expects a lot from you, too, but she gives you a lot of freedom and just hopes you act wisely.
-      C: You are a Vietnamese-American boy who likes Stephanie. You give her a necklace. Next day, she gives it back to you. She says her mother won't let her accept gifts. You understand. Your mother is also an Asian Mom, telling you what to do.
-      D: Giap, a boy at school gives you a necklace, but your mom, Theresa makes you give it back. She also won't let you go to Pam's pajama party. You feel bad about that. But you appreciate 
+      C: You are a Vietnamese-American boy who likes Stephanie. You give her a necklace. Next day, Stephanie gives it back to you. She says her mother won't let her accept gifts. You understand. Your mother is also an Asian Mom, telling you what to do.
+      D: Giap, a boy at school gives you a necklace, but your mom, Theresa makes you give it back. She also won't let you go to Pam's pajama party. You feel bad. But later, looking back, you appreciate the sense of values she taught you.
       quiz:
         - question: A
           option:
@@ -82,17 +82,17 @@ nguyen:
         \begin{normalsize} Parenting styles \end{normalsize}
         \normalsize
         \begin{description}
-        \item [Influence] It is not clear whether the way parents bring their children up has any influence on the kinds of people their children become. 
         \item [Types] Parents can tell the child what to do, or let the child do what it wants, or guide the child and make it decide what to do itself.
-        \item [Soccer moms] Anglo-American mothers who are very involved in their children's  lives after school and on the weekends. They try very hard to help their children achieve success.
+        \item [Soccer moms] Anglo-American mothers who are very involved in their children's  lives after school and on the weekends. They want to help their children win.
         \item [Asian moms] Asian-American mothers who have high expectations of their children in school and who make them play the piano or violin.
         \item [Slow parents] Parents who feel adults should leave children alone and let them play and grow up themselves.
         \end{description}
       Black: |
-        \begin{normalsize}Sleepovers or Pajama parties\end{normalsize}
+        \begin{normalsize}Sleepovers \end{normalsize}
         \normalsize
         \begin{description}
-        \item [Soccer moms] Anglo-American mothers who are very involved in their children's  lives after school and on the weekends. They try very hard to help their children achieve success.
-        \item [Asian moms] Asian-American mothers who have high expectations of their children in school and who make them play the piano or violin.
-        \item [Slow parents] Parents who feel adults should leave children alone and let them play and grow up themselves.
+        \item [Definition] A sleepover, or pajama (or slumber) party, is a party held by children, or teenagers (often girls) at the home of one of the participants, where they stay overnight. Often it is to celebrate a birthday.
+        \item [Activities] Typically, home spa (eg nails), talking, staying up late, eating, and playing (eg pillow fights).
+        \item [Parents] Parents will usually be in the house, but may be completely absent. Some Anglo-American parents are opposed to sleepovers.
+        \item [Bedtime] Parents may make children go to sleep at 10pm, and pre-teens at midnight.
         \end{description}
