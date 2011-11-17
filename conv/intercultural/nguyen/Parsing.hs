@@ -223,6 +223,10 @@ aux = [
 	]
 
 intransitives = [
+	[Cat "got_married"    "VP" [Tense] [],
+		Cat "got_married"	"VP" [Tense] [Cat "_" "PP" [In] []]],
+	[Cat "get_married"     "VP" [Infl]  [],
+		Cat "get_married"	"VP" [Infl] [Cat "_" "PP" [In] []]]
 	]
 
 transitives = [
@@ -236,6 +240,12 @@ transitives = [
 	[Cat "see"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "say"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "said"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "married"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
+		Cat "married"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+					Cat "_" "PP" [In] []]],
+	[Cat "marry"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []],
+		Cat "marry"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
+					Cat "_" "PP" [In] []]],
 	[Cat "asked"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
 		Cat "asked"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
 					Cat "_" "PP" [About] []]],
@@ -244,18 +254,6 @@ transitives = [
 					Cat "_" "PP" [About] []]],
 	[Cat "spoke"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "speak"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "cut"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
-		Cat "cut" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-					Cat "_" "PP" [With] []]],
-	[Cat "cut"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
-		Cat "cut" "VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
-					Cat "_" "PP" [With] []]],
-	[Cat "ate"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
-		Cat "ate" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-					Cat "_" "PP" [For] []]],
-	[Cat "eat"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []],
-		Cat "ate" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-					Cat "_" "PP" [For] []]],
 	[Cat "talked"	"VP" [Tense] [Cat "_" "PP" [To] []],
 --		Cat "talked"	"VP" [Tense] [Cat "_" "PP" [About] []],
 		Cat "talked"	"VP" [Tense] [Cat "_" "PP" [To] [],
@@ -272,7 +270,10 @@ transitives = [
 	[Cat "have"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "went"	"VP" [Tense] [Cat "_" "PP" [To] []]],
 	[Cat "go"	"VP" [Infl]  [Cat "_" "PP" [To] []]],
-	[Cat "parented" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []]]
+	[Cat "came"	"VP" [Tense] [Cat "_" "PP" [From] []]],
+	[Cat "come"	"VP" [Infl]  [Cat "_" "PP" [From] []]],
+	[Cat "raised" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "raise" "VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
 	]
 
 ditransitives = [
@@ -332,7 +333,9 @@ conjuncts = [
 
 --lexicon :: String -> [Cat]
 
-lexicon lexeme = maybe [Cat "" "" [] []] id $
+unknownWord = [Cat "" "" [] []]
+
+lexicon lexeme = maybe unknownWord id $
 	find (\x -> phon (head x) == lexeme ) $
 	proper_names ++ object_names ++ class_names ++
 	prons ++ reflexives ++ interrogatives ++
@@ -361,6 +364,8 @@ preproc (",":xs)           = preproc xs
 preproc ("the":"united":"states":xs)	= "the_united_states" : preproc xs
 preproc ("look":"back":xs)	= "look_back" : preproc xs
 preproc ("looked":"back":xs)	= "looked_back" : preproc xs
+preproc ("got":"married":xs)	= "got_married" : preproc xs
+preproc ("get":"married":xs)	= "get_married" : preproc xs
 
 preproc ("an":xs)	= "a" : preproc xs
 preproc ("did":"not":xs)   = "didn't" : preproc xs
@@ -387,7 +392,7 @@ collectCats :: (String -> [Cat]) -> Words -> [[Cat]]
 collectCats db words = 
   let
     listing = map (\ x -> (x,lookupWord db x)) words
-    unknown = map fst (filter (null.snd) listing)
+    unknown = map fst (filter (\x -> snd x == unknownWord) listing)
   in
     if unknown /= [] then 
       error ("unknown words: " ++ show unknown)
