@@ -1,4 +1,6 @@
 import Data.Maybe
+import GHC.IO.Handle
+import System.IO
 
 import Parsing
 import LogicalForm
@@ -16,12 +18,15 @@ main = do
 	let lexed = lexer sentence
 	putStrLn $ unwords lexed
 	let parse = firstparse. parses $ sentence
+	hClose stderr
+	hDuplicateTo stdout stderr
 	let label = case (parse) of
 		Ep -> "Unparseable"
 		_  -> catLabel $ t2c parse
 	putStrLn $ label
-	let answer = transS $ parse
+	let answer = transTXT $ parse
 	let response = case label of
 		"YN" -> yesorno $ eval answer
 		_ -> show $ eval answer
 	putStrLn response
+	hClose stdout
