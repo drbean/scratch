@@ -65,6 +65,7 @@ ishowForms [f] i = ishow f i
 ishowForms (f:fs) i = ishow f i ++ "," ++ ishowForms fs i
 
 transTXT :: ParseTree Cat Cat -> LF
+transTXT Ep = NonProposition
 transTXT s@(Branch (Cat _ "S" _ _) _) = transS s
 transTXT (Branch (Cat _ "YN" _ _) [Leaf (Cat _ "AUX" _ _),s]) = transS s
 transTXT (Branch (Cat _ "TXT" _ _) [s,conj, s2@(Branch (Cat _ "S" _ _) _)]) =
