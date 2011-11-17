@@ -74,7 +74,7 @@ language	= pred1 [E,V]
 disappointment	= pred1 [K]
 story	= pred1 [Y]
 
-child	= pred1 [S,B]
+child	= pred1 [O,S,B]
 
 boy	= \x -> male x && child x
 isMan	= \x -> ( not $ boy x ) && male x
@@ -95,8 +95,9 @@ pred4 xs	= curry4 ( `elem` xs )
 
 --(parent,child)
 parenting	= [  (T,S),(F,S),(T,B),(F,B) ]
---(husband,wife)
+--(husband,wife,wedding_location)
 marriages	= [ (F,T) ]
+weddings	= [ (F,T,U) ]
 --(divorcer,divorced)
 -- separations	= [ (D,P) ]
 -- divorces	= []
@@ -107,7 +108,11 @@ possessions	= [ (Unspec,D),(M,O),(M,L),(B,D) ]
 
 raised_by	= pred2 $ map swap parenting
 parented	= pred2 parenting
-married		= pred2 $ marriages ++ map swap marriages
+marry_in	= pred3 $ weddings ++ map (\(x,y,z) -> (y,x,z) ) weddings
+married		= forgetful marry_in
+wedded_in	= pred2 $ map (\x -> (agent x, location x) ) weddings ++
+			map (\x -> (patient x, location x) ) weddings
+isMarried	= pred1 $ map fst marriages ++ map snd marriages
 parentMaybe :: Entity -> (Entity,Entity) -> Maybe Entity
 parentMaybe child = \rel -> if child == snd rel then Just (fst rel) else Nothing
 parents		= \child -> mapMaybe (parentMaybe child) parenting
@@ -119,7 +124,7 @@ disappoint	= pred2 $ disappointments
 have	= pred2 $ possessions ++ marriages ++ parenting 
 		++ ( map swap $ marriages ++ parenting )
 		++ ( map (\x->(recipient x, theme x) ) giving )
-knowledge	= [(F,E),(F,V),(T,E),(T,V),(S,E),(S,V),(B,E),(B,V)]
+knowledge	= [(F,E),(F,V),(F,M),(T,E),(T,V),(T,M),(S,E),(S,V),(B,E),(B,V)]
 acquaintances	= [ (O,S) ]
 know	= pred2 $ knowledge ++ acquaintances ++ map swap acquaintances
 speak	= \x y -> language y && know x y
@@ -133,8 +138,11 @@ agent, theme, recipient, location, instrument ::
 agent (a,_,_) = a
 theme (_,t,_) = t
 recipient (_,_,r) = r
+patient = theme
 location = recipient
 instrument = recipient
+origin	= theme
+destination = recipient
 
 comms	= [ (T,G,S) ]
 giving	= [ (O,N,S) ]
@@ -144,6 +152,8 @@ cooking = []
 --(agent,theme,location)
 looking_back	= [(T,G,Unspec),(S,G,Unspec)]
 seeing	= []
+--(agent,origin,destination)
+immigration	= [ (F,V,U),(T,V,U),(S,U,Unspec),(B,U,Unspec) ]
 
 look_back	= pred1 $ map agent looking_back
 look_back_on	= pred2 $ map (\x->(agent x, theme x) ) looking_back
@@ -153,6 +163,7 @@ ask_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
 talked	= pred2 $ map (\x->(agent x, recipient x) ) comms
               ++  map (\(agent,theme,recipient)->(recipient, agent) ) comms
 talk_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
+come_from	= pred2 $ map (\x->(agent x, origin x) ) immigration
 
 
 gave	= pred3 giving
