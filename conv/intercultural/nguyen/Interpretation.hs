@@ -15,11 +15,15 @@ int "girl"	= \ [x] -> isGirl x; int "girls" = int "girl"
 int "person"	= \ [x] -> people x
 int "thing"	= \ [x]	-> things x
 
-int "parent" = \args -> case args of 
-	[x] -> isParent x
-	[x,y] -> parented y x
-int "parented" = \[x,y] -> parented y x
-int "married"	= \ [x,y] -> married y x;	int "marry"	= int "married"
+int "parent" = \[x] -> isParent x
+int "raised" = \[x,y] -> parented y x;	int "raise" = int "raised"
+int "married"	= \args -> case args of
+	[x,y] -> married y x
+	[x,y,z] -> marry_in z y x
+int "marry"	= int "married"
+int "get_married" = \args -> case args of
+	[x] -> isMarried x
+	[x,y] -> wedded_in y x
 int "parents" = \ [x] -> isParent x
 int "mother" = \ [x] -> isMother x
 int "father" = \ [x] -> father x
@@ -45,6 +49,7 @@ int "talked" = \args -> case args of
 	[x,y,z] -> talk_about z y x
 int "talk" = int "talked"
 int "said" = \[x,y] -> said y x; int "say" = int "said"
+int "came" = \[x,y] -> come_from y x; int "come" = int "came"
 
 int "gave"	= \ [x,y,z] ->	gave z y x;	int "give"	= int "gave"
 int "got" = \[x,y,z] -> gave x y z; int "get" = int "got"
