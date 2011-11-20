@@ -114,10 +114,6 @@ transDET (Leaf (Cat "several" "DET" _ _)) =
   \ p q -> Several (\v -> Impl (p v) (q v) )
 transDET (Leaf (Cat "no" "DET" _ _)) = 
   \ p q -> Neg (Exists (\v -> Conj [p v, q v]))
---transDET (Leaf (Cat "the" "DET" _ _)) = 
---  \ p q -> Exists (\v1 -> Conj
---  		[Forall (\v2 -> Equi (p v2) (Eq v1 v2)),
---		q v1])
 transDET (Leaf (Cat "most" "DET" _ _)) = 
   \ p q -> Most (\v -> Impl (p v) (q v) )
 transDET (Leaf (Cat "many" "DET" _ _)) = 
