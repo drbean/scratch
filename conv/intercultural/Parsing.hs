@@ -114,23 +114,31 @@ collect_lex = [
 
 proper_names = [
 	[Cat "english" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "vietnam" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "vietnamese" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "cuba" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "spanish" "NP" [Thrd,Neutr,Sg] []],
 	[Cat "the_united_states" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "mai"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "stephanie"	"NP" [Thrd,Fem,Sg] []],
-	[Cat "theresa"	"NP" [Thrd,Fem,Sg] []]
+	[Cat "gus"	"NP" [Thrd,Masc,Sg] []],
+	[Cat "ileana"	"NP" [Thrd,Fem,Sg] []],
+	[Cat "ofelia"	"NP" [Thrd,Fem,Sg] []],
+	[Cat "fidel"	"NP" [Thrd,Masc,Sg] []]
 	]
 
 object_names = [
-	[Cat "culture" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "upbringing" "CN" [Thrd,Neutr,Sg] []],
-	[Cat "necklace" "CN" [Thrd,Neutr,Sg] []],
+	[Cat "medical_school" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "medicine" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "doctor" "CN" [Thrd,MascOrFem,Sg] []],
+	[Cat "doll" "CN" [Thrd,Neutr,Sg] []],
+	[Cat "dolls" "CN" [Thrd,Neutr,Pl] []],
 	[Cat "present" "CN" [Thrd,Neutr,Sg] []],
-	[Cat "sense" "CN" [Thrd,Neutr,Sg] []],
-	[Cat "right" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "wrong" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "tomato" "CN" [Thrd,Neutr,Sg] []],
+	[Cat "tomatoes" "CN" [Thrd,Neutr,Pl] []],
+	[Cat "fields" "CN" [Thrd,Neutr,Pl] []],
+	[Cat "cleaning" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "motel" "CN" [Thrd,Neutr,Sg] []],
+	[Cat "boat" "CN" [Thrd,Neutr,Sg] []],
+	[Cat "money" "NP" [Thrd,Neutr,Sg] []],
 	[Cat "disappointment" "CN" [Thrd,Neutr,Sg] []],
+	[Cat "upbringing" "CN" [Thrd,Neutr,Sg] []],
 	[Cat "story" "CN" [Thrd,Neutr,Sg] []]
 	]
 
@@ -268,15 +276,48 @@ transitives = [
 		Cat "knew"	"VP" [Tense] [Cat "_" "PP" [About] []]],
 	[Cat "had"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "have"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "left"	"VP" [Tense] [],
+		Cat "left"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
+		Cat "left"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+					Cat "_" "PP" [For] []]],
+	[Cat "leave"	"VP" [Infl]  [],
+		Cat "leave"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []],
+		Cat "left"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
+					Cat "_" "PP" [For] []]],
 	[Cat "went"	"VP" [Tense] [Cat "_" "PP" [To] []]],
 	[Cat "go"	"VP" [Infl]  [Cat "_" "PP" [To] []]],
 	[Cat "came"	"VP" [Tense] [Cat "_" "PP" [From] []]],
 	[Cat "come"	"VP" [Infl]  [Cat "_" "PP" [From] []]],
+	[Cat "immigrated"	"VP" [Tense] [],
+		Cat "immigrated"	"VP" [Tense] [Cat "_" "PP" [To] []],
+		Cat "immigrated" "VP" [Tense] [Cat "_" "PP" [From] []]],
+	[Cat "immigrate"	"VP" [Infl] [],
+		Cat "immigrate"	"VP" [Infl] [Cat "_" "PP" [To] []],
+		Cat "immigrate" "VP" [Infl] [Cat "_" "PP" [From] []]],
 	[Cat "raised" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "raise" "VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
 	]
 
 ditransitives = [
+	[Cat "studied" "VP" [Tense] [Cat "_" "PP" [At] []],
+		Cat "studied" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
+		Cat "studied" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+					Cat "_" "PP" [At] []]],
+	[Cat "study" "VP" [Infl] [Cat "_" "PP" [At] []],
+		Cat "study" "VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
+		Cat "study" "VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
+					Cat "_" "PP" [At] []]],
+	[Cat "worked" "VP" [Tense] [],
+		Cat "worked" "VP" [Tense] [Cat "_" "PP" [As,MascOrFem] []],
+		Cat "worked" "VP" [Tense] [Cat "_" "PP" [At,Neutr] []],
+		Cat "worked" "VP" [Tense] [Cat "_" "PP" [On,Neutr] []],
+		Cat "worked" "VP" [Tense] [Cat "_" "PP" [In,Neutr] []]],
+	[Cat "work" "NP" [AccOrDat] [],
+		Cat "work" "VP" [Infl] [],
+		Cat "work" "VP" [Infl] [Cat "_" "PP" [As,MascOrFem] []],
+		Cat "work" "VP" [Infl] [Cat "_" "PP" [At,Neutr] []],
+		Cat "work" "VP" [Infl] [Cat "_" "PP" [On,Neutr] []],
+		Cat "work" "VP" [Infl] [Cat "_" "PP" [In,Neutr] []]],
 	[Cat "gave" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [To]       []],
 			Cat "gave" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
@@ -361,6 +402,7 @@ preproc ["."]              = []
 preproc ["?"]              = []
 preproc (",":xs)           = preproc xs
 
+preproc ("medical":"school":xs)	= "medical_school" : preproc xs
 preproc ("the":"united":"states":xs)	= "the_united_states" : preproc xs
 preproc ("look":"back":xs)	= "look_back" : preproc xs
 preproc ("looked":"back":xs)	= "looked_back" : preproc xs
