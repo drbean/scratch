@@ -79,6 +79,9 @@ int "went" = \[x,y] -> go_to y x; int "go" = int "went"
 int "came" = \[x,y] -> come_from y x; int "come" = int "came"
 
 int "culture" = \[x] -> culture x
+int "medical_school" = \ [x] -> medical_school x
+int "medicine" = \ [x] -> medicine x
+int "doctor" = \ [x] -> doctor x
 int "upbringing"	= \[x] -> upbringing x
 int "necklace"	= \[x] -> necklace x
 int "present"	= \[x] -> present x
