@@ -313,6 +313,7 @@ ditransitives = [
 		Cat "worked" "VP" [Tense] [Cat "_" "PP" [On,Neutr] []],
 		Cat "worked" "VP" [Tense] [Cat "_" "PP" [In,Neutr] []]],
 	[Cat "work" "NP" [AccOrDat] [],
+		Cat "work" "CN" [AccOrDat] [],
 		Cat "work" "VP" [Infl] [],
 		Cat "work" "VP" [Infl] [Cat "_" "PP" [As,MascOrFem] []],
 		Cat "work" "VP" [Infl] [Cat "_" "PP" [At,Neutr] []],
