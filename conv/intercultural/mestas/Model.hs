@@ -75,6 +75,9 @@ present	= pred1 [D]
 doll	= pred1 [D]
 boat	= pred1 [B]
 language	= pred1 [E,H]
+medical_school	= pred1 [S]
+medicine	= pred1 [N]
+doctor	= pred1 [R]
 tomato	= pred1 [T]
 fields	= pred1 [J]
 cleaning	= pred1 [L]
@@ -155,7 +158,7 @@ origin	= theme
 destination = recipient
 
 --(worker,job,site)
-working	= [ (G,T,J),(G,P,L) ]
+working	= [ (G,T,J),(G,P,L),(G,R,Unspec) ]
 comms	= [ (G,Y,I) ]
 giving	= [ (G,D,I) ]
 -- (seller, item, buyer)
