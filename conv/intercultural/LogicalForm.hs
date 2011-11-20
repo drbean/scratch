@@ -109,7 +109,7 @@ transDET (Leaf (Cat "a" "DET" _ _)) =
 transDET (Leaf (Cat "zero" "DET" _ _)) = 
   \ p q -> Exists (\v -> Conj [p v, q v] )
 transDET (Leaf (Cat "the" "DET" _ _)) = 
-  \ p q -> Single (\v -> Impl (p v) (q v) )
+  \ p q -> Single (\v -> Conj [p v, q v] )
 transDET (Leaf (Cat "several" "DET" _ _)) = 
   \ p q -> Several (\v -> Impl (p v) (q v) )
 transDET (Leaf (Cat "no" "DET" _ _)) = 
