@@ -96,8 +96,8 @@ transDET :: ParseTree Cat Cat -> (Term -> LF)
                               -> (Term -> LF)
                               -> LF
 transDET (Branch (Cat _ "DET" _ _)
-	[Leaf (Cat "'s" "APOS" _ _), Leaf (Cat _ "NP" _ _)]) =
-	  \ p q -> Exists (\v -> Conj [p v, q v] )
+	[Leaf (Cat "'s" "APOS" _ _), Leaf (Cat name "NP" _ _)]) =
+	  \ p q -> Single (\v -> Conj [ p v, q v, Rel "had" [Const (ided name), v] ] )
 transDET (Leaf (Cat "every" "DET" _ _)) = 
   \ p q -> Forall (\v -> Impl (p v) (q v) )
 transDET (Leaf (Cat "all" "DET" _ _)) = 
@@ -210,6 +210,8 @@ fint name [] =	maybe (entities!!26) id $ lookup name characters
 
 ents = entities
 term entity = maybe "NoName" id $ lookup entity names
+
+ided :: String -> Entity
 ided name = maybe Unspec id $ lookup name characters
 
 type TVal = Term -> Entity
@@ -278,6 +280,8 @@ evals = handler (eval . transTXT . head . parses)
 
 forms tests = putStr $ unlines $ map (\(x,y)->x++show y) $ zip (map (++"\t") tests ) ( map process tests )
 
+parentN = length ( mapMaybe ( \y -> falseOut( evl ((\x->Rel "parent" [Const x] ) y)) ) ents) -- 2
+
 lf0 = Rel "worked" [ Const(ents!!17) ]
 lf00 = (Conj [(Rel "person" [Var 0]), (Rel "worked" [Var 0]) ] ) 
 -- lf000 = (Exists (Conj [(Rel "person" [Var 0]), (Rel "worked" [Var 0]) ] )) (Const(ents)!!17)
@@ -291,7 +295,7 @@ lf4 = (Impl  (Rel "married" [ Const (ents !! 9), Const        (ents !! 1)]) (Rel
 lf5 = (Conj [ (Rel "married" [ Const (ents !! 9), Const       (ents !! 1)]), (Rel "married" [ Const (ents !! 8), Const (ents !!   17)]) ] )
 lf6 = (Disj [ (Rel "married" [ Const (ents !! 9), Const       (ents !! 1)]), (Rel "married" [ Const (ents !! 8), Const (ents !!   17)]) ] )
 
-lf70 = ( \x -> ( Conj [ (Rel "son" [x]), (Rel "have" [x, Const (ents !! 8)]) ] ) ) (Const (ents !! 12) )
+lf70 = ( \x -> ( Conj [ (Rel "son" [x]), (Rel "have" [Const (ents !! 8) ,x]) ] ) ) (Const (ents !! 12) )
 lf71 = ( \x -> ( Conj [ (Rel "son" [x]), (Rel "have" [x, Const (ents !! 17)]) ] ) ) (Const (ents !! 12) )
 lf72 = ( \x -> ( Conj [ (Rel "son" [x]), (Rel "have" [x, Const (ents !! 17)]) ] ) ) (Const (ents !! 12) )
 lf73 = \x -> Conj [ (Rel "son" [x]), (Rel "have" [x, Const (ents !! 17)]) ]
