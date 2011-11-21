@@ -263,6 +263,13 @@ dictation:
       C: He is enthusiastic about the idea and about writing software, but he is not good at making other people enthusiastic about his ideas, and he is not a professional programmer. Many people however, want to learn English, even though they don't want to study very hard. It is very difficult to learn English.
       D: Some people who might pay Dr Bean for his dictation websites are schools which want to make their students do listening activities. Others who might pay Dr Bean are people who have an interest in a particular soundfile. They might give the soundfile to Dr Bean and ask him to create a website.
 flicker:
+  jigsaw:
+    0:
+      identifier: flicker 0
+      A: Flicker was the first company to develop cheap plastic lighters and it made a lot of money from these lighters. It still has technology that other lighter companies don't have, but its superiority over other lighter companies is not as great as it used to be.
+      B: The company is making a lot less money now, because fewer and fewer people are smoking cigarettes. Ten years ago, it made \$160 million. Now sales are only \$120 million. Employees number only 750, down from 1200 ten years ago. However, sales in China are increasing.
+      C: Its plans are to develop new products like barbecue lighters and camping goods, but there are only a few products which use the same kind of technology as cigarette lighters. Those products don't make a lot of money for Flicker or other companies.
+      D: People don't have a high opinion of Flicker. It is hated by people who hate cigarette smoking. And smokers don't love Flicker either. Cigarettes are expensive, but lighters are cheap. Smokers always smoke the same brand of cigarette, but will use any lighter.
   compcomp:
     0:
       identifier: flicker 0
