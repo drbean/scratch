@@ -96,3 +96,32 @@ nguyen:
         \item [Parents] Parents will usually be in the house, but may be completely absent. Some Anglo-American parents are opposed to sleepovers.
         \item [Bedtime] Parents may make children go to sleep at 10pm, and pre-teens at midnight.
         \end{description}
+mestas:
+  jigsaw:
+    0:
+      identifier: mestas 0
+      A: You were a lawyer, but you hated the government. You fled to Mexico, then came back and fought the government and won. Your government was Communist, so although people liked you at first, later, many doctors and other professionals like Gus fled to the US.
+      B: You had a lot of dolls in Cuba and you didn't want to leave Cuba and leave your dolls behind. But you were only 10. Ofelia, your mother tried to sell all your dolls. Your father bought you a small doll after you arrived in the US.
+      C: After Fidel set up his Communist government, you were making less money and working harder than before. You fled to the U.S., but there you worked even harder and made even less money until you passed U.S. medical exams.
+      D: Life was hard for your family, especially Gus in the U.S. Gus couldn't work as a doctor there. So, he had 2 jobs and was studying to pass U.S. medical exams at night. He bought a doll for Ileana, even though he didn't have money to take the bus.
+  compcomp:
+    0:
+      identifier: mestas 0
+      White: |
+        \begin{normalsize} Intermarriage by immigrants \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Example] Both of Gus and Ofelia's children married non-Hispanic Americans. Ileana married an Anglo-American man named Smith. Rick, their son, married an Anglo-American woman named Christine Hard.
+        \item [Language and Religion] People who continue to speak the language and practice the religion of their motherland in the U.S. are less likely to marry someone from a different cultural group.
+        \item [Equality] Women from ethnic groups where men are dominant often avoid marrying someone from their ethnic group because they want a partner who will treat them equally.
+
+        \end{description}
+      Black: |
+        \begin{normalsize} Immigrants' quality of life \end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Complaints] Many immigrants can't get the jobs they wanted when they went to the new country. And they can't expect to make more money in the future in the low-paying jobs they are in now.
+        \item [Satisfactions] Immigrants say they like the life styles, freedom, peace and stability in their new countries.
+        \item [Necessities] Health, being married, educated, having a positive personality, and having positive experiences and money all help immigrants feel happy.
+        \item [Canada] 70\% of all immigrants are satisfied. The rest are not. College graduates are the least satisfied. 90\% say they would make the same decision again to come.
+        \end{description}
