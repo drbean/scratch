@@ -21,6 +21,7 @@ data LF = NonProposition
         | Forall (Term -> LF)
         | Exists (Term -> LF)
         | Single (Term -> LF)
+        | The (Term -> LF)
         | Several (Term -> LF)
         | Many (Term -> LF)
         | Most (Term -> LF)
@@ -52,6 +53,8 @@ ishow (Forall scope) i = "Forall x" ++ show i ++ (' ' :
 ishow (Exists scope) i = "Exists x" ++ show i ++ (' ' :
 			(ishow (scope (Var i)) (i+1)))
 ishow (Single scope) i = "Single x" ++ show i ++ (' ' :
+			(ishow (scope (Var i)) (i+1)))
+ishow (The scope) i = "The x" ++ show i ++ (' ' :
 			(ishow (scope (Var i)) (i+1)))
 ishow (Several scope) i = "Several x" ++ show i ++ (' ' :
 			(ishow (scope (Var i)) (i+1)))
@@ -97,7 +100,9 @@ transDET :: ParseTree Cat Cat -> (Term -> LF)
                               -> LF
 transDET (Branch (Cat _ "DET" _ _)
 	[Leaf (Cat "'s" "APOS" _ _), Leaf (Cat name "NP" _ _)]) =
-	  \ p q -> Single (\v -> Conj [ p v, q v, Rel "had" [Const (ided name), v] ] )
+	  \ p q -> Exists (\v -> Conj [ Single p, p v, q v, Rel "had" [Const (ided name), v] ])
+transDET (Leaf (Cat "the" "DET" _ _)) = 
+  \ p q -> Exists (\v -> Conj [Single p, p v, q v] )
 transDET (Leaf (Cat "every" "DET" _ _)) = 
   \ p q -> Forall (\v -> Impl (p v) (q v) )
 transDET (Leaf (Cat "all" "DET" _ _)) = 
@@ -108,8 +113,6 @@ transDET (Leaf (Cat "a" "DET" _ _)) =
   \ p q -> Exists (\v -> Conj [p v, q v] )
 transDET (Leaf (Cat "zero" "DET" _ _)) = 
   \ p q -> Exists (\v -> Conj [p v, q v] )
-transDET (Leaf (Cat "the" "DET" _ _)) = 
-  \ p q -> Single (\v -> Conj [p v, q v] )
 transDET (Leaf (Cat "several" "DET" _ _)) = 
   \ p q -> Several (\v -> Impl (p v) (q v) )
 transDET (Leaf (Cat "no" "DET" _ _)) = 
