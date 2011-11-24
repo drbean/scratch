@@ -238,6 +238,8 @@ intransitives = [
 	]
 
 transitives = [
+	[Cat "appreciated"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "appreciate"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "disappointed"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "disappoint"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "looked_back"	"VP" [Tense] [],
