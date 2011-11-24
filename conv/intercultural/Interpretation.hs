@@ -31,6 +31,8 @@ int "daughter" = \ [x] -> daughter x
 int "son" = \ [x] -> son x
 int "brother" = \ [x] -> brother x
 
+int "appreciated" = \[x,y] -> appreciate y x
+int "appreciate" = int "appreciated"
 int "disappointed" = \[x,y] -> disappoint y x
 int "disappoint" = int "disappointed"
 int "work" = \args -> case args of
