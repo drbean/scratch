@@ -118,6 +118,7 @@ weddings	= [ (G,O,C) ]
 -- unmarried_couples	= []
 --(contacter,contactee)
 possessions	= [ (I,D),(Unspec,B) ]
+appreciation	= [ (I,G) ]
 
 raised_by	= pred2 $ map swap parenting
 parented	= pred2 parenting
@@ -141,6 +142,7 @@ knowledge	= [(G,E),(G,H),(O,E),(O,H),(I,E),(I,H),(G,U),(G,C),(O,U),(O,C),(I,U),(
 acquaintances	= []
 know	= pred2 $ knowledge ++ acquaintances ++ map swap acquaintances
 speak	= \x y -> language y && know x y
+appreciate	= pred2 appreciation
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
