@@ -260,7 +260,7 @@ evl (Most scope)	= length ( filter id $ testents scope ) >
 
 falseOut = \x -> case x of False -> Nothing; True -> Just True 
 testents :: (Term -> LF) -> [Bool]
-testents scope = [ evl (scope (Const e)) | e <- ents ]
+testents scope = map ( \e -> evl (scope (Const e)) ) ents 
 
 passents :: (Term -> LF) -> [Entity]
 passents scope = map fst $ filter snd $ zip ents $ testents scope
