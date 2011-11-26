@@ -114,13 +114,13 @@ transDET (Leaf (Cat "a" "DET" _ _)) =
 transDET (Leaf (Cat "zero" "DET" _ _)) = 
   \ p q -> Exists (\v -> Conj [p v, q v] )
 transDET (Leaf (Cat "several" "DET" _ _)) = 
-  \ p q -> Several (\v -> Impl (p v) (q v) )
+  \ p q -> Several (\v -> Conj [p v, q v] )
 transDET (Leaf (Cat "no" "DET" _ _)) = 
   \ p q -> Neg (Exists (\v -> Conj [p v, q v]))
 transDET (Leaf (Cat "most" "DET" _ _)) = 
   \ p q -> Most (\v -> Impl (p v) (q v) )
 transDET (Leaf (Cat "many" "DET" _ _)) = 
-  \ p q -> Many (\v -> Impl (p v) (q v) )
+  \ p q -> Many (\v -> Conj [p v, q v] )
 transDET (Leaf (Cat "few" "DET" _ _)) = 
   \ p q -> Neg $ Many (\v -> Impl (p v) (q v) )
 transDET (Leaf (Cat "which" "DET" _ _)) = 
@@ -183,11 +183,11 @@ transWH (Branch (Cat _ "WH" _ _ ) [wh,Branch (Cat _ "S" _ _) [Leaf (Cat "#" "NP"
 
 transWH (Branch (Cat _ "WH" _ _ )
 	[wh,(Branch (Cat _ "YN" _ _) [_,(Branch
-		(Cat _ "S" _ _) [Leaf (Cat name "NP" _ _),(Branch
+		(Cat _ "S" _ _) [subj,(Branch
 			(Cat _ "VP" _ _) [_,(Branch
 				(Cat _ "VP" _ _) [vp@(Leaf (Cat two_ple "VP" _ _)),_])])])])]) =
-	WH (\obj -> Conj [ transW wh obj, Rel two_ple [(Const (ided name)),obj]])
-	-- WH (\obj -> transNP subj (transW wh))
+	-- WH (\obj -> Conj [ transW wh obj, Rel two_ple [(Const (ided name)),obj]])
+	WH (\obj -> transNP subj (transW wh))
 		
 
 
@@ -222,6 +222,7 @@ fint :: FInterp
 fint name [] =	maybe (entities!!26) id $ lookup name characters
 
 ents = entities
+realents = filter ( not . flip elem [Unspec,Someone,Something] ) ents
 term entity = maybe "NoName" id $ lookup entity names
 
 ided :: String -> Entity
@@ -262,16 +263,15 @@ evl (Disj lfs)	= or ( map ( evl ) lfs )
 evl (Forall scope)	= and $ testents scope
 evl (Exists scope)	= or $ testents scope
 evl (Single scope)	= singleton ( mapMaybe bool2Maybe $ testents scope )
-evl (Several scope)	= length ( mapMaybe bool2Maybe $ testents scope ) < 4
-		&& length ( mapMaybe bool2Maybe $ testents scope ) > 1
-evl (Many scope)	= length ( mapMaybe bool2Maybe $ testents scope ) > 5
+evl (Several scope)	= smallN ( mapMaybe bool2Maybe $ testents scope )
+evl (Many scope)	= bigN ( mapMaybe bool2Maybe $ testents scope )
 evl (Most scope)	= length ( mapMaybe bool2Maybe $ testents scope ) >
 			length ( mapMaybe bool2Maybe $ testents scope )
 
 bool2Maybe :: Bool -> Maybe Bool
 bool2Maybe = \x -> case x of False -> Nothing; True -> Just True 
 testents :: (Term -> LF) -> [Bool]
-testents scope = map ( \e -> evl (scope (Const e)) ) ents 
+testents scope = map ( \e -> evl (scope (Const e)) ) realents 
 
 ent2Maybe :: (Term -> LF) -> Entity -> Maybe Entity
 ent2Maybe scope = \e -> case evl (scope (Const e)) of
@@ -288,6 +288,16 @@ revttest scope = \x -> not $ evl (scope (Const x))
 singleton :: [a] -> Bool
 singleton [x]	= True
 singleton _	= False
+
+smallN :: [a] -> Bool
+smallN [_,_]	= True
+smallN [_,_,_]	= True
+smallN _	= False
+
+bigN :: [a] -> Bool
+bigN [] = False
+bigN [_] = False
+bigN xs = not . smallN $ xs
 
 handler core tests = putStr $ unlines $ map (\(x,y) -> x++show y) $ zip (map (++"\t") tests ) ( map core tests )
 
