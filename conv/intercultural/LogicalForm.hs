@@ -179,17 +179,15 @@ transVP (Branch (Cat _ "VP" _ _)
 
 transWH :: ParseTree Cat Cat -> LF
 transWH (Branch (Cat _ "WH" _ _ ) [wh,Branch (Cat _ "S" _ _) [Leaf (Cat "#" "NP" _ _),vp]]) =
-	WH (\subj -> Conj [ transW wh subj, transVP vp subj ])
+	WH (\x -> Conj [ transW wh x, transVP vp x ])
 
 transWH (Branch (Cat _ "WH" _ _ )
 	[wh,(Branch (Cat _ "YN" _ _) [_,(Branch
-		(Cat _ "S" _ _) [subj,(Branch
-			(Cat _ "VP" _ _) [_,(Branch
-				(Cat _ "VP" _ _) [vp@(Leaf (Cat two_ple "VP" _ _)),_])])])])]) =
-	-- WH (\obj -> Conj [ transW wh obj, Rel two_ple [(Const (ided name)),obj]])
-	WH (\obj -> transNP subj (transW wh))
-		
-
+		(Cat _ "S" _ _) [np,(Branch
+			(Cat _ "VP" _ _) [_,vp@(Branch
+				(Cat _ "VP" _ _) [Leaf (Cat two_ple "VP" _ _),_])])])])]) =
+	WH (\x -> Conj [transW wh x,
+			transNP np (\agent -> Rel two_ple [agent,x])])
 
 transW :: ParseTree Cat Cat -> (Term -> LF)
 transW (Branch (Cat _ "NP" fs _) [det,cn]) = 
@@ -277,7 +275,7 @@ ent2Maybe :: (Term -> LF) -> Entity -> Maybe Entity
 ent2Maybe scope = \e -> case evl (scope (Const e)) of
 	False -> Nothing; True -> Just e
 evalW :: LF -> [Entity]
-evalW (WH scope)	= mapMaybe (ent2Maybe scope) ents
+evalW (WH scope)	= mapMaybe (ent2Maybe scope) realents
 
 ttest :: (Term -> LF) -> Term -> Bool
 ttest scope (Const a) = evl (scope (Const a))
