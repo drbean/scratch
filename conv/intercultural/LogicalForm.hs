@@ -177,7 +177,6 @@ transVP (Branch (Cat _ "VP" _ _)
                 [Leaf (Cat "#" "AUX" _ []),vp]) = 
         transVP vp 
 
--- transWH :: ParseTree Cat Cat -> (Term -> LF)
 transWH :: ParseTree Cat Cat -> LF
 transWH (Branch (Cat _ "WH" _ _ ) [wh,Branch (Cat _ "S" _ _) [Leaf (Cat "#" "NP" _ _),vp]]) =
 	WH (\subj -> Conj [ transW wh subj, transVP vp subj ])
