@@ -6,6 +6,7 @@ import Model
 
 import Data.Maybe
 import Data.List
+import Data.Typeable
 
 data Term = Const Entity | Var Int | Struct String [Term]
 	deriving (Eq)
@@ -27,6 +28,7 @@ data LF = NonProposition
         | Most (Term -> LF)
         | WH (Term -> LF)
 --	deriving Eq
+	deriving Typeable
 
 instance Show Term where
   show (Const name) = show name 
@@ -177,24 +179,35 @@ transVP (Branch (Cat _ "VP" _ _)
                 [Leaf (Cat "#" "AUX" _ []),vp]) = 
         transVP vp 
 
-transWH :: ParseTree Cat Cat -> (Term -> LF)
-transWH (Branch (Cat _ "WH" _ _ ) [wh,s]) =
-	(\v -> Conj [transW wh, transS s])
+-- transWH :: ParseTree Cat Cat -> (Term -> LF)
+transWH :: ParseTree Cat Cat -> LF
+transWH (Branch (Cat _ "WH" _ _ ) [wh,Branch (Cat _ "S" _ _) [Leaf (Cat "#" "NP" _ _),vp]]) =
+	WH (\subj -> Conj [ transW wh subj, transVP vp subj ])
 
-transW :: ParseTree Cat Cat -> LF
+transWH (Branch (Cat _ "WH" _ _ )
+	[wh,(Branch (Cat _ "YN" _ _) [_,(Branch
+		(Cat _ "S" _ _) [Leaf (Cat name "NP" _ _),(Branch
+			(Cat _ "VP" _ _) [_,(Branch
+				(Cat _ "VP" _ _) [vp@(Leaf (Cat two_ple "VP" _ _)),_])])])])]) =
+	WH (\obj -> Conj [ transW wh obj, Rel two_ple [(Const (ided name)),obj]])
+	-- WH (\obj -> transNP subj (transW wh))
+		
+
+
+transW :: ParseTree Cat Cat -> (Term -> LF)
 transW (Branch (Cat _ "NP" fs _) [det,cn]) = 
-                            transCN cn (Var 0)
-transW (Leaf (Cat _ "NP" fs _)) 
-      | Masc      `elem` fs = Rel "man"    [Var 0]
-      | Fem       `elem` fs = Rel "woman"  [Var 0]
-      | MascOrFem `elem` fs = Rel "person" [Var 0]
-      | otherwise           = Rel "thing"  [Var 0]
+                            \e -> transCN cn e
+transW (Leaf (Cat _ "NP" fs _))
+      | Masc      `elem` fs = \e -> Rel "man"    [e]
+      | Fem       `elem` fs = \e -> Rel "woman"  [e]
+      | MascOrFem `elem` fs = \e -> Rel "person" [e]
+      | otherwise           = \e -> Rel "thing"  [e]
 
-transW (Branch (Cat _ "PP" fs _) [prep,np]) 
-      | Masc      `elem` fs = Rel "man"    [Var 0]
-      | Fem       `elem` fs = Rel "woman"  [Var 0]
-      | MascOrFem `elem` fs = Rel "person" [Var 0]
-      | otherwise           = Rel "thing"  [Var 0]
+transW (Branch (Cat _ "PP" fs _) [prep,np])
+      | Masc      `elem` fs = \e -> Rel "man"    [e]
+      | Fem       `elem` fs = \e -> Rel "woman"  [e]
+      | MascOrFem `elem` fs = \e -> Rel "person" [e]
+      | otherwise           = \e -> Rel "thing"  [e]
 
 
 process :: String -> [LF]
@@ -251,21 +264,23 @@ evl (Conj lfs)	= and ( map ( evl ) lfs )
 evl (Disj lfs)	= or ( map ( evl ) lfs )
 evl (Forall scope)	= and $ testents scope
 evl (Exists scope)	= or $ testents scope
-evl (Single scope)	= singleton ( mapMaybe falseOut $ testents scope )
-evl (Several scope)	= length ( mapMaybe falseOut $ testents scope ) < 4
-		&& length ( mapMaybe falseOut $ testents scope ) > 1
-evl (Many scope)	= length ( filter id $ testents scope ) > 5
-evl (Most scope)	= length ( filter id $ testents scope ) >
-			length ( filter not $ testents scope )
+evl (Single scope)	= singleton ( mapMaybe bool2Maybe $ testents scope )
+evl (Several scope)	= length ( mapMaybe bool2Maybe $ testents scope ) < 4
+		&& length ( mapMaybe bool2Maybe $ testents scope ) > 1
+evl (Many scope)	= length ( mapMaybe bool2Maybe $ testents scope ) > 5
+evl (Most scope)	= length ( mapMaybe bool2Maybe $ testents scope ) >
+			length ( mapMaybe bool2Maybe $ testents scope )
 
-falseOut = \x -> case x of False -> Nothing; True -> Just True 
+bool2Maybe :: Bool -> Maybe Bool
+bool2Maybe = \x -> case x of False -> Nothing; True -> Just True 
 testents :: (Term -> LF) -> [Bool]
 testents scope = map ( \e -> evl (scope (Const e)) ) ents 
 
-passents :: (Term -> LF) -> [Entity]
-passents scope = map fst $ filter snd $ zip ents $ testents scope
-evalW :: LF -> [Entity]
-evalW (WH scope)	= passents  scope
+ent2Maybe :: (Term -> LF) -> Entity -> Maybe Entity
+ent2Maybe scope = \e -> case evl (scope (Const e)) of
+	False -> Nothing; True -> Just e
+-- evalW :: (Term -> LF) -> [Entity]
+evalW (WH scope)	= mapMaybe (ent2Maybe scope) ents
 
 ttest :: (Term -> LF) -> Term -> Bool
 ttest scope (Const a) = evl (scope (Const a))
@@ -283,7 +298,7 @@ evals = handler (eval . transTXT . head . parses)
 
 forms tests = putStr $ unlines $ map (\(x,y)->x++show y) $ zip (map (++"\t") tests ) ( map process tests )
 
-parentN = length ( mapMaybe ( \y -> falseOut( evl ((\x->Rel "parent" [Const x] ) y)) ) ents) -- 2
+parentN = length ( mapMaybe ( \y -> bool2Maybe( evl ((\x->Rel "parent" [Const x] ) y)) ) ents) -- 2
 
 lf0 = Rel "worked" [ Const(ents!!17) ]
 lf00 = (Conj [(Rel "person" [Var 0]), (Rel "worked" [Var 0]) ] ) 
