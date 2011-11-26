@@ -6,7 +6,6 @@ import Model
 
 import Data.Maybe
 import Data.List
-import Data.Typeable
 
 data Term = Const Entity | Var Int | Struct String [Term]
 	deriving (Eq)
@@ -28,7 +27,6 @@ data LF = NonProposition
         | Most (Term -> LF)
         | WH (Term -> LF)
 --	deriving Eq
-	deriving Typeable
 
 instance Show Term where
   show (Const name) = show name 
@@ -279,7 +277,7 @@ testents scope = map ( \e -> evl (scope (Const e)) ) ents
 ent2Maybe :: (Term -> LF) -> Entity -> Maybe Entity
 ent2Maybe scope = \e -> case evl (scope (Const e)) of
 	False -> Nothing; True -> Just e
--- evalW :: (Term -> LF) -> [Entity]
+evalW :: LF -> [Entity]
 evalW (WH scope)	= mapMaybe (ent2Maybe scope) ents
 
 ttest :: (Term -> LF) -> Term -> Bool
