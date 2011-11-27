@@ -221,7 +221,7 @@ fint name [] =	maybe (entities!!26) id $ lookup name characters
 
 ents = entities
 realents = filter ( not . flip elem [Unspec,Someone,Something] ) ents
-term entity = maybe "NoName" id $ lookup entity names
+named entity = maybe "NoName" id $ lookup entity names
 
 ided :: String -> Entity
 ided name = maybe Unspec id $ lookup name characters
