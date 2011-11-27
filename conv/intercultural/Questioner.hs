@@ -24,9 +24,12 @@ main = do
 		Ep -> "Unparseable"
 		_  -> catLabel $ t2c parse
 	putStrLn $ label
-	let answer = transTXT $ parse
+	let answer = case label of
+		"WH" -> transWH $ parse
+		_ -> transTXT $ parse
 	let response = case label of
+		"WH" -> show $ map ( toupper . named) $ evalW answer
 		"YN" -> yesorno $ eval answer
-		_ -> show $ eval answer
+		"S" -> show $ eval answer
 	putStrLn response
 	hClose stdout
