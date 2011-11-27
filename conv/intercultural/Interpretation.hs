@@ -12,7 +12,7 @@ int "woman"	= \ [x] -> isWoman x
 int "women"	= \ [x] -> isWoman x
 int "girl"	= \ [x] -> isGirl x; int "girls" = int "girl"
 
-int "person"	= \ [x] -> people x
+int "person"	= \ [x] -> people x; int "persons" = int "person"
 int "thing"	= \ [x]	-> things x
 
 int "parent" = \[x] -> isParent x
