@@ -69,18 +69,16 @@ fernandez:
         \item [Thanksgiving] Mexicans in the US celebrate Thanksgiving the same way as ordinary Americans do, even eating the same kind of Thanksgiving food, eg turkey.
         \end{description}
       quiz:
-        - question: Steve has an organization called, 'Network for Teaching Entrepreneurship.'
-          answer: True
-        - question: Alex now teaches Noe economics in college.
+        - question: Thanksgiving is celebrated in a different way by Mexican-Americans.
           answer: False
-        - question: Noe hurt himself working on a building site in elementary school.
+        - question: Thanksgiving is an Anglo-American custom.
           answer: True
-        - question: Maria didn't need the money that Noe made selling cleaning supplies.
-          answer: False
-        - question: Noe pays for his own college education by working at a job.
-          answer: False
-        - question: Noe is the first person in his family to go to college.
+        - question: Some Mexican-Americans resist the idea of celebrating Thanksgiving.
           answer: True
+        - question: There are many Mexican-Americans who don't have permission to be there.
+          answer: True
+        - question: Mexican-Americans don't become more like Anglo-Americans over time.
+          answer: False
 nguyen:
   jigsaw:
     0:
@@ -151,6 +149,17 @@ nguyen:
         \item [Parents] Parents will usually be in the house, but may be completely absent. Some Anglo-American parents are opposed to sleepovers.
         \item [Bedtime] Parents may make children go to sleep at 10pm, and pre-teens at midnight.
         \end{description}
+      quiz:
+        - question: There are many different parenting styles.
+          answer: True
+        - question: The Asian Mom gives her children freedom, but expects good school grades.
+          answer: False
+        - question: The Soccer Mom is very different than the Asian Mom.
+          answer: False
+        - question: Some Anglo-American moms are not very involved in their children's lives.
+          answer: True
+        - question: All Anglo-American parents like their children to socialize outside at night.
+          answer: False
 mestas:
   jigsaw:
     0:
@@ -221,3 +230,14 @@ mestas:
         \item [Necessities] Health, being married, educated, having a positive personality, and having positive experiences and money all help immigrants feel happy.
         \item [Canada] 70\% of all immigrants are satisfied. The rest are not. College graduates are the least satisfied. 90\% say they would make the same decision again to come.
         \end{description}
+      quiz:
+        - question: Chinese-Americans who don't forget Chinese may not find a non-Chinese partner.
+          answer: True
+        - question: Women whose fathers exert a lot of control over their mothers will probably avoid marrying Anglo-American husbands.
+          answer: False
+        - question: Some immigrants are unhappy that their job expectations are not met.
+          answer: True
+        - question: Single immigrants are more likely to feel happy than married immigrants.
+          answer: False
+        - question: Althouh having an education helps immigrants feel happy, college graduates are the most dissatisfied.
+          answer: True
