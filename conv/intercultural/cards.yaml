@@ -14,18 +14,40 @@ fernandez:
             - Jose
             - Juan
             - Pedro
-          answer: Maria
+          answer: Jack
         - question: B
           option:
-          answer: Alex
+            - Jack
+            - Jose
+            - Juan
+            - Pedro
+          answer: Pedro
         - question: C
           option:
-          answer: Steve
+            - Jack
+            - Jose
+            - Juan
+            - Pedro
+          answer: Jose
         - question: D
           option:
-          answer: Noe
-        - question: 
+            - Jack
+            - Jose
+            - Juan
+            - Pedro
+          answer: Juan
+        - question: Pedro is Jose and Juan's father.
           answer  : True
+        - question: Two of the people are Anglo-American.
+          answer  : False
+        - question: Pedro speaks more English than his kids.
+          answer  : True
+        - question: The kids think Thanksgiving is a saint.
+          answer  : True
+        - question: They enjoyed eating the frozen pie.
+          answer  : False
+        - question: They didn't like American culture.
+          answer  : False
   compcomp:
     0:
       identifier: fernandez 0
@@ -74,7 +96,40 @@ nguyen:
             - Pam
             - Stephanie
             - Theresa
-          answer: ~
+          answer: Theresa
+        - question: B
+          option:
+            - Giap
+            - Pam
+            - Stephanie
+            - Theresa
+          answer: Pam
+        - question: C
+          option:
+            - Giap
+            - Pam
+            - Stephanie
+            - Theresa
+          answer: Giap
+        - question: D
+          option:
+            - Giap
+            - Pam
+            - Stephanie
+            - Theresa
+          answer: Stephanie
+        - question: Theresa is Stephanie's mom.
+          answer  : True
+        - question: Two of the people are Anglo-American.
+          answer  : False
+        - question: Stephanie sleeps over at Pam's place.
+          answer  : False
+        - question: Stephanie's mom lets her do anything.
+          answer  : False
+        - question: Giap's mom is an Asian mom.
+          answer  : True
+        - question: Pam has more freedom than Stephanie.
+          answer  : True
   compcomp:
     0:
       identifier: nguyen 0
@@ -104,6 +159,47 @@ mestas:
       B: You had a lot of dolls in Cuba and you didn't want to leave Cuba and leave your dolls behind. But you were only 10. Ofelia, your mother tried to sell all your dolls. Your father bought you a small doll after you arrived in the US.
       C: After Fidel set up his Communist government, you were making less money and working harder than before. You fled to the U.S., but there you worked even harder and made even less money until you passed U.S. medical exams.
       D: Life was hard for your family, especially Gus in the U.S. Gus couldn't work as a doctor there. So, he had 2 jobs and was studying to pass U.S. medical exams at night. He bought a doll for Ileana, even though he didn't have money to take the bus.
+      quiz:
+        - question: A
+          option:
+            - Fidel
+            - Gus
+            - Ileana
+            - Ofelia
+          answer: Fidel
+        - question: B
+          option:
+            - Fidel
+            - Gus
+            - Ileana
+            - Ofelia
+          answer: Ileana
+        - question: C
+          option:
+            - Fidel
+            - Gus
+            - Ileana
+            - Ofelia
+          answer: Gus
+        - question: D
+          option:
+            - Fidel
+            - Gus
+            - Ileana
+            - Ofelia
+          answer: Ofelia
+        - question: All 4 people are now in the U.S.
+          answer  : False
+        - question: One of the people is Anglo-American.
+          answer  : False
+        - question: Ofelia is Ileana's mother.
+          answer  : True
+        - question: Ileana took one small doll to the U.S.
+          answer  : False
+        - question: The U.S. was harder than Cuba at first.
+          answer  : True
+        - question: Gus worked as a doctor in the U.S.
+          answer  : True
   compcomp:
     0:
       identifier: mestas 0
