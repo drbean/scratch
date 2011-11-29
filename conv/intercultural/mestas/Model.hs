@@ -138,7 +138,7 @@ disappoint	= pred2 $ disappointments
 have	= pred2 $ possessions ++ marriages ++ parenting 
 		++ ( map swap $ marriages ++ parenting )
 		++ ( map (\x->(recipient x, theme x) ) giving )
-knowledge	= [(G,E),(G,H),(O,E),(O,H),(I,E),(I,H),(G,U),(G,C),(O,U),(O,C),(I,U),(I,C)]
+knowledge	= [(G,E),(G,H),(O,E),(O,H),(I,E),(I,H),(G,U),(G,C),(O,U),(O,C),(I,U),(I,C),(G,N)]
 acquaintances	= []
 know	= pred2 $ knowledge ++ acquaintances ++ map swap acquaintances
 speak	= \x y -> language y && know x y
