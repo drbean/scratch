@@ -131,7 +131,7 @@ proper_names = [
 object_names = [
 	[Cat "medical_school" "NP" [Thrd,Neutr,Sg] []],
 	[Cat "medicine" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "doctor" "CN" [Thrd,MascOrFem,Sg] []],
+	[Cat "doctor" "CN" [Thrd,Neutr,Sg] []],
 	[Cat "doll" "CN" [Thrd,Neutr,Sg] []],
 	[Cat "dolls" "CN" [Thrd,Neutr,Pl] []],
 	[Cat "present" "CN" [Thrd,Neutr,Sg] []],
@@ -208,7 +208,8 @@ interrogatives = [
 			Cat "whom" "REL" [Sg,MascOrFem,AccOrDat]         []],
 	[Cat "what" "NP"  [Wh,Thrd,AccOrDat,Neutr]    []],
 	[Cat "that"  "REL" [] [], Cat "that"  "DET" [Sg]    []],
-	[Cat "which" "REL" [Neutr] [], Cat "which" "DET" [Wh] []]
+	[Cat "which" "REL" [Neutr] [], Cat "which" "DET" [Wh] []],
+	[Cat "where" "NP" [Neutr] [], Cat "where" "REL" [] []]
 	]
 
 determiners = [
@@ -315,14 +316,14 @@ ditransitives = [
 		Cat "study" "VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
 					Cat "_" "PP" [At] []]],
 	[Cat "worked" "VP" [Tense] [],
-		Cat "worked" "VP" [Tense] [Cat "_" "PP" [As,MascOrFem] []],
+		Cat "worked" "VP" [Tense] [Cat "_" "PP" [As,Neutr] []],
 		Cat "worked" "VP" [Tense] [Cat "_" "PP" [At,Neutr] []],
 		Cat "worked" "VP" [Tense] [Cat "_" "PP" [On,Neutr] []],
 		Cat "worked" "VP" [Tense] [Cat "_" "PP" [In,Neutr] []]],
 	[Cat "work" "NP" [AccOrDat] [],
 		Cat "work" "CN" [AccOrDat] [],
 		Cat "work" "VP" [Infl] [],
-		Cat "work" "VP" [Infl] [Cat "_" "PP" [As,MascOrFem] []],
+		Cat "work" "VP" [Infl] [Cat "_" "PP" [As,Neutr] []],
 		Cat "work" "VP" [Infl] [Cat "_" "PP" [At,Neutr] []],
 		Cat "work" "VP" [Infl] [Cat "_" "PP" [On,Neutr] []],
 		Cat "work" "VP" [Infl] [Cat "_" "PP" [In,Neutr] []]],
