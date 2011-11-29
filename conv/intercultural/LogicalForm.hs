@@ -189,6 +189,27 @@ transWH (Branch (Cat _ "WH" _ _ )
 	WH (\x -> Conj [transW wh x,
 			transNP np (\agent -> Rel two_ple [agent,x])])
 
+transWH (Branch (Cat _ "WH" _ _ )
+	[wh,(Branch (Cat _ "YN" _ _) [_,(Branch
+		(Cat _ "S" _ _) [np,(Branch
+			(Cat _ "VP" _ _) [_,vp@(Branch
+				(Cat _ "VP" _ _) [Leaf (Cat three_ple "VP" _ _),dobj, Branch
+					(Cat _ "PP" _ _) [Leaf (Cat _ "PREP" _ _),
+						Leaf (Cat "#" "NP" _ _)]])])])])]) =
+	WH (\x -> Conj [transW wh x,
+			transNP np (\agent -> transNP dobj 
+				( \patient -> Rel three_ple [agent,patient,x]))])
+
+transWH (Branch (Cat _ "WH" _ _ )
+	[wh,(Branch (Cat _ "YN" _ _) [_,(Branch
+		(Cat _ "S" _ _) [np,(Branch
+			(Cat _ "VP" _ _) [_,vp@(Branch
+				(Cat _ "VP" _ _) [Leaf (Cat three_ple "VP" _ _),
+					obj,Leaf (Cat "#" "NP" _ _)])])])])]) =
+	WH (\x -> Conj [transW wh x,
+			transNP np (\agent -> transNP obj 
+				( \recipient -> Rel three_ple [agent,x,recipient]))])
+
 transW :: ParseTree Cat Cat -> (Term -> LF)
 transW (Branch (Cat _ "NP" fs _) [det,cn]) = 
                             \e -> transCN cn e
