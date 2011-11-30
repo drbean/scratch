@@ -129,22 +129,19 @@ transDET (Leaf (Cat "which" "DET" _ _)) =
 		q v1])
 
 transCN :: ParseTree Cat Cat -> Term -> LF
-transCN (Leaf   (Cat name "CN" _ _))          = \ x -> 
-                                              Rel name [x]
+transCN (Leaf   (Cat name "CN" _ _))          = \ x -> Rel name [x]
 transCN (Branch (Cat _    "CN" _ _) [cn,rel]) = case (rel) of
-(Branch (Cat _ "COMP" _ _) [Leaf (Cat _ "REL"  _ _), Branch (Cat _ "S" _ _) [np,vp]]) ->
+    (Branch (Cat _ "COMP" _ _) [Leaf (Cat _ "REL"  _ _), Branch (Cat _ "S" _ _) [np,vp]]) ->
 	case (np,vp) of
-		(Leaf (Cat "#" "NP" _ _), _) ->
-			\x -> Conj [transCN cn x, transVP vp x]
-		(_, (Branch (Cat _ "VP" _ _)
-			[Leaf (Cat name "VP" _ _),Leaf (Cat "#" "NP" _ _)])) ->
-			\x -> Conj [transCN cn x, transNP np (\agent -> Rel name [agent,x])]
-		_ ->
-			\x -> Conj [transCN cn x, transVP vp x]
-	(Branch (Cat _ "COMP" _ _) [Branch (Cat _ "S" _ _) [np,vp]]) -> case (vp) of
-		(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ _),Leaf (Cat "#" "NP" _ _)])
-			-> \x -> Conj [transCN cn x, transNP np (\agent -> Rel name [agent,x])]
-	_ ->	\ x -> Conj [transCN cn x, transREL rel x]
+	    (Leaf (Cat "#" "NP" _ _), _) -> \x -> Conj [transCN cn x, transVP vp x]
+	    (_, (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ _),Leaf (Cat "#" "NP" _ _)]))
+		-> \x -> Conj [transCN cn x, transNP np (\agent -> Rel name [agent,x])]
+	    _ -> \x -> Conj [transCN cn x, transVP vp x]
+    (Branch (Cat _ "COMP" _ _) [Branch (Cat _ "S" _ _) [np,vp]]) ->
+	case (vp) of
+	    (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ _),Leaf (Cat "#" "NP" _ _)])
+		-> \x -> Conj [transCN cn x, transNP np (\agent -> Rel name [agent,x])]
+    _ ->	\ x -> Conj [transCN cn x, transREL rel x]
 
 transREL :: ParseTree Cat Cat -> Term -> LF
 transREL (Branch (Cat _ "COMP" _ _ ) [rel,s]) = 
@@ -360,3 +357,5 @@ lf72 = ( \x -> ( Conj [ (Rel "son" [x]), (Rel "have" [x, Const (ents !! 17)]) ] 
 lf73 = \x -> Conj [ (Rel "son" [x]), (Rel "have" [x, Const (ents !! 17)]) ]
 lf74 = ( \x -> ( Conj [ (Rel "daughter" [x]), (Rel "have" [x, Const (ents !! 17)]) ] ) )
 lf75 = \x -> Impl (Rel "son" [x]) (Rel "have" [x, Const (ents !! 17)])
+
+-- vim: set ts=8 sts=4 sw=4 noet:
