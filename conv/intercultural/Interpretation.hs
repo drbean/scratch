@@ -67,7 +67,10 @@ int "immigrate" = \args -> case args of
 
 
 int "gave"	= \ [x,y,z] ->	gave z y x;	int "give"	= int "gave"
-int "got" = \[x,y,z] -> gave x y z; int "get" = int "got"
+int "got" = \args -> case args of
+	[x,y] -> forgetful got y x
+	[x,y,z] -> got z y x
+int "get" = int "got"
 int "bought" = int "got"; int "buy" = int "get"
 
 int "accepted" = int "got"; int "accept" = int "accepted"
