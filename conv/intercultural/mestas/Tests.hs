@@ -239,6 +239,8 @@ relclauses = [
 	"Fidel disappointed the man that gave Ileana the dolls.",
 	"The man that Fidel disappointed left Cuba.",
 	"The man Fidel disappointed left Cuba.",
+	"Ileana accepted the dolls that a man gave Ileana.",
+	"Ileana accepted the dolls that a man gave to Ileana.",
 	"Who appreciated the man that gave the girl \
 	 \that left Cuba a doll?"
 	]
