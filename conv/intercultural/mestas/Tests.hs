@@ -234,8 +234,11 @@ relclauses = [
 	"Did some person who raised Ileana look back?",
 	"The woman who gave the dolls to Ileana looked back.",
 	"Ofelia married the man that gave the dolls to Ileana.",
+	"The man that Ofelia married gave the dolls to Ileana.",
+	"The man Ofelia married gave the dolls to Ileana.",
 	"Fidel disappointed the man that gave Ileana the dolls.",
 	"The man that Fidel disappointed left Cuba.",
+	"The man Fidel disappointed left Cuba.",
 	"Who appreciated the man that gave the girl \
 	 \that left Cuba a doll?"
 	]
