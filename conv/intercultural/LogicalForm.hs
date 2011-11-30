@@ -134,8 +134,22 @@ transCN (Branch (Cat _    "CN" _ _) [cn,rel]) = case (rel) of
     (Branch (Cat _ "COMP" _ _) [Leaf (Cat _ "REL"  _ _), Branch (Cat _ "S" _ _) [np,vp]]) ->
 	case (np,vp) of
 	    (Leaf (Cat "#" "NP" _ _), _) -> \x -> Conj [transCN cn x, transVP vp x]
-	    (_, (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ _),Leaf (Cat "#" "NP" _ _)]))
-		-> \x -> Conj [transCN cn x, transNP np (\agent -> Rel name [agent,x])]
+	    (_, (Branch (Cat _ "VP" _ _) vp)) -> case (vp) of
+		[Leaf (Cat name "VP" _ _),Leaf (Cat "#" "NP" _ _)]->
+		    \x -> Conj [transCN cn x, transNP np (\agent -> Rel name [agent,x])]
+		[Leaf (Cat name "VP" _ _),obj1,obj2]-> case (obj1,obj2) of
+		    (Leaf (Cat "#" "NP" _ _),Branch (Cat _ "PP" _ _) _) -> \x -> Conj
+			[transCN cn x, transNP np ( \agent ->
+			    transPP obj2 (\recipient -> Rel name [agent, x, recipient] ) ) ]
+		    (Leaf (Cat "#" "NP" _ _),Branch (Cat _ "NP" _ _) _) -> \x -> Conj
+			[transCN cn x, transNP np ( \agent ->
+			    transNP obj2 (\patient -> Rel name [agent, patient, x] ) ) ]
+		    (Leaf (Cat _ "NP" _ _),Leaf (Cat "#" "NP" _ _)) -> \x -> Conj
+			[transCN cn x, transNP np ( \agent ->
+			    transNP obj1 (\recipient -> Rel name [agent, x, recipient] ) ) ]
+		    (_,Leaf (Cat "#" "NP" _ _)) -> \x -> Conj
+			[transCN cn x, transNP np ( \agent ->
+			    transNP obj2 (\patient -> Rel name [agent, patient, x] ) ) ]
 	    _ -> \x -> Conj [transCN cn x, transVP vp x]
     (Branch (Cat _ "COMP" _ _) [Branch (Cat _ "S" _ _) [np,vp]]) ->
 	case (vp) of
