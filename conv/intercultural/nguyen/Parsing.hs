@@ -112,6 +112,11 @@ collect_lex = [
 	("possessives", possessives)
 	]
 
+toupper = reverse . upperizer . reverse where
+        upperizer (x:[]) = toUpper x : []
+	upperizer (x:'_':xs) = (toUpper x) : '_': (upperizer xs)
+	upperizer (x:xs) = x : upperizer xs
+
 proper_names = [
 	[Cat "english" "NP" [Thrd,Neutr,Sg] []],
 	[Cat "vietnam" "NP" [Thrd,Neutr,Sg] []],
