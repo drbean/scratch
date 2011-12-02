@@ -20,6 +20,8 @@ data LF = NonProposition
         | Disj [LF] 
         | Forall (Term -> LF)
         | Exists (Term -> LF)
+        | Single (Term -> LF)
+        | The (Term -> LF)
         | Several (Term -> LF)
         | Many (Term -> LF)
         | Most (Term -> LF)
@@ -49,6 +51,10 @@ ishow (Disj lfs) i    = "disj" ++ "[" ++ ishowForms lfs i ++ "]"
 ishow (Forall scope) i = "Forall x" ++ show i ++ (' ' :
 			(ishow (scope (Var i)) (i+1)))
 ishow (Exists scope) i = "Exists x" ++ show i ++ (' ' :
+			(ishow (scope (Var i)) (i+1)))
+ishow (Single scope) i = "Single x" ++ show i ++ (' ' :
+			(ishow (scope (Var i)) (i+1)))
+ishow (The scope) i = "The x" ++ show i ++ (' ' :
 			(ishow (scope (Var i)) (i+1)))
 ishow (Several scope) i = "Several x" ++ show i ++ (' ' :
 			(ishow (scope (Var i)) (i+1)))
@@ -93,8 +99,10 @@ transDET :: ParseTree Cat Cat -> (Term -> LF)
                               -> (Term -> LF)
                               -> LF
 transDET (Branch (Cat _ "DET" _ _)
-	[Leaf (Cat "'s" "APOS" _ _), Leaf (Cat _ "NP" _ _)]) =
-	  \ p q -> Exists (\v -> Conj [p v, q v] )
+	[Leaf (Cat "'s" "APOS" _ _), Leaf (Cat name "NP" _ _)]) =
+	  \ p q -> Exists (\v -> Conj [ Single p, p v, q v, Rel "had" [Const (ided name), v] ])
+transDET (Leaf (Cat "the" "DET" _ _)) = 
+  \ p q -> Exists (\v -> Conj [Single p, p v, q v] )
 transDET (Leaf (Cat "every" "DET" _ _)) = 
   \ p q -> Forall (\v -> Impl (p v) (q v) )
 transDET (Leaf (Cat "all" "DET" _ _)) = 
@@ -106,17 +114,13 @@ transDET (Leaf (Cat "a" "DET" _ _)) =
 transDET (Leaf (Cat "zero" "DET" _ _)) = 
   \ p q -> Exists (\v -> Conj [p v, q v] )
 transDET (Leaf (Cat "several" "DET" _ _)) = 
-  \ p q -> Several (\v -> Impl (p v) (q v) )
+  \ p q -> Several (\v -> Conj [p v, q v] )
 transDET (Leaf (Cat "no" "DET" _ _)) = 
   \ p q -> Neg (Exists (\v -> Conj [p v, q v]))
-transDET (Leaf (Cat "the" "DET" _ _)) = 
-  \ p q -> Exists (\v1 -> Conj
-  		[Forall (\v2 -> Equi (p v2) (Eq v1 v2)),
-		q v1])
 transDET (Leaf (Cat "most" "DET" _ _)) = 
   \ p q -> Most (\v -> Impl (p v) (q v) )
 transDET (Leaf (Cat "many" "DET" _ _)) = 
-  \ p q -> Many (\v -> Impl (p v) (q v) )
+  \ p q -> Many (\v -> Conj [p v, q v] )
 transDET (Leaf (Cat "few" "DET" _ _)) = 
   \ p q -> Neg $ Many (\v -> Impl (p v) (q v) )
 transDET (Leaf (Cat "which" "DET" _ _)) = 
@@ -125,10 +129,33 @@ transDET (Leaf (Cat "which" "DET" _ _)) =
 		q v1])
 
 transCN :: ParseTree Cat Cat -> Term -> LF
-transCN (Leaf   (Cat name "CN" _ _))          = \ x -> 
-                                              Rel name [x]
-transCN (Branch (Cat _    "CN" _ _) [cn,rel]) = \ x -> 
-                       Conj [transCN cn x, transREL rel x]
+transCN (Leaf   (Cat name "CN" _ _))          = \ x -> Rel name [x]
+transCN (Branch (Cat _    "CN" _ _) [cn,rel]) = case (rel) of
+    (Branch (Cat _ "COMP" _ _) [Leaf (Cat _ "REL"  _ _), Branch (Cat _ "S" _ _) [np,vp]]) ->
+	case (np,vp) of
+	    (Leaf (Cat "#" "NP" _ _), _) -> \x -> Conj [transCN cn x, transVP vp x]
+	    (_, (Branch (Cat _ "VP" _ _) vp)) -> case (vp) of
+		[Leaf (Cat name "VP" _ _),Leaf (Cat "#" "NP" _ _)]->
+		    \x -> Conj [transCN cn x, transNP np (\agent -> Rel name [agent,x])]
+		[Leaf (Cat name "VP" _ _),obj1,obj2]-> case (obj1,obj2) of
+		    (Leaf (Cat "#" "NP" _ _),Branch (Cat _ "PP" _ _) _) -> \x -> Conj
+			[transCN cn x, transNP np ( \agent ->
+			    transPP obj2 (\recipient -> Rel name [agent, x, recipient] ) ) ]
+		    (Leaf (Cat "#" "NP" _ _),Branch (Cat _ "NP" _ _) _) -> \x -> Conj
+			[transCN cn x, transNP np ( \agent ->
+			    transNP obj2 (\patient -> Rel name [agent, patient, x] ) ) ]
+		    (Leaf (Cat _ "NP" _ _),Leaf (Cat "#" "NP" _ _)) -> \x -> Conj
+			[transCN cn x, transNP np ( \agent ->
+			    transNP obj1 (\recipient -> Rel name [agent, x, recipient] ) ) ]
+		    (_,Leaf (Cat "#" "NP" _ _)) -> \x -> Conj
+			[transCN cn x, transNP np ( \agent ->
+			    transNP obj2 (\patient -> Rel name [agent, patient, x] ) ) ]
+	    _ -> \x -> Conj [transCN cn x, transVP vp x]
+    (Branch (Cat _ "COMP" _ _) [Branch (Cat _ "S" _ _) [np,vp]]) ->
+	case (vp) of
+	    (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ _),Leaf (Cat "#" "NP" _ _)])
+		-> \x -> Conj [transCN cn x, transNP np (\agent -> Rel name [agent,x])]
+    _ ->	\ x -> Conj [transCN cn x, transREL rel x]
 
 transREL :: ParseTree Cat Cat -> Term -> LF
 transREL (Branch (Cat _ "COMP" _ _ ) [rel,s]) = 
@@ -173,24 +200,56 @@ transVP (Branch (Cat _ "VP" _ _)
                 [Leaf (Cat "#" "AUX" _ []),vp]) = 
         transVP vp 
 
-transWH :: ParseTree Cat Cat -> (Term -> LF)
-transWH (Branch (Cat _ "WH" _ _ ) [wh,s]) =
-	(\v -> Conj [transW wh, transS s])
+transWH :: ParseTree Cat Cat -> LF
+transWH (Branch (Cat _ "WH" _ _ ) [wh,Branch (Cat _ "S" _ _) [Leaf (Cat "#" "NP" _ _),vp]]) =
+	WH (\x -> Conj [ transW wh x, transVP vp x ])
 
-transW :: ParseTree Cat Cat -> LF
+transWH (Branch (Cat _ "WH" _ _ )
+	[wh,(Branch (Cat _ "YN" _ _) [_,(Branch
+		(Cat _ "S" _ _) [np,(Branch
+			(Cat _ "VP" _ _) [_,vp@(Branch
+				(Cat _ "VP" _ _) [Leaf (Cat two_ple "VP" _ _),obj])])])])]) =
+	case (obj) of 
+		(Leaf (Cat _ "NP" _ _) ) ->
+			WH (\x -> Conj [transW wh x,
+				transNP np (\agent ->
+					Rel two_ple [agent,x])])
+		(Branch (Cat _ "PP" _ _) _ ) ->
+			WH (\x -> Conj [transW wh x,
+				transNP np (\agent ->
+					Rel two_ple [agent,x])])
+
+transWH (Branch (Cat _ "WH" _ _ )
+	[wh,(Branch (Cat _ "YN" _ _) [_,(Branch
+		(Cat _ "S" _ _) [np,(Branch
+			(Cat _ "VP" _ _) [_,vp@(Branch
+				(Cat _ "VP" _ _) [Leaf (Cat three_ple "VP" _ _),obj1,obj2]
+						)])])])]) =
+	case (obj1,obj2) of 
+		(_,Branch (Cat _ "PP" _ _) [Leaf (Cat _ "PREP" _ _),
+						Leaf (Cat "#" "NP" _ _)]) ->
+			WH (\x -> Conj [transW wh x,
+				transNP np (\agent -> transNP obj1
+					( \patient -> Rel three_ple [agent,patient,x]))])
+		(_,Leaf (Cat "#" "NP" _ _)) ->
+			WH (\x -> Conj [transW wh x,
+				transNP np (\agent -> transNP obj1
+					( \recipient -> Rel three_ple [agent,x,recipient]))])
+
+transW :: ParseTree Cat Cat -> (Term -> LF)
 transW (Branch (Cat _ "NP" fs _) [det,cn]) = 
-                            transCN cn (Var 0)
-transW (Leaf (Cat _ "NP" fs _)) 
-      | Masc      `elem` fs = Rel "man"    [Var 0]
-      | Fem       `elem` fs = Rel "woman"  [Var 0]
-      | MascOrFem `elem` fs = Rel "person" [Var 0]
-      | otherwise           = Rel "thing"  [Var 0]
+                            \e -> transCN cn e
+transW (Leaf (Cat _ "NP" fs _))
+      | Masc      `elem` fs = \e -> Rel "man"    [e]
+      | Fem       `elem` fs = \e -> Rel "woman"  [e]
+      | MascOrFem `elem` fs = \e -> Rel "person" [e]
+      | otherwise           = \e -> Rel "thing"  [e]
 
-transW (Branch (Cat _ "PP" fs _) [prep,np]) 
-      | Masc      `elem` fs = Rel "man"    [Var 0]
-      | Fem       `elem` fs = Rel "woman"  [Var 0]
-      | MascOrFem `elem` fs = Rel "person" [Var 0]
-      | otherwise           = Rel "thing"  [Var 0]
+transW (Branch (Cat _ "PP" fs _) [prep,np])
+      | Masc      `elem` fs = \e -> Rel "man"    [e]
+      | Fem       `elem` fs = \e -> Rel "woman"  [e]
+      | MascOrFem `elem` fs = \e -> Rel "person" [e]
+      | otherwise           = \e -> Rel "thing"  [e]
 
 
 process :: String -> [LF]
@@ -208,7 +267,10 @@ fint :: FInterp
 fint name [] =	maybe (entities!!26) id $ lookup name characters
 
 ents = entities
-term entity = maybe "NoName" id $ lookup entity names
+realents = filter ( not . flip elem [Unspec,Someone,Something] ) ents
+named entity = maybe "NoName" id $ lookup entity names
+
+ided :: String -> Entity
 ided name = maybe Unspec id $ lookup name characters
 
 type TVal = Term -> Entity
@@ -245,19 +307,22 @@ evl (Conj lfs)	= and ( map ( evl ) lfs )
 evl (Disj lfs)	= or ( map ( evl ) lfs )
 evl (Forall scope)	= and $ testents scope
 evl (Exists scope)	= or $ testents scope
-evl (Several scope)	= length ( filter id $ testents scope ) < 4
-		&& length ( filter id $ testents scope ) > 1
-evl (Many scope)	= length ( filter id $ testents scope ) > 5
-evl (Most scope)	= length ( filter id $ testents scope ) >
-			length ( filter not $ testents scope )
+evl (Single scope)	= singleton ( mapMaybe bool2Maybe $ testents scope )
+evl (Several scope)	= smallN ( mapMaybe bool2Maybe $ testents scope )
+evl (Many scope)	= bigN ( mapMaybe bool2Maybe $ testents scope )
+evl (Most scope)	= length ( mapMaybe bool2Maybe $ testents scope ) >
+			length ( mapMaybe bool2Maybe $ testents scope )
 
+bool2Maybe :: Bool -> Maybe Bool
+bool2Maybe = \x -> case x of False -> Nothing; True -> Just True 
 testents :: (Term -> LF) -> [Bool]
-testents scope = [ evl (scope (Const e)) | e <- ents ]
+testents scope = map ( \e -> evl (scope (Const e)) ) realents 
 
-passents :: (Term -> LF) -> [Entity]
-passents scope = map fst $ filter snd $ zip ents $ testents scope
+ent2Maybe :: (Term -> LF) -> Entity -> Maybe Entity
+ent2Maybe scope = \e -> case evl (scope (Const e)) of
+	False -> Nothing; True -> Just e
 evalW :: LF -> [Entity]
-evalW (WH scope)	= passents  scope
+evalW (WH scope)	= mapMaybe (ent2Maybe scope) realents
 
 ttest :: (Term -> LF) -> Term -> Bool
 ttest scope (Const a) = evl (scope (Const a))
@@ -269,175 +334,23 @@ singleton :: [a] -> Bool
 singleton [x]	= True
 singleton _	= False
 
-test_text = [
-	"Stephanie spoke Vietnamese.",
-	"Stephanie's brother spoke Vietnamese.",
-	"Stephanie had a brother and a brother spoke Vietnamese.",
-	"Stephanie knew Vietnamese and Theresa spoke English.",
-	"Stephanie spoke Vietnamese but Theresa didn't speak Vietnamese.",
-	"Stephanie talked to Theresa and Theresa talked to Stephanie's father.",
-	"Stephanie talked to Theresa and Theresa talked to Stephanie's father " ++
-		"and Stephanie's father talked to Stephanie.",
-	"Stephanie's brother looked back on Stephanie's upbringing. \
-	\Stephanie talked to Theresa. \
-	\Stephanie asked Theresa about Vietnam."
-	]
-test_possessives = [
-	"Theresa looked back.",
-	"Theresa's daughter looked back.",
-	"Stephanie's father looked back.",
-	"Theresa's daughter looked back on Stephanie's upbringing.",
-	-- "Theresa's daughter looked back on Theresa's daughter's upbringing.",
-	"Stephanie's father looked back on Stephanie's upbringing.",
-	"Did Stephanie's father look back on Stephanie's upbringing?",
-	"Did Stephanie's brother look back on Stephanie's upbringing?",
-	"Did Stephanie's father speak English?",
-	"Did Stephanie's brother speak English?",
-	"Did Stephanie's brother know Vietnamese?",
-	"Did Stephanie's mother speak Vietnamese?",
-	"Did Stephanie's mother speak English?",
-	"Did the sister of Stephanie know Vietnamese?",
-	"Did the father of Stephanie look back on Stephanie's upbringing?",
-	"Did the brother of Stephanie look back on Stephanie's upbringing?",
-	"Did the mother of Stephanie speak English?",
-	"Did the father of Stephanie speak English?",
-	"Did the brother of Stephanie speak English?",
-	"Did the mother of Stephanie speak Vietnamese?",
-	"Did the brother of Stephanie know Vietnamese?",
-	"Did the sister of Stephanie know Vietnamese?"
-	]
-haves = [
-	"Did Ken have Henry?",
-	"Did Ken have John?",
-	"Did Ken have a mother?",
-	"Did Ken have a son?",
-	"Did Ken have a daughter?",
-	"Did Henry have a mother?",
-	"Did Ken have shoes?",
-	"Did Ken have some shoes?",
-	"Did Ken have money?",
-	"Did Henry have money?",
-	"Did John have money?",
-	"Did Ken have a parent?",
-	"Did Ken have some parents?",
-	"Did Ken have parents?",
-	"Did Henry have a parent?",
-	"Did Henry have some parents?",
-	"Did Henry have parents?",
-	"Did Ken have look back?",
-	"Did John have look back?",
-	"Did Henry have look back?"
-	]
-ungrammatical = [
-	"Did John looked back?",
-	"Ken look back?",
-	"Man looked back.",
-	"Some man work.",
-	"No looked back.",
-	"No-one work.",
-	"Did John teach?",
-	"John teach Ken.",
-	"Ken taught."
-	]
-intransitives = [
-	"Did Stephanie look back?",
-	"Did Theresa look back?",
-	"Did Stephanie's father look back?",
-	"A man looked back.",
-	"Some man looked back.",
-	"No one looked back.",
-	"No-one looked back.",
-	"Everybody looked back.",
-	"Everyone looked back.",
-	-- "Many persons looked back.",
-	"No person looked back.",
-	"Did the man look back?",
-	"Did some man look back?",
-	"Did some men look back?",
-	"Did some woman look back?",
-	"Did some women look back?",
-	"Most men looked back.",
-	"Most men didn't look back.",
-	"Several men looked back.",
-	"Several men didn't look back.",
-	"Many men looked back.",
-	"Many men didn't work.",
-	"All men looked back.",
-	"No man looked back.",
-	"Did Henry look back at a farm?",
-	"Henry looked back on a farm?",
-	"Henry looked back in a farm?"
-	]
-transitives = [
-	"Did John study law?",
-	"John studied law.",
-	"Ken studied law.",
-	"Ken studied law at Michigan Law.",
-	"Ken studied law at Colorado College",
-	"Did Ken go to Colorado College.",
-	"Some woman went to Colorado College.",
-	"Some man went to Colorado College.",
-	"Some boy went to Colorado College.",
-	"Some man parented Ken.",
-	"A man parented John",
-	"Some woman told a story."
-	]
-ditransitive_tests = [
-	"Ken told a story.",
-	"Ken told Henry a story.",
-	"Ken told a story to Henry.",
-	"Ken told a story to John",
-	"Ken gave some shoes to John.",
-	"Did Ken give some shoes to John.",
-	"Did Ken give the shoes to John?",
-	"Did Ken give the shoes to someone?",
-	"Ken gave several shoes to John.",
-	"Did someone give something to John?",
-	"A woman gave the shoes to John.",
-	"A woman gave the shoes to someone.",
-	"A woman gave something to someone.",
-	"Someone gave something to someone.",
-	"Ken gave John some shoes.",
-	"Did Ken give John some shoes?",
-	"Did Ken give John the shoes?",
-	"Did Ken give someone the shoes?",
-	"Ken gave John several shoes.",
-	"Did someone give John something?",
-	"A man gave John the shoes.",
-	"A boy gave John the shoes.",
-	"Leroy gave John the shoe.",
-	"A man gave someone the shoes.",
-	"A man gave someone something.",
-	"Someone gave someone something."
-	]
-wh_questions =[
-	"Who looked back?",
-	"Who did John teach?",
-	"Who taught John?",
-	"Who gave the shoes to John?",
-	"Who gave some shoes to John?",
-	"Which person looked back?",
-	"Which person did John teach?",
-	"To whom did Ken give some shoes?",
-	"Who did Ken give some shoes to?"
-	]
-relclauses = [
-	"A woman who taught John looked back.",
-	"The woman who taught John looked back.",
-	"Did the woman who taught John look back?",
-	"Did every woman who taught John look back?",
-	"The woman who gave the shoes to John looked back.",
-	"Ken divorced the man that she gave the shoes to.",
-	"Who killed the man that helped the woman " 
-	 ++ "that had a boyfriend."
-	]
+smallN :: [a] -> Bool
+smallN [_,_]	= True
+smallN [_,_,_]	= True
+smallN _	= False
 
+bigN :: [a] -> Bool
+bigN [] = False
+bigN [_] = False
+bigN xs = not . smallN $ xs
 
 handler core tests = putStr $ unlines $ map (\(x,y) -> x++show y) $ zip (map (++"\t") tests ) ( map core tests )
 
--- evals tests = putStr $ unlines $ map (\(x,y)->x++show y) $ zip (map (++"\t") tests ) ( map (eval . head . process) tests )
+evals = handler (eval . transTXT . head . parses)
 
 forms tests = putStr $ unlines $ map (\(x,y)->x++show y) $ zip (map (++"\t") tests ) ( map process tests )
+
+parentN = length ( mapMaybe ( \y -> bool2Maybe( evl ((\x->Rel "parent" [Const x] ) y)) ) ents) -- 2
 
 lf0 = Rel "worked" [ Const(ents!!17) ]
 lf00 = (Conj [(Rel "person" [Var 0]), (Rel "worked" [Var 0]) ] ) 
@@ -452,9 +365,11 @@ lf4 = (Impl  (Rel "married" [ Const (ents !! 9), Const        (ents !! 1)]) (Rel
 lf5 = (Conj [ (Rel "married" [ Const (ents !! 9), Const       (ents !! 1)]), (Rel "married" [ Const (ents !! 8), Const (ents !!   17)]) ] )
 lf6 = (Disj [ (Rel "married" [ Const (ents !! 9), Const       (ents !! 1)]), (Rel "married" [ Const (ents !! 8), Const (ents !!   17)]) ] )
 
-lf70 = ( \x -> ( Conj [ (Rel "son" [x]), (Rel "have" [x, Const (ents !! 8)]) ] ) ) (Const (ents !! 12) )
+lf70 = ( \x -> ( Conj [ (Rel "son" [x]), (Rel "have" [Const (ents !! 8) ,x]) ] ) ) (Const (ents !! 12) )
 lf71 = ( \x -> ( Conj [ (Rel "son" [x]), (Rel "have" [x, Const (ents !! 17)]) ] ) ) (Const (ents !! 12) )
 lf72 = ( \x -> ( Conj [ (Rel "son" [x]), (Rel "have" [x, Const (ents !! 17)]) ] ) ) (Const (ents !! 12) )
 lf73 = \x -> Conj [ (Rel "son" [x]), (Rel "have" [x, Const (ents !! 17)]) ]
 lf74 = ( \x -> ( Conj [ (Rel "daughter" [x]), (Rel "have" [x, Const (ents !! 17)]) ] ) )
 lf75 = \x -> Impl (Rel "son" [x]) (Rel "have" [x, Const (ents !! 17)])
+
+-- vim: set ts=8 sts=4 sw=4 noet:
