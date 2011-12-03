@@ -15,14 +15,14 @@
     "00:38 A group gathered around in chairs.
     00:42 And they were all wearing their nice Christmas clothing, 
     00:43 and I thought, Well, how nice, you know, they have no idea that I'm going to bore them to sleep with my tuning. 
-    00:49 And I’m kind of working along happily and I’m smiling at people. 
+    00:49 And I'm kind of working along happily and I'm smiling at people. 
     00:54 And a few of them were looking at me like, What in the world is he doing? 
     00:58 One lady was just glaring at me. 
     01:01 Another lady was giving me sympathetic looks (Her name turned out to be Rose). 
     01:06 And then the activity director comes in and says:
     01:09 OK, everybody, Miss Jennifer was here and she saw that the piano man was tuning the piano, 
-    01:14 so she’ll be back in January. 
-    01:18 I didn’t realize they had a concert scheduled that day. "
+    01:14 so she'll be back in January. 
+    01:18 I didn't realize they had a concert scheduled that day. "
   - "bore|glaring|sympathetic|activity|director|Jennifer|realize|scheduled"
 
 -
@@ -580,6 +580,27 @@
 
     Angelo: I feel the same way, Eddie. I'll be honest with you - I miss it terribly. I'm like that little kid looking out the window now when I hear the truck. I think I could have done another 31 years.
   - Eddie|Angelo|marshmallow
+
+-
+  - dickson
+  - Woman in man's job
+  - intermediate
+  - all
+  - |+
+    The guy that was interviewing told me I was too little, that I wouldn't get along with the guys, that they would make life hard for me.  He didn't think I needed to be doing it.
+
+    And my dad said, "Well, you know, my Uncle Alf is superintendent out there. I can get you on like that." Finally, at the end of that week I let my dad take me to see Uncle Alf.
+
+    So, I went the next Monday and the guy said, "Look, I got the word from the top. I don't like it, but you're hired."
+
+    Then I went to the ship. And none of the guys would work with me. They said, "These are men's jobs. You're taking jobs away from men who have families." I said, "I have a family and no man and I need money."
+
+    It took about two weeks before I started proving myself. And the guys were doing better with it. They would work with me. I had several guys who told me, "You need to slow down--you're making us look bad." (Laughs) You know? And I'm like, "I'm here to work!"
+
+    We had to go to school two nights a week. And I was the first apprentice who had ever become supervisor before graduation. And they were mad because I got a raise. And I got a position they thought was theirs. It's just... I had a knack for getting stuff done on time and getting it done right.
+
+    Now, I had to do some things a little differently than they did, you know?  I couldn't lift an 80 pound transformer. But I found a way to do the same things they were doing. And it kind of made me better than I probably would have been if I was a guy.
+  - Alf|superintendent|apprentice|supervisor|transformer
 
 ---
 -
@@ -1211,4 +1232,11 @@
   - 8
   - D
   - He cries like a little kid when he hears the truck out the window, because he misses it a little bit.
+  - False
+-
+  - intermediate
+  - dickson
+  - 1
+  - all
+  - ''
   - False
