@@ -112,6 +112,11 @@ collect_lex = [
 	("possessives", possessives)
 	]
 
+toupper = reverse . upperizer . reverse where
+        upperizer (x:[]) = toUpper x : []
+	upperizer (x:'_':xs) = (toUpper x) : '_': (upperizer xs)
+	upperizer (x:xs) = x : upperizer xs
+
 proper_names = [
 	[Cat "thanksgiving" "NP" [Thrd,Neutr,Sg] []],
 	[Cat "english" "NP" [Thrd,Neutr,Sg] []],
@@ -243,8 +248,8 @@ transitives = [
 	[Cat "speak"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "cut"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
 		Cat "cut" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-					Cat "_" "PP" [With] []]],
-	[Cat "cut"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
+					Cat "_" "PP" [With] []],
+		Cat "cut"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
 		Cat "cut" "VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
 					Cat "_" "PP" [With] []]],
 	[Cat "ate"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
