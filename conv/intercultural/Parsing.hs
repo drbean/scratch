@@ -366,7 +366,7 @@ preps = [
 	[Cat "by"   "PREP" [By]   []],
 	[Cat "for"  "PREP" [For]  []],
 	[Cat "from" "PREP" [From] []],
-	[Cat "in"   "PREP" [In]   []],
+	-- [Cat "in"   "PREP" [In]   []],
 	[Cat "on"   "PREP" [On]   []],
 	[Cat "to"   "PREP" [To]   []],
 	[Cat "through" "PREP" [Through] []],
