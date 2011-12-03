@@ -160,7 +160,7 @@ origin	= theme
 destination = recipient
 
 --(worker,job,site)
-working	= [ (G,T,J),(G,P,L),(G,R,Unspec) ]
+working	= [ (G,R,C),(G,R,U),(G,T,J),(G,P,L) ]
 comms	= [ (G,Y,I) ]
 giving	= [ (G,D,I) ]
 -- (seller, item, buyer)
@@ -206,8 +206,8 @@ location4 (_,l,_,_) = l
 theme4 (_,_,t,_) = t
 recipient4 (_,_,_,r) = r
 
--- (teacher,school,subject,student)
-schooling = [(Unspec,S,N,G)]
+-- (teacher,school(location),subject,student)
+schooling = [(Unspec,S,N,G),(Unspec,C,N,G),(Unspec,U,N,G)]
 studied = pred3 $ map ( \x -> (recipient4 x, theme4 x, location4 x) )
 				schooling
 studied_what = pred2 $ map (\x -> (recipient4 x, theme4 x) ) schooling
