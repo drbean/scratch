@@ -55,6 +55,7 @@ haves = [
 	"Did Gus's daughter have a doll?",
 	"Did the daughter have some dolls?",
 	"Did the daughter have no dolls?",
+	-- "Ileana had many dolls in Cuba.",
 	"Did the parent have some dolls?",
 	"Did the parent have no dolls?",
 	"Did Gus have money?",
@@ -83,6 +84,7 @@ ungrammatical = [
 	"Gus raised."
 	]
 intransitives = [
+	"Ileana got married.",
 	"Did Ileana leave?",
 	"Did Gus leave?",
 	"Did Ileana's father leave?",
@@ -133,6 +135,7 @@ intransitives = [
 	"No man looked back."
 	]
 transitives = [
+	"Did Gus work in Cuba?",
 	"Did Gus work in the fields?",
 	"Gus worked on the fields?",
 	"Gus worked at the fields?",
@@ -147,6 +150,7 @@ transitives = [
 	"Did Ileana study medicine?",
 	"Ileana studied medicine.",
 	"Gus studied medicine.",
+	"Did Gus study in the United States?",
 	"Gus studied medicine at a motel.",
 	"Gus studied medicine at medical school",
 	"Did Gus go to medical school.",
