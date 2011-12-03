@@ -21,6 +21,7 @@ test_possessives = [
 	"Did Jose's brother eat pumpkin_pie?",
 	"Did Jose's father speak English?",
 	"Did Jose's brother speak English?",
+	"Did Jose's brother speak Spanish?",
 	"Did Jose's brother know Spanish?",
 	-- "Did Jose's mother speak Spanish?",
 	-- "Did Jose's mother speak English?",
