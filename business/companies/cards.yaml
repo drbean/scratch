@@ -20,6 +20,16 @@ ikval:
         \item [Financial status] The company is privately-owned (not on the stock market). Revenue (Sales) last year was \$90 million. Profits before tax are believed to be about \$2 million. Rising costs and slowing sales mean profit has fallen.
         \item [Idea] The company has emphasized more-expensive, high-quality, good-tasting, good-looking chocolates, sold only in its own stores. People think the buyers of Valentino chocolates are rich.
         \end{description}
+      quiz:
+        - question: Question 5, Valentino: The company has no need to worry.
+          answer: False
+        - question: Question 6, Valentino: Organic chocolates cannot be an opportunity.
+          answer: False
+        - question: Question 7, Valentino: Concerns about health might be a threat.
+          answer: True
+        - question: Question 8, Valentino: Expensive items are both a strength and weakness.
+          answer: True
+
 four:
   jigsaw:
     0:
@@ -247,13 +257,13 @@ dictation:
                 \end{minipage}
         \end{description}
       quiz:
-        - question: Question 5, Dr Bean's SWOT: Dr Bean has more opportunities than threats.
+        - question: Question 9, Dr Bean's SWOT: Dr Bean has more opportunities than threats.
           answer: False
-        - question: Question 6, Dr Bean's SWOT: Dr Bean has not much chance of success with his present product.
+        - question: Question 10, Dr Bean's SWOT: Dr Bean has not much chance of success with his present product.
           answer: True
-        - question: Question 7, Dr Bean's SWOT: If Dr Bean could make the dictation more game-like, it would be a stronger product.
+        - question: Question 11, Dr Bean's SWOT: If Dr Bean could make the dictation more game-like, it would be a stronger product.
           answer: True
-        - question: Question 8, Dr Bean's SWOT: Dr Bean's wish to run a one-man company is a strength.
+        - question: Question 12, Dr Bean's SWOT: Dr Bean's wish to run a one-man company is a strength.
           answer: False
   jigsaw:
     0:
@@ -309,40 +319,67 @@ flicker:
                 \end{minipage}
         \end{description}
       quiz:
-        - question: Question 9, Flicker's SWOT: Flicker has more strengths than weaknesses.
+        - question: Question 13, Flicker's SWOT: Flicker has more strengths than weaknesses.
           answer: False
-        - question: Question 10, Flicker's SWOT: Flicker has more threats than opportunities
+        - question: Question 14, Flicker's SWOT: Flicker has more threats than opportunities
           answer: True
-        - question: Question 11, Flicker's SWOT: Flicker is a good company to invest in.
+        - question: Question 15, Flicker's SWOT: Flicker is a good company to invest in.
           answer: False
-        - question: Question 12, Flicker's SWOT: The barbecue and camping fire lighter markets are not big markets compared to the cigarette lighter market.
+        - question: Question 16, Flicker's SWOT: The barbecue and camping fire lighter markets are not big markets compared to the cigarette lighter market.
           answer: True
 fourswot:
   jigsaw:
-    0:
-      identifier: fourswot 0
+    00:
+      identifier: fourswot 00
       A: |+
-        \item [IKEA] On-line shopping is important, but difficult, for companies with stores.
-        \item [Valentino] Many people want to try a different, new type of chocolate.
-        \item [Dr Bean] wants to make dictation software which is enjoyable and game-like.
-        \item [Flicker] was the first company to develop cheap plastic lighters.
+        On-line shopping is important, but difficult, for companies like IKEA with stores. If they charge different prices in stores and online, store customers are unhappy.
       B: |+
-        \item [IKEA] Some people like to go to stores to see furniture, but many people don't.
-        \item [Valentino] can produce new chocolates by changing the production process.
-        \item [Dr Bean] Studying English is hard work and not interesting for students.
-        \item [Flicker] researchers' recent discoveries mean cheaper lighters are possible.
+        Some people like to go to IKEA stores to shop for furniture, but many people don't. It is inconvenient to take the furniture home by yourself.
       C: |+
-        \item [IKEA]'s distribution system makes delivery of the furniture easy and cheap.
-        \item [Valentino] changes the production process by stopping it and changing machines.
-        \item [Dr Bean] Interesting games in Chinese are uninteresting for students in English.
-        \item [Flicker] Other cigarette lighter manufacturers pay Flicker to use its technology.
+        IKEA's distribution system makes delivery of the furniture easy and cheap. The companies which ship furniture to IKEA stores can ship directly to customers.
       D: |+
-        \item [IKEA] furniture is DYI (do-it-yourself). People assemble it themselves.
-        \item [Valentino] takes longer to change machines than other chocolate companies.
-        \item [Dr Bean] is thinking about how to interest students in English.
-        \item [Flicker] spends lots of money on research and development.
+        IKEA furniture is DYI (do-it-yourself). People assemble it themselves. They take home a flat package and use the tools and instructions IKEA put in the package.
       quiz:
         - question: IKEA is thinking about on-line shopping. On-line shopping for IKEA is:
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: an opportunity
+        - question: An online operation will take business away from IKEA stores.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a weakness
+        - question: Some people are not good at assembling IKEA furniture. They want someone to do it for them.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a threat
+        - question: IKEA's distribution system and DIY furniture make setting up an online operation easy.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a strength
+    01:
+      identifier: fourswot 01
+      A: |+
+        Valentino Many people want to try a different, new type of chocolate. A variety of new and different designs and flavors are attractive to chocolate eaters.
+      B: |+
+        Valentino can produce new chocolates by changing the production process. But, one type of machine and chocolate can only produce a few types of chocolate.
+      C: |+
+        Valentino produces a new design by stopping the production process and changing machines. This means the amount of chocolates produced is less.
+      D: |+
+        Valentino takes longer to change machines than other chocolate companies. Other companies have thought carefully about how to produce new designs quickly.
+      quiz:
+        - question: Machinery companies sell new machines that allow production of a number of different types of chocolates on one machine.
           option:
             - a strength
             - a weakness
@@ -356,13 +393,77 @@ fourswot:
             - an opportunity
             - a threat
           answer: a weakness
-        - question: For Dr Bean, the problem of how students feel about English is a:
+        - question: Valentino designers have lots of ideas about attractive designs and flavors.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a strength
+        - question: Some customers buy Valentino chocolates only sometimes. They don't want it to change its chocolates.
           option:
             - a strength
             - a weakness
             - an opportunity
             - a threat
           answer: a threat
+    02:
+      identifier: fourswot 02
+      A: |+
+        Dr Bean wants to make dictation software which is enjoyable and game-like. Learning can be fun, if the activity is rewarding. Games are fun.
+      B: |+
+        Studying English is hard work and not interesting for students. Students feel they are not achieving anything. They don't want to speak English. What can Dr Bean do?
+      C: |+
+        Interesting games in Chinese are uninteresting for students in English. If the language they have to use to do the game is too hard, it is not fun. What can Dr Bean do?
+      D: |+
+        Dr Bean is thinking about how to interest students in English. He is not very successful. Doing the activities, the students speak Chinese rather than English.
+      quiz:
+        - question: Dr Bean's activities are too hard for the students to do in English.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a weakness
+        - question: The dictation homework could be made more game-like by allowing students to work in a team and compete with other teams.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: an opportunity
+        - question: Dr Bean has an interest in what the students think of his activities.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a strength
+        - question: For Dr Bean, the problem of how students feel about English is:
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a threat
+    03:
+      identifier: fourswot 03
+      A: |+
+        Flicker was the first company to develop cheap plastic lighters. Now many companies, many of them in China, make cheap plastic lighters.
+      B: |+
+        Flicker researchers' recent discoveries mean cheaper lighters are possible. It is also researching lighters that work well even when it is very windy.
+      C: |+
+        Other cigarette lighter manufacturers pay Flicker to use its technology. These companies also do their own research and development, competing with it.
+      D: |+
+        Flicker spends lots of money on research and development. But it is very expensive to do that research and the results are not great.
+      quiz:
+        - question: If Flicker made its lighters cheaper, it could sell more lighters and make more money.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: an opportunity
         - question: Flicker's technology is:
           option:
             - a strength
@@ -370,6 +471,20 @@ fourswot:
             - an opportunity
             - a threat
           answer: a strength
+        - question: The superiority of Flicker's technology over that of other companies is less than it used to be.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a threat
+        - question: Flicker cigarette lighters are cheap. It is difficult for it to compete on the basis of design or quality of product.
+          option: 
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a weakness
     1:
       identifier: fourswot 1
       A: |+
