@@ -40,7 +40,6 @@ int "work" = \args -> case args of
 	[x,y] -> work_where y x || work_as y x
 int "worked" = int "work"
 int "had" = \[x,y] -> have y x;	int "have" = int "had"
-int "cut" = \args -> case args of [x,y] -> cut y x; [x,y,z] -> cut_with z y x
 int "knew" = \[x,y] -> know y x; int "know" = int "knew"
 int "look_back" = \args -> case args of
 	[x] -> look_back x
@@ -56,7 +55,6 @@ int "talked" = \args -> case args of
 	[x,y,z] -> talk_about z y x
 int "talk" = int "talked"
 int "said" = \[x,y] -> said y x; int "say" = int "said"
-int "ate" = \[x,y] -> eat y x; int "eat" = int "ate"
 int "left" = \args -> case args of
 	[x] -> isImmigrant x
 	[x,y] -> come_from y x
@@ -101,6 +99,3 @@ int "fields" = \ [x] -> fields x
 int "tomato" = \ [x] -> tomato x; int "tomatoes" = int "tomato"
 
 
-int "pumpkin_pie" = \[x] -> pumpkin_pie x
-int "knife"	= \[x] -> knife x
-int "missal"	= \[x] -> missal x
