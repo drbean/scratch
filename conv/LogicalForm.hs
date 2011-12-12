@@ -1,11 +1,31 @@
 module LogicalForm where
 
 import Parsing
+import Story_Parsing
 import Interpretation
+import Story_Interpretation
 import Model
 
 import Data.Maybe
 import Data.List
+
+lexicon :: String -> [Cat]
+
+lexicon lexeme = maybe unknownWord id $
+	find (\x -> phon (head x) == lexeme ) $
+	proper_names ++ object_names ++ class_names ++
+	prons ++ reflexives ++ interrogatives ++
+	aux ++ intransitives ++ transitives ++ ditransitives ++
+	story_verbs ++
+	possessives ++ preps ++ determiners ++ conjuncts
+	where unknownWord = [Cat "" "" [] []]
+
+parses :: String -> [ParseTree Cat Cat]
+parses str = let ws = lexer str 
+             in  [ s | catlist   <- collectCats lexicon ws, 
+                       (s,[],[]) <- prsWH [] catlist  
+                                 ++ prsYN  [] catlist   
+                                 ++ prsTXT  [] catlist ]
 
 data Term = Const Entity | Var Int | Struct String [Term]
 	deriving (Eq)
@@ -83,6 +103,11 @@ transS :: ParseTree Cat Cat -> LF
 transS Ep = NonProposition
 transS (Branch (Cat _ "S" _ _) [np,vp]) = 
   (transNP np) (transVP vp)
+
+transS (Branch (Cat _ "YN" _ _) 
+       [Leaf (Cat "could"    "AUX" _ []),s]) = transS s 
+transS (Branch (Cat _ "YN" _ _) 
+       [Leaf (Cat "couldn't" "AUX" _ []),s]) = transS s
 
 transS (Branch (Cat _ "YN" _ _) 
        [Leaf (Cat "did"    "AUX" _ []),s]) = transS s 
@@ -190,6 +215,12 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),np,obj2]) =
 			\ subj   -> transNP np 
 			(\ iobj   -> transNP obj2
 			 (\ obj -> Rel name [subj,obj,iobj]))
+transVP (Branch (Cat _ "VP" _ _) 
+                [Leaf (Cat "could" "AUX" _ []),vp]) = 
+        transVP vp 
+transVP (Branch (Cat _ "VP" _ _) 
+                [Leaf (Cat "couldn't" "AUX" _ []),vp]) = 
+        \x -> Neg ((transVP vp) x)
 transVP (Branch (Cat _ "VP" _ _) 
                 [Leaf (Cat "did" "AUX" _ []),vp]) = 
         transVP vp 
