@@ -97,55 +97,13 @@ assign f c@(Cat phon label fs subcatlist) =
   [Cat phon label fs' subcatlist | 
          fs' <- combine c (Cat "" "" [f] []) ]
 
-type Lexset = [ [Cat] ]
-proper_names, object_names, class_names, prons, reflexives, interrogatives, aux, intransitives, transitives, ditransitives, determiners, preps, conjuncts :: Lexset
-
-collect_lex = [
-	("auxiliary verbs", aux),
-	("intransitive verbs", intransitives),
-	("transitive verbs", transitives),
-	("ditransitive verbs", ditransitives),
-	("object_names", object_names),
-	("class_names", class_names),
-	("prepositions", preps),
-	("determiners", determiners),
-	("possessives", possessives)
-	]
-
 toupper = reverse . upperizer . reverse where
         upperizer (x:[]) = toUpper x : []
 	upperizer (x:'_':xs) = (toUpper x) : '_': (upperizer xs)
 	upperizer (x:xs) = x : upperizer xs
 
-proper_names = [
-	[Cat "english" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "cuba" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "spanish" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "the_united_states" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "gus"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "ileana"	"NP" [Thrd,Fem,Sg] []],
-	[Cat "ofelia"	"NP" [Thrd,Fem,Sg] []],
-	[Cat "fidel"	"NP" [Thrd,Masc,Sg] []]
-	]
-
-object_names = [
-	[Cat "medical_school" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "medicine" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "doctor" "CN" [Thrd,Neutr,Sg] []],
-	[Cat "doll" "CN" [Thrd,Neutr,Sg] []],
-	[Cat "dolls" "CN" [Thrd,Neutr,Pl] []],
-	[Cat "present" "CN" [Thrd,Neutr,Sg] []],
-	[Cat "tomato" "CN" [Thrd,Neutr,Sg] []],
-	[Cat "tomatoes" "CN" [Thrd,Neutr,Pl] []],
-	[Cat "fields" "CN" [Thrd,Neutr,Pl] []],
-	[Cat "cleaning" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "motel" "CN" [Thrd,Neutr,Sg] []],
-	[Cat "boat" "CN" [Thrd,Neutr,Sg] []],
-	[Cat "money" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "disappointment" "CN" [Thrd,Neutr,Sg] []],
-	[Cat "upbringing" "CN" [Thrd,Neutr,Sg] []],
-	[Cat "story" "CN" [Thrd,Neutr,Sg] []]
-	]
+type Lexset = [ [Cat] ]
+class_names, prons, reflexives, interrogatives, aux, intransitives, transitives, ditransitives, determiners, preps, conjuncts :: Lexset
 
 class_names = [
 --noun and verb
@@ -156,7 +114,11 @@ class_names = [
 	[Cat "mother"    "CN" [Sg,Fem,Thrd] []],
 	[Cat "daughter"    "CN" [Sg,Fem,Thrd] []],
 	[Cat "son"    "CN" [Sg,Masc,Thrd] []],
+	[Cat "sons"    "CN" [Pl,Masc,Thrd] []],
 	[Cat "brother"    "CN" [Sg,Masc,Thrd] []],
+	[Cat "husband"	"NP" [Thrd,Masc,Sg] []],
+	[Cat "uncle"	"NP" [Thrd,Masc,Sg] []],
+	[Cat "nephew"	"NP" [Thrd,Masc,Sg] []],
 	[Cat "thing"   "CN" [Sg,Neutr,Thrd] []],
 	[Cat "things"  "CN" [Pl,Neutr,Thrd] []],
 	[Cat "person"  "CN" [Sg,Masc,Thrd]  []],
@@ -232,15 +194,23 @@ determiners = [
 	]
 
 aux = [
+	[Cat "could"    "AUX" [] []],
+	[Cat "couldn't" "AUX" [] []],
 	[Cat "did"    "AUX" [] []],
 	[Cat "didn't" "AUX" [] []]
 	]
 
 intransitives = [
+	[Cat "separated"    "VP" [Tense] []],
+	[Cat "separate"     "VP" [Infl]  []],
 	[Cat "got_married"    "VP" [Tense] [],
 		Cat "got_married"	"VP" [Tense] [Cat "_" "PP" [In] []]],
 	[Cat "get_married"     "VP" [Infl]  [],
-		Cat "get_married"	"VP" [Infl] [Cat "_" "PP" [In] []]]
+		Cat "get_married"	"VP" [Infl] [Cat "_" "PP" [In] []]],
+	[Cat "got_divorced"    "VP" [Tense] [],
+		Cat "got_divorced"	"VP" [Tense] [Cat "_" "PP" [In] []]],
+	[Cat "get_divorced"     "VP" [Infl]  [],
+		Cat "get_divorced"	"VP" [Infl] [Cat "_" "PP" [In] []]]
 	]
 
 transitives = [
@@ -262,6 +232,8 @@ transitives = [
 	[Cat "marry"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []],
 		Cat "marry"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
 					Cat "_" "PP" [In] []]],
+	[Cat "divorced"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "divorce"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "asked"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
 		Cat "asked"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
 					Cat "_" "PP" [About] []]],
@@ -308,13 +280,19 @@ transitives = [
 
 ditransitives = [
 	[Cat "studied" "VP" [Tense] [Cat "_" "PP" [At] []],
+		Cat "studied" "VP" [Tense] [Cat "_" "PP" [In] []],
 		Cat "studied" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
 		Cat "studied" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-					Cat "_" "PP" [At] []]],
+					Cat "_" "PP" [At] []],
+		Cat "studied" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+					Cat "_" "PP" [In] []]],
 	[Cat "study" "VP" [Infl] [Cat "_" "PP" [At] []],
+		Cat "study" "VP" [Infl] [Cat "_" "PP" [In] []],
 		Cat "study" "VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
 		Cat "study" "VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
-					Cat "_" "PP" [At] []]],
+					Cat "_" "PP" [At] []],
+		Cat "study" "VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
+					Cat "_" "PP" [In] []]],
 	[Cat "worked" "VP" [Tense] [],
 		Cat "worked" "VP" [Tense] [Cat "_" "PP" [As,Neutr] []],
 		Cat "worked" "VP" [Tense] [Cat "_" "PP" [At,Neutr] []],
@@ -381,17 +359,6 @@ conjuncts = [
 	-- [Cat "then" "THEN" [] []]
 	]
 
---lexicon :: String -> [Cat]
-
-unknownWord = [Cat "" "" [] []]
-
-lexicon lexeme = maybe unknownWord id $
-	find (\x -> phon (head x) == lexeme ) $
-	proper_names ++ object_names ++ class_names ++
-	prons ++ reflexives ++ interrogatives ++
-	aux ++ intransitives ++ transitives ++ ditransitives ++
-	possessives ++ preps ++ determiners ++ conjuncts
-
 scan :: String -> String
 scan []                      = []
 scan ('\'':'s':xs)           = " 's" ++ scan xs
@@ -411,7 +378,7 @@ preproc ["."]              = []
 preproc ["?"]              = []
 preproc (",":xs)           = preproc xs
 
-preproc ("medical":"school":xs)	= "medical_school" : preproc xs
+preproc ("vocational":"school":xs)	= "vocational_school" : preproc xs
 preproc ("the":"united":"states":xs)	= "the_united_states" : preproc xs
 preproc ("look":"back":xs)	= "look_back" : preproc xs
 preproc ("looked":"back":xs)	= "looked_back" : preproc xs
@@ -444,10 +411,12 @@ collectCats db words =
   let
     listing = map (\ x -> (x,lookupWord db x)) words
     unknown = map fst (filter (\x -> snd x == unknownWord) listing)
+
   in
     if unknown /= [] then 
       error ("unknown words: " ++ show unknown)
     else initCats (map snd listing) 
+	where unknownWord = [Cat "" "" [] []]
 
 initCats :: [[Cat]] -> [[Cat]]
 initCats []         = [[]]
@@ -683,13 +652,6 @@ prsWH = \us xs ->
 
 prsYNS :: SPARSER Cat Cat
 prsYNS = prsYN <||> spR
-
-parses :: String -> [ParseTree Cat Cat]
-parses str = let ws = lexer str 
-             in  [ s | catlist   <- collectCats lexicon ws, 
-                       (s,[],[]) <- prsWH [] catlist  
-                                 ++ prsYN  [] catlist   
-                                 ++ prsTXT  [] catlist ]
 
 testSuite1 :: [String]
 testSuite1 = 
