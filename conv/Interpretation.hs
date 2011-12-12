@@ -1,106 +1,125 @@
 module Interpretation where 
 
+import Data.List
+
 import Model
+import Story_Interpretation
 
 type Interp a	= String -> [a] -> Bool
 
 int :: Interp Entity
-int "man"	= \ [x] -> isMan x
-int "men"	= \ [x] -> isMan x
-int "boy"	= \ [x] -> boy x; int "boys" = int "boy"
-int "woman"	= \ [x] -> isWoman x
-int "women"	= \ [x] -> isWoman x
-int "girl"	= \ [x] -> isGirl x; int "girls" = int "girl"
 
-int "person"	= \ [x] -> people x; int "persons" = int "person"
-int "thing"	= \ [x]	-> things x
+int word = if any (\x -> fst x == word ) (objects ++ relations)
+    then maybe null id $ lookup word (objects ++ relations)
+    else maybe null int $ lookup word  inflections
 
-int "parent" = \[x] -> isParent x
-int "raised" = \[x,y] -> parented y x;	int "raise" = int "raised"
-int "married"	= \args -> case args of
-	[x,y] -> married y x
-	[x,y,z] -> marry_in z y x
-int "marry"	= int "married"
-int "get_married" = \args -> case args of
-	[x] -> isMarried x
-	[x,y] -> wedded_in y x
-int "parents" = \ [x] -> isParent x
-int "mother" = \ [x] -> isMother x
-int "father" = \ [x] -> father x
-int "daughter" = \ [x] -> daughter x
-int "son" = \ [x] -> son x
-int "brother" = \ [x] -> brother x
+objects, relations :: [( String, [Entity] -> Bool)]
+objects = [
+	( "man",	\ [x] -> isMan x	),
+	( "boy",	\ [x] -> boy x	),
+	( "woman",	\ [x] -> isWoman x	),
+	( "girl",	\ [x] -> isGirl x	),
+	( "person",	\ [x] -> people x	),
+	( "thing",	\ [x] -> things x	),
+	( "parent",	\ [x] -> isParent x	),
+	( "mother",	\ [x] -> isMother x	),
+	( "father",	\ [x] -> father x	),
+	( "daughter",	\ [x] -> daughter x	),
+	( "son",	\ [x] -> son x	),
+	( "brother",	\ [x] -> brother x	),
+	( "language",	\[x] -> language x	)
+ ]
 
-int "appreciated" = \[x,y] -> appreciate y x
-int "appreciate" = int "appreciated"
-int "disappointed" = \[x,y] -> disappoint y x
-int "disappoint" = int "disappointed"
-int "work" = \args -> case args of
-	[x] -> worker x
-	[x,y] -> work_where y x || work_as y x
-int "worked" = int "work"
-int "had" = \[x,y] -> have y x;	int "have" = int "had"
-int "cut" = \args -> case args of [x,y] -> cut y x; [x,y,z] -> cut_with z y x
-int "knew" = \[x,y] -> know y x; int "know" = int "knew"
-int "look_back" = \args -> case args of
-	[x] -> look_back x
-	[x,y] -> look_back_on y x
-int "looked_back" = int "look_back"
-int "spoke" = \[x,y] -> speak y x; int "speak" = int "spoke"
-int "asked" = \args -> case args of 
-	[x,y] -> asked y x
-	[x,y,z] -> ask_about z y x
-int "ask" = int "asked"
-int "talked" = \args -> case args of 
-	[x,y] -> talked y x
-	[x,y,z] -> talk_about z y x
-int "talk" = int "talked"
-int "said" = \[x,y] -> said y x; int "say" = int "said"
-int "ate" = \[x,y] -> eat y x; int "eat" = int "ate"
-int "left" = \args -> case args of
-	[x] -> isImmigrant x
-	[x,y] -> come_from y x
-	[x,y,z] -> immigrate z y x
-int "leave" = int "left"
-int "immigrate" = \args -> case args of
-	[x] -> isImmigrant x
-	[x,y] -> go_to y x
-	[x,y,z] -> immigrate z y x
+inflections :: [(String, String)]
+inflections = [
+ ( "men",	"man" ),
+ ( "boys",	"boy" ),
+ ( "women",	"woman" ),
+ ( "girls",	"girl" ),
+ ( "persons",	"person" ),
+ ( "things",	"thing" ),
+ ( "parents",	"parent" ),
+ ( "fathers",	"father" ),
+ ( "mothers",	"mother" ),
+ ( "daughters",	"daughter" ),
+ ( "sons",	"son" ),
+ ( "brothers",	"brother" ),
+ ( "sisters",	"sister" ),
+ ( "raise",	"raised" ),
+ ( "marry",	"married" ),
+ ( "got_married",	"get_married" ),
+ ( "appreciate",	"appreciated" ),
+ ( "disappoint",	"disappointed" ),
+ ( "worked",	"work" ),
+ ( "have",	"had" ),
+ ( "know",	"knew" ),
+ ( "looked_back",	"look_back" ),
+ ( "speak",	"spoke" ),
+ ( "ask",	"asked" ),
+ ( "talk",	"talked" ),
+ ( "say",	"said" ),
+ ( "leave",	"left" ),
+ ( "immigrated",	"immigrate" ),
+ ( "give",	"gave" ),
+ ( "get",	"got" ),
+ ( "bought", "got" ),
+ 
+ ( "accepted", "got" ),
+ ( "buy",	"bought" ),
+ ( "accept",	"accepted" ),
+ ( "tell",	"told" ),
+ ( "study",	"studied" ),
+ ( "go",	"went" ),
+ ( "come",	"came" )
+ ]
 
+relations = [
+ ( "raised", \[x,y] -> parented y x ),
+ ( "married",	\args -> case args of
+ 	[x,y] -> married y x
+ 	[x,y,z] -> marry_in z y x ),
+ ( "get_married", \args -> case args of
+ 	[x] -> isMarried x
+ 	[x,y] -> wedded_in y x ),
+ 
+ ( "appreciated", \[x,y] -> appreciate y x ),
+ ( "disappointed", \[x,y] -> disappoint y x ),
+ ( "work", \args -> case args of
+ 	[x] -> worker x
+ 	[x,y] -> work_where y x || work_as y x ),
+ ( "had", \[x,y] -> have y x ),
+ ( "knew", \[x,y] -> know y x ),
+ ( "look_back", \args -> case args of
+ 	[x] -> look_back x
+ 	[x,y] -> look_back_on y x ),
+ ( "spoke", \[x,y] -> speak y x ),
+ ( "asked", \args -> case args of
+ 	[x,y] -> asked y x
+ 	[x,y,z] -> ask_about z y x ),
+ ( "talked", \args -> case args of 
+ 	[x,y] -> talked y x
+ 	[x,y,z] -> talk_about z y x ),
+ ( "said", \[x,y] -> said y x ),
+ ( "left", \args -> case args of
+ 	[x] -> isImmigrant x
+ 	[x,y] -> come_from y x
+ 	[x,y,z] -> immigrate z y x ),
+ ( "immigrate", \args -> case args of
+ 	[x] -> isImmigrant x
+ 	[x,y] -> go_to y x
+ 	[x,y,z] -> immigrate z y x ),
+ 
+ 
+ ( "gave",	\ [x,y,z] ->	gave z y x ),
+ ( "got", \args -> case args of
+ 	[x,y] -> forgetful got y x
+ 	[x,y,z] -> got z y x ),
+ ( "told", \ args -> case args of [x,y] -> recite y x; [x,y,z] -> told z y x ),
+ ( "studied", \args -> case args of
+ 	[x,y] -> (studied_where y x || studied_what y x)
+ 	[x,y,z] -> studied z y x ),
+ ( "went", \[x,y] -> go_to y x ),
+ ( "came", \[x,y] -> come_from y x )
+ ]
 
-int "gave"	= \ [x,y,z] ->	gave z y x;	int "give"	= int "gave"
-int "got" = \args -> case args of
-	[x,y] -> forgetful got y x
-	[x,y,z] -> got z y x
-int "get" = int "got"
-int "bought" = int "got"; int "buy" = int "get"
-
-int "accepted" = int "got"; int "accept" = int "accepted"
-int "told" = \ args -> case args of [x,y] -> recite y x; [x,y,z] -> told z y x
-int "tell" = int "told"
-int "studied" = \args -> case args of
-	[x,y] -> (studied_where y x || studied_what y x)
-	[x,y,z] -> studied z y x
-int "study" = int "studied"
-int "went" = \[x,y] -> go_to y x; int "go" = int "went"
-int "came" = \[x,y] -> come_from y x; int "come" = int "came"
-
-int "culture" = \[x] -> culture x
-int "medical_school" = \ [x] -> medical_school x
-int "medicine" = \ [x] -> medicine x
-int "doctor" = \ [x] -> doctor x
-int "upbringing"	= \[x] -> upbringing x
-int "necklace"	= \[x] -> necklace x
-int "present"	= \[x] -> present x
-int "sense"	= \[x] -> sense x
-int "story"	= \[x] -> story x
-int "doll" = \ [x] -> doll x;	int "dolls" = int "doll"
-int "motel" = \ [x] -> motel x
-int "boat" = \ [x] -> boat x
-int "fields" = \ [x] -> fields x
-int "tomato" = \ [x] -> tomato x; int "tomatoes" = int "tomato"
-
-
-int "pumpkin_pie" = \[x] -> pumpkin_pie x
-int "knife"	= \[x] -> knife x
-int "missal"	= \[x] -> missal x
+-- vim: set ts=8 sts=4 sw=4 noet:
