@@ -117,8 +117,6 @@ class_names = [
 	[Cat "sons"    "CN" [Pl,Masc,Thrd] []],
 	[Cat "brother"    "CN" [Sg,Masc,Thrd] []],
 	[Cat "husband"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "uncle"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "nephew"	"NP" [Thrd,Masc,Sg] []],
 	[Cat "thing"   "CN" [Sg,Neutr,Thrd] []],
 	[Cat "things"  "CN" [Pl,Neutr,Thrd] []],
 	[Cat "person"  "CN" [Sg,Masc,Thrd]  []],
