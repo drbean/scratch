@@ -377,7 +377,66 @@ pestcontroller:
         - question: D is not happy.
           answer: True
         - question: A and B are not happy.
-          answer: False
+dickson:
+  jigsaw:
+    0:
+      identifier: dickson 0
+      A: You come from Biloxi and you work for a shipbuilding company there. You are almost 60 and a manager. Sometimes your family asks you to help them get work. Your nephew, Bruce, asks you to let her daughter become an apprentice electrician at the shipyard.
+      B: You interviewed Dee when she applied to become an apprentice at the shipyard. There were women working on the ships 30 years before in the war, but you don't want her to work there now. You think the men will harass them and they won't be strong enough.
+      C: Your daughter married and had two sons when she was 19, but the marriage broke up after 3 years and she needs to find a good job to support her family. She tells you about the interview with Charles. 
+      D: You tell your dad, who is in his mid-forties, that the shipyard didn't accept you. He tells you that he can talk to his Uncle Alf, who is a superintendent there. You don't want him to do that. You want to get the job on your own merits.
+  compcomp:
+    0:
+      identifier: dickson 0
+      White: |+
+        \begin{normalsize}The job of the electrician\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [The job] Installing and maintaining all the electrical and power systems in homes, businesses and factories. Including wiring and control equipment.
+        \item [Procedure] 1. Read circuit location diagrams, and determine where wires, components go. 2. Install wiring using handtools. 3. Inspect. 4. Maintain (complex in factories, includes advising management).
+        \item [Environment] In/out-doors. Often physically demanding. Eg bending conduit, lifting heavy things, kneeling for long periods. Electricians are injured more than average. May involve night work.
+        \item [Training] 4-year apprenticeships (2,000 hours' on-the-job training + 144 hours' schoolwork each year).
+        \item 
+        \end{description}
+      Black: |+
+        \begin{normalsize}Female electricians in US\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Problem] First entry of women into the job: 1960's. Number of women in the job now: 1\% of the total.
+        \item [Atmosphere] Men: "Women shouldn't be here." "We won't take orders from a woman." Sexual harassment.
+        \item [Result] Leaving the industry common. Help sought from unions, company only when jobs are in danger. 
+        \item [Dee Dickson] Unwelcome in 1974 in shipyard. Left 3 years later before/after graduation as apprentice.
+        \item [Elizabeth Fox] From family of electricians. Father opposed 1980's entry, seeing how women treated. 24 years in trade, but many bad experiences.
+        \end{description}
+abreu:
+  jigsaw:
+    0:
+      identifier: abreu 0
+      A: Your aunt, Claritza came to the U.S. in 1990 when you were 10. Her English was very good, but she had a Hispanic accent and she didn't know much about English names. You helped her to learn how to spell names by reading them out of the phone book to her.
+      B: Your company sells computer services to hospitals. You hired a young woman as a receptionist. She is from the Dominican Republic and had studied computers there. Her English is OK, but you are worried customers like John Doe won't understand her.
+      C: You are John Doe, a hospital administrator. You approach Joan's company for advice on computer systems at your hospital. When you visit, you are greeted by Claritza, Joan's receptionist. You are embarrassed when she asks you how you spell your name.
+      D: You are glad that Joan gave you the job, but worried that she will fire you if you can't handle customers. You have problems understanding John Doe, a customer. You don't know how to spell his last name. After, you ask Adela your niece for help.
+  compcomp:
+    0:
+      identifier: abreu 0
+      White: |+
+        \begin{normalsize}The job of receptionist\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [The job] Making a good first impression by answering phones, routing calls, greeting visitors, responding to inquiries from \& providing information to the public.
+        \item [Variations] In hospitals, gathering patients' insurance information, giving directions. In hair salons: arranging appointments, directing to stylists, taking payment.
+        \item [Environment] Good-looking, quiet surroundings, but the work may be repetitious \& stressful, constantly answering the phone, and encountering difficult callers. However, it may also be friendly and motivating.
+        \item [Training] A high school diploma, interpersonal skills and computer proficiency are usually expected.
+        \end{description}
+      Black: |+
+        \begin{normalsize}Claritza Abreu's career\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Dominican Republic] Born 1966. Graduated 1987, BS (information technology)
+        \item [Adult life in U.S.] 1989-1993 Receptionist (Health information services company)\\1993-2005 Information Services Manager (Boston Public Health Commission)\\2005-2010 Chief Information Officer (Massachusetts Department of Mental Health)\\2011-to date  Assistant Chief Information Officer (Massachusetts Office for Health \& Human Services)
+        \item [Languages] English: Full professional proficiency\\Spanish: Native (bilingual) proficiency
+
+        \end{description}
 butler:
   compcomp:
     1:
