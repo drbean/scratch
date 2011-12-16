@@ -1,22 +1,23 @@
 module LogicalForm where
 
-import Parsing
-import Story_Parsing
+import Model
 import Interpretation
 import Story_Interpretation
-import Model
+import Parsing
+import Cats
+import Story_Cats
 
 import Data.Maybe
 import Data.List
+import Data.Tuple
 
 lexicon :: String -> [Cat]
 
 lexicon lexeme = maybe unknownWord id $
 	find (\x -> phon (head x) == lexeme ) $
-	proper_names ++ object_names ++ class_names ++
-	prons ++ reflexives ++ interrogatives ++
+	proper_names ++ object_names ++ story_verbs ++
+	class_names ++ prons ++ reflexives ++ interrogatives ++
 	aux ++ intransitives ++ transitives ++ ditransitives ++
-	story_verbs ++
 	possessives ++ preps ++ determiners ++ conjuncts
 	where unknownWord = [Cat "" "" [] []]
 
@@ -26,6 +27,16 @@ parses str = let ws = lexer str
                        (s,[],[]) <- prsWH [] catlist  
                                  ++ prsYN  [] catlist   
                                  ++ prsTXT  [] catlist ]
+
+type Interp a	= String -> [a] -> Bool
+
+inttuples = objects ++ relations ++ story_objects ++ story_relations
+
+int :: Interp Entity
+
+int word = if any (\x -> fst x == word ) inttuples
+    then maybe null id $ lookup word inttuples
+    else maybe null int $ lookup word  ( inflections ++ story_inflections )
 
 data Term = Const Entity | Var Int | Struct String [Term]
 	deriving (Eq)
@@ -117,7 +128,9 @@ transS (Branch (Cat _ "YN" _ _)
 transNP :: ParseTree Cat Cat -> 
                 (Term -> LF) -> LF
 transNP (Leaf (Cat "#"  "NP" _ _)) = \ p -> p (Var 0)
-transNP (Leaf (Cat name "NP" _ _)) = \ p -> p (Const (ided name))
+transNP (Leaf (Cat name "NP" _ _))
+    | name `elem` names = \ p -> p (Const (ided name))
+    | otherwise = \p -> Exists ( \v -> Conj [ p v, Rel name [v] ] )
 transNP (Branch (Cat _ "NP" _ _) [det,cn]) = (transDET det) (transCN cn) 
 
 transDET :: ParseTree Cat Cat -> (Term -> LF)
@@ -299,10 +312,10 @@ fint name [] =	maybe (entities!!26) id $ lookup name characters
 
 ents = entities
 realents = filter ( not . flip elem [Unspec,Someone,Something] ) ents
-named entity = maybe "NoName" id $ lookup entity names
 
 ided :: String -> Entity
-ided name = maybe Unspec id $ lookup name characters
+ided name = maybe undefined id $ lookup name characters
+named entity = maybe "NoName" id $ lookup entity $ map swap characters
 
 type TVal = Term -> Entity
 
