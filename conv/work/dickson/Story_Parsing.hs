@@ -25,27 +25,29 @@ proper_names = [
 
 object_names = [
 
-	[Cat "uncle"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "nephew"	"NP" [Thrd,Masc,Sg] []],
+	[Cat "uncle"	"CN" [Thrd,Masc,Sg] []],
+	[Cat "nephew"	"CN" [Thrd,Masc,Sg] []],
 
-	[Cat "superintendent"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "supervisor"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "apprentice"	"NP" [Thrd,MascOrFem,Sg] []],
-	[Cat "vocational_school"	"NP" [Thrd,Neutr,Sg] []],
+	[Cat "superintendent"	"CN" [Thrd,Masc,Sg] []],
+	[Cat "supervisor"	"CN" [Thrd,Masc,Sg] []],
+	[Cat "apprentice"	"CN" [Thrd,MascOrFem,Sg] []],
+	[Cat "vocational_school"	"NP" [Thrd,Neutr,Sg] [],
+		Cat "vocational_school"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "construction"	"NP" [Thrd,Neutr,Sg] []],
-	[Cat "electrician"	"NP" [Thrd,Neutr,Sg] []],
-	[Cat "electricians"	"NP" [Thrd,Neutr,Pl] []],
-	[Cat "interviewer"	"NP" [Thrd,Neutr,Sg] []],
-	[Cat "transformer"	"NP" [Thrd,Neutr,Sg] []],
-	[Cat "ship"	"NP" [Thrd,Neutr,Sg] []],
-	[Cat "ships"	"NP" [Thrd,Neutr,Pl] []],
-	[Cat "shipyard"	"NP" [Thrd,Neutr,Sg] []],
-	[Cat "disappointment"	"NP" [Thrd,Neutr,Sg] []],
-	[Cat "money"	"NP" [Thrd,Neutr,Sg] []],
-	[Cat "upbringing"	"NP" [Thrd,Neutr,Sg] []],
-	[Cat "story"	"NP" [Thrd,Neutr,Sg] []],
-	[Cat "job"	"NP" [Thrd,Neutr,Sg] []],
-	[Cat "language"	"NP" [Thrd,Neutr,Sg] []]
+	[Cat "electrician"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "electricians"	"CN" [Thrd,Neutr,Pl] []],
+	[Cat "interviewer"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "transformer"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "ship"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "ships"	"CN" [Thrd,Neutr,Pl] []],
+	[Cat "shipyard"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "disappointment"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "money"	"NP" [Thrd,Neutr,Sg] [],
+		Cat "money"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "upbringing"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "story"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "job"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "language"	"CN" [Thrd,Neutr,Sg] []]
 	]
 
 story_verbs = [
