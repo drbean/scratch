@@ -1,8 +1,8 @@
-module StoryCats where
+module Story_Cats where
 
 import Parsing
 
-proper_names, object_names :: Lexset
+proper_names, object_names, story_verbs :: Lexset
 
 proper_names = [
 	[Cat "english" "NP" [Thrd,Neutr,Sg] []],
@@ -19,8 +19,10 @@ proper_names = [
 
 object_names = [
 
-	[Cat "money"	"NP" [Thrd,Neutr,Sg] []],
+	[Cat "money"	"NP" [Thrd,Neutr,Sg] [],
+		Cat "money"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "information_technology"	"NP" [Thrd,Neutr,Sg] []],
+	[Cat "i_t"	"NP" [Thrd,Neutr,Sg] []],
 
 	[Cat "aunt"	"CN" [Thrd,Fem,Sg] []],
 	[Cat "niece"	"CN" [Thrd,Fem,Sg] []],
@@ -35,11 +37,14 @@ object_names = [
 	[Cat "customers"	"CN" [Thrd,MascOrFem,Pl] []],
 	[Cat "visitor"	"CN" [Thrd,MascOrFem,Sg] []],
 	[Cat "visitors"	"CN" [Thrd,MascOrFem,Pl] []],
+	[Cat "company"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "hospital"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "school"	"NP" [Thrd,Neutr,Sg] []],
 	[Cat "story"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "job"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "upbringing"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "name"	"CN" [Thrd,Neutr,Sg] []]
-	[Cat "names"	"CN" [Thrd,Neutr,PlSg] []]
+	[Cat "name"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "names"	"CN" [Thrd,Neutr,Pl] []],
 	[Cat "language"	"CN" [Thrd,Neutr,Sg] []]
 	]
 
