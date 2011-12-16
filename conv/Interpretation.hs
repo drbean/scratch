@@ -3,15 +3,7 @@ module Interpretation where
 import Data.List
 
 import Model
-import Story_Interpretation
-
-type Interp a	= String -> [a] -> Bool
-
-int :: Interp Entity
-
-int word = if any (\x -> fst x == word ) (objects ++ relations)
-    then maybe null id $ lookup word (objects ++ relations)
-    else maybe null int $ lookup word  inflections
+-- import Story_Interpretation
 
 objects, relations :: [( String, [Entity] -> Bool)]
 objects = [
@@ -85,7 +77,7 @@ relations = [
  ( "appreciated", \[x,y] -> appreciate y x ),
  ( "disappointed", \[x,y] -> disappoint y x ),
  ( "work", \args -> case args of
- 	[x] -> worker x
+ 	[x] -> worker x || job x
  	[x,y] -> work_where y x || work_as y x ),
  ( "had", \[x,y] -> have y x ),
  ( "knew", \[x,y] -> know y x ),
