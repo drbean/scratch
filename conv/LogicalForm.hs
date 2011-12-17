@@ -129,7 +129,7 @@ transNP :: ParseTree Cat Cat ->
                 (Term -> LF) -> LF
 transNP (Leaf (Cat "#"  "NP" _ _)) = \ p -> p (Var 0)
 transNP (Leaf (Cat name "NP" _ _))
-    | name `elem` names = \ p -> p (Const (ided name))
+    | name `elem` namelist = \ p -> p (Const (ided name))
     | otherwise = \p -> Exists ( \v -> Conj [ p v, Rel name [v] ] )
 transNP (Branch (Cat _ "NP" _ _) [det,cn]) = (transDET det) (transCN cn) 
 
