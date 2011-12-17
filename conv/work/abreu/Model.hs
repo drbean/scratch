@@ -24,12 +24,10 @@ characters = [
 	( "spanish",	H ),
 	( "the_dominican_republic",	R ),
 	( "the_united_states",	U ),
-	( "boston",	T ),
 	( "boston_university",	V ),
 	( "joan",	J ),
 	( "john_doe",	D ),
 	( "adela",	A ),
-	( "money",	M ),
 	( "claritza",	C )
 
 	]
@@ -47,9 +45,10 @@ hospital = pred1 [P]
 money	= pred1 [M]
 story	= pred1 [Y]
 job	= pred1 [B]
+name	= pred1 [N]
 language = pred1 [E,H]
 
-names = map fst characters
+namelist = map fst characters
 
 
 male, female :: OnePlacePred
@@ -104,7 +103,8 @@ separations	= []
 --(boyfriend,girlfriend)
 -- unmarried_couples	= []
 --(contacter,contactee)
-possessions	= [ (J,O),(J,M),(C,M),(D,M),(T,V) ]
+possessions	= [ (J,O),(J,M),(C,M),(D,M) ]
+business_relns	= [ (O,D) ]
 appreciation	= []
 
 raised_by	= pred2 $ map swap parenting
@@ -124,16 +124,21 @@ brother	= \x -> any ( \i -> isSiblings x i ) entities
 disappointments = []
 disappoint	= pred2 $ disappointments
 resent	= pred2 $ map swap disappointments
-have	= pred2 $ possessions ++ marriages ++ parenting ++ supervision ++ aunting
+have	= pred2 $ possessions ++ business_relns
+		++ marriages ++ parenting ++ supervision ++ aunting
 		++ ( map swap $ marriages ++ parenting ++ supervision ++ aunting )
 		++ ( map (\x->(recipient x, theme x) ) giving )
 		++ ( map (\x->(agent x,B) ) working )
+		++ ( map (\x->(snd x,N) ) characters )
 knowledge	= [(C,E),(A,E),(J,E),(D,E),(F,E),(G,E),(C,H),(A,H),(F,H),(G,H)]
 acquaintances	= []
 know	= pred2 $ knowledge ++ acquaintances ++ map swap acquaintances
+spelling	= [(J,N),(D,N),(A,N)]
+spell	= pred2 spelling
 speak	= \x y -> language y && know x y
 appreciate	= pred2 appreciation
 greet	= \x y -> receptionist x && visitor y
+visit = pred2 $ map swap business_relns
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
