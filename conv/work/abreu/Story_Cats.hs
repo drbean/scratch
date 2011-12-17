@@ -49,6 +49,10 @@ object_names = [
 	]
 
 story_verbs = [
+	[Cat "visited"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
+		Cat "visited"	"VP" [Tense] []],
+	[Cat "visit"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
+		Cat "visit"	"VP" [Infl] []],
 	[Cat "greeted"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "greet"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "spelled"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
