@@ -14,6 +14,7 @@ story_objects = [
 
 	( "i_t",	\[x] -> i_t x	),
 
+	( "name",	\[x] -> name x	),
 	( "money",	\[x] -> money x	),
 	( "story",	\[x] -> story x	),
 	( "aunt",	\[x] -> aunt x	),
@@ -27,10 +28,15 @@ story_inflections = [
  ( "customers", "customer" ),
  ( "visitor", "customer" ),
  ( "visitors", "visitor" ),
+ ( "names", "name" ),
+ ( "spelled", "spell" ),
+ ( "visited", "visit" ),
  ( "greeted", "greet" )
  ]
 
 story_relations = [
-	( "greet",	\[x,y] -> greet x y	)
+	( "spell",	\[x,y] -> spell y x	),
+	( "visit",	\[x,y] -> visit y x	),
+	( "greet",	\[x,y] -> greet y x	)
 	]
 
