@@ -3,6 +3,37 @@ module Tests where
 import LogicalForm
 import Parsing
 
+biz_test = [
+	"Adela greeted John Doe.",
+	"John Doe visited the company.",
+	"Claritza greeted John Doe.",
+	"The receptionist greeted the visitor.",
+	"The receptionist greeted visitors.",
+	"The receptionist greeted customers",
+	"The boss greeted visitors.",
+	-- "The company's receptionist greeted visitors."
+	"The company had customers."
+	]
+
+
+spell_test = [
+	"Adela could spell names.",
+	"Claritza's niece could spell names.",
+	"Claritza could spell names.",
+	"Claritza couldn't spell names.",
+	"Claritza knew English but Claritza couldn't spell names.",
+	"Claritza's boss could spell names.",
+	"Claritza couldn't spell John Doe's name.",
+	"Adela could spell Claritza's name,\
+	\ but Claritza couldn't spell Adela's name.",
+	"Joan could spell John Doe's name and John Doe could spell Claritza's name,\
+	\ but Claritza couldn't spell Joan's name.",
+	"John Doe could spell names.\
+	\ Joan could spell names.\
+	\ Claritza's niece could spell names.\
+	\ But, Claritza couldn't spell names."
+	]
+
 test_text = [
 	"Claritza's niece spoke English.",
 	-- "Claritza's niece's brother spoke English.",
