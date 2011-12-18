@@ -123,11 +123,10 @@ preproc ["."]              = []
 preproc ["?"]              = []
 preproc (",":xs)           = preproc xs
 
-preproc ("it":xs)	= "i_t" : preproc xs
-preproc ("john":"doe":xs)	= "john_doe" : preproc xs
-preproc ("boston":"university":xs)	= "boston_university" : preproc xs
-preproc ("information":"technology":xs)	= "information_technology" : preproc xs
-preproc ("the":"dominican":"republic":xs)	= "the_dominican_republic" : preproc xs
+preproc ("mr":"batchelor":xs)	= "mr_batchelor" : preproc xs
+preproc ("mr":"payne":xs)	= "mr_payne" : preproc xs
+preproc ("rutgers":"university":xs)	= "rutgers_university" : preproc xs
+preproc ("business":"law":xs)	= "business_law" : preproc xs
 preproc ("the":"united":"states":xs)	= "the_united_states" : preproc xs
 preproc ("look":"back":xs)	= "look_back" : preproc xs
 preproc ("looked":"back":xs)	= "looked_back" : preproc xs
@@ -267,13 +266,22 @@ cond2R = \ us xs ->
          (s2,ws,zs)   <- prsS vs2 ys2 ]
 
 prsNP :: SPARSER Cat Cat 
-prsNP = leafPS "NP" <||> npR <||> pop "NP" 
+prsNP = leafPS "NP" <||> npR <||> npADJR <||> pop "NP" 
 
 npR :: SPARSER Cat Cat
 npR = \ us xs -> 
   [ (Branch (Cat "_" "NP" fs []) [det,cn], (us++ws), zs) | 
       (det,vs,ys) <- prsDET [] xs,
       (cn,ws,zs)  <- prsCN vs ys,
+       fs         <- combine (t2c det) (t2c cn),
+      agreeC det cn ]
+
+npADJR :: SPARSER Cat Cat
+npADJR = \ us xs -> 
+  [ (Branch (Cat "_" "NP" fs []) [det,adj,cn], (us++ss), ts) | 
+      (det,vs,ys) <- prsDET [] xs,
+      (adj,ws,zs)  <- prsADJ vs ys,
+      (cn,ss,ts)  <- prsCN ws zs,
        fs         <- combine (t2c det) (t2c cn),
       agreeC det cn ]
 
@@ -303,6 +311,9 @@ prsZERO = succeedS $ Leaf (Cat "zero" "DET" [Pl] [])
 
 prsDET :: SPARSER Cat Cat
 prsDET = leafPS "DET" <||> aposR <||> prsZERO 
+
+prsADJ :: SPARSER Cat Cat
+prsADJ = leafPS "ADJ"
 
 prsCN :: SPARSER Cat Cat
 prsCN = leafPS "CN" <||> cnrelR
