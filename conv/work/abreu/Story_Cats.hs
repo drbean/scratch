@@ -59,4 +59,7 @@ story_verbs = [
 	[Cat "spell"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
 	]
 
-
+story_aux = [
+	[Cat "could"    "AUX" [] []],
+	[Cat "couldn't" "AUX" [] []]
+	]
