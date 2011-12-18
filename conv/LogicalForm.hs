@@ -15,7 +15,7 @@ lexicon :: String -> [Cat]
 
 lexicon lexeme = maybe unknownWord id $
 	find (\x -> phon (head x) == lexeme ) $
-	proper_names ++ object_names ++ story_verbs ++
+	proper_names ++ object_names ++ story_verbs ++ story_adjs ++
 	class_names ++ prons ++ reflexives ++ interrogatives ++
 	aux ++ intransitives ++ transitives ++ ditransitives ++
 	possessives ++ preps ++ determiners ++ conjuncts
@@ -132,6 +132,9 @@ transNP (Leaf (Cat name "NP" _ _))
     | name `elem` namelist = \ p -> p (Const (ided name))
     | otherwise = \p -> Exists ( \v -> Conj [ p v, Rel name [v] ] )
 transNP (Branch (Cat _ "NP" _ _) [det,cn]) = (transDET det) (transCN cn) 
+transNP (Branch (Cat _ "NP" _ _) [det,adj,cn]) = case adj of 
+    (Leaf (Cat a "ADJ" _ _)) ->
+		(transDET det) (\n -> Conj [transCN cn n, Rel a [n]])
 
 transDET :: ParseTree Cat Cat -> (Term -> LF)
                               -> (Term -> LF)
