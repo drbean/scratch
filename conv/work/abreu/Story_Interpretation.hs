@@ -19,22 +19,25 @@ story_objects = [
 	( "story",	\[x] -> story x	),
 	( "aunt",	\[x] -> aunt x	),
 	( "niece",	\[x] -> niece x	),
-	( "job",	\[x] -> job x	)
+	( "job",	\[x] -> job x	),
+	( "language",	\[x] -> language x	)
 	]
 
 story_inflections = [
- ( "supervisor", "boss" ),
- ( "information_technology", "i_t" ),
- ( "customers", "customer" ),
- ( "visitor", "customer" ),
- ( "visitors", "visitor" ),
- ( "names", "name" ),
- ( "spelled", "spell" ),
- ( "visited", "visit" ),
- ( "greeted", "greet" )
+ ( "supervisor",	"boss" ),
+ ( "information_technology",	"i_t" ),
+ ( "customers",	"customer" ),
+ ( "visitor",	"customer" ),
+ ( "visitors",	"visitor" ),
+ ( "names",	"name" ),
+ ( "speak",	"spoke" ),
+ ( "spelled",	"spell" ),
+ ( "visited",	"visit" ),
+ ( "greeted",	"greet" )
  ]
 
 story_relations = [
+	( "spoke", \[x,y] -> speak y x ),
 	( "spell",	\[x,y] -> spell y x	),
 	( "visit",	\[x,y] -> visit y x	),
 	( "greet",	\[x,y] -> greet y x	)
