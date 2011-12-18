@@ -61,6 +61,9 @@ story_verbs = [
 	[Cat "wear"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
 	]
 
+story_aux = [
+	]
+
 story_adjs = [
 	[Cat "offensive"	"ADJ" [] []],
 	[Cat "red"	"ADJ" [] []]
