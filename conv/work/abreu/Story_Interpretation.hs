@@ -43,3 +43,6 @@ story_relations = [
 	( "greet",	\[x,y] -> greet y x	)
 	]
 
+story_adjs = [
+	]
+
