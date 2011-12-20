@@ -437,6 +437,36 @@ abreu:
         \item [Languages] English: Full professional proficiency\\Spanish: Native (bilingual) proficiency
 
         \end{description}
+smallwood:
+  jigsaw:
+    0:
+      identifier: smallwood 0
+      A: It is the 1960's. You teach accountancy and business law. You have only one woman in your class. You tell her her life as a business woman will be living hell. You tell her you will give her a hard time in your class. She smiles. She tells her daughter, Christine, 40 years later.
+      B: You studied finance in an all-male business school. The teacher, Mr Payne was mean and unfair to you, asking you the toughest questions. On graduation, at your first job interview, the interviewer, Mr Batchelor offends you by asking you to stand up so he can look at you.
+      C: Your mother, Tia tells you she didn't have enough time to look after you properly, or cook good meals when you were young. She tells you she wasn't a good mother. You also are married and working. You don't have children. You want to start a career first.
+      D: Tia came for an interview at your company. You thought she was attractive. You wanted to look at her. You were the boss. You thought it was OK to ask her to stand up so you could look at her. You were surprised when she was offended. You were surprised it was sexual harassment.
+  compcomp:
+    0:
+      identifier: smallwood 0
+      White: |+
+        \begin{normalsize}Balancing roles of worker, mother, wife\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Work] More women with families work nowadays. But they still have much housework at home. Most companies are unwilling to provide full pay while their female workers are giving birth.  \vspace{-0.3cm}
+        \item [Parenthood] In Taiwan, with extended families, working mothers have more options for day-care for their kids. In the West, child-care people have to be paid. And working mothers have less time to be with their kids.  \vspace{-0.6cm}
+        \item [Relationship with husband] Some husbands are more willing to help their wives cope. In the US. 1 in 3 families is headed by a single parent. Because divorce is more common, women are continuing to work even while married, to prepare for possible divorce.
+        \end{description}
+      Black: |+
+        \begin{normalsize}Sexual harassment\end{normalsize}
+        \normalsize
+        \begin{description}
+        \vspace{-0.3cm}
+        \item [Definition] Actions directed toward another person (usually, a woman) of a sexual nature that are unwelcome to that person, or to any witness to the actions. \vspace{-0.3cm}
+        \item [Situations] Often (not always) the harasser is a boss, or professor. The victim \& harasser can be any gender. Harassers may be unaware their actions are offensive.  \vspace{-0.6cm}
+        \item [Types] Public vs. private harassers. Humiliators, Ego-enhancers. Territorialists (eg Dickson's co-workers) \vspace{-0.6cm}
+        \item [Consequences] Victims who complain may be badly treated by harassers \& also their schools/companies. \vspace{-0.6cm}
+        \item [Law] Firing victims who complain, or a consistently hostile environment are illegal. In 2007, 12,510 complaints were made. Few made it to courts.
+        \end{description}
 butler:
   compcomp:
     1:
