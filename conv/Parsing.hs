@@ -374,7 +374,7 @@ cnrelR = \us xs ->
                  agreeC cn rel ]
 
 prsREL :: SPARSER Cat Cat 
-prsREL = relclauseR <||> thatlessR 
+prsREL = relclauseR <||> thatlessR <||> relppR
 
 relclauseR :: SPARSER Cat Cat
 relclauseR = \us xs -> 
@@ -390,6 +390,11 @@ thatlessR = \ us xs ->
            gap       <- [Cat "#" "NP" [AccOrDat] []], 
            (s,vs,ys) <- push gap prsS us xs, 
            notElem Wh (fs (t2c s))                       ]
+
+relppR :: SPARSER Cat Cat
+relppR = \us xs -> 
+     [ (Branch (Cat "_" "COMP" [] []) [pp], vs, ys) |
+                 (pp,vs,ys) <- prsPP us xs ] 
 
 prsYN :: SPARSER Cat Cat 
 prsYN = \us xs -> 
