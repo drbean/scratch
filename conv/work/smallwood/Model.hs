@@ -130,6 +130,7 @@ have	= pred2 $ possessions ++ marriages ++ parenting ++ supervision
 		++ ( map (\x->(recipient x, theme x) ) giving )
 		++ ( map (\x->(agent x,B) ) working )
 		++ ( map (\x->(agent x, patient x) ) recruitment )
+		++ ( map (\x->(agent x, location x) ) recruitment )
 knowledge	= [(T,F),(T,A),(T,W)]
 acquaintances	= []
 know	= pred2 $ knowledge ++ acquaintances ++ map swap acquaintances
@@ -178,7 +179,8 @@ talked	= pred2 $ map (\x->(agent x, recipient x) ) comms
               ++  map (\(agent,theme,recipient)->(recipient, agent) ) comms
 talk_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
 offend_with	= pred3 offenses
-offend	= pred2 $ map (\x -> (agent x, recipient x) ) offenses
+offend	= pred2 $ ( map (\x -> (agent x, recipient x) ) offenses ) ++
+		( map (\x -> (theme x, recipient x) ) offenses )
 anger = offend
 
 
