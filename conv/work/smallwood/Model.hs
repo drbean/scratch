@@ -155,7 +155,7 @@ destination = recipient
 
 --(worker,job,site)
 working	= [(T,Unspec,O),(B,B,O)]
-comms	= [ (C,Y,Unspec),(A,N,C),(C,Unspec,D),(J,Unspec,C),(J,Unspec,D) ]
+comms	= [ P,F,T),P,A,T),(P,W,T),(P,N,T),(B,L,T),(T,Y,C) ]
 offenses	= [(P,N,T),(B,L,T)]
 giving	= [ (B,J,T) ]
 acceptances = []
