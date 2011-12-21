@@ -31,7 +31,7 @@ biz_test = [
 
 spell_test = [
 	"Christine could spell names.",
-	"Mr Batchelor's niece could spell names.",
+	"Mr Batchelor's daughter could spell names.",
 	"Mr Batchelor could spell names.",
 	"Mr Batchelor couldn't spell names.",
 	"Mr Batchelor knew English but Mr Batchelor couldn't spell names.",
@@ -43,30 +43,30 @@ spell_test = [
 	\ but Mr Batchelor couldn't spell Joan's name.",
 	"Tia could spell names.\
 	\ Joan could spell names.\
-	\ Mr Batchelor's niece could spell names.\
+	\ Mr Batchelor's daughter could spell names.\
 	\ But, Mr Batchelor couldn't spell names."
 	]
 
 test_text = [
-	"Mr Batchelor's niece spoke English.",
-	-- "Mr Batchelor's niece's brother spoke English.",
-	"Mr Batchelor's niece had a brother and a brother spoke English.",
-	"Mr Batchelor's niece knew English and the boss spoke English.",
-	"Mr Batchelor's niece spoke English but the boss didn't speak English.",
-	"Mr Batchelor talked to the boss and the boss talked to Mr Batchelor's niece.",
+	"Mr Batchelor's daughter spoke English.",
+	-- "Mr Batchelor's daughter's brother spoke English.",
+	"Mr Batchelor's daughter had a brother and a brother spoke English.",
+	"Mr Batchelor's daughter knew English and the boss spoke English.",
+	"Mr Batchelor's daughter spoke English but the boss didn't speak English.",
+	"Mr Batchelor talked to the boss and the boss talked to Mr Batchelor's daughter.",
 	"Mr Batchelor talked to the boss and the boss talked to Tia \
 	\and Tia talked to Mr Batchelor.",
-	"Mr Batchelor looked back on her niece's upbringing. \
+	"Mr Batchelor looked back on her daughter's upbringing. \
 	\Mr Batchelor talked to the boss. \
-	\Mr Batchelor's niece asked the boss about the Dominican Republic."
+	\Mr Batchelor's daughter asked the boss about the Dominican Republic."
 	]
 
 test_possessives = [
 	"Joan's language looked back.",
-	"Mr Batchelor's niece looked back.",
+	"Mr Batchelor's daughter looked back.",
 	"Joan's daughter looked back on Mr Batchelor's upbringing.",
 	"Joan's daughter looked back on Joan's upbringing.",
-	"Mr Batchelor's niece looked back on Mr Batchelor's upbringing.",
+	"Mr Batchelor's daughter looked back on Mr Batchelor's upbringing.",
 	"Did Mr Batchelor's father look back on Mr Batchelor's upbringing?",
 	"Did Mr Batchelor's brother look back on Mr Batchelor's upbringing?",
 	"Did Mr Batchelor's father speak English?",
@@ -75,22 +75,22 @@ test_possessives = [
 	"Did Mr Batchelor's mother speak English?",
 	"Did Mr Batchelor's mother speak English?",
 	"The boss's daughter appreciated Mr Batchelor's father.",
-	"Mr Batchelor's niece  appreciated the boss's daughter.",
-	"Did the sister of Mr Batchelor's niece know English?",
-	"Did the father of Mr Batchelor's niece look back on Mr Batchelor's niece's upbringing?",
-	"Did the brother of Mr Batchelor's niece look back on Mr Batchelor's niece's upbringing?",
-	"Did the mother of Mr Batchelor's niece speak English?",
-	"Did the father of Mr Batchelor's niece speak English?",
-	"Did the brother of Mr Batchelor's niece speak English?",
-	"Did the mother of Mr Batchelor's niece speak English?",
-	"Did the brother of Mr Batchelor's niece know English?",
-	"Did the sister of Mr Batchelor's niece know English?"
+	"Mr Batchelor's daughter  appreciated the boss's daughter.",
+	"Did the sister of Mr Batchelor's daughter know English?",
+	"Did the father of Mr Batchelor's daughter look back on Mr Batchelor's daughter's upbringing?",
+	"Did the brother of Mr Batchelor's daughter look back on Mr Batchelor's daughter's upbringing?",
+	"Did the mother of Mr Batchelor's daughter speak English?",
+	"Did the father of Mr Batchelor's daughter speak English?",
+	"Did the brother of Mr Batchelor's daughter speak English?",
+	"Did the mother of Mr Batchelor's daughter speak English?",
+	"Did the brother of Mr Batchelor's daughter know English?",
+	"Did the sister of Mr Batchelor's daughter know English?"
 	]
 haves = [
 	"Did Mr Batchelor have Mr Batchelor's father?",
 	"Did Mr Batchelor have Tia?",
 	"Did Mr Batchelor have a mother?",
-	"Did Mr Batchelor have a niece?",
+	"Did Mr Batchelor have a daughter?",
 	"Did Mr Batchelor have a daughter?",
 	"Did Mr Batchelor's father have a mother?",
 	"Did Mr Batchelor have a job?",
@@ -110,9 +110,9 @@ haves = [
 	"Did Tia have a job?",
 	"Did Mr Batchelor's father have work?",
 	"Did the boss have the job?",
-	"Did the boss have Mr Batchelor's niece?",
+	"Did the boss have Mr Batchelor's daughter?",
 	"Did the boss have a mother?",
-	"Did the boss have a niece?",
+	"Did the boss have a daughter?",
 	"Did the boss have a daughter?",
 	"Did the job have a mother?",
 	"Did the boss have language?",
@@ -121,13 +121,13 @@ haves = [
 	-- "Did the boss's daughter have a language?",
 	"Did the daughter have some language?",
 	"Did the daughter have no language?",
-	-- "Mr Batchelor's niece had many language in the Dominican Republic.",
+	-- "Mr Batchelor's daughter had many language in the Dominican Republic.",
 	"Did the parent have some language?",
 	"Did the parent have no language?",
 	"Did the boss have money?",
 	"Did Joan have money?",
 	"Did the job have money?",
-	"Did Mr Batchelor's niece have money?",
+	"Did Mr Batchelor's daughter have money?",
 	"Did the boss have a parent?",
 	"Did the boss have some parents?",
 	"Did the boss have parents?",
@@ -135,7 +135,7 @@ haves = [
 	"Did the job have some parents?",
 	"Did the job have parents?",
 	"Did the boss have a worker?",
-	"Did Mr Batchelor's niece have a worker?",
+	"Did Mr Batchelor's daughter have a worker?",
 	"Did the job have a worker?",
 	"Did someone have a worker?"
 	]
@@ -150,14 +150,14 @@ ungrammatical = [
 	"Did Tia teach?",
 	"Tia teach Mr Batchelor.",
 	"Mr Batchelor taught.",
-	"Did Mr Batchelor's niece looked back?",
+	"Did Mr Batchelor's daughter looked back?",
 	"the boss look back?",
 	"Man looked back.",
 	"Some man work.",
 	"No looked back.",
 	"No-one work.",
-	"Did Mr Batchelor's niece teach?",
-	"Mr Batchelor's niece teach the boss.",
+	"Did Mr Batchelor's daughter teach?",
+	"Mr Batchelor's daughter teach the boss.",
 	"the boss raised."
 	]
 
@@ -200,8 +200,8 @@ intransitives = [
 	"Did Mr Batchelor's father work at a company?",
 	"Mr Batchelor's father worked on a company?",
 	"Mr Batchelor's father worked in a company?",
-	"Mr Batchelor's niece got married.",
-	"Did Mr Batchelor's niece leave?",
+	"Mr Batchelor's daughter got married.",
+	"Did Mr Batchelor's daughter leave?",
 	"Did the boss leave?",
 	"Did Mr Batchelor's father leave?",
 	"A man left.",
@@ -224,7 +224,7 @@ intransitives = [
 	"Several men didn't leave.",
 	"Several persons left.",
 	"Several persons didn't leave.",
-	"Did Mr Batchelor's niece look back?",
+	"Did Mr Batchelor's daughter look back?",
 	"Did the boss look back?",
 	"Did Mr Batchelor look back?",
 	"A man looked back.",
@@ -277,8 +277,8 @@ transitives = [
 	"The job worked on a hospital.",
 	"The job worked in a hospital.",
 	"Did the job disappoint the boss?",
-	"Did Mr Batchelor's niece study information technology?",
-	"Mr Batchelor's niece studied information technology.",
+	"Did Mr Batchelor's daughter study information technology?",
+	"Mr Batchelor's daughter studied information technology.",
 	"The boss studied information technology.",
 	"Did the boss study in the United States?",
 	"The boss studied information technology at a hospital.",
@@ -288,20 +288,20 @@ transitives = [
 	"Some man went to school.",
 	"Some boy went to school.",
 	"Some man raised the boss.",
-	"A man raised Mr Batchelor's niece",
+	"A man raised Mr Batchelor's daughter",
 	"Some woman told a story.",
 	"Did the boss come from the Dominican Republic?",
 	"Did Mr Batchelor immigrate?",
 	"Did the boss immigrate to the United States?",
 	"Did Mr Batchelor go to the United States?",
 	"Did Mr Batchelor come from the Dominican Republic?",
-	"Did Mr Batchelor's niece come to the United States?"
+	"Did Mr Batchelor's daughter come to the United States?"
 	]
 
 ditransitive_tests = [
 	"Mr Batchelor told a story.",
 	"Mr Batchelor told Mr Batchelor's father a story.",
-	"Mr Batchelor told a story to Mr Batchelor's niece.",
+	"Mr Batchelor told a story to Mr Batchelor's daughter.",
 	"Mr Batchelor told a story to Tia",
 	"Mr Batchelor gave some job to Tia.",
 	"Did Mr Batchelor give some job to Tia.",
@@ -328,33 +328,33 @@ ditransitive_tests = [
 	"The boss told a story.",
 	"The boss told the job a story.",
 	"The boss told a story to the job.",
-	"The boss told a story to Mr Batchelor's niece",
+	"The boss told a story to Mr Batchelor's daughter",
 	"The boss gave some language to Mr Batchelor's son.",
 	"Did the boss give some language to Mr Batchelor's son.",
-	"Did the boss give the language to Mr Batchelor's niece?",
+	"Did the boss give the language to Mr Batchelor's daughter?",
 	"Did the boss give the language to someone?",
 	"The boss gave several language to Mr Batchelor's son.",
-	"Did someone give something to Mr Batchelor's niece?",
+	"Did someone give something to Mr Batchelor's daughter?",
 	"A woman gave the language to Mr Batchelor's son.",
 	"A woman gave the language to someone.",
 	"A woman gave something to someone.",
 	"Someone gave something to someone.",
-	"The boss gave Mr Batchelor's niece some language.",
-	"Did the boss give Mr Batchelor's niece some language?",
-	"Did the boss give Mr Batchelor's niece the language?",
+	"The boss gave Mr Batchelor's daughter some language.",
+	"Did the boss give Mr Batchelor's daughter some language?",
+	"Did the boss give Mr Batchelor's daughter the language?",
 	"Did the boss give someone the language?",
-	"The boss gave Mr Batchelor's niece several language.",
-	"Did someone give Mr Batchelor's niece something?",
-	"A man gave Mr Batchelor's niece the language.",
-	"A man gave Mr Batchelor's niece some language.",
-	"A boy gave Mr Batchelor's niece the language.",
-	"The job gave Mr Batchelor's niece the worker.",
+	"The boss gave Mr Batchelor's daughter several language.",
+	"Did someone give Mr Batchelor's daughter something?",
+	"A man gave Mr Batchelor's daughter the language.",
+	"A man gave Mr Batchelor's daughter some language.",
+	"A boy gave Mr Batchelor's daughter the language.",
+	"The job gave Mr Batchelor's daughter the worker.",
 	"A man gave someone the language.",
 	"A man gave someone something.",
 	"Someone gave someone something.",
 	"Did the boss work at a hospital?",
 	"The boss did cleaning at a hospital.",
-	"Did Mr Batchelor's niece spell names in the company?"
+	"Did Mr Batchelor's daughter spell names in the company?"
 	]
 
 wh_questions =[
@@ -365,29 +365,30 @@ wh_questions =[
 	"Who gave some job to Tia?",
 	"Which person worked?",
 	"Which person did Tia teach?",
+	"Which subjects did Mr Payne teach?",
 	"To whom did Mr Batchelor give some job?",
 	"Who did Mr Batchelor give some job to?",
 	"Who looked back?",
 	"Which man looked back?",
-	"Who raised Mr Batchelor's niece?",
-	"Which woman raised Mr Batchelor's niece?",
-	"Who gave the languages to Mr Batchelor's niece?",
-	"Who gave some languages to Mr Batchelor's niece?",
+	"Who raised Mr Batchelor's daughter?",
+	"Which woman raised Mr Batchelor's daughter?",
+	"Who gave the languages to Mr Batchelor's daughter?",
+	"Who gave some languages to Mr Batchelor's daughter?",
 	"Which person looked back?",
 	"Which woman appreciated the boss?",
 	"Which girl appreciated the boss?",
 	"Which daughter appreciated the boss?",
-	"Who did Mr Batchelor's niece appreciate?",
-	"Which person did Mr Batchelor's niece appreciate?",
-	"Which man did Mr Batchelor's niece appreciate?",
-	"Which woman did Mr Batchelor's niece appreciate?",
-	"Which thing did Mr Batchelor's niece appreciate?",
-	"Which worker did Mr Batchelor's niece appreciate?",
+	"Who did Mr Batchelor's daughter appreciate?",
+	"Which person did Mr Batchelor's daughter appreciate?",
+	"Which man did Mr Batchelor's daughter appreciate?",
+	"Which woman did Mr Batchelor's daughter appreciate?",
+	"Which thing did Mr Batchelor's daughter appreciate?",
+	"Which worker did Mr Batchelor's daughter appreciate?",
 	-- "To whom did the boss give some languages?",
 	-- "Who did the boss give some languages to?",
 	"Who had a worker?",
-	"What did Mr Batchelor's niece have?",
-	"Who did Mr Batchelor's niece have?",
+	"What did Mr Batchelor's daughter have?",
+	"Who did Mr Batchelor's daughter have?",
 	"Who did the job disappoint?",
 	"Who did the boss's daughter appreciate?",
 	"What did the boss's daughter appreciate?",
@@ -407,20 +408,20 @@ relclauses = [
 	"Mr Batchelor divorced the man that she gave the job to.",
 	"Who killed the man that helped the woman " 
 	 ++ "that had a boyfriend.",
-	"A woman who raised Mr Batchelor's niece looked back.",
-	"The woman who raised Mr Batchelor's niece looked back.",
-	"Did the woman who raised Mr Batchelor's niece look back?",
-	"Did every person who raised Mr Batchelor's niece look back?",
-	"Did some person who raised Mr Batchelor's niece look back?",
-	"The woman who gave the languages to Mr Batchelor's niece looked back.",
+	"A woman who raised Mr Batchelor's daughter looked back.",
+	"The woman who raised Mr Batchelor's daughter looked back.",
+	"Did the woman who raised Mr Batchelor's daughter look back?",
+	"Did every person who raised Mr Batchelor's daughter look back?",
+	"Did some person who raised Mr Batchelor's daughter look back?",
+	"The woman who gave the languages to Mr Batchelor's daughter looked back.",
 	"Mr Batchelor married the man that gave the languages to Mr Batchelor's son.",
 	"The man that Mr Batchelor married gave the languages to Mr Batchelor's son.",
 	"The man Mr Batchelor married gave the languages to Mr Batchelor's son.",
-	"The job disappointed the man that gave Mr Batchelor's niece the languages.",
+	"The job disappointed the man that gave Mr Batchelor's daughter the languages.",
 	"The man that the job disappointed left the Dominican Republic.",
 	"The man the job disappointed left the Dominican Republic.",
-	"Mr Batchelor's niece accepted the languages that a man gave Mr Batchelor's son.",
-	"Mr Batchelor's niece accepted the language that a man gave to Mr Batchelor's son.",
+	"Mr Batchelor's daughter accepted the languages that a man gave Mr Batchelor's son.",
+	"Mr Batchelor's daughter accepted the language that a man gave to Mr Batchelor's son.",
 	"Who appreciated the man that gave the girl \
 	 \that left the Dominican Republic a language?"
 	]
@@ -440,9 +441,9 @@ lf4 = (Impl  (Rel "married" [ Const (ents !! 9), Const        (ents !! 1)]) (Rel
 lf5 = (Conj [ (Rel "married" [ Const (ents !! 9), Const       (ents !! 1)]), (Rel "married" [ Const (ents !! 8), Const (ents !!   17)]) ] )
 lf6 = (Disj [ (Rel "married" [ Const (ents !! 9), Const       (ents !! 1)]), (Rel "married" [ Const (ents !! 8), Const (ents !!   17)]) ] )
 
-lf70 = ( \x -> ( Conj [ (Rel "niece" [x]), (Rel "have" [x, Const (ents !! 8)]) ] ) ) (Const (ents !! 12) )
-lf71 = ( \x -> ( Conj [ (Rel "niece" [x]), (Rel "have" [x, Const (ents !! 17)]) ] ) ) (Const (ents !! 12) )
-lf72 = ( \x -> ( Conj [ (Rel "niece" [x]), (Rel "have" [x, Const (ents !! 17)]) ] ) ) (Const (ents !! 12) )
-lf73 = \x -> Conj [ (Rel "niece" [x]), (Rel "have" [x, Const (ents !! 17)]) ]
+lf70 = ( \x -> ( Conj [ (Rel "daughter" [x]), (Rel "have" [x, Const (ents !! 8)]) ] ) ) (Const (ents !! 12) )
+lf71 = ( \x -> ( Conj [ (Rel "daughter" [x]), (Rel "have" [x, Const (ents !! 17)]) ] ) ) (Const (ents !! 12) )
+lf72 = ( \x -> ( Conj [ (Rel "daughter" [x]), (Rel "have" [x, Const (ents !! 17)]) ] ) ) (Const (ents !! 12) )
+lf73 = \x -> Conj [ (Rel "daughter" [x]), (Rel "have" [x, Const (ents !! 17)]) ]
 lf74 = ( \x -> ( Conj [ (Rel "daughter" [x]), (Rel "have" [x, Const (ents !! 17)]) ] ) )
-lf75 = \x -> Impl (Rel "niece" [x]) (Rel "have" [x, Const (ents !! 17)])
+lf75 = \x -> Impl (Rel "daughter" [x]) (Rel "have" [x, Const (ents !! 17)])
