@@ -39,12 +39,18 @@ object_names = [
 	[Cat "finance"	"NP" [Thrd,Neutr,Sg] []],
 	[Cat "accounting"	"NP" [Thrd,Neutr,Sg] []],
 	[Cat "business_law"	"NP" [Thrd,Neutr,Sg] []],
+	[Cat "subject"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "subjects"	"CN" [Thrd,Neutr,Pl] []],
 	[Cat "name"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "names"	"CN" [Thrd,Neutr,Pl] []],
 	[Cat "language"	"CN" [Thrd,Neutr,Sg] []]
 	]
 
 story_verbs = [
+	[Cat "taught"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
+		Cat "taught"	"VP" [Tense] []],
+	[Cat "teach"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
+		Cat "teach"	"VP" [Infl] []],
 	[Cat "visited"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
 		Cat "visited"	"VP" [Tense] []],
 	[Cat "visit"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
@@ -58,7 +64,8 @@ story_verbs = [
 	[Cat "greeted"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "greet"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "wore"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "wear"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
+	[Cat "wear"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "wearing"	"GER" [Infl] [Cat "_" "NP" [AccOrDat] []]]
 	]
 
 story_aux = [
