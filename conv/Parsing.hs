@@ -374,7 +374,7 @@ cnrelR = \us xs ->
                  agreeC cn rel ]
 
 prsREL :: SPARSER Cat Cat 
-prsREL = relclauseR <||> thatlessR <||> relppR
+prsREL = relclauseR <||> thatlessR <||> relppR <||> redrelR
 
 relclauseR :: SPARSER Cat Cat
 relclauseR = \us xs -> 
@@ -395,6 +395,12 @@ relppR :: SPARSER Cat Cat
 relppR = \us xs -> 
      [ (Branch (Cat "_" "COMP" [] []) [pp], vs, ys) |
                  (pp,vs,ys) <- prsPP us xs ] 
+
+redrelR :: SPARSER Cat Cat
+redrelR = \us xs -> 
+     [ (Branch (Cat "_" "COMP" [] []) [red], vs, ys) |
+                 (red,vs,ys) <- prsRED us xs ] 
+prsRED = undefined
 
 prsYN :: SPARSER Cat Cat 
 prsYN = \us xs -> 
