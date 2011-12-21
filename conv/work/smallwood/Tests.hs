@@ -9,6 +9,8 @@ sekuhara_test = [
 	"Mr Batchelor angered Tia.",
 	"Mr Batchelor's offensive language angered Tia.",
 	"The language angered interviewees",
+	"Some language angered interviewees",
+	"Some offensive language angered interviewees",
 	"The boss angered visitors.",
 	"The company had interviewees.",
 	"The boss's language angered the visitor."
