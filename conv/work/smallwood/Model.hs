@@ -197,14 +197,14 @@ theme4 (_,_,t,_) = t
 recipient4 (_,_,_,r) = r
 
 -- (teacher,school(location),subject,student)
-schooling = [(N,V,F,C),(N,V,A,C),(N,V,W,C)]
+schooling = [(P,V,F,T),(P,V,A,T),(P,V,W,T)]
 studied = pred3 $ map ( \x -> (recipient4 x, theme4 x, location4 x) )
 				schooling
 studied_what = pred2 $ map (\x -> (recipient4 x, theme4 x) ) schooling
 studied_where = pred2 $ map (\x -> (recipient4 x, location4 x) ) schooling
 teach = pred3 $ map (\x -> (agent4 x, theme4 x, recipient4 x) ) schooling
 teach_what = forgetful teach
-teach_who = pred2 $ map (\x -> (agent4 x, location4 x) ) schooling
+teach_who = pred2 $ map (\x -> (agent4 x, recipient4 x) ) schooling
 student = pred1 $ map recipient4 schooling
 
 forgetful :: ThreePlacePred -> TwoPlacePred
