@@ -27,7 +27,7 @@ characters = [
 	( "mr_payne",	P ),
 	( "mr_batchelor",	B ),
 	( "finance",	F ),
-	( "accounting",	G ),
+	( "accounting",	A ),
 	( "business_law",	W )
 
 	]
@@ -38,7 +38,7 @@ boss	= pred1 [B]
 company	= pred1 [O]
 school	= pred1 [V]
 teacher	= pred1 [P]
-subject	= pred1 [F,G,W]
+subject	= pred1 [F,A,W]
 money	= pred1 [M]
 story	= pred1 [Y]
 job	= pred1 [J]
@@ -155,7 +155,7 @@ destination = recipient
 
 --(worker,job,site)
 working	= [(T,Unspec,O),(B,B,O)]
-comms	= [ P,F,T),P,A,T),(P,W,T),(P,N,T),(B,L,T),(T,Y,C) ]
+comms	= [ (P,F,T),(P,A,T),(P,W,T),(P,N,T),(B,L,T),(T,Y,C) ]
 offenses	= [(P,N,T),(B,L,T)]
 giving	= [ (B,J,T) ]
 acceptances = []
