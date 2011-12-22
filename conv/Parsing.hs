@@ -285,17 +285,10 @@ npADJR = \ us xs ->
        fs         <- combine (t2c det) (t2c cn),
       agreeC det cn ]
 
-npaposR :: SPARSER Cat Cat
-npaposR = \us xs ->
+aposR :: SPARSER Cat Cat
+aposR = \us xs ->
   [ (Branch (Cat "_" "DET" [] []) [pos,np1], (us++ws), zs) |
       (np1,vs,ys) <- leafPS "NP" us xs,
-      (pos,ws,zs) <- prsAPOS vs ys
-      ]
-
-cnaposR :: SPARSER Cat Cat
-cnaposR = \us xs ->
-  [ (Branch (Cat "_" "DET" [] []) [pos,np1], (us++ws), zs) |
-      (np1,vs,ys) <- npR us xs,
       (pos,ws,zs) <- prsAPOS vs ys
       ]
 
@@ -317,7 +310,7 @@ prsZERO :: SPARSER Cat Cat
 prsZERO = succeedS $ Leaf (Cat "zero" "DET" [Pl] [])
 
 prsDET :: SPARSER Cat Cat
-prsDET = leafPS "DET" <||> npaposR <||> cnaposR <||> prsZERO 
+prsDET = leafPS "DET" <||> aposR <||> prsZERO 
 
 prsADJ :: SPARSER Cat Cat
 prsADJ = leafPS "ADJ"
