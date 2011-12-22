@@ -41,10 +41,10 @@ spell_test = [
 	"Mr Batchelor couldn't spell Tia's name.",
 	"Christine could spell Mr Batchelor's name,\
 	\ but Mr Batchelor couldn't spell Christine's name.",
-	"Joan could spell Tia's name and Tia could spell Mr Batchelor's name,\
-	\ but Mr Batchelor couldn't spell Joan's name.",
+	"Tia could spell Tia's name and Tia could spell Mr Batchelor's name,\
+	\ but Mr Batchelor couldn't spell Tia's name.",
 	"Tia could spell names.\
-	\ Joan could spell names.\
+	\ Tia could spell names.\
 	\ Mr Batchelor's daughter could spell names.\
 	\ But, Mr Batchelor couldn't spell names."
 	]
@@ -64,20 +64,19 @@ test_text = [
 	]
 
 test_possessives = [
-	"Joan's language looked back.",
+	"Tia's language looked back.",
 	"Mr Batchelor's daughter looked back.",
-	"Joan's daughter looked back on Mr Batchelor's upbringing.",
-	"Joan's daughter looked back on Joan's upbringing.",
+	"Tia's daughter looked back on Mr Batchelor's upbringing.",
+	"Tia's daughter looked back on Tia's upbringing.",
 	"Mr Batchelor's daughter looked back on Mr Batchelor's upbringing.",
 	"Did Mr Batchelor's father look back on Mr Batchelor's upbringing?",
 	"Did Mr Batchelor's brother look back on Mr Batchelor's upbringing?",
-	"Did Mr Batchelor's father speak English?",
-	"Did Mr Batchelor's brother speak English?",
-	"Did Mr Batchelor's brother know English?",
-	"Did Mr Batchelor's mother speak English?",
-	"Did Mr Batchelor's mother speak English?",
-	"The boss's daughter appreciated Mr Batchelor's father.",
-	"Mr Batchelor's daughter  appreciated the boss's daughter.",
+	"Did Mr Batchelor's father look at the woman's dress?",
+	"Did Mr Batchelor's brother look at the woman's dress?",
+	"Did Mr Batchelor's brother look at Tia's dress?",
+	"Did Mr Batchelor's mother look at the woman's red dress?",
+	"The boss's daughter offended Mr Batchelor's father.",
+	"Mr Batchelor's daughter  offended the boss's daughter.",
 	"Did the sister of Mr Batchelor's daughter know English?",
 	"Did the father of Mr Batchelor's daughter look back on Mr Batchelor's daughter's upbringing?",
 	"Did the brother of Mr Batchelor's daughter look back on Mr Batchelor's daughter's upbringing?",
@@ -127,7 +126,7 @@ haves = [
 	"Did the parent have some language?",
 	"Did the parent have no language?",
 	"Did the boss have money?",
-	"Did Joan have money?",
+	"Did Tia have money?",
 	"Did the job have money?",
 	"Did Mr Batchelor's daughter have money?",
 	"Did the boss have a parent?",
