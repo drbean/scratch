@@ -12,6 +12,7 @@ story_objects = [
 	( "language",	\[x] -> language x	),
 	( "request",	\[x] -> request x	),
 	( "treatment",	\[x] -> treatment x	),
+	( "upbringing",	\[x] -> upbringing x	),
 
 
 	( "money",	\[x] -> money x	),
@@ -26,6 +27,7 @@ story_inflections = [
  ( "visitor", "customer" ),
  ( "visitors", "visitor" ),
  ( "names", "name" ),
+ ( "looked", "look" ),
  ( "wear", "wore" ),
  ( "visited", "visit" ),
  ( "interviewed", "interview" ),
@@ -43,6 +45,7 @@ story_relations = [
 	( "mean",	\[x]	-> mean x	),
 	( "unfair",	\[x]	-> unfair x	),
 
+	( "look",	\[x,y] -> look_at y x	),
 	( "wore",	\[x,y]	-> wore y x	),
 	( "visit",	\[x,y]	-> visit y x	),
 	( "interview",	\[x,y]	-> interview y x	),
