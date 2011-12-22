@@ -139,9 +139,9 @@ transNP (Branch (Cat _ "NP" _ _) [det,adj,cn]) = case adj of
 transDET :: ParseTree Cat Cat -> (Term -> LF)
                               -> (Term -> LF)
                               -> LF
-transDET (Branch (Cat _ "DET" _ _)
-	[Leaf (Cat "'s" "APOS" _ _), Leaf (Cat name "NP" _ _)]) =
-	  \ p q -> Exists (\v -> Conj [ Single p, p v, q v, Rel "had" [Const (ided name), v] ])
+transDET (Branch (Cat _ "DET" _ _) [Leaf (Cat "'s" "APOS" _ _), np]) =
+    \ p q -> Exists (\v -> Conj [ Single p, p v, q v, transNP np
+	(\mod -> Rel "had" [mod, v] )])
 transDET (Leaf (Cat "the" "DET" _ _)) = 
   \ p q -> Exists (\v -> Conj [Single p, p v, q v] )
 transDET (Leaf (Cat "every" "DET" _ _)) = 
