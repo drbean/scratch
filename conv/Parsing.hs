@@ -266,7 +266,7 @@ cond2R = \ us xs ->
          (s2,ws,zs)   <- prsS vs2 ys2 ]
 
 prsNP :: SPARSER Cat Cat 
-prsNP = leafPS "NP" <||> npR <||> npADJR <||> pop "NP" 
+prsNP = leafPS "NP" <||> npR <||> npposR <||> cnposR <||> npADJR <||> pop "NP" 
 
 npR :: SPARSER Cat Cat
 npR = \ us xs -> 
@@ -285,11 +285,21 @@ npADJR = \ us xs ->
        fs         <- combine (t2c det) (t2c cn),
       agreeC det cn ]
 
-aposR :: SPARSER Cat Cat
-aposR = \us xs ->
-  [ (Branch (Cat "_" "DET" [] []) [pos,np1], (us++ws), zs) |
-      (np1,vs,ys) <- leafPS "NP" us xs,
-      (pos,ws,zs) <- prsAPOS vs ys
+npposR :: SPARSER Cat Cat
+npposR = \us xs ->
+  [ (Branch (Cat "_" "NP" [] []) [pos,np,cn], (us++ss), ts) |
+      (np,vs,ys) <- leafPS "NP" [] xs,
+      (pos,us,ws) <- prsAPOS vs ys,
+      (cn,ss,ts)  <- prsCN us ws
+      ]
+
+cnposR :: SPARSER Cat Cat
+cnposR = \us xs ->
+  [ (Branch (Cat "_" "NP" [] []) [pos,det,cn1,cn2], (us++qs), rs) |
+      (det,vs,ys) <- prsDET [] xs,
+      (cn1,ws,zs)  <- prsCN vs ys,
+      (pos,ss,ts) <- prsAPOS ws zs,
+      (cn2,qs,rs)  <- prsCN ss ts
       ]
 
 ofR :: SPARSER Cat Cat
@@ -310,7 +320,7 @@ prsZERO :: SPARSER Cat Cat
 prsZERO = succeedS $ Leaf (Cat "zero" "DET" [Pl] [])
 
 prsDET :: SPARSER Cat Cat
-prsDET = leafPS "DET" <||> aposR <||> prsZERO 
+prsDET = leafPS "DET" <||> prsZERO 
 
 prsADJ :: SPARSER Cat Cat
 prsADJ = leafPS "ADJ"
