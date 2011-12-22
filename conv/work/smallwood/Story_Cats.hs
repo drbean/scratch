@@ -43,10 +43,13 @@ object_names = [
 	[Cat "subjects"	"CN" [Thrd,Neutr,Pl] []],
 	[Cat "name"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "names"	"CN" [Thrd,Neutr,Pl] []],
+	[Cat "upbringing" "CN" [Thrd,Neutr,Sg] []],
 	[Cat "language"	"CN" [Thrd,Neutr,Sg] []]
 	]
 
 story_verbs = [
+	[Cat "looked"	"VP" [Tense] [Cat "_" "PP" [At] []]],
+	[Cat "look"	"VP" [Infl] [Cat "_" "PP" [At] []]],
 	[Cat "taught"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
 		Cat "taught"	"VP" [Tense] []],
 	[Cat "teach"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []],

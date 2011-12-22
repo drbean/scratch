@@ -50,6 +50,7 @@ unfair	= pred1 [N]
 language	= pred1 [L,N]
 request	= pred1 [L,N]
 treatment	= pred1 [L,N]
+upbringing   = pred1 [G]
 
 namelist = map fst characters
 
@@ -124,6 +125,7 @@ isSiblings	= \a b -> (any . flip elem) (parents a) (parents b)
 brother	= \x -> any ( \i -> isSiblings x i ) entities
 
 clothing	= [(T,R)]
+looking	= [(B,R)]
 wore	= pred2 clothing
 have	= pred2 $ possessions ++ marriages ++ parenting ++ supervision
 		++ ( map swap $ marriages ++ parenting ++ supervision )
@@ -138,6 +140,7 @@ appreciate	= pred2 appreciation
 visit	= pred2 $ map (\x -> (patient x, recipient x) ) recruitment
 interview	= pred2 $ map (\x -> (agent x, patient x) ) recruitment
 greet	= interview
+look_at	= pred2 $ looking
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
@@ -156,7 +159,7 @@ destination = recipient
 
 --(worker,job,site)
 working	= [(T,Unspec,O),(B,B,O)]
-comms	= [ (P,F,T),(P,A,T),(P,W,T),(P,N,T),(B,L,T),(T,Y,C) ]
+comms	= [ (P,F,T),(P,A,T),(P,W,T),(P,N,T),(B,L,T),(T,Y,C),(T,G,C),(T,L,C),(T,N,C) ]
 offenses	= [(P,N,T),(B,L,T)]
 giving	= [ (B,J,T) ]
 acceptances = []
