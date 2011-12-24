@@ -132,9 +132,8 @@ transNP (Leaf (Cat name "NP" _ _))
     | name `elem` namelist = \ p -> p (Const (ided name))
     | otherwise = \p -> Exists ( \v -> Conj [ p v, Rel name [v] ] )
 transNP (Branch (Cat _ "NP" _ _) [det,cn]) = (transDET det) (transCN cn) 
-transNP (Branch (Cat _ "NP" _ _) [Leaf (Cat "'s" "APOS" _ _),Leaf (Cat name "NP" _ _),cn]) =
-    \p -> Exists (\thing -> Conj [ p thing, transCN cn thing, (Rel "had" [owner,thing])])
-    where owner = Const (ided name)
+transNP (Branch (Cat _ "NP" _ _) [Leaf (Cat "'s" "APOS" _ _),np,cn]) =
+    \p -> Exists (\thing -> Conj [ p thing, transCN cn thing, transNP np (\owner -> (Rel "had" [owner,thing]))])
 transNP (Branch (Cat _ "NP" _ _) [det,Leaf (Cat a "ADJ" _ _),cn]) = 
     (transDET det) (\n -> Conj [transCN cn n, Rel a [n]])
 
