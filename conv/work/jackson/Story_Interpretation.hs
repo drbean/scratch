@@ -3,27 +3,38 @@ module Story_Interpretation where
 import Model
 
 story_objects = [
-	( "boss",	\[x] -> boss x	),
-	( "company",	\[x] -> company x	),
+	( "rent",	\[x]	-> rent x	),
+	( "apartment",	\[x]	-> apartment x	),
+	( "unemployment",	\[x]	-> unemployment x	),
+	( "administrative_assistant",	\[x]	-> admin x	),
+	( "officewear",	\[x]	-> officewear x	),
+	( "donator",	\[x]	-> donator x	),
+	( "ten_dollar_bill",	\[x]	-> bill x	),
+	( "black",	\[x]	-> black x	),
+	( "white",	\[x]	-> white x	),
+	( "birthday_card",	\[x]	-> card x	),
+	( "sign",	\[x]	-> sign x	),
+	( "shelter",	\[x]	-> shelter x	),
+	( "gift",	\[x]	-> gift x	),
+	( "smell",	\[x]	-> smell x	),
+
+
+
+
+
+
+	( "supervisor",	\[x]	-> supervisor x	),
 	( "interviewee",	\[x] -> interviewee x	),
-	( "visitor",	\[x] -> visitor x	),
-	( "school",	\[x] -> school x	),
-	( "subject",	\[x] -> subject x	),
-	( "language",	\[x] -> language x	),
-	( "request",	\[x] -> request x	),
-	( "treatment",	\[x] -> treatment x	),
-	( "upbringing",	\[x] -> upbringing x	),
 
 
 	( "money",	\[x] -> money x	),
 	( "story",	\[x] -> story x	),
-	( "dress",	\[x] -> dress x	),
 	( "job",	\[x] -> job x	)
 	]
 
 story_inflections = [
- ( "supervisor", "boss" ),
- ( "information_technology", "i_t" ),
+ ( "fragrance", "smell" ),
+ ( "lotion", "gift" ),
  ( "visitor", "customer" ),
  ( "visitors", "visitor" ),
  ( "names", "name" ),
@@ -40,20 +51,17 @@ story_inflections = [
  ]
 
 story_relations = [
-	( "red",	\[x]	-> red x	),
-	( "offensive",	\[x]	-> offensive x	),
-	( "mean",	\[x]	-> mean x	),
-	( "unfair",	\[x]	-> unfair x	),
+	( "black",	\[x]	-> black x	),
+	( "white",	\[x]	-> white x	),
+	( "beautiful",	\[x]	-> beautiful x	),
+	( "homeless",	\[x]	-> homeless x	),
+
+	( "dress",	\[x]	-> officewear x	),
 
 	( "look",	\[x,y] -> look_at y x	),
+	( "lose",	\[x,y]	-> lose y x	),
+
 	( "wore",	\[x,y]	-> wore y x	),
-	( "visit",	\[x,y]	-> visit y x	),
-	( "interview",	\[x,y]	-> interview y x	),
-	( "teach",	\args -> case args of
-		[x,y] -> (teach_who y x || teach_what y x)
-		[x,y,z] -> teach z y x ),
-	( "offend",	\[x,y]	-> offend y x	),
-	( "anger",	\[x,y]	-> anger y x	),
-	( "greet",	\[x,y]	-> greet y x	)
+	( "interview",	\[x,y]	-> interview y x	)
 	]
 

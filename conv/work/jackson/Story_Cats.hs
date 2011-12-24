@@ -5,13 +5,14 @@ import Parsing
 proper_names, object_names, story_verbs :: Lexset
 
 proper_names = [
-	[Cat "the_united_states" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "rutgers_university" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "tia"	"NP" [Thrd,Fem,Sg] []],
-	[Cat "christine"	"NP" [Thrd,Fem,Sg] []],
-	[Cat "steven"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "mr_payne"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "mr_batchelor"	"NP" [Thrd,Masc,Sg] []]
+	[Cat "queen" "NP" [Thrd,Fem,Sg] []],
+	[Cat "ann"	"NP" [Thrd,Fem,Sg] []],
+	[Cat "debra"	"NP" [Thrd,Fem,Sg] []],
+	[Cat "tanya"	"NP" [Thrd,Fem,Sg] []],
+	[Cat "jennifer"	"NP" [Thrd,Fem,Sg] []],
+	[Cat "the_state_of_colorado" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "the_gathering_place" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "nobody_or_nothing" "NP" [Thrd,Neutr,Sg] []]
 	]
 
 object_names = [
@@ -21,26 +22,30 @@ object_names = [
 	[Cat "dress"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "dresses"	"CN" [Thrd,Neutr,Pl] []],
 
-	[Cat "boss"	"CN" [Thrd,Fem,Sg] []],
+	[Cat "rent"	"CN" [Thrd,Neutr,Sg] [],
+		Cat "rent"	"NP" [Thrd,Neutr,Sg] []],
+	[Cat "apartment"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "unemployment"	"NP" [Thrd,Neutr,Sg] []],
+	[Cat "ten_dollar_bill"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "birthday_card"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "sign"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "shelter"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "gift"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "lotion"	"NP" [Thrd,Neutr,Sg] []],
+	[Cat "smell"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "spirits"	"CN" [Thrd,Neutr,Pl] []],
+
+
+
+	[Cat "administrative_assistant"	"NP" [Thrd,MascOrFem,Sg] []],
+	[Cat "donator"	"NP" [Thrd,Masc,Sg] []],
 	[Cat "supervisor"	"CN" [Thrd,Fem,Sg] []],
-	[Cat "receptionist"	"CN" [Thrd,MascOrFem,Sg] []],
-	[Cat "receptionists"	"CN" [Thrd,MascOrFem,Pl] []],
-	[Cat "interviewer"	"CN" [Thrd,MascOrFem,Sg] []],
-	[Cat "interviewers"	"CN" [Thrd,MascOrFem,Pl] []],
 	[Cat "interviewee"	"CN" [Thrd,MascOrFem,Sg] []],
 	[Cat "interviewees"	"CN" [Thrd,MascOrFem,Pl] []],
 	[Cat "visitor"	"CN" [Thrd,MascOrFem,Sg] []],
 	[Cat "visitors"	"CN" [Thrd,MascOrFem,Pl] []],
-	[Cat "company"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "hospital"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "school"	"NP" [Thrd,Neutr,Sg] []],
 	[Cat "story"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "job"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "finance"	"NP" [Thrd,Neutr,Sg] []],
-	[Cat "accounting"	"NP" [Thrd,Neutr,Sg] []],
-	[Cat "business_law"	"NP" [Thrd,Neutr,Sg] []],
-	[Cat "subject"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "subjects"	"CN" [Thrd,Neutr,Pl] []],
 	[Cat "name"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "names"	"CN" [Thrd,Neutr,Pl] []],
 	[Cat "upbringing" "CN" [Thrd,Neutr,Sg] []],
@@ -75,8 +80,9 @@ story_aux = [
 	]
 
 story_adjs = [
-	[Cat "offensive"	"ADJ" [] []],
-	[Cat "red"	"ADJ" [] []]
+	[Cat "beautiful"	"ADJ" [] []],
+	[Cat "black"	"ADJ" [] []],
+	[Cat "white"	"ADJ" [] []]
 	]
 
 
