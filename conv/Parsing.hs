@@ -246,7 +246,7 @@ spR = \ us xs ->
  [ (Branch (Cat "_" "S" (fs (t2c np)) []) [np',vp],ws,zs) | 
        (np,vs,ys) <- prsNP us xs,
        (vp,ws,zs) <- prsVP vs ys, 
-        np'       <- assignT Nom np, 
+       np'       <- assignT Nom np, 
        agreeC np vp,
        subcatList (t2c vp) == [] ]
 
