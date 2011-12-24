@@ -295,9 +295,11 @@ npposR = \us xs ->
 
 cnposR :: SPARSER Cat Cat
 cnposR = \us xs ->
-  [ (Branch (Cat "_" "NP" [] []) [pos,Branch (Cat "_" "NP" [] []) [det,cn1],cn2], (us++qs), rs) |
+  [ (Branch (Cat "_" "NP" [] []) [pos,Branch (Cat "_" "NP" fs []) [det,cn1],cn2], (us++qs), rs) |
       (det,vs,ys) <- prsDET [] xs,
       (cn1,ws,zs)  <- prsCN vs ys,
+      fs         <- combine (t2c det) (t2c cn1),
+      agreeC det cn1,
       (pos,ss,ts) <- prsAPOS ws zs,
       (cn2,qs,rs)  <- prsCN ss ts
       ]
