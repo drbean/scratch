@@ -123,11 +123,8 @@ preproc ["."]              = []
 preproc ["?"]              = []
 preproc (",":xs)           = preproc xs
 
-preproc ("mr":"batchelor":xs)	= "mr_batchelor" : preproc xs
-preproc ("mr":"payne":xs)	= "mr_payne" : preproc xs
-preproc ("rutgers":"university":xs)	= "rutgers_university" : preproc xs
-preproc ("business":"law":xs)	= "business_law" : preproc xs
-preproc ("the":"united":"states":xs)	= "the_united_states" : preproc xs
+preproc ("the":"state":"of":"colorado":xs)	= "the_state_of_colorado" : preproc xs
+preproc ("the":"gathering":"place":xs)	= "the_gathering_place" : preproc xs
 preproc ("look":"back":xs)	= "look_back" : preproc xs
 preproc ("looked":"back":xs)	= "looked_back" : preproc xs
 preproc ("got":"married":xs)	= "got_married" : preproc xs
