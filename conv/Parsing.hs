@@ -287,7 +287,7 @@ npADJR = \ us xs ->
 
 npposR :: SPARSER Cat Cat
 npposR = \us xs ->
-  [ (Branch (Cat "_" "NP" [] []) [pos,Branch (Cat "_" "NP" (fs (t2c np)) []) [np],cn], (us++ss), ts) |
+  [ (Branch (Cat "_" "NP" [] []) [pos,np,cn], (us++ss), ts) |
       (np,vs,ys) <- leafPS "NP" [] xs,
       (pos,us,ws) <- prsAPOS vs ys,
       (cn,ss,ts)  <- prsCN us ws
