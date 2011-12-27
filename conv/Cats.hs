@@ -31,7 +31,8 @@ class_names = [
 	]
 
 possessives = [
-	[Cat "'s" "APOS" [] []]
+	[Cat "'s" "APOS" [] []],
+	[Cat "of" "OFPOS" [] []]
 	]
 
 prons = [
