@@ -125,6 +125,9 @@ preproc (",":xs)           = preproc xs
 
 preproc ("the":"state":"of":"colorado":xs)	= "the_state_of_colorado" : preproc xs
 preproc ("the":"gathering":"place":xs)	= "the_gathering_place" : preproc xs
+preproc ("ten":"dollar":"bill":xs)	= "ten_dollar_bill" : preproc xs
+preproc ("administrative":"assistant":xs)	= "administrative_assistant" : preproc xs
+preproc ("birthday":"card":xs)	= "birthday_card" : preproc xs
 preproc ("look":"back":xs)	= "look_back" : preproc xs
 preproc ("looked":"back":xs)	= "looked_back" : preproc xs
 preproc ("got":"married":xs)	= "got_married" : preproc xs
@@ -263,7 +266,7 @@ cond2R = \ us xs ->
          (s2,ws,zs)   <- prsS vs2 ys2 ]
 
 prsNP :: SPARSER Cat Cat 
-prsNP = leafPS "NP" <||> npR <||> npposR <||> cnposR <||> npADJR <||> pop "NP" 
+prsNP = leafPS "NP" <||> npR <||> npADJR <||> npposR <||> cnposR <||> adjcnposR <||> pop "NP" 
 
 npR :: SPARSER Cat Cat
 npR = \ us xs -> 
@@ -299,6 +302,18 @@ cnposR = \us xs ->
       agreeC det cn1,
       (pos,ss,ts) <- prsAPOS ws zs,
       (cn2,qs,rs)  <- prsCN ss ts
+      ]
+
+adjcnposR :: SPARSER Cat Cat
+adjcnposR = \us xs ->
+  [ (Branch (Cat "_" "NP" [] []) [pos,Branch (Cat "_" "NP" fs []) [det,cn1],cn2], (us++os), ps) |
+      (det,vs,ys) <- prsDET [] xs,
+      (adj,ws,zs)  <- prsADJ vs ys,
+      (cn1,ss,ts)  <- prsCN ws zs,
+      fs         <- combine (t2c det) (t2c cn1),
+      agreeC det cn1,
+      (pos,qs,rs) <- prsAPOS ss ts,
+      (cn2,os,ps)  <- prsCN qs rs
       ]
 
 ofR :: SPARSER Cat Cat
