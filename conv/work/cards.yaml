@@ -467,6 +467,34 @@ smallwood:
         \item [Consequences] Victims who complain may be badly treated by harassers \& also their schools/companies. \vspace{-0.6cm}
         \item [Law] Firing victims who complain, or a consistently hostile environment are illegal. In 2007, 12,510 complaints were made. Few made it to courts.
         \end{description}
+jackson:
+  jigsaw:
+    0:
+      identifier: jackson 0
+      A: You help homeless women find housing. You helped Queen and Ann, both college graduates who lost their jobs and then their homes. You know Queen's daughter, Jennifer is willing to have her move in, but you don't think that Queen should have to do that.
+      B: Your mother, Queen had a good job with the state government, but the government had no money and fired her. She can't find a new job. She was getting an unemployment check, but it didn't pay for her apartment. You told her to move in with you.
+      C: You have a master's degree, but suffer from depression and lost your job and home. When you went to Debra, at the women's center for help, you had been living in your car for 2 months and had \$40 and half a tank of gas. Like Queen, Debra found temporary housing for you.
+      D: You lost your job and your home. Your daughter, Jennifer asked you to move in with her, but instead you went to Debra, a worker at a day center for women who are homeless or poor. You told her that Jennifer wants you to move in, but she said that may not be the best solution.
+  compcomp:
+    0:
+      identifier: jackson 0
+      White: |+
+        \begin{normalsize}Unemployment among older women in US\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Rate] For women over 55, about 6 percent, less than the overall 8 percent, but increasing. Local governments, with less money, are cutting jobs, like teaching and office work, mostly held by women.
+        \item [Length] Half of all unemployed people over the age of 55 have been unemployed for more than 6 months. 200,000 have given up looking for work.
+        \item [History] In 2007, at the recession's start, women (especially older women) were less likely to lose work. But older unemployed women look a lot longer for new jobs, and they make a lot less than before.
+        \end{description}
+      Black: |+
+        \begin{normalsize}The Gathering Place, Denver\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Description] A daytime center for homeless \& poor women run by a women's group since 1986 in Denver.
+        \item [Services] Food, clothing, toiletries, computer lab, haircuts, test tutoring, help contacting lawyers, housing providers, \& government services.
+        \item [Use] Each day, 190 visitors, 180 meals, 1 haircut, 680 kg of food, 2.3 bras, 29 computer lab visits, 8.6 meetings arranged with government service representatives.
+        \item [Gov't survey] Women 45\% of the homeless in Denver. 31\% living with family or friends, 24\% in transitional housing, 17\% in emergency shelter, 7\% in own home, \& 5\% in car/on street.
+        \end{description}
 butler:
   compcomp:
     1:
