@@ -173,7 +173,7 @@ transDET (Leaf (Cat "which" "DET" _ _)) =
 transCN :: ParseTree Cat Cat -> Term -> LF
 transCN (Leaf   (Cat name "CN" _ _))          = \ x -> Rel name [x]
 transCN (Branch (Cat _    "CN" _ _) [cn,ofpos,np]) =
-    \owner -> transNP np (\thing -> Rel "had" [owner, thing])
+    \owner -> Conj [(transCN cn owner), (transNP np (\thing -> Rel "had" [owner, thing]))]
 transCN (Branch (Cat _    "CN" _ _) [cn,rel]) = case (rel) of
     (Branch (Cat _ "COMP" _ _) [Leaf (Cat _ "REL"  _ _), Branch (Cat _ "S" _ _) [np,vp]]) ->
 	case (np,vp) of
