@@ -2,6 +2,18 @@ module Story_Cats where
 
 import Parsing
 
+type WordConverted = ([String],String)
+
+multipart_names :: [WordConverted]
+
+multipart_names = [
+	(["the","state","of","colorado"],	"the_state_of_colorado"),
+	(["the","gathering","place"],	"the_gathering_place"),
+	(["administrative","assistant"],	"administrative_assistant"),
+	(["ten","dollar","bill"],	"ten_dollar_bill"),
+	(["birthday","card"],	"birthday_card")
+	]
+
 proper_names, object_names, story_verbs :: Lexset
 
 proper_names = [
@@ -40,19 +52,24 @@ object_names = [
 	[Cat "administrative_assistant"	"NP" [Thrd,MascOrFem,Sg] []],
 	[Cat "donator"	"NP" [Thrd,Masc,Sg] []],
 	[Cat "supervisor"	"CN" [Thrd,Fem,Sg] []],
+	[Cat "supervisors"	"CN" [Thrd,Fem,Pl] []],
 	[Cat "interviewee"	"CN" [Thrd,MascOrFem,Sg] []],
 	[Cat "interviewees"	"CN" [Thrd,MascOrFem,Pl] []],
 	[Cat "visitor"	"CN" [Thrd,MascOrFem,Sg] []],
 	[Cat "visitors"	"CN" [Thrd,MascOrFem,Pl] []],
 	[Cat "story"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "job"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "jobs"	"CN" [Thrd,Neutr,Pl] []],
 	[Cat "name"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "names"	"CN" [Thrd,Neutr,Pl] []],
-	[Cat "upbringing" "CN" [Thrd,Neutr,Sg] []],
-	[Cat "language"	"CN" [Thrd,Neutr,Sg] []]
+	[Cat "upbringing" "CN" [Thrd,Neutr,Sg] []]
 	]
 
 story_verbs = [
+	[Cat "cried"	"VP" [Tense] []],
+	[Cat "cry"	"VP" [Infl] []],
+	[Cat "volunteered"	"VP" [Tense] [Cat "_" "PP" [At] []]],
+	[Cat "volunteer"	"VP" [Infl] [Cat "_" "PP" [At] []]],
 	[Cat "looked"	"VP" [Tense] [Cat "_" "PP" [At] []]],
 	[Cat "look"	"VP" [Infl] [Cat "_" "PP" [At] []]],
 	[Cat "taught"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
@@ -80,6 +97,7 @@ story_aux = [
 	]
 
 story_adjs = [
+	[Cat "homeless"	"ADJ" [] []],
 	[Cat "beautiful"	"ADJ" [] []],
 	[Cat "black"	"ADJ" [] []],
 	[Cat "white"	"ADJ" [] []]
