@@ -134,8 +134,6 @@ transNP (Leaf (Cat name "NP" _ _))
 transNP (Branch (Cat _ "NP" _ _) [det,cn]) = (transDET det) (transCN cn) 
 transNP (Branch (Cat _ "NP" _ _) [Leaf (Cat "'s" "APOS" _ _),np,cn]) =
     \p -> Exists (\thing -> Conj [ p thing, transCN cn thing, transNP np (\owner -> (Rel "had" [owner,thing]))])
-transNP (Branch (Cat _ "NP" _ _) [Leaf (Cat "of" "OFPOS" _ _),np,np2]) =
-    \p -> transNP np (\thing -> (Conj [ p thing, transNP np2 (\owner -> (Rel "had" [owner,thing]))]))
 transNP (Branch (Cat _ "NP" _ _) [det,Leaf (Cat a "ADJ" _ _),cn]) = 
     (transDET det) (\n -> Conj [transCN cn n, Rel a [n]])
 
