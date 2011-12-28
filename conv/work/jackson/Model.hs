@@ -20,41 +20,44 @@ entities	=  [minBound..maxBound]
 characters :: [ (String, Entity) ]
 
 characters = [
-	( "queen",	Q ),
 	( "ann",	A ),
+	( "the_state_of_colorado",	C ),
 	( "debra",	D ),
-	( "tanya",	T ),
 	( "jennifer",	J ),
 	( "the_gathering_place",	P ),
-	( "the_state_of_colorado",	C ),
+	( "queen",	Q ),
+	( "tanya",	T ),
 	( "nobody_or_nothing",	Z )
 
 	]
 
-rent	= pred1 [N]
+
+white	= pred1 [A,T,D]
+bill	= pred1 [B]
 apartment	= pred1 [E]
+smell	= pred1 [F]
+gift	= pred1 [G]
+shelter	= pred1 [H]
+sign	= pred1 [I]
+job	= pred1 [J]
 unemployment	= pred1 [L]
 money	= pred1 [M]
-story	= pred1 [Y]
-job	= pred1 [J]
-admin	= job
-officewear	= pred1 [R]
+rent	= pred1 [N]
 man	= pred1 [O]
-donator	= man
-bill	= pred1 [M]
-card	= pred1 [X]
-sign	= pred1 [I]
-shelter	= pred1 [H]
-homeless	= pred1 [Q,A]
-gift	= pred1 [G]
-lotion	= gift
-smell	= pred1 [F]
-spirits	= pred1 [W]
-beautiful	= pred1 [U]
 black	= pred1 [Q]
-white	= pred1 [A]
+cried = pred1 [Q,A]
+homeless	= pred1 [Q,A]
+officewear	= pred1 [R]
+press	= pred1 [S]
+beautiful	= pred1 [U]
+counseling	= pred1 [V]
+spirits	= pred1 [W]
+card	= pred1 [X]
+story	= pred1 [Y]
 
-cried = pred1 [Q]
+admin	= job
+donator	= man
+lotion	= gift
 
 namelist = map fst characters
 
@@ -102,17 +105,17 @@ pred4 xs	= curry4 ( `elem` xs )
 
 --(parent,child)
 parenting	= [(Q,J)]
-supervision	= [(T,A),(D,Q)]
+supervision	= [(T,A),(D,Q),(D,A)]
 marriages	= [(Unspec,Q)]
 --(husband,wife,wedding_location)
 weddings	= []
 --(divorcer,divorced)
-separations	= []
--- divorces	= []
+separations	= [(Q,Unspec)]
+divorces	= [(Q,Unspec)]
 --(boyfriend,girlfriend)
 -- unmarried_couples	= []
 --(contacter,contactee)
-possessions	= [(Q,G)] ++ clothing
+possessions	= [(O,M),(J,M),(D,M),(T,M)] ++ clothing
 recruitment	= [(C,Q,V)]
 appreciation	= []
 
@@ -137,7 +140,7 @@ wore	= pred2 clothing
 have	= pred2 $ possessions ++ marriages ++ parenting ++ supervision
 		++ ( map swap $ marriages ++ parenting ++ supervision )
 		++ ( map (\x->(recipient x, theme x) ) giving )
-		++ ( map (\x->(agent x,B) ) working )
+		++ ( map (\x->(agent x,J) ) working )
 		++ ( map (\x->(agent x, patient x) ) recruitment )
 		++ ( map (\x->(agent x, location x) ) recruitment )
 knowledge	= []
@@ -166,10 +169,11 @@ origin	= theme
 destination = recipient
 
 --(worker,job,site)
-working	= [(Q,V,C)]
-comms	= [ (Q,Y,D),(A,Y,T) ]
+working	= [(Q,V,C),(T,S,P),(D,H,P),(O,Unspec,Unspec)]
+volunteering = [(Q,Unspec,P),(A,Unspec,P)]
+comms	= [ (Q,Y,D),(A,Y,T),(D,Q,J) ]
 offenses	= []
-giving	= [ (O,B,Q),(Unspec,G,Q) ]
+giving	= [ (C,L,Q),(O,B,Q),(Q,X,J),(P,G,Q),(P,E,Q) ]
 acceptances = []
 -- (seller, item, buyer)
 selling	= []
@@ -181,6 +185,7 @@ looking_back	= [(Q,Unspec,Unspec)]
 worker	= pred1 $ map agent working
 work_where	= pred2 $ map (\x -> (agent x, location x) ) working
 work_as = pred2 $ map (\x -> (agent x, theme x) ) working
+volunteer_at	= pred2 $ map (\x -> (agent x, location x) ) volunteering
 look_back	= pred1 $ map agent looking_back
 look_back_on	= pred2 $ map (\x->(agent x, theme x) ) looking_back
 said	= pred2 $ map (\x->(agent x, theme x) ) comms
@@ -210,7 +215,7 @@ theme4 (_,_,t,_) = t
 recipient4 (_,_,_,r) = r
 
 -- (teacher,school(location),subject,student)
-schooling = []
+schooling = [(Unspec,Unspec,V,D)]
 studied = pred3 $ map ( \x -> (recipient4 x, theme4 x, location4 x) )
 				schooling
 studied_what = pred2 $ map (\x -> (recipient4 x, theme4 x) ) schooling
