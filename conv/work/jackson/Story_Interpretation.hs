@@ -38,12 +38,14 @@ story_inflections = [
  ( "visitor", "customer" ),
  ( "visitors", "visitor" ),
  ( "names", "name" ),
+ ( "cry", "cried" ),
  ( "looked", "look" ),
  ( "wear", "wore" ),
  ( "visited", "visit" ),
  ( "interviewed", "interview" ),
  ( "interviewees", "interviewee" ),
  ( "taught", "teach" ),
+ ( "volunteered", "volunteer" ),
  ( "subjects", "subject" ),
  ( "offended", "offend" ),
  ( "angered", "anger"),
@@ -58,8 +60,12 @@ story_relations = [
 
 	( "dress",	\[x]	-> officewear x	),
 
+	( "cried",	\[x]	-> cried x	),
+
 	( "look",	\[x,y] -> look_at y x	),
 	( "lose",	\[x,y]	-> lose y x	),
+
+	( "volunteer",	\[x,y]	-> volunteer_at y x	),
 
 	( "wore",	\[x,y]	-> wore y x	),
 	( "interview",	\[x,y]	-> interview y x	)
