@@ -402,7 +402,7 @@ prsREL = relclauseR <||> thatlessR <||> relppR
 
 relclauseR :: SPARSER Cat Cat
 relclauseR = \us xs -> 
-  [(Branch (Cat "_" "COMP" fs []) [rel,s], ws, zs) |
+  [(Branch (Cat "_" "MOD" fs []) [rel,s], ws, zs) |
       (rel,vs,ys) <- leafPS "REL" us xs, 
        fs         <- [fs (t2c rel)],
        gap        <- [Cat "#" "NP" fs []],
@@ -410,14 +410,14 @@ relclauseR = \us xs ->
 
 thatlessR :: SPARSER Cat Cat 
 thatlessR = \ us xs -> 
-        [ (Branch (Cat "_" "COMP" [] []) [s], vs, ys) | 
+        [ (Branch (Cat "_" "MOD" [] []) [s], vs, ys) | 
            gap       <- [Cat "#" "NP" [AccOrDat] []], 
            (s,vs,ys) <- push gap prsS us xs, 
            notElem Wh (fs (t2c s))                       ]
 
 relppR :: SPARSER Cat Cat
 relppR = \us xs -> 
-     [ (Branch (Cat "_" "COMP" [] []) [pp], vs, ys) |
+     [ (Branch (Cat "_" "MOD" [] []) [pp], vs, ys) |
                  (pp,vs,ys) <- prsPP us xs ] 
 
 prsYN :: SPARSER Cat Cat 

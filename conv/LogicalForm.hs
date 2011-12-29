@@ -175,7 +175,7 @@ transCN (Leaf   (Cat name "CN" _ _))          = \ x -> Rel name [x]
 transCN (Branch (Cat _    "CN" _ _) [cn,ofpos,np]) =
     \owner -> Conj [(transCN cn owner), (transNP np (\thing -> Rel "had" [owner, thing]))]
 transCN (Branch (Cat _    "CN" _ _) [cn,rel]) = case (rel) of
-    (Branch (Cat _ "COMP" _ _) [Leaf (Cat _ "REL"  _ _), Branch (Cat _ "S" _ _) [np,vp]]) ->
+    (Branch (Cat _ "MOD" _ _) [Leaf (Cat _ "REL"  _ _), Branch (Cat _ "S" _ _) [np,vp]]) ->
 	case (np,vp) of
 	    (Leaf (Cat "#" "NP" _ _), _) -> \x -> Conj [transCN cn x, transVP vp x]
 	    (_, (Branch (Cat _ "VP" _ _) vp)) -> case (vp) of
@@ -195,19 +195,19 @@ transCN (Branch (Cat _    "CN" _ _) [cn,rel]) = case (rel) of
 			[transCN cn x, transNP np ( \agent ->
 			    transNP obj2 (\patient -> Rel name [agent, patient, x] ) ) ]
 	    _ -> \x -> Conj [transCN cn x, transVP vp x]
-    (Branch (Cat _ "COMP" _ _) [Branch (Cat _ "S" _ _) [np,vp]]) ->
+    (Branch (Cat _ "MOD" _ _) [Branch (Cat _ "S" _ _) [np,vp]]) ->
 	case (vp) of
 	    (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ _),Leaf (Cat "#" "NP" _ _)])
 		-> \x -> Conj [transCN cn x, transNP np (\agent -> Rel name [agent,x])]
-    (Branch (Cat _ "COMP" _ _) [Branch (Cat _ "PP" _ _)
+    (Branch (Cat _ "MOD" _ _) [Branch (Cat _ "PP" _ _)
 	[Leaf (Cat "with" "PREP" [With] _),np]]) -> 
 	\x -> Conj [transCN cn x, transNP np (\patient -> Rel "had" [x, patient])]
     _ ->	\ x -> Conj [transCN cn x, transREL rel x]
 
 transREL :: ParseTree Cat Cat -> Term -> LF
-transREL (Branch (Cat _ "COMP" _ _ ) [rel,s]) = 
+transREL (Branch (Cat _ "MOD" _ _ ) [rel,s]) = 
   \ x -> (transS s)
-transREL (Branch (Cat _ "COMP" _ _ ) [s])     = 
+transREL (Branch (Cat _ "MOD" _ _ ) [s])     = 
   \ x -> (transS s)
 
 transPP :: ParseTree Cat Cat -> (Term -> LF) -> LF
