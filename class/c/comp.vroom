@@ -7,7 +7,7 @@
 #
 ---- config
 # Basic config options.
-title: Vroom!
+title: Comprehension questions!
 indent: 5
 height: 18
 width: 40
@@ -29,6 +29,8 @@ by Dr Bean
 == Battleships
 
 http://en.wikipedia.org/wiki/Battleship_(game)
+http://www.youtube.com/watch?v=LUnv1aV4caw&NR=1
+http://www.youtube.com/watch?v=fDmNVDznoIQ
 
 The idea
 
@@ -48,158 +50,281 @@ Think of more WH words you can use to ask
 Dr Bean questions.
 
 ----
-Dr Bean: My name is X.
+What was the question?
 
-Yes/No Question:
+YN Question
+
+Q: ?????
+A: Yes
+
+What was the question?
++ Is your name X?
++ Are you from X?
++ Do you like to do X in your spare time?
+
++ WH Question
+
+Q: ?????
+A: X
+
+What was the question?
++ What is your name?
++ Where are you from?
++ What do you like to do in your spare time?
+
+----
+We think Dr Bean's name is X. Let's ask him about his name.
+
+As a Yes/No Question:
+
+The answer is 'Yes'.
+The question was:
 + Is your name X?
 
-WH Question:
++ As a WH Question:
+
+The answer is 'X.'
+The question was:
 + What is your name?
 
 ----
-Dr Bean: I am from X.
+We think Dr Bean is from X. Let's ask him where he's from.
 
-Yes/No Question:
+As a Yes/No Question:
+
+The answer is 'Yes'.
+The question was:
 + Are you from X?
 
-WH Question:
++ As a WH Question:
+
+The answer is 'X.'
+The question was:
 + Where are you from?
 
 ----
-Dr Bean: I come from X.
+We think Dr Bean comes from X. Let's ask him where he comes from.
 
-Yes/No Question:
+As a Yes/No Question:
+
+The answer is 'Yes'.
+The question was:
 + Do you come from X?
 
-WH Question:
++ As a WH Question:
+
+The answer is 'X.'
+The question was:
 + Where do you come from?
 
 ----
-Dr Bean: I have been X years/months/weeks/days in Taiwan.
+We think Dr Bean has been X years/months/weeks/days in Taiwan. Let's ask him.
 
-Yes/No Question:
+As a Yes/No Question:
+
+The answer is 'Yes'.
+The question was:
 + Have you been X years/months/weeks/days in Taiwan?
 
-WH Question:
++ As a WH Question:
+
+The answer is 'X.'
+The question was:
 + How long/how many years have you been in Taiwan?
 
 ----
-Dr Bean: I live in X in Miaoli.
+We think Dr Bean lives in X in Miaoli. Let's ask him.
 
-Yes/No Question:
+As a Yes/No Question:
+
+The answer is 'Yes'.
+The question was:
 + Do you live in X in Miaoli?
 
-WH Question:
++ As a WH Question:
+
+The answer is 'X.'
+The question was:
 + Where (in Miaoli) do you live?
 
-I come from Y in X.
-
 ----
-Dr Bean: My family is in X.
+We think Dr Bean's family is in X. Let's ask him.
 
-Yes/No Question:
+As a Yes/No Question:
+
+The answer is 'Yes'.
+The question was:
 + Is your family in X?
 
++ As a WH Question:
+
+The answer is 'X.'
 WH Question:
 + Where is your family?
 
 ----
-Dr Bean: I go back to Y every X years.
+We think Dr Bean goes back to Y every X years. Let's ask him.
 
+As a Yes/No Question:
+
+The answer is 'Yes'.
 Yes/No Question:
 + Do you go back to Y every X years?
 
-WH Question:
++ As a WH Question:
+
+The answer is 'X.'
+The question was:
 + How often do you go back to Y?
 
 ----
-Dr Bean: I came to Taiwan in 200X.
+We think Dr Bean came to Taiwan in 200X. Let's ask him.
 
-Yes/No Question:
+As a Yes/No Question:
+
+The answer is 'Yes'.
+The question was:
 + Did you come to Taiwan in 200X?
 
-WH Question:
++ As a WH Question:
+
+The answer is 'X.'
+The question was:
 + When did you come to Taiwan?
 
 ----
-Dr Bean: I came to Taiwan to do X.
+We think Dr Bean came to Taiwan to do X. Let's ask him.
 
-Yes/No Question:
+As a Yes/No Question:
+
+The answer is 'Yes'.
+The question was:
 + Did you come to Taiwan to do X?
 
-WH Question:
++ As a WH Question:
+
+The answer is 'X.'
+The question was:
 + Why did you come to Taiwan?
 
 ----
-Dr Bean: I am X cm tall.
+We think Dr Bean is X cm tall. Let's ask him.
 
-Yes/No Question:
+As a Yes/No Question:
+
+The answer is 'Yes'.
+The question was:
 + Are you X cm tall?
 
-WH Question:
++ As a WH Question:
+
+The answer is 'X.'
+The question was:
 + How tall are you?
 
 ----
-Dr Bean: I am X years old.
+We think Dr Bean is X years old. Let's ask him.
 
-Yes/No Question:
+As a Yes/No Question:
+
+The answer is 'Yes'.
+The question was:
 + Are you X years old?
 
-WH Question:
++ As a WH Question:
+
+The answer is 'X.'
+The question was:
 + How old are you?
 
 ----
-Dr Bean: I admire X.
+We think Dr Bean admires X. Let's ask him.
 
-Yes/No Question:
+As a Yes/No Question:
+
+The answer is 'Yes'.
+The question was:
 + Do you admire X?
 
-WH Question:
++ As a WH Question:
+
+The answer is 'X.'
+The question was:
 + Who do you admire?
 
 ----
-Dr Bean: X admires me.
+We think X admires Dr Bean. Let's ask him.
 
-Yes/No Question:
+As a Yes/No Question:
+
+The answer is 'Yes'.
+The question was:
 + Does X admire you?
 
-WH Question:
++ As a WH Question:
+
+The answer is 'X.'
+The question was:
 + Who admires you?
 
 ----
-Dr Bean: I might/will leave Taiwan in 200X.
+We think Dr Bean might/will leave Taiwan in 200X. Let's ask him.
 
-Yes/No Question:
+As a Yes/No Question:
+
+The answer is 'Yes'.
+The question was:
 + Might/will you leave Taiwan in 200X?
 
-WH Question:
++ As a WH Question:
+
+The answer is 'X.'
+The question was:
 + When will you leave Taiwan?
 
 ----
-Dr Bean: I plan to stay in Taiwan for X years/until 200X.
+We think Dr Bean plans to stay in Taiwan for X years/until 200X. Let's ask him.
 
-Yes/No Question:
+As a Yes/No Question:
+
+The answer is 'Yes'.
+The question was:
 + Do you plan to stay in Taiwan for X years/until 200X?
 
-WH Question:
++ As a WH Question:
+
+The answer is 'X.'
+The question was:
 + How long do you plan to stay in Taiwan?
 
 ----
-Dr Bean: I can speak X languages.
+We think Dr Bean can speak X languages. Let's ask him.
 
-Yes/No Question:
+As a Yes/No Question:
+
+The answer is 'Yes'.
+The question was:
 + Can you speak X languages?
 
-WH Question:
++ As a WH Question:
+
+The answer is 'X.'
+The question was:
 + How many languages can you speak?
 
 ----
-Dr Bean: I am called X.
+We think Dr Bean is called X. Let's ask him.
 
-Yes/No Question:
+As a Yes/No Question:
+
+The answer is 'Yes'.
+The question was:
 + Are you called X?
 
-WH Question:
++ As a WH Question:
+
+The answer is 'X.'
+The question was:
 + What are you called?
 
 ----
@@ -258,5 +383,17 @@ Answer: 0 if the opponent does not know the answer, and
 		so cannot tell the questioner.
 	1 if the opponent DOES know the answer, and
 		so CAN tell the questioner.
+
+----
+== Procedure at each turn
+
+1. White asks question
+2. Black answers question
+3. Black asks question
+4. White answers question
+5. White writes down his/her question
+6. Black writes down his/her question
+7. Scorers decide 0,1 or 2 for each question
+
 ----
 == The End
