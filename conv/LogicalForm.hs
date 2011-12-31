@@ -16,9 +16,10 @@ lexicon :: String -> [Cat]
 lexicon lexeme = maybe unknownWord id $
 	find (\x -> phon (head x) == lexeme ) $
 	proper_names ++ object_names ++ story_verbs ++ story_aux ++ story_adjs ++
-	class_names ++ prons ++ reflexives ++ interrogatives ++
-	aux ++ intransitives ++ transitives ++ ditransitives ++
+	class_names ++ interrogatives ++
+	cops ++ aux ++ intransitives ++ transitives ++ ditransitives ++
 	possessives ++ preps ++ determiners ++ conjuncts
+	-- ++ prons ++ reflexives
 	where unknownWord = [Cat "" "" [] []]
 
 parses :: String -> [ParseTree Cat Cat]
