@@ -409,13 +409,13 @@ dickson:
         \item [Elizabeth Fox] From family of electricians. Father opposed 1980's entry, seeing how women treated. 24 years in trade, but many bad experiences.
         \end{description}
       quiz:
-        - question: All women may not have the strength for some jobs the electrician has to do.
+        - question: Question 1: Dickson. All women may not have the strength for some jobs the electrician has to do.
           answer: True
-        - question: Some women may stop working as electricians because of sexual harassment.
+        - question: Question 2: Dickson. Some women may stop working as electricians because of sexual harassment.
           answer: True
-        - question: After 4 years in college, electricians can get a job.
+        - question: Question 3: Dickson. After 4 years in college, electricians can get a job.
           answer: False
-        - question: The number of female electricians in the U.S. has increased a lot since the 1960's.
+        - question: Question 4: Dickson. The number of female electricians in the U.S. has increased a lot since the 1960's.
           answer: False
 abreu:
   jigsaw:
@@ -447,13 +447,13 @@ abreu:
 
         \end{description}
       quiz:
-        - question: A receptionist is probably not the first person at a company that a client or customer will come into contact with.
+        - question: Question 5: Abreu. A receptionist is probably not the first person at a company that a client or customer will come into contact with.
           answer: False
-        - question: Claritza's computer knowledge may have been one of the reasons she got the receptionist job.
+        - question: Question 6: Abreu. Claritza's computer knowledge may have been one of the reasons she got the receptionist job.
           answer: True
-        - question: The actual work of receptionists does not depend on the type of company they work for.
+        - question: Question 7: Abreu. The actual work of receptionists does not depend on the type of company they work for.
           answer: False
-        - question: Claritza had more qualifications than usually expected from a receptionist.
+        - question: Question 8: Abreu. Claritza had more qualifications than usually expected from a receptionist.
           answer: True
 smallwood:
   jigsaw:
@@ -486,13 +486,13 @@ smallwood:
         \item [Law] Firing victims who complain, or a consistently hostile environment are illegal. In 2007, 12,510 complaints were made. Few made it to courts.
         \end{description}
       quiz:
-        - question: Married women who are working may be worried about divorce.
+        - question: Question 9. Smallwood. Married women who are working may be worried about divorce.
           answer: True
-        - question: Sexual harassment is any unwelcome act directed at a woman.
+        - question: Question 10. Smallwood. Sexual harassment is any unwelcome act directed at a woman.
           answer: False
-        - question: It may be easier being a working mother in Taiwan than the U.S.
+        - question: Question 11. Smallwood. It may be easier being a working mother in Taiwan than the U.S.
           answer: True
-        - question: Harassers will only sexually harass victims, not otherwise badly treating them.
+        - question: Question 12. Smallwood. Harassers will only sexually harass victims, not otherwise badly treating them.
           answer: False
 jackson:
   jigsaw:
@@ -523,13 +523,13 @@ jackson:
         \item [Gov't survey] Women 45\% of the homeless in Denver. 31\% living with family or friends, 24\% in transitional housing, 17\% in emergency shelter, 7\% in own home, \& 5\% in car/on street.
         \end{description}
       quiz:
-        - question: The unemployment rate is higher for older women than for any other group.
+        - question: Question 13. Jackson. The unemployment rate is higher for older women than for any other group.
           answer: False
-        - question: Homeless men cannot get services at The Gathering Place.
+        - question: Question 14. Jackson. Homeless men cannot get services at The Gathering Place.
           answer: True
-        - question: Older women who lose their jobs and have no safety net are more likely to end up at The Gathering Place than younger women.
+        - question: Question 15. Jackson. Older women who lose their jobs and have no safety net are more likely to end up at The Gathering Place than younger women.
           answer: True
-        - question: 45\% of the women in Denver are homeless.
+        - question: Question 16. Jackson. 45 percent of the women in Denver are homeless.
           answer: False
 
 butler:
