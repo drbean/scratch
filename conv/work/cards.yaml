@@ -578,11 +578,11 @@ smallwood:
           answer: False
         - question: Payne taught Tia.
           answer: True
-        - question: Tia's teacher was friendly and welcoming.
+        - question: Tia's teacher was friendly.
           answer: False
-        - question: Tia welcomed Payne \& Batchelor's attention.
+        - question: Tia welcomed Batchelor's attention.
           answer: False
-        - question: Tia regrets not doing a good job as a mom.
+        - question: Tia regrets not being a perfect mom.
           answer: True
         - question: Christine is also a career woman.
           answer: True
