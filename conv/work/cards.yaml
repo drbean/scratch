@@ -654,18 +654,18 @@ jackson:
            - Jennifer
            - Queen
           answer: Queen
-        - question: Ann and Queen were both older and homeless.
+        - question: Ann, Queen were both older, homeless.
           answer: True
-        - question: Queen's daughter was also homeless.
+        - question: Queen had no money at all.
           answer: False
         - question: Debra's job is to find people housing.
           answer: True
-        - question: Debra thought Queen should live with Jennifer.
+        - question: Debra told Queen to live with Jennifer.
           answer: False
-        - question: Jennifer doesn't want Queen to live with her.
-          answer: False
-        - question: Queen doesn't want to live with Jennifer.
+        - question: Jennifer wants Queen to move in.
           answer: True
+        - question: Queen wants to live with Jennifer.
+          answer: False
   compcomp:
     0:
       identifier: jackson 0
