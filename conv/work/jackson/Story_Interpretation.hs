@@ -4,7 +4,7 @@ import Model
 
 story_objects = [
 	( "rent",	\[x]	-> rent x	),
-	( "apartment",	\[x]	-> apartment x	),
+	( "home",	\[x]	-> home x	),
 	( "unemployment",	\[x]	-> unemployment x	),
 	( "administrative_assistant",	\[x]	-> admin x	),
 	( "officewear",	\[x]	-> officewear x	),
@@ -45,6 +45,8 @@ story_inflections = [
  ( "interviewed", "interview" ),
  ( "interviewees", "interviewee" ),
  ( "taught", "teach" ),
+ ( "helped", "help" ),
+ ( "lost", "lose" ),
  ( "volunteered", "volunteer" ),
  ( "subjects", "subject" ),
  ( "offended", "offend" ),
@@ -57,6 +59,7 @@ story_relations = [
 	( "white",	\[x]	-> white x	),
 	( "beautiful",	\[x]	-> beautiful x	),
 	( "homeless",	\[x]	-> homeless x	),
+	( "older",	\[x]	-> older x	),
 
 	( "dress",	\[x]	-> officewear x	),
 
@@ -64,6 +67,7 @@ story_relations = [
 
 	( "look",	\[x,y] -> look_at y x	),
 	( "lose",	\[x,y]	-> lose y x	),
+	( "help",	\[x,y]	-> help y x	),
 
 	( "volunteer",	\[x,y]	-> volunteer_at y x	),
 
