@@ -34,7 +34,7 @@ characters = [
 
 white	= pred1 [A,T,D]
 bill	= pred1 [B]
-apartment	= pred1 [E]
+home	= pred1 [E]
 smell	= pred1 [F]
 gift	= pred1 [G]
 shelter	= pred1 [H]
@@ -55,6 +55,7 @@ spirits	= pred1 [W]
 card	= pred1 [X]
 story	= pred1 [Y]
 
+older	= homeless
 admin	= job
 donator	= man
 lotion	= gift
@@ -134,7 +135,7 @@ isSiblings	= \a b -> (any . flip elem) (parents a) (parents b)
 brother	= \x -> any ( \i -> isSiblings x i ) entities
 
 clothing	= [(Q,R)]
-losses	= [(Q,J),(Q,A)]
+losses	= [(Q,J),(Q,E),(A,J),(A,E)]
 looking	= []
 wore	= pred2 clothing
 have	= pred2 $ possessions ++ marriages ++ parenting ++ supervision
@@ -152,6 +153,7 @@ interview	= pred2 $ map (\x -> (agent x, patient x) ) recruitment
 -- greet	= interview
 look_at	= pred2 $ looking
 lose	= pred2 $ losses
+help	= pred2 $ supervision
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
