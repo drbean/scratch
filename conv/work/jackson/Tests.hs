@@ -37,6 +37,7 @@ test_possessives = [
 	"Did the daughter of Queen talk to Debra?"
 	]
 haves = [
+	-- "The lotion had a beautiful smell",
 	"Did Queen have Jennifer's father?",
 	"Did Queen have a husband?",
 	"Did Queen have a mother?",
