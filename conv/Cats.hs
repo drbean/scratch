@@ -96,6 +96,11 @@ aux = [
 	[Cat "didn't" "AUX" [] []]
 	]
 
+cops = [
+	[Cat "was"    "COP" [Sg] []],
+	[Cat "were"   "COP" [Pl] []]
+	]
+
 intransitives = [
 	[Cat "separated"    "VP" [Tense] []],
 	[Cat "separate"     "VP" [Infl]  []],
@@ -164,12 +169,6 @@ transitives = [
 	[Cat "go"	"VP" [Infl]  [Cat "_" "PP" [To] []]],
 	[Cat "came"	"VP" [Tense] [Cat "_" "PP" [From] []]],
 	[Cat "come"	"VP" [Infl]  [Cat "_" "PP" [From] []]],
-	[Cat "immigrated"	"VP" [Tense] [],
-		Cat "immigrated"	"VP" [Tense] [Cat "_" "PP" [To] []],
-		Cat "immigrated" "VP" [Tense] [Cat "_" "PP" [From] []]],
-	[Cat "immigrate"	"VP" [Infl] [],
-		Cat "immigrate"	"VP" [Infl] [Cat "_" "PP" [To] []],
-		Cat "immigrate" "VP" [Infl] [Cat "_" "PP" [From] []]],
 	[Cat "raised" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "raise" "VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
 	]
@@ -244,7 +243,7 @@ preps = [
 	[Cat "from" "PREP" [From] []],
 	[Cat "in"   "PREP" [In]   []],
 	[Cat "on"   "PREP" [On]   []],
-	[Cat "to"   "PREP" [To]   []],
+	-- [Cat "to"   "PREP" [To]   []],
 	[Cat "through" "PREP" [Through] []],
 	[Cat "with" "PREP" [With] []]
 	]
