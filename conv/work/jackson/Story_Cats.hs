@@ -43,7 +43,8 @@ object_names = [
 	[Cat "sign"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "shelter"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "gift"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "lotion"	"NP" [Thrd,Neutr,Sg] []],
+	[Cat "lotion"	"NP" [Thrd,Neutr,Sg] [],
+		Cat "lotion"	"CN" [Thrd,Neutr,Pl] []],
 	[Cat "smell"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "spirits"	"CN" [Thrd,Neutr,Pl] []],
 
@@ -57,6 +58,7 @@ object_names = [
 	[Cat "interviewees"	"CN" [Thrd,MascOrFem,Pl] []],
 	[Cat "visitor"	"CN" [Thrd,MascOrFem,Sg] []],
 	[Cat "visitors"	"CN" [Thrd,MascOrFem,Pl] []],
+	[Cat "home"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "story"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "job"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "jobs"	"CN" [Thrd,Neutr,Pl] []],
@@ -68,6 +70,10 @@ object_names = [
 story_verbs = [
 	[Cat "cried"	"VP" [Tense] []],
 	[Cat "cry"	"VP" [Infl] []],
+	[Cat "lost"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "lose"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "helped"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "help"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "volunteered"	"VP" [Tense] [Cat "_" "PP" [At] []]],
 	[Cat "volunteer"	"VP" [Infl] [Cat "_" "PP" [At] []]],
 	[Cat "looked"	"VP" [Tense] [Cat "_" "PP" [At] []]],
@@ -97,6 +103,7 @@ story_aux = [
 	]
 
 story_adjs = [
+	[Cat "older"	"ADJ" [] []],
 	[Cat "homeless"	"ADJ" [] []],
 	[Cat "beautiful"	"ADJ" [] []],
 	[Cat "black"	"ADJ" [] []],
