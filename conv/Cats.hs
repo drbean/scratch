@@ -243,7 +243,7 @@ preps = [
 	[Cat "from" "PREP" [From] []],
 	[Cat "in"   "PREP" [In]   []],
 	[Cat "on"   "PREP" [On]   []],
-	-- [Cat "to"   "PREP" [To]   []],
+	[Cat "to"   "PREP" [To]   []],
 	[Cat "through" "PREP" [Through] []],
 	[Cat "with" "PREP" [With] []]
 	]
