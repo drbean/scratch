@@ -17,6 +17,40 @@ test_text = [
 	\Queen's daughter asked a supervisor about the Dominican Republic."
 	]
 
+comp_test = [
+	"Queen was older.",
+	"Queen was homeless.",
+	"Queen was a mother.",
+	"Queen was Jennifer's mother.",
+	-- "Queen was a homeless woman.",
+	"Queen was a man.",
+	"Queen was a woman.",
+	"Queen was a visitor.",
+	"A man was a visitor.",
+	"A woman was a visitor.",
+	"The woman was a visitor.",
+	"A homeless woman was Queen.",
+	"The homeless woman was Queen.",
+	"Jennifer was the black woman's mother.",
+	"Jennifer was the black woman's daughter.",
+	"Jennifer was a black woman's daughter.",
+	"Jennifer was a homeless woman's daughter.",
+	"Jennifer was a homeless woman's supervisor.",
+	"Tanya was the homeless women's supervisor.",
+	"Debra was the homeless women's supervisor.",
+	"Debra was a homeless woman's supervisor.",
+	"Debra was the black woman's supervisor.",
+	"Debra was a black woman's supervisor.",
+	"Debra was Queen's supervisor.",
+	"Tanya was Queen's supervisor.",
+	"Tanya was Ann's supervisor.",
+	"Jennifer was Queen's daughter.",
+	"Jennifer was Debra's daughter.",
+	"Queen was Debra's daughter.",
+	"Queen was Debra's mother.",
+	"Queen was Jennifer's mother"
+	]
+
 test_possessives = [
 	"Jennifer's mother looked back.",
 	"Queen's supervisor talked to the daughter.",
@@ -351,6 +385,23 @@ wh_questions =[
 	"Which worker did a supervisor's daughter appreciate?",
 	"What did someone have?"
 	]
+
+comp_questions = [
+	"Who was homeless?",
+	"Who was older?",
+	"Who was a woman?",
+	"Who were women?",
+	"Who was the woman?",
+	"Who was Tanya's supervisor?",
+	"Who was Ann's supervisor?",
+	"Who was Anne's supervisor?",
+	"Who was Queen's supervisor?",
+	"Who was the homeless woman that had a daughter?",
+	"Who was Queen's daughter?",
+	"Who was Queen's supervisor?",
+	"Who was Queen's daughter?"
+	]
+
 
 relclauses = [
 	"A woman who taught Debra worked.",
