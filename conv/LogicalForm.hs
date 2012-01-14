@@ -218,6 +218,11 @@ transPP (Branch (Cat _   "PP" _ _) [prep,np]) = transNP np
 transVP :: ParseTree Cat Cat -> Term -> LF
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [])]) = 
         \ t -> ( Rel name [t] )
+transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ []),
+    Branch (Cat "_" "COMP" [] []) [comp]]) = case (comp) of
+    Leaf (Cat name "NP" _ _ ) -> \t -> (Rel name [t] )
+    Leaf (Cat qual "ADJ" _ _ ) -> \t -> (Rel qual [t] )
+    Branch (Cat _ "NP" _ _) _ -> transNP comp
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1]) = 
 	case (obj1) of 
 		(Branch (Cat _ "PP" _ _) _ ) ->
