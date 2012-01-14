@@ -224,7 +224,10 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ []),
     Leaf (Cat qual "ADJ" _ _ ) -> \t -> (Rel qual [t] )
     Branch (Cat _ "NP" _ _) [det,cn] -> case (cn) of
 	Leaf (Cat name "CN" _ _) -> \t -> Rel name [t]
-    Branch (Cat _ "NP" _ _) [np,pos,cn] -> case (cn) of
+    Branch (Cat _ "NP" _ _) [np,pos,cn] -> case (pos,cn) of
+	(Leaf (Cat _ "APOS" _ _),Leaf (Cat name "CN" _ _)) -> \x -> transNP np
+	    (\owner -> Conj [Rel name [x], Rel "had" [owner,x] ] )
+    Branch (Cat _ "NP" _ _) [np,adj,cn] -> case (cn) of
 	Leaf (Cat name "CN" _ _) -> \x -> transNP np
 	    (\owner -> Conj [Rel name [x], Rel "had" [owner,x] ] )
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1]) = 
