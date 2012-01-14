@@ -287,7 +287,7 @@ npADJR = \ us xs ->
 
 npposR :: SPARSER Cat Cat
 npposR = \us xs ->
-  [ (Branch (Cat "_" "NP" [] []) [pos,np,cn], (us++ss), ts) |
+  [ (Branch (Cat "_" "NP" [] []) [np,pos,cn], (us++ss), ts) |
       (np,vs,ys) <- leafPS "NP" [] xs,
       (pos,ws,zs) <- prsAPOS vs ys,
       (cn,ss,ts)  <- prsCN ws zs
@@ -295,7 +295,7 @@ npposR = \us xs ->
 
 cnposR :: SPARSER Cat Cat
 cnposR = \us xs ->
-  [ (Branch (Cat "_" "NP" [] []) [pos,Branch (Cat "_" "NP" fs []) [det,cn1],cn2], (us++qs), rs) |
+  [ (Branch (Cat "_" "NP" [] []) [Branch (Cat "_" "NP" fs []) [det,cn1],pos,cn2], (us++qs), rs) |
       (det,vs,ys) <- prsDET [] xs,
       (cn1,ws,zs)  <- prsCN vs ys,
       fs         <- combine (t2c det) (t2c cn1),
@@ -306,7 +306,7 @@ cnposR = \us xs ->
 
 adjcnposR :: SPARSER Cat Cat
 adjcnposR = \us xs ->
-  [ (Branch (Cat "_" "NP" [] []) [pos,Branch (Cat "_" "NP" fs []) [det,adj,cn1],cn2], (us++os), ps) |
+  [ (Branch (Cat "_" "NP" [] []) [Branch (Cat "_" "NP" fs []) [det,adj,cn1],pos,cn2], (us++os), ps) |
       (det,vs,ys) <- prsDET [] xs,
       (adj,ws,zs)  <- prsADJ vs ys,
       (cn1,ss,ts)  <- prsCN ws zs,
