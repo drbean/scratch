@@ -215,9 +215,6 @@ transPP :: ParseTree Cat Cat -> (Term -> LF) -> LF
 transPP (Leaf   (Cat "#" "PP" _ _)) = \ p -> p (Var 0)
 transPP (Branch (Cat _   "PP" _ _) [prep,np]) = transNP np
 
-isAdjective (Leaf (Cat qual "ADJ" _ _)) = True
-isAdjective _                           = False
-
 transVP :: ParseTree Cat Cat -> Term -> LF
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [])]) = 
         \ t -> ( Rel name [t] )
@@ -227,11 +224,11 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ []),
     Leaf (Cat qual "ADJ" _ _ ) -> \t -> (Rel qual [t] )
     Branch (Cat _ "NP" _ _) [det,cn] -> case (cn) of
 	Leaf (Cat name "CN" _ _) -> \t -> Rel name [t]
-    Branch (Cat _ "NP" _ _) [det,adj,cn] | isAdjective adj -> case (adj) of
-	Leaf (Cat qual "ADJ" _ _) -> \subj -> Conj [ transCN cn subj, Rel qual [subj] ]
     Branch (Cat _ "NP" _ _) [np,pos,cn] -> case (pos,cn) of
 	(Leaf (Cat _ "APOS" _ _),Leaf (Cat name "CN" _ _)) -> \x -> transNP np
 	    (\owner -> Conj [Rel name [x], Rel "had" [owner,x] ] )
+    Branch (Cat _ "NP" _ _) [det,adj,cn] -> case (adj) of
+	Leaf (Cat qual "ADJ" _ _) -> \subj -> Conj [ transCN cn subj, Rel qual [subj] ]
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1]) = 
 	case (obj1) of 
 		(Branch (Cat _ "PP" _ _) _ ) ->
