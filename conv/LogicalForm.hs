@@ -133,7 +133,7 @@ transNP (Leaf (Cat name "NP" _ _))
     | name `elem` namelist = \ p -> p (Const (ided name))
     | otherwise = \p -> Exists ( \v -> Conj [ p v, Rel name [v] ] )
 transNP (Branch (Cat _ "NP" _ _) [det,cn]) = (transDET det) (transCN cn) 
-transNP (Branch (Cat _ "NP" _ _) [Leaf (Cat "'s" "APOS" _ _),np,cn]) =
+transNP (Branch (Cat _ "NP" _ _) [np,Leaf (Cat "'s" "APOS" _ _),cn]) =
     \p -> Exists (\thing -> Conj [ p thing, transCN cn thing, transNP np (\owner -> (Rel "had" [owner,thing]))])
 transNP (Branch (Cat _ "NP" _ _) [det,Leaf (Cat a "ADJ" _ _),cn]) = 
     (transDET det) (\n -> Conj [transCN cn n, Rel a [n]])
@@ -141,7 +141,7 @@ transNP (Branch (Cat _ "NP" _ _) [det,Leaf (Cat a "ADJ" _ _),cn]) =
 transDET :: ParseTree Cat Cat -> (Term -> LF)
                               -> (Term -> LF)
                               -> LF
-transDET (Branch (Cat _ "DET" _ _) [Leaf (Cat "'s" "APOS" _ _), np]) =
+transDET (Branch (Cat _ "DET" _ _) [np,Leaf (Cat "'s" "APOS" _ _) ]) =
     \ p q -> Exists (\v -> Conj [ Single p, p v, q v, transNP np
 	(\mod -> Rel "had" [mod, v] )])
 transDET (Leaf (Cat "the" "DET" _ _)) = 
