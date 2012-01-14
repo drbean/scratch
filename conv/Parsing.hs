@@ -340,9 +340,7 @@ prsVP = finVpR <||> auxVpR <||> copR
 copR :: SPARSER Cat Cat
 copR = \us xs -> [(Branch (Cat "_" "VP" (fs (t2c vp)) []) [vp,Branch (Cat "_" "COMP" [] []) [xp]],ws,zs) |
 	(vp,vs,ys) <- leafPS "COP" us xs,
-	subcatlist  <- [subcatList (t2c vp)],
-	(xp,ws,zs) <- prsCOMP vs ys,
-	match subcatlist [(t2c xp)]
+	(xp,ws,zs) <- prsCOMP vs ys
 		]
 
 prsCOMP :: SPARSER Cat Cat
