@@ -22,7 +22,7 @@ comp_test = [
 	"Queen was homeless.",
 	"Queen was a mother.",
 	"Queen was Jennifer's mother.",
-	-- "Queen was a homeless woman.",
+	"Queen was a homeless woman.",
 	"Queen was a man.",
 	"Queen was a woman.",
 	"Queen was a visitor.",
