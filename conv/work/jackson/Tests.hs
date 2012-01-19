@@ -29,8 +29,14 @@ comp_test = [
 	"A man was a visitor.",
 	"A woman was a visitor.",
 	"The woman was a visitor.",
+	"Queen was a black woman.",
+	"Queen was the black woman.",
+	"A black woman was Queen.",
 	"A homeless woman was Queen.",
 	"The homeless woman was Queen.",
+	"The black woman was Queen.",
+	-- "The older black woman was Queen.",
+	-- "Queen was the older black woman.",
 	"Jennifer was the black woman's mother.",
 	"Jennifer was the black woman's daughter.",
 	"Jennifer was a black woman's daughter.",
@@ -48,7 +54,15 @@ comp_test = [
 	"Jennifer was Debra's daughter.",
 	"Queen was Debra's daughter.",
 	"Queen was Debra's mother.",
-	"Queen was Jennifer's mother"
+	"Queen was Jennifer's mother.",
+	"Some women were homeless.",
+	"Tanya was a supervisor and Debra was a supervisor.",
+	"Tanya was a woman and Debra was a woman",
+	"Some supervisors were women.",
+	"Some women were supervisors.",
+	"All supervisors were women.",
+	"All women were supervisors.",
+	"All homeless women were older."
 	]
 
 test_possessives = [
