@@ -44,6 +44,7 @@ story_inflections = [
  ( "visited", "visit" ),
  ( "interviewed", "interview" ),
  ( "interviewees", "interviewee" ),
+ ( "supervisors", "supervisor" ),
  ( "taught", "teach" ),
  ( "helped", "help" ),
  ( "lost", "lose" ),
