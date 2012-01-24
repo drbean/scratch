@@ -202,17 +202,19 @@ channels = (
     chatnet = "freenode";
     autojoin = "Yes";
   },
-  { name = "catalyst"; chatnet = "perl"; autojoin = "Yes"; },
-  { name = "tt"; chatnet = "perl"; autojoin = "Yes"; },
-  { name = "dbix-class"; chatnet = "perl"; autojoin = "Yes"; },
-  { name = "moose"; chatnet = "perl"; autojoin = "Yes"; },
-  { name = "perl-qa"; chatnet = "perl"; autojoin = "Yes"; },
-  { name = "toolchain"; chatnet = "perl"; autojoin = "Yes"; },
-  { name = "yapc"; chatnet = "perl"; autojoin = "Yes"; },
-  { name = "distzilla"; chatnet = "perl"; autojoin = "Yes"; },
-  { name = "news"; chatnet = "perl"; autojoin = "Yes"; },
-  { name = "cpantesters"; chatnet = "perl"; autojoin = "Yes"; },
-  { name = "cpantesters-discuss"; chatnet = "perl"; autojoin = "Yes"; },
+#  { name = "#catalyst"; chatnet = "perl"; autojoin = "Yes"; },
+#  { name = "#tt"; chatnet = "perl"; autojoin = "Yes"; },
+#  { name = "#dbix-class"; chatnet = "perl"; autojoin = "Yes"; },
+#  { name = "#moose"; chatnet = "perl"; autojoin = "Yes"; },
+#  { name = "#perl-qa"; chatnet = "perl"; autojoin = "Yes"; },
+#  { name = "#toolchain"; chatnet = "perl"; autojoin = "Yes"; },
+#  { name = "#yapc"; chatnet = "perl"; autojoin = "Yes"; },
+#  { name = "#distzilla"; chatnet = "perl"; autojoin = "Yes"; },
+#  { name = "#news"; chatnet = "perl"; autojoin = "Yes"; },
+#  { name = "#cpantesters"; chatnet = "perl"; autojoin = "Yes"; },
+#  { name = "#cpantesters-discuss"; chatnet = "perl"; autojoin = "Yes"; },
+
+
   { name = "elixus"; chatnet = "seednet"; autojoin = "No"; },
   { name = "elixus"; chatnet = "freenode"; autojoin = "Yes"; },
   { name = "perl.tw"; chatnet = "freenode"; autojoin = "Yes"; },
@@ -424,18 +426,9 @@ windows = {
   #};
   17 = {
     items = (
-      {
-        type = "CHANNEL";
-        chat_type = "IRC";
-        name = "#znc";
-        tag = "efnet";
-      },
-      {
-        type = "CHANNEL";
-        chat_type = "IRC";
-        name = "#irssi";
-        tag = "freenode";
-      }
+      { type = "CHANNEL"; chat_type = "IRC"; name = "#znc"; tag = "efnet"; },
+      { type = "CHANNEL"; chat_type = "IRC"; name = "#irssi"; tag = "freenode"; }
+      { type = "CHANNEL"; chat_type = "IRC"; name = "#irssi"; tag = "efnet"; }
     );
   };
   16 = {
