@@ -1,0 +1,11 @@
+#!/usr/bin/perl
+
+use Net::Ping;
+use YAML qw/LoadFile DumpFile/;
+
+$_REPL->load_plugin('DumpHistory');
+
+my $p = Net::Ping->new;
+
+# $p->ping('127.0.0.1');
+# $p->ping("61.197.71.$_") for 0..5;
