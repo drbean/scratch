@@ -9,11 +9,11 @@ my $form  = 0;
 
 my $exam = 4;
 
-my $c = LoadFile "/home/drbean/$genre/$topic/cards.yaml";
+my $c = LoadFile "/home/drbean/class/$genre/$topic/cards.yaml";
 
 my @q;
 
 for my $story ( @stories ) {
-	push @q, map { $_->{question} } @{ $c->{$story}->{compcomp}->{0}->{quiz} };
+	push @q, map { $_->{question} } @{ $c->{$story}->{compcomp}->{0}->{quiz} }
 
-DumpFile "ex${exam}questions.yaml', \@q;
+DumpFile "ex${exam}questions.yaml", \@q;
