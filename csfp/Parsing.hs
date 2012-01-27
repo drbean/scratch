@@ -266,7 +266,7 @@ cond2R = \ us xs ->
          (s2,ws,zs)   <- prsS vs2 ys2 ]
 
 prsNP :: SPARSER Cat Cat 
-prsNP = leafPS "NP" <||> npR <||> npADJR <||> npposR <||> cnposR <||> adjcnposR <||> pop "NP" 
+prsNP = leafPS "NP" <||> npR <||> npADJR <||> npposR <||> cnposR <||> adjcnposR <||> depCR  <||> pop "NP" 
 
 npR :: SPARSER Cat Cat
 npR = \ us xs -> 
@@ -315,6 +315,18 @@ adjcnposR = \us xs ->
       (pos,qs,rs) <- prsAPOS ss ts,
       (cn2,os,ps)  <- prsCN qs rs
       ]
+
+depCR :: SPARSER Cat Cat
+depCR = \us xs ->
+  [ (Branch (Cat "_" "NP" (fs (t2c vp)) []) [ing,Branch (Cat "_" "VP" [] []) [vp,xps] ], (us++ss), ts) |
+      (vp,vs,ys)  <- leafPS "VP" us xs,
+      (ing,ws,zs)  <- prsGER vs ys,
+      verb	<- [t2c vp],
+      (xps,ss,ts)  <- vpR ws (verb:zs)
+      ]
+
+prsGER :: SPARSER Cat Cat
+prsGER = leafPS "GER"
 
 prsAPOS :: SPARSER Cat Cat
 prsAPOS = leafPS "APOS"
