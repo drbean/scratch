@@ -7,38 +7,22 @@ import Model
 
 objects, relations :: [( String, [Entity] -> Bool)]
 objects = [
-	( "man",	\ [x] -> isMan x	),
-	( "boy",	\ [x] -> boy x	),
-	( "woman",	\ [x] -> isWoman x	),
-	( "girl",	\ [x] -> isGirl x	),
+	( "man",	\ [x] -> male x	),
+	( "woman",	\ [x] -> female x	),
 	( "person",	\ [x] -> people x	),
 	( "thing",	\ [x] -> things x	),
-	( "parent",	\ [x] -> isParent x	),
-	( "mother",	\ [x] -> isMother x	),
-	( "father",	\ [x] -> father x	),
-	( "daughter",	\ [x] -> daughter x	),
-	( "son",	\ [x] -> son x	),
-	( "brother",	\ [x] -> brother x	)
+	( "supervisor",	\ [x] -> isBoss x	),
+	( "subordinate",	\ [x] -> isWorker x	)
  ]
 
 inflections :: [(String, String)]
 inflections = [
  ( "men",	"man" ),
- ( "boys",	"boy" ),
  ( "women",	"woman" ),
- ( "girls",	"girl" ),
  ( "persons",	"person" ),
  ( "things",	"thing" ),
- ( "parents",	"parent" ),
- ( "fathers",	"father" ),
- ( "mothers",	"mother" ),
- ( "daughters",	"daughter" ),
- ( "sons",	"son" ),
- ( "brothers",	"brother" ),
- ( "sisters",	"sister" ),
- ( "raise",	"raised" ),
- ( "marry",	"married" ),
- ( "got_married",	"get_married" ),
+ ( "bosses",	"boss" ),
+ ( "workers",	"worker" ),
  ( "appreciate",	"appreciated" ),
  ( "disappoint",	"disappointed" ),
  ( "worked",	"work" ),
@@ -64,17 +48,10 @@ inflections = [
  ]
 
 relations = [
- ( "raised", \[x,y] -> parented y x ),
- ( "married",	\args -> case args of
- 	[x,y] -> married y x
- 	[x,y,z] -> marry_in z y x ),
- ( "get_married", \args -> case args of
- 	[x] -> isMarried x
- 	[x,y] -> wedded_in y x ),
  
  ( "appreciated", \[x,y] -> appreciate y x ),
  ( "work", \args -> case args of
- 	[x] -> worker x || job x
+ 	[x] -> worker x
  	[x,y] -> work_where y x || work_as y x ),
  ( "had", \[x,y] -> have y x ),
  ( "knew", \[x,y] -> know y x ),
