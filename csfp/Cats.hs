@@ -101,6 +101,10 @@ cops = [
 	[Cat "were"   "COP" [Pl] []]
 	]
 
+gerunds = [
+	[Cat "ing"    "GER" [] []]
+	]
+
 intransitives = [
 	[Cat "separated"    "VP" [Tense] []],
 	[Cat "separate"     "VP" [Infl]  []],
