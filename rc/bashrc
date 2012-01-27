@@ -18,7 +18,7 @@ alias hpaste="cd ~/hpaste; screen -dR hpaste; cd -"
 
 alias vim="cd ~/vim; screen -dR vim; cd -"
 
-alias csfp="cd ~/csfp; screen -dR csfp; cd -"
+alias csfp="cd ~/class/csfp; screen -dR csfp; cd -"
 
 alias pagestranscripts="cd ~/class/pagestranscripts; screen -dR pagestranscripts; cd -"
 alias soundfiles="cd ~/soundfiles; screen -dR soundfiles; cd -"
