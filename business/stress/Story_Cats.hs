@@ -7,11 +7,12 @@ type WordConverted = ([String],String)
 multipart_names :: [WordConverted]
 
 multipart_names = [
-	(["the","state","of","colorado"],	"the_state_of_colorado"),
-	(["the","gathering","place"],	"the_gathering_place"),
-	(["administrative","assistant"],	"administrative_assistant"),
-	(["ten","dollar","bill"],	"ten_dollar_bill"),
-	(["birthday","card"],	"birthday_card")
+	(["office","worker"],	"office_worker"),
+	(["European","Campers"],	"European_Campers"),
+	(["Dr","Bean"],	"Dr_Bean"),
+	(["production","manager"],	"production_manager"),
+	(["sales","manager"],	"sales_manager"),
+	(["Slow","Living"],	"Slow_Living")
 	]
 
 proper_names, object_names, story_verbs :: Lexset
@@ -42,42 +43,24 @@ proper_names = [
 
 object_names = [
 
-	[Cat "money"	"NP" [Thrd,Neutr,Sg] [],
-		Cat "money"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "dress"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "dresses"	"CN" [Thrd,Neutr,Pl] []],
+	[Cat "control"	"NP" [Thrd,Neutr,Sg] [],
+		Cat "control"	"CN" [Thrd,Neutr,Sg] []],
 
-	[Cat "rent"	"CN" [Thrd,Neutr,Sg] [],
-		Cat "rent"	"NP" [Thrd,Neutr,Sg] []],
-	[Cat "apartment"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "company"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "unemployment"	"NP" [Thrd,Neutr,Sg] []],
-	[Cat "ten_dollar_bill"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "birthday_card"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "sign"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "shelter"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "gift"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "lotion"	"NP" [Thrd,Neutr,Sg] [],
-		Cat "lotion"	"CN" [Thrd,Neutr,Pl] []],
-	[Cat "smell"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "spirits"	"CN" [Thrd,Neutr,Pl] []],
 
-
-
-	[Cat "administrative_assistant"	"NP" [Thrd,MascOrFem,Sg] []],
-	[Cat "donator"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "supervisor"	"CN" [Thrd,Fem,Sg] []],
-	[Cat "supervisors"	"CN" [Thrd,Fem,Pl] []],
-	[Cat "interviewee"	"CN" [Thrd,MascOrFem,Sg] []],
-	[Cat "interviewees"	"CN" [Thrd,MascOrFem,Pl] []],
-	[Cat "visitor"	"CN" [Thrd,MascOrFem,Sg] []],
-	[Cat "visitors"	"CN" [Thrd,MascOrFem,Pl] []],
-	[Cat "home"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "story"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "supervisor"	"CN" [Thrd,MascOrFem,Sg] []],
+	[Cat "supervisors"	"CN" [Thrd,MascOrFem,Pl] []],
+	[Cat "boss"	"CN" [Thrd,MascOrFem,Sg] []],
+	[Cat "bosses"	"CN" [Thrd,MascOrFem,Pl] []],
+	[Cat "subordinate"	"CN" [Thrd,MascOrFem,Sg] []],
+	[Cat "subordinates"	"CN" [Thrd,MascOrFem,Pl] []],
+	[Cat "employee"	"CN" [Thrd,MascOrFem,Sg] []],
+	[Cat "employees"	"CN" [Thrd,MascOrFem,Pl] []],
+	[Cat "manager"	"CN" [Thrd,MascOrFem,Sg] []],
+	[Cat "managers"	"CN" [Thrd,MascOrFem,Pl] []],
 	[Cat "job"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "jobs"	"CN" [Thrd,Neutr,Pl] []],
-	[Cat "name"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "names"	"CN" [Thrd,Neutr,Pl] []],
-	[Cat "upbringing" "CN" [Thrd,Neutr,Sg] []]
+	[Cat "jobs"	"CN" [Thrd,Neutr,Pl] []]
 	]
 
 story_verbs = [
@@ -116,11 +99,12 @@ story_aux = [
 	]
 
 story_adjs = [
-	[Cat "older"	"ADJ" [] []],
-	[Cat "homeless"	"ADJ" [] []],
-	[Cat "beautiful"	"ADJ" [] []],
-	[Cat "black"	"ADJ" [] []],
-	[Cat "white"	"ADJ" [] []]
+	[Cat "angry"	"ADJ" [] []],
+	[Cat "stressful"	"ADJ" [] []],
+	[Cat "brilliant"	"ADJ" [] []],
+	[Cat "large"	"ADJ" [] []],
+	[Cat "rude"	"ADJ" [] []],
+	[Cat "best"	"ADJ" [] []]
 	]
 
 
