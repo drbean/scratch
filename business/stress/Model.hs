@@ -28,13 +28,12 @@ characters = [
 	( "Ellen",	E ),
 	( "Dr_Bean",	T ),
 	( "Steve",	S ),
-	( "European_Campers",	undefined ),
+	( "European_Campers",	M ),
 	( "Carrefour",	F ),
 	( "Charles",	J ),
 	( "Jacques",	Q ),
 	( "Olivier",	V ),
 	( "Todd",	O ),
-	( "Carrefour",	F ),
 	( "Alan",	L ),
 	( "David",	I ),
 	( "Dot",	P ),
@@ -47,9 +46,8 @@ characters = [
 
 adventurer	= pred1 [S,E]
 teacher	= pred1 [T]
-psychologist	= pred [A,D,T]
+psychologist	= pred1 [A,D,T]
 doctor	= pred1 [D]
-student = pred1 [Unspec]
 office_worker	= pred1 [A,B,C,D]
 ceo	= pred1 [J]
 production_manager	= pred1 [Q]
@@ -60,12 +58,11 @@ customer	= pred1 [F]
 order	= pred1 [Unspec]
 goods	= pred1 [Unspec]
 company	= pred1 [F,Unspec]
-pressure	= pred1 [Unspec]
 
 angry	= pred1 [Q,V]
 brilliant	= pred1 [V]
 
-stressful	= \ x -> (conflict x || pressure x || uncertainty || not control x )
+-- stressful	= \ x -> (not $ support x || pressure x || uncertainty || not control x )
 
 large	= order
 rude	= brilliant
@@ -103,6 +100,9 @@ pred4 xs	= curry4 ( `elem` xs )
 --(parent,child)
 conflict	= [(Q,V),(Q,O),(O,V)]
 supervision	= [(J,Q),(J,O),(O,V)]
+isBoss	= pred1 $ map fst supervision
+isWorker	= pred1 $ map snd supervision
+
 control	= supervision
 uncertainty	= [(Unspec,Unspec)]
 support	= [(Unspec,Unspec)]
@@ -115,15 +115,12 @@ appreciation	= []
 supervisor	= pred1 $ map fst supervision
 boss	= supervisor
 subordinate	= pred1 $ map snd supervision
-worker = subordinate
+employee	= subordinate
 manager = boss
 
-clothing	= [(Q,R)]
-losses	= [(Q,J),(Q,E),(A,J),(A,E)]
 looking	= []
-wore	= pred2 clothing
-have	= pred2 $ possessions ++ marriages ++ supervision
-		++ ( map swap $ marriages ++ supervision )
+have	= pred2 $ possessions ++ supervision
+		++ ( map swap $ supervision )
 		++ ( map (\x->(recipient x, theme x) ) giving )
 		++ ( map (\x->(agent x,J) ) working )
 		++ ( map (\x->(agent x, patient x) ) recruitment )
@@ -136,7 +133,6 @@ appreciate	= pred2 appreciation
 interview	= pred2 $ map (\x -> (agent x, patient x) ) recruitment
 -- greet	= interview
 look_at	= pred2 $ looking
-lose	= pred2 $ losses
 help	= pred2 $ supervision
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
