@@ -25,7 +25,7 @@ proper_names = [
 	[Cat "A-ho"	"NP" [Thrd,Fem,Sg] []],
 	[Cat "Ellen" "NP" [Thrd,Fem,Sg] []],
 	[Cat "Dr_Bean" "NP" [Thrd,Masc,Sg] []],
-	[Cat "Steve" "NP" [Thrd,Masc,Sg] []],
+	[Cat "steve" "NP" [Thrd,Masc,Sg] []],
 	[Cat "European_Campers" "NP" [Thrd,Neutr,Sg] []],
 	[Cat "Carrefour" "NP" [Thrd,Neutr,Sg] []],
 	[Cat "Charles" "NP" [Thrd,Masc,Sg] []],
