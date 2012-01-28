@@ -3,76 +3,48 @@ module Story_Interpretation where
 import Model
 
 story_objects = [
-	( "rent",	\[x]	-> rent x	),
-	( "home",	\[x]	-> home x	),
-	( "unemployment",	\[x]	-> unemployment x	),
-	( "administrative_assistant",	\[x]	-> admin x	),
-	( "officewear",	\[x]	-> officewear x	),
-	( "donator",	\[x]	-> donator x	),
-	( "ten_dollar_bill",	\[x]	-> bill x	),
-	( "black",	\[x]	-> black x	),
-	( "white",	\[x]	-> white x	),
-	( "birthday_card",	\[x]	-> card x	),
-	( "sign",	\[x]	-> sign x	),
-	( "shelter",	\[x]	-> shelter x	),
-	( "gift",	\[x]	-> gift x	),
-	( "smell",	\[x]	-> smell x	),
-
-
-
-
-
+	( "adventurer",	\[x]	-> adventurer x	),
+	( "teacher",	\[x]	-> teacher x	),
+	( "psychologist",	\[x]	-> psychologist x	),
+	( "doctor",	\[x]	-> doctor x	),
+	( "office_worker",	\[x]	-> office_worker x	),
+	( "ceo",	\[x]	-> ceo x	),
+	( "production_manager",	\[x]	-> production_manager x	),
+	( "salesman",	\[x]	-> salesman x	),
+	( "sales_manager",	\[x]	-> sales_manager x	),
+	( "customer",	\[x]	-> customer x	),
 
 	( "supervisor",	\[x]	-> supervisor x	),
-	( "interviewee",	\[x] -> interviewee x	),
+	( "subordinate",	\[x] -> subordinate x	),
 
 
-	( "money",	\[x] -> money x	),
-	( "story",	\[x] -> story x	),
-	( "job",	\[x] -> job x	)
+	( "order",	\[x] -> order x	),
+	( "goods",	\[x] -> goods x	),
+	( "company",	\[x] -> company x	)
 	]
 
 story_inflections = [
- ( "fragrance", "smell" ),
- ( "lotion", "gift" ),
- ( "visitor", "customer" ),
- ( "visitors", "visitor" ),
- ( "names", "name" ),
- ( "cry", "cried" ),
- ( "looked", "look" ),
- ( "wear", "wore" ),
- ( "visited", "visit" ),
- ( "interviewed", "interview" ),
- ( "interviewees", "interviewee" ),
- ( "supervisors", "supervisor" ),
- ( "taught", "teach" ),
- ( "helped", "help" ),
- ( "lost", "lose" ),
- ( "volunteered", "volunteer" ),
- ( "subjects", "subject" ),
- ( "offended", "offend" ),
- ( "angered", "anger"),
- ( "greeted", "greet" )
+ ( "adventurers", "adventurer" ),
+ ( "teachers", "teacher" ),
+ ( "psychologists", "psychologist" ),
+ ( "doctors", "doctor" ),
+ ( "office_workers", "office_worker" ),
+ ( "ceos", "ceo" ),
+ ( "production_managers", "production_manager" ),
+ ( "salesmen", "salesman" ),
+ ( "sales_managers", "sales_manager" ),
+ ( "customers", "customer" ),
+
+ ( "orders", "order" ),
+ ( "goods", "good" ),
+ ( "companies", "company" )
+
  ]
 
 story_relations = [
-	( "black",	\[x]	-> black x	),
-	( "white",	\[x]	-> white x	),
-	( "beautiful",	\[x]	-> beautiful x	),
-	( "homeless",	\[x]	-> homeless x	),
-	( "older",	\[x]	-> older x	),
+	( "angry",	\[x]	-> angry x	),
+	( "brilliant",	\[x]	-> brilliant x	),
 
-	( "dress",	\[x]	-> officewear x	),
-
-	( "cried",	\[x]	-> cried x	),
-
-	( "look",	\[x,y] -> look_at y x	),
-	( "lose",	\[x,y]	-> lose y x	),
-	( "help",	\[x,y]	-> help y x	),
-
-	( "volunteer",	\[x,y]	-> volunteer_at y x	),
-
-	( "wore",	\[x,y]	-> wore y x	),
-	( "interview",	\[x,y]	-> interview y x	)
+	( "anger",	\[x,y]	-> anger y x	)
 	]
 
