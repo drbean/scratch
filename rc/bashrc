@@ -13,6 +13,7 @@ alias dic="cd ~/dic; screen -dR dic; cd -"
 alias beans="cd ~/class/beans; screen -dR beans; cd -"
 alias swiss="cd ~/swiss; screen -dR swiss; cd -"
 alias comp="cd ~/comp; screen -dR comp; cd -"
+alias tennis="cd ~/tennis; screen -dR tennis; cd -"
 alias bett="cd ~/bett; screen -dR bett; cd -"
 alias hpaste="cd ~/hpaste; screen -dR hpaste; cd -"
 
