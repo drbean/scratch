@@ -38,6 +38,24 @@ The idea
 each other's information by asking questions
 
 ----
+== Tennis
+
+http://en.wikipedia.org/wiki/Tennis
+
+Double fault
+http://www.youtube.com/watch?v=17mycqIS0h8
+
+The idea
+
++ 2 competitors respond to each other's questions
+and answers with their own questions and answers.
+
+The listeners decide who is the winner. They
+think: Who is the last person to speak? Who
+has most right answers? Who asks the best
+questions? Who speaks English the best?
+
+----
 == Asking questions
 
 Ask Dr Bean questions!!
@@ -73,22 +91,22 @@ What was the question?
 + What do you like to do in your spare time?
 
 ----
-We think Dr Bean's name is X. Let's ask him about his name.
+We think Dr Bean's name is 'Greg X.' Let's ask him about his name.
 
 As a Yes/No Question:
 
 The answer is 'Yes'.
 The question was:
-+ Is your name X?
++ Is your name Greg X?
 
 + As a WH Question:
 
-The answer is 'X.'
+The answer is 'Greg X.'
 The question was:
 + What is your name?
 
 ----
-We think Dr Bean is from X. Let's ask him where he's from.
+We think Dr Bean is from 'X'. Let's ask him where he's from.
 
 As a Yes/No Question:
 
@@ -118,28 +136,28 @@ The question was:
 + Where do you come from?
 
 ----
-We think Dr Bean has been X years/months/weeks/days in Taiwan. Let's ask him.
+We think Dr Bean has been n years/months/weeks/days in Taiwan. Let's ask him.
 
 As a Yes/No Question:
 
 The answer is 'Yes'.
 The question was:
-+ Have you been X years/months/weeks/days in Taiwan?
++ Have you been n years/months/weeks/days in Taiwan?
 
 + As a WH Question:
 
-The answer is 'X.'
+The answer is 'n.'
 The question was:
 + How long/how many years have you been in Taiwan?
 
 ----
-We think Dr Bean lives in X in Miaoli. Let's ask him.
+We think Dr Bean lives in '勝利里' in Miaoli. Let's ask him.
 
 As a Yes/No Question:
 
 The answer is 'Yes'.
 The question was:
-+ Do you live in X in Miaoli?
++ Do you live in '勝利里' in Miaoli?
 
 + As a WH Question:
 
@@ -178,13 +196,13 @@ The question was:
 + How often do you go back to Y?
 
 ----
-We think Dr Bean came to Taiwan in 200X. Let's ask him.
+We think Dr Bean came to Taiwan in 200n. Let's ask him.
 
 As a Yes/No Question:
 
 The answer is 'Yes'.
 The question was:
-+ Did you come to Taiwan in 200X?
++ Did you come to Taiwan in 200n?
 
 + As a WH Question:
 
@@ -208,47 +226,48 @@ The question was:
 + Why did you come to Taiwan?
 
 ----
-We think Dr Bean is X cm tall. Let's ask him.
+We think Dr Bean is n cm tall. Let's ask him.
 
 As a Yes/No Question:
 
 The answer is 'Yes'.
 The question was:
-+ Are you X cm tall?
++ Are you n cm tall?
 
 + As a WH Question:
 
-The answer is 'X.'
+The answer is 'n cm.'
 The question was:
 + How tall are you?
 
 ----
-We think Dr Bean is X years old. Let's ask him.
+We think Dr Bean is n years old. Let's ask him.
 
 As a Yes/No Question:
 
 The answer is 'Yes'.
 The question was:
-+ Are you X years old?
++ Are you n years old?
 
 + As a WH Question:
 
-The answer is 'X.'
+The answer is 'n.'
 The question was:
 + How old are you?
 
 ----
-We think Dr Bean admires X. Let's ask him.
+We think Dr Bean admires someone called 
+Andy Gibbons. Let's ask him.
 
 As a Yes/No Question:
 
 The answer is 'Yes'.
 The question was:
-+ Do you admire X?
++ Do you admire Andy Gibbons?
 
 + As a WH Question:
 
-The answer is 'X.'
+The answer is 'Andy Gibbons.'
 The question was:
 + Who do you admire?
 
@@ -268,28 +287,28 @@ The question was:
 + Who admires you?
 
 ----
-We think Dr Bean might/will leave Taiwan in 200X. Let's ask him.
+We think Dr Bean might/will leave Taiwan in 201n. Let's ask him.
 
 As a Yes/No Question:
 
 The answer is 'Yes'.
 The question was:
-+ Might/will you leave Taiwan in 200X?
++ Might/will you leave Taiwan in 201n?
 
 + As a WH Question:
 
-The answer is 'X.'
+The answer is '201n.'
 The question was:
 + When will you leave Taiwan?
 
 ----
-We think Dr Bean plans to stay in Taiwan for X years/until 200X. Let's ask him.
+We think Dr Bean plans to stay in Taiwan for n years/until 201n Let's ask him.
 
 As a Yes/No Question:
 
 The answer is 'Yes'.
 The question was:
-+ Do you plan to stay in Taiwan for X years/until 200X?
++ Do you plan to stay in Taiwan for n years/until 201n?
 
 + As a WH Question:
 
@@ -298,42 +317,58 @@ The question was:
 + How long do you plan to stay in Taiwan?
 
 ----
-We think Dr Bean can speak X languages. Let's ask him.
+We think Dr Bean can speak n languages. Let's ask him.
 
 As a Yes/No Question:
 
 The answer is 'Yes'.
 The question was:
-+ Can you speak X languages?
++ Can you speak n languages?
 
 + As a WH Question:
 
-The answer is 'X.'
+The answer is 'n.'
 The question was:
 + How many languages can you speak?
 
 ----
-We think Dr Bean is called X. Let's ask him.
+We think Dr Bean will spend the Chinese New Year in Japan. Let's ask him.
 
 As a Yes/No Question:
 
 The answer is 'Yes'.
 The question was:
-+ Are you called X?
++ Will you spend the Chinese New Year in Japan?
 
 + As a WH Question:
 
-The answer is 'X.'
+The answer is 'Japan.'
+The question was:
++ Where will you spend the Chinese New Year?
+
+----
+We think Dr Bean is called 高來圭. Let's ask him.
+
+As a Yes/No Question:
+
+The answer is 'Yes'.
+The question was:
++ Are you called 高來圭?
+
++ As a WH Question:
+
+The answer is '高來圭.'
 The question was:
 + What are you called?
 
 ----
 == 2 CompComp Question Styles
 
-Normal, "Teaching" Style:
+Normal, Tennis Style:
 In a normal quiz competition, the questioner knows the answers
 and tests the other person, who answers the question.
 The answerer gets the point if they are correct.
+The questioner gets the point if the answer isn't correct.
 
 Battleship Style:
 In Battleship style, the questioner doesn't have the answers.
@@ -394,6 +429,78 @@ Answer: 0 if the opponent does not know the answer, and
 5. White writes down his/her question
 6. Black writes down his/her question
 7. Scorers decide 0,1 or 2 for each question
+
+----
+== 3 Results
+
+As in tennis serves, there is a
+                  Server (Questioner) and a Receiver (Answerer)
+
+1. a Fault                      0            1
+2. an Unreturned serve          2            0
+3. a Rally                      2            1
+
+(There is also a Let, where the Server can try again.)
+
+----
+== Team Comp
+
+The Black team plays the Gray team, etc.
+
+But only one player (the Champion or Spokesperson)
+asks and answers questions.
+The other members of the team supply the Spokesperson
+with questions.
+
+----
+== Team Comp Procedure
+
+1. Each team member writes down questions
+2. Together choose the best questions
+3. Get together with other team
+4. Ask questions
+5. Challenge bad questions by discussing question
+	and/or calling Dr Bean.
+5. Decide (vote) on who did a better job
+	-- your champion or their champion.
+
+
+---- include business_comp.vroom
+
+----
+== Team Comp Round 1 (B&C) Dr Bean
+
+Gray B and Black C
+Blue C and Brown B
+Orange B and Green C
+
+White B and Pink C
+Purple C and Red B
+YellowYellow B and Yellow C
+
+----
+== Team Comp Round 2 (A&D) Penske-Wynn
+
+Black D and Blue A
+Brown A and Orange D
+Green A and Gray D
+
+Pink D and Purple A
+Red A and YellowYellow D(C)
+Yellow D(C) and White A
+
+----
+== Team Comp Round 3 Citrus
+
+Gray C and Black A
+Blue D and Brown C
+Orange A and Green D
+
+White C and Pink A
+Purple D and Red C
+YellowYellow A and Yellow B
+
+
 
 ----
 == The End
