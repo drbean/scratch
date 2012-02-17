@@ -18,7 +18,7 @@ my $members = $l->members;
 my %m = map { $_->{id} => $_ } @$members;
 my $grades = $g->grades;
 
-my $session = 2;
+my $session = 3;
 
 my $gs = LoadFile "classwork/$session/groups.yaml";
 my @colors = sort keys %$gs;
