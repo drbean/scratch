@@ -1,10 +1,10 @@
-use #perl
+#!perl
 
 use YAML qw/LoadFile DumpFile/;
 
-my $genre = "business";
-my $topic = "greatideas";
-my @stories = qw/cars citrus internet/;
+my $genre = "conversation";
+my $topic = "work";
+my @stories = qw/dickson abreu smallwood jackson/;
 my $form  = 0;
 
 my $exam = 4;
@@ -15,5 +15,6 @@ my @q;
 
 for my $story ( @stories ) {
 	push @q, map { $_->{question} } @{ $c->{$story}->{compcomp}->{0}->{quiz} }
+}
 
 DumpFile "ex${exam}questions.yaml", \@q;
