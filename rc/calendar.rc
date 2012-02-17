@@ -1,0 +1,10 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+use PostScript::Calendar;
+
+my $cal;
+$cal = PostScript::Calendar->new(2011, 11, condense => 1, title_size => 12, paper => 'B8', landscape => 1, day_names => [ qw/Sun Mon Tue Wed Thu Fri Sat/ ]);
+$cal->output('nov');
