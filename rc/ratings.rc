@@ -11,18 +11,23 @@ $_REPL->load_plugin('DumpHistory');
 my $dir = basename( getcwd );
 
 use Grades;
-my $l = League->new( leagues => '/home/drbean/992', id => $dir );
+my $l = League->new( leagues => '/home/drbean/002', id => $dir );
 my $g = Grades->new({ league => $l });
 my %m = map { $_->{id} => $_ } @{ $l->members };
 my $approach = $l->approach;
-my $grades = $g->grades;
 
 my $yaml = $l->yaml;
 my $members = $l->members;
+
+my $antel = League->new( leagues => '/home/drbean/001',
+	id => $yaml->{anterior} );
+my $anteg = Grades->new({ league => $antel });
+my $grades = $anteg->grades;
+
 my @rated;
 for my $member ( @$members ) {
 	my $id = $member->{id};
-	$member->{rating} = $grades->{ $id };
+	$member->{rating} ||= $grades->{ $id };
 	push @rated, $member;
 }
 
