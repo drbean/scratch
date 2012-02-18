@@ -7,14 +7,15 @@ use YAML qw/LoadFile DumpFile/;
 use Cwd; use File::Basename;
 use Encode;
 
+my $semester = "002";
 my $dir = basename( getcwd );
 
 use Grades;
-my $l = League->new( leagues => '/home/drbean/001', id => $dir );
+my $l = League->new( leagues => "/home/drbean/$semester", id => $dir );
 my $g = Grades->new({ league => $l });
 my $c = $l->yaml;
 my %m = map { $_->{id} => $_ } @{ $l->members };
-my $io = io("../../admin/001/$dir.txt");
+my $io = io("../../admin/$semester/$dir.txt");
 my @members;
 my @lines = $io->slurp;
 for my $line ( @lines ) {
