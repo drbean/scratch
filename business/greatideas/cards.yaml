@@ -577,3 +577,110 @@ fourideas:
             - result
             - lesson
           answer: idea
+fourconcepts:
+  jigsaw:
+    00:
+      identifier: fourconcepts 00
+      A: Many more people are going to Las Vegas than before. Most of them don't have the money to buy an expensive car. There are more of these people in the showroom than before. The visitors dream of winning money and buying an expensive car.
+      B: After the showroom first started charging an admission fee, there were fewer people. But now the showroom is always full. It is not a relaxing place. It is difficult to look carefully at the cars and to talk to the showroom salesmen.
+      C: People who want to buy a car don't go to the showroom. There are too many people in the showroom, even though these people have to pay to look at the cars. Car buyers don't like the crowded showroom.
+      D: Money from admission fees is up, but from selling cars is down. The car showroom is making less money than it was when it first started charging admission. The income from admission fees has increased, but income from car sales has dropped.
+      quiz:
+        - question: Penske-Wynn raised the admission charge from 10 dollars to 15 dollars.
+          option:
+            - problem
+            - solution
+            - evaluation
+            - lesson
+          answer: solution
+        - question: The idea did not work. The number of visitors dropped, but car sales did not increase.
+          option:
+            - problem
+            - solution
+            - evaluation
+            - lesson
+          answer: evaluation
+        - question: Penske-Wynn wanted to continue to improve the showroom as a place to buy cars.
+          option:
+            - problem
+            - solution
+            - evaluation
+            - lesson
+          answer: problem
+        - question: Sometimes you cannot predict what will happen when you change a price.
+          option:
+            - problem
+            - solution
+            - evaluation
+            - lesson
+          answer: lesson
+    22:
+      identifier: fourconcepts 22
+      A: Pepsi needs citrus, but no-one grows citrus in the Punjab. Punjab farmers grow rice. They don't know anything about growing citrus trees. Pepsi tries to interest farmers and the Punjab government in growing citrus.
+      B: Pepsi tells the Punjab government it will give farmers a good price for citrus. It asks the government to work with farmers to help them produce citrus. It tells the government the Punjab can be a big citrus producer.
+      C: The government decides to help the farmers by growing citrus for them and paying them for use of their land while the trees are growing. It will take the money back from farmers when Pepsi pays them for the fruit.
+      D: Pepsi helps the government with its knowledge of growing citrus fruit. Universities and government research institutes help develop the government's plan to grow citrus. Farmers like the idea of the government giving them money.
+      quiz:
+        - question: At first, things were OK, but later Pepsi did not pay the agreed price and  officials stole money. The government wanted to end the project.
+          option:
+            - problem
+            - solution
+            - evaluation
+            - lesson
+          answer: evaluation
+        - question: In Taiwan, supply exceeds demand. The government would give advice, but not pay farmers.
+          option:
+            - problem
+            - solution
+            - evaluation
+            - lesson
+          answer: lesson
+        - question: The plan was for the government to help develop a citrus industry by growing citrus fruit for farmers.
+          option:
+            - problem
+            - solution
+            - evaluation
+            - lesson
+          answer: solution
+        - question: The Punjab had potential to be a big citrus producer, but farmers did not have the money or knowledge to develop an industry.
+          option:
+            - problem
+            - solution
+            - evaluation
+            - lesson
+          answer: problem
+    55:
+      identifier: fourconcepts 55
+      A: In 2005, Alex made 1 million dollars in 4 months. Advertisers paid him 1 dollar per pixel to put links to their sites on his home page. None of his later projects have been as successful. But he continues to try new ideas.
+      B: In 2004, Mark started Facebook. His school, Harvard had been slow to put a book of student photographs on the Internet. He illegally got the pictures from the school's computers, and put the pictures on his site on the Internet. 
+      C: Alex thinks Facebook changed the Internet. In 2005, the Internet was only a place to find material. Now, it is social. In 2010, he made a site that was social like Facebook. He wanted 1 million people to put their pictures on his site.
+      D: Alex wants to develop a new site, like Facebook, that is also social. His idea is to "take a picture" of the new social Internet, by putting a lot of pictures of people on a web site. It will be a "facebook" of people's pictures.
+      quiz:
+        - question: Alex wanted to create another successful Internet project like his Million Dollar Home Page.
+          option:
+            - problem
+            - solution
+            - evaluation
+            - lesson
+          answer: problem
+        - question: His new site is not as successful as his earlier site. Only 6,000 people put their pictures on it.
+          option:
+            - problem
+            - solution
+            - evaluation
+            - lesson
+          answer: evaluation
+        - question: Alex tells people, You are a not a failure if you fail. You are learning what works and what doesn't.
+          option:
+            - problem
+            - solution
+            - evaluation
+            - lesson
+          answer: lesson
+        - question: Alex decides to collect people's pictures and put them in a `book' on the Internet, a face book.
+          option:
+            - problem
+            - solution
+            - evaluation
+            - lesson
+          answer: solution
