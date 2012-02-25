@@ -1,0 +1,142 @@
+# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom::Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: Disability!
+indent: 5
+height: 18
+width: 69
+skip: 0
+
+# The following options are for Gvim usage.
+# vim: gvim
+# fuopt: maxhorz,maxvert
+# guioptions: egmLtT
+# guicursor: a:blinkon0-ver25-Cursor
+# guifont: Bitstream_Vera_Sans_Mono:h18
+
+---- center
+Disability!
+
+by Dr Bean (高來圭)
+
+(hint: press the spacebar)
+
+----
+= Definition
+
+Images for 'disability'
+
+http://images.google.com/search?tbm=isch&hl=en&source=hp&biw=1057&bih=739&q=disability&gbv=2&oq=disabili&aq=0&aqi=g10&aql=&gs_sm=3&gs_upl=13151l14762l0l16945l8l8l0l2l2l0l41l201l6l6l0
+
+Images for 'mental disability'
+
+http://images.google.com/search?tbm=isch&hl=en&source=hp&biw=1057&bih=739&q=disability&gbv=2&oq=disabili&aq=0&aqi=g10&aql=&gs_sm=3&gs_upl=13151l14762l0l16945l8l8l0l2l2l0l41l201l6l6l0#hl=en&gbv=2&tbm=isch&sa=1&q=disability+mental&pbx=1&oq=disability+mental&aq=f&aqi=g-S8g-mS2&aql=&gs_sm=3&gs_upl=647341l649249l0l650153l7l7l0l0l0l0l62l323l7l7l0&bav=on.2,or.r_gc.r_pw.r_qf.,cf.osb&fp=172866e3ee321683&biw=1057&bih=739
+
+Images for 'physical disability'
+
+http://images.google.com/search?tbm=isch&hl=en&source=hp&biw=1057&bih=739&q=disability&gbv=2&oq=disabili&aq=0&aqi=g10&aql=&gs_sm=3&gs_upl=13151l14762l0l16945l8l8l0l2l2l0l41l201l6l6l0#hl=en&gbv=2&tbm=isch&sa=1&q=disability+physical&pbx=1&oq=disability+physical&aq=f&aqi=g-S5g-mS1&aql=&gs_sm=3&gs_upl=98339l104508l2l105593l16l16l7l0l0l0l45l356l9l9l0&bav=on.2,or.r_gc.r_pw.r_qf.,cf.osb&fp=172866e3ee321683&biw=1057&bih=739
+
+----
+== Definition
+
+another combination complex covers different doing idea
+participating physical problem term thing
+
+Disabilities may be ____(1) or mental or a ____(2) of
+these two. 'Disabilities' is an 'umbrella' ____(3),
+covering a number of ____(4) things: one ____(5) it
+covers is the idea of a ____(7) with someone's body.
+____(9) thing it covers is the ____(10) of someone
+having difficulty ____(11) something. A third thing it
+____(12) is the idea of a problem in ____(13) in social
+life. Disability is a ____(14) thing, 
+
+----
+Richard Coleman and Derek Connell
+
+Scoutmaster
+http://www.pnj.com/article/99999999/NEWS15/310100002/1172/NEWS15
+Scout
+http://www.npr.org/templates/story/story.php?storyId=123378499
+
+----
+We think some of the members of the troop are not disabled.
+Let's ask.
+
+As a Yes/No Question:
+
+The answer is 'No'.
+The question was:
++ * Are some members of the troop not disabled?
++ Are all of the members of the troop disabled?
+
++ As a WH Question:
+
+The answer is 'all of them'
+The question was:
++ How many members of the troop are disabled?
+
+----
+We think Derek Coleman is mentally disabled.
+
+As a Yes/No Question:
+
+The answer is 'Yes'.
+The question was:
++ Is Derek Coleman mentally disabled?
+
++ As a WH Question:
+
+The answer is 'He's mentally disabled.'
+The question was:
++ What is Derek Connell?
++ What disability does Derek Connell have?
+
+
+----
+We Richard Coleman has been leader of the special needs
+troop for 20 years.
+
+As a Yes/No Question:
+
+The answer is 'Yes'.
+The question was:
++ Has Richard Coleman been leader of the special needs
+troop for 20 years?
+
++ As a WH Question:
+
+The answer is '20 years'
+The question was:
++ How long has Richard Coleman been leader of the
+special needs troop?
++ How many years has Richard Coleman been leader of the
+special needs troop?
+
+
+----
+We think at first Richard Coleman didn't know what to do 
+with the mentally-disabled scouts.
+Let's ask.
+
+As a Yes/No Question:
+
+The answer is 'No'.
+The question was:
++ Did Richard Coleman know what to do with the
+mentally-disabled scouts?
+
++ As a WH Question:
+
+The answer is 'He didn't know what to do'
+The question was:
++ What was Richard Coleman's problem at first?
++ Why did he have a problem with the mentally-disabled scouts?
+
+
