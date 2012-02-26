@@ -11,8 +11,8 @@ objects = [
 	( "woman",	\ [x] -> female x	),
 	( "person",	\ [x] -> people x	),
 	( "thing",	\ [x] -> things x	),
-	( "supervisor",	\ [x] -> isBoss x	),
-	( "subordinate",	\ [x] -> isWorker x	)
+	( "supervisor",	\ [x] -> supervisor x	),
+	( "subordinate",	\ [x] -> subordinate x	)
  ]
 
 inflections :: [(String, String)]
@@ -21,8 +21,8 @@ inflections = [
  ( "women",	"woman" ),
  ( "persons",	"person" ),
  ( "things",	"thing" ),
- ( "bosses",	"boss" ),
- ( "workers",	"worker" ),
+ ( "supervisors",	"supervisor" ),
+ ( "subordinates",	"subordinate" ),
  ( "appreciate",	"appreciated" ),
  ( "disappoint",	"disappointed" ),
  ( "worked",	"work" ),
