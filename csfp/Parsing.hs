@@ -123,11 +123,8 @@ preproc ["."]              = []
 preproc ["?"]              = []
 preproc (",":xs)           = preproc xs
 
-preproc ("the":"state":"of":"colorado":xs)	= "the_state_of_colorado" : preproc xs
-preproc ("the":"gathering":"place":xs)	= "the_gathering_place" : preproc xs
-preproc ("ten":"dollar":"bill":xs)	= "ten_dollar_bill" : preproc xs
-preproc ("administrative":"assistant":xs)	= "administrative_assistant" : preproc xs
-preproc ("birthday":"card":xs)	= "birthday_card" : preproc xs
+preproc ("troop":"409":xs)	= "troop_409" : preproc xs
+preproc ("assistant":"scoutmaster":xs)	= "assistant_scoutmaster" : preproc xs
 preproc ("look":"back":xs)	= "look_back" : preproc xs
 preproc ("looked":"back":xs)	= "looked_back" : preproc xs
 preproc ("got":"married":xs)	= "got_married" : preproc xs
