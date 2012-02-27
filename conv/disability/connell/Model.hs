@@ -20,54 +20,34 @@ entities	=  [minBound..maxBound]
 characters :: [ (String, Entity) ]
 
 characters = [
-	( "ann",	A ),
-	( "the_state_of_colorado",	C ),
-	( "debra",	D ),
-	( "jennifer",	J ),
-	( "the_gathering_place",	P ),
-	( "queen",	Q ),
-	( "tanya",	T ),
-	( "nobody_or_nothing",	Z )
-
+	( "Troop_409",	T ),
+	( "Derek",	D ),
+	( "Richard",	R ),
+	( "Claudia",	C ),
+	( "Randy",	A )
 	]
 
 
-white	= pred1 [A,T,D]
-bill	= pred1 [B]
-home	= pred1 [E]
-smell	= pred1 [F]
-gift	= pred1 [G]
-shelter	= pred1 [H]
-sign	= pred1 [I]
-job	= pred1 [J]
-unemployment	= pred1 [L]
-money	= pred1 [M]
-rent	= pred1 [N]
-man	= pred1 [O]
-black	= pred1 [Q]
-cried = pred1 [Q,A]
-homeless	= pred1 [Q,A]
-officewear	= pred1 [R]
-press	= pred1 [S]
-beautiful	= pred1 [U]
-counseling	= pred1 [V]
-spirits	= pred1 [W]
-card	= pred1 [X]
+mentally_disabled	= pred1 [D]
+dedicated	= mentally_disabled
+physically_disabled	= pred1 [A]
+scout	= pred1 [D,A]
+scoutmaster	= pred1 [R]
+older	= pred1 [D,R,C]
+assistant_scoutmaster	= pred1 [C]
+leader	= pred1 [R,C]
+troop	= pred1 [T]
 story	= pred1 [Y]
-
-older	= homeless
-admin	= job
-donator	= man
-lotion	= gift
+job	= pred1 []
 
 namelist = map fst characters
 
 
 male, female :: OnePlacePred
 
-child	= pred1 []
-male	= pred1 [O]
-female	= pred1 [Q,A,D,T,J]
+child	= pred1 [A]
+male	= pred1 [A,D,R]
+female	= pred1 [C,X,Z]
 
 type OnePlacePred	= Entity -> Bool
 type TwoPlacePred	= Entity -> Entity -> Bool
@@ -94,9 +74,8 @@ isMother	= \x -> ( female x && isParent x )
 father	= \x -> ( male x && isParent x )
 daughter	= \x -> ( female x && isOffspring x )
 son	= \x -> ( male x && isOffspring x )
-interviewee = pred1 $ map patient recruitment
-supervisor = pred1 $ map fst supervision
-visitor = interviewee
+
+disabled = \x -> ( mentally_disabled x || physically_disabled x )
 
 pred2 :: [(Entity,Entity)] -> TwoPlacePred
 pred3 :: [(Entity,Entity,Entity)] -> ThreePlacePred
@@ -105,20 +84,20 @@ pred3 xs	= curry3 ( `elem` xs )
 pred4 xs	= curry4 ( `elem` xs )
 
 --(parent,child)
-parenting	= [(Q,J)]
-supervision	= [(T,A),(D,Q),(D,A)]
-marriages	= [(Unspec,Q)]
+parenting	= [(R,X),(R,Z),(C,X),(C,Z)]
+supervision	= [(R,A),(R,D),(C,A),(C,D)]
+marriages	= [(R,C)]
 --(husband,wife,wedding_location)
-weddings	= []
+weddings	= [(R,C,Unspec)]
 --(divorcer,divorced)
-separations	= [(Q,Unspec)]
-divorces	= [(Q,Unspec)]
+separations	= []
+divorces	= []
 --(boyfriend,girlfriend)
 -- unmarried_couples	= []
 --(contacter,contactee)
-possessions	= [(O,M),(J,M),(D,M),(T,M)] ++ clothing
-recruitment	= [(C,Q,V)]
-appreciation	= []
+possessions	= [] ++ []
+recruitment	= [(Unspec,D,T),(R,A,T),(C,C,T)]
+appreciation	= [(C,D)]
 
 raised_by	= pred2 $ map swap parenting
 parented	= pred2 parenting
@@ -134,7 +113,10 @@ parents		= \child -> mapMaybe (parentMaybe child) parenting
 isSiblings	= \a b -> (any . flip elem) (parents a) (parents b)
 brother	= \x -> any ( \i -> isSiblings x i ) entities
 
-clothing	= [(Q,R)]
+supervisor	= pred1 $ map fst supervision
+subordinate	= pred1 $ map snd supervision
+
+clothing	= []
 losses	= [(Q,J),(Q,E),(A,J),(A,E)]
 looking	= []
 wore	= pred2 clothing
@@ -148,12 +130,13 @@ knowledge	= []
 acquaintances	= []
 know	= pred2 $ knowledge ++ acquaintances ++ map swap acquaintances
 appreciate	= pred2 appreciation
+thank	= appreciate
 -- visit	= pred2 $ map (\x -> (patient x, recipient x) ) recruitment
 interview	= pred2 $ map (\x -> (agent x, patient x) ) recruitment
 -- greet	= interview
 look_at	= pred2 $ looking
 lose	= pred2 $ losses
-help	= pred2 $ supervision
+help	= pred2 $ supervision ++ [(D,A)]
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
@@ -171,18 +154,18 @@ origin	= theme
 destination = recipient
 
 --(worker,job,site)
-working	= [(Q,V,C),(T,S,P),(D,H,P),(O,Unspec,Unspec)]
-volunteering = [(Q,Unspec,P),(A,Unspec,P)]
-comms	= [ (Q,Y,D),(A,Y,T),(D,Q,J) ]
+working	= []
+volunteering = [(R,S,T),(C,I,T)]
+communications	= [ (R,Y,D),(C,Y,D) ]
 offenses	= []
-giving	= [ (C,L,Q),(O,B,Q),(Q,X,J),(P,G,Q),(P,E,Q) ]
+giving	= []
 acceptances = []
 -- (seller, item, buyer)
 selling	= []
 --(killer,killed,instrument)
 --(putter,theme,location)
 --(agent,theme,location)
-looking_back	= [(Q,Unspec,Unspec)]
+looking_back	= [(R,Y,Unspec),(D,Y,Unspec),(C,Y,Unspec)]
 
 worker	= pred1 $ map agent working
 work_where	= pred2 $ map (\x -> (agent x, location x) ) working
@@ -190,12 +173,12 @@ work_as = pred2 $ map (\x -> (agent x, theme x) ) working
 volunteer_at	= pred2 $ map (\x -> (agent x, location x) ) volunteering
 look_back	= pred1 $ map agent looking_back
 look_back_on	= pred2 $ map (\x->(agent x, theme x) ) looking_back
-said	= pred2 $ map (\x->(agent x, theme x) ) comms
-asked	= pred2 $ map (\x->(agent x, recipient x) ) comms
-ask_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
-talked	= pred2 $ map (\x->(agent x, recipient x) ) comms
-              ++  map (\(agent,theme,recipient)->(recipient, agent) ) comms
-talk_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
+said	= pred2 $ map (\x->(agent x, theme x) ) communications
+asked	= pred2 $ map (\x->(agent x, recipient x) ) communications
+ask_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) communications
+talked	= pred2 $ map (\x->(agent x, recipient x) ) communications ++
+	map (\(agent,theme,recipient)->(recipient, agent) ) communications
+talk_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) communications
 offend_with	= pred3 offenses
 offend	= pred2 $ ( map (\x -> (agent x, recipient x) ) offenses ) ++
 		( map (\x -> (theme x, recipient x) ) offenses )
@@ -206,9 +189,9 @@ gave	= pred3 giving
 got	= pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving
 sold	= pred2 $ map (\x -> (agent x, theme x) ) selling
 
-told	= pred3 comms
+told	= pred3 communications
 
-recite = pred2 $ map ( \x -> (agent x, theme x) ) comms
+recite = pred2 $ map ( \x -> (agent x, theme x) ) communications
 
 agent4, theme4, recipient4, location4 :: (Entity,Entity,Entity,Entity) -> Entity
 agent4 (a,_,_,_) = a
