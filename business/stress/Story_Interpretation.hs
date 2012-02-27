@@ -17,6 +17,10 @@ story_objects = [
 	( "supervisor",	\[x]	-> supervisor x	),
 	( "subordinate",	\[x] -> subordinate x	),
 
+	( "control",	\[x] -> control x	),
+	( "uncertainty",	\[x] -> uncertainty x	),
+	( "support",	\[x] -> support x	),
+	( "pressure",	\[x] -> pressure x	),
 
 	( "order",	\[x] -> order x	),
 	( "goods",	\[x] -> goods x	),
@@ -44,6 +48,7 @@ story_inflections = [
 story_relations = [
 	( "angry",	\[x]	-> angry x	),
 	( "brilliant",	\[x]	-> brilliant x	),
+	( "stressful",	\[x]	-> stressful x	),
 
 	( "anger",	\[x,y]	-> anger y x	)
 	]
