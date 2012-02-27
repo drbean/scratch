@@ -45,6 +45,12 @@ object_names = [
 
 	[Cat "control"	"NP" [Thrd,Neutr,Sg] [],
 		Cat "control"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "uncertainty"	"NP" [Thrd,Neutr,Sg] [],
+		Cat "uncertainty"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "support"	"NP" [Thrd,Neutr,Sg] [],
+		Cat "support"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "pressure"	"NP" [Thrd,Neutr,Sg] [],
+		Cat "pressure"	"CN" [Thrd,Neutr,Sg] []],
 
 	[Cat "company"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "unemployment"	"NP" [Thrd,Neutr,Sg] []],
