@@ -147,6 +147,8 @@ relinquishing	= [(S,D), (A,H)]
 abandoning	= [(J,N), (R,D)]
 neglecting	= [(I,H)]
 -- [(E,N), (F,N), (M,E)] -- birthmother raising
+responsible p = not $ elem p relinquishing ++ abandoning ++ neglecting
+raising = adopting ++ filter responsible begetting ++ bearing
 raising	= (adopting ++ begetting ++ bearing) \\
 		(relinquishing ++ abandoning ++ neglecting)
 giving	= [(S,D,O), (S,D,P)]
