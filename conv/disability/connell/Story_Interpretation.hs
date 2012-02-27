@@ -3,72 +3,40 @@ module Story_Interpretation where
 import Model
 
 story_objects = [
-	( "rent",	\[x]	-> rent x	),
-	( "home",	\[x]	-> home x	),
-	( "unemployment",	\[x]	-> unemployment x	),
-	( "administrative_assistant",	\[x]	-> admin x	),
-	( "officewear",	\[x]	-> officewear x	),
-	( "donator",	\[x]	-> donator x	),
-	( "ten_dollar_bill",	\[x]	-> bill x	),
-	( "black",	\[x]	-> black x	),
-	( "white",	\[x]	-> white x	),
-	( "birthday_card",	\[x]	-> card x	),
-	( "sign",	\[x]	-> sign x	),
-	( "shelter",	\[x]	-> shelter x	),
-	( "gift",	\[x]	-> gift x	),
-	( "smell",	\[x]	-> smell x	),
+	( "scoutmaster",	\[x]	-> scoutmaster x	),
+	( "assistant_scoutmaster",	\[x]	-> assistant_scoutmaster x	),
+	( "leader",	\[x]	-> leader x	),
+	( "troop",	\[x]	-> troop x	),
 
-
-
-
-
-
-	( "supervisor",	\[x]	-> supervisor x	),
-	( "interviewee",	\[x] -> interviewee x	),
-
-
-	( "money",	\[x] -> money x	),
 	( "story",	\[x] -> story x	),
 	( "job",	\[x] -> job x	)
 	]
 
 story_inflections = [
- ( "fragrance", "smell" ),
- ( "lotion", "gift" ),
- ( "visitor", "customer" ),
+ ( "scouts", "scout" ),
+ ( "leaders", "leader" ),
  ( "visitors", "visitor" ),
  ( "names", "name" ),
  ( "cry", "cried" ),
  ( "looked", "look" ),
- ( "wear", "wore" ),
- ( "visited", "visit" ),
- ( "interviewed", "interview" ),
- ( "interviewees", "interviewee" ),
- ( "supervisors", "supervisor" ),
- ( "taught", "teach" ),
  ( "helped", "help" ),
- ( "lost", "lose" ),
  ( "volunteered", "volunteer" ),
- ( "subjects", "subject" ),
- ( "offended", "offend" ),
- ( "angered", "anger"),
- ( "greeted", "greet" )
+ ( "appreciated", "appreciate" ),
+ ( "thanked", "thank" )
  ]
 
 story_relations = [
-	( "black",	\[x]	-> black x	),
-	( "white",	\[x]	-> white x	),
-	( "beautiful",	\[x]	-> beautiful x	),
-	( "homeless",	\[x]	-> homeless x	),
+	( "disabled",	\[x]	-> disabled x	),
+	( "mentally_disabled",	\[x]	-> mentally_disabled x	),
+	( "dedicated",	\[x]	-> dedicated x	),
+	( "physically_disabled",	\[x]	-> physically_disabled x	),
 	( "older",	\[x]	-> older x	),
-
-	( "dress",	\[x]	-> officewear x	),
-
-	( "cried",	\[x]	-> cried x	),
 
 	( "look",	\[x,y] -> look_at y x	),
 	( "lose",	\[x,y]	-> lose y x	),
 	( "help",	\[x,y]	-> help y x	),
+	( "appreciate",	\[x,y]	-> appreciate y x	),
+	( "thank",	\[x,y]	-> thank y x	),
 
 	( "volunteer",	\[x,y]	-> volunteer_at y x	),
 
