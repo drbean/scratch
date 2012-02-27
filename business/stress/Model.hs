@@ -62,7 +62,9 @@ company	= pred1 [F,Unspec]
 angry	= pred1 [Q,V]
 brilliant	= pred1 [V]
 
--- stressful	= \ x -> (not $ support x || pressure x || uncertainty || not control x )
+stressful :: [(Entity, Entity)] -> Bool
+stressful = \ x -> ( x `elem` [control, uncertainty, support, pressure] &&
+			( not $ null x ) )
 
 large	= order
 rude	= brilliant
@@ -106,7 +108,7 @@ isWorker	= pred1 $ map snd supervision
 control	= supervision
 uncertainty	= [(Unspec,Unspec)]
 support	= [(Unspec,Unspec)]
-pressure	= [(Unspec,Unspec)]
+pressure	= [(Q,T),(V,Q),(T,V)]
 
 possessions	= [(V,Unspec),(J,M),(D,M),(T,M)]
 recruitment	= [(Unspec,Unspec,Unspec)]
