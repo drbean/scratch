@@ -131,6 +131,23 @@ connell:
         \end{description}
         \end{multicols}
         \end{minipage}
+    3:
+      identifier: connell 3
+      White: |+
+        \begin{normalsize}Dick Coleman\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Career] Richard Coleman was a sergeant in the Air Force for 20 years, until he retired in 1986, at the age of 38. He has been in the Scouts all his life, including while he was in the Air Force. 
+        \item [Attitudes] He thinks Derek Connell and other scouts in the troop are very dedicated. He says this makes him work hard to lead the troop. The scouts' parents say there is no one like Richard and Claudia. They are very involved in each of their scout's lives, and help them develop as much as they can.
+        \end{description}
+      Black: |+
+        \begin{normalsize}Mental retardation\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Description] The disorder appears before adulthood and is characterized by (1) problems with thinking and speaking well, and (2) problems with leading a normal life in society. Usually mental retarded people have an IQ score below 70.
+        \item [Syndromic retardation] Sometimes mental retardation is associated with other medical signs or problems, like with Down's Syndrome. Other times there are no other abnormalities.
+         \item [Euphemisms] Whatever name is chosen for the condition, eventually becomes insulting. 'Mental retardation' is regarded as a bad word. Now, 'intellectual disability', 'intellectually challenged', or 'developmental disability' are preferred.
+         \end{description}
   jigsaw:
     1:
       identifier: connell 1
