@@ -27,9 +27,9 @@ story_inflections = [
 
 story_relations = [
 	( "disabled",	\[x]	-> disabled x	),
-	( "mentally_disabled",	\[x]	-> mentally_disabled x	),
+	( "mentally-disabled",	\[x]	-> mentally_disabled x	),
 	( "dedicated",	\[x]	-> dedicated x	),
-	( "physically_disabled",	\[x]	-> physically_disabled x	),
+	( "physically-disabled",	\[x]	-> physically_disabled x	),
 	( "older",	\[x]	-> older x	),
 
 	( "look",	\[x,y] -> look_at y x	),
