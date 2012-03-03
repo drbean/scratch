@@ -133,6 +133,7 @@ preproc ("lack":"of":"control":xs)	= "lack_of_control" : preproc xs
 preproc ("lack":"of":"support":xs)	= "lack_of_support" : preproc xs
 preproc ("put":"pressure":xs)	= "put_pressure" : preproc xs
 
+preproc ("eagle":"scout":xs)	= "eagle_scout" : preproc xs
 preproc ("troop":"409":xs)	= "troop_409" : preproc xs
 preproc ("assistant":"scoutmaster":xs)	= "assistant_scoutmaster" : preproc xs
 preproc ("look":"back":xs)	= "look_back" : preproc xs
