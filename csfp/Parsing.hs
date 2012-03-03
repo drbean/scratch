@@ -123,12 +123,24 @@ preproc ["."]              = []
 preproc ["?"]              = []
 preproc (",":xs)           = preproc xs
 
+preproc ("dr":"bean":xs)	= "dr_bean" : preproc xs
+preproc ("european":"campers":xs)	= "european_campers" : preproc xs
+preproc ("office":"worker":xs)	= "office_worker" : preproc xs
+preproc ("production":"manager":xs)	= "production_manager" : preproc xs
+preproc ("sales":"manager":xs)	= "sales_manager" : preproc xs
+preproc ("slow":"living":xs)	= "slow_living" : preproc xs
+preproc ("lack":"of":"control":xs)	= "lack_of_control" : preproc xs
+preproc ("lack":"of":"support":xs)	= "lack_of_support" : preproc xs
+preproc ("put":"pressure":xs)	= "put_pressure" : preproc xs
+
 preproc ("troop":"409":xs)	= "troop_409" : preproc xs
 preproc ("assistant":"scoutmaster":xs)	= "assistant_scoutmaster" : preproc xs
 preproc ("look":"back":xs)	= "look_back" : preproc xs
 preproc ("looked":"back":xs)	= "looked_back" : preproc xs
 preproc ("got":"married":xs)	= "got_married" : preproc xs
 preproc ("get":"married":xs)	= "get_married" : preproc xs
+preproc ("mentally":"disabled":xs)	= "mentally-disabled" : preproc xs
+preproc ("physically":"disabled":xs)	= "physically-disabled" : preproc xs
 
 preproc ("an":xs)	= "a" : preproc xs
 preproc ("did":"not":xs)   = "didn't" : preproc xs
@@ -348,9 +360,12 @@ prsVP = finVpR <||> auxVpR <||> copR
 
 copR :: SPARSER Cat Cat
 copR = \us xs -> [(Branch (Cat "_" "VP" (fs (t2c vp)) []) [vp,Branch (Cat "_" "COMP" [] []) [xp]],ws,zs) |
-	(vp,vs,ys) <- leafPS "COP" us xs,
+	(vp,vs,ys) <- prsCOP us xs,
 	(xp,ws,zs) <- prsCOMP vs ys
 		]
+
+prsCOP :: SPARSER Cat Cat
+prsCOP = leafPS "COP" <||> pop "COP"
 
 prsCOMP :: SPARSER Cat Cat
 prsCOMP = prsNP <||> prsADJ
@@ -440,10 +455,13 @@ relppR = \us xs ->
 
 prsYN :: SPARSER Cat Cat 
 prsYN = \us xs -> 
-   [(Branch (Cat "_" "YN" [] []) [aux,s], ws,zs) | 
-       (aux,vs,ys) <- prsAUX us xs, 
-       gap         <- [Cat "#" "AUX" (fs (t2c aux)) [] ], 
+   [(Branch (Cat "_" "YN" [] []) [dum,s], ws,zs) | 
+       (dum,vs,ys) <- prsDUM us xs, 
+       gap         <- [Cat "#" (catLabel (t2c dum)) (fs (t2c dum)) [] ], 
        (s,ws,zs)   <- push gap prsS vs ys ]
+
+prsDUM :: SPARSER Cat Cat
+prsDUM = leafPS "COP" <||> prsAUX
 
 isWH :: ParseTree Cat Cat -> Bool
 isWH tr = Wh `elem` (fs (t2c tr))
