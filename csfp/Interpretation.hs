@@ -7,8 +7,10 @@ import Model
 
 objects, relations :: [( String, [Entity] -> Bool)]
 objects = [
-	( "man",	\ [x] -> male x	),
-	( "woman",	\ [x] -> female x	),
+	( "man",	\ [x] -> isMan x	),
+	( "woman",	\ [x] -> isWoman x	),
+	( "boy",	\ [x] -> boy x	),
+	( "girl",	\ [x] -> isGirl x	),
 	( "person",	\ [x] -> people x	),
 	( "thing",	\ [x] -> things x	),
 	( "supervisor",	\ [x] -> supervisor x	),
