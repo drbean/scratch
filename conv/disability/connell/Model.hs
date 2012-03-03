@@ -29,12 +29,12 @@ characters = [
 
 
 mentally_disabled	= pred1 [D]
-dedicated	= mentally_disabled
 physically_disabled	= pred1 [A]
 scout	= pred1 [D,A]
 scoutmaster	= pred1 [R]
 older	= pred1 [D,R,C]
 assistant_scoutmaster	= pred1 [C]
+eagle_scout	= pred1 [D,R]
 leader	= pred1 [R,C]
 troop	= pred1 [T]
 story	= pred1 [Y]
@@ -42,6 +42,7 @@ job	= pred1 []
 
 namelist = map fst characters
 
+dedicated	= mentally_disabled
 
 male, female :: OnePlacePred
 
@@ -96,7 +97,7 @@ divorces	= []
 -- unmarried_couples	= []
 --(contacter,contactee)
 possessions	= [] ++ []
-recruitment	= [(Unspec,D,T),(R,A,T),(C,C,T)]
+recruitment	= [(Unspec,D,T),(R,A,T),(R,C,T),(Unspec,R,T)]
 appreciation	= [(C,D)]
 
 raised_by	= pred2 $ map swap parenting
@@ -131,6 +132,8 @@ acquaintances	= []
 know	= pred2 $ knowledge ++ acquaintances ++ map swap acquaintances
 appreciate	= pred2 appreciation
 thank	= appreciate
+membership	= pred2 $ map (\x -> (patient x, location x) ) recruitment
+
 -- visit	= pred2 $ map (\x -> (patient x, recipient x) ) recruitment
 interview	= pred2 $ map (\x -> (agent x, patient x) ) recruitment
 -- greet	= interview
