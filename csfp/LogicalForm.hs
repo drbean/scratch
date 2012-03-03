@@ -273,6 +273,13 @@ transWH (Branch (Cat _ "WH" _ _ ) [wh,Branch (Cat _ "S" _ _) [Leaf (Cat "#" "NP"
 transWH (Branch (Cat _ "WH" _ _ )
 	[wh,(Branch (Cat _ "YN" _ _) [_,(Branch
 		(Cat _ "S" _ _) [np,(Branch
+			(Cat _ "VP" _ _) [Leaf (Cat "#" "COP" _ _),(Branch
+				(Cat _ "COMP" _ _) [Leaf (Cat "#" "NP" _ _)])])])])]) =
+	WH (\x -> transNP np (\obj -> Eq obj x ) )
+
+transWH (Branch (Cat _ "WH" _ _ )
+	[wh,(Branch (Cat _ "YN" _ _) [_,(Branch
+		(Cat _ "S" _ _) [np,(Branch
 			(Cat _ "VP" _ _) [_,vp@(Branch
 				(Cat _ "VP" _ _) [Leaf (Cat two_ple "VP" _ _),obj])])])])]) =
 	case (obj) of 
