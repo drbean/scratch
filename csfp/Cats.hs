@@ -12,10 +12,12 @@ class_names = [
 	[Cat "father"    "CN" [Sg,Masc,Thrd] []],
 	[Cat "mother"    "CN" [Sg,Fem,Thrd] []],
 	[Cat "daughter"    "CN" [Sg,Fem,Thrd] []],
+	[Cat "daughters"    "CN" [Pl,Fem,Thrd] []],
 	[Cat "son"    "CN" [Sg,Masc,Thrd] []],
 	[Cat "sons"    "CN" [Pl,Masc,Thrd] []],
 	[Cat "brother"    "CN" [Sg,Masc,Thrd] []],
 	[Cat "husband"	"CN" [Thrd,Masc,Sg] []],
+	[Cat "wife"   "CN" [Sg,Fem,Thrd]   []],
 	[Cat "thing"   "CN" [Sg,Neutr,Thrd] []],
 	[Cat "things"  "CN" [Pl,Neutr,Thrd] []],
 	[Cat "person"  "CN" [Sg,Masc,Thrd]  []],
@@ -27,7 +29,9 @@ class_names = [
 	[Cat "girl"    "CN" [Sg,Fem,Thrd]   []],
 	[Cat "girls"   "CN" [Pl,Fem,Thrd]   []],
 	[Cat "woman"   "CN" [Sg,Fem,Thrd]   []],
-	[Cat "women"   "CN" [Pl,Fem,Thrd]   []]
+	[Cat "women"   "CN" [Pl,Fem,Thrd]   []],
+	[Cat "supervisor" "CN" [Sg,MascOrFem,Thrd]   []],
+	[Cat "supervisors" "CN" [Pl,MascOrFem,Thrd]   []]
 	]
 
 possessives = [
@@ -145,8 +149,8 @@ transitives = [
 	[Cat "ask"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []],
 		Cat "ask"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
 					Cat "_" "PP" [About] []]],
-	[Cat "spoke"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "speak"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
+--	[Cat "spoke"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+--	[Cat "speak"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "talked"	"VP" [Tense] [Cat "_" "PP" [To] []],
 --		Cat "talked"	"VP" [Tense] [Cat "_" "PP" [About] []],
 		Cat "talked"	"VP" [Tense] [Cat "_" "PP" [To] [],
@@ -253,7 +257,7 @@ preps = [
 	]
 
 conjuncts = [
-	[Cat "and"  "CONJ" [] []],
+	-- [Cat "and"  "CONJ" [] []],
 	[Cat "but"  "CONJ" [] []],
 	[Cat "."    "CONJ" [] []]
 	-- [Cat "if"   "COND" [] []],
