@@ -147,6 +147,11 @@ topic:
     intro: In business management, a key concept is the 'company', an organization of people paid to do work.
     story:
       -
+        id: jelkeby
+        title: Peter Jelkeby on IKEA's success
+        blurb: <a href="http://en.wikipedia.org/wiki/IKEA">IKEA</a> is the world's largest furniture retailer. Executive Peter Jelkeby explains its strengths, the reasons for its success, in the first sound file, and the opportunities and threats that new markets provide in the second and third soundfiles.
+        comment: |+
+          Find the section in the soundfiles on <a href="http://elearning.nuu.edu.tw">http://elearning.nuu.edu.tw</a> for the exercise you are doing.
         id: ikea
         title: IKEA
         blurb: <a href="http://en.wikipedia.org/wiki/IKEA">IKEA</a> is the world's largest furniture retailer. Comedian <a href="http://www.markmalkoff.com">Mark Malkoff</a> spent a <a href="http://marklivesinikea.com">week</a> there. Listen to the separate videos and fill in the blanks.
@@ -171,20 +176,25 @@ topic:
       -
         id: dictation
         title: Dr Bean's company
-        blurb: Dr Bean wants to set up a company to make money from his Dictation Exercise.
+        blurb: Dr Bean wants to set up a company to make money from his Dictation Exercise. Find the soundfile appropriate to your listening exercise on <a href="http://elearning.nuu.edu.tw">http://elearning.nuu.edu.tw</a>, or at the links below. Think about Dr Bean's SWOT.
         comment: |+
           <ul>
-          <li><b>A students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/companies/dictationA.mp3">Dr Bean's idea</a>.
-          <li><b>B students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/companies/dictationB.mp3">Dr Bean's problem with money</a>.
-          <li><b>C students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/companies/dictationC.mp3">Dr Bean's character and the English market</a>.
-          <li><b>D students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/companies/dictationD.mp3">Dr Bean's customers</a>.
+          <li><b>Group 1 students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/companies/dictationA.mp3">Dr Bean's idea</a>.
+          <li><b>Group 2 students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/companies/dictationB.mp3">Dr Bean's problem with money</a>.
+          <li><b>Group 3 students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/companies/dictationC.mp3">Dr Bean's character and the English market</a>.
+          <li><b>Group 4 students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/companies/dictationD.mp3">Dr Bean's customers</a>.
           </ul>
       -
         id: flicker
         title: Flicker introduction
         blurb: Listen again to the presentation by Hal Bonelli on the Flicker Lighter Company. It is on <a href="http://elearning.nuu.edu.tw">http://elearning.nuu.edu.tw</a>. If you can't find it, email me.
-        comment: 
+        comment: Everyone has a different section of the soundfile to transcribe. Don't be confused by the similarity between the name of Bonelli's company and <a href="http://flickr.com">flickr.com</a>. They are completely different companies.
           
+      -
+        id: valentino
+        title: Valentino executives debate problem
+        blurb: Listen to Anna, Valentino's CEO discuss Valentino's problems with Benito, VP for Sales, and Carla, VP for Production. It is on <a href="http://elearning.nuu.edu.tw">http://elearning.nuu.edu.tw</a>. If you can't find it, email me.
+        comment: Everyone has a different section of the soundfile to transcribe. Think about Valentino's SWOT.
   -
     id: greatideas
     title: Great business ideas
@@ -193,19 +203,19 @@ topic:
       -
         id: cars
         title: Las Vegas car showroom charges admission fee
-        blurb: The car showroom sells expensive cars and people were just coming to look. That is the problem. What was the good idea? Did it work? What can you learn from their experiment? Look at page 36 in the textbook, Market Leader.
+        blurb: <a href="http://en.wikipedia.org/wiki/Steve_Wynn_(entrepreneur)">Steve Wynn</a> runs the <a href="http://en.wikipedia.org/wiki/Wynn_Las_Vegas">Wynn Las Vegas Casino Hotel/Resort</a>, a gambling casino hotel. For the people who win a lot of money from him, he has a <a href="http://en.wikipedia.org/wiki/Wynn_Las_Vegas#Penske-Wynn_Ferrari-Maserati_dealership">car showroom</a> that sells expensive cars. There he can get back some of the money that he has lost to them. But people were just coming to look at the cars. That is the problem. What was the good idea? Did it work? What can YOU learn from Wynn's experiment?
         comment: |+
           <ul>
-          <li><b>A students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/greatideas/carsA.mp3">A</a>
-          <li><b>B students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/greatideas/carsB.mp3">B</a>
-          <li><b>C students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/greatideas/carsC.mp3">C</a>
-          <li><b>D students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/greatideas/carsD.mp3">D</a>
+          <li><b>Group 1 students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/greatideas/carsA.mp3">1</a>
+          <li><b>Group 2 students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/greatideas/carsB.mp3">2</a>
+          <li><b>Group 3 students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/greatideas/carsC.mp3">3</a>
+          <li><b>Group 4 students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/greatideas/carsD.mp3">4</a>
           </ul>
       -
         id: citrus1
         title: Farmers, Government create market. Pepsi buys their citrus.
-        blurb: Punjab farmers and the government were able to develop the area by growing citrus. The government takes farmers' land for 4 years and gives farmers 50 percent from sale of the fruit. What do you think?
-        comment: This week, listen to the whole of the <a href="http://web.nuu.edu.tw/~greg/business/citrus.mp3">sound file</a>, but only transcribe your section. From this week, this homework is only worth one point.
+        blurb: Punjab farmers and the government were able to develop the Punjab, a farming area in India, by growing citrus. The government takes farmers' land for 4 years and gives farmers 50 percent from sale of the fruit. What do you think? What is the problem that this good idea solves? Did it work? Can the Taiwan citrus industry learn anything from it?
+        comment: This week, listen to the whole of the <a href="http://web.nuu.edu.tw/~greg/business/citrus.mp3">sound file</a>, but only transcribe your section.
       -
         id: internet1
         title: Money making idea on Internet
@@ -229,23 +239,11 @@ topic:
           <li><b>Text 4:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/stress-1D.mp3">D</a>
           </ul>
       -
-        id: bradshaw
-        title: Bradshaw talks about stress
-        blurb: Bradshaw works as a business consultant, helping companies identify the causes of their high levels of stress, and showing managers how to be more sensitive to stress and how to reduce it.
-        comment: |+
-          I again mixed up the texts. Which is your text?
-          <ul>
-          <li><b>Text 1:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/bradshawA.mp3">Causes of stress</a>
-          <li><b>Text 2:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/bradshawB.mp3">Identifying hotspots</a>
-          <li><b>Text 3:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/bradshawC.mp3">Ways managers can cope</a>
-          <li><b>Text 4:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/bradshawD.mp3">Men and women's different reactions</a>
-          </ul>
-      -
         id: cusp
         title: CUSP--Control, Uncertainty, Support and Pressure
-        blurb: <a href="http://www.in-equilibrium.co.uk/resources/podcasts/stress-prevention-tool">CUSP</a> is Alan Bradshaw's framework for thinking about pressure. Reducing stress is really very simple for businesses if they follow this framework.
+        blurb: <a href="http://www.in-equilibrium.co.uk/resources/podcasts/stress-prevention-tool">CUSP</a> is Alan Bradshaw's framework for thinking about stress. Reducing stress is really very simple for businesses if they follow this framework.
         comment: |+
-          Listen to the first half of the soundfile. But you only need to transcribe your section. Think about the roles of control, uncertainty, support and pressure in reducing stress.
+          Listen to the first half of the soundfile. But you only need to transcribe your sections. Think about the roles of control, uncertainty, support and pressure in reducing stress.
       -
         id: bradshaw
         title: Bradshaw talks about stress
@@ -258,12 +256,6 @@ topic:
           <li><b>Text 3:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/bradshawC.mp3">Ways managers can cope</a>
           <li><b>Text 4:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/bradshawD.mp3">Men and women's different reactions</a>
           </ul>
-      -
-        id: cusp
-        title: CUSP--Control, Uncertainty, Support and Pressure
-        blurb: <a href="http://www.in-equilibrium.co.uk/resources/podcasts/stress-prevention-tool">CUSP</a> is Alan Bradshaw's framework for thinking about pressure. Reducing stress is really very simple for businesses if they follow this framework.
-        comment: |+
-          Listen to the first half of the soundfile. But you only need to transcribe your section. Think about the roles of control, uncertainty, support and pressure in reducing stress.
       -
         id: cusp2
         title: CUSP--Control, Uncertainty, Support and Pressure
