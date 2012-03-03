@@ -73,7 +73,7 @@ interrogatives = [
 	[Cat "what" "NP"  [Wh,Thrd,AccOrDat,Neutr]    []],
 	[Cat "that"  "REL" [] [], Cat "that"  "DET" [Sg]    []],
 	[Cat "which" "REL" [Neutr] [], Cat "which" "DET" [Wh] []],
-	[Cat "where" "NP" [Neutr] [], Cat "where" "REL" [] []]
+	-- [Cat "where" "NP" [Neutr] [], Cat "where" "REL" [] []]
 	]
 
 determiners = [
