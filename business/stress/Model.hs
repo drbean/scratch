@@ -7,7 +7,11 @@ import Data.Maybe
 data Entity	= A | B | C | D | E | F | G 
             | H | I | J | K | L | M | N 
             | O | P | Q | R | S | T | U 
-            | V | W | X | Y | Z | Someone | Something | Unspec
+            | V | W | X | Y | Z 
+            | AA | BB | CC | DD | EE | FF | GG 
+            | HH | II | JJ | KK | LL | MM | NN 
+            | OO | PP | QQ | RR | SS | TT | UU 
+            | VV | WW | XX | YY | ZZ | Someone | Something | Unspec
      deriving (Eq,Show,Bounded,Enum,Ord)
 
 entities :: [Entity]
@@ -20,26 +24,26 @@ entities	=  [minBound..maxBound]
 characters :: [ (String, Entity) ]
 
 characters = [
-	( "A",	A ),
-	( "B",	B ),
-	( "C",	C ),
-	( "D",	D ),
-	( "A-ho",	H ),
-	( "Ellen",	E ),
-	( "Dr_Bean",	T ),
-	( "Steve",	S ),
-	( "European_Campers",	M ),
-	( "Carrefour",	F ),
-	( "Charles",	J ),
-	( "Jacques",	Q ),
-	( "Olivier",	V ),
-	( "Todd",	O ),
-	( "Alan",	L ),
-	( "David",	I ),
-	( "Dot",	P ),
-	( "Tan",	N ),
-	( "CUSP",	K ),
-	( "Slow_Living",	G )
+	( "a",	A ),
+	( "b",	B ),
+	( "c",	C ),
+	( "d",	D ),
+	( "a-ho",	H ),
+	( "ellen",	E ),
+	( "dr_bean",	T ),
+	( "steve",	S ),
+	( "european_campers",	M ),
+	( "carrefour",	F ),
+	( "charles",	J ),
+	( "jacques",	Q ),
+	( "olivier",	V ),
+	( "todd",	O ),
+	( "alan",	L ),
+	( "david",	I ),
+	( "dot",	P ),
+	( "tan",	N ),
+	( "cusp",	K ),
+	( "slow_living",	G )
 
 	]
 
@@ -57,16 +61,20 @@ customer	= pred1 [F]
 
 order	= pred1 [Unspec]
 goods	= pred1 [Unspec]
-company	= pred1 [F,Unspec]
+company	= pred1 [M,F,Unspec]
+framework	= pred1 [K]
 
 angry	= pred1 [Q,V]
-brilliant	= pred1 [V]
+useful	= pred1 [K]
 
-stressful :: [(Entity, Entity)] -> Bool
-stressful = \ x -> ( x `elem` [control, uncertainty, support, pressure] &&
-			( not $ null x ) )
+lack_of_control	= [CC]
+uncertainty	= [UU]
+lack_of_support	= [SS]
+pressure	= pred1 [PP]
+stress	= pred1 [SS]
 
 large	= order
+brilliant	= salesman
 rude	= brilliant
 best	= rude
 
@@ -75,8 +83,8 @@ namelist = map fst characters
 
 male, female :: OnePlacePred
 
-male	= pred1 [S,Q,V,C,O]
-female	= pred1 [E]
+male	= pred1 [S,Q,V,C,O,L,I]
+female	= pred1 [E,P,N]
 
 type OnePlacePred	= Entity -> Bool
 type TwoPlacePred	= Entity -> Entity -> Bool
@@ -105,10 +113,15 @@ supervision	= [(J,Q),(J,O),(O,V)]
 isBoss	= pred1 $ map fst supervision
 isWorker	= pred1 $ map snd supervision
 
-control	= supervision
-uncertainty	= [(Unspec,Unspec)]
-support	= [(Unspec,Unspec)]
-pressure	= [(Q,T),(V,Q),(T,V)]
+-- stressful :: [(Entity, Entity)] -> Bool
+-- stressful = \ x -> ( x `elem` [control, uncertainty, support, pressure] &&
+-- 			( not $ null x ) )
+
+-- control	= [(Unspec,Unspec)]
+-- uncertainty	= [(Unspec,Unspec)]
+-- support	= [(Unspec,E)]
+--(pressurizer,pressured)
+hotspots	= [(V,Q),(Q,O),(O,V),(V,O)]
 
 possessions	= [(V,Unspec),(J,M),(D,M),(T,M)]
 recruitment	= [(Unspec,Unspec,Unspec)]
@@ -153,11 +166,11 @@ origin	= theme
 destination = recipient
 
 --(worker,job,site)
-working	= [(Q,V,C),(T,S,P),(D,H,P),(O,Unspec,Unspec)]
-volunteering = [(Q,Unspec,P),(A,Unspec,P)]
-comms	= [ (Q,Y,D),(A,Y,T),(D,Q,J) ]
+working	= []
+volunteering = []
+comms	= [ (P,Unspec,R) ]
 offenses	= []
-giving	= [ (C,L,Q),(O,B,Q),(Q,X,J),(P,G,Q),(P,E,Q) ]
+giving	= []
 acceptances = []
 -- (seller, item, buyer)
 selling	= []
@@ -183,7 +196,7 @@ offend	= pred2 $ ( map (\x -> (agent x, recipient x) ) offenses ) ++
 		( map (\x -> (theme x, recipient x) ) offenses )
 anger = offend
 
-
+pressurize = pred2 hotspots
 gave	= pred3 giving
 got	= pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving
 sold	= pred2 $ map (\x -> (agent x, theme x) ) selling
