@@ -18,27 +18,27 @@ multipart_names = [
 proper_names, object_names, story_verbs :: Lexset
 
 proper_names = [
-	[Cat "A"	"NP" [Thrd,Fem,Sg] []],
-	[Cat "B"	"NP" [Thrd,Fem,Sg] []],
-	[Cat "C"	"NP" [Thrd,Fem,Sg] []],
-	[Cat "D"	"NP" [Thrd,Fem,Sg] []],
-	[Cat "A-ho"	"NP" [Thrd,Fem,Sg] []],
-	[Cat "Ellen" "NP" [Thrd,Fem,Sg] []],
-	[Cat "Dr_Bean" "NP" [Thrd,Masc,Sg] []],
+	[Cat "a"	"NP" [Thrd,Fem,Sg] []],
+	[Cat "b"	"NP" [Thrd,Fem,Sg] []],
+	[Cat "c"	"NP" [Thrd,Fem,Sg] []],
+	[Cat "d"	"NP" [Thrd,Fem,Sg] []],
+	[Cat "a-ho"	"NP" [Thrd,Fem,Sg] []],
+	[Cat "ellen" "NP" [Thrd,Fem,Sg] []],
+	[Cat "dr_bean" "NP" [Thrd,Masc,Sg] []],
 	[Cat "steve" "NP" [Thrd,Masc,Sg] []],
-	[Cat "European_Campers" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "Carrefour" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "Charles" "NP" [Thrd,Masc,Sg] []],
-	[Cat "Jacques" "NP" [Thrd,Masc,Sg] []],
-	[Cat "Olivier" "NP" [Thrd,Masc,Sg] []],
-	[Cat "Todd" "NP" [Thrd,Masc,Sg] []],
-	[Cat "CUSP" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "Slow_Living" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "Alan" "NP" [Thrd,Masc,Sg] []],
-	[Cat "David" "NP" [Thrd,Masc,Sg] []],
-	[Cat "Dot" "NP" [Thrd,Fem,Sg] []],
-	[Cat "Tan" "NP" [Thrd,Fem,Sg] []],
-	[Cat "Nobody_or_Nothing" "NP" [Thrd,Neutr,Sg] []]
+	[Cat "european_campers" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "carrefour" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "charles" "NP" [Thrd,Masc,Sg] []],
+	[Cat "jacques" "NP" [Thrd,Masc,Sg] []],
+	[Cat "olivier" "NP" [Thrd,Masc,Sg] []],
+	[Cat "todd" "NP" [Thrd,Masc,Sg] []],
+	[Cat "cusp" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "slow_living" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "alan" "NP" [Thrd,Masc,Sg] []],
+	[Cat "david" "NP" [Thrd,Masc,Sg] []],
+	[Cat "dot" "NP" [Thrd,Fem,Sg] []],
+	[Cat "tan" "NP" [Thrd,Fem,Sg] []],
+	[Cat "nobody_or_nothing" "NP" [Thrd,Neutr,Sg] []]
 	]
 
 object_names = [
@@ -63,6 +63,17 @@ object_names = [
 	[Cat "employees"	"CN" [Thrd,MascOrFem,Pl] []],
 	[Cat "manager"	"CN" [Thrd,MascOrFem,Sg] []],
 	[Cat "managers"	"CN" [Thrd,MascOrFem,Pl] []],
+	[Cat "salesman"	"CN" [Thrd,MascOrFem,Sg] []],
+	[Cat "sales_manager"	"CN" [Thrd,MascOrFem,Sg] []],
+	[Cat "customer"	"CN" [Thrd,MascOrFem,Sg] []],
+	[Cat "production_manager"	"CN" [Thrd,MascOrFem,Sg] []],
+	[Cat "ceo"	"CN" [Thrd,MascOrFem,Sg] []],
+	[Cat "office_worker"	"CN" [Thrd,MascOrFem,Sg] []],
+	[Cat "doctor"	"CN" [Thrd,MascOrFem,Sg] []],
+	[Cat "psychologist"	"CN" [Thrd,MascOrFem,Sg] []],
+	[Cat "teacher"	"CN" [Thrd,MascOrFem,Sg] []],
+	[Cat "adventurer"	"CN" [Thrd,MascOrFem,Sg] []],
+	[Cat "adventurers"	"CN" [Thrd,MascOrFem,Pl] []],
 	[Cat "job"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "jobs"	"CN" [Thrd,Neutr,Pl] []]
 	]
@@ -74,6 +85,8 @@ story_verbs = [
 	[Cat "lose"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "helped"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "help"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "put_pressure"	"VP" [Tense] [Cat "_" "PP" [On] []],
+		Cat "put_pressure"	"VP" [Infl] [Cat "_" "PP" [On] []]],
 	[Cat "volunteered"	"VP" [Tense] [Cat "_" "PP" [At] []]],
 	[Cat "volunteer"	"VP" [Infl] [Cat "_" "PP" [At] []]],
 	[Cat "looked"	"VP" [Tense] [Cat "_" "PP" [At] []]],
@@ -108,7 +121,8 @@ story_adjs = [
 	[Cat "brilliant"	"ADJ" [] []],
 	[Cat "large"	"ADJ" [] []],
 	[Cat "rude"	"ADJ" [] []],
-	[Cat "best"	"ADJ" [] []]
+	[Cat "best"	"ADJ" [] []],
+	[Cat "useful"	"ADJ" [] []]
 	]
 
 
