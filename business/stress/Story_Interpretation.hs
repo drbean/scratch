@@ -17,14 +17,15 @@ story_objects = [
 	( "supervisor",	\[x]	-> supervisor x	),
 	( "subordinate",	\[x] -> subordinate x	),
 
-	( "control",	\[x] -> control x	),
-	( "uncertainty",	\[x] -> uncertainty x	),
-	( "support",	\[x] -> support x	),
+	-- ( "control",	\[x] -> control x	),
+	-- ( "uncertainty",	\[x] -> uncertainty x	),
+	-- ( "support",	\[x] -> support x	),
 	( "pressure",	\[x] -> pressure x	),
 
 	( "order",	\[x] -> order x	),
 	( "goods",	\[x] -> goods x	),
-	( "company",	\[x] -> company x	)
+	( "company",	\[x] -> company x	),
+	( "framework",	\[x] -> framework x	)
 	]
 
 story_inflections = [
@@ -41,15 +42,18 @@ story_inflections = [
 
  ( "orders", "order" ),
  ( "goods", "good" ),
- ( "companies", "company" )
+ ( "companies", "company" ),
+ ( "frameworks", "framework" )
 
  ]
 
 story_relations = [
 	( "angry",	\[x]	-> angry x	),
 	( "brilliant",	\[x]	-> brilliant x	),
-	( "stressful",	\[x]	-> stressful x	),
+	--( "stressful",	\[x]	-> stressful x	),
+	( "useful",	\[x]	-> useful x	),
 
+	( "put_pressure",	\[x,y]	-> pressurize y x	),
 	( "anger",	\[x,y]	-> anger y x	)
 	]
 
