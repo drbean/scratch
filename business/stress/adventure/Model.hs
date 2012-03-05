@@ -4,6 +4,8 @@ import Data.Tuple
 import Data.List
 import Data.Maybe
 
+import Topic_Model
+
 data Entity	= A | B | C | D | E | F | G 
             | H | I | J | K | L | M | N 
             | O | P | Q | R | S | T | U 
@@ -11,7 +13,7 @@ data Entity	= A | B | C | D | E | F | G
             | AA | BB | CC | DD | EE | FF | GG 
             | HH | II | JJ | KK | LL | MM | NN 
             | OO | PP | QQ | RR | SS | TT | UU 
-            | VV | WW | XX | YY | ZZ | Someone | Something | Unspec
+            | VV | WW | XX | YY | ZZ | Some1 | Some12 | Unspec
      deriving (Eq,Show,Bounded,Enum,Ord)
 
 entities :: [Entity]
@@ -24,48 +26,22 @@ entities	=  [minBound..maxBound]
 characters :: [ (String, Entity) ]
 
 characters = [
-	( "a",	A ),
-	( "b",	B ),
-	( "c",	C ),
-	( "d",	D ),
-	( "a-ho",	H ),
 	( "ellen",	E ),
 	( "dr_bean",	T ),
 	( "steve",	S ),
-	( "european_campers",	M ),
-	( "carrefour",	F ),
-	( "charles",	J ),
-	( "jacques",	Q ),
-	( "olivier",	V ),
-	( "todd",	O ),
-	( "alan",	L ),
-	( "david",	I ),
-	( "dot",	P ),
-	( "tan",	N ),
-	( "cusp",	K ),
-	( "slow_living",	G )
+	( "cusp",	K )
 
 	]
 
 
 adventurer	= pred1 [S,E]
 teacher	= pred1 [T]
-psychologist	= pred1 [A,D,T]
-doctor	= pred1 [D]
-office_worker	= pred1 [A,B,C,D]
-ceo	= pred1 [J]
-production_manager	= pred1 [Q]
-salesman	= pred1 [V]
-sales_manager	= pred1 [O]
-customer	= pred1 [F]
+student = pred1 [Some1,Some12]
 
-order	= pred1 [Unspec]
-goods	= pred1 [Unspec]
-company	= pred1 [M,F,Unspec]
-framework	= pred1 [K]
-
-angry	= pred1 [Q,V]
-useful	= pred1 [K]
+balloon = [B]
+glider	= [G]
+aircraft	= [A]
+boat	= [Y]
 
 lack_of_control	= [CC]
 uncertainty	= [UU]
@@ -73,18 +49,13 @@ lack_of_support	= [SS]
 pressure	= pred1 [PP]
 stress	= pred1 [SS]
 
-large	= order
-brilliant	= salesman
-rude	= brilliant
-best	= rude
-
 namelist = map fst characters
 
 
 male, female :: OnePlacePred
 
-male	= pred1 [S,Q,V,C,O,L,I]
-female	= pred1 [E,P,N]
+male	= pred1 [T,S]
+female	= pred1 [E]
 
 type OnePlacePred	= Entity -> Bool
 type TwoPlacePred	= Entity -> Entity -> Bool
@@ -107,12 +78,6 @@ pred2 xs	= curry ( `elem` xs )
 pred3 xs	= curry3 ( `elem` xs )
 pred4 xs	= curry4 ( `elem` xs )
 
---(parent,child)
-conflict	= [(Q,V),(Q,O),(O,V)]
-supervision	= [(J,Q),(J,O),(O,V)]
-isBoss	= pred1 $ map fst supervision
-isWorker	= pred1 $ map snd supervision
-
 -- stressful :: [(Entity, Entity)] -> Bool
 -- stressful = \ x -> ( x `elem` [control, uncertainty, support, pressure] &&
 -- 			( not $ null x ) )
@@ -121,11 +86,14 @@ isWorker	= pred1 $ map snd supervision
 -- uncertainty	= [(Unspec,Unspec)]
 -- support	= [(Unspec,E)]
 --(pressurizer,pressured)
-hotspots	= [(V,Q),(Q,O),(O,V),(V,O)]
+pressurepoints	= []
 
-possessions	= [(V,Unspec),(J,M),(D,M),(T,M)]
-recruitment	= [(Unspec,Unspec,Unspec)]
+-- circumnavigator, vehicle, accomplishment
+circumnavigations	= [(S,B),(S,A),(S,Y),(E,Y)]
+possessions	= []
+recruitment	= []
 appreciation	= []
+supervision	= []
 
 supervisor	= pred1 $ map fst supervision
 boss	= supervisor
@@ -196,7 +164,7 @@ offend	= pred2 $ ( map (\x -> (agent x, recipient x) ) offenses ) ++
 		( map (\x -> (theme x, recipient x) ) offenses )
 anger = offend
 
-pressurize = pred2 hotspots
+pressurize = pred2 pressurepoints
 gave	= pred3 giving
 got	= pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving
 sold	= pred2 $ map (\x -> (agent x, theme x) ) selling
@@ -210,17 +178,6 @@ agent4 (a,_,_,_) = a
 location4 (_,l,_,_) = l
 theme4 (_,_,t,_) = t
 recipient4 (_,_,_,r) = r
-
--- (teacher,school(location),subject,student)
-schooling = [(Unspec,Unspec,V,D)]
-studied = pred3 $ map ( \x -> (recipient4 x, theme4 x, location4 x) )
-				schooling
-studied_what = pred2 $ map (\x -> (recipient4 x, theme4 x) ) schooling
-studied_where = pred2 $ map (\x -> (recipient4 x, location4 x) ) schooling
-teach = pred3 $ map (\x -> (agent4 x, theme4 x, recipient4 x) ) schooling
-teach_what = forgetful teach
-teach_who = pred2 $ map (\x -> (agent4 x, recipient4 x) ) schooling
-student = pred1 $ map recipient4 schooling
 
 forgetful :: ThreePlacePred -> TwoPlacePred
 forgetful r u v = or ( map ( r u v ) entities )
