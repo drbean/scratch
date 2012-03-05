@@ -17,7 +17,8 @@ lexicon lexeme = maybe unknownWord id $
 	find (\x -> phon (head x) == lexeme ) $
 	proper_names ++ object_names ++ story_verbs ++ story_aux ++ story_adjs ++
 	class_names ++ interrogatives ++
-	cops ++ aux ++ intransitives ++ transitives ++ ditransitives ++
+	cops ++ aux ++
+	-- intransitives ++ transitives ++ ditransitives ++
 	possessives ++ preps ++ determiners ++ conjuncts
 	-- ++ prons ++ reflexives
 	where unknownWord = [Cat "" "" [] []]
