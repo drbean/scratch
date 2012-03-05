@@ -33,7 +33,7 @@ data Feat = Masc  | Fem  | Neutr | MascOrFem
           | Nom   | AccOrDat
           | Pers  | Refl | Wh 
           | Tense | Infl
-          | About | At | As | In | On | For | With | By | To | From | Through
+          | About | Around | At | As | In | On | For | With | By | To | From | Through
 	  | Of
           deriving (Eq,Show,Ord)
 
