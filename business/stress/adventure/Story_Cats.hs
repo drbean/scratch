@@ -61,8 +61,7 @@ story_aux = [
 	]
 
 story_adjs = [
-	[Cat "stressful"	"ADJ" [] []],
-	[Cat "useful"	"ADJ" [] []]
+	[Cat "stressful"	"ADJ" [] []]
 	]
 
 
