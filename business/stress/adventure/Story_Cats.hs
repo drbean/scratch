@@ -30,8 +30,6 @@ object_names = [
 	[Cat "teacher"	"CN" [Thrd,Masc,Sg] []],
 	[Cat "adventurer"	"CN" [Thrd,MascOrFem,Sg] []],
 	[Cat "adventurers"	"CN" [Thrd,MascOrFem,Pl] []],
-	[Cat "job"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "jobs"	"CN" [Thrd,Neutr,Pl] []],
 	[Cat "boat"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "world"	"CN" [Thrd,Neutr,Sg] []]
 	]
@@ -39,12 +37,22 @@ object_names = [
 story_verbs = [
 	[Cat "helped"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "help"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "felt_stress"	"VP" [Tense] [Cat "_" "PP" [BecauseOf] []],
+		Cat "felt_stress"	"VP" [Tense] []],
+	[Cat "feel_stress"	"VP" [Infl] [Cat "_" "PP" [BecauseOf] []],
+		Cat "feel_stress"	"VP" [Infl] []],
 	[Cat "put_pressure"	"VP" [Tense] [Cat "_" "PP" [On] []],
 		Cat "put_pressure"	"VP" [Infl] [Cat "_" "PP" [On] []]],
+	[Cat "flew"	"VP" [Tense] [Cat "_" "PP" [Around] []],
+		Cat "flew"	"VP" [Tense] [Cat "_" "PP" [Around] [],
+						Cat "_" "PP" [In] []]],
+	[Cat "fly"	"VP" [Infl] [Cat "_" "PP" [Around] []],
+		Cat "fly"	"VP" [Tense] [Cat "_" "PP" [Around] [],
+						Cat "_" "PP" [In] []]],
 	[Cat "sailed"	"VP" [Tense] [Cat "_" "PP" [Around] []],
 		Cat "sailed"	"VP" [Tense] [Cat "_" "PP" [Around] [],
 						Cat "_" "PP" [In] []]],
-	[Cat "sail"	"VP" [Infl] [Cat "_" "PP" [In] []],
+	[Cat "sail"	"VP" [Infl] [Cat "_" "PP" [Around] []],
 		Cat "sailed"	"VP" [Tense] [Cat "_" "PP" [Around] [],
 						Cat "_" "PP" [In] []]]
 	]
