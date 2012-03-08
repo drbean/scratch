@@ -33,7 +33,8 @@ data Feat = Masc  | Fem  | Neutr | MascOrFem
           | Nom   | AccOrDat
           | Pers  | Refl | Wh 
           | Tense | Infl
-          | About | Around | At | As | In | On | For | With | By | To | From | Through
+          | About | Around | At | As | BecauseOf | In | On | For | With
+	  | By | To | From | Through
 	  | Of
           deriving (Eq,Show,Ord)
 
@@ -132,6 +133,8 @@ preproc ("slow":"living":xs)	= "slow_living" : preproc xs
 preproc ("lack":"of":"control":xs)	= "lack_of_control" : preproc xs
 preproc ("lack":"of":"support":xs)	= "lack_of_support" : preproc xs
 preproc ("put":"pressure":xs)	= "put_pressure" : preproc xs
+preproc ("feel":"stress":xs)	= "feel_stress" : preproc xs
+preproc ("felt":"stress":xs)	= "felt_stress" : preproc xs
 
 preproc ("eagle":"scout":xs)	= "eagle_scout" : preproc xs
 preproc ("troop":"409":xs)	= "troop_409" : preproc xs
@@ -142,6 +145,10 @@ preproc ("got":"married":xs)	= "got_married" : preproc xs
 preproc ("get":"married":xs)	= "get_married" : preproc xs
 preproc ("mentally":"disabled":xs)	= "mentally-disabled" : preproc xs
 preproc ("physically":"disabled":xs)	= "physically-disabled" : preproc xs
+preproc ("traffic":"accident":xs)	= "traffic_accident" : preproc xs
+preproc ("brain":"damage":xs)	= "brain_damage" : preproc xs
+
+preproc ("because":"of":xs)	= "because_of" : preproc xs
 
 preproc ("an":xs)	= "a" : preproc xs
 preproc ("did":"not":xs)   = "didn't" : preproc xs
