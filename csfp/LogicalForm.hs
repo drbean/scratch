@@ -18,7 +18,7 @@ lexicon lexeme = maybe unknownWord id $
 	proper_names ++ object_names ++ story_verbs ++ story_aux ++ story_adjs ++
 	class_names ++ interrogatives ++
 	cops ++ aux ++
-	-- intransitives ++ transitives ++ ditransitives ++
+	transitives ++ -- intransitives ++ ditransitives ++
 	possessives ++ preps ++ determiners ++ conjuncts
 	-- ++ prons ++ reflexives
 	where unknownWord = [Cat "" "" [] []]
@@ -128,6 +128,8 @@ transS (Branch (Cat _ "YN" _ _)
 transS (Branch (Cat _ "YN" _ _) 
        [Leaf (Cat "didn't" "AUX" _ []),s]) = transS s
 
+transS _ = NonProposition
+
 transNP :: ParseTree Cat Cat -> 
                 (Term -> LF) -> LF
 transNP (Leaf (Cat "#"  "NP" _ _)) = \ p -> p (Var 0)
@@ -139,6 +141,8 @@ transNP (Branch (Cat _ "NP" _ _) [np,Leaf (Cat "'s" "APOS" _ _),cn]) =
     \p -> Exists (\thing -> Conj [ p thing, transCN cn thing, transNP np (\owner -> (Rel "had" [owner,thing]))])
 transNP (Branch (Cat _ "NP" _ _) [det,Leaf (Cat a "ADJ" _ _),cn]) = 
     (transDET det) (\n -> Conj [transCN cn n, Rel a [n]])
+
+transNP _ = NonProposition
 
 transDET :: ParseTree Cat Cat -> (Term -> LF)
                               -> (Term -> LF)
