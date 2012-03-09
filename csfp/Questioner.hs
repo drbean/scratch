@@ -26,7 +26,7 @@ main = do
 	putStrLn $ label
 	let answer = case label of
 		"WH" -> transWH $ parse
-		_ -> transTXT $ parse
+		_ -> transTXT $ Just parse
 	let response = case label of
 		"WH" -> show $ map ( toupper . named) $ evalW answer
 		"YN" -> yesorno $ eval answer
