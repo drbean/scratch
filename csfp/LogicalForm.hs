@@ -103,30 +103,34 @@ ishowForms [] _ = ""
 ishowForms [f] i = ishow f i
 ishowForms (f:fs) i = ishow f i ++ "," ++ ishowForms fs i
 
-transTXT :: ParseTree Cat Cat -> LF
-transTXT Ep = NonProposition
-transTXT s@(Branch (Cat _ "S" _ _) _) = transS s
-transTXT (Branch (Cat _ "YN" _ _) [Leaf (Cat _ "AUX" _ _),s]) = transS s
-transTXT (Branch (Cat _ "YN" _ _) [Leaf (Cat _ "COP" _ _),s]) = transS s
-transTXT (Branch (Cat _ "TXT" _ _) [s,conj, s2@(Branch (Cat _ "S" _ _) _)]) =
-	Conj [ transS s, transS s2 ]
-transTXT (Branch (Cat _ "TXT" _ _) [s,conj, s2@(Branch (Cat _ "TXT" _ _) _)]) =
-	Conj [ transS s, transTXT s2 ]
+transTXT :: Maybe (ParseTree Cat Cat) -> LF
+transTXT (Just Ep) = NonProposition
+transTXT s@(Just (Branch (Cat _ "S" _ _) _) ) = transS s
+transTXT (Just (Branch (Cat _ "YN" _ _) [Leaf (Cat _ "AUX" _ _),s] )) =
+	transS (Just s)
+transTXT (Just (Branch (Cat _ "YN" _ _) [Leaf (Cat _ "COP" _ _),s])) =
+	transS (Just s)
+transTXT (Just (Branch (Cat _ "TXT" _ _) [s,conj,
+	s2@(Branch (Cat _ "S" _ _) _)])) =
+	    Conj [ transS (Just s), transS (Just s2) ]
+transTXT (Just (Branch (Cat _ "TXT" _ _) [s,conj,
+	s2@(Branch (Cat _ "TXT" _ _) _)])) =
+	    Conj [ transS (Just s), transTXT (Just s2) ]
 
-transS :: ParseTree Cat Cat -> LF
-transS Ep = NonProposition
-transS (Branch (Cat _ "S" _ _) [np,vp]) = 
+transS :: Maybe (ParseTree Cat Cat) -> LF
+transS (Just Ep) = NonProposition
+transS (Just (Branch (Cat _ "S" _ _) [np,vp])) =
   (transNP np) (transVP vp)
 
-transS (Branch (Cat _ "YN" _ _) 
-       [Leaf (Cat "could"    "AUX" _ []),s]) = transS s 
-transS (Branch (Cat _ "YN" _ _) 
-       [Leaf (Cat "couldn't" "AUX" _ []),s]) = transS s
+transS (Just (Branch (Cat _ "YN" _ _) 
+       [Leaf (Cat "could"    "AUX" _ []),s])) = transS (Just s)
+transS (Just (Branch (Cat _ "YN" _ _) 
+       [Leaf (Cat "couldn't" "AUX" _ []),s])) = transS (Just s)
 
-transS (Branch (Cat _ "YN" _ _) 
-       [Leaf (Cat "did"    "AUX" _ []),s]) = transS s 
-transS (Branch (Cat _ "YN" _ _) 
-       [Leaf (Cat "didn't" "AUX" _ []),s]) = transS s
+transS (Just (Branch (Cat _ "YN" _ _) 
+       [Leaf (Cat "did"    "AUX" _ []),s])) = transS (Just s)
+transS (Just (Branch (Cat _ "YN" _ _) 
+       [Leaf (Cat "didn't" "AUX" _ []),s])) = transS (Just s)
 
 transS _ = NonProposition
 
@@ -141,8 +145,7 @@ transNP (Branch (Cat _ "NP" _ _) [np,Leaf (Cat "'s" "APOS" _ _),cn]) =
     \p -> Exists (\thing -> Conj [ p thing, transCN cn thing, transNP np (\owner -> (Rel "had" [owner,thing]))])
 transNP (Branch (Cat _ "NP" _ _) [det,Leaf (Cat a "ADJ" _ _),cn]) = 
     (transDET det) (\n -> Conj [transCN cn n, Rel a [n]])
-
-transNP _ = NonProposition
+transNP _ = \x -> NonProposition
 
 transDET :: ParseTree Cat Cat -> (Term -> LF)
                               -> (Term -> LF)
@@ -213,9 +216,9 @@ transCN (Branch (Cat _    "CN" _ _) [cn,rel]) = case (rel) of
 
 transREL :: ParseTree Cat Cat -> Term -> LF
 transREL (Branch (Cat _ "MOD" _ _ ) [rel,s]) = 
-  \ x -> (transS s)
+  \ x -> (transS (Just s))
 transREL (Branch (Cat _ "MOD" _ _ ) [s])     = 
-  \ x -> (transS s)
+  \ x -> (transS (Just s))
 
 transPP :: ParseTree Cat Cat -> (Term -> LF) -> LF
 transPP (Leaf   (Cat "#" "PP" _ _)) = \ p -> p (Var 0)
@@ -241,20 +244,21 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1]) =
 			\subj -> transPP obj1 (\adv -> Rel name [subj,adv])
 		_ ->
 			\subj -> transNP obj1 (\ obj -> Rel name [subj,obj])
-transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),np,obj2]) = 
-	case (obj2) of 
-		(Branch (Cat _ "PP" _ _) _ ) ->
-			\ subj   -> transNP np 
-			(\ obj   -> transPP obj2
-			 (\ iobj -> Rel name [subj,obj,iobj]))
-		(Branch (Cat _ "NP" _ _) _ ) ->
-			\ subj   -> transNP np 
-			(\ iobj   -> transNP obj2
-			 (\ obj -> Rel name [subj,obj,iobj]))
-		(Leaf (Cat _ "NP" _ _) ) ->
-			\ subj   -> transNP np 
-			(\ iobj   -> transNP obj2
-			 (\ obj -> Rel name [subj,obj,iobj]))
+transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),obj1,obj2]) = 
+    case (catLabel ( t2c obj1 )) of
+	"NP" ->
+	    case (catLabel ( t2c obj2 )) of
+		"PP" ->
+		    \ agent   -> transNP obj1 
+		    (\ theme   -> transPP obj2
+		     (\ recipient -> Rel name [agent,theme,recipient]))
+		"NP" ->
+		    \ agent   -> transNP obj1
+		    (\ recipient   -> transNP obj2
+		     (\ theme -> Rel name [agent,theme,recipient]))
+	"PP" -> \agent -> transPP obj1 (\theme -> transPP obj2 (\instrument
+		-> Rel name [agent,theme,instrument]))
+	_ -> undefined
 transVP (Branch (Cat _ "VP" _ _) 
                 [Leaf (Cat "could" "AUX" _ []),vp]) = 
         transVP vp 
@@ -331,7 +335,7 @@ transW (Branch (Cat _ "PP" fs _) [prep,np])
 
 
 process :: String -> [LF]
-process string = map transS (parses string)
+process string = map (\x -> transS $ Just x) (parses string)
 
 -- processW :: String -> [ LF ]
 -- processW string = map transWH (parses string)
@@ -390,6 +394,7 @@ evl (Several scope)	= smallN ( mapMaybe bool2Maybe $ testents scope )
 evl (Many scope)	= bigN ( mapMaybe bool2Maybe $ testents scope )
 evl (Most scope)	= length ( mapMaybe bool2Maybe $ testents scope ) >
 			length ( mapMaybe bool2Maybe $ testents scope )
+evl _ = False
 
 bool2Maybe :: Bool -> Maybe Bool
 bool2Maybe = \x -> case x of False -> Nothing; True -> Just True 
@@ -422,9 +427,9 @@ bigN [] = False
 bigN [_] = False
 bigN xs = not . smallN $ xs
 
-handler core tests = putStr $ unlines $ map (\(x,y) -> x++show y) $ zip (map (++"\t") tests ) ( map core tests )
+handler core tests = putStr $ unlines $ map (\(x,y) -> x++show y) $ zip (map (++"\t") tests ) ( map (\string -> map (\x -> core ( Just x) ) (parses string)) tests )
 
-evals = handler (eval . transTXT . head . parses)
+evals = handler (eval . transS)
 
 forms tests = putStr $ unlines $ map (\(x,y)->x++show y) $ zip (map (++"\t") tests ) ( map process tests )
 
