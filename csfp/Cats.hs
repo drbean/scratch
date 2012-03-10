@@ -60,6 +60,8 @@ interrogatives = [
 	-- [Cat "where" "NP" [Neutr] [], Cat "where" "REL" [] []]
 	]
 
+interrolist = map (phon . head) interrogatives
+
 determiners = [
 	[Cat "zero"     "DET" [Pl]  []],
 	[Cat "every"   "DET" [Sg]  []],
