@@ -21,6 +21,17 @@ topic:
     intro: A disability is the absence of some ability that normal people have. Disabilities can be mental, eg very low intelligence, or physical, eg, an inability to walk or to see. Dr Bean's inability to speak Chinese, a language he did not learn as a child is not regarded as a disability (but it should be :-) How do people with disabilities cope?
     story:
       -
+        id: foreman
+        title: Woman loses voice, uses electrolarynx
+        blurb: |
+          Rene Foreman lost her voice after she had throat cancer. She now uses an <a href="http://images.google.com/search?tbm=isch&hl=en&source=hp&biw=1058&bih=739&q=electrolarynx&gbv=2&oq=electrola&aq=0&aqi=g8g-sS1g-S1&aql=&gs_sm=3&gs_upl=948l3723l0l6308l9l9l0l2l2l0l31l198l7l7l0&gs_l=img.3.0.0l8j0i10i24j0i24.948l3723l0l6308l9l9l0l2l2l0l31l198l7l7l0">electrolarynx</a> to speak. Listen to a <a href="http://www.npr.org/2012/01/20/145459323/using-a-new-voice-to-enjoy-life-after-cancer">conversation with her daughter, Michelle</a>, in which they talk about living with an artificial voice.
+        comment: |
+          <ul>
+          <li>I think listening to her is disturbing. How do you feel? Is she easy to understand? She says that life is better for her now than it was before. What do you think? Would you like to have an artificial voice?
+          <li>Do you understand the differences between <a href="http://faculty.washington.edu/marynell/grammar/tellsay.html">speak, say, talk and tell</a>?
+          </ul>
+
+      -
         id: connell
         title: Boy Scouts with special needs
         blurb: |
