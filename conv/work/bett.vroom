@@ -30,6 +30,39 @@ Fall Semester, 2011
 (hint: press the spacebar to go forward, press Backspace to go back)
 
 ----
+== Error reports on Bett
+
+I chose course 1 in this weeks homework, but the
+website says my answers are wrong.
+
+At my third attempt my question was:
+
+'Who was a man who flew in a balloon?' and the answer I
+wrote is "Steve".
+
+But your website said :
+
+The question, 'Who was a man who flew in a balloon?'
+was grammatical, but the answer to 'Who was a man who
+flew in a balloon?' is not 'Steve. It's
+'Questioner_adventure:
+../csfp/LogicalForm.hs:(235,41)-(236,54):
+Non-exhaustive patterns in case'. Try again.    
+
+At my fourth attempt my question was:
+
+ "Who flew a glider" and the answer I wrote was " Steve".
+
+But your website said :
+
+'Who flew a glider?' is not a WH-question question.
+It's a True/False question question. Try
+again.                                                                              
+
+I would be very grateful if you looked into it for me.
+Thank you.
+
+----
 == CompComp on Bett
 
 Queen Jackson
