@@ -30,15 +30,9 @@ connell:
         - question: You can work with farm machinery in the scouts.
           answer: True
         - question: You can do bungee jumping in the scouts.
-          answer: True
+          answer: False
         - question: There are a lot of things scouts can earn badges in.
           answer: True
-        - question: 
-          answer: False
-        - question: 
-          answer: True
-        - question: 
-          answer: False
     2:
       identifier: connell 2
       White: |+
@@ -146,8 +140,21 @@ connell:
         \begin{description}
         \item [Description] The disorder appears before adulthood. The problem is (1) not thinking and speaking well, and (2) not being able to lead a normal life. Usually mental retarded people have IQs below 70.
         \item [Syndromic retardation] Sometimes (not always) mentally retarded people have other medical problems, eg as in Down's Syndrome.
-         \item [Euphemisms] Whatever name is chosen, eventually becomes insulting. 'Mental retardation' is regarded as a bad word. Instead, say, 'intellectual disability', 'intellectually challenged', or 'developmental disability'.
+         \item [Euphemisms] Whatever name is chosen eventually becomes insulting. 'Mental retardation' is regarded as a bad word. Instead, say, 'intellectual disability', 'intellectually challenged', or 'developmental disability'.
          \end{description}
+      quiz:
+        - question: Richard has spent more time leading Troop 409 than he has working, serving in the Air Force.
+          answer: True
+        - question: Mentally-disabled people, and in particular, the kids in Troop 409 are not motivated to succeed.
+          answer: False
+        - question: Mentally-disabled people have other medical problems, in addition to their mental disability.
+          answer: False
+        - question: \'Mental disability\' is a euphemism.
+          answer: True
+        - question: The attitudes of the scouts in Troop 409 make Richard work harder than he might otherwise have done.
+          answer: True
+        - question: The parents of the scouts of Troop 409 expect Richard and Claudia to do everything they can for their kids.
+          answer: False
   jigsaw:
     1:
       identifier: connell 1
@@ -242,4 +249,145 @@ connell:
         - question: Derek controls what the scouts do in the troop.
           answer  : False
         - question: Derek has mental \& physical problems.
+          answer  : True
+    3:
+      identifier: connell 3
+      A: You and your wife, Claudia, have a scout troop. You are proud that your scouts try to do what they can. The troop has become very important to you. You are especially proud of your Eagle Scout, Derek.
+      B: You can't think and speak very well. But you are very dedicated. You try very hard to work with your scoutmaster, Richard, and his wife, and help the other scouts. You are a lot older than many of them.
+      C: You can't walk because you had a traffic accident when you were young. But you are not mentally-disabled. Derek and the other scouts with mental and physical problems help to pull you around in a wheelchair.
+      D: Your husband Richard is a scoutmaster. He has been a scoutmaster for much of his life. You help him. You are proud of Derek because he is dedicated and helps Randy and the other scouts.
+      quiz:
+        - question: A
+          option:
+            - Claudia
+            - Richard
+            - Derek
+            - Randy
+          answer: Richard
+        - question: B
+          option:
+            - Claudia
+            - Richard
+            - Derek
+            - Randy
+          answer: Derek
+        - question: C
+          option:
+            - Claudia
+            - Richard
+            - Derek
+            - Randy
+          answer: Randy
+        - question: D
+          option:
+            - Claudia
+            - Richard
+            - Derek
+            - Randy
+          answer: Claudia
+        - question: Richard is a scoutmaster.
+          answer  : True
+        - question: Derek is an Eagle Scout.
+          answer  : True
+        - question: Claudia doesn't think Derek is good.
+          answer  : False
+        - question: Randy helps pull Derek around.
+          answer  : False
+        - question: Derek is in control of what the scouts do.
+          answer  : False
+        - question: Derek has mental problems.
+          answer  : True
+    4:
+      identifier: connell 4
+      A: You can't walk because you had a traffic accident when you were young. But you are not mentally-disabled. Derek and the other scouts with mental and physical problems help to pull you around in a wheelchair.
+      B: Your husband Richard is a scoutmaster. He has been a scoutmaster for much of his life. You help him. You are proud of Derek because he is dedicated and helps Randy and the other scouts.
+      C: You and your wife, Claudia, have a scout troop. You are proud that your scouts try to do what they can. The troop has become very important to you. You are especially proud of your Eagle Scout, Derek.
+      D: You can't think and speak very well. But you are very dedicated. You try very hard to work with your scoutmaster, Richard, and his wife, and help the other scouts. You are a lot older than many of them.
+      quiz:
+        - question: A
+          option:
+            - Claudia
+            - Richard
+            - Derek
+            - Randy
+          answer: Randy
+        - question: B
+          option:
+            - Claudia
+            - Richard
+            - Derek
+            - Randy
+          answer: Claudia
+        - question: C
+          option:
+            - Claudia
+            - Richard
+            - Derek
+            - Randy
+          answer: Richard
+        - question: D
+          option:
+            - Claudia
+            - Richard
+            - Derek
+            - Randy
+          answer: Derek
+        - question: Richard is a scoutmaster.
+          answer  : True
+        - question: Derek is an Eagle Scout.
+          answer  : True
+        - question: Claudia doesn't think Derek is good.
+          answer  : False
+        - question: Randy helps pull Derek around.
+          answer  : False
+        - question: Derek is in control of what the scouts do.
+          answer  : False
+        - question: Derek has mental problems.
+          answer  : True
+    5:
+      identifier: connell 5
+      A: Your husband Richard is a scoutmaster. He has been a scoutmaster for much of his life. You help him. You are proud of Derek because he is dedicated and helps Randy and the other scouts.
+      B: You and your wife, Claudia, have a scout troop. You are proud that your scouts try to do what they can. The troop has become very important to you. You are especially proud of your Eagle Scout, Derek.
+      C: You can't think and speak very well. But you are very dedicated. You try very hard to work with your scoutmaster, Richard, and his wife, and help the other scouts. You are a lot older than many of them.
+      D: You can't walk because you had a traffic accident when you were young. But you are not mentally-disabled. Derek and the other scouts with mental and physical problems help to pull you around in a wheelchair.
+      quiz:
+        - question: A
+          option:
+            - Claudia
+            - Richard
+            - Derek
+            - Randy
+          answer: Claudia
+        - question: B
+          option:
+            - Claudia
+            - Richard
+            - Derek
+            - Randy
+          answer: Richard
+        - question: C
+          option:
+            - Claudia
+            - Richard
+            - Derek
+            - Randy
+          answer: Derek
+        - question: D
+          option:
+            - Claudia
+            - Richard
+            - Derek
+            - Randy
+          answer: Randy
+        - question: Richard is a scoutmaster.
+          answer  : True
+        - question: Derek is an Eagle Scout.
+          answer  : True
+        - question: Claudia doesn't think Derek is good.
+          answer  : False
+        - question: Randy helps pull Derek around.
+          answer  : False
+        - question: Derek is in control of what the scouts do.
+          answer  : False
+        - question: Derek has mental problems.
           answer  : True
