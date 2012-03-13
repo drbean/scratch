@@ -20,11 +20,11 @@ entities	=  [minBound..maxBound]
 characters :: [ (String, Entity) ]
 
 characters = [
-	( "Troop_409",	T ),
-	( "Derek",	D ),
-	( "Richard",	R ),
-	( "Claudia",	C ),
-	( "Randy",	A )
+	( "troop_409",	T ),
+	( "derek",	D ),
+	( "richard",	R ),
+	( "claudia",	C ),
+	( "randy",	A )
 	]
 
 
@@ -39,6 +39,8 @@ leader	= pred1 [R,C]
 troop	= pred1 [T]
 story	= pred1 [Y]
 job	= pred1 []
+traffic_accident	= pred1 [F]
+brain_damage	= pred1 [G]
 
 namelist = map fst characters
 
@@ -87,6 +89,7 @@ pred4 xs	= curry4 ( `elem` xs )
 --(parent,child)
 parenting	= [(R,X),(R,Z),(C,X),(C,Z)]
 supervision	= [(R,A),(R,D),(C,A),(C,D)]
+help	= [(D,A),(D,R),(D,C),(C,R)]
 marriages	= [(R,C)]
 --(husband,wife,wedding_location)
 weddings	= [(R,C,Unspec)]
@@ -98,12 +101,15 @@ divorces	= []
 --(contacter,contactee)
 possessions	= [] ++ []
 recruitment	= [(Unspec,D,T),(R,A,T),(R,C,T),(Unspec,R,T)]
-appreciation	= [(C,D)]
+appreciation	= [(C,D),(R,D)]
+accidents	= [(A,F),(D,G)]
 
 raised_by	= pred2 $ map swap parenting
 parented	= pred2 parenting
 marry_in	= pred3 $ weddings ++ map (\(x,y,z) -> (y,x,z) ) weddings
 married		= forgetful marry_in
+husband	= pred1 $ map agent weddings
+wife	= pred1 $ map theme weddings
 separated	= pred2 separations
 wedded_in	= pred2 $ map (\x -> (agent x, location x) ) weddings ++
 			map (\x -> (patient x, location x) ) weddings
@@ -118,10 +124,11 @@ supervisor	= pred1 $ map fst supervision
 subordinate	= pred1 $ map snd supervision
 
 clothing	= []
-losses	= [(Q,J),(Q,E),(A,J),(A,E)]
+losses	= []
 looking	= []
 wore	= pred2 clothing
 have	= pred2 $ possessions ++ marriages ++ parenting ++ supervision
+		++ accidents
 		++ ( map swap $ marriages ++ parenting ++ supervision )
 		++ ( map (\x->(recipient x, theme x) ) giving )
 		++ ( map (\x->(agent x,J) ) working )
@@ -139,7 +146,7 @@ interview	= pred2 $ map (\x -> (agent x, patient x) ) recruitment
 -- greet	= interview
 look_at	= pred2 $ looking
 lose	= pred2 $ losses
-help	= pred2 $ supervision ++ [(D,A)]
+helped	= pred2 $ supervision ++ help
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
