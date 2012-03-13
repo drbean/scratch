@@ -4,6 +4,7 @@
   - description
   - genre
   - target
+  - percent
   - content
   - unclozeables
 -
@@ -11,6 +12,7 @@
   - Old special-needs boy scout
   - intermediate
   - all
+  - 25
   - |+
     Richard: Derek, I joined your troop in 1987. I had two daughters, so in a way this was a 'night out with the boys.'
     Claudia: I wanted to be part of the group, too. And I became an assistant scoutmaster to Troop 409.
@@ -39,6 +41,30 @@
     Derek: Thank you.
     Claudia: Thank you, Derek.
   - Richard|Claudia|Derek|Troop|Eagle|Randy|Panhandle|Florida|harness|Mush|sled|historian
+-
+  - foreman
+  - Living with an artificial voice
+  - intermediate
+  - all
+  - |+
+    Michelle: How do you feel when people turn around and look at you?
+
+    Renee: It aggravates me. I was in the gym the other day, and I was talking to somebody. And there was a woman, and she turned around and she said, at the top of her voice: What's that funny sound? And I turned around, with my hands on my hips. I said, that's me. And she wanted to shrink into the ground. I felt so good.
+
+    Michelle: That's one thing that I love about you. You do still stick up for yourself.
+
+    Renee: I'm not a shrinking violet. But, you know, there's some good sides. When people phone me to solicit and I say hello, they think I'm playing a joke on them, and there's this long silence.
+
+    Michelle: You told me that when you answered, they said: Is this a computer that I'm speaking to? And you said, yes.
+
+    Renee: People are really very kind once they realize what the situation is. I may go into a restaurant once, and if I go back there a year later, and it's the same woman at the front desk, she'll say, where have you been? We haven't seen you for a while. So I feel like a movie star.
+
+    I remember the night before my operation. I was scared. I asked you to stay, and you slept in the bed with me, in the hospital. And then you left New York to come and be with me for a year. How did you feel about leaving your job and your friends and your life?
+
+    Michelle: I didn't even think twice about it.
+
+    Renee: I'm really very blessed in my life. I am happier now, without my voice, than I've ever been with my voice. It's a small price to pay for being alive and enjoying life. So I am very happy where I am now.
+  - Michelle|Renee|shrinking violet
 ---
 -
   - genre
