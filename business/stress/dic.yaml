@@ -75,7 +75,7 @@
 
   - KED|amusement|picnic|scenic|Korea|winter|skiing
 -
-  - bradshaw
+  - bradshaw-1
   - Cause of stress
   - business
   - A
@@ -83,7 +83,7 @@
     Stress doesn't usually have only one cause. Usually, there are a number of factors which together result in people feeling stress. A particularly bad combination is where someone is under a lot of pressure, but they also feel that whatever they do has no effect and that they have no support from other people. That combination can cause severe stress and depression. People in that situation often feel helpless. And that's a very bad feeling.
   - depression
 -
-  - bradshaw
+  - bradshaw-1
   - What Bradshaw offers
   - business
   - B
@@ -91,7 +91,7 @@
     Bradshaw is a business consultant, and he has a consultancy called In Equilibrium. He helps companies where stress is a problem by identifying the causes of high levels of stress there. He calls this stress risk assessment. The idea is to identify hotspots, areas or people where the risk of stress is high. Perhaps there is a dangerous and unpleasant environment in one part of the company. Or perhaps one manager puts a lot of pressure on workers.
   - consultancy|Bradshaw|In Equilibrium
 -
-  - bradshaw
+  - bradshaw-1
   - Bradshaw's Manager Training
   - business
   - C
@@ -99,7 +99,7 @@
     Besides helping companies understand why there is lots of stress at their companies, Bradshaw also trains managers to do the same kind of thing as he does. He shows them how to become more sensitive to how much stress there is in the company. He teaches them how to listen carefully to their workers. He also gives them the skills to reduce stress. He shows them how different ways of managing workers produce different levels of stress. 
   - Bradshaw|trains
 -
-  - bradshaw
+  - bradshaw-1
   - Differences in ways men and women handle stress
   - business
   - D
@@ -108,6 +108,21 @@
 
     Men don't like to report stress, because they don't want to appear weak. They don't want people to think they can't do their job. Actually, they are worse at coping with stress. They find it difficult to talk to managers about stress.
   - support|cope
+-
+  - bradshaw
+  - Alan Bradshaw--stress expert
+  - business
+  - all
+  - |+
+    Interviewer: What are the most common causes of stress at work?
+    Bradshaw: Well, usually it's a combination of things, er, rather than one cause. Some combinations are worse than others. Er, for example, a very bad combinations is where someone is under a lot of pressure, but they also feel that they have no control and they feel unsupported. That combination can cause severe stress and depression. People in that situation often feel helpless--that nothing they can do will make any difference, and that's a very bad feeling.
+
+    Interviewer: How do you help companies to deal with stress?
+    Bradshaw: Well, we help in two main ways: er, firstly by investigating causes of stress, what we call stress risk assessment. The idea of this is to identify areas and/or groups, hotspots, where the risk of stress is high. Secondly, we train managers by raising their awareness of stress and giving them skills to prevent and reduce stress at work.
+
+    Interviewer: Do you think that mean and women deal with stress differently?
+    Bradshaw: Yes, I do. Er, women tend to, er, report more stress. They talk more, um about their problems. Er, but they usually, in my experience, have better coping strategies. They're better at asking for and getting support, especially from their managers. Men report less stress, in my experience. They don't like to appear vulnerable and have poor coping strategies. Men are not good at getting support when they need it, and they find it difficult to talk to their managers about stress.
+  - Interviewer|Bradshaw|vulnerable
 -
   - cusp
   - CUSP--Control, Uncertainty, Support and Pressure
@@ -396,56 +411,56 @@
   - False
 -
   - business
-  - bradshaw
+  - bradshaw-1
   - 1
   - A
   - A very bad feeling for people can be the result of pressure and the feeling they have no effectiveness.
   - True
 -
   - business
-  - bradshaw
+  - bradshaw-1
   - 2
   - A
   - Usually there is only one very bad cause of stress. 
   - False
 -
   - business
-  - bradshaw
+  - bradshaw-1
   - 3
   - B
   - The consultant help by identifying areas or people causing stress to be a problem.
   - True
 -
   - business
-  - bradshaw
+  - bradshaw-1
   - 4
   - B
   - Usually there is only one very bad cause of stress. 
   - False
 -
   - business
-  - bradshaw
+  - bradshaw-1
   - 5
   - C
   - Bradshaw trains managers to be sensitive to stress and shows them ways to reduce stress.
   - True
 -
   - business
-  - bradshaw
+  - bradshaw-1
   - 6
   - C
   - Bradshaw trains workers to listen carefully to their managers as a way to reduce stress.
   - False
 -
   - business
-  - bradshaw
+  - bradshaw-1
   - 7
   - D
   - Men don't report the stress they actually have and they are worse at coping with that stress.
   - True
 -
   - business
-  - bradshaw
+  - bradshaw-1
   - 8
   - D
   - Men are better than women at coping with stress, because they report less stress and are better at getting support.
