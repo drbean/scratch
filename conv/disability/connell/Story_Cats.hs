@@ -27,10 +27,13 @@ object_names = [
 	[Cat "scouts"	"CN" [Thrd,Masc,Pl] []],
 	[Cat "scoutmaster"	"CN" [Thrd,Masc,Sg] []],
 	[Cat "assistant_scoutmaster"	"CN" [Thrd,Fem,Sg] []],
+	[Cat "eagle_scout"	"CN" [Thrd,Masc,Sg] []],
 	[Cat "leader"	"CN" [Thrd,MascOrFem,Sg] []],
 	[Cat "leaders"	"CN" [Thrd,MascOrFem,Pl] []],
 	[Cat "troop"	"CN" [Thrd,Masc,Sg] [],
 		Cat "troop"	"CN" [Thrd,Masc,Pl] []],
+	[Cat "traffic_accident"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "brain_damage"	"NP" [Thrd,Neutr,Sg] []],
 	[Cat "story"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "job"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "jobs"	"CN" [Thrd,Neutr,Pl] []],
@@ -44,17 +47,17 @@ story_verbs = [
 	[Cat "helped"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "help"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "volunteered"	"VP" [Tense] [Cat "_" "PP" [At] []]],
-	[Cat "volunteer"	"VP" [Infl] [Cat "_" "PP" [At] []]],
-	[Cat "looked"	"VP" [Tense] [Cat "_" "PP" [At] []]],
-	[Cat "look"	"VP" [Infl] [Cat "_" "PP" [At] []]],
-	[Cat "taught"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
-		Cat "taught"	"VP" [Tense] []],
-	[Cat "teach"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
-		Cat "teach"	"VP" [Infl] []],
-	[Cat "interviewed"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "interview"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "greeted"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "greet"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
+	[Cat "volunteer"	"VP" [Infl] [Cat "_" "PP" [At] []]]
+	--[Cat "looked"	"VP" [Tense] [Cat "_" "PP" [At] []]],
+	--[Cat "look"	"VP" [Infl] [Cat "_" "PP" [At] []]],
+	--[Cat "taught"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
+	--	Cat "taught"	"VP" [Tense] []],
+	--[Cat "teach"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
+	--	Cat "teach"	"VP" [Infl] []],
+	--[Cat "interviewed"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	--[Cat "interview"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
+	--[Cat "greeted"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	--[Cat "greet"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
 	]
 
 story_aux = [
