@@ -246,6 +246,12 @@ topic:
           Listen to the first half of the soundfile. But you only need to transcribe your sections. Think about the roles of control, uncertainty, support and pressure in reducing stress.
       -
         id: bradshaw
+        title: Bradshaw--stress expert 
+        blurb: Bradshaw works as a business consultant, helping companies identify the causes of their high levels of stress, and showing managers how to be more sensitive to stress and how to reduce it.
+        comment: |+
+          Like Dot Gourlay who talked about <a href="http://www.in-equilibrium.co.uk/resources/podcasts/stress-prevention-tool">CUSP</a>, he has a Scottish accent. But he speaks clearly and simply. Listen to Alan at <a href="http://elearning.nuu.edu.tw/">http://elearning.nuu.edu.tw</a>
+      -
+        id: bradshaw-1
         title: Bradshaw talks about stress
         blurb: Bradshaw works as a business consultant, helping companies identify the causes of their high levels of stress, and showing managers how to be more sensitive to stress and how to reduce it.
         comment: |+
