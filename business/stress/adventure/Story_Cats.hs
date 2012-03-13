@@ -13,6 +13,7 @@ multipart_names = [
 proper_names, object_names, story_verbs :: Lexset
 
 proper_names = [
+	[Cat "cusp" "NP" [Thrd,Neutr,Sg] []],
 	[Cat "ellen" "NP" [Thrd,Fem,Sg] []],
 	[Cat "dr_bean" "NP" [Thrd,Masc,Sg] []],
 	[Cat "steve" "NP" [Thrd,Masc,Sg] []]
@@ -31,6 +32,9 @@ object_names = [
 	[Cat "adventurer"	"CN" [Thrd,MascOrFem,Sg] []],
 	[Cat "adventurers"	"CN" [Thrd,MascOrFem,Pl] []],
 	[Cat "boat"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "plane"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "glider"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "balloon"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "world"	"CN" [Thrd,Neutr,Sg] []]
 	]
 
@@ -53,7 +57,7 @@ story_verbs = [
 		Cat "sailed"	"VP" [Tense] [Cat "_" "PP" [Around] [],
 						Cat "_" "PP" [In] []]],
 	[Cat "sail"	"VP" [Infl] [Cat "_" "PP" [Around] []],
-		Cat "sailed"	"VP" [Tense] [Cat "_" "PP" [Around] [],
+		Cat "sail"	"VP" [Tense] [Cat "_" "PP" [Around] [],
 						Cat "_" "PP" [In] []]]
 	]
 
