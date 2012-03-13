@@ -4,8 +4,6 @@ import Data.Tuple
 import Data.List
 import Data.Maybe
 
-import Topic_Model
-
 data Entity	= A | B | C | D | E | F | G 
             | H | I | J | K | L | M | N 
             | O | P | Q | R | S | T | U 
@@ -13,7 +11,7 @@ data Entity	= A | B | C | D | E | F | G
             | AA | BB | CC | DD | EE | FF | GG 
             | HH | II | JJ | KK | LL | MM | NN 
             | OO | PP | QQ | RR | SS | TT | UU 
-            | VV | WW | XX | YY | ZZ | Some1 | Some12 | Unspec
+            | VV | WW | XX | YY | ZZ | Someone | Something | Some12 | Unspec
      deriving (Eq,Show,Bounded,Enum,Ord)
 
 entities :: [Entity]
@@ -36,18 +34,27 @@ characters = [
 
 adventurer	= pred1 [S,E]
 teacher	= pred1 [T]
-student = pred1 [Some1,Some12]
+financial_trader = pred1 [S]
+student = pred1 [Someone,Some12]
 
-balloon = [B]
-glider	= [G]
-aircraft	= [A]
-boat	= [Y]
+balloon = pred1 [B]
+glider	= pred1 [G]
+poweredcraft	= pred1 [P]
+aircraft	= pred1 [B,P,G]
+boat	= pred1 [Y]
 
-lack_of_control	= [CC]
-uncertainty	= [UU]
-lack_of_support	= [SS]
+plane = poweredcraft
+
+world = pred1 [W]
+
+lack_of_control	= pred1 [CC]
+uncertainty	= pred1 [UU]
+lack_of_support	= pred1 [SS]
 pressure	= pred1 [PP]
-stress	= pred1 [SS]
+-- stress	= pred1 [SS]
+
+framework	= pred1 [K]
+useful	= framework
 
 namelist = map fst characters
 
@@ -56,6 +63,12 @@ male, female :: OnePlacePred
 
 male	= pred1 [T,S]
 female	= pred1 [E]
+
+boy x	= False
+isMan   = \x -> ( not $ boy x ) && male x
+isGirl  = \x -> False
+isWoman = \x -> ( not $ isGirl x ) && female x
+
 
 type OnePlacePred	= Entity -> Bool
 type TwoPlacePred	= Entity -> Entity -> Bool
@@ -87,9 +100,10 @@ pred4 xs	= curry4 ( `elem` xs )
 -- support	= [(Unspec,E)]
 --(pressurizer,pressured)
 pressurepoints	= []
+stress_causes	= [(S,UU),(S,PP),(S,CC),(E,UU),(E,PP)]
 
 -- circumnavigator, vehicle, accomplishment
-circumnavigations	= [(S,B),(S,A),(S,Y),(E,Y)]
+circumnavigations	= [(S,B),(S,P),(S,Y),(E,Y)]
 possessions	= []
 recruitment	= []
 appreciation	= []
@@ -100,6 +114,16 @@ boss	= supervisor
 subordinate	= pred1 $ map snd supervision
 employee	= subordinate
 manager = boss
+
+feel_stress	= pred1 $ map fst stress_causes
+cause_stress	= pred2 stress_causes
+circumnavigate = pred2 circumnavigations
+fly_around_in	= pred3 $ map (\x -> (fst x,W,snd x) ) $ filter (\x -> snd x == B || snd x == P)
+			circumnavigations
+sail_around_in	= pred3 $ map (\x -> (fst x,W,snd x) ) $ filter (\x -> snd x == Y )
+			circumnavigations
+fly_around	= forgetful fly_around_in
+sail_around	= forgetful sail_around_in
 
 looking	= []
 have	= pred2 $ possessions ++ supervision
