@@ -86,6 +86,12 @@ male, female :: OnePlacePred
 male	= pred1 [S,Q,V,C,O,L,I]
 female	= pred1 [E,P,N]
 
+boy x	= False
+isMan   = \x -> ( not $ boy x ) && male x
+isGirl  = \x -> False
+isWoman = \x -> ( not $ isGirl x ) && female x
+
+
 type OnePlacePred	= Entity -> Bool
 type TwoPlacePred	= Entity -> Entity -> Bool
 type ThreePlacePred	= Entity -> Entity -> Entity -> Bool
