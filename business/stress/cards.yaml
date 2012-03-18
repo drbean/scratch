@@ -469,7 +469,7 @@ adventure:
           - support
           - pressure
         answer: uncertainty
-      - question: NOT a cause. Flying over the mountain was not a record attempt.
+      - question: NOT a cause. It was not a record attempt. No one told him, 'You MUST fly over the mountain.'
         option:
           - control
           - uncertainty
