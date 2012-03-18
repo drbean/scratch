@@ -2,14 +2,15 @@ module Cats where
 
 import Parsing
 
-class_names, prons, reflexives, interrogatives, aux, intransitives, transitives, ditransitives, determiners, preps, conjuncts :: Lexset
+class_names, prons, reflexives, interrogatives, aux, cops, gerunds, intransitives, transitives, ditransitives, determiners, preps, advs, conjuncts :: Lexset
 
 class_names = [
 --noun and verb
 	[Cat "thing"   "CN" [Sg,Neutr,Thrd] []],
 	[Cat "things"  "CN" [Pl,Neutr,Thrd] []],
-	[Cat "person"  "CN" [Sg,Masc,Thrd]  []],
-	[Cat "persons" "CN" [Pl,Masc,Thrd]  []],
+	[Cat "person"  "CN" [Sg,MascOrFem,Thrd]  []],
+	[Cat "persons" "CN" [Pl,MascOrFem,Thrd]  []],
+	[Cat "people" "CN" [Pl,MascOrFem,Thrd]  []],
 	[Cat "man"     "CN" [Sg,Masc,Thrd]  []],
 	[Cat "men"     "CN" [Pl,Masc,Thrd]  []],
 	[Cat "woman"   "CN" [Sg,Fem,Thrd]   []],
@@ -54,7 +55,7 @@ interrogatives = [
 			Cat "who" "REL" [MascOrFem]         []],
 	[Cat "whom" "NP"  [Sg,Wh,Thrd,AccOrDat,MascOrFem] [],
 			Cat "whom" "REL" [Sg,MascOrFem,AccOrDat]         []],
-	-- [Cat "what" "NP"  [Wh,Thrd,AccOrDat,Neutr]    []],
+	[Cat "what" "NP"  [Wh,Thrd,AccOrDat,Neutr]    []],
 	[Cat "that"  "REL" [] [], Cat "that"  "DET" [Sg]    []],
 	[Cat "which" "REL" [Neutr] [], Cat "which" "DET" [Wh] []]
 	-- [Cat "where" "NP" [Neutr] [], Cat "where" "REL" [] []]
@@ -232,18 +233,23 @@ ditransitives = [
 
 preps = [
 	[Cat "about"   "PREP" [About]   []],
-	[Cat "around"   "PREP" [Around]   []],
 	[Cat "as"   "PREP" [As]   []],
 	[Cat "at"   "PREP" [At]   []],
 	[Cat "because_of"   "PREP" [BecauseOf]   []],
+	[Cat "before"   "PREP" [Before]   []],
 	[Cat "by"   "PREP" [By]   []],
 	[Cat "for"  "PREP" [For]  []],
 	[Cat "from" "PREP" [From] []],
+	[Cat "like" "PREP" [Like] []],
 	[Cat "in"   "PREP" [In]   []],
 	[Cat "on"   "PREP" [On]   []],
 	[Cat "to"   "PREP" [To]   []],
 	[Cat "through" "PREP" [Through] []],
 	[Cat "with" "PREP" [With] []]
+	]
+
+advs = [
+	[Cat "around"   "ADV" [Around]   []]
 	]
 
 conjuncts = [
