@@ -12,9 +12,7 @@ objects = [
 	( "boy",	\ [x] -> boy x	),
 	( "girl",	\ [x] -> isGirl x	),
 	( "person",	\ [x] -> people x	),
-	( "thing",	\ [x] -> things x	),
-	( "supervisor",	\ [x] -> supervisor x	),
-	( "subordinate",	\ [x] -> subordinate x	)
+	( "thing",	\ [x] -> things x	)
  ]
 
 inflections :: [(String, String)]
@@ -22,14 +20,12 @@ inflections = [
  ( "men",	"man" ),
  ( "women",	"woman" ),
  ( "persons",	"person" ),
+ ( "people",	"person" ),
  ( "things",	"thing" ),
- ( "supervisors",	"supervisor" ),
- ( "subordinates",	"subordinate" ),
  ( "appreciate",	"appreciated" ),
  ( "disappoint",	"disappointed" ),
  ( "worked",	"work" ),
  ( "have",	"had" ),
- ( "know",	"knew" ),
  ( "looked_back",	"look_back" ),
  ( "ask",	"asked" ),
  ( "talk",	"talked" ),
@@ -55,7 +51,6 @@ relations = [
  	[x] -> worker x
  	[x,y] -> work_where y x || work_as y x ),
  ( "had", \[x,y] -> have y x ),
- ( "knew", \[x,y] -> know y x ),
  ( "look_back", \args -> case args of
  	[x] -> look_back x
  	[x,y] -> look_back_on y x ),
