@@ -16,11 +16,12 @@ lexicon :: String -> [Cat]
 lexicon lexeme = maybe unknownWord id $
 	find (\x -> phon (head x) == lexeme ) $
 	proper_names ++ object_names ++ story_verbs ++ story_aux ++ story_adjs ++
+	    story_advs ++
 	class_names ++ interrogatives ++
 	cops ++ aux ++
 	transitives ++ -- intransitives ++ ditransitives ++
 	possessives ++ preps ++ determiners ++ conjuncts
-	-- ++ prons ++ reflexives
+	++ prons ++ reflexives
 	where unknownWord = [Cat "" "" [] []]
 
 parses :: String -> [ParseTree Cat Cat]
@@ -230,15 +231,15 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [])]) =
         \ t -> ( Rel name [t] )
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ []),
     Branch (Cat "_" "COMP" [] []) [comp]]) = case (comp) of
-    Leaf (Cat name "NP" _ _ ) -> \t -> (Rel name [t] )
-    Leaf (Cat qual "ADJ" _ _ ) -> \t -> (Rel qual [t] )
-    Branch (Cat _ "NP" _ _) [det,cn] -> case (cn) of
-	Leaf (Cat name "CN" _ _) -> \t -> Rel name [t]
-    Branch (Cat _ "NP" _ _) [np,Leaf (Cat _ "APOS" _ _),cn] -> case (cn) of
-	Leaf (Cat name "CN" _ _) -> \x -> transNP np
-	    (\owner -> Conj [Rel name [x], Rel "had" [owner,x] ] )
-    Branch (Cat _ "NP" _ _) [det,Leaf (Cat qual "ADJ" _ _),cn] -> \subj
-	-> Conj [ transCN cn subj, Rel qual [subj] ]
+	Leaf (Cat name "NP" _ _ ) -> \t -> (Rel name [t] )
+	Leaf (Cat qual "ADJ" _ _ ) -> \t -> (Rel qual [t] )
+	Branch (Cat _ "NP" _ _) [det,cn] -> case (cn) of
+	    Leaf (Cat name "CN" _ _) -> \t -> Rel name [t]
+	Branch (Cat _ "NP" _ _) [np,Leaf (Cat _ "APOS" _ _),cn] -> case (cn) of
+	    Leaf (Cat name "CN" _ _) -> \x -> transNP np
+		(\owner -> Conj [Rel name [x], Rel "had" [owner,x] ] )
+	Branch (Cat _ "NP" _ _) [det,Leaf (Cat qual "ADJ" _ _),cn] -> \subj
+	    -> Conj [ transCN cn subj, Rel qual [subj] ]
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1]) = 
 	case (obj1) of 
 		(Branch (Cat _ "PP" _ _) _ ) ->
