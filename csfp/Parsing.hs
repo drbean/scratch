@@ -33,7 +33,8 @@ data Feat = Masc  | Fem  | Neutr | MascOrFem
           | Nom   | AccOrDat
           | Pers  | Refl | Wh 
           | Tense | Infl
-          | About | Around | At | As | BecauseOf | In | On | For | With
+          | About | Around | At | As | BecauseOf | Before 
+	  | In | Like | On | For | With
 	  | By | To | From | Through
 	  | Of
           deriving (Eq,Show,Ord)
@@ -48,7 +49,8 @@ person   = filter (`elem` [Fst,Snd,Thrd])
 gcase    = filter (`elem` [Nom,AccOrDat])
 pronType = filter (`elem` [Pers,Refl,Wh]) 
 tense    = filter (`elem` [Tense,Infl]) 
-prepType = filter (`elem` [About,As,At,In,On,For,With,By,To,From,Through]) 
+prepType = filter (`elem` [About,As,At,BecauseOf,Before,Like,In,On,For,With,By,To,From,Through]) 
+advType = filter (`elem` [Around,In,On]) 
 posType  = filter (`elem` [Of])
 
 prune :: Agreement -> Agreement
@@ -123,6 +125,18 @@ preproc []                 = []
 preproc ["."]              = []
 preproc ["?"]              = []
 preproc (",":xs)           = preproc xs
+
+preproc("what's":xs)          = "what" : "was" : preproc xs
+preproc("what're":xs)          = "what" : "were" : preproc xs
+
+preproc ("throat":"cancer":xs)	= "throat_cancer" : preproc xs
+preproc ("shrinking":"violet":xs)	= "shrinking_violet" : preproc xs
+-- preproc ("turn":"around":xs)	= "turn_around" : preproc xs
+-- preproc ("turned":"around":xs)	= "turned_around" : preproc xs
+preproc ("hands":"on":"hips":xs)	= "hands_on_hips" : preproc xs
+preproc ("front":"desk":xs)	= "front_desk" : preproc xs
+preproc ("movie":"star":xs)	= "movie_star" : preproc xs
+preproc ("new":"york":xs)	= "new_york" : preproc xs
 
 preproc ("dr":"bean":xs)	= "dr_bean" : preproc xs
 preproc ("european":"campers":xs)	= "european_campers" : preproc xs
