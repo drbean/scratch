@@ -520,8 +520,8 @@ adventure:
   10:
     identifier: adventure stress 10
     A: Ellen set the record for the fastest time around the world alone in a sailing boat. She was on the boat alone but she had a lot of help from a team. The team sent her weather reports. She sent them videos. This interaction meant she was never lonely. She never had time. She was very busy making the boat go fast. 
-    B: The boat was very big and very fast. And she had no time to sleep. She never slept for more than an hour, because the wind was very strong and kept changing. She needed to make changes to the boat. She needed to be strong. So she did very hard physical training every day before she left.But having a team also meant she couldn't give up. Because she knew it would disappoint many people.
-    C: The kind of boat that Ellen sailed is very fast, but it also needs to be carefully sailed, because it will turn over if you make a mistake. 2 years before Ellen had been on a boat which did turn over when it hit something in the water. She didn't die, but she faced death sailing very fast in very bad weather.
+    B: The boat was very big and very fast. And she had no time to sleep. She never slept for more than an hour, because the wind was very strong and kept changing. She had to make changes to the boat all the time. And she couldn't give up. Because she knew her team and many other people would be disappointed.
+    C: The kind of boat that Ellen sailed is very fast, but it also needs to be carefully sailed, because it will turn over if you make a mistake. 2 years before Ellen had been on a boat which did turn over after it hit something in the water. She didn't die, but she faced death sailing very fast in very bad weather.
     quiz:
       - question: The team was helpful, but also a SOURCE of stress. Which source?
         option:
@@ -529,35 +529,35 @@ adventure:
           - uncertainty
           - support
           - pressure
+        answer: pressure
+      - question: The weather
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: uncertainty
+      - question: Facing death
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: uncertainty
+      - question: The big boat requiring a lot of hard work
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
         answer: control
-      - question: Steve's second-biggest source of stress.
+      - question: NOT a cause of stress.
         option:
           - control
           - uncertainty
           - support
           - pressure
-        answer: uncertainty
-      - question: The inability to make the plane climb quickly.
-        option:
-          - control
-          - uncertainty
-          - support
-          - pressure
-        answer: control
-      - question: Not knowing if he would make it over the mountain.
-        option:
-          - control
-          - uncertainty
-          - support
-          - pressure
-        answer: uncertainty
-      - question: NOT a cause. It was not a record attempt. No one told him, 'You MUST fly over the mountain.'
-        option:
-          - control
-          - uncertainty
-          - support
-          - pressure
-        answer: uncertainty
+        answer: support
  compcomp:
    0:
      identifier: adventure stress causes 0
