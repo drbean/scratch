@@ -476,6 +476,47 @@ adventure:
           - support
           - pressure
         answer: uncertainty
+  9:
+    identifier: adventure stress 9
+    A: Steve made 6 attempts to fly round the world solo in a balloon. Only the last was successful. On Steve's 4th attempt, his balloon flew into a thunderstorm in the ocean 800 kilometers from land. His team could not tell him what to do to avoid the thunderstorm. The thunderstorm made a hole in the balloon.
+    B: He was 9 kilometers high in the air. His balloon lost all its air and started falling. When the balloon was 500 meters above the water, he threw out everything from the balloon. He was surprised he was unhurt when the balloon hit the water. But the balloon caught fire and sank. He jumped into a life raft.
+    C: He was in the water for one night, and a rescue plane found him the next morning. A sailing boat picked him up at night. So he was in the water for 24 hours. His team did not pick him up. He had to ask people for help.
+    quiz:
+      - question: Steve's biggest source of stress.
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: control
+      - question: Steve's second-biggest source of stress.
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: uncertainty
+      - question: The inability to make the plane climb quickly.
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: control
+      - question: Not knowing if he would make it over the mountain.
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: uncertainty
+      - question: NOT a cause. It was not a record attempt. No one told him, 'You MUST fly over the mountain.'
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: uncertainty
  compcomp:
    0:
      identifier: adventure stress causes 0
