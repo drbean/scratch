@@ -16,10 +16,10 @@ for my $t ( keys %$cards ) {
 	for my $f ( keys %$compcomp ) {
 		my $form = $compcomp->{$f};
                 my $pairtmpl = Text::Template->new( type => 'file',
-                        source =>  '../tmpl/compcompA4.tmpl' ,
+                        source =>  '/home/drbean/class/tmpl/compcompA4.tmpl' ,
                         delimiters => [ '<TMPL>', '</TMPL>' ]);
 		my $quiztmpl = Text::Template->new( type => 'file',
-			source =>  '../tmpl/namequestionsB7.tmpl' ,
+			source =>  '/home/drbean/class/tmpl/namequestionsB7.tmpl' ,
 			delimiters => [ '<TMPL>', '</TMPL>' ]);
                 my $cio = io "$ARGV[0]/compcomp$t$f.tex";
 		my $qio = io "$ARGV[0]/quiz$t$f.tex";
@@ -40,10 +40,10 @@ for my $t ( keys %$cards ) {
 	for my $f ( keys %$jigsaw ) {
 		my $form = $jigsaw->{$f};
 		my $fourtmpl = Text::Template->new( type => 'file',
-			source =>  '../tmpl/jigsaw.tmpl' ,
+			source =>  '/home/drbean/class/tmpl/jigsaw.tmpl' ,
 			delimiters => [ '<TMPL>', '</TMPL>' ]);
 		my $quiztmpl = Text::Template->new( type => 'file',
-            source =>  '../tmpl/namequestionsB5.tmpl' ,
+            source =>  '/home/drbean/class/tmpl/namequestionsA4.tmpl' ,
 			delimiters => [ '<TMPL>', '</TMPL>' ]);
 		my $fio = io "$ARGV[0]/jigsaw$t$f.tex";
 		my $qio = io "$ARGV[0]/quiz$t$f.tex";
