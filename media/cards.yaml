@@ -1,0 +1,95 @@
+genre: media
+20120224:
+  compcomp:
+    0:
+      identifier: 20120224
+      White: |+
+      Black: |+
+      quiz:
+  jigsaw:
+    0:
+      identifier: 20120224 0
+      A: 
+      B: You had a traffic accident when you were young and cannot walk. Your brain is OK, but you feel sad. Your mother thought joining the boy scouts would help you live a better life. The mentally-disabled and physically-disabled Derek Connell is helpful.
+      C: Your husband Richard is a scoutmaster. He has been a scoutmaster for much of his life. You and he have two daughters, but he loves helping the boys do activities like, camping and learning skills like first aid, swimming and woodworking.
+      quiz:
+        - question: A
+          option:
+            - Jeremy
+            - Richard Coleman
+            - Derek Connell
+            - Randy Newman
+          answer: Derek
+        - question: B
+          option:
+            - Claudia Coleman
+            - Richard Coleman
+            - Derek Connell
+            - Randy Newman
+          answer: Randy
+        - question: C
+          option:
+            - Claudia Coleman
+            - Richard Coleman
+            - Derek Connell
+            - Randy Newman
+          answer: Claudia
+        - question: D
+          option:
+            - Claudia Coleman
+            - Richard Coleman
+            - Derek Connell
+            - Randy Newman
+          answer: Richard
+        - question: Richard is a scoutmaster.
+          answer  : True
+        - question: Derek is an Eagle Scout.
+          answer  : True
+        - question: Claudia is Derek's mother.
+          answer  : False
+        - question: Randy is mentally-disabled.
+          answer  : False
+        - question: Derek helps the other scouts.
+          answer  : True
+        - question: Richard's sons are in the troop.
+          answer  : False
+bx8B3ORmMZo:
+  jigsaw:
+    0:
+      identifier: bx8B3ORmMZo 0
+      A: Your company, News of the World was hacking phones of famous people. Police investigated when Prince Harry complained, but they didn't investigate very carefully. Only one reporter was jailed, but everyone in the newspaper was hacking phones. People say you asked police not to investigate the phone hacking. You read Elizabeth Filkin's report.
+      B: Before the chief police officer resigned, he asked you to report on the proper relationship between the police and the media. You say that some police were taking money from journalists. You think News of the World might have stopped a full police investigation. You don't know if Rupert Murdoch knew.
+      C: You are third in line to be King of England. You went to a strip club. News of the World found out your girlfriend was mad at you. You think the newspaper hacked your phones. You told police. They arrested a reporter, who went to jail. You hear later that the newspaper hacked the phones of many people. Later, the newspaper closed down.
+      quiz:
+        - question: A
+          option:
+            - Elizabeth Filkin
+            - Prince Harry
+            - Rupert Murdoch
+          answer: Rupert Murdoch
+        - question: B
+          option:
+            - Elizabeth Filkin
+            - Prince Harry
+            - Rupert Murdoch
+          answer: Elizabeth Filkin
+        - question: C
+          option:
+            - Elizabeth Filkin
+            - Prince Harry
+            - Rupert Murdoch
+          answer: Prince Harry
+        - question: News of the World no longer exists.
+          answer  : True
+        - question: The resigning police officer may have been involved.
+          answer  : True
+        - question: Filkin knows that Murdoch knew about the phone hacking.
+          answer  : False
+        - question: Many reporters were hacking phones, but were not jailed.
+          answer  : True
+        - question: The prince hacked Murdoch's phone.
+          answer  : False
+        - question: Filkin thinks the police-media relationship needs changes.
+          answer  : True
+        - question: The prince's girlfriend was mad at the newspaper.
+          answer  : False
