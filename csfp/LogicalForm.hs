@@ -135,6 +135,12 @@ transS (Just (Branch (Cat _ "YN" _ _)
 
 transS _ = NonProposition
 
+transNPorPP :: ParseTree Cat Cat -> 
+                (Term -> LF) -> LF
+transNPorPP obj = case ( catLabel (t2c obj) ) of
+    "NP" -> transNP obj
+    "PP" -> transPP obj
+
 transNP :: ParseTree Cat Cat -> 
                 (Term -> LF) -> LF
 transNP (Leaf (Cat "#"  "NP" _ _)) = \ p -> p (Var 0)
@@ -261,6 +267,11 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),obj1,obj2]) =
 	"PP" -> \agent -> transPP obj1 (\theme -> transPP obj2 (\instrument
 		-> Rel name [agent,theme,instrument]))
 	_ -> undefined
+transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_,_]),obj1,obj2,obj3]) = 
+    \ agent   -> transNPorPP obj1 
+    (\ location   -> transNPorPP obj2
+    (\ theme   -> transNPorPP obj3
+     (\ recipient -> Rel name [agent,location,theme,recipient])))
 transVP (Branch (Cat _ "VP" _ _) 
                 [Leaf (Cat "could" "AUX" _ []),vp]) = 
         transVP vp 
@@ -277,22 +288,23 @@ transVP (Branch (Cat _ "VP" _ _)
                 [Leaf (Cat "#" "AUX" _ []),vp]) = 
         transVP vp 
 
-transWH :: ParseTree Cat Cat -> LF
-transWH (Branch (Cat _ "WH" _ _ ) [wh,Branch (Cat _ "S" _ _) [Leaf (Cat "#" "NP" _ _),vp]]) =
+transWH :: Maybe (ParseTree Cat Cat) -> LF
+transWH (Just (Branch (Cat _ "WH" _ _ ) [wh,Branch (Cat _ "S" _ _)
+	[Leaf (Cat "#" "NP" _ _),vp]])) =
 	WH (\x -> Conj [ transW wh x, transVP vp x ])
 
-transWH (Branch (Cat _ "WH" _ _ )
+transWH (Just (Branch (Cat _ "WH" _ _ )
 	[wh,(Branch (Cat _ "YN" _ _) [_,(Branch
 		(Cat _ "S" _ _) [np,(Branch
 			(Cat _ "VP" _ _) [Leaf (Cat "#" "COP" _ _),(Branch
-				(Cat _ "COMP" _ _) [Leaf (Cat "#" "NP" _ _)])])])])]) =
+				(Cat _ "COMP" _ _) [Leaf (Cat "#" "NP" _ _)])])])])])) =
 	WH (\x -> transNP np (\obj -> Eq obj x ) )
 
-transWH (Branch (Cat _ "WH" _ _ )
+transWH (Just (Branch (Cat _ "WH" _ _ )
 	[wh,(Branch (Cat _ "YN" _ _) [_,(Branch
 		(Cat _ "S" _ _) [np,(Branch
 			(Cat _ "VP" _ _) [_,vp@(Branch
-				(Cat _ "VP" _ _) [Leaf (Cat two_ple "VP" _ _),obj])])])])]) =
+				(Cat _ "VP" _ _) [Leaf (Cat two_ple "VP" _ _),obj])])])])])) =
 	case (obj) of 
 		(Leaf (Cat _ "NP" _ _) ) ->
 			WH (\x -> Conj [transW wh x,
@@ -303,12 +315,12 @@ transWH (Branch (Cat _ "WH" _ _ )
 				transNP np (\agent ->
 					Rel two_ple [agent,x])])
 
-transWH (Branch (Cat _ "WH" _ _ )
+transWH (Just (Branch (Cat _ "WH" _ _ )
 	[wh,(Branch (Cat _ "YN" _ _) [_,(Branch
 		(Cat _ "S" _ _) [np,(Branch
 			(Cat _ "VP" _ _) [_,vp@(Branch
 				(Cat _ "VP" _ _) [Leaf (Cat three_ple "VP" _ _),obj1,obj2]
-						)])])])]) =
+						)])])])])) =
 	case (obj1,obj2) of 
 		(_,Branch (Cat _ "PP" _ _) [Leaf (Cat _ "PREP" _ _),
 						Leaf (Cat "#" "NP" _ _)]) ->
@@ -319,6 +331,7 @@ transWH (Branch (Cat _ "WH" _ _ )
 			WH (\x -> Conj [transW wh x,
 				transNP np (\agent -> transNP obj1
 					( \recipient -> Rel three_ple [agent,x,recipient]))])
+transWH _ = NonProposition
 
 transW :: ParseTree Cat Cat -> (Term -> LF)
 transW (Branch (Cat _ "NP" fs _) [det,cn]) = 
@@ -408,6 +421,7 @@ ent2Maybe scope = \e -> case evl (scope (Const e)) of
 	False -> Nothing; True -> Just e
 evalW :: LF -> [Entity]
 evalW (WH scope)	= mapMaybe (ent2Maybe scope) realents
+evalW NonProposition	= []
 
 ttest :: (Term -> LF) -> Term -> Bool
 ttest scope (Const a) = evl (scope (Const a))
