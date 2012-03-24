@@ -137,6 +137,7 @@ preproc ("hands":"on":"hips":xs)	= "hands_on_hips" : preproc xs
 preproc ("front":"desk":xs)	= "front_desk" : preproc xs
 preproc ("movie":"star":xs)	= "movie_star" : preproc xs
 preproc ("new":"york":xs)	= "new_york" : preproc xs
+preproc ("south":"africa":xs)	= "south_africa" : preproc xs
 
 preproc ("dr":"bean":xs)	= "dr_bean" : preproc xs
 preproc ("european":"campers":xs)	= "european_campers" : preproc xs
@@ -397,7 +398,7 @@ vpR = \us xs ->
  [(Branch (Cat "_" "VP" (fs (t2c vp)) []) (vp:xps),ws,zs) |  
              (vp,vs,ys)  <- leafPS "VP" us xs, 
              subcatlist  <- [subcatList (t2c vp)],
-             (xps,ws,zs) <- prsNPsorPPs vs ys, 
+             (xps,ws,zs) <- prsVdependents vs ys, 
              match subcatlist (map t2c xps) ]
 
 finVpR :: SPARSER Cat Cat
@@ -435,6 +436,8 @@ prsNPorPP = prsNP <||> prsPP
 prsNPsorPPs :: [Cat] -> [Cat] 
        -> [([ParseTree Cat Cat],[Cat],[Cat])]
 prsNPsorPPs = manyS prsNPorPP
+
+prsVdependents = prsNPsorPPs <||> manyS prsS
 
 cnrelR :: SPARSER Cat Cat
 cnrelR = \us xs -> 
