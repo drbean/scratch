@@ -37,7 +37,7 @@ main = do
 			label Ep = "Unparseable"
 			label p  = catLabel $ t2c p
 			form p = case label p of
-				"WH" -> transWH $ p
+				"WH" -> transWH (Just p)
 				_ -> transTXT (Just p)
 			answer p = case label p of
 				"WH" -> show $ map ( toupper . named) $
