@@ -24,7 +24,6 @@ inflections = [
  ( "things",	"thing" ),
  ( "appreciate",	"appreciated" ),
  ( "disappoint",	"disappointed" ),
- ( "worked",	"work" ),
  ( "have",	"had" ),
  ( "looked_back",	"look_back" ),
  ( "ask",	"asked" ),
@@ -47,9 +46,6 @@ inflections = [
 relations = [
  
  ( "appreciated", \[x,y] -> appreciate y x ),
- ( "work", \args -> case args of
- 	[x] -> worker x
- 	[x,y] -> work_where y x || work_as y x ),
  ( "had", \[x,y] -> have y x ),
  ( "look_back", \args -> case args of
  	[x] -> look_back x
