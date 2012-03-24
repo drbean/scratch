@@ -478,50 +478,50 @@ adventure:
         answer: uncertainty
   9:
     identifier: adventure stress 9
-    A: Steve made 6 attempts to fly round the world solo in a balloon. Only the last was successful. On Steve's 4th attempt, his balloon flew into a thunderstorm in the ocean 800 kilometers from land. His team told him to fly over the thunderstorm, but the thunderstorm was too high. The thunderstorm made a hole in the balloon.
-    B: He was 9 kilometers high in the air. His balloon lost all its air and started falling. When the balloon was 500 meters above the water, he threw out everything from the balloon. He was surprised he was unhurt when the balloon hit the water. But the balloon caught fire and sank. He jumped into a life raft.
-    C: He was in the water for one night, and a rescue plane found him the next morning. A sailing boat picked him up at night. So he was in the water for 24 hours. His team did not pick him up. He had to ask people for help.
+    A: Steve made 6 attempts to fly round the world solo in a balloon. Only the last was successful. On Steve's 4th attempt, there was a fire soon after take-off, but he was able to put the fire out. He continued on. Over the ocean he started going backwards because his team was not good at finding the right height for him to fly at. 
+    B: Later, he flew into a thunderstorm. His team told him to fly over the thunderstorm. He went up 9 kilometers into the air. But, the thunderstorm broke the balloon, and it started falling. He thought he would die but was unhurt when the balloon hit the water. The balloon caught fire and sank. He jumped into a life raft.
+    C: He was in the water for one night. A rescue plane found him the next morning. A sailing boat picked him up the following night. He was in the water for 24 hours. His team did not help. For his 6th attempt, he had a different, more helpful team. The new team had more experience helping ballooners find good weather.
     quiz:
-      - question: Steve's biggest source of stress.
+      - question: The old team
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: support
+      - question: The weather
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: uncertainty
+      - question: The fire in the balloon
         option:
           - control
           - uncertainty
           - support
           - pressure
         answer: control
-      - question: Steve's second-biggest source of stress.
+      - question: The desire to set the round-the-world solo balloon record and the failure of the 1st 5 attempts
         option:
           - control
           - uncertainty
           - support
           - pressure
-        answer: uncertainty
-      - question: The inability to make the plane climb quickly.
+        answer: pressure
+      - question: NOT a cause of stress on the 6th attempt
         option:
           - control
           - uncertainty
           - support
           - pressure
-        answer: control
-      - question: Not knowing if he would make it over the mountain.
-        option:
-          - control
-          - uncertainty
-          - support
-          - pressure
-        answer: uncertainty
-      - question: NOT a cause. It was not a record attempt. No one told him, 'You MUST fly over the mountain.'
-        option:
-          - control
-          - uncertainty
-          - support
-          - pressure
-        answer: uncertainty
+        answer: support
   10:
     identifier: adventure stress 10
     A: Ellen set the record for the fastest time around the world alone in a sailing boat. She was on the boat alone but she had a lot of help from a team. The team sent her weather reports. She sent them videos. This interaction meant she was never lonely. She never had time. She was very busy making the boat go fast. 
     B: The boat was very big and very fast. And she had no time to sleep. She never slept for more than an hour, because the wind was very strong and kept changing. She had to make changes to the boat all the time. And she couldn't give up. Because she knew her team and many other people would be disappointed.
-    C: The kind of boat that Ellen sailed is very fast, but it also needs to be carefully sailed, because it will turn over if you make a mistake. 2 years before Ellen had been on a boat which did turn over after it hit something in the water. She didn't die, but she faced death sailing very fast in very bad weather.
+    C: The kind of boat that Ellen sailed is very fast, but it also needs to be carefully sailed, because it will turn over if you make a mistake. Two years before Ellen had been on a boat which did turn over after it hit something in the water. She didn't die, but she faced death sailing very fast in very bad weather.
     quiz:
       - question: The team was helpful, but also a SOURCE of stress. Which source?
         option:
