@@ -19,7 +19,7 @@ lexicon lexeme = maybe unknownWord id $
 	    story_advs ++
 	class_names ++ interrogatives ++
 	cops ++ aux ++
-	transitives ++ -- intransitives ++ ditransitives ++
+	transitives ++ ditransitives ++ -- intransitives ++
 	possessives ++ preps ++ determiners ++ conjuncts
 	++ prons ++ reflexives
 	where unknownWord = [Cat "" "" [] []]
