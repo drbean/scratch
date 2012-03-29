@@ -1,7 +1,7 @@
 #!/usr/bin/perl 
 
 # Created: 03/29/2012 08:44:04 AM
-# Last Edit: 2012 Mar 29, 10:31:11 AM
+# Last Edit: 2012 Mar 29, 10:57:48 AM
 # $Id$
 
 =head1 NAME
@@ -25,7 +25,7 @@ test.pl -- prints "0"
 
 =cut
 
-print "0\n";
+print "0.0\n";
 
 exit;
 
