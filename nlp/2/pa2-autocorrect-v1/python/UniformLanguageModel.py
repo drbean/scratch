@@ -1,4 +1,5 @@
-import math, collections
+import math, collections, commands
+import subprocess
 
 class UniformLanguageModel:
 
@@ -26,4 +27,9 @@ class UniformLanguageModel:
       score += probability
     # NOTE: a simpler method would be just score = sentence.size() * - Math.log(words.size()).
     # we show the 'for' loop for insructive purposes.
-    return score
+    # (stat, output) = commands.getstatusoutput( "perl test.pl\n" )
+    # output = commands.getoutput( "perl test.pl\n" )
+    output = subprocess.check_output([ "perl" "/home/drbean/nlp/2/pa2-autocorrect-v1/python/test.pl\n" ])
+    # output = "0"
+    zero = float( output )
+    return zero
