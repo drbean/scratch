@@ -1,7 +1,7 @@
 #!/usr/bin/perl 
 
 # Created: 03/29/2012 08:44:04 AM
-# Last Edit: 2012 Mar 29, 10:57:48 AM
+# Last Edit: 2012 Mar 30, 10:39:51 AM
 # $Id$
 
 =head1 NAME
@@ -19,13 +19,16 @@ our $VERSION = '0.01';
 use strict;
 use warnings;
 
+use Math::Random;
+
 =head1 SYNOPSIS
 
 test.pl -- prints "0"
 
 =cut
 
-print "0.0\n";
+
+print random_uniform("0.1") . "\n";
 
 exit;
 
