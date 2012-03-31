@@ -7,6 +7,8 @@ class UniformLanguageModel:
     """Initialize your data structures in the constructor."""
     self.words = set([])
     self.train(corpus)
+    # output = subprocess.check_output([ "perl", "/home/drbean/nlp/2/pa2-autocorrect-v1/python/test.pl" ])
+    # self.output = output
 
   def train(self, corpus):
     """ Takes a corpus and trains your language model. 
@@ -23,13 +25,11 @@ class UniformLanguageModel:
     """
     score = 0.0
     probability = math.log(1.0/len(self.words))
+    # output = subprocess.check_output([ "perl", "-e", 'print "1\n"' ])
     for token in sentence: # iterate over words in the sentence
       score += probability
     # NOTE: a simpler method would be just score = sentence.size() * - Math.log(words.size()).
     # we show the 'for' loop for insructive purposes.
-    # (stat, output) = commands.getstatusoutput( "perl test.pl\n" )
-    # output = commands.getoutput( "perl test.pl\n" )
-    output = subprocess.check_output([ "perl", "test.pl", "\n" ])
-    # output = "0"
+    (stat, output) = commands.getstatusoutput( "perl test.pl" )
     zero = float( output )
     return zero
