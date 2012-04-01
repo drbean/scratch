@@ -18,15 +18,10 @@ class CustomLanguageModel:
         Compute any counts or other corpus statistics in this function.
     """  
     for sentence in corpus.corpus:
-      previous = '' 
       for datum in sentence.data:  
         token = datum.word
         self.total = self.total + 1
-	if previous:
-          self.bigramCounts[previous][token] = self.bigramCounts[previous][token] + 1
-          self.reverseCounts[token][previous] = self.reverseCounts[token][previous] + 1
-          self.unigramCounts[previous] = self.unigramCounts[previous] + 1
-	previous = token
+        self.unigramCounts[token] = self.unigramCounts[token] + 1
     self.v = len(self.unigramCounts)
     self.newtotal = self.total + self.v
     for key in self.unigramCounts.keys():
@@ -39,23 +34,14 @@ class CustomLanguageModel:
         sentence using your language model. Use whatever data you computed in train() here.
     """
     factor = 20.0 
-    previous = '' 
     for token in sentence:
-      if previous:
-        bicount = self.bigramCounts[previous][token]
-	unicount = self.unigramCounts[token]
-        reversecount = len(self.reverseCounts[token])
-        if bicount > 0:
-          if unicount < 3:
-            score = factor * (bicount - self.d[ unicount ]) / (self.totals[previous])
-          else:
-            score = factor * (bicount - 0.75 ) / (self.totals[previous])
-          # score += 0.5 * reversecount / len(self.reverseCounts)
-        elif unicount:
-          score = factor * (unicount + 1) / (self.newtotal)
-        else:
-          score = factor * 1 / (self.newtotal)
-      previous = token
+      unicount = self.unigramCounts[token]
+      ncount = self.nCounts[ unicount ]
+      ncountP = self.nCounts [ unicount + 1 ]
+      if unicount:
+        score = factor * ( unicount + 1 ) * ncountP / ( ncount + self.total )
+      else:
+        score = factor * 1 / (self.total)
     return score
 
 # vim: tabstop=8 expandtab shiftwidth=2 softtabstop=2
