@@ -33,15 +33,21 @@ class CustomLanguageModel:
     """ Takes a list of strings as argument and returns the log-probability of the 
         sentence using your language model. Use whatever data you computed in train() here.
     """
-    factor = 20.0 
+    score = 20.0 
     for token in sentence:
       unicount = self.unigramCounts[token]
       ncount = self.nCounts[ unicount ]
-      ncountP = self.nCounts [ unicount + 1 ]
-      if unicount:
-        score = factor * ( unicount + 1 ) * ncountP / ( ncount + self.total )
+      it = ncount + 1
+      if self.nCounts.has_key(it):
+        ncountP = self.nCounts[it]
       else:
-        score = factor * 1 / (self.total)
+        ncountP = 0.9 * ncount
+      if unicount:
+        score += math.log( unicount + 1 ) + math.log(ncountP)
+        score -= math.log( ncount )
+      else:
+        score += math.log( self.nCounts[ 1 ])
+        score -= math.log(self.total)
     return score
 
 # vim: tabstop=8 expandtab shiftwidth=2 softtabstop=2
