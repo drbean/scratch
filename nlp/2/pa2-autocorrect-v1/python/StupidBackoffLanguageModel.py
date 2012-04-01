@@ -11,9 +11,6 @@ class StupidBackoffLanguageModel:
     self.totals = collections.defaultdict(lambda: 0)
     self.total = 0
     self.train(corpus)
-    self.v = len(self.unigramCounts)
-    for key in self.unigramCounts.keys():
-      self.totals[key] = self.unigramCounts[key] + self.v
 
   def train(self, corpus):
     """ Takes a corpus and trains your language model. 
@@ -29,8 +26,9 @@ class StupidBackoffLanguageModel:
           self.unigramCounts[previous] = self.unigramCounts[previous] + 1
 	previous = token
     self.v = len(self.unigramCounts)
+    self.newtotal = self.total + self.v
     for key in self.unigramCounts.keys():
-      self.totals[key] = self.unigramCounts[key] + self.v
+      self.totals[key] = self.unigramCounts[key]
 
   def score(self, sentence):
     """ Takes a list of strings as argument and returns the log-probability of the 
@@ -45,13 +43,12 @@ class StupidBackoffLanguageModel:
         if bicount > 0:
           score += math.log(bicount)
           score -= math.log(self.totals[previous])
+        elif unicount:
+          score += math.log(unicount + 1)
+          score -= math.log(self.newtotal)
         else:
-          if unicount:
-            score += math.log(unicount)
-          else:
-            pass
-            # score += math.log(self.unigramCounts['<unk>'])
-          score -= math.log(self.total)
+          score -= math.log(self.newtotal)
+          pass
       previous = token
     return score
 
