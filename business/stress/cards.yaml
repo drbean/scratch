@@ -475,7 +475,7 @@ adventure:
           - uncertainty
           - support
           - pressure
-        answer: uncertainty
+        answer: pressure
   9:
     identifier: adventure stress 9
     A: Steve made 6 attempts to fly round the world solo in a balloon. Only the last was successful. On Steve's 4th attempt, there was a fire soon after take-off, but he was able to put the fire out. He continued on. Over the ocean he started going backwards because his team was not good at finding the right height for him to fly at. 
