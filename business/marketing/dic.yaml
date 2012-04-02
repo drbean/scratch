@@ -87,7 +87,7 @@
   - uniqlo-3
   - Uniqlo story
   - business
-  - A
+  - all
   - |+
     Tokyo's Shinagawa train station is one of the most crowded places on earth. Close to a million commuters will transit here on an average day.
 
@@ -96,13 +96,7 @@
     True to its name, Fast Retailing and its Uniqlo stores are on a breathtaking dash to the top. With their conventional stores already saturating the country, the company is now chasing potential customers too busy to visit a regular shop, selling cheap undergarments to busy commuters, just like newspapers and candy.
 
     Craft: Uniqlo is a retailing legend here in Japan, its no-nonsense, low-cost socks and shirts a mainstay of Japanese closets. Now the company has vowed to make itself as much a household name overseas as it is here in Japan.
-  - Shinagawa|commuters|dash|Fast|Uniqlo|saturating|nonsense|mainstay|vowed|Craft
--
-  - uniqlo-3
-  - Uniqlo story
-  - business
-  - B
-  - |+
+
     Otoma: Our long-term ambition is to become the world's top apparel company by 2020.
 
     Craft: That means boosting net sales from around ten billion dollars now to more than sixty billion in just a decade.
@@ -114,13 +108,6 @@
     Yanai: Our imitators will just stimulate overall demand. We are number one, by far. Our competitors are effectively just advertising our products for us.
 
     Craft: Yanai's rag trade exploits have made him a business guru here. 
-  - Otoma|Craft|Zara|Gap|H&M|Tadashi|Yanai|diminuitive|brimming|apparel|Uniqlo
--
-  - uniqlo-3
-  - Uniqlo's product strategy
-  - business
-  - C
-  - |+
 
     Yamamoto: He's right. There are plenty of mistakes, but never takes risks that endanger his core business. That's the secret of his success.
 
@@ -131,19 +118,13 @@
     Craft: Yanai was the first Japanese clothing retailer to knock out middlemen, and adopt Western-style manufacturing and sales. By consolidating design, logistics and marketing under one roof, Yanai was able to reap high margins that fueled the blistering pace of growth throughout the recent downturn.
 
     Larke: Uniqlo has built itself, its main core, competitive advantage is volume. So, the more stores they can open (obviously, getting the right locations and maintaining the marketing), the better they're going to go forward.
-  - Craft|Yamato|dictator|cloistered|averse|consolidating|fueled|blistering|Larke
--
-  - uniqlo-3
-  - Uniqlo's product strategy
-  - business
-  - D
-  - |+
+
     Larke: I mean, they're talking about selling literally millions of units in any particular season. And most of the other companies, even the global companies, aren't thinking along those lines.
     Craft: Uniqlo isn't really in the same business as the world apparel leaders it seeks to unseat. Instead of disposable instant fashion aimed at the young and trendy. Uniqlo seeks to woo young, old, and fashion-challenged alike with unglamorous, but essential well-made basics priced to sell.
     These super-thin, heat-conserving garments called HEATTECH, were developed in an unusual collaboration with Toray, a leading chemical company. Such high-tech materials undergird Yanai's strategy for building a global brand. Projected sales for HEATTECH underwear this season? A whopping seventy million units.
 
     Yanai: People tend to assume underwear has to be made from cotton. that synthetics are better than natural fibers. It has a lot of potential. I want to show this to the world. Our marketing strength and Japanese technology is a winning combination.
-  - Larke|Craft|Uniqlo|unseat|trendy|woo|unglamorous|Yanai|undergird|Toray|whopping
+  - Shinagawa|commuters|dash|Fast|Uniqlo|saturating|nonsense|mainstay|vowed|Craft|Otoma|Zara|Gap|H&M|Tadashi|Yanai|diminuitive|brimming|apparel|Uniqlo|Yamato|dictator|cloistered|averse|consolidating|fueled|blistering|Larke|unseat|trendy|woo|unglamorous|undergird|Toray|whopping
 
 -
   - p-problem
@@ -404,56 +385,56 @@
   - business
   - uniqlo-3
   - 1
-  - A
+  - all
   - The store is not usual. Busy commuters are buying clothing at a train station.
   - True
 -
   - business
   - uniqlo-3
   - 2
-  - A
+  - all
   - Japanese buy newspapers and candy at their clothing stores, with their shirts and socks.
   - False
 -
   - business
   - uniqlo-3
   - 3
-  - B
+  - all
   - Yanai has the ambition of becoming the world's biggest apparel maker by 2020.
   - True
 -
   - business
   - uniqlo-3
   - 4
-  - B
+  - all
   - Yanai is not confident Uniqlo will become the world's biggest apparel makers in 2020.
   - False
 -
   - business
   - uniqlo-3
   - 5
-  - C
+  - all
   - An advantage it has is its location of logistics, design and marketing under one roof.
   - True
 -
   - business
   - uniqlo-3
   - 6
-  - C
+  - all
   - Yanai's style is more conservative and traditional than other Japanese companies. His sales secret is maintaining middlemen.
   - False
 -
   - business
   - uniqlo-3
   - 7
-  - D
+  - all
   - HEATTECH is a high-tech underwear selling millions of units. The material has particular meaning in Yanai's global strategy.
   - True
 -
   - business
   - uniqlo-3
   - 8
-  - D
+  - all
   - Uniqlo is aimed at the young and fashionable. The apparel is well-made, but doesn't sell to others.
   - False
 -
