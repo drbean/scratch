@@ -30,6 +30,6 @@ class UniformLanguageModel:
       score += probability
     # NOTE: a simpler method would be just score = sentence.size() * - Math.log(words.size()).
     # we show the 'for' loop for insructive purposes.
-    (stat, output) = commands.getstatusoutput( "perl test.pl" )
-    zero = float( output )
-    return zero
+    # (stat, output) = commands.getstatusoutput( "perl test.pl" )
+    # zero = float( output )
+    return score
