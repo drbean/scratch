@@ -60,14 +60,16 @@ class NaiveBayes:
     classifiers = { 'pos': 0, 'neg': 0 }
     for klass in [ 'pos', 'neg' ]:
       classifier = math.log( totals[klass] / sum([totals['pos'] + totals['neg']]) )
-      denominator = totals[klass] + v[klass]
+      # denominator = totals[klass] + v[klass]
+      denominator = v[klass]
       numerator = 1
       for word in words:
         if wordCounts[klass].has_key(word):
-          numerator = wordCounts[klass][word] + 1
-        else:
+          # numerator = wordCounts[klass][word] + 1
           numerator = 1
-        classifier += math.log( numerator / denominator )
+        else:
+          numerator = 0
+        classifier += math.log( 0.0001 + numerator / denominator )
       classifiers[klass] = classifier
     if classifiers['pos'] > classifiers['neg']:
       return 'pos'
