@@ -60,16 +60,14 @@ class NaiveBayes:
     classifiers = { 'pos': 0, 'neg': 0 }
     for klass in [ 'pos', 'neg' ]:
       classifier = math.log( totals[klass] / sum([totals['pos'] + totals['neg']]) )
-      # denominator = totals[klass] + v[klass]
-      denominator = v[klass]
+      denominator = totals[klass] + v[klass]
       numerator = 1
       for word in words:
         if wordCounts[klass].has_key(word):
-          # numerator = wordCounts[klass][word] + 1
-          numerator = 1
+          numerator = wordCounts[klass][word] + 1
         else:
-          numerator = 0
-        classifier += math.log( 0.0001 + numerator / denominator )
+          numerator = 1
+        classifier += math.log( numerator / denominator )
       classifiers[klass] = classifier
     if classifiers['pos'] > classifiers['neg']:
       return 'pos'
@@ -87,21 +85,35 @@ class NaiveBayes:
      * Returns nothing
     """
 
+    docWords = {}
+    docTotal = 0
     if klass == 'pos':
       for word in words:
+        if not docWords.has_key(word):
+          docWords[word] = 1
+          docTotal += 1
+        else:
+          pass
+      for word in docWords.keys():
         if self.posWords.has_key(word):
-          self.posWords[word] = self.posWords[word] + 1
+          self.posWords[word] += 1
         else:
           self.posWords[word] = 1
-        self.posTotal = self.posTotal + 1
+      self.posTotal = self.posTotal + docTotal
 
     else:
       for word in words:
+        if not docWords.has_key(word):
+          docWords[word] = 1
+          docTotal += 1
+        else:
+          pass
+      for word in docWords.keys():
         if self.negWords.has_key(word):
           self.negWords[word] += 1
         else:
           self.negWords[word] = 1
-        self.negTotal += 1
+      self.negTotal = self.negTotal + docTotal
       
 
   # TODO TODO TODO TODO TODO 
