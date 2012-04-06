@@ -36,6 +36,9 @@ class FeatureFactory:
 
 
 	""" TODO: Add your features here """
+	if currentWord[0].isupper():
+		features.append("case=Title")
+
 
         return features
 
@@ -161,3 +164,4 @@ class FeatureFactory:
             
         outFile.close()
 
+# vim: tabstop=8 expandtab shiftwidth=2 softtabstop=2
