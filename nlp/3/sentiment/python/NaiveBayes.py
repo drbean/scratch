@@ -11,11 +11,13 @@
 # addExample() and classify() and anything you further invoke from there.
 #
 
+from __future__ import division
+import math, collections
 
 import sys
 import getopt
 import os
-import math
+# import math
 
 class NaiveBayes:
   class TrainSplit:
@@ -43,11 +45,34 @@ class NaiveBayes:
   #############################################################################
   # TODO TODO TODO TODO TODO 
   
+    self.posWords = {}
+    self.negWords = {}
+    self.posTotal = 1
+    self.negTotal = 1
+  
   def classify(self, words):
     """ TODO
       'words' is a list of words to classify. Return 'pos' or 'neg' classification.
     """
-    return 'pos'
+    wordCounts = { 'pos': self.posWords, 'neg': self.negWords }
+    v = { 'pos': len(self.posWords.keys()), 'neg': len(self.negWords.keys()) }
+    totals = { 'pos': self.posTotal, 'neg': self.negTotal }
+    classifiers = { 'pos': 0, 'neg': 0 }
+    for klass in [ 'pos', 'neg' ]:
+      classifier = math.log( totals[klass] / sum([totals['pos'] + totals['neg']]) )
+      denominator = totals[klass] + v[klass]
+      numerator = 1
+      for word in words:
+        if wordCounts[klass].has_key(word):
+          numerator = wordCounts[klass][word] + 1
+        else:
+          numerator = 1
+        classifier += math.log( numerator / denominator )
+      classifiers[klass] = classifier
+    if classifiers['pos'] > classifiers['neg']:
+      return 'pos'
+    else:
+      return 'neg'
   
 
   def addExample(self, klass, words):
@@ -59,7 +84,22 @@ class NaiveBayes:
      * in the NaiveBayes class.
      * Returns nothing
     """
-    pass
+
+    if klass == 'pos':
+      for word in words:
+        if self.posWords.has_key(word):
+          self.posWords[word] = self.posWords[word] + 1
+        else:
+          self.posWords[word] = 1
+        self.posTotal = self.posTotal + 1
+
+    else:
+      for word in words:
+        if self.negWords.has_key(word):
+          self.negWords[word] += 1
+        else:
+          self.negWords[word] = 1
+        self.negTotal += 1
       
 
   # TODO TODO TODO TODO TODO 
@@ -257,3 +297,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# vim: tabstop=8 expandtab shiftwidth=2 softtabstop=2
