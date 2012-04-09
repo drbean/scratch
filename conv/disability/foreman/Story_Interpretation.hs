@@ -3,56 +3,70 @@ module Story_Interpretation where
 import Model
 
 story_objects = [
-	( "scoutmaster",	\[x]	-> scoutmaster x	),
-	( "assistant_scoutmaster",	\[x]	-> assistant_scoutmaster x	),
-	( "eagle_scout",	\[x]	-> eagle_scout x	),
-	( "scout",	\[x]	-> scout x	),
-	( "leader",	\[x]	-> leader x	),
-	( "troop",	\[x]	-> troop x	),
+	( "daughter",	\[x]	-> daughter x	),
+	( "mother",	\[x]	-> isMother x	),
 
-	( "husband",	\[x] -> husband x	),
-	( "wife",	\[x] -> wife x	),
-	( "parent",	\[x] -> isParent x	),
-	( "father",	\[x] -> father x	),
-	( "mother",	\[x] -> isMother x	),
-	( "daughter",	\[x] -> daughter x	),
+	( "electrolarynx",	\[x]	-> electrolarynx x	),
+	( "voice",	\[x]	-> voice x	),
+	( "gym",	\[x]	-> gym x	),
+	( "restaurant",	\[x]	-> restaurant x	),
+	( "movie_star",	\[x]	-> movie_star x	),
 
-	( "traffic_accident",	\[x] -> traffic_accident x	),
-	( "brain_damage",	\[x] -> brain_damage x	),
+	( "disability",	\[x] -> disability x	),
+	( "throat_cancer",	\[x] -> throat_cancer x	),
+	( "sound",	\[x] -> sound x	),
+	( "hands_on_hips",	\[x] -> hands_on_hips x	),
+	( "shrinking_violet",	\[x] -> shrinking_violet x	),
+
+	( "phone",	\[x] -> phone x	),
+	( "computer",	\[x] -> computer x	),
+	( "joke",	\[x] -> joke x	),
+	( "telemarketers",	\[x] -> telemarketers x	),
+
+	( "year",	\[x] -> year x	),
 
 	( "story",	\[x] -> story x	),
-	( "job",	\[x] -> job x	)
+	( "operation",	\[x] -> operation x	)
 	]
 
 story_inflections = [
- ( "scouts", "scout" ),
- ( "leaders", "leader" ),
- ( "visitors", "visitor" ),
+ ( "cancer", "throat_cancer" ),
+ ( "daughters", "daughter" ),
+ -- ( "lose", "lost" ),
+ ( "sound", "sounded" ),
+ ( "feel", "felt" ),
+ ( "annoy", "annoyed" ),
+ ( "offend", "annoyed" ),
+ ( "offended", "annoyed" ),
+ ( "embarrass", "annoyed" ),
+ ( "embarrassed", "annoyed" ),
+ ( "leave", "left" ),
+ ( "come", "came" ),
+ ( "live", "lived" ),
  ( "names", "name" ),
- ( "cry", "cried" ),
- ( "looked", "look" ),
- ( "help", "helped" ),
- ( "volunteered", "volunteer" ),
- ( "appreciated", "appreciate" ),
  ( "thanked", "thank" )
  ]
 
 story_relations = [
+	( "scared",	\[x]	-> scared x	),
 	( "disabled",	\[x]	-> disabled x	),
 	( "mentally-disabled",	\[x]	-> mentally_disabled x	),
-	( "dedicated",	\[x]	-> dedicated x	),
 	( "physically-disabled",	\[x]	-> physically_disabled x	),
 	( "older",	\[x]	-> older x	),
 
-	( "look",	\[x,y] -> look_at y x	),
-	( "lose",	\[x,y]	-> lose y x	),
+	-- ( "lost",	\[x,y] -> lost y x	),
+	( "sounded",	\[x,y] -> sounded y x	),
+	( "felt",	\[x,y] -> felt y x	),
+	( "annoyed",	\[x,y] -> annoyed y x	),
+	( "left",	\[x,y]	-> left y x	),
+	( "came",	\[x,y]	-> come_from y x	),
+	( "lived",	\args -> case args of
+		[x,y] -> (lived_with y x || lived_in y x)
+		[x,y,z] -> (lived_with_in z y x || lived_with_for z y x)
+		[x,y,z,v] -> lived_with_in_for v z y x ),
 	( "helped",	\[x,y]	-> helped y x	),
 	( "appreciate",	\[x,y]	-> appreciate y x	),
-	( "thank",	\[x,y]	-> thank y x	),
+	( "thank",	\[x,y]	-> thank y x	)
 
-	( "volunteer",	\[x,y]	-> volunteer_at y x	),
-
-	( "wore",	\[x,y]	-> wore y x	),
-	( "interview",	\[x,y]	-> interview y x	)
 	]
 
