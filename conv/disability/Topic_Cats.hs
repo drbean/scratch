@@ -2,7 +2,7 @@ module Cats where
 
 import Parsing
 
-class_names, prons, reflexives, interrogatives, aux, intransitives, transitives, ditransitives, determiners, preps, conjuncts :: Lexset
+class_names, intransitives, transitives, ditransitives, topic_adjs :: Lexset
 
 class_names = [
 --noun and verb
@@ -28,71 +28,6 @@ class_names = [
 	[Cat "girls"   "CN" [Pl,Fem,Thrd]   []],
 	[Cat "woman"   "CN" [Sg,Fem,Thrd]   []],
 	[Cat "women"   "CN" [Pl,Fem,Thrd]   []]
-	]
-
-possessives = [
-	[Cat "'s" "APOS" [] []]
-	]
-
-prons = [
-	[Cat "i"   "NP" [Pers,Fst,Sg,Nom]        []],
-	[Cat "me"  "NP" [Pers,Fst,Sg,AccOrDat]   []],
-	[Cat "we"  "NP" [Pers,Fst,Pl,Nom]        []],
-	[Cat "us"  "NP" [Pers,Fst,Pl,AccOrDat]   []],
-	[Cat "you" "NP" [Pers,Snd]               []],
-	[Cat "he"  "NP" [Pers,Thrd,Sg,Nom,Masc]  []],
-	[Cat "him" "NP" [Pers,Thrd,Sg,AccOrDat,Masc] []],
-	[Cat "she" "NP" [Pers,Thrd,Sg,Nom,Fem]   []],
-	[Cat "her" "NP" [Pers,Thrd,Sg,AccOrDat,Fem] []],
-	[Cat "it"  "NP" [Pers,Thrd,Sg,Neutr]     []],
-	[Cat "they" "NP" [Pers,Thrd,Pl,Nom]     []],
-	[Cat "them" "NP" [Pers,Thrd,Pl,AccOrDat] []]
-	]
-
-reflexives = [
-	[Cat "myself"     "NP" [Refl,Sg,Fst,AccOrDat] []],
-	[Cat "ourselves"  "NP" [Refl,Pl,Fst,AccOrDat] []],
-	[Cat "yourself"   "NP" [Refl,Sg,Snd,AccOrDat] []],
-	[Cat "yourselves" "NP" [Refl,Pl,Snd,AccOrDat] []],
-	[Cat "himself"   "NP" [Refl,Sg,Thrd,AccOrDat,Masc]  []],
-	[Cat "herself"   "NP" [Refl,Sg,Thrd,AccOrDat,Fem]   []],
-	[Cat "itself"    "NP" [Refl,Sg,Thrd,AccOrDat,Neutr] []],
-	[Cat "themselves" "NP" [Refl,Pl,Thrd,AccOrDat] []]
-	]
-
-interrogatives = [
-	[Cat "who" "NP"  [Wh,Thrd,MascOrFem] [],
-			Cat "who" "REL" [MascOrFem]         []],
-	[Cat "whom" "NP"  [Sg,Wh,Thrd,AccOrDat,MascOrFem] [],
-			Cat "whom" "REL" [Sg,MascOrFem,AccOrDat]         []],
-	[Cat "what" "NP"  [Wh,Thrd,AccOrDat,Neutr]    []],
-	[Cat "that"  "REL" [] [], Cat "that"  "DET" [Sg]    []],
-	[Cat "which" "REL" [Neutr] [], Cat "which" "DET" [Wh] []],
-	[Cat "where" "NP" [Neutr] [], Cat "where" "REL" [] []]
-	]
-
-determiners = [
-	[Cat "zero"     "DET" [Pl]  []],
-	[Cat "every"   "DET" [Sg]  []],
-	[Cat "all"     "DET" [Pl]  []],
-	[Cat "some"    "DET" []    []],
-	[Cat "several" "DET" [Pl]  []],
-	[Cat "a"       "DET" [Sg]  []],
-	[Cat "no"      "DET" []    []],
-	[Cat "the"     "DET" []    []],
-	[Cat "most"    "DET" [Pl]  []],
-	[Cat "many"    "DET" [Pl]  []],
-	[Cat "few"     "DET" [Pl]  []],
-	[Cat "this"    "DET" [Sg]  []],
-	[Cat "these"   "DET" [Pl]  []],
-	[Cat "those"   "DET" [Pl]  []],
-	[Cat "less_than" "DF" [Pl] []],
-	[Cat "more_than" "DF" [Pl] []]
-	]
-
-aux = [
-	[Cat "did"    "AUX" [] []],
-	[Cat "didn't" "AUX" [] []]
 	]
 
 intransitives = [
@@ -234,26 +169,17 @@ ditransitives = [
 						Cat "_" "NP" [AccOrDat] []]]
 	]
 
-preps = [
-	[Cat "about"   "PREP" [About]   []],
-	[Cat "as"   "PREP" [As]   []],
-	[Cat "at"   "PREP" [At]   []],
-	[Cat "by"   "PREP" [By]   []],
-	[Cat "for"  "PREP" [For]  []],
-	[Cat "from" "PREP" [From] []],
-	[Cat "in"   "PREP" [In]   []],
-	[Cat "on"   "PREP" [On]   []],
-	[Cat "to"   "PREP" [To]   []],
-	[Cat "through" "PREP" [Through] []],
-	[Cat "with" "PREP" [With] []]
-	]
-
-conjuncts = [
-	[Cat "and"  "CONJ" [] []],
-	[Cat "but"  "CONJ" [] []],
-	[Cat "."    "CONJ" [] []]
-	-- [Cat "if"   "COND" [] []],
-	-- [Cat "then" "THEN" [] []]
+topic_adjs = [
+	[Cat "female"	"ADJ" [] []],
+	[Cat "male"	"ADJ" [] []],
+	[Cat "older"	"ADJ" [] []],
+	[Cat "dedicated"	"ADJ" [] []],
+	[Cat "disabled"	"ADJ" [] []],
+	[Cat "physically-disabled"	"ADJ" [] []],
+	[Cat "mentally-disabled"	"ADJ" [] []],
+	[Cat "developmentally-disabled"	"ADJ" [] []],
+	[Cat "mentally-handicapped"	"ADJ" [] []],
+	[Cat "mentally-retarded"	"ADJ" [] []]
 	]
 
 
