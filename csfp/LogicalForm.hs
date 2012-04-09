@@ -236,16 +236,17 @@ transVP :: ParseTree Cat Cat -> Term -> LF
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [])]) = 
         \ t -> ( Rel name [t] )
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ []),
-    Branch (Cat "_" "COMP" [] []) [comp]]) = case (comp) of
-	Leaf (Cat name "NP" _ _ ) -> \t -> (Rel name [t] )
-	Leaf (Cat qual "ADJ" _ _ ) -> \t -> (Rel qual [t] )
-	Branch (Cat _ "NP" _ _) [det,cn] -> case (cn) of
-	    Leaf (Cat name "CN" _ _) -> \t -> Rel name [t]
-	Branch (Cat _ "NP" _ _) [np,Leaf (Cat _ "APOS" _ _),cn] -> case (cn) of
-	    Leaf (Cat name "CN" _ _) -> \x -> transNP np
-		(\owner -> Conj [Rel name [x], Rel "had" [owner,x] ] )
-	Branch (Cat _ "NP" _ _) [det,Leaf (Cat qual "ADJ" _ _),cn] -> \subj
-	    -> Conj [ transCN cn subj, Rel qual [subj] ]
+    Branch (Cat "_" "COMP" [] []) [comp]]) = case (catLabel (t2c comp)) of
+	"ADJ" -> \subj -> (Rel (phon (t2c comp)) [subj] )
+	"NP" -> \subj -> (transNP comp (\pred -> Eq pred subj ))
+	--Leaf (Cat name "NP" _ _ ) -> \t -> (Rel name [t] )
+	--Branch (Cat _ "NP" _ _) [det,cn] -> case (cn) of
+	--    Leaf (Cat name "CN" _ _) -> \t -> Rel name [t]
+	--Branch (Cat _ "NP" _ _) [np,Leaf (Cat _ "APOS" _ _),cn] -> case (cn) of
+	--    Leaf (Cat name "CN" _ _) -> \x -> transNP np
+	--	(\owner -> Conj [Rel name [x], Rel "had" [owner,x] ] )
+	--Branch (Cat _ "NP" _ _) [det,Leaf (Cat qual "ADJ" _ _),cn] -> \subj
+	--    -> Conj [ transCN cn subj, Rel qual [subj] ]
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1]) = 
 	case (obj1) of 
 		(Branch (Cat _ "PP" _ _) _ ) ->
