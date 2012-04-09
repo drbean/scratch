@@ -70,8 +70,8 @@ object_names = [
 story_verbs = [
 	[Cat "cried"	"VP" [Tense] []],
 	[Cat "cry"	"VP" [Infl] []],
-	[Cat "lost"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "lose"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
+	-- [Cat "lost"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	-- [Cat "lose"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "helped"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "help"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "volunteered"	"VP" [Tense] [Cat "_" "PP" [At] []]],
