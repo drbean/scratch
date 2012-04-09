@@ -4,15 +4,14 @@
   - description
   - genre
   - target
-  - percent
   - content
   - unclozeables
+  - percent
 -
   - connell
   - Old special-needs boy scout
   - intermediate
   - all
-  - 25
   - |+
     Richard: Derek, I joined your troop in 1987. I had two daughters, so in a way this was a 'night out with the boys.'
     Claudia: I wanted to be part of the group, too. And I became an assistant scoutmaster to Troop 409.
@@ -41,6 +40,7 @@
     Derek: Thank you.
     Claudia: Thank you, Derek.
   - Richard|Claudia|Derek|Troop|Eagle|Randy|Panhandle|Florida|harness|Mush|sled|historian
+  - 25
 -
   - foreman
   - Living with an artificial voice
@@ -65,6 +65,33 @@
 
     Renee: I'm really very blessed in my life. I am happier now, without my voice, than I've ever been with my voice. It's a small price to pay for being alive and enjoying life. So I am very happy where I am now.
   - Michelle|Renee|shrinking violet
+  - 25
+-
+  - davist
+  - Paralyzed from the neck down
+  - intermediate
+  - all
+  - |+
+    Tom: One day the surf was up, down at the beach, so I caught a wave and was gliding down the face, and went up to do a trick. I timed it wrong and went headfirst into about a foot and a half of water. I had a loud ringing in my ears, and I couldn't move and I couldn't breathe. And I realized that my neck was broken. I thought: This can't be it; I can't just die. My body just went limp. I was dead, they think, for about 15 minutes before I was resuscitated.
+
+    Connie: We prayed and prayed for a miracle, and the miracle of him walking and moving again never happened, but we do realize he should have been brain damaged, and he's not - any more than he was before.
+
+    Tom: That's debatable, right? You know, I went from being so active and a Type A personality, and I was always go, go, go. And then all of a sudden, it's just, you know, my life came to a screeching halt. Now, I'm completely reliant on others.
+
+    Every night, you guys stretch my muscles and move my joints around, and then in order to have a bowel movement, stick a suppository in my rectum. And that was tough at first, but now, Mom, as you always say:
+
+    Connie: Routine maintenance.
+
+    Tom: Yup, routine maintenance. I don't think we would've laughed this hard if it weren't for my injury. I can credit my lack of depression to you guys. But the only regret I think that I have in life is not getting closer to you before my injury, because I was always out with my friends.
+
+    And Dad, I don't think you realize how highly I think of you. I mean, I look at you, and you make me want to be a better man.
+
+    Robert: Well, I'd like to think that I'm not doing anything different than any other father would do.
+
+    Tom: Mom, you don't make me want to be a better woman, but I love you, and I don't know what I'd do without you. I remember thinking when I first got hurt that I didn't, I didn't want to live like this.  But I think with parents like you and the support that I have, I still have a life.
+  - Tom|Connie|Robert
+  - 25
+
 ---
 -
   - genre
@@ -128,4 +155,11 @@
   - 8
   - all
   - Derek is dedicated to carrying spirits to his mom, and this has become a huge part of her life.
+  - False
+-
+  - intermediate
+  - davist
+  - 1
+  - all
+  - No
   - False
