@@ -9,10 +9,14 @@ yesorno :: Answer -> String
 yesorno (Boolean False) = "No"
 yesorno (Boolean True)  = "Yes"
 
-takeWH :: String -> String -> String
-takeWH _ "WH" = "WH"
-takeWH "WH" _ = "WH"
-takeWH x _    = x
+takeCourse :: String -> String -> String
+takeCourse _ "WH" = "WH"
+takeCourse "WH" _ = "WH"
+takeCourse _ "YN" = "YN"
+takeCourse "YN" _ = "YN"
+takeCourse _ "S"  = "S"
+takeCourse "S" _  = "S"
+takeCourse y   x  = x ++ ", " ++ y
 
 pickOne :: String -> String -> String
 pickOne "NoAnswer" x   = x
@@ -44,6 +48,6 @@ main = do
 						evalW $ form p
 				"YN" -> yesorno $ eval $ form p
 				"S" -> show $ eval $ form p
-	putStrLn $ foldl takeWH "S" $ map (\(l,f,a)->l) labelFormAnswers
+	putStrLn $ foldl takeCourse "S" $ map (\(l,f,a)->l) labelFormAnswers
 	putStrLn $ foldl pickOne "NoAnswer" $ map (\(l,f,a)->a) labelFormAnswers
 	hClose stdout
