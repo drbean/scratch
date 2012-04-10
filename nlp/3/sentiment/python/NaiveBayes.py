@@ -91,12 +91,7 @@ class NaiveBayes:
     docTotal = 0
     if klass == 'pos':
       for word in words:
-        if not docWords.has_key(word):
-          docWords[word] = 1
-          docTotal += 1
-        else:
-          pass
-      for word in docWords.keys():
+        docTotal += 1
         if self.posWords.has_key(word):
           self.posWords[word] += 1
         else:
@@ -105,12 +100,7 @@ class NaiveBayes:
 
     else:
       for word in words:
-        if not docWords.has_key(word):
-          docWords[word] = 1
-          docTotal += 1
-        else:
-          pass
-      for word in docWords.keys():
+        docTotal += 1
         if self.negWords.has_key(word):
           self.negWords[word] += 1
         else:
