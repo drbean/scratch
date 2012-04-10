@@ -57,11 +57,12 @@ class NaiveBayes:
     wordCounts = { 'pos': self.posWords, 'neg': self.negWords }
     v = { 'pos': len(self.posWords.keys()), 'neg': len(self.negWords.keys()) }
     totals = { 'pos': self.posTotal, 'neg': self.negTotal }
-    total = sum([totals['pos'] + totals['neg']])
+    total = sum([totals['pos'], totals['neg']])
+    types = sum([v['pos'], v['neg']])
     classifiers = { 'pos': 0, 'neg': 0 }
     for klass in [ 'pos', 'neg' ]:
       classifier = math.log( totals[klass] / total )
-      denominator = totals[klass] + v[klass]
+      denominator = totals[klass] + types
       numerator = 1
       for word in words:
         if wordCounts[klass].has_key(word):
@@ -70,7 +71,7 @@ class NaiveBayes:
           numerator = 1
         classifier += math.log( numerator / denominator )
       classifiers[klass] = classifier
-    if classifiers['pos'] >= classifiers['neg']:
+    if classifiers['pos'] > classifiers['neg']:
       return 'pos'
     else:
       return 'neg'
