@@ -41,7 +41,7 @@ class FeatureFactory:
 
         if previousLabel == 'PERSON':
             self.namelist.append( prevWord )
-            if len(self.namelist) > 100:
+            if len(self.namelist) > 300:
                 self.namelist = self.namelist[1:]
 
         """ Baseline Features """
@@ -61,7 +61,11 @@ class FeatureFactory:
             features.append("nameList")
         #else:
         #    features.append("nameNoList")
-        if currentWord[0].isupper():
+        if currentWord in self.namelist:
+            features.append("nameList" + currentWord)
+        #else:
+        #    features.append("nameNoList")
+        if currentWord[0].isupper() and not currentWord.isupper():
             features.append("case=Title")
         #else:
         #    features.append("case=NoTitle")
@@ -81,10 +85,6 @@ class FeatureFactory:
             features.append("case=Mac")
         #else:
         #    features.append("case=NoMac")
-        if not ( currentWord and currentWord.isupper() ):
-            features.append("case=CAPS")
-        #else:
-        #    features.append("case=NoCAPS")
         if not ( prevWord and prevWord.isupper() ):
             features.append("case=prevCAPS")
         #else:
@@ -97,11 +97,16 @@ class FeatureFactory:
             features.append("prevTheArticle")
         #else:
         #    features.append("prevNoTheArticle")
+        if prevWord and prevWord[-7:] == "-seeded":
+            features.append("prevSeeded")
+        #else:
+        #    features.append("prevNoSeeded")
+
         if nextWord and not ( nextWord.lower == "city" or currentWord.lower == "city" ):
             features.append("prevCity")
         #else:
         #    features.append("prevNoCity")
-        if prevWord == '"' and prevWord in words[position-5:position+5]:
+        if prevWord and prevWord == '"' and prevWord in words[position-5:position+5]:
             features.append("prevQuote")
         #else:
         #    features.append("prevNoQuote")
@@ -115,6 +120,10 @@ class FeatureFactory:
         #else:
         #    features.append("prevNo" + prevWord)
         if prevWord and prevWord.lower() == 'prince':
+            features.append("prev" + prevWord)
+        #else:
+        #    features.append("prevNo" + prevWord)
+        if prevWord and prevWord.lower() == 'speaker':
             features.append("prev" + prevWord)
         #else:
         #    features.append("prevNo" + prevWord)
@@ -150,6 +159,10 @@ class FeatureFactory:
             features.append("prevApos")
         #else:
         #    features.append("prevNoApos")
+        if prevprevWord and prevprevWord == '\'s':
+            features.append("prevprevApos")
+        #else:
+        #    features.append("prevprevNoApos")
         if prevWord and prevWord[0].isupper():
             features.append("prevWord=Title")
         #else:
@@ -187,6 +200,15 @@ class FeatureFactory:
             features.append("nextWho")
         #else:
         #    features.append("nextNoWho")
+        if nextWord and nextWord == ',' and nextnextWord and nextnextWord == 'whose':
+            features.append("nextWhose")
+        #else:
+        #    features.append("nextNoWhose")
+
+        if nextWord and nextWord[-2:] == 'ed' and nextnextWord and nextnextWord == 'his':
+            features.append("nextnexthis")
+        #else:
+        #    features.append("nextnextNohis")
 
         if prevWord and prevWord == 'told':
             features.append("prevtold")
