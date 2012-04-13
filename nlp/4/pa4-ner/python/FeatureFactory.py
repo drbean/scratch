@@ -46,7 +46,7 @@ class FeatureFactory:
 
         """ Baseline Features """
         # features.append("word=" + currentWord)
-        # features.append("prevLabel=" + previousLabel)
+        features.append("prevLabel=" + previousLabel)
         features.append("word=" + currentWord + ", prevLabel=" + previousLabel)
         """
         Warning: If you encounter "line search failure" error when
@@ -66,207 +66,311 @@ class FeatureFactory:
         #else:
         #    features.append("nameNoList")
         if currentWord[0].isupper() and not currentWord.isupper():
-            features.append("case=Title")
+            features.append("case=Title" + currentWord)
         #else:
         #    features.append("case=NoTitle")
         if currentWord and currentWord.isalpha():
-            features.append("case=Alpha")
+            features.append("case=Alpha" + currentWord)
         #else:
         #    features.append("case=NoAlpha")
         if currentWord and (len(currentWord) > 2) and ( currentWord[1] == "'"):
-            features.append("case=Irish")
+            features.append("case=Irish" + currentWord)
         #else:
         #    features.append("case=NoIrish")
         if currentWord and (len(currentWord) > 2) and ( currentWord[0:1] == "Mc"):
-            features.append("case=Mc")
+            features.append("case=Mc" + currentWord)
         #else:
         #    features.append("case=NoMac")
         if currentWord and (len(currentWord) > 2) and ( currentWord[0:2] == "Mac"):
-            features.append("case=Mac")
+            features.append("case=Mac" + currentWord)
         #else:
         #    features.append("case=NoMac")
         if not ( prevWord and prevWord.isupper() ):
-            features.append("case=prevCAPS")
+            features.append("case=prevCAPS" + currentWord)
         #else:
         #    features.append("case=prevNoCAPS")
         if prevWord and prevWord[0].isupper():
-            features.append("case=prevTitle")
+            features.append("case=prevTitle" + currentWord)
         #else:
         #    features.append("case=prevNoTitle")
         if prevWord and not ( prevWord.lower == "the" or prevWord.lower == "a" ):
-            features.append("prevTheArticle")
+            features.append("prevTheArticle" + currentWord)
         #else:
         #    features.append("prevNoTheArticle")
-        if prevWord and prevWord[-7:] == "-seeded":
-            features.append("prevSeeded")
+
+        if prevWord and prevWord[-9:] == "-year-old":
+            features.append("prev" + prevWord + currentWord)
         #else:
+        #    features.append("prevNoSeeded")
+        if prevWord and prevWord[-7:] == "-seeded":
+            features.append("prevSeeded" + currentWord)
+        #else + currentWord:
         #    features.append("prevNoSeeded")
 
         if nextWord and not ( nextWord.lower == "city" or currentWord.lower == "city" ):
-            features.append("prevCity")
+            features.append("prevCity" + currentWord)
         #else:
         #    features.append("prevNoCity")
-        if prevWord and prevWord == '"' and prevWord in words[position-5:position+5]:
-            features.append("prevQuote")
+        if prevWord and not prevWord == "'":
+            features.append("prevQuoted" + currentWord + currentWord)
+        #else:
+        #    features.append("prevNoQuoted" + currentWord)
+        if prevWord and previousLabel == 'PERSON' and prevprevWord and not prevprevWord == "'":
+            features.append("prevQuoted" + prevWord + currentWord)
+        #else:
+        #    features.append("prevNoQuoted" + prevWord)
+        if prevWord and prevWord == '"':
+            features.append("prevQuote" + currentWord)
         #else:
         #    features.append("prevNoQuote")
+        if '"' in words[position-5:position+5]:
+            features.append("nearQuote" + currentWord)
+        #else:
+        #    features.append("nearNoQuote")
+        if prevWord and ( currentWord == '"' and prevWord == ',' ):
+            features.append("prevCommaQuote" + currentWord)
+        #else:
+        #    features.append("prevCommaQuote")
+
         if prevWord and prevWord[0].isupper() and prevWord[-1] == '.':
-            features.append("prevDot")
+            features.append("prevDot" + currentWord)
         #else:
         #    features.append("prevNoDot")
 
+        if prevWord and prevWord.lower() == 'coach':
+            features.append("prev" + prevWord + currentWord)
+        #else:
+        #    features.append("prevNo" + prevWord)
+        if prevWord and prevWord.lower() == 'striker':
+            features.append("prev" + prevWord + currentWord)
+        #else:
+        #    features.append("prevNo" + prevWord)
+        if prevWord and prevWord.lower() == 'manager':
+            features.append("prev" + prevWord + currentWord)
+        #else:
+        #    features.append("prevNo" + prevWord)
+        if prevWord and prevWord.lower() == 'leader':
+            features.append("prev" + prevWord + currentWord)
+        #else:
+        #    features.append("prevNo" + prevWord)
+        if prevWord and prevWord.lower() == 'champion':
+            features.append("prev" + prevWord + currentWord)
+        #else:
+        #    features.append("prevNo" + prevWord)
+        if prevWord and prevWord.lower() == 'broker':
+            features.append("prev" + prevWord + currentWord)
+        #else:
+        #    features.append("prevNo" + prevWord)
         if prevWord and prevWord.lower() == 'captain':
-            features.append("prev" + prevWord)
+            features.append("prev" + prevWord + currentWord)
         #else:
         #    features.append("prevNo" + prevWord)
         if prevWord and prevWord.lower() == 'prince':
-            features.append("prev" + prevWord)
+            features.append("prev" + prevWord + currentWord)
         #else:
         #    features.append("prevNo" + prevWord)
         if prevWord and prevWord.lower() == 'speaker':
-            features.append("prev" + prevWord)
+            features.append("prev" + prevWord + currentWord)
         #else:
         #    features.append("prevNo" + prevWord)
         if prevWord and prevWord.lower() == 'spokesman':
-            features.append("prev" + prevWord)
+            features.append("prev" + prevWord + currentWord)
         #else:
         #    features.append("prevNo" + prevWord)
         if prevWord and prevWord.lower() == 'director':
-            features.append("prev" + prevWord)
+            features.append("prev" + prevWord + currentWord)
         #else:
         #    features.append("prevNo" + prevWord)
         if prevWord and prevWord.lower() == 'doctor':
-            features.append("prev" + prevWord)
+            features.append("prev" + prevWord + currentWord)
         #else:
         #    features.append("prevNo" + prevWord)
         if prevWord and prevWord.lower() == 'minister':
-            features.append("prevMinister")
+            features.append("prevMinister" + currentWord)
         #else:
         #    features.append("prevNoMinister")
         if prevWord and prevWord.lower() == 'president':
-            features.append("prevPres")
+            features.append("prevPres" + currentWord)
         #else:
         #    features.append("prevNoPres")
         if prevWord and prevWord.lower() == 'partner':
-            features.append("prevpartner")
+            features.append("prevpartner" + currentWord)
         #else:
         #    features.append("prevNopartner")
         if prevWord and prevWord.lower() == 'mate':
-            features.append("prevmate")
+            features.append("prevmate" + currentWord)
         #else:
         #    features.append("prevNomate")
         if not (prevWord and prevWord == '\'s'):
-            features.append("prevApos")
+            features.append("prevApos" + currentWord)
         #else:
         #    features.append("prevNoApos")
         if prevprevWord and prevprevWord == '\'s':
-            features.append("prevprevApos")
+            features.append("prevprevApos" + currentWord)
         #else:
         #    features.append("prevprevNoApos")
         if prevWord and prevWord[0].isupper():
-            features.append("prevWord=Title")
+            features.append("prevWord=Title" + currentWord)
         #else:
         #    features.append("prevWord=NoTitle")
         if any(isinstance(e, str) and e[0].isupper for e in words[position-5:position] ):
-            features.append("5prevWord=Title")
+            features.append("5prevWord=Title" + currentWord)
         #else:
         #    features.append("5prevWord=NoTitle")
 
         if prevprevWord and prevprevWord == '\'s':
-            features.append("prevprevApos")
+            features.append("prevprevApos" + currentWord)
         #else:
         #    features.append("prevprevNoApos")
 
         if prevWord and prevWord == 'and' and prevprevWord and prevprevWord in self.namelist:
-            features.append("prevAnd")
+            features.append("prevAnd" + currentWord)
         #else:
         #    features.append("prevNoAnd")
 
         if prevWord and prevWord == ',' and prevprevWord and prevprevWord in self.namelist:
-            features.append("prevComma")
+            features.append("prevComma" + currentWord)
         #else:
         #    features.append("prevNoComma")
         if nextWord and nextWord == ',':
-            features.append("nextComma")
+            features.append("nextComma" + currentWord)
         #else:
         #    features.append("nextNoComma")
 
         if nextWord and nextWord == '\'s':
-            features.append("nextApos")
+            features.append("nextApos" + currentWord)
         #else:
         #    features.append("nextNoApos")
 
         if nextWord and nextWord == ',' and nextnextWord and nextnextWord == 'who':
-            features.append("nextWho")
+            features.append("nextWho" + currentWord)
         #else:
         #    features.append("nextNoWho")
         if nextWord and nextWord == ',' and nextnextWord and nextnextWord == 'whose':
-            features.append("nextWhose")
+            features.append("nextWhose" + currentWord)
         #else:
         #    features.append("nextNoWhose")
 
         if nextWord and nextWord[-2:] == 'ed' and nextnextWord and nextnextWord == 'his':
-            features.append("nextnexthis")
+            features.append("nextnexthis" + currentWord)
         #else:
         #    features.append("nextnextNohis")
 
         if prevWord and prevWord == 'told':
-            features.append("prevtold")
+            features.append("prevtold" + currentWord)
         #else:
         #    features.append("prevNotold")
         if 'told' in words[position-10:position]:
-            features.append("10prevWordtoldTitle")
+            features.append("10prevWordtoldTitle" + currentWord)
         #else:
         #    features.append("10prevWordtoldNoTitle")
         if nextWord and nextWord == 'told':
-            features.append("nexttold")
+            features.append("nexttold" + currentWord)
         #else:
         #    features.append("nextNotold")
         if 'told' in words[position:position+10]:
-            features.append("10nextWordtold")
+            features.append("10nextWordtold" + currentWord)
         #else:
         #    features.append("10nextWordNotold")
 
         if prevWord and prevWord == 'said':
-            features.append("prevSaid")
+            features.append("prevSaid" + currentWord)
         #else:
         #    features.append("prevNoSaid")
         if 'said' in words[position-10:position]:
-            features.append("10prevWordSaidTitle")
+            features.append("10prevWordSaidTitle" + currentWord)
         #else:
         #    features.append("10prevWordSaidNoTitle")
         if nextWord and nextWord == 'said':
-            features.append("nextSaid")
+            features.append("nextSaid" + currentWord)
         #else:
         #    features.append("nextNoSaid")
         if 'said' in words[position:position+10]:
-            features.append("10nextWordSaid")
+            features.append("10nextWordSaid" + currentWord)
         #else:
         #    features.append("10nextWordNoSaid")
 
         if prevWord and prevWord == 'spoke':
-            features.append("prevSpoke")
+            features.append("prevSpoke" + currentWord)
         #else:
         #    features.append("prevNoSaid")
         if 'spoke' in words[position-10:position]:
-            features.append("10prevWordSpoke")
+            features.append("10prevWordSpoke" + currentWord)
         #else:
         #    features.append("10prevWordNoSpoke")
         if nextWord and nextWord == 'spoke':
-            features.append("nextSpoke")
+            features.append("nextSpoke" + currentWord)
         #else:
         #    features.append("nextNoSpoke")
         if 'spoke' in words[position:position+10]:
-            features.append("10nextWordSpoke")
+            features.append("10nextWordSpoke" + currentWord)
         #else:
         #    features.append("10nextWordNoSpoke")
 
+        if 'portrays' in words[position-10:position+10]:
+            features.append("10nearWordPortray" + currentWord)
+        #else:
+        #    features.append("10nextWordNoSpoke")
 
         if previousLabel == "PERSON":
-            features.append("prevPERSONLabel=" + prevWord)
+            features.append("prevPERSONLabel=" + prevWord + currentWord)
         #else:
         #    features.append("prevOLabel="+ previousLabel)
 
+        if currentWord == "and":
+            features.append("notAnd" + currentWord)
+        if currentWord == "he":
+            features.append("notHe")
+        if currentWord == "bat":
+            features.append("notBat")
+        if currentWord == "against":
+            features.append("notAgainst")
+        if currentWord == "lbw":
+            features.append("not" + currentWord)
+        if currentWord == "c":
+            features.append("notCaught")
+        if currentWord == "b":
+            features.append("notBowled")
+        if currentWord == "st":
+            features.append("notStumped")
+        if currentWord == "lost":
+            features.append("notlost")
+        if currentWord == "the":
+            features.append("notthe")
+        if currentWord == "title":
+            features.append("nottitle")
+        if currentWord == "first":
+            features.append("not" + currentWord)
+        if currentWord == "second":
+            features.append("not" + currentWord)
+        if currentWord == "third":
+            features.append("not" + currentWord)
+        if currentWord == "fourth":
+            features.append("not" + currentWord)
+        if currentWord == "round":
+            features.append("not" + currentWord)
+        if currentWord == "that":
+            features.append("not" + currentWord)
+        if currentWord.lower == "president":
+            features.append("notpresident" + currentWord)
+        if currentWord == "quoted":
+            features.append("notquoted")
+        if currentWord == "campaign":
+            features.append("notcampaign")
+        if currentWord.lower == "manager":
+            features.append("not" + currentWord) 
+        if currentWord.lower == "faroe":
+            features.append("not" + currentWord) 
+        if currentWord.lower == "islands":
+            features.append("not" + currentWord) 
+        if currentWord == "&":
+            features.append("not&")
+        if currentWord == ".":
+            features.append("notDot")
+        if currentWord == ";":
+            features.append("not" + currentWord)
+        if any(isinstance(e, str) and e[0].isdigit for e in currentWord):
+            features.append("notDigit" + currentWord)
 
         return features
 
