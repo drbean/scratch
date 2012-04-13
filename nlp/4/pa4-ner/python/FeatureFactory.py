@@ -46,8 +46,8 @@ class FeatureFactory:
 
         """ Baseline Features """
         # features.append("word=" + currentWord)
-        features.append("prevLabel=" + previousLabel)
-        features.append("word=" + currentWord + ", prevLabel=" + previousLabel)
+        # features.append("prevLabel=" + previousLabel)
+        # features.append("word=" + currentWord + ", prevLabel=" + previousLabel)
         """
         Warning: If you encounter "line search failure" error when
         running the program, considering putting the baseline features
@@ -93,6 +93,10 @@ class FeatureFactory:
             features.append("case=prevTitle" + currentWord)
         #else:
         #    features.append("case=prevNoTitle")
+        if prevWord and previousLabel = "PERSON" and len(prevWord) == 2 and prevWord[0].isupper() and prevWord[-1] == ".":
+            features.append("case=prevInitial" + currentWord)
+        #else:
+        #    features.append("case=prevNoInitial")
         if prevWord and not ( prevWord.lower == "the" or prevWord.lower == "a" ):
             features.append("prevTheArticle" + currentWord)
         #else:
