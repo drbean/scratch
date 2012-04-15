@@ -57,7 +57,8 @@ interrogatives = [
 			Cat "whom" "REL" [Sg,MascOrFem,AccOrDat]         []],
 	[Cat "what" "NP"  [Wh,Thrd,AccOrDat,Neutr]    []],
 	[Cat "that"  "REL" [] [], Cat "that"  "DET" [Sg]    []],
-	[Cat "which" "REL" [Neutr] [], Cat "which" "DET" [Wh] []]
+	[Cat "which" "REL" [Neutr] [], Cat "which" "DET" [Wh] []],
+	[Cat "whose" "REL" [Neutr] [], Cat "which" "DET" [Wh] []]
 	-- [Cat "where" "NP" [Neutr] [], Cat "where" "REL" [] []]
 	]
 
@@ -233,10 +234,10 @@ ditransitives = [
 
 preps = [
 	[Cat "about"   "PREP" [About]   []],
+	[Cat "after"   "PREP" [After]   []],
 	[Cat "as"   "PREP" [As]   []],
 	[Cat "at"   "PREP" [At]   []],
 	[Cat "because_of"   "PREP" [BecauseOf]   []],
-	[Cat "before"   "PREP" [Before]   []],
 	[Cat "by"   "PREP" [By]   []],
 	[Cat "for"  "PREP" [For]  []],
 	[Cat "from" "PREP" [From] []],
