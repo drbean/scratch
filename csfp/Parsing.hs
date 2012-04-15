@@ -33,7 +33,7 @@ data Feat = Masc  | Fem  | Neutr | MascOrFem
           | Nom   | AccOrDat
           | Pers  | Refl | Wh 
           | Tense | Infl
-          | About | Around | At | As | BecauseOf | Before 
+          | About | After | Around | At | As | BecauseOf
 	  | In | Like | On | For | With
 	  | By | To | From | Through
 	  | Of
@@ -49,7 +49,7 @@ person   = filter (`elem` [Fst,Snd,Thrd])
 gcase    = filter (`elem` [Nom,AccOrDat])
 pronType = filter (`elem` [Pers,Refl,Wh]) 
 tense    = filter (`elem` [Tense,Infl]) 
-prepType = filter (`elem` [About,As,At,BecauseOf,Before,Like,In,On,For,With,By,To,From,Through]) 
+prepType = filter (`elem` [About,After,As,At,BecauseOf,Like,In,On,For,With,By,To,From,Through]) 
 advType = filter (`elem` [Around,In,On]) 
 posType  = filter (`elem` [Of])
 
@@ -128,6 +128,19 @@ preproc (",":xs)           = preproc xs
 
 preproc("what's":xs)          = "what" : "was" : preproc xs
 preproc("what're":xs)          = "what" : "were" : preproc xs
+
+preproc ("grow":"up":xs)	= "grow_up" : preproc xs
+preproc ("grew":"up":xs)	= "grew_up" : preproc xs
+preproc ("take":"care":"of":xs)	= "take_care_of" : preproc xs
+preproc ("took":"care":"of":xs)	= "took_care_of" : preproc xs
+preproc ("looked":"after":xs)	= "looked_after" : preproc xs
+preproc ("look":"after":xs)	= "look_after" : preproc xs
+preproc ("cared":"for":xs)	= "cared_for" : preproc xs
+preproc ("care":"for":xs)	= "care_for" : preproc xs
+preproc ("bowel":"movement":xs)	= "bowel_movement" : preproc xs
+preproc ("bowel":"movements":xs)	= "bowel_movements" : preproc xs
+preproc ("water":"sports":xs)	= "water_sports" : preproc xs
+preproc ("surfing":"accident":xs)	= "surfing_accident" : preproc xs
 
 preproc ("throat":"cancer":xs)	= "throat_cancer" : preproc xs
 preproc ("shrinking":"violet":xs)	= "shrinking_violet" : preproc xs
