@@ -398,11 +398,143 @@ foreman:
       A: You were in the gym. You heard this strange sound. It sounded like music, or an insect. You said, "What's that funny sound?" You didn't mean to embarrass anyone. Renee turned around, and with the same kind of voice, but very loudly, said, "That's me!" You were so embarrassed, you wanted to shrink into the ground.
       B: You are not a shrinking violet. You like people to notice you. But you have mixed feelings about people's reactions to your artificial voice. You don't like them to talk about it. You are unhappy when Amanda calls your voice "funny." You like it when Rita remembers you and gives you special treatment.
       C: You work as a hostess at a restaurant. You don't really want Renee coming to your restaurant, because her voice disturbs the other customers. But you can't refuse to let her in. So you try to be pleasant and to welcome her warmly. You find her a good table where she has some privacy and the other customers cannot hear her.
+    1:
+      identifier: foreman 1
+      A: You like people to notice you. But you don't like people to talk about your artificial voice. You were unhappy when Amanda called your voice "funny." But you were happy when Rita remembered you and gave you special treatment.
+      B: You were in the gym. You heard this strange sound, like an insect. You said, "What's that funny sound?" Renee turned around, and with the same kind of voice, but very loudly, said, "That's me!" You were so embarrassed.
+      C: You manage a restaurant. You didn't want Renee coming to your restaurant, because her voice disturbed the other customers. But you couldn't refuse to let her in. So you were pleasant and found her a table where people couldn't hear her.
+      quiz:
+        - question: A
+          option:
+            - Amanda
+            - Renee
+            - Rita
+          answer: Renee
+        - question: B
+          option:
+            - Amanda
+            - Renee
+            - Rita
+          answer: Amanda
+        - question: C
+          option:
+            - Amanda
+            - Renee
+            - Rita
+          answer: Rita
+        - question: Rita works in a restaurant.
+          answer  : True
+        - question: Rita likes Renee's voice.
+          answer  : False
+        - question: Amanda is Renee's daughter.
+          answer  : False
+        - question: Renee embarrassed Amanda.
+          answer  : True
+        - question: Renee likes some kinds of attention.
+          answer  : True
+        - question: Renee liked Amanda's comments.
+          answer  : False
+        - question: Renee liked the way Rita treated her.
+          answer  : True
+  compcomp:
+    0:
+      identifier: foreman 0
+      White: |+
+        \begin{normalsize}Throat cancer: causes and detection\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Causes] People who smoke are at risk of developing throat cancer. Excessive alchohol also increases the risk of getting throat cancer.
+        \item [Symptoms] The doctor will perform a physical exam. This may show a lump on the outside of the neck. High-pitched breathing sounds are also associated with throat cancer.
+        \item [Treatment] The goal of treatment is to completely remove the cancer and prevent it from spreading to other parts of the body.
+        \end{description}
+      Black: |+
+        \begin{normalsize}Throat cancer: treatment\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Surgery] Some patients need surgery to remove the vocal cords. If you lose your vocal cords, speech therapy can help you learn other ways to speak.
+        \item [Early detection] If throat cancer is detected early, treatment will cure the cancer in 90 percent of cases.
+        \item [Middle-stage detection] If the cancer has spread to surrounding tissues, in 50-60 percent of cases treatment will be successful.
+        \item [Late detection] If the cancer has spread to the head and neck, the cancer is not curable.
+        \end{description}
+      quiz:
+        - question: Some, but not all, smokers get throat cancer.
+          answer: True
+        - question: Heavy drinkers are less likely to get throat cancer than others.
+          answer: False
+        - question: You only have a lump on the neck when you have throat cancer.
+          answer: False
+        - question: It is easier to remove the cancer if it is detected early.
+          answer: True
+        - question: The later the cancer is detected, the lower the survival rate.
+          answer: True
+        - question: Removal of the vocal cords is more likely in cases of early detection.
+          answer: False
+        - question: To increase your chances of survival, you can go for a throat cancer checkup.
+          answer: True
+        - question: The chances of survival in cases of late detection are moderately good.  
+          answer: False
 
 davist:
   jigsaw:
     0:
-      identifier: foreman 0
+      identifier: davist 0
       A: Your son, Tom had a surfing accident. Now he cannot care for himself. You have to remove his bowel movements from his rectum. You were very sad at first, because Tom had been very active. But now you have gotten used to it, and Tom still is the same person he was before, even though he can't do any of the things he did before.
       B: You live in Florida near the sea, and you liked all kinds of water sports when you were younger. You do less of them now, because you have to support your family, your wife Connie and son, Tom by working. Your son was also an outdoor type, interested in the same things. But he broke his neck in a surfing accident and now is paralyzed.
       C: You appreciate the help of your father, Robert looking after you, but your mother, Connie has to do most of the work, like putting her fingers up your rectum to remove your bowel movements. At first you were very depressed about living life paralyzed, but you did not have brain damage and you have gotten used to being inactive.
+    1:
+      identifier: davist 1
+      A: You had a surfing accident, and now you are paralyzed from the neck down. Your mother, Connie looks after you. At first you were very embarrassed when she removed your bowel movements. And you were very depressed about being paralyzed. But you did not have brain damage and now you are happy you have a life.
+      B: You liked all kinds of water sports when you were younger. You do less of them now, because you have to support your family, your wife Connie and son, Tom. Tom also liked water sports, but broke his neck. Connie does most of the work looking after him, including removing his bowel movements.
+      C: You have to remove Tom's bowel movements from his rectum with your fingers. At first, you hoped he would recover, but he didn't. However, he still is the same person he was before, even though he can't do any of the things he did before. You are thankful for the support of your husband, Robert.
+      quiz:
+        - question: A
+          option:
+            - Connie
+            - Robert
+            - Tom
+          answer: Tom
+        - question: B
+          option:
+            - Connie
+            - Robert
+            - Tom
+          answer: Robert
+        - question: C
+          option:
+            - Connie
+            - Robert
+            - Tom
+          answer: Connie
+        - question: Connie does most work, looking after Tom.
+          answer  : True
+        - question: Robert removes Tom's bowel movements.
+          answer  : False
+        - question: Connie appreciates Robert's support.
+          answer  : True
+        - question: Tom is depressed now.
+          answer  : False
+        - question: Robert didn't enjoy water sports.
+          answer  : False
+        - question: Tom's bowel movements embarrassed him.
+          answer  : True
+        - question: Tom's hoped-for recovery didn't take place.
+          answer  : True
+  compcomp:
+    0:
+      identifier: davist 0
+      White: |+
+        \begin{normalsize}Quadriplegia\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Definition] A total or partial loss of use of all the limbs and torso (ie, paralysis) caused by illness or injury. Paraplegia is similar but does not affect the arms. Both sensation and motor control are lost.
+        \item [Cause] Usually damage to the brain or to the top of the spinal cord, in a car crash, fall or sports injury. But disease and congenital disorders can also result in paralysis.
+        \item [Broken neck] You can break your neck without becoming paralyzed if the spinal cord is not damaged. It is also possible to cut the spinal cord without breaking the spine, (eg, if something sticks into the spine.)
+        \end{description}
+      Black: |+
+        \begin{normalsize}CPR\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Definition] Manually pushing the blood around the body to prevent brain damage, in cases where a person's heart has stopped. The hands are used to press in the chest at least 5cm at a rate of 100 times per minute.
+        \item [Purpose] The aim is not to restart the heart or to make the person start breathing again, but to keep the brain alive until the heart restarts by itself, or until doctors can restart it. Mouth-to-mouth resuscitation is less successful.
+        \item [Survival rates] Only 5-10 percent of the people who receive CPR survive. But if CPR is started straight away, and doctors arrive in 3-5 minutes, the chances of survival increase. In Seattle, the survival rate is 30 percent. In NY, it is 1-2 percent.
+        \end{description}
