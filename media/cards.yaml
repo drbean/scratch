@@ -114,3 +114,83 @@ oreilly:
           answer  : True
         - question: Rivera doesn't want Ramos punished.
           answer  : False
+limbaugh:
+  jigsaw:
+    0:
+      identifier: limbaugh 0
+      A: You give Fluke a telephone call and tell her that the insulting treatment that she received from Limbaugh will help you win the election, because many woman will believe the Republicans want a 'War on Women.'
+      B: You have a radio program that is very popular with Republicans and very unpopular with Democrats. You call Fluke 'a slut,' because she supports Obama's efforts to help women get cheap birth control pills.
+      C: You want your school to pay for students' birth control pills. But your school doesn't want to. It doesn't want students to have sex. You say Limbaugh's words are unacceptable. You say men call women 'sluts' to silence them.
+      quiz:
+        - question: A
+          option:
+            - Fluke
+            - Limbaugh
+            - Obama
+          answer: Obama
+        - question: B
+          option:
+            - Fluke
+            - Limbaugh
+            - Obama
+          answer: Limbaugh
+        - question: C
+          option:
+            - Fluke
+            - Limbaugh
+            - Obama
+          answer: Fluke
+        - question: Obama supports Limbaugh.
+          answer  : False
+        - question: Fluke supports a `War on Women.'
+          answer  : False
+        - question: Fluke probably supports Obama.
+          answer  : True
+        - question: Fluke: "Limbaugh supports a `War on Women.'"
+          answer  : True
+        - question: Obama supports a `War on Women.'
+          answer  : False
+        - question: Obama supports Fluke.
+          answer  : True
+        - question: Obama: "Republicans want a 'War on Women.'"
+          answer  : True
+stern:
+  jigsaw:
+    1:
+      identifier: stern 1
+      A: You tell Stern that perhaps Obama and many other people lied about him being an American. You say he may not have been born in the U.S. You don't understand why your doubts upset Stern. You want him to question Obama's right to be president.
+      B: You have a radio program that is very popular because you talk a lot about sex and use bad language. But Scott makes you mad by questioning Obama's legitimacy. You say the birth certificate is not important. You say, Have faith.
+      C: Your birth certificate is not the usual kind of birth certificate. Many people think it shows you are not American. No-one asked whether you were American before. You don't think it is an important question now.
+      quiz:
+        - question: A
+          option:
+            - Obama
+            - Scott
+            - Stern
+          answer: Scott
+        - question: B
+          option:
+            - Obama
+            - Scott
+            - Stern
+          answer: Stern
+        - question: C
+          option:
+            - Obama
+            - Scott
+            - Stern
+          answer: Obama
+        - question: Obama thinks his birth is an important question.
+          answer  : False
+        - question: Obama thanks Stern for supporting him.
+          answer  : False
+        - question: Scott thinks Stern should question Obama.
+          answer  : True
+        - question: Stern wants to question Obama's legitimacy.
+          answer  : False
+        - question: Stern tells Scott to question Obama's legitimacy.
+          answer  : False
+        - question: Scott angers Stern with his questions.
+          answer  : True
+        - question: Stern tells Scott to believe in Obama.
+          answer  : True
