@@ -1,0 +1,17 @@
+20	NP	Det Nbar
+1	NP	PossPron Nbar
+1	NP	Proper
+
+1	NP	Num Nbar
+
+1	NP	NP , NP
+1	NP	NP , NP ,
+1	NP	either NP or NP
+1	NP	neither NP nor NP
+1	NP	NP and NP
+1	NP	PluralNoun
+1	NP	Pron
+1	NP	PresP
+1	NP	PresP PP
+
+1	NP	WhPron Statement
