@@ -23,7 +23,7 @@ public class MEMM {
 		    }
 		}
 
-		List<Datum> testData = runMEMM(args[0], args[1]);
+		List<Datum> testData = runMEMM(args[0], args[1], print);
 
 		// print words + guess labels for development
 		if (print) {
@@ -46,8 +46,13 @@ public class MEMM {
 
 	}
 
+	public static List<Datum> runMEMM(String trainFile,
+			String testFile) throws IOException{
+		return runMEMM(trainFile, testFile, false);
+	}
 
-    public static List<Datum> runMEMM(String trainFile, String testFile) throws IOException{
+	public static List<Datum> runMEMM(String trainFile,
+			String testFile, boolean printWeights) throws IOException{
 
 		List<Datum> trainData = readData(trainFile);
 		List<Datum> testDataWithMultiplePrevLabels = readData(testFile);
@@ -67,6 +72,26 @@ public class MEMM {
 		QNMinimizer minimizer = new QNMinimizer(15);
 		double[][] weights = obj.to2D(minimizer.minimize(obj, 1e-4, initial,
 				-1, null));
+
+		if (printWeights) {
+			System.out.println("---");
+			int longestFeature = 0;
+			for (int i = 0; i < obj.featureIndex.size(); i++) {
+				int len = ((String)obj.featureIndex.get(i)).length();
+				if (len > longestFeature) {
+					longestFeature = len;
+				}
+			}
+			String formatString = "%-" + longestFeature + "s";
+			for (int i = 0; i < weights[0].length; i++) {
+				System.out.print(String.format(formatString, obj.featureIndex.get(i)));
+				for (int j = 0; j < obj.labelIndex.size(); j++) {
+					System.out.print(String.format("  %+8.4f", weights[j][i]));
+				}
+				System.out.println();
+			}
+			System.out.println("---");
+		}
 
 		Viterbi viterbi = new Viterbi(obj.labelIndex, obj.featureIndex, weights);
 		viterbi.decode(testData, testDataWithMultiplePrevLabels);
