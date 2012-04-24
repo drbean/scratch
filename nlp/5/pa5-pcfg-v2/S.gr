@@ -15,7 +15,7 @@
 1	Statement	Statement SubCon Statement
 1	Statement	SubCon Statement , Statement
 1	Statement	WhAdv Statement , Statement
-1	Statement	NP VP
+9	Statement	NP VP
 1	Statement	it is NP who VP
 
 1	Command	do not VerbBase

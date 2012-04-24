@@ -1,4 +1,4 @@
-1	VP	VP PP
+2	VP	VP PP
 1	VP	VP Adv
 1	VP	Be Adj
 1	VP	Do
@@ -14,7 +14,7 @@
 1	VP	Be PresP
 1	VP	Modal have been PresP
 1	VP	VerbT
-1	VP	VerbT NP
+2	VP	VerbT NP
 1	VP	Verb3PS
 1	VP	Verb3PS NP
 1	VP	VerbBase
