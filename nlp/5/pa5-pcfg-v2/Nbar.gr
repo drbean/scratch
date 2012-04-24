@@ -1,7 +1,7 @@
 20	Nbar	Noun
-1	Nbar	Nbar PP
-10	Nbar	Adj Nbar
-10	Nbar	PresP
+2	Nbar	Nbar PP
+1	Nbar	Adj Nbar
+1	Nbar	PresP
 1	Nbar	Nbar WhDet VP
 1	Nbar	Nbar WhDet NP VP
 1	Nbar	Nbar NP VP

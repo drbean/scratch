@@ -5,26 +5,26 @@
 1	Modal	ModalPres
 
 # 'do'/'does'
-1	Do	do
-1	Do	does
+2	Do	do
+2	Do	does
 
 # Be
-1	Be	is
-1	Be	are
-1	Be	was
-1	Be 	were
+2	Be	is
+2	Be	are
+2	Be	was
+2	Be 	were
 
 # Modals.
-1	ModalPres	can
+2	ModalPres	can
 1	ModalPast	could
 1	ModalPres	may
-1	ModalPast	might
-1	Modal	must
+2	ModalPast	might
+2	Modal	must
 1	Modal	ought
 1	ModalPres	shall
-1	ModalPast	should
+2	ModalPast	should
 1	ModalPres	will
-1	ModalPast	would
+2	ModalPast	would
 
 
 
