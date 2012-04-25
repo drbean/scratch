@@ -23,11 +23,15 @@ my $antel = League->new( leagues => '/home/drbean/001',
 	id => $yaml->{anterior} );
 my $anteg = Grades->new({ league => $antel });
 my $grades = $anteg->grades;
+my $oldmembers = $antel->yaml->{member};
+my %oldm = map { $_->{id} => $_ } @$oldmembers;
 
 my @rated;
 for my $member ( @$members ) {
 	my $id = $member->{id};
 	$member->{rating} ||= $grades->{ $id };
+	$member->{password} ||=  $oldm{$id}->{password};
+	$member->{name} = $oldm{$id}->{name};
 	push @rated, $member;
 }
 
