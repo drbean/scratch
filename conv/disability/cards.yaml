@@ -486,6 +486,11 @@ davist:
       A: You had a surfing accident, and now you are paralyzed from the neck down. Your mother, Connie looks after you. At first you were very embarrassed when she removed your bowel movements. And you were very depressed about being paralyzed. But you did not have brain damage and now you are happy you have a life.
       B: You liked all kinds of water sports when you were younger. You do less of them now, because you have to support your family, your wife Connie and son, Tom. Tom also liked water sports, but broke his neck. Connie does most of the work looking after him, including removing his bowel movements.
       C: You have to remove Tom's bowel movements from his rectum with your fingers. At first, you hoped he would recover, but he didn't. However, he still is the same person he was before, even though he can't do any of the things he did before. You are thankful for the support of your husband, Robert.
+    2:
+      identifier: davist 1
+      A: You had an accident, and you are paralyzed. At first you were very embarrassed when your mother, Connie removed your bowel movements. And you were very depressed. But you did not have brain damage and now you are happy.
+      B: You liked water sports when you were younger. You do less of them now, because you have to support your wife, Connie and son, Tom. Connie does most of the work looking after Tom, including removing his bowel movements.
+      C: At first, you hoped Tom would recover, but he didn't. However, he still is the same person he was before, even though he can't do any of the things he did before. You are thankful for the support of your husband, Robert.
       quiz:
         - question: A
           option:
@@ -505,9 +510,9 @@ davist:
             - Robert
             - Tom
           answer: Connie
-        - question: Connie does most work, looking after Tom.
+        - question: Connie does most work, caring for Tom.
           answer  : True
-        - question: Robert removes Tom's bowel movements.
+        - question: Robert removes bowel movements.
           answer  : False
         - question: Connie appreciates Robert's support.
           answer  : True
@@ -515,10 +520,10 @@ davist:
           answer  : False
         - question: Robert didn't enjoy water sports.
           answer  : False
-        - question: Tom's bowel movements embarrassed him.
+        - question: Bowel movements embarrassed Tom.
           answer  : True
-        - question: Tom's hoped-for recovery didn't take place.
-          answer  : True
+        - question: Tom's hoped-for recovery took place.
+          answer  : False
   compcomp:
     0:
       identifier: davist 0
@@ -535,6 +540,23 @@ davist:
         \normalsize
         \begin{description}
         \item [Definition] Manually pushing the blood around the body to prevent brain damage, in cases where a person's heart has stopped. The hands are used to press in the chest at least 5cm at a rate of 100 times per minute.
-        \item [Purpose] The aim is not to restart the heart or to make the person start breathing again, but to keep the brain alive until the heart restarts by itself, or until doctors can restart it. Mouth-to-mouth resuscitation is less successful.
-        \item [Survival rates] Only 5-10 percent of the people who receive CPR survive. But if CPR is started straight away, and doctors arrive in 3-5 minutes, the chances of survival increase. In Seattle, the survival rate is 30 percent. In NY, it is 1-2 percent.
+        \item [Purpose] Not to restart the heart or to make the person start breathing, but to keep the brain alive until the heart restarts by itself, or until doctors can restart it.
+        \item [Survival rates] All cases where CPR is used: only 5-10 percent. Cases where CPR is started straight away, and doctors arrive in 3-5 minutes: more than 5-10 percent. In Seattle: 30 percent. In NY: 1-2 percent.
         \end{description}
+      quiz:
+        - question: Injuries to the bottom of the spine will affect only the legs.
+          answer: True
+        - question: Some people break their necks but don't become paralyzed.
+          answer: True
+        - question: Quadriplegics cannot move their limbs, but they have a sense of touch.
+          answer: False
+        - question: All quadriplegics have total paralysis. There are no degrees of paralysis.
+          answer: False
+        - question: CPR helps restart the heart.
+          answer: False
+        - question: The brain needs fresh blood, or it will be damaged.
+          answer: True
+        - question: The rate of survival where CPR is used is high.
+          answer: False
+        - question: More people can do CPR and help arrives quicker in Seattle than in NY.
+          answer: True
