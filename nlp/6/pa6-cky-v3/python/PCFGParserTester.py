@@ -30,7 +30,11 @@ class PCFGParser(Parser):
         #       most binary
 
         self.lexicon = Lexicon(train_trees)
-        self.grammar = Grammar(train_trees)
+        bintrees = []
+	for tree in train_trees:
+            bintrees.append( TreeAnnotations.annotate_tree(tree) )
+        self.grammar = Grammar(bintrees)
+        pass
 
 
     def get_best_parse(self, sentence):
@@ -39,7 +43,31 @@ class PCFGParser(Parser):
         'sentence' is a list of strings (words) that form a sentence.
         """
         # TODO: implement this method
+        score = {}
+        tags = self.lexicon.word_to_tag_counters
+        for word in sentence:
+            i = sentence.index(word)
+            iplus = i + 1
+            pos = []
+            for tag in tags[word].keys():
+                score[i, iplus, tag] = tags[word][tag]
+                if score[i, iplus, tag]:
+                    pos.append(tag)
+            added = True
+            while added:
+                added = False
+                for child in pos:
+                    if self.grammar.get_unary_rules_by_child(child):
+                        rules = self.grammar.get_unary_rules_by_child(child)
+                        for rule in rules:
+                            prob = 1 * rule.prob()
+                            parentname = rule.parent()
+                            if prob > score[i, iplus, A]:
+                                score[i, iplus, A] = prob
+                                back[i, iplus, A] = B
+                                added = True
 
+        pass
         return None
 
 
@@ -410,6 +438,12 @@ class BinaryRule:
             return False
         return True
 
+    def parent_name(self):
+        return "%s" % (self.parent)
+        # return self.parent
+
+    def prob(self):
+        return self.score
 
 class UnaryRule:
     """
@@ -441,6 +475,12 @@ class UnaryRule:
         if (self.parent != o.parent):
             return False
         return True
+
+    def parent_name(self):
+        return "%s" % (self.parent)
+
+    def prob(self):
+        return self.score
 
 
 MAX_LENGTH = 20
@@ -555,3 +595,5 @@ if __name__ == '__main__':
 
     print "Testing parser"
     test_parser(parser, test_trees)
+
+# vim: tabstop=8 expandtab shiftwidth=4 softtabstop=4
