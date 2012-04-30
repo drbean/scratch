@@ -43,15 +43,20 @@ class PCFGParser(Parser):
         'sentence' is a list of strings (words) that form a sentence.
         """
         # TODO: implement this method
-        score = {}
+        score = collections.defaultdict(lambda: \
+                collections.defaultdict(lambda: \
+                collections.defaultdict(lambda: 0.0)))
+        back = collections.defaultdict(lambda: \
+                collections.defaultdict(lambda: \
+                collections.defaultdict(lambda: '')))
         tags = self.lexicon.word_to_tag_counters
         for word in sentence:
             i = sentence.index(word)
             iplus = i + 1
             pos = []
             for tag in tags[word].keys():
-                score[i, iplus, tag] = tags[word][tag]
-                if score[i, iplus, tag]:
+                score[i][iplus][tag] = tags[word][tag]
+                if score[i][iplus][tag]:
                     pos.append(tag)
             added = True
             while added:
@@ -60,15 +65,39 @@ class PCFGParser(Parser):
                     if self.grammar.get_unary_rules_by_child(child):
                         rules = self.grammar.get_unary_rules_by_child(child)
                         for rule in rules:
-                            prob = 1 * rule.prob()
-                            parentname = rule.parent()
-                            if prob > score[i, iplus, A]:
-                                score[i, iplus, A] = prob
-                                back[i, iplus, A] = B
+                            prob = score[i][iplus][child] * rule.score
+                            parent = rule.parent
+                            if prob > score[i][iplus][parent]:
+                                score[i][iplus][parent] = prob
+                                back[i][iplus][parent] = child
                                 added = True
-
-        pass
-        return None
+        last = len(sentence) 
+        for span in range(2,last+1):
+            for begin in range(0, last+1 - span):
+                end = begin + span
+                for split in range(begin+1, end):
+                    left_children = score[begin][split].keys()
+                    right_children = score[split][end].keys()
+                    if left_children and right_children:
+                        for left_child in left_children:
+                            for right_child in right_children:
+                                left_rules = \
+                                    self.grammar.get_binary_rules_by_left_child( left_child )
+                                right_rules = \
+                                    self.grammar.get_binary_rules_by_right_child( right_child )
+                                if left_rules and right_rules:
+                                    for left_rule in left_rules:
+                                        for right_rule in left_rules:
+                                            if left_rule == right_rule:
+                                                rule = left_rule
+                                                parent = rule.parent
+                                                prob = score[begin][split][left_child] *\
+                                                        score[split][end][right_child] *\
+                                                        rule.score
+                                                if prob > score[begin][end][parent]:
+                                                    score[begin][end][parent] = prob
+                                                    back[begin][end][parent] = 'B->C'
+        return back
 
 
 class BaselineParser(Parser):
@@ -438,13 +467,6 @@ class BinaryRule:
             return False
         return True
 
-    def parent_name(self):
-        return "%s" % (self.parent)
-        # return self.parent
-
-    def prob(self):
-        return self.score
-
 class UnaryRule:
     """
     A unary grammar rule with score representing its probability.
@@ -475,13 +497,6 @@ class UnaryRule:
         if (self.parent != o.parent):
             return False
         return True
-
-    def parent_name(self):
-        return "%s" % (self.parent)
-
-    def prob(self):
-        return self.score
-
 
 MAX_LENGTH = 20
 
