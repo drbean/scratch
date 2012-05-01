@@ -45,9 +45,7 @@ story	= pred1 [Y]
 job	= pred1 [J]
 language = pred1 []
 
-names :: [( Entity, String )]
-
-names = map swap characters
+namelist = map fst characters
 
 male, female :: OnePlacePred
 
@@ -180,7 +178,8 @@ immigrate	= pred3 immigration
 
 
 gave	= pred3 giving
-got	= pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving
+got	= pred2 $ map (\x -> (recipient x, patient x) ) giving
+got_from	= pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving
 sold	= pred2 $ map (\x -> (agent x, theme x) ) selling
 
 told	= pred3 comms
