@@ -3,68 +3,75 @@ module Story_Interpretation where
 import Model
 
 story_objects = [
-	( "daughter",	\[x]	-> daughter x	),
+	( "son",	\[x]	-> daughter x	),
 	( "mother",	\[x]	-> isMother x	),
-
-	( "electrolarynx",	\[x]	-> electrolarynx x	),
-	( "voice",	\[x]	-> voice x	),
-	( "gym",	\[x]	-> gym x	),
-	( "restaurant",	\[x]	-> restaurant x	),
-	( "movie_star",	\[x]	-> movie_star x	),
+	( "father",	\[x]	-> isFather x	),
 
 	( "disability",	\[x] -> disability x	),
-	( "throat_cancer",	\[x] -> throat_cancer x	),
-	( "sound",	\[x] -> sound x	),
-	( "hands_on_hips",	\[x] -> hands_on_hips x	),
-	( "shrinking_violet",	\[x] -> shrinking_violet x	),
+	( "accident",	\[x]	-> accident x	),
+	( "surfing_accident",	\[x]	-> surfing_accident x	),
+	( "body",	\[x]	-> body x	),
+	( "device",	\[x]	-> device x	),
+	( "beach",	\[x]	-> beach x	),
+	( "horse",	\[x]	-> horse x	),
+	-- ( "friends",	\[x]	-> friends x	),
+	( "lack_of_depression",	\[x]	-> lack_of_depression x	),
+	( "appreciation",	\[x]	-> appreciation x	),
+	( "state",	\[x]	-> state x	),
+	( "hometown",	\[x]	-> hometown x	),
+	( "neck",	\[x]	-> neck x	),
+	( "water_sports",	\[x]	-> water_sports x	),
+	( "surfing",	\[x]	-> surfing x	),
+	( "part",	\[x]	-> part x	),
+	( "ventilator",	\[x]	-> ventilator x	),
+	( "bowel_movement",	\[x]	-> bowel_movement x	),
 
-	( "phone",	\[x] -> phone x	),
-	( "computer",	\[x] -> computer x	),
-	( "joke",	\[x] -> joke x	),
-	( "telemarketers",	\[x] -> telemarketers x	),
-
-	( "year",	\[x] -> year x	),
-
-	( "story",	\[x] -> story x	),
-	( "operation",	\[x] -> operation x	)
+	( "story",	\[x] -> story x	)
 	]
 
 story_inflections = [
- ( "cancer", "throat_cancer" ),
- ( "daughters", "daughter" ),
- -- ( "lose", "lost" ),
- ( "sound", "sounded" ),
+ ( "use", "used" ),
  ( "feel", "felt" ),
- ( "annoy", "annoyed" ),
- ( "offend", "annoyed" ),
- ( "offended", "annoyed" ),
- ( "embarrass", "annoyed" ),
- ( "embarrassed", "annoyed" ),
- ( "leave", "left" ),
  ( "come", "came" ),
+ ( "grow_up", "grew_up" ),
  ( "live", "lived" ),
- ( "names", "name" ),
+ ( "took_care_of", "take_care_of" ),
+ ( "looked_after", "look_after" ),
+ ( "cared_for", "care_for" ),
+ ( "help", "helped" ),
+ ( "rely", "relied" ),
  ( "thanked", "thank" )
  ]
 
 story_relations = [
-	( "scared",	\[x]	-> scared x	),
+	( "broken",	\[x]	-> broken x	),
+	( "paralyzed",	\[x]	-> paralyzed x	),
+	( "resuscitated",	\[x]	-> resuscitated x	),
+	( "brain-damaged",	\[x]	-> brain_damaged x	),
+
 	( "disabled",	\[x]	-> disabled x	),
 	( "mentally-disabled",	\[x]	-> mentally_disabled x	),
 	( "physically-disabled",	\[x]	-> physically_disabled x	),
-	( "older",	\[x]	-> older x	),
 
-	-- ( "lost",	\[x,y] -> lost y x	),
-	( "sounded",	\[x,y] -> sounded y x	),
+	( "used",	\[x,y] -> used y x	),
 	( "felt",	\[x,y] -> felt y x	),
-	( "annoyed",	\[x,y] -> annoyed y x	),
-	( "left",	\[x,y]	-> left y x	),
 	( "came",	\[x,y]	-> come_from y x	),
+	( "grew_up",	\[x,y]	-> grew_up_in y x	),
 	( "lived",	\args -> case args of
 		[x,y] -> (lived_with y x || lived_in y x)
 		[x,y,z] -> (lived_with_in z y x || lived_with_for z y x)
 		[x,y,z,v] -> lived_with_in_for v z y x ),
 	( "helped",	\[x,y]	-> helped y x	),
+	( "relied",	\[x,y]	-> relied_on y x	),
+	( "take_care_of",	\args -> case args of
+		[x,y]	-> take_care_of y x
+		[x,y,z]	-> take_care_of_after z y x	),
+	( "look_after",	\args -> case args of
+		[x,y]	-> look_after y x
+		[x,y,z]	-> look_after_after z y x	),
+	( "care_for",	\args -> case args of
+		[x,y]	-> care_for y x
+		[x,y,z]	-> care_for_after z y x	),
 	( "appreciate",	\[x,y]	-> appreciate y x	),
 	( "thank",	\[x,y]	-> thank y x	)
 

@@ -20,51 +20,58 @@ entities	=  [minBound..maxBound]
 characters :: [ (String, Entity) ]
 
 characters = [
-	( "south_africa",	A ),
-	( "amanda",	W ),
-	( "rita",	K ),
-	( "new_york",	N ),
-	( "california",	F ),
-	( "michelle",	M ),
-	( "mia",	I ),
-	( "renee",	R )
+
+	( "connie",	C ),
+	( "florida",	F ),
+	-- ( "christopher",	H ),
+	( "pensacola",	P ),
+	( "robert",	R ),
+	( "tom",	T )
+
 	]
 
+accident	= pred1 [A]
+disability	= pred1 [Z]
+body	= pred1 [B]
+device	= pred1 [D]
+beach	= pred1 [E]
+horse	= pred1 [G]
+-- friends	= pred1 [I]
+lack_of_depression	= pred1 [K]
+state	= pred1 [L]
+hometown	= pred1 [M]
+neck	= pred1 [N]
+water_sports	= pred1 [O]
+surfing	= pred1 [S]
+part	= pred1 [X]
+ventilator	= pred1 [V]
+bowel_movement	= pred1 [W]
 
-operation	= pred1 [O]
-electrolarynx	= pred1 [X]
-voice	= pred1 [V]
-gym	= pred1 [G]
-restaurant	= pred1 [U]
-throat_cancer	= pred1 [C]
-disability	= pred1 [L]
-sound	= pred1 [D]
-hands_on_hips	= pred1 [H]
-phone	= pred1 [P]
-computer	= pred1 [E]
-joke	= pred1 [J]
-telemarketers	= pred1 [T]
 story	= pred1 [Y]
-year	= pred1 [B]
 
 namelist = map fst characters
 
-funny	= sound
+surfing_accident = accident
 
-shrinking_violet	= pred1 [I]
-kind	= pred1 [K]
-scared	= pred1 [R]
-older	 = scared
-physically_disabled = scared
-movie_star = scared
+broken	= pred1 [N]
+paralyzed	= pred1 [C,T]
+resuscitated	= pred1 [C,T]
+normal	= pred1 [R,C]
 
+brain_damage	= pred1 [B]
+brain_damaged	= pred1 []
+
+appreciation = lack_of_depression
+appreciative = appreciation
+
+physically_disabled = pred1 [T]
 mentally_disabled = pred1 []
 
 male, female :: OnePlacePred
 
 child	= pred1 []
-male	= pred1 []
-female	= pred1 [M,I,R,W,K]
+male	= pred1 [T,R,H]
+female	= pred1 [C]
 
 type OnePlacePred	= Entity -> Bool
 type TwoPlacePred	= Entity -> Entity -> Bool
@@ -88,7 +95,7 @@ isWoman	= \x -> ( not $ isGirl x ) && female x
 isParent	= pred1 $ map fst parenting
 isOffspring	= pred1 $ map snd parenting
 isMother	= \x -> ( female x && isParent x )
-father	= \x -> ( male x && isParent x )
+isFather	= \x -> ( male x && isParent x )
 daughter	= \x -> ( female x && isOffspring x )
 son	= \x -> ( male x && isOffspring x )
 
@@ -101,16 +108,22 @@ pred3 xs	= curry3 ( `elem` xs )
 pred4 xs	= curry4 ( `elem` xs )
 
 --(parent,child)
-parenting	= [(R,I),(R,M)]
-help	= [(M,R)]
-possessions	= [(R,X)]
-appreciation	= [(R,K)]
-illness	= [(R,C)]
-greeting	= [(K,R)]
-feelings	= [(R,R)]
-resemblances	= [(R,E)]
+parenting	= [(C,T),(R,T)]
+help	= [(C,T),(R,T)]
+feelings	= [(T,L)]
+usage	= [(T,V)]
+likes	= [(T,O),(R,O)]
+
+possessions	= []
 raised_by	= pred2 $ map swap parenting
 parented	= pred2 parenting
+
+look_after	= parented
+look_after_after = pred3 $ map (\(x,y) -> (x,y,A) ) parenting
+take_care_of	= look_after
+take_care_of_after = look_after_after
+care_for	= look_after
+care_for_after	= look_after_after
 
 parentMaybe :: Entity -> (Entity,Entity) -> Maybe Entity
 parentMaybe child = \rel -> if child == snd rel then Just (fst rel) else Nothing
@@ -118,17 +131,19 @@ parents		= \child -> mapMaybe (parentMaybe child) parenting
 isSiblings	= \a b -> (any . flip elem) (parents a) (parents b)
 brother	= \x -> any ( \i -> isSiblings x i ) entities
 
-have	= pred2 $ possessions ++ parenting ++ illness
+have	= pred2 $ possessions ++ parenting
 		++ ( map swap parenting )
-		++ ( map (\x->(fst x, O) ) illness )
-		++ ( map (\x->(x, L) ) ( filter disabled entities ) )
+		++ ( map (\x->(x, A) ) ( filter disabled entities ) )
+		++ ( map (\x->(x, N) ) ( filter disabled entities ) )
+		++ ( map (\x->(x, B) ) ( filter disabled entities ) )
+used	= pred2 usage
 felt	= pred2 feelings
-sounded	= pred2 resemblances
-appreciate	= pred2 appreciation
+appreciate	= pred2 $ map (\x -> (agent x, recipient x) ) $
+			filter (\x-> appreciative $ theme x ) communications
 thank	= appreciate
 
--- greet	= interview
-helped	= pred2 $ help
+helped	= pred2 help
+relied_on = pred2 $ map swap help
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
@@ -146,11 +161,11 @@ origin	= theme
 destination = recipient
 
 --(worker,job,site)
-working	= [(K,Unspec,U)]
-communications	= [ (R,Y,M),(M,Y,R),(R,D,W),(R,Unspec,K),(R,Unspec,T),
-			(T,Unspec,R) ]
+working	= [(R,Unspec,Unspec)]
+--(agent,theme,recipient)
+communications	= [(T,Y,C),(T,Y,R),(T,K,C),(T,K,R),(C,Unspec,T),(R,Unspec,T)]
 --(agent,origin,destination)
-movement	= [ (R,A,F),(M,N,F) ]
+movement	= [ (T,P,P) ]
 --(source,acquisition,acquirer)
 giving	= [(Unspec,C,R)]
 acceptances = []
@@ -159,7 +174,7 @@ selling	= []
 --(killer,killed,instrument)
 --(putter,theme,location)
 --(agent,theme,location)
-looking_back	= [(R,Y,Unspec),(M,Y,Unspec)]
+looking_back	= [(T,A,C)]
 annoyances	= [(W,Unspec,R),(R,V,W),(R,V,K)]
 
 annoyed	= pred2 ( map (\x -> (agent x, recipient x) ) annoyances )
@@ -187,6 +202,7 @@ sold	= pred2 $ map (\x -> (agent x, theme x) ) selling
 
 come_from	= pred2 $ map (\x->(agent x, origin x) ) movement
 left	= come_from
+grew_up_in	= come_from
 go_to	= pred2 $ map (\x->(agent x, destination x) ) movement
 move	= pred3 movement
 
@@ -202,7 +218,7 @@ period4 = theme4
 recipient4 (_,_,_,r) = r
 
 -- (agent,location,period,recipient)
-cohabitation	= [(M,F,B,R),(R,F,B,M),(M,N,Unspec,Unspec)] 
+cohabitation	= [(T,P,Unspec,R),(T,P,Unspec,C),(T,F,Unspec,R),(T,F,Unspec,C)] 
 lived_with_in_for	= pred4 $ map ( \x ->
 	(agent4 x, recipient4 x, location4 x, period4 x) ) cohabitation
 lived_with_in	= pred3 $ map ( \x -> (agent4 x, recipient4 x, location4 x) )
@@ -210,7 +226,8 @@ lived_with_in	= pred3 $ map ( \x -> (agent4 x, recipient4 x, location4 x) )
 lived_with_for	= pred3 $ map ( \x -> (agent4 x, recipient4 x, period4 x) )
 					cohabitation
 lived_with	= forgetful lived_with_in
-lived_in	= pred2 $ map (\x -> (agent4 x, location4 x) ) cohabitation	
+lived_in	= pred2 $ map (\x -> (agent4 x, location4 x) ) cohabitation
+			++ map (\x -> (recipient4 x, location4 x) ) cohabitation
 
 -- (teacher,school(location),subject,student)
 schooling = []
