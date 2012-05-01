@@ -1,19 +1,6 @@
-module Story_Parsing where
+module Story_Cats where
 
 import Parsing
-
-collect_lex = [
-	("auxiliary verbs",	aux),
-	("interesting verbs",	story_verbs),
-	("intransitive verbs",	intransitives),
-	("transitive verbs",	transitives),
-	("ditransitive verbs",	ditransitives),
-	("object_names",	object_names),
-	("class_names",	class_names),
-	("prepositions",	preps),
-	("determiners",	determiners),
-	("possessives",	possessives)
-	]
 
 proper_names, object_names :: Lexset
 
@@ -56,4 +43,11 @@ story_verbs = [
 	[Cat "resent"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
 	]
 
+story_aux = [
+	]
 
+story_adjs = [
+	]
+
+story_advs = [
+	]
