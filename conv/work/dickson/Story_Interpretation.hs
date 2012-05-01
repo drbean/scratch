@@ -21,3 +21,10 @@ story_objects = [
 	( "job",	\[x] -> job x	)
 	]
 
+story_inflections = [
+	]
+
+story_relations = [
+	]
+
+
