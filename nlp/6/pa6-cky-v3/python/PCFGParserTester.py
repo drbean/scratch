@@ -71,9 +71,9 @@ class PCFGParser(Parser):
                                 score[i][iplus][parent] = prob
                                 back[i][iplus][parent] = child
                                 added = True
-        last = len(sentence) 
-        for span in range(2,last+1):
-            for begin in range(0, last+1 - span):
+        wordN = len(sentence) 
+        for span in range(2,wordN+1):
+            for begin in range(0, wordN+1 - span):
                 end = begin + span
                 for split in range(begin+1, end):
                     left_children = score[begin][split].keys()
@@ -87,7 +87,7 @@ class PCFGParser(Parser):
                                     self.grammar.get_binary_rules_by_right_child( right_child )
                                 if left_rules and right_rules:
                                     for left_rule in left_rules:
-                                        for right_rule in left_rules:
+                                        for right_rule in right_rules:
                                             if left_rule == right_rule:
                                                 rule = left_rule
                                                 parent = rule.parent
@@ -97,6 +97,19 @@ class PCFGParser(Parser):
                                                 if prob > score[begin][end][parent]:
                                                     score[begin][end][parent] = prob
                                                     back[begin][end][parent] = 'B->C'
+                added = True
+                while added:
+                    added = False
+                    for child in pos:
+                        if self.grammar.get_unary_rules_by_child(child):
+                            rules = self.grammar.get_unary_rules_by_child(child)
+                            for rule in rules:
+                                prob = score[begin][end][child] * rule.score
+                                parent = rule.parent
+                                if prob > score[begin][end][parent]:
+                                    score[i][iplus][parent] = prob
+                                    back[i][iplus][parent] = child
+                                    added = True
         return back
 
 
