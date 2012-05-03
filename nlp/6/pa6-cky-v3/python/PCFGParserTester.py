@@ -48,16 +48,19 @@ class PCFGParser(Parser):
                 collections.defaultdict(lambda: 0.0)))
         back = collections.defaultdict(lambda: \
                 collections.defaultdict(lambda: \
-                collections.defaultdict(lambda: '')))
+                collections.defaultdict(lambda: Tree)))
         tags = self.lexicon.word_to_tag_counters
+        wordN = len(sentence) 
+        pos = []
         for word in sentence:
             i = sentence.index(word)
             iplus = i + 1
-            pos = []
-            for tag in tags[word].keys():
-                score[i][iplus][tag] = tags[word][tag]
-                if score[i][iplus][tag]:
-                    pos.append(tag)
+
+            tag = self.get_best_tag(word)
+            prob = self.lexicon.score_tagging(word, tag)
+            score[i][iplus][tag] = prob
+            if score[i][iplus][tag]:
+                pos.append(tag)
             added = True
             while added:
                 added = False
@@ -69,9 +72,8 @@ class PCFGParser(Parser):
                             parent = rule.parent
                             if prob > score[i][iplus][parent]:
                                 score[i][iplus][parent] = prob
-                                back[i][iplus][parent] = child
+                                back[i][iplus][parent] = Tree( parent, child )
                                 added = True
-        wordN = len(sentence) 
         for span in range(2,wordN+1):
             for begin in range(0, wordN+1 - span):
                 end = begin + span
@@ -96,21 +98,30 @@ class PCFGParser(Parser):
                                                         rule.score
                                                 if prob > score[begin][end][parent]:
                                                     score[begin][end][parent] = prob
-                                                    back[begin][end][parent] = 'B->C'
+                                                    back[begin][end][parent] = Tree(parent, child)
                 added = True
                 while added:
                     added = False
-                    for child in pos:
-                        if self.grammar.get_unary_rules_by_child(child):
-                            rules = self.grammar.get_unary_rules_by_child(child)
-                            for rule in rules:
-                                prob = score[begin][end][child] * rule.score
-                                parent = rule.parent
-                                if prob > score[begin][end][parent]:
-                                    score[i][iplus][parent] = prob
-                                    back[i][iplus][parent] = child
-                                    added = True
-        return back
+                    if self.grammar.get_unary_rules_by_child(parent):
+                        rules = self.grammar.get_unary_rules_by_child(parent)
+                        for rule in rules:
+                            prob = score[begin][end][parent] * rule.score
+                            newparent = rule.parent
+                            if prob > score[begin][end][newparent]:
+                                score[i][iplus][newparent] = prob
+                                back[i][iplus][newparent] = Tree(newparent, parent)
+                                added = True
+        return back[0][wordN]
+
+    def get_best_tag(self, word):
+        best_score = 0
+        best_tag = None
+        for tag in self.lexicon.get_all_tags():
+            score = self.lexicon.score_tagging(word, tag)
+            if best_tag is None or score > best_score:
+                best_score = score
+                best_tag = tag
+        return best_tag
 
 
 class BaselineParser(Parser):
