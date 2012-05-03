@@ -46,7 +46,6 @@ class PCFGParser(Parser):
         score = collections.defaultdict(lambda: \
                 collections.defaultdict(lambda: \
                 collections.defaultdict(lambda: 0.0)))
-        score2 = {}
         back = collections.defaultdict(lambda: \
                 collections.defaultdict(lambda: \
                 collections.defaultdict(lambda: Tree)))
@@ -60,8 +59,7 @@ class PCFGParser(Parser):
             tag = self.get_best_tag(word)
             prob = self.lexicon.score_tagging(word, tag)
             score[i][iplus][tag] = prob
-            score2[i,iplus,tag] = prob
-            if score2[i,iplus,tag]:
+            if score[i][iplus][tag]:
                 pos.append(tag)
             added = True
             while added:
@@ -71,12 +69,9 @@ class PCFGParser(Parser):
                         rules = self.grammar.get_unary_rules_by_child(child)
                         for rule in rules:
                             prob = score[i][iplus][child] * rule.score
-                            prob = score2[i,iplus,child] * rule.score
                             parent = rule.parent
-                            # if prob > score[i][iplus][parent]:
-                            if score2[i,iplus,parent] and prob > score2[i,iplus,parent]:
+                            if prob > score[i][iplus][parent]:
                                 score[i][iplus][parent] = prob
-                                score2[i,iplus,parent] = prob
                                 back[i][iplus][parent] = Tree( parent, child )
                                 added = True
         for span in range(2,wordN+1):
@@ -98,16 +93,13 @@ class PCFGParser(Parser):
                                             if left_rule == right_rule:
                                                 rule = left_rule
                                                 parent = rule.parent
-                                                # prob = score[begin][split][left_child] *\
-                                                #        score[split][end][right_child] *\
-                                                prob = score2[begin,split,left_child] *\
-                                                        score2[split,end,right_child] *\
+                                                prob = score[begin][split][left_child] *\
+                                                       score[split][end][right_child] *\
                                                         rule.score
-                                                # if prob > score[begin][end][parent]:
-                                                if prob > score2[begin,end,parent]:
+                                                if prob > score[begin][end][parent]:
                                                     score[begin][end][parent] = prob
-                                                    score2[begin,end,parent] = prob
-                                                    back[begin][end][parent] = Tree(parent, child)
+                                                    back[begin][end][parent] = \
+                                                            Tree(parent, [left_child,right_child])
                 added = True
                 while added:
                     added = False
@@ -115,12 +107,9 @@ class PCFGParser(Parser):
                         rules = self.grammar.get_unary_rules_by_child(parent)
                         for rule in rules:
                             prob = score[begin][end][parent] * rule.score
-                            prob = score2[begin,end,parent] * rule.score
                             newparent = rule.parent
-                            # if prob > score[begin][end][newparent]:
-                            if prob > score2[begin,end,newparent]:
+                            if prob > score[begin][end][newparent]:
                                 score[i][iplus][newparent] = prob
-                                score2[i,iplus,newparent] = prob
                                 back[i][iplus][newparent] = Tree(newparent, parent)
                                 added = True
         return back[0][wordN]
