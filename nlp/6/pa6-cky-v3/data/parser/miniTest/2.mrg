@@ -2,9 +2,9 @@
 ( (S
     (NP (N cats))
     (VP (V scratch)
-        (NP (N people))
+        (NP (N people)
         (PP (P with)
-          (NP (N claws))))))
+          (NP (N claws)))))))
 
       
 
