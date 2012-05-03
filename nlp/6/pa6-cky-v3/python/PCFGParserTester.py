@@ -73,8 +73,8 @@ class PCFGParser(Parser):
                             prob = score[i][iplus][child] * rule.score
                             prob = score2[i,iplus,child] * rule.score
                             parent = rule.parent
-                            if prob > score[i][iplus][parent]:
-                            if prob > score2[i,iplus,parent]:
+                            # if prob > score[i][iplus][parent]:
+                            if score2[i,iplus,parent] and prob > score2[i,iplus,parent]:
                                 score[i][iplus][parent] = prob
                                 score2[i,iplus,parent] = prob
                                 back[i][iplus][parent] = Tree( parent, child )
@@ -84,9 +84,7 @@ class PCFGParser(Parser):
                 end = begin + span
                 for split in range(begin+1, end):
                     left_children = score[begin][split].keys()
-                    left_children = score2[begin,split,keys()
                     right_children = score[split][end].keys()
-                    right_children = score2[split,end,keys()
                     if left_children and right_children:
                         for left_child in left_children:
                             for right_child in right_children:
@@ -100,12 +98,12 @@ class PCFGParser(Parser):
                                             if left_rule == right_rule:
                                                 rule = left_rule
                                                 parent = rule.parent
-                                                prob = score[begin][split][left_child] *\
+                                                # prob = score[begin][split][left_child] *\
+                                                #        score[split][end][right_child] *\
                                                 prob = score2[begin,split,left_child] *\
-                                                        score[split][end][right_child] *\
                                                         score2[split,end,right_child] *\
                                                         rule.score
-                                                if prob > score[begin][end][parent]:
+                                                # if prob > score[begin][end][parent]:
                                                 if prob > score2[begin,end,parent]:
                                                     score[begin][end][parent] = prob
                                                     score2[begin,end,parent] = prob
@@ -119,7 +117,7 @@ class PCFGParser(Parser):
                             prob = score[begin][end][parent] * rule.score
                             prob = score2[begin,end,parent] * rule.score
                             newparent = rule.parent
-                            if prob > score[begin][end][newparent]:
+                            # if prob > score[begin][end][newparent]:
                             if prob > score2[begin,end,newparent]:
                                 score[i][iplus][newparent] = prob
                                 score2[i,iplus,newparent] = prob
