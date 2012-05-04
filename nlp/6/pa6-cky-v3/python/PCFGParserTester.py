@@ -30,10 +30,10 @@ class PCFGParser(Parser):
         #       most binary
 
         self.lexicon = Lexicon(train_trees)
-        bintrees = []
+        bin_trees = []
 	for tree in train_trees:
-            bintrees.append( TreeAnnotations.binarize_tree(tree) )
-        self.grammar = Grammar(bintrees)
+            bin_trees.append( TreeAnnotations.binarize_tree(tree) )
+        self.grammar = Grammar(bin_trees)
         # self.grammar = Grammar(train_trees)
         pass
 
@@ -68,15 +68,15 @@ class PCFGParser(Parser):
                     added = True
                     while added:
                         added = False
-                    for child in self.grammar.unary_rules_by_child:
-                        for rule in self.grammar.get_unary_rules_by_child(child):
-                            prob = score[i][iplus][child] * rule.score
-                            parent = rule.parent
-                            if prob > score[i][iplus][parent]:
-                                score[i][iplus][parent] = prob
-                                child_tree = back[i][iplus][child]
-                                back[i][iplus][parent] = Tree( parent, [child_tree] )
-                                added = True
+        for child in self.grammar.unary_rules_by_child:
+            for rule in self.grammar.get_unary_rules_by_child(child):
+                prob = score[i][iplus][child] * rule.score
+                parent = rule.parent
+                if prob > score[i][iplus][parent]:
+                    score[i][iplus][parent] = prob
+                    child_tree = back[i][iplus][child]
+                    back[i][iplus][parent] = Tree( parent, [child_tree] )
+                    added = True
         for span in range(2,wordN+1):
             for begin in range(0, wordN+1 - span):
                 end = begin + span
