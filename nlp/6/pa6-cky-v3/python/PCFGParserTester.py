@@ -32,9 +32,9 @@ class PCFGParser(Parser):
         self.lexicon = Lexicon(train_trees)
         bintrees = []
 	for tree in train_trees:
-            bintrees.append( TreeAnnotations.annotate_tree(tree) )
-        # self.grammar = Grammar(bintrees)
-        self.grammar = Grammar(train_trees)
+            bintrees.append( TreeAnnotations.binarize_tree(tree) )
+        self.grammar = Grammar(bintrees)
+        # self.grammar = Grammar(train_trees)
         pass
 
 
@@ -60,6 +60,9 @@ class PCFGParser(Parser):
             tag = self.get_best_tag(word)
             prob = self.lexicon.score_tagging(word, tag)
             score[i][iplus][tag] = prob
+            word_tree = Tree( word, [] )
+            tag_tree = Tree( tag, [word_tree] )
+            back[i][iplus][tag] = tag_tree
             if score[i][iplus][tag]:
                 pos.append(tag)
             added = True
@@ -73,7 +76,8 @@ class PCFGParser(Parser):
                             parent = rule.parent
                             if prob > score[i][iplus][parent]:
                                 score[i][iplus][parent] = prob
-                                back[i][iplus][parent] = Tree( parent, [] )
+                                child_tree = back[i][iplus][child]
+                                back[i][iplus][parent] = Tree( parent, [child_tree] )
                                 added = True
         for span in range(2,wordN+1):
             for begin in range(0, wordN+1 - span):
