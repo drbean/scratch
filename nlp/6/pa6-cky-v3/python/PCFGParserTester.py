@@ -66,17 +66,17 @@ class PCFGParser(Parser):
                 if score[i][iplus][tag]:
                     pos.append(tag)
                     added = True
-                    while added:
-                        added = False
-        for child in self.grammar.unary_rules_by_child:
-            for rule in self.grammar.get_unary_rules_by_child(child):
-                prob = score[i][iplus][child] * rule.score
-                parent = rule.parent
-                if prob > score[i][iplus][parent]:
-                    score[i][iplus][parent] = prob
-                    child_tree = back[i][iplus][child]
-                    back[i][iplus][parent] = Tree( parent, [child_tree] )
-                    added = True
+            while added:
+                added = False
+                for child in self.grammar.unary_rules_by_child:
+                    for rule in self.grammar.get_unary_rules_by_child(child):
+                        prob = score[i][iplus][child] * rule.score
+                        parent = rule.parent
+                        if prob > score[i][iplus][parent]:
+                            score[i][iplus][parent] = prob
+                            child_tree = back[i][iplus][child]
+                            back[i][iplus][parent] = Tree( parent, [child_tree] )
+                            added = True
         for span in range(2,wordN+1):
             for begin in range(0, wordN+1 - span):
                 end = begin + span
