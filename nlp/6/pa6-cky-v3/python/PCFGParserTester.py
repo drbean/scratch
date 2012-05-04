@@ -49,7 +49,7 @@ class PCFGParser(Parser):
                 collections.defaultdict(lambda: 0.0)))
         back = collections.defaultdict(lambda: \
                 collections.defaultdict(lambda: \
-                collections.defaultdict(lambda: Tree)))
+                collections.defaultdict(lambda: None)))
         tags = self.lexicon.word_to_tag_counters
         wordN = len(sentence) 
         pos = []
@@ -100,19 +100,19 @@ class PCFGParser(Parser):
                                             right_tree = back[split][end][right_child]
                                             back[begin][end][parent] = \
                                                     Tree(parent, [left_tree,right_tree])
-                added = True
-                while added:
-                    added = False
-                    if self.grammar.get_unary_rules_by_child(parent):
-                        rules = self.grammar.get_unary_rules_by_child(parent)
-                        for rule in rules:
-                            prob = score[begin][end][parent] * rule.score
-                            newparent = rule.parent
-                            if prob > score[begin][end][newparent]:
-                                score[begin][end][newparent] = prob
-                                tree = back[begin][end][parent]
-                                back[begin][end][newparent] = Tree(newparent, tree)
-                                added = True
+                                        added = True
+                                        while added:
+                                            added = False
+                                            if self.grammar.get_unary_rules_by_child(parent):
+                                                rules = self.grammar.get_unary_rules_by_child(parent)
+                                                for rule in rules:
+                                                    prob = score[begin][end][parent] * rule.score
+                                                    newparent = rule.parent
+                                                    if prob > score[begin][end][newparent]:
+                                                        score[begin][end][newparent] = prob
+                                                        tree = back[begin][end][parent]
+                                                        back[begin][end][newparent] = Tree(newparent, [tree])
+                                                        added = True
         return back[0][wordN]['ROOT']
 
     def get_best_tag(self, word):
