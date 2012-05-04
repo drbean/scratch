@@ -2,6 +2,6 @@
 ( (S
     (NP (N cats))
     (VP (V scratch)
-        (NP (NP (N walls)))
+        (NP (NP (N walls))
         (PP (P with)
-            (NP (N claws))))))
+            (NP (N claws)))))))
