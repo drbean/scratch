@@ -50,28 +50,26 @@ class PCFGParser(Parser):
         back = collections.defaultdict(lambda: \
                 collections.defaultdict(lambda: \
                 collections.defaultdict(lambda: None)))
-        tags = self.lexicon.word_to_tag_counters
+        tags = self.lexicon.get_all_tags()
         wordN = len(sentence) 
         pos = []
         for word in sentence:
             i = sentence.index(word)
             iplus = i + 1
-
-            tag = self.get_best_tag(word)
-            prob = self.lexicon.score_tagging(word, tag)
-            score[i][iplus][tag] = prob
-            word_tree = Tree( word, [] )
-            tag_tree = Tree( tag, [word_tree] )
-            back[i][iplus][tag] = tag_tree
-            if score[i][iplus][tag]:
-                pos.append(tag)
-            added = True
-            while added:
-                added = False
-                for child in pos:
-                    if self.grammar.get_unary_rules_by_child(child):
-                        rules = self.grammar.get_unary_rules_by_child(child)
-                        for rule in rules:
+            for tag in tags:
+                prob = self.lexicon.score_tagging(word, tag)
+                if prob > score[i][iplus][tag]:
+                    score[i][iplus][tag] = prob
+                word_tree = Tree( word, [] )
+                tag_tree = Tree( tag, [word_tree] )
+                back[i][iplus][tag] = tag_tree
+                if score[i][iplus][tag]:
+                    pos.append(tag)
+                    added = True
+                    while added:
+                        added = False
+                    for child in self.grammar.unary_rules_by_child:
+                        for rule in self.grammar.get_unary_rules_by_child(child):
                             prob = score[i][iplus][child] * rule.score
                             parent = rule.parent
                             if prob > score[i][iplus][parent]:
@@ -83,40 +81,33 @@ class PCFGParser(Parser):
             for begin in range(0, wordN+1 - span):
                 end = begin + span
                 for split in range(begin+1, end):
-                    left_children = score[begin][split].keys()
-                    right_children = score[split][end].keys()
-                    if left_children and right_children:
-                        for left_child in left_children:
-                            left_rules = \
-                                self.grammar.get_binary_rules_by_left_child( left_child )
-                            for left_rule in left_rules:
-                                right_child_option = left_rule.right_child
-                                for right_child in right_children:
-                                    if right_child == right_child_option:
-                                        rule = left_rule
-                                        parent = rule.parent
-                                        prob = score[begin][split][left_child] *\
-                                               score[split][end][right_child] *\
-                                                rule.score
-                                        if prob > score[begin][end][parent]:
-                                            score[begin][end][parent] = prob
-                                            left_tree = back[begin][split][left_child]
-                                            right_tree = back[split][end][right_child]
-                                            back[begin][end][parent] = \
-                                                    Tree(parent, [left_tree,right_tree])
-                                        added = True
-                                        while added:
-                                            added = False
-                                            if self.grammar.get_unary_rules_by_child(parent):
-                                                rules = self.grammar.get_unary_rules_by_child(parent)
-                                                for rule in rules:
-                                                    prob = score[begin][end][parent] * rule.score
-                                                    newparent = rule.parent
-                                                    if prob > score[begin][end][newparent]:
-                                                        score[begin][end][newparent] = prob
-                                                        tree = back[begin][end][parent]
-                                                        back[begin][end][newparent] = Tree(newparent, [tree])
-                                                        added = True
+                    for left_child in self.grammar.binary_rules_by_left_child:
+                        for rule in self.grammar.get_binary_rules_by_left_child(
+                                left_child):
+                            right_child = rule.right_child
+                            parent = rule.parent
+                            prob = score[begin][split][left_child] *\
+                                   score[split][end][right_child] *\
+                                    rule.score
+                            if prob > score[begin][end][parent]:
+                                score[begin][end][parent] = prob
+                                left_tree = back[begin][split][left_child]
+                                right_tree = back[split][end][right_child]
+                                back[begin][end][parent] = \
+                                        Tree(parent, [left_tree,right_tree])
+                            added = True
+                            while added:
+                                added = False
+                                if self.grammar.get_unary_rules_by_child(parent):
+                                    rules = self.grammar.get_unary_rules_by_child(parent)
+                                    for rule in rules:
+                                        prob = score[begin][end][parent] * rule.score
+                                        newparent = rule.parent
+                                        if prob > score[begin][end][newparent]:
+                                            score[begin][end][newparent] = prob
+                                            tree = back[begin][end][parent]
+                                            back[begin][end][newparent] = Tree(newparent, [tree])
+                                            added = True
         return back[0][wordN]['ROOT']
 
     def get_best_tag(self, word):
