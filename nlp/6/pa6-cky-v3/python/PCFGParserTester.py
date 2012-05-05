@@ -52,7 +52,6 @@ class PCFGParser(Parser):
                 collections.defaultdict(lambda: None)))
         tags = self.lexicon.get_all_tags()
         wordN = len(sentence) 
-        pos = []
         for word in sentence:
             i = sentence.index(word)
             iplus = i + 1
@@ -63,9 +62,6 @@ class PCFGParser(Parser):
                 word_tree = Tree( word, [] )
                 tag_tree = Tree( tag, [word_tree] )
                 back[i][iplus][tag] = tag_tree
-                if score[i][iplus][tag]:
-                    pos.append(tag)
-                    added = True
             while added:
                 added = False
                 for child in self.grammar.unary_rules_by_child:
