@@ -337,7 +337,7 @@ class Lexicon:
         p_tag = float(self.tag_counter[tag]) / self.total_tokens
         c_word = float(self.word_counter[word])
         c_tag_and_word = float(self.word_to_tag_counters[word][tag])
-        if c_word < 10:
+        if c_word < 10 or c_tag_and_word < 1:
             c_word += 1
             c_tag_and_word += float(self.type_to_tag_counter[tag]) \
                     / self.total_word_types
