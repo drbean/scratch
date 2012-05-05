@@ -32,6 +32,7 @@ class PCFGParser(Parser):
         self.lexicon = Lexicon(train_trees)
         bin_trees = []
 	for tree in train_trees:
+            tree = TreeAnnotations.annotate_tree(tree)
             bin_trees.append( TreeAnnotations.binarize_tree(tree) )
         self.grammar = Grammar(bin_trees)
         # self.grammar = Grammar(train_trees)
@@ -227,7 +228,13 @@ class TreeAnnotations:
         # mark nodes with the label of their parent nodes, giving a second
         # order vertical markov process
 
-        return TreeAnnotations.binarize_tree(unannotated_tree)
+        label = unannotated_tree.label
+        children = unannotated_tree.children
+        new_children = []
+        for child in children:
+            new_label = child.label + '^' + label
+            new_children.append(TreeAnnotations.annotate_tree(Tree(new_label, child.children) ) )
+        return Tree(label, new_children) 
 
     @classmethod
     def binarize_tree(cls, tree):
