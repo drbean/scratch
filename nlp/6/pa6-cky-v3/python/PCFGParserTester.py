@@ -59,9 +59,9 @@ class PCFGParser(Parser):
                 prob = self.lexicon.score_tagging(word, tag)
                 if prob > score[i][iplus][tag]:
                     score[i][iplus][tag] = prob
-                word_tree = Tree( word, [] )
-                tag_tree = Tree( tag, [word_tree] )
-                back[i][iplus][tag] = tag_tree
+                    word_tree = Tree( word, [] )
+                    tag_tree = Tree( tag, [word_tree] )
+                    back[i][iplus][tag] = tag_tree
             while added:
                 added = False
                 for child in self.grammar.unary_rules_by_child:
