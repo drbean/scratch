@@ -52,8 +52,8 @@ class PCFGParser(Parser):
                 collections.defaultdict(lambda: None)))
         tags = self.lexicon.get_all_tags()
         wordN = len(sentence) 
+        i = 0
         for word in sentence:
-            i = sentence.index(word)
             iplus = i + 1
             for tag in tags:
                 prob = self.lexicon.score_tagging(word, tag)
@@ -74,6 +74,7 @@ class PCFGParser(Parser):
                             child_tree = back[i][iplus][child]
                             back[i][iplus][parent] = Tree( parent, [child_tree] )
                             added = True
+            i = i + 1
         for span in range(2,wordN+1):
             for begin in range(0, wordN+1 - span):
                 end = begin + span
