@@ -1,6 +1,7 @@
 import collections
 import copy
 import optparse
+import re
 
 from ling.Tree import Tree
 import ling.Trees as Trees
@@ -232,8 +233,13 @@ class TreeAnnotations:
         children = unannotated_tree.children
         new_children = []
         for child in children:
-            new_label = child.label + '^' + label
-            new_children.append(TreeAnnotations.annotate_tree(Tree(new_label, child.children) ) )
+            if child.is_leaf():
+                new_children.append(child)
+            else:
+                regex = re.match('\w+',label)
+                orig_label = '%s' % regex.group()
+                new_label = child.label + '^' + orig_label
+                new_children.append(TreeAnnotations.annotate_tree(Tree(new_label, child.children) ) )
         return Tree(label, new_children) 
 
     @classmethod
