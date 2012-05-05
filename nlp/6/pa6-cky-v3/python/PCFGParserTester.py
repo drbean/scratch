@@ -62,6 +62,7 @@ class PCFGParser(Parser):
                     word_tree = Tree( word, [] )
                     tag_tree = Tree( tag, [word_tree] )
                     back[i][iplus][tag] = tag_tree
+            added = True
             while added:
                 added = False
                 for child in self.grammar.unary_rules_by_child:
