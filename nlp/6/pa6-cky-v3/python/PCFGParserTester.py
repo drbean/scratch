@@ -233,7 +233,7 @@ class TreeAnnotations:
         children = unannotated_tree.children
         new_children = []
         for child in children:
-            if child.is_leaf():
+            if child.is_leaf() or child.is_preterminal():
                 new_children.append(child)
             else:
                 regex = re.match('\w+',label)
