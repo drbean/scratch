@@ -108,7 +108,7 @@ class PCFGParser(Parser):
                                             tree = back[begin][end][parent]
                                             back[begin][end][newparent] = Tree(newparent, [tree])
                                             added = True
-        return back[0][wordN]['ROOT']
+        return TreeAnnotations.unannotate_tree(back[0][wordN]['ROOT'])
 
     def get_best_tag(self, word):
         best_score = 0
