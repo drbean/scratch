@@ -33,7 +33,7 @@ class PCFGParser(Parser):
         self.lexicon = Lexicon(train_trees)
         bin_trees = []
 	for tree in train_trees:
-            tree = TreeAnnotations.annotate_tree('ROOT', tree)
+            tree = TreeAnnotations.annotate_tree(tree)
             bin_trees.append( TreeAnnotations.binarize_tree(tree) )
         self.grammar = Grammar(bin_trees)
         # self.grammar = Grammar(train_trees)
@@ -219,7 +219,7 @@ class BaselineParser(Parser):
 class TreeAnnotations:
 
     @classmethod
-    def annotate_tree(cls, label, unannotated_tree):
+    def annotate_tree(cls, unannotated_tree):
         """
         Currently, the only annotation done is a lossless binarization
         """
@@ -229,7 +229,7 @@ class TreeAnnotations:
         # mark nodes with the label of their parent nodes, giving a second
         # order vertical markov process
 
-        # label = unannotated_tree.label
+        label = unannotated_tree.label
         children = unannotated_tree.children
         new_children = []
         for child in children:
@@ -239,8 +239,7 @@ class TreeAnnotations:
                 regex = re.match('\w+',label)
                 orig_label = '%s' % regex.group()
                 new_label = child.label + '^' + orig_label
-                # new_label = child.label + '^' + label
-                new_children.append(TreeAnnotations.annotate_tree(new_label, Tree(new_label, child.children) ) )
+                new_children.append(TreeAnnotations.annotate_tree(Tree(new_label, child.children) ) )
         return Tree(label, new_children) 
 
     @classmethod
