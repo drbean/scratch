@@ -236,9 +236,8 @@ class TreeAnnotations:
             if child.is_leaf() or child.is_preterminal():
                 new_children.append(child)
             else:
-                regex = re.match('\w+',label)
-                orig_label = '%s' % regex.group()
-                new_label = child.label + '^' + orig_label
+                labels = re.split("\^",label)
+                new_label = child.label + '^' + labels[0]
                 new_children.append(TreeAnnotations.annotate_tree(Tree(new_label, child.children) ) )
         return Tree(label, new_children) 
 
