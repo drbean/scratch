@@ -129,11 +129,11 @@ sale:
         answer: True
       - question: The price is right.
         answer: True
+      - question: The place is right.
+        answer: True
       - question: The promotion is satisfactory.
         answer: True
       - question: A sale is made.
-        answer: True
-      - question: The place is right.
         answer: True
   banana2:
     identifier: banana
@@ -160,15 +160,15 @@ sale:
        \item [Promotion] There are always a lot of fruit on display.
        \end{description}
     quiz:
+      - question: The product is okay.
+        answer: True
+      - question: The price is right.
+        answer: False
       - question: The place is right.
         answer: True
       - question: The promotion is satisfactory.
         answer: True
       - question: A sale is made.
-        answer: False
-      - question: The product is okay.
-        answer: True
-      - question: The price is right.
         answer: False
   oil:
     identifier: oil
@@ -197,9 +197,9 @@ sale:
     quiz:
       - question: The product is okay.
         answer: False
-      - question: The place is right.
-        answer: True
       - question: The price is right.
+        answer: True
+      - question: The place is right.
         answer: True
       - question: The promotion is satisfactory.
         answer: True
@@ -230,15 +230,15 @@ sale:
        \item [Promotion] The rice on sale is always displayed at the front of the store.
        \end{description}
     quiz:
-      - question: The price is right.
-        answer: False
-      - question: The promotion is satisfactory.
-        answer: True
       - question: The product is okay.
         answer: True
-      - question: A sale is made.
-        answer: True
+      - question: The price is right.
+        answer: False
       - question: The place is right.
+        answer: True
+      - question: The promotion is satisfactory.
+        answer: True
+      - question: A sale is made.
         answer: True
 water:
  jigsaw:
@@ -350,8 +350,55 @@ water:
           - place
           - promotion
         answer: place
+  11:
+    identifier: Kristal11
+    A: |
+      \\
+      Question: Have you heard of Kristal bottled water?\\
+      Answer: Yes, I saw the marketing campaign on TV. I've wanted to try it, but I haven't tried it yet.
+    B: |
+      \\
+      Question: Have you ever bought Kristal bottled water?\\
+      Answer: Yes, I tried it once. It was OK, I guess. I guess it's about the same quality as Rocky Mountain or Fontainbleu.
+    C: |
+      \\
+      Question: Do you buy Kristal bottled water?\\
+      Answer: No. I can't find it. It's not available at 7-11 and places like that around here.
+    quiz:
+      - question: A
+        option:
+          - good
+          - bad
+          - non-commital
+        answer: good
+      - question: B
+        option:
+          - good
+          - bad
+          - non-commital
+        answer: non-commital
+      - question: C
+        option:
+          - good
+          - bad
+          - non-commital
+        answer: bad
+      - question: Which of the 4 P's is NOT mentioned on the 3 cards?
+        option:
+          - product
+          - price
+          - place
+          - promotion
+        answer: place
+      - question: Which of the 4 P's do the answers suggest is the biggest problem?
+        option:
+          - product
+          - price
+          - place
+          - promotion
+        answer: place
   2:
-    identifier: Kristal2 
+    identifier: Kristal2
     A: |
       \\
       Question: Where do you buy Kristal bottled water?\\
@@ -398,6 +445,53 @@ water:
           - promotion
         answer: price
       - question: Which of the 4 is the problem?
+        option:
+          - product
+          - price
+          - place
+          - promotion
+        answer: promotion
+  22:
+    identifier: Kristal22
+    A: |
+      \\
+      Question: Have you tried Kristal bottled water?\\
+      Answer: No, I've never heard of it. What is it? Some kind of water?
+    B: |
+      \\
+      Question: Have you ever bought Kristal bottled water?\\
+      Answer: Yes, I tried it once. It was OK. I want to try it again. I guess it's about the same quality as Fontainbleu.
+    C: |
+      \\
+      Question: Kristal is more expensive than other brands. Do you think it's worth it?\\
+      Answer: I don't know. I buy a lot of bottled water. Kristal is more expensive. Although it tastes okay, I guess.
+    quiz:
+      - question: A
+        option:
+          - good
+          - bad
+          - non-commital
+        answer: bad
+      - question: B
+        option:
+          - good
+          - bad
+          - non-commital
+        answer: good
+      - question: C
+        option:
+          - good
+          - bad
+          - non-commital
+        answer: non-commital
+      - question: Which of the 4 P's is NOT mentioned on the 3 cards?
+        option:
+          - product
+          - price
+          - place
+          - promotion
+        answer: place
+      - question: Which of the 4 P's do the answers suggest is the biggest problem?
         option:
           - product
           - price
@@ -458,6 +552,53 @@ water:
           - place
           - promotion
         answer: product
+  33:
+    identifier: Kristal33
+    A: |
+      \\
+      Question: Where do you buy Kristal bottled water?\\
+      Answer: At health food stores. It's not available at 7-11 or DingHao.
+    B: |
+      \\
+      Question: Have you ever bought Kristal bottled water?\\
+      Answer: Yes, I've tried it. It tasted like water. Is it better than other bottled water? I don't think so.
+    C: |
+      \\
+      Question: Have you tried Kristal bottled water?\\
+      Answer: I saw the advertisements on TV. I want to try it sometime.
+    quiz:
+      - question: A
+        option:
+          - good
+          - bad
+          - non-commital
+        answer: non-commital
+      - question: B
+        option:
+          - good
+          - bad
+          - non-commital
+        answer: bad
+      - question: C
+        option:
+          - good
+          - bad
+          - non-commital
+        answer: good
+      - question: Which of the 4 P's is NOT mentioned on the 3 cards?
+        option:
+          - product
+          - price
+          - place
+          - promotion
+        answer: price
+      - question: Which of the 4 P's do the answers suggest is the biggest problem?
+        option:
+          - product
+          - price
+          - place
+          - promotion
+        answer: product
   4:
     identifier: Kristal4 
     A: |
@@ -512,6 +653,53 @@ water:
           - place
           - promotion
         answer: price
+  44:
+    identifier: Kristal44
+    A: |
+      \\
+      Question: Kristal is more expensive than other brands. Do you think it's worth it?\\
+      Answer: It is expensive. I buy a lot of bottled water. Kristal is more expensive. So I don't buy it.
+    B: |
+      \\
+      Question: Where do you buy Kristal bottled water?\\
+      Answer: At health food stores. It's not available at 7-11 or DingHao. I think that means it is better water.
+    C: |
+      \\
+      Question: Have you ever bought Kristal bottled water?\\
+      Answer: Yes, I tried it once. It was okay. It had a fresh taste. It may be better than other bottled water, but I don't know.
+    quiz:
+      - question: A
+        option:
+          - good
+          - bad
+          - non-commital
+        answer: bad
+      - question: B
+        option:
+          - good
+          - bad
+          - non-commital
+        answer: good
+      - question: C
+        option:
+          - good
+          - bad
+          - non-commital
+        answer: non-commital
+      - question: Which of the 4 P's is NOT mentioned on the 3 cards?
+        option:
+          - product
+          - price
+          - place
+          - promotion
+        answer: promotion
+      - question: Which of the 4 P's do the answers suggest is the biggest problem?
+        option:
+          - product
+          - price
+          - place
+          - promotion
+        answer: price
   5:
     identifier: Kristal5 
     A: |
@@ -530,3 +718,50 @@ water:
       \\
       Question: Have you ever bought Kristal bottled water? What did you think of it?\\
       Answer: Yes, I tried it once. It was okay. It had a fresh taste. It may be better than other bottled water.
+  55:
+    identifier: Kristal55
+    A: |
+      \\
+      Question: Kristal is more expensive than other brands. Do you think it's worth paying extra for it?\\
+      Answer: It is expensive. I buy a lot of bottled water. But Kristal is more expensive. So I don't buy it.
+    B: |
+      \\
+      Question: Have you heard about Kristal bottled water? Have you ever tried it?\\
+      Answer: I saw the advertisements on TV. I want to try it, but I haven't tried it yet.
+    C: |
+      \\
+      Question: Do you buy Kristal bottled water? Where do you buy it?\\
+      Answer: At health food stores. It's not available at 7-11 or DingHao.
+    quiz:
+      - question: A
+        option:
+          - good
+          - bad
+          - non-commital
+        answer: bad
+      - question: B
+        option:
+          - good
+          - bad
+          - non-commital
+        answer: good
+      - question: C
+        option:
+          - good
+          - bad
+          - non-commital
+        answer: non-commital
+      - question: Which of the 4 P's is NOT mentioned on the 3 cards?
+        option:
+          - product
+          - price
+          - place
+          - promotion
+        answer: product
+      - question: The answers to the marketer's questions suggest the biggest problem is:
+        option:
+          - product
+          - price
+          - place
+          - promotion
+        answer: price
