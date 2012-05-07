@@ -237,7 +237,11 @@ class TreeAnnotations:
                 new_children.append(child)
             else:
                 labels = re.split("\^",label)
-                new_label = child.label + '^' + labels[0]
+                new_label = child.label
+                if len(labels) == 2:
+                    new_label = new_label + '^' + labels[0] + '^' + labels[1]
+                elif len(labels) == 1:
+                    new_label = new_label + '^' + labels[0]
                 new_children.append(TreeAnnotations.annotate_tree(Tree(new_label, child.children) ) )
         return Tree(label, new_children) 
 
