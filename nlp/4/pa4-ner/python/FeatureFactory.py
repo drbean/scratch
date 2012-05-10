@@ -63,6 +63,9 @@ class FeatureFactory:
 
 
         """ TODO: Add your features here """
+
+        features.append( prevWord + currentWord + nextWord )
+
         if (currentWord in self.namelist) and currentWord[0].isupper() and not currentWord.isupper():
             features.append("nameList" + currentWord)
         #else:
