@@ -190,9 +190,12 @@ class IRSystem:
         #         * self.titles = List of titles
 
         inv_index = {}
+	titleN = len(self.titles)
         for word in self.vocab:
             inv_index[word] = []
-
+	    for n in range(titleN):
+                if word in self.docs[n]:
+                    inv_index[word].append(self.titles[n]) 
         self.inv_index = inv_index
 
         # ------------------------------------------------------------------
@@ -400,3 +403,5 @@ def main(args):
 if __name__ == '__main__':
     args = sys.argv[1:]
     main(args)
+
+# vim: tabstop=8 expandtab shiftwidth=4 softtabstop=4
