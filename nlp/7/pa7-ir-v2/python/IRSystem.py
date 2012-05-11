@@ -165,25 +165,29 @@ class IRSystem:
             for d, doc in enumerate(self.docs):
                 if word not in rtf:
                     rtf[word] = {}
-                if d not in rtf[word]:
-                    rtf[word][d] = 0
+                    tf[word] = {}
+                #if d not in rtf[word]:
+                #    rtf[word][d] = 0
+                #    tf[word][d] = 0
                 rtf[word][d] = doc.count(word)
+                if rtf[word][d] == 0:
+                    tf[word][d] = 0
+                else:
+                    tf[word][d] = 1 + math.log( rtf[word][d] )
                 words_in_doc[d] = self.get_uniq_doc_words(doc)
                 if word not in df:
                     df[word] = 0
                 if word in words_in_doc:
                     df[word] += 1
-        for word in rtf:
-            if doc not in rtf[word]:
-                tf[word][d] = 0;
-            else:
-                tf[word][d] = 1 + math.log( float(docN) / rtf[word][d] )
         for word in self.vocab:
-            idf[word] = math.log( docN / df[word] ) 
+            if df[word] == 0:
+                idf[word] = 0
+            else:
+                idf[word] = math.log( docN / df[word] ) 
             for d in range( docN ):
                 if word not in self.tfidf:
                     self.tfidf[word] = {}
-                self.tfidf[word][d] = tf[word][d] * idf[word][d]
+                self.tfidf[word][d] = tf[word][d] * idf[word]
 
         # ------------------------------------------------------------------
 
