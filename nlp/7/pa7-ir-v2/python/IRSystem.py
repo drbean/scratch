@@ -198,6 +198,9 @@ class IRSystem:
         #       document index.
         tfidf = 0.0
         # ------------------------------------------------------------------
+        if word in self.tfidf:
+            if document in self.tfidf[word]:
+                tfidf = self.tfidf[word][document]
         return tfidf
 
 
