@@ -28,6 +28,13 @@ class IRSystem:
         return uniq
 
 
+    def get_uniq_doc_words(self, doc):
+        uniq = set()
+        for word in doc:
+            uniq.add(word)
+        return uniq
+
+
     def __read_raw_data(self, dirname):
         print "Stemming Documents..."
 
@@ -148,11 +155,35 @@ class IRSystem:
         #       word actually occurs in the document.
         print "Calculating tf-idf..."
         self.tfidf = {}
+        words_in_doc = {}
+        rtf = {}
+        tf = {}
+        df = {}
+        idf = {}
+	docN = len(self.docs)
         for word in self.vocab:
-            for d in range(len(self.docs)):
+            for d, doc in enumerate(self.docs):
+                if word not in rtf:
+                    rtf[word] = {}
+                if d not in rtf[word]:
+                    rtf[word][d] = 0
+                rtf[word][d] = doc.count(word)
+                words_in_doc[d] = self.get_uniq_doc_words(doc)
+                if word not in df:
+                    df[word] = 0
+                if word in words_in_doc:
+                    df[word] += 1
+        for word in rtf:
+            if doc not in rtf[word]:
+                tf[word][d] = 0;
+            else:
+                tf[word][d] = 1 + math.log( float(docN) / rtf[word][d] )
+        for word in self.vocab:
+            idf[word] = math.log( docN / df[word] ) 
+            for d in range( docN ):
                 if word not in self.tfidf:
                     self.tfidf[word] = {}
-                self.tfidf[word][d] = 0.0
+                self.tfidf[word][d] = tf[word][d] * idf[word][d]
 
         # ------------------------------------------------------------------
 
@@ -190,12 +221,14 @@ class IRSystem:
         #         * self.titles = List of titles
 
         inv_index = {}
-	titleN = len(self.titles)
-        for word in self.vocab:
-            inv_index[word] = []
-	    for n in range(titleN):
-                if word in self.docs[n]:
-                    inv_index[word].append(self.titles[n]) 
+	docN = len(self.docs)
+        for n in range(docN):
+            doc = self.docs[n]
+            words = self.get_uniq_doc_words(doc)
+            for word in words:
+                if not word in inv_index:
+                    inv_index[word] = []
+                inv_index[word].append(n) 
         self.inv_index = inv_index
 
         # ------------------------------------------------------------------
@@ -209,6 +242,7 @@ class IRSystem:
         # ------------------------------------------------------------------
         # TODO: return the list of postings for a word.
         posting = []
+        posting = self.inv_index[word]
 
         return posting
         # ------------------------------------------------------------------
@@ -235,9 +269,15 @@ class IRSystem:
         # TODO: Implement Boolean retrieval. You will want to use your
         #       inverted index that you created in index().
         # Right now this just returns all the possible documents!
-        docs = []
+        positives = []
+        postings = [self.get_posting_unstemmed(word) for word in query]
         for d in range(len(self.docs)):
-            docs.append(d)
+            bools = []
+            for posting in postings:
+                bools.append( d in posting )
+            if all( bools ):
+                positives.append(d)
+        return positives
 
         # ------------------------------------------------------------------
 
