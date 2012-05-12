@@ -29,9 +29,7 @@ class IRSystem:
 
 
     def get_uniq_doc_words(self, doc):
-        uniq = set()
-        for word in doc:
-            uniq.add(word)
+        uniq = set(doc)
         return uniq
 
 
@@ -161,33 +159,22 @@ class IRSystem:
         df = {}
         idf = {}
 	docN = len(self.docs)
-        for word in self.vocab:
-            for d, doc in enumerate(self.docs):
-                if word not in rtf:
-                    rtf[word] = {}
+        for d, doc in enumerate(self.docs):
+            words_in_doc[d] = self.get_uniq_doc_words(doc)
+            for word in words_in_doc[d]:
+                if word not in tf:
                     tf[word] = {}
-                #if d not in rtf[word]:
-                #    rtf[word][d] = 0
-                #    tf[word][d] = 0
-                rtf[word][d] = doc.count(word)
-                if rtf[word][d] == 0:
-                    tf[word][d] = 0
-                else:
-                    tf[word][d] = 1 + math.log( rtf[word][d] )
-                words_in_doc[d] = self.get_uniq_doc_words(doc)
+                tf[word][d] = 1 + math.log10( doc.count(word) )
                 if word not in df:
                     df[word] = 0
-                if word in words_in_doc:
-                    df[word] += 1
+                df[word] += 1
         for word in self.vocab:
-            if df[word] == 0:
-                idf[word] = 0
-            else:
-                idf[word] = math.log( docN / df[word] ) 
+            idf[word] = math.log10( float(docN) / df[word] ) 
             for d in range( docN ):
                 if word not in self.tfidf:
                     self.tfidf[word] = {}
-                self.tfidf[word][d] = tf[word][d] * idf[word]
+                if d in tf[word]:
+                    self.tfidf[word][d] = tf[word][d] * idf[word]
 
         # ------------------------------------------------------------------
 
