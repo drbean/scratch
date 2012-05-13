@@ -87,10 +87,10 @@ class IRSystem:
             if filename.endswith(".txt") and not filename.startswith("."):
                 filenames.append(filename)
 
-        #if len(filenames) != 60:
-        #    msg = "There are not 60 documents in ../data/RiderHaggard/stemmed/\n"
-        #    msg += "Remove ../data/RiderHaggard/stemmed/ directory and re-run."
-        #    raise Exception(msg)
+        if len(filenames) != 3:
+            msg = "There are not 60 documents in ../data/RiderHaggard/stemmed/\n"
+            msg += "Remove ../data/RiderHaggard/stemmed/ directory and re-run."
+            raise Exception(msg)
 
         for i, filename in enumerate(filenames):
             title = filename.split('.')[0]
