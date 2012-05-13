@@ -305,7 +305,7 @@ class IRSystem:
             query_tf[word] = 1 + math.log10( query.count(word) )
             query_length_sum += query_tf[word] ** 2
             for d in range(docN):
-                raw_scores[d] += self.get_tfidf[word][d] * query_tf[word]
+                raw_scores[d] += self.get_tfidf(word, d) * query_tf[word]
 
         for d in range(docN):
             if raw_scores[d]:
