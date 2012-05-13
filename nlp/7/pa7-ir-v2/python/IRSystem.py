@@ -288,6 +288,7 @@ class IRSystem:
         """
 	docN = len(self.docs)
         scores = [0.0 for xx in range(docN)]
+        raw_scores = [0.0 for xx in range(docN)]
         # ------------------------------------------------------------------
         # TODO: Implement cosine similarity between a document and a list of
         #       query words.
@@ -297,22 +298,18 @@ class IRSystem:
 
         tf = {}
         query_tf = {}
-        raw_score = {}
-        scores = {}
+        queryN = len(query)
+        query_length_sum = 0.0
         words_in_query = set(query)
-        for word in query:
+        for word in words_in_query:
             query_tf[word] = 1 + math.log10( query.count(word) )
-            posting = self.tfidf[word]
-            for d, tfidf in enumerate(posting):
-                if d not in raw_score:
-                    raw_score[d] = 0
-                raw_score[d] += tfidf * query_tf[word]
+            query_length_sum += query_tf[word] ** 2
+            for d in range(docN):
+                raw_scores[d] += self.get_tfidf[word][d] * query_tf[word]
 
         for d in range(docN):
-            if d not in raw_score or raw_score[d] == 0:
-                scores[d] = 0
-            else:
-                scores[d] = float( raw_score[d] ) / math.sqrt( self.length_sum[d] )
+            if raw_scores[d]:
+                scores[d] = float( raw_scores[d] ) / (math.sqrt( query_length_sum ) * math.sqrt( self.length_sum[d] ))
 
         # ------------------------------------------------------------------
 
