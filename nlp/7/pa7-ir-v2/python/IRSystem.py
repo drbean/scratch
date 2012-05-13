@@ -152,14 +152,16 @@ class IRSystem:
         #       word-document pair, but rather just for those pairs where a
         #       word actually occurs in the document.
         print "Calculating tf-idf..."
+	docN = len(self.docs)
         self.tfidf = {}
+        self.length_sum = [0.0 for xx in range(docN)]
         words_in_doc = {}
         rtf = {}
         tf = {}
         df = {}
         idf = {}
-	docN = len(self.docs)
         for d, doc in enumerate(self.docs):
+            self.length_sum[d] = 0;
             words_in_doc[d] = self.get_uniq_doc_words(doc)
             for word in words_in_doc[d]:
                 if word not in tf:
@@ -170,11 +172,12 @@ class IRSystem:
                 df[word] += 1
         for word in self.vocab:
             idf[word] = math.log10( float(docN) / df[word] ) 
+            if word not in self.tfidf:
+                self.tfidf[word] = {}
             for d in range( docN ):
-                if word not in self.tfidf:
-                    self.tfidf[word] = {}
                 if d in tf[word]:
                     self.tfidf[word][d] = tf[word][d] * idf[word]
+                    self.length_sum[d] += self.tfidf[word][d] ** 2
 
         # ------------------------------------------------------------------
 
@@ -283,21 +286,33 @@ class IRSystem:
         Given a query (a list of words), return a rank-ordered list of
         documents (by ID) and score for the query.
         """
-        scores = [0.0 for xx in range(len(self.docs))]
+	docN = len(self.docs)
+        scores = [0.0 for xx in range(docN)]
         # ------------------------------------------------------------------
         # TODO: Implement cosine similarity between a document and a list of
         #       query words.
 
         # Right now, this code simply gets the score by taking the Jaccard
         # similarity between the query and every document.
-        words_in_query = set()
-        for word in query:
-            words_in_query.add(word)
 
-        for d, doc in enumerate(self.docs):
-            words_in_doc = set(doc)
-            scores[d] = len(words_in_query.intersection(words_in_doc)) \
-                    / float(len(words_in_query.union(words_in_doc)))
+        tf = {}
+        query_tf = {}
+        raw_score = {}
+        scores = {}
+        words_in_query = set(query)
+        for word in query:
+            query_tf[word] = 1 + math.log10( query.count(word) )
+            posting = self.tfidf[word]
+            for d, tfidf in enumerate(posting):
+                if d not in raw_score:
+                    raw_score[d] = 0
+                raw_score[d] += tfidf * query_tf[word]
+
+        for d in range(docN):
+            if d not in raw_score or raw_score[d] == 0:
+                scores[d] = 0
+            else:
+                scores[d] = float( raw_score[d] ) / math.sqrt( self.length_sum[d] )
 
         # ------------------------------------------------------------------
 
