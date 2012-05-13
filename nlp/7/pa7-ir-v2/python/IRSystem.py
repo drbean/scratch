@@ -87,7 +87,7 @@ class IRSystem:
             if filename.endswith(".txt") and not filename.startswith("."):
                 filenames.append(filename)
 
-        if len(filenames) != 3:
+        if len(filenames) != 60:
             msg = "There are not 60 documents in ../data/RiderHaggard/stemmed/\n"
             msg += "Remove ../data/RiderHaggard/stemmed/ directory and re-run."
             raise Exception(msg)
@@ -239,12 +239,9 @@ class IRSystem:
         # ------------------------------------------------------------------
         # TODO: return the list of postings for a word.
         posting = []
-        if word not in self.inv_index:
-            return posting
-        else:
-            posting = self.inv_index[word]
-            return posting
+        posting = self.inv_index[word]
 
+        return posting
         # ------------------------------------------------------------------
 
 
@@ -305,10 +302,7 @@ class IRSystem:
         words_in_query = set(query)
         for word in query:
             query_tf[word] = 1 + math.log10( query.count(word) )
-            if word in self.tfidf:
-                posting = self.tfidf[word]
-            else:
-                posting = []
+            posting = self.tfidf[word]
             for d, tfidf in enumerate(posting):
                 if d not in raw_score:
                     raw_score[d] = 0
@@ -325,11 +319,8 @@ class IRSystem:
         ranking = [idx for idx, sim in sorted(enumerate(scores),
             key = lambda xx : xx[1], reverse = True)]
         results = []
-        for i in range(3):
-            if i in ranking:
-                results.append((ranking[i], scores[ranking[i]]))
-            else:
-                raise Exception("No results from search")
+        for i in range(10):
+            results.append((ranking[i], scores[ranking[i]]))
         return results
 
 
@@ -444,7 +435,7 @@ def run_tests(irsys):
 
 def main(args):
     irsys = IRSystem()
-    irsys.read_data('../data/RiderHaggard.3')
+    irsys.read_data('../data/RiderHaggard')
     irsys.index()
     irsys.compute_tfidf()
 
