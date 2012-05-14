@@ -267,7 +267,7 @@ class IRSystem:
         #       inverted index that you created in index().
         # Right now this just returns all the possible documents!
         positives = []
-        postings = [self.get_posting_unstemmed(word) for word in query]
+        postings = [self.get_posting(word) for word in query]
         for d in range(len(self.docs)):
             bools = []
             for posting in postings:
