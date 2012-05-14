@@ -87,7 +87,7 @@ class IRSystem:
             if filename.endswith(".txt") and not filename.startswith("."):
                 filenames.append(filename)
 
-        if len(filenames) != 4:
+        if len(filenames) != 60:
             msg = "There are not 60 documents in ../data/RiderHaggard/stemmed/\n"
             msg += "Remove ../data/RiderHaggard/stemmed/ directory and re-run."
             raise Exception(msg)
@@ -316,7 +316,7 @@ class IRSystem:
         ranking = [idx for idx, sim in sorted(enumerate(scores),
             key = lambda xx : xx[1], reverse = True)]
         results = []
-        for i in range(4):
+        for i in range(10):
             results.append((ranking[i], scores[ranking[i]]))
         return results
 
@@ -432,7 +432,7 @@ def run_tests(irsys):
 
 def main(args):
     irsys = IRSystem()
-    irsys.read_data('../data/RiderHaggard.quiz')
+    irsys.read_data('../data/RiderHaggard')
     irsys.index()
     irsys.compute_tfidf()
 
