@@ -1,6 +1,8 @@
 import sys, traceback
-from lxml import etree
-from lxml import objectify
+# from lxml import etree
+# from lxml import objectify
+from BeautifulSoup import BeautifulStoneSoup
+import re
 
 class Wiki:
     
@@ -19,8 +21,40 @@ class Wiki:
     # read through the wikipedia file and attempts to extract the matching husbands. note that you will need to provide
     # two different implementations based upon the useInfoBox flag. 
     def processFile(self, f, wives, useInfoBox):
-	xml = f.read()
-	tree = objectify.fromstring(xml)
+        # pattern = re.compile('\|spouse\s*\=\s*([A-Z][a-z]+).*')
+        spouse_of = {}
+        if useInfoBox:
+            pattern = re.compile("""\| \s* [Ss]pouse
+                    \s*=\s*
+                    (?:.*\[\[(.*?)\]\]
+                    | ( \w+ \s+ \w+)
+                    | ( \w+ \s+ \w+ \s+ \w+) 
+                    | ( \w+ \s+ \w+ \s+ \w+ \s+ \w+) 
+                    )""", re.X)
+            # pattern = re.compile('\|spouse')
+            xml = f.read()
+            # tree = objectify.fromstring(xml)
+            tree = BeautifulStoneSoup(xml)
+            pages = tree.findAll('page')
+            for page in pages:
+                title = page.title.string
+                if title == "December 19":
+                    continue
+                text = page.text
+                match = pattern.search(text)
+                if not match:
+                    continue
+                if match.group and match.group(1):
+                    wife = str(match.group(1))
+                    husband = str(title)
+                    spouse_of[ wife + "\n" ] = husband
+                    last_name = re.search('\s+\w+$', wife ).group(0)
+                    if last_name:
+                        maiden_name = wife.rstrip( last_name )
+                        spouse_of[ maiden_name + "\n" ] = husband
+
+                pass
+
         
         husbands = [] 
         
@@ -30,7 +64,10 @@ class Wiki:
         # add 'No Answer' string as the answer when you dont want to answer
         
         for wife in wives:
-            husbands.append('No Answer')
+            if wife in spouse_of:
+                husbands.append( "Who is " + spouse_of[wife] + "?" )
+            else:
+                husbands.append('No Answer')
         f.close()
         return husbands
     
@@ -81,3 +118,5 @@ if __name__ == '__main__':
     wives = wiki.addWives(wivesFile)
     husbands = wiki.processFile(open(wikiFile), wives, useInfoBox)
     wiki.evaluateAnswers(useInfoBox, husbands, goldFile)
+
+# vim: tabstop=8 expandtab shiftwidth=4 softtabstop=4
