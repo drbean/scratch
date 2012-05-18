@@ -24,12 +24,12 @@ class Wiki:
         # pattern = re.compile('\|spouse\s*\=\s*([A-Z][a-z]+).*')
         spouse_of = {}
         if useInfoBox:
-            pattern = re.compile("""\| \s* [Ss]pouse
-                    \s*=\s*
-                    (?:.*\[\[(.*?)\]\]
-                    | ( \w+ \s+ \w+)
-                    | ( \w+ \s+ \w+ \s+ \w+) 
-                    | ( \w+ \s+ \w+ \s+ \w+ \s+ \w+) 
+            pattern = re.compile("""\| \s* [Ss]pouse \
+                    \s*=\s*                         \
+                    (?:.*\[\[(.*?)\]\]              \
+                    | ( \w+ \s+ \w+)                \
+                    | ( \w+ \s+ \w+ \s+ \w+)        \
+                    | ( \w+ \s+ \w+ \s+ \w+ \s+ \w+)\
                     )""", re.X)
             # pattern = re.compile('\|spouse')
             xml = f.read()
