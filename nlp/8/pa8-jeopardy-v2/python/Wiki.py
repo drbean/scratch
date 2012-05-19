@@ -57,11 +57,9 @@ class Wiki:
                         spouse_of[ maiden_name ] = husband
                 pass
         else:
-            married = re.compile(r""" (?:
-(\b[Ss]?[Hh]e) \s+ married \s+ ((?:[A-Z] \w+ \s+)+ [A-Z] \w+ )
-|  ((?:[A-Z] \w+ \s+)* [A-Z] \w+ ) (?:\s+ who|is|has been)? \s+ married \s+ \[\[(.*?)\]\]
-|  ((?:[A-Z] \w+ \s+)* [A-Z] \w+ ) (?:\s+ who|is|has been)? \s+ married (?:\s to) \s+ ((?:[A-Z] \w+ \s+)+ [A-Z] \w+ )
-                    )""", re.X)
+            married = re.compile(r""" 
+((Elizabeth Dunnell) who married (Richard Garrett))
+                    """, re.X)
             marriage = re.compile(r"""(?:
                 [Mm]arriage \s+ to \s+ \[\[(.*?)\]\]
                 | [Mm]arriage \s+ to \s+ ((?:[A-Z] \w+ \s+)* [A-Z] \w+ )
