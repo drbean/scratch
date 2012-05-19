@@ -23,6 +23,9 @@ class Wiki:
     def processFile(self, f, wives, useInfoBox):
         # pattern = re.compile('\|spouse\s*\=\s*([A-Z][a-z]+).*')
         spouse_of = {}
+        xml = f.read()
+        tree = BeautifulStoneSoup(xml)
+        pages = tree.findAll('page')
         if useInfoBox:
             pattern = re.compile(r"""\| \s* [Ss]pouse
                     \s*=\s* (?: (?: .*\[\[(.*?)\]\])+
@@ -30,11 +33,6 @@ class Wiki:
                     | ( \w+ \s+ \w+ \s+ \w+)
                     | ( \w+ \s+ \w+ \s+ \w+ \s+ \w+)
                     )""", re.X)
-            # pattern = re.compile('\|spouse')
-            xml = f.read()
-            # tree = objectify.fromstring(xml)
-            tree = BeautifulStoneSoup(xml)
-            pages = tree.findAll('page')
             for page in pages:
                 title = page.title.string
                 if title == "December 19":
@@ -58,6 +56,45 @@ class Wiki:
                         maiden_name = wife.rstrip( last_name )
                         spouse_of[ maiden_name + "\n" ] = husband
                 pass
+        else:
+            married = re.compile(r""" (?:
+                    ([Hh]e) \s+ married \s+ ((?:[A-Z] \w+ \s+)+ [A-Z] \w+ )
+                    |  (\w+) \s+ married \s+ \[\[(.*?)\]\]
+                    )""", re.X)
+            marriage = re.compile(r"""(?:
+                    [Mm]arriage \s+ to \s+ ((?:[A-Z] \w+ \s+)* [A-Z] \w+ )
+                    )""", re.X)
+            for page in pages:
+                title = page.title.string
+                title_parts = str(title).split(' ')
+                last_name = title_parts[-1]
+                text = page.text
+                matches = married.finditer(text)
+                for match in matches:
+                    for n in range(0, match.lastindex):
+                        if not match.group(n) or not match.group(n+1):
+                            continue
+                        m1 = match.group(n)
+                        m2 = match.group(n+1)
+                        if m1 == "He" or m1 == "he":
+                            husband = str(title)
+                        elif all( [ part.isalpha() and part.istitle() for part in title_parts ] ):
+                            husband = str(title)
+                        else:
+                            husband = str(m1)
+                        wife = str(m2)
+                        names = wife.split('|')
+                        for name in names:
+                            spouse_of[ name + "\n" ] = husband
+                matches = marriage.finditer(text)
+                for match in matches:
+                    if not match:
+                        continue
+                    husband = str(title)
+                    wife = str( match.group(1) )
+                    wife_names = wife.split(' ')
+                    spouse_of[ wife + "\n" ] = husband
+                    spouse_of[ wife + " " + last_name + "\n" ] = husband
 
         
         husbands = [] 
@@ -66,10 +103,16 @@ class Wiki:
         # Process the wiki file and fill the husbands Array
         # +1 for correct Answer, 0 for no answer, -1 for wrong answers
         # add 'No Answer' string as the answer when you dont want to answer
+
+        reverse_spouse = {}
+        for person in spouse_of:
+            reverse_spouse[ spouse_of[person] ] = person 
         
         for wife in wives:
             if wife in spouse_of:
                 husbands.append( "Who is " + spouse_of[wife] + "?" )
+            elif wife in reverse_spouse:
+                husbands.append( "Who is " + reverse_spouse[wife] + "?" )
             else:
                 husbands.append('No Answer')
         f.close()
@@ -120,7 +163,9 @@ if __name__ == '__main__':
     useInfoBox = True;
     wiki = Wiki()
     wives = wiki.addWives(wivesFile)
-    husbands = wiki.processFile(open(wikiFile), wives, useInfoBox)
-    wiki.evaluateAnswers(useInfoBox, husbands, goldFile)
+    # husbands = wiki.processFile(open(wikiFile), wives, useInfoBox)
+    # wiki.evaluateAnswers(useInfoBox, husbands, goldFile)
+    husbands = wiki.processFile(open(wikiFile), wives, False)
+    wiki.evaluateAnswers(False, husbands, goldFile)
 
 # vim: tabstop=8 expandtab shiftwidth=4 softtabstop=4
