@@ -58,12 +58,14 @@ class Wiki:
                 pass
         else:
             married = re.compile(r""" (?:
-                    ([Hh]e) \s+ (?:who)? \s+ married \s+ ((?:[A-Z] \w+ \s+)+ [A-Z] \w+ )
-                    |  (\w+) \s+ (?:who)? \s+ married \s+ \[\[(.*?)\]\]
+(\b[Ss]?[Hh]e) \s+ married \s+ ((?:[A-Z] \w+ \s+)+ [A-Z] \w+ )
+|  ((?:[A-Z] \w+ \s+)* [A-Z] \w+ ) (?:\s+ who|is|has been)? \s+ married \s+ \[\[(.*?)\]\]
+|  ((?:[A-Z] \w+ \s+)* [A-Z] \w+ ) (?:\s+ who|is|has been)? \s+ married (?:\s to) \s+ ((?:[A-Z] \w+ \s+)+ [A-Z] \w+ )
                     )""", re.X)
             marriage = re.compile(r"""(?:
-                    [Mm]arriage \s+ to \s+ ((?:[A-Z] \w+ \s+)* [A-Z] \w+ )
-                    )""", re.X)
+                [Mm]arriage \s+ to \s+ \[\[(.*?)\]\]
+                | [Mm]arriage \s+ to \s+ ((?:[A-Z] \w+ \s+)* [A-Z] \w+ )
+)""", re.X)
             for page in pages:
                 title = page.title.string
                 title_parts = str(title).split(' ')
@@ -78,23 +80,30 @@ class Wiki:
                         m2 = match.group(n+1)
                         if m1 == "He" or m1 == "he":
                             husband = str(title)
-                        elif all( [ part.isalpha() and part.istitle() for part in title_parts ] ):
+                        elif all( [ ( part.isalpha() and part.istitle() ) \
+                                or ( part[0].isupper() and part[-1] == '.' ) \
+                                for part in title_parts ] ):
                             husband = str(title)
                         else:
-                            husband = str(m1)
-                        wife = str(m2)
-                        names = wife.split('|')
-                        for name in names:
-                            spouse_of[ name ] = husband
+                            husband = str(title)
+                        wife_names = str(m2).split('|')
+                        for name in wife_names:
+                            name_parts = str(name).split(' ')
+                            if all( [ ( part.isalpha() and part.istitle() ) \
+                                    or ( part[0].isupper() and part[-1] == '.' ) \
+                                    for part in name_parts ] ):
+                                        spouse_of[ name ] = husband
                 matches = marriage.finditer(text)
                 for match in matches:
-                    if not match:
-                        continue
-                    husband = str(title)
-                    wife = str( match.group(1) )
-                    wife_names = wife.split(' ')
-                    spouse_of[ wife ] = husband
-                    spouse_of[ wife + " " + last_name ] = husband
+                    for n in range(0, match.lastindex+1):
+                        if not match.group(n):
+                            continue
+                        husband = str(title)
+                        wife = str( match.group(n) )
+                        wife_names = wife.split(' ')
+                        if all( [ part.isalpha() and part.istitle() for part in wife_names ] ):
+                            spouse_of[ wife ] = husband
+                            spouse_of[ wife + " " + last_name ] = husband
 
         
         husbands = [] 
