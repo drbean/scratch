@@ -1,4 +1,3 @@
-from BeautifulSoup import BeautifulSoup
 import re
 
 # defines the components of a query result from Google.
@@ -122,8 +121,6 @@ class Googling:
     def guessLocation(self, data):
         #TODO: use the GoogleQuery object for landmark to generate a tuple of the location
         # of the landmark
-        tree = BeautifulSoup(data)
-        location = tree.findAll('LOCATION')
         print(data[1])
         return Location('', '')
     
