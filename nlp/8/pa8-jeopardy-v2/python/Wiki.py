@@ -24,12 +24,11 @@ class Wiki:
         # pattern = re.compile('\|spouse\s*\=\s*([A-Z][a-z]+).*')
         spouse_of = {}
         if useInfoBox:
-            pattern = re.compile("""\| \s* [Ss]pouse \
-                    \s*=\s*                         \
-                    (?:.*\[\[(.*?)\]\]              \
-                    | ( \w+ \s+ \w+)                \
-                    | ( \w+ \s+ \w+ \s+ \w+)        \
-                    | ( \w+ \s+ \w+ \s+ \w+ \s+ \w+)\
+            pattern = re.compile(r"""\| \s* [Ss]pouse
+                    \s*=\s* (?: (?: .*\[\[(.*?)\]\])+
+                    | ( \w+ \s+ \w+)
+                    | ( \w+ \s+ \w+ \s+ \w+)
+                    | ( \w+ \s+ \w+ \s+ \w+ \s+ \w+)
                     )""", re.X)
             # pattern = re.compile('\|spouse')
             xml = f.read()
@@ -44,15 +43,20 @@ class Wiki:
                 match = pattern.search(text)
                 if not match:
                     continue
-                if match.group and match.group(1):
-                    wife = str(match.group(1))
+                for n in range(0, match.lastindex + 1):
+                    group = match.group(n)
+                    if group == None:
+                        continue
+                    words = match.group(n).split()
+                    if not all( [ word.isalpha() for word in words ] ):
+                        continue
+                    wife = str(match.group(n))
                     husband = str(title)
                     spouse_of[ wife + "\n" ] = husband
                     last_name = re.search('\s+\w+$', wife ).group(0)
                     if last_name:
                         maiden_name = wife.rstrip( last_name )
                         spouse_of[ maiden_name + "\n" ] = husband
-
                 pass
 
         
