@@ -58,8 +58,8 @@ class Wiki:
                 pass
         else:
             married = re.compile(r""" (?:
-                    ([Hh]e) \s+ married \s+ ((?:[A-Z] \w+ \s+)+ [A-Z] \w+ )
-                    |  (\w+) \s+ married \s+ \[\[(.*?)\]\]
+                    ([Hh]e) \s+ (?:who)? \s+ married \s+ ((?:[A-Z] \w+ \s+)+ [A-Z] \w+ )
+                    |  (\w+) \s+ (?:who)? \s+ married \s+ \[\[(.*?)\]\]
                     )""", re.X)
             marriage = re.compile(r"""(?:
                     [Mm]arriage \s+ to \s+ ((?:[A-Z] \w+ \s+)* [A-Z] \w+ )
