@@ -50,11 +50,11 @@ class Wiki:
                         continue
                     wife = str(match.group(n))
                     husband = str(title)
-                    spouse_of[ wife + "\n" ] = husband
+                    spouse_of[ wife ] = husband
                     last_name = re.search('\s+\w+$', wife ).group(0)
                     if last_name:
                         maiden_name = wife.rstrip( last_name )
-                        spouse_of[ maiden_name + "\n" ] = husband
+                        spouse_of[ maiden_name ] = husband
                 pass
         else:
             married = re.compile(r""" (?:
@@ -85,7 +85,7 @@ class Wiki:
                         wife = str(m2)
                         names = wife.split('|')
                         for name in names:
-                            spouse_of[ name + "\n" ] = husband
+                            spouse_of[ name ] = husband
                 matches = marriage.finditer(text)
                 for match in matches:
                     if not match:
@@ -93,8 +93,8 @@ class Wiki:
                     husband = str(title)
                     wife = str( match.group(1) )
                     wife_names = wife.split(' ')
-                    spouse_of[ wife + "\n" ] = husband
-                    spouse_of[ wife + " " + last_name + "\n" ] = husband
+                    spouse_of[ wife ] = husband
+                    spouse_of[ wife + " " + last_name ] = husband
 
         
         husbands = [] 
@@ -108,7 +108,7 @@ class Wiki:
         for person in spouse_of:
             reverse_spouse[ spouse_of[person] ] = person 
         
-        for wife in wives:
+        for wife in [ string.rstrip() for string in wives]:
             if wife in spouse_of:
                 husbands.append( "Who is " + spouse_of[wife] + "?" )
             elif wife in reverse_spouse:
