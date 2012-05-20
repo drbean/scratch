@@ -59,8 +59,8 @@ class Wiki:
         else:
             married = re.compile(r""" (?:
 (\b[Ss]?[Hh]e) \s+ married \s+ ((?:[A-Z] \w+ \s+)+ [A-Z] \w+ )
-|  ((?:[A-Z] \w+ \s+)* [A-Z] \w+ ) (?:\s+ who|is|has been)? \s+ married \s+ \[\[(.*?)\]\]
-|  ((?:[A-Z] \w+ \s+)* [A-Z] \w+ ) (?:\s+ who|is|has been)? \s+ married (?:\s to) \s+ ((?:[A-Z] \w+ \s+)+ [A-Z] \w+ )
+|  ((?:[A-Z] \w+ \s+)* [A-Z] \w+ ) (?:\s+ (?:who|is|has been))? \s+ married \s+ \[\[(.*?)\]\]
+|  ((?:[A-Z] \w+ \s+)* [A-Z] \w+ ) (?:\s+ (?:who|is|has been))? \s+ married (?:\s to) \s+ ((?:[A-Z] \w+ \s+)+ [A-Z] \w+ )
                     )""", re.X)
             marriage = re.compile(r"""(?:
                 [Mm]arriage \s+ to \s+ \[\[(.*?)\]\]
@@ -73,7 +73,7 @@ class Wiki:
                 text = page.text
                 matches = married.finditer(text)
                 for match in matches:
-                    for n in range(0, match.lastindex):
+                    for n in range(1, match.lastindex):
                         if not match.group(n) or not match.group(n+1):
                             continue
                         m1 = match.group(n)
