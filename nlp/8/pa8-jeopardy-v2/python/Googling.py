@@ -48,6 +48,10 @@ class Location:
 
 class Googling:
 
+    def __init__(self):
+        self.us_states = [ "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "District of Columbia", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming" ]
+        self.world_countries = [ "Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Antigua & Deps", "Argentina", "Armenia", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bhutan", "Bolivia", "Bosnia Herzegovina", "Botswana", "Brazil", "Brunei", "Bulgaria", "Burkina", "Burundi", "Cambodia", "Cameroon", "Canada", "Cape Verde", "Central African Rep(?:\\.|ublic)", "Chad", "Chile", "China", "Colombia", "Comoros", "Congo", "Congo", "Democratic Rep(?:\\.|ublic) of Congo", "Costa Rica", "Croatia", "Cuba", "Cyprus", "Czech Rep(?:\\.|ublic)", "Denmark", "Djibouti", "Dominica", "Dominican Rep(?:\\.|ublic)", "East Timor", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Ethiopia", "Fiji", "Finland", "France", "Gabon", "Gambia", "Georgia", "Germany", "Ghana", "Greece", "Grenada", "Guatemala", "Guinea", "Guinea-Bissau", "Guyana", "Haiti", "Honduras", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland", "Rep(?:\\.|ublic) of Ireland", "Israel", "Italy", "Ivory Coast", "Jamaica", "Japan", "Jordan", "Kazakhstan", "Kenya", "Kiribati", "Korea North", "Korea South", "Kosovo", "Kuwait", "Kyrgyzstan", "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania", "Luxembourg", "Macedonia", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall Islands", "Mauritania", "Mauritius", "Mexico", "Micronesia", "Moldova", "Monaco", "Mongolia", "Montenegro", "Morocco", "Mozambique", "Myanmar", "Burma", "Namibia", "Nauru", "Nepal", "Netherlands", "New Zealand", "Nicaragua", "Niger", "Nigeria", "Norway", "Oman", "Pakistan", "Palau", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Poland", "Portugal", "Qatar", "Romania", "Russian Federation", "Russia", "Rwanda", "(?:Saint|St[\\.]?[ ]?)Kitts & Nevis", "(?:Saint|St[\\.]?[ ]?)Lucia", "(?:Saint|St[\\.]?[ ]?)Vincent & the Grenadines", "Samoa", "San Marino", "Sao Tome & Principe", "Saudi Arabia", "Senegal", "Serbia", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia", "South Africa", "South Sudan", "Spain", "Sri Lanka", "Sudan", "Suriname", "Swaziland", "Sweden", "Switzerland", "Syria", "Taiwan", "Tajikistan", "Tanzania", "Thailand", "Togo", "Tonga", "Trinidad & Tobago", "Tunisia", "Turkey", "Turkmenistan", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "Uruguay", "Uzbekistan", "Vanuatu", "Vatican City", "Venezuela", "Vietnam", "Yemen", "Zambia", "Zimbabwe" ]
+    
     # reads in data for a set of results for a single query
     def readInSegment(self, lines):
         queryResults = []
@@ -121,13 +125,23 @@ class Googling:
     def guessLocation(self, data):
         #TODO: use the GoogleQuery object for landmark to generate a tuple of the location
         # of the landmark
-        print(data[1])
-        return Location('', '')
+        candidate = {}
+	for i in range(len(data)):
+            locs = self.loc_pattern.findall(str(data[i]).split('\n\n')[1])
+            for loc in locs:
+                if loc not in candidate:
+                    candidate[loc] = 0
+                candidate[loc] += 1
+        cands = candidate.keys()
+        guesses = sorted(cands, key=candidate.__getitem__, reverse = True)
+        # print(data[1])
+        return Location(guesses[0],guesses[1])
     
     # loops through each of the data associated with each query and passes it into the
     # guessLocation method, which returns the guess of the user
     def processQueries(self, queryData):
         #TODO: this todo is optional. this is for anyone who might want to write any initialization code that should only be performed once.
+	self.loc_pattern = re.compile(r"<LOCATION>(.*?)</LOCATION>", re.X)
         guesses = [''] * len(queryData)
         for i in range(len(queryData)):
             guesses[i] = self.guessLocation(queryData[i])
@@ -188,3 +202,5 @@ if __name__ == '__main__':
     goldData, landmarks = googling.readInGold(goldFile)
     guesses = googling.processQueries(queryData)
     googling.scoreAnswers(guesses, goldData, landmarks)
+
+# vim: tabstop=8 expandtab shiftwidth=4 softtabstop=4
