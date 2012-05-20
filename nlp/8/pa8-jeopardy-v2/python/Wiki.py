@@ -57,7 +57,8 @@ class Wiki:
         else:
             married = re.compile(r""" (?:
 \b[Ss]?([Hh]e) \s+ married \s+ ((?:[A-Z] \w+ \s+)+ [A-Z] \w+ )
-|  ((?:[A-Z] \w+ \s+)* [A-Z] \w+ ) (?:\s+ (?:who|is|has been))? \s+ married \s+ \[\[(.*?)\]\]
+| \b[Ss]?([Hh]e) \s+ married \s+ \[\[(.*?)\]\]
+|  ((?:[A-Z] \w+ \s+)* [A-Z] \w+ ) (?:\s+ (?:who|is|has been))? \s+ married (?:\s to)? \s+ \[\[(.*?)\]\]
 |  ((?:[A-Z] \w+ \s+)* [A-Z] \w+ ) (?:\s+ (?:who|is|has been))? \s+ married (?:\s to)? \s+ ((?:[A-Z] \w+ \s+)+ [A-Z] [a-z]+ )
                     )""", re.X)
             marriage = re.compile(r"""(?:
@@ -104,9 +105,13 @@ class Wiki:
                         for name in wife_names:
                             name_parts = str(name).split(' ')
                             if all( [ ( part.isalpha() and part.istitle() ) \
-                                    or ( part[0].isupper() and part[-1] == '.' ) \
-                                    for part in name_parts ] ):
-                                        spouse_of[ name ] = husband
+                            or ( part[0].isupper() and part[-1] == '.' ) \
+                            for part in name_parts ] ):
+                                spouse_of[ name ] = husband
+                                wife_last_name = name_parts[-1]
+                                if wife_last_name == last_name:
+                                    maiden_name = name.rstrip( ' ' + last_name )
+                                    spouse_of[ maiden_name ] = husband
                 matches = marriage.finditer(text)
                 for match in matches:
                     for n in range(0, match.lastindex+1):
@@ -129,8 +134,6 @@ class Wiki:
                         if all( [ part.isalpha() and part.istitle() for part in wife_names ] ):
                             spouse_of[ wife ] = husband
                             spouse_of[ wife + " " + last_name ] = husband
-
-        
         husbands = [] 
         
         # TODO:
