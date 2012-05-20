@@ -21,7 +21,7 @@ class Wiki:
     # read through the wikipedia file and attempts to extract the matching husbands. note that you will need to provide
     # two different implementations based upon the useInfoBox flag. 
     def processFile(self, f, wives, useInfoBox):
-        # pattern = re.compile('\|spouse\s*\=\s*([A-Z][a-z]+).*')
+        markup_pattern = re.compile(r'(?<= )\W*&quot;.*?&quot;\W* ')
         spouse_of = {}
         xml = f.read()
         tree = BeautifulStoneSoup(xml)
@@ -29,15 +29,13 @@ class Wiki:
         if useInfoBox:
             pattern = re.compile(r"""\| \s* [Ss]pouse
                     \s*=\s* (?: (?: .*\[\[(.*?)\]\])+
-                    | ( \w+ \s+ \w+)
-                    | ( \w+ \s+ \w+ \s+ \w+)
-                    | ( \w+ \s+ \w+ \s+ \w+ \s+ \w+)
+                    | ((?:[A-Z] \w+ \s+)* [A-Z] \w+ )
                     )""", re.X)
             for page in pages:
                 title = page.title.string
                 if title == "December 19":
                     continue
-                text = page.text
+                text = markup_pattern.sub('', page.text)
                 match = pattern.search(text)
                 if not match:
                     continue
@@ -58,19 +56,27 @@ class Wiki:
                 pass
         else:
             married = re.compile(r""" (?:
-(\b[Ss]?[Hh]e) \s+ married \s+ ((?:[A-Z] \w+ \s+)+ [A-Z] \w+ )
+\b[Ss]?([Hh]e) \s+ married \s+ ((?:[A-Z] \w+ \s+)+ [A-Z] \w+ )
 |  ((?:[A-Z] \w+ \s+)* [A-Z] \w+ ) (?:\s+ (?:who|is|has been))? \s+ married \s+ \[\[(.*?)\]\]
-|  ((?:[A-Z] \w+ \s+)* [A-Z] \w+ ) (?:\s+ (?:who|is|has been))? \s+ married (?:\s to) \s+ ((?:[A-Z] \w+ \s+)+ [A-Z] \w+ )
+|  ((?:[A-Z] \w+ \s+)* [A-Z] \w+ ) (?:\s+ (?:who|is|has been))? \s+ married (?:\s to)? \s+ ((?:[A-Z] \w+ \s+)+ [A-Z] [a-z]+ )
                     )""", re.X)
             marriage = re.compile(r"""(?:
                 [Mm]arriage \s+ to \s+ \[\[(.*?)\]\]
                 | [Mm]arriage \s+ to \s+ ((?:[A-Z] \w+ \s+)* [A-Z] \w+ )
 )""", re.X)
+            mother = re.compile(r"""(?:
+                \[\[(.*?)\]\], \s+ the \s+ mother \s+ of \s+ his
+                | ((?:[A-Z] \w+ \s+)* [A-Z] \w+ ), \s+ the \s+ mother \s+ of \s+ his
+)""", re.X)
+            wife = re.compile(r"""(?:
+                [Hh]is| (?: (?: \w+ \s+)* \w+ ){,5} \s+ wife,? \[\[(.*?)\]\]
+                | [Hh]is| (?: (?: \w+ \s+)* \w+ ){,5} \s+ wife,? ((?:[A-Z] \w+ \s+)* [A-Z] \w+ )
+)""", re.X)
             for page in pages:
                 title = page.title.string
                 title_parts = str(title).split(' ')
                 last_name = title_parts[-1]
-                text = page.text
+                text = markup_pattern.sub('', page.text)
                 matches = married.finditer(text)
                 for match in matches:
                     for n in range(1, match.lastindex):
@@ -78,8 +84,16 @@ class Wiki:
                             continue
                         m1 = match.group(n)
                         m2 = match.group(n+1)
+                        m1_parts = m1.split()
                         if m1 == "He" or m1 == "he":
                             husband = str(title)
+                        elif all( [ ( part.isalpha() and part.istitle() ) \
+                                or ( part[0].isupper() and part[-1] == '.' ) \
+                                for part in m1_parts ] ):
+                            if m1_parts[-1] == title_parts[-1]:
+                                husband = str(title)
+                            else:
+                                husband = str(m1)
                         elif all( [ ( part.isalpha() and part.istitle() ) \
                                 or ( part[0].isupper() and part[-1] == '.' ) \
                                 for part in title_parts ] ):
@@ -94,6 +108,17 @@ class Wiki:
                                     for part in name_parts ] ):
                                         spouse_of[ name ] = husband
                 matches = marriage.finditer(text)
+                for match in matches:
+                    for n in range(0, match.lastindex+1):
+                        if not match.group(n):
+                            continue
+                        husband = str(title)
+                        wife = str( match.group(n) )
+                        wife_names = wife.split(' ')
+                        if all( [ part.isalpha() and part.istitle() for part in wife_names ] ):
+                            spouse_of[ wife ] = husband
+                            spouse_of[ wife + " " + last_name ] = husband
+                matches = mother.finditer(text)
                 for match in matches:
                     for n in range(0, match.lastindex+1):
                         if not match.group(n):
