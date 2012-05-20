@@ -126,22 +126,39 @@ class Googling:
         #TODO: use the GoogleQuery object for landmark to generate a tuple of the location
         # of the landmark
         candidate = {}
+        city = {}
+        region = {}
+        city_sort = {}
+        region_sort = {}
 	for i in range(len(data)):
-            locs = self.loc_pattern.findall(str(data[i]).split('\n\n')[1])
-            for loc in locs:
-                if loc not in candidate:
-                    candidate[loc] = 0
-                candidate[loc] += 1
-        cands = candidate.keys()
-        guesses = sorted(cands, key=candidate.__getitem__, reverse = True)
-        # print(data[1])
-        return Location(guesses[0],guesses[1])
+            info = str(data[i]).split('\n\n')
+            for j in range(len(info)):
+                locs = self.loc_pattern.findall(info[j])
+                for emloc in locs:
+                    loc = self.em_pattern.sub('', emloc)
+                    if loc in self.world_countries or loc in self.us_states:
+                        if loc not in region:
+                            region[loc] = 0
+                        region[loc] += 1
+                    else:
+                        if loc not in city:
+                            city[loc] = 0
+                        city[loc] += 1
+            cities = city.keys()
+            regions = region.keys()
+            city_sort = sorted(cities, key=city.__getitem__, reverse = True)
+            region_sort = sorted(regions, key=region.__getitem__, reverse = True)
+        else:
+            city_sort.append('')
+            region_sort.append('')
+        return Location(city_sort[0],region_sort[0])
     
     # loops through each of the data associated with each query and passes it into the
     # guessLocation method, which returns the guess of the user
     def processQueries(self, queryData):
         #TODO: this todo is optional. this is for anyone who might want to write any initialization code that should only be performed once.
 	self.loc_pattern = re.compile(r"<LOCATION>(.*?)</LOCATION>", re.X)
+        self.em_pattern = re.compile(r"<\?em>")
         guesses = [''] * len(queryData)
         for i in range(len(queryData)):
             guesses[i] = self.guessLocation(queryData[i])
