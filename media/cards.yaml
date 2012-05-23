@@ -204,22 +204,22 @@ interviews:
       quiz:
         - question: A
           option:
-            - Bill O'Reilly
-            - Howard Stern
-            - Mike Wallace
-          answer: Howard Stern
+            - O'Reilly
+            - Stern
+            - Wallace
+          answer: Stern
         - question: B
           option:
-            - Bill O'Reilly
-            - Howard Stern
-            - Mike Wallace
-          answer: Mike Wallace
+            - O'Reilly
+            - Stern
+            - Wallace
+          answer: Wallace
         - question: C
           option:
-            - Bill O'Reilly
-            - Howard Stern
-            - Mike Wallace
-          answer: Bill O'Reilly
+            - O'Reilly
+            - Stern
+            - Wallace
+          answer: O'Reilly
         - question: Howard Stern interviewed Mike Wallace.
           answer  : False
         - question: Mike Wallace interviewed Bill O'Reilly.
@@ -234,32 +234,31 @@ interviews:
           answer  : False
         - question: Mike Wallace is dead.
           answer  : True
-  jigsaw:
     1:
       identifier: interviews 1
-      A: You are a TV news show host, like your father Mike Wallace. But you didn't know him when you were young. Your parents got divorced when you were one year old. You show pictures of his grandchildren on TV after he dies.
-      B: You are a 12-year-old quiz show contestant. You were interviewed by Mike Wallace in . You admired him. The two of you didn't argue. You interviewed Howard Stern, a liberal, who is more popular than you. You don't think his show is good. You argue with him.
-      B: You died in 2012. You were very popular. You interviewed famous people for 50 years. You interviewed Bill O'Reilly, but you didn't interview Howard Stern. You didn't like Stern, even though he was a liberal, like you.
+      A: You are a TV news show host, like your father Mike Wallace. But he didn't raise you. Your parents divorced when you were one year old. You got to know him later. You interview him and show pictures of him and your family on TV after he dies.
+      B: You are a 12-year-old quiz show contestant. You were interviewed by Mike Wallace 50 years ago. You give good answers to his tough questions. But later in life you become depressed, just like Wallace was depressed, and you kill yourself.
+      B: You died in 2012. 50 years ago you interviewed Lenny Ross, a 12-year-old boy who killed himself later in life. You also suffered depression after a (
       quiz:
         - question: A
           option:
-            - Lennie Ross
-            - Chris Wallace
-            - Mike Wallace
-          answer: Chris Wallace
+            - Lenny
+            - Chris
+            - Mike
+          answer: Chris
         - question: B
           option:
-            - Bill O'Reilly
-            - Howard Stern
-            - Mike Wallace
-          answer: Mike Wallace
+            - Lenny
+            - Chris
+            - Mike
+          answer: Lenny
         - question: C
           option:
-            - Bill O'Reilly
-            - Howard Stern
-            - Mike Wallace
-          answer: Bill O'Reilly
-        - question: Howard Stern interviewed Mike Wallace.
+            - Lenny
+            - Chris
+            - Mike
+          answer: Mike
+        - question: Mike Wallace interviewed 
           answer  : False
         - question: Mike Wallace interviewed Bill O'Reilly.
           answer  : True
@@ -269,7 +268,7 @@ interviews:
           answer  : False
         - question: Wallace and Stern were liberal.
           answer  : True
-        - question: Wallace and O'Reilly argued.
-          answer  : False
+        - question: Mike didn't bring up his son, Chris.
+          answer  : True
         - question: Mike Wallace is dead.
           answer  : True
