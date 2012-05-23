@@ -232,13 +232,13 @@ interviews:
           answer  : True
         - question: Wallace and O'Reilly argued.
           answer  : False
-        - question: Mike Wallace is dead.
+        - question: Stern and O'Reilly argued.
           answer  : True
     1:
       identifier: interviews 1
       A: Your father was Mike Wallace. Like him, you are a TV news show host, But he didn't raise you. Your parents divorced when you were one year old. You became close to him when you were getting your own divorce and he comforted you by calling you every day.
       B: You are a 12-year-old quiz show contestant. You were interviewed by Mike Wallace 50 years ago. You give good answers to his tough questions. But later in life you became depressed, just like Mike was depressed, and you killed yourself.
-      B: You died in 2012. 50 years ago you interviewed Lenny Ross, a 12-year-old boy who killed himself later in life. You also felt depressed because of your job, and you also tried to kill yourself, but you lived on, to comfort people like your son, Chris.
+      C: You died in 2012. 50 years ago you interviewed Lenny Ross, a 12-year-old boy who killed himself later in life. You also felt depressed because of your job, and you also tried to kill yourself, but you lived on, to comfort people like your son, Chris.
       quiz:
         - question: A
           option:
