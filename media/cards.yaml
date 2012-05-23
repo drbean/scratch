@@ -118,9 +118,9 @@ limbaugh:
   jigsaw:
     0:
       identifier: limbaugh 0
-      A: You give Fluke a telephone call and tell her that the insulting treatment that she received from Limbaugh will help you win the election, because many woman will believe the Republicans want a 'War on Women.'
-      B: You have a radio program that is very popular with Republicans and very unpopular with Democrats. You call Fluke 'a slut,' because she supports Obama's efforts to help women get cheap birth control pills.
-      C: You want your school to pay for students' birth control pills. But your school doesn't want to. It doesn't want students to have sex. You say Limbaugh's words are unacceptable. You say men call women 'sluts' to silence them.
+      A: You give Fluke a telephone call and tell her that the insulting treatment that she received from Limbaugh will help you win the election, because many woman will believe the Republicans want a `War on Women.'
+      B: You have a radio program that is very popular with Republicans and very unpopular with Democrats. You call Fluke `a slut,' because she supports Obama's efforts to help women get cheap birth control pills.
+      C: You want your school to pay for students' birth control pills. But your school doesn't want to. It doesn't want students to have sex. You say Limbaugh's words are unacceptable. You say men call women `sluts' to silence them.
       quiz:
         - question: A
           option:
@@ -184,13 +184,92 @@ stern:
           answer  : False
         - question: Obama thanks Stern for supporting him.
           answer  : False
-        - question: Scott thinks Stern should question Obama.
+        - question: Scott wants Stern to question Obama.
           answer  : True
-        - question: Stern wants to question Obama's legitimacy.
+        - question: Stern questions Obama's legitimacy.
           answer  : False
-        - question: Stern tells Scott to question Obama's legitimacy.
+        - question: Stern calls Scott a liar.
           answer  : False
         - question: Scott angers Stern with his questions.
           answer  : True
         - question: Stern tells Scott to believe in Obama.
+          answer  : True
+interviews:
+  jigsaw:
+    0:
+      identifier: interviews 0
+      A: You use a lot of bad language and are the highest-paid person in radio. Bill O'Reilly, who is popular with conservative people, interviews you about your radio show and you argue with him. Bill is a conservative and you are a liberal.
+      B: You died in 2012. You were very popular. You interviewed famous people for 50 years. You interviewed Bill O'Reilly, but you didn't interview Howard Stern. You didn't like Stern, even though he was a liberal, like you.
+      C: You are a popular TV news show host. You were interviewed by Mike Wallace. You admired him. The two of you didn't argue. You interviewed Howard Stern, a liberal, who is more popular than you. You don't think his show is good. You argue with him.
+      quiz:
+        - question: A
+          option:
+            - Bill O'Reilly
+            - Howard Stern
+            - Mike Wallace
+          answer: Howard Stern
+        - question: B
+          option:
+            - Bill O'Reilly
+            - Howard Stern
+            - Mike Wallace
+          answer: Mike Wallace
+        - question: C
+          option:
+            - Bill O'Reilly
+            - Howard Stern
+            - Mike Wallace
+          answer: Bill O'Reilly
+        - question: Howard Stern interviewed Mike Wallace.
+          answer  : False
+        - question: Mike Wallace interviewed Bill O'Reilly.
+          answer  : True
+        - question: Bill O'Reilly interviewed Howard Stern.
+          answer  : True
+        - question: Bill O'Reilly is a liberal.
+          answer  : False
+        - question: Wallace and Stern were liberal.
+          answer  : True
+        - question: Wallace and O'Reilly argued.
+          answer  : False
+        - question: Mike Wallace is dead.
+          answer  : True
+  jigsaw:
+    1:
+      identifier: interviews 1
+      A: You are a TV news show host, like your father Mike Wallace. But you didn't know him when you were young. Your parents got divorced when you were one year old. You show pictures of his grandchildren on TV after he dies.
+      B: You are a 12-year-old quiz show contestant. You were interviewed by Mike Wallace in . You admired him. The two of you didn't argue. You interviewed Howard Stern, a liberal, who is more popular than you. You don't think his show is good. You argue with him.
+      B: You died in 2012. You were very popular. You interviewed famous people for 50 years. You interviewed Bill O'Reilly, but you didn't interview Howard Stern. You didn't like Stern, even though he was a liberal, like you.
+      quiz:
+        - question: A
+          option:
+            - Lennie Ross
+            - Chris Wallace
+            - Mike Wallace
+          answer: Chris Wallace
+        - question: B
+          option:
+            - Bill O'Reilly
+            - Howard Stern
+            - Mike Wallace
+          answer: Mike Wallace
+        - question: C
+          option:
+            - Bill O'Reilly
+            - Howard Stern
+            - Mike Wallace
+          answer: Bill O'Reilly
+        - question: Howard Stern interviewed Mike Wallace.
+          answer  : False
+        - question: Mike Wallace interviewed Bill O'Reilly.
+          answer  : True
+        - question: Bill O'Reilly interviewed Howard Stern.
+          answer  : True
+        - question: Bill O'Reilly is a liberal.
+          answer  : False
+        - question: Wallace and Stern were liberal.
+          answer  : True
+        - question: Wallace and O'Reilly argued.
+          answer  : False
+        - question: Mike Wallace is dead.
           answer  : True
