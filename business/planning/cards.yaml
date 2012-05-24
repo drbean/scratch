@@ -31,7 +31,7 @@ kendall:
       - question: Craig Sams is macrobiotic.
         answer  : False
   1:
-    identifier: Kendall people
+    identifier: Kendall 1
     A: You love chocolates, beauty and fashion. With your husband, Sams, you started Green and Black's in 1991. Like him, you are interested in organic products and eco-friendly living. But you also have an expensive lifestyle and you like delicious foods.
     B: You had a soup company that was successful, but which was difficult to sell. When you bought Green and Black's, you got a big chocolate company to invest 10\%. You later sold Green and Black's to the big company. Graham realized you were smart.
     C: You eat organic foods like brown rice. You started a chocolate company with your wife, Fairley, but it became popular only with eaters of health food. You could not find investors to make it more popular. So you sold it to Kendall, a good businessman.
@@ -77,6 +77,44 @@ kendall:
         answer  : False
       - question: Kendall couldn't sell Green and Black's.
         answer  : False
+  11:
+    identifier: Kendall 11
+    A: You love chocolates, beauty and fashion. With your husband, Sams, you started Green and Black's in 1991. Like him, you are interested in organic products and eco-friendly living. But you also have an expensive lifestyle and you like delicious foods.
+    B: You had a soup company that was successful, but which was difficult to sell. When you bought Green and Black's, you got a big chocolate company to invest 10\%. You later sold Green and Black's to the big company. Some believers in organic food were unhappy.
+    C: You eat organic foods like brown rice. You started a chocolate company with your wife, Fairley, but it became popular only with eaters of health food. You could not find investors to make it more popular. So you sold it to Kendall, a good businessman.
+    quiz :
+      - question: A
+        option:
+          - Fairley
+          - Kendall
+          - Sams
+        answer: Fairley
+      - question: B
+        option:
+          - Fairley
+          - Kendall
+          - Sams
+        answer: Kendall
+      - question: C
+        option:
+          - Fairley
+          - Kendall
+          - Sams
+        answer: Sams
+      - question: Sams and Fairley were husband and wife.
+        answer  : True
+      - question: Sams sold Green and Black's to Kendall.
+        answer  : True
+      - question: Sams raised more money than Kendall.
+        answer  : False
+      - question: Being organic was more important to Sams.
+        answer  : True
+      - question: Everyone liked the sale of Green \& Black's.
+        answer  : False
+      - question: Sams likes chocolate more than Fairley.
+        answer  : False
+      - question: Kendall couldn't sell the soup company.
+        answer  : True
   2:
     identifier: Kendall 2
     A: You are a business man who sells organic foods. You started a chocolate company, which became popular. But you could not find investors to make it more popular. You sold it to Kendall, a businessman interested in organic food.
@@ -123,6 +161,44 @@ kendall:
       - question: Graham thinks Kendall controls Palmer tightly.
         answer  : False
       - question: Being organic was more important to Sams than Kendall.
+        answer  : True
+  22:
+    identifier: Kendall 22
+    A: You are a business man who sells organic foods. You started a chocolate company, which became popular. But you could not find investors to make it more popular. You sold it to Kendall, a businessman interested in organic food.
+    B: You are a very good marketer. You knew the best way to get people to try the chocolate was to give it to them for free. Sams thought being organic was important, but you and Kendall thought the taste made people buy the chocolate.
+    C: You are a successful business man. You bought an organic chocolate company from Sams. When you took over the company, you brought in Palmer, a marketer. You gave Palmer lots of freedom to make decisions about marketing. He helped you make the company very big.
+    quiz :
+      - question: A
+        option:
+          - Kendall
+          - Palmer
+          - Sams
+        answer: Sams
+      - question: B
+        option:
+          - Kendall
+          - Palmer
+          - Sams
+        answer: Palmer
+      - question: C
+        option:
+          - Kendall
+          - Palmer
+          - Sams
+        answer: Kendall
+      - question: Kendall and Sams started the company.
+        answer  : False
+      - question: Kendall bought the company from Sams.
+        answer  : True
+      - question: Kendall brought in Palmer.
+        answer  : True
+      - question: The free chocolates was Palmer's idea.
+        answer  : True
+      - question: Kendall made the marketing decisions.
+        answer  : False
+      - question: Taste was more important for Sams.
+        answer  : False
+      - question: Taste was more important for Kendall.
         answer  : True
   3:
     identifier: Kendall 3
@@ -171,6 +247,44 @@ kendall:
         answer  : False
       - question: Fairley eats the most chocolate.
         answer  : True
+  33:
+    identifier: Kendall 33
+    A: You bought Sams' chocolate company and made it very successful even with people who don't eat organic food. Your wife has a farm. It's your farm. You made it organic, after visiting Prince Charles' farm. You eat a little chocolate.
+    B: You are a business man who sells organic foods. You started a chocolate company. You sold it to Kendall He is also interested in organic food. You know and like Prince Charles. You don't eat tomatoes, meat, sugar or chocolate.
+    C: You have a farm which is organic. You sell the products of your farm and give the money away to helpful organizations. You know and like Sams and you agree with him about farm chemicals, but you eat meat and chocolate.
+    quiz :
+      - question: A
+        option:
+          - Prince Charles
+          - Kendall
+          - Sams
+        answer: Kendall
+      - question: B
+        option:
+          - Prince Charles
+          - Kendall
+          - Sams
+        answer: Sams
+      - question: C
+        option:
+          - Prince Charles
+          - Kendall
+          - Sams
+        answer: Prince Charles
+      - question: Sams started the chocolate company.
+        answer  : True
+      - question: Prince Charles doesn't know Sams.
+        answer  : False
+      - question: Kendall and Charles have organic farms.
+        answer  : True
+      - question: Only organic-food people eat the chocolate.
+        answer  : False
+      - question: Prince Charles doesn't eat meat.
+        answer  : False
+      - question: Sams eats Green and Black chocolate.
+        answer  : False
+      - question: The prince and Kendall eat chocolate.
+        answer  : True
  compcomp:
   influences:
     identifier: influences on Kendall
@@ -213,6 +327,8 @@ kendall:
         answer: False
       - question: Sams eats meat but the Prince doesn't.
         answer: False
+      - question: Sams and the Prince don't like Western medicine.
+        answer: True
   coventgreen:
     identifier: Kendall's businesses
     White: |+
@@ -249,6 +365,10 @@ kendall:
       - question: Planned to sell first company, but not second.
         answer: False
       - question: Competed with big business at first company, cooperated at second.
+        answer: True
+      - question: Bigger food businesses invested in first company.
+        answer: False
+      - question: Sold second company to a very big company.
         answer: True
 drbean:
  jigsaw:
@@ -420,5 +540,5 @@ organic:
     identifier: Organic business
     A: Organic food is food grown without farm chemicals. Only a few people liked organic food and organic farmers and business people never made much money. Sams was one of those organic businessmen. From the age of 21, he only ate brown rice and vegetables. Now, however, he and Kendall have become rich by selling organic products. Kendall thinks many people with money don't like modern life and cheap, packaged modern supermarket foods. They want a closer connection with the production of the food they eat. If it's more expensive, it's OK.
     D: Kendall's wife inherited a farm, so he became involved in farming again. Many people changed their views about organic food after Mad Cow's Disease. He changed his views too, and he made his own farm an organic farm. Prince Charles may have influenced him. He made his farm organic after visiting the prince's farm.
-    C: Sams' products never had any sugar. But after a visit to Belize with Fairley and trying the chocolate, they started selling organic chocolate, which is 30\% sugar. Sams thinks sugar is poison. Fairley has an expensive lifestyle and loves chocolate. She convinced Sams to sell organic chocolate. Sams thought being organic was most important. Fairley thought a high-class taste experience was most important. The chocolate became very popular. But Sams and Fairley couldn't get enough investment to build the company fast enough. Kendall offered to buy a 75\% share in the company, and the company grew 50\% each year.
+    C: Sams' products never had any sugar. Sams thinks sugar is poison. But after a visit to Belize with Fairley and trying the chocolate, they started selling organic chocolate, which is 30\% sugar. Fairley has an expensive lifestyle and loves chocolate. She convinced Sams to sell organic chocolate. The chocolate became very popular. But Sams and Fairley couldn't get enough investment to build the company fast enough. Kendall offered to buy a 75\% share in the company, and the company grew 50\% each year. Sams continued as president of the company.
     B: Prince Charles thinks the old life-styles are better. He is worried about climate change and economic development. He doesn't believe in Western medicine. Everyone thought he was mad twenty to thirty years ago, when he bought a farm and made the farm completely organic. Now his farm makes fifty million pounds a year. More and more people started believing in organic food. The organic food market is now worth two billion pounds each year in England. William Kendall was one of the farmers who went to the Prince's farm and learned about organic farming.
