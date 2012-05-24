@@ -314,9 +314,24 @@ topic:
         comment: Find the soundfiles on elearning. They're the 'Graham1,2,3' files at the end of the menu bar for the 'Study Communication Center'. Find your section in them.
       -
         id: palmer
-        title: Plans and how they help a company succeed
-        blurb: Teresa Graham on page 72 of the textbook, Market Leader, talks about why plans are necessary, and how all people in the company need to be involved in them. She gives the example of William Kendall who made an extremely large amount of money with the organic Green and Black Chocolate. Green and Black's marketing manager, Mark Palmer, who played a large part in the company's success, <a href="http://www.youtube.com/watch?v=LX65puu8t-c&NR=1">explains how the company made so much money</a>.
-        comment: The sections I want you to transcribe start from 02:10.
+        title: Marketing manager describes successful campaign
+        blurb: William Kendall made an extremely large amount of money with the organic Green and Black Chocolate. Green and Black's marketing manager, Mark Palmer, who played a large part in the company's success, <a href="http://www.youtube.com/watch?v=LX65puu8t-c&NR=1">explains to other marketers why the campaign strategy was successful</a>.
+        comment: The sections I want you to transcribe start from 02:10. Think about the 4 P's: product, price, place and promotion.
+      -
+        id: kendall_talk1
+        title: Kendall talks about making changes
+        blurb: William Kendall <a href="http://www.youtube.com/watch?v=R3QHaaZwSuU">talks</a> about how everyone makes changes in their daily lives. However, at work, most people can't make changes. Most companies prevent people making changes, rather than encourage them to make changes. That's not good. He also believes, 'I can do it.' He says some people don't think this.
+        comment:  He switches off the lights to save electricity. He says some people don't switch off the lights, because they think it's not going to have any effect. What do you think?
+      -
+        id: kendall_talk2
+        title: Kendall talks about New Covent Garden and Green & Black's
+        blurb: In the second part of <a href="http://www.youtube.com/watch?v=R3QHaaZwSuU">William Kendall's talk</a>, he describes how his companies were different. New Covent Garden Soup Company was based on a constant development of new products and involvement of everyone in the company in creating new soup ideas.
+        comment:  Green and Black's was based on the idea that you could make dark chocolate a luxurious, but popular, product. It was also based on the idea of making a difference in the lives of the poor cocoa farmers who sold cocoa to Green and Black's.
+      -
+        id: kendall_people
+        title: Kendall, Sams, Fairley, Prince Charles, Palmer
+        blurb: Listen to <a href="http://www.youtube.com/watch?v=IPY2H_5WCY0">Craig Sams</a>, <a href="http://www.youtube.com/watch?v=R3QHaaZwSuU">William Kendall</a>, <a href="http://www.youtube.com/watch?v=YVkv_z0ofBU">Jo Fairley</a>, <a href="http://www.youtube.com/watch?v=neHHH3rwZHM">Prince Charles</a>, and <a href="http://www.youtube.com/watch?v=LX65puu8t-c">Mark Palmer</a> talk about Green and Black's.
+        comment: Green and Black was successful because it combined all the ideas these people are talking about.
       -
         id: plans
         title: Plans and how they help a company succeed
