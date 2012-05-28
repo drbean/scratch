@@ -635,4 +635,4 @@ huang:
       - question: Jensen paid for a new Stanford building.
         answer: True
       - question: Jensen and Lori gave to a hospital.
-        answer: False
+        answer: True
