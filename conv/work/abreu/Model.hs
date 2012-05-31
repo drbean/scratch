@@ -50,6 +50,9 @@ language = pred1 [E,H]
 
 namelist = map fst characters
 
+demanding	= pred1 [J]
+scared	= pred1 [C]
+helpful	= pred1 [A]
 
 male, female :: OnePlacePred
 
@@ -188,7 +191,8 @@ immigrate	= pred3 immigration
 
 
 gave	= pred3 giving
-got	= pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving
+got_from    = pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving
+got = forgetful got_from
 sold	= pred2 $ map (\x -> (agent x, theme x) ) selling
 
 told	= pred3 comms
