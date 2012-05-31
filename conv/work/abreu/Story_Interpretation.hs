@@ -42,7 +42,3 @@ story_relations = [
 	( "visit",	\[x,y] -> visit y x	),
 	( "greet",	\[x,y] -> greet y x	)
 	]
-
-story_adjs = [
-	]
-
