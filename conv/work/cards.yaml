@@ -381,7 +381,7 @@ dickson:
   jigsaw:
     0:
       identifier: dickson 0
-      A: You come from Biloxi and you work for a shipbuilding company there. You are almost 60 and a manager. Sometimes your family asks you to help them get work. Your nephew, Bruce, asks you to let her daughter become an apprentice electrician at the shipyard.
+      A: You come from Biloxi and you work for a shipbuilding company there. You are almost 60 and a manager. Sometimes your family asks you to help them get work. Your nephew, Bruce, asks you to let his daughter become an apprentice electrician at the shipyard.
       B: You interviewed Dee when she applied to become an apprentice at the shipyard. There were women working on the ships 30 years before in the war, but you don't want her to work there now. You think the men will harass them and they won't be strong enough.
       C: Your daughter married and had two sons when she was 19, but the marriage broke up after 3 years and she needs to find a good job to support her family. She tells you about the interview with Charles. 
       D: You tell your dad, who is in his mid-forties, that the shipyard didn't accept you. He tells you that he can talk to his Uncle Alf, who is a superintendent there. You don't want him to do that. You want to get the job on your own merits.
@@ -425,6 +425,44 @@ dickson:
         - question: Dee wants her dad to speak to Alf.
           answer: False
         - question: Bruce speaks to Alf about Dee.
+          answer: True
+    1:
+      identifier: dickson 1
+      A: You married and had two sons when you were 19, but your marriage broke up after 3 years and you need to find a job to support your children. The shipyard doesn't want you, but your dad, Bruce tells you he can get you a job.
+      B: You hear from your nephew, Bruce, that his daughter wants to become an electrician at the shipyard. You are an important person at the shipyard. You talk to some people and tell them to give Dee a job even though she is a woman.
+      C: You want to help your daughter, Dee, get a job. to support her family. You tell her that your Uncle Alf, who is a top manager there, will help her. She doesn't want to ask him for a job, but you go and talk to Uncle Alf anyway.
+      quiz:
+        - question: A
+          option: 
+           - Alf
+           - Bruce
+           - Dee
+          answer: Dee
+        - question: B
+          option:
+           - Alf
+           - Bruce
+           - Dee
+          answer: Alf
+        - question: C
+          option:
+           - Alf
+           - Bruce
+           - Dee
+          answer: Bruce
+        - question: Alf is Bruce's uncle.
+          answer: True
+        - question: Dee is Alf's niece.
+          answer: False
+        - question: Dee heads a single-parent family.
+          answer: True
+        - question: The shipyard wants to hire Dee.
+          answer: False
+        - question: Dee wants her dad to speak to Alf.
+          answer: False
+        - question: Bruce speaks to Alf about Dee.
+          answer: True
+        - question: Alf can't help Dee with the job.
           answer: True
   compcomp:
     0:
@@ -507,6 +545,45 @@ abreu:
           answer: False
         - question: Joan is confident Claritza understands.
           answer: False
+    1:
+      identifier: abreu 1
+      A: Your company sells computer services to hospitals. You hired Claritza as a receptionist. Her English is OK, but she has an accent, and you are worried customers like John Doe won't understand her. You listen to the way she takes their names.
+      B: You are worried that Joan will fire you if you can't handle customers. You have problems spelling the name of John Doe, a customer. You don't understand his explanation of how to spell his last name. Why does he talk about dead bodies?
+      C: You are John Doe, a hospital administrator. You are a customer of Joan's company. You need computer services at your hospital. You talk to Claritza, Joan's receptionist. You tell her that dead bodies have your name. She doesn't understand.
+      quiz:
+        - question: A
+          option: 
+           - Claritza
+           - Joan
+           - John Doe
+          answer: Joan
+        - question: B
+          option:
+           - Claritza
+           - Joan
+           - John Doe
+          answer: Claritza
+        - question: C
+          option:
+           - Claritza
+           - Joan
+           - John Doe
+          answer: John Doe
+          answer: Claritza
+        - question: Joan employs Claritza.
+          answer: True
+        - question: Joan knows Claritza is OK.
+          answer: False
+        - question: John Doe is Joan's customer.
+          answer: True
+        - question: Claritza is confident.
+          answer: False
+        - question: Claritza can spell Doe's name.
+          answer: False
+        - question: John Doe explains his name's meaning.
+          answer: True
+        - question: Dead bodies may be named 'John Doe.'
+          answer: True
   compcomp:
     0:
       identifier: abreu 0
