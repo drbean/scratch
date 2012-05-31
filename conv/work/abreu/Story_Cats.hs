@@ -63,3 +63,12 @@ story_aux = [
 	[Cat "could"    "AUX" [] []],
 	[Cat "couldn't" "AUX" [] []]
 	]
+
+story_adjs = [
+	[Cat "demanding"	"ADJ" [AccOrDat] []],
+	[Cat "scared"	"ADJ" [] []]
+	]
+
+story_advs = [
+	[Cat "hands_on_hips"	"ADV" [] []]
+	]
