@@ -2,7 +2,7 @@ module Story_Cats where
 
 import Parsing
 
-proper_names, object_names, story_verbs :: Lexset
+proper_names, object_names, story_verbs, story_aux, story_adjs, story_advs :: Lexset
 
 proper_names = [
 	[Cat "the_united_states" "NP" [Thrd,Neutr,Sg] []],
@@ -79,4 +79,5 @@ story_adjs = [
 	[Cat "red"	"ADJ" [] []]
 	]
 
-
+story_advs = [
+	]
