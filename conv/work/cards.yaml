@@ -569,7 +569,6 @@ abreu:
            - Joan
            - John Doe
           answer: John Doe
-          answer: Claritza
         - question: Joan employs Claritza.
           answer: True
         - question: Joan knows Claritza is OK.
