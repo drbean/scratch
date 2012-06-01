@@ -46,6 +46,8 @@ namelist = map fst characters
 
 dedicated	= mentally_disabled
 
+names = map swap characters
+
 male, female :: OnePlacePred
 
 child	= pred1 [A]
@@ -196,7 +198,8 @@ anger = offend
 
 
 gave	= pred3 giving
-got	= pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving
+got	= pred2 $ map (\x -> (recipient x, patient x) ) giving
+got_from	= pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving
 sold	= pred2 $ map (\x -> (agent x, theme x) ) selling
 
 told	= pred3 communications
