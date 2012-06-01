@@ -67,7 +67,7 @@ relations = [
         [x] -> worker x
         [x,y] -> work_where y x || work_as y x ),
  ( "got", \args -> case args of
- 	-- [x,y,z] -> got z y x
+ 	[x,y,z] -> got_from z y x
  	[x,y] -> got y x
 	),
  ( "told", \ args -> case args of [x,y] -> recite y x; [x,y,z] -> told z y x )
