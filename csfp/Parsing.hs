@@ -152,6 +152,11 @@ preproc ("movie":"star":xs)	= "movie_star" : preproc xs
 preproc ("new":"york":xs)	= "new_york" : preproc xs
 preproc ("south":"africa":xs)	= "south_africa" : preproc xs
 
+preproc ("mr":"batchelor":xs)	= "mr_batchelor" : preproc xs
+preproc ("mr":"payne":xs)	= "mr_payne" : preproc xs
+preproc ("business":"law":xs)	= "business_law" : preproc xs
+preproc ("rutgers":"university":xs)	= "rutgers_university" : preproc xs
+
 preproc ("dr":"bean":xs)	= "dr_bean" : preproc xs
 preproc ("european":"campers":xs)	= "european_campers" : preproc xs
 preproc ("office":"worker":xs)	= "office_worker" : preproc xs
