@@ -6,6 +6,7 @@ import Story_Interpretation
 import Parsing
 import Cats
 import Story_Cats
+import Topic_Cats
 
 import Data.Maybe
 import Data.List
@@ -17,6 +18,7 @@ lexicon lexeme = maybe unknownWord id $
 	find (\x -> phon (head x) == lexeme ) $
 	proper_names ++ object_names ++ story_verbs ++ story_aux ++ story_adjs ++
 	    story_advs ++
+	topic_class_names ++ intransitives ++ topic_transitives ++
 	class_names ++ interrogatives ++
 	cops ++ aux ++
 	transitives ++ ditransitives ++ -- intransitives ++
