@@ -2,7 +2,7 @@ module Cats where
 
 import Parsing
 
-class_names, prons, reflexives, interrogatives, aux, cops, gerunds, intransitives, transitives, ditransitives, determiners, preps, advs, conjuncts :: Lexset
+class_names, prons, reflexives, interrogatives, aux, cops, gerunds, transitives, ditransitives, determiners, preps, advs, conjuncts :: Lexset -- intransitives, 
 
 class_names = [
 --noun and verb
@@ -99,7 +99,7 @@ gerunds = [
 	[Cat "ing"    "GER" [] []]
 	]
 
-intransitives = [
+-- intransitives = [
 	--[Cat "separated"    "VP" [Tense] []],
 	--[Cat "separate"     "VP" [Infl]  []],
 	--[Cat "got_married"    "VP" [Tense] [],
@@ -110,7 +110,7 @@ intransitives = [
 	--	Cat "got_divorced"	"VP" [Tense] [Cat "_" "PP" [In] []]],
 	--[Cat "get_divorced"     "VP" [Infl]  [],
 	--	Cat "get_divorced"	"VP" [Infl] [Cat "_" "PP" [In] []]]
-	]
+	--]
 
 transitives = [
 	--[Cat "appreciated"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
@@ -200,14 +200,14 @@ ditransitives = [
 		Cat "work" "VP" [Infl] [Cat "_" "PP" [On,Neutr] []],
 		Cat "work" "VP" [Infl] [Cat "_" "PP" [In,Neutr] []],
 		Cat "work" "VP" [Infl] [Cat "_" "PP" [For,Neutr] []]],
-	--[Cat "gave" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-	--					Cat "_" "PP" [To]       []],
-	--		Cat "gave" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-	--					Cat "_" "NP" [AccOrDat]  []]],
-	--[Cat "give" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-	--					Cat "_" "PP" [To]       []],
-	--		Cat "give" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-	--					Cat "_" "NP" [AccOrDat] []]],
+	[Cat "gave" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [To]       []],
+			Cat "gave" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "NP" [AccOrDat]  []]],
+	[Cat "give" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [To]       []],
+			Cat "give" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "NP" [AccOrDat] []]],
 	[Cat "got" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
 			Cat "got" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [From]  []]],
@@ -254,7 +254,7 @@ advs = [
 	]
 
 conjuncts = [
-	-- [Cat "and"  "CONJ" [] []],
+	[Cat "and"  "CONJ" [] []],
 	[Cat "but"  "CONJ" [] []],
 	[Cat "."    "CONJ" [] []]
 	-- [Cat "if"   "COND" [] []],
