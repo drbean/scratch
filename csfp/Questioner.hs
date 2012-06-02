@@ -16,7 +16,8 @@ takeCourse _ "YN" = "YN"
 takeCourse "YN" _ = "YN"
 takeCourse _ "S"  = "S"
 takeCourse "S" _  = "S"
-takeCourse y   x  = x ++ ", " ++ y
+takeCourse "Unparseable" _  = "Unparseable"
+takeCourse _  _   = error "undefined course, not WH, YN, S, or Unparseable"
 
 pickOne :: String -> String -> String
 pickOne "NoAnswer" x   = x
@@ -27,13 +28,16 @@ pickOne "False" "True" = "True"
 pickOne "True" "False" = "True"
 pickOne "False" x      = x
 pickOne "True"  x      = x
-pickOne y       x      = x ++ ", " ++ y
+pickOne _       _      = error "undefined eval, not NoAnswer, [], True or False"
 
 main = do
 	sentence <- getLine
 	let lexed = lexer sentence
 	putStrLn $ unwords lexed
-	let parselist = parses sentence
+	let parselist = case listparses of
+		[] -> [Ep]
+		otherwise -> listparses
+		where listparses = parses sentence 
 	hClose stderr
 	hDuplicateTo stdout stderr
 	let labelFormAnswers =
@@ -47,7 +51,8 @@ main = do
 				"WH" -> show $ map ( toupper . named) $
 						evalW $ form p
 				"YN" -> yesorno $ eval $ form p
-				"S" -> show $ eval $ form p
-	putStrLn $ foldl takeCourse "S" $ map (\(l,f,a)->l) labelFormAnswers
+				_ -> show $ eval $ form p
+	putStrLn $ foldl takeCourse "Unparseable" $ map (\(l,f,a)->l)
+		labelFormAnswers
 	putStrLn $ foldl pickOne "NoAnswer" $ map (\(l,f,a)->a) labelFormAnswers
 	hClose stdout
