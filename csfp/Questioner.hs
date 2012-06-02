@@ -1,4 +1,5 @@
 import Data.Maybe
+import Data.List
 import GHC.IO.Handle
 import System.IO
 
@@ -28,7 +29,9 @@ pickOne "False" "True" = "True"
 pickOne "True" "False" = "True"
 pickOne "False" x      = x
 pickOne "True"  x      = x
-pickOne _       _      = error "undefined eval, not NoAnswer, [], True or False"
+pickOne x   y  = if (x == y) then x
+		 	else x ++ ", " ++ y
+-- pickOne _       _      = error "undefined eval, not NoAnswer, [], True or False"
 
 main = do
 	sentence <- getLine
@@ -48,8 +51,8 @@ main = do
 				"WH" -> transWH (Just p)
 				_ -> transTXT (Just p)
 			answer p = case label p of
-				"WH" -> show $ map ( toupper . named) $
-						evalW $ form p
+				"WH" -> ( nub . concat ) $ map (
+					toupper . named ) $ evalW $ form p
 				"YN" -> yesorno $ eval $ form p
 				_ -> show $ eval $ form p
 	putStrLn $ foldl takeCourse "Unparseable" $ map (\(l,f,a)->l)
