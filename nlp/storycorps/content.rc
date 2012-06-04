@@ -16,6 +16,7 @@ for my $url ( @$us[0..2] ) {
 	(my $speakers = $url) =~ s(^.*/([a-z0-9-]*)/$)($1);
 	my $content = $m->page_text();
 	(my $transcript = $content) =~ s/^.*Interview transcript(.*)More stories.*$/$1/;
+	$transcript =~ tr/\x{2013}\x{2019}\x{201c}\x{201d}/-'""/;
 	$c{$speakers} = $transcript;
 }
 
