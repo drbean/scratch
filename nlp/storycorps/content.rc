@@ -2,18 +2,19 @@
 
 use YAML qw/LoadFile DumpFile Dump/;
 $_REPL->load_plugin('DumpHistory');
-use WWW::Mechanize;
+use Scrappy;
 
-my $m = WWW::Mechanize->new;
+my $m = Scrappy->new;
+my $p = $m->parser;
 
 my $us = LoadFile 'storycorps/story_urls.yaml';
 
 my %c;
 
-for my $url ( @$us[0..4] ) {
+for my $url ( @$us[0..2] ) {
 	$m->get( $url );
 	(my $speakers = $url) =~ s(^.*/([a-z0-9-]*)/$)($1);
-	my $content = $m->content( format => 'text' );
+	my $content = $m->page_text();
 	(my $transcript = $content) =~ s/^.*Interview transcript(.*)More stories.*$/$1/;
 	$c{$speakers} = $transcript;
 }
