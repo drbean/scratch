@@ -58,8 +58,8 @@ class Wiki:
             married = re.compile(r""" (?:
 \b[Ss]?([Hh]e) \s+ married \s+ ((?:[A-Z] \w+ \s+)+ [A-Z] \w+ )
 | \b[Ss]?([Hh]e) \s+ married \s+ \[\[(.*?)\]\]
-|  ((?:[A-Z] \w+ \s+)* [A-Z] \w+ ) (?:\s+ (?:who|is|has been))? \s+ married (?:\s to)? \s+ \[\[(.*?)\]\]
-|  ((?:[A-Z] \w+ \s+)* [A-Z] \w+ ) (?:\s+ (?:who|is|has been))? \s+ married (?:\s to)? \s+ ((?:[A-Z] \w+ \s+)+ [A-Z] [a-z]+ )
+|  ((?:[A-Z] \w+ \s+)* [A-Z] \w+ ) (?:\s+ (?:who|is|has \s+ been))? \s+ married (?:\s to)? \s+ \[\[(.*?)\]\]
+|  ((?:[A-Z] \w+ \s+)* [A-Z] \w+ ) (?:\s+ (?:who|is|has \s+ been))? \s+ married (?:\s to)? \s+ ((?:[A-Z] \w+ \s+)+ [A-Z] [a-z]+ )
                     )""", re.X)
             marriage = re.compile(r"""(?:
                 [Mm]arriage \s+ to \s+ \[\[(.*?)\]\]
