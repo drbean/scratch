@@ -4,6 +4,7 @@ use YAML qw/LoadFile DumpFile Dump/;
 $_REPL->load_plugin('DumpHistory');
 use Scrappy;
 use Moose::Autobox qw/flatten/;
+use List::Util qw/first/;
 
 my $m = Scrappy->new;
 my $p = $m->parser;
@@ -18,12 +19,12 @@ for my $url ( @$us[0..2] ) {
 	my $content = $m->page_data;
 	$p->html( $content );
 	my $div = $p->select('div')->filter('id','html');
-	for my $d in ( @div ) { $transcript = $d->{html} if $d->{id} eq 'transcript' }
+	my @transcript = map $_->{html}, first { $_->{id} eq 'transcript' } $div->data->flatten;
 
 	# (my $transcript = $content) =~ s/^.*Interview transcript(.*)More stories.*$/$1/;
 	# $transcript =~ tr/\x{2013}\x{2019}\x{201c}\x{201d}/-'""/;
 
-	$c{$speakers} = $transcript
+	$c{$speakers} = $transcript[0];
 }
 
 # DumpFile 'content.yaml', \@u
