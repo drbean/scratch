@@ -29,7 +29,9 @@ To: $display $addresspart
 From: Greg Matheson <drbean@freeshell.org>
 	" -e "1i\\
 Subject: $subject
-	" < ShortUniversityCoverLetter | /usr/sbin/sendmail -oem -oi $addresspart;
+	" -e "1i\\
+Content-Type: text/plain; charset=\"UTF-8\"
+	" < onepagecoverletter | /usr/sbin/sendmail -oem -oi $addresspart;
 
 	error=$?;
 	echo -n $display $addresspart;
