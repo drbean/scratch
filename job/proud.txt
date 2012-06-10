@@ -114,10 +114,16 @@ students--from children to adults.
 
    Computer Skills
    Perl language, intermediate
+   Haskell language, basic
    Linux system administration
    Web programming
    Web, mail server administration
 
+   Natural Language Processing Certificate
+   March - May, 2012
+   Jurafsky & Manning (Stanford)
+   Grade 84.3
+   
    Testing Skills
    GRE scores (1992)
    Analytical 710
