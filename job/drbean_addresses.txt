@@ -1,4 +1,1 @@
-alias 1 Greg_Matheson <gregoer@nuu..edu.tw>, Greg Matheson <greg@nuu.edu.tw>
-alias 2 Greg Matheson <greg@nuu.edu.tw>
-alias 3 Greg J Matheson <drbean@freeshell.org>, Greg Matheson <greg@nuu.edu.tw>
-alias 4 Greg John Matheson <greg@free..shell.org>, Greg_Matheson <gregoer@nuu..edu.tw>
+alias 1 Greg_Matheson <drbean@freeshell.org>, Greg Matheson <greg@nuu.edu.tw>
