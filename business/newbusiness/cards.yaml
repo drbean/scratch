@@ -37,6 +37,11 @@ ingredients:
           - opportunity
           - team
         answer: innovation
+  6_months:
+    identifier:  First 6 months
+    A: Jensen Huang, Curtis Priem and Chris Malachowsky had been graduate students at Stanford University, studying electrical engineering. At the same time, they were working at Sun, AMD and LSI. They started NVIDIA to make sound and video cards to play computer games.
+    B: The 3 founders didn't know what to do for the first 6 months. They hadn't studied business and didn't have business experience. They hired a lawyer who introduced them to venture capitalists (VCs), but it was difficult convincing the VCs that NVIDIA could make money.
+    C: They made a lot of mistakes. They quickly almost went out of business when their first chip didn't work. And a lot of other new companies got the same idea of making video cards for computer games. Older companies had made cards for engineering and design, not computer games.
   1:
     identifier:  Dr Bean's language school 0
     A: In Taiwan, many people would like to be able to speak English. Many parents want their children to learn English, so they can succeed in their careers. Many people however don't want to put the effort that remembering many words and grammar forms requires. They also do not want the pain and embarrassment that talking to foreigners often involves. Easy and fun learning, however, is popular.
@@ -134,7 +139,7 @@ ingredients:
           - financial strategy
         answer: market opportunity
   3:
-    identifier:  Dr Bean's language school 2
+    identifier:  Dr Bean's language school 3
     A: Many young people are out of work, but surprisingly, this is good news for language schools. Many people are paying large sums to improve their language skills and study for TOEIC and GEPT. In fact, in all of Taiwan, there is an English boom. If you don't pass the language exams, you can't graduate from college. Students are finding it difficult to pass the exams, so they are looking for help from language schools.
     B: Dr Bean's plan is to use his team's contacts in the financial industry to get the money from investors to set up his school. The team has a good reputation with banks and banks think language schools are good places to invest their money. Although Huang didn't write a business plan, Dr Bean will approach his contacts with a well-written business plan. Writing the plan will help him think about the goals of his school. It will help him decide how to use cashflow to drive the business, and to expand and contract.
     C: Dr Bean developed a Dictation Exercise a couple of years ago, but he is not improving it. Similar exercises using the computer have been developed by other language teachers, but none of them is really popular. The Internet is popular, but the Internet doesn't really play a part in the exercise. Another CompComp exercise is supposed to be a competitive exercise, but students don't compete and don't use English. It's not something that will make money for him.
@@ -305,6 +310,12 @@ innovation:
       - question: Innovation, Question 10: Companies need to help innovators set up the groups required to develop an innovation.
         answer: True
 market:
+ jigsaw:
+  0:
+    identifier: market opportunity 0
+    A: Refrigerators are great for Taiwan. In Taiwan, there is a market opportunity. But at the North Pole, no-one needs a refrigerator. There is no market opportunity for refrigerators. Huang had a market opportunity. Dr Bean doesn't.
+    B: Some technology (or means of production) has to be used to produce the product. Different companies (or different technologies) can compete for the same market opportunity. NVIDIA's GPU was competing with the company's other graphics chips.
+    C: A need for a product may be a new need or an existing need. People didn't know they needed graphics on a computer before. It was a new need. The GPU was a better solution to an existing need. However, both the older graphics chip and the GPU had a market opportunity.
  compcomp:
   0:
     identifier: Jensen Huang and the market
