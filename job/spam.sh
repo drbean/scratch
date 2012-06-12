@@ -2,7 +2,7 @@
 
 # #!/bin/sh
 
-subject="Job application by Greg Matheson (resent)";
+subject="Job application by Greg Matheson";
 
 #for address in \
 #	"Greg_Matheson <gregoer@healthy..chinmin.tw>" \
