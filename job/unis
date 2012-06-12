@@ -1,3 +1,7 @@
+# alias tpec
+alias pccu 中國文化大學英國語文學系 <crgael@staff.pccu.edu.tw>, 中國文化大學語文中心 <crgalc@staff.pccu.edu.tw>, 中國文化大學語文中心 <crgatl@staff.pccu.edu.tw>
+alias ntue 國北教大兒英系主任 <the@tea.ntue.edu.tw>, 國北教大兒英系主任 <the@tea.ntue.edu.tw>
+# alias shu 世新大學英語學系 <kai@cc.shu.edu.tw>, http://www.shu.edu.tw
 alias ym 國立陽明大學通識教育中心 <cge@ym.edu.tw>
 alias tmue 臺北市立教育大學英語教學系主任 <lichung@tmue.edu.tw>, 臺北市立教育大學英語教學系 <english@tmue.edu.tw>
 alias scu 東吳大學外語學院 <foreign@scu.edu.tw>, 東吳大學英文系 <english@scu.edu.tw>, 東吳大學語言中心 <language@scu.edu.tw>, http://www.scu.edu.tw
@@ -36,7 +40,6 @@ alias thu 東海大學外國語文學系 <sims@thu.edu.tw>,  http://www.thu.edu.
 alias fju 輔仁大學英國語文學系 <engl1018@mails.fju.edu.tw>, 輔仁大學語言中心 <fjdp3000@mails.fju.edu.tw>, "English Dept., Fu Jen Univ." <D20@mail.fju.edu.tw>, "YP Yuan" <yuan@mail.fju.edu.tw>, http://www.fju.edu.tw
 alias cycu 中原大學應用外國語文學系 <shiouwen@cycu.edu.tw>, http://www.cycu.edu.tw
 alias tku 淡江大學英國語文學系 <ykhuang@mail.tku.edu.tw>, http://www.tku.edu.tw
-alias pccu 中國文化大學英國語文學系 <crgael@staff.pccu.edu.tw>, 中國文化大學語文中心 <crgalc@staff.pccu.edu.tw>, http://www.pccu.edu.tw
 # alias fcu 逢甲大學外國語文學系 <fmpeng@fcu.edu.tw>, 逢甲大學語言教學中心 <kmavicca@ms2.hinet.net>, http://www.fcu.edu.tw
 alias pu 靜宜大學英國語文學系 <clluo@pu.edu.tw>, http://www.pu.edu.tw
 alias cgu 長庚大學語文中心 <yang727@mail.cgu.edu.tw>, http://www.cgu.edu.tw
@@ -47,7 +50,6 @@ alias chu 中華大學外國語文學系 <hshshu@chu.edu.tw>, http://www.chu.edu
 alias dyu 大葉大學外語學院 <fl2005@mail.dyu.edu.tw>, http://www.dyu.edu.tw
 alias hfu 華梵大學外國語文學系 <lf@cc.hfu.edu.tw>, http://www.hfu.edu.tw
 alias isu 義守大學應用英語學系 <yrtsai@isu.edu.tw>, 義守大學應用英語學系 Jocelyn Tsai <cytsai@isu.edu.tw>, http://www.isu.edu.tw
-# alias shu 世新大學英語學系 <kai@cc.shu.edu.tw>, http://www.shu.edu.tw
 alias kmu 高雄醫學大學語言教學中心 <lc@kmu.edu.tw>, http://www.kmu.edu.tw
 alias nhu 南華大學語文教學中心 <shchen@mail.nhu.edu.tw>, http://www.nhu.edu.tw
 alias au 真理大學英美文學系 <linsh@email.au.edu.tw>, 真理大學應用英語學系 <au4284@mail1.mt.au.edu.tw>, http://www.au.edu.tw
