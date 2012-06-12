@@ -2,7 +2,7 @@
 
 # #!/bin/sh
 
-subject="Job application by Greg Matheson";
+subject="Job application by Greg Matheson (resent)";
 
 #for address in \
 #	"Greg_Matheson <gregoer@healthy..chinmin.tw>" \
@@ -36,5 +36,5 @@ Content-Type: text/plain; charset=\"UTF-8\"
 	error=$?;
 	echo -n $display $addresspart;
 	if [[ $error == 0 ]]; then echo " OK"; else echo " NOK"; fi;
-	sleep 45;
+	sleep 35;
 done
