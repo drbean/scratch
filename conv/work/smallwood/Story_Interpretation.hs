@@ -27,6 +27,7 @@ story_inflections = [
  ( "visitor", "customer" ),
  ( "visitors", "visitor" ),
  ( "comments", "comment" ),
+ ( "requests", "request" ),
  ( "names", "name" ),
  ( "looked", "look" ),
  ( "wear", "wore" ),
