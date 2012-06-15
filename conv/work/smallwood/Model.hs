@@ -133,7 +133,9 @@ have	= pred2 $ possessions ++ marriages ++ parenting ++ supervision
 		++ ( map (\x->(recipient x, theme x) ) giving )
 		++ ( map (\x->(agent x,B) ) working )
 		++ ( map (\x->(agent x, patient x) ) recruitment )
+		++ ( map (\x->(location x, patient x) ) recruitment )
 		++ ( map (\x->(agent x, location x) ) recruitment )
+		++ ( map (\x->(agent x, theme x) ) offenses )
 knowledge	= [(T,F),(T,A),(T,W)]
 acquaintances	= []
 know	= pred2 $ knowledge ++ acquaintances ++ map swap acquaintances
