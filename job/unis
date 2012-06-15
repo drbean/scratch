@@ -2,7 +2,7 @@
 alias pccu 中國文化大學英國語文學系 <crgael@staff.pccu.edu.tw>, 中國文化大學語文中心 <crgalc@staff.pccu.edu.tw>, 中國文化大學語文中心 <crgatl@staff.pccu.edu.tw>
 alias ntue 國北教大兒英系主任 <the@tea.ntue.edu.tw>
 alias shu 世新大學英語學系 <dteng@cc.shu.edu.tw>, 世新大學語言視聽教育中心 <language@cc.shu.edu.tw>
-alias ym 國立陽明大學通識教育中心 <cge@ym.edu.tw>
+alias ym 國立陽明大學通識教育中心 <cge@ym.edu.tw>, 國立陽明大學通識教育中心 <cge@ym.edu.tw>, 國立陽明大學通識教育中心 <jhuang@ym.edu.tw>
 alias tmue 臺北市立教育大學英語教學系主任 <lichung@tmue.edu.tw>, 臺北市立教育大學英語教學系 <english@tmue.edu.tw>
 alias scu 東吳大學外語學院 <foreign@scu.edu.tw>, 東吳大學英文系主任 <jmklassen@scu.edu.tw>, 東吳大學英文系 <english@scu.edu.tw>, 東吳大學語言中心主任 <colleen@scu.edu.tw>, 東吳大學語言中心 <language@scu.edu.tw>
 alias tmu 台北醫學大學通識教育中心主任 <winkey@tmu.edu.tw>
@@ -78,6 +78,7 @@ alias tsu 台灣首府大學應用英語學系主任 <maruko@mail.tsu.edu.tw>, �
 
 alias kmu 高雄醫學大學通識教育中心主任 <tihulu@kmu.edu.tw>, 高雄醫學大學語言教學中心 <lc@kmu.edu.tw>
 alias nknu 國立高雄師範大學英語學系主任 <shihsu@nknucc.nknu.edu.tw>, 國立高雄師範大學英語學系 <uc@nknucc.nknu.edu.tw>, 國立高雄師範大學語文教學中心 <s9177@nknucc.nknu.edu.tw>
+alias nsysu 國立中山大學外國語文學系主任 <mytseng@mail.nsysu.edu.tw>, 國立中山大學語言自學中心 <onlinelearning@mail.nsysu.edu.tw>, 國立中山大學英語文教學中心 <fltc@mail.nsysu.edu.tw>, 國立中山大學人事室 <ope@mail.nsysu.edu.tw>, http://www.nsysu.edu.tw
 
 Thursday
 
@@ -85,7 +86,6 @@ Thursday
 
 alias nqu 國立金門大學應用英語系主任 <timfan39@ms39.hinet.net>
 
-# alias nsysu 國立中山大學外國語文學系 <hsinya@mail.nsysu.edu.tw>, 國立中山大學外國語文訓練中心 <fltc@mail.nsysu.edu.tw>, 國立中山大學人事室 <ope@mail.nsysu.edu.tw>, http://www.nsysu.edu.tw
 alias ncyu 國立嘉義大學外國語言學系 <dfl@mail.ncyu.edu.tw>, 國立嘉義大學語言中心 <lgc@mail.ncyu.edu.tw>, http://www.ncyu.edu.tw
 alias nuk 國立高雄大學西洋語文學系 <kutawa@nuk.edu.tw>, http://www.nuk.edu.tw
 alias ndhu 國立東華大學英美語文學系 <cskwo@mail.ndhu.edu.tw>, http://www.ndhu.edu.tw
