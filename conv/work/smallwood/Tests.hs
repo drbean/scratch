@@ -7,6 +7,8 @@ sekuhara_test = [
 	"Christine angered Tia.",
 	"Tia offended the company.",
 	"Mr Batchelor angered Tia.",
+	"Some offensive comments angered Tia.",
+	"Mr Batchelor's comments angered Tia.",
 	"Mr Batchelor's offensive comments angered Tia.",
 	"The comments angered interviewees",
 	"Some comments angered interviewees",
@@ -23,15 +25,32 @@ biz_test = [
 	"Tia offended the company.",
 	"Mr Batchelor angered Tia.",
 	"The comments angered the visitor.",
+	"Some comments angered the visitor.",
 	"The comments angered visitors.",
-	"The comments angered customers",
+	"The comments angered interviewees.",
 	"The boss angered visitors.",
 	-- "The company's language angered visitors."
-	"The company had customers."
+	"The company had interviewees.",
+	"A company had interviewees."
 	]
 
 
-spell_test = [
+test_talk = [
+	"Mr Batchelor had an offensive request.",
+	"Mr Batchelor had an offensive.",
+	"Mr Batchelor had an offensive comment.",
+	"Mr Batchelor had  offensive comment.",
+	"Mr Batchelor had  offensive comments.",
+	"Mr Batchelor had  some offensive comments.",
+	"Mr Payne had  some offensive comments.",
+	"Christine's mother spoke to the boss.",
+	"Christine's mother spoke to the interviewer.",
+	"Christine's mother talked to the interviewer.",
+	"Tia talked to the interviewer.",
+	"Tia talked to an interviewer."
+	]
+
+test_spell = [
 	"Christine could spell names.",
 	"Mr Batchelor's daughter could spell names.",
 	"Mr Batchelor could spell names.",
@@ -50,33 +69,25 @@ spell_test = [
 	]
 
 test_text = [
-	"Mr Batchelor's daughter spoke English.",
-	-- "Mr Batchelor's daughter's brother spoke English.",
-	"Mr Batchelor's daughter had a brother and a brother spoke English.",
-	"Mr Batchelor's daughter knew English and the boss spoke English.",
-	"Mr Batchelor's daughter spoke English but the boss didn't speak English.",
+	"Tia's daughter had a brother and Tia's brother had a mother",
+	"Christine's mother spoke to the boss but the boss had an offensive request.",
 	"Mr Batchelor talked to the boss and the boss talked to Mr Batchelor's daughter.",
 	"Mr Batchelor talked to the boss and the boss talked to Tia \
 	\and Tia talked to Mr Batchelor.",
-	"Mr Batchelor looked back on her daughter's upbringing. \
-	\Mr Batchelor talked to the boss. \
-	\Mr Batchelor's daughter asked the boss about the Dominican Republic."
+	"Tia looked back on Christine's upbringing. \
+	\Christine talked to Tia. \
+	\Tia's daughter asked Tia about Rutgers University."
 	]
 
 test_possessives = [
-	"Tia's comments looked back.",
+	"Tia's daughter looked back.",
 	"Mr Batchelor's daughter looked back.",
 	"Tia's daughter looked back on Mr Batchelor's upbringing.",
 	"Tia's daughter looked back on Tia's upbringing.",
 	"Mr Batchelor's daughter looked back on Mr Batchelor's upbringing.",
-	-- "Did Mr Batchelor's father look back on Mr Batchelor's upbringing?",
-	-- "Did Mr Batchelor's brother look back on Mr Batchelor's upbringing?",
-	-- "Did Mr Batchelor's brother look at Tia's dress?",
-	"The boss's daughter offended Mr Batchelor's father.",
-	"Mr Batchelor's daughter  offended the boss's daughter.",
-	-- "Did Mr Batchelor's father look at the woman's dress?",
-	--"Did Mr Batchelor's brother look at the woman's dress?",
-	"Did Mr Batchelor's mother look at the woman's red dress?",
+	"The interviewee's dress offended Mr Batchelor.",
+	"The interviewer's comments  offended the interviewee.",
+	"Did Mr Batchelor look at the woman's red dress?",
 	"Did the sister of Mr Batchelor's daughter know English?",
 	"Did the father of Mr Batchelor's daughter look back on Mr Batchelor's daughter's upbringing?",
 	"Did the brother of Mr Batchelor's daughter look back on Mr Batchelor's daughter's upbringing?",
@@ -87,6 +98,7 @@ test_possessives = [
 	"Did the brother of Mr Batchelor's daughter know English?",
 	"Did the sister of Mr Batchelor's daughter know English?"
 	]
+
 haves = [
 	"Did Mr Batchelor have Mr Batchelor's father?",
 	"Did Mr Batchelor have Tia?",
@@ -359,6 +371,10 @@ ditransitive_tests = [
 	]
 
 wh_questions =[
+	"Who was the man that interviewed the woman?",
+	"What did the woman that the man interviewed study?",
+	"Who was a woman that wore a red dress?",
+	"Who was the woman that wore a red dress?",
 	"Who worked?",
 	"Who did Tia teach?",
 	"Who taught Tia?",
@@ -401,9 +417,18 @@ wh_questions =[
 	]
 
 relclauses = [
-	"A woman who taught Tia worked.",
-	"The woman who taught Tia worked.",
-	"Did the woman who taught Tia work?",
+	"The woman that a man interviewed studied business law.",
+	"The man that interviewed the woman offended the woman.",
+	"Mr Batchelor interviewed a woman who wore a red dress.",
+	"The man who taught business law was Mr Batchelor.",
+	"The man who taught Tia business law was Mr Payne.",
+	"The man who taught business law to Tia was Mr Payne.",
+	"The man who interviewed the woman was Mr Batchelor.",
+	"The woman who wore a red dress was Tia",
+	"Was the woman who wore a red dress Tia?",
+	"A man who taught Tia worked.",
+	"The man who taught Tia worked.",
+	"Did the man who taught Tia work?",
 	"Did every woman who taught Tia work?",
 	"The woman who gave the job to Tia worked.",
 	"Mr Batchelor divorced the man that she gave the job to.",
