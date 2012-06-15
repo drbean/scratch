@@ -44,6 +44,8 @@ object_names = [
 	[Cat "name"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "names"	"CN" [Thrd,Neutr,Pl] []],
 	[Cat "upbringing" "CN" [Thrd,Neutr,Sg] []],
+	[Cat "requests"	"CN" [Thrd,Neutr,Pl] []],
+	[Cat "request"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "comments"	"CN" [Thrd,Neutr,Pl] []],
 	[Cat "comment"	"CN" [Thrd,Neutr,Sg] []]
 	]
