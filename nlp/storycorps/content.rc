@@ -13,20 +13,33 @@ my $us = LoadFile 'storycorps/story_urls.yaml';
 
 my %c;
 
-for my $url ( @$us[0..2] ) {
+for my $url ( @$us ) {
 	$m->get( $url );
 	(my $speakers = $url) =~ s(^.*/([a-z0-9-]*)/$)($1);
 	my $page = $m->page_data;
 	$p->html( $page );
-	my $divs = $p->select('//div/p')->focus(25)->data;
-	my @transcript;
-	# my $get_trans = sub { push @transcript, $p->selectk if shift->{id} eq 'transcript' };
-	# $p->each( $get_trans );
+	my $divs = $p->select('div');
 
-	# $transcript =~ tr/\x{2013}\x{2019}\x{201c}\x{201d}/-'""/;
+	my @dI;
+	my $interator = sub { my $x = shift; return sub { $x++; return $x; } };
+	my $i = $interator->(-1);
+	my $find_trans = sub { 
+		my $div = shift;
+		my $n = $i->();
+		push @dI, $n if $div->{id} and $div->{id} eq 'transcript' };
 
-	$c{$speakers} = $divs;
+	$p->each( $find_trans );
+	$p->html( $page );
+	my @lines = $p->select('div')->focus($dI[0])->select('p')->data->flatten;
+	my @text = map {
+					$_->{text} =~ tr/\x{2013}\x{2018}\x{2019}\x{201c}\x{201d}/-''""/;
+					$_->{text} =~ s/\x{2026}/.../g;
+					$_->{text} =~ s/\x{2014}/--/g;
+					my @line = split /\240 /, $_->{text};
+					@line;
+				 } @lines;
+	$c{$speakers} = \@text;
 }
 
-# DumpFile 'content.yaml', \@u
+# DumpFile 'more_content.yaml', \%c
 # :dump content.rc;
