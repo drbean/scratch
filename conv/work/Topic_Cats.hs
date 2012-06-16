@@ -30,7 +30,12 @@ topic_class_names = [
 	[Cat "girl"    "CN" [Sg,Fem,Thrd]   []],
 	[Cat "girls"   "CN" [Pl,Fem,Thrd]   []],
 	[Cat "woman"   "CN" [Sg,Fem,Thrd]   []],
-	[Cat "women"   "CN" [Pl,Fem,Thrd]   []]
+	[Cat "women"   "CN" [Pl,Fem,Thrd]   []],
+
+	[Cat "worker"   "CN" [Sg,MascOrFem,Thrd]   []],
+	[Cat "workers"   "CN" [Pl,MascOrFem,Thrd]   []],
+	[Cat "administrative_assistant"   "CN" [Sg,MascOrFem,Thrd]   []],
+	[Cat "administrative_assistants"   "CN" [Pl,MascOrFem,Thrd]   []]
 	]
 
 intransitives = [

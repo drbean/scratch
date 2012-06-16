@@ -56,6 +56,7 @@ card	= pred1 [X]
 story	= pred1 [Y]
 
 older	= homeless
+secretary = black
 admin	= job
 donator	= man
 lotion	= gift

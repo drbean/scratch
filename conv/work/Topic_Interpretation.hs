@@ -7,6 +7,8 @@ import Model
 
 topic_objects, topic_relations :: [( String, [Entity] -> Bool)]
 topic_objects = [
+	( "worker",	\ [x] -> worker x	),
+	( "administrative_assistant",	\ [x] -> secretary x	),
 	( "daughter",	\ [x] -> daughter x	),
 	( "mother",	\ [x] -> isMother x	)
  ]
