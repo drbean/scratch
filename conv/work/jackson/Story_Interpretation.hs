@@ -17,6 +17,8 @@ story_objects = [
 	( "shelter",	\[x]	-> shelter x	),
 	( "gift",	\[x]	-> gift x	),
 	( "smell",	\[x]	-> smell x	),
+	( "daughter",	\ [x] -> daughter x	),
+	( "mother",	\ [x] -> isMother x	),
 
 
 
