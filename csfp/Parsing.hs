@@ -181,6 +181,12 @@ preproc ("physically":"disabled":xs)	= "physically-disabled" : preproc xs
 preproc ("traffic":"accident":xs)	= "traffic_accident" : preproc xs
 preproc ("brain":"damage":xs)	= "brain_damage" : preproc xs
 
+preproc ("the":"state":"of":"colorado":xs) = "the_state_of_colorado" : preproc xs
+preproc ("the":"gathering":"place":xs)  = "the_gathering_place" : preproc xs
+preproc ("ten":"dollar":"bill":xs)      = "ten_dollar_bill" : preproc xs
+preproc ("administrative":"assistant":xs) = "administrative_assistant" : preproc xs
+preproc ("birthday":"card":xs)  = "birthday_card" : preproc xs
+
 preproc ("because":"of":xs)	= "because_of" : preproc xs
 
 preproc ("an":xs)	= "a" : preproc xs
