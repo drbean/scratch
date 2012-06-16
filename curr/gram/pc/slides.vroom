@@ -1,0 +1,102 @@
+# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom::Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: Present continuous!
+indent: 5
+height: 18
+width: 69
+skip: 0
+
+# The following options are for Gvim usage.
+# vim: gvim
+# fuopt: maxhorz,maxvert
+# guioptions: egmLtT
+# guicursor: a:blinkon0-ver25-Cursor
+# guifont: Bitstream_Vera_Sans_Mono:h18
+
+---- center
+Present continuous
+(vs 'be going to')
+to refer to the future
+
+by Dr Bean (高來圭)
+
+(hint: press the spacebar)
+
+----
+== Program
+
+1. Grammar explanation
+2. Role play/simulation
+3. Diagramming
+4. Questions
+
+----
+== Tennis
+
++ 'I am going to play tennis tomorrow.'	: 70
++ 'I am playing tennis tomorrow.'	: 64
+
+----
+== Tomorrow and the weekend
+
+The weekend
+
++ "What are you going to do on the weekend?"	: 1,570
++ "What are you doing on the weekend?"	: 453
+
+Tomorrow
+
++ "What are you going to do tomorrow?"	: 7,030
++ "What are you doing tomorrow?"	: 17,700
+
+----
+== Differences in meaning
+
+"I'm going to do X": 
+	I'm revealing to you the plan, or intention
+	in my mind to do X.
+
+"I'm doing X":
+	I'm telling you about a process (on-going, in progress)
+	which has a certain time frame and in which I am involved
+
+----
+== Keywords for the difference
+
+"I'm going to do X": 
+	Private/personal, Sketchy, Non-negotiated
+
+"I'm doing X":
+	Public, Planned, Social
+
+----
+== Language to use with the present continuous form
+	"go through with it"
+	"get out of X-ing"
+
+----
+== The present continuous
+
+The 2 kinds of verb: 
+	state verbs: eg have, live, own, like, love
+	action verbs: eg get up, study, get married, retire
+		(happen instantaneously)
+
+The present (or past) continuous is like a slow motion camera or magnifying
+glass that allows us to turn an instantaneous action into a state or process
+with a time frame.
+
+"What time do you study?" "I study at 5am."
+"While I am studying, I listen to music."
+
+----
+== Getting married
+
+
