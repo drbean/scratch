@@ -2,6 +2,8 @@ module Story_Cats where
 
 import Parsing
 
+proper_names, object_names, story_verbs, story_aux, story_adjs, story_advs :: Lexset
+
 type WordConverted = ([String],String)
 
 multipart_names :: [WordConverted]
@@ -13,8 +15,6 @@ multipart_names = [
 	(["ten","dollar","bill"],	"ten_dollar_bill"),
 	(["birthday","card"],	"birthday_card")
 	]
-
-proper_names, object_names, story_verbs :: Lexset
 
 proper_names = [
 	[Cat "queen" "NP" [Thrd,Fem,Sg] []],
@@ -110,4 +110,5 @@ story_adjs = [
 	[Cat "white"	"ADJ" [] []]
 	]
 
-
+story_advs = [
+	]
