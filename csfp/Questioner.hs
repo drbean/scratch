@@ -51,7 +51,7 @@ main = do
 				"WH" -> transWH (Just p)
 				_ -> transTXT (Just p)
 			answer p = case label p of
-				"WH" -> ( nub . concat ) $ map (
+				"WH" -> ( unwords . nub ) $ map (
 					toupper . named ) $ evalW $ form p
 				"YN" -> yesorno $ eval $ form p
 				_ -> show $ eval $ form p
