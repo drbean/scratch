@@ -1,10 +1,10 @@
-module Cats where
+module Topic_Cats where
 
 import Parsing
 
-class_names, intransitives, transitives, ditransitives, topic_adjs :: Lexset
+topic_class_names, intransitives, topic_transitives :: Lexset
 
-class_names = [
+topic_class_names = [
 --noun and verb
 	[Cat "parent" "VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
 		Cat "parent" "CN" [Sg,MascOrFem,Thrd]   []],
@@ -15,6 +15,7 @@ class_names = [
 	[Cat "son"    "CN" [Sg,Masc,Thrd] []],
 	[Cat "sons"    "CN" [Pl,Masc,Thrd] []],
 	[Cat "brother"    "CN" [Sg,Masc,Thrd] []],
+	[Cat "sister"    "CN" [Sg,Fem,Thrd] []],
 	[Cat "husband"	"CN" [Thrd,Masc,Sg] []],
 	[Cat "thing"   "CN" [Sg,Neutr,Thrd] []],
 	[Cat "things"  "CN" [Pl,Neutr,Thrd] []],
@@ -43,7 +44,7 @@ intransitives = [
 		Cat "get_divorced"	"VP" [Infl] [Cat "_" "PP" [In] []]]
 	]
 
-transitives = [
+topic_transitives = [
 	[Cat "appreciated"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "appreciate"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "disappointed"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
@@ -107,79 +108,4 @@ transitives = [
 	[Cat "raised" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "raise" "VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
 	]
-
-ditransitives = [
-	[Cat "studied" "VP" [Tense] [Cat "_" "PP" [At] []],
-		Cat "studied" "VP" [Tense] [Cat "_" "PP" [In] []],
-		Cat "studied" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
-		Cat "studied" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-					Cat "_" "PP" [At] []],
-		Cat "studied" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-					Cat "_" "PP" [In] []]],
-	[Cat "study" "VP" [Infl] [Cat "_" "PP" [At] []],
-		Cat "study" "VP" [Infl] [Cat "_" "PP" [In] []],
-		Cat "study" "VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
-		Cat "study" "VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
-					Cat "_" "PP" [At] []],
-		Cat "study" "VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
-					Cat "_" "PP" [In] []]],
-	[Cat "worked" "VP" [Tense] [],
-		Cat "worked" "VP" [Tense] [Cat "_" "PP" [As] []],
-		Cat "worked" "VP" [Tense] [Cat "_" "PP" [At,Neutr] []],
-		Cat "worked" "VP" [Tense] [Cat "_" "PP" [On,Neutr] []],
-		Cat "worked" "VP" [Tense] [Cat "_" "PP" [In,Neutr] []],
-		Cat "worked" "VP" [Tense] [Cat "_" "PP" [For,Neutr] []]],
-	[Cat "work" "NP" [Sg,Neutr,Thrd]  [],
-		Cat "work" "CN" [Sg,Neutr,Thrd] [],
-		Cat "work" "VP" [Infl] [],
-		Cat "work" "VP" [Infl] [Cat "_" "PP" [As,Neutr] []],
-		Cat "work" "VP" [Infl] [Cat "_" "PP" [At,Neutr] []],
-		Cat "work" "VP" [Infl] [Cat "_" "PP" [On,Neutr] []],
-		Cat "work" "VP" [Infl] [Cat "_" "PP" [In,Neutr] []],
-		Cat "work" "VP" [Infl] [Cat "_" "PP" [For,Neutr] []]],
-	[Cat "gave" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [To]       []],
-			Cat "gave" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "NP" [AccOrDat]  []]],
-	[Cat "give" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [To]       []],
-			Cat "give" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "NP" [AccOrDat] []]],
-	[Cat "got" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
-			Cat "got" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [From]  []]],
-	[Cat "get" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] []],
-			Cat "get" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [From] []]],
-	[Cat "accepted" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
-			Cat "accepted" "VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [From]  []]],
-	[Cat "accept" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] []],
-			Cat "accept" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [From] []]],
-	[Cat "told" "VP" [Tense]  [Cat "_" "NP" [AccOrDat] []],
-			Cat "told" "VP" [Tense]  [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [To]       []],
-			Cat "told" "VP" [Tense]  [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "NP" [AccOrDat] []]],
-	[Cat "tell" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] []],
-			Cat "tell" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [To]       []],
-			Cat "tell" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "NP" [AccOrDat] []]]
-	]
-
-topic_adjs = [
-	[Cat "female"	"ADJ" [] []],
-	[Cat "male"	"ADJ" [] []],
-	[Cat "older"	"ADJ" [] []],
-	[Cat "dedicated"	"ADJ" [] []],
-	[Cat "disabled"	"ADJ" [] []],
-	[Cat "physically-disabled"	"ADJ" [] []],
-	[Cat "mentally-disabled"	"ADJ" [] []],
-	[Cat "developmentally-disabled"	"ADJ" [] []],
-	[Cat "mentally-handicapped"	"ADJ" [] []],
-	[Cat "mentally-retarded"	"ADJ" [] []]
-	]
-
 
