@@ -2,7 +2,6 @@ module Tests where
 
 import LogicalForm
 import Parsing
-import Story_Parsing
 
 test_text = [
 	"Dee's son spoke English.",
