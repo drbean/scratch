@@ -6,7 +6,6 @@ story_objects = [
 	( "rent",	\[x]	-> rent x	),
 	( "home",	\[x]	-> home x	),
 	( "unemployment",	\[x]	-> unemployment x	),
-	( "administrative_assistant",	\[x]	-> admin x	),
 	( "officewear",	\[x]	-> officewear x	),
 	( "donator",	\[x]	-> donator x	),
 	( "ten_dollar_bill",	\[x]	-> bill x	),
@@ -17,8 +16,6 @@ story_objects = [
 	( "shelter",	\[x]	-> shelter x	),
 	( "gift",	\[x]	-> gift x	),
 	( "smell",	\[x]	-> smell x	),
-	( "daughter",	\ [x] -> daughter x	),
-	( "mother",	\ [x] -> isMother x	),
 
 
 

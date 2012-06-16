@@ -50,7 +50,6 @@ object_names = [
 
 
 
-	[Cat "administrative_assistant"	"NP" [Thrd,MascOrFem,Sg] []],
 	[Cat "donator"	"NP" [Thrd,Masc,Sg] []],
 	[Cat "supervisor"	"CN" [Thrd,Fem,Sg] []],
 	[Cat "supervisors"	"CN" [Thrd,Fem,Pl] []],
