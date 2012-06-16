@@ -62,6 +62,7 @@ lotion	= gift
 
 namelist = map fst characters
 
+names = map swap characters
 
 male, female :: OnePlacePred
 
@@ -203,7 +204,8 @@ anger = offend
 
 
 gave	= pred3 giving
-got	= pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving
+got	= pred2 $ map (\x -> (recipient x, patient x) ) giving
+got_from	= pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving
 sold	= pred2 $ map (\x -> (agent x, theme x) ) selling
 
 told	= pred3 comms
