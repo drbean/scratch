@@ -6,8 +6,8 @@ use WWW::Mechanize;
 
 my $m = WWW::Mechanize->new;
 my $u = 'http://cdn.storycorps.org/listen/stories/';
-my @month = (1..5);
-my @y = (2012 .. 2012);
+my @month = (1..12);
+my @y = (2004 .. 2012);
 
 my (%p, @u);
 
