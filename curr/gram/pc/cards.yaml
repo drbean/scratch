@@ -132,13 +132,13 @@ pc:
           answer: Camilla
         - question: Diana has started divorce proceedings.
           answer  : True
-        - question: Charles wants the divorce.
-          answer  : True
+        - question: Charles doesn't want the divorce.
+          answer  : False
         - question: Elizabeth wants the two to divorce.
           answer  : False
         - question: Camilla is getting a divorce.
           answer  : True
         - question: Camilla alone is to blame for her divorce.
           answer  : False
-        - question: Diana blames Camilla for her own divorce.
+        - question: Diana blames Camilla for her (Diana's) divorce.
           answer  : True
