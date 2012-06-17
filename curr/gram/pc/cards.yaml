@@ -95,3 +95,50 @@ pc:
           answer  : False
         - question: Diana blames Camilla for her own divorce.
           answer  : True
+    2:
+      identifier: present continuous 2
+      A: You are divorcing Charles because he has been unfaithful to you. Elizabeth asks you not to go through with it, but you will not listen. You are appearing on TV tomorrow night. You are going to say Camilla is to blame.
+      B: You are not going to contest the divorce. You love Camilla. She's getting a divorce from her husband and you are going to marry her. You are happy now that Diana is divorcing you. You ask Camilla how her divorce is going.
+      C: You are unhappy Charles and Diana are getting divorced and Charles is going to marry Camilla. You agree that Camilla is responsible for the divorce. You tell Charles: "You are making yourself unacceptable as king."
+      D: You are married, but you are in love with Charles. You and your own husband are getting divorced, partly because of his relationship with another woman. You tell Charles, "I love you. I'm going to marry you."
+      quiz:
+        - question: A
+          option:
+            - Camilla
+            - Charles
+            - Diana
+            - Elizabeth
+          answer: Diana
+        - question: B
+          option:
+            - Camilla
+            - Charles
+            - Diana
+            - Elizabeth
+          answer: Charles
+        - question: C
+          option:
+            - Camilla
+            - Charles
+            - Diana
+            - Elizabeth
+          answer: Elizabeth
+        - question: D
+          option:
+            - Camilla
+            - Charles
+            - Diana
+            - Elizabeth
+          answer: Camilla
+        - question: Diana has started divorce proceedings.
+          answer  : True
+        - question: Charles wants the divorce.
+          answer  : True
+        - question: Elizabeth wants the two to divorce.
+          answer  : False
+        - question: Camilla is getting a divorce.
+          answer  : True
+        - question: Camilla alone is to blame for her divorce.
+          answer  : False
+        - question: Diana blames Camilla for her own divorce.
+          answer  : True
