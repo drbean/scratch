@@ -182,7 +182,8 @@ talk_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) communications
 
 
 gave	= pred3 giving
-got	= forgetful $ pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving
+got_from	= pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving
+got	= forgetful got_from
 sold	= pred2 $ map (\x -> (agent x, theme x) ) selling
 
 come_from	= pred2 $ map (\x->(agent x, origin x) ) movement
