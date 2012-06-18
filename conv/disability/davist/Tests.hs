@@ -16,6 +16,7 @@ yn_test = [
 	-- "Did Tom use a device to breathe?",
 	-- "Could Tom move by himself?",
 	-- "Could Tom move his body?",
+	"Did the woman who had a son remove the son's bowel movements?",
 	"Did Tom's mother remove Tom's bowel movements?",
 	"Could Tom have bowel movements?",
 	"Did Tom's father like water sports?",
