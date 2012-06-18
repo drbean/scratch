@@ -2,14 +2,6 @@ module Story_Cats where
 
 import Parsing
 
-type WordConverted = ([String],String)
-
-multipart_names :: [WordConverted]
-
-multipart_names = [
-	(["troop","409"],	"troop_409")
-	]
-
 proper_names, object_names, story_verbs :: Lexset
 
 proper_names = [
@@ -77,3 +69,5 @@ story_adjs = [
 	]
 
 
+story_advs = [
+	]
