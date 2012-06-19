@@ -563,7 +563,45 @@ davist:
 warm:
   jigsaw:
     0:
-      identifier: connell 0
+      identifier: warm 0
       A: You were 35, the same age as your husband David, when you had Mary. The doctor told you before she was born that she would have Down syndrome. Everyone told you to have an abortion. You and David however to have Mary.
       B: You and your wife, Joan already had one child who was born when you were 30. The older child was healthy. But Mary had Down syndrome. Older women are more likely to have children with Down syndrome than younger women. But you were the cause.
       C: You have Down syndrome. Your mother and father love you a lot. You have a sunny personality, even though you are not very intelligent. You know some other kids with Down syndrome who are not so fortunate as you.
+    1:
+      identifier: warm 1
+      A: You have Down syndrome. Your mother and father love you a lot. You have a sunny personality, even though you are not very intelligent. You know some other kids with Down syndrome who are not so fortunate as you.
+      B: You were 35, the same age as your husband David, when you had Mary. The doctor told you before she was born that she would have Down syndrome. Everyone told you to have an abortion. however, you and David decided to have Mary.
+      C: You and your wife, Joan already had one child who was born when you were 30. The older child was healthy. But Mary had Down syndrome. Older women are more likely to have children with Down syndrome than younger women. But you were the cause.
+      quiz:
+        - question: A
+          option:
+            - David
+            - Joan
+            - Mary
+          answer: Mary
+        - question: B
+          option:
+            - David
+            - Joan
+            - Mary
+          answer: Joan
+        - question: C
+          option:
+            - David
+            - Joan
+            - Mary
+          answer: David
+        - question: Mary has a good family and good personality.
+          answer  : True
+        - question: Joan didn't know Mary would have Down syndrome.
+          answer  : False
+        - question: If she had known, she would have had an abortion.
+          answer  : False
+        - question: Joan's age caused Mary to have Down syndrome.
+          answer  : False
+        - question: Mary has an older sister, who is healthy.
+          answer  : True
+        - question: Mary is very intelligent.
+          answer  : False
+        - question: David was the cause of Mary having Down syndrome.
+          answer  : True
