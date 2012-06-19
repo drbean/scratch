@@ -780,6 +780,44 @@ jackson:
           answer: True
         - question: Queen wants to live with Jennifer.
           answer: False
+    1:
+      identifier: jackson 1
+      A: Like Ann, You lost your job and your home. Your daughter wants you to move in with her, but instead you went to Debra, a worker at a day center for women who are homeless or poor. Debra said living with her daughter may not be the best solution.
+      B: You have a master's degree, but suffer from depression and lost your job and home. When you went to Debra, at the women's center for help, you had been living in your car for 2 months and had \$40 and half a tank of gas. Like Queen, Debra found temporary housing for you.
+      C: You help homeless women find housing. You helped Queen and Ann, both college graduates who lost their jobs and then their homes. You know Queen's daughter is willing to have her move in, but you don't think that Queen should have to do that.
+      quiz:
+        - question: A
+          option: 
+           - Ann
+           - Debra
+           - Queen
+          answer: Queen
+        - question: B
+          option:
+           - Ann
+           - Debra
+           - Queen
+          answer: Ann
+        - question: C
+          option:
+           - Ann
+           - Debra
+           - Queen
+          answer: Debra
+        - question: Ann, Queen were both older, homeless.
+          answer: True
+        - question: None of the three has work.
+          answer: False
+        - question: Debra's job is to find people housing.
+          answer: True
+        - question: Debra told Queen to live with her family.
+          answer: False
+        - question: Queen's daughter wants her to move in.
+          answer: True
+        - question: Queen wants to live with her family.
+          answer: False
+        - question: The housing Debra found is not permanent.
+          answer: True
   compcomp:
     0:
       identifier: jackson 0
