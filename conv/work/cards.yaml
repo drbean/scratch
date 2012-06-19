@@ -662,6 +662,44 @@ smallwood:
           answer: True
         - question: Christine is also a career woman.
           answer: True
+    1:
+      identifier: smallwood 1
+      A: Tia came for an interview at your company. You thought she was attractive. You wanted to look at her. You were the boss. You thought it was OK to ask her to stand up so you could look at her. You were surprised when she was offended. You were surprised it was sexual harassment.
+      B: It is the 1960's. You teach accountancy and business law. You have only one woman in your class. You tell her her life as a business woman will be living hell. You tell her you will give her a hard time. She is offended, but smiles. You were not sexual harassing her.
+      C: You studied finance in an all-male business school. The teacher, Mr Payne was mean and unfair to you, asking you the toughest questions. On graduation, at your first job interview, the interviewer, Mr Batchelor offends you by asking you to stand up so he can look at you.
+      quiz:
+        - question: A
+          option: 
+           - Batchelor
+           - Payne
+           - Tia
+          answer: Batchelor
+        - question: B
+          option:
+           - Batchelor
+           - Payne
+           - Tia
+          answer: Payne
+        - question: C
+          option:
+           - Batchelor
+           - Payne
+           - Tia
+          answer: Tia
+        - question: Payne taught Tia.
+          answer: True
+        - question: Tia's teacher was friendly.
+          answer: False
+        - question: Payne treated her equally with the men.
+          answer: False
+        - question: Tia was sexually harassed by Payne.
+          answer: False
+        - question: Tia welcomed Batchelor's attention.
+          answer: False
+        - question: Tia was sexually harassed by Batchelor.
+          answer: True
+        - question: Batchelor didn't intend to offend Tia.
+          answer: False
   compcomp:
     0:
       identifier: smallwood 0
