@@ -698,8 +698,8 @@ smallwood:
           answer: False
         - question: Tia was sexually harassed by Batchelor.
           answer: True
-        - question: Batchelor didn't intend to offend Tia.
-          answer: False
+        - question: Batchelor offended Tia unintentionally.
+          answer: True
   compcomp:
     0:
       identifier: smallwood 0
