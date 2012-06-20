@@ -591,13 +591,13 @@ warm:
             - Joan
             - Mary
           answer: David
-        - question: Mary has a good family and good personality.
+        - question: Mary doesn't have a good personality.
+          answer  : False
+        - question: Joan knew Mary would have problems.
           answer  : True
-        - question: Joan didn't know Mary would have Down syndrome.
+        - question: They had an abortion, but it didn't work.
           answer  : False
-        - question: If she had known, she would have had an abortion.
-          answer  : False
-        - question: Joan's age caused Mary to have Down syndrome.
+        - question: Joan's age caused Mary's problems.
           answer  : False
         - question: Mary has an older sister, who is healthy.
           answer  : True
@@ -605,3 +605,25 @@ warm:
           answer  : False
         - question: David was the cause of Mary having Down syndrome.
           answer  : True
+  compcomp:
+    0:
+      identifier: warm 0
+      White: |+
+        \begin{normalsize}Mary Warm\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Personality] Happy.
+        \end{description}
+
+      Black: |+
+        \begin{normalsize}Down syndrome\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Cause] An extra copy of a chromosome from the mother (usually) or father.
+        \item [Incidence] 4.6 children in 10,000. Found in all races.
+        \item [Characteristics] Intelligence, height, fingerprint, eyelid, limb, teeth, nose, heart, palm, tongue differences.
+        \item [Life expectancy] From 12 in 1912, to 60. The oldest person with Down syndrome is 87. Causes of death have changed from general health problems to Alzheimer's disease.
+        \item [Reproduction] Males cannot father children. Females less fertile, with difficulty bearing children. Half their offspring also with Down syndrome.
+        \item 
+        \end{description}
+
