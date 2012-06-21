@@ -571,33 +571,33 @@ warm:
       identifier: warm 1
       A: You have Down syndrome. Your mother and father love you a lot. You have a sunny personality, even though you are not very intelligent. You know some other kids with Down syndrome who are not so fortunate as you.
       B: You were 35, the same age as your husband David, when you had Mary. The doctor told you before she was born that she would have Down syndrome. Everyone told you to have an abortion. however, you and David decided to have Mary.
-      C: You and your wife, Joan already had one child who was born when you were 30. The older child was healthy. But Mary had Down syndrome. Older women are more likely to have children with Down syndrome than younger women. But you were the cause.
+      C: You and your wife, Julie already had one child who was born when you were 30. The older child was healthy. But Mary had Down syndrome. Older women are more likely to have children with Down syndrome than younger women. But you were the cause.
       quiz:
         - question: A
           option:
             - David
-            - Joan
+            - Julie
             - Mary
           answer: Mary
         - question: B
           option:
             - David
-            - Joan
+            - Julie
             - Mary
           answer: Joan
         - question: C
           option:
             - David
-            - Joan
+            - Julie
             - Mary
           answer: David
         - question: Mary doesn't have a good personality.
           answer  : False
-        - question: Joan knew Mary would have problems.
+        - question: Julie knew Mary would have problems.
           answer  : True
         - question: They had an abortion, but it didn't work.
           answer  : False
-        - question: Joan's age caused Mary's problems.
+        - question: Julie's age caused Mary's problems.
           answer  : False
         - question: Mary has an older sister, who is healthy.
           answer  : True
@@ -613,6 +613,8 @@ warm:
         \normalsize
         \begin{description}
         \item [Personality] Happy.
+        \item [Career] An assistant to the teacher in first grade classes.
+        \item [Interests] Free-form dance
         \end{description}
 
       Black: |+
