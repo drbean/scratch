@@ -122,8 +122,13 @@
 % }%
 \makeatother 
 
+\newcommand{\NameAndId}{%
+	\textbf{Name:} \rule{3.5cm}{0.2pt} \textbf{ID:} \rule{3.5cm}{0.2pt}\\
+}
 \newcommand\SpecifyBlock[1][]{%
 	\parbox[t][7.1cm][c]{9.8cm}{%
+\vspace{-0.8cm}
+\NameAndId
 	\begin{description}
   \setkeys{TFQuestions}{#1}%
 	\end{description}
@@ -139,7 +144,7 @@
 \end{minipage}
 }
 
-\newcommand{\myquestion}[4]{%
+\newcommand{\myquestion}[5]{%
 \begin{minipage}{7.5cm}
 \vspace{-0.1cm}
 \textbf{#1}
@@ -151,6 +156,8 @@
 \item [b] #3
 \vspace{-0.1cm}
 \item [c] #4
+\vspace{-0.1cm}
+\item [c] #5
 \vspace{-0.1cm}
 \end{description}
 \end{minipage}
@@ -171,7 +178,8 @@
 
 \begin{textblock}{8}(8,0)
 \textblocklabel{picture8,0}
-\begin{tiny}<TMPL>$identifier</TMPL>\end{tiny}\\\SpecifyBlock[
+\begin{tiny}<TMPL>$identifier</TMPL>\end{tiny}\\
+\SpecifyBlock[
 Question1 = {1. <TMPL>$q1</TMPL>},
 Question2 = {2. <TMPL>$q2</TMPL>},
 Question3 = {3. <TMPL>$q3</TMPL>},
