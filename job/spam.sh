@@ -31,7 +31,7 @@ From: Greg Matheson <drbean@freeshell.org>
 Subject: $subject
 	" -e "1i\\
 Content-Type: text/plain; charset=\"UTF-8\"
-	" < onepagecoverletter | /usr/sbin/sendmail -oem -oi $addresspart;
+	" < letter_bushiban | /usr/sbin/sendmail -oem -oi $addresspart;
 
 	error=$?;
 	echo -n $display $addresspart;
