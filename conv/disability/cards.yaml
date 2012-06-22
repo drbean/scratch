@@ -391,6 +391,44 @@ connell:
           answer  : False
         - question: Derek has mental problems.
           answer  : True
+    55:
+      identifier: connell 55
+      A: Your husband Richard is a scoutmaster. He has been a scoutmaster for much of his life. You help him. You are proud of Derek because he is dedicated and helps the other scouts.
+      B: You and your wife, Claudia, have a scout troop. You are proud that your scouts try to do what they can. The troop has become very important to you. You are especially proud of your Eagle Scout, Derek.
+      C: You can't think and speak very well. But you are very dedicated. You try very hard to work with your scoutmaster, Richard, and his wife, and help the other scouts. You are a lot older than many of them.
+      quiz:
+        - question: A
+          option:
+            - Claudia
+            - Derek
+            - Richard
+          answer: Claudia
+        - question: B
+          option:
+            - Claudia
+            - Derek
+            - Richard
+          answer: Richard
+        - question: C
+          option:
+            - Claudia
+            - Derek
+            - Richard
+          answer: Derek
+        - question: Richard is a scoutmaster.
+          answer  : True
+        - question: Derek is an Eagle Scout.
+          answer  : True
+        - question: Derek is one of the oldest in the troop.
+          answer  : True
+        - question: Claudia doesn't think Derek is good.
+          answer  : False
+        - question: Derek doesn't do well, but he does his best.
+          answer  : False
+        - question: Derek is in control of what the scouts do.
+          answer  : False
+        - question: Derek has mental problems.
+          answer  : True
 foreman:
   jigsaw:
     0:
@@ -570,7 +608,7 @@ warm:
     1:
       identifier: warm 1
       A: You have Down syndrome. Your mother and father love you a lot. You have a sunny personality, even though you are not very intelligent. You know some other kids with Down syndrome who are not so fortunate as you.
-      B: You were 35, the same age as your husband David, when you had Mary. The doctor told you before she was born that she would have Down syndrome. Everyone told you to have an abortion. however, you and David decided to have Mary.
+      B: You were 35, the same age as your husband David, when you had Mary. The doctor told you before she was born that she would have Down syndrome. Everyone told you to have an abortion. However, you and David decided to have Mary.
       C: You and your wife, Julie already had one child who was born when you were 30. The older child was healthy. But Mary had Down syndrome. Older women are more likely to have children with Down syndrome than younger women. But you were the cause.
       quiz:
         - question: A
@@ -612,9 +650,12 @@ warm:
         \begin{normalsize}Mary Warm\end{normalsize}
         \normalsize
         \begin{description}
-        \item [Personality] Happy.
-        \item [Career] An assistant to the teacher in first grade classes.
-        \item [Interests] Free-form dance
+        \item [Family] Mother: Julie, Father: David, Older sister: Anna
+        \item [Personality] Happy. Loves children.
+        \item [Education] In regular classes in high school. Volunteer helper with kids at YMCA 30 hours a week. In special program in college.
+        \item [Parents Hopes] To go to college, learn independence, develop an individual personality.
+        \item [Career Hope] To be an assistant to teachers of pre-school children.
+        \item [Activities] Free-form dance. Church group participation.
         \end{description}
 
       Black: |+
@@ -624,6 +665,6 @@ warm:
         \item [Characteristics] Intelligence, height, fingerprint, eyelid, limb, teeth, nose, heart, palm, tongue differences.
         \item [Life expectancy] From 12 in 1912, to 60. Oldest person with Down syndrome 87. Causes of death from general health problems to Alzheimer's disease.
         \item [Reproduction] Males cannot father children. Females less fertile, with difficulty bearing children. Half their offspring also with Down syndrome.
-        \item [Screening] Tests detect condition before birth. In West, 90\% of cases detected result in abortion.
+        \item [Screening] Tests to detect condition before birth. In West, 90\% of cases detected result in abortion.
         \end{description}
 
