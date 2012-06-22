@@ -113,13 +113,17 @@
 }%
 \makeatother 
 
+\newcommand{\NameAndId}{%
+	\textbf{Name:} \rule{2.5cm}{0.2pt} \textbf{ID:} \rule{2.5cm}{0.2pt}\\
+}
 \newcommand\SpecifyBlock[1][]{%
-	\parbox[t][12.17cm][c]{7.8cm}{%
+	\parbox[t][11.87cm][c]{7.8cm}{%
 	\begin{description}
   \setkeys{TFQuestions}{#1}%
 	\end{description}
+	\vspace{+0.25cm}
+	<TMPL>$rubric</TMPL>
 	}
-	\vspace{-0.2cm}
 }
 
 \newcommand{\myshortquestion}[5]{%
@@ -162,7 +166,10 @@
 
 \begin{textblock}{8}(0,0)
 \textblocklabel{picture0,0}
-\begin{tiny}<TMPL>$identifier</TMPL>\end{tiny}\\\SpecifyBlock[
+\begin{tiny}<TMPL>$identifier</TMPL>\end{tiny}\\
+\vspace{-0.2cm}
+\NameAndId
+\SpecifyBlock[
 Question1 = {1. <TMPL>$q1</TMPL>},
 Question2 = {2. <TMPL>$q2</TMPL>},
 Question3 = {3. <TMPL>$q3</TMPL>},
