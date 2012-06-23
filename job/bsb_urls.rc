@@ -11,5 +11,6 @@ for my $url ( @$urls ) {
 	$m->get($url);
 	my $name = $m->select('table tr')->focus(1)->scrape('td')->[0]->{text};
 	$m->get($url);
-	$as{$name} = $m->select( 'table tr' )->focus(16)->scrape('a href')->data->[0]->{text};
+	my $email = $m->select( 'table td')->focus(16)->scrape('a')->[0]->{href};
+	$as{$name} = $email if $email;
 }
