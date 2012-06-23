@@ -10,5 +10,5 @@ my @ls = $m->find_all_links;
 my @as;
 for my $l ( @ls ) {
 	$m->get($l);
-	push @as, $m->find_all_links( tag_regex => qr/a/i, url_regex => qr/href/i );
+	push @as, $m->find_all_links( tag => 'a', url_regex => qr/href/i );
 }
