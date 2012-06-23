@@ -1,0 +1,22 @@
+use WWW::Mechanize
+my $m = WWW::Mechanize->new
+#$m->get('http:
+my $url = 'http://bsb.edu.tw/afterschool/?usercity=42'
+$m->get($url)
+$m->follow_link(url_regex => qr/inquire_form/i)
+$m->content
+$_REPL->load_plugin('DumpHistory')
+:dump bsb_urls.rc
+use WWW::Mechanize
+my $m = WWW::Mechanize->new
+#$m->get('http:
+my $url = 'http://bsb.edu.tw/afterschool/?usercity=42'
+$m->get($url)
+$m->follow_link(url_regex => qr/inquire_form/i)
+$m->content
+$_REPL->load_plugin('DumpHistory')
+:dump bsb_urls.rc
+$m->follow_link(url_regex => qr/inquire_form/i)
+$m->get($url)
+my $url = 'http://.tw/afterschool/?usercity=42'
+:dump bsb_urls.rc
