@@ -1,15 +1,15 @@
 #!/usr/bin/perl
 
-use YAML qw/Dump DumpFile/;
-use WWW::Mechanize;
-my $m = WWW::Mechanize->new;
+use YAML qw/LoadFile Dump DumpFile/;
+use Scrappy;
+my $m = Scrappy->new;
 
-my $url = 'http://sac.nuu.edu.tw/~drbean/inquire_form.html';
-$m->get($url);
-my @ls = $m->find_all_links;
+my $urls = LoadFile 'inquire_form.yaml';
 
-my @as;
-for my $l ( @ls ) {
-	$m->get($l);
-	push @as, $m->find_all_links( tag => 'a', url_regex => qr/http:|mailto:/i );
+my %as;
+for my $url ( @$urls ) {
+	$m->get($url);
+	my $name = $m->select('table tr')->focus(1)->scrape('td')->[0]->{text};
+	$m->back;
+	$as{$name} = $m->select( 'a href' )->data->[0]->{text};
 }
