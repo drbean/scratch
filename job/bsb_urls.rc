@@ -10,6 +10,6 @@ my %as;
 for my $url ( @$urls ) {
 	$m->get($url);
 	my $name = $m->select('table tr')->focus(1)->scrape('td')->[0]->{text};
-	$m->back;
-	$as{$name} = $m->select( 'a href' )->data->[0]->{text};
+	$m->get($url);
+	$as{$name} = $m->select( 'table tr' )->focus(16)->scrape('a href')->data->[0]->{text};
 }
