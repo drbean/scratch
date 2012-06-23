@@ -1,22 +1,14 @@
-use WWW::Mechanize
-my $m = WWW::Mechanize->new
-#$m->get('http:
-my $url = 'http://bsb.edu.tw/afterschool/?usercity=42'
-$m->get($url)
-$m->follow_link(url_regex => qr/inquire_form/i)
-$m->content
-$_REPL->load_plugin('DumpHistory')
-:dump bsb_urls.rc
-use WWW::Mechanize
-my $m = WWW::Mechanize->new
-#$m->get('http:
-my $url = 'http://bsb.edu.tw/afterschool/?usercity=42'
-$m->get($url)
-$m->follow_link(url_regex => qr/inquire_form/i)
-$m->content
-$_REPL->load_plugin('DumpHistory')
-:dump bsb_urls.rc
-$m->follow_link(url_regex => qr/inquire_form/i)
-$m->get($url)
-my $url = 'http://.tw/afterschool/?usercity=42'
-:dump bsb_urls.rc
+#!/usr/bin/perl
+
+use WWW::Mechanize;
+my $m = WWW::Mechanize->new;
+
+my $url = 'http://sac.nuu.edu.tw/~drbean/inquire_form.html';
+$m->get($url);
+my @ls = $m->find_all_links;
+
+my @as;
+for my $l ( @ls ) {
+	$m->get($l);
+	push @as, $m->find_all_links( tag_regex => qr/a/i, url_regex => qr/href/i );
+}
