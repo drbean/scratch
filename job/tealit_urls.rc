@@ -21,9 +21,9 @@ for my $id ( @content_ids ) {
 	my $url = $details_url . $id;
 	my @hrefs;
 	if ($m->get($url)->page_loaded) {
-		$m->select('div div table')->focus(0)->select('tr td')->each(sub{
-			push @hrefs, shift->{text};
-		});
+		my @as;
+		my $s = try { $m->select('div div div div div form table') } catch { $m->select('div table') };
+		$s->select('td')->each( sub{ push @as, shift->{href}; } );
 	}
 	$as{$id} = \@hrefs;
 
