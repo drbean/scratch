@@ -2,15 +2,21 @@
 
 use YAML qw/LoadFile Dump DumpFile/;
 use Scrappy;
+use Try::Tiny;
+
 my $m = Scrappy->new;
 
-my $urls = LoadFile 'inquire_form.yaml';
+my $ad_list = 
+	'http://www.tealit.com/ad_categories.php?language=en&section_id=29&subsection_id=3&content_mode=2'
+	;
 
 my %as;
-for my $url ( @$urls ) {
-	$m->get($url);
-	my $name = $m->select('table tr')->focus(1)->scrape('td')->[0]->{text};
-	$m->get($url);
-	my $email = $m->select( 'table td')->focus(16)->scrape('a')->[0]->{href};
-	$as{$name} = $email if $email;
+$m->get($ad_list);
+my @ad_urls;
+my $details_url = try { $m->select('table tr')->focus(1)->scrape('td')->[0]->{text} }
+			catch { '' };
+$m->get($url);
+my $email = try { $m->select( 'table td')->focus(16)->scrape('a')->[0]->{href} }
+			catch { '' };
+$as{$name} = $email if $email;
 }
