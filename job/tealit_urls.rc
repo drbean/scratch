@@ -7,7 +7,7 @@ use Try::Tiny;
 my $m = Scrappy->new;
 
 my $details_url = 
-	'href="http://www.tealit.com/ad_categories.php?section_id=29&amp;subsection_id=3&amp;content_mode=3&amp;search_mode=5&amp;content_id='
+	'http://www.tealit.com/ad_categories.php?section_id=29&amp;subsection_id=3&amp;content_mode=3&amp;search_mode=5&amp;language=en&amp;content_id='
 	;
 
 my @content_ids = ( 22706, 23518, 23520, 23582, 23563, 23583, 23579, 23508, 23580, 23401,
@@ -18,14 +18,20 @@ my @content_ids = ( 22706, 23518, 23520, 23582, 23563, 23583, 23579, 23508, 2358
 my %as;
 my $n = 0;
 for my $id ( @content_ids ) {
-	my $url = $details_url . $id . '&amp;language=en"';
-	$m->get($url);
-	#my @ad_urls;
-	# my $name = $m->select('table tr')->page_data;
-	my $name = try { $m->select('tr')->data }
-				catch { 'No tables' };
+	my $url = $details_url . $id;
+	if ($m->get($url)->page_loaded) {
+		$m->select('table tr td')->each(sub{
+			print shift->{href}, "\n";
+		});
+	}
+
 	#$m->get($url);
-	#my $email = try { $m->select( 'table td')->focus(16)->scrape('a')->[0]->{href} }
-	#			catch { '' };
-	$as{$n++} = $name;
+	##my @ad_urls;
+	## my $name = $m->select('table tr')->page_data;
+	#my $name = try { $m->select('table')->data }
+	#			catch { 'No tables' };
+	##$m->get($url);
+	##my $email = try { $m->select( 'table td')->focus(16)->scrape('a')->[0]->{href} }
+	##			catch { '' };
+	#$as{$n++} = $name;
 }
