@@ -19,11 +19,13 @@ my %as;
 my $n = 0;
 for my $id ( @content_ids ) {
 	my $url = $details_url . $id;
+	my @hrefs;
 	if ($m->get($url)->page_loaded) {
 		$m->select('table tr td')->each(sub{
-			print shift->{href}, "\n";
+			push @hrefs, shift->{text};
 		});
 	}
+	$as{$n++} = \@hrefs;
 
 	#$m->get($url);
 	##my @ad_urls;
