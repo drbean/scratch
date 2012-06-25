@@ -1,10 +1,11 @@
 #!/usr/bin/perl
 
 use YAML qw/LoadFile Dump DumpFile/;
-use Scrappy;
+use WWW::Mechanize;
 use Try::Tiny;
 
-my $m = Scrappy->new;
+my $m = WWW::Mechanize->new( agent =>
+	'Mozilla/5.0 (X11; Linux i686; rv:12.0) Gecko/20100101 Firefox/12.0' );
 
 my $details_url = 
 	'http://www.tealit.com/ad_categories.php?section_id=29&amp;subsection_id=3&amp;content_mode=3&amp;search_mode=5&amp;language=en&amp;content_id='
@@ -20,10 +21,13 @@ my $n = 0;
 for my $id ( @content_ids ) {
 	my $url = $details_url . $id;
 	my @hrefs;
-	if ($m->get($url)->page_loaded) {
-		my @as;
-		my $s = try { $m->select('div div div div div form table') } catch { $m->select('div table') };
-		$s->select('td')->each( sub{ push @as, shift->{href}; } );
+	my @as;
+	$m->get($url);
+	if ($m->success) {
+		my @s = try { $m->find_all_links( url_regex => qr{mailto} ) } catch { undef };
+		for my $s ( @s ) {
+			push @hrefs, $s->url;
+		}
 	}
 	$as{$id} = \@hrefs;
 
