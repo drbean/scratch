@@ -31,7 +31,8 @@ From: Greg Matheson <drbean@freeshell.org>
 Subject: $subject
 	" -e "1i\\
 Content-Type: text/plain; charset=\"UTF-8\"
-	" < letter_bushiban | mutt  -e "set copy=yes" -a ../html/P6270001.JPG -a ../html/passport.jpg -a ../html/diploma.jpg
+	" < letter_bushiban > draft_file
+	mutt  -e "set copy=yes" -H draft_file -a ../html/P6270001.JPG -a ../html/passport.jpg -a ../html/diploma.jpg
 
 	error=$?;
 	echo -n $display $addresspart;
