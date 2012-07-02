@@ -31,7 +31,7 @@ From: Greg Matheson <drbean@freeshell.org>
 Subject: $subject
 	" -e "1i\\
 Content-Type: text/plain; charset=\"UTF-8\"
-	" < letter_bushiban | /usr/sbin/sendmail -oem -oi $addresspart;
+	" < letter_bushiban | mutt  -e "set copy=yes" -a ../html/P6270001.JPG -a ../html/passport.jpg -a ../html/diploma.jpg
 
 	error=$?;
 	echo -n $display $addresspart;
