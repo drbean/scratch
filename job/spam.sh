@@ -4,6 +4,8 @@
 
 subject="Job application by Greg Matheson";
 
+# ./spam.sh < addresses
+
 #for address in \
 #	"Greg_Matheson <gregoer@healthy..chinmin.tw>" \
 #	"Greg Matheson <greg@healthy.chinmin.edu.tw>" \
