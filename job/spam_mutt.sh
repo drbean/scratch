@@ -24,9 +24,9 @@ do
 	unset addressarray[$last];
 	display=${addressarray[*]};
 	sed -e "1i\\
-    $display $addresspart
+$display $addresspart
 
-	" < letter_bushiban | mutt  -e "set copy=yes" -e "my_hdr To: $display $addresspart" -e "my_hdr From: Greg Matheson <drbean@freeshell.org>" -e "my_hdr Subject: Job application by Greg Matheson" -a ../html/P6270001.JPG -a ../html/passport.jpg -a ../html/diploma.jpg
+	" < letter_bushiban | mutt  -e "set copy=yes" -e "my_hdr To: $display $addresspart" -e "my_hdr From: Greg Matheson <drbean@freeshell.org>" -s "Job application by Greg Matheson" -a ../html/P6270001.JPG -a ../html/passport.jpg -a ../html/diploma.jpg
 
 	error=$?;
 	echo -n $display $addresspart;
