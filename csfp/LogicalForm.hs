@@ -3,6 +3,7 @@ module LogicalForm where
 import Model
 import Interpretation
 import Story_Interpretation
+import Topic_Interpretation
 import Parsing
 import Cats
 import Story_Cats
@@ -36,6 +37,7 @@ parses str = let ws = lexer str
 type Interp a	= String -> [a] -> Bool
 
 inttuples = objects ++ relations ++ story_objects ++ story_relations
+			    ++ topic_objects ++ topic_relations
 
 int :: Interp Entity
 
