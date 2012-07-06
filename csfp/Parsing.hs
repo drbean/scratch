@@ -426,16 +426,19 @@ vpR = \us xs ->
              match subcatlist (map t2c xps) ]
 
 finVpR :: SPARSER Cat Cat
-finVpR = \us xs -> [(vp',vs,ys) | (vp,vs,ys) <- vpR us xs,
-                                   vp' <- assignT Tense vp ]
+finVpR = \us xs -> [(vp',vs,ys) | 
+		tag        <- [Cat "didn't" "AUX" [] [] ],
+		(vp,vs,ys) <- push tag vpR us xs,
+		vp'        <- assignT Tense vp ]
 
 auxVpR :: SPARSER Cat Cat
 auxVpR = \us xs -> 
      [ (Branch (Cat "_" "VP" (fs (t2c aux)) []) 
                [aux,inf'], ws, zs) | 
-                 (aux,vs,ys) <- prsAUX us xs,
-                 (inf,ws,zs) <- vpR vs ys,
-                  inf'       <- assignT Infl inf ] 
+		(aux,vs,ys) <- prsAUX us xs,
+		tag         <- [Cat (phon (t2c aux)) (catLabel (t2c aux)) (fs (t2c aux)) [] ],
+		(inf,ws,zs) <- push tag vpR vs ys,
+		inf'       <- assignT Infl inf ] 
 
 prsAUX :: SPARSER Cat Cat
 prsAUX = leafPS "AUX" <||> pop "AUX" 
