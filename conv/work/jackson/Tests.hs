@@ -420,19 +420,19 @@ comp_questions = [
 
 relclauses = [
 	"A woman who taught Debra worked.",
-	"The woman who taught Debra worked.",
+	"The woman who Debra helped worked.",
 	"Did the woman who taught Debra work?",
 	"Did every woman who taught Debra work?",
 	"The woman who gave the job to Debra worked.",
 	"Queen divorced the man that she gave the ten_dollar_bill to.",
-	"Who killed the man that helped the woman " 
-	 ++ "that had a boyfriend.",
+	"Who appreciated the man that helped the woman " 
+	 ++ "that was homeless.",
 	"A woman who raised Queen's daughter looked back.",
 	"The woman who raised Queen's daughter looked back.",
 	"Did the woman who raised Queen's daughter look back?",
 	"Did every person who raised Queen's daughter look back?",
 	"Did some person who raised Queen's daughter look back?",
-	"The woman who gave the ten_dollar_bills to Queen's daughter looked back.",
+	"The woman who gave the ten_dollar_bill to Queen's daughter looked back.",
 	"Queen married the man that gave the ten_dollar_bill to Queen's son.",
 	"The man that Queen married gave the ten_dollar_bill to Queen's son.",
 	"The man Queen married gave the ten_dollar_bill to Queen's son.",
