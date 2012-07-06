@@ -410,7 +410,6 @@ comp_questions = [
 	"Who was the woman?",
 	"Who was Tanya's supervisor?",
 	"Who was Ann's supervisor?",
-	"Who was Anne's supervisor?",
 	"Who was Queen's supervisor?",
 	"Who was the homeless woman that had a daughter?",
 	"Who was Queen's daughter?",
