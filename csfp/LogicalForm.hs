@@ -137,6 +137,15 @@ transS (Just (Branch (Cat _ "YN" _ _)
 transS (Just (Branch (Cat _ "YN" _ _) 
        [Leaf (Cat "didn't" "AUX" _ []),s])) = transS (Just s)
 
+transS (Just (Branch (Cat _ "YN" _ _) 
+       [Leaf (Cat "was"    "COP" _ []),s])) = transS (Just s)
+transS (Just (Branch (Cat _ "YN" _ _) 
+       [Leaf (Cat "wasn't" "COP" _ []),s])) = transS (Just s)
+transS (Just (Branch (Cat _ "YN" _ _) 
+       [Leaf (Cat "were"    "COP" _ []),s])) = transS (Just s)
+transS (Just (Branch (Cat _ "YN" _ _) 
+       [Leaf (Cat "weren't" "COP" _ []),s])) = transS (Just s)
+
 transS _ = NonProposition
 
 transNPorPP :: ParseTree Cat Cat -> 
