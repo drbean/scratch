@@ -402,7 +402,7 @@ wh_questions =[
 	"What did someone have?"
 	]
 
-comp_questions = [
+comp_wh_questions = [
 	"Who was homeless?",
 	"Who was older?",
 	"Who was a woman?",
@@ -417,6 +417,20 @@ comp_questions = [
 	"Who was Queen's daughter?"
 	]
 
+comp_questions = [
+	"Who was homeless?",
+	"Who was older?",
+	"Who was a woman?",
+	"Who were women?",
+	"Who was the woman?",
+	"Who was Tanya's supervisor?",
+	"Who was Ann's supervisor?",
+	"Who was Queen's supervisor?",
+	"Who was the homeless woman that had a daughter?",
+	"Who was Queen's daughter?",
+	"Who was Queen's supervisor?",
+	"Who was Queen's daughter?"
+	]
 
 relclauses = [
 	"A woman who taught Debra worked.",
