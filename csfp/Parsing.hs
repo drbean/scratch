@@ -297,6 +297,12 @@ conjR = \ us xs ->
 prsS :: SPARSER Cat Cat
 prsS = spR <||> cond1R <||> cond2R
 
+prsTAG :: SPARSER Cat Cat
+prsTAG = \us xs -> [ (Branch (Cat "_" "S" [] []) [s],ws,zs) |
+	(s,ws,zs) <- spR us xs,
+	not ( null $ pop "COP" ws zs),
+	not ( null $ pop "NP" ws zs) ]
+
 spR :: SPARSER Cat Cat 
 spR = \ us xs -> 
  [ (Branch (Cat "_" "S" (fs (t2c np)) []) [np',vp],ws,zs) | 
@@ -408,7 +414,8 @@ prsVP = finVpR <||> auxVpR <||> copR
 copR :: SPARSER Cat Cat
 copR = \us xs -> [(Branch (Cat "_" "VP" (fs (t2c cop)) []) [cop,Branch (Cat "_" "COMP" [] []) [comp]],ws,zs) |
 	(cop,vs,ys)  <- prsCOP us xs,
-	(comp,ws,zs)  <- prsCOMP vs ys
+	tag         <- [Cat (phon (t2c cop)) (catLabel (t2c cop)) (fs (t2c cop)) [] ],
+	(comp,ws,zs)  <- push tag prsCOMP vs ys
 		]
 
 prsCOP :: SPARSER Cat Cat
