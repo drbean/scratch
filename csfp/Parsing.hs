@@ -412,8 +412,8 @@ prsVP :: SPARSER Cat Cat
 prsVP = finVpR <||> auxVpR <||> copR
 
 copR :: SPARSER Cat Cat
-copR = \us xs -> [(Branch (Cat "_" "VP" (fs (t2c cop)) []) [cop,Branch (Cat "_" "COMP" [] []) [comp]],ws,zs) |
-	(cop,vs,ys)  <- prsCOP us xs,
+copR = \us xs -> [(Branch (Cat "_" "VP" (fs (t2c cop)) []) [cop,Branch (Cat "_" "COMP" [] []) [comp]],us++ws,zs) |
+	(cop,vs,ys)  <- prsCOP [] xs,
 	tag         <- [Cat (phon (t2c cop)) (catLabel (t2c cop)) (fs (t2c cop)) [] ],
 	(comp,ws,zs)  <- push tag prsCOMP vs ys
 		]
@@ -434,7 +434,7 @@ vpR = \us xs ->
 
 finVpR :: SPARSER Cat Cat
 finVpR = \us xs -> [(vp',vs,ys) | 
-		tag        <- [Cat "didn't" "AUX" [] [] ],
+		tag        <- [Cat "didn't" "TAG" [] [] ],
 		(vp,vs,ys) <- push tag vpR us xs,
 		vp'        <- assignT Tense vp ]
 
