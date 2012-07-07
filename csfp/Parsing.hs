@@ -406,7 +406,7 @@ prsVP :: SPARSER Cat Cat
 prsVP = finVpR <||> auxVpR <||> copR
 
 copR :: SPARSER Cat Cat
-copR = \us xs -> [(Branch (Cat "_" "VP" (fs (t2c vp)) []) [cop,Branch (Cat "_" "COMP" [] []) [comp]],ws,zs) |
+copR = \us xs -> [(Branch (Cat "_" "VP" (fs (t2c cop)) []) [cop,Branch (Cat "_" "COMP" [] []) [comp]],ws,zs) |
 	(cop,vs,ys)  <- prsCOP us xs,
 	(comp,ws,zs)  <- prsCOMP vs ys
 		]
