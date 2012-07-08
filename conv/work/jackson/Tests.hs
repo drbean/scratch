@@ -17,7 +17,7 @@ test_text = [
 	\Queen's daughter asked a supervisor about Queen."
 	]
 
-comp_test = [
+comp_test1 = [
 	"Queen was older.",
 	"Queen was homeless.",
 	"Queen was a mother.",
@@ -63,6 +63,26 @@ comp_test = [
 	"All supervisors were women.",
 	"All women were supervisors.",
 	"All homeless women were older."
+	]
+
+comp_test2 = [
+	"Some woman was homeless.",
+	"Some women was older.",
+	"Some women were older.",
+	"Debra was a woman.",
+	"Was Debra a woman?",
+	"Were some women supervisors?",
+	"Was Ann's supervisor a woman?",
+	"Debra was Tanya's supervisor.",
+	"Debra was Ann's supervisor.",
+	"Debra was Queen's supervisor.",
+	"Queen was a homeless woman who had a daughter.",
+	"Queen had a daughter.",
+	"Queen was a homeless woman.",
+	"Queen was a woman who was homeless.",
+	"Ann was Queen's daughter.",
+	"Queen was Ann's daughter.",
+	"Ann was Queen's supervisor."
 	]
 
 test_possessives = [
@@ -416,26 +436,6 @@ comp_wh_questions = [
 	"Who was Queen's daughter?",
 	"Who was Queen's supervisor?",
 	"Who was Queen's daughter?"
-	]
-
-comp_test = [
-	"Some woman was homeless.",
-	"Some women was older.",
-	"Some women were older.",
-	"Debra was a woman.",
-	"Was Debra a woman?",
-	"Were some women supervisors?",
-	"Was Ann's supervisor a woman?",
-	"Debra was Tanya's supervisor.",
-	"Debra was Ann's supervisor.",
-	"Debra was Queen's supervisor.",
-	"Queen was a homeless woman who had a daughter.",
-	"Queen had a daughter.",
-	"Queen was a homeless woman.",
-	"Queen was a woman who was homeless.",
-	"Ann was Queen's daughter.",
-	"Queen was Ann's daughter.",
-	"Ann was Queen's supervisor."
 	]
 
 relclauses = [
