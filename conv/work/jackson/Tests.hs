@@ -86,6 +86,7 @@ test_possessives = [
 	]
 haves = [
 	-- "The lotion had a beautiful smell",
+	"Did Queen have Jennifer?",
 	"Did Queen have Jennifer's father?",
 	"Did Queen have a husband?",
 	"Did Queen have a mother?",
@@ -417,19 +418,24 @@ comp_wh_questions = [
 	"Who was Queen's daughter?"
 	]
 
-comp_questions = [
-	"Who was homeless?",
-	"Who was older?",
-	"Who was a woman?",
-	"Who were women?",
-	"Who was the woman?",
-	"Who was Tanya's supervisor?",
-	"Who was Ann's supervisor?",
-	"Who was Queen's supervisor?",
-	"Who was the homeless woman that had a daughter?",
-	"Who was Queen's daughter?",
-	"Who was Queen's supervisor?",
-	"Who was Queen's daughter?"
+comp_test = [
+	"Some woman was homeless.",
+	"Some women was older.",
+	"Some women were older.",
+	"Debra was a woman.",
+	"Was Debra a woman?",
+	"Were some women supervisors?",
+	"Was Ann's supervisor a woman?",
+	"Debra was Tanya's supervisor.",
+	"Debra was Ann's supervisor.",
+	"Debra was Queen's supervisor.",
+	"Queen was a homeless woman who had a daughter.",
+	"Queen had a daughter.",
+	"Queen was a homeless woman.",
+	"Queen was a woman who was homeless.",
+	"Ann was Queen's daughter.",
+	"Queen was Ann's daughter.",
+	"Ann was Queen's supervisor."
 	]
 
 relclauses = [
@@ -457,6 +463,17 @@ relclauses = [
 	"Queen's daughter accepted the ten_dollar_bill that a man gave to Queen's son.",
 	"Who appreciated the man that gave the girl \
 	 \that worked for the State of Colorado a ten_dollar_bill?"
+	]
+
+
+
+relppR_test = [
+	"A woman with some lotion worked.",
+	"A woman with no lotion worked.",
+	"The woman with the ten_dollar_bill got a birthday card.",
+	"The woman with the ten_dollar_bill gave a birthday card to Jennifer.",
+	"A woman who didn't have a ten dollar bill gave a birthday card to Jennifer.",
+	"The woman with the ten_dollar_bill gave a birthday card."
 	]
 
 
