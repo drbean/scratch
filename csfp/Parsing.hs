@@ -401,7 +401,7 @@ adjcnposR = \us xs ->
 depCR :: SPARSER Cat Cat
 depCR = \us xs ->
   [ (Branch (Cat "_" "NP" (fs (t2c vp)) []) [ing,Branch (Cat "_" "VP" [] []) [vp,xps] ], (us++ss), ts) |
-      (vp,vs,ys)  <- leafPS "VP" us xs,
+      (vp,vs,ys)  <- leafPS "VP" us xs, -- TODO us? []?
       (ing,ws,zs)  <- prsGER vs ys,
       verb	<- [t2c vp],
       (xps,ss,ts)  <- vpR ws (verb:zs)
@@ -453,16 +453,16 @@ vpR = \us xs ->
              match subcatlist (map t2c xps) ]
 
 finVpR :: SPARSER Cat Cat
-finVpR = \us xs -> [(vp',vs,ys) | 
+finVpR = \us xs -> [(vp',us++vs,ys) | 
 		tag        <- [Cat "did" "TAG" [ Ng ] [] ],
-		(vp,vs,ys) <- push tag vpR us xs,
+		(vp,vs,ys) <- push tag vpR [] xs,
 		vp'        <- assignT Tense vp ]
 
 auxVpR :: SPARSER Cat Cat
 auxVpR = \us xs -> [ (Branch (Cat "_" "VP" (fs (t2c aux)) []) 
 	[aux,inf'], ws, zs) | 
 	(aux,vs,ys) <- prsAUX us xs,
-	tag        <- [Cat (phon (t2c aux)) (catLabel (t2c aux)) (balancefs aux) []],
+	tag        <- [Cat (phon (t2c aux)) "TAG" (balancefs aux) []],
 	(inf,ws,zs) <- push tag vpR vs ys,
 	inf'       <- assignT Infl inf ] 
 
