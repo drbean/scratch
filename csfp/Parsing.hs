@@ -252,11 +252,14 @@ match (x:xs) (y:ys) = catLabel x == catLabel y
 	      && agree x y 
 	      && match xs ys 
 
-balancePolarity :: ParseTree Cat Cat -> Feat
-balancePolarity t = case ( polarity $ fs $ t2c t ) of
-	[Pos] -> Ng
-	[Ng]  -> Pos
-	otherwise -> undefined
+balancefs :: ParseTree Cat Cat -> [ Feat ]
+balancefs t = 
+	let feats = fs $ t2c t
+		in map polarize feats
+		where polarize feat = case feat of
+			Pos -> Ng
+			Ng  -> Pos
+			otherwise -> feat
 
 
 type StackParser a b = [a] -> [a] -> [(b,[a],[a])]
@@ -431,8 +434,7 @@ prsVP = finVpR <||> auxVpR <||> copR
 copR :: SPARSER Cat Cat
 copR = \us xs -> [(Branch (Cat "_" "VP" (fs (t2c cop)) []) [cop,Branch (Cat "_" "COMP" [] []) [comp]],us++ws,zs) |
 	(cop,vs,ys)  <- prsCOP [] xs,
-	polarity     <- [ balancePolarity cop ],
-	tag         <- [Cat (phon (t2c cop)) "TAG" (fs (t2c cop)) [] ],
+	tag         <- [Cat (phon (t2c cop)) "TAG" (balancefs cop) [] ],
 	(comp,ws,zs)  <- push tag prsCOMP vs ys
 		]
 
@@ -457,13 +459,12 @@ finVpR = \us xs -> [(vp',vs,ys) |
 		vp'        <- assignT Tense vp ]
 
 auxVpR :: SPARSER Cat Cat
-auxVpR = \us xs -> 
-     [ (Branch (Cat "_" "VP" (fs (t2c aux)) []) 
-               [aux,inf'], ws, zs) | 
-		(aux,vs,ys) <- prsAUX us xs,
-		tag         <- [Cat (phon (t2c aux)) (catLabel (t2c aux)) (fs (t2c aux)) [] ],
-		(inf,ws,zs) <- push tag vpR vs ys,
-		inf'       <- assignT Infl inf ] 
+auxVpR = \us xs -> [ (Branch (Cat "_" "VP" (fs (t2c aux)) []) 
+	[aux,inf'], ws, zs) | 
+	(aux,vs,ys) <- prsAUX us xs,
+	tag        <- [Cat (phon (t2c aux)) (catLabel (t2c aux)) (balancefs aux) []],
+	(inf,ws,zs) <- push tag vpR vs ys,
+	inf'       <- assignT Infl inf ] 
 
 prsAUX :: SPARSER Cat Cat
 prsAUX = leafPS "AUX" <||> pop "AUX" 
