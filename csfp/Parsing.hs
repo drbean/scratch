@@ -33,6 +33,7 @@ data Feat = Masc  | Fem  | Neutr | MascOrFem
           | Nom   | AccOrDat
           | Pers  | Refl | Wh 
           | Tense | Infl
+	  | Pos   | Ng
           | About | After | Around | At | As | BecauseOf
 	  | In | Like | On | For | With
 	  | By | To | From | Through
@@ -41,7 +42,7 @@ data Feat = Masc  | Fem  | Neutr | MascOrFem
 
 type Agreement = [Feat]
 
-gender, number, person, gcase, pronType, tense, prepType 
+gender, number, person, gcase, pronType, tense, prepType, advType, posType, polarity
 		 :: Agreement -> Agreement
 gender   = filter (`elem` [MascOrFem,Masc,Fem,Neutr])
 number   = filter (`elem` [Sg,Pl])
@@ -52,6 +53,7 @@ tense    = filter (`elem` [Tense,Infl])
 prepType = filter (`elem` [About,After,As,At,BecauseOf,Like,In,On,For,With,By,To,From,Through]) 
 advType = filter (`elem` [Around,In,On]) 
 posType  = filter (`elem` [Of])
+polarity  = filter (`elem` [Pos,Ng])
 
 prune :: Agreement -> Agreement
 prune fs = if   (Masc `elem` fs || Fem `elem` fs)
@@ -298,10 +300,14 @@ prsS :: SPARSER Cat Cat
 prsS = spR <||> cond1R <||> cond2R
 
 prsTAG :: SPARSER Cat Cat
-prsTAG = \us xs -> [ (Branch (Cat "_" "S" [] []) [s],ws,zs) |
-	(s,ws,zs) <- spR us xs,
-	not ( null $ pop "COP" ws zs),
-	not ( null $ pop "NP" ws zs) ]
+prsTAG = \us xs -> [ (Branch (Cat "_" "S" [] []) [s],ps,qs) |
+	(s,vs,ys) <- spR us xs,
+	(tagV,ws,zs)	<- leafPS "COP" vs ys,
+	(cop,ps,qs)	<- pop "COP" ws zs,
+	agreeC tagV cop,
+	verbPolarity tagV cop == 2
+	]
+	where verbPolarity tagV cop = length ( polarity $ fs (t2c tagV) ++ fs (t2c cop) )
 
 spR :: SPARSER Cat Cat 
 spR = \ us xs -> 
