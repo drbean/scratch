@@ -300,10 +300,15 @@ prsS :: SPARSER Cat Cat
 prsS = spR <||> cond1R <||> cond2R
 
 prsTAG :: SPARSER Cat Cat
-prsTAG = \us xs -> [ (Branch (Cat "_" "S" [] []) [s],ps,qs) |
+prsTAG = \us xs -> [ (Branch (Cat "_" "S" [] []) [s,t],ws,zs) |
 	(s,vs,ys) <- spR us xs,
-	(tagV,ws,zs)	<- leafPS "COP" vs ys,
-	(cop,ps,qs)	<- pop "COP" ws zs,
+	(t,ws,zs) <- tagR vs ys ]
+
+tagR :: SPARSER Cat Cat 
+tagR = \ us xs -> 
+ [ (Branch (Cat "_" "TAG" (fs (t2c cop)) []) [tagV],ws,zs) | 
+	(tagV,vs,ys)	<- leafPS "TAG" us xs,
+	(cop,ws,zs)	<- pop "TAG" vs ys,
 	agreeC tagV cop,
 	verbPolarity tagV cop == 2
 	]
@@ -420,7 +425,7 @@ prsVP = finVpR <||> auxVpR <||> copR
 copR :: SPARSER Cat Cat
 copR = \us xs -> [(Branch (Cat "_" "VP" (fs (t2c cop)) []) [cop,Branch (Cat "_" "COMP" [] []) [comp]],us++ws,zs) |
 	(cop,vs,ys)  <- prsCOP [] xs,
-	tag         <- [Cat (phon (t2c cop)) (catLabel (t2c cop)) (fs (t2c cop)) [] ],
+	tag         <- [Cat (phon (t2c cop)) "TAG" (fs (t2c cop)) [] ],
 	(comp,ws,zs)  <- push tag prsCOMP vs ys
 		]
 
@@ -440,7 +445,7 @@ vpR = \us xs ->
 
 finVpR :: SPARSER Cat Cat
 finVpR = \us xs -> [(vp',vs,ys) | 
-		tag        <- [Cat "didn't" "TAG" [] [] ],
+		tag        <- [Cat "did" "TAG" [] [] ],
 		(vp,vs,ys) <- push tag vpR us xs,
 		vp'        <- assignT Tense vp ]
 
