@@ -84,15 +84,15 @@ determiners = [
 	]
 
 aux = [
-	[Cat "did"    "AUX" [] [], Cat "did"    "TAG" [] []],
-	[Cat "didn't" "AUX" [] [], Cat "didn't" "TAG" [] []]
+	[Cat "did"    "AUX" [Pos] [], Cat "did"    "TAG" [Pos] []],
+	[Cat "didn't" "AUX" [Ng] [], Cat "didn't" "TAG" [Ng] []]
 	]
 
 cops = [
-	[Cat "was"    "COP" [Sg] [], Cat "was"    "TAG" [Sg] []],
-	[Cat "wasn't"    "COP" [Sg] [], Cat "wasn't"    "TAG" [Sg] []],
-	[Cat "were"   "COP" [Pl] [], Cat "were"   "TAG" [Pl] []],
-	[Cat "weren't"   "COP" [Pl] [], Cat "weren't"   "TAG" [Pl] []]
+	[Cat "was"    "COP" [Pos,Sg] [], Cat "was"    "TAG" [Pos,Sg] []],
+	[Cat "wasn't"    "COP" [Ng,Sg] [], Cat "wasn't"    "TAG" [Ng,Sg] []],
+	[Cat "were"   "COP" [Pos,Pl] [], Cat "were"   "TAG" [Pos,Pl] []],
+	[Cat "weren't"   "COP" [Ng,Pl] [], Cat "weren't"   "TAG" [Ng,Pl] []]
 	]
 
 gerunds = [
