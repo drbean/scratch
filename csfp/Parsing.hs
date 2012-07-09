@@ -90,7 +90,9 @@ combine cat1 cat2 =
            length (gcase    feats) <= 1,
            length (pronType feats) <= 1,
            length (tense    feats) <= 1,
-           length (prepType feats) <= 1 ]
+           length (prepType feats) <= 1,
+           length (polarity feats) <= 1
+	   ]
   where 
     feats = (prune . nub . sort) (fs cat1 ++ fs cat2)
 
@@ -250,6 +252,12 @@ match (x:xs) (y:ys) = catLabel x == catLabel y
 	      && agree x y 
 	      && match xs ys 
 
+balancePolarity :: ParseTree Cat Cat -> Feat
+balancePolarity t = case ( polarity $ fs $ t2c t ) of
+	[Pos] -> Ng
+	[Ng]  -> Pos
+	otherwise -> undefined
+
 
 type StackParser a b = [a] -> [a] -> [(b,[a],[a])]
 
@@ -309,10 +317,8 @@ tagR = \ us xs ->
  [ (Branch (Cat "_" "TAG" (fs (t2c cop)) []) [tagV],ws,zs) | 
 	(tagV,vs,ys)	<- leafPS "TAG" us xs,
 	(cop,ws,zs)	<- pop "TAG" vs ys,
-	agreeC tagV cop,
-	verbPolarity tagV cop == 2
+	agreeC tagV cop
 	]
-	where verbPolarity tagV cop = length ( polarity $ fs (t2c tagV) ++ fs (t2c cop) )
 
 spR :: SPARSER Cat Cat 
 spR = \ us xs -> 
@@ -425,6 +431,7 @@ prsVP = finVpR <||> auxVpR <||> copR
 copR :: SPARSER Cat Cat
 copR = \us xs -> [(Branch (Cat "_" "VP" (fs (t2c cop)) []) [cop,Branch (Cat "_" "COMP" [] []) [comp]],us++ws,zs) |
 	(cop,vs,ys)  <- prsCOP [] xs,
+	polarity     <- [ balancePolarity cop ],
 	tag         <- [Cat (phon (t2c cop)) "TAG" (fs (t2c cop)) [] ],
 	(comp,ws,zs)  <- push tag prsCOMP vs ys
 		]
@@ -445,7 +452,7 @@ vpR = \us xs ->
 
 finVpR :: SPARSER Cat Cat
 finVpR = \us xs -> [(vp',vs,ys) | 
-		tag        <- [Cat "did" "TAG" [] [] ],
+		tag        <- [Cat "did" "TAG" [ Ng ] [] ],
 		(vp,vs,ys) <- push tag vpR us xs,
 		vp'        <- assignT Tense vp ]
 
