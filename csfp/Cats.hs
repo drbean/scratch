@@ -89,10 +89,10 @@ aux = [
 	]
 
 cops = [
-	[Cat "was"    "VP" [Pos,Sg] []],
-	[Cat "wasn't"    "VP" [Ng,Sg] []],
-	[Cat "were"   "VP" [Pos,Pl] []],
-	[Cat "weren't"   "VP" [Ng,Pl] []]
+	[Cat "was"    "AUX" [Pos,Sg] []],
+	[Cat "wasn't"    "AUX" [Ng,Sg] []],
+	[Cat "were"   "AUX" [Pos,Pl] []],
+	[Cat "weren't"   "AUX" [Ng,Pl] []]
 	]
 
 gerunds = [
