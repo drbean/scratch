@@ -462,9 +462,9 @@ vpR = \us xs ->
              match subcatlist (map t2c xps) ]
 
 finVpR :: SPARSER Cat Cat
-finVpR = \us xs -> [(vp',us++vs,ys) | 
+finVpR = \us xs -> [(vp',vs,ys) | 
 		tag        <- [Cat "didn't" "AUX" [ Ng ] [] ],
-		(vp,vs,ys) <- push tag vpR [] xs,
+		(vp,vs,ys) <- push tag vpR us xs,
 		vp'        <- assignT Tense vp ]
 
 auxVpR :: SPARSER Cat Cat
