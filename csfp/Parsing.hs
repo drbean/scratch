@@ -324,7 +324,9 @@ tagR = \ us xs ->
 	(tagS,ps,qs)	<- leafPS "NP" ws zs,
 	(subj,rs,ss)	<- pop "NP" ps qs,
 	agreeC tagS subj,
-	fs		<- combine (t2c tagV) (t2c tagS)
+	agreement	<- combine (t2c tagV) (t2c tagS),
+	fs		<- [polarity agreement ++ person agreement ++
+				number agreement ++ gender agreement]
 	]
 
 spR :: SPARSER Cat Cat 
@@ -461,7 +463,7 @@ vpR = \us xs ->
 
 finVpR :: SPARSER Cat Cat
 finVpR = \us xs -> [(vp',us++vs,ys) | 
-		tag        <- [Cat "did" "TAG" [ Ng ] [] ],
+		tag        <- [Cat "didn't" "AUX" [ Ng ] [] ],
 		(vp,vs,ys) <- push tag vpR [] xs,
 		vp'        <- assignT Tense vp ]
 
