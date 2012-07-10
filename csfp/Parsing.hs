@@ -317,13 +317,14 @@ prsTAG = \us xs -> [ (Branch (Cat "_" "S" [] []) [s,t],ws,zs) |
 
 tagR :: SPARSER Cat Cat 
 tagR = \ us xs -> 
- [ (Branch (Cat "_" "TAG" (fs (t2c cop)) []) [tagV,tagS],ws,zs) | 
+ [ (Branch (Cat "_" "TAG" fs []) [tagV,tagS],rs,ss) | 
 	(tagV,vs,ys)	<- leafPS "AUX" us xs,
 	(cop,ws,zs)	<- pop "AUX" vs ys,
 	agreeC tagV cop,
 	(tagS,ps,qs)	<- leafPS "NP" ws zs,
-	(subj,rs,ss)	<- pop "TAG" ps qs,
-	agreeC tagS subj
+	(subj,rs,ss)	<- pop "NP" ps qs,
+	agreeC tagS subj,
+	fs		<- combine (t2c tagV) (t2c tagS)
 	]
 
 spR :: SPARSER Cat Cat 
@@ -360,7 +361,7 @@ npR = \ us xs ->
       (cn,ws,zs)  <- prsCN vs ys,
        fs         <- combine (t2c det) (t2c cn),
       agreeC det cn,
-      tag         <- [Cat (phon (t2c cn)) (catLabel(t2c cn)) fs [] ],
+      tag         <- [Cat (phon (t2c cn)) "NP" fs [] ],
       ws'         <- case us of [] -> [tag:ws]; otherwise -> [ws]
       ]
 
