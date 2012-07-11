@@ -122,6 +122,9 @@ transTXT (Just (Branch (Cat _ "TXT" _ _) [s,conj,
 	s2@(Branch (Cat _ "TXT" _ _) _)])) =
 	    Conj [ transS (Just s), transTXT (Just s2) ]
 
+transTAG :: Maybe (ParseTree Cat Cat) -> LF
+transTAG (Just t) = transS (Just (subtree t [0]))
+
 transS :: Maybe (ParseTree Cat Cat) -> LF
 transS (Just Ep) = NonProposition
 transS (Just (Branch (Cat _ "S" _ _) [np,vp])) =
