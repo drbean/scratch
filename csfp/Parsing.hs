@@ -321,6 +321,7 @@ tagR = \ us xs ->
 	(tagV,vs,ys)	<- leafPS "AUX" us xs,
 	(cop,ws,zs)	<- pop "AUX" vs ys,
 	agreeC tagV cop,
+	and $ zipWith (==) (phon (t2c tagV)) (phon (t2c cop)),
 	(tagS,ps,qs)	<- leafPS "NP" ws zs,
 	(subj,rs,ss)	<- pop "NP" ps qs,
 	agreeC tagS subj,
