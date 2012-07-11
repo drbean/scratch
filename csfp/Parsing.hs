@@ -319,9 +319,9 @@ tagR :: SPARSER Cat Cat
 tagR = \ us xs -> 
  [ (Branch (Cat "_" "TAG" fs []) [tagV,tagS],rs,ss) | 
 	(tagV,vs,ys)	<- leafPS "AUX" us xs,
-	(cop,ws,zs)	<- pop "AUX" vs ys,
-	agreeC tagV cop,
-	and $ zipWith (==) (phon (t2c tagV)) (phon (t2c cop)),
+	(aux,ws,zs)	<- pop "AUX" vs ys,
+	agreeC tagV aux,
+	and $ zipWith (==) (phon (t2c tagV)) (phon (t2c aux)),
 	(tagS,ps,qs)	<- leafPS "NP" ws zs,
 	(subj,rs,ss)	<- pop "NP" ps qs,
 	agreeC tagS subj,
