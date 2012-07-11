@@ -452,8 +452,10 @@ prsVP = finVpR <||> auxVpR <||> copR
 copR :: SPARSER Cat Cat
 copR = \us xs -> [(Branch (Cat "_" "VP" (fs (t2c cop)) []) [cop,Branch (Cat "_" "COMP" [] []) [comp]],ws,zs) |
 	(cop,vs,ys)  <- prsCOP us xs,
-	tag         <- [Cat (phon (t2c cop)) (catLabel(t2c cop)) (balancefs cop) [] ],
-	(comp,ws,zs)  <- push tag prsCOMP vs ys
+	tag          <- [Cat (phon (t2c cop)) (catLabel(t2c cop)) (balancefs cop) [] ],
+	(comp,ws,zs) <- push tag prsCOMP vs ys,
+	subcatlist   <- [subcatList (t2c cop)],
+	match subcatlist [t2c comp]
 		]
 
 prsCOP :: SPARSER Cat Cat
