@@ -89,10 +89,18 @@ aux = [
 	]
 
 cops = [
-	[Cat "was"    "AUX" [Pos,Sg] []],
-	[Cat "wasn't"    "AUX" [Ng,Sg] []],
-	[Cat "were"   "AUX" [Pos,Pl] []],
-	[Cat "weren't"   "AUX" [Ng,Pl] []]
+	[Cat "was"     "AUX" [Pos,Sg] [Cat "_" "NP" [] []],
+	 Cat "was"     "AUX" [Pos,Sg] [Cat "_" "ADJ" [] []],
+	 Cat "was"     "AUX" [Pos,Sg] [Cat "_" "PP" [] []]],
+	[Cat "wasn't"  "AUX" [Ng,Sg] [Cat "_" "NP" [] []],
+	 Cat "wasn't"  "AUX" [Ng,Sg] [Cat "_" "ADJ" [] []],
+	 Cat "wasn't"  "AUX" [Ng,Sg] [Cat "_" "PP" [] []]],
+	[Cat "were"    "AUX" [Pos,Pl] [Cat "_" "NP" [] []],
+	 Cat "were"    "AUX" [Pos,Pl] [Cat "_" "ADJ" [] []],
+	 Cat "were"    "AUX" [Pos,Pl] [Cat "_" "PP" [] []]],
+	[Cat "weren't" "AUX" [Ng,Pl] [Cat "_" "NP" [] []],
+	 Cat "weren't" "AUX" [Ng,Pl] [Cat "_" "ADJ" [] []],
+	 Cat "weren't" "AUX" [Ng,Pl] [Cat "_" "PP" [] []]]
 	]
 
 gerunds = [
