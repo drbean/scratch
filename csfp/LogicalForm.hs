@@ -113,8 +113,6 @@ transTXT (Just Ep) = NonProposition
 transTXT s@(Just (Branch (Cat _ "S" _ _) _) ) = transS s
 transTXT (Just (Branch (Cat _ "YN" _ _) [Leaf (Cat _ "AUX" _ _),s] )) =
 	transS (Just s)
-transTXT (Just (Branch (Cat _ "YN" _ _) [Leaf (Cat _ "COP" _ _),s])) =
-	transS (Just s)
 transTXT (Just (Branch (Cat _ "TXT" _ _) [s,conj,
 	s2@(Branch (Cat _ "S" _ _) _)])) =
 	    Conj [ transS (Just s), transS (Just s2) ]
@@ -240,7 +238,7 @@ transPP (Branch (Cat _   "PP" _ _) [prep,np]) = transNP np
 transVP :: ParseTree Cat Cat -> Term -> LF
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [])]) = 
         \ t -> ( Rel name [t] )
-transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ []),
+transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat _ "AUX" _ []),
     Branch (Cat "_" "COMP" [] []) [comp]]) = case (catLabel (t2c comp)) of
 	"ADJ" -> \subj -> (Rel (phon (t2c comp)) [subj] )
 	"NP" -> \subj -> (transNP comp (\pred -> Eq pred subj ))
@@ -302,7 +300,7 @@ transWH (Just (Branch (Cat _ "WH" _ _ ) [wh,Branch (Cat _ "S" _ _)
 transWH (Just (Branch (Cat _ "WH" _ _ )
 	[wh,(Branch (Cat _ "YN" _ _) [_,(Branch
 		(Cat _ "S" _ _) [np,(Branch
-			(Cat _ "VP" _ _) [Leaf (Cat "#" "COP" _ _),(Branch
+			(Cat _ "VP" _ _) [Leaf (Cat "#" "AUX" _ _),(Branch
 				(Cat _ "COMP" _ _) [Leaf (Cat "#" "NP" _ _)])])])])])) =
 	WH (\x -> transNP np (\obj -> Eq obj x ) )
 
