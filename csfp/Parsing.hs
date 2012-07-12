@@ -358,8 +358,7 @@ prsNP :: SPARSER Cat Cat
 prsNP = leafNP <||> npR <||> npADJR <||> npposR <||> cnposR <||> adjcnposR <||> depCR  <||> pop "NP" 
 
 leafNP :: SPARSER Cat Cat
-leafNP = \ us xs -> 
-  [ (Branch (Cat "_" "NP" [] []) [np], (us++vs'), ys) | 
+leafNP = \ us xs -> [ (np,vs',ys) | 
       (np,vs,ys) <- leafPS "NP" [] xs,
       tag         <- [Cat (phon (t2c np)) (catLabel (t2c np)) (fs (t2c np)) [] ],
       vs'         <- case us of [] -> [tag:vs]; otherwise -> [vs]
