@@ -85,6 +85,24 @@ comp_test2 = [
 	"Ann was Queen's supervisor."
 	]
 
+tag_test = [
+	"Some woman was homeless, wasn't she.",
+	"Some women were older, wasn't she.",
+	"Some women were older, weren't they.",
+	"Debra was a woman with a daughter, wasn't she?",
+	"Was Debra a woman, wasn't she?",
+	"Queen was a homeless woman who was a mother, wasn't she?",
+	"Queen was a homeless woman who had a daughter, wasn't she?",
+	"The homeless woman who had a daughter was Queen, wasn't she?",
+	"Queen had a daughter, didn't she?",
+	"Queen had a daughter, wasn't she?",
+	"Queen had a mother, did she?",
+	"Queen did have a mother, didn't she?",
+	"Queen didn't have a mother, did she?",
+	"Queen didn't have a mother, did he?",
+	"Some women had supervisors, didn't they?"
+	]
+
 test_possessives = [
 	"Jennifer's mother looked back.",
 	"Queen's supervisor talked to the daughter.",
