@@ -446,7 +446,7 @@ prsCN :: SPARSER Cat Cat
 prsCN = leafPS "CN" <||> cnrelR <||> ofR
 
 prsVP :: SPARSER Cat Cat
-prsVP = finVpR' <||> finVpR <||> auxVpR <||> copR
+prsVP = finVpR' <||> finVpR <||> copR <||> auxVpR
 
 copR :: SPARSER Cat Cat
 copR = \us xs -> [(Branch (Cat "_" "VP" (fs (t2c cop)) []) [cop,Branch (Cat "_" "COMP" [] []) [comp]],ws,zs) |
