@@ -446,7 +446,7 @@ prsCN :: SPARSER Cat Cat
 prsCN = leafPS "CN" <||> cnrelR <||> ofR
 
 prsVP :: SPARSER Cat Cat
-prsVP = finVpR <||> auxVpR <||> copR
+prsVP = finVpR' <||> finVpR <||> auxVpR <||> copR
 
 copR :: SPARSER Cat Cat
 copR = \us xs -> [(Branch (Cat "_" "VP" (fs (t2c cop)) []) [cop,Branch (Cat "_" "COMP" [] []) [comp]],ws,zs) |
@@ -473,7 +473,12 @@ vpR = \us xs ->
 
 finVpR :: SPARSER Cat Cat
 finVpR = \us xs -> [(vp',vs,ys) | 
-		tag        <- [Cat "didn't" "AUX" [ Ng ] [] ],
+		(vp,vs,ys) <- vpR us xs,
+		vp'        <- assignT Tense vp ]
+
+finVpR' :: SPARSER Cat Cat
+finVpR' = \us xs -> [(vp',vs,ys) | 
+		tag        <- [Cat "didn't" "AUX" [] [] ],
 		(vp,vs,ys) <- push tag vpR us xs,
 		vp'        <- assignT Tense vp ]
 
