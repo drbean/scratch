@@ -478,7 +478,7 @@ finVpR = \us xs -> [(vp',vs,ys) |
 
 finVpR' :: SPARSER Cat Cat
 finVpR' = \us xs -> [(vp',vs,ys) | 
-		tag        <- [Cat "didn't" "AUX" [] [] ],
+		tag        <- [Cat "didn't" "AUX" [Ng] [] ],
 		(vp,vs,ys) <- push tag vpR us xs,
 		vp'        <- assignT Tense vp ]
 
