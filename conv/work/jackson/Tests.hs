@@ -77,6 +77,8 @@ comp_test2 = [
 	"Debra was Ann's supervisor.",
 	"Debra was Queen's supervisor.",
 	"Queen was a homeless woman who had a daughter.",
+	"Queen was a homeless woman with a daughter.",
+	"Queen was a homeless woman from a daughter.",
 	"Queen had a daughter.",
 	"Queen was a homeless woman.",
 	"Queen was a woman who was homeless.",
@@ -452,8 +454,7 @@ comp_wh_questions = [
 	"Who was Queen's supervisor?",
 	"Who was the homeless woman that had a daughter?",
 	"Who was Queen's daughter?",
-	"Who was Queen's supervisor?",
-	"Who was Queen's daughter?"
+	"Who was Queen's daughter's mother?"
 	]
 
 relclauses = [
