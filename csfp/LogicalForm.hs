@@ -32,6 +32,7 @@ parses str = let ws = lexer str
              in  [ s | catlist   <- collectCats lexicon ws, 
                        (s,[],[]) <- prsWH [] catlist  
                                  ++ prsYN  [] catlist   
+                                 ++ prsTXT  [] catlist   
                                  ++ prsTAG  [] catlist ]
 
 type Interp a	= String -> [a] -> Bool
