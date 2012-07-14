@@ -12,7 +12,7 @@ test_text = [
 	"Queen talked to a supervisor and a supervisor talked to Queen's daughter.",
 	"Queen talked to a supervisor and a supervisor talked to Debra \
 	\and Debra talked to Queen.",
-	"Queen looked back on her daughter's upbringing. \
+	"Queen looked back on a daughter's upbringing. \
 	\Queen talked to a supervisor. \
 	\Queen's daughter asked a supervisor about Queen."
 	]
