@@ -356,7 +356,7 @@ cond2R = \ us xs ->
          (s2,ws,zs)   <- prsS vs2 ys2 ]
 
 prsNP :: SPARSER Cat Cat 
-prsNP = leafNP' <||> leafNP <||> npR <||> npADJR <||> npposR <||> cnposR <||> adjcnposR <||> depCR  <||> pop "NP" 
+prsNP = leafNP' <||> leafNP <||> npR' <||> npR <||> npADJR <||> npADJR' <||> npposR <||> cnposR <||> adjcnposR <||> depCR  <||> pop "NP" 
 
 leafNP :: SPARSER Cat Cat
 leafNP = \ us xs -> [ (np,vs,ys) | 
@@ -399,6 +399,17 @@ npADJR = \ us xs ->
        fs         <- combine (t2c det) (t2c cn),
       agreeC det cn ]
 
+npADJR' :: SPARSER Cat Cat
+npADJR' = \ us xs -> 
+  [ (Branch (Cat "_" "NP" fs []) [det,adj,cn], (us++ss'), ts) | 
+      (det,vs,ys) <- prsDET [] xs,
+      (adj,ws,zs)  <- prsADJ vs ys,
+      (cn,ss,ts)  <- prsCN ws zs,
+      fs         <- combine (t2c det) (t2c cn),
+      agreeC det cn,
+      tag         <- [Cat (phon (t2c cn)) "NP" fs [] ],
+      ss'         <- case us of [] -> [tag:ss]; otherwise -> [ss]
+	]
 npposR :: SPARSER Cat Cat
 npposR = \us xs ->
   [ (Branch (Cat "_" "NP" [] []) [np,pos,cn], (us++ss), ts) |
