@@ -33,7 +33,8 @@ parses str = let ws = lexer str
                        (s,[],[]) <- prsWH [] catlist  
                                  ++ prsYN  [] catlist   
                                  ++ prsTXT  [] catlist   
-                                 ++ prsTAG  [] catlist ]
+                                 ++ prsTAG  [] catlist
+				 ]
 
 type Interp a	= String -> [a] -> Bool
 
