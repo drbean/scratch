@@ -472,7 +472,7 @@ prsCN :: SPARSER Cat Cat
 prsCN = leafPS "CN" <||> cnrelR <||> ofR
 
 prsVP :: SPARSER Cat Cat
-prsVP = copR' <||> finVpR' <||> finVpR <||> copR <||> auxVpR
+prsVP = finVpR' <||> finVpR <||> copR' <||> copR <||> auxVpR' <||> auxVpR
 
 copR :: SPARSER Cat Cat
 copR = \us xs -> [(Branch (Cat "_" "VP" (fs (t2c cop)) []) [cop,Branch (Cat "_" "COMP" [] []) [comp]],ws,zs) |
@@ -518,6 +518,13 @@ finVpR' = \us xs -> [(vp',vs,ys) |
 
 auxVpR :: SPARSER Cat Cat
 auxVpR = \us xs -> [ (Branch (Cat "_" "VP" (fs (t2c aux)) []) 
+	[aux,inf'], ws, zs) | 
+	(aux,vs,ys) <- prsAUX us xs,
+	(inf,ws,zs) <- vpR vs ys,
+	inf'       <- assignT Infl inf ] 
+
+auxVpR' :: SPARSER Cat Cat
+auxVpR' = \us xs -> [ (Branch (Cat "_" "VP" (fs (t2c aux)) []) 
 	[aux,inf'], ws, zs) | 
 	(aux,vs,ys) <- prsAUX us xs,
 	tag        <- [Cat (phon (t2c aux)) (catLabel(t2c aux)) (balancefs aux) []],
