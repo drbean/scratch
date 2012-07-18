@@ -333,13 +333,16 @@ tagR = \ us xs ->
 
 spR :: SPARSER Cat Cat 
 spR = \ us xs -> 
- [ (Branch (Cat "_" "S" (fs (t2c np)) []) [np',vp],ws,zs) | 
+ [ (Branch (Cat "_" "S" (fs (t2c np)) []) [np',vp],ws',zs) | 
        (np,vs,ys) <- prsNP us xs,
        np'       <- assignT Nom np, 
        tag        <- [Cat (phon (t2c np')) (catLabel (t2c np')) (fs (t2c np')) [] ],
        (vp,ws,zs) <- case vs of [] -> push tag prsVP vs ys; otherwise -> prsVP vs ys,
        agreeC np vp,
-       subcatList (t2c vp) == [] ]
+       subcatList (t2c vp) == [],
+       ws'        <- case (ws,zs) of
+	       ([Cat _ "AUX" _ _, Cat _ "NP" _ _],[]) -> [[]]; otherwise -> [ws]
+       ]
 
 cond1R :: SPARSER Cat Cat 
 cond1R = \ us xs -> 
