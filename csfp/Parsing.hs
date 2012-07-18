@@ -356,15 +356,10 @@ cond2R = \ us xs ->
          (s2,ws,zs)   <- prsS vs2 ys2 ]
 
 prsNP :: SPARSER Cat Cat 
-prsNP = leafNP' <||> leafNP <||> npR' <||> npR <||> npADJR <||> npADJR' <||> npposR <||> cnposR <||> adjcnposR <||> depCR  <||> pop "NP" 
+prsNP = leafNP <||> npR <||> npADJR <||> npposR <||> cnposR <||> adjcnposR <||> depCR  <||> pop "NP" 
 
 leafNP :: SPARSER Cat Cat
-leafNP = \ us xs -> [ (np,vs,ys) | 
-      (np,vs,ys) <- leafPS "NP" [] xs
-      ]
-
-leafNP' :: SPARSER Cat Cat
-leafNP' = \ us xs -> [ (np,vs',ys) | 
+leafNP = \ us xs -> [ (np,vs',ys) | 
       (np,vs,ys) <- leafPS "NP" [] xs,
       tag         <- [Cat (phon (t2c np)) (catLabel (t2c np)) (fs (t2c np)) [] ],
       vs'         <- case us of [] -> [tag:vs]; otherwise -> [vs]
@@ -372,15 +367,6 @@ leafNP' = \ us xs -> [ (np,vs',ys) |
 
 npR :: SPARSER Cat Cat
 npR = \ us xs -> 
-  [ (Branch (Cat "_" "NP" fs []) [det,cn], (us++ws), zs) | 
-      (det,vs,ys) <- prsDET [] xs,
-      (cn,ws,zs)  <- prsCN vs ys,
-       fs         <- combine (t2c det) (t2c cn),
-      agreeC det cn
-      ]
-
-npR' :: SPARSER Cat Cat
-npR' = \ us xs -> 
   [ (Branch (Cat "_" "NP" fs []) [det,cn], (us++ws'), zs) | 
       (det,vs,ys) <- prsDET [] xs,
       (cn,ws,zs)  <- prsCN vs ys,
@@ -399,17 +385,6 @@ npADJR = \ us xs ->
        fs         <- combine (t2c det) (t2c cn),
       agreeC det cn ]
 
-npADJR' :: SPARSER Cat Cat
-npADJR' = \ us xs -> 
-  [ (Branch (Cat "_" "NP" fs []) [det,adj,cn], (us++ss'), ts) | 
-      (det,vs,ys) <- prsDET [] xs,
-      (adj,ws,zs)  <- prsADJ vs ys,
-      (cn,ss,ts)  <- prsCN ws zs,
-      fs         <- combine (t2c det) (t2c cn),
-      agreeC det cn,
-      tag         <- [Cat (phon (t2c cn)) "NP" fs [] ],
-      ss'         <- case us of [] -> [tag:ss]; otherwise -> [ss]
-	]
 npposR :: SPARSER Cat Cat
 npposR = \us xs ->
   [ (Branch (Cat "_" "NP" [] []) [np,pos,cn], (us++ss), ts) |
@@ -472,18 +447,10 @@ prsCN :: SPARSER Cat Cat
 prsCN = leafPS "CN" <||> cnrelR <||> ofR
 
 prsVP :: SPARSER Cat Cat
-prsVP = finVpR' <||> finVpR <||> copR' <||> copR <||> auxVpR' <||> auxVpR
+prsVP = finVpR <||> auxVpR <||> copR
 
 copR :: SPARSER Cat Cat
 copR = \us xs -> [(Branch (Cat "_" "VP" (fs (t2c cop)) []) [cop,Branch (Cat "_" "COMP" [] []) [comp]],ws,zs) |
-	(cop,vs,ys)  <- prsCOP us xs,
-	(comp,ws,zs) <- prsCOMP vs ys,
-	subcatlist   <- [subcatList (t2c cop)],
-	match subcatlist [t2c comp]
-		]
-
-copR' :: SPARSER Cat Cat
-copR' = \us xs -> [(Branch (Cat "_" "VP" (fs (t2c cop)) []) [cop,Branch (Cat "_" "COMP" [] []) [comp]],ws,zs) |
 	(cop,vs,ys)  <- prsCOP us xs,
 	tag          <- [Cat (phon (t2c cop)) (catLabel(t2c cop)) (balancefs cop) [] ],
 	(comp,ws,zs) <- push tag prsCOMP vs ys,
@@ -507,24 +474,12 @@ vpR = \us xs ->
 
 finVpR :: SPARSER Cat Cat
 finVpR = \us xs -> [(vp',vs,ys) | 
-		(vp,vs,ys) <- vpR us xs,
-		vp'        <- assignT Tense vp ]
-
-finVpR' :: SPARSER Cat Cat
-finVpR' = \us xs -> [(vp',vs,ys) | 
-		tag        <- [Cat "didn't" "AUX" [Ng] [] ],
+		tag        <- [Cat "didn't" "AUX" [ Ng ] [] ],
 		(vp,vs,ys) <- push tag vpR us xs,
 		vp'        <- assignT Tense vp ]
 
 auxVpR :: SPARSER Cat Cat
 auxVpR = \us xs -> [ (Branch (Cat "_" "VP" (fs (t2c aux)) []) 
-	[aux,inf'], ws, zs) | 
-	(aux,vs,ys) <- prsAUX us xs,
-	(inf,ws,zs) <- vpR vs ys,
-	inf'       <- assignT Infl inf ] 
-
-auxVpR' :: SPARSER Cat Cat
-auxVpR' = \us xs -> [ (Branch (Cat "_" "VP" (fs (t2c aux)) []) 
 	[aux,inf'], ws, zs) | 
 	(aux,vs,ys) <- prsAUX us xs,
 	tag        <- [Cat (phon (t2c aux)) (catLabel(t2c aux)) (balancefs aux) []],
