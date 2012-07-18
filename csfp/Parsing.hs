@@ -336,7 +336,8 @@ spR = \ us xs ->
  [ (Branch (Cat "_" "S" (fs (t2c np)) []) [np',vp],ws,zs) | 
        (np,vs,ys) <- prsNP us xs,
        np'       <- assignT Nom np, 
-       (vp,ws,zs) <- prsVP vs ys, 
+       tag        <- [Cat (phon (t2c np')) (catLabel (t2c np')) (fs (t2c np')) [] ],
+       (vp,ws,zs) <- case vs of [] -> push tag prsVP vs ys; otherwise -> prsVP vs ys,
        agreeC np vp,
        subcatList (t2c vp) == [] ]
 
@@ -356,7 +357,7 @@ cond2R = \ us xs ->
          (s2,ws,zs)   <- prsS vs2 ys2 ]
 
 prsNP :: SPARSER Cat Cat 
-prsNP = leafNP <||> npR <||> npADJR <||> npposR <||> cnposR <||> adjcnposR <||> depCR  <||> pop "NP" 
+prsNP = leafPS "NP" <||> npR <||> npADJR <||> npposR <||> cnposR <||> adjcnposR <||> depCR  <||> pop "NP" 
 
 leafNP :: SPARSER Cat Cat
 leafNP = \ us xs -> [ (np,vs',ys) | 
@@ -367,13 +368,11 @@ leafNP = \ us xs -> [ (np,vs',ys) |
 
 npR :: SPARSER Cat Cat
 npR = \ us xs -> 
-  [ (Branch (Cat "_" "NP" fs []) [det,cn], (us++ws'), zs) | 
+  [ (Branch (Cat "_" "NP" fs []) [det,cn], (us++ws), zs) | 
       (det,vs,ys) <- prsDET [] xs,
       (cn,ws,zs)  <- prsCN vs ys,
        fs         <- combine (t2c det) (t2c cn),
-      agreeC det cn,
-      tag         <- [Cat (phon (t2c cn)) "NP" fs [] ],
-      ws'         <- case us of [] -> [tag:ws]; otherwise -> [ws]
+      agreeC det cn
       ]
 
 npADJR :: SPARSER Cat Cat
