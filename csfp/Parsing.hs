@@ -448,7 +448,8 @@ copR :: SPARSER Cat Cat
 copR = \us xs -> [(Branch (Cat "_" "VP" (fs (t2c cop)) []) [cop,Branch (Cat "_" "COMP" [] []) [comp]],ws,zs) |
 	(cop,vs,ys)  <- prsCOP us xs,
 	tag          <- [Cat (phon (t2c cop)) (catLabel(t2c cop)) (balancefs cop) [] ],
-	(comp,ws,zs) <- push tag prsCOMP vs ys,
+	(comp,ws,zs) <- case us of [Cat _ "NP" _ _] -> push tag prsCOMP vs ys;
+						otherwise -> prsCOMP vs ys,
 	subcatlist   <- [subcatList (t2c cop)],
 	match subcatlist [t2c comp]
 		]
@@ -479,6 +480,8 @@ auxVpR = \us xs -> [ (Branch (Cat "_" "VP" (fs (t2c aux)) [])
 	[aux,inf'], ws, zs) | 
 	(aux,vs,ys) <- prsAUX us xs,
 	tag        <- [Cat (phon (t2c aux)) (catLabel(t2c aux)) (balancefs aux) []],
+	(vp,vs,ys) <- case us of [Cat _ "NP" _ _] -> push tag vpR vs ys;
+						otherwise -> vpR vs ys,
 	(inf,ws,zs) <- push tag vpR vs ys,
 	inf'       <- assignT Infl inf ] 
 
