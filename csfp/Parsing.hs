@@ -554,7 +554,7 @@ prsYN = \us xs ->
        (s,ws,zs)   <- push gap prsS vs ys ]
 
 prsDUM :: SPARSER Cat Cat
-prsDUM = leafPS "COP" <||> prsAUX
+prsDUM = leafPS "AUX" <||> prsAUX
 
 isWH :: ParseTree Cat Cat -> Bool
 isWH tr = Wh `elem` (fs (t2c tr))
