@@ -477,12 +477,11 @@ finVpR = \us xs -> [(vp',vs,ys) |
 
 auxVpR :: SPARSER Cat Cat
 auxVpR = \us xs -> [ (Branch (Cat "_" "VP" (fs (t2c aux)) []) 
-	[aux,inf'], ps, qs) | 
+	[aux,inf'], ws, zs) | 
 	(aux,vs,ys) <- prsAUX us xs,
 	tag        <- [Cat (phon (t2c aux)) (catLabel(t2c aux)) (balancefs aux) []],
-	(vp,ws,zs) <- case us of [Cat _ "NP" _ _] -> push tag vpR vs ys;
+	(inf,ws,zs) <- case us of [Cat _ "NP" _ _] -> push tag vpR vs ys;
 						otherwise -> vpR vs ys,
-	(inf,ps,qs) <- push tag vpR vs ys,
 	inf'       <- assignT Infl inf ] 
 
 prsAUX :: SPARSER Cat Cat
@@ -553,12 +552,9 @@ relppR = \us xs ->
 prsYN :: SPARSER Cat Cat 
 prsYN = \us xs -> 
    [(Branch (Cat "_" "YN" [] []) [dum,s], ws,zs) | 
-       (dum,vs,ys) <- prsDUM us xs, 
+       (dum,vs,ys) <- prsAUX us xs, 
        gap         <- [Cat "#" (catLabel (t2c dum)) (fs (t2c dum)) [] ], 
        (s,ws,zs)   <- push gap prsS vs ys ]
-
-prsDUM :: SPARSER Cat Cat
-prsDUM = leafPS "AUX" <||> prsAUX
 
 isWH :: ParseTree Cat Cat -> Bool
 isWH tr = Wh `elem` (fs (t2c tr))
