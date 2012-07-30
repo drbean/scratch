@@ -80,6 +80,7 @@ comp_test2 = [
 	"Queen was a homeless woman who had a daughter.",
 	"Queen was a homeless woman with a daughter.",
 	"Queen was a homeless woman from a daughter.",
+	"The homeless woman who had a daughter was Queen.",
 	"Queen had a daughter.",
 	"Queen was a homeless woman.",
 	"Queen was a woman who was homeless.",
@@ -465,7 +466,7 @@ relclauses = [
 	"Did every woman who taught Debra work?",
 	"The woman who gave the job to Debra worked.",
 	"Queen divorced the man that she gave the ten_dollar_bill to.",
-	"Who appreciated the man that helped the woman " 
+	"Queen appreciated the man that helped the woman " 
 	 ++ "that was homeless.",
 	"A woman who raised Queen's daughter looked back.",
 	"The woman who raised Queen's daughter looked back.",
@@ -481,7 +482,7 @@ relclauses = [
 	"The man the job disappointed worked for the State of Colorado.",
 	"Queen's daughter accepted the ten_dollar_bill that a man gave Queen's son.",
 	"Queen's daughter accepted the ten_dollar_bill that a man gave to Queen's son.",
-	"Who appreciated the man that gave the girl \
+	"Queen appreciated the man that gave the girl \
 	 \that worked for the State of Colorado a ten_dollar_bill?"
 	]
 
