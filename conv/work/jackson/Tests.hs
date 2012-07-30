@@ -414,6 +414,7 @@ wh_questions =[
 	"Who did Queen give some job to?",
 	"Who looked back?",
 	"Which man looked back?",
+	"Who was Queen's daughter?",
 	"Who raised Queen's daughter?",
 	"Which woman raised Queen's daughter?",
 	"Who gave the birthday card to Queen's daughter?",
