@@ -3,7 +3,6 @@ A secret
 Cartoons     
 Cellphone  
 Cellphones  
-Childhood       
 Chinese New Year 
 Choosing a spouse     
 Clothes    
@@ -61,7 +60,7 @@ Night market food
 Novels     
 Plans         
 Religion   
-removal    
+Night markets
 Restaurants 
 Seasons       
 Seasons         
@@ -84,5 +83,3 @@ Watches
 Winter vacation 
 Winter vacation     
 Work        
-
-
