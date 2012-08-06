@@ -238,6 +238,28 @@ transPP (Leaf   (Cat "#" "PP" _ _)) = \ p -> p (Var 0)
 transPP (Branch (Cat _   "PP" _ _) [prep,np]) = transNP np
 
 transVP :: ParseTree Cat Cat -> Term -> LF
+transVP (Branch (Cat _ "VP" _ _) 
+                [Leaf (Cat "could" "AUX" _ []),vp]) = 
+        transVP vp 
+transVP (Branch (Cat _ "VP" _ _) 
+                [Leaf (Cat "couldn't" "AUX" _ []),vp]) = 
+        \x -> Neg ((transVP vp) x)
+transVP (Branch (Cat _ "VP" _ _) 
+                [Leaf (Cat "did" "AUX" _ []),vp]) = 
+        transVP vp 
+transVP (Branch (Cat _ "VP" _ _) 
+                [Leaf (Cat "didn't" "AUX" _ []),vp]) = 
+        \x -> Neg ((transVP vp) x)
+transVP (Branch vp@(Cat _ "VP" _ _) 
+                [Leaf (Cat "wasn't" "AUX" fs subcats),pred]) = 
+        \x -> Neg ((transVP (Branch vp [Leaf (Cat "was" "AUX" fs subcats),pred])) x)
+transVP (Branch vp@(Cat _ "VP" _ _) 
+                [Leaf (Cat "weren't" "AUX" fs subcats),pred]) = 
+        \x -> Neg ((transVP (Branch vp [Leaf (Cat "were" "AUX" fs subcats),pred])) x)
+transVP (Branch (Cat _ "VP" _ _) 
+                [Leaf (Cat "#" "AUX" _ []),vp]) = 
+        transVP vp 
+
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [])]) = 
         \ t -> ( Rel name [t] )
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat _ "AUX" _ _),
@@ -278,21 +300,6 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_,_]),obj1,obj2,obj3]
     (\ location   -> transNPorPP obj2
     (\ theme   -> transNPorPP obj3
      (\ recipient -> Rel name [agent,location,theme,recipient])))
-transVP (Branch (Cat _ "VP" _ _) 
-                [Leaf (Cat "could" "AUX" _ []),vp]) = 
-        transVP vp 
-transVP (Branch (Cat _ "VP" _ _) 
-                [Leaf (Cat "couldn't" "AUX" _ []),vp]) = 
-        \x -> Neg ((transVP vp) x)
-transVP (Branch (Cat _ "VP" _ _) 
-                [Leaf (Cat "did" "AUX" _ []),vp]) = 
-        transVP vp 
-transVP (Branch (Cat _ "VP" _ _) 
-                [Leaf (Cat "didn't" "AUX" _ []),vp]) = 
-        \x -> Neg ((transVP vp) x)
-transVP (Branch (Cat _ "VP" _ _) 
-                [Leaf (Cat "#" "AUX" _ []),vp]) = 
-        transVP vp 
 
 transWH :: Maybe (ParseTree Cat Cat) -> LF
 transWH (Just (Branch (Cat _ "WH" _ _ ) [wh,Branch (Cat _ "S" _ _)
