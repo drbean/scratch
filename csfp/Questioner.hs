@@ -15,6 +15,8 @@ takeCourse _ "WH" = "WH"
 takeCourse "WH" _ = "WH"
 takeCourse _ "YN" = "YN"
 takeCourse "YN" _ = "YN"
+takeCourse _ "Tag"  = "Tag"
+takeCourse "Tag" _  = "Tag"
 takeCourse _ "S"  = "S"
 takeCourse "S" _  = "S"
 takeCourse "Unparseable" _  = "Unparseable"
@@ -46,14 +48,18 @@ main = do
 	let labelFormAnswers =
 		map (\p -> (label p,form p,answer p)) parselist where
 			label Ep = "Unparseable"
+			label p | catLabel ( t2c $ subtree p [1] ) == "TAG" = "Tag"
 			label p  = catLabel $ t2c p
 			form p = case label p of
 				"WH" -> transWH (Just p)
+				"YN" -> transTXT (Just p)
+				"Tag" -> transTAG (Just p)
 				_ -> transTXT (Just p)
 			answer p = case label p of
 				"WH" -> ( unwords . nub ) $ map (
 					toupper . named ) $ evalW $ form p
 				"YN" -> yesorno $ eval $ form p
+				"Tag" -> yesorno $ eval $ form p
 				_ -> show $ eval $ form p
 	putStrLn $ foldl takeCourse "Unparseable" $ map (\(l,f,a)->l)
 		labelFormAnswers
