@@ -90,6 +90,7 @@ comp_test2 = [
 	]
 
 tag_test = [
+	"Queen cried, didn't she.",
 	"Some woman was homeless, wasn't she.",
 	"Some women were older, wasn't she.",
 	"Some women were older, weren't they.",
@@ -105,6 +106,25 @@ tag_test = [
 	"Queen didn't have a mother, did she?",
 	"Queen didn't have a mother, did he?",
 	"Some women had counselors, didn't they?"
+	]
+
+neg_tag_test = [
+	"Queen didn't cry, did she.",
+	"Some woman wasn't homeless, was she.",
+	"Some women weren't older, was she.",
+	"Some women weren't older, were they.",
+	"Debra wasn't a woman with a daughter, was she?",
+	"Wasn't Debra a woman, was she?",
+	"Queen wasn't a homeless woman who was a mother, was she?",
+	"Queen wasn't a homeless woman who had a daughter, was she?",
+	"The homeless woman who had a daughter wasn't Queen, was she?",
+	"Queen didn't have a daughter, did she?",
+	"Queen didn't have a daughter, was she?",
+	"Queen didn't have a mother, did she?",
+	"Queen did have a mother, didn't she?",
+	"Queen did have a mother, did she?",
+	"Queen did have a mother, did he?",
+	"Some women didn't have counselors, did they?"
 	]
 
 test_possessives = [
