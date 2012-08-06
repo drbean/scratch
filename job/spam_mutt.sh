@@ -2,7 +2,7 @@
 
 # #!/bin/sh
 
-subject="Job application by Greg Matheson";
+subject="Part-time job inquiry by Greg Matheson";
 
 #for address in \
 #	"Greg_Matheson <gregoer@healthy..chinmin.tw>" \
@@ -26,7 +26,7 @@ do
 	sed -e "1i\\
 $display $addresspart
 
-	" < letter_bushiban | mutt  -e "set copy=yes" -e "my_hdr To: $display $addresspart" -e "my_hdr From: Greg Matheson <drbean@freeshell.org>" -s "Job application by Greg Matheson" -a ../html/P6270001.JPG -a ../html/passport.jpg -a ../html/diploma.jpg
+	" < parttime_coverletter | mutt  -e "set copy=yes" -e "my_hdr To: $display $addresspart" -e "my_hdr From: Greg Matheson <drbean@freeshell.org>" -s "Part-time job inquiry by Greg Matheson" -a ../html/P6270001.JPG
 
 	error=$?;
 	echo -n $display $addresspart;
