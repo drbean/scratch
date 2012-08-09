@@ -553,7 +553,7 @@ prsYN :: SPARSER Cat Cat
 prsYN = \us xs -> 
    [(Branch (Cat "_" "YN" [] []) [dum,s], ws,zs) | 
        (dum,vs,ys) <- prsAUX us xs, 
-       gap         <- [Cat "#" (catLabel (t2c dum)) (fs (t2c dum)) [] ], 
+       gap         <- [Cat "#" (catLabel (t2c dum)) (fs (t2c dum)) (subcatList (t2c dum)) ], 
        (s,ws,zs)   <- push gap prsS vs ys ]
 
 isWH :: ParseTree Cat Cat -> Bool
