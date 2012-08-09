@@ -6,6 +6,8 @@ use IO::All;
 use YAML qw/LoadFile DumpFile/;
 use Cwd;
 
+use List::Util qw/sum/;
+
 $_REPL->load_plugin('DumpHistory');
 
 (my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
@@ -17,5 +19,9 @@ my $c = Compcomp->new({ league => $l });
 my %m = map { $_->{id} => $_ } @{ $l->members };
 my $approach = $l->approach;
 
-my  %g2 = map { my $p = $_; $_ =>  5 * (sum ( map { sum values %{ $n->{$p}->{$_} } } keys %{$n->{$p}} ) ) / 27 } keys %m;
-DumpFile 'exam/2/newsscores.yaml', \%g1;
+my $n = LoadFile 'exam/3/newsresponse.yaml';
+
+my  %g2 = map { my $p = $_; $_ =>  5 * (sum (
+	map { sum values %{ $n->{$p}->{$_} } } keys %{$n->{$p}} ) ) / 27
+		} keys %m;
+# DumpFile 'exam/2/newsscores.yaml', \%g1;
