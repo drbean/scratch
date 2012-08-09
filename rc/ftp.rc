@@ -1,0 +1,25 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use IO::All;
+use YAML qw/LoadFile DumpFile/;
+use Cwd; use File::Basename;
+
+$_REPL->load_plugin('DumpHistory');
+
+use Net::Netrc;
+use Net::FTP;
+
+my $web = Net::Netrc->lookup('web.nuu.edu.tw');
+my ($user, $passwd, $account) = $web->lpa;
+my $ftp = Net::FTP->new('web.nuu.edu.tw');
+$ftp->login( $user, $passwd );
+$ftp->binary;
+$ftp->ls;
+
+# $ftp->delete($_) for map( "00$_.html", (6..9)), map "01$_.html", (6..9);
+# $ftp->ls('fedora');
+# $ftp->rmdir('fedora');
+# $ftp->ls('fedora');
+# $ftp->ls;
