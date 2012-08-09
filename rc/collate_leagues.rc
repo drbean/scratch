@@ -20,7 +20,7 @@ my $c = Compcomp->new({ league => $l });
 my %m = map { $_->{id} => $_ } @{ $l->members };
 
 my $approach = $l->approach;
-my ($t, $z) = LoadFile 'homework/18.yaml';
+my ($t, $z) = LoadFile 'homework/13.yaml';
 my $g2 = $t->{grade};
 my $g0 = $z->{grade};
 my $p0 = $z->{points};
@@ -29,10 +29,11 @@ my $p2 = $t->{points};
 my %y = ();
 $y{cutpoints} = $t->{cutpoints};
 $y{exercise} = $t->{exercise};
-my %p = map { $_ => {
-	letters => sum ( $p0->{$_}->{letters} + $p2->{$_}->{letters} ),
-	percent => sum ( $p0->{$_}->{percent} + $p2->{$_}->{percent} )
-		} } keys %m;
+my %p = map { $_ =>
+	# letters => sum ( $p0->{$_}->{letters} + $p2->{$_}->{letters} ),
+	# percent => sum ( $p0->{$_}->{percent} + $p2->{$_}->{percent} )
+	( ($_ eq 'V9941013')? $p0->{$_}: $p2->{$_} )
+		} keys %m;
 $y{points} = \%p;
 my %g = map { $_ => sum ( $g2->{$_} + $g0->{$_} ) } keys %m;
 $y{grade} = \%g;
