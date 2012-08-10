@@ -143,6 +143,20 @@ connell:
          \item [Euphemisms] Whatever name is chosen eventually becomes insulting. 'Mental retardation' is regarded as a bad word. Instead, say, 'intellectual disability', 'intellectually challenged', or 'developmental disability'.
          \end{description}
       quiz:
+        - question: You can do paragliding in the scouts.
+          answer: False
+        - question: You can go camping in the scouts.
+          answer: True
+        - question: You can play cards in the scouts.
+          answer: False
+        - question: You can do rowing in the scouts.
+          answer: True
+        - question: You can work with farm machinery in the scouts.
+          answer: True
+        - question: You can do bungee jumping in the scouts.
+          answer: False
+        - question: There are a lot of things scouts can earn badges in.
+          answer: True
         - question: Richard has spent more time leading Troop 409 than he has working, serving in the Air Force.
           answer: True
         - question: Mentally-disabled people, and in particular, the kids in Troop 409 are not motivated to succeed.
@@ -424,7 +438,7 @@ connell:
         - question: Claudia doesn't think Derek is good.
           answer  : False
         - question: Derek doesn't do well, but he does his best.
-          answer  : False
+          answer  : True
         - question: Derek is in control of what the scouts do.
           answer  : False
         - question: Derek has mental problems.
@@ -622,7 +636,7 @@ warm:
             - David
             - Julie
             - Mary
-          answer: Joan
+          answer: Julie
         - question: C
           option:
             - David
