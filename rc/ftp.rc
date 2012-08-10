@@ -18,8 +18,30 @@ $ftp->login( $user, $passwd );
 $ftp->binary;
 $ftp->ls;
 
-# $ftp->delete($_) for map( "00$_.html", (6..9)), map "01$_.html", (6..9);
+# $ftp->delete($_) for map( "05$_.html", ('a'..'z')), map "010$_.html", ('a'..'z');
 # $ftp->ls('fedora');
 # $ftp->rmdir('fedora');
 # $ftp->ls('fedora');
 # $ftp->ls;
+
+my $dir = 'home';
+
+my @a = $ftp->ls($dir);
+$ftp->rmdir($_, 1) for @a;
+$ftp->ls('/local/lib/perl5/site_perl/5.10.0/i386-linux-thread-multi/auto');
+
+my $delete = sub { $ftp->delete( shift . "/.packlist" ) };
+
+my $dir;
+for my $a ( @a ) {
+	$dir = $a;
+	until ( $ftp->ls( $dir . "/.packlist" ) ) {
+		my @dirs = $ftp->ls( $dir . "/" );
+		$dir = $dirs[0];
+	}
+		$delete->( $dir );
+}
+
+for my $a ( @a ) {
+	$ftp->rmdir( $a, 1 );
+}
