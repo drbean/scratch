@@ -3,6 +3,12 @@ module Tests where
 import LogicalForm
 import Parsing
 
+all_tests = test_text ++ comp_test1 ++ comp_test2 ++ tag_test ++ neg_tag_test ++
+		test_possessives ++ haves ++ intransitives ++ transitives ++ 
+		ditransitive_tests ++ relclauses ++ relppR_test
+		-- ++ wh_questions ++ comp_wh_questions
+		-- ++ ungrammatical
+
 test_text = [
 	"Queen's daughter talked to Debra.",
 	-- "Queen's daughter's brother spoke English.",
@@ -321,7 +327,7 @@ transitives = [
 	"Debra studied counseling.",
 	"Queen studied counseling.",
 	"Queen studied counseling in the State of Colorado.",
-	"Queen studied counseling at State of Colorado.",
+	"Queen studied counseling at the State of Colorado.",
 	"Did Queen go to the State of Colorado?",
 	"Some woman went to the State of Colorado.",
 	"Some man went to the State of Colorado.",
@@ -330,9 +336,9 @@ transitives = [
 	"A man raised Debra",
 	"Some woman told a story.",
 	"Did a counselor work in the the State of Colorado?",
-	"Did a counselor work in the company?",
-	"A counselor worked on the company.",
-	"A counselor worked at the company.",
+	"Did a counselor work in the Gathering Place?",
+	"A counselor worked on the Gathering Place.",
+	"A counselor worked at the Gathering Place.",
 	"Did a counselor work at a shelter?",
 	"A counselor worked on a shelter.",
 	"A counselor worked in a shelter.",
@@ -344,22 +350,22 @@ transitives = [
 	"Did Queen's daughter study counseling?",
 	"Queen's daughter studied counseling.",
 	"A counselor studied counseling.",
-	"Did a counselor study in the United States?",
+	"Did a counselor study in the State of Colorado?",
 	"A counselor studied counseling at a shelter.",
-	"A counselor studied counseling at school.",
-	"Did a counselor go to school.",
-	"Some woman went to school.",
-	"Some man went to school.",
-	"Some boy went to school.",
+	"A counselor studied counseling at the shelter.",
+	"Did a counselor go to the shelter.",
+	"Some woman went to the shelter.",
+	"Some man went to the shelter.",
+	"Some boy went to the shelter.",
 	"Some man raised a counselor.",
 	"A man raised Queen's daughter",
 	"Some woman told a story.",
 	"Did a counselor come from the State of Colorado?",
 	"Did Queen immigrate?",
 	"Did a counselor immigrate to the State of Colorado?",
-	"Did Queen go to the United States?",
+	"Did Queen go to the State of Colorado?",
 	"Did Queen come from the State of Colorado?",
-	"Did Queen's daughter come to the United States?"
+	"Did Queen's daughter come to the State of Colorado?"
 	]
 
 ditransitive_tests = [
@@ -417,8 +423,8 @@ ditransitive_tests = [
 	"A man gave someone something.",
 	"Someone gave someone something.",
 	"Did a counselor work at a shelter?",
-	"A counselor did cleaning at a shelter.",
-	"Did Queen's daughter spell names in the company?"
+	"A counselor did work at a shelter.",
+	"Did Queen's daughter give a name to the Gathering Place?"
 	]
 
 wh_questions =[

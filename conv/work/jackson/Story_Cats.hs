@@ -53,6 +53,7 @@ object_names = [
 	[Cat "donator"	"NP" [Thrd,Masc,Sg] []],
 	[Cat "supervisor"	"CN" [Thrd,Fem,Sg] []],
 	[Cat "supervisors"	"CN" [Thrd,Fem,Pl] []],
+	[Cat "counseling"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "counselor"	"CN" [Thrd,Fem,Sg] []],
 	[Cat "counselors"	"CN" [Thrd,Fem,Pl] []],
 	[Cat "interviewee"	"CN" [Thrd,MascOrFem,Sg] []],
