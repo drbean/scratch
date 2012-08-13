@@ -40,3 +40,38 @@ topic:
           Talk show host <a href="http://en.wikipedia.org/wiki/Howard_Stern">Howard Stern</a> expresses views at the opposite end of the political spectrum to those of Limbaugh, and at the leftish end of those that can be heard on <a href="http://en.wikipedia.org/wiki/Radio_in_the_United_States">U.S. radio</a>. But like Limbaugh, he is a user (an even worse user) of bad language. Listen to him <a href="http://www.youtube.com/watch?v=Ek-G_TYvyck">call 'Birthers' moronic and even worse.</a> A <a href="http://en.wikipedia.org/wiki/Barack_Obama_citizenship_conspiracy_theories">Birther</a> is someone who doubts whether Obama is really a 'natural-born American.'
         comment: |
           Listen to him. Whose views are you closer to? Stern's or Limbaugh's
+      -
+        id: oreilly-stern
+        title: Bill O'Reilly interviews Howard Stern
+        blurb: |
+          Stern and O'Reilly are both from <a href="http://en.wikipedia.org/wiki/Long_Island">Long Island</a>, but disagree about many things. Stern is a liberal. O'Reilly is a conservative. But perhaps many of the things they discuss in the interview are not real disagreements. They just disagree to make the interview more interesting. <a href="http://www.youtube.com/watch?v=Q3hVhmX1jOE">Listen</a>. You decide if their disagreements are real.
+        comment: |
+          What do you think?
+      -
+        id: wallace-oreilly
+        title: Mike Wallace interviews Bill O'Reilly
+        blurb: |
+          Mike Wallace, a veteran interviewer known for giving interviewees a hard time on <a href="http://en.wikipedia.org/wiki/60_minutes">60 Minutes</a>, interviews O'Reilly. Wallace was more of a liberal than O'Reilly, who is a conservative. <a href="http://www.youtube.com/watch?v=BMZrLCqfWkM">Listen</a>. Decide if he likes O'Reilly or not.
+        comment: |
+          Do you think he gives O'Reilly a hard time? O'Reilly liked him because he thought he gave interviewees a hard time. 
+      -
+        id: quizkid
+        title: Young Mike Wallace interviews quiz kid
+        blurb: |
+          <a href="http://en.wikipedia.org/wiki/Mike_Wallace_(journalist)">Mike Wallace</a> interviews quiz kid, Leonard Ross, in 1957. Ross committed suicide when he was 40, in 1985. <a href="http://www.hrc.utexas.edu/multimedia/video/2008/wallace/ross_leonard.html">Listen</a>. Do you think Wallace is giving Ross a hard time? Ross is only 12 years old.
+        comment: |
+         What do you think of the <a href="http://en.wikipedia.org/w/index.php?title=Tobacco_advertising&section=23#United_States">tobacco commercial</a>? 
+      -
+        id: wallace
+        title: Mike Wallace interviewed by son on Fox
+        blurb: |
+          <a href="http://en.wikipedia.org/wiki/Chris_Wallace_(journalist)">Chris Wallace</a> was <a href="http://en.wikipedia.org/wiki/Mike_Wallace_(journalist)">Mike Wallace</a>'s son but his parents divorced when he was one year old and his step father had a greater influence on him. Listen to <a href="http://www.youtube.com/watch?v=hi_Wl12TilU">the tribute</a> he paid to his father last month on his death (with excerpts from the interview he had with him in 2005).
+        comment: |
+          Do you think he gives his father a hard time? How much is this just entertainment, rather than a real interview?
+      -
+        id: axelrod
+        title: Obama's chief campaign strategist
+        blurb: |
+          <a href="http://en.wikipedia.org/wiki/David_Axelrod">David_Axelrod</a> is <a href="http://youtube.com/watch?v=Irc6b-dtK-c">interviewed</a> by <a href="http://en.wikipedia.org/wiki/Jake_Tapper">Jake_Tapper</a> about <a href="http://en.wikipedia.org/wiki/Barack_Obama">Obama's</a> re-election campaign.
+        comment: |
+          Do you think Axelrod is doing a good job as a campaigner?
