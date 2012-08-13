@@ -53,6 +53,13 @@ topic:
             <li><a href=http://dictionary.reference.com/browse/pfft>phfft</a>
 
           </ul>
+      -
+        id: warm
+        title: Down syndrome kid talks with dad
+        blurb: |
+          <a href=http://en.wikipedia.org/wiki/Down_syndrome>Down syndrome</a> is a genetic disorder caused by failure of the <a href=http://en.wikipedia.org/wiki/Chromosome>chromosomes</a> from the mother or father to separate properly. People with Down syndrome have a number of characteristics which distinguish them from other people: eg developmental (mental) disability. Mary Warm has Down syndrome and mental retardation, but she also has a sunny personality.
+        comment: |
+          Listen to her <a href="http://www.npr.org/templates/story/story.php?storyId=6594348">talk to her father about their thoughts about each other.</a>
   -
     id: intercultural
     title: Immigrants in the US encountering American culture
@@ -353,20 +360,20 @@ topic:
         id: smallwood
         title: A business woman's struggles
         blurb: |
-          <a href="http://www.npr.org/templates/story/story.php?storyId=87965100">Tia Smallwood talks to her daughter, Christine</a> about the difficulties of being a woman at a school and in a business world dominated by men. Studying finance at Rutgers University, she was treated meanly and unfairly by a teacher, and at her first job interview, the boss used offensive language with her. She also had to make tough decisions about her job, her marriage and her career. She wanted to give 100 percent to all three. But that was not possible.
+          <a href="http://www.npr.org/templates/story/story.php?storyId=87965100">Tia Smallwood talks to her daughter, Christine</a> about the difficulties of being a woman at a school and in a business world dominated by men. Studying finance at Rutgers University, she was treated meanly and unfairly by a teacher, and at her first job interview, the boss used offensive language with her. She also had to make tough decisions about her children, her marriage and her career. She wanted to give 100 percent to all three. But that was not possible.
         comment: She says that things were not good in the 1970's when she was young. But she says men still think the same. The only difference is that they are more careful about how they express themselves, ie they are more subtle.
       - 
         id: abreu
         title: Receptionist learns how to spell
         blurb: |
           Claritza Abreu is from the <a href="http://en.wikipedia.org/wiki/The_Dominican_Republic">The_Dominican Republic</a> and, after immigrating to the U.S., was a <a href="https://www.google.com/search?q=receptionist&hl=en&prmd=imvns&tbm=isch&tbo=u&source=univ&sa=X&ei=nX3kTuXoKYPNmQX4g_WgBQ&ved=0CHMQsAQ&biw=774&bih=739">receptionist</a>. Listen to her talk about <a href="http://storycorps.org/listen/stories/claritza-abreu-and-gerardo-villacres/">practicing the spelling of American names</a>, traditionally something that is not taught in school, anywhere.
-        comment: The boss was tough. What do you think the boss should have done. What would you have done if you were Claritza Abreu. <h2>Sorry, no questions yet!</h2>
+        comment: The boss was tough. What do you think the boss should have done. What would you have done if you were Claritza Abreu.
       - 
         id: dickson
         title: Woman takes man's job
         blurb: |
           Dee Dickson is from the South of the United States and, after the breakup of her marriage at the age of 22, was raising two children by herself. Listen to her talk about <a href="http://www.npr.org/2011/02/18/133836714/family-breadwinner-finds-her-place-with-the-men">getting a job as an electrician</a>, traditionally a male job, in a shipyard.
-        comment: She wasn't welcomed by the men at the shipyard. She was only able to get the job because a relative was an important person there. That sounds like Chinese guanxi (關系) to me. <h2>Sorry, no questions yet!</h2>
+        comment: She wasn't welcomed by the men at the shipyard. She was only able to get the job because a relative was an important person there. That sounds like Chinese guanxi (關系) to me.
   -
     id: work
     title: People at work
