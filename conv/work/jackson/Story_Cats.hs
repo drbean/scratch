@@ -2,7 +2,7 @@ module Story_Cats where
 
 import Parsing
 
-proper_names, object_names, story_verbs, story_aux, story_adjs, story_advs :: Lexset
+names, nouns, verbs, aux, adjs, advs :: Lexset
 
 type WordConverted = ([String],String)
 
@@ -16,7 +16,7 @@ multipart_names = [
 	(["birthday","card"],	"birthday_card")
 	]
 
-proper_names = [
+names = [
 	[Cat "queen" "NP" [Thrd,Fem,Sg] []],
 	[Cat "ann"	"NP" [Thrd,Fem,Sg] []],
 	[Cat "debra"	"NP" [Thrd,Fem,Sg] []],
@@ -27,7 +27,7 @@ proper_names = [
 	[Cat "nobody_or_nothing" "NP" [Thrd,Neutr,Sg] []]
 	]
 
-object_names = [
+nouns = [
 
 	[Cat "money"	"NP" [Thrd,Neutr,Sg] [],
 		Cat "money"	"CN" [Thrd,Neutr,Sg] []],
@@ -53,7 +53,7 @@ object_names = [
 	[Cat "donator"	"NP" [Thrd,Masc,Sg] []],
 	[Cat "supervisor"	"CN" [Thrd,Fem,Sg] []],
 	[Cat "supervisors"	"CN" [Thrd,Fem,Pl] []],
-	[Cat "counseling"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "counseling"	"NP" [Thrd,Neutr,Sg] []],
 	[Cat "counselor"	"CN" [Thrd,Fem,Sg] []],
 	[Cat "counselors"	"CN" [Thrd,Fem,Pl] []],
 	[Cat "interviewee"	"CN" [Thrd,MascOrFem,Sg] []],
@@ -69,7 +69,7 @@ object_names = [
 	[Cat "upbringing" "CN" [Thrd,Neutr,Sg] []]
 	]
 
-story_verbs = [
+verbs = [
 	[Cat "cried"	"VP" [Tense] []],
 	[Cat "cry"	"VP" [Infl] []],
 	-- [Cat "lost"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
@@ -77,7 +77,8 @@ story_verbs = [
 	[Cat "helped"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "help"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "volunteered"	"VP" [Tense] [Cat "_" "PP" [At] []]],
-	[Cat "volunteer"	"VP" [Infl] [Cat "_" "PP" [At] []]],
+	[Cat "volunteer"	"VP" [Infl] [Cat "_" "PP" [At] []],
+		Cat "volunteer"	"CN" [Thrd,MascOrFem,Sg] []],
 	[Cat "looked"	"VP" [Tense] [Cat "_" "PP" [At] []]],
 	[Cat "look"	"VP" [Infl] [Cat "_" "PP" [At] []]],
 	[Cat "taught"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
@@ -101,10 +102,10 @@ story_verbs = [
 	[Cat "wearing"	"GER" [Infl] [Cat "_" "NP" [AccOrDat] []]]
 	]
 
-story_aux = [
+aux = [
 	]
 
-story_adjs = [
+adjs = [
 	[Cat "older"	"ADJ" [] []],
 	[Cat "homeless"	"ADJ" [] []],
 	[Cat "beautiful"	"ADJ" [] []],
@@ -112,5 +113,5 @@ story_adjs = [
 	[Cat "white"	"ADJ" [] []]
 	]
 
-story_advs = [
+advs = [
 	]

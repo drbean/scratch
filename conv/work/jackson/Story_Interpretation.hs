@@ -2,7 +2,7 @@ module Story_Interpretation where
 
 import Model
 
-story_objects = [
+objects = [
 	( "rent",	\[x]	-> rent x	),
 	( "home",	\[x]	-> home x	),
 	( "unemployment",	\[x]	-> unemployment x	),
@@ -22,6 +22,7 @@ story_objects = [
 
 
 
+	( "counseling",	\[x]	-> counseling x	),
 	( "supervisor",	\[x]	-> supervisor x	),
 	( "interviewee",	\[x] -> interviewee x	),
 
@@ -31,7 +32,7 @@ story_objects = [
 	( "job",	\[x] -> job x	)
 	]
 
-story_inflections = [
+inflections = [
  ( "fragrance", "smell" ),
  ( "lotion", "gift" ),
  ( "visitor", "customer" ),
@@ -56,7 +57,7 @@ story_inflections = [
  ( "greeted", "greet" )
  ]
 
-story_relations = [
+relations = [
 	( "black",	\[x]	-> black x	),
 	( "white",	\[x]	-> white x	),
 	( "beautiful",	\[x]	-> beautiful x	),
@@ -71,6 +72,7 @@ story_relations = [
 	( "lose",	\[x,y]	-> lose y x	),
 	( "help",	\[x,y]	-> help y x	),
 
+	( "volunteer",	\[x]	-> volunteer x	),
 	( "volunteer",	\[x,y]	-> volunteer_at y x	),
 
 	( "wore",	\[x,y]	-> wore y x	),
