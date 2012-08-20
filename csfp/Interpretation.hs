@@ -40,6 +40,7 @@ inflections = [
  ( "buy",	"bought" ),
  ( "accept",	"accepted" ),
  ( "tell",	"told" ),
+ ( "study",    "studied" ),
  ( "go",	"went" ),
  ( "come",	"came" )
  ]
@@ -70,7 +71,10 @@ relations = [
  	[x,y,z] -> got_from z y x
  	[x,y] -> got y x
 	),
- ( "told", \ args -> case args of [x,y] -> recite y x; [x,y,z] -> told z y x )
+ ( "told", \args -> case args of [x,y] -> recite y x; [x,y,z] -> told z y x ),
+ ( "studied", \args -> case args of
+        [x,y] -> (studied_where y x || studied_what y x)
+        [x,y,z] -> studied z y x )
  ]
 
 -- vim: set ts=8 sts=4 sw=4 noet:
