@@ -2,11 +2,11 @@ module LogicalForm where
 
 import Model
 import Interpretation
-import Story_Interpretation
+import qualified Story_Interpretation as Story
 import Topic_Interpretation
 import Parsing
 import Cats
-import Story_Cats
+import qualified Story_Cats as Story
 import Topic_Cats
 
 import Data.Maybe
@@ -17,8 +17,8 @@ lexicon :: String -> [Cat]
 
 lexicon lexeme = maybe unknownWord id $
 	find (\x -> phon (head x) == lexeme ) $
-	proper_names ++ object_names ++ story_verbs ++ story_aux ++ story_adjs ++
-	    story_advs ++
+	Story.names ++ Story.nouns ++ Story.verbs ++ Story.aux ++ Story.adjs ++
+	    Story.advs ++
 	topic_class_names ++ intransitives ++ topic_transitives ++
 	class_names ++ interrogatives ++
 	cops ++ aux ++
@@ -38,14 +38,14 @@ parses str = let ws = lexer str
 
 type Interp a	= String -> [a] -> Bool
 
-inttuples = objects ++ relations ++ story_objects ++ story_relations
+inttuples = objects ++ relations ++ Story.objects ++ Story.relations
 			    ++ topic_objects ++ topic_relations
 
 int :: Interp Entity
 
 int word = if any (\x -> fst x == word ) inttuples
     then maybe null id $ lookup word inttuples
-    else maybe null int $ lookup word  ( inflections ++ story_inflections )
+    else maybe null int $ lookup word  ( inflections ++ Story.inflections )
 
 data Term = Const Entity | Var Int | Struct String [Term]
 	deriving (Eq)
