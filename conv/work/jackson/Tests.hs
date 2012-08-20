@@ -9,6 +9,76 @@ all_tests = test_text ++ comp_test1 ++ comp_test2 ++ tag_test ++ neg_tag_test ++
 		-- ++ wh_questions ++ comp_wh_questions
 		-- ++ ungrammatical
 
+student_tests = [
+
+	"Jennifer was a woman.",
+	"Jennifer wasn't a man.",
+	"Queen was a woman.",
+	"Queen was homeless.",
+	"Ann was homeless.",
+	"Debra was homeless.",
+	"The woman who was homeless was Jennifer.",
+	"Jennifer was a man.",
+	"Jennifer wasn't a woman.",
+	"Jennifer was a volunteer.",
+	"Queen wasn't homeless.",
+	"Debra was disappointed.",
+	"Queen was a supervisor.",
+	"Ann was a supervisor.",
+	"Debra was a supervisor.",
+	"Jennifer was a supervisor.",
+	"Jennifer wasn't a supervisor.",
+	"Ann was homeless",
+	"Queen was homeless",
+	"Queen helped Ann",
+	"Debra helped Ann",
+	"Tanya helped Ann",
+	"Debra helped Queen",
+	"Did Ann have a job?",
+	"Did Debra have a job?",
+	"Did Queen have a job?",
+	"Was Ann a woman?",
+	"Wasn't Ann a woman?",
+	"Was Debra a woman?",
+	"Was Jennifer a woman?",
+	"Wasn't Jennifer a woman?",
+	"Wasn't Debra a woman?",
+	"Was Debra homeless ?",
+	"Did Debra help Queen ?",
+	"Did Debra help Ann ?",
+	"Queen and Ann were homeless.",
+	"Jennifer was homeless",
+	"Ann had no money",
+	"Queen had no money",
+	"Jennifer had no money",
+	"Debra had no money",
+	"Queen was married",
+	"Jennifer was a man",
+	"Did Queen help Ann ?",
+	"Did Queen help Jennifer?",
+	"Did Queen help Nobody_Or_Nothing",
+	"Did Queen help Tanya",
+	"Was Ann homeless?",
+	"Did Tanya help Queen?",
+	"Was Jennifer a man?",
+	"The woman helped Ann and Queen",
+	"The woman that helped Ann and Queen.",
+	"Did Ann and Queen homeless ?",
+	"Did Debra helped Ann and Queen?"
+	]
+
+student_tests_wh = [
+
+	"Who was homeless?",
+	"Who helped Ann?",
+	"Who's volunteer?",
+	"What's name of the shelter?",
+	"What's  shelter's name?",
+	"What's the shelter's name?",
+	"Who helped Queen?",
+	"Who did work in The_State_Of_Colorado?"
+	]
+
 test_text = [
 	"Queen's daughter talked to Debra.",
 	-- "Queen's daughter's brother spoke English.",
