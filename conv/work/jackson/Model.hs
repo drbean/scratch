@@ -98,6 +98,7 @@ daughter	= \x -> ( female x && isOffspring x )
 son	= \x -> ( male x && isOffspring x )
 interviewee = pred1 $ map patient recruitment
 supervisor = pred1 $ map fst supervision
+volunteer = pred1 $ map agent volunteering
 visitor = interviewee
 
 pred2 :: [(Entity,Entity)] -> TwoPlacePred
@@ -119,7 +120,7 @@ divorces	= [(Q,Unspec)]
 -- unmarried_couples	= []
 --(contacter,contactee)
 possessions	= [(O,M),(J,M),(D,M),(T,M)] ++ clothing
-recruitment	= [(C,Q,V)]
+recruitment	= [(C,Q,Unspec),(P,D,V),(P,T,V)]
 appreciation	= []
 
 raised_by	= pred2 $ map swap parenting
