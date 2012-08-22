@@ -1,0 +1,79 @@
+\documentclass[a4paper]{article}
+\usepackage[absolute,showboxes]{textpos}
+\textblockorigin{0.30cm}{0.35cm} %HPDeskJet5160
+\setlength{\unitlength}{1cm}
+\usepackage{xeCJK}
+\setCJKmainfont{AR PL Mingti2L Big5}
+\pagestyle{empty}
+
+\newcommand{\myIdentifier}[0]{
+food and restaurants
+}
+
+\newcommand{\myContent}[0]{
+
+\large Questions about food
+\begin{itemize}
+\item Have you had/Did you have breakfast?/Do you eat breakfast? Ask me/someone.
+\item What kind of food do you like to eat?/is your favorite? Chinese? Western? Steak? Cake? Fruit? Ask me/someone.
+\item It's difficult to talk about food in English. Can you tell/ask us about some food you know? Ask me/someone.
+\end{itemize}
+
+\large Fruit guessing game
+
+One person describes a fruit in English. The others try to guess what the fruit is.
+eg passionfruit, bananas, mangos, apples. `It's green, or yellow. It's long and thin ..'
+
+\large The 4 snack food groups
+
+Crunchy, chewy, creamy and bready.
+
+\large Questions about restaurants
+\begin{itemize}
+\item Do you eat out a lot?
+\item What are the different kinds/names of restaurants?
+\end{itemize}
+}
+
+\newcommand{\mycard}[2]{%
+	\vspace{0.1cm}
+	\small #1
+	\par
+	\parbox[t][12.1cm][t]{9.5cm}{%
+	\hspace{0.1cm} \normalsize#2\\
+	}
+}
+
+\begin{document}
+
+\begin{textblock}{8}(0,0)
+\textblocklabel{picture1}
+\mycard{}{\myIdentifier}{\parbox{7.4cm}{
+\myContent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(8,0)
+\textblocklabel{picture2}
+\mycard{}{\myIdentifier}{\parbox{7.4cm}{
+\myContent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(0,8)
+\textblocklabel{picture5}
+\mycard{}{\myIdentifier}{\parbox{7.4cm}{
+\myContent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(8,8)
+\textblocklabel{picture6}
+\mycard{}{\myIdentifier}{\parbox{7.4cm}{
+\myContent
+}}{}{} 
+\end{textblock}
+
+\end{document}
+
+
