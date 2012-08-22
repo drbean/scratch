@@ -1,7 +1,7 @@
 \documentclass[a4paper]{article}
 % \usepackage[absolute,noshowtext,showboxes]{textpos}
 \usepackage[absolute,showboxes]{textpos}
-\textblockorigin{0.00cm}{0.00cm} %
+\textblockorigin{0.00cm}{+0.15cm} %HP DeskJet 5160
 \usepackage{xeCJK}
 \setCJKmainfont{AR PL Mingti2L Big5}
 \usepackage{rotating}
@@ -11,31 +11,31 @@
 \newcommand{\mycard}[3]{%
 	\small #1 #2
 	\par
-	\parbox[t][6.9cm][c]{9.5cm}{%
-	% \hspace*{0.6cm}
+	\parbox[t][6.8cm][c]{9.5cm}{%
 	\par
 	\myleft{#3}
-	\hspace*{4.6cm}
-	% \vspace*{-2.6cm}
-	x
+	\par
 	\myright{#3}
 	}
 }
 
 \newcommand{\myleft}[1]{%
 	\begin{sideways}
-	\hspace*{-5.6cm}
-		\parbox[t][2.5cm][c]{4.5cm}{%
+	\hspace*{-4.2cm}
+		\parbox[t][2.5cm][c]{4.7cm}{%
 		\Large #1
 		}
 	\end{sideways}
 }
 
 \newcommand{\myright}[1]{%
-		\begin{figure}[b]
-\begin{turn}{270} \Large #1 \end{turn}
-		\end{figure}
-	% }
+	\hspace*{7.1cm}
+	\begin{turn}{270}
+	\hspace*{-0.9cm}
+		\parbox[t][2.5cm][c]{4.7cm}{%
+		\Large #1
+		}
+	\end{turn}
 }
 
 \begin{document}
@@ -78,7 +78,7 @@ I think I'll have the hamburger and french fries.
 \begin{textblock}{8}(8,8)
 \textblocklabel{picture6}
 \mycard{1/1}{at a restaurant}{
-Are you ready for dessert?
+What would you like for dessert?
 }
 \end{textblock}
 
