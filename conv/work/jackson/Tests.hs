@@ -23,6 +23,7 @@ student_tests = [
 	"Jennifer was a volunteer.",
 	"Queen wasn't homeless.",
 	"Debra was disappointed.",
+	"Queen was disappointed.",
 	"Queen was a supervisor.",
 	"Ann was a supervisor.",
 	"Debra was a supervisor.",
@@ -557,6 +558,9 @@ comp_wh_questions = [
 	]
 
 relclauses = [
+	"Queen was a homeless woman who was a mother.",
+	"Queen was a homeless woman who had a daughter.",
+	"The homeless woman who had a daughter was Queen.",
 	"A woman who taught Debra worked.",
 	"The woman who Debra helped worked.",
 	"Did the woman who taught Debra work?",
