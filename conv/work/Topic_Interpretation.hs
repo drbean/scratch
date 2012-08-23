@@ -5,19 +5,20 @@ import Data.List
 import Model
 -- import Story_Interpretation
 
-topic_objects, topic_relations :: [( String, [Entity] -> Bool)]
-topic_objects = [
+objects, relations :: [( String, [Entity] -> Bool)]
+objects = [
 	( "worker",	\ [x] -> worker x	),
 	( "administrative_assistant",	\ [x] -> secretary x	),
 	( "daughter",	\ [x] -> daughter x	),
 	( "mother",	\ [x] -> isMother x	)
  ]
 
-topic_inflections :: [(String, String)]
-topic_inflections = [
+inflections :: [(String, String)]
+inflections = [
  ]
 
-topic_relations = [
+relations = [
+	( "disappointed",	\[x]	-> disappointed x	)
  
  ]
 
