@@ -364,7 +364,7 @@ prsNP = leafPS "NP" <||> npR <||> npADJR <||> npposR <||> cnposR <||> adjcnposR 
 
 npR :: SPARSER Cat Cat
 npR = \ us xs -> 
-  [ (Branch (Cat "_" "NP" fs []) [det,cn], (us++ws), zs) | 
+  [ (Branch (Cat "_" "NP" fs []) [det,cn], (ws++us), zs) | 
       (det,vs,ys) <- prsDET [] xs,
       (cn,ws,zs)  <- prsCN vs ys,
        fs         <- combine (t2c det) (t2c cn),
@@ -373,7 +373,7 @@ npR = \ us xs ->
 
 npADJR :: SPARSER Cat Cat
 npADJR = \ us xs -> 
-  [ (Branch (Cat "_" "NP" fs []) [det,adj,cn], (us++ss), ts) | 
+  [ (Branch (Cat "_" "NP" fs []) [det,adj,cn], (ss++us), ts) | 
       (det,vs,ys) <- prsDET [] xs,
       (adj,ws,zs)  <- prsADJ vs ys,
       (cn,ss,ts)  <- prsCN ws zs,
@@ -382,7 +382,7 @@ npADJR = \ us xs ->
 
 npposR :: SPARSER Cat Cat
 npposR = \us xs ->
-  [ (Branch (Cat "_" "NP" [] []) [np,pos,cn], (us++ss), ts) |
+  [ (Branch (Cat "_" "NP" [] []) [np,pos,cn], (ss++us), ts) |
       (np,vs,ys) <- leafPS "NP" [] xs,
       (pos,ws,zs) <- prsAPOS vs ys,
       (cn,ss,ts)  <- prsCN ws zs
@@ -390,7 +390,7 @@ npposR = \us xs ->
 
 cnposR :: SPARSER Cat Cat
 cnposR = \us xs ->
-  [ (Branch (Cat "_" "NP" [] []) [Branch (Cat "_" "NP" fs []) [det,cn1],pos,cn2], (us++qs), rs) |
+  [ (Branch (Cat "_" "NP" [] []) [Branch (Cat "_" "NP" fs []) [det,cn1],pos,cn2], (qs++us), rs) |
       (det,vs,ys) <- prsDET [] xs,
       (cn1,ws,zs)  <- prsCN vs ys,
       fs         <- combine (t2c det) (t2c cn1),
@@ -401,7 +401,7 @@ cnposR = \us xs ->
 
 adjcnposR :: SPARSER Cat Cat
 adjcnposR = \us xs ->
-  [ (Branch (Cat "_" "NP" [] []) [Branch (Cat "_" "NP" fs []) [det,adj,cn1],pos,cn2], (us++os), ps) |
+  [ (Branch (Cat "_" "NP" [] []) [Branch (Cat "_" "NP" fs []) [det,adj,cn1],pos,cn2], (os++us), ps) |
       (det,vs,ys) <- prsDET [] xs,
       (adj,ws,zs)  <- prsADJ vs ys,
       (cn1,ss,ts)  <- prsCN ws zs,
@@ -413,7 +413,7 @@ adjcnposR = \us xs ->
 
 depCR :: SPARSER Cat Cat
 depCR = \us xs ->
-  [ (Branch (Cat "_" "NP" (fs (t2c vp)) []) [ing,Branch (Cat "_" "VP" [] []) [vp,xps] ], (us++ss), ts) |
+  [ (Branch (Cat "_" "NP" (fs (t2c vp)) []) [ing,Branch (Cat "_" "VP" [] []) [vp,xps] ], (ss++us), ts) |
       (vp,vs,ys)  <- leafPS "VP" us xs, -- TODO us? []?
       (ing,ws,zs)  <- prsGER vs ys,
       verb	<- [t2c vp],
