@@ -2,9 +2,9 @@ module Topic_Cats where
 
 import Parsing
 
-topic_class_names, intransitives, topic_transitives :: Lexset
+nouns, intransitives, transitives :: Lexset
 
-topic_class_names = [
+nouns = [
 --noun and verb
 	[Cat "parent" "VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
 		Cat "parent" "CN" [Sg,MascOrFem,Thrd]   []],
@@ -51,10 +51,11 @@ intransitives = [
 		Cat "get_divorced"	"VP" [Infl] [Cat "_" "PP" [In] []]]
 	]
 
-topic_transitives = [
+transitives = [
 	[Cat "appreciated"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "appreciate"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "disappointed"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "disappointed"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
+		Cat "disappointed"	"ADJ" [] []],
 	[Cat "disappoint"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "looked_back"	"VP" [Tense] [],
 		Cat "looked_back"	"VP" [Tense] [Cat "_" "PP" [On] []]],
