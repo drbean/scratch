@@ -100,6 +100,7 @@ interviewee = pred1 $ map patient recruitment
 supervisor = pred1 $ map fst supervision
 volunteer = pred1 $ map agent volunteering
 visitor = interviewee
+disappointed = pred1 $ map fst losses
 
 pred2 :: [(Entity,Entity)] -> TwoPlacePred
 pred3 :: [(Entity,Entity,Entity)] -> ThreePlacePred
