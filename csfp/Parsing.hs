@@ -312,7 +312,7 @@ prsS = spR <||> cond1R <||> cond2R
 
 prsTAG :: SPARSER Cat Cat
 prsTAG = \us xs -> [ (Branch (Cat "_" "S" [] []) [s,t],ws,zs) |
-	(s,vs,ys) <- spR us xs,
+	(s,vs,ys) <- spTagR us xs,
 	(t,ws,zs) <- tagR vs ys ]
 
 tagR :: SPARSER Cat Cat 
@@ -331,8 +331,8 @@ tagR = \ us xs ->
 				number agreement ++ gender agreement]
 	]
 
-spR :: SPARSER Cat Cat 
-spR = \ us xs -> 
+spTagR :: SPARSER Cat Cat 
+spTagR = \ us xs -> 
  [ (Branch (Cat "_" "S" (fs (t2c np)) []) [np',vp],ws',zs) | 
        (np,vs,ys) <- prsNP us xs,
        np'       <- assignT Nom np, 
@@ -343,6 +343,15 @@ spR = \ us xs ->
        ws'        <- case (ws,zs) of
 	       ([Cat _ "AUX" _ _, Cat _ "NP" _ _],[]) -> [[]]; otherwise -> [ws]
        ]
+
+spR :: SPARSER Cat Cat 
+spR = \ us xs -> 
+ [ (Branch (Cat "_" "S" (fs (t2c np)) []) [np',vp],ws,zs) | 
+       (np,vs,ys) <- prsNP us xs,
+       (vp,ws,zs) <- prsVP vs ys, 
+       np'       <- assignT Nom np, 
+       agreeC np vp,
+       subcatList (t2c vp) == [] ]
 
 cond1R :: SPARSER Cat Cat 
 cond1R = \ us xs -> 
