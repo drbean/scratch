@@ -337,7 +337,7 @@ spR = \ us xs ->
        (np,vs,ys) <- prsNP us xs,
        np'       <- assignT Nom np, 
        tag        <- [Cat (phon (t2c np')) (catLabel (t2c np')) (fs (t2c np')) [] ],
-       (vp,ws,zs) <- case vs of [] -> push tag prsVP vs ys; otherwise -> prsVP vs ys,
+       (vp,ws,zs) <- prsVP (vs ++ [tag]) ys,
        agreeC np vp,
        subcatList (t2c vp) == [],
        ws'        <- case (ws,zs) of
