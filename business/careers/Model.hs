@@ -14,52 +14,71 @@ entities :: [Entity]
 entities	=  [minBound..maxBound] 
 
 
---alice, rex, kelley, judy, rock
---                                                :: Entity
-
 characters :: [ (String, Entity) ]
 
 characters = [
-	( "tia",	T ),
-	( "christine",	C ),
-	( "steven",	S ),
-	( "rutgers_university",	V ),
-	( "mr_payne",	P ),
-	( "mr_batchelor",	B ),
-	( "finance",	F ),
-	( "accounting",	A ),
-	( "business_law",	W )
+	( "fast_track",	F ),
+	( "barbara",	B ),
+	( "eva",	E ),
+	( "tadeusz",	T ),
+	( "dr_bean",	D )
 
 	]
 
-child	= pred1 [C,S]
+male, female :: OnePlacePred
 
-boss	= pred1 [B]
-company	= pred1 [O]
-school	= pred1 [V]
-teacher	= pred1 [P]
-subject	= pred1 [F,A,W]
-money	= pred1 [M]
-story	= pred1 [Y]
+female	= pred1 [B,E]
+male	= pred1 [T,D]
+role	= pred1 [R,P,S]
+child	= pred1 []
+
+company	= pred1 [F]
+candidate	= pred1 [B,T,E,D]
+sales_representative	= pred1 [R]
+regional_manager	= pred1 [P]
+sales_manager	= pred1 [S]
+secretary	= pred1 []
+subject	= pred1 [M,G,H]	-- marketing, engineering, history
 job	= pred1 [J]
-dress	= pred1 [R]
-red	= pred1 [R]
-offensive	= pred1 [L]
-mean	= pred1 [N]
-unfair	= pred1 [N]
-language	= pred1 [L,N]
-request	= pred1 [L,N]
-treatment	= pred1 [L,N]
-upbringing   = pred1 [G]
+story	= pred1 [Y]
+thirty	= pred1 [B]
+fifty_two	= pred1 [T]
+forty_two	= pred1 [E]
+successful	= pred1 [B,T,E]
+-- barbara
+energetic	= pred1 [B]
+confident	= energetic
+aggressive	= energetic
+ambitious	= energetic
+difficult_to_work_with	= energetic
+strong	= energetic
+-- tadeusz
+calm	= pred1 [T]
+relaxed	= calm
+hard_working	= calm
+practical	= calm
+reliable	= calm
+-- eva
+quiet	= pred1 [E]
+nervous	= quiet
+
+possessions	= []
+appreciation	= []
+identities	= [(B,P),(T,R),(E,P)]
+supervision	= [(T,Unspec)]
+-- appearances	= [(B,Strong)]
+
+--(site(company),worker,job)
+recruitment	= [(F,B,R),(F,T,P),(F,E,R),(F,Unspec,S)]
+comms	= [ (B,Y,Unspec),(A,Y,Unspec),(E,Y,Unspec) ]
+giving	= []
+
+-- (teacher,school(location),subject,student)
+schooling = [(Unspec,Unspec,M,B),(Unspec,Unspec,G,T),(Unspec,Unspec,H,E)]
 
 namelist = map fst characters
 
 names = map swap characters
-
-male, female :: OnePlacePred
-
-male	= pred1 [S,P,B]
-female	= pred1 [T,C]
 
 type OnePlacePred	= Entity -> Bool
 type TwoPlacePred	= Entity -> Entity -> Bool
@@ -73,21 +92,15 @@ pred1	= flip elem
 
 people, things :: OnePlacePred
 
-people	= \ x -> (male x || female x || x == Unspec)
+people	= \ x -> (male x || female x || role x || x == Unspec)
 things	= \ x -> (x == Unspec || not ( people x ) )
 
 boy	= \x -> male x && child x
 isMan	= \x -> ( not $ boy x ) && male x
 isGirl	= \x -> ( female x && child x )
 isWoman	= \x -> ( not $ isGirl x ) && female x
-isParent	= pred1 $ map fst parenting
-isOffspring	= pred1 $ map snd parenting
-isMother	= \x -> ( female x && isParent x )
-father	= \x -> ( male x && isParent x )
-daughter	= \x -> ( female x && isOffspring x )
-son	= \x -> ( male x && isOffspring x )
 interviewee = pred1 $ map patient recruitment
-visitor = interviewee
+boss = pred1 $ map fst supervision
 
 pred2 :: [(Entity,Entity)] -> TwoPlacePred
 pred3 :: [(Entity,Entity,Entity)] -> ThreePlacePred
@@ -95,55 +108,17 @@ pred2 xs	= curry ( `elem` xs )
 pred3 xs	= curry3 ( `elem` xs )
 pred4 xs	= curry4 ( `elem` xs )
 
---(parent,child)
-parenting	= [(T,C),(T,S)]
-supervision	= [(B,T)]
-marriages	= [(Unspec,T)]
---(husband,wife,wedding_location)
-weddings	= []
---(divorcer,divorced)
-separations	= []
--- divorces	= []
---(boyfriend,girlfriend)
--- unmarried_couples	= []
---(contacter,contactee)
-possessions	= [] ++ clothing
-recruitment	= [(B,T,O)]
-appreciation	= []
-
-raised_by	= pred2 $ map swap parenting
-parented	= pred2 parenting
-marry_in	= pred3 $ weddings ++ map (\(x,y,z) -> (y,x,z) ) weddings
-married		= forgetful marry_in
-separated	= pred2 separations
-wedded_in	= pred2 $ map (\x -> (agent x, location x) ) weddings ++
-			map (\x -> (patient x, location x) ) weddings
-isMarried	= pred1 $ map fst marriages ++ map snd marriages
-parentMaybe :: Entity -> (Entity,Entity) -> Maybe Entity
-parentMaybe child = \rel -> if child == snd rel then Just (fst rel) else Nothing
-parents		= \child -> mapMaybe (parentMaybe child) parenting
-isSiblings	= \a b -> (any . flip elem) (parents a) (parents b)
-brother	= \x -> any ( \i -> isSiblings x i ) entities
-
-clothing	= [(T,R)]
-looking	= [(B,R)]
-wore	= pred2 clothing
-have	= pred2 $ possessions ++ marriages ++ parenting ++ supervision
-		++ ( map swap $ marriages ++ parenting ++ supervision )
-		++ ( map (\x->(recipient x, theme x) ) giving )
-		++ ( map (\x->(agent x,B) ) working )
-		++ ( map (\x->(agent x, patient x) ) recruitment )
-		++ ( map (\x->(location x, patient x) ) recruitment )
+have	= pred2 $ possessions ++ supervision
+		++ ( map (\x->(patient x,J) ) recruitment )
 		++ ( map (\x->(agent x, location x) ) recruitment )
-		++ ( map (\x->(agent x, theme x) ) offenses )
-knowledge	= [(T,F),(T,A),(T,W)]
+
+knowledge	= []
 acquaintances	= []
 know	= pred2 $ knowledge ++ acquaintances ++ map swap acquaintances
 appreciate	= pred2 appreciation
 visit	= pred2 $ map (\x -> (patient x, recipient x) ) recruitment
 interview	= pred2 $ map (\x -> (agent x, patient x) ) recruitment
 greet	= interview
-look_at	= pred2 $ looking
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
@@ -160,44 +135,23 @@ instrument = recipient
 origin	= theme
 destination = recipient
 
---(worker,job,site)
-working	= [(T,Unspec,O),(B,B,O)]
-comms	= [ (P,F,T),(P,A,T),(P,W,T),(P,N,T),(B,L,T),(T,Y,C),(T,G,C),(T,L,C),(T,N,C) ]
-offenses	= [(P,N,T),(B,L,T)]
-giving	= [ (B,J,T) ]
-acceptances = []
--- (seller, item, buyer)
-selling	= []
---(killer,killed,instrument)
---(putter,theme,location)
---(agent,theme,location)
-looking_back	= [(T,Unspec,Unspec)]
-
-worker	= pred1 $ map agent working
-work_where	= pred2 $ map (\x -> (agent x, location x) ) working
-work_as = pred2 $ map (\x -> (agent x, theme x) ) working
-look_back	= pred1 $ map agent looking_back
-look_back_on	= pred2 $ map (\x->(agent x, theme x) ) looking_back
+worker	= pred1 $ map patient recruitment
+work_where	= pred2 $ map (\x -> (patient x, agent x) ) recruitment
+work_as = pred2 $ map (\x -> (patient x, location x) ) recruitment
 said	= pred2 $ map (\x->(agent x, theme x) ) comms
 asked	= pred2 $ map (\x->(agent x, recipient x) ) comms
 ask_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
 talked	= pred2 $ map (\x->(agent x, recipient x) ) comms
               ++  map (\(agent,theme,recipient)->(recipient, agent) ) comms
 talk_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
-offend_with	= pred3 offenses
-offend	= pred2 $ ( map (\x -> (agent x, recipient x) ) offenses ) ++
-		( map (\x -> (theme x, recipient x) ) offenses )
-anger = offend
-
-
-gave	= pred3 giving
-got	= pred2 $ map (\x -> (recipient x, patient x) ) giving
-got_from	= pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving
-sold	= pred2 $ map (\x -> (agent x, theme x) ) selling
 
 told	= pred3 comms
 
 recite = pred2 $ map ( \x -> (agent x, theme x) ) comms
+
+gave	= pred3 giving
+got	= pred2 $ map (\x -> (recipient x, patient x) ) giving
+got_from	= pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving
 
 agent4, theme4, recipient4, location4 :: (Entity,Entity,Entity,Entity) -> Entity
 agent4 (a,_,_,_) = a
@@ -205,8 +159,6 @@ location4 (_,l,_,_) = l
 theme4 (_,_,t,_) = t
 recipient4 (_,_,_,r) = r
 
--- (teacher,school(location),subject,student)
-schooling = [(P,V,F,T),(P,V,A,T),(P,V,W,T)]
 studied = pred3 $ map ( \x -> (recipient4 x, theme4 x, location4 x) )
 				schooling
 studied_what = pred2 $ map (\x -> (recipient4 x, theme4 x) ) schooling

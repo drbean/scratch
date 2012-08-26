@@ -2,29 +2,44 @@ module Story_Cats where
 
 import Parsing
 
-proper_names, object_names, story_verbs, story_aux, story_adjs, story_advs :: Lexset
+names, nouns, verbs, aux, adjs, advs :: Lexset
 
-proper_names = [
-	[Cat "the_united_states" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "rutgers_university" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "tia"	"NP" [Thrd,Fem,Sg] []],
-	[Cat "christine"	"NP" [Thrd,Fem,Sg] []],
-	[Cat "steven"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "mr_payne"	"NP" [Thrd,Masc,Sg] []],
-	[Cat "mr_batchelor"	"NP" [Thrd,Masc,Sg] []]
+names = [
+	[Cat "polish"	"ADJ" [] [],
+		Cat "polish" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "english"	"ADJ" [] [],
+		Cat "english" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "german"	"ADJ" [] [],
+		Cat "german" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "poland" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "the_us" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "germany" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "fast_track" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "barbara"	"NP" [Thrd,Fem,Sg] []],
+	[Cat "eva"	"NP" [Thrd,Fem,Sg] []],
+	[Cat "tadeusz"	"NP" [Thrd,Masc,Sg] []],
+	[Cat "dr_bean"	"NP" [Thrd,Masc,Sg] []]
 	]
 
-object_names = [
+nouns = [
 
-	[Cat "money"	"NP" [Thrd,Neutr,Sg] [],
-		Cat "money"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "dress"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "dresses"	"CN" [Thrd,Neutr,Pl] []],
+	[Cat "secondary_school"	"NP" [Thrd,Neutr,Sg] []],
+	[Cat "college"	"NP" [Thrd,Neutr,Sg] []],
+	[Cat "marketing"	"NP" [Thrd,Neutr,Sg] []],
+	[Cat "engineering"	"NP" [Thrd,Neutr,Sg] []],
+	[Cat "history"	"NP" [Thrd,Neutr,Sg] []],
 
-	[Cat "boss"	"CN" [Thrd,Fem,Sg] []],
-	[Cat "supervisor"	"CN" [Thrd,Fem,Sg] []],
-	[Cat "receptionist"	"CN" [Thrd,MascOrFem,Sg] []],
-	[Cat "receptionists"	"CN" [Thrd,MascOrFem,Pl] []],
+	[Cat "sales_representative"	"CN" [Thrd,MascOrFem,Sg] []],
+	[Cat "regional_manager"	"CN" [Thrd,MascOrFem,Sg] []],
+	[Cat "sales_record"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "team_player"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "team_building"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "personality"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "ability"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "experience"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "judgement"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "local_business_club"	"CN" [Thrd,Neutr,Sg] []],
+
 	[Cat "interviewer"	"CN" [Thrd,MascOrFem,Sg] []],
 	[Cat "interviewers"	"CN" [Thrd,MascOrFem,Pl] []],
 	[Cat "interviewee"	"CN" [Thrd,MascOrFem,Sg] []],
@@ -50,9 +65,9 @@ object_names = [
 	[Cat "comment"	"CN" [Thrd,Neutr,Sg] []]
 	]
 
-story_verbs = [
-	[Cat "looked"	"VP" [Tense] [Cat "_" "PP" [At] []]],
-	[Cat "look"	"VP" [Infl] [Cat "_" "PP" [At] []]],
+verbs = [
+	[Cat "appeared"	"VP" [Tense] [Cat "_" "ADJ" [AccOrDat] []]],
+	[Cat "appear"	"VP" [Infl] [Cat "_" "ADJ" [AccOrDat] []]],
 	[Cat "taught"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
 		Cat "taught"	"VP" [Tense] []],
 	[Cat "teach"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
@@ -61,6 +76,9 @@ story_verbs = [
 		Cat "visited"	"VP" [Tense] []],
 	[Cat "visit"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
 		Cat "visit"	"VP" [Infl] []],
+
+	[Cat "respected"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "respect"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "angered"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "anger"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "offended"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
@@ -74,13 +92,37 @@ story_verbs = [
 	[Cat "wearing"	"GER" [Infl] [Cat "_" "NP" [AccOrDat] []]]
 	]
 
-story_aux = [
+aux = [
 	]
 
-story_adjs = [
-	[Cat "offensive"	"ADJ" [] []],
-	[Cat "red"	"ADJ" [] []]
+adjs = [
+	[Cat "thirty"	"ADJ" [] []],
+	[Cat "fifty-two"	"ADJ" [] []],
+	[Cat "forty-two"	"ADJ" [] []],
+	[Cat "five"	"ADJ" [] []],
+	[Cat "fifteen"	"ADJ" [] []],
+	[Cat "strong"	"ADJ" [] []],
+	[Cat "energetic"	"ADJ" [] []],
+	[Cat "confident"	"ADJ" [] []],
+	[Cat "aggressive"	"ADJ" [] []],
+	[Cat "calm"	"ADJ" [] []],
+	[Cat "relaxed"	"ADJ" [] []],
+	[Cat "hard-working"	"ADJ" [] []],
+	[Cat "creative"	"ADJ" [] []],
+	[Cat "successful"	"ADJ" [] []],
+	[Cat "practical"	"ADJ" [] []],
+	[Cat "reliable"	"ADJ" [] []],
+	[Cat "quiet"	"ADJ" [] []],
+	[Cat "nervous"	"ADJ" [] []],
+	[Cat "excellent"	"ADJ" [] []],
+	[Cat "fluent"	"ADJ" [] []],
+	[Cat "ambitious"	"ADJ" [] []],
+	[Cat "patient"	"ADJ" [] []],
+	[Cat "realistic"	"ADJ" [] []],
+	[Cat "competitive"	"ADJ" [] []],
+	[Cat "good"	"ADJ" [] []]
 	]
 
-story_advs = [
+advs = [
+	[Cat "slowly"	"ADV" [] []]
 	]
