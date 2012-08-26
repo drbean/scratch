@@ -313,9 +313,9 @@ market:
  jigsaw:
   0:
     identifier: market opportunity 0
-    A: Refrigerators are great for Taiwan. In Taiwan, there is a market opportunity. But at the North Pole, no-one needs a refrigerator. There is no market opportunity for refrigerators. Huang had a market opportunity. Dr Bean doesn't.
-    B: Some technology (or means of production) has to be used to produce the product. Different companies (or different technologies) can compete for the same market opportunity. NVIDIA's GPU was competing with the company's other graphics chips.
-    C: A need for a product may be a new need or an existing need. People didn't know they needed graphics on a computer before. It was a new need. The GPU was a better solution to an existing need. However, both the older graphics chip and the GPU had a market opportunity.
+    A: Refrigerators are great for Taiwan. In Taiwan, there is a market opportunity. But at the North Pole, no-one needs a refrigerator. There is no market opportunity for refrigerators. Huang had a market opportunity with games hardware. Dr Bean doesn't with his competitions.
+    B: Some technology (or means of production) has to be used to produce the product. Different companies (or different technologies) can compete for the same market opportunity. NVIDIA's GPU was competing with the company's earlier graphics chips.
+    C: A need for a product may be a new need or an existing need. Graphics on the computer didn't exist before. It was a new need. The GPU was a better solution to an existing need. Both with its first graphics chips  and the GPU, NVIDIA had a market opportunity.
  compcomp:
   0:
     identifier: Jensen Huang and the market
@@ -431,26 +431,26 @@ huang:
         answer: False
   1:
     quiz:
-      - question: Huang and Bean, Question 13: It's hard to understand why Huang is successful but Dr Bean isn't.
+      - question: Huang and Bean, Question 9: It's hard to understand why Huang is successful but Dr Bean isn't.
         answer: False
-      - question: Huang and Bean, Question 14: It's more difficult working with semiconductors than working with people.
+      - question: Huang and Bean, Question 10: It's more difficult working with semiconductors than working with people.
         answer: False
-      - question: Huang and Bean, Question 15: Huang had a new market opportunity, but Dr Bean doesn't.
+      - question: Huang and Bean, Question 11: Huang had a new market opportunity, but Dr Bean doesn't.
         answer: True
-      - question: Huang and Bean, Question 16: NVIDIA produced the cards customers asked for, rather than cards the technology allowed them to produce.
+      - question: Huang and Bean, Question 12: NVIDIA produced the cards customers asked for, rather than cards the technology allowed them to produce.
         answer: False
-      - question: Huang and Bean, Question 5: People thought the NVIDIA graphics cards were expensive, but they bought them anyway.
+      - question: Huang and Bean, Question 13: People thought the NVIDIA graphics cards were expensive, but they bought them anyway.
         answer: True
+      - question: Huang and Bean, Question 14: Investors gave Huang money because they thought he was good.
+        answer: True
+      - question: Huang and Bean, Question 15: Dr Bean looks forward to asking people for money.
+        answer: False
+      - question: Huang and Bean, Question 16: People probably will want to give Dr Bean more money than they gave Huang.
+        answer: False
       - question: Huang and Bean, Question 6: Now, at National United University, Dr Bean is less dependent on a market than Huang is.
         answer: True
-      - question: Huang and Bean, Question 7: Huang was more innovative than Dr Bean.
+      - question: Huang and Bean, Question 6: Huang was more innovative than Dr Bean.
         answer: True
-      - question: Huang and Bean, Question 8: Investors gave Huang money because they thought he was good.
-        answer: True
-      - question: Huang and Bean, Question 9: Dr Bean looks forward to asking people for money.
-        answer: False
-      - question: Huang and Bean, Question 10: People probably will want to give Dr Bean more money than they gave Huang.
-        answer: False
   2:
     identifier: Jensen Huang and Morris Chang
     White: |+
@@ -485,14 +485,22 @@ huang:
        \item [Company founded] TSMC: World No. 1 chip foundry
        \end{description}
     quiz:
-      - question: Huang and Chang, Question 9: Chang lived longer in the U.S than Huang.
+      - question: Huang and Chang, Question 1: Chang lived longer in the U.S than Huang.
         answer: False
-      - question: Huang and Chang, Question 10: Chang has more education than Huang.
+      - question: Huang and Chang, Question 2: Chang has more education than Huang.
         answer: True
-      - question: Huang and Chang, Question 11: Huang has a wider education than Chang.
+      - question: Huang and Chang, Question 3: Huang has a wider education than Chang.
         answer: False
-      - question: Huang and Chang, Question 12: Chang's Chinese is probably better than Huang's.
+      - question: Huang and Chang, Question 4: Chang's Chinese is probably better than Huang's.
+        answer: True
+      - question: Huang and Chang, Question 5: There is no college where they both studied.
         answer: False
+      - question: Huang and Chang, Question 6: There is no subject they both studied.
+        answer: False
+      - question: Huang and Chang, Question 7: Both men have connections with Taiwan.
+        answer: True
+      - question: Huang and Chang, Question 8: The two men's Ph.D's are of different quality.
+        answer: True
  jigsaw:
   0:
     identifier: huang 0
@@ -547,6 +555,44 @@ huang:
         answer: True
       - question: Jensen \& Chris's first chip  failed.
         answer: True
+  000:
+    identifier: huang 000
+    A: You teach English in Taiwan. Your students cannot speak English to each other. You tried some new ideas. But they didn't work. Everyone wants to study English so there is a market opportunity for someone with a good idea. But you don't have any great ideas. You admire Jensen.
+    B: You are Chinese but studied in the US, and worked there for many years. You came to Taiwan in 1985 and set up TSMC, a very profitable chip maker. NVIDIA is a customer. You call Jensen, the CEO of NVIDIA, a friend. But you don't know Dr Bean.
+    C: You set up NVIDIA with Jensen. After the failure of your first chip, you let Jensen make decisions about managing the company. You concentrate on design of the chips. You know Morris, but you don't have a close relationship with him. And you don't know Dr Bean.
+    quiz:
+      - question: A?
+        option:
+          - Chris
+          - Dr Bean
+          - Morris
+        answer: Dr Bean
+      - question: B?
+        option:
+          - Chris
+          - Dr Bean
+          - Morris
+        answer: Morris
+      - question: C?
+        option:
+          - Chris
+          - Dr Bean
+          - Morris
+        answer: Chris
+      - question: Morris knows Dr Bean.
+        answer: False
+      - question: Morris doesn't know Chris.
+        answer: False
+      - question: Morris had a market opportunity.
+        answer: True
+      - question: Dr Bean had a market opportunity.
+        answer: False
+      - question: Morris is Jensen's friend.
+        answer: True
+      - question: Jensen \& Chris's first chip  failed.
+        answer: True
+      - question: Chris, Dr Bean \& Morris are in Taiwan.
+        answer: False
   1:
     identifier: huang 1
     A: You are young children. Your father is Jensen Huang. You know Morris, an old man. He visited your home. You ate dinner with him. One time, at the dinner table, he stopped eating and just sat there. You said to your dad, `Morris has gone to sleep!'
@@ -600,6 +646,44 @@ huang:
         answer: True
       - question: Morris sleeps at the dinner table.
         answer: False
+  111:
+    identifier: huang 111
+    A: You are a young boy. Your father is Jensen Huang. You know Morris, an old man. He visited your home. You ate dinner with him. One time, at the dinner table, he stopped eating and just sat there. You said to your dad, `Morris has gone to sleep!'
+    B: You are Chinese-American. In 1985 you came to Taiwan and started TSMC. When you visited the U.S., it was good to have friends who would invite you to eat dinner with their families. Jensen invited you to eat with his family.
+    C: Your company designs computer chips. Morris's company makes the chips for you. Morris is your supplier, but he is also a friend. You invited Morris to visit your family. He ate dinner at your home with your family. Spencer, your son said something funny.
+    quiz:
+      - question: A?
+        option:
+          - Jensen
+          - Morris
+          - Spencer
+        answer: Spencer
+      - question: B?
+        option:
+          - Jensen
+          - Morris
+          - Spencer
+        answer: Morris
+      - question: C?
+        option:
+          - Jensen
+          - Morris
+          - Spencer
+        answer: Jensen
+      - question: Morris knows Spencer.
+        answer: True
+      - question: Morris eats with Jensen.
+        answer: True
+      - question: Morris surprised Spencer.
+        answer: True
+      - question: Morris refused Jensen's offer.
+        answer: False
+      - question: Morris sleeps at the dinner table.
+        answer: False
+      - question: Morris's company designs chips.
+        answer: False
+      - question: Jensen is Morris's customer.
+        answer: True
   2:
     identifier: huang 2
     A: You are Jensen's wife. You and Jensen have a lot of money. Your job is to give money to people Jensen likes. You gave 5 million dollars to a hospital that saved your father, James from cancer. You gave 30 million dollars to Jim at Stanford for a new building.
@@ -646,4 +730,80 @@ huang:
       - question: Jensen paid for a new Stanford building.
         answer: True
       - question: Jensen and Lori gave to a hospital.
+        answer: True
+  222:
+    identifier: huang 222
+    A: You are Jensen's wife. You and Jensen have a lot of money. Your job is to give money to people Jensen likes. You gave 5 million dollars to a hospital that saved your father, James from cancer. You gave 30 million dollars to Jim, Jensen's teacher at Stanford, for a new building.
+    B: Your daugher, Lori is married to Jensen. You got sick with cancer. You were going to die. But a hospital found a cure for your cancer, and saved your life. So you didn't die. Lori and Jensen gave 5 million dollars to the hospital. You are thankful to Lori and Jensen.
+    C: You were Jensen's teacher at Stanford. He learned a lot from you. He was a good student. You were surprised and happy when Lori, his wife told you he wanted to give Stanford 30 million dollars for a new building. Jensen gave Lori the job of giving you the money.
+    quiz:
+      - question: A?
+        option:
+          - James
+          - Jim
+          - Lori
+        answer: Lori
+      - question: B?
+        option:
+          - James
+          - Jim
+          - Lori
+        answer: James
+      - question: C?
+        option:
+          - James
+          - Jim
+          - Lori
+        answer: Jim
+      - question: James was Jensen's teacher.
+        answer: False
+      - question: Lori is James' daughter.
+        answer: True
+      - question: Jensen gave James 5 million dollars.
+        answer: False
+      - question: Jensen gave Jim 5 million dollars.
+        answer: False
+      - question: Jensen paid for a new Stanford building.
+        answer: True
+      - question: Jensen and Lori gave to a hospital.
+        answer: True
+      - question: James was dying from cancer.
+        answer: True
+  333:
+    identifier: huang 333
+    A: You were Jensen's roommate at his first school in the US. You were a tough kid and you had a knife. You were 15 and you sometimes hit him. His brother, Daniel tried to stop you hitting Jensen, but Daniel was only 10. Jensen tells interviewer Charlie about you.
+    B: You are Jensen's brother. You are one year older than him. After school, you worked on the school's tobacco farm. Roy, Jensen's roommate, and the other students smoked the tobacco. The kids wanted you to teach them Chinese kung fu. But you didn't know kung fu.
+    C: You are a TV interviewer. Jensen told you about Roy, the 15-year-old boy he shared a room with. He told you Roy had knife wounds all over his body. You say Jensen's experience at the school was important, making Jensen and Daniel also tough mentally.
+    quiz:
+      - question: A?
+        option:
+          - Charlie
+          - Daniel
+          - Roy
+        answer: Roy
+      - question: B?
+        option:
+          - Charlie
+          - Daniel
+          - Roy
+        answer: Daniel
+      - question: C?
+        option:
+          - Charlie
+          - Daniel
+          - Roy
+        answer: Charlie
+      - question: Daniel is Jensen's brother.
+        answer: True
+      - question: Daniel and Jensen were roommates.
+        answer: False
+      - question: Daniel taught the kids kung fu.
+        answer: False
+      - question: Roy hit Jensen.
+        answer: True
+      - question: Jensen worked on the tobacco farm.
+        answer: False
+      - question: Charlie talked to Roy about Jensen.
+        answer: False
+      - question: Charlie says the school made Jensen tough.
         answer: True
