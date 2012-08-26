@@ -7,10 +7,8 @@ import Model
 
 objects, relations :: [( String, [Entity] -> Bool)]
 objects = [
-	( "worker",	\ [x] -> worker x	),
-	( "administrative_assistant",	\ [x] -> secretary x	),
-	( "daughter",	\ [x] -> daughter x	),
-	( "mother",	\ [x] -> isMother x	)
+	( "administrative_assistant",   \ [x] -> secretary x    ),
+	( "worker",	\ [x] -> worker x	)
  ]
 
 inflections :: [(String, String)]
@@ -18,7 +16,7 @@ inflections = [
  ]
 
 relations = [
-	( "disappointed",	\[x]	-> disappointed x	)
+	( "job",	\[x]	-> job x	)
  
  ]
 
