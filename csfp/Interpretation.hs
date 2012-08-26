@@ -25,7 +25,6 @@ inflections = [
  ( "appreciate",	"appreciated" ),
  ( "disappoint",	"disappointed" ),
  ( "have",	"had" ),
- ( "looked_back",	"look_back" ),
  ( "ask",	"asked" ),
  ( "talk",	"talked" ),
  ( "say",	"said" ),
@@ -49,9 +48,6 @@ relations = [
  
  ( "appreciated", \[x,y] -> appreciate y x ),
  ( "had", \[x,y] -> have y x ),
- ( "look_back", \args -> case args of
- 	[x] -> look_back x
- 	[x,y] -> look_back_on y x ),
  ( "asked", \args -> case args of
  	[x,y] -> asked y x
  	[x,y,z] -> ask_about z y x ),
