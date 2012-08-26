@@ -285,6 +285,9 @@ succeedS r us xs = [(r,us,xs)]
 manyS :: StackParser a b -> StackParser a [b]
 manyS p = (p <::> manyS p) <||> succeedS []
 
+oneS :: [StackParser a b] -> StackParser a [b]
+oneS (p:ps) = p <::> succeedS []
+
 push :: Cat -> SPARSER Cat Cat -> SPARSER Cat Cat 
 push c p stack = p (c:stack) 
 
@@ -508,14 +511,14 @@ ppR = \us xs ->
 prsPREP :: SPARSER Cat Cat
 prsPREP = leafPS "PREP"
 
-prsNPorPP :: SPARSER Cat Cat
-prsNPorPP = prsNP <||> prsPP
+prsCOMPorNPorPP :: SPARSER Cat Cat
+prsCOMPorNPorPP = prsCOMP <||> prsNP <||> prsPP 
 
-prsNPsorPPs :: [Cat] -> [Cat] 
+prsCOMPorNPsorPPs :: [Cat] -> [Cat] 
        -> [([ParseTree Cat Cat],[Cat],[Cat])]
-prsNPsorPPs = manyS prsNPorPP
+prsCOMPorNPsorPPs = manyS prsCOMPorNPorPP
 
-prsVdependents = prsNPsorPPs <||> manyS prsS
+prsVdependents = prsCOMPorNPsorPPs <||> manyS prsS
 
 cnrelR :: SPARSER Cat Cat
 cnrelR = \us xs -> 
@@ -570,7 +573,7 @@ isWH tr = Wh `elem` (fs (t2c tr))
 prsWH :: SPARSER Cat Cat 
 prsWH = \us xs -> 
    [ (Branch (Cat "_" "WH" [] []) [wh,yn], ws,zs) | 
-       (wh,vs,ys) <- prsNPorPP us xs, 
+       (wh,vs,ys) <- prsCOMPorNPorPP us xs, 
        isWH wh, 
        gapfs      <- [filter (/= Wh) (fs (t2c wh))],
        gap        <- [Cat "#" (catLabel (t2c wh)) gapfs []], 
