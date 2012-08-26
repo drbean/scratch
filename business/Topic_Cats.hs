@@ -32,6 +32,7 @@ nouns = [
 	[Cat "woman"   "CN" [Sg,Fem,Thrd]   []],
 	[Cat "women"   "CN" [Pl,Fem,Thrd]   []],
 
+	[Cat "company"   "CN" [Sg,Neutr,Thrd]   []],
 	[Cat "worker"   "CN" [Sg,MascOrFem,Thrd]   []],
 	[Cat "workers"   "CN" [Pl,MascOrFem,Thrd]   []],
 	[Cat "administrative_assistant"   "CN" [Sg,MascOrFem,Thrd]   []],
