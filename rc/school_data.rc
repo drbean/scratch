@@ -7,7 +7,7 @@ use YAML qw/LoadFile DumpFile/;
 use Cwd; use File::Basename;
 use Encode;
 
-my $semester = "002";
+my $semester = "011";
 my $dir = basename( getcwd );
 
 use Grades;
