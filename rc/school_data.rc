@@ -1,5 +1,7 @@
 #!/usr/bin/perl
 
+# Deprecated. Use school_data.pl instead.
+
 use strict;
 use warnings;
 use IO::All;
