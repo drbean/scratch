@@ -1,0 +1,114 @@
+\documentclass[a4paper]{article}
+% \usepackage[absolute,noshowtext,showboxes]{textpos}
+\usepackage[absolute,showboxes]{textpos}
+\textblockorigin{0.00cm}{+0.15cm} %HP DeskJet 5160
+\usepackage{xeCJK}
+\setCJKmainfont{AR PL Mingti2L Big5}
+\usepackage{rotating}
+\pagestyle{empty}
+\setlength{\unitlength}{1cm}
+
+\newcommand{\mycard}[3]{%
+	\small #1 #2
+	\par
+	\parbox[t][6.8cm][c]{9.5cm}{%
+	\par
+	\myleft{#3}
+	\par
+	\myright{#3}
+	}
+}
+
+\newcommand{\myleft}[1]{%
+	\begin{sideways}
+	\hspace*{-4.2cm}
+		\parbox[t][2.5cm][c]{4.7cm}{%
+		\Large #1
+		}
+	\end{sideways}
+}
+
+\newcommand{\myright}[1]{%
+	\hspace*{7.1cm}
+	\begin{turn}{270}
+	\hspace*{-0.9cm}
+		\parbox[t][2.5cm][c]{4.7cm}{%
+		\Large #1
+		}
+	\end{turn}
+}
+
+\begin{document}
+
+\begin{textblock}{8}(0,0)
+\textblocklabel{picture1}
+\mycard{1/1}{at a restaurant}{
+A: Have you (ever) been to X?
+}
+\end{textblock}
+
+\begin{textblock}{8}(8,0)
+\textblocklabel{picture2}
+\mycard{1/1}{at a restaurant}{
+B: Yes, I have./No, I haven't.
+}
+\end{textblock}
+
+\begin{textblock}{8}(0,4)
+\textblocklabel{picture3}
+\mycard{1/1}{at a restaurant}{
+A: \normalsize (Thinks: B probably only went once) \Large When did you go to X?\\
+\normalsize (Thinks: B probably went 2-3 times) \Large How many times have you been to X?/When was the last time you went to X?\\
+\normalsize (Thinks: B probably goes often) \Large When was the last time you went to X?/How often do you go to X?\\
+}
+\end{textblock}
+
+\begin{textblock}{8}(8,4)
+\textblocklabel{picture4}
+\mycard{1/1}{at a restaurant}{
+B: Last year/month/week/ yesterday. N years/months/weeks/days ago.
+}
+\end{textblock}
+
+\begin{textblock}{8}(0,8)
+\textblocklabel{picture5}
+\mycard{1/1}{at a restaurant}{
+A: What did (\normalsize B went only a few times \Large) /do (\normalsize B goes often \Large) you like about X?
+}
+\end{textblock}
+
+\begin{textblock}{8}(8,8)
+\textblocklabel{picture6}
+\mycard{1/1}{at a restaurant}{
+B: Shopping\\
+Traffic\\
+Entertainment\\
+Scenery\\
+Recereation Activities\\
+}
+\end{textblock}
+
+\begin{textblock}{8}(0,12)
+\textblocklabel{picture7}
+\mycard{1/1}{at a restaurant}{
+A: What didn't (\normalsize B went only a few times \Large) /don't (\normalsize B goes often \Large) you like about X?
+}
+\end{textblock}
+
+\begin{textblock}{8}(8,12)
+\textblocklabel{picture8}
+\mycard{1/1}{at a restaurant}{
+B: People\\
+Traffic\\
+Entertainment\\
+Scenery\\
+Recereation Activities\\
+}
+\end{textblock}
+
+\null
+\newpage
+
+\end{document}
+
+
