@@ -6,6 +6,7 @@ objects = [
 	( "boss",	\[x] -> boss x	),
 	( "company",	\[x] -> company x	),
 	( "candidate",	\[x] -> candidate x	),
+	( "co-worker",	\[x] -> co_worker x	),
 	( "subject",	\[x] -> subject x	),
 
 
@@ -14,14 +15,14 @@ objects = [
 
 inflections = [
  ( "supervisor", "boss" ),
+ ( "co-workers", "co-worker" ),
  ( "information_technology", "i_t" ),
- ( "visitor", "customer" ),
- ( "visitors", "visitor" ),
  ( "comments", "comment" ),
  ( "requests", "request" ),
  ( "names", "name" ),
  -- ( "appeared", "appear" ),
- ( "visited", "visit" ),
+ ( "helped", "help" ),
+ ( "volunteered", "volunteer" ),
  ( "interviewed", "interview" ),
  ( "interviewees", "interviewee" ),
  ( "taught", "teach" ),
@@ -48,7 +49,10 @@ relations = [
 	( "nervous",	\[x] -> nervous x	),
 
 	-- ( "appear",	\[x,y] -> appear y x	),
-	( "visit",	\[x,y]	-> visit y x	),
+	( "help",	\[x,y]	-> help y x	),
+
+	( "volunteer",	\[x]	-> volunteer x	),
+	( "volunteer",	\[x,y]	-> volunteer_at y x	),
 	( "interview",	\[x,y]	-> interview y x	),
 	( "teach",	\args -> case args of
 		[x,y] -> (teach_who y x || teach_what y x)
