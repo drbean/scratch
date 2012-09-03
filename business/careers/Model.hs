@@ -38,6 +38,7 @@ sales_representative	= pred1 [R]
 regional_manager	= pred1 [P]
 sales_manager	= pred1 [S]
 secretary	= pred1 []
+local_businees_club	= pred1 [C]
 subject	= pred1 [M,G,H]	-- marketing, engineering, history
 job	= pred1 [J]
 story	= pred1 [Y]
@@ -66,7 +67,10 @@ possessions	= []
 appreciation	= []
 identities	= [(B,P),(T,R),(E,P)]
 supervision	= [(T,Unspec)]
+co_working	= [] -- [(E,B)]
 -- appearances	= [(B,Strong)]
+assistance	= [(Unspec,T),(E,Unspec)]
+volunteering	= [(E,C)]
 
 --(site(company),worker,job)
 recruitment	= [(F,B,R),(F,T,P),(F,E,R),(F,Unspec,S)]
@@ -116,7 +120,11 @@ knowledge	= []
 acquaintances	= []
 know	= pred2 $ knowledge ++ acquaintances ++ map swap acquaintances
 appreciate	= pred2 appreciation
-visit	= pred2 $ map (\x -> (patient x, recipient x) ) recruitment
+-- co_workers	= pred2 $ co_working ++ map swap co_working
+co_worker	= pred1 $ map fst co_working ++ map snd co_working
+help	= pred2 assistance
+volunteer	= pred1 $ map (\x -> fst x ) volunteering
+volunteer_at	= pred2 volunteering
 interview	= pred2 $ map (\x -> (agent x, patient x) ) recruitment
 greet	= interview
 
