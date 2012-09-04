@@ -27,6 +27,10 @@ characters = [
 
 male, female :: OnePlacePred
 
+polish	= pred1 [B,T]
+german	= pred1 [E]
+american	= pred1 [F]
+
 female	= pred1 [B,E]
 male	= pred1 [T,D]
 role	= pred1 [R,P,S]

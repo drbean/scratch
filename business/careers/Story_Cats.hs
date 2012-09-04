@@ -7,6 +7,7 @@ names, nouns, verbs, aux, adjs, advs :: Lexset
 names = [
 	[Cat "polish"	"ADJ" [] [],
 		Cat "polish" "NP" [Thrd,Neutr,Sg] []],
+	[Cat "american"	"ADJ" [] []],
 	[Cat "english"	"ADJ" [] [],
 		Cat "english" "NP" [Thrd,Neutr,Sg] []],
 	[Cat "german"	"ADJ" [] [],
