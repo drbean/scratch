@@ -161,6 +161,18 @@ preproc ("mr":"payne":xs)	= "mr_payne" : preproc xs
 preproc ("business":"law":xs)	= "business_law" : preproc xs
 preproc ("rutgers":"university":xs)	= "rutgers_university" : preproc xs
 
+preproc ("sales":"representative":xs)	= "sales_representative" : preproc xs
+preproc ("fast":"track":xs)	= "fast-track" : preproc xs
+preproc ("regional":"manager":xs)	= "regional_manager" : preproc xs
+-- preproc ("sales":"manager":xs)	= "sales_manager" : preproc xs
+preproc ("secondary":"school":xs)	= "secondary_school" : preproc xs
+preproc ("local":"business":"club":xs)	= "local_business_club" : preproc xs
+preproc ("sales":"experience":xs)	= "sales_experience" : preproc xs
+preproc ("team":"member":xs)	= "team_member" : preproc xs
+preproc ("team":"members":xs)	= "team_members" : preproc xs
+
+preproc ("the":"united":"states":xs)	= "the_united_states" : preproc xs
+
 preproc ("dr":"bean":xs)	= "dr_bean" : preproc xs
 preproc ("european":"campers":xs)	= "european_campers" : preproc xs
 preproc ("office":"worker":xs)	= "office_worker" : preproc xs
