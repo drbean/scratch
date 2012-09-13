@@ -27,8 +27,6 @@ by Dr Bean
 
 (hint: press the spacebar or Backspace)
 
----- include business_exam.vroom
-
 ----
 == Ways of working
 
@@ -51,15 +49,13 @@ Each week we will:
 ----
 == Grades
 
-* Classwork. Each week you get points:
+* Classwork. Each week your group get points:
   * 0, if absent
-  * 1, if late for 2-partner competition
-  * 3, if you lose to your partner
-  * 4, if you draw with your partner
-  * 5, if you beat your partner
+  * 2, if your group loses
+  * 3, if your group wins
 
 +* Homework. Each week listen to a sound file and fill in the missing words for 2 points.
-  * http://web.nuu.edu.tw/~greg/business/stress-1A.mp3
+  * http://elearning.nuu.edu.tw
   * http://web.nuu.edu.tw/~greg/DictationExercises.html
 
 +* Exams.
@@ -69,9 +65,9 @@ Each week we will:
 
 ----
 == Grade computation
-* Classwork: 60/70 percent
-* Homework: 15/20 percent
-* Exams: 15/20 percent
+* Classwork: 50/70 percent
+* Homework: 15/25 percent
+* Exams: 15/25 percent
 
 ----
 == Make-up
@@ -82,11 +78,25 @@ Each week we will:
 ----
 == Textbook
 	
+	* Market Leader. Longman
 	* English Conversation in Taiwan by Yeldham, Crane
-	ISBN 986-7739-22-1
 
-	* Class leader to collect money, get book from
-	Language Center Office
+	* No need to get textbook
+
+	* BUT you MUST have notebook
+
+----
+== Groups
+
+Orange		Black
+Pink		Blue
+Purple		Brown
+Red		Gray
+White		Green
+Yellow		BlackBlack
+OrangeOrange	GreenGreen
+
+
 
 ---- include comp.vroom
 
