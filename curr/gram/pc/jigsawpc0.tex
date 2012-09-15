@@ -1,0 +1,90 @@
+\documentclass[a4paper]{article}
+\usepackage[T1]{fontenc}
+% \usepackage[absolute,noshowtext,showboxes]{textpos}
+\usepackage[absolute,showboxes]{textpos}
+% \textblockorigin{-0.02cm}{0.07cm} %HPDeskJet5160
+% \textblockorigin{0.00cm}{0.00cm} %HPDeskJet5160
+% \textblockorigin{-0.05cm}{0.13cm} %HPDeskJet5160
+\textblockorigin{0.00cm}{0.00cm} %HPLaserJet5000LE
+\usepackage{texdraw}
+\usepackage{multicol}
+\usepackage{soul}
+\pagestyle{empty}
+\setlength{\unitlength}{1cm}
+
+\newcommand{\myIdentifier}[0]{
+present continuous 0
+}
+
+\newcommand{\myAcontent}[0]{
+Your daughter, Joan was living with her boyfriend. They were now both in their late thirties. You were concerned. You asked Joan, "When are you going to marry John. Set a date!" She said, "I'm not marrying John." You told her, "Your father is retiring, and if you don't get married this year, he's not paying for your wedding!"
+}
+
+\newcommand{\myBcontent}[0]{
+You want your girlfriend, Joan to marry you. She doesn't seem to want to marry you. You ask Joan's mother, Joy.
+}
+
+\newcommand{\myCcontent}[0]{
+Your husband Richard is a scoutmaster. He has been a scoutmaster for much of his life. You and he have two daughters, but he loves helping the boys do activities like, camping and learning skills like first aid, swimming and woodworking.
+}
+
+\newcommand{\mycard}[5]{%
+	\vspace{0.1cm}
+	\small #1 #2
+	\par
+	\parbox[t][6.7cm][c]{9.5cm}{%
+	\hspace{0.1cm} \Large#3\\
+	\normalsize#4 #5
+	}
+}
+
+\begin{document}
+\fontfamily{hlst}\fontseries{b}\fontshape{n}\selectfont
+% \begin{picture}(15,20)(+4.8,-22.05)
+% \begin{tabular}[t]{*{2}{|p{10.05cm}}|}
+
+\begin{textblock}{8}(0,0)
+\textblocklabel{picture1}
+\mycard{}{\myIdentifier}{\parbox{9.0cm}{A:
+\myAcontent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(8,0)
+\textblocklabel{picture2}
+\mycard{}{\myIdentifier}{\parbox{9.0cm}{B:
+\myBcontent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(0,4)
+\textblocklabel{picture3}
+\mycard{}{\myIdentifier}{\parbox{9.0cm}{C:
+\myCcontent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(0,8)
+\textblocklabel{picture5}
+\mycard{}{\myIdentifier}{\parbox{9.0cm}{A:
+\myAcontent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(8,8)
+\textblocklabel{picture6}
+\mycard{}{\myIdentifier}{\parbox{9.0cm}{B:
+\myBcontent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(0,12)
+\textblocklabel{picture7}
+\mycard{}{\myIdentifier}{\parbox{9.0cm}{C:
+\myCcontent
+}}{}{} 
+\end{textblock}
+
+\end{document}
+
+
