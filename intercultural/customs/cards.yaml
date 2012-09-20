@@ -1,0 +1,94 @@
+---
+genre: intercultural
+xo:
+  compcomp:
+    0:
+      identifier:
+      White: 
+      Black: 
+      quiz:
+        - question: 
+          answer: 
+  jigsaw:
+    0:
+      identifier: hugs and kisses 17
+      A: You had a girlfriend in high school, but she has gone to study in a college a long way from you. And she didn't reply to your email. You think she has forgotten about you. But she sends you an email. You tell Barry excitedly.
+      B: You don't have a girlfriend, but your friend, Andrew does. His girlfriend was Claire. You are not interested in their relationship. You are not excited when he tells you that Claire sent him an email with hugs and kisses in it. 
+      C: After leaving high school, you went to a college a long way from your home. You miss your family and Andrew, a friend, a little bit. You don't know how you feel about Andrew. But you send him an email and type "XOXOXO" at the end.
+      quiz:
+        - question: A
+          option:
+            - Andrew
+            - Barry
+            - Claire
+          answer: Andrew
+        - question: B
+          option:
+            - Andrew
+            - Barry
+            - Claire
+          answer: Barry
+        - question: C
+          option:
+            - Andrew
+            - Barry
+            - Claire
+          answer: Claire
+        - question: Andrew and Claire were friends.
+          answer  : True
+        - question: Andrew has gone away to study
+          answer  : False
+        - question: Claire is in college.
+          answer  : True
+        - question: Barry is excited to hear about Claire.
+          answer  : False
+        - question: Claire loves Andrew very much.
+          answer  : False
+        - question: Andrew loves Claire more than she him.
+          answer  : True
+back_to_school:
+  compcomp:
+    0:
+      identifier:
+      White: 
+      Black: 
+      quiz:
+        - question: 
+          answer: 
+  jigsaw:
+    0:
+      identifier: back to school shopping 54
+      A: You have two daughters aged 13 and 12. They are returning to school after the Labor Day weekend. Like every year, you are going to go shopping with them. They have enough clothes and school supplies but now is a good time to go shopping because everything is cheaper.
+      B: You have picked out the dress you want to buy at Walmart. You ask your sister, Roseanne if she thinks your mom will pay for it. She doesn't answer. She's not interested in clothes. You're not interested in getting a notebook, like her. You're not interested in using computers.
+      C: You like using the computer to chat with friends on Facebook. Lots of classmates bring notebooks or laptop computers to school to use in class . You also want to take a notebook computer to school so you can use Facebook while you are at school. take a 
+      quiz:
+        - question: A
+          option:
+            - Jill
+            - Mom
+            - Roseanne
+          answer: Mom
+        - question: B
+          option:
+            - Jill
+            - Mom
+            - Roseanne
+          answer: Mom
+        - question: C
+          option:
+            - Jill
+            - Mom
+            - Roseanne
+          answer: Mom
+        - question: Andrew and Claire were friends.
+          answer  : True
+        - question: Andrew has gone away to study
+          answer  : False
+        - question: Claire is in college.
+          answer  : True
+        - question: Barry is excited to hear about Claire.
+          answer  : False
+        - question: Claire loves Andrew very much.
+          answer  : False
+        - question: Andrew loves Claire more than she him.
+          answer  : True
