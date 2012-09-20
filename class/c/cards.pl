@@ -45,8 +45,8 @@ for my $t ( keys %$cards ) {
 		my $quiztmpl = Text::Template->new( type => 'file',
             source =>  '/home/drbean/class/tmpl/namequestionsB5.tmpl' ,
 			delimiters => [ '<TMPL>', '</TMPL>' ]);
-		my $fio = io "$ARGV[0]/jigsaw$t$f.tex";
-		my $qio = io "$ARGV[0]/quiz$t$f.tex";
+		my $fio = io "$ARGV[0]/jigsaw_$t_$f.tex";
+		my $qio = io "$ARGV[0]/quiz_$t_$f.tex";
 		my $hio = io "$ARGV[0]/quiz$t$f.html";
 		my $n = 1;
 		my $questions = $form->{quiz};
