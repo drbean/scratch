@@ -1,0 +1,56 @@
+---
+-
+  - id
+  - description
+  - genre
+  - target
+  - content
+  - unclozeables
+  - percent
+-
+  - 1st_impressions
+  - False impressions on men afraid of smart women
+  - speaking
+  - all
+  - |+
+    Sara: Two girls were talking. And then a cute guy came by. And then, he was talking. But one girl pretended that she was, wasn't smart.
+
+    Well, I think that intelligence is sexy in a woman. And, um, changing yourself is, um, definitely wrong. I do have, like, many friends who do that all the time. But it is really easy to get a date. It is. But the problem is that they date that person and they realize that it was the wrong man. And they finally just break up. And, um, and it’s because they pretended they were a different person. If you want the right man, you have to be yourself.
+  - Sara
+  - 80
+-
+  - traffic
+  - Traffic jam
+  - speaking
+  - all
+  - |+
+    Hi. This is Richard. Let's look at Unit 2. Traffic Jam. In Unit 2, the focus is on traffic, what happens when there are too many vehicles on the road. In big cities all over the world--Seoul, Taipei, Tokyo, Shanghai, New York, London, Sao Paolo--there is a flood of cars, trucks, buses on the streets. The result is a big mess, a big jam.
+
+    There are some cities such as Singapore and London that have done some very innovative things to try to solve the traffic problem. Unfortunately, many cities have not done anything. Here are some very interesting questions that come out of this unit.
+
+    What are some solutions to traffic problems? What can we do? Is there anything we can do? Why do people use cars? Are there alternative forms of transportation to driving cars? Are there anything that governments can do to solve these problems?
+
+    Now when you start teaching this unit, there are some things that you might want to think about before you begin. A lot of people think that owning a car and driving a car is a status symbol, that is, it shows that they have money, that they are important people. And they would really hate to give up driving a car.
+
+    And when it comes right down to it, people maybe don't care so much about the environment as they should, when they have a car. They think it's very convenient, and it takes them to where they want to go.
+
+    Ah, some difficult issues to face in this, but with the cost of oil going up and up and up, this is an important issue. I hope your students enjoy it.
+
+  - Richard|Seoul|Sao Paolo|teaching|students
+  - 50
+
+---
+-
+  - genre
+  - text
+  - id
+  - target
+  - content
+  - answer
+-
+  - speaking
+  - 1st_impressions
+  - 1
+  - all
+  - ''
+  - False
