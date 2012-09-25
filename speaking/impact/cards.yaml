@@ -1,0 +1,73 @@
+---
+genre: impact
+1st_impressions:
+  jigsaw:
+    0:
+      identifier: 1st\_impressions 0
+      A: You are white. You graduated from high school, but didn't go to college. You go over to Tamara and Sandy, 2 Asian-American women at a party. You want to talk to Tamara. You think she is more fun than Sandy.
+      B: You are an Asian-American woman. You tell Dave you are studying chemistry, a difficult subject. You are mad at your friend Tamara because she doesn't tell Dave she is also studying a difficult subject.
+      C: You don't tell men that you are a student when you meet them. You think they won't enjoy talking to you. You didn't tell Dave. And Dave wants to talk to you. Sandy is upset that you didn't tell Dave.
+      quiz:
+        - question: A
+          option: 
+           - Dave
+           - Sandy
+           - Tamara
+          answer: Dave
+        - question: B
+          option:
+           - Dave
+           - Sandy
+           - Tamara
+          answer: Sandy
+        - question: C
+          option:
+           - Dave
+           - Sandy
+           - Tamara
+          answer: Tamara
+        - question: Dave knows Tamara and Sandy.
+          answer: False
+        - question: Sandy tells Dave she's a student.
+          answer: True
+        - question: Tamara tells Dave she's a student.
+          answer: False
+        - question: Tamara is upset at Sandy.
+          answer: False
+        - question: Dave wants to talk to Tamara.
+          answer: True
+        - question: Dave wants to talk about studying.
+          answer: False
+        - question: Sandy scared Dave, talking about studying.
+          answer: True
+  compcomp:
+    0:
+      identifier: jackson 0
+      White: |+
+        \begin{normalsize}Unemployment among older women in US\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Rate] For women over 55, about 6 percent, less than the overall 8 percent, but increasing. Local governments, with less money, are cutting jobs, like teaching and office work, mostly held by women.
+        \item [Length] Half of all unemployed people over the age of 55 have been unemployed for more than 6 months. 200,000 have given up looking for work.
+        \item [History] In 2007, at the recession's start, women (especially older women) were less likely to lose work. But older unemployed women look a lot longer for new jobs, and they make a lot less than before.
+        \end{description}
+      Black: |+
+        \begin{normalsize}The Gathering Place, Denver\end{normalsize}
+        \normalsize
+        \begin{description}
+        \item [Description] A daytime center for homeless \& poor women run by a women's group since 1986 in Denver.
+        \item [Services] Food, clothing, toiletries, computer lab, haircuts, test tutoring, help contacting lawyers, housing providers, \& government services.
+        \item [Use] Each day, 190 visitors, 180 meals, 1 haircut, 680 kg of food, 2.3 bras, 29 computer lab visits, 8.6 meetings arranged with government service representatives.
+        \item [Gov't survey] Women 45\% of the homeless in Denver. 31\% living with family or friends, 24\% in transitional housing, 17\% in emergency shelter, 7\% in own home, \& 5\% in car/on street.
+        \end{description}
+      quiz:
+        - question: Question 13. Jackson. The unemployment rate is higher for older women than for any other group.
+          answer: False
+        - question: Question 14. Jackson. Homeless men cannot get services at The Gathering Place.
+          answer: True
+        - question: Question 15. Jackson. Older women who lose their jobs and have no safety net are more likely to end up at The Gathering Place than younger women.
+          answer: True
+        - question: Question 16. Jackson. 45 percent of the women in Denver are homeless.
+          answer: False
+
+          answer: True
