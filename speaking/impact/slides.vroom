@@ -96,13 +96,13 @@ Answerer:	| I disagree |              |       | totally wrong. |
 
 Talking
 
-Black A:Questioner     Black B:Questioner     Black C:Questioner
+A:Questioner     B:Questioner
   &             &
-   Green A: Answerer Green B: Answerer Green C: Answerer
+   1: Answerer 2: Answerer
 
-   Black2 C: Answerer Black2 B: Answerer Black2 A: Answerer
+   4: Answerer 3: Answerer
   &             &
-Blue C:Questioner     Blue B:Questioner     Blue A:Questioner
+C:Questioner     D:Questioner
 
 + Moving
 
