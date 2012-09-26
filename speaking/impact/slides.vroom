@@ -1,7 +1,7 @@
 ---- config
 # Basic config options.
 title: Speaking with Impact Issues 2
-indent: 5
+indent: 0
 height: 18
 width: 50
 skip: 0
@@ -17,7 +17,7 @@ by Dr Bean (高來圭)
 == Unit 1 First Impressions
 
 ----
-== What do they think?
+== What do they think about first impressions?
 
 Anna:	I would never change how I act in front of men.
 	That's stupid
@@ -32,7 +32,7 @@ Anna:	I would never change how I act in front of men.
 	Men like to feel smarter than women.
 
 ----
-== What do YOU think?
+== What do YOU think about first impressions?
 
 
 Anna:	I would never change how I act in front of men.
@@ -47,7 +47,7 @@ Answerer:	| I disagree |              |       | totally wrong. |
 		| I agree    |              |       | right.         |
 
 ----
-== What do YOU think?
+== What do YOU think about first impressions?
 
 Iris:	Guys just care about looks. It's too bad women have 
 	to adapt to them.
@@ -62,7 +62,7 @@ Answerer:	| I disagree |              |       | totally wrong. |
 		| I agree    |              |       | right.         |
 
 ----
-== What do YOU think?
+== What do YOU think about first impressions?
 
 
 Shingo:	Intelligence is really sexy in a woman. Smart women
@@ -77,7 +77,7 @@ Answerer:	| I disagree |              |       | totally wrong. |
 		| I agree    |              |       | right.         |
 
 ----
-== What do YOU think?
+== What do YOU think about first impressions?
 
 Mark:	Smart women should hide their intelligence.
 	Men like to feel smarter than women.
@@ -92,6 +92,78 @@ Answerer:	| I disagree |              |       | totally wrong. |
 		| I agree    |              |       | right.         |
 
 ----
+== What do YOU think about the local language?
+
+Anna: It's crazy to live somewhere for four years
+        and not learn the language.
+
+           |       |     | a clear view-              | point.   |
+Questioner:|       |     | an interesting             |          |
+           | Anna  | has |                            +----------+
+           |       |     | a good                     |          |
+           |       |     | a strong                   | argument.|
+           |-------+-----+----------------------------+----------|
+           | Yes,  |     | think so, too.             |          |
+Answerer:  |       |     | believe in the same thing. |          |
+           |-------| I   |----------------------------+----------|
+           |Really?|     | don't think so.            |          |
+           |       |     | don't see it that way.     |          |
+
+----
+== What do YOU think about the local language?
+
+Shingo: Why bother to learn the local language when the local staff
+        speaks English?
+
+           |       |     | a clear view-              | point.   |
+Questioner:|       |     | an interesting             |          |
+           | Shingo| has |                            +----------+
+           |       |     | a good                     |          |
+           |       |     | a strong                   | argument.|
+           |-------+-----+----------------------------+----------|
+           | Yes,  |     | think so, too.             |          |
+Answerer:  |       |     | believe in the same thing. |          |
+           |-------| I   |----------------------------+----------|
+           |Really?|     | don't think so.            |          |
+           |       |     | don't see it that way.     |          |
+
+----
+== What do YOU think about the local language?
+
+Mark: The local staff should speak better English.
+        It's the language of business.
+
+           |       |     | a clear view-              | point.   |
+Questioner:|       |     | an interesting             |          |
+           | Mark  | has |                            +----------+
+           |       |     | a good                     |          |
+           |       |     | a strong                   | argument.|
+           |-------+-----+----------------------------+----------|
+           | Yes,  |     | think so, too.             |          |
+Answerer:  |       |     | believe in the same thing. |          |
+           |-------| I   |----------------------------+----------|
+           |Really?|     | don't think so.            |          |
+           |       |     | don't see it that way.     |          |
+
+----
+== What do YOU think about the local language?
+
+Iris: Native English speakers are spoiled. It's important for
+        them to learn a foreign language.
+
+           |       |     | a clear view-              | point.   |
+Questioner:|       |     | an interesting             |          |
+           | Iris  | has |                            +----------+
+           |       |     | a good                     |          |
+           |       |     | a strong                   | argument.|
+           |-------+-----+----------------------------+----------|
+           | Yes,  |     | think so, too.             |          |
+Answerer:  |       |     | believe in the same thing. |          |
+           |-------| I   |----------------------------+----------|
+           |Really?|     | don't think so.            |          |
+           |       |     | don't see it that way.     |          |
+
+----
 == Practicing expressing agreement/disagreement
 
 Talking
@@ -104,7 +176,10 @@ A:Questioner     B:Questioner
   &             &
 C:Questioner     D:Questioner
 
-+ Moving
+----
+== Practicing expressing agreement/disagreement
+
+Moving
 
 A:               B:
 
@@ -114,7 +189,10 @@ A:               B:
 
 C:               D:
 
-+ Talking
+----
+== Practicing expressing agreement/disagreement
+
+Talking
 
 A:Answerer       B:Answerer
  &              &
@@ -123,6 +201,50 @@ A:Answerer       B:Answerer
   3:Questioner 2: Questioner
  &              &
 C:Answerer       D:Answerer
+
+----
+== With 4 cool groups
+
+Black A         Black B         Black C
+&              &               &
+Green A         Green B         Green C
+
+Black2 A        Black2 B        Black2 C
+&              &               &
+Blue A          Blue B          Blue C
+
+----
+== With 4 hot groups
+
+Orange A        Orange B        Orange C
+ &              &               &
+White A         White B         White C
+
+Yellow A        Yellow B        Yellow C
+ &              &               &
+Pink A          Pink B          Pink C
+
+----
+== With 0034522
+
+Jill    Mil     Eva      Cheer
+ &            &        &
+Sally   Jay     Anita    Mandy
+
+Stella  Jennifer Doris   Lin
+ &            &        &
+Cindy    Yvonne  Miru    DrBean
+
+----
+== With 0034522, next
+
+Jill    Mil     Eva      Cheer
+ &            &        &
+Stella  Sally   Jay      Anita
+
+Jennifer Doris   Lin     Mandy
+ &            &        &
+Cindy    Yvonne  Miru    DrBean
 
 ----
 == Homework
