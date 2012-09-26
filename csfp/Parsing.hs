@@ -36,7 +36,7 @@ data Feat = Masc  | Fem  | Neutr | MascOrFem
 	  | Pos   | Ng
           | About | After | Around | At | As | BecauseOf
 	  | In | Like | On | For | With
-	  | By | To | From | Through
+	  | By | To | ToInf | From | Through
 	  | Of
           deriving (Eq,Show,Ord)
 
@@ -526,6 +526,15 @@ ppR = \us xs ->
 
 prsPREP :: SPARSER Cat Cat
 prsPREP = leafPS "PREP"
+
+prsTO :: SPARSER Cat Cat
+prsTO = leafPS "TO"
+
+infinR :: SPARSER Cat Cat
+infinR = \us xs -> 
+  [ (Branch (Cat "_" "INF" (fs (t2c vp)) []) [to,vp], ws, zs) | 
+      (to,vs,ys) <- prsTO us xs, 
+      (vp,ws,zs)   <- prsVP vs ys ]
 
 prsCOMPorNPorPP :: SPARSER Cat Cat
 prsCOMPorNPorPP = prsCOMP <||> prsNP <||> prsPP 
