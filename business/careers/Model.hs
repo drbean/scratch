@@ -4,10 +4,16 @@ import Data.Tuple
 import Data.List
 import Data.Maybe
 
-data Entity	= A | B | C | D | E | F | G 
+data Entity	=
+              A | B | C | D | E | F | G 
             | H | I | J | K | L | M | N 
             | O | P | Q | R | S | T | U 
-            | V | W | X | Y | Z | Someone | Something | Unspec
+            | V | W | X | Y | Z
+            | AA | AB | AC | AD | AE | AF | AG 
+            | AH | AI | AJ | AK | AL | AM | AN 
+            | AO | AP | AQ | AR | AS | AT | AU 
+            | AV | AW | AX | AY | AZ
+	    | Someone | Something | Unspec
      deriving (Eq,Show,Bounded,Enum,Ord)
 
 entities :: [Entity]
@@ -17,7 +23,10 @@ entities	=  [minBound..maxBound]
 characters :: [ (String, Entity) ]
 
 characters = [
-	( "fast_track",	F ),
+	( "germany",	Z ),
+	( "the_united_states",	U ),
+	( "poland",	K ),
+	( "fast-track",	F ),
 	( "barbara",	B ),
 	( "eva",	E ),
 	( "tadeusz",	T ),
@@ -38,18 +47,23 @@ child	= pred1 []
 
 company	= pred1 [F]
 candidate	= pred1 [B,T,E,D]
-sales_representative	= pred1 [R]
-regional_manager	= pred1 [P]
+sales_representative	= pred1 [P]
+regional_manager	= pred1 [R]
 sales_manager	= pred1 [S]
+sales_experience = pred1 [X]
 secretary	= pred1 []
-local_businees_club	= pred1 [C]
+college	= pred1 [L]
+secondary_school	= pred1 [O]
+local_business_club	= pred1 [C]
 subject	= pred1 [M,G,H]	-- marketing, engineering, history
 job	= pred1 [J]
+ideas	= pred1 [I]
 story	= pred1 [Y]
 thirty	= pred1 [B]
 fifty_two	= pred1 [T]
 forty_two	= pred1 [E]
 successful	= pred1 [B,T,E]
+personality	= pred1 [N]
 -- barbara
 energetic	= pred1 [B]
 confident	= energetic
@@ -67,22 +81,28 @@ reliable	= calm
 quiet	= pred1 [E]
 nervous	= quiet
 
+good	= pred1 [AG]
+bad	= pred1 [AB]
+
+team_member	= pred1 [W]
+co_worker	= pred1 [W,E,B]
+co_workers	= [(E,B)]
 possessions	= []
 appreciation	= []
-identities	= [(B,P),(T,R),(E,P)]
 supervision	= [(T,Unspec)]
-co_working	= [] -- [(E,B)]
 -- appearances	= [(B,Strong)]
 assistance	= [(Unspec,T),(E,Unspec)]
 volunteering	= [(E,C)]
+teamplay	= [(B,AB),(T,AG),(E,AG)]
 
---(site(company),worker,job)
-recruitment	= [(F,B,R),(F,T,P),(F,E,R),(F,Unspec,S)]
+
+--(recruiter(boss,interviewer),site(company),worker,job)
+recruitment	= [(F,B,R),(F,T,P),(F,E,R),(F,D,S)]
 comms	= [ (B,Y,Unspec),(A,Y,Unspec),(E,Y,Unspec) ]
-giving	= []
+giving	= [(W,I,T)]
 
 -- (teacher,school(location),subject,student)
-schooling = [(Unspec,Unspec,M,B),(Unspec,Unspec,G,T),(Unspec,Unspec,H,E)]
+schooling = [(Unspec,O,M,B),(Unspec,L,G,T),(Unspec,L,H,E)]
 
 namelist = map fst characters
 
@@ -107,6 +127,7 @@ boy	= \x -> male x && child x
 isMan	= \x -> ( not $ boy x ) && male x
 isGirl	= \x -> ( female x && child x )
 isWoman	= \x -> ( not $ isGirl x ) && female x
+interviewer = pred1 $ map agent recruitment
 interviewee = pred1 $ map patient recruitment
 boss = pred1 $ map fst supervision
 
@@ -119,13 +140,13 @@ pred4 xs	= curry4 ( `elem` xs )
 have	= pred2 $ possessions ++ supervision
 		++ ( map (\x->(patient x,J) ) recruitment )
 		++ ( map (\x->(agent x, location x) ) recruitment )
+		++ co_workers ++ map swap co_workers
+		++ ( map (\x->(x,N) ) people -- personality
 
 knowledge	= []
 acquaintances	= []
 know	= pred2 $ knowledge ++ acquaintances ++ map swap acquaintances
 appreciate	= pred2 appreciation
--- co_workers	= pred2 $ co_working ++ map swap co_working
-co_worker	= pred1 $ map fst co_working ++ map snd co_working
 help	= pred2 assistance
 volunteer	= pred1 $ map (\x -> fst x ) volunteering
 volunteer_at	= pred2 volunteering
