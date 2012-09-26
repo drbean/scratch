@@ -125,6 +125,8 @@ gerunds = [
 	--]
 
 transitives = [
+	[Cat "wanted" "VP" [Tense] [Cat "_" "TOINF" [To] []]],
+	[Cat "want" "VP" [Infl] [Cat "_" "TOINF" [To] []]],
 	--[Cat "appreciated"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	--[Cat "appreciate"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
 	--[Cat "disappointed"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
@@ -256,7 +258,8 @@ preps = [
 	[Cat "like" "PREP" [Like] []],
 	[Cat "in"   "PREP" [In]   []],
 	[Cat "on"   "PREP" [On]   []],
-	[Cat "to"   "PREP" [To]   []],
+	[Cat "to"   "PREP" [To]   [],
+		Cat "to" "TO" [ToInf] []],
 	[Cat "through" "PREP" [Through] []],
 	[Cat "with" "PREP" [With] []]
 	]
