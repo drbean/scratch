@@ -40,12 +40,16 @@ type Interp a	= String -> [a] -> Bool
 
 inttuples = objects ++ relations ++ Story.objects ++ Story.relations
 			    ++ Topic.objects ++ Topic.relations
+infltuples = inflections ++ Topic.inflections ++ Story.inflections 
 
 int :: Interp Entity
 
-int word = if any (\x -> fst x == word ) inttuples
-    then maybe null id $ lookup word inttuples
-    else maybe null int $ lookup word  ( Topic.inflections ++ Story.inflections )
+int word = int' word inttuples infltuples where 
+	int' w [] []	= error $ "'" ++ w ++ "'" ++ " has no interpretation"
+	int' w [] ((infl,word):infls) | w == infl	=  int' word inttuples [] 
+	int' w [] (i:is)	= int' w [] is
+	int' w ((word,interpretation):is) infls | w == word	= interpretation
+	int' w (i:is) infls	= int' w is infls
 
 data Term = Const Entity | Var Int | Struct String [Term]
 	deriving (Eq)

@@ -167,9 +167,13 @@ preproc ("regional":"manager":xs)	= "regional_manager" : preproc xs
 -- preproc ("sales":"manager":xs)	= "sales_manager" : preproc xs
 preproc ("secondary":"school":xs)	= "secondary_school" : preproc xs
 preproc ("local":"business":"club":xs)	= "local_business_club" : preproc xs
+preproc ("sales":"record":xs)	= "sales_record" : preproc xs
 preproc ("sales":"experience":xs)	= "sales_experience" : preproc xs
 preproc ("team":"member":xs)	= "team_member" : preproc xs
 preproc ("team":"members":xs)	= "team_members" : preproc xs
+preproc ("thirty":"years":"old":xs)	= "thirty_years_old" : preproc xs
+preproc ("fifty-two":"years":"old":xs)	= "fifty-two_years_old" : preproc xs
+preproc ("forty-two":"years":"old":xs)	= "forty-two_years_old" : preproc xs
 
 preproc ("the":"united":"states":xs)	= "the_united_states" : preproc xs
 
