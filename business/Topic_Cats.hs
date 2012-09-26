@@ -6,17 +6,6 @@ nouns, intransitives, transitives :: Lexset
 
 nouns = [
 --noun and verb
-	[Cat "parent" "VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
-		Cat "parent" "CN" [Sg,MascOrFem,Thrd]   []],
-	[Cat "parents" "CN" [Pl,MascOrFem,Thrd]   []],
-	[Cat "father"    "CN" [Sg,Masc,Thrd] []],
-	[Cat "mother"    "CN" [Sg,Fem,Thrd] []],
-	[Cat "daughter"    "CN" [Sg,Fem,Thrd] []],
-	[Cat "son"    "CN" [Sg,Masc,Thrd] []],
-	[Cat "sons"    "CN" [Pl,Masc,Thrd] []],
-	[Cat "brother"    "CN" [Sg,Masc,Thrd] []],
-	[Cat "sister"    "CN" [Sg,Fem,Thrd] []],
-	[Cat "husband"	"CN" [Thrd,Masc,Sg] []],
 	[Cat "thing"   "CN" [Sg,Neutr,Thrd] []],
 	[Cat "things"  "CN" [Pl,Neutr,Thrd] []],
 	[Cat "person"  "CN" [Sg,Masc,Thrd]  []],
@@ -40,16 +29,6 @@ nouns = [
 	]
 
 intransitives = [
-	[Cat "separated"    "VP" [Tense] []],
-	[Cat "separate"     "VP" [Infl]  []],
-	[Cat "got_married"    "VP" [Tense] [],
-		Cat "got_married"	"VP" [Tense] [Cat "_" "PP" [In] []]],
-	[Cat "get_married"     "VP" [Infl]  [],
-		Cat "get_married"	"VP" [Infl] [Cat "_" "PP" [In] []]],
-	[Cat "got_divorced"    "VP" [Tense] [],
-		Cat "got_divorced"	"VP" [Tense] [Cat "_" "PP" [In] []]],
-	[Cat "get_divorced"     "VP" [Infl]  [],
-		Cat "get_divorced"	"VP" [Infl] [Cat "_" "PP" [In] []]]
 	]
 
 transitives = [
@@ -58,22 +37,10 @@ transitives = [
 	[Cat "disappointed"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
 		Cat "disappointed"	"ADJ" [] []],
 	[Cat "disappoint"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "looked_back"	"VP" [Tense] [],
-		Cat "looked_back"	"VP" [Tense] [Cat "_" "PP" [On] []]],
-	[Cat "look_back"	"VP" [Infl] [],
-		Cat "look_back"	"VP" [Infl] [Cat "_" "PP" [On] []]],
 	[Cat "saw"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "see"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "say"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "said"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "married"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
-		Cat "married"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-					Cat "_" "PP" [In] []]],
-	[Cat "marry"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []],
-		Cat "marry"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
-					Cat "_" "PP" [In] []]],
-	[Cat "divorced"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "divorce"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "asked"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
 		Cat "asked"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
 					Cat "_" "PP" [About] []]],
