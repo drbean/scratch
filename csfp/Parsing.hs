@@ -166,6 +166,7 @@ preproc ("fast":"track":xs)	= "fast-track" : preproc xs
 preproc ("regional":"manager":xs)	= "regional_manager" : preproc xs
 -- preproc ("sales":"manager":xs)	= "sales_manager" : preproc xs
 preproc ("secondary":"school":xs)	= "secondary_school" : preproc xs
+preproc ("college":"degree":xs)	= "college_degree" : preproc xs
 preproc ("local":"business":"club":xs)	= "local_business_club" : preproc xs
 preproc ("sales":"record":xs)	= "sales_record" : preproc xs
 preproc ("sales":"experience":xs)	= "sales_experience" : preproc xs
@@ -533,17 +534,24 @@ prsTO = leafPS "TO"
 infinR :: SPARSER Cat Cat
 infinR = \us xs -> 
   [ (Branch (Cat "_" "INF" (fs (t2c vp)) []) [to,vp], ws, zs) | 
-      (to,vs,ys) <- prsTO us xs, 
-      (vp,ws,zs)   <- prsVP vs ys ]
+  -- [ (Branch (Cat "_" "INF" [] []) [to], vs, ys) | 
+      (to,vs,ys) <- prsTO us xs,
+      (y:ys')    <- [ys],
+      y'         <- [Cat (phon y) "VP" [Tense] (subcatList y)],
+      (vp,ws,zs) <- prsVP vs (y':ys')
+      		]
 
 prsCOMPorNPorPP :: SPARSER Cat Cat
 prsCOMPorNPorPP = prsCOMP <||> prsNP <||> prsPP 
 
-prsCOMPorNPsorPPs :: [Cat] -> [Cat] 
-       -> [([ParseTree Cat Cat],[Cat],[Cat])]
-prsCOMPorNPsorPPs = manyS prsCOMPorNPorPP
+prsVdependent :: SPARSER Cat Cat
+prsVdependent = prsCOMPorNPorPP <||> infinR
 
-prsVdependents = prsCOMPorNPsorPPs <||> manyS prsS
+prsVdependents :: [Cat] -> [Cat] 
+      -> [([ParseTree Cat Cat],[Cat],[Cat])]
+prsVdependents = manyS prsVdependent
+
+prsSorVdependents = prsVdependents <||> manyS prsS
 
 cnrelR :: SPARSER Cat Cat
 cnrelR = \us xs -> 
