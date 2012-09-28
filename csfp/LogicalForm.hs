@@ -241,9 +241,6 @@ transPP :: ParseTree Cat Cat -> (Term -> LF) -> LF
 transPP (Leaf   (Cat "#" "PP" _ _)) = \ p -> p (Var 0)
 transPP (Branch (Cat _   "PP" _ _) [prep,np]) = transNP np
 
-transINF :: ParseTree Cat Cat -> (Term -> LF) -> LF
-transINF (Branch (Cat _   "INF" _ _) [to,vp]) = (transVP vp)
-
 transVP :: ParseTree Cat Cat -> Term -> LF
 transVP (Branch (Cat _ "VP" _ _) 
                 [Leaf (Cat "could" "AUX" _ []),vp]) = 
@@ -282,13 +279,11 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat _ "AUX" _ _),
 	--Branch (Cat _ "NP" _ _) [det,Leaf (Cat qual "ADJ" _ _),cn] -> \subj
 	--    -> Conj [ transCN cn subj, Rel qual [subj] ]
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1]) = 
-	case (catLabel ( t2c obj1 )) of
-		"PP" ->
+	case (obj1) of 
+		(Branch (Cat _ "PP" _ _) _ ) ->
 			\subj -> transPP obj1 (\adv -> Rel name [subj,adv])
-		"NP" ->
+		_ ->
 			\subj -> transNP obj1 (\ obj -> Rel name [subj,obj])
-		"INF"->
-			\subj -> transINF obj1 (\inf -> Rel name [subj,inf])
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),obj1,obj2]) = 
     case (catLabel ( t2c obj1 )) of
 	"NP" ->
