@@ -279,10 +279,10 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat _ "AUX" _ _),
 	--Branch (Cat _ "NP" _ _) [det,Leaf (Cat qual "ADJ" _ _),cn] -> \subj
 	--    -> Conj [ transCN cn subj, Rel qual [subj] ]
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1]) = 
-	case (obj1) of 
-		(Branch (Cat _ "PP" _ _) _ ) ->
+	case (catLabel ( t2c obj1 )) of
+		"PP" ->
 			\subj -> transPP obj1 (\adv -> Rel name [subj,adv])
-		_ ->
+		"NP" ->
 			\subj -> transNP obj1 (\ obj -> Rel name [subj,obj])
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),obj1,obj2]) = 
     case (catLabel ( t2c obj1 )) of
