@@ -32,6 +32,15 @@ topic:
         comment: Listen to Richard Day, the main author of the Impact series discuss <a href="http://www.impactseries.com/Issues_new/authors_introductionmp3/tm2_u2.mp3">his views of traffic jams</a>. He uses these words: focus, vehicle, innovative, status symbol, "When you get right down to it,".
   -
     id: global_communication
+    title: People relating to people
+    intro: Some issues involving relationships are first impressions, marriage, family disagreements, friends, bullying, care of the elderly, international marriage, etc.
+    story:
+      -
+        id: language
+        title: Should foreigners learn the local language?
+        blurb: |
+          In the textbook, in Unit 3, Peter, an Australian is <a href="http://www.learningthai.com">learning Thai</a>. Richard, an American is not. How important is it that foreigners learn the local language. How important is it that local people learn English?
+        comment: Listen to Scott on the Impact series website <a href="http://www.impactseries.com/Issues_new/personal_opinion/2_3.mov">criticize expatriates</a> who don't want to learn the local language.
   -
     id: relationships
     title: People relating to people
