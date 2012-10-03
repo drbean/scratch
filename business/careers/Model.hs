@@ -57,6 +57,7 @@ secondary_school	= pred1 [O]
 local_business_club	= pred1 [C]
 subject	= pred1 [M,G,H]	-- marketing, engineering, history
 job	= pred1 [J]
+raise	= pred1 [AR]
 ideas	= pred1 [I]
 story	= pred1 [Y]
 thirty	= pred1 [B]
@@ -141,8 +142,16 @@ have	= pred2 $ possessions ++ supervision
 		++ ( map (\x->(patient x,J) ) recruitment )
 		++ ( map (\x->(agent x, location x) ) recruitment )
 		++ co_workers ++ map swap co_workers
-		++ ( map (\x->(x,N) ) people -- personality
+		++ ( map (\x->(x,N) ) $ filter people entities ) -- personality
 
+data Want a where
+	Thing :: Entity -> Want Entity
+	Promo :: Entity -> Want Entity
+	Event :: (Entity,Entity,Entity) -> Want Entity
+wants :: [(Entity,Want Entity)]
+wants	= [(B,Thing AR),(B,Promo S),(T,Promo S),(E,Promo S)]
+
+becoming	= pred2 [(B,S),(T,S),(E,S)]
 knowledge	= []
 acquaintances	= []
 know	= pred2 $ knowledge ++ acquaintances ++ map swap acquaintances
