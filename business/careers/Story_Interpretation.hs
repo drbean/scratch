@@ -42,6 +42,7 @@ inflections = [
  ( "names", "name" ),
  -- ( "appeared", "appear" ),
  ( "helped", "help" ),
+ ( "become", "became" ),
  ( "volunteered", "volunteer" ),
  ( "interviewed", "interview" ),
  ( "interviewees", "interviewee" ),
@@ -56,6 +57,7 @@ relations = [
 	( "forty-two",	\[x] -> forty_two x	),
 
 	( "successful",	\[x] -> successful x	),
+	( "good",	\[x] -> good x	),
 
 	( "energetic",	\[x] -> energetic x	),
 	( "confident",	\[x] -> confident x	),
@@ -75,6 +77,7 @@ relations = [
 	-- ( "appear",	\[x,y] -> appear y x	),
 	( "help",	\[x,y]	-> help y x	),
 
+	( "became",	\[x,y]	-> becoming y x	),
 	( "volunteer",	\[x]	-> volunteer x	),
 	( "volunteer",	\[x,y]	-> volunteer_at y x	),
 	( "interview",	\[x,y]	-> interview y x	),
