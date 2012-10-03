@@ -280,10 +280,10 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat _ "AUX" _ _),
 	--    -> Conj [ transCN cn subj, Rel qual [subj] ]
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1]) = 
 	case (catLabel ( t2c obj1 )) of
-		"PP" ->
-			\subj -> transPP obj1 (\adv -> Rel name [subj,adv])
-		"NP" ->
-			\subj -> transNP obj1 (\ obj -> Rel name [subj,obj])
+		"PP" -> \subj -> transPP obj1 (\adv -> Rel name [subj,adv])
+		"NP" -> \subj -> transNP obj1 (\ obj -> Rel name [subj,obj])
+		"INF" -> \subj -> transINF obj1 subj
+
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),obj1,obj2]) = 
     case (catLabel ( t2c obj1 )) of
 	"NP" ->
@@ -305,6 +305,10 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_,_]),obj1,obj2,obj3]
     (\ theme   -> transNPorPP obj3
      (\ recipient -> Rel name [agent,location,theme,recipient])))
 
+transINF :: ParseTree Cat Cat -> Term -> LF
+transINF (Branch (Cat _ "INF" _ _) [Leaf (Cat to "TO" _ _),infvp]) = 
+			\subj -> transVP infvp subj
+			    
 transWH :: Maybe (ParseTree Cat Cat) -> LF
 transWH (Just (Branch (Cat _ "WH" _ _ ) [wh,Branch (Cat _ "S" _ _)
 	[Leaf (Cat "#" "NP" _ _),vp]])) =
