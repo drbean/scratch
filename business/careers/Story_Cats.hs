@@ -26,13 +26,15 @@ nouns = [
 
 	[Cat "secondary_school"	"NP" [Thrd,Neutr,Sg] []],
 	[Cat "college"	"NP" [Thrd,Neutr,Sg] []],
+	[Cat "college_degree"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "marketing"	"NP" [Thrd,Neutr,Sg] []],
 	[Cat "engineering"	"NP" [Thrd,Neutr,Sg] []],
 	[Cat "history"	"NP" [Thrd,Neutr,Sg] []],
 
 	[Cat "sales_representative"	"CN" [Thrd,MascOrFem,Sg] []],
 	[Cat "regional_manager"	"CN" [Thrd,MascOrFem,Sg] []],
-	[Cat "sales_manager"	"CN" [Thrd,MascOrFem,Sg] []],
+	[Cat "sales_manager"	"NP" [Thrd,MascOrFem,Sg] [],
+		Cat "sales_manager"	"CN" [Thrd,MascOrFem,Sg] []],
 	[Cat "candidate"	"CN" [Thrd,MascOrFem,Sg] []],
 	[Cat "candidates"	"CN" [Thrd,MascOrFem,Pl] []],
 	[Cat "co-worker"	"CN" [Thrd,MascOrFem,Sg] []],
@@ -76,6 +78,10 @@ nouns = [
 	]
 
 verbs = [
+	[Cat "became"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "become"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "improved"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "improve"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "helped"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "help"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "volunteered"	"VP" [Tense] [Cat "_" "PP" [At] []]],
@@ -89,8 +95,8 @@ verbs = [
 		Cat "teach"	"VP" [Infl] []],
 	[Cat "visited"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
 		Cat "visited"	"VP" [Tense] []],
-	[Cat "visit"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
-		Cat "visit"	"VP" [Infl] []],
+	[Cat "visit"	"VP" [Infl] [],
+		Cat "visit"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
 
 	[Cat "respected"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "respect"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
