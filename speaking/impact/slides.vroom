@@ -172,9 +172,9 @@ A:Questioner     B:Questioner
   &             &
    1: Answerer 2: Answerer
 
-   4: Answerer 3: Answerer
-  &             &
-C:Questioner     D:Questioner
+       3: Answerer
+      &
+       C:Questioner
 
 ----
 == Practicing expressing agreement/disagreement
@@ -184,10 +184,10 @@ Moving
 A:               B:
 
    1:    →     2:
-   ↑           ↓
-   4:    ←     3:
+      ↖     ↙
+        3:
 
-C:               D:
+        C:
 
 ----
 == Practicing expressing agreement/disagreement
@@ -196,11 +196,35 @@ Talking
 
 A:Answerer       B:Answerer
  &              &
-  4:Questioner 1:Questioner
+  3:Questioner 1:Questioner
 
-  3:Questioner 2: Questioner
- &              &
-C:Answerer       D:Answerer
+        2: Questioner
+       &
+        C:Answerer
+
+----
+== Round 1
+
+Ya-ting2 Claire		Kori Judy	Rita Jibson	Henry Sophia
+Mary     Wan-Ling	Sana Yan-Yun	Jill Bass	Redd  Adam
+    Nini		  Yan-ting	  Zhen-Dai	  Edward
+    Zhi-Wei		  Joan		  Brenda	  Ya-Ting1
+
+----
+== Round 2
+
+Ya-ting2 Claire		Kori    Judy	Rita    Jibson	Henry Sophia
+Nini    Mary		Yan-ting Sana	Zhen-Dai Jill	Edward Redd
+    Wan-Ling		  Yan-Yun	   Bass		  Adam
+    Zhi-Wei		  Joan		  Brenda	  Ya-Ting1
+
+----
+== Round 3
+
+Ya-ting2 Claire		Kori    Judy		Rita Jibson	Henry Sophia
+Wan-Ling Nini		Yan-Yun Yan-ting	Bass Zhen-Dai	Adam  Edward
+    Mary		  Sana			   Jill		   Redd
+    Zhi-Wei		  Joan		           Brenda	  Ya-Ting1
 
 ----
 == With 4 cool groups
