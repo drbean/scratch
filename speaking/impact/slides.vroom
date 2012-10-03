@@ -228,22 +228,55 @@ Pink A          Pink B          Pink C
 == With 0034522
 
 Jill    Mil     Eva      Cheer
- &            &        &
+ &      &     &        &
 Sally   Jay     Anita    Mandy
 
 Stella  Jennifer Doris   Lin
- &            &        &
+ &      &        &     &
 Cindy    Yvonne  Miru    DrBean
 
 ----
 == With 0034522, next
 
 Jill    Mil     Eva      Cheer
- &            &        &
+ &      &       &      &
 Stella  Sally   Jay      Anita
 
 Jennifer Doris   Lin     Mandy
- &            &        &
+ &       &       &     &
+Cindy    Yvonne  Miru    DrBean
+
+----
+== With 0034522, next next
+
+Jill    Mil     Eva      Cheer
+ &       &      &      &
+Jennifer Stella  Sally   Jay
+
+Doris   Lin     Mandy      Anita
+ &       &      &      &
+Cindy    Yvonne  Miru    DrBean
+
+----
+== With 0034522, next next next
+
+Jill    Mil     Eva      Cheer
+ &      &        &     &
+Doris   Jennifer Stella  Sally
+
+Lin     Mandy      Anita   Jay
+ &      &        &     &
+Cindy    Yvonne  Miru    DrBean
+
+----
+== With 0034522, next next next
+
+Jill    Mil     Eva      Cheer
+ &      &        &     &
+Lin     Doris   Jennifer Stella
+
+Mandy      Anita   Jay  Sally
+ &      &        &     &
 Cindy    Yvonne  Miru    DrBean
 
 ----
