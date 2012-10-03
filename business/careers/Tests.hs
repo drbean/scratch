@@ -13,8 +13,8 @@ all_tests =
 
 student_tag_tests = [
 	-- "Eva had been with Fast-Track for one year, hadn't she?"
-	-- "Barbara wasn't a good team-player, was she?",
-	-- "Barbara was a good team-player, wasn't she?",
+	"Barbara wasn't a good team-player, was she?",
+	"Barbara was a good team-player, wasn't she?",
 	"Barbara was a confident person, wasn't she?",
 	"Barbara was thirty years old, wasn't she?"
 	]
@@ -22,7 +22,7 @@ student_tag_tests = [
 student_yn_tests = [
 	"Did Barbara want to improve her English?",
 	"Was Barbara a good team-player?",
-	"Did Eva have a university degree?",
+	"Did Eva have a college degree?",
 	"Was Tadeusz a hard worker?",
 	"Did Tadeuszs have successful sales experience?",
 	"Did Barbara have confidence?",
@@ -338,6 +338,7 @@ intransitives = [
 	"Many men didn't work.",
 	"All men worked.",
 	"No man worked.",
+	"Did Barbara work in Poland?",
 	"Did Barbara work for Poland?",
 	"Did Eva work for Poland?",
 	"Did Eva work at a company?",
@@ -599,6 +600,18 @@ relppR_test = [
 	"The woman with the job gave a job to a co-worker."
 	]
 
+to_inf_test = [
+	"A woman wanted to.",
+	"A woman wanted to have a job.",
+	"Did a woman want to become sales manager?",
+	"Did Barbara want to become sales manager?",
+	"Did Tadeusz want to become sales manager?",
+	"Did Tadeusz become sales manager?",
+	-- "Did a woman want to get to the top?",
+	"Barbara wanted to work.",
+	"A woman wanted to work.",
+	"A woman didn't want to work."
+	]
 
 
 lf0 = Rel "worked" [ Const(ents!!17) ]
