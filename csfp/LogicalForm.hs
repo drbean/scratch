@@ -284,9 +284,9 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1]) =
 	case (catLabel ( t2c obj1 )) of
 		"PP" -> \subj -> transPP obj1 (\adv -> Rel name [subj,adv])
 		"NP" -> \subj -> transNP obj1 (\ obj -> Rel name [subj,obj])
-		"INF" -> \subj -> Conj [ transINF' obj1 subj, Rel name [subj] ] where
+		"INF" -> \subj -> transINF' obj1 (\inf -> Rel name [subj,inf] ) where
 		    transINF' (Branch (Cat _ "INF" _ _) [Leaf (Cat _ "TO" _ _),infvp]) =
-			transVP infvp
+			transNP (transVP infvp)
 
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),obj1,obj2]) = 
     case (catLabel ( t2c obj1 )) of
