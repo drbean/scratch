@@ -131,6 +131,8 @@ transTAG (Just t) = transS (Just (subtree t [0]))
 
 transS :: Maybe (ParseTree Cat Cat) -> LF
 transS (Just Ep) = NonProposition
+transS (Just (Branch (Cat _ "S" _ _) [np,inf@(Branch (Cat _ "INF" _ _) _)])) =
+  (transNP np) (transINF inf)
 transS (Just (Branch (Cat _ "S" _ _) [np,vp])) =
   (transNP np) (transVP vp)
 
@@ -282,7 +284,9 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1]) =
 	case (catLabel ( t2c obj1 )) of
 		"PP" -> \subj -> transPP obj1 (\adv -> Rel name [subj,adv])
 		"NP" -> \subj -> transNP obj1 (\ obj -> Rel name [subj,obj])
-		"INF" -> \subj -> transINF obj1 subj
+		--"INF" -> \subj -> Conj [ transINF' obj1 subj, Rel name [subj] ] where
+		--    transINF' (Branch (Cat _ "INF" _ _) [Leaf (Cat _ "TO" _ _),infvp]) =
+		--	transVP infvp
 
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),obj1,obj2]) = 
     case (catLabel ( t2c obj1 )) of
@@ -306,9 +310,12 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_,_]),obj1,obj2,obj3]
      (\ recipient -> Rel name [agent,location,theme,recipient])))
 
 transINF :: ParseTree Cat Cat -> Term -> LF
-transINF (Branch (Cat _ "INF" _ _) [Leaf (Cat to "TO" _ _),infvp]) = 
-			\subj -> transVP infvp subj
-			    
+transINF (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1]) = 
+-- transINF (Branch (Cat _ "VP" _ _) [Leaf (Cat _ "VP" _ _),(Branch (Cat _ "INF" _ _) [to,inf])]) =
+    \subj -> transINF' obj1 subj where
+	transINF' (Branch (Cat _ _ _ _) [Leaf (Cat _ _ _ _),infvp]) =
+	    transVP infvp
+
 transWH :: Maybe (ParseTree Cat Cat) -> LF
 transWH (Just (Branch (Cat _ "WH" _ _ ) [wh,Branch (Cat _ "S" _ _)
 	[Leaf (Cat "#" "NP" _ _),vp]])) =
