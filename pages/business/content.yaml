@@ -52,17 +52,14 @@ topic:
         id: tips
         title: Which candidate believes in which tip?
         blurb: |
-          In the exam this week, you will share information about which of last week's ten tips each of the candidates believes in. To practice for that exam, listen to an explanation of it for homework.
+          In the exam this week, you will share information about which of the ten tips one of the candidates believes in. To practice for that exam, listen to an explanation of it for homework.
         comment: |
           <p>
-          There are 4 different versions for each student to listen to. Find the version that goes with your fill-in-the-blanks exercise.
+          The sound files were generated with the Festival text-to-speech system. If you can't undertand any words, ask me for help.
           </p>
 
           <ul>
-          <li><b></b> <a href=http://web.nuu.edu.tw/~greg/business/careers/tipsA.mp3>Version 1</a> </li>
-          <li><b></b> <a href=http://web.nuu.edu.tw/~greg/business/careers/tipsB.mp3>Version 2</a> </li>
-          <li><b></b> <a href=http://web.nuu.edu.tw/~greg/business/careers/tipsC.mp3>Version 3</a> </li>
-          <li><b></b> <a href=http://web.nuu.edu.tw/~greg/business/careers/tipsD.mp3>Version 4</a> </li>
+          <li><b></b> <a href=http://web.nuu.edu.tw/~greg/business/careers/tips.mp3>Barbara and 2 tips</a> </li>
           </ul>
       -
         id: interview
