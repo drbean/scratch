@@ -526,6 +526,26 @@ tips:
           answer: False
         - question: A and C's ideas are similar and B and D's ideas are similar.
           answer: True
+    11:
+      identifier: tips 11
+      A: First, you need to think about what you are doing. Keep your mind on the job, not on other things. Second, you need to look for ways to improve your skills, perhaps on weekends or at night. Last, think about your goals and what skills you need to achieve those goals. 
+      B: "First, try to get other people involved in your work. Help others, and they will help you. Second, get together with co-workers. If people know you, they will want to cooperate with you. Last, this doesn't mean to take the easy way. No. Accept challenges, and be prepared for failure."
+      C: First, create your own goals. Decide how to reach those goals. Second, each day have a list of tasks for the day and check how you're going. Last, don't let the job decide what you will do. Try to change the job. If this is impossible, look for another job.
+      quiz:
+        - question: A thinks thinking and knowing about work are most important.
+          answer: True
+        - question: B doesn't see work as a social activity.
+          answer: False
+        - question: C thinks you don't need to plan if your mind is on work.
+          answer: False
+        - question: A thinks cooperation is important.
+          answer: False
+        - question: B thinks working with others can/should be a challenge.
+          answer: True
+        - question: C thinks evaluating progress is important.
+          answer: True
+        - question: A and C's ideas are similar and B's ideas are different.
+          answer: True
     2:
       identifier: tips 2
       A: First, get together with other people from all over the company. Have fun and learn about the company. Second, get other people to help you do your job. Cooperate with them and make work easier. Last, have a life outside the company. Relax with the family on weekends.
@@ -594,6 +614,22 @@ tips:
             - 1. The plan
             - 3. Teamwork
           answer: 1. The plan
+    33:
+      identifier: tips 33
+      A: Barbara tries to do difficult things. She studies after work. She has her own goals.
+      B: Tadeusz has a team which helps him. He and his team do things the hard way, but he rests on the weekend.
+      C: Eva believes the difficult way is the best way, but gets others to work with her, and she has her own goals.
+      rubric: |+
+        1. \textbf{The plan:} Have a schedule\\
+        2. \textbf{Think!} Keep your mind on what you are doing.\\
+        3. \textbf{Teamwork:} Get others to help you.\\
+        4. \textbf{The student:} Learn while away from the job.\\
+        5. \textbf{Togetherness:} Get together with co-workers off the job.\\
+        6. \textbf{My way:} Have your own goals.\\
+        7. \textbf{Be ambitious:} Do things the hard way.\\
+        8. \textbf{Talk to the boss.} Tell him/her what you want.\\
+        9. \textbf{Get a life!} Relax on the weekend.\\
+        10. \textbf{Change your job!} Make your job better, or get a new job.
     4:
       identifier: tips 4
       A: Barbara wants to study after work. She asks the boss for money to study. She wants to make her job a better job.
@@ -712,6 +748,49 @@ tips:
             - 1. The plan
             - 4. The student
           answer: 1. The plan
+      rubric: |+
+        1. \textbf{The plan:} Have a schedule\\
+        2. \textbf{Think!} Keep your mind on what you are doing.\\
+        3. \textbf{Teamwork:} Get others to help you.\\
+        4. \textbf{The student:} Learn while away from the job.\\
+        5. \textbf{Togetherness:} Get together with co-workers off the job.\\
+        6. \textbf{My way:} Have your own goals.\\
+        7. \textbf{Be ambitious:} Do things the hard way.\\
+        8. \textbf{Talk to the boss.} Tell him/her what you want.\\
+        9. \textbf{Get a life!} Relax on the weekend.\\
+        10. \textbf{Change your job!} Make your job better, or get a new job.
+    7:
+      identifier: tips 7
+      A: Fast-Track invited Eva to go on a trip to Germany one weekend. Eva had a local business club meeting that weekend. They were studying a book.
+      B: Eva didn't want to miss the local business club meeting. The book was about how to be a better sales representative. She was learning a lot.
+      C: Eva knew all the people in the company at work. They were Polish. She was German. She knew Germany. She decided not to go on the trip.
+      quiz:
+        - question: 'Eva believes in:'
+          option:
+            - 1.
+            - 2.
+            - 3.
+            - 4.
+            - 5.
+            - 6.
+            - 7.
+            - 8.
+            - 9.
+            - 10.
+          answer: 4.
+        - question: "Eva doesn't believe in:"
+          option:
+            - 1.
+            - 2.
+            - 3.
+            - 4.
+            - 5.
+            - 6.
+            - 7.
+            - 8.
+            - 9.
+            - 10.
+          answer: 5.
       rubric: |+
         1. \textbf{The plan:} Have a schedule\\
         2. \textbf{Think!} Keep your mind on what you are doing.\\
