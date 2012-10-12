@@ -601,10 +601,11 @@ relppR_test = [
 	]
 
 to_inf_test = [
+	"Barbara wanted to become sales manager.",
+	"Did Barbara want to become sales manager?",
+	"Did a woman want to become sales manager?",
 	"A woman wanted to.",
 	"A woman wanted to have a job.",
-	"Did a woman want to become sales manager?",
-	"Did Barbara want to become sales manager?",
 	"Did Tadeusz want to become sales manager?",
 	"Did Tadeusz become sales manager?",
 	-- "Did a woman want to get to the top?",
