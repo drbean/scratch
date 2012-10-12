@@ -526,8 +526,8 @@ tips:
           answer: False
         - question: A and C's ideas are similar and B and D's ideas are similar.
           answer: True
-    11:
-      identifier: tips 11
+    111:
+      identifier: tips 111
       A: First, you need to think about what you are doing. Keep your mind on the job, not on other things. Second, you need to look for ways to improve your skills, perhaps on weekends or at night. Last, think about your goals and what skills you need to achieve those goals. 
       B: "First, try to get other people involved in your work. Help others, and they will help you. Second, get together with co-workers. If people know you, they will want to cooperate with you. Last, this doesn't mean to take the easy way. No. Accept challenges, and be prepared for failure."
       C: First, create your own goals. Decide how to reach those goals. Second, each day have a list of tasks for the day and check how you're going. Last, don't let the job decide what you will do. Try to change the job. If this is impossible, look for another job.
@@ -765,7 +765,7 @@ tips:
       B: Eva didn't want to miss the local business club meeting. The book was about how to be a better sales representative. She was learning a lot.
       C: Eva knew all the people in the company at work. They were Polish. She was German. She knew Germany. She decided not to go on the trip.
       quiz:
-        - question: 'Eva believes in:'
+        - question: 'The candidate believes in:'
           option:
             - 1.
             - 2.
@@ -778,7 +778,7 @@ tips:
             - 9.
             - 10.
           answer: 4.
-        - question: "Eva doesn't believe in:"
+        - question: "The candidate doesn't believe in:"
           option:
             - 1.
             - 2.
@@ -802,6 +802,221 @@ tips:
         8. \textbf{Talk to the boss.} Tell him/her what you want.\\
         9. \textbf{Get a life!} Relax on the weekend.\\
         10. \textbf{Change your job!} Make your job better, or get a new job.
+    8:
+      identifier: tips 8
+      A: Barbara's goal is to become the top person in Fast-Track. Many people in the company don't like her because she is very ambitious.
+      B: Working at Fast-Track is very stressful for Barbara because people don't like her. She needs to relax and forget about work.
+      C: Every day, Barbara takes time to forget she's at work. Every 1 or 2 hours, she closes her eyes and doesn't think about work.
+      quiz:
+        - question: 'The candidate believes in:'
+          option:
+            - 1.
+            - 2.
+            - 3.
+            - 4.
+            - 5.
+            - 6.
+            - 7.
+            - 8.
+            - 9.
+            - 10.
+          answer: 6.
+        - question: "The candidate doesn't believe in:"
+          option:
+            - 1.
+            - 2.
+            - 3.
+            - 4.
+            - 5.
+            - 6.
+            - 7.
+            - 8.
+            - 9.
+            - 10.
+          answer: 1.
+      rubric: |+
+        1. \textbf{Think!} Keep your mind on what you are doing.\\
+        2. \textbf{Seek challenges:} Do things the hard way.\\
+        3. \textbf{Change your job!} Make the job better, or get a new job.\\
+        4. \textbf{Teamwork:} Get others to help you.\\
+        5. \textbf{The student:} Learn while away from the job.\\
+        6. \textbf{My way:} Have your own goals.\\
+        7. \textbf{The plan:} Have a schedule\\
+        8. \textbf{Togetherness:} Get together with co-workers off the job.\\
+        9. \textbf{Talk to the boss:} Tell him/her what you want.\\
+        10. \textbf{Get a life!} Relax on the weekend.\\
+    9:
+      identifier: tips 9
+      A: Tadeusz has a family. He likes spending time with them, but he is very busy during the week. He has no time to be with them.
+      B: Tadeusz's boss at Fast-Track told him he should study marketing because he didn't study it in college. Tadeusz is not happy about this.
+      C: Tadeusz decides he won't take any marketing classes at night or the weekend. He doesn't want to. He wants to be with his family then.
+      quiz:
+        - question: 'The candidate believes in:'
+          option:
+            - 1.
+            - 2.
+            - 3.
+            - 4.
+            - 5.
+            - 6.
+            - 7.
+            - 8.
+            - 9.
+            - 10.
+          answer: 10.
+        - question: "The candidate doesn't believe in:"
+          option:
+            - 1.
+            - 2.
+            - 3.
+            - 4.
+            - 5.
+            - 6.
+            - 7.
+            - 8.
+            - 9.
+            - 10.
+          answer: 5.
+      rubric: |+
+        1. \textbf{Think!} Keep your mind on what you are doing.\\
+        2. \textbf{Seek challenges:} Do things the hard way.\\
+        3. \textbf{Change your job!} Make your job better, or get a new job.\\
+        4. \textbf{Teamwork:} Get others to help you.\\
+        5. \textbf{The student:} Learn while away from the job.\\
+        6. \textbf{My way:} Have your own goals.\\
+        7. \textbf{The plan:} Have a schedule\\
+        8. \textbf{Togetherness:} Get together with co-workers off the job.\\
+        9. \textbf{Talk to the boss:} Tell him/her what you want.\\
+        10. \textbf{Get a life!} Relax on the weekend.\\
+    10:
+      identifier: tips 10
+      A: Eva's problem in Poland is that she is a foreigner, a German. Many Polish people don't like Germans. She wants people to like her.
+      B: Eva doesn't tell her boss about her problem, because she thinks the boss can't help her. She doesn't tell anyone what she is doing.
+      C: Eva tries to get to know co-workers while they are not working. She hopes they will like her if she tries to be friends with them.
+      quiz:
+        - question: 'The candidate believes in:'
+          option:
+            - 1.
+            - 2.
+            - 3.
+            - 4.
+            - 5.
+            - 6.
+            - 7.
+            - 8.
+            - 9.
+            - 10.
+          answer: 8.
+        - question: "The candidate doesn't believe in:"
+          option:
+            - 1.
+            - 2.
+            - 3.
+            - 4.
+            - 5.
+            - 6.
+            - 7.
+            - 8.
+            - 9.
+            - 10.
+          answer: 9.
+      rubric: |+
+        1. \textbf{Think!} Keep your mind on what you are doing.\\
+        2. \textbf{Seek challenges:} Do things the hard way.\\
+        3. \textbf{Change your job!} Make your job better, or get a new job.\\
+        4. \textbf{Teamwork:} Get others to help you.\\
+        5. \textbf{The student:} Learn while away from the job.\\
+        6. \textbf{My way:} Have your own goals.\\
+        7. \textbf{The plan:} Have a schedule\\
+        8. \textbf{Togetherness:} Get together with co-workers off the job.\\
+        9. \textbf{Talk to the boss:} Tell him/her what you want.\\
+        10. \textbf{Get a life!} Relax on the weekend.\\
+    11:
+      identifier: tips 11
+      A: Barbara's plan is to be promoted to a good position in 2-3 years. She thinks about whether her plan is going well or not. It is not.
+      B: Barbara works hard and has the best sales record. She is unhappy she isn't sales manager yet. But she continues to work the same way.
+      C: Barbara doesn't know she might be promoted if she showed she could be a manager, by making her present job more like a manager's job.
+      quiz:
+        - question: 'The candidate believes in:'
+          option:
+            - 1.
+            - 2.
+            - 3.
+            - 4.
+            - 5.
+            - 6.
+            - 7.
+            - 8.
+            - 9.
+            - 10.
+          answer: 7.
+        - question: "The candidate doesn't believe in:"
+          option:
+            - 1.
+            - 2.
+            - 3.
+            - 4.
+            - 5.
+            - 6.
+            - 7.
+            - 8.
+            - 9.
+            - 10.
+          answer: 3.
+      rubric: |+
+        1. \textbf{Think!} Keep your mind on what you are doing.\\
+        2. \textbf{Seek challenges:} Do things the hard way.\\
+        3. \textbf{Change your job!} Make your job better, or get a new job.\\
+        4. \textbf{Teamwork:} Get others to help you.\\
+        5. \textbf{The student:} Learn while away from the job.\\
+        6. \textbf{My way:} Have your own goals.\\
+        7. \textbf{The plan:} Have a schedule\\
+        8. \textbf{Togetherness:} Get together with co-workers off the job.\\
+        9. \textbf{Talk to the boss:} Tell him/her what you want.\\
+        10. \textbf{Get a life!} Relax on the weekend.\\
+    12:
+      identifier: tips 12
+      A: Tadeusz doesn't like to try new ideas to increase sales. He likes to do things the old way. It is easier. New ways may fail.
+      B: Fast-Track wants Tadeusz to try new ideas to increase sales. But he doesn't have any ideas, and he doesn't want to try thinking.
+      C: Tadeusz asks his co-workers for ideas. Some of them do have good ideas. He uses their ideas. The ideas work. Tadeusz is happy.
+      quiz:
+        - question: 'The candidate believes in:'
+          option:
+            - 1.
+            - 2.
+            - 3.
+            - 4.
+            - 5.
+            - 6.
+            - 7.
+            - 8.
+            - 9.
+            - 10.
+          answer: 4.
+        - question: "The candidate doesn't believe in:"
+          option:
+            - 1.
+            - 2.
+            - 3.
+            - 4.
+            - 5.
+            - 6.
+            - 7.
+            - 8.
+            - 9.
+            - 10.
+          answer: 2.
+      rubric: |+
+        1. \textbf{Think!} Keep your mind on what you are doing.\\
+        2. \textbf{Seek challenges:} Do things the hard way.\\
+        3. \textbf{Change your job!} Make your job better, or get a new job.\\
+        4. \textbf{Teamwork:} Get others to help you.\\
+        5. \textbf{The student:} Learn while away from the job.\\
+        6. \textbf{My way:} Have your own goals.\\
+        7. \textbf{The plan:} Have a schedule\\
+        8. \textbf{Togetherness:} Get together with co-workers off the job.\\
+        9. \textbf{Talk to the boss:} Tell him/her what you want.\\
+        10. \textbf{Get a life!} Relax on the weekend.\\
 
   compcomp:
     0:
