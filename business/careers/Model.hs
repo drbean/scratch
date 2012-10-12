@@ -150,6 +150,7 @@ data Want a where
 	Event :: (Entity,Entity,Entity) -> Want Entity
 wants :: [(Entity,Want Entity)]
 wants	= [(B,Thing AR),(B,Promo S),(T,Promo S),(E,Promo S)]
+wanted	= pred1 [B, T, E]
 
 becoming	= pred2 [(B,S),(T,S),(E,S)]
 knowledge	= []
