@@ -155,7 +155,7 @@ Note: You need to login to transcribe the conversation.
 <h2>Contacting Dr Bean</h2>
 If you have any problem email me at drbean at (@) freeshell dot (.) org, or come and see me in the Self-Access Learning Room.
 </body>
-</html
+</html>
 ";
     $io->append( $endhtml );
 }
