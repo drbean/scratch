@@ -80,15 +80,63 @@ back_to_school:
             - Mom
             - Roseanne
           answer: Mom
-        - question: Andrew and Claire were friends.
+        - question: Mom is taking her daughters shopping.
           answer  : True
-        - question: Andrew has gone away to study
-          answer  : False
-        - question: Claire is in college.
+        - question: Jill wants to buy a dress.
           answer  : True
-        - question: Barry is excited to hear about Claire.
+        - question: Jill and Roseanne want the same things.
           answer  : False
-        - question: Claire loves Andrew very much.
+        - question: Things are cheaper, going back to school.
+          answer  : True
+        - question: They know Mom will pay for the things.
           answer  : False
-        - question: Andrew loves Claire more than she him.
+        - question: Jill says Mom will pay for the notebook.
+          answer  : False
+        - question: Did the 2 both want the same kind of thing?
+          answer  : No
+        - question: Did the 2 know if they would be able to get what they wanted?
+          answer  : No
+        - question: Did the 2 know if Mom would pay for what they wanted to get (before/after)?
+          answer  : No
+crossing:
+  jigsaw:
+    0:
+      identifier: crossing your heart 35
+      A: You are a tough girl. You want to show Carl your book. But you don't want him to tell anyone else about the book. You force him to cross his heart.
+      B: You are a boy, but your friend, Ellie is stronger than you. You want to look at her book. But you want to tell other people about the book, too.
+      C: You are not a person. You are Ellie's book. In the book, there are some pictures of a place Ellie wants to go. She wants Carl to help her go there.
+      quiz:
+        - question: A
+          option:
+            - A book
+            - Carl
+            - Ellie
+          answer: Ellie
+        - question: B
+          option:
+            - A book
+            - Carl
+            - Ellie
+          answer: Carl
+        - question: C
+          option:
+            - A book
+            - Carl
+            - Ellie
+          answer: A book
+        - question: The book is Carl's book.
+          answer  : False
+        - question: Carl wants to look at the book.
+          answer  : True
+        - question: Ellie shows Carl the book.
+          answer  : True
+        - question: Ellie wants everyone to see the book.
+          answer  : False
+        - question: Carl wants to keep the book secret.
+          answer  : False
+        - question: Carl makes Ellie show him the book.
+          answer  : False
+        - question: Ellie makes Carl cross his heart.
+          answer  : True
+        - question: Carl promises to keep the book secret.
           answer  : True
