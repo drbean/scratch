@@ -98,6 +98,46 @@ back_to_school:
           answer  : No
         - question: Did the 2 know if Mom would pay for what they wanted to get (before/after)?
           answer  : No
+bingo:
+  jigsaw:
+    0:
+      identifier: bingo 68
+      A: You are a church leader. You run a bingo game at your church every Saturday night. The game earns lots of money for the church.
+      B: You play bingo at a bingo game run by Jessie at your church every Saturday night. You don't win as often as your friend, James.
+      C: You are a very lucky bingo player at the game run by Jessie. When you win, you pay for Jack at the coffee shop after the game.
+      quiz:
+        - question: A
+          option:
+            - James
+            - Jack
+            - Jessie
+          answer: Jessie
+        - question: B
+          option:
+            - James
+            - Jack
+            - Jessie
+          answer: Jack
+        - question: C
+          option:
+            - James
+            - Jack
+            - Jessie
+          answer: James
+        - question: James and Jack are bingo players.
+          answer  : True
+        - question: Jessie runs the game for the church.
+          answer  : True
+        - question: The church's aim is to help bingo players.
+          answer  : False
+        - question: James is luckier than Jack.
+          answer  : True
+        - question: James always pays for Jack's coffee.
+          answer  : False
+        - question: James sometimes pays for Jack's coffee.
+          answer  : False
+        - question: James never pays for Jack's coffee.
+          answer  : False
 crossing:
   jigsaw:
     0:
@@ -130,11 +170,9 @@ crossing:
           answer  : True
         - question: Ellie shows Carl the book.
           answer  : True
-        - question: Ellie wants everyone to see the book.
-          answer  : False
+        - question: Ellie wants to go to a place in the book.
+          answer  : True
         - question: Carl wants to keep the book secret.
-          answer  : False
-        - question: Carl makes Ellie show him the book.
           answer  : False
         - question: Ellie makes Carl cross his heart.
           answer  : True
