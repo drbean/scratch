@@ -810,30 +810,30 @@ tips:
       quiz:
         - question: 'The candidate believes in:'
           option:
-            - 1.
-            - 2.
-            - 3.
-            - 4.
-            - 5.
-            - 6.
-            - 7.
-            - 8.
-            - 9.
-            - 10.
-          answer: 6.
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+            - 9
+            - 10
+          answer: 6
         - question: "The candidate doesn't believe in:"
           option:
-            - 1.
-            - 2.
-            - 3.
-            - 4.
-            - 5.
-            - 6.
-            - 7.
-            - 8.
-            - 9.
-            - 10.
-          answer: 1.
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+            - 9
+            - 10
+          answer: 1
       rubric: |+
         1. \textbf{Think!} Keep your mind on what you are doing.\\
         2. \textbf{Seek challenges:} Do things the hard way.\\
@@ -853,30 +853,30 @@ tips:
       quiz:
         - question: 'The candidate believes in:'
           option:
-            - 1.
-            - 2.
-            - 3.
-            - 4.
-            - 5.
-            - 6.
-            - 7.
-            - 8.
-            - 9.
-            - 10.
-          answer: 10.
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+            - 9
+            - 10
+          answer: 10
         - question: "The candidate doesn't believe in:"
           option:
-            - 1.
-            - 2.
-            - 3.
-            - 4.
-            - 5.
-            - 6.
-            - 7.
-            - 8.
-            - 9.
-            - 10.
-          answer: 5.
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+            - 9
+            - 10
+          answer: 5
       rubric: |+
         1. \textbf{Think!} Keep your mind on what you are doing.\\
         2. \textbf{Seek challenges:} Do things the hard way.\\
@@ -896,30 +896,30 @@ tips:
       quiz:
         - question: 'The candidate believes in:'
           option:
-            - 1.
-            - 2.
-            - 3.
-            - 4.
-            - 5.
-            - 6.
-            - 7.
-            - 8.
-            - 9.
-            - 10.
-          answer: 8.
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+            - 9
+            - 10
+          answer: 8
         - question: "The candidate doesn't believe in:"
           option:
-            - 1.
-            - 2.
-            - 3.
-            - 4.
-            - 5.
-            - 6.
-            - 7.
-            - 8.
-            - 9.
-            - 10.
-          answer: 9.
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+            - 9
+            - 10
+          answer: 9
       rubric: |+
         1. \textbf{Think!} Keep your mind on what you are doing.\\
         2. \textbf{Seek challenges:} Do things the hard way.\\
@@ -939,30 +939,30 @@ tips:
       quiz:
         - question: 'The candidate believes in:'
           option:
-            - 1.
-            - 2.
-            - 3.
-            - 4.
-            - 5.
-            - 6.
-            - 7.
-            - 8.
-            - 9.
-            - 10.
-          answer: 7.
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+            - 9
+            - 10
+          answer: 7
         - question: "The candidate doesn't believe in:"
           option:
-            - 1.
-            - 2.
-            - 3.
-            - 4.
-            - 5.
-            - 6.
-            - 7.
-            - 8.
-            - 9.
-            - 10.
-          answer: 3.
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+            - 9
+            - 10
+          answer: 3
       rubric: |+
         1. \textbf{Think!} Keep your mind on what you are doing.\\
         2. \textbf{Seek challenges:} Do things the hard way.\\
@@ -982,30 +982,30 @@ tips:
       quiz:
         - question: 'The candidate believes in:'
           option:
-            - 1.
-            - 2.
-            - 3.
-            - 4.
-            - 5.
-            - 6.
-            - 7.
-            - 8.
-            - 9.
-            - 10.
-          answer: 4.
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+            - 9
+            - 10
+          answer: 4
         - question: "The candidate doesn't believe in:"
           option:
-            - 1.
-            - 2.
-            - 3.
-            - 4.
-            - 5.
-            - 6.
-            - 7.
-            - 8.
-            - 9.
-            - 10.
-          answer: 2.
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+            - 9
+            - 10
+          answer: 2
       rubric: |+
         1. \textbf{Think!} Keep your mind on what you are doing.\\
         2. \textbf{Seek challenges:} Do things the hard way.\\
