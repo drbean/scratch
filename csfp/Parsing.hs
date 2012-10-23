@@ -162,6 +162,12 @@ preproc ("business":"law":xs)	= "business_law" : preproc xs
 preproc ("rutgers":"university":xs)	= "rutgers_university" : preproc xs
 
 
+preproc ("one":"month":xs)	= "one_month" : preproc xs
+preproc ("two":"months":xs)	= "two_months" : preproc xs
+preproc ("6,000":"dollars":xs)	= "6,000_dollars" : preproc xs
+preproc ("3,000":"dollars":xs)	= "3,000_dollars" : preproc xs
+preproc ("50":"dollars":"an":"hour":xs)	= "50_dollars_an_hour" : preproc xs
+
 preproc ("sales":"representative":xs)	= "sales_representative" : preproc xs
 preproc ("fast":"track":xs)	= "fast-track" : preproc xs
 preproc ("regional":"manager":xs)	= "regional_manager" : preproc xs
