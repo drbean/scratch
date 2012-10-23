@@ -22,14 +22,11 @@ inflections = [
  ( "persons",	"person" ),
  ( "people",	"person" ),
  ( "things",	"thing" ),
- ( "appreciate",	"appreciated" ),
- ( "disappoint",	"disappointed" ),
  ( "have",	"had" ),
  ( "ask",	"asked" ),
  ( "talk",	"talked" ),
  ( "say",	"said" ),
  ( "leave",	"left" ),
- ( "immigrated",	"immigrate" ),
  ( "give",	"gave" ),
  ( "get",	"got" ),
  ( "bought", "got" ),
@@ -46,7 +43,6 @@ inflections = [
 
 relations = [
  
- ( "appreciated", \[x,y] -> appreciate y x ),
  ( "had", \[x,y] -> have y x ),
  ( "asked", \args -> case args of
  	[x,y] -> asked y x
@@ -67,10 +63,7 @@ relations = [
  	[x,y,z] -> got_from z y x
  	[x,y] -> got y x
 	),
- ( "told", \args -> case args of [x,y] -> recite y x; [x,y,z] -> told z y x ),
- ( "studied", \args -> case args of
-        [x,y] -> (studied_where y x || studied_what y x)
-        [x,y,z] -> studied z y x )
+ ( "told", \args -> case args of [x,y] -> recite y x; [x,y,z] -> told z y x )
  ]
 
 -- vim: set ts=8 sts=4 sw=4 noet:
