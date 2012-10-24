@@ -341,7 +341,7 @@ conjR = \ us xs ->
        (txt,ws,zs)    <- prsTXT vs1 ys1            ]
 
 prsS :: SPARSER Cat Cat
-prsS = spR <||> cond1R <||> cond2R <||> att1R <||> att2R
+prsS = spR <||> cond1R <||> cond2R <||> att2R <||> att1R
 
 prsTAG :: SPARSER Cat Cat
 prsTAG = \us xs -> [ (Branch (Cat "_" "S" [] []) [s,t],ws,zs) |
@@ -401,24 +401,26 @@ cond2R = \ us xs ->
 
 att1R :: SPARSER Cat Cat 
 att1R = \ us xs -> 
- [ (Branch (Cat "_" "S" (fs (t2c subj)) []) [subj',att,inf],ps,qs) | 
+ [ (Branch (Cat "_" "AT" (fs (t2c subj)) []) [subj',att,inf],ps,qs) | 
        (subj,vs,ys) <- prsNP us xs,
-       (att,ws,zs) <- prsVP vs ys, 
+       (att,ws,zs)  <- leafPS "VP" vs ys, 
        (inf,ps,qs) <- infinR ws zs,
        subj'       <- assignT Nom subj, 
        agreeC subj att,
-       subcatList (t2c att) == [] ]
+       subcatlist   <- [subcatList (t2c att)],
+       match subcatlist [t2c inf] ]
 
 att2R :: SPARSER Cat Cat 
 att2R = \ us xs -> 
- [ (Branch (Cat "_" "S" (fs (t2c subj)) []) [subj',att,obj,inf],rs,ss) | 
+ [ (Branch (Cat "_" "AT" (fs (t2c subj)) []) [subj',att,obj,inf],rs,ss) | 
        (subj,vs,ys) <- prsNP us xs,
-       (att,ws,zs) <- prsVP vs ys, 
+       (att,ws,zs)  <- leafPS "VP" vs ys, 
        (obj,ps,qs) <- prsNP ws zs,
        (inf,rs,ss) <- infinR ps qs,
        subj'       <- assignT Nom subj, 
        agreeC subj att,
-       subcatList (t2c att) == [] ]
+       subcatlist   <- [subcatList (t2c att)],
+       match subcatlist [t2c inf] ]
 
 prsNP :: SPARSER Cat Cat 
 prsNP = leafPS "NP" <||> npR <||> npADJR <||> npposR <||> cnposR <||> adjcnposR <||> depCR  <||> pop "NP" 
@@ -579,7 +581,7 @@ prsCOMPorNPorPP :: SPARSER Cat Cat
 prsCOMPorNPorPP = prsCOMP <||> prsNP <||> prsPP 
 
 prsVdependent :: SPARSER Cat Cat
-prsVdependent = prsCOMPorNPorPP <||> infinR
+prsVdependent = prsCOMPorNPorPP
 
 prsVdependents :: [Cat] -> [Cat] 
       -> [([ParseTree Cat Cat],[Cat],[Cat])]
