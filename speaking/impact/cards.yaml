@@ -4,9 +4,9 @@ genre: impact
   jigsaw:
     0:
       identifier: 1st\_impressions 0
-      A: You are white. You graduated from high school, but didn't go to college. You go over to Tamara and Sandy, 2 Asian-American women at a party. You want to talk to Tamara. You think she is more fun than Sandy.
-      B: You are an Asian-American woman. You tell Dave you are studying chemistry, a difficult subject. You are mad at your friend Tamara because she doesn't tell Dave she is also studying a difficult subject.
-      C: You don't tell men that you are a student when you meet them. You think they won't enjoy talking to you. You didn't tell Dave. And Dave wants to talk to you. Sandy is upset that you didn't tell Dave.
+      A: You go over to Tamara and Sandy, 2 Asian-American women at a party. You want to talk to Tamara. You think she is more fun than Sandy.
+      B: You tell Dave you are studying a difficult subject. You are mad at your friend Tamara because she doesn't tell Dave she is also studying a difficult subject.
+      C: You don't tell Dave that you are a student when you meet him. You think he won't enjoy talking to you. Dave wants to talk to you. Sandy is upset.
       quiz:
         - question: A
           option: 
@@ -40,34 +40,130 @@ genre: impact
           answer: False
         - question: Sandy scared Dave, talking about studying.
           answer: True
-  compcomp:
+traffic:
+  jigsaw:
     0:
-      identifier: jackson 0
-      White: |+
-        \begin{normalsize}Unemployment among older women in US\end{normalsize}
-        \normalsize
-        \begin{description}
-        \item [Rate] For women over 55, about 6 percent, less than the overall 8 percent, but increasing. Local governments, with less money, are cutting jobs, like teaching and office work, mostly held by women.
-        \item [Length] Half of all unemployed people over the age of 55 have been unemployed for more than 6 months. 200,000 have given up looking for work.
-        \item [History] In 2007, at the recession's start, women (especially older women) were less likely to lose work. But older unemployed women look a lot longer for new jobs, and they make a lot less than before.
-        \end{description}
-      Black: |+
-        \begin{normalsize}The Gathering Place, Denver\end{normalsize}
-        \normalsize
-        \begin{description}
-        \item [Description] A daytime center for homeless \& poor women run by a women's group since 1986 in Denver.
-        \item [Services] Food, clothing, toiletries, computer lab, haircuts, test tutoring, help contacting lawyers, housing providers, \& government services.
-        \item [Use] Each day, 190 visitors, 180 meals, 1 haircut, 680 kg of food, 2.3 bras, 29 computer lab visits, 8.6 meetings arranged with government service representatives.
-        \item [Gov't survey] Women 45\% of the homeless in Denver. 31\% living with family or friends, 24\% in transitional housing, 17\% in emergency shelter, 7\% in own home, \& 5\% in car/on street.
-        \end{description}
+      identifier: traffic 0
+      A: You own a BMW. You are not very rich, but people think you are very rich because your car is very expensive. Your house is old and you can't spend lots of money on clothes and food. You admire Jim for riding a bicycle.
+      B: You ride a bicycle because you like to exercise and it is good for the environment. It is also cheaper than driving a car. If you have to go to Taipei, you take the train or the bus. It is less convenient than having a car.
+      C: You are young. You don't have the money to buy a car, like Tom. You ride a motor scooter.
       quiz:
-        - question: Question 13. Jackson. The unemployment rate is higher for older women than for any other group.
+    1:
+      identifier: traffic 1
+      A: You own a car. You admire Jim for riding a bicycle, but you don't want to ride one. You don't admire Eric with his motor scooter. Sometimes you do ride a motor scooter.
+      B: You ride a bicycle. You don't admire Tom with his car, or Eric with his motor scooter. You don't drive a car and you don't ride a motor cycle. 
+      C: You ride a motor scooter. You admire Tom and Jim, but you don't ride a bicycle. You would drive a car like Tom, if you had the money.
+      quiz:
+        - question: A
+          option: 
+           - Eric
+           - Jim
+           - Tom
+          answer: Tom
+        - question: B
+          option:
+           - Eric
+           - Jim
+           - Tom
+          answer: Jim
+        - question: C
+          option:
+           - Eric
+           - Jim
+           - Tom
+          answer: Eric
+        - question: Tom admires Eric.
           answer: False
-        - question: Question 14. Jackson. Homeless men cannot get services at The Gathering Place.
+        - question: Eric admires Jim.
           answer: True
-        - question: Question 15. Jackson. Older women who lose their jobs and have no safety net are more likely to end up at The Gathering Place than younger women.
-          answer: True
-        - question: Question 16. Jackson. 45 percent of the women in Denver are homeless.
+        - question: Jim admires Tom.
           answer: False
+        - question: Tom rides a bicycle.
+          answer: False
+        - question: Jim rides a bicycle.
+          answer: True
+        - question: Eric rides a motor scooter.
+          answer: True
+        - question: Tom drives a car.
+          answer: True
+language:
+  jigsaw:
+    0:
+      identifier: language 0
+      A: You are American. You work in Thailand. But you don't know Thai. You don't think May's English is good.
+      B: You are Australian. You work with Richard and May. May likes you because you try to learn her language. 
+      C: You are Thai. You speak English. But sometimes it's difficult talking with Richard and Peter, and helping them.
+      quiz:
+        - question: A
+          option: 
+           - May
+           - Peter
+           - Richard
+          answer: Richard
+        - question: B
+          option:
+           - May
+           - Peter
+           - Richard
+          answer: Peter
+        - question: C
+          option:
+           - May
+           - Peter
+           - Richard
+          answer: May
+        - question: Richard, the American learns Thai.
+          answer: False
+        - question: Peter, the Australian learns Thai.
+          answer: True
+        - question: Richard is happy with May's English.
+          answer: False
+        - question: May has problems helping Richard.
+          answer: True
+        - question: Richard's Thai is better than May's English.
+          answer: False
+        - question: Peter's Thai is better than Richard's Thai.
+          answer: True
+        - question: May likes Peter's efforts to learn Thai.
+          answer: True
+marriage:
+  jigsaw:
+    0:
+      identifier: marriage 0
+      A: You are a teacher. You think that Akane and Lucas should live separate lives for 2-3 years, before living together.
+      B: You are an artist from Finland. Your girlfriend, Akane doesn't want to live in Finland. You don't want to live in Japan.
+      C: You are a Japanese artist. You want to live with your boyfriend, but Dr Bean says, you should live separately.
+      quiz:
+        - question: A
+          option: 
+           - Akane
+           - Dr Bean
+           - Lucas
+          answer: Dr Bean
+        - question: B
+          option:
+           - Akane
+           - Dr Bean
+           - Lucas
+          answer: Lucas
+        - question: C
+          option:
+           - Akane
+           - Dr Bean
+           - Lucas
+          answer: Akane
+        - question: Akane \& Lucas want to live together.
+          answer: True
+        - question: Akane \& Lucas agree about where to live.
+          answer: False
+        - question: Akane wants to live in Finland.
+          answer: False
+        - question: Lucas wants to live in Japan.
+          answer: False
+        - question: Dr Bean thinks they should live apart.
+          answer: True
+        - question: Akane agrees with Dr Bean.
+          answer: False
+        - question: Lucas disagrees with Dr Bean.
+          answer: True
 
-          answer: True
