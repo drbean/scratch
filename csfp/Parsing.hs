@@ -128,7 +128,19 @@ preproc :: Words -> Words
 preproc []                 = []
 preproc ["."]              = []
 preproc ["?"]              = []
+
+preproc ("6":",000":"dollars":xs)	= "6_000_dollars" : preproc xs
+preproc ("3":",000":"dollars":xs)	= "3_000_dollars" : preproc xs
+
 preproc (",":xs)           = preproc xs
+
+
+preproc ("one":"month":xs)	= "one_month" : preproc xs
+preproc ("two":"months":xs)	= "two_months" : preproc xs
+preproc ("50":"dollars":"an":"hour":xs)	= "50_dollars_an_hour" : preproc xs
+preproc ("a":"lot":"of":xs)	= "a_lot_of" : preproc xs
+preproc ("lots":"of":xs)	= "lots_of" : preproc xs
+preproc ("website":"designer":xs)	= "website_designer" : preproc xs
 
 preproc("what's":xs)          = "what" : "was" : preproc xs
 preproc("what're":xs)          = "what" : "were" : preproc xs
@@ -161,12 +173,6 @@ preproc ("mr":"payne":xs)	= "mr_payne" : preproc xs
 preproc ("business":"law":xs)	= "business_law" : preproc xs
 preproc ("rutgers":"university":xs)	= "rutgers_university" : preproc xs
 
-
-preproc ("one":"month":xs)	= "one_month" : preproc xs
-preproc ("two":"months":xs)	= "two_months" : preproc xs
-preproc ("6,000":"dollars":xs)	= "6,000_dollars" : preproc xs
-preproc ("3,000":"dollars":xs)	= "3,000_dollars" : preproc xs
-preproc ("50":"dollars":"an":"hour":xs)	= "50_dollars_an_hour" : preproc xs
 
 preproc ("sales":"representative":xs)	= "sales_representative" : preproc xs
 preproc ("fast":"track":xs)	= "fast-track" : preproc xs
