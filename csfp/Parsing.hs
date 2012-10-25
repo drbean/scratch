@@ -341,7 +341,7 @@ conjR = \ us xs ->
        (txt,ws,zs)    <- prsTXT vs1 ys1            ]
 
 prsS :: SPARSER Cat Cat
-prsS = spR <||> cond1R <||> cond2R <||> att2R <||> att1R
+prsS = spR <||> cond1R <||> cond2R <||> attR
 
 prsTAG :: SPARSER Cat Cat
 prsTAG = \us xs -> [ (Branch (Cat "_" "S" [] []) [s,t],ws,zs) |
@@ -399,28 +399,38 @@ cond2R = \ us xs ->
          (_,vs2,ys2)  <- leafPS "THEN" vs1 ys1, 
          (s2,ws,zs)   <- prsS vs2 ys2 ]
 
-att1R :: SPARSER Cat Cat 
-att1R = \ us xs -> 
- [ (Branch (Cat "_" "AT" (fs (t2c subj)) []) [subj',att,inf],ps,qs) | 
+attR :: SPARSER Cat Cat 
+attR = \ us xs -> 
+ [ (Branch (Cat "_" "S" (fs (t2c subj)) []) [subj',att],ws,zs) | 
        (subj,vs,ys) <- prsNP us xs,
-       (att,ws,zs)  <- leafPS "VP" vs ys, 
-       (inf,ps,qs) <- infinR ws zs,
+       (att,ws,zs)  <- prsAT vs ys, 
        subj'       <- assignT Nom subj, 
        agreeC subj att,
-       subcatlist   <- [subcatList (t2c att)],
-       match subcatlist [t2c inf] ]
+       subcatList (t2c att) == [] ]
 
-att2R :: SPARSER Cat Cat 
-att2R = \ us xs -> 
- [ (Branch (Cat "_" "AT" (fs (t2c subj)) []) [subj',att,obj,inf],rs,ss) | 
-       (subj,vs,ys) <- prsNP us xs,
-       (att,ws,zs)  <- leafPS "VP" vs ys, 
-       (obj,ps,qs) <- prsNP ws zs,
-       (inf,rs,ss) <- infinR ps qs,
-       subj'       <- assignT Nom subj, 
-       agreeC subj att,
-       subcatlist   <- [subcatList (t2c att)],
-       match subcatlist [t2c inf] ]
+prsAT :: SPARSER Cat Cat
+prsAT = infinR1 <||> infinR2
+
+infinR1 :: SPARSER Cat Cat
+infinR1 = \us xs ->
+ [ (Branch (Cat "_" "AV" (fs (t2c vp1)) []) [vp1,to,vp2],ps,qs) |
+ 	(vp1,vs,ys) <- leafPS "VP" us xs,
+	(to,ws,zs) <- prsTO vs ys,
+	(z:zs')    <- [zs],
+	z'         <- [Cat (phon z) "VP" [Tense] (subcatList z)],
+	(vp2,ps,qs) <- prsVP ws (z':zs') ]
+
+infinR2 :: SPARSER Cat Cat 
+infinR2 = \ us xs -> 
+ [ (Branch (Cat "_" "AT" (fs (t2c vp1)) []) [vp1,obj,to,vp2],rs,ss) | 
+       (vp1,vs,ys) <- leafPS "VP" us xs, 
+       (obj,ws,zs) <- prsNP vs ys,
+       (to,ps,qs)  <- prsTO ws zs,
+       (q:qs')     <- [qs],
+       q'          <- [Cat (phon q) "VP" [Tense] (subcatList q)],
+       (vp2,rs,ss) <- prsVP ps (q':qs') ]
+       -- subcatlist   <- [subcatList (t2c att)],
+       -- match subcatlist [t2c inf] ]
 
 prsNP :: SPARSER Cat Cat 
 prsNP = leafPS "NP" <||> npR <||> npADJR <||> npposR <||> cnposR <||> adjcnposR <||> depCR  <||> pop "NP" 
@@ -566,16 +576,6 @@ prsPREP = leafPS "PREP"
 
 prsTO :: SPARSER Cat Cat
 prsTO = leafPS "TO"
-
-infinR :: SPARSER Cat Cat
-infinR = \us xs -> 
-  [ (Branch (Cat "_" "INF" (fs (t2c vp)) []) [to,vp], ws, zs) | 
-  -- [ (Branch (Cat "_" "INF" [] []) [to], vs, ys) | 
-      (to,vs,ys) <- prsTO us xs,
-      (y:ys')    <- [ys],
-      y'         <- [Cat (phon y) "VP" [Tense] (subcatList y)],
-      (vp,ws,zs) <- prsVP vs (y':ys')
-      		]
 
 prsCOMPorNPorPP :: SPARSER Cat Cat
 prsCOMPorNPorPP = prsCOMP <||> prsNP <||> prsPP 
