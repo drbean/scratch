@@ -401,7 +401,7 @@ cond2R = \ us xs ->
 
 attR :: SPARSER Cat Cat 
 attR = \ us xs -> 
- [ (Branch (Cat "_" "S" (fs (t2c subj)) []) [subj',att],ws,zs) | 
+ [ (Branch (Cat "_" "AT" (fs (t2c subj)) []) [subj',att],ws,zs) | 
        (subj,vs,ys) <- prsNP us xs,
        (att,ws,zs)  <- prsAT vs ys, 
        subj'       <- assignT Nom subj, 
