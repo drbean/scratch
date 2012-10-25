@@ -134,10 +134,10 @@ transS (Just Ep) = NonProposition
 transS (Just (Branch (Cat _ "S" _ _) [np,vp])) =
   (transNP np) (transVP vp)
 
-transS (Just (Branch (Cat _ "AT" _ _) [np,att,obj,inf])) =
-  (transNP np) (transINF inf)
-transS (Just (Branch (Cat _ "AT" _ _) [np,att,inf])) =
-  (transNP np) (transINF inf)
+transS (Just (Branch (Cat _ "S" _ _) [np,att,obj,inf])) =
+  (transNP np) (transAT inf)
+transS (Just (Branch (Cat _ "S" _ _) [np,att,inf])) =
+  (transNP np) (transAT inf)
 
 transS (Just (Branch (Cat _ "YN" _ _) 
        [Leaf (Cat "could"    "AUX" _ []),s])) = transS (Just s)
@@ -149,15 +149,17 @@ transS (Just (Branch (Cat _ "YN" _ _)
 
 transS _ = NonProposition
 
-transINF :: ParseTree Cat Cat -> Term -> LF
-transINF (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ [_]),obj]) = 
+transAT :: ParseTree Cat Cat -> Term -> LF
+transAT (Branch (Cat _ "AT" _ _)
+    [Leaf (Cat att "VP" _ [_]), Leaf (Cat "to" "TO" [ToInf] []), 
+	(Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj])]) = 
     case(catLabel (t2c obj)) of
 	"NP" ->
 	    (\subj -> transNP obj
-		( \theme -> Rel ("want"++"_"++act) [subj,subj,theme] ))
+		( \theme -> Rel (att++"_"++act) [subj,subj,theme] ))
 	"PP" ->
 	    (\subj -> transPP obj
-		( \theme -> Rel ("want"++"_"++act) [subj,subj,theme] ))
+		( \theme -> Rel (att++"_"++act) [subj,subj,theme] ))
 
 transNPorPP :: ParseTree Cat Cat -> 
                 (Term -> LF) -> LF
