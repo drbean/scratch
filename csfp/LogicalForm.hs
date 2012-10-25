@@ -134,10 +134,8 @@ transS (Just Ep) = NonProposition
 transS (Just (Branch (Cat _ "S" _ _) [np,vp])) =
   (transNP np) (transVP vp)
 
-transS (Just (Branch (Cat _ "S" _ _) [np,att,obj,inf])) =
-  (transNP np) (transAT inf)
-transS (Just (Branch (Cat _ "S" _ _) [np,att,inf])) =
-  (transNP np) (transAT inf)
+transS (Just (Branch (Cat _ "AT" _ _) [np,att])) =
+  (transNP np) (transAT att)
 
 transS (Just (Branch (Cat _ "YN" _ _) 
        [Leaf (Cat "could"    "AUX" _ []),s])) = transS (Just s)
@@ -150,7 +148,7 @@ transS (Just (Branch (Cat _ "YN" _ _)
 transS _ = NonProposition
 
 transAT :: ParseTree Cat Cat -> Term -> LF
-transAT (Branch (Cat _ "AT" _ _)
+transAT (Branch (Cat _ "AV" _ _)
     [Leaf (Cat att "VP" _ [_]), Leaf (Cat "to" "TO" [ToInf] []), 
 	(Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj])]) = 
     case(catLabel (t2c obj)) of
