@@ -150,9 +150,14 @@ transS (Just (Branch (Cat _ "YN" _ _)
 transS _ = NonProposition
 
 transINF :: ParseTree Cat Cat -> Term -> LF
-transINF (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ [_]),obj1]) = 
-    \subj -> transNP obj1
-	( \theme -> (Rel "want" [subj,subj,act,theme] ))
+transINF (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ [_]),obj]) = 
+    case(catLabel (t2c obj)) of
+	"NP" ->
+	    (\subj -> transNP obj
+		( \theme -> Rel ("want"++"_"++act) [subj,subj,theme] ))
+	"PP" ->
+	    (\subj -> transPP obj
+		( \theme -> Rel ("want"++"_"++act) [subj,subj,theme] ))
 
 transNPorPP :: ParseTree Cat Cat -> 
                 (Term -> LF) -> LF
