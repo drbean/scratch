@@ -422,7 +422,7 @@ infinR1 = \us xs ->
 
 infinR2 :: SPARSER Cat Cat 
 infinR2 = \ us xs -> 
- [ (Branch (Cat "_" "AT" (fs (t2c vp1)) []) [vp1,obj,to,vp2],rs,ss) | 
+ [ (Branch (Cat "_" "AV" (fs (t2c vp1)) []) [vp1,obj,to,vp2],rs,ss) | 
        (vp1,vs,ys) <- leafPS "VP" us xs, 
        (obj,ws,zs) <- prsNP vs ys,
        (to,ps,qs)  <- prsTO ws zs,
