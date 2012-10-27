@@ -114,6 +114,10 @@ ishowForms [] _ = ""
 ishowForms [f] i = ishow f i
 ishowForms (f:fs) i = ishow f i ++ "," ++ ishowForms fs i
 
+relname :: LF -> String
+relname (Rel name _) = name
+relname lf = error ( (show lf) ++ " not a relation" )
+
 transTXT :: Maybe (ParseTree Cat Cat) -> LF
 transTXT (Just Ep) = NonProposition
 transTXT s@(Just (Branch (Cat _ "S" _ _) _) ) = transS s
@@ -149,15 +153,57 @@ transS _ = NonProposition
 
 transAT :: ParseTree Cat Cat -> Term -> LF
 transAT (Branch (Cat _ "AV" _ _)
-    [Leaf (Cat att "VP" _ [_]), Leaf (Cat "to" "TO" [ToInf] []), 
-	(Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj])]) = 
-    case(catLabel (t2c obj)) of
+    [Leaf (Cat att "VP" _ [_]), Leaf (Cat "to" "TO" [ToInf] []),
+       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj])]) =
+	   case(catLabel (t2c obj)) of
 	"NP" ->
 	    (\subj -> transNP obj
 		( \theme -> Rel (att++"_"++act) [subj,subj,theme] ))
 	"PP" ->
 	    (\subj -> transPP obj
 		( \theme -> Rel (att++"_"++act) [subj,subj,theme] ))
+
+transAT (Branch (Cat _ "AV" _ _)
+    [Leaf (Cat att "VP" _ [_]), Leaf (Cat "to" "TO" [ToInf] []),
+       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj1,obj2])]) =
+    case (catLabel ( t2c obj1 ), catLabel (t2c obj2)) of
+	("NP","NP") ->
+	    (\subj -> transNP obj1
+		(\recipient -> transNP obj2
+		    ( \theme -> Rel (att++"_"++act) [subj,subj,theme,recipient] )))
+	("NP","PP") ->
+	    (\subj -> transNP obj1
+		(\theme -> transPP obj2
+		    ( \recipient -> Rel (att++"_"++act) [subj,subj,theme,recipient] )))
+
+transAT (Branch (Cat _ "AV" _ _)
+    [Leaf (Cat att "VP" _ [_]), obj0, Leaf (Cat "to" "TO" [ToInf] []),
+       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj])]) =
+	   case(catLabel (t2c obj)) of
+	"NP" ->
+	    (\subj -> transNP obj0
+		(\agent -> transNP obj
+		    ( \theme -> Rel (att++"_"++act) [subj,agent,theme] )))
+	"PP" ->
+	    (\subj -> transNP obj0
+		(\agent -> transPP obj
+		    ( \theme -> Rel (att++"_"++act) [subj,agent,theme] )))
+
+transAT (Branch (Cat _ "AV" _ _)
+    [Leaf (Cat att "VP" _ [_]), obj0, Leaf (Cat "to" "TO" [ToInf] []),
+       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj1,obj2])]) =
+    case (catLabel ( t2c obj1 ), catLabel (t2c obj2)) of
+	("NP","NP") ->
+	    (\subj -> transNP obj0
+		(\agent -> transNP obj1
+		    (\recipient -> transNP obj2
+			( \theme -> Rel (att++"_"++act) [subj,agent,theme,recipient] ))))
+	("NP","PP") ->
+	    (\subj -> transNP obj0
+		(\agent -> transNP obj1
+		    (\theme -> transPP obj2
+			( \recipient -> Rel (att++"_"++act) [subj,subj,theme,recipient] ))))
+transAT _ = \x -> NonProposition
 
 transNPorPP :: ParseTree Cat Cat -> 
                 (Term -> LF) -> LF
