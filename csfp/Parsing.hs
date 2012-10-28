@@ -341,7 +341,7 @@ conjR = \ us xs ->
        (txt,ws,zs)    <- prsTXT vs1 ys1            ]
 
 prsS :: SPARSER Cat Cat
-prsS = spR <||> cond1R <||> cond2R <||> attR
+prsS = spR <||> cond1R <||> cond2R
 
 prsTAG :: SPARSER Cat Cat
 prsTAG = \us xs -> [ (Branch (Cat "_" "S" [] []) [s,t],ws,zs) |
@@ -399,18 +399,6 @@ cond2R = \ us xs ->
          (_,vs2,ys2)  <- leafPS "THEN" vs1 ys1, 
          (s2,ws,zs)   <- prsS vs2 ys2 ]
 
-attR :: SPARSER Cat Cat 
-attR = \ us xs -> 
- [ (Branch (Cat "_" "AT" (fs (t2c subj)) []) [subj',att],ws,zs) | 
-       (subj,vs,ys) <- prsNP us xs,
-       (att,ws,zs)  <- prsAT vs ys, 
-       subj'       <- assignT Nom subj, 
-       agreeC subj att,
-       subcatList (t2c att) == [] ]
-
-prsAT :: SPARSER Cat Cat
-prsAT = infinR1 <||> infinR2
-
 infinR1 :: SPARSER Cat Cat
 infinR1 = \us xs ->
  [ (Branch (Cat "_" "AT" [] []) [vp1,to,vp2],ps,qs) |
@@ -422,7 +410,7 @@ infinR1 = \us xs ->
 
 infinR2 :: SPARSER Cat Cat 
 infinR2 = \ us xs -> 
- [ (Branch (Cat "_" "AV" (fs (t2c vp1)) []) [vp1,obj,to,vp2],rs,ss) | 
+ [ (Branch (Cat "_" "AT" (fs (t2c vp1)) []) [vp1,obj,to,vp2],rs,ss) | 
 	(vp1,vs,ys) <- leafPS "VP" us xs, 
 	(obj,ws,zs) <- prsNP vs ys,
 	(to,ps,qs)  <- prsTO ws zs,
