@@ -416,7 +416,7 @@ infinR2 = \ us xs ->
 	(to,ps,qs)  <- prsTO ws zs,
 	(q:qs')     <- [qs],
 	q'          <- [Cat (phon q) "VP" [Tense] (subcatList q)],
-	(vp2,rs,ss) <- prsVP zs (q':qs') ]
+	(vp2,rs,ss) <- prsVP ps (q':qs') ]
 	-- subcatlist   <- [subcatList (t2c att)],
 	-- match subcatlist [t2c inf] ]
 
