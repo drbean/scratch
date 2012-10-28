@@ -202,7 +202,7 @@ transAT (Branch (Cat _ "AV" _ _)
 	    (\subj -> transNP obj0
 		(\agent -> transNP obj1
 		    (\theme -> transPP obj2
-			( \recipient -> Rel (att++"_"++act) [subj,subj,theme,recipient] ))))
+			( \recipient -> Rel (att++"_"++act) [subj,agent,theme,recipient] ))))
 transAT _ = \x -> NonProposition
 
 transNPorPP :: ParseTree Cat Cat -> 
