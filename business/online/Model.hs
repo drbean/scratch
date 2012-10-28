@@ -85,10 +85,6 @@ pred4 xs	= curry4 ( `elem` xs )
 have	= pred2 $ possessions ++ management
 		-- ++ ( map (\x->(x,N) ) $ filter people entities ) -- personality
 
-data Want a where
-	Thing :: Entity -> Want Entity
-	Promo :: Entity -> Want Entity
-	Event :: (Entity,Entity,Entity) -> Want Entity
 wanted_pay :: ThreePlacePred
 wanted_pay	= pred3 [(M,M,L),(L,M,AF)]
 wanted_pay_sum	= pred4 [(M,M,AS,L)]
