@@ -413,22 +413,24 @@ prsAT = infinR1 <||> infinR2
 
 infinR1 :: SPARSER Cat Cat
 infinR1 = \us xs ->
- [ (Branch (Cat "_" "AT" [] []) [to,vp2],ws,zs) |
-	(to,vs,ys) <- prsTO us xs,
-	(y:ys')    <- [ys],
-	y'         <- [Cat (phon y) "VP" [Tense] (subcatList y)],
-	(vp2,ws,zs) <- prsVP vs (y':ys') ]
+ [ (Branch (Cat "_" "AT" [] []) [vp1,to,vp2],ps,qs) |
+	(vp1,vs,ys)  <- leafPS "VP" us xs, 
+	(to,ws,zs) <- prsTO vs ys,
+	(z:zs')    <- [zs],
+	z'         <- [Cat (phon z) "VP" [Tense] (subcatList z)],
+	(vp2,ps,qs) <- prsVP ws (z':zs') ]
 
 infinR2 :: SPARSER Cat Cat 
 infinR2 = \ us xs -> 
- [ (Branch (Cat "_" "AV" [] []) [obj,to,vp2],ps,qs) | 
-       (obj,vs,ys) <- prsNP us xs,
-       (to,zs,ws)  <- prsTO vs ys,
-       (w:ws')     <- [ws],
-       w'          <- [Cat (phon w) "VP" [Tense] (subcatList w)],
-       (vp2,ps,qs) <- prsVP zs (w':ws') ]
-       -- subcatlist   <- [subcatList (t2c att)],
-       -- match subcatlist [t2c inf] ]
+ [ (Branch (Cat "_" "AV" [] []) [vp1,obj,to,vp2],rs,ss) | 
+	(vp1,vs,ys)  <- leafPS "VP" us xs, 
+	(obj,ws,zs) <- prsNP vs ys,
+	(to,ps,qs)  <- prsTO ws zs,
+	(q:qs')     <- [qs],
+	q'          <- [Cat (phon q) "VP" [Tense] (subcatList q)],
+	(vp2,rs,ss) <- prsVP zs (q':qs') ]
+	-- subcatlist   <- [subcatList (t2c att)],
+	-- match subcatlist [t2c inf] ]
 
 prsNP :: SPARSER Cat Cat 
 prsNP = leafPS "NP" <||> npR <||> npADJR <||> npposR <||> cnposR <||> adjcnposR <||> depCR  <||> pop "NP" 
@@ -532,12 +534,32 @@ prsCOMP :: SPARSER Cat Cat
 prsCOMP = prsNP <||> prsADJ
 
 vpR :: SPARSER Cat Cat
-vpR = \us xs -> 
- [(Branch (Cat "_" "VP" (fs (t2c vp)) []) (vp:xps),ws,zs) |  
+vpR = vpNPR <||> vpPPR <||> vpNPPPR <||> infinR1 <||> infinR2
+
+vpNPR :: SPARSER Cat Cat
+vpNPR = \us xs -> 
+ [(Branch (Cat "_" "VP" (fs (t2c vp)) []) [vp,xp],ws,zs) |  
              (vp,vs,ys)  <- leafPS "VP" us xs, 
              subcatlist  <- [subcatList (t2c vp)],
-             (xps,ws,zs) <- prsVdependents vs ys, 
-             match subcatlist (map t2c xps) ]
+             (xp,ws,zs) <- prsNP vs ys, 
+             match subcatlist [t2c xp] ]
+
+vpPPR :: SPARSER Cat Cat
+vpPPR = \us xs -> 
+ [(Branch (Cat "_" "VP" (fs (t2c vp)) []) [vp,xp],ws,zs) |  
+             (vp,vs,ys)  <- leafPS "VP" us xs, 
+             subcatlist  <- [subcatList (t2c vp)],
+             (xp,ws,zs) <- prsPP vs ys, 
+             match subcatlist [t2c xp] ]
+
+vpNPPPR :: SPARSER Cat Cat
+vpNPPPR = \us xs -> 
+ [(Branch (Cat "_" "VP" (fs (t2c vp)) []) [vp,obj1,obj2],ws,zs) |  
+             (vp,vs,ys)  <- leafPS "VP" us xs, 
+             subcatlist  <- [subcatList (t2c vp)],
+             (obj1,ws,zs) <- prsNP vs ys, 
+             (obj2,ps,qs) <- prsNPorPP ws zs, 
+             match subcatlist (map t2c [obj1,obj2]) ]
 
 finVpR :: SPARSER Cat Cat
 finVpR = \us xs -> [(vp',vs,ys) | 
@@ -575,8 +597,11 @@ prsPREP = leafPS "PREP"
 prsTO :: SPARSER Cat Cat
 prsTO = leafPS "TO"
 
+prsNPorPP :: SPARSER Cat Cat
+prsNPorPP = prsNP <||> prsPP 
+
 prsCOMPorNPorPP :: SPARSER Cat Cat
-prsCOMPorNPorPP = prsCOMP <||> prsNP <||> prsPP 
+prsCOMPorNPorPP = prsCOMP <||> prsNPorPP 
 
 prsVdependent :: SPARSER Cat Cat
 prsVdependent = prsCOMPorNPorPP
