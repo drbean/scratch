@@ -32,13 +32,6 @@ intransitives = [
 	]
 
 transitives = [
-	[Cat "appreciated"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "appreciate"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "disappointed"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
-		Cat "disappointed"	"ADJ" [] []],
-	[Cat "disappoint"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "saw"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "see"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "say"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "said"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "asked"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
@@ -75,13 +68,5 @@ transitives = [
 	[Cat "go"	"VP" [Infl]  [Cat "_" "PP" [To] []]],
 	[Cat "came"	"VP" [Tense] [Cat "_" "PP" [From] []]],
 	[Cat "come"	"VP" [Infl]  [Cat "_" "PP" [From] []]],
-	[Cat "immigrated"	"VP" [Tense] [],
-		Cat "immigrated"	"VP" [Tense] [Cat "_" "PP" [To] []],
-		Cat "immigrated" "VP" [Tense] [Cat "_" "PP" [From] []]],
-	[Cat "immigrate"	"VP" [Infl] [],
-		Cat "immigrate"	"VP" [Infl] [Cat "_" "PP" [To] []],
-		Cat "immigrate" "VP" [Infl] [Cat "_" "PP" [From] []]],
-	[Cat "raised" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "raise" "VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
 	]
 
