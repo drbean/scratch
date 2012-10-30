@@ -276,7 +276,7 @@ advs = [
 	]
 
 conjuncts = [
-	[Cat "and"  "CONJ" [] []],
+	-- [Cat "and"  "CONJ" [] []],
 	[Cat "but"  "CONJ" [] []],
 	[Cat "."    "CONJ" [] []]
 	-- [Cat "if"   "COND" [] []],
