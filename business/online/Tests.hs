@@ -431,8 +431,9 @@ transitives = [
 
 ditransitive_tests = [
 	"Did Larry finish the website in one month.",
-	"Did Michelle give Larry 6,000 dollars."
---	"Barbara gave a presentation.",
+	"Did Michelle give Larry 6,000 dollars.",
+	"Did Larry speak Michelle?",
+	"Did Larry speak to Michelle about the website?"
 --	"Barbara gave Barbara's boss a presentation.",
 --	"Barbara gave a presentation to Barbara's boss.",
 --	"Barbara gave a presentation to Eva",
@@ -597,7 +598,8 @@ to_inf_test = [
 	"Michelle wanted to pay Larry 6,000 dollars.",
 	"Larry wanted to finish the website in two months.",
 	"Michelle wanted Larry to finish the website in one month.",
-	"Larry wanted to charge Michelle 50 dollars an hour."
+	"Larry wanted to charge Michelle 50 dollars an hour.",
+	"Larry was the person who wanted to charge Michelle 50 dollars an hour."
 	]
 
 to_inf_test_yn = [
@@ -607,16 +609,17 @@ to_inf_test_yn = [
 	"Did Michelle want to pay Larry 6,000 dollars.",
 	"Did Larry want to finish the website in two months.",
 	"Did Michelle want Larry to finish the website in one month.",
-	"Did Larry want to charge Michelle 50 dollars an hour."
+	"Did Larry want to charge Michelle 50 dollars an hour.",
+	"Was Larry the person who wanted to charge Michelle 50 dollars an hour?"
 	]
 
 to_inf_test_tag = [
 	"Larry wanted Michelle to pay 6,000 dollars, didn't he?",
 	"Larry wanted Michelle to pay 50 dollars an hour, didn't he?",
 	"Michelle wanted to pay Larry, didn't she.",
-	"Michelle wanted to pay Larry 6,000 dollars, didn't she..",
+	"Michelle wanted to pay Larry 6,000 dollars, didn't she.",
 	"Larry wanted to finish the website in two months, didn't he.",
-	"Michelle wanted Larry to finish the website in one month, didn't she..",
+	"Michelle wanted Larry to finish the website in one month, didn't she.",
 	"Larry wanted to charge Michelle 50 dollars an hour, didn't he."
 	]
 
