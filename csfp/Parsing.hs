@@ -368,7 +368,7 @@ spTagR :: SPARSER Cat Cat
 spTagR = \ us xs -> 
  [ (Branch (Cat "_" "S" (fs (t2c np)) []) [np',vp],ws,zs) | 
        (np,vs,ys) <- prsNP us xs,
-       np'       <- assignT Nom np, 
+       np'        <- assignT Nom np, 
        tag        <- [Cat (phon (t2c np')) (catLabel (t2c np')) (fs (t2c np')) [] ],
        (vp,ws,zs) <- prsVP (vs ++ [tag]) ys,
        agreeC np vp,
@@ -380,7 +380,7 @@ spR = \ us xs ->
  [ (Branch (Cat "_" "S" (fs (t2c np)) []) [np',vp],ws,zs) | 
        (np,vs,ys) <- prsNP us xs,
        (vp,ws,zs) <- prsVP vs ys, 
-       np'       <- assignT Nom np, 
+       np'        <- assignT Nom np, 
        agreeC np vp,
        subcatList (t2c vp) == [] ]
 
@@ -522,30 +522,22 @@ prsCOMP :: SPARSER Cat Cat
 prsCOMP = prsNP <||> prsADJ
 
 vpR :: SPARSER Cat Cat
-vpR = vpNPR <||> vpPPR <||> vpNPPPR <||> infinR1 <||> infinR2
+vpR = vp1R <||> vp2R <||> infinR1 <||> infinR2
 
-vpNPR :: SPARSER Cat Cat
-vpNPR = \us xs -> 
+vp1R :: SPARSER Cat Cat
+vp1R = \us xs -> 
  [(Branch (Cat "_" "VP" (fs (t2c vp)) []) [vp,xp],ws,zs) |  
              (vp,vs,ys)  <- leafPS "VP" us xs, 
              subcatlist  <- [subcatList (t2c vp)],
-             (xp,ws,zs) <- prsNP vs ys, 
+             (xp,ws,zs) <- prsNPorPP vs ys, 
              match subcatlist [t2c xp] ]
 
-vpPPR :: SPARSER Cat Cat
-vpPPR = \us xs -> 
- [(Branch (Cat "_" "VP" (fs (t2c vp)) []) [vp,xp],ws,zs) |  
-             (vp,vs,ys)  <- leafPS "VP" us xs, 
-             subcatlist  <- [subcatList (t2c vp)],
-             (xp,ws,zs) <- prsPP vs ys, 
-             match subcatlist [t2c xp] ]
-
-vpNPPPR :: SPARSER Cat Cat
-vpNPPPR = \us xs -> 
+vp2R :: SPARSER Cat Cat
+vp2R = \us xs -> 
  [(Branch (Cat "_" "VP" (fs (t2c vp)) []) [vp,obj1,obj2],ps,qs) |  
              (vp,vs,ys)  <- leafPS "VP" us xs, 
              subcatlist  <- [subcatList (t2c vp)],
-             (obj1,ws,zs) <- prsNP vs ys, 
+             (obj1,ws,zs) <- prsNPorPP vs ys, 
              (obj2,ps,qs) <- prsNPorPP ws zs, 
              match subcatlist (map t2c [obj1,obj2]) ]
 
