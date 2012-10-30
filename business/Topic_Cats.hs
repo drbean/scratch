@@ -41,13 +41,16 @@ transitives = [
 		Cat "ask"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
 					Cat "_" "PP" [About] []]],
 	[Cat "spoke"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "speak"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "speak"	"VP" [Infl] [Cat "_" "PP" [To] [],
+					Cat "_" "PP" [About] []]],
 	[Cat "talked"	"VP" [Tense] [Cat "_" "PP" [To] []],
---		Cat "talked"	"VP" [Tense] [Cat "_" "PP" [About] []],
+		Cat "talked"	"VP" [Tense] [Cat "_" "PP" [About] []],
 		Cat "talked"	"VP" [Tense] [Cat "_" "PP" [To] [],
 					Cat "_" "PP" [About] []]],
 	[Cat "talk"	"VP" [Infl]  [Cat "_" "PP" [To] []],
---		Cat "talk"	"VP" [Infl] [Cat "_" "PP" [About] []],
+		Cat "talk"	"VP" [Infl] [Cat "_" "PP" [About] []],
+		Cat "talk"	"VP" [Infl] [Cat "_" "PP" [About] [],
+					Cat "_" "PP" [With] []],
 		Cat "talk"	"VP" [Infl] [Cat "_" "PP" [To] [],
 					Cat "_" "PP" [About] []]],
 	[Cat "knew"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
@@ -67,6 +70,6 @@ transitives = [
 	[Cat "went"	"VP" [Tense] [Cat "_" "PP" [To] []]],
 	[Cat "go"	"VP" [Infl]  [Cat "_" "PP" [To] []]],
 	[Cat "came"	"VP" [Tense] [Cat "_" "PP" [From] []]],
-	[Cat "come"	"VP" [Infl]  [Cat "_" "PP" [From] []]],
+	[Cat "come"	"VP" [Infl]  [Cat "_" "PP" [From] []]]
 	]
 
