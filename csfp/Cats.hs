@@ -58,7 +58,8 @@ interrogatives = [
 	[Cat "what" "NP"  [Wh,Thrd,AccOrDat,Neutr]    []],
 	[Cat "that"  "REL" [] [], Cat "that"  "DET" [Sg]    []],
 	[Cat "which" "REL" [Neutr] [], Cat "which" "DET" [Wh] []],
-	[Cat "whose" "REL" [Neutr] [], Cat "which" "DET" [Wh] []]
+	[Cat "whose" "REL" [Neutr] [], Cat "whose" "DET" [Wh] []],
+	-- [Cat "how_much" "NP" [Wh,Thrd,Neutr] [], Cat "how_much" "DET" [Wh] []]
 	-- [Cat "where" "NP" [Neutr] [], Cat "where" "REL" [] []]
 	]
 
