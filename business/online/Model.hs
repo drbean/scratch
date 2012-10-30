@@ -117,8 +117,9 @@ said	= pred2 $ map (\x->(agent x, theme x) ) comms
 asked	= pred2 $ map (\x->(agent x, recipient x) ) comms
 ask_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
 talked	= pred2 $ map (\x->(agent x, recipient x) ) comms
-              ++  map (\(agent,theme,recipient)->(recipient, agent) ) comms
+              ++  map (\(agent,theme,recipient)->(agent, theme) ) comms
 talk_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
+		++ comms
 told	= pred3 comms
 recite = pred2 $ map ( \x -> (agent x, theme x) ) comms
 
@@ -127,7 +128,7 @@ work_where	= pred2 $ map (\x -> (patient x, agent x) ) work
 work_as = pred2 $ map (\x -> (patient x, location x) ) work
 
 giving	= []
-comms	= [ (M,N,L),(L,N,M) ]
+comms	= [ (M,N,L),(L,N,M),(M,S,L),(L,S,M) ]
 work	= [ (B,G,M),(Unspec,W,L)]
 
 agent4, theme4, recipient4, location4 :: (Entity,Entity,Entity,Entity) -> Entity
