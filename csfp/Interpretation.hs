@@ -44,17 +44,6 @@ inflections = [
 relations = [
  
  ( "had", \[x,y] -> have y x ),
- ( "asked", \args -> case args of
- 	[x,y] -> asked y x
- 	[x,y,z] -> ask_about z y x ),
- ( "talked", \args -> case args of 
- 	[x,y] -> talked y x
- 	[x,y,z] -> talk_about z y x ),
- ( "said", \[x,y] -> said y x ),
- 
- ( "talked", \args -> case args of 
- 	[x,y] -> talked y x
- 	[x,y,z] -> talk_about z y x ),
  ( "gave",	\ [x,y,z] ->	gave z y x ),
  ( "work", \args -> case args of
         [x] -> worker x
@@ -62,8 +51,7 @@ relations = [
  ( "got", \args -> case args of
  	[x,y,z] -> got_from z y x
  	[x,y] -> got y x
-	),
- ( "told", \args -> case args of [x,y] -> recite y x; [x,y,z] -> told z y x )
+	)
  ]
 
 -- vim: set ts=8 sts=4 sw=4 noet:
