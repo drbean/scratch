@@ -9,6 +9,7 @@ import LogicalForm
 yesorno :: Answer -> String
 yesorno (Boolean False) = "No"
 yesorno (Boolean True)  = "Yes"
+yesorno _               = error "Answer neither True nor False"
 
 takeCourse :: String -> String -> String
 takeCourse _ "WH" = "WH"
