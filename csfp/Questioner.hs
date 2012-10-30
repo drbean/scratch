@@ -31,9 +31,13 @@ pickOne "False" "True" = "True"
 pickOne "True" "False" = "True"
 pickOne "False" x      = x
 pickOne "True"  x      = x
+pickOne "Yes" "No"     = "Yes"
+pickOne "No" "Yes"     = "Yes"
+pickOne "No" x         = x
+pickOne "Yes" x        = x
 pickOne x   y  = if (x == y) then x
 		 	else x ++ ", " ++ y
--- pickOne _       _      = error "undefined eval, not NoAnswer, [], True or False"
+-- pickOne _       _      = error "undefined eval, not NoAnswer, [], True, False, Yes or No"
 
 main = do
 	sentence <- getLine
