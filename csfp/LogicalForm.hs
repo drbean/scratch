@@ -365,6 +365,56 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_,_]),obj1,obj2,obj3]
     (\ theme   -> transNPorPP obj3
      (\ recipient -> Rel name [agent,location,theme,recipient])))
 
+transVP (Branch (Cat _ "AT" _ _)
+    [Leaf (Cat att "VP" _ _), Leaf (Cat "to" "TO" [ToInf] []),
+       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj])]) =
+	   case(catLabel (t2c obj)) of
+	"NP" ->
+	    (\subj -> transNP obj
+		( \theme -> Rel (att++"_"++act) [subj,subj,theme] ))
+	"PP" ->
+	    (\subj -> transPP obj
+		( \theme -> Rel (att++"_"++act) [subj,subj,theme] ))
+transVP (Branch (Cat _ "AT" _ _)
+    [Leaf (Cat att "VP" _ [_]), Leaf (Cat "to" "TO" [ToInf] []),
+       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj1,obj2])]) =
+    case (catLabel ( t2c obj1 ), catLabel (t2c obj2)) of
+	("NP","NP") ->
+	    (\subj -> transNP obj1
+		(\recipient -> transNP obj2
+		    ( \theme -> Rel (att++"_"++act) [subj,subj,theme,recipient] )))
+	("NP","PP") ->
+	    (\subj -> transNP obj1
+		(\theme -> transPP obj2
+		    ( \recipient -> Rel (att++"_"++act) [subj,subj,theme,recipient] )))
+transVP (Branch (Cat _ "AT" _ _)
+    [Leaf (Cat att "VP" _ [_]), obj0, Leaf (Cat "to" "TO" [ToInf] []),
+       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj])]) =
+	   case(catLabel (t2c obj)) of
+	"NP" ->
+	    (\subj -> transNP obj0
+		(\agent -> transNP obj
+		    ( \theme -> Rel (att++"_"++act) [subj,agent,theme] )))
+	"PP" ->
+	    (\subj -> transNP obj0
+		(\agent -> transPP obj
+		    ( \theme -> Rel (att++"_"++act) [subj,agent,theme] )))
+transVP (Branch (Cat _ "AT" _ _)
+    [Leaf (Cat att "VP" _ [_]), obj0, Leaf (Cat "to" "TO" [ToInf] []),
+       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj1,obj2])]) =
+    case (catLabel ( t2c obj1 ), catLabel (t2c obj2)) of
+	("NP","NP") ->
+	    (\subj -> transNP obj0
+		(\agent -> transNP obj1
+		    (\recipient -> transNP obj2
+			( \theme -> Rel (att++"_"++act) [subj,agent,theme,recipient] ))))
+	("NP","PP") ->
+	    (\subj -> transNP obj0
+		(\agent -> transNP obj1
+		    (\theme -> transPP obj2
+			( \recipient -> Rel (att++"_"++act) [subj,agent,theme,recipient] ))))
+transVP _ = \x -> NonProposition
+
 transWH :: Maybe (ParseTree Cat Cat) -> LF
 transWH (Just (Branch (Cat _ "WH" _ _ ) [wh,Branch (Cat _ "S" _ _)
 	[Leaf (Cat "#" "NP" _ _),vp]])) =
