@@ -14,9 +14,7 @@ class_names = [
 	[Cat "man"     "CN" [Sg,Masc,Thrd]  []],
 	[Cat "men"     "CN" [Pl,Masc,Thrd]  []],
 	[Cat "woman"   "CN" [Sg,Fem,Thrd]   []],
-	[Cat "women"   "CN" [Pl,Fem,Thrd]   []],
-	[Cat "supervisor" "CN" [Sg,MascOrFem,Thrd]   []],
-	[Cat "supervisors" "CN" [Pl,MascOrFem,Thrd]   []]
+	[Cat "women"   "CN" [Pl,Fem,Thrd]   []]
 	]
 
 possessives = [
