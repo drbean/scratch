@@ -77,9 +77,9 @@ determiners = [
 	[Cat "most"    "DET" [Pl]  []],
 	[Cat "many"    "DET" [Pl]  []],
 	[Cat "few"     "DET" [Pl]  []],
-	[Cat "this"    "DET" [Sg]  []],
-	[Cat "these"   "DET" [Pl]  []],
-	[Cat "those"   "DET" [Pl]  []],
+	-- [Cat "this"    "DET" [Sg]  []],
+	-- [Cat "these"   "DET" [Pl]  []],
+	-- [Cat "those"   "DET" [Pl]  []],
 	[Cat "less_than" "DF" [Pl] []],
 	[Cat "more_than" "DF" [Pl] []]
 	]
