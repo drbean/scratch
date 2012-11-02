@@ -311,7 +311,7 @@ webnegotiation:
           answer: True
 vacations:
   jigsaw:
-    0:
+    00:
       identifier: Lifetime Holidays-Direct Sun joint venture negotiation 1
       A: |
             You have Lifetime's position before discussion with Direct.
@@ -320,23 +320,17 @@ vacations:
             It wants the advertising budget to be 200,000 dollars.
             You are willing to negotiate these requirements. But will Direct accept this original position? Is it already a deal?
       B: |
-            You have Lifetime's position after discussion with Direct.
-            It is willing for the contract to be one year less than A said.
-            It is willing to include destinations in Asia as well.
-            It is willing to have the advertising budget be 50,000 dollars less.
-            Will Direct accept this new position?
-      C: |
             You have Direct's position before discussion with Lifetime.
             It wants the contract to be for 3 years.
             It wants the destinations to be in Asia.
             It wants the advertising budget to be 100,000 dollars.
-            It is willing to negotiate some of these requirements. But some of them may not be negotiable. Will Michelle accept its position? Is it a deal?
-      D: |
-            You have the Direct's position after discussion with Lifetime.
-            It is willing for the contract to be 1 year more than what it hoped for.
-            It is willing for the destinations to be also in the USA.
-            It is willing for advertising spending to be 50,000 dollars more than what it wanted.
-            Will Lifetime accept the new position?
+            It is willing to negotiate some of these requirements. But some of them may not be negotiable. Will Lifetime accept its position? Is it a deal?
+      C: |
+            Lifetime's willing for the contract to be one year less than it said.
+            Direct is willing for the contract to be 1 year more than what it hoped for.
+            Lifetime is willing to include destinations in Asia as well.
+            Direct is willing for the destinations to be also in the USA.
+            Lifetime is willing to have the advertising budget be 50,000 dollars less and Direct is willing for it to be 50,000 dollars more..
       quiz:
         - question: It's a deal.
           answer: True
