@@ -82,14 +82,21 @@ pred2 xs	= curry ( `elem` xs )
 pred3 xs	= curry3 ( `elem` xs )
 pred4 xs	= curry4 ( `elem` xs )
 
+acquainted	= [(M,L)]
+know	= pred2 $ acquainted ++ map (\x -> (snd x, fst x)) acquainted
 have	= pred2 $ possessions ++ management
 		-- ++ ( map (\x->(x,N) ) $ filter people entities ) -- personality
+
+finish	= pred3 []
+pay	= pred3 []
 
 wanted_pay :: ThreePlacePred
 wanted_pay	= pred3 [(M,M,L),(L,M,AF)]
 wanted_pay_sum	= pred4 [(M,M,AS,L)]
 wanted_finish	= pred4 [(L,L,S,AW),(M,L,S,AO)]
+wanted_charge_sum	= pred3 [(L,L,AF)]
 wanted_charge	= pred4 [(L,L,AF,M)]
+wanted_have	= pred3 [(M,M,S)]
 
 possessions	= []
 management	= [(M,B)]
@@ -116,9 +123,9 @@ got_from	= pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving
 said	= pred2 $ map (\x->(agent x, theme x) ) comms
 asked	= pred2 $ map (\x->(agent x, recipient x) ) comms
 ask_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
-talked	= pred2 $ map (\x->(agent x, recipient x) ) comms
+talk_with_or_about	= pred2 $ map (\x->(agent x, recipient x) ) comms
               ++  map (\(agent,theme,recipient)->(agent, theme) ) comms
-talk_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
+talk_with_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
 		++ comms
 told	= pred3 comms
 recite = pred2 $ map ( \x -> (agent x, theme x) ) comms
@@ -139,6 +146,9 @@ recipient4 (_,_,_,r) = r
 
 forgetful :: ThreePlacePred -> TwoPlacePred
 forgetful r u v = or ( map ( r u v ) entities )
+
+reflexivize f x y = f y x
+
 passivize :: TwoPlacePred -> OnePlacePred
 passivize r	= \ x -> or ( map ( flip  r x ) entities )
 
