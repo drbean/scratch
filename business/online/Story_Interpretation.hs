@@ -28,6 +28,7 @@ objects = [
 
 inflections = [
  ( "want_charge", "wanted_charge" ),
+ ( "want_have", "wanted_have" ),
  ( "want_finish", "wanted_finish" ),
  ( "want_pay", "wanted_pay" ),
  ( "want_pay_sum", "wanted_pay_sum" ),
@@ -55,9 +56,16 @@ relations = [
 	-- ( "reliable",	\[x] -> reliable x	),
 
 	-- ( "quiet",	\[x] -> quiet x	),
-	-- ( "nervous",	\[x] -> nervous x	),
 
-	( "wanted_charge",	\[x,y,z,w] -> wanted_charge w z y x	),
+	( "finish",	\[x,y,z] -> finish z y x	),
+	( "pay",	\args -> case args of
+		[x,y,z] -> pay z y x
+		[x,y] -> forgetful  pay y x ),
+
+	( "wanted_charge",	\args -> case args of
+		[x,y,z] -> wanted_charge_sum z y x
+		[x,y,z,w] -> wanted_charge w z y x	),
+	( "wanted_have",	\[x,y,z] -> wanted_have z y x	),
 
 	( "wanted_finish",	\args -> case args of
 		-- [x,y,z] -> wanted_finish z y x
