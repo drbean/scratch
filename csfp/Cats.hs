@@ -56,7 +56,7 @@ interrogatives = [
 	[Cat "what" "NP"  [Wh,Thrd,AccOrDat,Neutr]    []],
 	[Cat "that"  "REL" [] [], Cat "that"  "DET" [Sg]    []],
 	[Cat "which" "REL" [Neutr] [], Cat "which" "DET" [Wh] []],
-	[Cat "whose" "REL" [Neutr] [], Cat "whose" "DET" [Wh] []],
+	[Cat "whose" "REL" [Neutr] [], Cat "whose" "DET" [Wh] []]
 	-- [Cat "how_much" "NP" [Wh,Thrd,Neutr] [], Cat "how_much" "DET" [Wh] []]
 	-- [Cat "where" "NP" [Neutr] [], Cat "where" "REL" [] []]
 	]
@@ -212,7 +212,7 @@ ditransitives = [
 		Cat "worked" "VP" [Tense] [Cat "_" "PP" [In,Neutr] []],
 		Cat "worked" "VP" [Tense] [Cat "_" "PP" [For,Neutr] []]],
 	[Cat "work" "NP" [Sg,Neutr,Thrd]  [],
-		Cat "work" "CN" [Sg,Neutr,Thrd] [],
+		Cat "work" "NP" [Sg,Neutr,Thrd] [],
 		Cat "work" "VP" [Infl] [],
 		Cat "work" "VP" [Infl] [Cat "_" "PP" [As,Neutr] []],
 		Cat "work" "VP" [Infl] [Cat "_" "PP" [At,Neutr] []],
