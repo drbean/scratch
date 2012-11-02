@@ -491,7 +491,8 @@ ditransitive_tests = [
 --	-- "Did Barbara's boss give a name to Fast-Track?"
 	]
 --
---wh_questions =[
+wh_questions =[
+	"Who did Michelle pay?"
 --	"Who worked?",
 --	"Who did Eva teach?",
 --	"Who taught Eva?",
@@ -534,8 +535,8 @@ ditransitive_tests = [
 --	"Which woman did a co-worker's boss appreciate?",
 --	"Which worker did a co-worker's boss appreciate?",
 --	"What did someone have?"
---	]
---
+	]
+
 --comp_wh_questions = [
 --	"Who was ambitious?",
 --	"Who was successful?",
@@ -628,6 +629,10 @@ to_inf_test_wh = [
 	"Who wanted to charge 50 dollars an hour?",
 	"Who wanted to charge Michelle 50 dollars an hour?",
 	"Who wanted Larry to charge Michelle 50 dollars an hour?",
+	"Who did Michelle want to pay?",
+	"Who did Michelle want to pay 6,000 dollars?",
+	"Who did Michelle want to finish the website?",
+	"How much did Larry want to charge michelle?",
 	"Who wanted 50 dollars an hour to finish the website in one month?"
 	]
 
