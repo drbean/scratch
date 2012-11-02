@@ -134,6 +134,7 @@ preproc ("3":",000":"dollars":xs)	= "3_000_dollars" : preproc xs
 
 preproc (",":xs)           = preproc xs
 
+preproc ("how":"much":xs)	= "how_much" : preproc xs
 
 preproc ("one":"month":xs)	= "one_month" : preproc xs
 preproc ("two":"months":xs)	= "two_months" : preproc xs
