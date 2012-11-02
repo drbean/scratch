@@ -1,5 +1,10 @@
 ---
 genre: intercultural
+true-love:
+  compcomp:
+    1-5:
+    6-10:
+    11-15:
 xo:
   compcomp:
     0:
@@ -15,6 +20,11 @@ xo:
       A: You had a girlfriend in high school, but she has gone to study in a college a long way from you. And she didn't reply to your email. You think she has forgotten about you. But she sends you an email. You tell Barry excitedly.
       B: You don't have a girlfriend, but your friend, Andrew does. His girlfriend was Claire. You are not interested in their relationship. You are not excited when he tells you that Claire sent him an email with hugs and kisses in it. 
       C: After leaving high school, you went to a college a long way from your home. You miss your family and Andrew, a friend, a little bit. You don't know how you feel about Andrew. But you send him an email and type "XOXOXO" at the end.
+    1:
+      identifier: hugs and kisses 17
+      A: Your girlfriend didn't reply to your email. You think she has forgotten about you. But she sends you an email. You tell Barry excitedly.
+      B: You have a friend, Andrew. His girlfriend, Claire has gone to a college far away. But you are not interested in their relationship.
+      C: You like Andrew only a little bit. But you type "XOXOXO" at the end of an email. Andrew misunderstands and thinks you love him.
       quiz:
         - question: A
           option:
@@ -46,6 +56,8 @@ xo:
           answer  : False
         - question: Andrew loves Claire more than she him.
           answer  : True
+        - question: Claire wants to love and kiss Andrew.
+          answer  : False
 back_to_school:
   compcomp:
     0:
@@ -98,6 +110,44 @@ back_to_school:
           answer  : No
         - question: Did the 2 know if Mom would pay for what they wanted to get (before/after)?
           answer  : No
+    1:
+      identifier: back to school shopping 54
+      A: You have two daughters, Jill and Roseanne. They are returning to school after the vacation. Now is a good time to shop. Everything is cheaper.
+      B: You ask your sister, Roseanne if she thinks your mom will pay for the dress you want. She says she doesn't know. She's not interested in clothes.
+      C: You want a smart phone to take to school so you can use Facebook in class. Jill says Mom might not pay for it. She says her dress is cheaper.
+      quiz:
+        - question: A
+          option:
+            - Jill
+            - Mom
+            - Roseanne
+          answer: Mom
+        - question: B
+          option:
+            - Jill
+            - Mom
+            - Roseanne
+          answer: Mom
+        - question: C
+          option:
+            - Jill
+            - Mom
+            - Roseanne
+          answer: Mom
+        - question: Mom is taking her daughters shopping.
+          answer  : True
+        - question: Jill wants to buy a dress.
+          answer  : True
+        - question: Jill and Roseanne want the same things.
+          answer  : False
+        - question: Things are cheaper, going back to school.
+          answer  : True
+        - question: They know Mom will pay for the things.
+          answer  : False
+        - question: Jill says Mom will pay for the smart phone.
+          answer  : False
+        - question: They will pay for the things with their own money.
+          answer  : False
 bingo:
   jigsaw:
     0:
