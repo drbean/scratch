@@ -44,6 +44,8 @@ nouns = [
 	]
 
 verbs = [
+	-- [Cat "liked" "VP" [Tense] [Cat "_" "NP" [AccOrDat]       []]],
+	-- [Cat "like" "VP" [Infl] [Cat "_" "NP" [AccOrDat]       []]],
 	-- [Cat "accepted" "VP" [Tense] [Cat "_" "NP" [AccOrDat]       []]],
 	-- [Cat "accept" "VP" [Infl] [Cat "_" "NP" [AccOrDat]       []]],
 	-- [Cat "agreed" "VP" [Tense] [Cat "_" "INF" [To]       []]],
