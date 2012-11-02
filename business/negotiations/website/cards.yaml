@@ -51,6 +51,14 @@ website:
             The designer wants to take two months to finish the website, and limit the amount of information on the website. He wants to charge Michelle fifty dollars an hour. He wants to limit the size of the site, with images of a few of the popular books.
       D: |
             The designer is ready to finish the job quicker than he said, eg, a month. But Michelle would have to compromise on the amount of information. He is willing to be paid a fixed price. But in return, he wants half the fee to be paid before starting work. He is willing to have one or two images on each page.
+    2:
+      identifier: website negotiation 2
+      A: |
+            Michelle wants the website operating within one week. She wants the website to have lots of information. She wants to pay the designer 10,000 dollars after the site is finished. She wants the site to show images of all the books that the bookstore sells.
+      B: |
+            Larry wants to take one month to finish the website, and limit the amount of information on the website. He wants to charge Michelle fifty dollars an hour. He wants to limit the size of the site, with images of a few of the popular books.
+      C: |
+            Michelle will not compromise on the time, but will compromise on the amount of information. Larry is ready to finish the job in a week. But he wants to be paid 12,000 dollars to do that. Michelle will not compromise on the amount paid, but will compromise on how Larry is paid.
       quiz:
         - question: 
           answer: True
