@@ -166,4 +166,125 @@ marriage:
           answer: False
         - question: Lucas disagrees with Dr Bean.
           answer: True
+rumor:
+  jigsaw:
+    0:
+      identifier: rumor 0
+      A: You have a best friend, Mike. You share a room and eat together, study together, and go to the movies together. People think you and Mike are gay. But you are not gay.
+      B: Your best friend is Ben. You do everything together. But you also study with Tim. Tim thinks you are gay because of your friendship with Ben. But you are not gay.
+      C: You study with Mike. You and everyone else think Mike and his best friend, Ben are gay. So you don't want to study with Mike anymore. People will think you are gay too.
+      quiz:
+        - question: A
+          option: 
+           - Ben
+           - Mike
+           - Tim
+          answer: Ben
+        - question: B
+          option:
+           - Ben
+           - Mike
+           - Tim
+          answer: Mike
+        - question: C
+          option:
+           - Ben
+           - Mike
+           - Tim
+          answer: Tim
+        - question: Ben and Mike are gay.
+          answer: False
+        - question: Tim thinks Ben and Mike are gay.
+          answer: True
+        - question: Ben and Mike are best friends.
+          answer: True
+        - question: Tim wants to keep studying with Mike.
+          answer: False
+        - question: Tim doesn't want people to think he's gay.
+          answer: True
+        - question: Only Tim thinks Ben and Mike are gay.
+          answer: False
+        - question: The problem is the result of a false belief.
+          answer: True
+control:
+  jigsaw:
+    0:
+      identifier: control 0
+      A: You are a couple with two children. The government gives you \$15,000. It wants to help you. It wants people to have more children. You are happy that the government gives you the money.
+      B: You don't have any children. The government takes \$15,000 from you. It gives the money to a couple with two children. You are unhappy. You don't like the government or the couple with kids.
+      C: You are the government. You want the people of your country to have more children. To help people with children, you take money from childless couples and give it to people with two children.
+      quiz:
+        - question: A
+          option: 
+           - a childless couple
+           - a couple with 2 kids
+           - the government
+          answer: a couple with 2 kids
+        - question: B
+          option:
+           - a childless couple
+           - a couple with 2 kids
+           - the government
+          answer: a childless couple
+        - question: C
+          option:
+           - a childless couple
+           - a couple with 2 kids
+           - the government
+          answer: the government
+        - question: The government takes money from couples with kids.
+          answer: False
+        - question: The government wants to help families with children.
+          answer: True
+        - question: The government wants couples to stop having children.
+          answer: False
+        - question: Couples with children get \$15,000 dollars.
+          answer: True
+        - question: Childless couples are happy to give for couples with kids.
+          answer: False
+        - question: Couples with kids are happy to get money.
+          answer: True
+        - question: Childless couples are happy with the government.
+          answer: False
+
+cohabitation:
+  jigsaw:
+    0:
+      identifier: cohabitation 0
+      A: Your daughter, Mika has a boyfriend, Kenji. You think Kenji is a good man. And you are happy for him to marry Mika. But you don't want Mika to live with him until they are married.
+      B: You want your girlfriend, Mika to live with you. But she told you that her father, Ichiro doesn't want her to live with you before you are married. You tell Mika not to listen to Ichiro.
+      C: Your boyfriend, Kenji wants you to live with him and you want to live with Kenji. But your father, Ichiro doesn't want you to live with Kenji. You don't know what to do. You are unhappy.
+      quiz:
+        - question: A
+          option: 
+           - Ichiro
+           - Kenji
+           - Mika
+          answer: Ichiro
+        - question: B
+          option:
+           - Ichiro
+           - Kenji
+           - Mika
+          answer: Kenji
+        - question: C
+          option:
+           - Ichiro
+           - Kenji
+           - Mika
+          answer: Mika
+        - question: Kenji wants Mika to live with him.
+          answer: True
+        - question: Mika doesn't want to live with Kenji.
+          answer: False
+        - question: Ichiro doesn't want Mika to live with Kenji.
+          answer: True
+        - question: Kenji wants Mika to listen to Ichiro.
+          answer: False
+        - question: Mika doesn't know what to do.
+          answer: True
+        - question: Ichiro doesn't want Mika to marry Kenji.
+          answer: False
+        - question: Ichiro doesn't like Kenji.
+          answer: False
 
