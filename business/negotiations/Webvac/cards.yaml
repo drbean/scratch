@@ -331,6 +331,32 @@ vacations:
             Lifetime is willing to include destinations in Asia as well.
             Direct is willing for the destinations to be also in the USA.
             Lifetime is willing to have the advertising budget be 50,000 dollars less and Direct is willing for it to be 50,000 dollars more..
+    0:
+      identifier: Lifetime Holidays-Direct Sun joint venture negotiation 1
+      A: |
+            You have Lifetime's position before discussion with Direct.
+            It wants the contract to be for five years.
+            It wants the range of destinations to be only in the USA.
+            It wants the advertising budget to be 200,000 dollars.
+            You are willing to negotiate these requirements. But will Direct accept this original position? Is it already a deal?
+      B: |
+            You have Lifetime's position after discussion with Direct.
+            It is willing for the contract to be one year less than A said.
+            It is willing to include destinations in Asia as well.
+            It is willing to have the advertising budget be 50,000 dollars less.
+            Will Direct accept this new position?
+      C: |
+            You have Direct's position before discussion with Lifetime.
+            It wants the contract to be for 3 years.
+            It wants the destinations to be in Asia.
+            It wants the advertising budget to be 100,000 dollars.
+            It is willing to negotiate some of these requirements. But some of them may not be negotiable. Will Michelle accept its position? Is it a deal?
+      D: |
+            You have the Direct's position after discussion with Lifetime.
+            It is willing for the contract to be 1 year more than what it hoped for.
+            It is willing for the destinations to be also in the USA.
+            It is willing for advertising spending to be 50,000 dollars more than what it wanted.
+            Will Lifetime accept the new position?
       quiz:
         - question: It's a deal.
           answer: True
@@ -352,6 +378,36 @@ vacations:
           answer: False
         - question: They reach agreement on advertising.
           answer: True
+    22:
+      identifier: Lifetime-Direct joint venture negotiation 22
+      A: |
+            You have Lifetime's position before discussion with Direct.
+            It wants the advertising budget to be 100,000 dollars.
+            In all other areas there is agreement.
+            Can Lifetime reach agreement with Direct in this area? Do they have a deal?
+      B: |
+            You have Direct's position before discussion with Lifetime.
+            It wants the advertising budget to be 300,000 dollars.
+            In all other areas there is agreement.
+            Can Direct reach agreement with Lifetime in this area? Do they have a deal?
+      C: |
+            In the negotiation Lifetime is NOT willing to accept a larger advertising budget. But Direct is willing to spend 200,000 dollars less than what it wanted.
+            Do Lifetime and Direct reach agreement on the advertising budget?
+            In all other areas there is agreement. Do Lifetime and Direct have a deal or not?
+      rubric: \input{/home/drbean/class/tmpl/negotiation.tex}
+      quiz:
+        - question: Lifetime's original position on advertising was \$300,000:
+          answer: False
+        - question: Lifetime was willing to accept a budget of \$100,000.
+          answer: True
+        - question: Direct's original position was \$200,000.
+          answer: False
+        - question: Direct was willing to accept a budget of \$100,000.
+          answer: True
+        - question: They reach agreement on the advertising budget.
+          answer: True
+        - question: Lifetime and Direct do not have a deal.
+          answer: False
     2:
       identifier: Lifetime Holidays-Direct Sun joint venture negotiation 2
       A: |
@@ -399,6 +455,36 @@ vacations:
           answer: False
         - question: They reach agreement on advertising budget.
           answer: True
+    33:
+      identifier: Lifetime-Direct joint venture negotiation 33
+      A: |
+            You have Lifetime's position before discussion with Direct.
+            It wants the destinations to be only in Taiwan.
+            In all other areas there is agreement.
+            Can Lifetime reach agreement with Direct in this area? Do they have a deal?
+      B: |
+            You have Direct's position before discussion with Lifetime.
+            It wants the destinations to be all over Asia.
+            In all other areas there is agreement.
+            Can Lifetime reach agreement with Direct in this area? Do they have a deal?
+      C: |
+            In the negotiation Lifetime is willing to include Japan. And Direct is willing to have only destinations in Taiwan and Japan.
+            Do Lifetime and Direct reach agreement on destinations?
+            In all other areas there is agreement. Do Lifetime and Direct have a deal or not?
+      rubric: \input{/home/drbean/class/tmpl/negotiation.tex}
+      quiz:
+        - question: Lifetime's original position on destinations was Taiwan.
+          answer: True
+        - question: Lifetime was willing to accept destinations in Asia.
+          answer: False
+        - question: Direct's original position was Taiwan and Japan.
+          answer: False
+        - question: Direct was willing to accept destinations in Taiwan and Japan.
+          answer: True
+        - question: They reach agreement on destinations.
+          answer: True
+        - question: Lifetime and Direct do not have a deal.
+          answer: False
     3:
       identifier: Lifetime Holidays-Direct Sun joint venture negotiation 3
       A: |
@@ -445,6 +531,36 @@ vacations:
         - question: Direct wanted a woman as manager.
           answer: False
         - question: They reach agreement on the manager.
+          answer: True
+    44:
+      identifier: Lifetime-Direct joint venture negotiation 44
+      A: |
+            You have Lifetime's position before discussion with Direct.
+            It wants the contract to be for 2 years.
+            Do Lifetime and Direct reach agreement on the length of contract?
+            In all other areas there is agreement. Do Lifetime and Direct have a deal or not?
+      B: |
+            You have Direct's position before discussion with Lifetime.
+            It wants the contract to be for 5 years.
+            Do Lifetime and Direct reach agreement on the length of contract?
+            In all other areas there is agreement. Do Lifetime and Direct have a deal or not?
+      C: |
+            In the negotiation, Lifetime is willing to accept a contract one year longer than it wanted. And Direct is willing to have a contract one year shorter than it wanted.
+            Do Lifetime and Direct reach agreement on the length of contract?
+            In all other areas there is agreement. Do Lifetime and Direct have a deal or not?
+      rubric: \input{/home/drbean/class/tmpl/negotiation.tex}
+      quiz:
+        - question: Lifetime's original position on length of contract was 3 years.
+          answer: False
+        - question: Lifetime was willing to accept a contract of 3 years in length.
+          answer: True
+        - question: Direct's original position was 5 years.
+          answer: True
+        - question: Direct was willing to accept a contract of 3 years in length.
+          answer: False
+        - question: They reach agreement on length of contract.
+          answer: False
+        - question: Lifetime and Direct do not have a deal.
           answer: True
     4:
       identifier: Lifetime Holidays-Direct Sun joint venture negotiation 4
@@ -493,6 +609,36 @@ vacations:
           answer: False
         - question: They reach agreement on advertising.
           answer: True
+    55:
+      identifier: Lifetime-Direct joint venture negotiation 55
+      A: |
+            You have Lifetime's position before discussion with Direct.
+            It wants the advertising budget to be 100,000 dollars.
+            In all other areas there is agreement.
+            Can Lifetime reach agreement with Direct in this area? Do they have a deal?
+      B: |
+            You have Direct's position before discussion with Lifetime.
+            It wants the advertising budget to be 300,000 dollars.
+            In all other areas there is agreement.
+            Can Lifetime reach agreement with Direct in this area? Do they have a deal?
+      C: |
+            In the negotiation, Lifetime is willing for advertising spending to be 100,000 dollars more than what it wanted. And Direct is willing to spend 100,000 dollars less than it wanted.
+            Do Lifetime and Direct reach agreement on the advertising budget?
+            In all other areas there is agreement. Do Lifetime and Direct have a deal or not?
+      rubric: \input{/home/drbean/class/tmpl/negotiation.tex}
+      quiz:
+        - question: Lifetime's original position on budget was 100,000 dollars.
+          answer: True
+        - question: Lifetime was willing to accept a budget of 200,000 dollars.
+          answer: True
+        - question: Direct's original position was 200,000 dollars.
+          answer: False
+        - question: Direct was willing to accept a budget of 200,000 dollars.
+          answer: True
+        - question: They do not reach agreement on advertising budget.
+          answer: False
+        - question: Lifetime and Direct do not have a deal.
+          answer: False
     5:
       identifier: Lifetime Holidays-Direct Sun joint venture negotiation 5
       A: |
@@ -540,6 +686,36 @@ vacations:
           answer: False
         - question: They reach agreement on advertising budget.
           answer: True
+    66:
+      identifier: Lifetime-Direct joint venture negotiation 66
+      A: |
+            You have Lifetime's position before discussion with Direct.
+            It wants destinations to be only in the Mediterranean.
+            In all other areas there is agreement.
+            Can Lifetime reach agreement with Direct in this area? Do they have a deal?
+      B: |
+            You have Direct's position before discussion with Lifetime.
+            It wants the destinations to be all over the world.
+            In all other areas there is agreement.
+            Can Lifetime reach agreement with Direct in this area? Do they have a deal?
+      C: |
+            In the negotiation, Lifetime is willing to include destinations all over Europe. Direct is willing for the destinations to be only in the USA and in Europe.
+            Do Lifetime and Direct reach agreement on the destinations?
+            In all other areas there is agreement. Do Lifetime and Direct have a deal or not?
+      rubric: \input{/home/drbean/class/tmpl/negotiation.tex}
+      quiz:
+        - question: Lifetime's original position on destinations was Europe.
+          answer: False
+        - question: Lifetime was willing to accept destinations in Europe.
+          answer: True
+        - question: Direct's original position was Europe.
+          answer: False
+        - question: Direct was willing to accept destinations in Europe and the USA.
+          answer: True
+        - question: They reach agreement on destinations.
+          answer: False
+        - question: Lifetime and Direct do not have a deal.
+          answer: True
     6:
       identifier: vacations 6
       A: Lifetime's position: It wants the contract to be for four years.  And it wants the range of destinations to be only in the Mediterranean. Lifetime is willing to discuss Direct's offers.
@@ -558,6 +734,36 @@ vacations:
           answer: False
         - question: It's a deal.
           answer: False
+    77:
+      identifier: Lifetime-Direct joint venture negotiation 77
+      A: |
+            You have Lifetime's position before discussion with Direct.
+            It wants a three-year contract.
+            In all other areas there is agreement.
+            Can Lifetime reach agreement with Direct in this area? Do they have a deal?
+      B: |
+            You have Direct's position before discussion with Lifetime.
+            It wants the contract to be five years in length.
+            In all other areas there is agreement.
+            Can Lifetime reach agreement with Direct in this area? Do they have a deal?
+      C: |
+            In the negotiation Lifetime is NOT willing to accept a longer contract. But Direct is willing to accept a shorter contract, one year shorter than it originally wanted.
+            Do Lifetime and Direct reach agreement on the length of contract?
+            In all other areas there is agreement. Do Lifetime and Direct have a deal or not?
+      rubric: \input{/home/drbean/class/tmpl/negotiation.tex}
+      quiz:
+        - question: Lifetime's originally wanted a three-year contract.
+          answer: True
+        - question: Lifetime was willing to accept a three-year contract.
+          answer: True
+        - question: Direct's original position was a four-year contract.
+          answer: False
+        - question: Direct was willing to accept a four-year contract.
+          answer: True
+        - question: They reach agreement on length of contract.
+          answer: False
+        - question: Lifetime and Direct do not have a deal.
+          answer: True
     7:
       identifier: vacations 7
       A: Lifetime's position: It wants the advertising budget to be 100,000 dollars. It wants to have control of the joint venture. It is willing to discuss Direct's offers.
