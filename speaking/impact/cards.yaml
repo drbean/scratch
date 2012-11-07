@@ -210,41 +210,41 @@ control:
   jigsaw:
     0:
       identifier: control 0
-      A: You are a couple with two children. The government gives you \$15,000. It wants to help you. It wants people to have more children. You are happy that the government gives you the money.
-      B: You don't have any children. The government takes \$15,000 from you. It gives the money to a couple with two children. You are unhappy. You don't like the government or the couple with kids.
-      C: You are the government. You want the people of your country to have more children. To help people with children, you take money from childless couples and give it to people with two children.
+      A: You are a couple with two children. President Ma gives you \$15,000. He wants to help you. He wants Taiwanese people to have more children. You are happy that he gives you the money.
+      B: You have no kids. President Ma takes \$15,000 from you. He gives the money to a couple with two children. You are unhappy. You don't like President Ma or the couple with kids.
+      C: You are the Taiwan president. You want people to have more children. To help people with children, you take money from childless couples and give it to people with two children.
       quiz:
         - question: A
           option: 
-           - a childless couple
-           - a couple with 2 kids
-           - the government
+           - no-kid family
+           - family with kids
+           - Ma
           answer: a couple with 2 kids
         - question: B
           option:
-           - a childless couple
-           - a couple with 2 kids
-           - the government
+           - no-kid family
+           - family with kids
+           - Ma
           answer: a childless couple
         - question: C
           option:
-           - a childless couple
-           - a couple with 2 kids
-           - the government
+           - no-kid family
+           - family with kids
+           - Ma
           answer: the government
-        - question: The government takes money from couples with kids.
+        - question: Ma takes money from couples with kids.
           answer: False
-        - question: The government wants to help families with children.
+        - question: Ma wants to help families with kids.
           answer: True
-        - question: The government wants couples to stop having children.
+        - question: Ma wants couples to stop having kids.
           answer: False
-        - question: Couples with children get \$15,000 dollars.
+        - question: Couples with children get \$15,000.
           answer: True
-        - question: Childless couples are happy to give for couples with kids.
+        - question: Childless couples are happy to give.
           answer: False
-        - question: Couples with kids are happy to get money.
+        - question: Couples with kids are happy.
           answer: True
-        - question: Childless couples are happy with the government.
+        - question: Childless couples are happy with Ma.
           answer: False
 
 cohabitation:
@@ -279,12 +279,12 @@ cohabitation:
           answer: False
         - question: Ichiro doesn't want Mika to live with Kenji.
           answer: True
-        - question: Kenji wants Mika to listen to Ichiro.
-          answer: False
-        - question: Mika doesn't know what to do.
-          answer: True
         - question: Ichiro doesn't want Mika to marry Kenji.
           answer: False
         - question: Ichiro doesn't like Kenji.
           answer: False
+        - question: Kenji wants Mika to listen to Ichiro.
+          answer: False
+        - question: Mika doesn't know what to do.
+          answer: True
 
