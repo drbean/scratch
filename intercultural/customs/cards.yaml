@@ -228,3 +228,83 @@ crossing:
           answer  : True
         - question: Carl promises to keep the book secret.
           answer  : True
+taunting:
+  jigsaw:
+    0:
+      identifier: taunting 0
+      A: You are a cookie. But you can run very fast. The cow wants to eat you. But you run away. The fox eats you when he carries you across the river. 
+      B: You want to eat the Gingerbread Man, but he sticks his tongue out and says, Run, run as fast as you can. You can't catch me, I'm the Gingerbread Man.
+      C: You carry the Gingerbread Man across the river on your back. He climbs on your nose so he doesn't get wet. Then you eat him.
+      quiz:
+        - question: A
+          option:
+            - Cow
+            - Fox
+            - Gingerbread Man
+          answer: Gingerbread Man
+        - question: B
+          option:
+            - Cow
+            - Fox
+            - Gingerbread Man
+          answer: Cow
+        - question: C
+          option:
+            - Cow
+            - Fox
+            - Gingerbread Man
+          answer: Fox
+        - question: The Gingerbread Man runs very quickly.
+          answer  : True
+        - question: He sticks his tongue out at the cow.
+          answer  : True
+        - question: The Gingerbread Man runs from the cow.
+          answer  : True
+        - question: He sticks his tongue out at the fox.
+          answer  : False
+        - question: The Gingerbread Man runs from the fox.
+          answer  : False
+        - question: The fox sticks his tongue out at the Man.
+          answer  : False
+        - question: The fox eats the Gingerbread Man.
+          answer  : True
+bedtime:
+  jigsaw:
+    0:
+      identifier: bedtime 0
+      A: You are listening to your mom read a bedtime story about the Gingerbread Man. But she read this story to you last night. You don't want to hear it again.
+      B: You read the Gingerbread Man to your daughter, Zoe last night. But she fell asleep before the end. You ask her if she wants to hear the end of the story.
+      C: You are the story of the Gingerbread Man. Zoe didn't find out that the Gingerbread Man was eaten because she fell asleep before the end.
+      quiz:
+        - question: A
+          option:
+            - Gingerbread Man
+            - Mom
+            - Zoe
+          answer: Zoe
+        - question: B
+          option:
+            - Gingerbread Man
+            - Mom
+            - Zoe
+          answer: Mom
+        - question: C
+          option:
+            - Gingerbread Man
+            - Mom
+            - Zoe
+          answer: Gingerbread Man
+        - question: Mom read the Gingerbread Man story before.
+          answer  : True
+        - question: Zoe knows the GingerBread Man was eaten.
+          answer  : False
+        - question: Mom asks if she should tell the story again.
+          answer  : True
+        - question: Mom wants to read the story to Zoe again.
+          answer  : True
+        - question: Zoe wants to hear the story again.
+          answer  : False
+        - question: Last time, Zoe fell asleep before the end.
+          answer  : True
+        - question: In the story, the Gingerbread Man fell asleep.
+          answer  : False
