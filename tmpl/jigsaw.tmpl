@@ -1,13 +1,17 @@
 \documentclass[a4paper]{article}
 \usepackage[T1]{fontenc}
-% \usepackage[absolute,noshowtext,showboxes]{textpos}
 \usepackage{color}
+% \usepackage[absolute,noshowtext,showboxes]{textpos}
 \usepackage[absolute,showboxes]{textpos}
+% \usepackage[absolute]{textpos}
 % \textblockorigin{-0.02cm}{0.07cm} %HPDeskJet5160
-% \textblockorigin{0.00cm}{0.00cm} %HPDeskJet5160
-\textblockorigin{0.00cm}{0.03cm} %HPDeskJet5160
+\textblockorigin{0.00cm}{0.00cm} %HPDeskJet5160
+% \textblockorigin{-0.05cm}{0.13cm} %HPDeskJet5160
 % \textblockorigin{0.00cm}{0.00cm} %HPLaserJet5000LE
+% \textblockorigin{-0.30cm}{0.00cm} %kyocera
 \usepackage{texdraw}
+\usepackage{multicol}
+\usepackage{soul}
 \pagestyle{empty}
 \setlength{\unitlength}{1cm}
 
@@ -16,28 +20,16 @@
 }
 
 \newcommand{\myAcontent}[0]{
-\begin{description}
 <TMPL>$A</TMPL>
-\end{description}
 }
 
 \newcommand{\myBcontent}[0]{
-\begin{description}
 <TMPL>$B</TMPL>
-\end{description}
 }
 
 \newcommand{\myCcontent}[0]{
-\begin{description}
 <TMPL>$C</TMPL>
-\end{description}
 }
-
-% \newcommand{\myDcontent}[0]{
-% \begin{description}
-% <TMPL>$D</TMPL>
-% \end{description}
-% }
 
 \newcommand{\mycard}[5]{%
 	\vspace{0.1cm}
@@ -75,13 +67,6 @@
 }}{}{} 
 \end{textblock}
 
-% \begin{textblock}{8}(8,4)
-% \textblocklabel{picture4}
-% \mycard{}{\myIdentifier}{\parbox{9.0cm}{D:
-% \myDcontent
-% }}{}{} 
-% \end{textblock}
-
 \begin{textblock}{8}(0,8)
 \textblocklabel{picture5}
 \mycard{}{\myIdentifier}{\parbox{9.0cm}{A:
@@ -102,13 +87,6 @@
 \myCcontent
 }}{}{} 
 \end{textblock}
-
-% \begin{textblock}{8}(8,12)
-% \textblocklabel{picture8}
-% \mycard{}{\myIdentifier}{\parbox{9.0cm}{D:
-% \myDcontent
-% }}{}{} 
-% \end{textblock}
 
 \end{document}
 
