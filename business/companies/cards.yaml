@@ -536,6 +536,23 @@ fourswot:
             - an opportunity
             - a threat
           answer: an opportunity
+    11:
+      identifier: fourswot 11
+      A: |+
+        \item [IKEA]s furniture is cheap but attractively designed.
+        \item [Valentino] is one of many chocolate manufacturers in Europe.
+        \item [Zara] clothes are mostly made by small factories in Spain.
+        \item [Flicker]'s most important product is cigarette lighters.
+      B: |+
+        \item [IKEA]'s designers think about how the product will be made as they design it.
+        \item [Valentino]'s chocolates are expensive, high-quality, traditional chocolates.
+        \item [Zara]'s suppliers are cheaper and quicker than others in Europe.
+        \item [Flicker] Sales from cigarette lighters are decreasing.
+      C: |+
+        \item [IKEA]'s designers want to help the manufacturers who make the product.
+        \item [Valentino] New chocolate manufacturers are producing new types of chocolate.
+        \item [Zara] could get suppliers in India and China who would be cheaper, but slower.
+        \item [Flicker] technology can be used to manufacture products like BBQ lighters.
     2:
       identifier: fourswot 2
       A: |+
