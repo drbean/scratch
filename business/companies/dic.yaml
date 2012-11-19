@@ -6,6 +6,7 @@
   - target
   - content
   - unclozeables
+  - percent
 -
   - jelkeby
   - IKEA strengths and market opportunities
@@ -199,42 +200,14 @@
   - valentino
   - Valentino executives debate problem
   - business
-  - A
+  - all
   - |+
     Anna: As we can see from this chart, our pre-tax profits have fallen from 8.9 million euros three years ago to 6.4 million last year. That's almost 30 percent. It's a dramatic decrease. Of course, we know that one of the reasons for this fall is that there's been widespread price-cutting in the industry. Some of our competitors are now offering quality chocolates at considerably lower prices. But surely this doesn't explain everything. There must be other reasons. Yes, Benito?
-    Benito: Well, one thing I've noticed certainly is that more and more people in my sales team are becoming demotivated. I've looked into this, and it seems to me that staff are disappointed by the fall in demand. 
-  - Anna|Benito|Carla
--
-  - valentino
-  - Valentino executives debate problem
-  - business
-  - B
-  - |+
-    Benito: We all had great expectations about our new product, especially the biscuits and cakes we launched six months ago, but they are just not selling well. In addition, even demand for our Classic Bar is falling.
+    Benito: Well, one thing I've noticed certainly is that more and more people in my sales team are becoming demotivated. I've looked into this, and it seems to me that staff are disappointed by the fall in demand. We all had great expectations about our new product, especially the biscuits and cakes we launched six months ago, but they are just not selling well. In addition, even demand for our Classic Bar is falling.
     Carla: I think that's a very good point. I know that motivation among production staff too is at an all-time low. The thing is, our machinery is now quite old. Some of the machines keep breaking down, and of course this causes delays in production.
     Anna: Right. Well, it seems to me that at least we now have a better picture of the situation. Now, the question is, what are we going to do about it?
   - Anna|Benito|Carla
--
-  - valentino
-  - Valentino executives debate problem
-  - business
-  - C
-  - |+
-    Anna: As we can see from this chart, our pre-tax profits have fallen from 8.9 million euros three years ago to 6.4 million last year. That's almost 30 percent. It's a dramatic decrease. Of course, we know that one of the reasons for this fall is that ...
-    ...
-    Carla: I know that motivation among production staff too is at an all-time low. The thing is, our machinery is now quite old. Some of the machines keep breaking down, and of course this causes delays in production.
-    Anna: Right. Well, it seems to me that at least we now have a better picture of the situation. Now, the question is, what are we going to do about it?
-  - Anna|Benito|Carla
--
-  - valentino
-  - Valentino executives debate problem
-  - business
-  - D
-  - |+
-    Anna: ... there's been widespread price-cutting in the industry. Some of our competitors are now offering quality chocolates at considerably lower prices. But surely this doesn't explain everything. There must be other reasons. Yes, Benito?
-    Benito: Well, one thing I've noticed certainly is that more and more people in my sales team are becoming demotivated. I've looked into this, and it seems to me that staff are disappointed by the fall in demand. We all had great expectations about our new product, especially the biscuits and cakes we launched six months ago, but they are just not selling well. In addition, even demand for our Classic Bar is falling.
-    Carla: I think that's a very good point.
-  - Anna|Benito|Carla
+  - 75
 -
   - dictation
   - Dr Bean's company
@@ -602,55 +575,55 @@
   - business
   - valentino
   - 1
-  - A
+  - all
   - There has been a dramatic decrease in the price-cutting of quality chocolates, so competitors in the chocolates industry are disappointed.
   - False
 -
   - business
   - valentino
   - 2
-  - A
+  - all
   - The fall in profits can be explained by price-cutting by competitors. But there must as well be other reasons for the dramatic decrease.
   - True
 -
   - business
   - valentino
   - 3
-  - B
+  - all
   - Production staff think that the fall in demand for the Classic Bar is demotivating and keeps causing machinery to break down.
   - False
 -
   - business
   - valentino
   - 4
-  - B
+  - all
   - Staff are demotivated--some by fall in demand for new and old products, some by old machinery which keeps breaking down.
   - True
 -
   - business
   - valentino
   - 5
-  - C
+  - all
   - The three know some reasons for the fall in profits. The question is, What can staff do about the fall in profits.
   - True
 -
   - business
   - valentino
   - 6
-  - C
+  - all
   - One thing the three can do is break down pre-tax profits in production that are causing delays in the fall in motivation.
   - False
 -
   - business
   - valentino
   - 7
-  - D
+  - all
   - It seems the sales people noticed price-cutting by competitors and a fall in demand. This must be the reason they are disappointed.
   - True
 -
   - business
   - valentino
   - 8
-  - D
+  - all
   - The reason for the demotivation of the staff is the price-cutting in the industry. They think the price-cutting is the reason for the fall in demand.
   - False
