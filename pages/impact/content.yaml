@@ -11,6 +11,15 @@ blurb: |+
 topic:
   -
     id: life_goals
+    title: You and your ideas about yourself
+    intro: Some issues that concern us are our appearance now and what will become of us in the future.
+    story:
+      -
+        id: weight
+        title: Size discrimination
+        blurb: |
+          Many people, especially women, think they are overweight when they are not really overweight. But also some people really <b>are</b> overweight. How do you feel about your weight and your appearance?
+        comment: From  <a href="http://impactseries.com">http://impactseries.com</a>, listen to Junko Yamanaka, one of the authors of the Impact series discuss <a href="http://www.impactseries.com/Issues_new/authors_introductionmp3/tm2_u16.mp3">being overweight</a>. Then, listen to (or download) the video of <a href="http://www.impactseries.com/Issues_new/personal_opinion/2_16.mov">Andrea saying that self-confidence makes people look beautiful</a>. Look out for the difficult vocabulary: <ul><li>exude (meaning, to come out of your skin like water) <li>root of beauty (meaning, what makes someone beautiful), <li>see someone in a different light (meaning, change the way you think about someone), <li>scenario (meaning, a story).</ul>
   -
     id: jobs
   -
@@ -70,3 +79,9 @@ topic:
         blurb: |
          Sometimes people misunderstand relationships. Unit 12's story is about two men who are close friends. Some people think they are gay, because they spend a lot of time together, and less time with other people. What do you think?
         comment: From  <a href="http://impactseries.com">http://impactseries.com</a>, listen to Steve <a href="http://www.impactseries.com/Issues_new/personal_opinion/2_13.mov">describe how a friend thought he was gay, when he wasn't</a>. Someone used Steve's computer to play a joke on him. This unknown person sent an email to the male friend proposing a sexual relationship. Steve is embarrassed telling this story. It may be difficult for you to understand what he is talking about.
+      -
+        id: cohabitation
+        title: Living together
+        blurb: |
+         Should you live with your 'significant other' outside marriage? Your parents may be opposed to you doing this. They worry that you may break up with that person, and then find it difficult to get married to someone else. In the case of the story in Impact Issues, the guy wants his girlfriend to move in with him, but she doesn't want to, because her parents are opposed to it.
+        comment: From  <a href="http://impactseries.com">http://impactseries.com</a>, listen to (or download) the video of <a href="http://www.impactseries.com/Issues_new/personal_opinion/2_15.mov">Derek saying the two individuals involved in the relationship are the only people who should decide</a>. Look out for the difficult vocabulary: <ul><li>cohabitation (meaning living together), <li>ultimately (finally), <li>an era different from their own (meaning life is different for you than it was for your parents' generation), <li>value systems (the things people believe in and think important, <li>open the doors (allow).</ul>
