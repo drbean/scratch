@@ -1,4 +1,4 @@
-\documentclass[b5paper]{article}
+\documentclass[a4paper]{article}
 \usepackage{color}
 \usepackage[absolute,showboxes]{textpos}
 % \textblockorigin{0.30cm}{0.35cm} %HPDeskJet5160
@@ -6,10 +6,11 @@
 \setlength{\unitlength}{1cm}
 \usepackage{xeCJK}
 \setCJKmainfont{WenQuanYi Zen Hei}
+\usepackage{multicol}
 \pagestyle{empty}
 
 \newcommand{\myIdentifier}[0]{
-Ordering at a fast food restaurant
+Movie Invitation and Checking the Time
 }
 
 \newenvironment{itemize*}%
@@ -25,47 +26,87 @@ Ordering at a fast food restaurant
 
 \setlength{\leftmargini}{-0.5cm}
 
+\begin{Large}Inviting someone to the movies\end{Large}
+
+\begin{multicols}{2}
+
 \begin{description}
 
-\item [Greeting by staff]\
+\item [Checking availability]\
 
 \begin{itemize*}
-\item Welcome to our restaurant? Can I help you?
-\item How can I help you?
-\item Are you ready to order?
+\item What are you doing Saturday night?
+\item Do you have any plans Saturday night?
+\item Are you busy on Saturday night?
 \end{itemize*}
 
-\item [Response by customer]\
+\item [Invitation]\
 
 \begin{itemize*}
-\item I'd like a glass of water.
-\item Do you have any Korean food?
-\item How much is the ice cream?
+\item What about going to the movies on Saturday night?
+\item Do you want to (Would you like to) go to the movies on Saturday night?
+\item Let's go to the movies on Saturday night.
+\item Come with me to the movies on Saturday night.
 \end{itemize*}
 
-\item [Check by staff]\
+\item [Making an excuse]\
 
 \begin{itemize*}
-\item That's a hamburger and some french fries?
-\item Small, medium or large?
-\item Anything else?
-\item For here or to go?
+\item Sorry, I can't. I have to wash my hair.
+\item I wish I could, but I have to study for an exam.
 \end{itemize*}
 
-\item [Final statement by customer]\
+\item [Responding to a refusal]\
 \begin{itemize*}
-\item That's all, thanks.
-\item How much is that?
+\item That's OK. Some other time, perhaps.
+\item Too bad. OK. I'll find someone else.
 \end{itemize*}
 
 \end{description}
+
+\end{multicols}
+
+\begin{Large}Checking the movie start time\end{Large}
+
+\begin{multicols}{2}
+
+\begin{description}
+
+\item [Calling the movie theater]\
+
+\begin{itemize*}
+\item Hello? Is that Apex Movie Theater?
+\end{itemize*}
+
+\item [Asking about the movie]\
+
+\begin{itemize*}
+\item I want to see the movie, Terminator III.
+\item Is Terminator III still showing?
+\end{itemize*}
+
+\item [Asking about the start time]\
+
+\begin{itemize*}
+\item What time does the movie start?
+\end{itemize*}
+
+\item [Booking a seat]\
+\begin{itemize*}
+\item Can I book a seat?
+\end{itemize*}
+
+\end{description}
+
+\end{multicols}
+
 }
 
 \newcommand{\mycard}[2]{%
 	\vspace{0.1cm}
-	\large #1
+	\normalsize #1
 	\par
-	\begin{minipage}[c][11.9cm][c]{9.1cm}%
+	\begin{minipage}[c][14.4cm][c]{9.1cm}%
 	\normalsize #2
 	\end{minipage}
 }
