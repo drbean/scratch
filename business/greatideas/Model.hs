@@ -23,29 +23,28 @@ entities	=  [minBound..maxBound]
 characters :: [ (String, Entity) ]
 
 characters = [
-	( "one_month",	AO ),
-	( "two_months",	AW ),
-	( "6_000_dollars",	AS ),
-	( "3_000_dollars",	AT ),
-	( "50_dollars_an_hour",	AF ),
-	( "larry",	L ),
-	( "michelle",	M )
+	( "penske-wynn",	W ),
+	( "ferrari",	R ),
+	( "pepsi",	P ),
+	( "punjabi_farmers",	AF ),
+	( "the_punjabi_government",	AP ),
+	( "alex_tew",	A ),
+	( "the_million_dollar_homepage",	H ),
+	( "facebook",	F ),
+	( "mark_zuckerberg",	M )
 
 	]
 
 male, female :: OnePlacePred
 
 
-female	= pred1 [M]
-male	= pred1 [L]
-role	= pred1 [L,M]
+female	= pred1 []
+male	= pred1 [A,M]
+role	= pred1 []
 child	= pred1 []
 
-bookstore	= pred1 [F]
-manager	= pred1 [M]
-website_designer	= pred1 [L]
-negotiation	= pred1 [N]
-website	= pred1[S]
+website	= pred1 [M,F]
+founder	= pred1 [M,F]
 
 good	= pred1 [AG]
 bad	= pred1 [AB]
@@ -82,7 +81,7 @@ pred2 xs	= curry ( `elem` xs )
 pred3 xs	= curry3 ( `elem` xs )
 pred4 xs	= curry4 ( `elem` xs )
 
-acquainted	= [(M,L)]
+acquainted	= [(M,A)]
 know	= pred2 $ acquainted ++ map (\x -> (snd x, fst x)) acquainted
 have	= pred2 $ possessions ++ management
 		-- ++ ( map (\x->(x,N) ) $ filter people entities ) -- personality
@@ -90,13 +89,13 @@ have	= pred2 $ possessions ++ management
 finish	= pred3 []
 pay	= pred3 []
 
-wanted_pay :: ThreePlacePred
-wanted_pay	= pred3 [(M,M,L),(L,M,AF)]
-wanted_pay_sum	= pred4 [(M,M,AS,L)]
-wanted_finish	= pred4 [(L,L,S,AW),(M,L,S,AO)]
-wanted_charge_sum	= pred3 [(L,L,AF)]
-wanted_charge	= pred4 [(L,L,AF,M)]
-wanted_have	= pred3 [(M,M,S)]
+wanted_to_pay :: ThreePlacePred
+wanted_to_pay	= pred3 [(M,M,L),(L,M,AF)]
+wanted_to_pay_sum	= pred4 [(M,M,AS,L)]
+wanted_to_finish	= pred4 [(L,L,S,AW),(M,L,S,AO)]
+wanted_to_charge_sum	= pred3 [(L,L,AF)]
+wanted_to_charge	= pred4 [(L,L,AF,M)]
+wanted_to_have	= pred3 [(M,M,S)]
 
 possessions	= []
 management	= [(M,B)]
