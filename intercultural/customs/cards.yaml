@@ -294,13 +294,13 @@ bedtime:
             - Mom
             - Zoe
           answer: Gingerbread Man
-        - question: Mom read the Gingerbread Man story before.
+        - question: Mom read the same story before.
           answer  : True
         - question: Zoe knows the GingerBread Man was eaten.
           answer  : False
-        - question: Mom asks if she should tell the story again.
+        - question: Mom asks, `Should I tell the story again.'
           answer  : True
-        - question: Mom wants to read the story to Zoe again.
+        - question: Mom wants to read the story again.
           answer  : True
         - question: Zoe wants to hear the story again.
           answer  : False
