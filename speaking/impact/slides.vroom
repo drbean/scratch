@@ -383,6 +383,68 @@ http://images.google.com/search?num=10&hl=en&site=&tbm=isch&source=hp&biw=1024&b
 http://www.dumblaws.com/laws/united-states/arizona
 
 ----
+== Living together before marriage
+
+What do you think about living together before marriage?
+
+
+        |                   | Anna's opinion? |
+   A:   | Do you agree with +-----------------|
+        |                   | what Iris says? |
+
+        |                   | I don't.        |
+        | No,               | not really.     |
+        |                   | not at all!     |
+   B:   |-------------------+-----------------|
+        |                   | I do.           |
+        | Yes,              | I guess so.     |
+        |                   | completely!     |
+
+----
+== Size discrimination
+
+  A:
+  |              | Yeon-Suk.|
+  | I agree with +----------+
+  |              | Luis.    |
+
+  B:
+  | So do I                 |
+  +-------------------------+
+  | I do, too.              |
+
+  A:
+  |                    | Yeon-Suk.|
+  | I don't agree with +----------+
+  |                    | Luis.    |
+
+  B:
+  | Neither do I                  |
+  +-------------------------------+
+  | I don't either                |
+
+----
+== Round 1
+
+Sharon Amber    Tony Zi-Qian    Wan-Ru Lace     Abby Yang-ting
+Sandy  XinCi   Ivy  Vicki      Innocent Leon   Chun-Ying David
+QianHui ShuJun  Tea LiJuan     XiangYi WenJun  Robert PeiHuan
+
+----
+== Round 2
+
+Sharon Tony    Ivy Zi-Qian    Wan-Ru Abby     Chun-Ying Yang-ting
+Sandy  Amber    Tea  Vicki      Innocent Lace   Robert David
+QianHui XinCi  ShuJun LiJuan     XiangYi Leon  WenJun PeiHuan
+
+----
+== Round 3
+
+Sharon Ivy    Tea Zi-Qian           Wan-Ru Chun-Ying     Robert Yang-ting
+Sandy  Tony    ShuJun  Vicki      Innocent Abby          WenJun David
+QianHui Amber  XinCi LiJuan        XiangYi Lace            Leon PeiHuan
+
+----
 == With 0034522
 
 Jill    Mil     Eva      Cheer
@@ -396,46 +458,46 @@ Cindy    Yvonne  Miru    DrBean
 ----
 == With 0034522, next
 
-Jill    Mil     Eva      Cheer
+Jay     Cindy   Doris   DrBean
  &      &       &      &
-Stella  Sally   Jay      Anita
+Lin     Mil     Miru    Anita
 
-Jennifer Doris   Lin     Mandy
+Stella  Cheer   Jennifer Eva
  &       &       &     &
-Cindy    Yvonne  Miru    DrBean
+Yvonne  Jill    Mandy  Sally
 
 ----
 == With 0034522, next next
 
-Jill    Mil     Eva      Cheer
- &       &      &      &
-Jennifer Stella  Sally   Jay
+Jay     Cindy   Doris   DrBean
+ &      &       &      &
+Stella  Lin     Mil     Miru
 
-Doris   Lin     Mandy      Anita
- &       &      &      &
-Cindy    Yvonne  Miru    DrBean
-
-----
-== With 0034522, next next next
-
-Jill    Mil     Eva      Cheer
- &      &        &     &
-Doris   Jennifer Stella  Sally
-
-Lin     Mandy      Anita   Jay
- &      &        &     &
-Cindy    Yvonne  Miru    DrBean
+Cheer   Jennifer Eva    Anita
+ &       &       &     &
+Yvonne  Jill    Mandy  Sally
 
 ----
 == With 0034522, next next next
 
-Jill    Mil     Eva      Cheer
- &      &        &     &
-Lin     Doris   Jennifer Stella
+Jay     Cindy   Doris   DrBean
+ &      &       &      &
+Cheer   Stella  Lin     Mil
 
-Mandy      Anita   Jay  Sally
- &      &        &     &
-Cindy    Yvonne  Miru    DrBean
+Jennifer Eva    Anita   Miru
+ &       &       &     &
+Yvonne  Jill    Mandy  Sally
+
+----
+== With 0034522, next next next
+
+Jay     Cindy   Doris   DrBean
+ &      &       &      &
+Jennifer Cheer   Stella  Lin
+
+Eva    Anita   Miru     Mil
+ &       &       &     &
+Yvonne  Jill    Mandy  Sally
 
 ----
 == Homework
