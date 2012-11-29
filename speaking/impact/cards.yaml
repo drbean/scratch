@@ -219,19 +219,19 @@ control:
            - no-kid family
            - family with kids
            - Ma
-          answer: a couple with 2 kids
+          answer: family with kids
         - question: B
           option:
            - no-kid family
            - family with kids
            - Ma
-          answer: a childless couple
+          answer: no-kid family
         - question: C
           option:
            - no-kid family
            - family with kids
            - Ma
-          answer: the government
+          answer: Ma
         - question: Ma takes money from couples with kids.
           answer: False
         - question: Ma wants to help families with kids.
