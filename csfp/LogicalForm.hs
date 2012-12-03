@@ -158,10 +158,10 @@ transAT (Branch (Cat _ "AV" _ _)
 	   case(catLabel (t2c obj)) of
 	"NP" ->
 	    (\subj -> transNP obj
-		( \theme -> Rel (att++"_"++act) [subj,subj,theme] ))
+		( \theme -> Rel (att++"_to_"++act) [subj,subj,theme] ))
 	"PP" ->
 	    (\subj -> transPP obj
-		( \theme -> Rel (att++"_"++act) [subj,subj,theme] ))
+		( \theme -> Rel (att++"_to_"++act) [subj,subj,theme] ))
 
 transAT (Branch (Cat _ "AV" _ _)
     [Leaf (Cat att "VP" _ [_]), Leaf (Cat "to" "TO" [ToInf] []),
@@ -170,11 +170,11 @@ transAT (Branch (Cat _ "AV" _ _)
 	("NP","NP") ->
 	    (\subj -> transNP obj1
 		(\recipient -> transNP obj2
-		    ( \theme -> Rel (att++"_"++act) [subj,subj,theme,recipient] )))
+		    ( \theme -> Rel (att++"_to_"++act) [subj,subj,theme,recipient] )))
 	("NP","PP") ->
 	    (\subj -> transNP obj1
 		(\theme -> transPP obj2
-		    ( \recipient -> Rel (att++"_"++act) [subj,subj,theme,recipient] )))
+		    ( \recipient -> Rel (att++"_to_"++act) [subj,subj,theme,recipient] )))
 
 transAT (Branch (Cat _ "AV" _ _)
     [Leaf (Cat att "VP" _ [_]), obj0, Leaf (Cat "to" "TO" [ToInf] []),
@@ -183,11 +183,11 @@ transAT (Branch (Cat _ "AV" _ _)
 	"NP" ->
 	    (\subj -> transNP obj0
 		(\agent -> transNP obj
-		    ( \theme -> Rel (att++"_"++act) [subj,agent,theme] )))
+		    ( \theme -> Rel (att++"_to_"++act) [subj,agent,theme] )))
 	"PP" ->
 	    (\subj -> transNP obj0
 		(\agent -> transPP obj
-		    ( \theme -> Rel (att++"_"++act) [subj,agent,theme] )))
+		    ( \theme -> Rel (att++"_to_"++act) [subj,agent,theme] )))
 
 transAT (Branch (Cat _ "AV" _ _)
     [Leaf (Cat att "VP" _ [_]), obj0, Leaf (Cat "to" "TO" [ToInf] []),
@@ -197,12 +197,12 @@ transAT (Branch (Cat _ "AV" _ _)
 	    (\subj -> transNP obj0
 		(\agent -> transNP obj1
 		    (\recipient -> transNP obj2
-			( \theme -> Rel (att++"_"++act) [subj,agent,theme,recipient] ))))
+			( \theme -> Rel (att++"_to_"++act) [subj,agent,theme,recipient] ))))
 	("NP","PP") ->
 	    (\subj -> transNP obj0
 		(\agent -> transNP obj1
 		    (\theme -> transPP obj2
-			( \recipient -> Rel (att++"_"++act) [subj,agent,theme,recipient] ))))
+			( \recipient -> Rel (att++"_to_"++act) [subj,agent,theme,recipient] ))))
 transAT _ = \x -> NonProposition
 
 transNPorPP :: ParseTree Cat Cat -> 
@@ -371,10 +371,10 @@ transVP (Branch (Cat _ "AT" _ _)
 	   case(catLabel (t2c obj)) of
 	"NP" ->
 	    (\subj -> transNP obj
-		( \theme -> Rel (att++"_"++act) [subj,subj,theme] ))
+		( \theme -> Rel (att++"_to_"++act) [subj,subj,theme] ))
 	"PP" ->
 	    (\subj -> transPP obj
-		( \theme -> Rel (att++"_"++act) [subj,subj,theme] ))
+		( \theme -> Rel (att++"_to_"++act) [subj,subj,theme] ))
 transVP (Branch (Cat _ "AT" _ _)
     [Leaf (Cat att "VP" _ [_]), Leaf (Cat "to" "TO" [ToInf] []),
        (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj1,obj2])]) =
@@ -382,11 +382,11 @@ transVP (Branch (Cat _ "AT" _ _)
 	("NP","NP") ->
 	    (\subj -> transNP obj1
 		(\recipient -> transNP obj2
-		    ( \theme -> Rel (att++"_"++act) [subj,subj,theme,recipient] )))
+		    ( \theme -> Rel (att++"_to_"++act) [subj,subj,theme,recipient] )))
 	("NP","PP") ->
 	    (\subj -> transNP obj1
 		(\theme -> transPP obj2
-		    ( \recipient -> Rel (att++"_"++act) [subj,subj,theme,recipient] )))
+		    ( \recipient -> Rel (att++"_to_"++act) [subj,subj,theme,recipient] )))
 transVP (Branch (Cat _ "AT" _ _)
     [Leaf (Cat att "VP" _ [_]), obj0, Leaf (Cat "to" "TO" [ToInf] []),
        (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj])]) =
@@ -394,11 +394,11 @@ transVP (Branch (Cat _ "AT" _ _)
 	"NP" ->
 	    (\subj -> transNP obj0
 		(\agent -> transNP obj
-		    ( \theme -> Rel (att++"_"++act) [subj,agent,theme] )))
+		    ( \theme -> Rel (att++"_to_"++act) [subj,agent,theme] )))
 	"PP" ->
 	    (\subj -> transNP obj0
 		(\agent -> transPP obj
-		    ( \theme -> Rel (att++"_"++act) [subj,agent,theme] )))
+		    ( \theme -> Rel (att++"_to_"++act) [subj,agent,theme] )))
 transVP (Branch (Cat _ "AT" _ _)
     [Leaf (Cat att "VP" _ [_]), obj0, Leaf (Cat "to" "TO" [ToInf] []),
        (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj1,obj2])]) =
@@ -407,12 +407,12 @@ transVP (Branch (Cat _ "AT" _ _)
 	    (\subj -> transNP obj0
 		(\agent -> transNP obj1
 		    (\recipient -> transNP obj2
-			( \theme -> Rel (att++"_"++act) [subj,agent,theme,recipient] ))))
+			( \theme -> Rel (att++"_to_"++act) [subj,agent,theme,recipient] ))))
 	("NP","PP") ->
 	    (\subj -> transNP obj0
 		(\agent -> transNP obj1
 		    (\theme -> transPP obj2
-			( \recipient -> Rel (att++"_"++act) [subj,agent,theme,recipient] ))))
+			( \recipient -> Rel (att++"_to_"++act) [subj,agent,theme,recipient] ))))
 transVP _ = \x -> NonProposition
 
 transWH :: Maybe (ParseTree Cat Cat) -> LF
