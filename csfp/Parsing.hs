@@ -129,12 +129,21 @@ preproc []                 = []
 preproc ["."]              = []
 preproc ["?"]              = []
 
+
 preproc ("6":",000":"dollars":xs)	= "6_000_dollars" : preproc xs
 preproc ("3":",000":"dollars":xs)	= "3_000_dollars" : preproc xs
 
 preproc (",":xs)           = preproc xs
 
 preproc ("how":"much":xs)	= "how_much" : preproc xs
+
+preproc ("the":"ferrari":"showroom":xs)	= "the_ferrari_showroom" : preproc xs
+preproc ("ten":"dollars":xs)	= "ten_dollars" : preproc xs
+preproc ("punjabi":"farmers":xs)	= "punjabi_farmers" : preproc xs
+preproc ("the":"punjabi":"government":xs)	= "the_punjabi_government" : preproc xs
+preproc ("alex":"tew":xs)	= "alex_tew" : preproc xs
+preproc ("the":"million":"dollar":"homepage":xs)	= "the_million_dollar_homepage" : preproc xs
+preproc ("mark":"zuckerberg":xs)	= "mark_zuckerberg" : preproc xs
 
 preproc ("one":"month":xs)	= "one_month" : preproc xs
 preproc ("two":"months":xs)	= "two_months" : preproc xs
