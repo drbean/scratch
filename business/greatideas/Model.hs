@@ -72,10 +72,10 @@ list2OnePlacePred xs	= \ x -> elem x xs
 pred1 :: [Entity] -> OnePlacePred
 pred1	= flip elem
 
-people, things :: OnePlacePred
+person, thing :: OnePlacePred
 
-people	= \ x -> (male x || female x || role x || x == Unspec)
-things	= \ x -> (x == Unspec || not ( people x ) )
+person	= \ x -> (male x || female x || role x || x == Unspec)
+thing	= \ x -> (x == Unspec || not ( person x ) )
 
 boy	= \x -> male x && child x
 isMan	= \x -> ( not $ boy x ) && male x
@@ -92,7 +92,7 @@ pred4 xs	= curry4 ( `elem` xs )
 acquainted	= [(M,A)]
 know	= pred2 $ acquainted ++ map (\x -> (snd x, fst x)) acquainted
 have	= pred2 $ possessions ++ management
-		-- ++ ( map (\x->(x,N) ) $ filter people entities ) -- personality
+		-- ++ ( map (\x->(x,N) ) $ filter person entities ) -- personality
 
 finish	= pred3 []
 pay	= pred3 []
@@ -102,8 +102,10 @@ decided_to_charge :: ThreePlacePred
 decided_to_charge	= pred3 [(W,T,V) ]
 decided_to_charge_entry	= pred4 [(W,T,V,R) ]
 
-offered_to_buy :: FourPlacePred
-offered_to_buy	= pred4 [(P,P,O,AF)]
+offered_to_buy :: ThreePlacePred
+offered_to_buy	= pred3 [(P,P,O)]
+offered_to_buy_from :: FourPlacePred
+offered_to_buy_from	= pred4 [(P,P,O,AF)]
 
 possessions	= [(A,H),(M,F)]
 management	= []
