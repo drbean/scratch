@@ -11,8 +11,8 @@ objects = [
 	( "woman",	\ [x] -> isWoman x	),
 	( "boy",	\ [x] -> boy x	),
 	( "girl",	\ [x] -> isGirl x	),
-	( "person",	\ [x] -> people x	),
-	( "thing",	\ [x] -> things x	)
+	( "person",	\ [x] -> person x	),
+	( "thing",	\ [x] -> thing x	)
  ]
 
 inflections :: [(String, String)]
