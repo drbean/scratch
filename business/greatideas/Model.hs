@@ -24,7 +24,8 @@ characters :: [ (String, Entity) ]
 
 characters = [
 	( "penske-wynn",	W ),
-	( "ferrari",	R ),
+	( "the_ferrari_showroom",	R ),
+	( "ten_dollars",	T ),
 	( "pepsi",	P ),
 	( "punjabi_farmers",	AF ),
 	( "the_punjabi_government",	AP ),
@@ -43,6 +44,12 @@ male	= pred1 [A,M]
 role	= pred1 []
 child	= pred1 []
 
+showroom	= pred1 [R]
+visitors	= pred1 [V]
+entrance_fee	= pred1 [E]
+
+oranges	= pred1 [O]
+
 website	= pred1 [M,F]
 founder	= pred1 [M,F]
 
@@ -57,6 +64,7 @@ names = map swap characters
 type OnePlacePred	= Entity -> Bool
 type TwoPlacePred	= Entity -> Entity -> Bool
 type ThreePlacePred	= Entity -> Entity -> Entity -> Bool
+type FourPlacePred	= Entity -> Entity -> Entity -> Entity -> Bool
 
 list2OnePlacePred :: [Entity] -> OnePlacePred
 list2OnePlacePred xs	= \ x -> elem x xs
@@ -88,17 +96,17 @@ have	= pred2 $ possessions ++ management
 
 finish	= pred3 []
 pay	= pred3 []
+offered_to_pay	= pred3 [(P,P,AF)]
 
-wanted_to_pay :: ThreePlacePred
-wanted_to_pay	= pred3 [(M,M,L),(L,M,AF)]
-wanted_to_pay_sum	= pred4 [(M,M,AS,L)]
-wanted_to_finish	= pred4 [(L,L,S,AW),(M,L,S,AO)]
-wanted_to_charge_sum	= pred3 [(L,L,AF)]
-wanted_to_charge	= pred4 [(L,L,AF,M)]
-wanted_to_have	= pred3 [(M,M,S)]
+decided_to_charge :: ThreePlacePred
+decided_to_charge	= pred3 [(W,T,V) ]
+decided_to_charge_entry	= pred4 [(W,T,V,R) ]
 
-possessions	= []
-management	= [(M,B)]
+offered_to_buy :: FourPlacePred
+offered_to_buy	= pred4 [(P,P,O,AF)]
+
+possessions	= [(A,H),(M,F)]
+management	= []
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
