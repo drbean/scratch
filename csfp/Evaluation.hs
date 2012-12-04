@@ -1,4 +1,4 @@
-module DRAC where 
+module Evaluation where 
 
 import Data.List
 import Model
