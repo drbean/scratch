@@ -5,13 +5,16 @@ import Parsing
 names, nouns, verbs, aux, adjs, advs :: Lexset
 
 names = [
-	[Cat "one_month" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "two_months" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "6_000_dollars" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "3_000_dollars" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "50_dollars_an_hour" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "michelle"	"NP" [Thrd,Fem,Sg] []],
-	[Cat "larry"	"NP" [Thrd,Masc,Sg] []]
+	[Cat "penske-wynn" "NP" [Thrd,Neutr,Sg] []]
+	, [Cat "the_ferrari_showroom" "NP" [Thrd,Neutr,Sg] []]
+	, [Cat "ten_dollars" "NP" [Thrd,Neutr,Sg] []]
+	, [Cat "pepsi" "NP" [Thrd,Neutr,Sg] []]
+	, [Cat "punjabi_farmers" "NP" [Thrd,MascOrFem,Pl] []]
+	, [Cat "the_punjabi_government"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "alex_tew"	"NP" [Thrd,Masc,Sg] []]
+	, [Cat "the_million_dollar_homepage"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "facebook"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "mark_zuckerberg"	"NP" [Thrd,Masc,Sg] []]
 	]
 
 nouns = [
@@ -44,6 +47,10 @@ nouns = [
 	]
 
 verbs = [
+	[Cat "offered" "VP" [Tense] [Cat "_" "INF" [To] []]],
+	[Cat "offer" "VP" [Infl] [Cat "_" "INF" [To] []]],
+	[Cat "decided" "VP" [Tense] [Cat "_" "INF" [To] []]],
+	[Cat "decide" "VP" [Infl] [Cat "_" "INF" [To] []]],
 	-- [Cat "liked" "VP" [Tense] [Cat "_" "NP" [AccOrDat]       []]],
 	-- [Cat "like" "VP" [Infl] [Cat "_" "NP" [AccOrDat]       []]],
 	-- [Cat "accepted" "VP" [Tense] [Cat "_" "NP" [AccOrDat]       []]],
