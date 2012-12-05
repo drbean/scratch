@@ -19,13 +19,16 @@ objects = [
 	-- ( "personality",	\[x] -> personality x	),
 	-- ( "ideas",	\[x] -> ideas x	),
 	-- ( "presentation",	\[x] -> story x	),
+	( "oranges",	\[x] -> oranges x	),
 	( "website",	\[x] -> website x	)
 
 
 	]
 
 inflections = [
+ ( "site", "website" ),
  ( "decide_to_charge", "decided_to_charge" ),
+ ( "offer_to_buy", "offered_to_buy" ),
  ( "want_to_have", "wanted_to_have" ),
  ( "want_to_finish", "wanted_to_finish" ),
  ( "want_to_pay", "wanted_to_pay" ),
@@ -38,6 +41,9 @@ relations = [
 	, ( "pay",	\args -> case args of
 		[x,y,z] -> pay z y x
 		[x,y] -> forgetful  pay y x )
+	, ( "offered_to_buy", \args -> case args of 
+		[x,y,z] -> offered_to_buy z y x
+		[x,y,z,w] -> offered_to_buy_from w z y x )
 	, ( "offered_to_pay", \[x,y,z] -> offered_to_pay z y x )
 
 	, ( "decided_to_charge",	\args -> case args of
