@@ -33,7 +33,7 @@ nouns = [
 	-- [Cat "bookstore"	"CN" [Thrd,Neutr,Sg] []],
 	-- [Cat "image"	"CN" [Thrd,Neutr,Sg] []],
 	-- [Cat "images"	"CN" [Thrd,Neutr,Pl] []],
-	-- [Cat "books"	"CN" [Thrd,Neutr,Pl] []],
+	[Cat "oranges"	"CN" [Thrd,Neutr,Pl] []],
 	[Cat "website"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "site"	"CN" [Thrd,Neutr,Sg] []]
 	-- [Cat "size"	"CN" [Thrd,Neutr,Sg] []],
@@ -51,6 +51,9 @@ verbs = [
 	[Cat "offer" "VP" [Infl] [Cat "_" "INF" [To] []]],
 	[Cat "decided" "VP" [Tense] [Cat "_" "INF" [To] []]],
 	[Cat "decide" "VP" [Infl] [Cat "_" "INF" [To] []]],
+	[Cat "buy"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
+		Cat "buy"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [From] []]],
 	-- [Cat "liked" "VP" [Tense] [Cat "_" "NP" [AccOrDat]       []]],
 	-- [Cat "like" "VP" [Infl] [Cat "_" "NP" [AccOrDat]       []]],
 	-- [Cat "accepted" "VP" [Tense] [Cat "_" "NP" [AccOrDat]       []]],
