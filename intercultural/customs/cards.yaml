@@ -307,4 +307,123 @@ bedtime:
         - question: Last time, Zoe fell asleep before the end.
           answer  : True
         - question: In the story, the Gingerbread Man fell asleep.
+yardsale:
+  jigsaw:
+    0:
+      identifier: yardsale 0
+      A: Your neighbor, Claire lives across the street. She is having a garage sale. You tell her you can take over your old golf balls to her garage and she can sell them at her sale.
+      B: You like to go to garage sales to pick up cheap goods. You go to Claire's garage sale and buy Sam's golf balls and Claire's books. You plan to sell them on the Internet.
+      C: You are having a garage sale. You tell Sam, who lives across the street. He says he can bring his old golf balls to sell at your sale. Alan buys the golf balls and your old books.
+      quiz:
+        - question: A
+          option:
+            - Alan
+            - Claire
+            - Sam
+          answer: Sam
+        - question: B
+          option:
+            - Alan
+            - Claire
+            - Sam
+          answer: Alan
+        - question: C
+          option:
+            - Alan
+            - Claire
+            - Sam
+          answer: Claire
+        - question: The garage sale is Claire's garage sale.
+          answer  : True
+        - question: Sam and Claire are neighbors.
+          answer  : True
+        - question: Claire sells Sam's books at the garage sale.
+          answer  : False
+        - question: Claire sells a garage to Alan.
+          answer  : False
+        - question: Alan sells some golf balls to Sam.
+          answer  : False
+        - question: Alan buys Sam's golf balls and Claire's books.
+          answer  : True
+        - question: Alan plans to sell the golf balls and the books.
+          answer  : True
+squaredance:
+  jigsaw:
+    0:
+      identifier: squaredance 0
+      A: You are dancing in a circle. You are following Ed. Jackie is holding Ed's left hand. You reach out for Jackie's right hand with your right hand. But she goes in the wrong direction.
+      B: You are dancing in a circle. You are holding Jackie's left hand with your left hand and pulling her past you. Bob is following you. Jackie will reach out for Bob.
+      C: You are dancing in a circle. You are holding Ed's left hand with your left hand and pulling him past you. You reach out for Bob's right hand, with your right hand. But he isn't there.
+      quiz:
+        - question: A
+          option:
+            - Bob
+            - Ed
+            - Jackie
+          answer: Jackie
+        - question: B
+          option:
+            - Bob
+            - Ed
+            - Jackie
+          answer: Ed
+        - question: C
+          option:
+            - Bob
+            - Ed
+            - Jackie
+          answer: Bob
+        - question: They are square dancing, but moving in a circle.
+          answer  : True
+        - question: Jackie and Bob are holding hands.
+          answer  : False
+        - question: Jackie and Ed are holding hands.
+          answer  : True
+        - question: Bob and Ed are holding hands.
+          answer  : False
+        - question: Jackie reaches out with her right hand for Bob.
+          answer  : True
+        - question: Bob reaches out with his left hand for Jackie.
+          answer  : False
+        - question: Jackie and Bob find each other's hands.
+          answer  : False
+handshake:
+  jigsaw:
+    0:
+      identifier: handshake 0
+      A: You are visiting a school. You shake hands with David, Jimmy and the other students. You hold their right hand firmly with both hands and you shake it three times.
+      B: You are a student. Obama comes to your school and shakes your hand and Jimmy's hand. You are very excited to shake Obama's hand. You give Jimmy a fist bump after Obama goes away.
+      C: You are David's classmate. Obama shakes your hand and David's hand. You think it is cool to shake Obama's hand, but you are not as excited as David. David gives you a fist bump.
+      quiz:
+        - question: A
+          option:
+            - David
+            - Jimmy
+            - Obama
+          answer: Obama
+        - question: B
+          option:
+            - David
+            - Jimmy
+            - Obama
+          answer: David
+        - question: C
+          option:
+            - David
+            - Jimmy
+            - Obama
+          answer: Jimmy
+        - question: Obama fist bumps David and Jimmy.
+          answer  : False
+        - question: Obama shakes David and Jimmy's hand.
+          answer  : True
+        - question: David and Jimmy are happy to meet Obama.
+          answer  : True
+        - question: Obama uses both his hands to shake hands.
+          answer  : True
+        - question: David reaches out with his hand for a fist bump.
+          answer  : True
+        - question: Jimmy doesn't want to fist bump.
+          answer  : False
+        - question: David and Jimmy don't fist bump.
           answer  : False
