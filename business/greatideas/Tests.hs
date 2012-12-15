@@ -97,9 +97,14 @@ import Parsing
 --	-- \Barbara talked to a co-worker. \
 --	-- \Barbara's boss asked a co-worker about Barbara."
 --	]
---
---comp_test1 = [
---	"Barbara was strong.",
+
+comp_test1 = [
+	"The experiment was successful."
+	, "Was the experiment successful?"
+	, "Was the Ferrari showroom successful?"
+	, "The Ferrari showroom was successful."
+	, "The entrance fee was ten dollars."
+	, "Was the entrance fee ten dollars."
 --	"Barbara was aggressive.",
 --	"Barbara was a sales representative.",
 --	"Barbara was Eva's co-worker.",
@@ -144,8 +149,8 @@ import Parsing
 --	"All co-workers were women.",
 --	"All women were co-workers.",
 --	"All ambitious women were successful."
---	]
---
+	]
+
 --comp_test2 = [
 --	"Some woman was ambitious.",
 --	"Some women was successful.",
@@ -169,16 +174,28 @@ import Parsing
 --	"Barbara was Tadeusz's boss.",
 --	"Tadeusz was Barbara's co-worker."
 --	]
---
-tag_test = [
-	"Michelle wanted the website to have a lot of images, didn't she.",
-	"Some woman was a manager, wasn't she.",
-	"Some man was a website designer, wasn't she.",
-	"Michelle wanted to pay Larry 6,000 dollars, didn't she?"
+
+comp_test_wh = [
+	"Who were people?"
+	, "Who was Steve Wynn?"
+	, "Who was a man?"
+	, "Who was a child?"
+	, "Who was a woman?"
 	]
 
---neg_tag_test = [
---	"Barbara didn't work, did she.",
+tag_test = [
+	"The entrance fee was ten dollars, wasn't it?"
+	, "The entrance fee was more than ten dollars, wasn't it?"
+	, "Some man was Steve Wynn, wasn't he."
+	, "Some man wanted to buy a car, didn't he?"
+	, "All visitors wanted to pay the entrance fee, didn't they?"
+	, "Steve Wynn was a person, wasn't he?"
+	]
+
+neg_tag_test = [
+	"The entrance fee wasn't ten dollars, was it?"
+	, "All visitors didn't want to pay the entrance fee, did they?"
+	, "Steve Wynn wasn't a woman, was he?"
 --	"Some woman wasn't ambitious, was she.",
 --	"Some women weren't successful, was she.",
 --	"Some women weren't successful, were they.",
@@ -194,8 +211,8 @@ tag_test = [
 --	"Barbara did have a co-worker, did she?",
 --	"Barbara did have a co-worker, did he?",
 --	"Some women didn't have co-workers, did they?"
---	]
---
+	]
+
 --test_possessives = [
 --	-- "Dr Bean's co-worker hoped to get the job.",
 --	"Barbara's co-worker talked to the boss.",
@@ -215,218 +232,131 @@ tag_test = [
 --	"Did the boss of the German woman have sales experience?",
 --	"Did the boss of Barbara talk to Eva?"
 --	]
---
---haves = [
---	"Did Barbara have a co-worker?",
---	"Did Barbara have a boss?",
---	"Did Barbara have a strong personality?",
---	"Did Barbara's boss have a co-worker?",
---	"Did Eva have a job?",
---	"Did Eva have some job?",
---	"Did Eva have sales experience?",
---	"Did Barbara's boss have sales experience?",
---	"Did Eva have sales experience?",
---	"Did Tadeusz have a boss?",
---	"Did Tadeusz have some bosses?",
---	"Did Tadeusz have bosses?",
---	"Did Tadeusz's boss have a boss?",
---	"Did Tadeusz's boss have some bosses?",
---	"Did Tadeusz's boss have bosses?",
---	"Did Tadeusz have work?",
---	"Did Eva work?",
---	"Did Eva have work?",
---	"Did Eva have a job?",
---	"Did Barbara have work?",
---	"Did Barbara have a job?",
---	"Did Barbara's boss have work?",
---	"Did a co-worker have a job?",
---	"Did a co-worker have a woman's job?",
---	"Did a co-worker have Barbara's job?",
---	"Did a co-worker have a co-worker?",
---	"Did a co-worker have a boss?",
---	-- "Did a job have a salary?",
---	"Did an ambitious woman have sales experience?",
---	"Did an ambitious woman have some sales experience?",
---	"Did an ambitious woman's boss have some sales experience?",
---	"Did an ambitious woman's boss have a job?",
---	"Did the boss have some sales experience?",
---	"Did the boss have no sales experience?",
---	"Eva's boss had many jobs in Poland.",
---	"Did the boss have some job?",
---	"Did the boss have no job?",
---	"Did Poland have sales experience?",
---	"Did the United States have sales experience?",
---	"Did Fast-Track have sales experience?",
---	"Did Barbara's boss have sales experience?",
---	"Did a co-worker have a boss?",
---	"Did a co-worker have some bosses?",
---	"Did a co-worker have bosses?",
---	"Did Fast-Track have a boss?",
---	"Did Fast-Track have some bosses?",
---	"Did Fast-Track have bosses?",
---	"Did a co-worker have a worker?",
---	"Did Barbara's boss have a worker?",
---	"Did Fast-Track have a worker?",
+
+haves = [
+	"Did visitors have to pay the entrance fee?",
+	"Didn't some visitors have to pay the entrance fee?",
+	"Did every visitor have to pay the entrance fee?",
+	"Did children have to pay the entrance fee?",
+	"Did visitors with children have to pay the entrance fee?",
+	"Did people with children have to pay the entrance fee?",
+	"Did Steve Wynn have cars?",
+	"Did Steve Wynn have the Ferrari showroom?",
+	"Did the Ferrari showroom have cars?",
+	"Did the Ferrari showroom have many visitors?",
+	"Did the woman have ten dollars?"
 --	"Did someone have a worker?"
---	]
---
---ungrammatical = [
---	"Did Eva worked?",
---	"Barbara work?",
---	"Man worked.",
---	"Some man work.",
---	"No worked.",
---	"No-one work.",
---	"Did Eva taught?",
---	"Eva teach Barbara.",
---	"Barbara taught.",
---	-- "Did Barbara's boss hoped to get the job?",
---	-- "Man hoped to get the job.",
---	"Some man work.",
---	-- "No hoped to get the job.",
---	"No-one work.",
---	"Did Barbara's boss taught?",
---	"Barbara's boss teach a co-worker.",
---	"A co-worker interviewed."
---	]
---
---intransitives = [
---	"Eva worked",
---	"Did Eva work?",
---	"Barbara's boss worked.",
---	"A woman's boss worked.",
---	"Did Barbara's boss work?",
---	"Did a woman's boss work?",
---	"A man worked.",
---	"Some man worked.",
---	"No one worked.",
---	"No-one worked.",
---	"Everybody worked.",
---	"Everyone worked.",
---	"Many persons worked.",
---	"No person worked.",
---	"Did the man work?",
---	"Did some man work?",
---	"Did some men work?",
---	"Did some woman work?",
---	"Did some women work?",
---	"Most women worked.",
---	"Most women didn't work.",
---	"Several women worked.",
---	"Several women didn't work.",
---	"Many women worked.",
---	"Many women didn't work.",
---	"All women worked.",
---	"No woman worked.",
---	"Most men worked.",
---	"Most men didn't work.",
---	"Several men worked.",
---	"Several men didn't work.",
---	"Many men worked.",
---	"Many men didn't work.",
---	"All men worked.",
---	"No man worked.",
---	"Did Barbara work in Poland?",
---	"Did Barbara work for Poland?",
---	"Did Eva work for Poland?",
---	"Did Eva work at a company?",
---	"Did Barbara's boss work for Poland?",
---	"Did Barbara's boss work?",
---	"Did the co-worker work?",
---	"Did Barbara's boss work?",
---	"A man worked.",
---	"Some man worked.",
---	"No one worked.",
---	"No-one worked.",
---	"Everybody worked.",
---	"Everyone worked.",
---	"Many persons worked.",
---	"No person worked.",
---	"Did the man work?",
---	"Did some man work?",
---	"Did some men work?",
---	"Did some woman work?",
---	"Did some women work?",
---	"Most persons worked.",
---	"Most men worked.",
---	"Most men didn't work.",
---	"Several men worked.",
---	"Several men didn't work.",
---	"Several persons worked.",
---	"Several persons didn't work.",
---	"Did Barbara's boss work?",
---	"Did a co-worker work?",
---	"Did Barbara work?",
---	-- "A man hoped to get the job.",
---	-- "Some man hoped to get the job.",
---	-- "No one hoped to get the job.",
---	-- "No-one hoped to get the job.",
---	-- "Everybody hoped to get the job.",
---	-- "Everyone hoped to get the job.",
---	-- "Many persons hoped to get the job.",
---	-- "No person hoped to get the job.",
---	"Did the man work?",
---	"Did the girl work?",
---	"Did some man work?",
---	"Did some men work?",
---	"Did some woman work?",
---	"Did some women work?",
---	-- "Most men hoped to get the job.",
---	"Most men didn't work.",
---	-- "Several men hoped to get the job.",
---	"Several men didn't work.",
---	-- "Many men hoped to get the job.",
---	"Many men didn't work."
---	-- "All men hoped to get the job.",
---	-- "No man hoped to get the job."
---	]
---
+	]
+
+knows = [
+	"Did Steve Wynn know the Ferrari showroom?",
+	"Did Steve Wynn know about the Ferrari showroom?",
+	"Did people know the Ferrari showroom?",
+	"Did people know about the Ferrari showroom?",
+	"Did the woman know Steve Wynn?",
+	"Did the woman know about Steve Wynn?"
+	]
+
+likes = [
+	"Did Steve Wynn like the Ferrari showroom?",
+	"Did people like the Ferrari showroom?",
+	"Did people like cars?",
+	"Did the woman like Steve Wynn?",
+	"Did the woman like cars?"
+	]
+
+ungrammatical = [
+	"Was Steve Wynn buy a car?"
+	, "Was a woman with a child?" 
+	, "Was a woman with a child have to pay the entrance_fee?" 
+	, "Was a woman with children have to pay the entrance_fee?" 
+	, "Was a man with a child have to pay the entrance_fee?" 
+	, "Was a man with children have to pay the entrance_fee?" 
+	, "Did the_ferrari_showroom have cars?" 
+	, "Was steve_wynn knew the_ferrari_showroom have cars?" 
+	, "Did steve_wynn know the_ferrari_showroom have cars?" 
+	, "Was people want to look at the cars?" 
+	, "Were people want to look at the cars?"  
+	, "Were the people want to look at the cars?"
+	]
+
+intransitives = [
+	"Steve Wynn paid",
+	"Did Steve Wynn pay?",
+	-- "Steve Wynn's boss paid.",
+	-- "A woman's boss paid to enter the showroom.",
+	-- "Did Linda Chen's boss pay?",
+	-- "Did a woman's boss pay?",
+	"A man paid.",
+	"Some man paid.",
+	"No one paid.",
+	"No-one paid.",
+	"Everybody paid.",
+	"Everyone paid.",
+	"Many persons paid.",
+	"No person paid.",
+	"Did the man pay?",
+	"Did some man pay?",
+	"Did some men pay?",
+	"Did some woman pay?",
+	"Did some women pay?",
+	"Most women paid.",
+	"Most women didn't pay.",
+	"Several women paid.",
+	"Several women didn't pay.",
+	"Many women paid.",
+	"Many women didn't pay.",
+	"All women paid.",
+	"No woman paid.",
+	"Most men paid.",
+	"Most men didn't pay.",
+	"Several men paid.",
+	"Several men didn't pay.",
+	"Many men paid.",
+	"Many men didn't pay.",
+	"All men paid.",
+	"No man paid.",
+	"Visitors paid."
+	]
+
 transitives = [
-	"Did Larry finish the website."
---	"Did Eva study?",
---	"Did Eva study IT?",
---	"Eva studied marketing.",
---	"Barbara studied marketing.",
---	"Barbara studied marketing in Poland.",
---	"Barbara studied marketing at Poland.",
---	"Did Barbara go to Poland?",
---	"Some woman went to Poland.",
---	"Some man went to Poland.",
---	"Some boy went to Poland.",
---	"Some man interviewed Barbara.",
---	"A man interviewed Eva",
---	"Some woman gave a presentation.",
---	"Did a co-worker work in the Poland?",
---	"Did a co-worker work in the United States?",
---	"A co-worker worked in the United States.",
---	"A co-worker worked at the United States.",
---	"Did a co-worker work at a company?",
---	"A co-worker worked on a company.",
---	"A co-worker worked in a company.",
---	"A co-worker worked as a co-worker.",
---	"Did the job work at a company?",
---	"The job worked on a company.",
---	"The job worked in a company.",
---	"Did the job disappoint a co-worker?",
---	"Did Barbara's boss study marketing?",
---	"Barbara's boss studied marketing.",
---	"A co-worker studied marketing.",
---	"Did a co-worker study in Poland?",
---	"A co-worker studied marketing at a company.",
---	"A co-worker studied marketing at the company.",
---	"Did a co-worker go to the company.",
---	"Some woman went to the company.",
---	"Some man went to the company.",
---	"Some boy went to the company.",
---	"Some man interviewed a co-worker.",
---	"A man interviewed Barbara's boss",
---	"Some woman gave a presentation.",
---	"Did a co-worker come from Poland?",
---	"Did Barbara immigrate?",
---	"Did a co-worker immigrate to Poland?",
---	"Did Barbara go to Poland?",
---	"Did Barbara come from Poland?",
---	"Did Barbara's boss come to Poland?"
+	"Steve Wynn paid ten dollars."
+	, "Did Steve Wynn pay the entrance fee?"
+	-- "Steve Wynn's boss paid ten dollars."
+	-- "A woman's boss paid to enter the showroom ten dollars."
+	-- "Did Linda Chen's boss pay the entrance fee?"
+	-- "Did a woman's boss pay the entrance fee?"
+	, "A man paid ten dollars."
+	, "Some man paid ten dollars."
+	, "No one paid ten dollars."
+	, "No-one paid ten dollars."
+	, "Everybody paid ten dollars."
+	, "Everyone paid ten dollars."
+	, "Many persons paid ten dollars."
+	, "No person paid ten dollars."
+	, "Did the man pay the entrance fee?"
+	, "Did some man pay the entrance fee?"
+	, "Did some men pay the entrance fee?"
+	, "Did some woman pay the entrance fee?"
+	, "Did some women pay the entrance fee?"
+	, "Most women paid ten dollars."
+	, "Most women didn't pay ten dollars."
+	, "Several women paid ten dollars."
+	, "Several women didn't pay ten dollars."
+	, "Many women entered the Ferrari showroom."
+	, "Many women didn't enter the Ferrari showroom."
+	, "All women entered the Ferrari showroom."
+	, "No woman entered the Ferrari showroom."
+	, "Most men entered the Ferrari showroom."
+	, "Most men didn't enter the Ferrari showroom."
+	, "Several men entered the Ferrari showroom."
+	, "Several men didn't enter the Ferrari showroom."
+	, "Many men entered the Ferrari showroom."
+	, "Many men didn't enter the Ferrari showroom."
+	, "All men entered the Ferrari showroom."
+	, "No man entered the Ferrari showroom."
+	, "Visitors entered the Ferrari showroom."
+	, "Did all Visitors buy a car?"
 	]
 
 ditransitive_tests = [
@@ -593,47 +523,42 @@ wh_questions =[
 --	]
 
 to_inf_test = [
-	"Larry wanted Michelle to pay 6,000 dollars.",
-	"Larry wanted Michelle to pay 50 dollars an hour.",
-	"Michelle wanted to pay Larry.",
-	"Michelle wanted to pay Larry 6,000 dollars.",
-	"Larry wanted to finish the website in two months.",
-	"Michelle wanted Larry to finish the website in one month.",
-	"Larry wanted to charge Michelle 50 dollars an hour.",
-	"Larry was the person who wanted to charge Michelle 50 dollars an hour."
 	]
 
 to_inf_test_yn = [
-	"Did Larry want Michelle to pay 6,000 dollars.",
-	"Did Larry want Michelle to pay 50 dollars an hour.",
-	"Did Michelle want to pay Larry.",
-	"Did Michelle want to pay Larry 6,000 dollars.",
-	"Did Larry want to finish the website in two months.",
-	"Did Michelle want Larry to finish the website in one month.",
-	"Did Larry want to charge Michelle 50 dollars an hour.",
-	"Was Larry the person who wanted to charge Michelle 50 dollars an hour?"
+	"Did steve wynn decide to charge   ten dollars ?"
+	, "Did steve wynn decide to charge visitors  ten dollars ?"
+	, "Did steve wynn decide to charge visitors  an entrance fee ?"
+	, "Did steve wynn want to look at the cars?"
+	, "Did some people want to look at some cars?"
+	, "Did visitors want to look at some cars?"
+	, "Did visitors want to buy some cars?"
+	, "Did all visitors want to buy a car?"
+	, "Did some visitors want to buy a car?"
+	, "Did many visitors want to buy a car?"
+	, "Didn't many visitors want to buy a car?"
+	, "Did visitors who wanted to buy a car have to pay?"
+	, "Did visitors who wanted to buy a car have to pay the entrance fee?"
+	, "Did visitors have to pay to enter the Ferrari showroom?"
+	, "Did visitors who wanted to buy a car have to pay to enter the Ferrari showroom?"
+	, "Did visitors who didn't want to buy a car have to pay to enter the Ferrari showroom?"
+	, "Did visitors who wanted to look at the cars have to pay to enter the Ferrari showroom?"
+	, "Did someone pay to enter the Ferrari showroom?"
+	, "Did some visitors pay to enter the Ferrari showroom?"
+	, "Did Steve Wynn pay to enter the Ferrari showroom?"
 	]
 
 to_inf_test_tag = [
-	"Larry wanted Michelle to pay 6,000 dollars, didn't he?",
-	"Larry wanted Michelle to pay 50 dollars an hour, didn't he?",
-	"Michelle wanted to pay Larry, didn't she.",
-	"Michelle wanted to pay Larry 6,000 dollars, didn't she.",
-	"Larry wanted to finish the website in two months, didn't he.",
-	"Michelle wanted Larry to finish the website in one month, didn't she.",
-	"Larry wanted to charge Michelle 50 dollars an hour, didn't he."
+	"Steve Wynn decided to charge ten dollars, didn't he?"
+	, "Steve Wynn decided to charge an entrance fee, didn't he?"
+	, "Some visitors wanted to buy a car, didn't they?"
 	]
 
 to_inf_test_wh = [
-	"Who wanted Michelle to pay Larry 6,000 dollars?",
-	"Who wanted to charge 50 dollars an hour?",
-	"Who wanted to charge Michelle 50 dollars an hour?",
-	"Who wanted Larry to charge Michelle 50 dollars an hour?",
-	"Who did Michelle want to pay?",
-	"Who did Michelle want to pay 6,000 dollars?",
-	"Who did Michelle want to finish the website?",
-	"How much did Larry want to charge michelle?",
-	"Who wanted 50 dollars an hour to finish the website in one month?"
+	"Who decided to charge visitors an entrance fee?"
+	, "Who decided to charge ten dollars?"
+	, "Who wanted to look at the cars?"
+	, "Who wanted to buy a car?"
 	]
 
 
