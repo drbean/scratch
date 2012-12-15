@@ -379,7 +379,7 @@ vacations:
         - question: They reach agreement on advertising.
           answer: True
     22:
-      identifier: Lifetime-Direct joint venture negotiation 22
+      identifier: 22
       A: |
             You have Lifetime's position before discussion with Direct.
             It wants the advertising budget to be 100,000 dollars.
@@ -456,7 +456,7 @@ vacations:
         - question: They reach agreement on advertising budget.
           answer: True
     33:
-      identifier: Lifetime-Direct joint venture negotiation 33
+      identifier: 33
       A: |
             You have Lifetime's position before discussion with Direct.
             It wants the destinations to be only in Taiwan.
@@ -533,7 +533,7 @@ vacations:
         - question: They reach agreement on the manager.
           answer: True
     44:
-      identifier: Lifetime-Direct joint venture negotiation 44
+      identifier: 44
       A: |
             You have Lifetime's position before discussion with Direct.
             It wants the contract to be for 2 years.
@@ -610,7 +610,7 @@ vacations:
         - question: They reach agreement on advertising.
           answer: True
     55:
-      identifier: Lifetime-Direct joint venture negotiation 55
+      identifier: 55
       A: |
             You have Lifetime's position before discussion with Direct.
             It wants the advertising budget to be 100,000 dollars.
@@ -687,7 +687,7 @@ vacations:
         - question: They reach agreement on advertising budget.
           answer: True
     66:
-      identifier: Lifetime-Direct joint venture negotiation 66
+      identifier: 66
       A: |
             You have Lifetime's position before discussion with Direct.
             It wants destinations to be only in the Mediterranean.
@@ -735,7 +735,7 @@ vacations:
         - question: It's a deal.
           answer: False
     77:
-      identifier: Lifetime-Direct joint venture negotiation 77
+      identifier: 77
       A: |
             You have Lifetime's position before discussion with Direct.
             It wants a three-year contract.
