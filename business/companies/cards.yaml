@@ -338,13 +338,11 @@ fourswot:
     00:
       identifier: fourswot 00
       A: |+
-        On-line shopping is important, but difficult, for companies like IKEA with stores. If they charge different prices in stores and online, store customers are unhappy.
+        Some people like to go to IKEA to shop for furniture, but many people don't like to go to a store, because it is inconvenient to take the furniture home by yourself.
       B: |+
-        Some people like to go to IKEA stores to shop for furniture, but many people don't. It is inconvenient to take the furniture home by yourself.
-      C: |+
         IKEA's distribution system makes delivery of the furniture easy and cheap. The companies which ship furniture to IKEA stores can ship directly to customers.
-      D: |+
-        IKEA furniture is DYI (do-it-yourself). People assemble it themselves. They take home a flat package and use the tools and instructions IKEA put in the package.
+      C: |+
+        IKEA furniture is DIY (do-it-yourself). People assemble it themselves. They take home a flat package and use the tools and instructions IKEA put in the package.
       quiz:
         - question: IKEA is thinking about on-line shopping. On-line shopping for IKEA is:
           option:
@@ -360,7 +358,7 @@ fourswot:
             - an opportunity
             - a threat
           answer: a weakness
-        - question: Some people are not good at assembling IKEA furniture. They want someone to do it for them.
+        - question: Some people are not good at assembling IKEA furniture. They don't want to do it themselves.
           option:
             - a strength
             - a weakness
@@ -374,18 +372,53 @@ fourswot:
             - an opportunity
             - a threat
           answer: a strength
+    04:
+      identifier: fourswot 04
+      A: |+
+        IKEA designs its furniture, but it doesn't make it. Cheap companies in India and China make the furniture to IKEA's designs. So the furniture is cheap.
+      B: |+
+        IKEA talks to its makers about how the furniture will be made. The makers tell IKEA's designers what it is easy to do. The designers then design the furniture.
+      C: |+
+        IKEA furniture is DIY (do-it-yourself). The makers don't assemble the furniture. The people who buy it have to assemble it themselves. Sometimes they can't do it.
+      quiz:
+        - question: IKEA depends on very good communication with its makers to understand what they can do.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a weakness
+        - question: IKEA could charge customers to assemble their furniture for them.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: an opportunity
+        - question: IKEA's designs are easy for its makers to make.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a strength
+        - question: People think IKEA furniture is hard to put together.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a threat
     01:
       identifier: fourswot 01
       A: |+
-        Valentino Many people want to try a different, new type of chocolate. A variety of new and different designs and flavors are attractive to chocolate eaters.
-      B: |+
         Valentino can produce new chocolates by changing the production process. But, one type of machine and chocolate can only produce a few types of chocolate.
-      C: |+
+      B: |+
         Valentino produces a new design by stopping the production process and changing machines. This means the amount of chocolates produced is less.
-      D: |+
+      C: |+
         Valentino takes longer to change machines than other chocolate companies. Other companies have thought carefully about how to produce new designs quickly.
       quiz:
-        - question: Machinery companies sell new machines that allow production of a number of different types of chocolates on one machine.
+        - question: Valentino could buy new machines and make many different chocolates on one machine.
           option:
             - a strength
             - a weakness
@@ -406,7 +439,7 @@ fourswot:
             - an opportunity
             - a threat
           answer: a strength
-        - question: Some customers buy Valentino chocolates only sometimes. They don't want it to change its chocolates.
+        - question: Valentino is thinking of changing its chocolates, but some customers don't want it to change.
           option:
             - a strength
             - a weakness
@@ -455,12 +488,10 @@ fourswot:
     03:
       identifier: fourswot 03
       A: |+
-        Flicker was the first company to develop cheap plastic lighters. Now many companies, many of them in China, make cheap plastic lighters.
-      B: |+
         Flicker researchers' recent discoveries mean cheaper lighters are possible. It is also researching lighters that work well even when it is very windy.
-      C: |+
+      B: |+
         Other cigarette lighter manufacturers pay Flicker to use its technology. These companies also do their own research and development, competing with it.
-      D: |+
+      C: |+
         Flicker spends lots of money on research and development. But it is very expensive to do that research and the results are not great.
       quiz:
         - question: If Flicker made its lighters cheaper, it could sell more lighters and make more money.
@@ -477,7 +508,7 @@ fourswot:
             - an opportunity
             - a threat
           answer: a strength
-        - question: The superiority of Flicker's technology over that of other companies is less than it used to be.
+        - question: A competitor to Flicker is spending lots of money on developing its own technology.
           option:
             - a strength
             - a weakness
@@ -491,6 +522,117 @@ fourswot:
             - an opportunity
             - a threat
           answer: a weakness
+    07:
+      identifier: fourswot 07
+      A: |+
+        Once you start smoking, it is very difficult to stop. And although the number of cigarette smokers is dropping, young people continue to start smoking each year.
+      B: |+
+        Although cigarette taxes continue to increase, there is no tax on cigarette lighters.
+      C: |+
+        Flicker spends lots of money on research and development. But it is very expensive to do that research and the results are not great.
+      quiz:
+        - question: If Flicker made its lighters cheaper, it could sell more lighters and make more money.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: an opportunity
+        - question: Flicker's technology is:
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a strength
+        - question: A competitor to Flicker is spending lots of money on developing its own technology.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a threat
+        - question: Flicker cigarette lighters are cheap. It is difficult for it to compete on the basis of design or quality of product.
+          option: 
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a weakness
+    08:
+      identifier: fourswot 08
+      A: |+
+        If one design is popular and sells out, Zara will not make more of that design. It wants customers to buy now. It doesn't want them to come back and buy later.
+      B: |+
+        Zara has two huge warehouses in Spain. Clothes are there for less than 3 days. Then the clothes sold in Taiwan are flown by plane from those warehouses. 
+      C: |+
+        Store managers around the world send information about what designs are popular back to Spain. Designers there decide what new designs will be created.
+      quiz:
+        - question: Zara cannot sell many copies of one design, even if it is very popular.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a weakness
+        - question: Other clothes companies are now also getting new clothes into stores much quicker.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a threat
+        - question: Zara is constantly making new designs and getting them into stores very quickly.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a strength
+        - question: Zara can expand its business online and sell make-up.
+          option: 
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: an opportunity
+    09:
+      identifier: fourswot 09
+      A: |+
+        Zara's 200 designers create 40,000 designs each year, but only 10,000 of them are made into clothes. Some of them are the same as famous fashion company's designs.
+      B: |+
+        Costs for Zara are 30 percent higher than its competitors. Labor costs in Spain are 20 times those in Asia. But producing in Spain speeds everything up.
+      C: |+
+        Store managers and sales clerks think the company is very unfriendly and disrespectful. Some customers are also upset by the way staff treat them.
+      quiz:
+        - question: Costs in Spain are rising.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a threat
+        - question: Zara could sell the many designs that it does not use to other companies.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: an opportunity
+        - question: Zara does not care how staff and customers feel about the company.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a weakness
+        - question: Zara centralizes all its activities in Spain.
+          option: 
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a strength
     1:
       identifier: fourswot 1
       A: |+
@@ -628,7 +770,7 @@ fourswot:
         \item [Dr Bean] doesn't know any one who is excited about working with him. 
         \item [Flicker] Other cigarette lighter manufacturers pay Flicker to use its technology.
       D: |+
-        \item [IKEA] furniture is DYI (do-it-yourself). People assemble it themselves.
+        \item [IKEA] furniture is DIY (do-it-yourself). People assemble it themselves.
         \item [Valentino] New types of chocolate are not expensive and are becoming popular.
         \item [Dr Bean] prefers to work by himself, running the business alone.
         \item [Flicker] spends lots of money on research and development.
