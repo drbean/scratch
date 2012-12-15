@@ -137,6 +137,9 @@ preproc (",":xs)           = preproc xs
 
 preproc ("how":"much":xs)	= "how_much" : preproc xs
 
+preproc ("steve":"wynn":xs)	= "steve_wynn" : preproc xs
+preproc ("entrance":"fee":xs)	= "entrance_fee" : preproc xs
+
 preproc ("the":"ferrari":"showroom":xs)	= "the_ferrari_showroom" : preproc xs
 preproc ("ten":"dollars":xs)	= "ten_dollars" : preproc xs
 preproc ("punjabi":"farmers":xs)	= "punjabi_farmers" : preproc xs
@@ -361,8 +364,8 @@ prsTAG = \us xs -> [ (Branch (Cat "_" "S" [] []) [s,t],ws,zs) |
 tagR :: SPARSER Cat Cat 
 tagR = \ us xs -> 
  [ (Branch (Cat "_" "TAG" fs []) [tagV,tagS],rs,ss) | 
-	(tagV,vs,ys)	<- leafPS "AUX" us xs,
-	(aux,ws,zs)	<- pop "AUX" vs ys,
+	(tagV,vs,ys)	<- prsCOPAUX us xs,
+	(aux,ws,zs)	<- popCOPAUX vs ys,
 	agreeC tagV aux,
 	subcatList (t2c tagV) == [],
 	and $ zipWith (==) (phon (t2c tagV)) (phon (t2c aux)),
@@ -373,6 +376,9 @@ tagR = \ us xs ->
 	fs		<- [polarity agreement ++ person agreement ++
 				number agreement ++ gender agreement]
 	]
+
+popCOPAUX :: SPARSER Cat Cat
+popCOPAUX = pop "AUX" <||> pop "COP"
 
 spTagR :: SPARSER Cat Cat 
 spTagR = \ us xs -> 
@@ -526,13 +532,19 @@ copR = \us xs -> [(Branch (Cat "_" "VP" (fs (t2c cop)) []) [cop,Branch (Cat "_" 
 		]
 
 prsCOP :: SPARSER Cat Cat
-prsCOP = leafPS "AUX" <||> pop "AUX"
+prsCOP = leafPS "COP" <||> pop "COP"
 
 prsCOMP :: SPARSER Cat Cat
 prsCOMP = prsNP <||> prsADJ
 
 vpR :: SPARSER Cat Cat
-vpR = vp1R <||> vp2R <||> infinR1 <||> infinR2
+vpR = vp0R <||> vp1R <||> vp2R <||> infinR1 <||> infinR2
+
+vp0R :: SPARSER Cat Cat
+vp0R = \us xs -> 
+ [(Branch (Cat "_" "VP" (fs (t2c vp)) []) [vp],vs,ys) |  
+             (vp,vs,ys)  <- leafPS "VP" us xs,
+	     subcatList (t2c vp) == [] ]
 
 vp1R :: SPARSER Cat Cat
 vp1R = \us xs -> 
@@ -644,10 +656,13 @@ relppR = \us xs ->
 prsYN :: SPARSER Cat Cat 
 prsYN = \us xs -> 
    [(Branch (Cat "_" "YN" [] []) [dum,s], ws,zs) | 
-       (dum,vs,ys) <- prsAUX us xs, 
+       (dum,vs,ys) <- prsCOPAUX us xs, 
        gap         <- [Cat "#" (catLabel (t2c dum)) (fs (t2c dum))
 					       (subcatList (t2c dum)) ], 
        (s,ws,zs)   <- push gap prsS vs ys ]
+
+prsCOPAUX :: SPARSER Cat Cat
+prsCOPAUX = prsCOP <||> prsAUX
 
 isWH :: ParseTree Cat Cat -> Bool
 isWH tr = Wh `elem` (fs (t2c tr))
