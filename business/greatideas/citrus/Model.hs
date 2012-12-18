@@ -23,15 +23,10 @@ entities	=  [minBound..maxBound]
 characters :: [ (String, Entity) ]
 
 characters = [
-	( "steve_wynn",	W )
-	, ( "the_ferrari_showroom",	R )
-	-- ( "pepsi",	P ),
-	-- ( "punjabi_farmers",	AF ),
-	-- ( "the_punjabi_government",	AP ),
-	-- ( "alex_tew",	A ),
-	-- ( "the_million_dollar_homepage",	H ),
-	-- ( "facebook",	F ),
-	-- ( "mark_zuckerberg",	M )
+	( "pepsi",	P )
+	, ( "punjab",	AP )
+	, ( "punjabi_farmers",	AF )
+	, ( "the_punjabi_government",	AG )
 
 	]
 
@@ -39,30 +34,22 @@ male, female :: OnePlacePred
 
 
 female	= pred1 []
-male	= pred1 [W,B,AV,AB]
+male	= pred1 [AF]
 role	= pred1 []
-child	= pred1 [AC]
-
-showroom	= pred1 [R]
-crowded	= pred1 [R]
-visitors	= pred1 [V,B,AV,AB]
-buyer	= pred1 [B]
-cars	= pred1 [C]
-expensive	= pred1 [C]
-ten_dollars	= pred1 [T]
-entrance_fee	= pred1 [T]
+child	= pred1 []
 
 oranges	= pred1 [O]
+citrus_fruit	= pred1 [O]
+land	= pred1 [L]
 
-website	= pred1 [M,F]
-founder	= pred1 [M,F]
+good_idea	= pred1 [I]
 
 good	= pred1 [AG]
 bad	= pred1 [AB]
 
-experiment	= pred1 [AE]
-successful	= pred1 [R,AE]
-unsuccessful	= pred1 []
+experiment	= pred1 [I]
+successful	= pred1 [P]
+unsuccessful	= pred1 [I]
 
 
 namelist = map fst characters
@@ -98,49 +85,38 @@ pred3 xs	= curry3 ( `elem` xs )
 pred4 xs	= curry4 ( `elem` xs )
 pred5 xs	= curry5 ( `elem` xs )
 
-acquainted	= [(V,R),(B,R),(AV,R),(AB,R),(W,R)]
+acquainted	= [(P,O),(P,AG),(AF,AG)]
 know	= pred2 $ acquainted ++ map (\x -> (snd x, fst x)) acquainted
 have	= pred2 $ possessions ++ management ++ family ++ patronage
 		-- ++ ( map (\x->(x,N) ) $ filter person entities ) -- personality
-family	= [(AV,AC),(AC,AV)]
-patronage = [(R,V),(R,B),(R,AV),(R,AC),(R,AB)]
+family	= []
+patronage = []
 finish	= pred3 []
-pay	= pred3 [(W,T,Unspec),(V,T,Unspec),(AV,T,Unspec),(AB,T,Unspec)]
-enter	= pred2 [(W,R),(V,R),(B,R),(AV,R),(AC,R),(AB,R)]
+purchases	= [(P,O,AF)]
+buy	= pred3 purchases
+pay = pred3 $ map (\x -> (agent x, recipient x, theme x) ) purchases
 
-pay_to_enter :: ThreePlacePred
-pay_to_enter	= pred3 [(V,V,R),(AV,AV,R),(AB,AB,R)]
+wanted = pred3 $ purchases
+wanted_to_buy :: FourPlacePred
+wanted_to_buy	= pred4 $
+	map ( \x -> (agent x, agent x, theme x, source x) ) purchases
 
--- offered_to_pay	= pred3 [(P,P,AF)]
-
-buy = pred2 [(B,C)]
-
-decided_to_charge :: ThreePlacePred
-decided_to_charge	= pred3 [(W,W,T) ]
-decided_to_charge_fee	= pred4 [(W,W,T,V) ]
-decided_to_charge_entry	= pred5 [(W,W,T,V,R) ]
-
-wanted_to_look :: TwoPlacePred
-wanted_to_look	= pred2 [(P,P) ]
-wanted_to_look_at	= pred3 [(V,V,C) ]
-
-wanted_to_buy :: TwoPlacePred
-wanted_to_buy	= pred2 []
-wanted_to_buy_some	= pred3 [(B,B,C)]
+wanted_to_sell	= pred3 [(AF,AF,O)]
+wanted_to_sell_to	= pred4 [(AF,AF,O,P)]
 
 wanted_to_pay :: ThreePlacePred
 wanted_to_pay	= pred3 []
 
 have_to_pay :: ThreePlacePred
-have_to_pay = pred3 [(V,V,T),(AV,AV,T),(AB,AB,T)]
+have_to_pay = pred3 []
 
--- offered_to_buy :: ThreePlacePred
--- offered_to_buy	= pred3 [(P,P,O)]
--- offered_to_buy_from :: FourPlacePred
--- offered_to_buy_from	= pred4 [(P,P,O,AF)]
+offered_to_buy :: ThreePlacePred
+offered_to_buy	= pred3 [(P,P,O)]
+offered_to_buy_from :: FourPlacePred
+offered_to_buy_from	= pred4 [(P,P,O,AF)]
 
-possessions	= [(W,C),(W,R),(R,C)]
-management	= [(W,R)]
+possessions	= [(AF,L)]
+management	= [(AG,L)]
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
@@ -154,13 +130,13 @@ theme (_,t,_) = t
 recipient (_,_,r) = r
 patient = theme
 location = recipient
+source	= recipient
 instrument = recipient
 origin	= theme
 destination = recipient
 
 gave	= pred3 giving
-got	= pred2 $ map (\x -> (recipient x, patient x) ) giving
-got_from	= pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving
+got	= pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving
 
 said	= pred2 $ map (\x->(agent x, theme x) ) comms
 asked	= pred2 $ map (\x->(agent x, recipient x) ) comms
@@ -176,15 +152,18 @@ worker	= pred1 $ map patient work
 work_where	= pred2 $ map (\x -> (patient x, agent x) ) work
 work_as = pred2 $ map (\x -> (patient x, location x) ) work
 
-giving	= []
-comms	= [ (M,N,L),(L,N,M),(M,S,L),(L,S,M) ]
-work	= [ (B,G,M),(Unspec,W,L)]
+giving	= [(AF,L,AG)]
+comms	= [ (P,O,AG),(AG,O,AF),(AG,L,AF) ]
+work	= [ (AF,AF,L)]
 
 agent4, theme4, recipient4, location4 :: (Entity,Entity,Entity,Entity) -> Entity
 agent4 (a,_,_,_) = a
 location4 (_,l,_,_) = l
 theme4 (_,_,t,_) = t
 recipient4 (_,_,_,r) = r
+
+unditrans :: FourPlacePred -> ThreePlacePred
+unditrans r u v w = or ( map ( r u v w ) entities )
 
 forgetful :: ThreePlacePred -> TwoPlacePred
 forgetful r u v = or ( map ( r u v ) entities )
