@@ -101,10 +101,10 @@ import Parsing
 comp_test1 = [
 	"The experiment was successful."
 	, "Was the experiment successful?"
-	, "Was the Ferrari showroom successful?"
-	, "The Ferrari showroom was successful."
-	, "The entrance fee was ten dollars."
-	, "Was the entrance fee ten dollars."
+	, "Pepsi was successful."
+	, "Was Pepsi successful?"
+	, "Was the Punjabi government successful?"
+	, "The Punjabi government was successful."
 --	"Barbara was aggressive.",
 --	"Barbara was a sales representative.",
 --	"Barbara was Eva's co-worker.",
@@ -177,25 +177,25 @@ comp_test1 = [
 
 comp_test_wh = [
 	"Who were people?"
-	, "Who was Steve Wynn?"
+	, "Who was Pepsi?"
 	, "Who was a man?"
 	, "Who was a child?"
 	, "Who was a woman?"
 	]
 
 tag_test = [
-	"The entrance fee was ten dollars, wasn't it?"
-	, "The entrance fee was more than ten dollars, wasn't it?"
-	, "Some man was Steve Wynn, wasn't he."
-	, "Some man wanted to buy a car, didn't he?"
-	, "All visitors wanted to pay the entrance fee, didn't they?"
-	, "Steve Wynn was a person, wasn't he?"
+	"The experiment was a good idea, wasn't it?"
+	, "Some men were Punjabi farmers, weren't they."
+	, "Some man wanted to sell oranges, didn't he?"
+	, "Punjabi farmers wanted to sell oranges, didn't they?"
+	, "Punjabi farmers wanted to sell oranges to Pepsi, didn't they?"
+	, "The Punjabi government was a person, wasn't he?"
 	]
 
 neg_tag_test = [
-	"The entrance fee wasn't ten dollars, was it?"
-	, "All visitors didn't want to pay the entrance fee, did they?"
-	, "Steve Wynn wasn't a woman, was he?"
+	"The experiment wasn't a good idea, was it?"
+	, "Punjabi farmers didn't want to sell oranges to Pepsi, did they?"
+	, "The Punjabi government wasn't a person, was he?"
 --	"Some woman wasn't ambitious, was she.",
 --	"Some women weren't successful, was she.",
 --	"Some women weren't successful, were they.",
@@ -233,6 +233,19 @@ neg_tag_test = [
 --	"Did the boss of Barbara talk to Eva?"
 --	]
 
+takes = [
+	"Did the Punjabi government take Punjabi farmers' land?"
+	, "Did the Punjabi government take land from Punjabi farmers?"
+	, "The Punjabi government took land from Punjabi farmers."
+	, "The Punjabi government took a land from Punjabi farmers."
+	]
+
+wants = [
+	"Did Pepsi want citrus_fruit from Punjabi Farmers."
+	, "Did Pepsi want oranges?"
+	, "Pepsi wanted oranges."
+	]
+
 haves = [
 	"Did visitors have to pay the entrance fee?",
 	"Didn't some visitors have to pay the entrance fee?",
@@ -249,41 +262,41 @@ haves = [
 	]
 
 knows = [
-	"Did Steve Wynn know the Ferrari showroom?",
-	"Did Steve Wynn know about the Ferrari showroom?",
-	"Did people know the Ferrari showroom?",
-	"Did people know about the Ferrari showroom?",
-	"Did the woman know Steve Wynn?",
-	"Did the woman know about Steve Wynn?"
+	"Did Pepsi know the Punjabi government?",
+	"Did the Punjabi government know about Pepsi?",
+	"Did people know the Punjabi government?",
+	"Did people know about the Punjabi government?",
+	"Did the woman know Pepsi?",
+	"Did the woman know about Pepsi?"
 	]
 
 likes = [
-	"Did Steve Wynn like the Ferrari showroom?",
-	"Did people like the Ferrari showroom?",
-	"Did people like cars?",
-	"Did the woman like Steve Wynn?",
-	"Did the woman like cars?"
+	"Did Pepsi like the Punjabi government?",
+	"Did people like the Punjabi government?",
+	"Did people like oranges?",
+	"Did the woman like Pepsi?",
+	"Did the woman like oranges?"
 	]
 
 ungrammatical = [
-	"Was Steve Wynn buy a car?"
+	"Was Pepsi buy a car?"
 	, "Was a woman with a child?" 
 	, "Was a woman with a child have to pay the entrance_fee?" 
 	, "Was a woman with children have to pay the entrance_fee?" 
 	, "Was a man with a child have to pay the entrance_fee?" 
 	, "Was a man with children have to pay the entrance_fee?" 
-	, "Did the_ferrari_showroom have cars?" 
-	, "Was steve_wynn knew the_ferrari_showroom have cars?" 
-	, "Did steve_wynn know the_ferrari_showroom have cars?" 
-	, "Was people want to look at the cars?" 
-	, "Were people want to look at the cars?"  
-	, "Were the people want to look at the cars?"
+	, "Did the Punjabi government have oranges?" 
+	, "Was Pepsi knew the Punjabi government have oranges?" 
+	, "Did Pepsi know the Punjabi government have oranges?" 
+	, "Was people want to look at the oranges?" 
+	, "Were people want to look at the oranges?"  
+	, "Were the people want to look at the oranges?"
 	]
 
 intransitives = [
-	"Steve Wynn paid",
-	"Did Steve Wynn pay?",
-	-- "Steve Wynn's boss paid.",
+	"Pepsi paid",
+	"Did Pepsi pay?",
+	-- "Pepsi's boss paid.",
 	-- "A woman's boss paid to enter the showroom.",
 	-- "Did Linda Chen's boss pay?",
 	-- "Did a woman's boss pay?",
@@ -316,46 +329,41 @@ intransitives = [
 	"Many men didn't pay.",
 	"All men paid.",
 	"No man paid.",
-	"Visitors paid."
+	"Pepsi paid."
 	]
 
 transitives = [
-	"Steve Wynn paid ten dollars."
-	, "Did Steve Wynn pay the entrance fee?"
-	-- "Steve Wynn's boss paid ten dollars."
-	-- "A woman's boss paid to enter the showroom ten dollars."
+	"Pepsi bought oranges."
+	, "Did Pepsi pay Punjabi farmers?"
+	-- "Pepsi's boss bought oranges."
+	-- "A woman's boss paid to talk to the showroom ten dollars."
 	-- "Did Linda Chen's boss pay the entrance fee?"
 	-- "Did a woman's boss pay the entrance fee?"
-	, "A man paid ten dollars."
-	, "Some man paid ten dollars."
-	, "No one paid ten dollars."
-	, "No-one paid ten dollars."
-	, "Everybody paid ten dollars."
-	, "Everyone paid ten dollars."
-	, "Many persons paid ten dollars."
-	, "No person paid ten dollars."
-	, "Did the man pay the entrance fee?"
-	, "Did some man pay the entrance fee?"
-	, "Did some men pay the entrance fee?"
-	, "Did some woman pay the entrance fee?"
-	, "Did some women pay the entrance fee?"
-	, "Most women paid ten dollars."
+	, "A man bought oranges."
+	, "Some man bought oranges."
+	, "No one bought oranges."
+	, "No-one bought oranges."
+	, "Everybody bought oranges."
+	, "Everyone bought oranges."
+	, "Many persons bought oranges."
+	, "No person bought oranges."
+	, "Most women bought oranges."
 	, "Most women didn't pay ten dollars."
-	, "Several women paid ten dollars."
+	, "Several women bought oranges."
 	, "Several women didn't pay ten dollars."
-	, "Many women entered the Ferrari showroom."
-	, "Many women didn't enter the Ferrari showroom."
-	, "All women entered the Ferrari showroom."
-	, "No woman entered the Ferrari showroom."
-	, "Most men entered the Ferrari showroom."
-	, "Most men didn't enter the Ferrari showroom."
-	, "Several men entered the Ferrari showroom."
-	, "Several men didn't enter the Ferrari showroom."
-	, "Many men entered the Ferrari showroom."
-	, "Many men didn't enter the Ferrari showroom."
-	, "All men entered the Ferrari showroom."
-	, "No man entered the Ferrari showroom."
-	, "Visitors entered the Ferrari showroom."
+	, "Many women talked to the Punjabi government."
+	, "Many women didn't talk to the Punjabi government."
+	, "All women talked to the Punjabi government."
+	, "No woman talked to the Punjabi government."
+	, "Most men talked to the Punjabi government."
+	, "Most men didn't talk to the Punjabi government."
+	, "Several men talked to the Punjabi government."
+	, "Several men didn't talk to the Punjabi government."
+	, "Many men talked to the Punjabi government."
+	, "Many men didn't talk to the Punjabi government."
+	, "All men talked to the Punjabi government."
+	, "No man talked to the Punjabi government."
+	, "Visitors talked to the Punjabi government."
 	, "Did all Visitors buy a car?"
 	]
 
