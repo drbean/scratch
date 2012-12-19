@@ -236,7 +236,6 @@ neg_tag_test = [
 takes = [
 	"Did the Punjabi government take Punjabi farmers' land?"
 	, "Did the Punjabi government take land from Punjabi farmers?"
-	, "The Punjabi government took land from Punjabi farmers."
 	, "The Punjabi government took a land from Punjabi farmers."
 	]
 
@@ -244,6 +243,28 @@ wants = [
 	"Did Pepsi want citrus_fruit from Punjabi Farmers."
 	, "Did Pepsi want oranges?"
 	, "Pepsi wanted oranges."
+	]
+
+buys_sells = [
+	"Did Pepsi buy?"
+	, "Did Pepsi buy from Punjabi farmers?"
+	, "Did Pepsi buy oranges?"
+	, "Did Pepsi buy oranges from Punjabi farmers?"
+	, "Did Pepsi want to buy from Punjabi farmers?"
+	, "Pepsi wanted to buy from Punjabi farmers?"
+	, "Pepsi wanted to buy oranges from Punjabi farmers?"
+	, "Did Punjabi farmers sell to Pepsi?"
+	, "Did Punjabi farmers sell oranges?"
+	, "Did Punjabi farmers sell oranges to Pepsi?"
+	]
+
+grows = [
+	"Did Punjabi farmers grow citrus fruit?"
+	, "Did the Punjabi government grow citrus fruit?"
+	, "Did Pepsi want Punjabi farmers to grow citrus fruit?"
+	, "Did Pepsi want the Punjabi government to grow citrus fruit?"
+	, "Did Punjabi farmers want to grow citrus fruit?"
+	, "Did the Punjabi government want to grow citrus fruit?"
 	]
 
 haves = [
@@ -263,9 +284,11 @@ haves = [
 
 knows = [
 	"Did Pepsi know the Punjabi government?",
-	"Did the Punjabi government know about Pepsi?",
 	"Did people know the Punjabi government?",
+	"The Punjabi government knew about Pepsi.",
+	"Did the Punjabi government know about Pepsi?",
 	"Did people know about the Punjabi government?",
+	"Did Punjabi farmers know about Pepsi?",
 	"Did the woman know Pepsi?",
 	"Did the woman know about Pepsi?"
 	]
