@@ -85,8 +85,8 @@ pred3 xs	= curry3 ( `elem` xs )
 pred4 xs	= curry4 ( `elem` xs )
 pred5 xs	= curry5 ( `elem` xs )
 
-acquainted	= [(P,O),(P,AG),(AF,AG)]
-know	= pred2 $ acquainted ++ map (\x -> (snd x, fst x)) acquainted
+acquainted	= [(P,O),(P,AG),(AF,AG),(P,AF)]
+know	= pred2 $ acquainted ++ map swap acquainted
 have	= pred2 $ possessions ++ management ++ family ++ patronage
 		-- ++ ( map (\x->(x,N) ) $ filter person entities ) -- personality
 family	= []
@@ -101,8 +101,17 @@ wanted_to_buy :: FourPlacePred
 wanted_to_buy	= pred4 $
 	map ( \x -> (agent x, agent x, theme x, source x) ) purchases
 
-wanted_to_sell	= pred3 [(AF,AF,O)]
-wanted_to_sell_to	= pred4 [(AF,AF,O,P)]
+sell :: ThreePlacePred
+sell	= pred3 [(AF,O,P)]
+
+wanted_to_sell :: FourPlacePred
+wanted_to_sell	= pred4 [(AF,AF,O,P)]
+
+grow :: TwoPlacePred
+grow	= pred2 [(AF,O),(AG,O)]
+
+wanted_to_grow :: ThreePlacePred
+wanted_to_grow	= pred3 [(P,AF,O),(P,AG,O),(AF,AF,O),(AG,AG,O)]
 
 wanted_to_pay :: ThreePlacePred
 wanted_to_pay	= pred3 []
