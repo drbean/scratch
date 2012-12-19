@@ -29,6 +29,8 @@ inflections = [
  ( "leave",	"left" ),
  ( "give",	"gave" ),
  ( "get",	"got" ),
+ ( "take",	"got" ),
+ ( "took",	"got" ),
  ( "bought", "got" ),
  ( "worked",   "work" ),
  
@@ -48,10 +50,12 @@ relations = [
  ( "work", \args -> case args of
         [x] -> worker x
         [x,y] -> work_where y x || work_as y x ),
+ ( "wanted", \args -> case args of 
+	[x,y,z] -> wanted z y x
+	[x,y]	-> forgetful wanted y x ),
  ( "got", \args -> case args of
- 	[x,y,z] -> got_from z y x
- 	[x,y] -> got y x
-	)
+ 	[x,y,z] -> got z y x
+ 	[x,y] -> forgetful got y x )
  ]
 
 -- vim: set ts=8 sts=4 sw=4 noet:
