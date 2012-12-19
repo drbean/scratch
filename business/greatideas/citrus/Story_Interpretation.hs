@@ -17,6 +17,7 @@ inflections = [
  ( "bought", "buy" ),
  ( "want_to_pay", "wanted_to_pay" ),
  ( "want_to_sell", "wanted_to_sell" ),
+ ( "want_to_grow", "wanted_to_grow" ),
  ( "want_to_buy", "wanted_to_buy" ),
  ( "want_to_look", "wanted_to_look" ),
  ( "want_to_have", "wanted_to_have" ),
@@ -46,9 +47,17 @@ relations = [
 
 	, ( "wanted_to_pay", \args -> case args of 
 		[x,y,z] -> wanted_to_pay z y x )
+
+	, ( "sell", \args -> case args of 
+		[x,y] -> forgetful sell y x
+		[x,y,z] -> sell z y x )
 	, ( "wanted_to_sell", \args -> case args of 
-		[x,y,z] -> wanted_to_sell z y x
-		[w,x,y,z] -> wanted_to_sell_to w z y x )
+		[x,y,z] -> unditrans wanted_to_sell z y x
+		[x,y,z,w] -> wanted_to_sell w z y x )
+	, ( "grow", \args -> case args of 
+		[x,y] -> grow y x )
+	, ( "wanted_to_grow", \args -> case args of 
+		[x,y,z] -> wanted_to_grow z y x )
 	, ( "wanted_to_buy", \args -> case args of 
 		[x] -> (intransit . forgetful . unditrans) wanted_to_buy x
 		[x,y] -> (forgetful . unditrans) wanted_to_buy y x
