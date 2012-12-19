@@ -114,6 +114,7 @@ type Lexset = [ [Cat] ]
 scan :: String -> String
 scan []                      = []
 scan ('\'':'s':xs)           = " 's" ++ scan xs
+scan ('s':'\'':xs)           = "s 's" ++ scan xs
 scan (x:xs) | x `elem` ".,?" = ' ':x:scan xs
             | otherwise      =     x:scan xs
 
@@ -139,11 +140,14 @@ preproc ("how":"much":xs)	= "how_much" : preproc xs
 
 preproc ("steve":"wynn":xs)	= "steve_wynn" : preproc xs
 preproc ("entrance":"fee":xs)	= "entrance_fee" : preproc xs
-
 preproc ("the":"ferrari":"showroom":xs)	= "the_ferrari_showroom" : preproc xs
 preproc ("ten":"dollars":xs)	= "ten_dollars" : preproc xs
+
 preproc ("punjabi":"farmers":xs)	= "punjabi_farmers" : preproc xs
 preproc ("the":"punjabi":"government":xs)	= "the_punjabi_government" : preproc xs
+preproc ("good":"idea":xs)	= "good_idea" : preproc xs
+
+
 preproc ("alex":"tew":xs)	= "alex_tew" : preproc xs
 preproc ("the":"million":"dollar":"homepage":xs)	= "the_million_dollar_homepage" : preproc xs
 preproc ("mark":"zuckerberg":xs)	= "mark_zuckerberg" : preproc xs
