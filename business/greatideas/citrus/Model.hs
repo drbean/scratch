@@ -42,7 +42,9 @@ oranges	= pred1 [O]
 citrus_fruit	= pred1 [O]
 land	= pred1 [L]
 
+money	= pred1 [M]
 good_idea	= pred1 [I]
+a_good_price	= pred1 [AP]
 
 good	= pred1 [AG]
 bad	= pred1 [AB]
@@ -92,14 +94,14 @@ have	= pred2 $ possessions ++ management ++ family ++ patronage
 family	= []
 patronage = []
 finish	= pred3 []
-purchases	= [(P,O,AF)]
-buy	= pred3 purchases
-pay = pred3 $ map (\x -> (agent x, recipient x, theme x) ) purchases
+purchases	= [(P,O,AF,Unspec)]
+buy	= pred3 $ map (\x -> (agent4 x, theme4 x, provider4 x) ) purchases
+pay = pred4 $ map (\x -> (agent4 x, provider4 x, theme4 x, purpose4 x) ) purchases
 
-wanted = pred3 $ purchases
+wanted = buy
 wanted_to_buy :: FourPlacePred
 wanted_to_buy	= pred4 $
-	map ( \x -> (agent x, agent x, theme x, source x) ) purchases
+	map ( \x -> (agent4 x, agent4 x, theme4 x, provider4 x) ) purchases
 
 sell :: ThreePlacePred
 sell	= pred3 [(AF,O,P)]
@@ -111,7 +113,19 @@ grow :: TwoPlacePred
 grow	= pred2 [(AF,O),(AG,O)]
 
 wanted_to_grow :: ThreePlacePred
-wanted_to_grow	= pred3 [(P,AF,O),(P,AG,O),(AF,AF,O),(AG,AG,O)]
+wanted_to_grow	= pred3 [(P,AF,O),(P,AG,O),(AF,AF,O),(AG,AG,O),(AG,AF,O)]
+
+help :: TwoPlacePred
+help	= pred2 [(AG,AF)]
+
+wanted_to_help :: ThreePlacePred
+wanted_to_help	= pred3 [(AG,AG,AF)]
+
+make :: TwoPlacePred
+make	= pred2 [(AF,M)]
+
+helped_to_make :: ThreePlacePred
+helped_to_make	= pred3 [(AG,AF,M)]
 
 wanted_to_pay :: ThreePlacePred
 wanted_to_pay	= pred3 []
@@ -166,10 +180,12 @@ comms	= [ (P,O,AG),(AG,O,AF),(AG,L,AF) ]
 work	= [ (AF,AF,L)]
 
 agent4, theme4, recipient4, location4 :: (Entity,Entity,Entity,Entity) -> Entity
-agent4 (a,_,_,_) = a
-location4 (_,l,_,_) = l
-theme4 (_,_,t,_) = t
-recipient4 (_,_,_,r) = r
+agent4 (a,_,_,_)	= a
+theme4 (_,t,_,_)	= t
+recipient4 (_,_,r,_)	= r
+provider4	= recipient4
+location4 (_,_,_,l)	= l
+purpose4	= location4
 
 unditrans :: FourPlacePred -> ThreePlacePred
 unditrans r u v w = or ( map ( r u v w ) entities )
