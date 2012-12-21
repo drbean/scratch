@@ -17,9 +17,14 @@ nouns = [
 	 	Cat "land"	"CN" [Thrd,Neutr,Sg] []]
 	 , [Cat "experiment"	"CN" [Thrd,Neutr,Sg] []]
 	 , [Cat "good_idea"	"CN" [Thrd,Neutr,Sg] []]
+	 , [Cat "a_good_price"	"NP" [Thrd,Neutr,Sg] []]
 	]
 
 verbs = [
+	[Cat "helped"	"VP" [Tense] [],
+		Cat "helped"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "help"	"VP" [Infl] [],
+		Cat "help"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "grew"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "grow"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "bought"	"VP" [Tense] [],
@@ -41,11 +46,21 @@ verbs = [
 	[Cat "paid"	"VP" [Tense] [],
 		Cat "paid"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
 		Cat "paid" "VP" [Tense]  [Cat "_" "NP" [AccOrDat] [],
-                                                Cat "_" "NP" [AccOrDat] []]],
+                                                Cat "_" "NP" [AccOrDat] []],
+		Cat "paid" "VP" [Tense]  [Cat "_" "NP" [AccOrDat] [],
+                                                Cat "_" "PP" [For] []],
+		Cat "paid" "VP" [Tense]  [Cat "_" "NP" [AccOrDat] [],
+                                                Cat "_" "NP" [AccOrDat] [],
+                                                Cat "_" "PP" [For] []]],
 	[Cat "pay"	"VP" [Infl] [],
 		Cat "pay"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
 		Cat "pay" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-                                                Cat "_" "NP" [AccOrDat] []]]
+                                                Cat "_" "NP" [AccOrDat] []],
+		Cat "pay" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+                                                Cat "_" "PP" [For] []],
+		Cat "pay" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+                                                Cat "_" "NP" [AccOrDat] [],
+                                                Cat "_" "PP" [For] []]]
 
 	]
 
