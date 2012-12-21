@@ -263,23 +263,31 @@ grows = [
 	, "Did the Punjabi government grow citrus fruit?"
 	, "Did Pepsi want Punjabi farmers to grow citrus fruit?"
 	, "Did Pepsi want the Punjabi government to grow citrus fruit?"
+	, "Did the Punjabi government want Punjabi farmers to grow citrus fruit?"
 	, "Did Punjabi farmers want to grow citrus fruit?"
 	, "Did the Punjabi government want to grow citrus fruit?"
 	]
 
+helps = [
+	"Did the Punjabi government help Punjabi farmers?"
+	, "Did the Punjabi government want to help Punjabi farmers?"
+	, "Did Punjabi farmers make money?"
+	, "Did the Punjabi government help Punjabi farmers to make money?"
+	, "Did the Punjabi government help Punjabi farmers make money?"
+	, "Did the Punjabi government want to help Punjabi farmers to make money?"
+	]
+
+pays = [
+	"Did Pepsi pay"
+	, "Did Pepsi pay Punjabi farmers?"
+	, "Did Pepsi pay Punjabi farmers a good price?"
+	, "Did Pepsi pay a good price?"
+	, "Pepsi paid Punjabi farmers a good price for oranges."
+	, "Did Pepsi pay Punjabi farmers a good price for oranges?"
+	]
+
 haves = [
-	"Did visitors have to pay the entrance fee?",
-	"Didn't some visitors have to pay the entrance fee?",
-	"Did every visitor have to pay the entrance fee?",
-	"Did children have to pay the entrance fee?",
-	"Did visitors with children have to pay the entrance fee?",
-	"Did people with children have to pay the entrance fee?",
-	"Did Steve Wynn have cars?",
-	"Did Steve Wynn have the Ferrari showroom?",
-	"Did the Ferrari showroom have cars?",
-	"Did the Ferrari showroom have many visitors?",
-	"Did the woman have ten dollars?"
---	"Did someone have a worker?"
+	"Did Punjabi farmers have land?"
 	]
 
 knows = [
