@@ -5,17 +5,15 @@ import Parsing
 names, nouns, verbs, aux, adjs, advs :: Lexset
 
 names = [
-	[Cat "pepsi" "NP" [Thrd,Neutr,Sg] []]
-	, [Cat "punjabi_farmers" "NP" [Thrd,MascOrFem,Pl] []]
-	, [Cat "the_punjabi_government"	"NP" [Thrd,Neutr,Sg] []]
+	[Cat "alex_tew" "NP" [Thrd,Masc,Sg] []]
+	, [Cat "mark_zuckerberg" "NP" [Thrd,Masc,Sg] []]
+	, [Cat "the_million_dollar_homepage" "NP" [Thrd,Neutr,Sg] []]
+	, [Cat "the_million_people_page"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "facebook"	"NP" [Thrd,Neutr,Sg] []]
 	]
 
 nouns = [
-	 [Cat "oranges"	"CN" [Thrd,Neutr,Pl] []]
-	 , [Cat "citrus_fruit"	"CN" [Thrd,Neutr,Pl] []]
-	 , [Cat "land"	"NP" [Thrd,Neutr,Sg] [],
-	 	Cat "land"	"CN" [Thrd,Neutr,Sg] []]
-	 , [Cat "experiment"	"CN" [Thrd,Neutr,Sg] []]
+	 [Cat "experiment"	"CN" [Thrd,Neutr,Sg] []]
 	 , [Cat "good_idea"	"CN" [Thrd,Neutr,Sg] []]
 	 , [Cat "a_good_price"	"NP" [Thrd,Neutr,Sg] []]
 	]
@@ -25,8 +23,10 @@ verbs = [
 		Cat "helped"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "help"	"VP" [Infl] [],
 		Cat "help"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "grew"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "grow"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "founded"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "found"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "set_up"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "set_up"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "bought"	"VP" [Tense] [],
 		Cat "bought"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
 		Cat "bought"	"VP" [Tense] [Cat "_" "PP" [From] []],
