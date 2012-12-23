@@ -40,18 +40,18 @@ inflections = [
  ]
 
 relations = [
- 
- ( "had", \[x,y] -> predided2 "have" $ y x ),
- ( "gave",	\ [x,y,z] ->	gave z y x ),
+
+ ( "had", \[x,y] -> predid2 "have" y x ),
+ ( "gave",	\ [x,y,z] ->	predid3 "gave" z y x ),
  ( "work", \args -> case args of
         [x] -> worker x
-        [x,y] -> work_where y x || work_as y x ),
+        [x,y] -> predid2 "work_where" y x || predid2 "work_as" y x ),
  ( "wanted", \args -> case args of 
 	[x,y,z] -> wanted z y x
 	[x,y]	-> forgetful wanted y x ),
  ( "got", \args -> case args of
- 	[x,y,z] -> got z y x
- 	[x,y] -> forgetful got y x )
+ 	[x,y,z] -> predid3 "got" z y x
+ 	[x,y] -> forgetful (predid3 "got") y x )
  ]
 
 -- vim: set ts=8 sts=4 sw=4 noet:
