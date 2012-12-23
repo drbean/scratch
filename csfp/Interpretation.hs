@@ -7,10 +7,6 @@ import Model
 
 objects, relations :: [( String, [Entity] -> Bool)]
 objects = [
-	( "man",	\ [x] -> isMan x	),
-	( "woman",	\ [x] -> isWoman x	),
-	( "boy",	\ [x] -> boy x	),
-	( "girl",	\ [x] -> isGirl x	),
 	( "person",	\ [x] -> person x	),
 	( "thing",	\ [x] -> thing x	)
  ]
@@ -45,7 +41,7 @@ inflections = [
 
 relations = [
  
- ( "had", \[x,y] -> have y x ),
+ ( "had", \[x,y] -> predided2 "have" $ y x ),
  ( "gave",	\ [x,y,z] ->	gave z y x ),
  ( "work", \args -> case args of
         [x] -> worker x
