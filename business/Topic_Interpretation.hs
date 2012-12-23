@@ -7,12 +7,14 @@ import Model
 
 objects, relations :: [( String, [Entity] -> Bool)]
 objects = [
-	( "worker",	\ [x] -> worker x	),
-	( "role",	\[x]	-> role x	)
+	( "worker",	\ [x] -> worker x	)
+	, ( "role",	\[x]	-> predid1 "role" x	)
+	, ( "money",	\[x]	-> predid1 "money" x	)
  ]
 
 inflections :: [(String, String)]
 inflections = [
+ ( "knew", "know" ),
  ( "speak", "talk" ),
  ( "job", "role" ),
  ( "lost", "lose" )
@@ -20,15 +22,17 @@ inflections = [
 
 relations = [
 
-	( "know", \[x,y] -> know y x ),
+	( "know", \[x,y] -> predid2 "know" y x ),
 	( "talk",	\args -> case args of 
-		[x,y] -> talk_with_or_about y x
-		[x,y,z] -> talk_with_about z y x	),
+		[x,y] -> predid2 "talk_with_or_about" y x
+		[x,y,z] -> predid3 "talk_with_about" z y x	),
 	( "asked", \args -> case args of
-	    [x,y] -> asked y x
-	    [x,y,z] -> ask_about z y x ),
-	( "said", \[x,y] -> said y x ),
-	( "told", \args -> case args of [x,y] -> recite y x; [x,y,z] -> told z y x )
+	    [x,y] -> predid2 "asked" y x
+	    [x,y,z] -> predid3 "ask_about" z y x ),
+	( "said", \[x,y] -> predid2 "said" y x ),
+	( "told", \args -> case args of
+	    [x,y] -> predid2 "recite" y x
+	    [x,y,z] -> predid3 "told" z y x )
  
  ]
 
