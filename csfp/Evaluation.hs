@@ -283,8 +283,8 @@ nonCoref2 = \ p i j k c b -> if   i /= j && j /= k && i /= k
                              then (p i j k c b) 
                              else []
 
-intS :: Sent -> Trans
-intS (Sent np vp) = (intNP np) (intVP vp)
+intS :: ParseTree Cat Cat -> Trans
+intS (Branch (Cat "_" S _ _) [ np,vp]) = (intNP np) (intVP vp)
 intS (Branch (Cat _ "YN" _ _) [Leaf (Cat _ "AUX" _ _),s] ) =
 	intS s
 intS (If   s1 s2) = (intS s1) `impl` (intS s2)
