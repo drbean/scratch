@@ -146,7 +146,8 @@ preproc ("ten":"dollars":xs)	= "ten_dollars" : preproc xs
 preproc ("punjabi":"farmers":xs)	= "punjabi_farmers" : preproc xs
 preproc ("the":"punjabi":"government":xs)	= "the_punjabi_government" : preproc xs
 preproc ("good":"idea":xs)	= "good_idea" : preproc xs
-
+preproc ("citrus":"fruit":xs)	= "citrus_fruit" : preproc xs
+preproc ("a":"good":"price":xs)	= "a_good_price" : preproc xs
 
 preproc ("alex":"tew":xs)	= "alex_tew" : preproc xs
 preproc ("the":"million":"dollar":"homepage":xs)	= "the_million_dollar_homepage" : preproc xs
@@ -542,7 +543,7 @@ prsCOMP :: SPARSER Cat Cat
 prsCOMP = prsNP <||> prsADJ
 
 vpR :: SPARSER Cat Cat
-vpR = vp0R <||> vp1R <||> vp2R <||> infinR1 <||> infinR2
+vpR = vp0R <||> vp1R <||> vp2R <||> vp3R <||> infinR1 <||> infinR2
 
 vp0R :: SPARSER Cat Cat
 vp0R = \us xs -> 
@@ -566,6 +567,16 @@ vp2R = \us xs ->
              (obj1,ws,zs) <- prsNPorPP vs ys, 
              (obj2,ps,qs) <- prsNPorPP ws zs, 
              match subcatlist (map t2c [obj1,obj2]) ]
+
+vp3R :: SPARSER Cat Cat
+vp3R = \us xs -> 
+ [(Branch (Cat "_" "VP" (fs (t2c vp)) []) [vp,obj1,obj2,pp],rs,ss) |  
+             (vp,vs,ys)  <- leafPS "VP" us xs, 
+             subcatlist  <- [subcatList (t2c vp)],
+             (obj1,ws,zs) <- prsNPorPP vs ys, 
+             (obj2,ps,qs) <- prsNPorPP ws zs, 
+             (pp,rs,ss)   <- prsPP ps qs, 
+             match subcatlist (map t2c [obj1,obj2,pp]) ]
 
 finVpR :: SPARSER Cat Cat
 finVpR = \us xs -> [(vp',vs,ys) | 
