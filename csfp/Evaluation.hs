@@ -13,79 +13,49 @@ import Data.Maybe
 import Data.List
 import Data.Tuple
 
-context :: [Entity]
-context = [A,D,G,M,Y]
+lexicon :: String -> [Cat]
+
+lexicon lexeme = maybe unknownWord id $
+	find (\x -> phon (head x) == lexeme ) $
+	Story.names ++ Story.nouns ++ Story.verbs ++ Story.aux ++ Story.adjs ++
+	    Story.advs ++
+	Topic.nouns ++ Topic.intransitives ++ Topic.transitives ++
+	class_names ++ interrogatives ++
+	cops ++ aux ++
+	transitives ++ ditransitives ++ -- intransitives ++
+	possessives ++ preps ++ determiners ++ conjuncts
+	++ prons ++ reflexives
+	where unknownWord = [Cat "" "" [] []]
+
+parses :: String -> [ParseTree Cat Cat]
+parses str = let ws = lexer str 
+             in  [ s | catlist   <- collectCats lexicon ws, 
+                       (s,[],[]) <- prsWH [] catlist  
+                                 ++ prsYN  [] catlist   
+                                 ++ prsTXT  [] catlist   
+                                 ++ prsTAG  [] catlist
+				 ]
+
+process string = map (\x -> intS x) (parses string)
+
+type Interp a	= String -> [a] -> Bool
+
+inttuples = objects ++ relations ++ Story.objects ++ Story.relations
+			    ++ Topic.objects ++ Topic.relations
+infltuples = inflections ++ Topic.inflections ++ Story.inflections 
+
+int :: Interp Entity
+
+int word = int' word inttuples infltuples where 
+	int' w [] []	= error $ "'" ++ w ++ "'" ++ " has no interpretation"
+	int' w [] ((infl,word):infls) | w == infl	=  int' word inttuples [] 
+	int' w [] (i:is)	= int' w [] is
+	int' w ((word,interpretation):is) infls | w == word	= interpretation
+	int' w (i:is) infls	= int' w is infls
 
 singleton :: [a] -> Bool
 singleton [x] = True 
 singleton  _  = False 
-
-data Sent = Sent NP VP | If Sent Sent | Txt Sent Sent
-          deriving (Eq,Show)
-data NP   = SnowWhite  | Alice | Dorothy | Goldilocks 
-          | LittleMook | Atreyu
-          | PRO Idx    | He | She | It
-          | NP1 DET CN | NP2 DET RCN 
-          deriving (Eq,Show)
-data DET  = Every | Some | No | The 
-          deriving (Eq,Show)
-data CN   = Girl   | Boy    | Princess | Dwarf | Giant 
-          | Wizard | Sword  | Poison 
-          deriving (Eq,Show) 
-data RCN  = RCN1 CN That VP | RCN2 CN That NP TV
-          deriving (Eq,Show)
-data That = That deriving (Eq,Show)
-data REFL = Self deriving (Eq,Show)
-
-data VP   = Laughed | Cheered | Shuddered 
-          | VP1 TV NP    | VP2 TV REFL 
-          | VP3 DV NP NP | VP4 DV REFL NP 
-          | VP5 AUX INF  
-          deriving (Eq,Show) 
-data TV   = Loved   | Admired | Helped | Defeated
-          deriving (Eq,Show)
-data DV   = Gave deriving (Eq,Show)
-
-data AUX  = DidNot deriving (Eq,Show) 
-
-data INF  = Laugh | Cheer  | Shudder 
-          | INF1  TINF NP  | INF2  DINF NP NP 
-          deriving (Eq,Show) 
-data TINF = Love  | Admire | Help | Defeat 
-          deriving (Eq,Show) 
-data DINF = Give deriving (Eq,Show) 
-
-ex1  = Sent Dorothy Cheered
-ex2  = Sent Dorothy Laughed
-ex3  = Sent Dorothy (VP5 DidNot Laugh)
-ex4  = Txt  (Sent Dorothy Cheered)
-            (Sent LittleMook Cheered)
-ex5  = Txt  (Sent Dorothy Cheered)
-            (Sent (PRO 1) (VP1 Admired (NP1 Some Girl)))
-ex6  = Sent (NP1 Some Boy) (VP1 Loved (NP1 Some Princess))
-ex7  = Sent (NP1 Some Boy) (VP1 Loved (NP1 The Princess))
-
-ex8  = Sent (NP1 Some Boy) (VP1 Defeated (NP1 No Giant))
-ex9  = Sent (NP1 The  Boy) (VP1 Defeated (NP1 No Giant))
-ex10 = Sent (NP1 Some Boy) (VP1 Loved (NP1 The Princess))
-
-ex11 = Sent (NP1 No   Boy) (VP1 Loved Goldilocks)
-ex12 = Sent (NP1 Some Boy) (VP1 Loved SnowWhite)
-ex13 = Sent LittleMook (VP1 Loved    (NP1 Some Princess))
-ex14 = Sent LittleMook (VP1 Defeated (NP2 Some (RCN1 Giant 
-                                That (VP1 Loved Alice))))
-ex15 = Sent (NP1 No Wizard) (VP1 Loved Dorothy)
-ex16 = Sent (NP2 No (RCN1 Giant That 
-                    (VP1 Defeated LittleMook))) 
-            (VP1 Loved Dorothy)
-ex17 = Sent (NP2 Some(RCN1 Princess That 
-                     (VP1 Admired LittleMook))) 
-            (VP1 Loved Dorothy)
-ex19 = Sent (PRO 2) (VP1 Loved   (PRO 1))
-ex20 = Sent (PRO 2) (VP1 Admired (PRO 1))
-ex18 = Sent (NP1 The  Boy)  (VP1 Loved SnowWhite)
-ex21 = Sent (NP1 Some Girl) (VP2 Admired Self)
-ex22 = Sent (NP1 No   Boy)  (VP2 Admired Self)
 
 data Constraint = C1 VP Idx 
                 | C2 TV Idx Idx 
@@ -248,13 +218,13 @@ blowupDV = \ dv pred subj iobj dobj c b ->
 resolveMASC :: Context -> [Idx]
 resolveMASC (c,co)  = resolveMASC c where
   resolveMASC []                     = [] 
-  resolveMASC ((i,x):xs) | male x    = i : resolveMASC xs
+  resolveMASC ((i,x):xs) | predid1 "male" x    = i : resolveMASC xs
                           | otherwise = resolveMASC xs
 
 resolveFEM :: Context -> [Idx]
 resolveFEM (c,co)  = resolveFEM c where
   resolveFEM []                     = [] 
-  resolveFEM ((i,x):xs) | female x  = i : resolveFEM xs
+  resolveFEM ((i,x):xs) | predid1 "female" x  = i : resolveFEM xs
                          | otherwise = resolveFEM xs
 
 resolveNEU :: Context -> [Idx]
@@ -283,116 +253,104 @@ nonCoref2 = \ p i j k c b -> if   i /= j && j /= k && i /= k
                              then (p i j k c b) 
                              else []
 
-intS :: ParseTree Cat Cat -> Trans
-intS (Branch (Cat "_" S _ _) [ np,vp]) = (intNP np) (intVP vp)
+ided :: String -> Entity
+ided name = maybe undefined id $ lookup name characters
+
+type Sent = ParseTree Cat Cat
+intS :: Sent -> Trans
+intS (Branch (Cat "_" "S" _ _) [ np,vp]) = (intNP np) (intVP vp)
 intS (Branch (Cat _ "YN" _ _) [Leaf (Cat _ "AUX" _ _),s] ) =
 	intS s
-intS (If   s1 s2) = (intS s1) `impl` (intS s2)
-intS (Txt  s1 s2) = (intS s1) `conj` (intS s2)
-intS (Branch (Cat _ "S" _ _) [np,vp]) =
-  (intNP np) (intVP vp)
+--intS (If   s1 s2) = (intS s1) `impl` (intS s2)
+--intS (Branch (Cat _ "S" _ _) [s1,conj, s2])
+--	= (intS s1) `conj` (intS s2)
+intS (Branch (Cat _ "S" _ _) [np,vp]) = (intNP np) (intVP vp)
 
+type NP = ParseTree Cat Cat
 intNP :: NP -> (Idx -> Trans) -> Trans
-intNP SnowWhite  = \p c -> 
-                    let (i,c') = resolveNAME snowWhite c
+intNP (Leaf (Cat "he"  "NP" [Pers,Thrd,Sg,Nom,Masc]  []))
+	= \p c b -> concat [p i c b | i <- resolveMASC c]
+--intNP She = \p c b -> concat [p i c b | i <- resolveFEM  c]
+intNP (Leaf (Cat "it"  "NP" [Pers,Thrd,Sg,Neutr]     []))
+	= \p c b -> concat [p i c b | i <- resolveNEU  c]
+intNP (Leaf (Cat name "NP" _ _))  = \p c -> 
+                    let (i,c') = resolveNAME entity c
                     in  p i c'
-intNP Alice      = \p c -> 
-                    let (i,c') = resolveNAME alice c
-                    in  p i c'
-intNP Dorothy    = \p c -> 
-                   let (i,c') = resolveNAME dorothy c
-                   in  p i c'
-intNP Goldilocks = \p c -> 
-                   let (i,c') = resolveNAME goldilocks c
-                   in  p i c'
-intNP LittleMook = \p c -> 
-                   let (i,c') = resolveNAME littleMook c
-                   in  p i c'
+		    where entity = ided name
+-- intNP (PRO i)       = \ p c ->  p i c 
+intNP (Branch (Cat _ "NP" _ _) [det,cn]) = (intDET det) (intCN cn) 
 
-intNP He  = \p c b -> concat [p i c b | i <- resolveMASC c]
-intNP She = \p c b -> concat [p i c b | i <- resolveFEM  c]
-intNP It  = \p c b -> concat [p i c b | i <- resolveNEU  c]
-intNP (PRO i)       = \ p c ->  p i c 
-intNP (NP1 det cn)  = (intDET det) (intCN cn) 
-intNP (NP2 det rcn) = (intDET det) (intRCN rcn)
-
+type VP = ParseTree Cat Cat
 intVP :: VP -> Idx -> Trans
-intVP (VP1 tv np)      = \ s -> intNP  np (\ o -> 
-                         nonCoref (intTV tv) s o) 
-intVP (VP2 tv refl)    = self (intTV tv)
-intVP (VP3 dv np1 np2) = \ s -> intNP np1 (\ io -> 
-                                intNP np2 (\ o  -> 
+intVP tv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1])
+	= \ s -> intNP  obj1 (\ o -> nonCoref (intTV tv) s o) 
+-- intVP (VP2 tv refl)    = self (intTV tv)
+intVP dv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),obj1,obj2])
+	= \ s -> intNP obj1 (\ io -> intNP obj2 (\ o  -> 
                          nonCoref2 (intDV dv) s io o))
-intVP (VP4 dv refl np) = self (\ s io -> intNP np (\ o -> 
-                                         intDV dv s io o))
-intVP (VP5 _not inf)   = \ s -> neg (intINF inf s)
+--intVP (VP4 dv refl np) = self (\ s io -> intNP np (\ o -> 
+--                                         intDV dv s io o))
+--intVP (VP5 _not inf)   = \ s -> neg (intINF inf s)
 
-intVP Laughed   = blowupVP Laughed   laugh
-intVP Cheered   = blowupVP Cheered   cheer 
-intVP Shuddered = blowupVP Shuddered shudder 
+intVP iv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [])]) =
+	blowupVP iv pred
+	where pred = predid1 name
 
+type TV = ParseTree Cat Cat
 intTV :: TV -> Idx -> Idx -> Trans
-intTV Loved    = blowupTV Loved    love 
-intTV Admired  = blowupTV Admired  admire 
-intTV Helped   = blowupTV Helped   help 
-intTV Defeated = blowupTV Defeated defeat 
+intTV tv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1])
+	= blowupTV tv pred
+	where pred = predid2 name
 
+type DV = ParseTree Cat Cat
 intDV :: DV -> Idx -> Idx -> Idx -> Trans
-intDV Gave     = blowupDV Gave     give
+intDV dv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),obj1,obj2])
+	= blowupDV dv pred
+	where pred = predid3 name
 
-intINF :: INF -> Idx -> Trans
-intINF Laugh               = intVP Laughed
-intINF Cheer               = intVP Cheered
-intINF Shudder             = intVP Shuddered 
-intINF (INF1 tinf np)      = \ s -> intNP np  (\ o -> 
-                                    intTINF tinf s o)
-intINF (INF2 dinf np1 np2) = \ s -> intNP np1 (\ io -> 
-                                    intNP np2 (\ o  -> 
-                                    intDINF dinf s io o))
+--intINF :: INF -> Idx -> Trans
+--intINF Laugh               = intVP Laughed
+--intINF Cheer               = intVP Cheered
+--intINF Shudder             = intVP Shuddered 
+--intINF (INF1 tinf np)      = \ s -> intNP np  (\ o -> 
+--                                    intTINF tinf s o)
+--intINF (INF2 dinf np1 np2) = \ s -> intNP np1 (\ io -> 
+--                                    intNP np2 (\ o  -> 
+--                                    intDINF dinf s io o))
+--
+--intTINF :: TINF -> Idx -> Idx -> Trans
+--intTINF Love   = intTV Loved
+--intTINF Admire = intTV Admired
+--intTINF Help   = intTV Helped
+--intTINF Defeat = intTV Defeated
+--
+--intDINF :: DINF -> Idx -> Idx -> Idx -> Trans
+--intDINF Give   = intDV Gave
 
-intTINF :: TINF -> Idx -> Idx -> Trans
-intTINF Love   = intTV Loved
-intTINF Admire = intTV Admired
-intTINF Help   = intTV Helped
-intTINF Defeat = intTV Defeated
-
-intDINF :: DINF -> Idx -> Idx -> Idx -> Trans
-intDINF Give   = intDV Gave
-
+type CN = ParseTree Cat Cat
 intCN :: CN -> Idx -> Trans
-intCN Girl     = blowupPred girl 
-intCN Boy      = blowupPred boy
-intCN Princess = blowupPred princess
-intCN Dwarf    = blowupPred dwarf
-intCN Giant    = blowupPred giant
-intCN Wizard   = blowupPred wizard
-intCN Sword    = blowupPred sword
+intCN (Leaf   (Cat name "CN" _ _))     = blowupPred (predid1 name)
 
 unique :: Idx -> Trans -> Trans
 unique i phi c b = 
  if b == singleton xs then [c] else [] 
    where xs = [ x | x <- entities, success (extend c x) phi ]
 
+type DET = ParseTree Cat Cat
 intDET :: DET -> (Idx -> Trans) 
               -> (Idx -> Trans) -> Trans
-intDET Some  = \ phi psi c -> let i = size c in 
+intDET (Leaf (Cat "some" "DET" _ _))	= \ phi psi c -> let i = size c in 
                 (exists `conj` (phi i) `conj` (psi i)) c
-intDET Every = \ phi psi c -> let i = size c in 
+intDET (Leaf (Cat "every" "DET" _ _))	= \ phi psi c -> let i = size c in 
                (impl (exists `conj` (phi i)) 
                       (psi i)) c
-intDET No    = \ phi psi c -> let i = size c in 
+intDET (Leaf (Cat "no" "DET" _ _))    = \ phi psi c -> let i = size c in 
                (impl (exists `conj` (phi i)) 
                       (neg (psi i))) c
-intDET The   = \ phi psi c -> let i = size c in 
+intDET (Leaf (Cat "the" "DET" _ _)) = \ phi psi c -> let i = size c in 
                (conj (unique i (phi i)) 
                        exists `conj` (phi i) 
                                `conj` (psi i)) c
-
-intRCN :: RCN -> Idx -> Trans
-intRCN (RCN1 cn _ vp)    = \i -> conj (intCN cn i) 
-                                       (intVP vp i)
-intRCN (RCN2 cn _ np tv) = \i -> conj (intCN cn i) 
-                             (intNP np (intTV tv i))
 
 convert :: [Entity] -> Context
 convert c = (convert' c (length c - 1),[]) 
@@ -405,44 +363,4 @@ eval s = intS s (convert context) True
 evalFresh :: Sent -> Prop
 evalFresh s = intS s ([],[]) True
 
-nex1 = Sent He (VP1 Admired (NP1 Some Girl))
-
-nex2 = Sent (NP1 Some Dwarf) (VP1 Defeated (NP1 The Giant))
-
-nex2a = Sent (NP1 Some Dwarf) (VP1 Defeated (NP1 The Giant)) 
-        `Txt` (Sent He Cheered)
-
-nex2b = Sent (NP1 Some Dwarf) (VP1 Defeated (NP1 The Giant)) 
-        `Txt` (Sent He (VP5 DidNot Cheer))
-
-nex3 = (Sent LittleMook Cheered) `Txt` 
-       (Sent He (VP1 Admired (NP1 Some Girl)))
-
-nex4 = Txt (Sent (NP1 Some Dwarf) (VP5 DidNot Shudder))
-           (Sent He (VP1 Defeated (NP1 Some Giant)))
-
-nex5 = (Sent LittleMook (VP5 DidNot (INF1 Admire Dorothy)))
-       `Txt` (Sent He Cheered)
-
-nex6 = Txt (Sent (NP1 Some Dwarf) 
-                 (VP5 DidNot (INF1 Admire Dorothy)))
-           (Sent He (VP5 DidNot Cheer))
-
-nex7 = Sent (NP1 Some Giant) 
-            (VP5 DidNot (INF1 Admire (NP1 Some Princess)))
-
-nex8  = (Sent (NP1 The Princess) (VP1 Defeated (NP1 The Giant))) 
-        `Txt` (Sent She (VP1 Admired He))
-nex9  = Sent He (VP1 Loved He)
-nex10 = Sent He (VP2 Admired Self)
-nex11 = Sent He (VP1 Admired He)
-nex12 = Sent (NP1 The Giant ) (VP2 Admired Self)
-nex13 = Txt (Sent (NP1 The Princess ) (VP2 Admired Self)) 
-            (Sent She (VP1 Loved (NP1 The Giant)))
-nex14 = Txt (Sent (NP1 Some Boy) (VP2 Admired Self))
-            (Sent (NP1 Some Princess) (VP1 Loved He))
-nex15 = If  (Sent (NP1 Some Boy) (VP2 Admired Self))
-            (Sent (NP1 Some Giant) (VP1 Loved He))
-nex16 = Txt (Sent (NP1 No Girl) (VP1 Helped LittleMook))
-            (Sent (NP1 Some Princess) (VP1 Loved He))
-
+-- vim: set ts=8 sts=4 sw=4 noet:
