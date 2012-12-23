@@ -151,7 +151,9 @@ preproc ("a":"good":"price":xs)	= "a_good_price" : preproc xs
 
 preproc ("alex":"tew":xs)	= "alex_tew" : preproc xs
 preproc ("the":"million":"dollar":"homepage":xs)	= "the_million_dollar_homepage" : preproc xs
+preproc ("the":"one":"million":"people":"page":xs)	= "the_one_million_people_page" : preproc xs
 preproc ("mark":"zuckerberg":xs)	= "mark_zuckerberg" : preproc xs
+preproc ("set":"up":xs)	= "set_up" : preproc xs
 
 preproc ("one":"month":xs)	= "one_month" : preproc xs
 preproc ("two":"months":xs)	= "two_months" : preproc xs
