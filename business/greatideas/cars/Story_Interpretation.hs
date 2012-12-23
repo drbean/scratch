@@ -3,8 +3,14 @@ module Story_Interpretation where
 import Model
 
 objects = [
-	-- ( "oranges",	\[x] -> oranges x	)
-	-- , ( "website",	\[x] -> website x	)
+
+	( "man",	\ [x] -> isMan x	),
+	( "woman",	\ [x] -> isWoman x	),
+	( "boy",	\ [x] -> boy x	),
+	( "girl",	\ [x] -> isGirl x	),
+	( "person",	\ [x] -> person x	),
+	( "thing",	\ [x] -> thing x	)
+
 	 ( "entrance_fee",	\[x] -> entrance_fee x	)
 	 , ( "visitors",	\[x] -> visitors x	)
 	 , ( "cars",	\[x] -> cars x	)
