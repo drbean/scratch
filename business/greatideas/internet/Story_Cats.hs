@@ -8,7 +8,7 @@ names = [
 	[Cat "alex_tew" "NP" [Thrd,Masc,Sg] []]
 	, [Cat "mark_zuckerberg" "NP" [Thrd,Masc,Sg] []]
 	, [Cat "the_million_dollar_homepage" "NP" [Thrd,Neutr,Sg] []]
-	, [Cat "the_million_people_page"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "the_one_million_people_page"	"NP" [Thrd,Neutr,Sg] []]
 	, [Cat "facebook"	"NP" [Thrd,Neutr,Sg] []]
 	]
 
