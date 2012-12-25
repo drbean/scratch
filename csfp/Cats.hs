@@ -124,6 +124,7 @@ intransitives = [
 	]
 
 transitives = [
+	[Cat "made" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "make" "VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "wanted" "VP" [Tense] [Cat "_" "INF" [To] []],
 		Cat "wanted" "VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
