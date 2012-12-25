@@ -280,6 +280,10 @@ intNP (Leaf (Cat name "NP" _ _))  = \p c ->
 -- intNP (PRO i)       = \ p c ->  p i c 
 intNP (Branch (Cat _ "NP" _ _) [det,cn]) = (intDET det) (intCN cn) 
 
+type PP = ParseTree Cat Cat
+intPP :: PP -> (Idx -> Trans) -> Trans
+intPP pp@(Branch (Cat _   "PP" _ _) [prep,np]) = intNP np
+
 type VP = ParseTree Cat Cat
 intVP :: VP -> Idx -> Trans
 intVP tv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1])
