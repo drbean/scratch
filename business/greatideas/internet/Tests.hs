@@ -1,6 +1,6 @@
 module Tests where
 
-import LogicalForm
+import Evaluation
 import Parsing
 
 --all_tests =
@@ -101,10 +101,10 @@ import Parsing
 comp_test1 = [
 	"The experiment was successful."
 	, "Was the experiment successful?"
-	, "Pepsi was successful."
-	, "Was Pepsi successful?"
-	, "Was the Punjabi government successful?"
-	, "The Punjabi government was successful."
+	, "the Million Dollar Homepage was successful."
+	, "Was the Million Dollar Homepage successful?"
+	, "Was the One Million People Page successful?"
+	, "The One Million People Page was successful."
 --	"Barbara was aggressive.",
 --	"Barbara was a sales representative.",
 --	"Barbara was Eva's co-worker.",
@@ -291,14 +291,12 @@ haves = [
 	]
 
 knows = [
-	"Did Pepsi know the Punjabi government?",
-	"Did people know the Punjabi government?",
-	"The Punjabi government knew about Pepsi.",
-	"Did the Punjabi government know about Pepsi?",
-	"Did people know about the Punjabi government?",
-	"Did Punjabi farmers know about Pepsi?",
-	"Did the woman know Pepsi?",
-	"Did the woman know about Pepsi?"
+	"Alex Tew knew Mark Zuckerberg?",
+	"Did people know Mark Zuckerberg?",
+	"The One Million People Page knew about Alex Tew.",
+	"Did Mark Zuckerberg know about Alex Tew?",
+	"Did people know about Mark Zuckerberg?",
+	"Did Facebook know about Alex Tew?"
 	]
 
 likes = [
@@ -600,23 +598,4 @@ to_inf_test_wh = [
 	, "Who wanted to buy a car?"
 	]
 
-
-lf0 = Rel "worked" [ Const(ents!!17) ]
-lf00 = (Conj [(Rel "person" [Var 0]), (Rel "worked" [Var 0]) ] ) 
--- lf000 = (Exists (Conj [(Rel "person" [Var 0]), (Rel "worked" [Var 0]) ] )) (Const(ents)!!17)
-
-lf1 = (Equi  (Rel "married" [ Const(ents!!9), Const(ents!!1) ]) (Neg (Rel "married" [ Const(ents!!8), Const(ents!!17)]) ) )
-
-lf2 = (Conj [ (Rel "married" [ Const (ents !! 9), Const       (ents !! 1)]), (Rel "married" [ Const (ents !! 8), Const (ents !!   17)]) ] )
-
-lf3 = Rel "married" [ Const (ents !! 8), Const (ents !! 17)]
-lf4 = (Impl  (Rel "married" [ Const (ents !! 9), Const        (ents !! 1)]) (Rel "married" [ Const (ents !! 8), Const (ents !!    17)])  )
-lf5 = (Conj [ (Rel "married" [ Const (ents !! 9), Const       (ents !! 1)]), (Rel "married" [ Const (ents !! 8), Const (ents !!   17)]) ] )
-lf6 = (Disj [ (Rel "married" [ Const (ents !! 9), Const       (ents !! 1)]), (Rel "married" [ Const (ents !! 8), Const (ents !!   17)]) ] )
-
-lf70 = ( \x -> ( Conj [ (Rel "boss" [x]), (Rel "have" [x, Const (ents !! 8)]) ] ) ) (Const (ents !! 12) )
-lf71 = ( \x -> ( Conj [ (Rel "boss" [x]), (Rel "have" [x, Const (ents !! 17)]) ] ) ) (Const (ents !! 12) )
-lf72 = ( \x -> ( Conj [ (Rel "boss" [x]), (Rel "have" [x, Const (ents !! 17)]) ] ) ) (Const (ents !! 12) )
-lf73 = \x -> Conj [ (Rel "boss" [x]), (Rel "have" [x, Const (ents !! 17)]) ]
-lf74 = ( \x -> ( Conj [ (Rel "boss" [x]), (Rel "have" [x, Const (ents !! 17)]) ] ) )
-lf75 = \x -> Impl (Rel "boss" [x]) (Rel "have" [x, Const (ents !! 17)])
+-- vim: set ts=8 sts=4 sw=4 noet:
