@@ -40,14 +40,24 @@ names = map swap characters
 predid1 :: String -> OnePlacePred
 predid2 :: String -> TwoPlacePred
 predid3 :: String -> ThreePlacePred
-predid1 name = maybe undefined id $ lookup name onePlacers
-predid2 name = maybe undefined id $ lookup name twoPlacers
-predid3 name = maybe undefined id $ lookup name threePlacers
+predid1 name = lookupPred name onePlacers where
+	lookupPred n []	= error $ "no \"" ++ name ++ "\" one-place predicate."
+	lookupPred n ((name,pred):is) | n == name	= pred
+	lookupPred n (i:is) = lookupPred name is
+predid2 name = lookupPred name twoPlacers where
+	lookupPred n []	= error $ "no \"" ++ name ++ "\" two-place predicate."
+	lookupPred n ((name,pred):is) | n == name	= pred
+	lookupPred n (i:is) = lookupPred name is
+predid3 name = lookupPred name threePlacers where
+	lookupPred n []	= error $ "no \"" ++ name ++ "\" three-place predicate."
+	lookupPred n ((name,pred):is) | n == name	= pred
+	lookupPred n (i:is) = lookupPred name is
 
 onePlacers = [
 	("male",	pred1 [A,M])
 	, ("female",	pred1 [])
-	, ("role",	pred1 [])
+	, ("manager",	pred1 [A,M])
+	, ("role",	pred1 [AM])
 
 	, ("money",	pred1 [M])
 	, ("good_idea",	pred1 [I])
@@ -93,8 +103,8 @@ pred5 xs	= curry5 ( `elem` xs )
 twoPlacers = [
 	("know",	pred2 $ acquainted ++ map swap acquainted)
 	, ("have",	pred2 $ possessions ++ management ++ family ++ patronage)
-	, ("help",	pred2 [(AG,AF)])
-	, ("make",	pred2 [(A,H),(M,F)])
+	, ("help",	pred2 [])
+	, ("make",	pred2 [(A,H),(A,P),(M,F)])
 	, ("said",	pred2 $ map (\x->(agent x, theme x) ) comms)
 	, ("asked",	pred2 $ map (\x->(agent x, recipient x) ) comms)
 	, ("talk_with_or_about",	pred2 $ map (\x->(agent x, recipient x) ) comms
@@ -107,12 +117,12 @@ twoPlacers = [
 threePlacers = [
 	("finish",	pred3 [])
 	, ("buy",	pred3 $ map (\x -> (agent4 x, theme4 x, provider4 x) ) purchases)
-	, ("sell",	pred3 [(AF,O,P)])
-	, ("wanted_to_help",	pred3 [(AG,AG,AF)])
-	, ("helped_to_make",	pred3 [(AG,AF,M)])
+	, ("sell",	pred3 [])
+	, ("wanted_to_help",	pred3 [])
+	, ("helped_to_make",	pred3 [])
 	, ("wanted_to_pay",	pred3 [])
 	, ("have_to_pay",	pred3 [])
-	, ("offered_to_buy",	pred3 [(P,P,O)])
+	, ("offered_to_buy",	pred3 [])
 	, ("gave",	pred3 giving)
 	, ("got",	pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving)
 	, ("ask_about",	pred3 $ map (\x->(agent x, recipient x, theme x) ) comms)
@@ -123,9 +133,9 @@ threePlacers = [
 
 family	= []
 patronage	= []
-acquainted	= [(P,O),(P,AG),(AF,AG),(P,AF)]
+acquainted	= [(A,H),(A,P),(A,M),(A,F),(M,H),(M,P),(M,A),(M,F)]
 
-purchases	= [(P,O,AF,Unspec)]
+purchases	= []
 pay = pred4 $ map (\x -> (agent4 x, provider4 x, theme4 x, purpose4 x) ) purchases
 
 wanted = predid3 "buy"
@@ -134,13 +144,13 @@ wanted_to_buy	= pred4 $
 	map ( \x -> (agent4 x, agent4 x, theme4 x, provider4 x) ) purchases
 
 wanted_to_sell :: FourPlacePred
-wanted_to_sell	= pred4 [(AF,AF,O,P)]
+wanted_to_sell	= pred4 []
 
 offered_to_buy_from :: FourPlacePred
-offered_to_buy_from	= pred4 [(P,P,O,AF)]
+offered_to_buy_from	= pred4 []
 
-possessions	= [(AF,L)]
-management	= [(AG,L)]
+possessions	= [(A,H),(M,F)]
+management	= [(M,F)]
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
@@ -163,9 +173,9 @@ destination = recipient
 
 worker	= pred1 $ map patient work
 
-giving	= [(AF,L,AG)]
-comms	= [ (P,O,AG),(AG,O,AF),(AG,L,AF) ]
-work	= [ (AF,AF,L)]
+giving	= []
+comms	= [ (A,M,H),(M,A,F) ]
+work	= []
 
 agent4, theme4, recipient4, location4 :: (Entity,Entity,Entity,Entity) -> Entity
 agent4 (a,_,_,_)	= a
