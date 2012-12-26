@@ -189,8 +189,13 @@ topic:
       -
         id: flicker
         title: Flicker introduction
-        blurb: Listen again to the presentation by Hal Bonelli on the Flicker Lighter Company. It is on <a href="http://elearning.nuu.edu.tw">http://elearning.nuu.edu.tw</a>. If you can't find it, email me.
-        comment: Everyone has a different section of the soundfile to transcribe. Don't be confused by the similarity between the name of Bonelli's company and <a href="http://flickr.com">flickr.com</a>. They are completely different companies.
+        blurb: Listen to the presentation by Hal Bonelli on the Flicker Lighter Company. It is on <a href="http://elearning.nuu.edu.tw">http://elearning.nuu.edu.tw</a>. If you can't find it, email me.
+        comment: Everyone has a different section of the soundfile to transcribe. Don't be confused by the similarity between the name of Bonelli's company and <a href="http://flickr.com">flickr.com</a>. They are completely different companies. Flicker is not a real company.
+      -
+        id: tara
+        title: Tara introduction
+        blurb: Listen to the presentation by Marta Rodriguez on the Zara Fashion Company. It is on <a href="http://elearning.nuu.edu.tw">http://elearning.nuu.edu.tw</a>. If you can't find it, email me.
+        comment: Everyone has a different section of the soundfile to transcribe. To avoid legal problems, the people producing this soundfile refer to <a href="http://zara.com">Zara</a> as Tara. They are talking about Zara, but the Zara of some years ago. Now Zara has, not 20 stores, but 1,671 in 88 countries, and a workforce of not 2,000, but 109,512. Of course, the woman speaking is not Personnel Director of Zara.
           
       -
         id: valentino
@@ -207,22 +212,22 @@ topic:
         title: Las Vegas car showroom charges admission fee
         blurb: <a href="http://en.wikipedia.org/wiki/Steve_Wynn_(entrepreneur)">Steve Wynn</a> runs the <a href="http://en.wikipedia.org/wiki/Wynn_Las_Vegas">Wynn Las Vegas Casino Hotel/Resort</a>, a gambling casino hotel. For the people who win a lot of money from him, he has a <a href="http://en.wikipedia.org/wiki/Wynn_Las_Vegas#Penske-Wynn_Ferrari-Maserati_dealership">car showroom</a> that sells expensive cars. There he can get back some of the money that he has lost to them. But people were just coming to look at the cars. That is the problem. What was the good idea? Did it work? What can YOU learn from Wynn's experiment?
         comment: |+
-          <ul>
+          <!-- <ul>
           <li><b>Group 1 students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/greatideas/carsA.mp3">1</a>
           <li><b>Group 2 students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/greatideas/carsB.mp3">2</a>
           <li><b>Group 3 students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/greatideas/carsC.mp3">3</a>
           <li><b>Group 4 students:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/greatideas/carsD.mp3">4</a>
-          </ul>
+          </ul> -->
       -
-        id: citrus1
+        id: citrus
         title: Farmers, Government create market. Pepsi buys their citrus.
         blurb: Punjab farmers and the government were able to develop the Punjab, a farming area in India, by growing citrus. The government takes farmers' land for 4 years and gives farmers 50 percent from sale of the fruit. What do you think? What is the problem that this good idea solves? Did it work? Can the Taiwan citrus industry learn anything from it?
         comment: This week, listen to the whole of the <a href="http://web.nuu.edu.tw/~greg/business/citrus.mp3">sound file</a>, but only transcribe your section.
       -
-        id: internet1
+        id: internet
         title: Money making idea on Internet
-        blurb: Ian Tew made a million dollars by offering advertisers space on his home page. <a href="http://web.nuu.edu.tw/~greg/business/internet1.mp3">Listen</a> how he did it. Look at the site: <a href="http://milliondollarhomepage.com">http://www.milliondollarhomepage.com</a>. Look at his new project: <a href="http://onemillionpeople.com">http://onemillionpeople.com</a>
-        comment: Listen to the whole of the <a href="http://web.nuu.edu.tw/~greg/business/internet1.mp3">sound file</a>, but only transcribe your section. Each person in your group has a separate section to transcribe. 
+        blurb: In 2005, before Internet businesses learned how to promote their sites effectively, Alex Tew made a million dollars by selling small advertising spaces on his home page, <a href="http://milliondollarhomepage.com">http://www.milliondollarhomepage.com</a> to them. None of his great ideas since have been as successful. But listen to him say, <a href="http://www.dormroomtycoon.com/alex-tew-monkey-inferno-interview-why-failure-is-only-feedback-business-interview/">Failing is just feedback about what works and doesn't work</a>. The only real failure is when you give up. Now he is working for another Internet ideas company, but he says he hasn't given up. He still intends to develop great new ideas and to try them out on the Internet</a>. In a second interview, <a href="http://www.youtube.com/watch?v=CUUvIu4WPnM">http://www.youtube.com/watch?v=CUUvIu4WPnM</a>, (<a href="http://web.nuu.edu.tw/~greg/business/alex_tew.mp3">MP3 file</a>), he talks about the success of the Million Dollar HomePage and the power of the Internet.
+        comment: Look out for the difficult vocabulary: <ul><li>cliches (common expressions which have lost their meaning)<li>incubator (a place for babies, eggs or new companies to help them survive) <li>reincarnation (the rebirth of one thing as another different thing)<li>naive (like a child, not understanding the ways of the world)<li>accumulate (to build up a collection of something, eg rubbish, or knowledge)<li>mitigate (to lessen the influence of some bad thing)<li>enhance (to increase the influence of some good thing)<li>have a good radar for something (to be able to find out about something in clever ways).</ul>
   -
     id: stress
     title: Stress
