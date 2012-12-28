@@ -38,20 +38,19 @@ parses str = let ws = lexer str
 
 process string = map (\x -> intS x) (parses string)
 
-type Interp a	= String -> [a] -> Bool
-
 inttuples = objects ++ relations ++ Story.objects ++ Story.relations
 			    ++ Topic.objects ++ Topic.relations
 infltuples = inflections ++ Topic.inflections ++ Story.inflections 
 
+type Interp a	= String -> [a] -> Bool
 int :: Interp Entity
 
 int word = int' word inttuples infltuples where 
-	int' w [] []	= error $ "'" ++ w ++ "'" ++ " has no interpretation"
-	int' w [] ((infl,word):infls) | w == infl	=  int' word inttuples [] 
-	int' w [] (i:is)	= int' w [] is
-	int' w ((word,interpretation):is) infls | w == word	= interpretation
-	int' w (i:is) infls	= int' w is infls
+	int' w [] []	= error $ "'" ++ w ++ "'" ++ " has no interpretation as 1-place predicate."
+	int' w [] ((infl,word):infls)	| w == infl = int' word inttuples [] 
+		  			| otherwise = int' w [] infls
+	int' w ((word,interp):is) infls	| w == word = interp
+					| otherwise = int' w is infls
 
 singleton :: [a] -> Bool
 singleton [x] = True 
@@ -147,56 +146,59 @@ exists = \ c b -> if   b
                    then [ (extend c e) | e <- entities ]
                    else []
 
-blowupPred :: (Entity -> Bool) -> Idx -> Trans
-blowupPred = \ pred i c  b -> 
+blowupPred :: String -> Idx -> Trans
+blowupPred = \ word i c  b -> 
      let 
          e  = lookupIdx c i 
          c' = adjust (i,e) c
+	 pred = int word
      in  
          if  b 
-         then if   pred e 
+         then if   pred [e]
               then [c'] 
               else []
-         else if   pred e 
+         else if   pred [e]
               then [] 
               else [c']
 
-blowupVP :: VP -> OnePlacePred -> Idx -> Trans
-blowupVP = \ vp pred i c b -> 
+blowupVP :: VP -> String -> Idx -> Trans
+blowupVP = \ vp word i c b -> 
          let 
              e        = lookupIdx c i 
              (c',cos) = adjust (i,e) c
              co       = C1 vp i
              co'      = C4 vp i
+             pred = int word
          in  
              if   b 
-             then if   pred e 
+             then if   pred [e]
                   then [(c',co:cos)] 
                   else []
-             else if   pred e 
+             else if   pred [e]
                   then [] 
                   else [(c',co':cos)]
 
-blowupTV :: TV -> TwoPlacePred -> Idx -> Idx -> Trans
-blowupTV = \ tv pred subj obj c b -> 
+blowupTV :: TV -> String -> Idx -> Idx -> Trans
+blowupTV = \ tv word subj obj c b -> 
         let 
             e1       = lookupIdx c subj
             e2       = lookupIdx c obj 
             (c',cos) = adjust (subj,e1) (adjust (obj,e2) c)
             co       = C2 tv subj obj
             co'      = C5 tv subj obj
+            pred = int word
         in  
             if   b 
-            then if   pred e1 e2 
+            then if   pred [e1, e2]
                  then [(c',co:cos)] 
                  else []
-            else if pred e1 e2 
+            else if pred [e1, e2]
                  then [] 
                  else [(c',co':cos)]
 
-blowupDV :: DV  -> ThreePlacePred -> 
+blowupDV :: DV  -> String -> 
             Idx -> Idx -> Idx -> Trans
-blowupDV = \ dv pred subj iobj dobj c b -> 
+blowupDV = \ dv word subj iobj dobj c b -> 
         let 
             e1       = lookupIdx c subj
             e2       = lookupIdx c iobj 
@@ -206,12 +208,13 @@ blowupDV = \ dv pred subj iobj dobj c b ->
                       (adjust (dobj,e3) c))
             co       = C3 dv subj iobj dobj
             co'      = C6 dv subj iobj dobj
+            pred = int word
         in  
             if   b 
-            then if   pred e1 e2 e3 
+            then if   pred [e1, e2, e3]
                  then [(c',co:cos)] 
                  else []
-            else if   pred e1 e2 e3 
+            else if   pred [e1, e2, e3]
                  then [] 
                  else [(c',co':cos)]
 
@@ -242,8 +245,11 @@ resolveNAME x c | i /= -1   = (i,c)
         index x ((i,y):xs,co) | x == y    = i 
                               | otherwise = index x (xs,co)
 
-nonCoref :: (Idx -> Idx -> Trans) -> Idx -> Idx -> Trans
+coref, nonCoref :: (Idx -> Idx -> Trans) -> Idx -> Idx -> Trans
 nonCoref = \ p i j c b -> if   i /= j 
+                          then (p i j c b) 
+                          else []
+coref = \ p i j c b -> if   i == j 
                           then (p i j c b) 
                           else []
 
@@ -254,7 +260,10 @@ nonCoref2 = \ p i j k c b -> if   i /= j && j /= k && i /= k
                              else []
 
 ided :: String -> Entity
-ided name = maybe undefined id $ lookup name characters
+ided name = ided' name characters where
+	ided' name [] = error $ "No \"" ++ name ++ "\" in characters."
+	ided' name ((n,entity):cs) | n == name = entity
+                                   | otherwise = ided' name cs
 
 type Sent = ParseTree Cat Cat
 intS :: Sent -> Trans
@@ -285,9 +294,21 @@ intPP :: PP -> (Idx -> Trans) -> Trans
 intPP pp@(Branch (Cat _   "PP" _ _) [prep,np]) = intNP np
 
 type VP = ParseTree Cat Cat
+
 intVP :: VP -> Idx -> Trans
-intVP tv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1])
-	= \ s -> intNP  obj1 (\ o -> nonCoref (intTV tv) s o) 
+intVP (Branch (Cat _ "VP" _ _) 
+                [Leaf (Cat "did" "AUX" _ []),vp]) = intVP vp 
+intVP (Branch (Cat _ "VP" _ _) 
+                [Leaf (Cat "#" "AUX" _ []),vp]) = intVP vp 
+
+--intVP cop@(Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ _),
+--    Branch (Cat "_" "COMP" [] []) [comp]]) = case (catLabel (t2c comp)) of
+----    	"ADJ" -> \s -> int1 (phon (t2c comp))	
+--	"NP" -> \s -> coref (intNP comp) s
+intVP tv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1]) =
+	case (catLabel ( t2c obj1 )) of
+		"NP" -> \ s -> intNP  obj1 (\ o -> nonCoref (intTV tv) s o) 
+		"PP" -> \ s -> intPP  obj1 (\ o -> nonCoref (intTV tv) s o) 
 -- intVP (VP2 tv refl)    = self (intTV tv)
 intVP dv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),obj1,obj2])
 	= \ s -> intNP obj1 (\ io -> intNP obj2 (\ o  -> 
@@ -297,20 +318,27 @@ intVP dv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),obj1,obj2])
 --intVP (VP5 _not inf)   = \ s -> neg (intINF inf s)
 
 intVP iv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [])]) =
-	blowupVP iv pred
-	where pred = predid1 name
+	blowupVP iv name
+
+--type COP = ParseTree Cat Cat
+--intCOP :: COP -> Idx -> Idx -> Trans
+--intCOP cop@(Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ [_]),comp])
+--	= blowupPred pred where pred = intCOMP comp
+--
+--intCOMP comp = case (catLabel (t2c comp)) of 
+--	"NP" -> intNP comp
+--	-- "ADJ" -> int
+--	"PP" -> intPP comp
 
 type TV = ParseTree Cat Cat
 intTV :: TV -> Idx -> Idx -> Trans
 intTV tv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1])
-	= blowupTV tv pred
-	where pred = predid2 name
+	= blowupTV tv name
 
 type DV = ParseTree Cat Cat
 intDV :: DV -> Idx -> Idx -> Idx -> Trans
 intDV dv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),obj1,obj2])
-	= blowupDV dv pred
-	where pred = predid3 name
+	= blowupDV dv name
 
 --intINF :: INF -> Idx -> Trans
 --intINF Laugh               = intVP Laughed
@@ -333,7 +361,7 @@ intDV dv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),obj1,obj2])
 
 type CN = ParseTree Cat Cat
 intCN :: CN -> Idx -> Trans
-intCN (Leaf   (Cat name "CN" _ _))     = blowupPred (predid1 name)
+intCN (Leaf   (Cat name "CN" _ _))     = blowupPred name
 
 unique :: Idx -> Trans -> Trans
 unique i phi c b = 
@@ -344,6 +372,10 @@ type DET = ParseTree Cat Cat
 intDET :: DET -> (Idx -> Trans) 
               -> (Idx -> Trans) -> Trans
 intDET (Leaf (Cat "some" "DET" _ _))	= \ phi psi c -> let i = size c in 
+                (exists `conj` (phi i) `conj` (psi i)) c
+intDET (Leaf (Cat "a" "DET" _ _))	= \ phi psi c -> let i = size c in 
+                (exists `conj` (phi i) `conj` (psi i)) c
+intDET (Leaf (Cat "zero" "DET" _ _))	= \ phi psi c -> let i = size c in 
                 (exists `conj` (phi i) `conj` (psi i)) c
 intDET (Leaf (Cat "every" "DET" _ _))	= \ phi psi c -> let i = size c in 
                (impl (exists `conj` (phi i)) 
