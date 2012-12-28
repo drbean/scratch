@@ -53,15 +53,21 @@ predid3 name = lookupPred name threePlacers where
 	lookupPred n ((name,pred):is) | n == name	= pred
 	lookupPred n (i:is) = lookupPred name is
 
+onePlacers :: [(String, OnePlacePred)]
 onePlacers = [
 	("male",	pred1 [A,M])
 	, ("female",	pred1 [])
 	, ("manager",	pred1 [A,M])
 	, ("role",	pred1 [AM])
+	, ("person",	person)
+	, ("thing",	thing)
 
+	, ("website",	pred1 [H,P,F])
+	, ("advertising_space",	pred1 [S])
+	, ("advertisers",	pred1 [AA])
 	, ("money",	pred1 [M])
 	, ("good_idea",	pred1 [I])
-	, ("a_good_price",	pred1 [AP])
+	, ("a_good_price",	pred1 [])
 
 	, ("good",	pred1 [AG])
 	, ("bad",	pred1 [AB])
