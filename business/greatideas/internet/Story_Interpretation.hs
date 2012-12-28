@@ -2,12 +2,16 @@ module Story_Interpretation where
 
 import Model
 
+objects :: [(String, [Entity] -> (Integer -> Entity -> OnePlacePred))]
+
 objects = [
 
 
-	 ( "experiment",	\[x] -> predid1 "experiment" x	)
-	 , ( "good_idea",	\[x] -> predid1 "good_idea" x	)
-	 , ( "a_good_price",	\[x] -> predid1 "a_good_price" x	)
+	 ( "experiment",	\n e -> case n of 1 -> predid1 "experiment" e	)
+	 , ( "good_idea",	\n e -> case n of 1 -> predid1 "good_idea" e	)
+	 , ( "a_good_price",	\n e -> case n of 1 -> predid1 "a_good_price" e	)
+	 , ( "advertisers",	\n e -> case n of 1 -> predid1 "advertisers" e	)
+	 , ( "advertising_space",	\n e -> predid1 "advertising_space" e	)
 
 
 	]
