@@ -99,56 +99,55 @@ import Parsing
 --	]
 
 comp_test1 = [
-	"The experiment was successful."
+	"A person was Alex Tew."
+	, "Alex Tew was a person."
+	, "Alex Tew was a manager."
+	, "Alex Tew was the Million Dollar Homepage."
+	, "Alex Tew was the Million Dollar Homepage's manager."
+	, "Alex Tew was a successful person."
+	, "Alex Tew was a person."
+	, "Alex Tew was a thing."
+	, "The experiment was successful."
 	, "Was the experiment successful?"
-	, "the Million Dollar Homepage was successful."
+	, "The Million Dollar Homepage was successful."
 	, "Was the Million Dollar Homepage successful?"
 	, "Was the One Million People Page successful?"
 	, "The One Million People Page was successful."
---	"Barbara was aggressive.",
---	"Barbara was a sales representative.",
---	"Barbara was Eva's co-worker.",
---	"Barbara was a successful woman.",
---	"Barbara was a man.",
---	"Barbara was a woman.",
---	"Barbara was a sales manager",
---	"A man was Tadeusz.",
---	"A woman was Eva.",
---	"The woman was Eva.",
---	"Barbara was a German woman.",
---	"Barbara was the German woman.",
---	"A German woman was Barbara.",
---	"A ambitious woman was Barbara.",
---	"The ambitious woman was Barbara.",
---	"The German woman was Barbara.",
---	-- "The successful German woman was Barbara.",
---	-- "Barbara was the successful German woman.",
---	"Dr Bean was the German woman's co-worker.",
---	"Dr Bean was the German woman's boss.",
---	"Dr Bean was a German woman's boss.",
---	"Dr Bean was an ambitious woman's boss.",
---	"Dr Bean was an ambitious woman's co-worker.",
---	"Dr Bean was the ambitious women's co-worker.",
---	"Eva was the ambitious women's co-worker.",
---	"Eva was an ambitious woman's co-worker.",
---	"Eva was the German woman's co-worker.",
---	"Eva was a German woman's co-worker.",
---	"Eva was Barbara's co-worker.",
---	"Dr Bean was Barbara's co-worker.",
---	"Dr Bean was Tadeusz's co-worker.",
---	"Dr Bean was Barbara's boss.",
---	"Dr Bean was Eva's boss.",
---	"Barbara was Eva's boss.",
---	"Barbara was Eva's co-worker.",
---	"Barbara was Dr Bean's co-worker.",
---	"Some women were ambitious.",
---	"Dr Bean was a co-worker and Eva was a co-worker.",
---	"Dr Bean was a woman and Eva was a woman",
---	"Some co-workers were women.",
---	"Some women were co-workers.",
---	"All co-workers were women.",
---	"All women were co-workers.",
---	"All ambitious women were successful."
+	, "A man was Tadeusz."
+	, "A woman was the Million Dollar Homepage."
+	, "The woman was the Million Dollar Homepage."
+	, "Alex Tew was a German woman."
+	, "Alex Tew was Alex Tew."
+	, "A German woman was Alex Tew."
+	, "A ambitious woman was Alex Tew."
+	, "The ambitious woman was Alex Tew."
+	, "The German woman was Alex Tew."
+	, "Mark Zuckerberg was Alex Tew's co-worker."
+	, "Mark Zuckerberg was Alex Tew's boss."
+	, "Mark Zuckerberg was a German woman's boss."
+	, "Mark Zuckerberg was an ambitious woman's boss."
+	, "Mark Zuckerberg was an ambitious woman's co-worker."
+	, "Mark Zuckerberg was the ambitious women's co-worker."
+	, "the Million Dollar Homepage was the ambitious women's co-worker."
+	, "the Million Dollar Homepage was an ambitious woman's co-worker."
+	, "the Million Dollar Homepage was Alex Tew's co-worker."
+	, "the Million Dollar Homepage was a German woman's co-worker."
+	, "the Million Dollar Homepage was Alex Tew's co-worker."
+	, "Mark Zuckerberg was Alex Tew's co-worker."
+	, "Mark Zuckerberg was Tadeusz's co-worker."
+	, "Mark Zuckerberg was Alex Tew's boss."
+	, "Mark Zuckerberg was the Million Dollar Homepage's boss."
+	, "Alex Tew was the Million Dollar Homepage's boss."
+	, "Alex Tew was the Million Dollar Homepage's co-worker."
+	, "Alex Tew was Mark Zuckerberg's co-worker."
+	, "Some women were ambitious."
+	, "Mark Zuckerberg was a co-worker and the Million Dollar Homepage was a co-worker."
+	, "Mark Zuckerberg was a woman and the Million Dollar Homepage was a woman"
+	, "Some co-workers were women."
+	, "Some women were co-workers."
+	, "All co-workers were women."
+	, "All women were co-workers."
+	, "All ambitious women were successful."
 	]
 
 --comp_test2 = [
@@ -246,16 +245,16 @@ wants = [
 	]
 
 buys_sells = [
-	"Did Pepsi buy?"
-	, "Did Pepsi buy from Punjabi farmers?"
-	, "Did Pepsi buy oranges?"
-	, "Did Pepsi buy oranges from Punjabi farmers?"
-	, "Did Pepsi want to buy from Punjabi farmers?"
-	, "Pepsi wanted to buy from Punjabi farmers?"
-	, "Pepsi wanted to buy oranges from Punjabi farmers?"
-	, "Did Punjabi farmers sell to Pepsi?"
-	, "Did Punjabi farmers sell oranges?"
-	, "Did Punjabi farmers sell oranges to Pepsi?"
+	"Did advertisers buy?"
+	, "Did advertisers buy from Alex Tew?"
+	, "Did advertisers buy advertising space?"
+	, "Did advertisers buy advertising space from Alex Tew?"
+	, "Did advertisers want to buy from Alex Tew?"
+	, "Advertisers wanted to buy from Alex Tew?"
+	, "Advertisers wanted to buy advertising space from Alex Tew on the Million Dollar Homepage."
+	, "Did Alex Tew sell to advertisers?"
+	, "Did Alex Tew sell advertising space?"
+	, "Did Alex Tew sell advertising space to advertisers?"
 	]
 
 grows = [
@@ -291,12 +290,13 @@ haves = [
 	]
 
 knows = [
-	"Alex Tew knew Mark Zuckerberg?",
-	"Did people know Mark Zuckerberg?",
-	"The One Million People Page knew about Alex Tew.",
-	"Did Mark Zuckerberg know about Alex Tew?",
-	"Did people know about Mark Zuckerberg?",
-	"Did Facebook know about Alex Tew?"
+	"Alex Tew knew Mark Zuckerberg?"
+	, "Mark Zuckerberg knew about Alex Tew."
+	, "The One Million People Page knew about Alex Tew."
+	, "Did Facebook know about Alex Tew?"
+	, "Did people know Mark Zuckerberg?"
+	, "Did people know about Mark Zuckerberg?"
+	, "Did a manager know about Mark Zuckerberg?"
 	]
 
 likes = [
