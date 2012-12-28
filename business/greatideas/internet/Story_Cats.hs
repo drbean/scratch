@@ -16,6 +16,8 @@ nouns = [
 	 [Cat "experiment"	"CN" [Thrd,Neutr,Sg] []]
 	 , [Cat "good_idea"	"CN" [Thrd,Neutr,Sg] []]
 	 , [Cat "a_good_price"	"NP" [Thrd,Neutr,Sg] []]
+	 , [Cat "advertisers"	"NP" [Thrd,MascOrFem,Pl] []]
+	 , [Cat "advertising_space"	"NP" [Thrd,Neutr,Sg] []]
 	]
 
 verbs = [
