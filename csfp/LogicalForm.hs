@@ -372,6 +372,10 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_,_]),obj1,obj2,obj3]
 
 transVP (Branch (Cat _ "AT" _ _)
     [Leaf (Cat att "VP" _ _), Leaf (Cat "to" "TO" [ToInf] []),
+       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _)])]) =
+	    (\subj -> Rel (att++"_to_"++act) [subj,subj] )
+transVP (Branch (Cat _ "AT" _ _)
+    [Leaf (Cat att "VP" _ _), Leaf (Cat "to" "TO" [ToInf] []),
        (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj])]) =
 	   case(catLabel (t2c obj)) of
 	"NP" ->
