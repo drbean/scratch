@@ -219,22 +219,28 @@ blowupDV = \ dv word subj iobj dobj c b ->
                  else [(c',co':cos)]
 
 resolveMASC :: Context -> [Idx]
-resolveMASC (c,co)  = resolveMASC c where
-  resolveMASC []                     = [] 
-  resolveMASC ((i,x):xs) | predid1 "male" x    = i : resolveMASC xs
-                          | otherwise = resolveMASC xs
+resolveMASC (c,co)  = resolveMASC' c where
+  resolveMASC' []                     = [] 
+  resolveMASC' ((i,x):xs) | predid1 "male" x    = i : resolveMASC' xs
+                          | otherwise = resolveMASC' xs
 
-resolveFEM :: Context -> [Idx]
-resolveFEM (c,co)  = resolveFEM c where
-  resolveFEM []                     = [] 
-  resolveFEM ((i,x):xs) | predid1 "female" x  = i : resolveFEM xs
-                         | otherwise = resolveFEM xs
+--resolveFEM :: Context -> [Idx]
+--resolveFEM' (c,co)  = resolveFEM' c where
+--  resolveFEM' []                     = [] 
+--  resolveFEM' ((i,x):xs) | predid1 "female" x  = i : resolveFEM' xs
+--                         | otherwise = resolveFEM' xs
 
 resolveNEU :: Context -> [Idx]
-resolveNEU (c,co)  = resolveNEU c where
-  resolveNEU  []                     = [] 
-  resolveNEU  ((i,x):xs) | thing x   = i : resolveNEU xs
-                          | otherwise = resolveNEU xs
+resolveNEU (c,co)  = resolveNEU' c where
+  resolveNEU'  []                     = [] 
+  resolveNEU'  ((i,x):xs) | thing x   = i : resolveNEU' xs
+                          | otherwise = resolveNEU' xs
+
+--resolveNAMELESS :: String -> Context -> (Idx,Context)
+--resolveNAMELESS classname (c,co)  = resolveNAMELESS' c where
+--  resolveNAMELESS'  []                     = [] 
+--  resolveNAMELESS'  ((i,x):xs) | predid1 classname x   = i : resolveNAMELESS' xs
+--                               | otherwise = resolveNAMELESS' xs
 
 resolveNAME :: Entity -> Context -> (Idx,Context)
 resolveNAME x c | i /= -1   = (i,c)
@@ -282,10 +288,15 @@ intNP (Leaf (Cat "he"  "NP" [Pers,Thrd,Sg,Nom,Masc]  []))
 --intNP She = \p c b -> concat [p i c b | i <- resolveFEM  c]
 intNP (Leaf (Cat "it"  "NP" [Pers,Thrd,Sg,Neutr]     []))
 	= \p c b -> concat [p i c b | i <- resolveNEU  c]
-intNP (Leaf (Cat name "NP" _ _))  = \p c -> 
-                    let (i,c') = resolveNAME entity c
+intNP (Leaf (Cat "they"  "NP" [Pl,Thrd,Nom,Pers]  []))
+	= \p c b -> concat [p i c b | i <- resolveMASC c]
+intNP (Leaf (Cat name "NP" _ _))
+        | name `elem` namelist = \p c -> 
+                    let (i,c') = resolveNAME (ided name) c
                     in  p i c'
-		    where entity = ided name
+        -- | otherwise = \p c ->
+        --            let (i,c') = resolveNAMELESS name c
+	--	    in p i c'
 -- intNP (PRO i)       = \ p c ->  p i c 
 intNP (Branch (Cat _ "NP" _ _) [det,cn]) = (intDET det) (intCN cn) 
 
@@ -393,10 +404,13 @@ convert c = (convert' c (length c - 1),[])
        where convert' []     i = []
              convert' (x:xs) i = (i,x):(convert' xs (i-1))
 
-eval :: Sent -> Prop
-eval s = intS s (convert context) True
+eval :: Maybe Sent -> Prop
+eval (Just s) = intS s (convert context) True
 
-evalFresh :: Sent -> Prop
-evalFresh s = intS s ([],[]) True
+evalFresh :: Maybe Sent -> Prop
+evalFresh (Just s) = intS s ([],[]) True
+
+handler core tests = putStr $ unlines $ map (\(x,y) -> x++show y) $ zip (map (++"\t") tests ) ( map (\string -> map (\x -> core ( Just x) ) (parses string)) tests )
+-- evals = handler eval
 
 -- vim: set ts=8 sts=4 sw=4 noet:
