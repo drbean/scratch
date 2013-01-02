@@ -154,6 +154,11 @@ preproc ("the":"million":"dollar":"homepage":xs)	= "the_million_dollar_homepage"
 preproc ("the":"one":"million":"people":"page":xs)	= "the_one_million_people_page" : preproc xs
 preproc ("mark":"zuckerberg":xs)	= "mark_zuckerberg" : preproc xs
 preproc ("set":"up":xs)	= "set_up" : preproc xs
+preproc ("advertising":"space":xs)	= "advertising_space" : preproc xs
+preproc ("decide":"to":"make":xs)	= "make" : preproc xs
+preproc ("decided":"to":"make":xs)	= "made" : preproc xs
+preproc ("radio":"and":"television":xs)	= "radio_and_television" : preproc xs
+preproc ("business":"management":xs)	= "business_management" : preproc xs
 
 preproc ("one":"month":xs)	= "one_month" : preproc xs
 preproc ("two":"months":xs)	= "two_months" : preproc xs
@@ -428,6 +433,7 @@ infinR1 = \us xs ->
 	(vp1,vs,ys)  <- leafPS "VP" us xs, 
 	(to,ws,zs) <- prsTO vs ys,
 	(z:zs')    <- [zs],
+	catLabel z == "VP",
 	z'         <- [Cat (phon z) "VP" [Tense] (subcatList z)],
 	(vp2,ps,qs) <- prsVP ws (z':zs') ]
 
@@ -438,6 +444,7 @@ infinR2 = \ us xs ->
 	(obj,ws,zs) <- prsNP vs ys,
 	(to,ps,qs)  <- prsTO ws zs,
 	(q:qs')     <- [qs],
+	catLabel q == "VP",
 	q'          <- [Cat (phon q) "VP" [Tense] (subcatList q)],
 	(vp2,rs,ss) <- prsVP ps (q':qs') ]
 	-- subcatlist   <- [subcatList (t2c att)],
