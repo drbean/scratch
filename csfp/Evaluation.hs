@@ -221,7 +221,7 @@ blowupDV = \ dv word subj iobj dobj c b ->
 resolveMASC :: Context -> [Idx]
 resolveMASC (c,co)  = resolveMASC' c where
   resolveMASC' []                     = [] 
-  resolveMASC' ((i,x):xs) | predid1 "male" x    = i : resolveMASC' xs
+  resolveMASC' ((i,e):xs) | predid1 "male" e    = i : resolveMASC' xs
                           | otherwise = resolveMASC' xs
 
 --resolveFEM :: Context -> [Idx]
@@ -236,11 +236,14 @@ resolveNEU (c,co)  = resolveNEU' c where
   resolveNEU'  ((i,x):xs) | thing x   = i : resolveNEU' xs
                           | otherwise = resolveNEU' xs
 
---resolveNAMELESS :: String -> Context -> (Idx,Context)
---resolveNAMELESS classname (c,co)  = resolveNAMELESS' c where
---  resolveNAMELESS'  []                     = [] 
---  resolveNAMELESS'  ((i,x):xs) | predid1 classname x   = i : resolveNAMELESS' xs
---                               | otherwise = resolveNAMELESS' xs
+resolveNAMELESS :: Entity -> Context -> (Idx,Context)
+resolveNAMELESS x c | i /= -1   = (i,c)
+                | otherwise = (j,extend c x)
+  where i                                 = index x c 
+        j                                 = size c 
+        index x ([],co)                   = -1
+        index x ((i,y):xs,co) | x == y    = i 
+                              | otherwise = index x (xs,co)
 
 resolveNAME :: Entity -> Context -> (Idx,Context)
 resolveNAME x c | i /= -1   = (i,c)
@@ -271,11 +274,22 @@ ided name = ided' name characters where
 	ided' name ((n,entity):cs) | n == name = entity
                                    | otherwise = ided' name cs
 
+anonyn :: String -> Entity
+anonyn name = anonyn' name classes where
+	anonyn' name [] = error $ "No \"" ++ name ++ "\" in classes."
+	anonyn' name (c:cs) | c == name = firstMember name onePlacers
+                             | otherwise = anonyn' name cs
+	firstMember name [] = error $ "No \"" ++ name ++ "\" in onePlacers."
+	firstMember name ((s,pred):ss)
+		| s == name = head $ filter pred entities
+		| otherwise = firstMember name ss
+
 type Sent = ParseTree Cat Cat
 intS :: Sent -> Trans
 intS (Branch (Cat "_" "S" _ _) [ np,vp]) = (intNP np) (intVP vp)
-intS (Branch (Cat _ "YN" _ _) [Leaf (Cat _ "AUX" _ _),s] ) =
-	intS s
+intS (Branch (Cat _ "YN" _ _) [aux,s]) = case (catLabel (t2c aux)) of
+	"AUX" -> intS s
+	"COP" -> intS s
 --intS (If   s1 s2) = (intS s1) `impl` (intS s2)
 --intS (Branch (Cat _ "S" _ _) [s1,conj, s2])
 --	= (intS s1) `conj` (intS s2)
@@ -283,7 +297,7 @@ intS (Branch (Cat _ "S" _ _) [np,vp]) = (intNP np) (intVP vp)
 
 type NP = ParseTree Cat Cat
 intNP :: NP -> (Idx -> Trans) -> Trans
-intNP (Leaf (Cat "he"  "NP" [Pers,Thrd,Sg,Nom,Masc]  []))
+intNP (Leaf (Cat "he"  "NP" [Masc,Sg,Thrd,Nom,Pers]  []))
 	= \p c b -> concat [p i c b | i <- resolveMASC c]
 --intNP She = \p c b -> concat [p i c b | i <- resolveFEM  c]
 intNP (Leaf (Cat "it"  "NP" [Pers,Thrd,Sg,Neutr]     []))
@@ -294,15 +308,19 @@ intNP (Leaf (Cat name "NP" _ _))
         | name `elem` namelist = \p c -> 
                     let (i,c') = resolveNAME (ided name) c
                     in  p i c'
-        -- | otherwise = \p c ->
-        --            let (i,c') = resolveNAMELESS name c
-	--	    in p i c'
+        | otherwise = \p c ->
+                    let (i,c') = resolveNAME (anonyn name) c
+		    in p i c'
 -- intNP (PRO i)       = \ p c ->  p i c 
 intNP (Branch (Cat _ "NP" _ _) [det,cn]) = (intDET det) (intCN cn) 
+--intNP (Branch (Cat _ "NP" _ _) [np,Leaf (Cat "'s" "APOS" _ _),cn]) =
+--	\p c b -> concat [p i c b | any (\thing -> p thing && intCN cn thing && intNP np (\owner -> int "had" [owner, thing])) 
+--intNP (Branch (Cat _ "NP" _ _) [det,Leaf (Cat a "ADJ" _ _),cn]) = 
+--	exists `conj` intDET det
 
 type PP = ParseTree Cat Cat
 intPP :: PP -> (Idx -> Trans) -> Trans
-intPP pp@(Branch (Cat _   "PP" _ _) [prep,np]) = intNP np
+intPP (Branch (Cat _ "PP" _ _) [prep,np]) = intNP np
 
 type VP = ParseTree Cat Cat
 
@@ -312,18 +330,37 @@ intVP (Branch (Cat _ "VP" _ _)
 intVP (Branch (Cat _ "VP" _ _) 
                 [Leaf (Cat "#" "AUX" _ []),vp]) = intVP vp 
 
---intVP cop@(Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ _),
---    Branch (Cat "_" "COMP" [] []) [comp]]) = case (catLabel (t2c comp)) of
-----    	"ADJ" -> \s -> int1 (phon (t2c comp))	
---	"NP" -> \s -> coref (intNP comp) s
+intVP cop@(Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ _),
+    Branch (Cat "_" "COMP" [] []) [comp]]) = case (catLabel (t2c comp)) of
+    	"ADJ" -> \s -> blowupPred (phon (t2c comp)) s
+	"NP" -> \s -> intNP comp (\pred -> blowupPred "true" s )
 intVP tv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1]) =
 	case (catLabel ( t2c obj1 )) of
 		"NP" -> \ s -> intNP  obj1 (\ o -> nonCoref (intTV tv) s o) 
 		"PP" -> \ s -> intPP  obj1 (\ o -> nonCoref (intTV tv) s o) 
 -- intVP (VP2 tv refl)    = self (intTV tv)
-intVP dv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),obj1,obj2])
-	= \ s -> intNP obj1 (\ io -> intNP obj2 (\ o  -> 
-                         nonCoref2 (intDV dv) s io o))
+intVP dv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),obj1,obj2]) =
+	case (catLabel (t2c obj1)) of 
+		"NP" -> case (catLabel (t2c obj2)) of 
+			"NP" -> \ s -> intNP obj1 (\ io -> intNP obj2 (\ o  -> 
+				 nonCoref2 (intDV dv) s io o))
+			"PP" -> \ s -> intNP obj1 (\ io -> intPP obj2 (\ o  -> 
+				 nonCoref2 (intDV dv) s io o))
+		"PP" -> case (catLabel (t2c obj2)) of 
+			"NP" -> \ s -> intPP obj1 (\ io -> intNP obj2 (\ o  -> 
+				 nonCoref2 (intDV dv) s io o))
+			"PP" -> \ s -> intPP obj1 (\ io -> intPP obj2 (\ o  -> 
+				 nonCoref2 (intDV dv) s io o))
+intVP (Branch (Cat _ "AT" _ _)
+    [Leaf (Cat att "VP" _ _), Leaf (Cat "to" "TO" [ToInf] []),
+       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _)])]) =
+       	\s -> blowupPred (att++"_to_"++act) s
+intVP at@(Branch (Cat _ "AT" _ _)
+    [Leaf (Cat att "VP" _ _), Leaf (Cat "to" "TO" [ToInf] []),
+       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj])]) =
+	   case(catLabel (t2c obj)) of
+	"NP" -> \s -> intNP obj (\o -> nonCoref (intAT at) s o)
+	"PP" -> \s -> intPP obj (\o -> nonCoref (intAT at) s o)
 --intVP (VP4 dv refl np) = self (\ s io -> intNP np (\ o -> 
 --                                         intDV dv s io o))
 --intVP (VP5 _not inf)   = \ s -> neg (intINF inf s)
@@ -351,6 +388,13 @@ intDV :: DV -> Idx -> Idx -> Idx -> Trans
 intDV dv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),obj1,obj2])
 	= blowupDV dv name
 
+type AT = ParseTree Cat Cat
+intAT :: AT -> Idx -> Idx -> Trans
+intAT at@(Branch (Cat _ "AT" _ _)
+	[Leaf (Cat att "VP" _ _), Leaf (Cat "to" "TO" [ToInf] []),
+       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj])]) = 
+       blowupTV at (att++"_to_"++act)
+
 --intINF :: INF -> Idx -> Trans
 --intINF Laugh               = intVP Laughed
 --intINF Cheer               = intVP Cheered
@@ -373,6 +417,8 @@ intDV dv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),obj1,obj2])
 type CN = ParseTree Cat Cat
 intCN :: CN -> Idx -> Trans
 intCN (Leaf   (Cat name "CN" _ _))     = blowupPred name
+intCN (Branch (Cat _    "CN" _ _) [cn,ofpos,np]) =
+    \x y -> exists `conj` intCN x `conj` intNP np (\thing -> predid2 "had" [x, thing])
 
 unique :: Idx -> Trans -> Trans
 unique i phi c b = 
