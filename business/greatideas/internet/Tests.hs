@@ -99,20 +99,14 @@ import Parsing
 --	]
 
 comp_test1 = [
-	"A person was Alex Tew."
-	, "Alex Tew was a person."
+	-- "A person was Alex Tew."
+	-- , "Alex Tew was a man."
+	"Alex Tew was a person."
 	, "Alex Tew was a manager."
 	, "Alex Tew was the Million Dollar Homepage."
 	, "Alex Tew was the Million Dollar Homepage's manager."
-	, "Alex Tew was a successful person."
 	, "Alex Tew was a person."
 	, "Alex Tew was a thing."
-	, "The experiment was successful."
-	, "Was the experiment successful?"
-	, "The Million Dollar Homepage was successful."
-	, "Was the Million Dollar Homepage successful?"
-	, "Was the One Million People Page successful?"
-	, "The One Million People Page was successful."
 	, "A man was Tadeusz."
 	, "A woman was the Million Dollar Homepage."
 	, "The woman was the Million Dollar Homepage."
@@ -232,16 +226,48 @@ neg_tag_test = [
 --	"Did the boss of Barbara talk to Eva?"
 --	]
 
-takes = [
-	"Did the Punjabi government take Punjabi farmers' land?"
-	, "Did the Punjabi government take land from Punjabi farmers?"
-	, "The Punjabi government took a land from Punjabi farmers."
+experiment	= [
+	"Was the Million Dollar Homepage a successful experiment?"
+	, "Alex Tew was a successful person."
+	, "The experiment was successful."
+	, "An experiment was successful."
+	, "Was the experiment successful?"
+	, "The Million Dollar Homepage was successful."
+	, "Was the Million Dollar Homepage successful?"
+	, "Was the One Million People Page successful?"
+	, "The One Million People Page was successful."
+	]
+talks = [
+	"Did Alex Tew talk to someone about the Million Dollar Homepage?"
+	, "Did Alex Tew talk to radio and television about the Million Dollar Homepage?"
+	, "Did Alex Tew talk to the media about the Million Dollar Homepage?"
+	, "Did Alex Tew talk to the media?"
+	, "Did Alex Tew promote the website on the media?"
+	, "Did Alex Tew promote the Million Dollar Homepage on the media?"
+	, "Did Alex Tew promote the Million Dollar Homepage on radio and television?"
+	, "Alex Tew promoted the Million Dollar Homepage on radio and television."
+	, "Did Alex Tew promote the website on radio and television?"
+	, "Did Alex Tew promote the website on the radio and television?"
 	]
 
 wants = [
-	"Did Pepsi want citrus_fruit from Punjabi Farmers."
-	, "Did Pepsi want oranges?"
-	, "Pepsi wanted oranges."
+	"Did advertisers want advertising space?"
+	, "Did advertisers want advertising space from Alex Tew?"
+	]
+
+studies = [
+	"Did Alex Tew study?"
+	, "Did Alex Tew study business management?"
+	, "Did Alex Tew want to study?"
+	, "Did Alex Tew want to study something?"
+	, "Did Alex Tew want to study business management?"
+	, "Did Mark Zuckerberg study?"
+	, "Did Mark Zuckerberg study something?"
+	, "Did Mark Zuckerberg want to study?"
+	, "Did Mark Zuckerberg want to study business management?"
+	, "Did Mark Zuckerberg want to study something?"
+	, "Did Mark Zuckerberg want to study a thing?"
+	, "Was something a thing?"
 	]
 
 buys_sells = [
@@ -252,19 +278,28 @@ buys_sells = [
 	, "Did advertisers want to buy from Alex Tew?"
 	, "Advertisers wanted to buy from Alex Tew?"
 	, "Advertisers wanted to buy advertising space from Alex Tew on the Million Dollar Homepage."
+	, "Did Alex Tew sell advertising space to advertisers?"
 	, "Did Alex Tew sell to advertisers?"
 	, "Did Alex Tew sell advertising space?"
-	, "Did Alex Tew sell advertising space to advertisers?"
+	, "Did he sell advertising space?"
+	, "Did the Million Dollar Homepage sell advertising space?"
+	, "Did Alex Tew sell advertising space to advertisers on the Million Dollar Homepage?"
+	, "Did Mark_Zuckerberg sell radio_and_television?"
 	]
 
-grows = [
-	"Did Punjabi farmers grow citrus fruit?"
-	, "Did the Punjabi government grow citrus fruit?"
-	, "Did Pepsi want Punjabi farmers to grow citrus fruit?"
-	, "Did Pepsi want the Punjabi government to grow citrus fruit?"
-	, "Did the Punjabi government want Punjabi farmers to grow citrus fruit?"
-	, "Did Punjabi farmers want to grow citrus fruit?"
-	, "Did the Punjabi government want to grow citrus fruit?"
+makes = [
+	"Did Alex Tew make the Million Dollar Homepage?"
+	, "Did Mark Zuckerberg make the Million Dollar Homepage?"
+	, "Did advertisers decide Alex Tew to make the Million Dollar Homepage?"
+	, "Did advertisers decide Mark Zuckerberg to make the Million Dollar Homepage?"
+	, "Did Alex Tew decide the Million Dollar Homepage to make with advertising space?"
+	, "Did Mark Zuckerberg decide to make the Million Dollar Homepage?"
+	, "Did Alex Tew decide to make the Million Dollar Homepage?"
+	, "Did Alex Tew decide to make the Million Dollar Homepage with advertising space?"
+	, "Did Alex Tew want to make money?"
+	, "Did Alex Tew want to make money from the Million Dollar Homepage?"
+	, "Did Alex Tew want to make money with the Million Dollar Homepage?"
+	, "Did Mark Zuckerberg want to make money?"
 	]
 
 helps = [
@@ -277,16 +312,13 @@ helps = [
 	]
 
 pays = [
-	"Did Pepsi pay"
-	, "Did Pepsi pay Punjabi farmers?"
-	, "Did Pepsi pay Punjabi farmers a good price?"
-	, "Did Pepsi pay a good price?"
-	, "Pepsi paid Punjabi farmers a good price for oranges."
-	, "Did Pepsi pay Punjabi farmers a good price for oranges?"
+	"Did advertisers on Alex Tew's website pay Alex Tew a good price?"
+	, "Did advertisers pay a good price?"
+	, "Did advertisers pay Alex Tew a good price for advertising space?"
 	]
 
 haves = [
-	"Did Punjabi farmers have land?"
+	"Did Alex Tew have a good idea after the Million Dollar Homepage?"
 	]
 
 knows = [
@@ -457,9 +489,10 @@ ditransitive_tests = [
 --	"A co-worker did work at a company."
 --	-- "Did Barbara's boss give a name to Fast-Track?"
 	]
---
+
 wh_questions =[
-	"Who did Michelle pay?"
+	"Which website did Mark Zuckerberg found?"
+	, "Which website did Alex Tew found?"
 --	"Who worked?",
 --	"Who did Eva teach?",
 --	"Who taught Eva?",
@@ -586,9 +619,9 @@ to_inf_test_yn = [
 	]
 
 to_inf_test_tag = [
-	"Steve Wynn decided to charge ten dollars, didn't he?"
-	, "Steve Wynn decided to charge an entrance fee, didn't he?"
-	, "Some visitors wanted to buy a car, didn't they?"
+	"Alex Tew wanted to make money, didn't he?"
+	, "Alex Tew decided to make a website, didn't he?"
+	, "Some advertisers wanted to buy advertising space on the Million Dollar Homepage, didn't they?"
 	]
 
 to_inf_test_wh = [
@@ -596,6 +629,11 @@ to_inf_test_wh = [
 	, "Who decided to charge ten dollars?"
 	, "Who wanted to look at the cars?"
 	, "Who wanted to buy a car?"
+	]
+
+punctuation = [
+	"Alex_Tew made few money,didn't he?"
+	, "Alex_Tew founded facebook,didn't he?"
 	]
 
 -- vim: set ts=8 sts=4 sw=4 noet:
