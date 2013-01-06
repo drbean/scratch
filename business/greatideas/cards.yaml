@@ -156,6 +156,11 @@ citrus:
         answer  : False
       - question: The government is happy about growing citrus fruit for Pepsi.
         answer  : True
+  3:
+    identifier: citrus 3
+    A: The Punjab is one of the best agricultural areas in the world, and one of the richest states in India, but it hasn't traditionally grown citrus. The Punjab government wanted to help farmers make more money. Pepsi wanted farmers to grow citrus fruit to make fruit drinks. The two decided to work together with farmers to grow citrus fruit.
+    B: The government told farmers if they let it grow citrus fruit on their land for 4 years, half of the money from sale of the fruit to Pepsi would go to the farmers, and half to the government.  So, farmers gave their land to the government. However the citrus trees did not grow well and Pepsi did not pay a good price for the fruit.
+    C: The government spent a lot of money on its good idea, but officials may have stolen this money or spent it badly. Corruption by government officials is a big problem. It now wants to stop growing citrus fruit on farmers' land, but it cannot stop, because it has to keep its promise to the farmers who gave it their land.
  compcomp:
   0:
       identifier: citrus 0
@@ -239,6 +244,16 @@ internet:
         answer  : True
       - question: He has continued to develop new ideas on the Internet.
         answer  : True
+  3:
+    identifier: internet 3
+    A: Alex needed money to study Business Management at college. He was interested in being a businessman on the Internet. He thought the Internet was exciting, because it was easy for anyone to do something and have a big effect.
+    B: Before Google started, it was difficult to search for information on the Internet. So, it was difficult for people with Internet businesses to promote their web sites. Alex decided to make one big web page and divide it up into little square advertising spaces.
+    C: Alex promoted his site on radio and TV. In four months, advertisers on his site paid him \$1,000,000. Other people have tried to copy his idea but have not been successful. He has also not been successful with other great ideas since that time.
+  4:
+    identifier: internet 4
+    A: A facebook is a book of pictures and information about the students at one school. Mark Zuckerberg started his own facebook site in 2003 when Harvard University was slow to set up a facebook for students. Now there are 1 billion users around the world. Revenue in 2010 was \$1 billion mostly from ads. It is very successful because it puts people in touch with each other.
+    B: Alex Tew thinks Facebook changed the Internet, making it a social medium connecting people. The old Internet was like his old site. It was not about people. In 2010, he decided to make a new site, the One Million People Page. He wanted it to be a picture of the new Internet. He invited people to put their pictures on his new webpage, to make a book of faces, a kind of facebook.
+    C: Alex left the first space on his new site for Zuckerberg. People paid him \$3 and they could put pictures of themselves and 2 friends. This encouraged the friends to also pay \$3 and put other friends' pictures on. But only 6,000 pictures were put on the site. He then made the site free, but not many more people added pictures. Finally, he closed it down.
  compcomp:
   0:
       identifier: internet 0
@@ -248,7 +263,7 @@ internet:
         \begin{description}
         \item [Name] A facebook is a book of pictures and information about all the students at one school. By the early 2000s, some schools had them online and students could add extra information.
         \item [History] Mark Zuckerberg started his own facebook site in 2003 when Harvard University was slow to set up a facebook for students. Later, students at other universities and at high schools were also able to join.
-        \item [Statistics] Now there are 500 million active users around the world, with most in the US, Indonesia, and the UK. Revenue in 2010 was \$1 billion mostly from ads.
+        \item [Statistics] Now there are 1 billion users around the world, with most in the US, Indonesia, and the UK. Revenue in 2010 was \$1 billion mostly from ads.
         \end{description}
       Black: |+
         \begin{normalsize} http://www.onemillionpeople.com \end{normalsize}
