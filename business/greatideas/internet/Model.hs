@@ -1,8 +1,6 @@
 module Model where 
 
 import Data.Tuple
-import Data.List
-import Data.Maybe
 
 data Entity	=
               A | B | C | D | E | F | G 
