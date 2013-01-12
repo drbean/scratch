@@ -1,6 +1,5 @@
 module Parsing where
 
-import Data.List
 import Data.Char
 
 data ParseTree a b =  Ep | Leaf a | Branch b [ParseTree a b] 
