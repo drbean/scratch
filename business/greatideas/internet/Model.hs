@@ -29,22 +29,26 @@ characters = [
 
 	]
 
+classes :: [String]
 classes = [ "manager", "advertisers", "advertising_space", "business_management", "radio_and_television" ]
 
 context :: [Entity]
 -- context = [A,H,P,F,M]
-context = entities
+context = []
 
+namelist :: [String]
 namelist = map fst characters
+names :: [(Entity, String)]
 names = map swap characters
 
 predid1 :: String -> OnePlacePred
 predid2 :: String -> TwoPlacePred
 predid3 :: String -> ThreePlacePred
+predid4 :: String -> FourPlacePred
 predid1 name = lookupPred name onePlacers where
-	lookupPred n []	= error $ "no \"" ++ name ++ "\" one-place predicate."
-	lookupPred n ((name,pred):is) | n == name	= pred
-	lookupPred n (i:is) = lookupPred name is
+	lookupPred name []	= error $ "no \"" ++ name ++ "\" one-place predicate."
+	lookupPred name ((n,p):_) | n == name	= p
+	lookupPred name (i:is) = lookupPred name is
 predid2 name = lookupPred name twoPlacers where
 	lookupPred n []	= error $ "no \"" ++ name ++ "\" two-place predicate."
 	lookupPred n ((name,pred):is) | n == name	= pred
