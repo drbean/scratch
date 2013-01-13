@@ -288,3 +288,208 @@ cohabitation:
         - question: Mika doesn't know what to do.
           answer: True
 
+weight:
+  jigsaw:
+    0:
+      identifier: weight 0
+      A: You are a big woman. You didn't feel good about your weight. But Bertha, another big woman on the Internet, made you feel good about your body. Your friend, Naomi is worried.
+      B: You have a friend, Alicia who is big. Bertha, another big woman she met on the Internet told Alicia to feel good about her body. But you think Alicia should be careful about her weight.
+      C: You want Alicia to feel good about being big. Her friend, Naomi wants her to be careful about her weight. You think Naomi is wrong about Alicia. You think Naomi is not helpful.
+      quiz:
+        - question: A
+          option: 
+           - Alicia
+           - Bertha
+           - Naomi
+          answer: Alicia
+        - question: B
+          option:
+           - Alicia
+           - Bertha
+           - Naomi
+          answer: Naomi
+        - question: C
+          option:
+           - Alicia
+           - Bertha
+           - Naomi
+          answer: Bertha
+        - question: All three women are big.
+          answer: False
+        - question: Naomi wants Alicia to be careful.
+          answer: True
+        - question: Alicia met Bertha on the Internet.
+          answer: True
+        - question: Alicia didn't feel good about herself.
+          answer: True
+        - question: She still isn't happy about her body.
+          answer: False
+        - question: Bertha and Naomi agree about Alicia.
+          answer: False
+        - question: Bertha thinks Naomi is helpful.
+          answer: False
+
+refugees:
+  jigsaw:
+    0:
+      identifier: refugees 0
+      A: You are the head of the government. You decided the country will give a lot of money to Kony and other African refugees. You think every country should help them. Shen disagrees with you.
+      B: You are an African refugee. You are thankful that Prime Minister Lee will give money to you. You are upset that Shen and other people in Lee's country don't want to give money to you.
+      C: You think that it is sad Kony is a refugee. But you don't think your country is responsible. You want Prime Minister Lee to spend money on people in your country, not on Kony.
+      quiz:
+        - question: A
+          option: 
+           - Kony
+           - Prime Minister Lee
+           - Shen
+          answer: Prime Minister Lee
+        - question: B
+          option:
+           - Kony
+           - Prime Minister Lee
+           - Shen
+          answer: Kony
+        - question: C
+          option:
+           - Kony
+           - Prime Minister Lee
+           - Shen
+          answer: Shen
+        - question: All three agree there is a problem.
+          answer: True
+        - question: Shen thinks everyone should help.
+          answer: False
+        - question: Kony is happy with what Shen thinks.
+          answer: False
+        - question: Lee thinks everyone should give money.
+          answer: True
+        - question: Shen agrees with Lee.
+          answer: False
+        - question: Shen is unhappy Kony is a refugee.
+          answer: True
+        - question: Shen wants Lee to give money to Africa.
+          answer: False
+
+match:
+  jigsaw:
+    0:
+      identifier: match 0
+      A: You are going to marry a man who your parents found for you. You don't know the man. The wedding will be in 9 months. You are surprised that your friend, Pat is getting married too, to Ted
+      B: You tell Akane you fell in love with Ted when you first met him. Your parents want you to wait until you know Ted better. But you are getting married in 2 weeks. You don't understand how Akane can wait 9 months to get married.
+      C: Your girlfriend is Pat. You have known her for 3 months. You are getting married in 2 weeks. Pat tells you that her friend, Akane is also getting married. Her marriage is an introduced marriage.
+      quiz:
+        - question: A
+          option: 
+           - Akane
+           - Pat
+           - Ted
+          answer: Akane
+        - question: B
+          option:
+           - Akane
+           - Pat
+           - Ted
+          answer: Pat
+        - question: C
+          option:
+           - Akane
+           - Pat
+           - Ted
+          answer: Ted
+        - question: Akane met her husband at a party.
+          answer: False
+        - question: Pat met Ted at a party.
+          answer: True
+        - question: Pat knew Ted was the one for her immediately.
+          answer: True
+        - question: Akane's parents may not go to the wedding.
+          answer: False
+        - question: Akane's wedding is after Pat's.
+          answer: True
+        - question: Pat's parents want Pat to get to know Ted better.
+          answer: True
+        - question: Pat will wait before getting married.
+          answer: False
+
+dress:
+  jigsaw:
+    0:
+      identifier: dress 0
+      A: You are the principal of a high school. Mrs Dudley complains to you about one of the teachers, Ms Leeds. You tell Mrs Dudley other parents have complained. But you don't want to take action against Ms Leeds.
+      B: You are a teacher. You dress like a rock star and act like a rebel, not like a teacher. Mrs Dudley and other parents have complained to the principal of your school, Mr Nelson, about the way you dress and the way you act. 
+      C: You don't like the way a teacher, Ms Leeds dresses and acts. You complain to the principal, Mr Nelson. You think he doesn't want to do anything about her. You say you will take action, unless he does.
+      quiz:
+        - question: A
+          option: 
+           - Mrs Dudley
+           - Ms Leeds
+           - Mr Nelson
+          answer: Mr Nelson
+        - question: B
+          option:
+           - Mrs Dudley
+           - Ms Leeds
+           - Mr Nelson
+          answer: Ms Leeds
+        - question: C
+          option:
+           - Mrs Dudley
+           - Ms Leeds
+           - Mr Nelson
+          answer: Mrs Dudley
+        - question: Dudley complains to Nelson about Leeds.
+          answer: True
+        - question: Dudley doesn't like Leeds' clothes.
+          answer: True
+        - question: Leed's clothes are very ordinary.
+          answer: False
+        - question: Nelson says others have complained.
+          answer: True
+        - question: Dudley is satisfied with Nelson's action.
+          answer: False
+        - question: Nelson plans to tell Leeds to change.
+          answer: False
+        - question: Dudley says she will take action if Nelson doesn't.
+          answer: True
+
+execution:
+  jigsaw:
+    0:
+      identifier: execution 0
+      A: You were working at a store, but you were killed by 2 robbers. You gave them a small amount of money. There was more money in a big, heavy box, but you didn't have the key. One robber shot you when you told him. 
+      B: You were a robber. You robbed a store where Wang was working and killed Wang. You were angry about the amount of money he gave you. The police caught you and sent you to prison. In prison, they put you to death.
+      C: You were sad when your son, Wang, was killed. And you were angry with the killer. You wanted the killer to die. You went to prison to see the killer put to death. You felt glad when you saw him die.
+      quiz:
+        - question: A
+          option: 
+           - Mother
+           - Murderer
+           - Wang
+          answer: Wang
+        - question: B
+          option:
+           - Mother
+           - Murderer
+           - Wang
+          answer: Murderer
+        - question: C
+          option:
+           - Mother
+           - Murderer
+           - Wang
+          answer: Mother
+        - question: In the story, 2 people die.
+          answer: True
+        - question: Wang's mother was killed.
+          answer: False
+        - question: The killer was angry with the amount of money.
+          answer: True
+        - question: Wang had the key.
+          answer: False
+        - question: The killer died.
+          answer: True
+        - question: Wang's mother killed the murderer.
+          answer: False
+        - question: Wang's mother was happy the killer died.
+          answer: True
+
