@@ -596,103 +596,168 @@ fourconcepts:
   jigsaw:
     00:
       identifier: fourconcepts 00
-      A: Many more people are going to Las Vegas than before. Most of them don't have the money to buy an expensive car. There are more of these people in the showroom than before. The visitors dream of winning money and buying an expensive car.
-      B: After the showroom first started charging an admission fee, there were fewer people. But now the showroom is always full. It is not a relaxing place. It is difficult to look carefully at the cars and to talk to the showroom salesmen.
-      C: People who want to buy a car don't go to the showroom. There are too many people in the showroom, even though these people have to pay to look at the cars. Car buyers don't like the crowded showroom.
-      D: Money from admission fees is up, but from selling cars is down. The car showroom is making less money than it was when it first started charging admission. The income from admission fees has increased, but income from car sales has dropped.
+      A: More people are going to Las Vegas than before. But the economy isn't good, and many people don't have much money. There are more of these people in the showroom than before. The visitors dream of winning money and buying an expensive car.
+      B: After the showroom first started charging an admission fee, there were fewer people and more cars were sold . But now the showroom is always full, and fewer cars are sold. People with money to buy cars don't like all the people.
+      C: Money from admission fees is up, but from selling cars is down. The car showroom is making less money than it was when it first started charging admission. Wynn decides to increase admission from \$10 to \$15.
       quiz:
-        - question: Penske-Wynn raised the admission charge from 10 dollars to 15 dollars.
+        - question: Wynn uses the admission fee to control the number of visitors.
           option:
             - problem
             - solution
             - evaluation
             - lesson
           answer: solution
-        - question: The idea did not work. The number of visitors dropped, but car sales did not increase.
+        - question: The idea did not work. Car sales did not increase.
           option:
             - problem
             - solution
             - evaluation
             - lesson
           answer: evaluation
-        - question: Penske-Wynn wanted to continue to improve the showroom as a place to buy cars.
+        - question: Wynn wanted to increase car sales.
           option:
             - problem
             - solution
             - evaluation
             - lesson
           answer: problem
-        - question: Sometimes you cannot predict what will happen when you change a price.
+        - question: If you change a price, you may make more money. Or you may make less.
           option:
             - problem
             - solution
             - evaluation
             - lesson
           answer: lesson
-    22:
-      identifier: fourconcepts 22
-      A: Pepsi needs citrus, but no-one grows citrus in the Punjab. Punjab farmers grow rice. They don't know anything about growing citrus trees. Pepsi tries to interest farmers and the Punjab government in growing citrus.
-      B: Pepsi tells the Punjab government it will give farmers a good price for citrus. It asks the government to work with farmers to help them produce citrus. It tells the government the Punjab can be a big citrus producer.
-      C: The government decides to help the farmers by growing citrus for them and paying them for use of their land while the trees are growing. It will take the money back from farmers when Pepsi pays them for the fruit.
-      D: Pepsi helps the government with its knowledge of growing citrus fruit. Universities and government research institutes help develop the government's plan to grow citrus. Farmers like the idea of the government giving them money.
+    01:
+      identifier: fourconcepts 01
+      A: When Wynn's casino opened, there was the same problem, that there was in the Ferrari showroom. Many people were gambling, and the tables were full. But they were not spending much, Only a few dollars per bet.
+      B: After the casino opened, Wynn decided to make the minimum bet \$50. People who didn't have much money stopped coming to the casino. But there were enough people who could spend \$50 to bet, so the tables were still full.
+      C: Now, the economy is bad and everyone has less money. There were fewer people coming to the casino. Wynn decided to lower the minimum bet to \$25. Now the tables are full again. This helped Wynn make more money again.
       quiz:
-        - question: At first, things were OK, but later Pepsi did not pay the agreed price and  officials stole money. The government wanted to end the project.
-          option:
-            - problem
-            - solution
-            - evaluation
-            - lesson
-          answer: evaluation
-        - question: In Taiwan, supply exceeds demand. The government would give advice, but not pay farmers.
+        - question: If you have a business, how much will customers pay for your product?
           option:
             - problem
             - solution
             - evaluation
             - lesson
           answer: lesson
-        - question: The plan was for the government to help develop a citrus industry by growing citrus fruit for farmers.
+        - question: Wynn adjusted the minimum bet to increase the amount of money he made.
           option:
             - problem
             - solution
             - evaluation
             - lesson
           answer: solution
-        - question: The Punjab had potential to be a big citrus producer, but farmers did not have the money or knowledge to develop an industry.
+        - question: Wynn's casino was very popular, but he was not making very much money.
           option:
             - problem
             - solution
             - evaluation
             - lesson
           answer: problem
-    55:
-      identifier: fourconcepts 55
-      A: In 2005, Alex made 1 million dollars in 4 months. Advertisers paid him 1 dollar per pixel to put links to their sites on his home page. None of his later projects have been as successful. But he continues to try new ideas.
-      B: In 2004, Mark started Facebook. His school, Harvard had been slow to put a book of student photographs on the Internet. He illegally got the pictures from the school's computers, and put the pictures on his site on the Internet. 
-      C: Alex thinks Facebook changed the Internet. In 2005, the Internet was only a place to find material. Now, it is social. In 2010, he made a site that was social like Facebook. He wanted 1 million people to put their pictures on his site.
-      D: Alex wants to develop a new site, like Facebook, that is also social. His idea is to "take a picture" of the new social Internet, by putting a lot of pictures of people on a web site. It will be a "facebook" of people's pictures.
-      quiz:
-        - question: Alex wanted to create another successful Internet project like his Million Dollar Home Page.
-          option:
-            - problem
-            - solution
-            - evaluation
-            - lesson
-          answer: problem
-        - question: His new site is not as successful as his earlier site. Only 6,000 people put their pictures on it.
+        - question: Wynn earned more the two times he changed the minimum bet.
           option:
             - problem
             - solution
             - evaluation
             - lesson
           answer: evaluation
-        - question: Alex tells people, You are a not a failure if you fail. You are learning what works and what doesn't.
+    02:
+      identifier: fourconcepts 02
+      A: Pepsi needed citrus, but no-one grew citrus in the Punjab. Punjab farmers grow rice. They don't know anything about growing citrus trees. Pepsi tried to interest farmers and the Punjab government in growing citrus.
+      B: Pepsi told the Punjab government it would give farmers a good price for citrus. It asked the government to work with farmers to help them produce citrus. The government decided to help the farmers by growing citrus for them.
+      C: The government gave farmers money while the trees were growing. It took the money back when Pepsi paid for the fruit. But there was a lot of corruption and Pepsi didn't pay. The government wants to end the scheme but can't.
+      quiz:
+        - question: The government was unhappy about the result of the project.
+          option:
+            - problem
+            - solution
+            - evaluation
+            - lesson
+          answer: evaluation
+        - question: In Taiwan, the government should give advice, but not money, to farmers.
           option:
             - problem
             - solution
             - evaluation
             - lesson
           answer: lesson
-        - question: Alex decides to collect people's pictures and put them in a `book' on the Internet, a face book.
+        - question: The government helped farmers by growing citrus fruit for them.
+          option:
+            - problem
+            - solution
+            - evaluation
+            - lesson
+          answer: solution
+        - question: There was demand for citrus, but farmers could not grow citrus.
+          option:
+            - problem
+            - solution
+            - evaluation
+            - lesson
+          answer: problem
+    04:
+      identifier: fourconcepts 04
+      A: Alex spends all his time on the Internet. Like everyone, he is always checking his email, or Facebook. He thinks this is good. But he feels it is also good to relax and take a break from being at the computer.
+      B: Alex's aim on the Internet is to do something interesting. He decided to develop a free site that challenged people not to touch the computer. It is very simple. If you can sit and relax for 2 minutes, it says, "Well done."
+      C: In the first month, 2.6 million people visited Alex's relaxation site, but only half were able to sit for 2 minutes. He is happy about the result. He thinks it was a fun, creative project. His aim was not to make money.
+      quiz:
+        - question: Alex developed a site where people do nothing.
+          option:
+            - problem
+            - solution
+            - evaluation
+            - lesson
+          answer: solution
+        - question: Many people spend all their time on the Internet.
+          option:
+            - problem
+            - solution
+            - evaluation
+            - lesson
+          answer: problem
+        - question: 2.6 million people visited Alex's site.
+          option:
+            - problem
+            - solution
+            - evaluation
+            - lesson
+          answer: evaluation
+        - question: You may be able to succeed with a very simple idea.
+          option:
+            - problem
+            - solution
+            - evaluation
+            - lesson
+          answer: lesson
+    05:
+      identifier: fourconcepts 05
+      A: In 2004, Mark started Facebook as a collection of student pictures. His site changed the Internet. In 2005, Alex made a million dollars with the Million Dollar Homepage. But, it didn't change the Internet.
+      B: In 2004-5, the Internet was only websites. Now, it is social. Alex wanted to develop a site that was social like Facebook. He thought of a "face book." He invited 1 million people to put their pictures on his site.
+      C: Alex thought people wanted to look at people's pictures. 6,000 people paid to put their pictures on Alex's site, but then people lost interest. When he made the site free, not many more people uploaded photos. He closed the site down.
+      quiz:
+        - question: Alex wanted to create another successful Internet project.
+          option:
+            - problem
+            - solution
+            - evaluation
+            - lesson
+          answer: problem
+        - question: Only 6,000 people put their pictures on Alex's site.
+          option:
+            - problem
+            - solution
+            - evaluation
+            - lesson
+          answer: evaluation
+        - question: Alex and Dr Bean think, you are a not a failure if you fail.
+          option:
+            - problem
+            - solution
+            - evaluation
+            - lesson
+          answer: lesson
+        - question: Alex decides to invite people to make an Internet "face book".
           option:
             - problem
             - solution
