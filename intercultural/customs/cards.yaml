@@ -343,9 +343,9 @@ yardsale:
           answer  : False
         - question: Alan sells some golf balls to Sam.
           answer  : False
-        - question: Alan buys Sam's golf balls and Claire's books.
+        - question: Alan buys Sam's golf balls \& Claire's books.
           answer  : True
-        - question: Alan plans to sell the golf balls and the books.
+        - question: Alan will sell the golf balls and books.
           answer  : True
 squaredance:
   jigsaw:
@@ -426,4 +426,124 @@ handshake:
         - question: Jimmy doesn't want to fist bump.
           answer  : False
         - question: David and Jimmy don't fist bump.
+          answer  : False
+drivethru:
+  jigsaw:
+    0:
+      identifier: drivethru 0
+      A: You drive into a fast food restaurant and order a hamburger. You pay the cashier. You take your order from the cook and drive away.
+      B: You are a cashier at a drive-in restaurant. A customer drives in and orders some food. She gives you \$5 and you give her \$3 change.
+      C: You are a cook. You cook some hamburger meat. You put it in a bun. You put the hamburger in a bag. You give it to the customer.
+      quiz:
+        - question: A
+          option:
+            - cashier
+            - cook
+            - customer
+          answer: customer
+        - question: B
+          option:
+            - cashier
+            - cook
+            - customer
+          answer: cashier
+        - question: C
+          option:
+            - cashier
+            - cook
+            - customer
+          answer: cook
+        - question: The customer orders a lot of food.
+          answer  : False
+        - question: The customer pays with a \$10 bill.
+          answer  : False
+        - question: The cashier gives her \$3 change.
+          answer  : True
+        - question: The cashier gives her the hamburger.
+          answer  : False
+        - question: The cook cooks the hamburger.
+          answer  : True
+        - question: The cook puts the burger in a bag.
+          answer  : True
+        - question: The customer says, ``Thank you.''
+          answer  : False
+eatingcontest:
+  jigsaw:
+    0:
+      identifier: eatingcontest 0
+      A: You are Japanese. You beat Sonya, and became the new hot-dog eating champion. You ate 65 hot dogs in 10 minutes.
+      B: You are the hot-dog eating champion. You ate 68 hot dogs in 10 minutes. You beat Kobi, who ate 65.
+      C: You are a woman. You were the champion hot dog eater before Kobi became champion. You ate 37 hot dogs in 10 minutes. 
+      quiz:
+        - question: A
+          option:
+            - Joey
+            - Kobi
+            - Sonya
+          answer: Kobi
+        - question: B
+          option:
+            - Joey
+            - Kobi
+            - Sonya
+          answer: Joey
+        - question: C
+          option:
+            - Joey
+            - Kobi
+            - Sonya
+          answer: Sonya
+        - question: Joey is now the hot dog champion.
+          answer  : True
+        - question: Kobi is now the hot dog champion.
+          answer  : False
+        - question: Sonya is now the hot dog champion.
+          answer  : False
+        - question: The record is 65 hot dogs in 10 minutes.
+          answer  : False
+        - question: The first champion was a woman.
+          answer  : True
+        - question: The second champion was Japanese
+          answer  : True
+        - question: The first record was 37 hot dogs.
+          answer  : True
+tailgate:
+  jigsaw:
+    0:
+      identifier: tailgate 0
+      A: You are going to barbecue some hamburgers in the parking lot with Tom, before a football game. You ask your wife, Jane to help.
+      B:  You put some hamburger meat for John with some ice in a cooler. He is going to have a tailgate party before the game.
+      C: You are John's friend. You are going with him to a football game. You take some beer. You will eat and drink before the game.
+      quiz:
+        - question: A
+          option:
+            - Jane
+            - John
+            - Tom
+          answer: John
+        - question: B
+          option:
+            - Jane
+            - John
+            - Tom
+          answer: Jane
+        - question: C
+          option:
+            - Jane
+            - John
+            - Tom
+          answer: Tom
+        - question: John and Tom are going to a game.
+          answer  : True
+        - question: They will eat and drink before the game.
+          answer  : False
+        - question: They will play football.
+          answer  : False
+        - question: Jane prepared some food.
+          answer  : True
+        - question: They will cook in the parking lot.
+          answer  : True
+        - question: They will eat hot dogs and baked beans.
+          answer  : False
+        - question: Tom is John and Jane's son.
           answer  : False
