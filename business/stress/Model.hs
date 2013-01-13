@@ -6,10 +6,7 @@ data Entity	= A | B | C | D | E | F | G
             | H | I | J | K | L | M | N 
             | O | P | Q | R | S | T | U 
             | V | W | X | Y | Z 
-            | AA | BB | CC | DD | EE | FF | GG 
-            | HH | II | JJ | KK | LL | MM | NN 
-            | OO | PP | QQ | RR | SS | TT | UU 
-            | VV | WW | XX | YY | ZZ | Someone | Something | Unspec
+            | Someone | Something | Unspec
      deriving (Eq,Show,Bounded,Enum,Ord)
 
 entities :: [Entity]
