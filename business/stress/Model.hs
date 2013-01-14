@@ -284,8 +284,15 @@ teach_what = forgetful teach
 teach_who = pred2 $ map (\x -> (agent4 x, recipient4 x) ) schooling
 student = pred1 $ map recipient4 schooling
 
+unditrans :: FourPlacePred -> ThreePlacePred
+unditrans r u v w = or ( map ( r u v w ) entities )
+
 forgetful :: ThreePlacePred -> TwoPlacePred
 forgetful r u v = or ( map ( r u v ) entities )
+
+intransit :: TwoPlacePred -> OnePlacePred
+intransit r u = or ( map ( r u ) entities )
+
 passivize :: TwoPlacePred -> OnePlacePred
 passivize r	= \ x -> or ( map ( flip  r x ) entities )
 
