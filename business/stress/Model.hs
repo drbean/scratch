@@ -12,38 +12,36 @@ data Entity	= A | B | C | D | E | F | G
 entities :: [Entity]
 entities	=  [minBound..maxBound] 
 
-
---alice, rex, kelley, judy, rock
---                                                :: Entity
-
 characters :: [ (String, Entity) ]
 
 characters = [
-	( "a",	A ),
-	( "b",	B ),
-	( "c",	C ),
-	( "d",	D ),
-	( "a-ho",	H ),
-	( "ellen",	E ),
+	( "a-ho",	A ),
+	( "ellen_macarthur",	E ),
 	( "dr_bean",	T ),
-	( "steve",	S ),
+	( "steve_fossett",	S ),
 	( "european_campers",	M ),
 	( "carrefour",	F ),
-	( "charles",	J ),
+	( "charles_holden",	J ),
 	( "jacques",	Q ),
 	( "olivier",	V ),
 	( "todd",	O ),
 	( "alan",	L ),
 	( "david",	I ),
-	( "dot",	P ),
+	( "dot_gourlay",	G ),
 	( "tan",	N ),
 	( "cusp",	K ),
-	( "slow_living",	G )
+	( "slow_living",	W )
 
 	]
 
 classes :: [String]
 classes = [ "manager", "advertisers", "advertising_space", "business_management", "radio_and_television" ]
+
+lack_of_control	= [C]
+uncertainty	= [U]
+lack_of_support	= [H]
+pressure	= pred1 [P]
+stress	= pred1 [R]
 
 adventurer	= pred1 [S,E]
 teacher	= pred1 [T]
@@ -55,6 +53,7 @@ production_manager	= pred1 [Q]
 salesman	= pred1 [V]
 sales_manager	= pred1 [O]
 customer	= pred1 [F]
+
 context :: [Entity]
 -- context = [A,H,P,F,M]
 context = []
@@ -63,10 +62,7 @@ order	= pred1 [Unspec]
 goods	= pred1 [Unspec]
 company	= pred1 [M,F,Unspec]
 framework	= pred1 [K]
-female	= pred1 []
-male	= pred1 [AF]
-role	= pred1 []
-child	= pred1 []
+
 namelist :: [String]
 namelist = map fst characters
 names :: [(Entity, String)]
@@ -74,6 +70,7 @@ names = map swap characters
 
 angry	= pred1 [Q,V]
 useful	= pred1 [K]
+
 predid1 :: String -> OnePlacePred
 predid2 :: String -> TwoPlacePred
 predid3 :: String -> ThreePlacePred
@@ -95,50 +92,35 @@ predid4 name = lookupPred name fourPlacers where
 	lookupPred n ((name,pred):is) | n == name	= pred
 	lookupPred n (i:is) = lookupPred name is
 
-lack_of_control	= [CC]
-uncertainty	= [UU]
-lack_of_support	= [SS]
-pressure	= pred1 [PP]
-stress	= pred1 [SS]
 large	= order
 brilliant	= salesman
 rude	= brilliant
 best	= rude
-good	= pred1 [AG]
-bad	= pred1 [AB]
 
 onePlacers :: [(String, OnePlacePred)]
 onePlacers = [
 	("true",	pred1 entities)
 	, ("false",	pred1 [])
-	, ("male",	pred1 [A,M,AA,AB,AV])
-	, ("female",	pred1 [])
-	, ("manager",	pred1 [A,M])
-	, ("role",	pred1 [AM])
+	, ("male",	pred1 [S,Q,V,C,O,L,I])
+	, ("female",	pred1 [E,P,N])
+	, ("manager",	pred1 [Q,O])
+	, ("boss",	pred1 $ map fst management)
+	, ("role",	pred1 [])
 	, ("person",	person)
 	, ("thing",	thing)
 
-	, ("good",	pred1 [AG])
-	, ("bad",	pred1 [AB])
+	, ("good",	pred1 [])
+	, ("bad",	pred1 [C,U,H,P,R])
 
 	, ("experiment",	pred1 [H,P,F])
 	, ("successful",	pred1 [H,F])
 	, ("unsuccessful",	pred1 [P])
 	]
 
-
-male	= pred1 [S,Q,V,C,O,L,I]
-female	= pred1 [E,P,N]
-
-boy x	= False
-isMan   = \x -> ( not $ boy x ) && male x
-isGirl  = \x -> False
-isWoman = \x -> ( not $ isGirl x ) && female x
-
-
 type OnePlacePred	= Entity -> Bool
 type TwoPlacePred	= Entity -> Entity -> Bool
 type ThreePlacePred	= Entity -> Entity -> Entity -> Bool
+type FourPlacePred	= Entity -> Entity -> Entity -> Entity -> Bool
 
 list2OnePlacePred :: [Entity] -> OnePlacePred
 list2OnePlacePred xs	= \ x -> elem x xs
@@ -154,7 +136,6 @@ thing	= \ x -> (x == Unspec || x == Something || not ( person x ) )
 -- isMan	= \x -> ( not $ boy x ) && male x
 -- isGirl	= \x -> ( female x && child x )
 -- isWoman	= \x -> ( not $ isGirl x ) && female x
-boss = pred1 $ map fst management
 
 pred2 :: [(Entity,Entity)] -> TwoPlacePred
 pred3 :: [(Entity,Entity,Entity)] -> ThreePlacePred
@@ -215,17 +196,17 @@ fourPlacers = [
 	, ("wanted_to_make",	pred4 $ map (\(a,t,_,p) -> (a,a,p,t)) makings)
 	]
 
-possessions	= [(V,Unspec),(J,M),(D,M),(T,M)]
+possessions	= []
 recruitment	= [(Unspec,Unspec,Unspec)]
 appreciation	= []
 family	= []
 patronage	= []
-acquainted	= [(A,H),(A,P),(A,M),(A,F),(M,H),(M,P),(M,A),(M,F),(AA,H),(AB,H),(AV,H)]
-studies	= [(A,G),(M,AH)]
+acquainted	= []
+studies	= []
 -- (agent,theme,result,aim)
-makings	= [(A,H,O,O),(A,P,Unspec,O),(M,F,O,Unspec)]
-features	= [(H,S),(P,Unspec),(F,S)]
-purchases	= [(AA,S,A,H),(AB,S,A,H),(AV,S,A,H)]
+makings	= []
+features	= []
+purchases	= []
 pay = pred4 $ map (\x -> (agent4 x, provider4 x, theme4 x, purpose4 x) ) purchases
 
 supervisor	= pred1 $ map fst supervision
@@ -246,8 +227,7 @@ wanted_to_make	= pred4 $
 offered_to_buy_from :: FourPlacePred
 offered_to_buy_from	= pred4 []
 
-possessions	= [(A,H),(M,F),(M,O),(AA,O),(AB,O),(AV,O)]
-management	= [(M,F)]
+management	= []
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
@@ -272,7 +252,6 @@ anger = offend
 pressurize = pred2 hotspots
 gave	= pred3 giving
 got	= pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving
-sold	= pred2 $ map (\x -> (agent x, theme x) ) selling
 
 told	= pred3 comms
 
@@ -280,14 +259,17 @@ recite = pred2 $ map ( \x -> (agent x, theme x) ) comms
 --worker	= pred1 $ map patient work
 
 giving	= map (\(a,t,p,_) -> (a,t,p) ) purchases
-comms	= [ (A,AM,H),(A,M,H),(M,A,F) ]
+offenses    = []
+comms	= []
 work	= []
 
 agent4, theme4, recipient4, location4 :: (Entity,Entity,Entity,Entity) -> Entity
-agent4 (a,_,_,_) = a
-location4 (_,l,_,_) = l
-theme4 (_,_,t,_) = t
-recipient4 (_,_,_,r) = r
+agent4 (a,_,_,_)	= a
+theme4 (_,t,_,_)	= t
+recipient4 (_,_,r,_)	= r
+provider4	= recipient4
+location4 (_,_,_,l)	= l
+purpose4	= location4
 aim4	= purpose4
 result4	= recipient4
 
