@@ -1,0 +1,29 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use IO::All;
+use YAML qw/LoadFile DumpFile/;
+use Cwd;
+
+$_REPL->load_plugin('DumpHistory');
+
+(my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
+use Grades;
+my $l = League->new( leagues => '/home/drbean/011', id => $dir );
+my $g = Grades->new({ league => $l });
+my %m = map { $_->{id} => $_ } @{ $l->members };
+my $approach = $l->approach;
+
+my $hw = $g->homeworkPercent;
+my %hw = map { $_ => $g->sprintround( $hw->{$_} ) } keys %$hw;
+my $classwork = $approach->new( league => $l )->totalPercent;
+my %classwork = map { $_ => $g->sprintround( $classwork->{$_} ) } keys %$classwork;
+my $cw = $g->classworkPercent;
+my $grade = $g->grades;
+
+my $ex = $g->examResultsasPercent;
+my %mid_ex = map { $_=> ( $ex->{$_}->[0] + $ex->{$_}->[1] ) / 2 } keys %m;
+my %fi_ex = map { $_=> ( $ex->{$_}->[2] + $ex->{$_}->[3] ) / 2 } keys %m;
+my %chw = map { $_ => ( $hw{$_} + $cw->{$_} ) / 2 } keys %m;
+DumpFile 'grades.txt', \%chw, \%mid_ex, \%fi_ex, $grade;
