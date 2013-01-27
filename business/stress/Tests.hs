@@ -8,6 +8,8 @@ comp_tests = [
 	"Uncertainty was stressful.",
 	"Lack of control was stressful.",
 	"Pressure was stressful."
+	]
+
 --all_tests =
 --		student_tag_tests ++ student_yn_tests ++ student_tests_wh ++
 --		test_text ++ comp_test1 ++ comp_test2 ++ tag_test ++ neg_tag_test ++
@@ -104,41 +106,41 @@ comp_tests = [
 --	]
 
 comp_test1 = [
-	-- "A person was Alex Tew."
-	-- , "Alex Tew was a man."
-	"Alex Tew was a person."
-	, "Alex Tew was a manager."
-	, "Alex Tew was the Million Dollar Homepage."
-	, "Alex Tew was the Million Dollar Homepage's manager."
-	, "Alex Tew was a person."
-	, "Alex Tew was a thing."
+	-- "A person was Steve Fossett."
+	-- , "Steve Fossett was a man."
+	"Steve Fossett was a person."
+	, "Steve Fossett was a manager."
+	, "Steve Fossett was the Million Dollar Homepage."
+	, "Steve Fossett was the Million Dollar Homepage's manager."
+	, "Steve Fossett was a person."
+	, "Steve Fossett was a thing."
 	, "A man was Tadeusz."
 	, "A woman was the Million Dollar Homepage."
 	, "The woman was the Million Dollar Homepage."
-	, "Alex Tew was a German woman."
-	, "Alex Tew was Alex Tew."
-	, "A German woman was Alex Tew."
-	, "A ambitious woman was Alex Tew."
-	, "The ambitious woman was Alex Tew."
-	, "The German woman was Alex Tew."
-	, "Mark Zuckerberg was Alex Tew's co-worker."
-	, "Mark Zuckerberg was Alex Tew's boss."
+	, "Steve Fossett was a German woman."
+	, "Steve Fossett was Alex Tew."
+	, "A German woman was Steve Fossett."
+	, "A ambitious woman was Steve Fossett."
+	, "The ambitious woman was Steve Fossett."
+	, "The German woman was Steve Fossett."
+	, "Mark Zuckerberg was Steve Fossett's co-worker."
+	, "Mark Zuckerberg was Steve Fossett's boss."
 	, "Mark Zuckerberg was a German woman's boss."
 	, "Mark Zuckerberg was an ambitious woman's boss."
 	, "Mark Zuckerberg was an ambitious woman's co-worker."
 	, "Mark Zuckerberg was the ambitious women's co-worker."
 	, "the Million Dollar Homepage was the ambitious women's co-worker."
 	, "the Million Dollar Homepage was an ambitious woman's co-worker."
-	, "the Million Dollar Homepage was Alex Tew's co-worker."
+	, "the Million Dollar Homepage was Steve Fossett's co-worker."
 	, "the Million Dollar Homepage was a German woman's co-worker."
-	, "the Million Dollar Homepage was Alex Tew's co-worker."
-	, "Mark Zuckerberg was Alex Tew's co-worker."
+	, "the Million Dollar Homepage was Steve Fossett's co-worker."
+	, "Mark Zuckerberg was Steve Fossett's co-worker."
 	, "Mark Zuckerberg was Tadeusz's co-worker."
-	, "Mark Zuckerberg was Alex Tew's boss."
+	, "Mark Zuckerberg was Steve Fossett's boss."
 	, "Mark Zuckerberg was the Million Dollar Homepage's boss."
-	, "Alex Tew was the Million Dollar Homepage's boss."
-	, "Alex Tew was the Million Dollar Homepage's co-worker."
-	, "Alex Tew was Mark Zuckerberg's co-worker."
+	, "Steve Fossett was the Million Dollar Homepage's boss."
+	, "Steve Fossett was the Million Dollar Homepage's co-worker."
+	, "Steve Fossett was Mark Zuckerberg's co-worker."
 	, "Some women were ambitious."
 	, "Mark Zuckerberg was a co-worker and the Million Dollar Homepage was a co-worker."
 	, "Mark Zuckerberg was a woman and the Million Dollar Homepage was a woman"
@@ -210,7 +212,7 @@ neg_tag_test = [
 
 experiment	= [
 	"Was the Million Dollar Homepage a successful experiment?"
-	, "Alex Tew was a successful person."
+	, "Steve Fossett was a successful person."
 	, "The experiment was successful."
 	, "An experiment was successful."
 	, "Was the experiment successful?"
@@ -220,29 +222,29 @@ experiment	= [
 	, "The One Million People Page was successful."
 	]
 talks = [
-	"Did Alex Tew talk to someone about the Million Dollar Homepage?"
-	, "Did Alex Tew talk to radio and television about the Million Dollar Homepage?"
-	, "Did Alex Tew talk to the media about the Million Dollar Homepage?"
-	, "Did Alex Tew talk to the media?"
-	, "Did Alex Tew promote the website on the media?"
-	, "Did Alex Tew promote the Million Dollar Homepage on the media?"
-	, "Did Alex Tew promote the Million Dollar Homepage on radio and television?"
-	, "Alex Tew promoted the Million Dollar Homepage on radio and television."
-	, "Did Alex Tew promote the website on radio and television?"
-	, "Did Alex Tew promote the website on the radio and television?"
+	"Did Steve Fossett talk to someone about the Million Dollar Homepage?"
+	, "Did Steve Fossett talk to radio and television about the Million Dollar Homepage?"
+	, "Did Steve Fossett talk to the media about the Million Dollar Homepage?"
+	, "Did Steve Fossett talk to the media?"
+	, "Did Steve Fossett promote the website on the media?"
+	, "Did Steve Fossett promote the Million Dollar Homepage on the media?"
+	, "Did Steve Fossett promote the Million Dollar Homepage on radio and television?"
+	, "Steve Fossett promoted the Million Dollar Homepage on radio and television."
+	, "Did Steve Fossett promote the website on radio and television?"
+	, "Did Steve Fossett promote the website on the radio and television?"
 	]
 
 wants = [
 	"Did advertisers want advertising space?"
-	, "Did advertisers want advertising space from Alex Tew?"
+	, "Did advertisers want advertising space from Steve Fossett?"
 	]
 
 studies = [
-	"Did Alex Tew study?"
-	, "Did Alex Tew study business management?"
-	, "Did Alex Tew want to study?"
-	, "Did Alex Tew want to study something?"
-	, "Did Alex Tew want to study business management?"
+	"Did Steve Fossett study?"
+	, "Did Steve Fossett study business management?"
+	, "Did Steve Fossett want to study?"
+	, "Did Steve Fossett want to study something?"
+	, "Did Steve Fossett want to study business management?"
 	, "Did Mark Zuckerberg study?"
 	, "Did Mark Zuckerberg study something?"
 	, "Did Mark Zuckerberg want to study?"
@@ -254,33 +256,33 @@ studies = [
 
 buys_sells = [
 	"Did advertisers buy?"
-	, "Did advertisers buy from Alex Tew?"
+	, "Did advertisers buy from Steve Fossett?"
 	, "Did advertisers buy advertising space?"
-	, "Did advertisers buy advertising space from Alex Tew?"
-	, "Did advertisers want to buy from Alex Tew?"
-	, "Advertisers wanted to buy from Alex Tew?"
-	, "Advertisers wanted to buy advertising space from Alex Tew on the Million Dollar Homepage."
-	, "Did Alex Tew sell advertising space to advertisers?"
-	, "Did Alex Tew sell to advertisers?"
-	, "Did Alex Tew sell advertising space?"
+	, "Did advertisers buy advertising space from Steve Fossett?"
+	, "Did advertisers want to buy from Steve Fossett?"
+	, "Advertisers wanted to buy from Steve Fossett?"
+	, "Advertisers wanted to buy advertising space from Steve Fossett on the Million Dollar Homepage."
+	, "Did Steve Fossett sell advertising space to advertisers?"
+	, "Did Steve Fossett sell to advertisers?"
+	, "Did Steve Fossett sell advertising space?"
 	, "Did he sell advertising space?"
 	, "Did the Million Dollar Homepage sell advertising space?"
-	, "Did Alex Tew sell advertising space to advertisers on the Million Dollar Homepage?"
+	, "Did Steve Fossett sell advertising space to advertisers on the Million Dollar Homepage?"
 	, "Did Mark_Zuckerberg sell radio_and_television?"
 	]
 
 makes = [
-	"Did Alex Tew make the Million Dollar Homepage?"
+	"Did Steve Fossett make the Million Dollar Homepage?"
 	, "Did Mark Zuckerberg make the Million Dollar Homepage?"
-	, "Did advertisers decide Alex Tew to make the Million Dollar Homepage?"
+	, "Did advertisers decide Steve Fossett to make the Million Dollar Homepage?"
 	, "Did advertisers decide Mark Zuckerberg to make the Million Dollar Homepage?"
-	, "Did Alex Tew decide the Million Dollar Homepage to make with advertising space?"
+	, "Did Steve Fossett decide the Million Dollar Homepage to make with advertising space?"
 	, "Did Mark Zuckerberg decide to make the Million Dollar Homepage?"
-	, "Did Alex Tew decide to make the Million Dollar Homepage?"
-	, "Did Alex Tew decide to make the Million Dollar Homepage with advertising space?"
-	, "Did Alex Tew want to make money?"
-	, "Did Alex Tew want to make money from the Million Dollar Homepage?"
-	, "Did Alex Tew want to make money with the Million Dollar Homepage?"
+	, "Did Steve Fossett decide to make the Million Dollar Homepage?"
+	, "Did Steve Fossett decide to make the Million Dollar Homepage with advertising space?"
+	, "Did Steve Fossett want to make money?"
+	, "Did Steve Fossett want to make money from the Million Dollar Homepage?"
+	, "Did Steve Fossett want to make money with the Million Dollar Homepage?"
 	, "Did Mark Zuckerberg want to make money?"
 	]
 
@@ -294,20 +296,20 @@ helps = [
 	]
 
 pays = [
-	"Did advertisers on Alex Tew's website pay Alex Tew a good price?"
+	"Did advertisers on Steve Fossett's website pay Alex Tew a good price?"
 	, "Did advertisers pay a good price?"
-	, "Did advertisers pay Alex Tew a good price for advertising space?"
+	, "Did advertisers pay Steve Fossett a good price for advertising space?"
 	]
 
 haves = [
-	"Did Alex Tew have a good idea after the Million Dollar Homepage?"
+	"Did Steve Fossett have a good idea after the Million Dollar Homepage?"
 	]
 
 knows = [
-	"Alex Tew knew Mark Zuckerberg?"
-	, "Mark Zuckerberg knew about Alex Tew."
-	, "The One Million People Page knew about Alex Tew."
-	, "Did Facebook know about Alex Tew?"
+	"Steve Fossett knew Mark Zuckerberg?"
+	, "Mark Zuckerberg knew about Steve Fossett."
+	, "The One Million People Page knew about Steve Fossett."
+	, "Did Facebook know about Steve Fossett?"
 	, "Did people know Mark Zuckerberg?"
 	, "Did people know about Mark Zuckerberg?"
 	, "Did a manager know about Mark Zuckerberg?"
@@ -474,7 +476,7 @@ ditransitive_tests = [
 
 wh_questions =[
 	"Which website did Mark Zuckerberg found?"
-	, "Which website did Alex Tew found?"
+	, "Which website did Steve Fossett found?"
 --	"Who worked?",
 --	"Who did Eva teach?",
 --	"Who taught Eva?",
@@ -601,8 +603,8 @@ to_inf_test_yn = [
 	]
 
 to_inf_test_tag = [
-	"Alex Tew wanted to make money, didn't he?"
-	, "Alex Tew decided to make a website, didn't he?"
+	"Steve Fossett wanted to make money, didn't he?"
+	, "Steve Fossett decided to make a website, didn't he?"
 	, "Some advertisers wanted to buy advertising space on the Million Dollar Homepage, didn't they?"
 	]
 
