@@ -1,5 +1,6 @@
 module Parsing where
 
+import Data.List
 import Data.Char
 
 data ParseTree a b =  Ep | Leaf a | Branch b [ParseTree a b] 
@@ -216,7 +217,12 @@ preproc ("forty-two":"years":"old":xs)	= "forty-two_years_old" : preproc xs
 preproc ("the":"united":"states":xs)	= "the_united_states" : preproc xs
 
 preproc ("dr":"bean":xs)	= "dr_bean" : preproc xs
+preproc ("steve":"fossett":xs)	= "steve_fossett" : preproc xs
+preproc ("ellen":"macarthur":xs)	= "ellen_macarthur" : preproc xs
 preproc ("european":"campers":xs)	= "european_campers" : preproc xs
+preproc ("charles":"holden":xs)	= "charles_holden" : preproc xs
+preproc ("dot":"gourlay":xs)	= "dot_gourlay" : preproc xs
+
 preproc ("office":"worker":xs)	= "office_worker" : preproc xs
 preproc ("production":"manager":xs)	= "production_manager" : preproc xs
 preproc ("sales":"manager":xs)	= "sales_manager" : preproc xs
@@ -538,8 +544,9 @@ copR :: SPARSER Cat Cat
 copR = \us xs -> [(Branch (Cat "_" "VP" (fs (t2c cop)) []) [cop,Branch (Cat "_" "COMP" [] []) [comp]],ws,zs) |
 	(cop,vs,ys)  <- prsCOP us xs,
 	tag          <- [Cat (phon (t2c cop)) (catLabel(t2c cop)) (balancefs cop) [] ],
-	(comp,ws,zs) <- case us of [Cat _ "NP" _ _] -> push tag prsCOMP vs ys;
-						otherwise -> prsCOMP vs ys,
+	(comp,ws,zs) <- case us of
+		[Cat _ "NP" _ _] -> push tag prsCOMP vs ys
+		otherwise -> prsCOMP vs ys,
 	subcatlist   <- [subcatList (t2c cop)],
 	match subcatlist [t2c comp]
 		]
@@ -589,8 +596,9 @@ vp3R = \us xs ->
 finVpR :: SPARSER Cat Cat
 finVpR = \us xs -> [(vp',vs,ys) | 
 		tag        <- [Cat "didn't" "AUX" [ Ng ] [] ],
-                (vp,vs,ys) <- case us of [Cat _ "NP" _ _] -> push tag vpR us xs;
-                                                otherwise -> vpR us xs,
+                (vp,vs,ys) <- case us of
+			[Cat _ "NP" _ _] -> push tag vpR us xs
+			otherwise -> vpR us xs,
 		vp'        <- assignT Tense vp ]
 
 auxVpR :: SPARSER Cat Cat
@@ -598,8 +606,9 @@ auxVpR = \us xs -> [ (Branch (Cat "_" "VP" (fs (t2c aux)) [])
 	[aux,inf'], ws, zs) | 
 	(aux,vs,ys) <- prsAUX us xs,
 	tag        <- [Cat (phon (t2c aux)) (catLabel(t2c aux)) (balancefs aux) []],
-	(inf,ws,zs) <- case us of [Cat _ "NP" _ _] -> push tag vpR vs ys;
-						otherwise -> vpR vs ys,
+	(inf,ws,zs) <- case us of
+		[Cat _ "NP" _ _] -> push tag vpR vs ys
+		otherwise -> vpR vs ys,
 	inf'       <- assignT Infl inf ] 
 
 prsAUX :: SPARSER Cat Cat
