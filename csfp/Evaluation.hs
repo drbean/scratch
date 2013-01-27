@@ -313,10 +313,11 @@ intNP (Leaf (Cat name "NP" _ _))
 		    in p i c'
 -- intNP (PRO i)       = \ p c ->  p i c 
 intNP (Branch (Cat _ "NP" _ _) [det,cn]) = (intDET det) (intCN cn) 
+--intNP (Branch (Cat _ "NP" _ _) [det,Leaf (Cat a "ADJ" _ _),cn]) = 
+--	\i -> exists && `conj` (blowupPred a i) (intDET det) (intCN cn)
+                (exists `conj` (phi i) `conj` (psi i)) c
 --intNP (Branch (Cat _ "NP" _ _) [np,Leaf (Cat "'s" "APOS" _ _),cn]) =
 --	\p c b -> concat [p i c b | any (\thing -> p thing && intCN cn thing && intNP np (\owner -> int "had" [owner, thing])) 
---intNP (Branch (Cat _ "NP" _ _) [det,Leaf (Cat a "ADJ" _ _),cn]) = 
---	exists `conj` intDET det
 
 type PP = ParseTree Cat Cat
 intPP :: PP -> (Idx -> Trans) -> Trans
@@ -417,8 +418,8 @@ intAT at@(Branch (Cat _ "AT" _ _)
 type CN = ParseTree Cat Cat
 intCN :: CN -> Idx -> Trans
 intCN (Leaf   (Cat name "CN" _ _))     = blowupPred name
-intCN (Branch (Cat _    "CN" _ _) [cn,ofpos,np]) =
-    \x y -> exists `conj` intCN x `conj` intNP np (\thing -> predid2 "had" [x, thing])
+--intCN (Branch (Cat _    "CN" _ _) [cn,ofpos,np]) =
+--    \x y -> exists `conj` intCN x `conj` intNP np (\thing -> predid2 "had" [x, thing])
 
 unique :: Idx -> Trans -> Trans
 unique i phi c b = 
