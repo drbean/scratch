@@ -187,12 +187,12 @@ threePlacers = [
 hotspots	= [(V,Q),(Q,O),(O,V),(V,O)]
 
 fourPlacers = [
-	("buy",	pred4 $ map (\x -> (agent4 x, theme4 x, provider4 x, location4 x)
-				) purchases ++
+	("get",	pred4 $ map (\x -> (agent4 x, theme4 x, provider4 x, location4 x)
+				) services ++
 			map (\x -> (agent4 x, provider4 x, theme4 x, location4 x)
-				) purchases )
-	, ("sell", pred4 $ foldl (\ss (a,t,p,l) -> (l,t,a,l): (p,t,a,l): (p,t,l,a):
-					ss ) [] purchases)
+				) services )
+	, ("give", pred4 $ foldl (\ss (a,t,p,l) -> (l,t,a,l): (p,t,a,l): (p,t,l,a):
+					ss ) [] services)
 	, ("wanted_to_make",	pred4 $ map (\(a,t,_,p) -> (a,a,p,t)) makings)
 	]
 
@@ -206,8 +206,8 @@ studies	= []
 -- (agent,theme,result,aim)
 makings	= []
 features	= []
-purchases	= []
-pay = pred4 $ map (\x -> (agent4 x, provider4 x, theme4 x, purpose4 x) ) purchases
+services	= []
+pay = pred4 $ map (\x -> (agent4 x, provider4 x, theme4 x, purpose4 x) ) services
 
 supervisor	= pred1 $ map fst supervision
 boss	= supervisor
@@ -216,16 +216,16 @@ employee	= subordinate
 manager = boss
 
 
-wanted_to_buy :: FourPlacePred
-wanted_to_buy	= pred4 $
-	foldl ( \ps (a,t,p,l)  -> (a,a,t,p):(a,a,p,t):ps ) [] purchases
+wanted_to_get :: FourPlacePred
+wanted_to_get	= pred4 $
+	foldl ( \ps (a,t,p,l)  -> (a,a,t,p):(a,a,p,t):ps ) [] services
 
 wanted_to_make :: FourPlacePred
 wanted_to_make	= pred4 $
-	map ( \x -> (agent4 x, agent4 x, theme4 x, provider4 x) ) purchases
+	map ( \x -> (agent4 x, agent4 x, theme4 x, provider4 x) ) services
 
-offered_to_buy_from :: FourPlacePred
-offered_to_buy_from	= pred4 []
+offered_to_get_from :: FourPlacePred
+offered_to_get_from	= pred4 []
 
 management	= []
 
@@ -252,13 +252,14 @@ anger = offend
 pressurize = pred2 hotspots
 gave	= pred3 giving
 got	= pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving
+wanted	= got
 
 told	= pred3 comms
 
 recite = pred2 $ map ( \x -> (agent x, theme x) ) comms
 --worker	= pred1 $ map patient work
 
-giving	= map (\(a,t,p,_) -> (a,t,p) ) purchases
+giving	= map (\(a,t,p,_) -> (a,t,p) ) services
 offenses    = []
 comms	= []
 work	= []
