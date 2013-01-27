@@ -4,7 +4,7 @@ import GHC.IO.Handle
 import System.IO
 
 import Parsing
-import LogicalForm
+import Evaluation
 
 yesorno :: Answer -> String
 yesorno (Boolean False) = "No"
