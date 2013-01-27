@@ -7,9 +7,9 @@ import Model
 
 objects, relations :: [( String, [Entity] -> Bool)]
 objects = [
-	( "worker",	\ [x] -> worker x	)
+	--( "worker",	\ [x] -> worker x	)
+	( "manager",	\[x]	-> predid1 "manager" x	)
 	, ( "role",	\[x]	-> predid1 "role" x	)
-	, ( "money",	\[x]	-> predid1 "money" x	)
  ]
 
 inflections :: [(String, String)]
@@ -23,7 +23,7 @@ inflections = [
 relations = [
 
 	( "know", \[x,y] -> predid2 "know" y x ),
-	( "talk",	\args -> case args of 
+	( "talked",	\args -> case args of 
 		[x,y] -> predid2 "talk_with_or_about" y x
 		[x,y,z] -> predid3 "talk_with_about" z y x	),
 	( "asked", \args -> case args of
