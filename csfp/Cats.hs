@@ -288,7 +288,7 @@ preps = [
 	[Cat "after"   "PREP" [After]   []],
 	[Cat "as"   "PREP" [As]   []],
 	[Cat "at"   "PREP" [At]   []],
-	-- [Cat "because_of"   "PREP" [BecauseOf]   []],
+	[Cat "because_of"   "PREP" [BecauseOf]   []],
 	[Cat "by"   "PREP" [By]   []],
 	[Cat "for"  "PREP" [For]  []],
 	[Cat "from" "PREP" [From] []],
