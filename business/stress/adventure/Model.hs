@@ -118,10 +118,11 @@ pred2 xs	= curry ( `elem` xs )
 pred3 xs	= curry3 ( `elem` xs )
 pred4 xs	= curry4 ( `elem` xs )
 
-
+twoPlacers :: [(String, TwoPlacePred)]
 twoPlacers = [
 	("know",	pred2 $ acquainted ++ map swap acquainted)
 	, ("have",	pred2 $ possessions ++ leadership ++ features)
+    , ("cause_stress",	pred2 causes )
 	, ("help",	pred2 [])
 	, ("said",	pred2 $ map (\x->(agent x, theme x) ) comms)
 	, ("asked",	pred2 $ map (\x->(agent x, recipient x) ) comms)
@@ -194,7 +195,6 @@ leader	= supported
 team_member	= supporter
 
 feel_stress	= pred1 $ map fst causes
-cause_stress	= pred2 causes
 circumnavigate = pred2 circumnavigations
 fly_around_in	= pred3 $ map (\x -> (fst x,W,snd x) ) $ filter (\x -> snd x == B || snd x == P)
 			circumnavigations
