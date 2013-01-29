@@ -2,7 +2,7 @@ module Story_Interpretation where
 
 import Model
 
-story_objects = [
+objects = [
 	( "adventurer",	\[x]	-> predid1 "adventurer" ),
 	( "teacher",	\[x]	-> predid1 "teacher" ),
 
@@ -19,7 +19,7 @@ story_objects = [
 
 	]
 
-story_inflections = [
+inflections = [
  ( "adventurers", "adventurer" ),
  ( "feel_stress", "felt_stress" ),
  ( "sailed", "sail" ),
@@ -27,13 +27,13 @@ story_inflections = [
 
  ]
 
-story_relations = [
+relations = [
 	( "useful",	\[x]	-> predid1 "useful" ),
 
 	( "felt_stress",	\args -> case args of
-		[x,y] -> predid2 "cause_stress" y x
-		[x] -> predid1 "feel_stress" x ),
-	( "put_pressure",	\[x,y]	-> pressurize y x	),
+		[x,y] -> predid2 "cause_stress" y x ),
+		-- [x] -> predid1 "feel_stress" x ),
+	-- ( "put_pressure",	\[x,y]	-> pressurize y x	),
 	( "sail",	\args -> case args of [x,y] -> sail_around y x; [x,y,z] -> sail_around_in z y x	),
 	( "fly",	\args -> case args of [x,y] -> fly_around y x; [x,y,z] -> fly_around_in z y x	),
 	( "anger",	\[x,y]	-> anger y x	)
