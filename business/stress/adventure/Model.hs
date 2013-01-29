@@ -89,7 +89,7 @@ onePlacers = [
 	, ("male",	pred1 [S,Q,V,C,O,L,I])
 	, ("female",	pred1 [E,P,N])
 	, ("manager",	pred1 [Q,O])
-	, ("boss",	pred1 $ map fst management)
+	, ("leader",	pred1 $ map fst leadership)
 	, ("role",	pred1 [])
 	, ("person",	person)
 	, ("thing",	thing)
@@ -126,7 +126,7 @@ pred4 xs	= curry4 ( `elem` xs )
 
 twoPlacers = [
 	("know",	pred2 $ acquainted ++ map swap acquainted)
-	, ("have",	pred2 $ possessions ++ management ++ features)
+	, ("have",	pred2 $ possessions ++ leadership ++ features)
 	, ("help",	pred2 [])
 	, ("said",	pred2 $ map (\x->(agent x, theme x) ) comms)
 	, ("asked",	pred2 $ map (\x->(agent x, recipient x) ) comms)
