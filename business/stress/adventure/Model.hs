@@ -31,12 +31,6 @@ characters = [
 classes :: [String]
 classes = [ "manager", "advertisers", "advertising_space", "business_management", "radio_and_television" ]
 
-lack_of_control	= [C]
-uncertainty	= [U]
-lack_of_support	= [S]
-pressure	= pred1 [P]
-stress	= pred1 [R]
-
 plane = predid1 "poweredcraft"
 
 framework	= pred1 [K]
@@ -71,29 +65,35 @@ predid4 name = lookupPred name fourPlacers where
 
 onePlacers :: [(String, OnePlacePred)]
 onePlacers = [
-	("true",	pred1 entities)
-	, ("false",	pred1 [])
-	, ("male",	pred1 [F,T])
-	, ("female",	pred1 [M])
-	, ("leader",	pred1 $ map fst leadership)
-	, ("adventurer",	pred1 $ map fst leadership)
-	, ("financial_trader",	pred1 [F])
-	, ("teacher",	pred1 [T])
-	, ("team",	pred1 [Someone,Someone])
-	, ("role",	pred1 [])
-	, ("person",	person)
-	, ("thing",	thing)
+	("true",	pred1 entities )
+	, ("false",	pred1 [] )
+	, ("male",	pred1 [F,T] )
+	, ("female",	pred1 [M] )
+	, ("leader",	pred1 $ map fst leadership )
+	, ("adventurer",	pred1 $ map fst leadership )
+	, ("financial_trader",	pred1 [F] )
+	, ("teacher",	pred1 [T] )
+	, ("team",	pred1 [Someone,Someone] )
+	, ("role",	pred1 [] )
+	, ("person",	person )
+	, ("thing",	thing )
 
-	, ("good",	pred1 [])
-	, ("bad",	pred1 [C,U,S,P,R])
+    , ("lack_of_control",	pred1 [C] )
+    , ("uncertainty",	pred1 [U] )
+    , ("lack_of_support",	pred1 [S] )
+    , ("pressure",	pred1 [P] )
+    , ("stress",	pred1 [R] )
 
-    , ("balloon",   pred1 [B])
-    , ("glider",    pred1 [G])
-    , ("poweredcraft",	pred1 [P])
-    , ("aircraft",  pred1 [B,P,G])
-    , ("boat",	pred1 [Y])
+	, ("good",	pred1 [] )
+	, ("bad",	pred1 [C,U,S,P,R] )
 
-    , ("world",	pred1 [W])
+    , ("balloon",   pred1 [B] )
+    , ("glider",    pred1 [G] )
+    , ("poweredcraft",	pred1 [P] )
+    , ("aircraft",  pred1 [B,P,G] )
+    , ("boat",	pred1 [Y] )
+
+    , ("world",	pred1 [W] )
 
 	]
 
