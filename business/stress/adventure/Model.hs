@@ -162,7 +162,6 @@ threePlacers = [
 -- support	= [(Unspec,E)]
 --(pressurizer,pressured)
 hotspots	= []
-adventure	= [(F,S,W,O,Y)]
 
 fourPlacers = [
 	("get",	pred4 $ map (\x -> (agent4 x, theme4 x, provider4 x, location4 x)
@@ -287,16 +286,6 @@ location4 (_,_,_,l)	= l
 purpose4	= location4
 aim4	= purpose4
 result4	= recipient4
-
-agent5, theme5, recipient5, location5 :: (Entity,Entity,Entity,Entity,Entity) -> Entity
-agent5 (a,_,_,_,_)	= a
-theme5 (_,t,_,_,_)	= t
-recipient5 (_,_,_,r,_)	= r
-provider5	= recipient5
-location5 (_,_,_,_,l)	= l
-purpose5	= location5
-aim5	= purpose5
-result5	= recipient5
 
 forgetful4 :: FourPlacePred -> ThreePlacePred
 forgetful4 r u v w = or ( map ( r u v w ) entities )
