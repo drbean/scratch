@@ -42,22 +42,22 @@ objects = [
 	]
 
 inflections = [
- ( "adventurers", "adventurer" ),
- ( "teachers", "teacher" ),
- ( "psychologists", "psychologist" ),
- ( "doctors", "doctor" ),
- ( "office_workers", "office_worker" ),
- ( "ceos", "ceo" ),
- ( "production_managers", "production_manager" ),
- ( "salesmen", "salesman" ),
- ( "sales_managers", "sales_manager" ),
- ( "customers", "customer" ),
+ ( "adventurers", "adventurer" )
+ , ( "teachers", "teacher" )
+ , ( "psychologists", "psychologist" )
+ , ( "doctors", "doctor" )
+ , ( "office_workers", "office_worker" )
+ , ( "ceos", "ceo" )
+ , ( "production_managers", "production_manager" )
+ , ( "salesmen", "salesman" )
+ , ( "sales_managers", "sales_manager" )
+ , ( "customers", "customer" )
  , ( "promoted", "talked" )
  , ( "promote", "talked" )
- ( "orders", "order" ),
- ( "goods", "good" ),
- ( "companies", "company" ),
- ( "frameworks", "framework" )
+ , ( "orders", "order" )
+ , ( "goods", "good" )
+ , ( "companies", "company" )
+ , ( "frameworks", "framework" )
  ]
 
 relations = [
@@ -73,23 +73,21 @@ relations = [
 		[x] -> (intransit . forgetful . unditrans)  pay x )
 	, ( "have_to_pay",	\args -> case args of
 		[x,y,z] -> predid3 "have_to_pay" z y x )
- ]
-
 	, ( "offered_to_buy", \args -> case args of 
 		[x,y,z] -> predid3 "offered_to_buy" z y x
 		[x,y,z,w] -> offered_to_buy_from w z y x )
-	( "angry",	\[x]	-> angry x	),
-	( "brilliant",	\[x]	-> brilliant x	),
-	--( "stressful",	\[x]	-> stressful x	),
-	( "useful",	\[x]	-> useful x	),
+	, ( "angry",	\[x]	-> angry x	)
+	, ( "brilliant",	\[x]	-> brilliant x	)
+	, ( "stressful",	\[x]	-> stressful x	)
+	, ( "useful",	\[x]	-> useful x	)
 	, ( "buy", \args -> case args of 
 		[x,y,z,w] -> predid4 "buy" w z y x
 		[x,y,z] -> (unditrans . predid4) "buy" z y x
 		[x,y] -> (forgetful . unditrans . predid4) "buy" y x
 		[x] -> (intransit . forgetful . unditrans . predid4) "buy" x )
 
-	( "put_pressure",	\[x,y]	-> pressurize y x	),
-	( "anger",	\[x,y]	-> anger y x	)
+	, ( "put_pressure",	\[x,y]	-> pressurize y x	)
+	, ( "anger",	\[x,y]	-> anger y x	)
 	, ( "wanted_to_pay", \args -> case args of 
 		[x,y,z] -> predid3 "wanted_to_pay" z y x )
 
