@@ -3,19 +3,19 @@ module Story_Interpretation where
 import Model
 
 story_objects = [
-	( "adventurer",	\[x]	-> adventurer x	),
-	( "teacher",	\[x]	-> teacher x	),
+	( "adventurer",	\[x]	-> predid1 "adventurer" ),
+	( "teacher",	\[x]	-> predid1 "teacher" ),
 
-	( "lack_of_control",	\[x] -> lack_of_control x	),
-	( "uncertainty",	\[x] -> uncertainty x	),
-	( "lack_of_support",	\[x] -> lack_of_support x	),
-	( "pressure",	\[x] -> pressure x	),
+	( "lack_of_control",	\[x] -> predid1 "lack_of_control" ),
+	( "uncertainty",	\[x] -> predid1 "uncertainty" ),
+	( "lack_of_support",	\[x] -> predid1 "lack_of_support" ),
+	( "pressure",	\[x] -> predid1 "pressure" ),
 
-	( "world",	\[x] -> world x	),
-	( "plane",	\[x] -> plane x	),
-	( "boat",	\[x] -> boat x	),
-	( "glider",	\[x] -> glider x	),
-	( "balloon",	\[x] -> balloon x	)
+	( "world",	\[x] -> predid1 "world" ),
+	( "plane",	\[x] -> predid1 "plane" ),
+	( "boat",	\[x] -> predid1 "boat" ),
+	( "glider",	\[x] -> predid1 "glider" ),
+	( "balloon",	\[x] -> predid1 "balloon" )
 
 	]
 
@@ -28,7 +28,7 @@ story_inflections = [
  ]
 
 story_relations = [
-	( "useful",	\[x]	-> useful x	),
+	( "useful",	\[x]	-> predid1 "useful" ),
 
 	( "felt_stress",	\args -> case args of [x] -> feel_stress x; [x,y] -> cause_stress y x	),
 	( "put_pressure",	\[x,y]	-> pressurize y x	),
