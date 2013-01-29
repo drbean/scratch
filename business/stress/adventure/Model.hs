@@ -37,20 +37,7 @@ lack_of_support	= [S]
 pressure	= pred1 [P]
 stress	= pred1 [R]
 
-adventurer	= pred1 [S,E]
-teacher	= pred1 [T]
-financial_trader = pred1 [S]
-team	= pred1 [Someone,Someone]
-
-balloon = pred1 [B]
-glider	= pred1 [G]
-poweredcraft	= pred1 [P]
-aircraft	= pred1 [B,P,G]
-boat	= pred1 [Y]
-
-plane = poweredcraft
-
-world = pred1 [W]
+plane = predid1 "poweredcraft"
 
 framework	= pred1 [K]
 useful	= framework
@@ -86,20 +73,28 @@ onePlacers :: [(String, OnePlacePred)]
 onePlacers = [
 	("true",	pred1 entities)
 	, ("false",	pred1 [])
-	, ("male",	pred1 [S,Q,V,C,O,L,I])
-	, ("female",	pred1 [E,P,N])
-	, ("manager",	pred1 [Q,O])
+	, ("male",	pred1 [F,T])
+	, ("female",	pred1 [M])
 	, ("leader",	pred1 $ map fst leadership)
+	, ("adventurer",	pred1 $ map fst leadership)
+	, ("financial_trader",	pred1 [F])
+	, ("teacher",	pred1 [T])
+	, ("team",	pred1 [Someone,Someone])
 	, ("role",	pred1 [])
 	, ("person",	person)
 	, ("thing",	thing)
 
 	, ("good",	pred1 [])
-	, ("bad",	pred1 [C,U,H,P,R])
+	, ("bad",	pred1 [C,U,S,P,R])
 
-	, ("experiment",	pred1 [H,P,F])
-	, ("successful",	pred1 [H,F])
-	, ("unsuccessful",	pred1 [P])
+    , ("balloon",   pred1 [B])
+    , ("glider",    pred1 [G])
+    , ("poweredcraft",	pred1 [P])
+    , ("aircraft",  pred1 [B,P,G])
+    , ("boat",	pred1 [Y])
+
+    , ("world",	pred1 [W])
+
 	]
 
 type OnePlacePred	= Entity -> Bool
@@ -318,3 +313,5 @@ passivize4 r = \x y z -> or ( map (\u -> r u x y z ) entities )
 
 self ::  (a -> a -> b) -> a -> b
 self p	= \ x -> p x x 
+
+-- vim: set ts=8 sts=4 sw=4 noet:
