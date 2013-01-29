@@ -21,10 +21,9 @@ entities	=  [minBound..maxBound]
 characters :: [ (String, Entity) ]
 
 characters = [
-	( "ellen_macarthur",	E ),
+	( "ellen_macarthur",	M ),
 	( "dr_bean",	T ),
-	( "steve",	S ),
-	( "steve_fossett",	S ),
+	( "steve_fossett",	F ),
 	( "cusp",	K )
 
 	]
@@ -34,7 +33,7 @@ classes = [ "manager", "advertisers", "advertising_space", "business_management"
 
 lack_of_control	= [C]
 uncertainty	= [U]
-lack_of_support	= [H]
+lack_of_support	= [S]
 pressure	= pred1 [P]
 stress	= pred1 [R]
 
