@@ -293,17 +293,6 @@ purpose4	= location4
 aim4	= purpose4
 result4	= recipient4
 
--- (teacher,school(location),subject,student)
-schooling = [(Unspec,Unspec,V,D)]
-studied = pred3 $ map ( \x -> (recipient4 x, theme4 x, location4 x) )
-				schooling
-studied_what = pred2 $ map (\x -> (recipient4 x, theme4 x) ) schooling
-studied_where = pred2 $ map (\x -> (recipient4 x, location4 x) ) schooling
-teach = pred3 $ map (\x -> (agent4 x, theme4 x, recipient4 x) ) schooling
-teach_what = forgetful3 teach
-teach_who = pred2 $ map (\x -> (agent4 x, recipient4 x) ) schooling
-student = pred1 $ map recipient4 schooling
-
 forgetful4 :: FourPlacePred -> ThreePlacePred
 forgetful4 r u v w = or ( map ( r u v w ) entities )
 
