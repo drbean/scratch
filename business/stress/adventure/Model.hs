@@ -18,9 +18,6 @@ entities :: [Entity]
 entities	=  [minBound..maxBound] 
 
 
---alice, rex, kelley, judy, rock
---                                                :: Entity
-
 characters :: [ (String, Entity) ]
 
 characters = [
