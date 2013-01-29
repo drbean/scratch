@@ -53,12 +53,6 @@ plane = poweredcraft
 
 world = pred1 [W]
 
-lack_of_control	= pred1 [CC]
-uncertainty	= pred1 [UU]
-lack_of_support	= pred1 [SS]
-pressure	= pred1 [PP]
--- stress	= pred1 [SS]
-
 framework	= pred1 [K]
 useful	= framework
 
