@@ -41,7 +41,6 @@ stress	= pred1 [R]
 adventurer	= pred1 [S,E]
 teacher	= pred1 [T]
 financial_trader = pred1 [S]
-student = pred1 [Someone,Some12]
 team	= pred1 [Someone,Someone]
 
 balloon = pred1 [B]
