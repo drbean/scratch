@@ -175,6 +175,7 @@ fourPlacers = [
 circumnavigations	= [(S,B),(S,P),(S,Y),(E,Y)]
 possessions	= []
 recruitment	= []
+support	= [(Unspec,M),(Unspec,F)]
 appreciation	= []
 family	= []
 patronage	= []
@@ -186,11 +187,11 @@ features	= []
 services	= []
 pay = pred4 $ map (\x -> (agent4 x, provider4 x, theme4 x, purpose4 x) ) services
 
-supervisor	= pred1 $ map fst supervision
-boss	= supervisor
-subordinate	= pred1 $ map snd supervision
-employee	= subordinate
-manager = boss
+help	= support
+supporter	= pred1 $ map fst support
+supported	= pred1 $ map snd supporter
+boss	= supported
+employee	= supporter
 
 feel_stress	= pred1 $ map fst stress_causes
 cause_stress	= pred2 stress_causes
@@ -203,8 +204,8 @@ fly_around	= forgetful3 fly_around_in
 sail_around	= forgetful3 sail_around_in
 
 looking	= []
-have	= pred2 $ possessions ++ supervision
-		++ ( map swap $ supervision )
+have	= pred2 $ possessions ++ support
+		++ ( map swap $ support )
 		++ ( map (\x->(recipient x, theme x) ) giving )
 		++ ( map (\x->(agent x,J) ) working )
 		++ ( map (\x->(agent x, patient x) ) recruitment )
@@ -217,7 +218,6 @@ appreciate	= pred2 appreciation
 interview	= pred2 $ map (\x -> (agent x, patient x) ) recruitment
 -- greet	= interview
 look_at	= pred2 $ looking
-help	= pred2 $ supervision
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
@@ -239,7 +239,6 @@ working	= []
 volunteering = []
 comms	= [ (P,Unspec,R) ]
 offenses	= []
-giving	= []
 acceptances = []
 -- (seller, item, buyer)
 selling	= []
