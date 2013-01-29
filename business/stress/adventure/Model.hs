@@ -42,6 +42,7 @@ adventurer	= pred1 [S,E]
 teacher	= pred1 [T]
 financial_trader = pred1 [S]
 student = pred1 [Someone,Some12]
+team	= pred1 [Someone,Someone]
 
 balloon = pred1 [B]
 glider	= pred1 [G]
@@ -206,8 +207,8 @@ fly_around_in	= pred3 $ map (\x -> (fst x,W,snd x) ) $ filter (\x -> snd x == B 
 			circumnavigations
 sail_around_in	= pred3 $ map (\x -> (fst x,W,snd x) ) $ filter (\x -> snd x == Y )
 			circumnavigations
-fly_around	= forgetful fly_around_in
-sail_around	= forgetful sail_around_in
+fly_around	= forgetful3 fly_around_in
+sail_around	= forgetful3 sail_around_in
 
 looking	= []
 have	= pred2 $ possessions ++ supervision
@@ -299,7 +300,7 @@ studied = pred3 $ map ( \x -> (recipient4 x, theme4 x, location4 x) )
 studied_what = pred2 $ map (\x -> (recipient4 x, theme4 x) ) schooling
 studied_where = pred2 $ map (\x -> (recipient4 x, location4 x) ) schooling
 teach = pred3 $ map (\x -> (agent4 x, theme4 x, recipient4 x) ) schooling
-teach_what = forgetful teach
+teach_what = forgetful3 teach
 teach_who = pred2 $ map (\x -> (agent4 x, recipient4 x) ) schooling
 student = pred1 $ map recipient4 schooling
 
