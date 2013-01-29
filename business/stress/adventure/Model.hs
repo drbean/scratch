@@ -270,9 +270,6 @@ offend	= pred2 $ ( map (\x -> (agent x, recipient x) ) offenses ) ++
 anger = offend
 
 pressurize = pred2 hotspots
-gave	= pred3 giving
-got	= pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving
-wanted	= got
 
 told	= pred3 comms
 
