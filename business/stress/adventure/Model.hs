@@ -192,7 +192,7 @@ pay = pred4 $ map (\x -> (agent4 x, provider4 x, theme4 x, purpose4 x) ) service
 
 help	= support
 supporter	= pred1 $ map fst support
-supported	= pred1 $ map snd supporter
+supported	= pred1 $ map snd support
 leader	= supported
 team_member	= supporter
 
