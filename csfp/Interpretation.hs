@@ -49,11 +49,11 @@ relations = [
  --       [x,y] -> predid2 "work_where" y x || predid2 "work_as" y x ),
  ( "wanted", \args -> case args of 
 	[x,y,z,w] -> wanted w z y x
-	[x,y,z] -> unditrans wanted z y x
-	[x,y]	-> (forgetful . unditrans ) wanted y x ),
+	[x,y,z] -> forgetful4 wanted z y x
+	[x,y]	-> (forgetful3 . forgetful4 ) wanted y x ),
  ( "got", \args -> case args of
  	[x,y,z] -> predid3 "got" z y x
- 	[x,y] -> forgetful (predid3 "got") y x )
+ 	[x,y] -> forgetful3 (predid3 "got") y x )
  ]
 
 -- vim: set ts=8 sts=4 sw=4 noet:
