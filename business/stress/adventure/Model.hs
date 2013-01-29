@@ -141,7 +141,9 @@ twoPlacers = [
 
 -- stressful :: [(Entity, Entity)] -> Bool
 -- stressful = \ x -> ( x `elem` [control, uncertainty, support, pressure] &&
--- 			( not $ null x ) )
+
+causes = [(C,R),(U,R),(S,R),(P,R)]
+
 threePlacers = [
 	("finish",	pred3 [])
 	, ("make",	pred3 $
@@ -193,8 +195,8 @@ supported	= pred1 $ map snd supporter
 boss	= supported
 employee	= supporter
 
-feel_stress	= pred1 $ map fst stress_causes
-cause_stress	= pred2 stress_causes
+feel_stress	= pred1 $ map fst causes
+cause_stress	= pred2 causes
 circumnavigate = pred2 circumnavigations
 fly_around_in	= pred3 $ map (\x -> (fst x,W,snd x) ) $ filter (\x -> snd x == B || snd x == P)
 			circumnavigations
