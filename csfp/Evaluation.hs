@@ -27,6 +27,11 @@ lexicon lexeme = maybe unknownWord id $
 	++ prons ++ reflexives
 	where unknownWord = [Cat "" "" [] []]
 
+inttuples :: [(String, [Entity] -> Bool) ]
+inttuples = objects ++ relations ++ Story.objects ++ Story.relations
+			    ++ Topic.objects ++ Topic.relations
+infltuples = inflections ++ Topic.inflections ++ Story.inflections 
+
 type Interp a	= String -> [a] -> Bool
 int :: Interp Entity
 int word = int' word inttuples infltuples where 
@@ -46,11 +51,6 @@ parses str = let ws = lexer str
 				 ]
 
 process string = map (\x -> intS x) (parses string)
-
-inttuples :: [(String, [Entity] -> Bool) ]
-inttuples = objects ++ relations ++ Story.objects ++ Story.relations
-			    ++ Topic.objects ++ Topic.relations
-infltuples = inflections ++ Topic.inflections ++ Story.inflections 
 
 singleton :: [a] -> Bool
 singleton [x] = True 
