@@ -5,11 +5,11 @@ import Data.List
 import Data.Maybe
 
 data Entity	= A | B | C | D | E | F | G 
-            | H | I | J | K | L | M | N 
-            | O | P | Q | R | S | T | U 
-            | V | W | X | Y | Z 
-            | Someone | Something | Unspec
-     deriving (Eq,Show,Bounded,Enum,Ord)
+		| H | I | J | K | L | M | N 
+		| O | P | Q | R | S | T | U 
+		| V | W | X | Y | Z 
+		| Someone | Something | Unspec
+		deriving (Eq,Show,Bounded,Enum,Ord)
 
 entities :: [Entity]
 entities	=  [minBound..maxBound] 
