@@ -83,6 +83,7 @@ onePlacers = [
     , ("lack_of_support",	pred1 [S] )
     , ("pressure",	pred1 [P] )
     , ("stress",	pred1 [R] )
+    , ("feel_stress",	pred1 entities )
 
 	, ("good",	pred1 [] )
 	, ("bad",	pred1 [C,U,S,P,R] )
