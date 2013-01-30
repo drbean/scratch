@@ -1,6 +1,6 @@
 module Tests where
 
-import LogicalForm
+import Evaluation
 import Parsing
 
 comp_tests = [
