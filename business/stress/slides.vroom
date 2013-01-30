@@ -1,0 +1,359 @@
+# This is a sample Vroom input file. It should help you get started.
+#
+# Edit this file with your content. Then run `vroom --vroom` to start
+# the show!
+#
+# See `perldoc Vroom::Vroom` for complete details.
+#
+---- config
+# Basic config options.
+title: Stress
+indent: 5
+height: 18
+width: 50
+skip: 0
+
+---- center
+Stress
+
+by Dr Bean
+
+(hint: press the spacebar)
+
+----
+== The unexamined life is not worth living--Socrates
+
+What should be your aim living life, working in business?
+
+To make money, OK.
+
+But also, to examine your actions and thoughts
+
+
+----
+What is stress
+
+A tight, anxious feeling. Not being relaxed.
+
+----
+Stress of students--Stress of workers
+
+Being a worker is more stressful than being a student.
+Teachers don't put as much pressure on students as the boss does on workers.
+
+The performance of the students doesn't hurt the school. But if
+workers do a bad job, the boss makes less money.
+
+So, welcome to the world of work.
+
+----
+Good stress--Bad stress
+
+Some stress is good, exciting. Like playing a game,
+or watching a movie.
+
+A lot of stress, every day is bad. It's not a 
+game. It's life.
+
+----
+== Stressful situations
+
+going finding having making being traveling
+queuing (or, lining up) going
+
+1. _____ to the dentist
+2. _____ in the supermarket
+3. _____ stuck in a traffic jam
+4. _____ a place to park
+5. _____ to the hairdresser
+6. _____ an interview
+7. _____ a speech
+8. _____ by air
+
+----
+== Ways to cope with stress
+
+playing a sport reading eating/drinking having a bath walking
+gardening massage shopping listening to music watching TV
+meditating surfing the Net
+
+----
+== Causes
+
+Pressure from others, environment
+Uncertainty, risk
+Competition
+Lack of support
+No control of situation
+
+CUSP
+
+----
+== Pressure from boss
+
+For example, the boss:
+	i. makes workers do too much work.
+	ii. controls workers too much, giving
+		them no freedom.
+	iii. is unfriendly and critical of workers.
+
+----
+== Pressure from environment
+
+Temperature:	Hot/cold
+Noise:		Noisy/quiet
+Space:		Crowded/roomy
+Privacy:	Own space/Shared space
+Facilities, eg computers
+
+----
+== Uncertainty and risk
+
+For example,
+	Job security is low
+	The future is unclear
+	Management doesn't tell labor
+		what it plans to do
+	The work environment is not safe
+	Work results are either very good or
+		very bad, but it is difficult
+		to predict that result.
+
+----
+== Lack of support
+
+The boss and co-workers cannot (or do not) help
+with problems. They do not encourage or discuss
+results with the workers who produce the results.
+
+----
+== Lack of control
+
+Workers feel they are not effective. They lack control
+over the results of their work.
+
+For example,
+	1. a marketer tries very hard to sell a product
+	   but sales are very bad.
+	2. a researcher tries very hard to develop a new
+	   process, but is not successful.
+	3. an entrepreneur tries very hard to raise money
+	   for a new company, but no one wants to lend
+	   the company money.
+
+----
+== CUSP framework experiment
+
+Is the CUSP framework a good way of thinking about stress?
+
+Who feels the most stress?
+
+One person (or group) experiences one condition.
+The other person (or group) experiences the opposite condition.
+
+For example, I put pressure on X, I don't put it on Y.
+
+After the experiment, X and Y compare the stress they felt. They ask
+each other:
+Did X feel much stress when Dr Bean put much pressure on them?
+Did you feel much stress ... when Dr Bean put pressure on you?
+.. when you didn't know what question Dr Bean would ask?
+.. when you couldn't help each other with the answer?
+
+----
+== Predictions, results
+
+The front half of the room (6-8 groups) will predict,
+the back half will be experimental subjects.
+
+		Predictors		Subjects
+Pressure: Groups Black-BrownBrown	Brown-GreenGreen
+Support:	
+
+----
+== Pressure
+
+Group 1, 2: Asks Dr Bean a question. Dr Bean evaluates the question.
+1. Come on. This is important. Your English isn't very good.
+2. Take your time. It's OK if you don't have a question.
+
+---- skip
+1. A&B 2. C&D
+
+----
+== Lack of Support
+
+Group 1, 2: Dr Bean asks a question
+1. You can discuss the answer.
+2. You cannot discuss the answer with anyone.
+
+---- 
+1. A&B 2. C
+
+1. What is stress?
+2. Who feels more stress, students or workers?
+3. Is some stress good?
+4. Do bosses or teachers put more pressure on people?
+5. If a student fails, does this hurt the school?
+6. If a worker does a bad job, may the company be affected?
+7. Does the money the boss gets depend on whether workers do a good job?
+8. Is playing a game stressful?
+9. Is watching a movie relaxing?
+10. Is the man on the rope enjoying himself?
+11. Is it less stressful if the boss asks the workers to do more?
+12. Is it more stressful working with a group of helpful people?
+13. Is it stressful if other workers don't talk about what they are doing?
+14: Is it less stressful not knowing how to do a good job?
+15: Is it stressful if you don't know what the company's plans are?
+16: Is it stressful if you don't know whether you have a permanent job?
+17. Is it stressful for an entrepreneur raising money?
+18: Is it a good working climate where there is a lot of stress?
+19. Does Dot on the homework soundfile say what stress is?
+20. Can CUSP be used to reduce stress?
+21: Can stress endanger people's health?
+22: Is the CUSP framework based on research and experience?
+23: Are stressful situations high in uncertainty?
+24: Do people feel they have control over what is happening in stressful situations?
+25: Is it stressful if people feel they are receiving support?
+26: Can the wrong kind of support also be effective in reducing stress?
+27: What does the 'C' stand for?
+28: What does the 'U' stand for?
+29: What does the 'S' stand for?
+30: What does the 'P' stand for?
+
+----
+Uncertainty
+
+Group 1, 2: Dr Bean asks a question
+1. Knows who will have to answer the question. DrBean: 'I will tell you the question beforehand.'
+2. Doesn't know. DrBean: 'I will not tell you the question beforehand.'
+
+----
+== Lack of control
+
+Group 1, 2: Dr Bean asks a question
+2. You cannot choose the question.
+1. You can choose the question.
+
+---- skip
+
+1. D 2. A,B,C or D
+
+
+----
+== Pressure
+
+Group 1, 2: Asks Dr Bean a question
+1. Come on. This is important. Your English isn't very good.
+2. Take your time. It's OK if you don't have a question.
+
+---- skip
+1. A&B 2. C&D
+
+----
+== Pressure
+
+Group 1, 2: Asks Dr Bean a question
+1. Come on. This is important. Your English isn't very good.
+2. Take your time. It's OK if you don't have a question.
+
+---- skip
+1. A&B 2. C&D
+
+----
+== Stress cause battleships
+                                People
+
+| Causes of stress      | A | B | C | D |
+|-----------------------+---+---+---+---|
+| 1. Pressure from boss |   |   |   |   |
+| 2. Bad environment    |   |   |   |   |
+| 3. Future uncertainty |   |   |   |   |
+| 4. Lack of support    |   |   |   |   |
+| 5. Lack of control    |   |   |   |   |
+
+----
+== Stress cause questions
+
+Does X feel stress because of pressure from the boss?
+Does X feel stress because of the bad environment?
+Does X feel stress because of uncertainty about the future?
+Does X feel stress because of a lack of support?
+Does X feel stress because of a lack of control?
+
+Is pressure from the boss a reason X feels stress?
+Is pressure from the boss causing X stress?
+Do the causes of the stress X feels include pressure from the boss?
+
+----
+== Summary of card
+
+1. The situation
+  a. What is happening?
+  b. Who are the people?
+2. The problem
+3. The cause
+
+----
+== Solutions: What can they do?
+
+1. jjjjj
+
+----
+== Solutions: What can their companies do?
+
+1. Reduce pressure on them
+2. Be there to talk to them
+3. Increase their sense of control
+4. Keep them informed of what's happening
+
+----
+== Women and stress
+
+Steve Fossett
+http://en.wikipedia.org/wiki/Steve_Fossett
+
+Steve Fossett's Global Flyer
+http://www.youtube.com/watch?v=Ml73lXW_jLs&feature=related
+
+Steve Fossett's Playstation
+http://www.youtube.com/watch?v=95c5ZM_y79U&feature=related
+
+Ellen MacArthur
+http://en.wikipedia.org/wiki/Ellen_MacArthur
+
+Ellen MacArthur
+http://www.youtube.com/watch?v=B31LVMmgUuo
+
+Neal Petersen
+http://www.youtube.com/watch?v=ovhi4Di_GGw&playnext=1&list=PL75865E3F056CE914
+
+----
+== Adventure Stress battleships
+
+CUSP
+
+
+|                 | Lack of |             | Lack of |          |
+|                 | Control | Uncertainty | Support | Pressure |
+|-----------------+---------+-------------+---------+----------+
+| The students    |         |             |         |          |
+| The teacher     |         |             |         |          |
+| Steve Fossett   |         |             |         |          |
+| Ellen MacArthur |         |             |         |          |
+
+----
+== Stress cause questions
+
+Does X feel stress because of lack of control?
+Does X feel stress because of uncertainty?
+Does X feel stress because of lack of support?
+Does X feel stress because of pressure?
+Does X feel stress because of a lack of control?
+
+Is pressure a reason X feels stress?
+Is pressure causing X stress?
+Do the causes of the stress X feels include pressure?
+
+----
+== The End
