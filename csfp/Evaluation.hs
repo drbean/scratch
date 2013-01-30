@@ -27,15 +27,6 @@ lexicon lexeme = maybe unknownWord id $
 	++ prons ++ reflexives
 	where unknownWord = [Cat "" "" [] []]
 
-type Interp a	= String -> [a] -> Bool
-int :: Interp Entity
-int word = int' word inttuples infltuples where 
-	int' w [] []	= error $ "'" ++ w ++ "'" ++ " has no interpretation as 1-place predicate."
-	int' w [] ((infl,word):infls)	| w == infl = int' word inttuples [] 
-		  			| otherwise = int' w [] infls
-	int' w ((word,interp):is) infls	| w == word = interp
-					| otherwise = int' w is infls
-
 parses :: String -> [ParseTree Cat Cat]
 parses str = let ws = lexer str 
              in  [ s | catlist   <- collectCats lexicon ws, 
@@ -49,6 +40,15 @@ inttuples :: [(String, [Entity] -> Bool) ]
 inttuples = objects ++ relations ++ Story.objects ++ Story.relations
 			    ++ Topic.objects ++ Topic.relations
 infltuples = inflections ++ Topic.inflections ++ Story.inflections 
+
+type Interp a	= String -> [a] -> Bool
+int :: Interp Entity
+int word = int' word inttuples infltuples where 
+	int' w [] []	= error $ "'" ++ w ++ "'" ++ " has no interpretation."
+	int' w [] ((infl,word):infls)	| w == infl = int' word inttuples [] 
+		  			| otherwise = int' w [] infls
+	int' w ((word,interp):is) infls	| w == word = interp
+					| otherwise = int' w is infls
 
 process string = map (\x -> intS x) (parses string)
 
