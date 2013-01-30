@@ -38,6 +38,7 @@ parses str = let ws = lexer str
 
 process string = map (\x -> intS x) (parses string)
 
+inttuples :: [(String, [Entity] -> Bool) ]
 inttuples = objects ++ relations ++ Story.objects ++ Story.relations
 			    ++ Topic.objects ++ Topic.relations
 infltuples = inflections ++ Topic.inflections ++ Story.inflections 
