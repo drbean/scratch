@@ -119,7 +119,7 @@ twoPlacers :: [(String, TwoPlacePred)]
 twoPlacers = [
 	("know",	pred2 $ acquainted ++ map swap acquainted)
 	, ("have",	pred2 $ possessions ++ leadership ++ features)
-    , ("cause_stress",	pred2 causes )
+    --, ("cause_stress",	pred2 causes )
 	, ("help",	pred2 [])
 	, ("said",	pred2 $ map (\x->(agent x, theme x) ) comms)
 	, ("asked",	pred2 $ map (\x->(agent x, recipient x) ) comms)

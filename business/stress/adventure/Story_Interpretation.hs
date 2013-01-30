@@ -28,14 +28,13 @@ inflections = [
  ]
 
 relations = [
-	( "useful",	\[x]	-> predid1 "useful" ),
+	( "useful",	\[x]	-> predid1 "useful" )
 
-	( "felt_stress",	\args -> case args of
-		[x,y] -> predid2 "cause_stress" y x ),
+	-- ( "felt_stress",	\args -> case args of
+		-- [x,y] -> predid2 "cause_stress" y x ),
 		-- [x] -> predid1 "feel_stress" x ),
 	-- ( "put_pressure",	\[x,y]	-> pressurize y x	),
-	( "sail",	\args -> case args of [x,y] -> sail_around y x; [x,y,z] -> sail_around_in z y x	),
-	( "fly",	\args -> case args of [x,y] -> fly_around y x; [x,y,z] -> fly_around_in z y x	),
-	( "anger",	\[x,y]	-> anger y x	)
+	-- ( "sail",	\args -> case args of [x,y] -> sail_around y x; [x,y,z] -> sail_around_in z y x	),
+	-- ( "fly",	\args -> case args of [x,y] -> fly_around y x; [x,y,z] -> fly_around_in z y x	),
 	]
 
