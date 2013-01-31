@@ -3,7 +3,7 @@
 -- see
 -- http://www.haskell.org/cabal/release/cabal-latest/doc/users-guide/authors.html#pkg-descr.
 -- The name of the package.
-Name:                internet
+Name:                adventure
 
 -- The package version. See the Haskell package versioning policy
 -- (http://www.haskell.org/haskellwiki/Package_versioning_policy) for
@@ -11,7 +11,7 @@ Name:                internet
 Version:             0.1
 
 -- A short (one-line) description of the package.
-Synopsis:            Questions and answers about Alex Tew and Mark Zuckerberg
+Synopsis:            Questions and answers about stress and Ellen MacArthur and Steve Fossett
 
 -- A longer description of the package.
 Description:         Using Computational Semantics with Functional Programming, http://www.computational-semantics.eu
