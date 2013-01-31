@@ -284,6 +284,7 @@ ditransitives = [
 	]
 
 preps = [
+	[Cat "around"   "PREP" [Around]   []],
 	[Cat "about"   "PREP" [About]   []],
 	[Cat "after"   "PREP" [After]   []],
 	[Cat "as"   "PREP" [As]   []],
@@ -303,7 +304,6 @@ preps = [
 	]
 
 advs = [
-	[Cat "around"   "ADV" [Around]   []]
 	]
 
 conjuncts = [
