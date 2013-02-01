@@ -236,15 +236,6 @@ resolveNEU (c,co)  = resolveNEU' c where
   resolveNEU'  ((i,x):xs) | thing x   = i : resolveNEU' xs
                           | otherwise = resolveNEU' xs
 
-resolveNAMELESS :: Entity -> Context -> (Idx,Context)
-resolveNAMELESS x c | i /= -1   = (i,c)
-                | otherwise = (j,extend c x)
-  where i                                 = index x c 
-        j                                 = size c 
-        index x ([],co)                   = -1
-        index x ((i,y):xs,co) | x == y    = i 
-                              | otherwise = index x (xs,co)
-
 resolveNAME :: Entity -> Context -> (Idx,Context)
 resolveNAME x c | i /= -1   = (i,c)
                 | otherwise = (j,extend c x)
