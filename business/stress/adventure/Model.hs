@@ -26,7 +26,7 @@ characters = [
 	]
 
 classes :: [String]
-classes = [ "manager", "advertisers", "advertising_space", "business_management", "radio_and_television" ]
+classes = ["lack_of_support","uncertainty","lack_of_control","pressure"]
 
 context :: [Entity]
 context = []
@@ -62,6 +62,10 @@ predid4 name = lookupPred name fourPlacers where
 	lookupPred n []	= error $ "no \"" ++ name ++ "\" four-place predicate."
 	lookupPred n ((name,pred):is) | n == name	= pred
 	lookupPred n (i:is) = lookupPred name is
+predid5 name = lookupPred name fivePlacers where
+	lookupPred n []	= error $ "no \"" ++ name ++ "\" five-place predicate."
+	lookupPred n ((name,pred):is) | n == name	= pred
+	lookupPred n (i:is) = lookupPred name is
 
 onePlacers :: [(String, OnePlacePred)]
 onePlacers = [
@@ -83,6 +87,7 @@ onePlacers = [
     , ("lack_of_support",	pred1 [S] )
     , ("pressure",	pred1 [P] )
     , ("stress",	pred1 [R] )
+    , ("stressful",	pred1 [C,U,S,P] )
     , ("feel_stress",	pred1 entities )
 
 	, ("good",	pred1 [] )
@@ -90,11 +95,13 @@ onePlacers = [
 
     , ("balloon",   pred1 [B] )
     , ("glider",    pred1 [G] )
-    , ("poweredcraft",	pred1 [P] )
+    , ("plane",	pred1 [P] )
     , ("aircraft",  pred1 [B,P,G] )
     , ("boat",	pred1 [Y] )
 
     , ("world",	pred1 [W] )
+    , ("non-stop",	pred1 [N] )
+    , ("single-handed",	pred1 [O] )
 
 	]
 
@@ -102,6 +109,7 @@ type OnePlacePred	= Entity -> Bool
 type TwoPlacePred	= Entity -> Entity -> Bool
 type ThreePlacePred	= Entity -> Entity -> Entity -> Bool
 type FourPlacePred	= Entity -> Entity -> Entity -> Entity -> Bool
+type FivePlacePred	= Entity -> Entity -> Entity -> Entity -> Entity -> Bool
 
 list2OnePlacePred :: [Entity] -> OnePlacePred
 list2OnePlacePred xs	= \ x -> elem x xs
@@ -118,12 +126,13 @@ pred3 :: [(Entity,Entity,Entity)] -> ThreePlacePred
 pred2 xs	= curry ( `elem` xs )
 pred3 xs	= curry3 ( `elem` xs )
 pred4 xs	= curry4 ( `elem` xs )
+pred5 xs	= curry5 ( `elem` xs )
 
 twoPlacers :: [(String, TwoPlacePred)]
 twoPlacers = [
 	("know",	pred2 $ acquainted ++ map swap acquainted)
 	, ("have",	pred2 $ possessions ++ leadership ++ features)
-    --, ("cause_stress",	pred2 causes )
+    , ("cause_stress",	pred2 causes )
 	, ("help",	pred2 [])
 	, ("said",	pred2 $ map (\x->(agent x, theme x) ) comms)
 	, ("asked",	pred2 $ map (\x->(agent x, recipient x) ) comms)
@@ -135,9 +144,6 @@ twoPlacers = [
 	, ("studied",	\a t -> case (a,t) of
 		(A,G) -> False; otherwise -> pred2 studies a t)
 	]
-
--- stressful :: [(Entity, Entity)] -> Bool
--- stressful = \ x -> ( x `elem` [control, uncertainty, support, pressure] &&
 
 causes = [(C,R),(U,R),(S,R),(P,R)]
 
@@ -159,8 +165,6 @@ threePlacers = [
 -- support	= [(Unspec,E)]
 --(pressurizer,pressured)
 hotspots	= []
-adventure	= [(F,W,O,N,B),(F,W,O,N,P),(F,W,Unspec,Unspec,Y),(M,W,O,N,Y)]
-voyage	= adventure
 
 fourPlacers = [
 	("get",	pred4 $ map (\x -> (agent4 x, theme4 x, provider4 x, location4 x)
@@ -223,6 +227,7 @@ look_at	= pred2 $ looking
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
 curry4 f x y z w	= f (x,y,z,w)
+curry5 f x y z w v	= f (x,y,z,w,v)
 
 agent, theme, recipient, location, instrument ::
 	(Entity,Entity,Entity) -> Entity
@@ -282,9 +287,24 @@ purpose4	= location4
 aim4	= purpose4
 result4	= recipient4
 
+sailing    = [(F,W,Unspec,N),(M,W,O,N)]
+ballooning	= [(F,W,O,N)]
+plane_flights	= [(F,W,O,N)]
+
+fivePlacers = [
+	("sailed", pred5 $ foldl (\ss (a,d,s1,s2) ->
+	    (a,d,s1,s2,Y) : (a,Y,d,s1,s2) : (a,d,Y,s1,s2) : ss ) [] sailing)
+	, ("flew", pred5 $ foldl (\ss (a,d,s1,s2) ->
+	    (a,d,s1,s2,P) : (a,P,d,s1,s2) : (a,d,P,s1,s2) : ss ) [] plane_flights
+			++ foldl (\ss (a,d,s1,s2) ->
+	    (a,d,s1,s2,B) : (a,B,d,s1,s2) : (a,d,B,s1,s2) : ss ) [] ballooning)
+	]
+
+
 agent5, theme5, recipient5, location5 :: (Entity,Entity,Entity,Entity,Entity) -> Entity
 agent5 (a,_,_,_,_)	= a
 theme5 (_,t,_,_,_)	= t
+destination5 = theme5
 recipient5 (_,_,r,_,_)	= r
 provider5	= recipient5
 result5	= recipient5
@@ -294,6 +314,9 @@ location5 (_,_,_,_,l)	= l
 purpose5	= location5
 aim5	= purpose5
 vehicle5	= location5
+
+forgetful5 :: FivePlacePred -> FourPlacePred
+forgetful5 r u v w t = or ( map ( r u v w t ) entities )
 
 forgetful4 :: FourPlacePred -> ThreePlacePred
 forgetful4 r u v w = or ( map ( r u v w ) entities )
