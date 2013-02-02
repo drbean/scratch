@@ -11,54 +11,63 @@ comp_tests = [
 	]
 
 pressure_test = [
-	"Olivier put pressure on Jacques.",
-	"Jacques put pressure on Todd.",
-	"Todd put pressure on Olivier.",
-	"Olivier put pressure on Todd.",
-	"Charles put pressure on Todd.",
+	"The team put pressure on Steve Fossett.",
+	"The team didn't put pressure on Steve Fossett.",
+	"Steve Fossett put pressure on the team.",
+	"Steve Fossett put pressure on Ellen MacArthur.",
+	"Steve Fossett didn't put pressure on the team.",
 	"Pressure was stressful."
 	]
 
 sail_test = [
-	"Steve sailed around the world.",
-	"Ellen sailed around the world.",
+	"Did Steve Fossett sail a boat?",
+	"Steve Fossett sailed around the world.",
+	"The world sailed around Steve Fossett.",
+	"A man sailed around the world.",
+	"Ellen MacArthur sailed around the world.",
 	"CUSP sailed around the world.",
 	"Dr Bean sailed around the world.",
 	"Someone sailed around the world.",
-	"Steve sailed around the world in a boat.",
-	"Ellen sailed around the world in a boat.",
+	"Steve Fossett sailed around the world in a boat.",
+	"Ellen MacArthur sailed around the world in a boat.",
 	"CUSP sailed around the world in a balloon.",
-	"Dr Bean sailed around the world in a plane.",
-	"Someone sailed around the world in a plane."
+	"Dr Bean sailed around the world in an aircraft.",
+	"Someone sailed around the world in an aircraft."
+	]
+
+rel_test = [
+	"Steve Fossett was the man who sailed around the world."
+	, "Steve Fossett was a man who sailed around the world."
+	, "Ellen MacArthur was the woman who sailed around the world."
 	]
 
 fly_test = [
-	"Did Steve fly around the world.",
-	"Steve flew around the world.",
-	"Ellen flew around the world.",
+	"Did Steve Fossett fly around the world.",
+	"Steve Fossett flew around the world.",
+	"Ellen MacArthur flew around the world.",
 	"CUSP flew around the world.",
 	"Dr Bean flew around the world.",
 	"Someone flew around the world.",
-	"Steve flew around the world in a balloon.",
-	"Steve flew around the world in a plane.",
-	"Ellen flew around the world in a boat.",
+	"Steve Fossett flew around the world in a balloon.",
+	"Steve Fossett flew around the world in a plane.",
+	"Ellen MacArthur flew around the world in a boat.",
 	"CUSP flew around the world in a balloon.",
 	"Dr Bean flew around the world in a plane.",
 	"Someone flew around the world in a plane."
 	]
 
 stress_test = [
-	"Steve felt stress",
-	"Ellen felt stress",
+	"Steve Fossett felt stress",
+	"Ellen MacArthur felt stress",
 	"Dr Bean felt stress",
-	"Steve felt stress because of lack of control.",
-	"Steve felt stress because of uncertainty.",
-	"Steve felt stress because of lack of support.",
-	"Steve felt stress because of pressure.",
-	"Ellen felt stress because of lack of control.",
-	"Ellen felt stress because of uncertainty.",
-	"Ellen felt stress because of lack of support.",
-	"Ellen felt stress because of pressure."
+	"Steve Fossett felt stress because of lack of control.",
+	"Steve Fossett felt stress because of uncertainty.",
+	"Steve Fossett felt stress because of lack of support.",
+	"Steve Fossett felt stress because of pressure.",
+	"Ellen MacArthur felt stress because of lack of control.",
+	"Ellen MacArthur felt stress because of uncertainty.",
+	"Ellen MacArthur felt stress because of lack of support.",
+	"Ellen MacArthur felt stress because of pressure."
 	]
 
 len_test = [
