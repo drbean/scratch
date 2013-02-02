@@ -14,9 +14,9 @@ names, nouns, verbs :: Lexset
 
 names = [
 	[Cat "cusp" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "ellen" "NP" [Thrd,Fem,Sg] []],
+	[Cat "ellen_macarthur" "NP" [Thrd,Fem,Sg] []],
 	[Cat "dr_bean" "NP" [Thrd,Masc,Sg] []],
-	[Cat "steve" "NP" [Thrd,Masc,Sg] []]
+	[Cat "steve_fossett" "NP" [Thrd,Masc,Sg] []]
 	]
 
 nouns = [
@@ -28,11 +28,15 @@ nouns = [
 	[Cat "lack_of_support"	"NP" [Thrd,Neutr,Sg] []],
 	[Cat "pressure"	"NP" [Thrd,Neutr,Sg] []],
 
+	[Cat "team"	"NP" [Thrd,Neutr,Sg] []],
+
 	[Cat "teacher"	"CN" [Thrd,Masc,Sg] []],
 	[Cat "adventurer"	"CN" [Thrd,MascOrFem,Sg] []],
 	[Cat "adventurers"	"CN" [Thrd,MascOrFem,Pl] []],
 	[Cat "boat"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "aircraft"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "plane"	"CN" [Thrd,Neutr,Sg] []],
+	[Cat "powered_aircraft"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "glider"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "balloon"	"CN" [Thrd,Neutr,Sg] []],
 	[Cat "world"	"CN" [Thrd,Neutr,Sg] []]
@@ -51,14 +55,16 @@ verbs = [
 		Cat "flew"	"VP" [Tense] [Cat "_" "PP" [Around] [],
 						Cat "_" "PP" [In] []]],
 	[Cat "fly"	"VP" [Infl] [Cat "_" "PP" [Around] []],
-		Cat "fly"	"VP" [Tense] [Cat "_" "PP" [Around] [],
+		Cat "fly"	"VP" [Infl] [Cat "_" "PP" [Around] [],
 						Cat "_" "PP" [In] []]],
 	[Cat "sailed"	"VP" [Tense] [Cat "_" "PP" [Around] []],
 		Cat "sailed"	"VP" [Tense] [Cat "_" "PP" [Around] [],
-						Cat "_" "PP" [In] []]],
+						Cat "_" "PP" [In] []],
+		Cat "sailed"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "sail"	"VP" [Infl] [Cat "_" "PP" [Around] []],
-		Cat "sail"	"VP" [Tense] [Cat "_" "PP" [Around] [],
-						Cat "_" "PP" [In] []]]
+		Cat "sail"	"VP" [Infl] [Cat "_" "PP" [Around] [],
+						Cat "_" "PP" [In] []],
+		Cat "sail"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
 	]
 
 aux = [
