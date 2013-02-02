@@ -219,6 +219,8 @@ preproc ("the":"united":"states":xs)	= "the_united_states" : preproc xs
 preproc ("dr":"bean":xs)	= "dr_bean" : preproc xs
 preproc ("steve":"fossett":xs)	= "steve_fossett" : preproc xs
 preproc ("ellen":"macarthur":xs)	= "ellen_macarthur" : preproc xs
+preproc ("powered":"aircraft":xs)	= "powered_aircraft" : preproc xs
+
 preproc ("european":"campers":xs)	= "european_campers" : preproc xs
 preproc ("charles":"holden":xs)	= "charles_holden" : preproc xs
 preproc ("dot":"gourlay":xs)	= "dot_gourlay" : preproc xs
