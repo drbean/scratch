@@ -328,8 +328,8 @@ intVP cop@(Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ _),
 	"NP" -> \s -> intNP comp (\pred -> blowupPred "true" s )
 intVP tv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1]) =
 	case (catLabel ( t2c obj1 )) of
-		"NP" -> \ s -> intNP  obj1 (\ o -> nonCoref (intTV tv) s o) 
-		"PP" -> \ s -> intPP  obj1 (\ o -> nonCoref (intTV tv) s o) 
+		"NP" -> \ o -> intNP  obj1 (\ s -> nonCoref (intTV tv) s o) 
+		"PP" -> \ o -> intPP  obj1 (\ s -> nonCoref (intTV tv) s o) 
 -- intVP (VP2 tv refl)    = self (intTV tv)
 intVP dv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),obj1,obj2]) =
 	case (catLabel (t2c obj1)) of 
@@ -409,6 +409,15 @@ intAT at@(Branch (Cat _ "AT" _ _)
 type CN = ParseTree Cat Cat
 intCN :: CN -> Idx -> Trans
 intCN (Leaf   (Cat name "CN" _ _))     = blowupPred name
+intCN (Branch (Cat _    "CN" _ _) [cn,rel]) = case rel of
+    (Branch (Cat _ "MOD" _ _) [Leaf (Cat _ "REL"  _ _), Branch (Cat _ "S" _ _) [np,vp]])
+	-> case ( phon (t2c np), catLabel (t2c vp) ) of
+	    ("#",_) -> intCN cn
+    (Branch (Cat _ "MOD" _ _) [Branch (Cat _ "PP" _ _) [prep,np]])
+    	-> case (phon (t2c prep)) of
+		"with" -> intCN cn
+		"in" -> intCN cn
+intCN _ = blowupPred "Unspec"
 --intCN (Branch (Cat _    "CN" _ _) [cn,ofpos,np]) =
 --    \x y -> exists `conj` intCN x `conj` intNP np (\thing -> predid2 "had" [x, thing])
 
