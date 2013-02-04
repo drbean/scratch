@@ -178,7 +178,7 @@ fourPlacers = [
 
 -- circumnavigator, vehicle, accomplishment
 circumnavigations	= [(S,B),(S,P),(S,Y),(E,Y)]
-possessions	= []
+possessions	= [(F,Y),(F,G),(F,B),(F,P),(M,Y)]
 recruitment	= []
 support	= [(Unspec,M),(Unspec,F)]
 leadership	= support
