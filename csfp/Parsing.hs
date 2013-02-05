@@ -21,6 +21,7 @@ pos (Branch _ ts) = [] : [ i:p | (i,t) <- zip [0..] ts,
 
 subtree :: ParseTree a b -> Pos -> ParseTree a b 
 subtree t             []     = t
+subtree l@(Leaf _)    _      = l
 subtree (Branch _ ts) (i:is) = subtree (ts!!i) is 
 
 subtrees :: ParseTree a b -> [ParseTree a b]
