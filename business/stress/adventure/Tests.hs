@@ -11,16 +11,21 @@ comp_tests = [
 	]
 
 pressure_test = [
+	"The team put pressure on the team.",
 	"The team put pressure on Steve Fossett.",
 	"The team didn't put pressure on Steve Fossett.",
 	"Steve Fossett put pressure on the team.",
-	"Steve Fossett put pressure on Ellen MacArthur.",
 	"Steve Fossett didn't put pressure on the team.",
-	"Pressure was stressful."
+	"Steve Fossett put pressure on Ellen MacArthur.",
+	"Steve Fossett didn't put pressure on Ellen MacArthur.",
+	"The team put pressure on Ellen MacArthur.",
+	"The team didn't put pressure on Ellen MacArthur.",
+	"Ellen MacArthur put pressure on the team.",
+	"Ellen MacArthur didn't put pressure on the team.",
+	"Ellen MacArthur put pressure on Ellen MacArthur."
 	]
 
 sail_test = [
-	"Did Steve Fossett sail a boat?",
 	"Steve Fossett sailed around the world.",
 	"The world sailed around Steve Fossett.",
 	"A man sailed around the world.",
