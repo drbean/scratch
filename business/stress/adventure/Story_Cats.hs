@@ -28,7 +28,7 @@ nouns = [
 	[Cat "lack_of_support"	"NP" [Thrd,Neutr,Sg] []],
 	[Cat "pressure"	"NP" [Thrd,Neutr,Sg] []],
 
-	[Cat "team"	"NP" [Thrd,Neutr,Sg] []],
+	[Cat "team"	"CN" [Thrd,MascOrFem,Sg] []],
 
 	[Cat "teacher"	"CN" [Thrd,Masc,Sg] []],
 	[Cat "adventurer"	"CN" [Thrd,MascOrFem,Sg] []],
