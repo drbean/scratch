@@ -5,6 +5,7 @@ import Model
 objects = [
 	( "adventurer",	\[x]	-> predid1 "adventurer" x )
 	, ( "teacher",	\[x]	-> predid1 "teacher" x )
+	, ( "team",	\[x]	-> predid1 "team" x )
 
 	, ( "lack_of_control",	\[x] -> predid1 "lack_of_control" x )
 	, ( "uncertainty",	\[x] -> predid1 "uncertainty" x )
@@ -38,7 +39,7 @@ relations = [
 	-- ( "felt_stress",	\args -> case args of
 		-- [x,y] -> predid2 "cause_stress" y x ),
 		-- [x] -> predid1 "feel_stress" x ),
-	-- ( "put_pressure",	\[x,y]	-> pressurize y x	),
+	, ( "put_pressure",	\[x,y]	-> predid2 "pressurize" y x	)
 	, ( "sailed",	\args -> case args of
 		[x,y,z,w,v] -> predid5 "sailed" v w z y x
 		[x,y,z,w] -> (forgetful5 . predid5 ) "sailed" w z y x
