@@ -65,19 +65,24 @@ data Constraint = C1 VP Idx
                 deriving Eq
 
 instance Show Constraint where 
-  show (C1 vp i)     = show vp ++ (' ':show i)
-  show (C2 tv i j)   = show tv ++ (' ':show i) 
-                               ++ (' ':show j)
-  show (C3 dv i j k) = show dv ++ (' ':show i) 
+  show (C1 vp i)     = show (verbophone vp) ++ (' ':show i)
+  show (C2 tv i j)   = show (verbophone tv) ++ (' ':show i) 
+                              ++ (' ':show j)
+  show (C3 dv i j k) = show (verbophone dv) ++ (' ':show i) 
                                ++ (' ':show j) 
                                ++ (' ':show k)
 
-  show (C4 vp i)     = '-':show vp ++ (' ':show i)
-  show (C5 tv i j)   = '-':show tv ++ (' ':show i) 
+  show (C4 vp i)     = '-':show (verbophone vp) ++ (' ':show i)
+  show (C5 tv i j)   = '-':show (verbophone tv) ++ (' ':show i) 
                                    ++ (' ':show j)
-  show (C6 dv i j k) = '-':show dv ++ (' ':show i) 
+  show (C6 dv i j k) = '-':show (verbophone dv) ++ (' ':show i) 
                                    ++ (' ':show j) 
                                    ++ (' ':show k)
+
+verb ::  ParseTree Cat Cat -> ParseTree Cat Cat
+verb = flip subtree [0,0,1]
+verbophone :: ParseTree Cat Cat -> String
+verbophone = phon . t2c . verb
 
 maxIndex  :: Constraint -> Idx
 maxIndex (C1 vp i)     = i
@@ -319,6 +324,8 @@ type VP = ParseTree Cat Cat
 intVP :: VP -> Idx -> Trans
 intVP (Branch (Cat _ "VP" _ _) 
                 [Leaf (Cat "did" "AUX" _ []),vp]) = intVP vp 
+intVP (Branch (Cat _ "VP" _ _) 
+                [Leaf (Cat "didn't" "AUX" _ []),vp]) = \s -> neg (intVP vp s)
 intVP (Branch (Cat _ "VP" _ _) 
                 [Leaf (Cat "#" "AUX" _ []),vp]) = intVP vp 
 
