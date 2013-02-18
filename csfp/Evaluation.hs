@@ -105,8 +105,8 @@ lookupIdx ([],co)       j = error "undefined context item"
 lookupIdx ((i,x):xs,co) j | i == j    = x
                            | otherwise = lookupIdx (xs,co) j
 
-adjust :: (Idx,Entity) -> Context -> Context
-adjust (i,x) (c,co) 
+front :: (Idx,Entity) -> Context -> Context
+front (i,x) (c,co) 
      | elem (i,x) c = (((i,x):(filter (/=(i,x)) c)),co)
      | otherwise    = error "item not found in context"
 
@@ -155,7 +155,7 @@ blowupPred :: String -> Idx -> Trans
 blowupPred = \ word i c  b -> 
      let 
          e  = lookupIdx c i 
-         c' = adjust (i,e) c
+         c' = front (i,e) c
 	 pred = int word
      in  
          if  b 
@@ -170,7 +170,7 @@ blowupIV :: VP -> String -> Idx -> Trans
 blowupIV = \ vp word i c b -> 
          let 
              e        = lookupIdx c i 
-             (c',cos) = adjust (i,e) c
+             (c',cos) = front (i,e) c
              co       = C1 vp i
              co'      = C4 vp i
              pred = int word
@@ -188,7 +188,7 @@ blowupTV = \ tv word subj obj c b ->
         let 
             e1       = lookupIdx c subj
             e2       = lookupIdx c obj 
-            (c',cos) = adjust (subj,e1) (adjust (obj,e2) c)
+            (c',cos) = front (subj,e1) (front (obj,e2) c)
             co       = C2 tv subj obj
             co'      = C5 tv subj obj
             pred = int word
@@ -208,9 +208,9 @@ blowupDV = \ dv word subj iobj dobj c b ->
             e1       = lookupIdx c subj
             e2       = lookupIdx c iobj 
             e3       = lookupIdx c dobj 
-            (c',cos) = adjust (subj,e1) 
-                      (adjust (iobj,e2)
-                      (adjust (dobj,e3) c))
+            (c',cos) = front (subj,e1) 
+                      (front (iobj,e2)
+                      (front (dobj,e3) c))
             co       = C3 dv subj iobj dobj
             co'      = C6 dv subj iobj dobj
             pred = int word
