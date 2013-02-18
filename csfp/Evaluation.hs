@@ -296,13 +296,12 @@ anonyn name = anonyn' name classes where
 
 type Sent = ParseTree Cat Cat
 intS :: Sent -> Trans
-intS (Branch (Cat "_" "S" _ _) [ np,vp]) = (intNP np) (intVP vp)
 intS (Branch (Cat _ "YN" _ _) [aux,s]) = case (catLabel (t2c aux)) of
 	"AUX" -> intS s
 	"COP" -> intS s
 --intS (If   s1 s2) = (intS s1) `impl` (intS s2)
---intS (Branch (Cat _ "S" _ _) [s1,conj, s2])
---	= (intS s1) `conj` (intS s2)
+intS (Branch (Cat _ "TXT" _ _) [s1,Leaf (Cat _ "CONJ" _ _), s2])
+	= (intS s1) `conj` (intS s2)
 intS (Branch (Cat _ "S" _ _) [np,vp]) = (intNP np) (intVP vp)
 
 type NP = ParseTree Cat Cat
