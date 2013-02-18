@@ -334,8 +334,9 @@ intNP (Branch (Cat _ "NP" _ _) [det,cn]) = (intDET det) (intCN cn)
 --intNP (Branch (Cat _ "NP" _ _) [det,Leaf (Cat a "ADJ" _ _),cn]) = 
 --	\i -> exists && `conj` (blowupPred a i) (intDET det) (intCN cn)
 --              (exists `conj` (phi i) `conj` (psi i)) c
---intNP (Branch (Cat _ "NP" _ _) [np,Leaf (Cat "'s" "APOS" _ _),cn]) =
---	\p c b -> concat [p i c b | any (\thing -> p thing && intCN cn thing && intNP np (\owner -> int "had" [owner, thing])) 
+intNP (Branch (Cat _ "NP" _ _) [np,Leaf (Cat "'s" "APOS" _ _),cn]) =
+    \psi c -> let i = size c in 
+                (exists `conj` (intCN cn i) `conj` (psi i)) c
 
 type PP = ParseTree Cat Cat
 intPP :: PP -> (Idx -> Trans) -> Trans
