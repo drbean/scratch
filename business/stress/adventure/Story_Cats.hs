@@ -27,6 +27,7 @@ nouns = [
 	[Cat "support"	"NP" [Thrd,Neutr,Sg] []],
 	[Cat "lack_of_support"	"NP" [Thrd,Neutr,Sg] []],
 	[Cat "pressure"	"NP" [Thrd,Neutr,Sg] []],
+	[Cat "stress"	"NP" [Thrd,Neutr,Sg] []],
 
 	[Cat "team"	"CN" [Thrd,MascOrFem,Sg] []],
 
@@ -43,28 +44,28 @@ nouns = [
 	]
 
 verbs = [
-	[Cat "helped"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "help"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "felt_stress"	"VP" [Tense] [Cat "_" "PP" [BecauseOf] []],
-		Cat "felt_stress"	"VP" [Tense] []],
-	[Cat "feel_stress"	"VP" [Infl] [Cat "_" "PP" [BecauseOf] []],
-		Cat "feel_stress"	"VP" [Infl] []],
-	[Cat "put_pressure"	"VP" [Tense] [Cat "_" "PP" [On] []],
-		Cat "put_pressure"	"VP" [Infl] [Cat "_" "PP" [On] []]],
-	[Cat "flew"	"VP" [Tense] [Cat "_" "PP" [Around] []],
-		Cat "flew"	"VP" [Tense] [Cat "_" "PP" [Around] [],
+	[Cat "helped"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "help"	"V" [Infl] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "felt_stress"	"V" [Tense] [Cat "_" "PP" [BecauseOf] []],
+		Cat "felt_stress"	"V" [Tense] []],
+	[Cat "feel_stress"	"V" [Infl] [Cat "_" "PP" [BecauseOf] []],
+		Cat "feel_stress"	"V" [Infl] []],
+	[Cat "put_pressure"	"V" [Tense] [Cat "_" "PP" [On] []],
+		Cat "put_pressure"	"V" [Infl] [Cat "_" "PP" [On] []]],
+	[Cat "flew"	"V" [Tense] [Cat "_" "PP" [Around] []],
+		Cat "flew"	"V" [Tense] [Cat "_" "PP" [Around] [],
 						Cat "_" "PP" [In] []]],
-	[Cat "fly"	"VP" [Infl] [Cat "_" "PP" [Around] []],
-		Cat "fly"	"VP" [Infl] [Cat "_" "PP" [Around] [],
+	[Cat "fly"	"V" [Infl] [Cat "_" "PP" [Around] []],
+		Cat "fly"	"V" [Infl] [Cat "_" "PP" [Around] [],
 						Cat "_" "PP" [In] []]],
-	[Cat "sailed"	"VP" [Tense] [Cat "_" "PP" [Around] []],
-		Cat "sailed"	"VP" [Tense] [Cat "_" "PP" [Around] [],
+	[Cat "sailed"	"V" [Tense] [Cat "_" "PP" [Around] []],
+		Cat "sailed"	"V" [Tense] [Cat "_" "PP" [Around] [],
 						Cat "_" "PP" [In] []],
-		Cat "sailed"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "sail"	"VP" [Infl] [Cat "_" "PP" [Around] []],
-		Cat "sail"	"VP" [Infl] [Cat "_" "PP" [Around] [],
+		Cat "sailed"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "sail"	"V" [Infl] [Cat "_" "PP" [Around] []],
+		Cat "sail"	"V" [Infl] [Cat "_" "PP" [Around] [],
 						Cat "_" "PP" [In] []],
-		Cat "sail"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]]
+		Cat "sail"	"V" [Infl] [Cat "_" "NP" [AccOrDat] []]]
 	]
 
 aux = [
@@ -72,6 +73,7 @@ aux = [
 
 adjs = [
 	[Cat "stressful"	"ADJ" [] []]
+	, [Cat "ambitious"	"ADJ" [] []]
 	]
 
 advs = [

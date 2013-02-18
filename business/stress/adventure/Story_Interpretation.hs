@@ -35,6 +35,7 @@ inflections = [
 
 relations = [
 	( "useful",	\[x]	-> predid1 "useful" x )
+	, ( "ambitious",	\[x]	-> predid1 "ambitious" x )
 
 	, ( "caused_stress",	\args -> case args of
 		[x,y] -> predid2 "caused_stress" x y
