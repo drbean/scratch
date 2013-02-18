@@ -74,6 +74,9 @@ rel_test = [
 	"Steve Fossett was a man who sailed around the world."
 	, "Steve Fossett was the man who sailed around the world."
 	, "Ellen MacArthur was the woman who sailed around the world."
+	, "Steve Fossett was the man who felt stress."
+	, "Steve Fossett was a man who felt stress."
+	, "Steve Fossett was a man who felt stress because of lack of control."
 	]
 
 fly_test = [
