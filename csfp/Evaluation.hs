@@ -390,7 +390,7 @@ intTV tv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ [_]),obj1])
 
 type DV = ParseTree Cat Cat
 intDV :: DV -> Idx -> Idx -> Idx -> Trans
-intDV dv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),obj1,obj2])
+intDV dv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ [_,_]),obj1,obj2])
 	= blowupDV dv name
 
 type AT = ParseTree Cat Cat
