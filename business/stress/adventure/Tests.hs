@@ -3,8 +3,24 @@ module Tests where
 import Evaluation
 import Parsing
 
+tag_test = [
+	"Steve Fossett sailed around the world. He was an adventurer, wasn't he."
+	, "Uncertainty was stressful, wasn't it."
+	, "The team didn't put pressure on Steve Fossett, did it."
+	, "A man sailed around the world, didn't he."
+	, "A man sailed around the world, didn't she."
+	, "Ellen MacArthur flew around the world, didn't she."
+	, "Steve Fossett felt stress because of lack of control, didn't he."
+	, "Ellen MacArthur was the woman who sailed around the world, wasn't she."
+	]
+
 text_test = [
-	"Steve Fossett sailed around the world. He was an adventurer"
+	"Steve Fossett sailed around the world. He was an adventurer."
+	, "He was an adventurer. Steve Fossett sailed around the world."
+	, "Ellen MacArthur sailed around the world. She was an adventurer."
+	, "Ellen MacArthur sailed around the world. He was an adventurer."
+	, "Ellen MacArthur sailed around the world. She was a woman, but she was an adventurer."
+	, "Ellen MacArthur sailed around the world. She wasn't a man, but she was an adventurer."
 	]
 
 comp_tests = [
@@ -18,6 +34,7 @@ comp_tests = [
 	, "Ellen MacArthur was an adventurer."
 	, "Ellen MacArthur was a man."
 	, "Ellen MacArthur wasn't a woman."
+	, "Steve Fossett wasn't a woman."
 	, "Ellen MacArthur wasn't an adventurer."
 	]
 
@@ -54,8 +71,8 @@ sail_test = [
 	]
 
 rel_test = [
-	"Steve Fossett was the man who sailed around the world."
-	, "Steve Fossett was a man who sailed around the world."
+	"Steve Fossett was a man who sailed around the world."
+	, "Steve Fossett was the man who sailed around the world."
 	, "Ellen MacArthur was the woman who sailed around the world."
 	]
 
