@@ -166,6 +166,24 @@ blowupPred = \ word i c  b ->
               then [] 
               else [c']
 
+blowupCOP :: VP -> String -> Idx -> Idx -> Trans
+blowupCOP = \ cop word s c con b -> 
+         let 
+             e1       = lookupIdx con s
+             e2       = lookupIdx con c
+             (con',cos) = front (s,e1) (front (c,e2) con)
+             co       = C2 cop s c
+             co'      = C5 cop s c
+             -- pred = int word
+         in  
+             if   b 
+             then if   e1 == e2
+                  then [(con',co:cos)] 
+                  else []
+             else if   e1 == e2
+                  then [] 
+                  else [(con',co':cos)]
+
 blowupIV :: VP -> String -> Idx -> Trans
 blowupIV = \ vp word i c b -> 
          let 
@@ -332,7 +350,7 @@ intVP (Branch (Cat _ "VP" _ _)
 intVP cop@(Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ _),
     Branch (Cat "_" "COMP" [] []) [comp]]) = case (catLabel (t2c comp)) of
     	"ADJ" -> \s -> blowupPred (phon (t2c comp)) s
-	"NP" -> \s -> intNP comp (\c -> intCOP s c)
+	"NP" -> \s -> intNP comp (\c -> intCOP cop s c)
 intVP iv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ _)]) = 
     \s -> intIV iv s
 intVP tv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ [_]),obj1]) =
