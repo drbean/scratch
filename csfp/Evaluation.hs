@@ -337,8 +337,8 @@ intVP iv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ _)]) =
     \s -> intIV iv s
 intVP tv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ [_]),obj1]) =
 	case (catLabel ( t2c obj1 )) of
-		"NP" -> \ o -> intNP  obj1 (\ s -> nonCoref (intTV tv) s o) 
-		"PP" -> \ o -> intPP  obj1 (\ s -> nonCoref (intTV tv) s o) 
+		"NP" -> \ s -> intNP  obj1 (\ o -> nonCoref (intTV tv) s o) 
+		"PP" -> \ s -> intPP  obj1 (\ o -> nonCoref (intTV tv) s o) 
 -- intVP (VP2 tv refl)    = self (intTV tv)
 intVP dv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ [_,_]),obj1,obj2]) =
 	case (catLabel (t2c obj1)) of 
