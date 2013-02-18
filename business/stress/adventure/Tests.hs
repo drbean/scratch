@@ -12,8 +12,9 @@ comp_tests = [
 
 pressure_test = [
 	"The team put pressure on the team.",
+	"A team didn't put pressure on a team.",
 	"The team put pressure on Steve Fossett.",
-	"The team didn't put pressure on Steve Fossett.",
+	"A team didn't put pressure on Steve Fossett.",
 	"Steve Fossett put pressure on the team.",
 	"Steve Fossett didn't put pressure on the team.",
 	"Steve Fossett put pressure on Ellen MacArthur.",
