@@ -48,7 +48,7 @@ relations = [
 	, ( "flew",	\args -> case args of
 		[x,y,z,w,v] -> predid5 "flew" v w z y x
 		[x,y,z,w] -> (forgetful5 . predid5 ) "flew" w z y x
-		[x,y,z] -> (forgetful4 . forgetful5 . predid5 ) "flew" z y x
-		[x,y] -> (forgetful3 . forgetful4 . forgetful5 . predid5 ) "flew" y x )
+		[x,y,z] -> (forgetful4 . forgetful5 . predid5 ) "flew" x y z
+		[x,y] -> (forgetful3 . forgetful4 . forgetful5 . predid5 ) "flew" x y )
 	]
 
