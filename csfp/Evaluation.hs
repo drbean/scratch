@@ -336,7 +336,7 @@ intNP (Branch (Cat _ "NP" _ _) [det,cn]) = (intDET det) (intCN cn)
 --              (exists `conj` (phi i) `conj` (psi i)) c
 intNP (Branch (Cat _ "NP" _ _) [np,Leaf (Cat "'s" "APOS" _ _),cn]) =
     \psi c -> let i = size c in 
-                (exists `conj` (intCN cn i) `conj` (intNP np (\x -> blowupTV have "have" x i))) c
+                (exists `conj` (intCN cn i) `conj` (intNP np (\x -> blowupTV have "have" x i)) `conj` (psi i)) c
 	    where have =  Leaf (Cat "have" "V" [] [])
 
 type PP = ParseTree Cat Cat
