@@ -454,7 +454,7 @@ intCN (Leaf   (Cat name "CN" _ _))     = blowupPred name
 intCN (Branch (Cat _    "RCN" _ _) [cn,rel]) = case rel of
     (Branch (Cat _ "MOD" _ _) [Leaf (Cat _ "REL"  _ _), Branch (Cat _ "S" _ _) [np,vp]])
 	-> case ( phon (t2c np), catLabel (t2c vp) ) of
-	    ("#",_) -> intCN cn
+	    ("#",_) -> \i -> conj (intCN cn i) (intVP vp i)
     (Branch (Cat _ "MOD" _ _) [Branch (Cat _ "PP" _ _) [prep,np]])
     	-> case (phon (t2c prep)) of
 		"with" -> intCN cn
