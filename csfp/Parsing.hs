@@ -244,6 +244,8 @@ preproc ("lack":"of":"support":xs)	= "lack_of_support" : preproc xs
 preproc ("put":"pressure":xs)	= "put_pressure" : preproc xs
 preproc ("feel":"stress":xs)	= "feel_stress" : preproc xs
 preproc ("felt":"stress":xs)	= "felt_stress" : preproc xs
+preproc ("cause":"stress":xs)	= "cause_stress" : preproc xs
+preproc ("caused":"stress":xs)	= "caused_stress" : preproc xs
 
 preproc ("eagle":"scout":xs)	= "eagle_scout" : preproc xs
 preproc ("troop":"409":xs)	= "troop_409" : preproc xs
