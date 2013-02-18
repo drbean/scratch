@@ -124,7 +124,9 @@ intransitives = [
 	]
 
 transitives = [
-	[Cat "made" "V" [Tense] [Cat "_" "NP" [AccOrDat] []],
+	[Cat "had" "V" [Tense] [Cat "_" "NP" [AccOrDat] []]]
+	, [Cat "have" "V" [Infl] [Cat "_" "NP" [AccOrDat] []]]
+	, [Cat "made" "V" [Tense] [Cat "_" "NP" [AccOrDat] []],
 		Cat "made" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [With] []],
 		Cat "made" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
@@ -188,8 +190,6 @@ transitives = [
 	--	Cat "knew"	"V" [Tense] [Cat "_" "PP" [About] []]],
 	--[Cat "know"	"V" [Infl]  [Cat "_" "NP" [AccOrDat] []],
 	--	Cat "knew"	"V" [Tense] [Cat "_" "PP" [About] []]],
-	--[Cat "had"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	--[Cat "have"	"V" [Infl]  [Cat "_" "NP" [AccOrDat] []]]
 	--[Cat "left"	"V" [Tense] [],
 	--	Cat "left"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []],
 	--	Cat "left"	"V" [Tense] [Cat "_" "NP" [AccOrDat] [],
