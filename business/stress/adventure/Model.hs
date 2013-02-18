@@ -73,6 +73,7 @@ onePlacers = [
 	, ("false",	pred1 [] )
 	, ("male",	pred1 [F,T] )
 	, ("female",	pred1 [M] )
+	, ("ambitious",	pred1 [F,M] )
 	, ("leader",	pred1 $ map snd leadership )
 	, ("adventurer",	pred1 $ map snd leadership )
 	, ("financial_trader",	pred1 [F] )
@@ -241,7 +242,7 @@ destination = recipient
 --(worker,job,site)
 working	= []
 volunteering = []
-comms	= [ (P,Unspec,R) ]
+comms	= [ (Someone,Y,F),(Someone,B,F),(Someone,P,F),(Someone,Y,M) ]
 offenses	= []
 acceptances = []
 -- (seller, item, buyer)
