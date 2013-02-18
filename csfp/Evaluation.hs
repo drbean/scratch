@@ -243,11 +243,11 @@ resolveMASC (c,co)  = resolveMASC' c where
   resolveMASC' ((i,e):xs) | predid1 "male" e    = i : resolveMASC' xs
                           | otherwise = resolveMASC' xs
 
---resolveFEM :: Context -> [Idx]
---resolveFEM' (c,co)  = resolveFEM' c where
---  resolveFEM' []                     = [] 
---  resolveFEM' ((i,x):xs) | predid1 "female" x  = i : resolveFEM' xs
---                         | otherwise = resolveFEM' xs
+resolveFEM :: Context -> [Idx]
+resolveFEM (c,co)  = resolveFEM' c where
+  resolveFEM' []                     = [] 
+  resolveFEM' ((i,x):xs) | predid1 "female" x  = i : resolveFEM' xs
+                         | otherwise = resolveFEM' xs
 
 resolveNEU :: Context -> [Idx]
 resolveNEU (c,co)  = resolveNEU' c where
@@ -308,12 +308,13 @@ intS (Branch (Cat _ "S" _ _) [np,vp]) = (intNP np) (intVP vp)
 type NP = ParseTree Cat Cat
 intNP :: NP -> (Idx -> Trans) -> Trans
 intNP (Leaf (Cat "he"  "NP" [Masc,Sg,Thrd,Nom,Pers]  []))
-	= \p c b -> concat [p i c b | i <- resolveMASC c]
---intNP She = \p c b -> concat [p i c b | i <- resolveFEM  c]
+    = \p c b -> concat [p i c b | i <- resolveMASC c]
+intNP (Leaf (Cat "she"  "NP" [Fem,Sg,Thrd,Nom,Pers]  []))
+    = \p c b -> concat [p i c b | i <- resolveFEM  c]
 intNP (Leaf (Cat "it"  "NP" [Pers,Thrd,Sg,Neutr]     []))
-	= \p c b -> concat [p i c b | i <- resolveNEU  c]
+    = \p c b -> concat [p i c b | i <- resolveNEU  c]
 intNP (Leaf (Cat "they"  "NP" [Pl,Thrd,Nom,Pers]  []))
-	= \p c b -> concat [p i c b | i <- resolveMASC c]
+    = \p c b -> concat [p i c b | i <- resolveMASC c]
 intNP (Leaf (Cat name "NP" _ _))
         | name `elem` namelist = \p c -> 
                     let (i,c') = resolveNAME (ided name) c
