@@ -163,21 +163,20 @@ blowupPred = \ word i c  b ->
               then [] 
               else [c']
 
-blowupCOP :: VP -> String -> Idx -> Idx -> Trans
-blowupCOP = \ cop word s c con b -> 
+blowupCOP :: VP -> String -> Idx -> Trans
+blowupCOP = \ cop word s con b -> 
          let 
-             e1       = lookupIdx con s
-             e2       = lookupIdx con c
-             (con',cos) = front (s,e1) (front (c,e2) con)
+             e       = lookupIdx con s
+             (con',cos) = front (s,e) con
              co       = C0 cop s
-             co'      = C5 cop s c
-             -- pred = int word
+             co'      = C0 cop s
+             pred = int word
          in  
              if   b 
-             then if   e1 == e2
+             then if   pred [e]
                   then [(con',co:cos)] 
                   else []
-             else if   e1 == e2
+             else if   pred [e]
                   then [] 
                   else [(con',co':cos)]
 
@@ -346,8 +345,8 @@ intVP (Branch (Cat _ "VP" _ _)
 
 intVP cop@(Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ _),
     Branch (Cat "_" "COMP" [] []) [comp]]) = case (catLabel (t2c comp)) of
-    	"ADJ" -> \s -> blowupPred (phon (t2c comp)) s
-	"NP" -> \s -> intCOMP comp (\c -> intCOP cop s c)
+    	"ADJ" -> \s -> intADJ comp s
+	"NP" -> \s -> intCOMP comp (\c -> intCOP cop (get_phon "CN" cop) s )
 intVP iv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ _)]) = 
     \s -> intIV iv s
 intVP tv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ [_]),obj1]) =
@@ -384,14 +383,17 @@ intVP at@(Branch (Cat _ "AT" _ _)
 intVP _ = undefined
 
 type COP = ParseTree Cat Cat
-intCOP :: COP -> Idx -> Idx -> Trans
+intCOP :: COP -> Phon -> Idx -> Trans
 intCOP cop@(Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ [_]),comp])
-	= blowupCOP cop "be"
+	= blowupCOP cop
 
 intCOMP comp = case (catLabel (t2c comp)) of 
-	"NP" -> intNP comp
+	"NP" -> intNP comp 
+	-- "ADJ" -> intADJ comp
 	-- "ADJ" -> \s -> blowupPred (phon (t2c comp)) s
 	"PP" -> intPP comp
+
+intADJ adj = blowupPred (phon (t2c adj))
 
 type IV = ParseTree Cat Cat
 intIV :: IV -> Idx -> Trans
