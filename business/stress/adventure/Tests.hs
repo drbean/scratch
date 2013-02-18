@@ -3,11 +3,22 @@ module Tests where
 import Evaluation
 import Parsing
 
+text_test = [
+	"Steve Fossett sailed around the world. He was an adventurer"
+	]
+
 comp_tests = [
-	"Lack of support was stressful.",
-	"Uncertainty was stressful.",
-	"Lack of control was stressful.",
-	"Pressure was stressful."
+	"Lack of support was stressful."
+	, "Uncertainty was stressful."
+	, "Lack of control was stressful."
+	, "Pressure was stressful."
+	, "Steve Fossett was a man."
+	, "Steve Fossett was an adventurer."
+	, "Ellen MacArthur was a woman."
+	, "Ellen MacArthur was an adventurer."
+	, "Ellen MacArthur was a man."
+	, "Ellen MacArthur wasn't a woman."
+	, "Ellen MacArthur wasn't an adventurer."
 	]
 
 pressure_test = [
