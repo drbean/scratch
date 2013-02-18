@@ -45,7 +45,7 @@ inflections = [
 relations = [
 
  ( "true", \[x] -> predid1 "true" x ),
- ( "had", \[x,y] -> predid2 "have" y x ),
+ ( "had", \[x,y] -> predid2 "have" x y ),
  ( "gave",	\ [x,y,z] ->	predid3 "gave" z y x ),
  --( "work", \args -> case args of
  --       [x] -> worker x
