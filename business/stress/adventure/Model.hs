@@ -29,7 +29,7 @@ classes :: [String]
 classes = ["lack_of_support","uncertainty","lack_of_control","pressure"]
 
 context :: [Entity]
-context = []
+context = [M,T,F,K,Someone]
 
 plane = predid1 "poweredcraft"
 
