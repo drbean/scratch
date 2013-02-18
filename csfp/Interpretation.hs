@@ -44,9 +44,12 @@ inflections = [
 
 relations = [
 
- ( "true", \[x] -> predid1 "true" x ),
- ( "had", \[x,y] -> predid2 "have" x y ),
- ( "gave",	\ [x,y,z] ->	predid3 "gave" z y x ),
+ ( "true", \[x] -> predid1 "true" x )
+ , ( "had", \[x,y] -> predid2 "have" x y )
+ , ( "gave",	\ [x,y,z] ->	predid3 "gave" z y x )
+ , ( "talked", \args -> case args of
+    [x,y,z] -> predid3 "talked_with_about" x y z
+    [x,y]    -> (forgetful3 . predid3) "talk_with_about" x y)
  --( "work", \args -> case args of
  --       [x] -> worker x
  --       [x,y] -> predid2 "work_where" y x || predid2 "work_as" y x ),
@@ -54,7 +57,7 @@ relations = [
 --	[x,y,z,w] -> wanted w z y x
 --	[x,y,z] -> forgetful4 wanted z y x
 --	[x,y]	-> (forgetful3 . forgetful4 ) wanted y x ),
- ( "got", \args -> case args of
+ , ( "got", \args -> case args of
  	[x,y,z] -> predid3 "got" z y x
  	[x,y] -> forgetful3 (predid3 "got") y x )
  ]
