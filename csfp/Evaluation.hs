@@ -298,6 +298,10 @@ anonyn name = anonyn' name classes where
 		| s == name = head $ filter pred entities
 		| otherwise = firstMember name ss
 
+type TagQ = ParseTree Cat Cat
+intTAG :: TagQ -> Trans
+intTAG t = intS (subtree t [0])
+
 type Sent = ParseTree Cat Cat
 intS :: Sent -> Trans
 intS (Branch (Cat _ "YN" _ _) [aux,s]) = case (catLabel (t2c aux)) of
@@ -491,6 +495,9 @@ convert c = (convert' c (length c - 1),[])
 
 eval :: Maybe Sent -> Prop
 eval (Just s) = intS s (convert context) True
+
+evalTAG :: Maybe TagQ -> Prop
+evalTAG (Just t) = intTAG t (convert context) True
 
 evalFresh :: Maybe Sent -> Prop
 evalFresh (Just s) = intS s ([],[]) True
