@@ -56,8 +56,6 @@ transitives = [
 		Cat "knew"	"VP" [Tense] [Cat "_" "PP" [About] []]],
 	[Cat "know"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []],
 		Cat "know"	"VP" [Infl] [Cat "_" "PP" [About] []]],
-	[Cat "had"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "have"	"VP" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "left"	"VP" [Tense] [],
 		Cat "left"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
 		Cat "left"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
