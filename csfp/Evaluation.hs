@@ -56,7 +56,8 @@ singleton :: [a] -> Bool
 singleton [x] = True 
 singleton  _  = False 
 
-data Constraint = C1 VP Idx 
+data Constraint = C0 COP Idx
+		| C1 VP Idx 
                 | C2 TV Idx Idx 
                 | C3 DV Idx Idx Idx
                 | C4 VP Idx 
@@ -65,6 +66,7 @@ data Constraint = C1 VP Idx
                 deriving Eq
 
 instance Show Constraint where 
+  show (C0 cop i)     = show (get_phon "CN" cop) ++ (' ':show i)
   show (C1 vp i)     = show (get_phon "V" vp) ++ (' ':show i)
   show (C2 tv i j)   = show (get_phon "V" tv) ++ (' ':show i) 
                               ++ (' ':show j)
@@ -167,7 +169,7 @@ blowupCOP = \ cop word s c con b ->
              e1       = lookupIdx con s
              e2       = lookupIdx con c
              (con',cos) = front (s,e1) (front (c,e2) con)
-             co       = C2 cop s c
+             co       = C0 cop s
              co'      = C5 cop s c
              -- pred = int word
          in  
@@ -345,7 +347,7 @@ intVP (Branch (Cat _ "VP" _ _)
 intVP cop@(Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ _),
     Branch (Cat "_" "COMP" [] []) [comp]]) = case (catLabel (t2c comp)) of
     	"ADJ" -> \s -> blowupPred (phon (t2c comp)) s
-	"NP" -> \s -> intNP comp (\c -> intCOP cop s c)
+	"NP" -> \s -> intCOMP comp (\c -> intCOP cop s c)
 intVP iv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ _)]) = 
     \s -> intIV iv s
 intVP tv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ [_]),obj1]) =
@@ -385,11 +387,11 @@ type COP = ParseTree Cat Cat
 intCOP :: COP -> Idx -> Idx -> Trans
 intCOP cop@(Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ [_]),comp])
 	= blowupCOP cop "be"
---
---intCOMP comp = case (catLabel (t2c comp)) of 
---	"NP" -> intNP comp
---	-- "ADJ" -> int
---	"PP" -> intPP comp
+
+intCOMP comp = case (catLabel (t2c comp)) of 
+	"NP" -> intNP comp
+	-- "ADJ" -> \s -> blowupPred (phon (t2c comp)) s
+	"PP" -> intPP comp
 
 type IV = ParseTree Cat Cat
 intIV :: IV -> Idx -> Trans
