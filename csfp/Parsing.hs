@@ -31,10 +31,11 @@ get_phon :: CatLabel -> ParseTree Cat Cat -> Phon
 get_phon label tree = get ps tree
 	where
 	    ps = pos tree
+	    get [] _		= "No label/phon"
+	    get [p] t           = phon (t2c(subtree t p))
 	    get (p:ps') t	| (catLabel (t2c(subtree t p))) == label
 				    = phon (t2c(subtree t p))
 				| otherwise = get ps' t
-	    get _ _		= "No label/phon"
 	
 
 data Feat = Masc  | Fem  | Neutr | MascOrFem 
