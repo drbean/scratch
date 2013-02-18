@@ -319,6 +319,7 @@ pays = [
 
 haves = [
 	"Did Alex Tew have a good idea after the Million Dollar Homepage?"
+	, "Did Mark Zuckerberg have Facebook?"
 	]
 
 knows = [
