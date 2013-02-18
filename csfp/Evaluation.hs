@@ -405,7 +405,7 @@ intADJ adj = blowupPred (phon (t2c adj))
 
 type IV = ParseTree Cat Cat
 intIV :: IV -> Idx -> Trans
-intIV iv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ [_])])
+intIV iv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ _)])
 	= blowupIV iv name
 
 type TV = ParseTree Cat Cat
