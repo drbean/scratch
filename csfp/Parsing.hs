@@ -27,6 +27,14 @@ subtree (Branch _ ts) (i:is) = subtree (ts!!i) is
 subtrees :: ParseTree a b -> [ParseTree a b]
 subtrees t = [ subtree t p | p <- pos t ]
 
+get_phon :: CatLabel -> ParseTree Cat Cat -> Phon
+get_phon label tree = get ps tree
+	where
+	    ps = pos tree
+	    get (p:ps') t	| (catLabel (t2c(subtree t p))) == label
+				    = phon (t2c(subtree t p))
+				| otherwise = get ps' t
+	
 
 data Feat = Masc  | Fem  | Neutr | MascOrFem 
           | Sg    | Pl 
@@ -438,22 +446,22 @@ cond2R = \ us xs ->
 infinR1 :: SPARSER Cat Cat
 infinR1 = \us xs ->
  [ (Branch (Cat "_" "AT" [] []) [vp1,to,vp2],ps,qs) |
-	(vp1,vs,ys)  <- leafPS "VP" us xs, 
+	(vp1,vs,ys)  <- leafPS "V" us xs, 
 	(to,ws,zs) <- prsTO vs ys,
 	(z:zs')    <- [zs],
-	catLabel z == "VP",
-	z'         <- [Cat (phon z) "VP" [Tense] (subcatList z)],
+	catLabel z == "V",
+	z'         <- [Cat (phon z) "V" [Tense] (subcatList z)],
 	(vp2,ps,qs) <- prsVP ws (z':zs') ]
 
 infinR2 :: SPARSER Cat Cat 
 infinR2 = \ us xs -> 
  [ (Branch (Cat "_" "AT" (fs (t2c vp1)) []) [vp1,obj,to,vp2],rs,ss) | 
-	(vp1,vs,ys) <- leafPS "VP" us xs, 
+	(vp1,vs,ys) <- leafPS "V" us xs, 
 	(obj,ws,zs) <- prsNP vs ys,
 	(to,ps,qs)  <- prsTO ws zs,
 	(q:qs')     <- [qs],
-	catLabel q == "VP",
-	q'          <- [Cat (phon q) "VP" [Tense] (subcatList q)],
+	catLabel q == "V",
+	q'          <- [Cat (phon q) "V" [Tense] (subcatList q)],
 	(vp2,rs,ss) <- prsVP ps (q':qs') ]
 	-- subcatlist   <- [subcatList (t2c att)],
 	-- match subcatlist [t2c inf] ]
@@ -513,7 +521,7 @@ adjcnposR = \us xs ->
 depCR :: SPARSER Cat Cat
 depCR = \us xs ->
   [ (Branch (Cat "_" "NP" (fs (t2c vp)) []) [ing,Branch (Cat "_" "VP" [] []) [vp,xps] ], (us++ss), ts) |
-      (vp,vs,ys)  <- leafPS "VP" us xs, -- TODO us? []?
+      (vp,vs,ys)  <- leafPS "V" us xs, -- TODO us? []?
       (ing,ws,zs)  <- prsGER vs ys,
       verb	<- [t2c vp],
       (xps,ss,ts)  <- vpR ws (verb:zs)
@@ -566,13 +574,13 @@ vpR = vp0R <||> vp1R <||> vp2R <||> vp3R <||> infinR1 <||> infinR2
 vp0R :: SPARSER Cat Cat
 vp0R = \us xs -> 
  [(Branch (Cat "_" "VP" (fs (t2c vp)) []) [vp],vs,ys) |  
-             (vp,vs,ys)  <- leafPS "VP" us xs,
+             (vp,vs,ys)  <- leafPS "V" us xs,
 	     subcatList (t2c vp) == [] ]
 
 vp1R :: SPARSER Cat Cat
 vp1R = \us xs -> 
  [(Branch (Cat "_" "VP" (fs (t2c vp)) []) [vp,xp],ws,zs) |  
-             (vp,vs,ys)  <- leafPS "VP" us xs, 
+             (vp,vs,ys)  <- leafPS "V" us xs, 
              subcatlist  <- [subcatList (t2c vp)],
              (xp,ws,zs) <- prsNPorPP vs ys, 
              match subcatlist [t2c xp] ]
@@ -580,7 +588,7 @@ vp1R = \us xs ->
 vp2R :: SPARSER Cat Cat
 vp2R = \us xs -> 
  [(Branch (Cat "_" "VP" (fs (t2c vp)) []) [vp,obj1,obj2],ps,qs) |  
-             (vp,vs,ys)  <- leafPS "VP" us xs, 
+             (vp,vs,ys)  <- leafPS "V" us xs, 
              subcatlist  <- [subcatList (t2c vp)],
              (obj1,ws,zs) <- prsNPorPP vs ys, 
              (obj2,ps,qs) <- prsNPorPP ws zs, 
@@ -589,7 +597,7 @@ vp2R = \us xs ->
 vp3R :: SPARSER Cat Cat
 vp3R = \us xs -> 
  [(Branch (Cat "_" "VP" (fs (t2c vp)) []) [vp,obj1,obj2,pp],rs,ss) |  
-             (vp,vs,ys)  <- leafPS "VP" us xs, 
+             (vp,vs,ys)  <- leafPS "V" us xs, 
              subcatlist  <- [subcatList (t2c vp)],
              (obj1,ws,zs) <- prsNPorPP vs ys, 
              (obj2,ps,qs) <- prsNPorPP ws zs, 
@@ -731,3 +739,5 @@ testSuite2 =
  [ "Jack loved the woman that Frank helped Jill",
    "Rebia loved the man that helped"
     ]
+
+-- vim: set ts=8 sts=4 sw=4 noet:
