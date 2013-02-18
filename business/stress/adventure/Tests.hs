@@ -126,23 +126,31 @@ mod_test = [
 	]
 
 possessives = [
-	-- "Dr Bean's team helped Ellen MacArthur.",
-	-- "Ellen MacArthur's stress talked to the team.",
-	-- "Ellen MacArthur's team got Dr Bean's job.",
-	-- "Did Dr Bean's stress cause stress to Steve Fossett's team?",
-	-- "Did Dr Bean's stress cause stress to Steve Fossett's team?",
-	"Did Steve Fossett talk to Dr Bean?",
-	"The team of Ellen MacArthur talked to Steve Fossett.",
-	"Did the stress of Ellen MacArthur talk to Dr Bean?",
-	"Did a stress of Ellen MacArthur talk to Dr Bean?",
-	-- "Did the stress of Steve Fossett talk to Ellen MacArthur's team?",
-	"Was the stress of Steve Fossett because of lack of support?",
-	-- "Did a stress of an ambitious woman have sales experience?",
-	"Was the stress of the ambitious women because of lack of support?",
-	"Was the stress of Dr Bean because of lack of support?",
-	"Was the team of Ellen MacArthur because of lack of support?",
-	"Was the team of Steve Fossett because of lack of support?",
-	"Did the team of Ellen MacArthur talk to Steve Fossett?"
+	"Dr Bean's team helped Ellen MacArthur."
+	, "Did Ellen MacArthur's team talk to Steve Fossett?"
+	, "Ellen MacArthur's stress talked to the team."
+	-- , "Ellen MacArthur's team caused Dr Bean's stress"
+	, "Did Dr Bean's stress cause stress to Steve Fossett's team?"
+	, "Did Dr Bean's stress cause stress to Steve Fossett's team?"
+	, "Was the stress of Steve Fossett because of lack of support?"
+	, "Was the stress of the ambitious women because of lack of support?"
+	, "Was the stress of Dr Bean because of lack of support?"
+	, "Was the team of Ellen MacArthur because of lack of support?"
+	, "Was the team of Steve Fossett because of lack of support?"
+	, "Did the team of Ellen MacArthur talk to Steve Fossett?"
+	, "Did someone talk to Steve Fossett?"
+	]
+
+talks = [
+	"Did Steve Fossett talk to Dr Bean?"
+	, "Someone talked to Ellen MacArthur."
+	, "A team talked to Ellen MacArthur."
+	, "The team of Ellen MacArthur talked to Ellen MacArthur."
+	, "A team of Ellen MacArthur talked to Ellen MacArthur."
+	, "The team of Ellen MacArthur talked to Steve Fossett."
+	, "Did the stress of Ellen MacArthur talk to Dr Bean?"
+	, "Did a stress of Ellen MacArthur talk to Dr Bean?"
+	-- , "Did the stress of Steve Fossett talk to Ellen MacArthur's team?"
 	]
 
 fly_test = [
@@ -161,17 +169,21 @@ fly_test = [
 	]
 
 stress_test = [
-	"Steve Fossett felt stress",
-	"Ellen MacArthur felt stress",
-	"Dr Bean felt stress",
-	"Steve Fossett felt stress because of lack of control.",
-	"Steve Fossett felt stress because of uncertainty.",
-	"Steve Fossett felt stress because of lack of support.",
-	"Steve Fossett felt stress because of pressure.",
-	"Ellen MacArthur felt stress because of lack of control.",
-	"Ellen MacArthur felt stress because of uncertainty.",
-	"Ellen MacArthur felt stress because of lack of support.",
-	"Ellen MacArthur felt stress because of pressure."
+	"Steve Fossett felt stress"
+	, "Ellen MacArthur felt stress"
+	, "Dr Bean felt stress"
+	, "Steve Fossett felt stress because of lack of control."
+	, "Steve Fossett felt stress because of uncertainty."
+	, "Steve Fossett felt stress because of lack of support."
+	, "Steve Fossett felt stress because of pressure."
+	, "Ellen MacArthur felt stress because of lack of control."
+	, "Ellen MacArthur felt stress because of uncertainty."
+	, "Ellen MacArthur felt stress because of lack of support."
+	, "Ellen MacArthur felt stress because of pressure."
+	, "Lack of control caused stress to Ellen MacArthur."
+	, "Uncertainty caused stress to Ellen MacArthur."
+	, "Lack of support caused stress to Ellen MacArthur."
+	, "Pressure caused stress to Ellen MacArthur."
 	]
 
 len_test = [
