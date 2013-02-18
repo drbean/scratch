@@ -25,10 +25,10 @@ objects = [
 
 inflections = [
  ( "adventurers", "adventurer" )
+ , ( "cause_stress", "caused_stress" )
  , ( "feel_stress", "felt_stress" )
  , ( "sail", "sailed" )
  , ( "fly", "flew" )
- , ( "flew", "fly" )
  , ( "powered_aircraft", "plane" )
 
  ]
@@ -36,9 +36,12 @@ inflections = [
 relations = [
 	( "useful",	\[x]	-> predid1 "useful" x )
 
-	-- ( "felt_stress",	\args -> case args of
-		-- [x,y] -> predid2 "cause_stress" y x ),
-		-- [x] -> predid1 "feel_stress" x ),
+	, ( "caused_stress",	\args -> case args of
+		[x,y] -> predid2 "caused_stress" x y
+		[x] -> (forgetful2 . predid2) "caused_stress" x )
+	, ( "felt_stress",	\args -> case args of
+		[x,y] -> predid2 "felt_stress" x y
+		[x] -> (forgetful2 . predid2) "felt_stress" x )
 	, ( "put_pressure",	\[x,y]	-> predid2 "pressurize" y x	)
 	, ( "sailed",	\args -> case args of
 		[x,y,z,w,v] -> predid5 "sailed" v w z y x
