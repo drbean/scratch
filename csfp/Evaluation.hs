@@ -357,10 +357,10 @@ intVP (Branch (Cat _ "VP" _ _)
 intVP vp@(Branch (Cat _ "VP" _ _) [Leaf cop@(Cat _ "COP" _ _),
     Branch (Cat "_" "COMP" [] []) [comp]])
 	| (elem Ng (fs cop)) = case (catLabel (t2c comp)) of
-	    "ADJ" -> \s -> neg (intADJ comp s)
+	    "ADJ" -> \s -> neg (intCOMP comp (\c -> intCOP vp (get_phon "ADJ" vp) s))
 	    "NP" -> \s -> neg (intCOMP comp (\c -> intCOP vp (get_phon "CN" vp) s ))
 	| otherwise = case (catLabel (t2c comp)) of
-	    "ADJ" -> \s -> intADJ comp s
+	    "ADJ" -> \s -> intCOMP comp (\c -> intCOP vp (get_phon "ADJ" vp) s )
 	    "NP" -> \s -> intCOMP comp (\c -> intCOP vp (get_phon "CN" vp) s )
 intVP iv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ _)]) = 
     \s -> intIV iv s
