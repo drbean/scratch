@@ -113,10 +113,13 @@ sail_test = [
 	"Someone sailed around the world in an aircraft."
 	]
 
-rel_test = [
+mod_test = [
 	"Steve Fossett was a man who sailed around the world."
+	, "Steve Fossett was the man with a boat."
 	, "Steve Fossett was the man who sailed around the world."
 	, "Ellen MacArthur was the woman who sailed around the world."
+	, "Ellen MacArthur was the woman who had a boat."
+	, "Ellen MacArthur was the woman with the boat."
 	, "Steve Fossett was the man who felt stress."
 	, "Steve Fossett was a man who felt stress."
 	, "Steve Fossett was a man who felt stress because of lack of control."
