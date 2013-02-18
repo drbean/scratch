@@ -144,7 +144,7 @@ twoPlacers = [
     --, ("work_as",	pred2 $ map (\x -> (patient x, location x) ) work)
 	]
 
-reactions = [(C,R,F),(U,R,F),(P,R,F),(C,R,M),(U,R,M),(P,R,M)]
+reactions = [(C,R,T),(U,R,T),(C,R,F),(U,R,F),(P,R,F),(C,R,M),(U,R,M),(P,R,M)]
 
 threePlacers = [
     ("finish",	pred3 [])
