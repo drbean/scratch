@@ -451,7 +451,7 @@ intAT at@(Branch (Cat _ "AT" _ _)
 type CN = ParseTree Cat Cat
 intCN :: CN -> Idx -> Trans
 intCN (Leaf   (Cat name "CN" _ _))     = blowupPred name
-intCN (Branch (Cat _    "CN" _ _) [cn,rel]) = case rel of
+intCN (Branch (Cat _    "RCN" _ _) [cn,rel]) = case rel of
     (Branch (Cat _ "MOD" _ _) [Leaf (Cat _ "REL"  _ _), Branch (Cat _ "S" _ _) [np,vp]])
 	-> case ( phon (t2c np), catLabel (t2c vp) ) of
 	    ("#",_) -> intCN cn
@@ -459,7 +459,7 @@ intCN (Branch (Cat _    "CN" _ _) [cn,rel]) = case rel of
     	-> case (phon (t2c prep)) of
 		"with" -> intCN cn
 		"in" -> intCN cn
-intCN _ = blowupPred "Unspec"
+-- intCN _ = blowupPred "Unspec"
 --intCN (Branch (Cat _    "CN" _ _) [cn,ofpos,np]) =
 --    \x y -> exists `conj` intCN x `conj` intNP np (\thing -> predid2 "had" [x, thing])
 
