@@ -79,10 +79,10 @@ instance Show Constraint where
                                    ++ (' ':show j) 
                                    ++ (' ':show k)
 
-verb ::  ParseTree Cat Cat -> ParseTree Cat Cat
-verb = flip subtree [0,0,1]
-verbophone :: ParseTree Cat Cat -> String
-verbophone = phon . t2c . verb
+-- verb ::  ParseTree Cat Cat -> ParseTree Cat Cat
+-- verb = flip subtree [0,0,1]
+-- verbophone :: ParseTree Cat Cat -> String
+-- verbophone = phon . t2c . verb
 
 maxIndex  :: Constraint -> Idx
 maxIndex (C1 vp i)     = i
@@ -166,8 +166,8 @@ blowupPred = \ word i c  b ->
               then [] 
               else [c']
 
-blowupVP :: VP -> String -> Idx -> Trans
-blowupVP = \ vp word i c b -> 
+blowupIV :: VP -> String -> Idx -> Trans
+blowupIV = \ vp word i c b -> 
          let 
              e        = lookupIdx c i 
              (c',cos) = adjust (i,e) c
@@ -333,12 +333,14 @@ intVP cop@(Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ _),
     Branch (Cat "_" "COMP" [] []) [comp]]) = case (catLabel (t2c comp)) of
     	"ADJ" -> \s -> blowupPred (phon (t2c comp)) s
 	"NP" -> \s -> intNP comp (\pred -> blowupPred "true" s )
-intVP tv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1]) =
+intVP iv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ _)]) = 
+    \s -> intIV iv s
+intVP tv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ [_]),obj1]) =
 	case (catLabel ( t2c obj1 )) of
 		"NP" -> \ o -> intNP  obj1 (\ s -> nonCoref (intTV tv) s o) 
 		"PP" -> \ o -> intPP  obj1 (\ s -> nonCoref (intTV tv) s o) 
 -- intVP (VP2 tv refl)    = self (intTV tv)
-intVP dv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),obj1,obj2]) =
+intVP dv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ [_,_]),obj1,obj2]) =
 	case (catLabel (t2c obj1)) of 
 		"NP" -> case (catLabel (t2c obj2)) of 
 			"NP" -> \ s -> intNP obj1 (\ io -> intNP obj2 (\ o  -> 
@@ -364,8 +366,7 @@ intVP at@(Branch (Cat _ "AT" _ _)
 --                                         intDV dv s io o))
 --intVP (VP5 _not inf)   = \ s -> neg (intINF inf s)
 
-intVP iv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [])]) =
-	blowupVP iv name
+intVP _ = undefined
 
 --type COP = ParseTree Cat Cat
 --intCOP :: COP -> Idx -> Idx -> Trans
@@ -377,9 +378,14 @@ intVP iv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [])]) =
 --	-- "ADJ" -> int
 --	"PP" -> intPP comp
 
+type IV = ParseTree Cat Cat
+intIV :: IV -> Idx -> Trans
+intIV iv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ [_])])
+	= blowupIV iv name
+
 type TV = ParseTree Cat Cat
 intTV :: TV -> Idx -> Idx -> Trans
-intTV tv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1])
+intTV tv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ [_]),obj1])
 	= blowupTV tv name
 
 type DV = ParseTree Cat Cat
