@@ -38,8 +38,8 @@ relations = [
 	, ( "ambitious",	\[x]	-> predid1 "ambitious" x )
 
 	, ( "caused_stress",	\args -> case args of
-		[x,y] -> predid2 "caused_stress" x y
-		[x] -> (forgetful2 . predid2) "caused_stress" x )
+		[x,y] -> predid2 "cause_stress" x y
+		[x] -> (forgetful2 . predid2) "cause_stress" x )
 	, ( "felt_stress",	\args -> case args of
 		[x,y] -> predid2 "felt_stress" x y
 		[x] -> (forgetful2 . predid2) "felt_stress" x )
