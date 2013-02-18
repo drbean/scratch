@@ -125,6 +125,26 @@ mod_test = [
 	, "Steve Fossett was a man who felt stress because of lack of control."
 	]
 
+possessives = [
+	-- "Dr Bean's team helped Ellen MacArthur.",
+	-- "Ellen MacArthur's stress talked to the team.",
+	-- "Ellen MacArthur's team got Dr Bean's job.",
+	-- "Did Dr Bean's stress cause stress to Steve Fossett's team?",
+	-- "Did Dr Bean's stress cause stress to Steve Fossett's team?",
+	"Did Steve Fossett talk to Dr Bean?",
+	"The team of Ellen MacArthur talked to Steve Fossett.",
+	"Did the stress of Ellen MacArthur talk to Dr Bean?",
+	"Did a stress of Ellen MacArthur talk to Dr Bean?",
+	-- "Did the stress of Steve Fossett talk to Ellen MacArthur's team?",
+	"Was the stress of Steve Fossett because of lack of support?",
+	-- "Did a stress of an ambitious woman have sales experience?",
+	"Was the stress of the ambitious women because of lack of support?",
+	"Was the stress of Dr Bean because of lack of support?",
+	"Was the team of Ellen MacArthur because of lack of support?",
+	"Was the team of Steve Fossett because of lack of support?",
+	"Did the team of Ellen MacArthur talk to Steve Fossett?"
+	]
+
 fly_test = [
 	"Did Steve Fossett fly around the world.",
 	"Steve Fossett flew around the world.",
