@@ -660,7 +660,7 @@ prsSorVdependents = prsVdependents <||> manyS prsS
 
 cnrelR :: SPARSER Cat Cat
 cnrelR = \us xs -> 
-     [ (Branch (Cat "_" "CN" (fs (t2c cn)) []) 
+     [ (Branch (Cat "_" "RCN" (fs (t2c cn)) []) 
                [cn,rel], ws, zs) |
                  (cn,vs,ys)  <- leafPS "CN" us xs, 
                  (rel,ws,zs) <- prsREL vs ys, 
@@ -668,7 +668,7 @@ cnrelR = \us xs ->
 
 ofR :: SPARSER Cat Cat
 ofR = \us xs ->
-  [ (Branch (Cat "_" "CN" (fs (t2c cn1)) []) [cn1,pos,np2], (us++ss), ts) |
+  [ (Branch (Cat "_" "RCN" (fs (t2c cn1)) []) [cn1,pos,np2], (us++ss), ts) |
       (cn1,vs,ys)  <- leafPS "CN" us xs,
       (pos,ws,zs) <- prsOFPOS vs ys,
       (np2,ss,ts) <- prsNP ws zs
