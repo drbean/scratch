@@ -158,8 +158,8 @@ transS _ = NonProposition
 
 transAT :: ParseTree Cat Cat -> Term -> LF
 transAT (Branch (Cat _ "AV" _ _)
-    [Leaf (Cat att "VP" _ [_]), Leaf (Cat "to" "TO" [ToInf] []),
-       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj])]) =
+    [Leaf (Cat att "V" _ [_]), Leaf (Cat "to" "TO" [ToInf] []),
+       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "V" _ _),obj])]) =
 	   case(catLabel (t2c obj)) of
 	"NP" ->
 	    (\subj -> transNP obj
@@ -169,8 +169,8 @@ transAT (Branch (Cat _ "AV" _ _)
 		( \theme -> Rel (att++"_to_"++act) [subj,subj,theme] ))
 
 transAT (Branch (Cat _ "AV" _ _)
-    [Leaf (Cat att "VP" _ [_]), Leaf (Cat "to" "TO" [ToInf] []),
-       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj1,obj2])]) =
+    [Leaf (Cat att "V" _ [_]), Leaf (Cat "to" "TO" [ToInf] []),
+       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "V" _ _),obj1,obj2])]) =
     case (catLabel ( t2c obj1 ), catLabel (t2c obj2)) of
 	("NP","NP") ->
 	    (\subj -> transNP obj1
@@ -182,8 +182,8 @@ transAT (Branch (Cat _ "AV" _ _)
 		    ( \recipient -> Rel (att++"_to_"++act) [subj,subj,theme,recipient] )))
 
 transAT (Branch (Cat _ "AV" _ _)
-    [Leaf (Cat att "VP" _ [_]), obj0, Leaf (Cat "to" "TO" [ToInf] []),
-       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj])]) =
+    [Leaf (Cat att "V" _ [_]), obj0, Leaf (Cat "to" "TO" [ToInf] []),
+       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "V" _ _),obj])]) =
 	   case(catLabel (t2c obj)) of
 	"NP" ->
 	    (\subj -> transNP obj0
@@ -195,8 +195,8 @@ transAT (Branch (Cat _ "AV" _ _)
 		    ( \theme -> Rel (att++"_to_"++act) [subj,agent,theme] )))
 
 transAT (Branch (Cat _ "AV" _ _)
-    [Leaf (Cat att "VP" _ [_]), obj0, Leaf (Cat "to" "TO" [ToInf] []),
-       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj1,obj2])]) =
+    [Leaf (Cat att "V" _ [_]), obj0, Leaf (Cat "to" "TO" [ToInf] []),
+       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "V" _ _),obj1,obj2])]) =
     case (catLabel ( t2c obj1 ), catLabel (t2c obj2)) of
 	("NP","NP") ->
 	    (\subj -> transNP obj0
@@ -272,9 +272,9 @@ transCN (Branch (Cat _    "CN" _ _) [cn,rel]) = case (rel) of
 	case (np,vp) of
 	    (Leaf (Cat "#" "NP" _ _), _) -> \x -> Conj [transCN cn x, transVP vp x]
 	    (_, (Branch (Cat _ "VP" _ _) vp)) -> case (vp) of
-		[Leaf (Cat name "VP" _ _),Leaf (Cat "#" "NP" _ _)]->
+		[Leaf (Cat name "V" _ _),Leaf (Cat "#" "NP" _ _)]->
 		    \x -> Conj [transCN cn x, transNP np (\agent -> Rel name [agent,x])]
-		[Leaf (Cat name "VP" _ _),obj1,obj2]-> case (obj1,obj2) of
+		[Leaf (Cat name "V" _ _),obj1,obj2]-> case (obj1,obj2) of
 		    (Leaf (Cat "#" "NP" _ _),Branch (Cat _ "PP" _ _) _) -> \x -> Conj
 			[transCN cn x, transNP np ( \agent ->
 			    transPP obj2 (\recipient -> Rel name [agent, x, recipient] ) ) ]
@@ -290,7 +290,7 @@ transCN (Branch (Cat _    "CN" _ _) [cn,rel]) = case (rel) of
 	    _ -> \x -> Conj [transCN cn x, transVP vp x]
     (Branch (Cat _ "MOD" _ _) [Branch (Cat _ "S" _ _) [np,vp]]) ->
 	case (vp) of
-	    (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ _),Leaf (Cat "#" "NP" _ _)])
+	    (Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ _),Leaf (Cat "#" "NP" _ _)])
 		-> \x -> Conj [transCN cn x, transNP np (\agent -> Rel name [agent,x])]
     (Branch (Cat _ "MOD" _ _) [Branch (Cat _ "PP" _ _)
 	[Leaf (Cat "with" "PREP" [With] _),np]]) -> 
@@ -330,7 +330,7 @@ transVP (Branch (Cat _ "VP" _ _)
                 [Leaf (Cat "#" "AUX" _ []),vp]) = 
         transVP vp 
 
-transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [])]) = 
+transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ [])]) = 
         \ t -> ( Rel name [t] )
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ _),
     Branch (Cat "_" "COMP" [] []) [comp]]) = case (catLabel (t2c comp)) of
@@ -344,12 +344,12 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ _),
 	--	(\owner -> Conj [Rel name [x], Rel "had" [owner,x] ] )
 	--Branch (Cat _ "NP" _ _) [det,Leaf (Cat qual "ADJ" _ _),cn] -> \subj
 	--    -> Conj [ transCN cn subj, Rel qual [subj] ]
-transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_]),obj1]) = 
+transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ [_]),obj1]) = 
 	case (catLabel ( t2c obj1 )) of
 		"PP" -> \subj -> transPP obj1 (\adv -> Rel name [subj,adv])
 		"NP" -> \subj -> transNP obj1 (\ obj -> Rel name [subj,obj])
 
-transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),obj1,obj2]) = 
+transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ [_,_]),obj1,obj2]) = 
     case (catLabel ( t2c obj1 )) of
 	"NP" ->
 	    case (catLabel ( t2c obj2 )) of
@@ -364,19 +364,19 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_]),obj1,obj2]) =
 	"PP" -> \agent -> transPP obj1 (\theme -> transPP obj2 (\instrument
 		-> Rel name [agent,theme,instrument]))
 	_ -> undefined
-transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "VP" _ [_,_,_]),obj1,obj2,obj3]) = 
+transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ [_,_,_]),obj1,obj2,obj3]) = 
     \ agent   -> transNPorPP obj1 
     (\ location   -> transNPorPP obj2
     (\ theme   -> transNPorPP obj3
      (\ recipient -> Rel name [agent,location,theme,recipient])))
 
 transVP (Branch (Cat _ "AT" _ _)
-    [Leaf (Cat att "VP" _ _), Leaf (Cat "to" "TO" [ToInf] []),
-       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _)])]) =
+    [Leaf (Cat att "V" _ _), Leaf (Cat "to" "TO" [ToInf] []),
+       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "V" _ _)])]) =
 	    (\subj -> Rel (att++"_to_"++act) [subj,subj] )
 transVP (Branch (Cat _ "AT" _ _)
-    [Leaf (Cat att "VP" _ _), Leaf (Cat "to" "TO" [ToInf] []),
-       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj])]) =
+    [Leaf (Cat att "V" _ _), Leaf (Cat "to" "TO" [ToInf] []),
+       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "V" _ _),obj])]) =
 	   case(catLabel (t2c obj)) of
 	"NP" ->
 	    (\subj -> transNP obj
@@ -385,8 +385,8 @@ transVP (Branch (Cat _ "AT" _ _)
 	    (\subj -> transPP obj
 		( \theme -> Rel (att++"_to_"++act) [subj,subj,theme] ))
 transVP (Branch (Cat _ "AT" _ _)
-    [Leaf (Cat att "VP" _ [_]), Leaf (Cat "to" "TO" [ToInf] []),
-       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj1,obj2])]) =
+    [Leaf (Cat att "V" _ [_]), Leaf (Cat "to" "TO" [ToInf] []),
+       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "V" _ _),obj1,obj2])]) =
     case (catLabel ( t2c obj1 ), catLabel (t2c obj2)) of
 	("NP","NP") ->
 	    (\subj -> transNP obj1
@@ -397,8 +397,8 @@ transVP (Branch (Cat _ "AT" _ _)
 		(\theme -> transPP obj2
 		    ( \recipient -> Rel (att++"_to_"++act) [subj,subj,theme,recipient] )))
 transVP (Branch (Cat _ "AT" _ _)
-    [Leaf (Cat att "VP" _ [_]), obj0, Leaf (Cat "to" "TO" [ToInf] []),
-       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj])]) =
+    [Leaf (Cat att "V" _ [_]), obj0, Leaf (Cat "to" "TO" [ToInf] []),
+       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "V" _ _),obj])]) =
 	   case(catLabel (t2c obj)) of
 	"NP" ->
 	    (\subj -> transNP obj0
@@ -409,8 +409,8 @@ transVP (Branch (Cat _ "AT" _ _)
 		(\agent -> transPP obj
 		    ( \theme -> Rel (att++"_to_"++act) [subj,agent,theme] )))
 transVP (Branch (Cat _ "AT" _ _)
-    [Leaf (Cat att "VP" _ [_]), obj0, Leaf (Cat "to" "TO" [ToInf] []),
-       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "VP" _ _),obj1,obj2])]) =
+    [Leaf (Cat att "V" _ [_]), obj0, Leaf (Cat "to" "TO" [ToInf] []),
+       (Branch (Cat _ "VP" _ _) [Leaf (Cat act "V" _ _),obj1,obj2])]) =
     case (catLabel ( t2c obj1 ), catLabel (t2c obj2)) of
 	("NP","NP") ->
 	    (\subj -> transNP obj0
@@ -440,7 +440,7 @@ transWH (Just (Branch (Cat _ "WH" _ _ )
 	[wh,(Branch (Cat _ "YN" _ _) [_,(Branch
 		(Cat _ "S" _ _) [np,(Branch
 			(Cat _ "VP" _ _) [_,vp@(Branch
-				(Cat _ "VP" _ _) [Leaf (Cat two_ple "VP" _ _),obj])])])])])) =
+				(Cat _ "VP" _ _) [Leaf (Cat two_ple "V" _ _),obj])])])])])) =
 	case (obj) of 
 		(Leaf (Cat _ "NP" _ _) ) ->
 			WH (\x -> Conj [transW wh x,
@@ -455,7 +455,7 @@ transWH (Just (Branch (Cat _ "WH" _ _ )
 	[wh,(Branch (Cat _ "YN" _ _) [_,(Branch
 		(Cat _ "S" _ _) [np,(Branch
 			(Cat _ "VP" _ _) [_,vp@(Branch
-				(Cat _ "VP" _ _) [Leaf (Cat three_ple "VP" _ _),obj1,obj2]
+				(Cat _ "VP" _ _) [Leaf (Cat three_ple "V" _ _),obj1,obj2]
 						)])])])])) =
 	case (obj1,obj2) of 
 		(_,Branch (Cat _ "PP" _ _) [Leaf (Cat _ "PREP" _ _),
