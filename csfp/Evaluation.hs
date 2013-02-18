@@ -459,7 +459,6 @@ intCN (Branch (Cat _    "RCN" _ _) [cn,rel]) = case rel of
     	-> case (phon (t2c prep)) of
 		"with" -> intCN cn
 		"in" -> intCN cn
--- intCN _ = blowupPred "Unspec"
 --intCN (Branch (Cat _    "CN" _ _) [cn,ofpos,np]) =
 --    \x y -> exists `conj` intCN x `conj` intNP np (\thing -> predid2 "had" [x, thing])
 
