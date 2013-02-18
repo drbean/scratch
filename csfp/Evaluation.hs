@@ -404,11 +404,12 @@ intCOP cop@(Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ [_]),comp])
 
 intCOMP comp = case (catLabel (t2c comp)) of 
 	"NP" -> intNP comp 
-	-- "ADJ" -> intADJ comp
+	"ADJ" -> intADJ comp
 	-- "ADJ" -> \s -> blowupPred (phon (t2c comp)) s
 	"PP" -> intPP comp
 
-intADJ adj = blowupPred (phon (t2c adj))
+intADJ (Leaf (Cat name "ADJ" _ _)) = \psi c -> let i = size c in
+    (exists `conj` (blowupPred name i) `conj` psi i) c
 
 type IV = ParseTree Cat Cat
 intIV :: IV -> Idx -> Trans
