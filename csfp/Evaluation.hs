@@ -332,7 +332,7 @@ intVP (Branch (Cat _ "VP" _ _)
 intVP cop@(Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ _),
     Branch (Cat "_" "COMP" [] []) [comp]]) = case (catLabel (t2c comp)) of
     	"ADJ" -> \s -> blowupPred (phon (t2c comp)) s
-	"NP" -> \s -> intNP comp (\pred -> blowupPred "true" s )
+	"NP" -> \s -> intNP comp (\c -> intCOP s c)
 intVP iv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ _)]) = 
     \s -> intIV iv s
 intVP tv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ [_]),obj1]) =
@@ -368,10 +368,10 @@ intVP at@(Branch (Cat _ "AT" _ _)
 
 intVP _ = undefined
 
---type COP = ParseTree Cat Cat
---intCOP :: COP -> Idx -> Idx -> Trans
---intCOP cop@(Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ [_]),comp])
---	= blowupPred pred where pred = intCOMP comp
+type COP = ParseTree Cat Cat
+intCOP :: COP -> Idx -> Idx -> Trans
+intCOP cop@(Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ [_]),comp])
+	= blowupCOP cop "be"
 --
 --intCOMP comp = case (catLabel (t2c comp)) of 
 --	"NP" -> intNP comp
