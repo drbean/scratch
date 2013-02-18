@@ -331,9 +331,10 @@ intNP (Leaf (Cat name "NP" _ _))
 		    in p i c'
 -- intNP (PRO i)       = \ p c ->  p i c 
 intNP (Branch (Cat _ "NP" _ _) [det,cn]) = (intDET det) (intCN cn) 
---intNP (Branch (Cat _ "NP" _ _) [det,Leaf (Cat a "ADJ" _ _),cn]) = 
---	\i -> exists && `conj` (blowupPred a i) (intDET det) (intCN cn)
---              (exists `conj` (phi i) `conj` (psi i)) c
+intNP (Branch (Cat _ "NP" _ _) [det,Leaf (Cat a "ADJ" _ _),cn]) = 
+    \psi c -> let i = size c in
+	(exists `conj` intCN cn i `conj` blowupPred a i `conj`
+	(intDET det) (intCN cn) psi) c
 intNP (Branch (Cat _ "NP" _ _) [np,Leaf (Cat "'s" "APOS" _ _),cn]) =
     \psi c -> let i = size c in 
                 (exists `conj` (intCN cn i) `conj` (intNP np (\x -> blowupTV have "have" x i)) `conj` (psi i)) c
