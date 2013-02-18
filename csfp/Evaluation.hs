@@ -463,7 +463,7 @@ intCN (Branch (Cat _    "RCN" _ _) [cn,rel]) = case rel of
 	    "in" -> intCN cn
 	    where have =  Leaf (Cat "have" "V" [] [])
 intCN (Branch (Cat _ "RCN" _ _) [cn,ofpos,np]) =
-    \owner -> (intNP np (\object -> conj (intCN cn owner)
+    \object -> (intNP np (\owner -> conj (intCN cn object)
 					(blowupTV have "had" owner object)))
 	    where have =  Leaf (Cat "have" "V" [] [])
 
