@@ -79,6 +79,8 @@ comp_tests = [
 	, "Ellen MacArthur wasn't a woman."
 	, "Steve Fossett wasn't a woman."
 	, "Ellen MacArthur wasn't an adventurer."
+	, "Steve Fossett was ambitious."
+	, "Ellen MacArthur wasn't stressful."
 	]
 
 pressure_test = [
