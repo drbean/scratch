@@ -77,7 +77,7 @@ onePlacers = [
 	, ("adventurer",	pred1 $ map fst leadership )
 	, ("financial_trader",	pred1 [F] )
 	, ("teacher",	pred1 [T] )
-	, ("team",	pred1 [Someone,Someone] )
+	, ("team",	pred1 [Someone] )
 	, ("role",	pred1 [] )
 	, ("person",	person )
 	, ("thing",	thing )
