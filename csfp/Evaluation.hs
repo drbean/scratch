@@ -457,8 +457,9 @@ intCN (Branch (Cat _    "RCN" _ _) [cn,rel]) = case rel of
 	    ("#",_) -> \i -> conj (intCN cn i) (intVP vp i)
     (Branch (Cat _ "MOD" _ _) [Branch (Cat _ "PP" _ _) [prep,np]])
     	-> case (phon (t2c prep)) of
-		"with" -> intCN cn
+		"with" -> \owner ->  (intNP np (\object-> conj (intCN cn owner) (blowupTV have "had" owner object))) 
 		"in" -> intCN cn
+		where have = Branch (Cat "_" "VP" [] []) [Leaf (Cat "have" "V" [] []),np]
 --intCN (Branch (Cat _    "CN" _ _) [cn,ofpos,np]) =
 --    \x y -> exists `conj` intCN x `conj` intNP np (\thing -> predid2 "had" [x, thing])
 
