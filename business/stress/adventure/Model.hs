@@ -88,7 +88,6 @@ onePlacers = [
     , ("pressure",	pred1 [P] )
     , ("stress",	pred1 [R] )
     , ("stressful",	pred1 [C,U,S,P] )
-    , ("feel_stress",	pred1 entities )
 
 	, ("good",	pred1 [] )
 	, ("bad",	pred1 [C,U,S,P,R] )
@@ -130,36 +129,35 @@ pred5 xs	= curry5 ( `elem` xs )
 
 twoPlacers :: [(String, TwoPlacePred)]
 twoPlacers = [
-	("know",	pred2 $ acquainted ++ map swap acquainted)
-	, ("have",	pred2 $ possessions ++ leadership ++ features)
-    , ("cause_stress",	pred2 causes )
-	, ("pressurize",	pred2 [])
-	, ("help",	pred2 [])
-	, ("said",	pred2 $ map (\x->(agent x, theme x) ) comms)
-	, ("asked",	pred2 $ map (\x->(agent x, recipient x) ) comms)
-	, ("talk_with_or_about",	pred2 $ map (\x->(agent x, recipient x) ) comms
-              ++  map (\(agent,theme,recipient)->(agent, theme) ) comms)
-	, ("recite",	pred2 $ map ( \x -> (agent x, theme x) ) comms)
-	--, ("work_where",	pred2 $ map (\x -> (patient x, agent x) ) work)
-	--, ("work_as",	pred2 $ map (\x -> (patient x, location x) ) work)
-	, ("studied",	\a t -> case (a,t) of
-		(A,G) -> False; otherwise -> pred2 studies a t)
+    ("know",	pred2 $ acquainted ++ map swap acquainted)
+    , ("have",	pred2 $ possessions ++ leadership ++ features)
+    , ("felt_stress",	pred2 $ map (\x -> (patient x, agent x) ) reactions )
+    , ("cause_stress",	pred2 $ map (\x -> (agent x, patient x) ) reactions )
+    , ("pressurize",	pred2 [])
+    , ("help",	pred2 [])
+    , ("said",	pred2 $ map (\x->(agent x, theme x) ) comms)
+    , ("asked",	pred2 $ map (\x->(agent x, recipient x) ) comms)
+    , ("talk_with_or_about",	pred2 $ map (\x->(agent x, recipient x) ) comms
+	++  map (\(agent,theme,recipient)->(agent, theme) ) comms)
+    , ("recite",	pred2 $ map ( \x -> (agent x, theme x) ) comms)
+    --, ("work_where",	pred2 $ map (\x -> (patient x, agent x) ) work)
+    --, ("work_as",	pred2 $ map (\x -> (patient x, location x) ) work)
 	]
 
-causes = [(C,R),(U,R),(S,R),(P,R)]
+reactions = [(C,R,F),(U,R,F),(P,R,F),(C,R,M),(U,R,M),(P,R,M)]
 
 threePlacers = [
-	("finish",	pred3 [])
-	, ("make",	pred3 $
-		foldl (\ms (a,t,r,_) -> (a,t,r):(a,r,t):ms ) [] makings)
-	, ("gave",	pred3 giving)
-	, ("got",	pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving)
-	, ("ask_about",	pred3 $ map (\x->(agent x, recipient x, theme x) ) comms)
-	, ("talk_with_about",	pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
-				++ comms)
-	, ("told",	pred3 comms)
-	, ("wanted_to_study", pred3 $ map (\(a,t) -> (a,a,t)) studies)
-	]
+    ("finish",	pred3 [])
+    , ("make",	pred3 $
+	    foldl (\ms (a,t,r,_) -> (a,t,r):(a,r,t):ms ) [] makings)
+    , ("gave",	pred3 giving)
+    , ("got",	pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving)
+    , ("ask_about",	pred3 $ map (\x->(agent x, recipient x, theme x) ) comms)
+    , ("talk_with_about",	pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
+			    ++ comms)
+    , ("told",	pred3 comms)
+    , ("wanted_to_study", pred3 $ map (\(a,t) -> (a,a,t)) studies)
+    ]
 
 -- control	= [(Unspec,Unspec)]
 -- uncertainty	= [(Unspec,Unspec)]
@@ -200,7 +198,6 @@ supported	= pred1 $ map snd support
 leader	= supported
 team_member	= supporter
 
-feel_stress	= pred1 $ map fst causes
 circumnavigate = pred2 circumnavigations
 fly_around_in	= pred3 $ map (\x -> (fst x,W,snd x) ) $ filter (\x -> snd x == B || snd x == P)
 			circumnavigations
