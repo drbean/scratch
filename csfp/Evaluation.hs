@@ -60,13 +60,14 @@ data Constraint = C0 COP Idx
 		| C1 VP Idx 
                 | C2 TV Idx Idx 
                 | C3 DV Idx Idx Idx
-                | C4 VP Idx 
-                | C5 TV Idx Idx 
-                | C6 DV Idx Idx Idx
+                | C4 COP Idx
+		| C5 VP Idx 
+                | C6 TV Idx Idx 
+                | C7 DV Idx Idx Idx
                 deriving Eq
 
 instance Show Constraint where 
-  show (C0 cop i)     = show (get_phon "CN" cop) ++ (' ':show i)
+  show (C0 cop i)    = show (get_phon "CN" cop) ++ (' ':show i)
   show (C1 vp i)     = show (get_phon "V" vp) ++ (' ':show i)
   show (C2 tv i j)   = show (get_phon "V" tv) ++ (' ':show i) 
                               ++ (' ':show j)
@@ -74,20 +75,23 @@ instance Show Constraint where
                                ++ (' ':show j) 
                                ++ (' ':show k)
 
-  show (C4 vp i)     = '-':show (get_phon "V" vp) ++ (' ':show i)
-  show (C5 tv i j)   = '-':show (get_phon "V" tv) ++ (' ':show i) 
+  show (C4 cop i)    = '-':show (get_phon "CN" cop) ++ (' ':show i)
+  show (C5 vp i)     = '-':show (get_phon "V" vp) ++ (' ':show i)
+  show (C6 tv i j)   = '-':show (get_phon "V" tv) ++ (' ':show i) 
                                    ++ (' ':show j)
-  show (C6 dv i j k) = '-':show (get_phon "V" dv) ++ (' ':show i) 
+  show (C7 dv i j k) = '-':show (get_phon "V" dv) ++ (' ':show i) 
                                    ++ (' ':show j) 
                                    ++ (' ':show k)
 
 maxIndex  :: Constraint -> Idx
+maxIndex (C0 cop i)     = i
 maxIndex (C1 vp i)     = i
 maxIndex (C2 tv i j)   = max i j 
 maxIndex (C3 dv i j k) = maximum [i,j,k]
-maxIndex (C4 vp i)     = i
-maxIndex (C5 tv i j)   = max i j 
-maxIndex (C6 dv i j k) = maximum [i,j,k]
+maxIndex (C4 cop i)     = i
+maxIndex (C5 vp i)     = i
+maxIndex (C6 tv i j)   = max i j 
+maxIndex (C7 dv i j k) = maximum [i,j,k]
 
 type Context = ([(Idx,Entity)],[Constraint])
 type Prop    = [Context]
@@ -169,7 +173,7 @@ blowupCOP = \ cop word s con b ->
              e       = lookupIdx con s
              (con',cos) = front (s,e) con
              co       = C0 cop s
-             co'      = C0 cop s
+             co'      = C4 cop s
              pred = int word
          in  
              if   b 
@@ -186,7 +190,7 @@ blowupIV = \ vp word i c b ->
              e        = lookupIdx c i 
              (c',cos) = front (i,e) c
              co       = C1 vp i
-             co'      = C4 vp i
+             co'      = C5 vp i
              pred = int word
          in  
              if   b 
@@ -204,7 +208,7 @@ blowupTV = \ tv word subj obj c b ->
             e2       = lookupIdx c obj 
             (c',cos) = front (subj,e1) (front (obj,e2) c)
             co       = C2 tv subj obj
-            co'      = C5 tv subj obj
+            co'      = C6 tv subj obj
             pred = int word
         in  
             if   b 
@@ -226,7 +230,7 @@ blowupDV = \ dv word subj iobj dobj c b ->
                       (front (iobj,e2)
                       (front (dobj,e3) c))
             co       = C3 dv subj iobj dobj
-            co'      = C6 dv subj iobj dobj
+            co'      = C7 dv subj iobj dobj
             pred = int word
         in  
             if   b 
@@ -343,10 +347,14 @@ intVP (Branch (Cat _ "VP" _ _)
 intVP (Branch (Cat _ "VP" _ _) 
                 [Leaf (Cat "#" "AUX" _ []),vp]) = intVP vp 
 
-intVP cop@(Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ _),
-    Branch (Cat "_" "COMP" [] []) [comp]]) = case (catLabel (t2c comp)) of
-    	"ADJ" -> \s -> intADJ comp s
-	"NP" -> \s -> intCOMP comp (\c -> intCOP cop (get_phon "CN" cop) s )
+intVP vp@(Branch (Cat _ "VP" _ _) [Leaf cop@(Cat _ "COP" _ _),
+    Branch (Cat "_" "COMP" [] []) [comp]])
+	| (elem Ng (fs cop)) = case (catLabel (t2c comp)) of
+	    "ADJ" -> \s -> neg (intADJ comp s)
+	    "NP" -> \s -> neg (intCOMP comp (\c -> intCOP vp (get_phon "CN" vp) s ))
+	| otherwise = case (catLabel (t2c comp)) of
+	    "ADJ" -> \s -> intADJ comp s
+	    "NP" -> \s -> intCOMP comp (\c -> intCOP vp (get_phon "CN" vp) s )
 intVP iv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ _)]) = 
     \s -> intIV iv s
 intVP tv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ [_]),obj1]) =
