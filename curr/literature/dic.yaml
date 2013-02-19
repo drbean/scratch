@@ -1,0 +1,243 @@
+---
+-
+  - id
+  - description
+  - genre
+  - target
+  - content
+  - unclozeables
+  - percent
+-
+  - robin-hood
+  - Robin rallies supporters against sheriff
+  - literature
+  - A
+  -  |+
+    00:28 Will: You brought this misery on us, Locksley.
+   Robin: This is Nottingham, trying to divide us.
+   Will: We are divided, rich boy. I'm not as blind as that old man over there. You're still trying to be lord of the manor. I heard today that the sheriff now values your neck at five hundred gold pieces. I say we take him in!
+   Robin: Will, do you think that the sheriff will give everything back after I'm gone?
+   Will: They'll give us the reward and our pardons.
+   Robin: Wrong. He'll stretch your necks one by one.
+   Will: Well, what will you have us do? Fight armored men on horseback with rocks and our bare hands?
+   Robin: If needs be. But with the one true weapon that escapes you, Will. Courage.
+   Wulf: Look out!
+
+   Robin: Thank you, Wulf.
+
+   You wish to end this? You wish to go home? Then we must stop fighting amongst ourselves!  And face that the price worth may be dear. But I for one would rather die and spend my life in hiding. The Sheriff calls us outlaws, but I say we are free! And one free man defending his home is more powerful then ten hired soldiers. The Crusades taught me that. I will make you no promises, save one: That when you truly believe in your hearts that you're free then I say we can win!
+
+  - 00:28|Will|Robin|Locksley|Nottingham|lord of the manor|sheriff|pieces|reward|pardons|armored|horseback|Wulf|hired|Crusades|save
+  - 50
+  - https://www.youtube.com/watch?v=KXTj5nd2oKQ
+-
+  - don-quixote
+https://www.youtube.com/watch?v=qkWy163k9eA Cartoon
+https://www.youtube.com/watch?v=yEnDOXmyU-o Song
+https://www.youtube.com/watch?v=Uwe7juUZLTk Story
+  - Don Quixote
+  - literature
+  - A
+  -  |+
+     Narrator: Many, many years ago, in 16th century Spain, in an area known as La Mancha, there lay a quiet little village. And in the village, there was a large estate that belonged to a middle-aged gentleman, named Alonso Quijano.
+     Instead of taking care of his estate like most other gentlemen of the time, Alonso Quijano preferred to read books about chivalry, about knights in shining armor. And the more he read, the more he envied the knights of old. They led such exciting lives. He imagined that he could be a brave knight on a fast steed riding through the land, protecting maidens in distress and slaying dragons and monsters. 
+     Don Quixote: Sancho.
+     Sancho Panchez: Yes sir? May I help you?
+     Don Quixote: Sancho, I will become a brave knight, and you my squire. We will ride through the land and uphold justice for all.
+     Narrator: He was very serious. He changed his name to Don Quixote and wore his great-grandfather's armor. He then mounted a common plough horse and named it Rocinante. And along with his faithful squire, he was ready for his first adventure as a knight.
+     The next morning as the sun was shining brightly over the farmland of the village, there suddenly appeared a knight in shining armor and his squire riding through the countryside. Everyone stopped their work to have a look at this strange sight. They just couldn't believe their eyes.
+     Don Quixote: Sancho, there is much to do. We must push on. The work of a brave knight is never done.
+     Narrator: Don Quixote and Sancho had reached the end of their first day without incident. But Don Quixote dreamed of the adventures to come as they rode into the night.
+     The people in the village thought that Don Quixote's behavior was very peculiar.
+     Don Quixote and Sancho continued their ride through the countryside. And suddenly, What a lovely girl!
+     Don Quixote: Beautiful maiden! Let me introduce myself. I am Don Quixote.
+     Aldonza:  Hello. I'm Aldonza. Why have you dressed so strangely?
+     Don Quixote: Strangely?  Huh. Why, I am the brave knight of La Mancha.
+     Aldonza: Oh, so you're the man I've been hearing about. Is there some kind of unrest in the land that has caused you to become a knight?
+     Don Quixote: Unrest? Why, there is much injustice. Yes.
+     Narrator: Aldonza gave him a rose. She realized that he was quite harmless. Our brave knight is a real gentleman.
+     Our heroes were soon on their way. Don Quixote was overjoyed at finding a beautiful maiden to protect. As they said farewell, he decided to rename her Dulcinea. The next morning, Don Quixote and Sancho were sleeping soundly beneath a large tree when suddenly ...
+     Don Quixote: Oh? Huh. An enemy army approaching. Come, Sancho.
+     Sancho Panchez: Master, master!
+     Narrator: As the dust cleared. Don Quixote and Sancho could see two groups of animals galloping to the center of the field.
+     Don Quixote: The enemy attack!
+     Narrator: Don Quixote charged. But wait! They're only sheep. Not to Don Quixote. He imagined an enemy army and he went into action.
+     Don Quixote: Where are you? Show yourselves. Come out and fight like men. You sniveling cowards. Come on! [unintelligible] evil doers. All of you! Let's go! Come on!
+     Narrator: Don Quixote has fallen from his horse. Is he all right?
+     Don Quixote: Come on! Keep coming! I'll take you all on, you scoundrels. Don't run. Aha! Take that. Let's go. I'll take you! Come on!
+---
+-
+  - genre
+  - text
+  - id
+  - target
+  - content
+  - answer
+-
+  - business
+  - cars
+  - 1
+  - A
+  - The problem was that too many people wanted to look at the cars.
+  - True
+-
+  - business
+  - cars
+  - 2
+  - A
+  - People go to Las Vegas because they want to get more money, not spend money.
+  - True
+-
+  - business
+  - cars
+  - 3
+  - B
+  - Everyone had to pay a 10-dollar entrance fee, even if they wanted to buy a car.
+  - False
+-
+  - business
+  - cars
+  - 4
+  - B
+  - Children had to pay a five-dollar entrance fee.
+  - False
+-
+  - business
+  - cars
+  - 5
+  - C
+  - About one-fifth of the visitors didn't pay. They said they would buy a car.
+  - True
+-
+  - business
+  - cars
+  - 6
+  - C
+  - The showroom was making almost 100,000 dollars a month.
+  - True
+-
+  - business
+  - cars
+  - 7
+  - D
+  - Many other car showrooms may be able to copy Penske-Wynn's solution.
+  - False
+-
+  - business
+  - cars
+  - 8
+  - D
+  - Most car showrooms are not showing expensive cars and they do not have many visitors.
+  - True
+-
+  - business
+  - citrus1
+  - 1
+  - A
+  - Farmers don't make much money from growing rice in the Punjab.
+  - True
+-
+  - business
+  - citrus1
+  - 2
+  - A
+  - The idea is for Pepsi to grow citrus fruit on farmers' land.
+  - False
+-
+  - business
+  - citrus1
+  - 3
+  - B
+  - The government gives the farmers some money each year for four years.
+  - True
+-
+  - business
+  - citrus1
+  - 4
+  - B
+  - The farmers give some money to the government to grow citrus fruit for them for four years.
+  - False
+-
+  - business
+  - citrus1
+  - 5
+  - C
+  - Pepsi gives money to the government and the government takes 50 percent and gives farmers 50 percent.
+  - True
+-
+  - business
+  - citrus1
+  - 6
+  - C
+  - Pepsi said it wants to buy citrus trees and give them to farmers to plant.
+  - False
+-
+  - business
+  - citrus1
+  - 7
+  - D
+  - Farmers, the government and Pepsi are happy with the development. 
+  - True
+-
+  - business
+  - citrus1
+  - 8
+  - D
+  - Other areas more suited to citrus may become the biggest citrus producers.
+  - False
+-
+  - business
+  - internet1
+  - 1
+  - A
+  - The idea was very simple, but he worked very hard to make it work.
+  - True
+-
+  - business
+  - internet1
+  - 2
+  - A
+  - He gave friends and family money for a few advertisements on the site.
+  - False
+-
+  - business
+  - internet1
+  - 3
+  - B
+  - He talked to lots of people about the site and appeared on television.
+  - True
+-
+  - business
+  - internet1
+  - 4
+  - B
+  - Companies contacted him and talked to him for one week and one million dollars.
+  - False
+-
+  - business
+  - internet1
+  - 5
+  - C
+  - Most of the well-known advertisers like Yahoo's services are good.
+  - True
+-
+  - business
+  - internet1
+  - 6
+  - C
+  - Critics liked Yahoo's free Internet dating sites.
+  - False
+-
+  - business
+  - internet1
+  - 7
+  - D
+  - Some critics could not understand why he needed one million dollars.
+  - True
+-
+  - business
+  - internet1
+  - 8
+  - D
+  - Some people criticized the advertisers for needing to make money.
+  - False
