@@ -9,7 +9,7 @@ use Cwd;
 $_REPL->load_plugin('DumpHistory');
 
 my $session = 4;
-my $dirs = '/home/drbean/011';
+my $dirs = '/home/drbean/012';
 
 (my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
 use Grades;
