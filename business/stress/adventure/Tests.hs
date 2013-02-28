@@ -1,7 +1,13 @@
 module Tests where
 
-import Evaluation
+import LogicalForm
 import Parsing
+
+relatives = [
+	"Was Steve Fossett a man who flew around the world?"
+	, "Was Ellen MacArthur a man who flew around the world?"
+	, "Was Ellen MacArthur the woman who was an adventurer?"
+	]
 
 haves = [
 	"Did Ellen MacArthur have a team?"
@@ -50,6 +56,7 @@ tag_test = [
 	"Steve Fossett sailed around the world. He was an adventurer, wasn't he."
 	, "Uncertainty was stressful, wasn't it."
 	, "The team didn't put pressure on Steve Fossett, did it."
+	, "Steve Fossett sailed around the world, didn't he."
 	, "A man sailed around the world, didn't he."
 	, "A man sailed around the world, didn't she."
 	, "Ellen MacArthur flew around the world, didn't she."
@@ -188,12 +195,9 @@ stress_test = [
 	, "Pressure caused stress to Ellen MacArthur."
 	]
 
-len_test = [
-	"Who was a man who flew in a balloon.",
-	"Who flew a glider."
-	]
-
-lilith_test = [
-	"Who sailed a boat around the world.",
-	"Who flew a glider."
+wh_test = [
+	"Who sailed around the world?"
+	, "Who was a man who flew in a balloon."
+	, "Who sailed a boat around the world."
+	, "Who flew a glider."
 	]
