@@ -1,0 +1,42 @@
+---
+id: literature
+title: Selected Readings in Fiction
+blurb: |+
+         <p>
+         我的英語閱讀花園 is about 16 famous books. You can find those original books on <a href="http://www.gutenberg.org">www.gutenberg.org</a>. For homework we will listen to movies and cartoons made about those books, and copy down the words.
+         <br>
+         Dr Bean thinks dictation is a very important activity 
+         </p>
+
+topic:
+  -
+    id: ancient
+    title: Pre-19th century classics
+    intro: These books were written, or are about events, more than 200 years ago.
+    story:
+      -
+        id: robin-hood
+        title: Robin Hood and his Merry Men
+        blurb: |
+          Robin Hood was an outlaw living in a forest. He robbed from the rich and gave to the poor. He also was very good with a bow and arrow.
+        comment: Although early songs were written about Robin Hood, books were not written until later. Read Howard Pyle's <a href="http://www.gutenberg.org/ebooks/964">The Adventures of Robin Hood</a>, written at the end of the 19th century.
+      -
+        id: don-quixote
+        title: Don Quixote
+        blurb: |
+          Don Quixote was one of the first Western novels. It's about an old man who reads too much about <a href="http://en.wikipedia.org/wiki/Knight">knights</a> and the system of <a href="http://en.wikipedia.org/wiki/Chivalry">chivalry<a/>, things which have already disappeared. The man decides to become a knight and revive the system.
+        comment: |
+          Old Cartoon
+             <br> 
+          <a href="https://www.youtube.com/watch?v=qkWy163k9eA">https://www.youtube.com/watch?v=qkWy163k9eA</a>
+             <br> 
+          Song from the Man of LaMancha
+             <br> 
+          <a href="https://www.youtube.com/watch?v=yEnDOXmyU-o">https://www.youtube.com/watch?v=yEnDOXmyU-o</a>
+             <br> 
+          Cartoon 
+             <br> 
+          <a href="https://www.youtube.com/watch?v=Uwe7juUZLTk">https://www.youtube.com/watch?v=Uwe7juUZLTk Story</a>
+             <br> 
+          Listen to the last cartoon and fill in the blanks.
+
