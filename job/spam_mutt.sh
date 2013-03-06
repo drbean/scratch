@@ -1,6 +1,6 @@
-#!/usr/pkg/bin/bash
+#!/bin/sh
 
-# #!/bin/sh
+#!/usr/pkg/bin/bash
 
 subject="Part-time job inquiry by Greg Matheson";
 
@@ -26,7 +26,7 @@ do
 	sed -e "1i\\
 To: $display $addresspart\\
 
-	" < ~/job/parttime_coverletter | mutt  -e "set copy=yes" -e "my_hdr To: $display $addresspart" -e "my_hdr From: Greg Matheson <drbean@freeshell.org>" -s "Part-time job inquiry by Greg Matheson" -a ~/html/P6270001.JPG -a ~/html/passport.jpg -a ~/html/diploma.jpg -a ~/job/teaching_certificate.jpg
+	" < ~/flier1.txt | mutt  -e "set copy=yes" -e "my_hdr To: $display $addresspart" -e "my_hdr From: Greg Matheson <drbean@freeshell.org>" -s "Try to do homework by Thursday." 
 
 	error=$?;
 	echo -n $display $addresspart;
