@@ -151,8 +151,10 @@ For example,
 == Lack of support
 
 The boss and co-workers cannot (or do not) help
-with problems. They do not encourage or discuss
-results with the workers who produce the results.
+with problems. They do not encourage workers.
+
+They don't discuss results with 
+the workers who produce the results.
 
 ----
 == Lack of control
@@ -185,18 +187,19 @@ After the experiment, X and Y compare the stress they felt. They ask
 each other:
 Did X feel much stress when Dr Bean put much pressure on them?
 Did you feel much stress ... when Dr Bean put pressure on you?
+.. when you had control over the question you answered?
 .. when you didn't know what question Dr Bean would ask?
 .. when you couldn't help each other with the answer?
 
 ----
 == Predictions, results
 
-The front half of the room (6-8 groups) will predict,
-the back half will be experimental subjects.
+One side of the room (6-8 groups) will predict,
+The other side will be experimental subjects.
 
 		Predictors		Subjects
-Pressure: Groups Black-BrownBrown	Brown-GreenGreen
-Support:	
+SUPPORT: Groups Black-GreenGreen	Orange-YellowYellow
+CONTROL:	Orange-YellowYellow	Black-GreenGreen
 
 ----
 == Pressure
@@ -211,17 +214,90 @@ Group 1, 2: Asks Dr Bean a question. Dr Bean evaluates the question.
 ----
 == Lack of Support
 
-Group 1, 2: Dr Bean asks a question
-1. You can discuss the answer.
-2. You cannot discuss the answer with anyone.
+When Dr Bean asks a question, does A or B feel more stress?
+A. does the question together, gets help from the group
+B. does the question by him/herself. He/she doesn't get help.
 
----- 
+                                 Support
+
+|----+----------+----+----------+----------+----------|
+|    | Expected |    | Observed |          | Result   |
+|    |          |    | Support+ | Support- | More stress?
+|    |          |    | A        | B        | C        |
++----+----------+----+----------+----------+----------+
+| 9  | A B      | 1  | 1:_      | 11:_     | A B      |
+| 10 | A B      | 2  | 5:_      | 15:_     | A B      |
+| 11 | A B      | 3  | 2:_      | 12:_     | A B      |
+| 12 | A B      | 4  | 8:_      | 18:_     | A B      |
+| 13 | A B      | 5  | 7:_      | 17:_     | A B      |
+| 14 | A B      | 6  | 3:_      | 13:_     | A B      |
+| 15 | A B      | 7  | 4:_      | 14:_     | A B      |
+| 11 | A B      | 8  | 9:_      | 19:_     | A B      |
+
+----
+== Lack of Control
+
+When Dr Bean asks a question, does A or B feel more stress?
+A. chooses the question, so has more control.
+B. does not choose the question, so has less control.
+
+
+                                 Control
+             Observed                       Expected
+|----+----------+----------+----------+---+---------|
+|    | Control+ | Control- | Result   |   |         |
+|    | A        | B        | C        |   |         |
++----+----------+----------+----------+---+---------+
+| 9  | _:_      | 21:_     | A B      |1  | A B     |
+| 10 | _:_      | 25:_     | A B      |2  | A B     |
+| 11 | _:_      | 22:_     | A B      |3  | A B     |
+| 12 | _:_      | 28:_     | A B      |4  | A B     |
+| 13 | _:_      | 27:_     | A B      |5  | A B     |
+| 14 | _:_      | 23:_     | A B      |6  | A B     |
+| 15 | _:_      | 24:_     | A B      |7  | A B     |
+| 11 | _:_      | 29:_     | A B      |8  | A B     |
+
+---- skip
 1. A&B 2. C
 
-1. What is stress?
+----
+== Lack of Support, Control
+
+    Expected    ||              Observed
+|----+----------++----+----------+----------+----------|
+|Grp.|          ||Grp.| Support+ | Support- | Result   |
+|    |          ||    | A        | B        | C        |
++----+----------++----+----------+----------+----------+
+| 9  | A B      || 1  | 1:_      | 11:_     | A B      |
+| 10 | A B      || 2  | 5:_      | 15:_     | A B      |
+| 11 | A B      || 3  | 2:_      | 12:_     | A B      |
+| 12 | A B      || 4  | 8:_      | 18:_     | A B      |
+| 13 | A B      || 5  | 7:_      | 17:_     | A B      |
+| 14 | A B      || 6  | 3:_      | 13:_     | A B      |
+| 15 | A B      || 7  | 4:_      | 14:_     | A B      |
+|               || 8  | 9:_      | 19:_     | A B      |
+
+             Observed      |          ||   Expected
+|----+----------+----------+----------+++---+---------|
+|Grp.| Control+ | Control- | Result   ||  Prediction  |
+|    | A        | B        | C        ||Grp.|         |
++----+----------+----------+----------+++---+---------+
+| 9  | _:_      | 21:_     | A B      || 1  | A B     |
+| 10 | _:_      | 25:_     | A B      || 2  | A B     |
+| 11 | _:_      | 22:_     | A B      || 3  | A B     |
+| 12 | _:_      | 28:_     | A B      || 4  | A B     |
+| 13 | _:_      | 27:_     | A B      || 5  | A B     |
+| 14 | _:_      | 23:_     | A B      || 6  | A B     |
+| 15 | _:_      | 24:_     | A B      || 7  | A B     |
+|               |          |          || 8  | A B     |
+
+----
+== Questions
+
+1. Is stress internal or external?
 2. Who feels more stress, students or workers?
 3. Is some stress good?
-4. Do bosses or teachers put more pressure on people?
+4. Who put more pressure on people? Bosses or teachers?
 5. If a student fails, does this hurt the school?
 6. If a worker does a bad job, may the company be affected?
 7. Does the money the boss gets depend on whether workers do a good job?
@@ -250,6 +326,17 @@ Group 1, 2: Dr Bean asks a question
 30: What does the 'P' stand for?
 
 ----
+== Post-experiment questions
+
+Why did Rene feel more stress than Alien, even though she had more support than Alien?
+Who felt more stress, Angela or Susu?
+Which condition did you have?
+Did you have more support?
+Was it stressful answering the questions?
+It was stressful for Susu, choosing the questions, wasn't it?
+More support was MORE stressful, wasn't it.
+
+----
 Uncertainty
 
 Group 1, 2: Dr Bean asks a question
@@ -262,6 +349,7 @@ Group 1, 2: Dr Bean asks a question
 Group 1, 2: Dr Bean asks a question
 2. You cannot choose the question.
 1. You can choose the question.
+
 
 ---- skip
 
