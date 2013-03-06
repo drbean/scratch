@@ -91,7 +91,7 @@ cops = [
 	[Cat "was"     "COP" [Pos,Sg] [],
 	 Cat "was"     "COP" [Pos,Sg] [Cat "_" "NP" [] []],
 	 Cat "was"     "COP" [Pos,Sg] [Cat "_" "ADJ" [] []],
-	 Cat "was"     "COP" [Pos,Sg] [Cat "_" "PP" [] []]],
+	 Cat "was"     "COP" [Pos,Sg] [Cat "_" "PP" [BecauseOf] []]],
 	[Cat "wasn't"  "COP" [Ng,Sg] [],
 	 Cat "wasn't"  "COP" [Ng,Sg] [Cat "_" "NP" [] []],
 	 Cat "wasn't"  "COP" [Ng,Sg] [Cat "_" "ADJ" [] []],
