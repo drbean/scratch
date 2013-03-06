@@ -2,6 +2,7 @@ module Story_Interpretation where
 
 import Model
 
+objects :: [(String, [Entity] -> Bool)]
 objects = [
 	( "adventurer",	\[x]	-> predid1 "adventurer" x )
 	, ( "teacher",	\[x]	-> predid1 "teacher" x )
@@ -23,6 +24,7 @@ objects = [
 
 	]
 
+inflections :: [(String, String)]
 inflections = [
  ( "adventurers", "adventurer" )
  , ( "cause_stress", "caused_stress" )
@@ -33,6 +35,7 @@ inflections = [
 
  ]
 
+relations :: [(String, [Entity] -> Bool)]
 relations = [
 	( "useful",	\[x]	-> predid1 "useful" x )
 	, ( "ambitious",	\[x]	-> predid1 "ambitious" x )
