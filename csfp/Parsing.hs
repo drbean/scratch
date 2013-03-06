@@ -570,7 +570,7 @@ prsCOP :: SPARSER Cat Cat
 prsCOP = leafPS "COP" <||> pop "COP"
 
 prsCOMP :: SPARSER Cat Cat
-prsCOMP = prsNP <||> prsADJ
+prsCOMP = prsNP <||> prsADJ <||> prsPP
 
 vpR :: SPARSER Cat Cat
 vpR = vp0R <||> vp1R <||> vp2R <||> vp3R <||> infinR1 <||> infinR2
