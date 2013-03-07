@@ -342,6 +342,7 @@ intNP (Branch (Cat _ "NP" _ _) [np,Leaf (Cat "'s" "APOS" _ _),cn]) =
 
 type PP = ParseTree Cat Cat
 intPP :: PP -> (Idx -> Trans) -> Trans
+intPP (Branch (Cat "because_of" "PP" _ _) [prep,np]) = intNP np
 intPP (Branch (Cat _ "PP" _ _) [prep,np]) = intNP np
 
 type VP = ParseTree Cat Cat
@@ -362,6 +363,7 @@ intVP vp@(Branch (Cat _ "VP" _ _) [Leaf cop@(Cat _ "COP" _ _),
 	| otherwise = case (catLabel (t2c comp)) of
 	    "ADJ" -> \s -> intCOMP comp (\c -> intCOP vp (get_phon "ADJ" vp) s )
 	    "NP" -> \s -> intCOMP comp (\c -> intCOP vp (get_phon "CN" vp) s )
+	    "PP" -> \s -> intCOMP comp (\c -> intCOP vp (get_phon "CN" vp) s )
 intVP iv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ _)]) = 
     \s -> intIV iv s
 intVP tv@(Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ [_]),obj1]) =
