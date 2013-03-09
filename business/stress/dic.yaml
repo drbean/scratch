@@ -6,6 +6,7 @@
   - target
   - content
   - unclozeables
+  - percent
 -
   - stress-1
   - Slave driver
@@ -23,6 +24,7 @@
     We meet our targets, we work long hours. But she never says, 'Well done.' It's very demotivating.
 
   - criticize|blame|targets|demotivating
+  - 100
 -
   - stress-2
   - Food changes
@@ -36,6 +38,7 @@
     To reduce these levels, we need to have more natural foods, like fish, fruit and vegetables, in the cafeteria. Perhaps they don't taste so good as the food we have now, but people will feel more relaxed and will live better lives.
 
   - BDL|well-being|cafeteria|diet|starchy|tense|natural
+  - 100
 -
   - stress-2
   - Sports center
@@ -55,6 +58,7 @@
     They also have a weight room, where people can use exercise machines.
 
   - SLT|physical|membership|sauna|court|weight
+  - 100
 -
   - stress-2
   - Company tours
@@ -74,6 +78,7 @@
     So, my idea is one-day company tours, once a month, and three- or four- day tours, once or twice a year.
 
   - KED|amusement|picnic|scenic|Korea|winter|skiing
+  - 100
 -
   - bradshaw-1
   - Cause of stress
@@ -82,6 +87,7 @@
   - |+
     Stress doesn't usually have only one cause. Usually, there are a number of factors which together result in people feeling stress. A particularly bad combination is where someone is under a lot of pressure, but they also feel that whatever they do has no effect and that they have no support from other people. That combination can cause severe stress and depression. People in that situation often feel helpless. And that's a very bad feeling.
   - depression
+  - 100
 -
   - bradshaw-1
   - What Bradshaw offers
@@ -90,6 +96,7 @@
   - |+
     Bradshaw is a business consultant, and he has a consultancy called In Equilibrium. He helps companies where stress is a problem by identifying the causes of high levels of stress there. He calls this stress risk assessment. The idea is to identify hotspots, areas or people where the risk of stress is high. Perhaps there is a dangerous and unpleasant environment in one part of the company. Or perhaps one manager puts a lot of pressure on workers.
   - consultancy|Bradshaw|In Equilibrium
+  - 100
 -
   - bradshaw-1
   - Bradshaw's Manager Training
@@ -98,6 +105,7 @@
   - |+
     Besides helping companies understand why there is lots of stress at their companies, Bradshaw also trains managers to do the same kind of thing as he does. He shows them how to become more sensitive to how much stress there is in the company. He teaches them how to listen carefully to their workers. He also gives them the skills to reduce stress. He shows them how different ways of managing workers produce different levels of stress. 
   - Bradshaw|trains
+  - 100
 -
   - bradshaw-1
   - Differences in ways men and women handle stress
@@ -108,6 +116,7 @@
 
     Men don't like to report stress, because they don't want to appear weak. They don't want people to think they can't do their job. Actually, they are worse at coping with stress. They find it difficult to talk to managers about stress.
   - support|cope
+  - 100
 -
   - bradshaw
   - Alan Bradshaw--stress expert
@@ -123,6 +132,7 @@
     Interviewer: Do you think that mean and women deal with stress differently?
     Bradshaw: Yes, I do. Er, women tend to, er, report more stress. They talk more, um about their problems. Er, but they usually, in my experience, have better coping strategies. They're better at asking for and getting support, especially from their managers. Men report less stress, in my experience. They don't like to appear vulnerable and have poor coping strategies. Men are not good at getting support when they need it, and they find it difficult to talk to their managers about stress.
   - Interviewer|Bradshaw|vulnerable
+  - 100
 -
   - cusp
   - CUSP--Control, Uncertainty, Support and Pressure
@@ -141,42 +151,18 @@
 
     Hence, the 'C' stands for Control. The 'U' for Uncertainty, the 'S' for Support, and the 'P' for Pressure.
 
-  - In Equilibrium|CUSP|psychological|boost|facilitated|impacting
--
-  - cusp2
-  - CUSP reduction of stress
-  - business
-  - A
-  - |+
     Enabling control is not about abdicating managerial responsibility. What it is about is encouraging people to take responsibility for their own day-to-day performance. Through for example, effective delegation, applying flexibility, encouraging assertive communication, and consultation within workload.
-  - abdicating|delegation|assertive|consultation
--
-  - cusp2
-  - CUSP reduction of stress
-  - business
-  - B
-  - |+
-    The key to reducing uncertainty is timely and effective face-to-face communication. With some other elements to also consider. For example, management and team openness and management approachability. As managers, you are in a unique position to provide both social and practical support to your staff.
-  - approachability
--
-  - cusp2
-  - CUSP reduction of stress
-  - business
-  - C
-  - |+
-    Directly, the message is to always make time for one-to-ones with your staff. Team meetings, listening carefully to comments and difficulties, and always allowing two-way communication. This is your team. You know them best.  You are the best-placed to prevent stress risk ...
-  - one-to-ones
--
-  - cusp2
-  - CUSP reduction of stress
-  - business
-  - D
-  - |+
-    ... and also to pick up problems as they occur. 
-    And the CUSP in these latter situations allows a manager to look at practical options in a very structured way for placement within a consulted and agreed action plan.
-    Good luck.
-  - latter|options
 
+    The key to reducing uncertainty is timely and effective face-to-face communication. With some other elements to also consider. For example, management and team openness and management approachability. As managers, you are in a unique position to provide both social and practical support to your staff.
+
+    Directly, the message is to always make time for one-to-ones with your staff. Team meetings, listening carefully to comments and difficulties, and always allowing two-way communication. This is your team. You know them best.  You are the best-placed to prevent stress risk and also to pick up problems as they occur. 
+
+    And the CUSP in these latter situations allows a manager to look at practical options in a very structured way for placement within a consulted and agreed action plan.
+
+    Good luck.
+
+  - In Equilibrium|CUSP|psychological|boost|facilitated|impacting|abdicating|delegation|assertive|consultation|approachability|one-to-ones|latter|options
+  - 100
 ---
 -
   - genre
