@@ -120,17 +120,17 @@ don-quixote:
             - Dulcinea
             - Rozinante
           answer: Don Quixote
-        - question: Don Quixote has a horse and a lady to love.
+        - question: Don Quixote has a horse and a lady love.
           answer  : True
         - question: Dulcinea and Rozinante are their real names.
           answer  : False
         - question: The horse may be a problem.
           answer  : True
+        - question: Don Quixote thinks the horse is good.
+          answer  : True
+        - question: Don Quixote loves Dulcinea.
+          answer  : True
         - question: Dulcinea loves Don Quixote.
           answer  : False
-        - question: Robin Hood hurts Will Scarlet.
-          answer  : True
-        - question: Robin Hood thanks Will Scarlet.
+        - question: He understands the horse and girl.
           answer  : False
-        - question: Robin Hood thanks Wulf.
-          answer  : True
