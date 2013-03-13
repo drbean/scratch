@@ -134,3 +134,41 @@ don-quixote:
           answer  : False
         - question: He understands the horse and girl.
           answer  : False
+    2:
+      identifier: don-quixote 2
+      A: You have an inn. Don Quixote makes trouble by fighting with guests. You make him a knight and he leaves the inn.
+      B: You think the innkeeper is a king. You want him to make you a knight, but first you must sit with your armor all night.
+      C: You are staying at the inn. Don Quixote's armor is in your way. You move the armor. Don Quixote starts fighting you.
+      quiz:
+        - question: A
+          option:
+            - Don Quixote
+            - guests
+            - innkeeper
+          answer: innkeeper
+        - question: B
+          option:
+            - Don Quixote
+            - guests
+            - innkeeper
+          answer: Don Quixote
+        - question: C
+          option:
+            - Don Quixote
+            - guests
+            - innkeeper
+          answer: guests
+        - question: A king can make a person a knight.
+          answer  : True
+        - question: Knights sit with armor, before becoming knights.
+          answer  : True
+        - question: The innkeeper is really a king.
+          answer  : False
+        - question: Some quests attack Don Quixote.
+          answer  : False
+        - question: The innkeeper makes Don Quixote mad.
+          answer  : True
+        - question: The innkeeper knights Don Quixote.
+          answer  : True
+        - question: Don Quixote leaves the inn.
+          answer  : True
