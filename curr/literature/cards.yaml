@@ -11,7 +11,7 @@ robin-hood:
           answer: 
   jigsaw:
     0:
-      identifier: robin-hood
+      identifier: robin-hood 0
       A: You are a very young member of Robin Hood's group of men. You admire Robin. When Will Scarlet prepares to throw a knife at Robin, you warn Robin.
       B: You are a member of Robin Hood's group of men, but you don't like Robin. After arguing with him, you pull out your knife. But Wulf warns Robin.
       C: Wulf warns you that Will Scarlet is going to throw a knife at you. You take your bow and shoot an arrow through Will Scarlet's hand.
@@ -47,6 +47,44 @@ robin-hood:
         - question: Robin Hood thanks Will Scarlet.
           answer  : False
         - question: Robin Hood thanks Wulf.
+          answer  : True
+    1:
+      identifier: robin-hood 1
+      A: You set a trap for Robin Hood. You plan an archery contest. The prize is a kiss from Maid Marian.
+      B: You blow Robin Hood a kiss when you see him at the contest. King John sees you and knows the old man is Robin.
+      C: You go to King John's contest dressed as an old man. You win the contest, but King John realizes who you are.
+      quiz:
+        - question: A
+          option:
+            - King John
+            - Maid Marian
+            - Robin Hood
+          answer: King John
+        - question: B
+          option:
+            - King John
+            - Maid Marian
+            - Robin Hood
+          answer: Maid Marian
+        - question: C
+          option:
+            - King John
+            - Maid Marian
+            - Robin Hood
+          answer: Robin Hood
+        - question: Robin Hood planned the archery contest.
+          answer  : False
+        - question: The prize is a kiss from Maid Marian.
+          answer  : True
+        - question: Robin decides to go as an old man.
+          answer  : True
+        - question: Maid Marian doesn't recognize him.
+          answer  : False
+        - question: Maid Marian wants King John to see Robin.
+          answer  : False
+        - question: King John doesn't recognize Robin.
+          answer  : False
+        - question: Robin Hood wins the contest.
           answer  : True
 don-quixote:
   compcomp:
