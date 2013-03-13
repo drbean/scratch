@@ -1,0 +1,136 @@
+---
+genre: literature
+robin-hood:
+  compcomp:
+    0:
+      identifier:
+      White: 
+      Black: 
+      quiz:
+        - question: 
+          answer: 
+  jigsaw:
+    0:
+      identifier: robin-hood
+      A: You are a very young member of Robin Hood's group of men. You admire Robin. When Will Scarlet prepares to throw a knife at Robin, you warn Robin.
+      B: You are a member of Robin Hood's group of men, but you don't like Robin. After arguing with him, you pull out your knife. But Wulf warns Robin.
+      C: Wulf warns you that Will Scarlet is going to throw a knife at you. You take your bow and shoot an arrow through Will Scarlet's hand.
+      quiz:
+        - question: A
+          option:
+            - Robin Hood
+            - Will Scarlet
+            - Wulf
+          answer: Wulf
+        - question: B
+          option:
+            - Robin Hood
+            - Will Scarlet
+            - Wulf
+          answer: Will Scarlet
+        - question: C
+          option:
+            - Robin Hood
+            - Will Scarlet
+            - Wulf
+          answer: Robin Hood
+        - question: Will Scarlet throws a knife at Robin Hood.
+          answer  : False
+        - question: Will Scarlet hurts Robin Hood.
+          answer  : False
+        - question: Wulf warns Will Scarlet.
+          answer  : False
+        - question: Robin Hood shoots at Will Scarlet.
+          answer  : True
+        - question: Robin Hood hurts Will Scarlet.
+          answer  : True
+        - question: Robin Hood thanks Will Scarlet.
+          answer  : False
+        - question: Robin Hood thanks Wulf.
+          answer  : True
+don-quixote:
+  compcomp:
+    0:
+      identifier:
+      White: 
+      Black: 
+      quiz:
+        - question: 
+          answer: 
+  jigsaw:
+    0:
+      identifier: don-quixote 0
+      A: You are crazy. You decided to be a knight. You attack a windmill. You think it is a monster. Sancho follows you.
+      B: Don Quixote thinks you are a monster. But you are a windmill. One of your arms hits Don Quixote.
+      C: You find Don Quixote lying on the ground almost dead. The windmill is turning over the top of him.
+      quiz:
+        - question: A
+          option:
+            - Don Quixote
+            - Sancho
+            - A windmill
+          answer: Rozinante
+        - question: B
+          option:
+            - Don Quixote
+            - Sancho
+            - A windmill
+          answer: Dulcinea
+        - question: C
+          option:
+            - Don Quixote
+            - Sancho
+            - A windmill
+          answer: Don Quixote
+        - question: Don Quixote has a horse and a lady to love.
+          answer  : True
+        - question: Dulcinea and Rozinante are their real names.
+          answer  : False
+        - question: The horse may be a problem.
+          answer  : True
+        - question: Dulcinea loves Don Quixote.
+          answer  : True
+        - question: Robin Hood hurts Will Scarlet.
+          answer  : True
+        - question: Robin Hood thanks Will Scarlet.
+          answer  : False
+        - question: Robin Hood thanks Wulf.
+          answer  : True
+    1:
+      identifier: don-quixote 1
+      A: You are a horse. You were old, and slow. Don Quixote gives you a new name. He thinks you are now fast and strong.
+      B: You are an ordinary girl, but Don Quixote thinks you are beautiful. You don't know he is in love with you.
+      C: You give the name Dulcinea to a girl you love. And you name your horse, Rozinante. You don't know they are ordinary.
+      quiz:
+        - question: A
+          option:
+            - Don Quixote
+            - Dulcinea
+            - Rozinante
+          answer: Rozinante
+        - question: B
+          option:
+            - Don Quixote
+            - Dulcinea
+            - Rozinante
+          answer: Dulcinea
+        - question: C
+          option:
+            - Don Quixote
+            - Dulcinea
+            - Rozinante
+          answer: Don Quixote
+        - question: Don Quixote has a horse and a lady to love.
+          answer  : True
+        - question: Dulcinea and Rozinante are their real names.
+          answer  : False
+        - question: The horse may be a problem.
+          answer  : True
+        - question: Dulcinea loves Don Quixote.
+          answer  : False
+        - question: Robin Hood hurts Will Scarlet.
+          answer  : True
+        - question: Robin Hood thanks Will Scarlet.
+          answer  : False
+        - question: Robin Hood thanks Wulf.
+          answer  : True
