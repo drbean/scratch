@@ -234,6 +234,29 @@ topic:
     intro: A little stress can make life interesting, but a lot of stress can make life miserable, and have a bad effect on a company's performance. What can management do about the stress at a company?
     story:
       -
+        id: adventure
+        title: Stress, CUSP, Steve Fossett, Ellen MacArthur
+        blurb: Lack of control, uncertainty, lack of support and pressure are causes of stress. What caused Steve Fossett and Ellen MacArthur to feel stress?
+        comment: |+
+          Steve Fossett
+          <a href="http://en.wikipedia.org/wiki/Steve_Fossett">http://en.wikipedia.org/wiki/Steve_Fossett</a>
+          
+          <br>Steve Fossett's Global Flyer
+          <a href="http://www.youtube.com/watch?v=Ml73lXW_jLs&feature=related">http://www.youtube.com/watch?v=Ml73lXW_jLs&feature=related</a>
+          
+          <br>Steve Fossett's Playstation
+          <a href="http://www.youtube.com/watch?v=95c5ZM_y79U&feature=related">http://www.youtube.com/watch?v=95c5ZM_y79U&feature=related</a>
+          
+          <br>Steve Fossett's Spirit of Freedom 3
+          <a href="https://www.youtube.com/watch?v=zIlNI6XjuLM">https://www.youtube.com/watch?v=zIlNI6XjuLM</a>
+          
+          <br>Ellen MacArthur
+          <a href="http://en.wikipedia.org/wiki/Ellen_MacArthur">http://en.wikipedia.org/wiki/Ellen_MacArthur</a>
+          
+          <br>Ellen MacArthur
+          <a href="http://www.youtube.com/watch?v=B31LVMmgUuo">http://www.youtube.com/watch?v=B31LVMmgUuo</a>
+          
+          
         id: stress-1
         title: Causes of stress
         blurb: The four texts in the following links describe different causes of stress. Not being able to make a difference, not having any freedom, fear, and having unfriendly boss are the four causes of stress in the texts. Which text illustrates which cause of stress?
@@ -248,9 +271,9 @@ topic:
       -
         id: cusp
         title: CUSP--Control, Uncertainty, Support and Pressure
-        blurb: <a href="http://www.in-equilibrium.co.uk/resources/podcasts/stress-prevention-tool">CUSP</a> is Alan Bradshaw's framework for thinking about stress. Reducing stress is really very simple for businesses if they follow this framework.
+        blurb: <a href="http://www.in-equilibrium.co.uk/resources/podcasts/stress-prevention-tool">CUSP</a> is <a href="http://www.the-stress-site.net/alan-bradshaw.html">Alan Bradshaw</a>'s framework for thinking about stress. Businesses can try to reduce stress by following this framework. <a href="http://www.in-equilibrium.co.uk/about/our-consultants/dot-gourlay">Dot Gourlay</a> is a Scottish psychologist at <a href="http://www.in-equilibrium.co.uk">In Equilibrium</a>.
         comment: |+
-          Listen to the first half of the soundfile. But you only need to transcribe your sections. Think about the roles of control, uncertainty, support and pressure in reducing stress.
+          The presentation is short, but Dot Gourlay's Scottish accent is hard to understand. Which of Control, Uncertainty, Support and Pressure does she <b>not</b> talk about? Think about the roles of control, uncertainty, support and pressure in reducing stress.
       -
         id: bradshaw
         title: Bradshaw--stress expert 
@@ -269,12 +292,6 @@ topic:
           <li><b>Text 3:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/bradshawC.mp3">Ways managers can cope</a>
           <li><b>Text 4:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/bradshawD.mp3">Men and women's different reactions</a>
           </ul>
-      -
-        id: cusp2
-        title: CUSP--Control, Uncertainty, Support and Pressure
-        blurb: <a href="http://www.in-equilibrium.co.uk/about/our-consultants/dot-gourlay">Dot Gourlay</a> is a Scottish psychologist. Listen to the rest of her <a href="http://www.in-equilibrium.co.uk/resources/podcasts/stress-prevention-tool">CUSP</a> podcast.
-        comment: |+
-          The sections to transcribe are short, but her Scottish accent is hard to understand. Which of Control, Uncertainty and Support is your section about?
 
   -
     id: marketing
