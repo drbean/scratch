@@ -26,7 +26,7 @@ characters = [
 	]
 
 classes :: [String]
-classes = ["lack_of_support","uncertainty","lack_of_control","pressure"]
+classes = ["stress", "lack_of_support","uncertainty","lack_of_control","pressure"]
 
 context :: [Entity]
 context = [M,T,F,K,Someone]
@@ -131,7 +131,8 @@ pred5 xs	= curry5 ( `elem` xs )
 twoPlacers :: [(String, TwoPlacePred)]
 twoPlacers = [
     ("know",	pred2 $ acquainted ++ map swap acquainted)
-    , ("have",	pred2 $ possessions ++ leadership ++ features)
+    , ("have",	pred2 $ possessions ++ leadership ++ features ++
+	map (\(a,t,r) -> (r,t) ) reactions )
     , ("felt_stress",	pred2 $ map (\x -> (recipient x, agent x) ) reactions )
     , ("cause_stress",	pred2 $ map (\x -> (agent x, recipient x) ) reactions )
     , ("pressurize",	pred2 [])
