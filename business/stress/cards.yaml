@@ -519,11 +519,11 @@ adventure:
         answer: support
   10:
     identifier: adventure stress 10
-    A: Ellen set the record for the fastest time around the world alone in a sailing boat. She was on the boat alone but she had a lot of help from a team. The team sent her weather reports. She sent them videos. This interaction meant she was never lonely. She never had time. She was very busy making the boat go fast. 
-    B: The boat was very big and very fast. And she had no time to sleep. She never slept for more than an hour, because the wind was very strong and kept changing. She had to make changes to the boat all the time. And she couldn't give up. Because she knew her team and many other people would be disappointed.
-    C: The kind of boat that Ellen sailed is very fast, but it also needs to be carefully sailed, because it will turn over if you make a mistake. Two years before Ellen had been on a boat which did turn over after it hit something in the water. She didn't die, but she faced death sailing very fast in very bad weather.
+    A: Ellen set the record for the fastest time around the world alone in a sailing boat. She was on the boat alone but she had a lot of help from a team. She was never lonely. She was very busy making the boat go fast. 
+    B: She had no time to sleep. Because the wind was very strong and kept changing, she made changes to the boat all the time. And she couldn't give up. Because she knew her team and many other people would be disappointed.
+    C: The boat that Ellen sailed needs to be carefully sailed, because it will turn over if you make a mistake. Two years before Ellen's boat did turn over. She didn't die, but she faced death sailing fast in bad weather.
     quiz:
-      - question: The team was helpful, but also a SOURCE of stress. Which source?
+      - question: The team was helpful, but it and other people were also a SOURCE of stress. Which source?
         option:
           - control
           - uncertainty
