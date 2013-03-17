@@ -86,6 +86,44 @@ robin-hood:
           answer  : False
         - question: Robin Hood wins the contest.
           answer  : True
+    2:
+      identifier: robin-hood 2
+      A: You are a big man. When crossing a river with Robin Hood, you knock him into the water. Your son is Wulf.
+      B: You are Little John's boy. But you are also a member of the outlaws. You help Robin a lot.
+      C: Little John is your best member. He is bigger and stronger than you. You are the best archer.
+      quiz:
+        - question: A
+          option:
+            - Little John
+            - Robin Hood
+            - Wulf
+          answer: Little John
+        - question: B
+          option:
+            - Little John
+            - Robin Hood
+            - Wulf
+          answer: Wulf
+        - question: C
+          option:
+            - Little John
+            - Robin Hood
+            - Wulf
+          answer: Robin Hood
+        - question: Little John is the leader of the outlaws.
+          answer  : False
+        - question: Wulf is Robin Hood's son.
+          answer  : False
+        - question: Robin is helped a lot by Little John \& his son.
+          answer  : True
+        - question: Little John is not little.
+          answer  : True
+        - question: Wulf is not an important member.
+          answer  : False
+        - question: Robin pushes Little John in the water.
+          answer  : False
+        - question: Little John pushes Robin in.
+          answer  : True
 don-quixote:
   compcomp:
     0:
@@ -170,7 +208,7 @@ don-quixote:
           answer  : True
         - question: Dulcinea loves Don Quixote.
           answer  : False
-        - question: He understands the horse and girl.
+        - question: His ideas of the horse and girl are correct.
           answer  : False
     2:
       identifier: don-quixote 2
