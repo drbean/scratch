@@ -437,9 +437,9 @@ adventure:
         answer: control
   8:
     identifier: adventure stress 8
-    A: Steve died 5 years ago in a small plane he was flying solo in the desert. He was not attempting any record. And the flight was not special in any way. After he disappeared, a big search failed to find his body or the plane. His body was found one year later, 5 miles from a big ski resort in the area.
-    B: He was flying over a very high mountain, when the plane crashed. Probably, a very strong wind suddenly pushed the plane downwards. The plane, which was 30 years old, was not able to climb quickly enough to get over the top of the mountain, and he crashed, only 90 meters from the top of the mountain.
-    C: It probably happened very quickly. He probably thought everything was OK in the plane. But suddenly, in the next few seconds, it was all over. So he felt stress for a very short time. And, there were only 2 sources for the stress that Steve felt. Two out of Lack of Control, Uncertainty, Lack of Support and Pressure
+    A: Steve died 6 years ago in a small plane he was flying solo on the weekend. He was not attempting any record. The flight was not special in any way. It was just an afternoon flight for enjoyment.
+    B: He was flying over a very high mountain. A very strong wind suddenly pushed the plane downwards. The plane was not able to climb quickly enough to get over the mountain, and it crashed into the top of the mountain.
+    C: It happened very quickly. Everything was OK. But, in the next few seconds, he was dead. So he felt stress for a very short time. And, there were only 2 sources for the stress that Steve felt.
     quiz:
       - question: Steve's biggest source of stress.
         option:
