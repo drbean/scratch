@@ -558,6 +558,47 @@ adventure:
           - support
           - pressure
         answer: support
+  11:
+    identifier: adventure stress 11
+    A: One time, Ellen had been on a boat which turned over. There were 4 other people on the boat. The boat hit something and it became impossible to steer it. A wave quickly turned the boat over.
+    B: The boat was in a race with other boats, and it turned over not far from land. They knew someone would look for them but they didn't know when they would find them. They had to wait in the boat.
+    C: Before the accident, the boat was winning the race. After the accident, they forgot about the race. It was less stressful after the accident than before. They no longer felt they had to win.
+    quiz:
+      - question: Stress because of not being able to steer the boat. Which source?
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: control
+      - question: Stress waiting for someone to find them.
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: uncertainty
+      - question: Before the accident, the goal of winning the race. Which source?
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: pressure
+      - question: Despite the accident, it was less stressful with 3 other people. Why?
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: support
+      - question: NOT a cause of stress after the accident.
+        option:
+          - control
+          - uncertainty
+          - support
+          - pressure
+        answer: pressure
  compcomp:
    0:
      identifier: adventure stress causes 0
