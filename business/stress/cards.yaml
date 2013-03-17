@@ -585,7 +585,7 @@ adventure:
           - support
           - pressure
         answer: pressure
-      - question: Despite the accident, it was less stressful with 3 other people. Why?
+      - question: Despite the accident, it was less stressful with 4 other people. Why?
         option:
           - control
           - uncertainty
