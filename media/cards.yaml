@@ -34,7 +34,7 @@ genre: media
           answer  : True
         - question: Richard's sons are in the troop.
           answer  : False
-bx8B3ORmMZo:
+hacking:
   jigsaw:
     0:
       identifier: bx8B3ORmMZo 0
@@ -74,7 +74,7 @@ bx8B3ORmMZo:
           answer  : True
         - question: The girlfriend was mad at Harry.
           answer  : True
-oreilly:
+illegals:
   jigsaw:
     0:
       identifier: oreilly 0
