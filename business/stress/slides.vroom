@@ -220,19 +220,19 @@ B. does the question by him/herself. He/she doesn't get help.
 
                                  Support
 
-|----+----------+----+----------+----------+----------|
-|    | Expected |    | Observed |          | Result   |
-|    |          |    | Support+ | Support- | More stress?
-|    |          |    | A        | B        | C        |
-+----+----------+----+----------+----------+----------+
-| 9  | A B      | 1  | 1:_      | 11:_     | A B      |
-| 10 | A B      | 2  | 5:_      | 15:_     | A B      |
-| 11 | A B      | 3  | 2:_      | 12:_     | A B      |
-| 12 | A B      | 4  | 8:_      | 18:_     | A B      |
-| 13 | A B      | 5  | 7:_      | 17:_     | A B      |
-| 14 | A B      | 6  | 3:_      | 13:_     | A B      |
-| 15 | A B      | 7  | 4:_      | 14:_     | A B      |
-| 11 | A B      | 8  | 9:_      | 19:_     | A B      |
+|----+----------++----+----------+----------+----------|
+|    | Expected ||    | Observed |          | Result   |
+|    |          ||    | Support+ | Support- | More stress?
+|    |          ||    | A        | B        | C        |
++----+----------++----+----------+----------+----------+
+| 9  | A B      || 1  | 1:_      | 11:_     | A B      |
+| 10 | A B      || 2  | 5:_      | 15:_     | A B      |
+| 11 | A B      || 3  | 2:_      | 12:_     | A B      |
+| 12 | A B      || 4  | 8:_      | 18:_     | A B      |
+| 13 | A B      || 5  | 7:_      | 17:_     | A B      |
+| 14 | A B      || 6  | 3:_      | 13:_     | A B      |
+| 15 | A B      || 7  | 4:_      | 14:_     | A B      |
+| 11 | A B      || 8  | 9:_      | 19:_     | A B      |
 
 ----
 == Lack of Control
@@ -244,18 +244,18 @@ B. does not choose the question, so has less control.
 
                                  Control
              Observed                       Expected
-|----+----------+----------+----------+---+---------|
-|    | Control+ | Control- | Result   |   |         |
-|    | A        | B        | C        |   |         |
-+----+----------+----------+----------+---+---------+
-| 9  | _:_      | 21:_     | A B      |1  | A B     |
-| 10 | _:_      | 25:_     | A B      |2  | A B     |
-| 11 | _:_      | 22:_     | A B      |3  | A B     |
-| 12 | _:_      | 28:_     | A B      |4  | A B     |
-| 13 | _:_      | 27:_     | A B      |5  | A B     |
-| 14 | _:_      | 23:_     | A B      |6  | A B     |
-| 15 | _:_      | 24:_     | A B      |7  | A B     |
-| 11 | _:_      | 29:_     | A B      |8  | A B     |
+|----+----------+----------+----------++---+---------|
+|    | Control+ | Control- | Result   ||   |         |
+|    | A        | B        | C        ||   |         |
++----+----------+----------+----------++---+---------+
+| 9  | _:_      | 21:_     | A B      ||1  | A B     |
+| 10 | _:_      | 25:_     | A B      ||2  | A B     |
+| 11 | _:_      | 22:_     | A B      ||3  | A B     |
+| 12 | _:_      | 28:_     | A B      ||4  | A B     |
+| 13 | _:_      | 27:_     | A B      ||5  | A B     |
+| 14 | _:_      | 23:_     | A B      ||6  | A B     |
+| 15 | _:_      | 24:_     | A B      ||7  | A B     |
+| 11 | _:_      | 29:_     | A B      ||8  | A B     |
 
 ---- skip
 1. A&B 2. C
@@ -275,7 +275,8 @@ B. does not choose the question, so has less control.
 | 13 | A B      || 5  | 7:_      | 17:_     | A B      |
 | 14 | A B      || 6  | 3:_      | 13:_     | A B      |
 | 15 | A B      || 7  | 4:_      | 14:_     | A B      |
-|               || 8  | 9:_      | 19:_     | A B      |
+| 16 | A B      || 8  | 9:_      | 19:_     | A B      |
+| 17 | A B
 
              Observed      |          ||   Expected
 |----+----------+----------+----------+++---+---------|
@@ -289,7 +290,8 @@ B. does not choose the question, so has less control.
 | 13 | _:_      | 27:_     | A B      || 5  | A B     |
 | 14 | _:_      | 23:_     | A B      || 6  | A B     |
 | 15 | _:_      | 24:_     | A B      || 7  | A B     |
-|               |          |          || 8  | A B     |
+| 16 | _:_      | 30:_     | A B      || 8  | A B     |
+| 17 | _:_      | 29:_     | A B      ||
 
 ----
 == Questions
@@ -393,6 +395,77 @@ Group 1, 2: Asks Dr Bean a question
 
 ---- skip
 1. A&B 2. C&D
+
+----
+Exam 1
+
+Jigsaw: Ellen MacArthur's stress Control (Lack of), Uncertainty,
+		Support (Lack of), Pressure
+
+A situation: http://web.nuu.edu.tw/~greg/stress/adventure.pdf
+
+----
+Dr Bean's stress:	Control (Lack of), Uncertainty,
+		Support (Lack of), Pressure
+
+Stress problem: I like teaching, but it is very stressful. 
+I can't make the students learn. My activities don't 
+usually work. I want them to speak English, but they speak
+Chinese.
+
+Stress reason: Teaching is very difficult. 
+Students do what they want to do. They don't do what I want 
+them to do.
+
+Keywords: work, difficult, make the students do something
+
++Cause of stress: Control (Lack of)
+
+----
+Student's stress:	Control (Lack of), Uncertainty,
+		Support (Lack of), Pressure
+
+Stress problem: X comes to school every morning by train 
+and bus. But the train is often late and that means X 
+misses the bus. It is very stressful when the train is 
+late. After the bus has gone, when she knows there is no 
+chance of catching it, she feels less stress.
+
+Stress reason: X is doesn't know what is going to happen. 
+She doesn't know if she will be late.
+
+Keywords: late, know, happen
+
++Cause of stress: Uncertainty
+
+----
+Elle Macarthur's stress:	Control (Lack of), Uncertainty,
+		Support (Lack of), Pressure
+
+Stress problem: The boat is very big and very fast, and she 
+has no time to sleep because she has to be be doing things 
+all the time. The boat might turn over if the wind is very 
+strong and she is not careful.
+
+Stress reason: Sailing is a very difficult skill. 
+If you're not very careful, some very bad thing will happen.
+
+Keywords: skill, difficult, careful, bad thing
+
++Cause of stress: Control (Lack of)
+
+----
+Soccer's stress:	Control (Lack of), Uncertainty,
+		Support (Lack of), Pressure
+
+Stress problem: Soccer wants to get on to the school basketball team, but no-one else he knows wants to. He finds it stressful none of his friends are interested in joining him. He has to practice himself a lot.
+
+Stress reason: Doing this by yourself without help is stressful. 
+You can't talk to anyone. You can't find anyone to give you advice.
+
+Keywords: help, team, talking
+
++Cause of stress: Support (Lack of)
 
 ----
 == Stress cause battleships
