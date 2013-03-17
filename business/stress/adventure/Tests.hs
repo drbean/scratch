@@ -11,32 +11,30 @@ relatives = [
 
 haves = [
 	"Did Ellen MacArthur have a team?"
-	, "Ellen MacArthur had a boat"
+	, "Ellen MacArthur had stress."
+	, "Ellen MacArthur had a boat."
 	, "Did Ellen MacArthur have a boat?"
 	, "Did Ellen MacArthur have a plane?"
 	, "Did Ellen MacArthur have some plane?"
+	, "Did Steve Fossett have stress?"
 	, "Did Steve Fossett have a boat?"
 	, "Did Steve Fossett have some balloon?"
 	, "Did Steve Fossett have balloon?"
-	, "Did Steve Fossett's boat have a boat?"
-	, "Did Steve Fossett's boat have some balloon?"
-	, "Did Steve Fossett's boat have a balloon?"
+	, "Did a team have stress?"
 	, "Did a team have a plane?"
 	, "Did a team have a woman's plane?"
 	, "Did a team have Ellen MacArthur's plane?"
 	, "Did a team have a team?"
 	, "Did a team have a boat?"
+	, "Did an ambitious woman have stress?"
 	, "Did an ambitious woman have a boat?"
-	, "Did an ambitious woman have some a boat?"
-	, "Did an ambitious woman's boat have some a boat?"
-	, "Did an ambitious woman's boat have a plane?"
-	, "Did the boat have some a boat?"
-	, "Did the boat have no a boat?"
-	, "Ellen MacArthur's boat had many planes in Poland."
+	, "Did an ambitious woman have some boat?"
+	, "Did an ambitious woman's boat have some boat?"
+	, "Did the boat have some boat?"
+	, "Did the boat have no boat?"
 	, "Did the boat have some plane?"
 	, "Did the boat have no plane?"
-	, "Did Poland have a boat?"
-	, "Did the United States have a boat?"
+	, "Did Dr Bean have stress?"
 	, "Did Dr Bean have a boat?"
 	, "Did Ellen MacArthur's boat have a boat?"
 	, "Did a team have a boat?"
@@ -45,10 +43,6 @@ haves = [
 	, "Did Dr Bean have a boat?"
 	, "Did Dr Bean have some balloon?"
 	, "Did Dr Bean have balloon?"
-	, "Did a team have a worker?"
-	, "Did Ellen MacArthur's boat have a worker?"
-	, "Did Dr Bean have a worker?"
-	, "Did someone have a worker?"
 	]
 
 text_test = [
@@ -124,10 +118,16 @@ mod_test = [
 possessives = [
 	"Dr Bean's team helped Ellen MacArthur."
 	, "Did Ellen MacArthur's team talk to Steve Fossett?"
+	, "Did the team of Ellen MacArthur talk to Steve Fossett?"
 	, "Ellen MacArthur's stress talked to the team."
 	-- , "Ellen MacArthur's team caused Dr Bean's stress"
 	, "Did Dr Bean's stress cause stress to Steve Fossett's team?"
 	, "Did Dr Bean's stress cause stress to Steve Fossett's team?"
+	, "Ellen MacArthur was an adventurer."
+	, "Ellen MacArthur was ambitious."
+	, "Stress was because of lack of support."
+	, "Steve Fossett's stress was because of lack of support?"
+	, "The stress of Steve Fossett was because of lack of support?"
 	, "Was the stress of Steve Fossett because of lack of support?"
 	, "Was the stress of the ambitious women because of lack of support?"
 	, "Was the stress of Dr Bean because of lack of support?"
@@ -151,6 +151,7 @@ talks = [
 
 fly_test = [
 	"Did Steve Fossett fly around the world.",
+	"Didn't Steve Fossett fly around the world.",
 	"Steve Fossett flew around the world.",
 	"Ellen MacArthur flew around the world.",
 	"CUSP flew around the world.",
@@ -161,6 +162,8 @@ fly_test = [
 	"Ellen MacArthur flew around the world in a boat.",
 	"CUSP flew around the world in a balloon.",
 	"Dr Bean flew around the world in a plane.",
+	"Dr Bean flew around the world in a balloon.",
+	"Didn't Dr Bean fly around the world in a balloon.",
 	"Someone flew around the world in a plane."
 	]
 
@@ -214,6 +217,27 @@ wh_test = [
 	, "Who is Steve Fossett?"
 	, "How many records did Fossett set in five differents sports?"
 	, "How many years old was Steve Fossett?"
+
+	, "What about people's stress?"
+	, "who feels more stress,Susu or Angela?"
+	, "How do you release your stress?"
+	, "When do you feel stress?"
+ 	, "Who felt more stress , Leo or Cathy ?"
+	, "Why Lisa with more supports was more stressful ?"
+	, "Who felt more stress , Ben or Danny ?"
+	, "Who felt more stress , Frank or Wei ?"
+	, "Who felt more stress , Eric or Leo ?"
+	, "Which person felt more stress , Dent or Alien ?"
+	, "What will you do when you haven't any support?"
+	, "What situation will make you feel stressful ?"
+	, "Who felt more stress , Bob or Chris ?"
+	, "Why did Toshe feel more stress than David , even though she had more control than David?"
+	, "Why does Tina always control others ?"
+	, "Why did Rene feel more stress than Alien , even though she had more support than Alien?"
+	, "What will you do when you under pressure ?"
+
+
+
 	]
 
 yn_test = [
@@ -245,10 +269,38 @@ yn_test = [
 	, "Was Fossett declared legally dead on February 15, 2008?"
 	, "Was Fossett reported missing after the plane he was flying over the Nevada desert failed to return?"
 	, "Did Fossett set 116 records in five different sports?"
+
+	, "Do you feel stress when you are late for school?"
+	, "Does watching a horror movie make you feel stress?"
+	, "Do you feel stressful if you stuck in a traffic jam?"
+	, "Did you feel more stress in playing basketball than tennis?"
+	, "Did you have stress when you have to say 'I love you' to your parents?"
+	, "Did you feel stressful when you have a test in math?"
+	, "Do you think stress is good or bad?"
+	, "Did people feel much stress when they met with a car accident?"
+	, "Do you feel stress when you talk to Dr,Bean?"
+	, "Did you feel much stress when the exam's coming?"
+	, "Did you feel stress in Dr.Bean's class?"
+	, "Did James have more stress?"
+	, "Did you have more support?"
+	, "Did Eric have more support when he feel more stress?"
+	, "Did you have lack support?"
+	, "Did Rene have more support than Alien?"
+	, "Does uncertainty make you feel more pressure?"
+	, "Did Chris have more stress?"
+	, "Did Tina have more support?"
+	, "Did David have more stress?"
+	, "Does the situation always out of control?"
+	, "Did you have more stress?"
+	, "Do you feel attending this English class give you a lot of pressure?"
+	, "Did Abby feel pressure after her boss blame her?"
+	, "Did Leo have more support?"
+
 	]
 
 tag_test = [
 	"Steve Fossett sailed around the world. He was an adventurer, wasn't he."
+	, "Dr Bean didn't fly around the world in a balloon, did he?"
 	, "Uncertainty was stressful, wasn't it."
 	, "The team didn't put pressure on Steve Fossett, did it."
 	, "Steve Fossett sailed around the world, didn't he."
@@ -286,5 +338,20 @@ tag_test = [
 	, "Fossett see 166 record in five different sports, didn’t he?"
 	, "Fossett was the first person to fly solo nonstop around the world in the balloon, wasn’t he?"
 	, "Ellen MacArthur broke the world record for the fastest solo circumnavigation of the globe on 7 February 2005, didn’t she?"
-"
+
+	, "B felt more stressful than A, didn't B?"
+	, "Watching a movie is a relaxing thing, isn't is?"
+	, "More control made Banana feel more stress, didn't it?"
+	, "Emily has stress on her job, doesn't she?"
+	, "The pressure is under my control, isn't it?"
+	, "It's stressful to raise a child, isn't it?"
+	, "Jophiel was stressful for money, wasn't he?"
+	, "It's stressful to do your homework, isn't it?"
+	, "Manage a team is more stressful than answer a question, isn't it?"
+	, "Teachers put more pressure on students, didn't they?"
+	, "Stress cause from internal feeling, doesn't it?"
+	, "Chossing the question by yourself is more stressful, isn't it?"
+	, "You are nervous when you feel stressful, aren't you?"
+	, "Some stress is sometimes good for us, isn't it?"
 	]
+
