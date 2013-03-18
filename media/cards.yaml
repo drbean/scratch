@@ -37,7 +37,7 @@ genre: media
 hacking:
   jigsaw:
     0:
-      identifier: bx8B3ORmMZo 0
+      identifier: hacking 0
       A: Your company, News of the World was hacking phones of famous people. Police investigated when Prince Harry complained, but they didn't investigate very carefully. Only one reporter was jailed, but everyone in the newspaper was hacking phones. People say you asked police not to investigate the phone hacking. You read Filkin's report.
       B: Before the chief police officer resigned, he asked you to report on the proper relationship between the police and the media. You say that some police were taking money from journalists. You think News of the World might have stopped a full police investigation. You don't know if Murdoch knew.
       C: You are third in line to be King of England. You went to a strip club. News of the World found out your girlfriend was mad at you. You think the newspaper hacked your phones. You told police. They arrested a reporter, who went to jail. You hear later that the newspaper hacked the phones of many people. Later, the newspaper closed down.
@@ -77,7 +77,7 @@ hacking:
 illegals:
   jigsaw:
     0:
-      identifier: oreilly 0
+      identifier: illegals 0
       A: You are an illegal alien. You had been arrested for drunk driving 3 times before, but you were never deported. This time, however, you ran over a woman and killed her. O'Reilly is angry that you were not deported the first time. Rivera thinks that you should not be deported. The judge jails you for 24 years, in the US.
       B: You work for Fox News. You have a TV news program. You discuss the case of Ramos. You get mad at Rivera, because he says you are not a good news presenter for reporting the story as an illegal alien story. You say that Ramos has no right to be in the country. However, you still like Rivera and respect his position.
       C: You work for Fox News and have a TV news program. You like O'Reilly, but you think illegal aliens should not be deported, even if they commit crimes. You are mad that he is trying to make people feel bad about illegal aliens. Illegal immigration is a controversial topic in the US.
@@ -271,4 +271,44 @@ interviews:
         - question: Mike helped Chris through his divorce.
           answer  : True
         - question: Only Chris is still alive.
+          answer  : True
+pope:
+  jigsaw:
+    0:
+      identifier: pope 0
+      A: One of the 3 people in this story is God. But you are not God. You are an English teacher. You read the Pope's tweets on Twitter. But no-one reads your tweets.
+      B: You are the head of the Roman Catholic church. You follow no-one on Twitter, but Dr Bean and 2 million other people follow you. You get your messages from God.
+      C: You are not on Twitter, and you don't read the Pope or Dr Bean's tweets. But the Pope gets his messages from you, and puts them on Twitter. Dr Bean reads the tweets.
+      quiz:
+        - question: A
+          option:
+            - Dr Bean
+            - God
+            - the Pope
+          answer: Dr Bean
+        - question: B
+          option:
+            - Dr Bean
+            - God
+            - the Pope
+          answer: the Pope
+        - question: C
+          option:
+            - Dr Bean
+            - God
+            - the Pope
+          answer: God
+        - question: God is not on Twitter.
+          answer  : True
+        - question: The others are on Twitter.
+          answer  : True
+        - question: God follows Dr Bean
+          answer  : False
+        - question: Dr Bean follows God.
+          answer  : False
+        - question: The Pope's tweets are from God.
+          answer  : True
+        - question: The Pope follows Dr Bean.
+          answer  : False
+        - question: Dr Bean reads the Pope's tweets.
           answer  : True
