@@ -8,45 +8,42 @@
   - unclozeables
   - percent
 -
-  - smiling2
-  - German students' facial expressions
+  - smiling
+  - The meaning of smiles in the US and Germany
   - intercultural
-  - A
-  - |+
+  - all
+  - |+ 
+    Track 1:
+    0:52 Erica Gingerich: What form of non-verbal communication matters most in business?
+
+    Robert Gibson: Just to take one example, perhaps, um, it'd be good to talk about smiling. This seems very simple. Human beings smile all over the world. But they actually smile at different times and the smiling has a different meaning in different countries.
+
+    One has to avoid over-generalization, but there's a frequently-experienced difference between the USA and Germany, as to when people smile.
+
+    Researchers say that actually there's a different attitude to smiling. Let's just look at what smiling really means in those two countries.
+
+    I think in Germany, people smile for a reason. And they often say about the Americans, Ah, people smile all the time. This is superficial. This is actually insincere, or maybe even dishonest.
+
+    And if you talk to Americans about Germans, they can often say, Ah, the Germans are really unfriendly. When I go in the service encounter, a shop or I'm doing business, they never seem to smile.
+
+    Now, what's the reason for this? I think in Germany, the smile is something reserved for a particular occasion, or has a particular cause. There is a reason for the smile. 
+
+    In America, researchers talk about the 'contact smile.' You smile when you meet someone, before you even say something. So, if you understand that, that there is a different reason for the smile, then I think you can avoid this misinterpretation of the situation.
+
+    Track 2:
     6:11 Dr Laurent Borgmann: There is one other thing where I take Americans to the side and explain something to them. This is when they come over as visiting professors. Before I take them into my classrooms. Actually I warn them that my students will not smile at them, that they will be listening very attentively, and they will come up to me afterwards and say, 'Gosh, that was a really interesting lecture. Why don't we have lecturers like that over here?'
     Kyle Hickman: When I was here first, student exchange program, we put on a show for a bunch of German students.
-  - 6:11|Dr Laurent Borgmann|Kyle Hickman|Gosh
-  - 100
--
-  - smiling2
-  - German unresponsiveness to overtures from strangers
-  - intercultural
-  - B
-  - |+
+
     6:40 Kyle Hickman: And there's no smiles. And the clap. You could barely hear the clap. And really .. What's going on?
     
     I'm a person who loves to make eye contact and say, Hi to anyone on the street. And, coming here, it was a big cultural shock, And I mean I'll make the eye contact, still, but, uh, it's there's no smiles, so I feel like they either want to fight me, or they don't like me, or, but, uh, it is, I think a lot of it is cultural. And I don't know if it comes maybe from Great Britain. But, it is nice. 
-  - 6:40|Kyle Hickman|clap|Great Britain
-  - 100
--
-  - smiling2
-  - German-American differences in facial expressions in street, elevator
-  - intercultural
-  - C
-  - |+
+
     7:11 Kyle Hickman: It, it's validation. it just makes it more pleasant and friendly. So it is a very .. It's a cultural thing that I think Americans do like and enjoy.
     Dr Laurent Borgmann: Kyle is right. What Americans enjoy as nice, pleasant contact, for example, greeting people we do not know in the street and acknowledging their presence with a smile, can be seen as too intrusive or superficial in some European countries. I always notice this when I enter a lift, or in this case, an elevator in the United States, and people who I've never met before in my life greet me and smile at me.
-  - 7:11|Kyle Hickman|Dr Laurent Borgmann|validation|presence|intrusive
-  - 100
--
-  - smiling2
-  - Different German-English behavior getting off the bus
-  - intercultural
-  - D
-  - |+
+
     7:48 Dr Laurent Borgmann: While in Germany, you often really pretend you're alone in the lift and look at the floor or at the door. In England you can notice a similar phenomenon. When people get off the public bus, they sometimes say, Thank you, to the bus driver, whereas in Germany, the bus driver would remain totally anonymous, almost as if he or she was a part of the bus. I like this behavior and tried it out in Germany, but as you can imagine, the bus driver frowned and thought there was something very wrong with me.
-  - 7:48|Dr Laurent Borgmann|England|anonymous
-  - 100
+  - Track|0:52|Erica Gingerich|Robert Gibson|particular occasion|6:11|Dr Laurent Borgmann|Kyle Hickman|Gosh|6:40|Kyle Hickman|clap|Great Britain|7:11|Kyle Hickman|Dr Laurent Borgmann|validation|presence|intrusive|7:48|Dr Laurent Borgmann|England|anonymous
+  - 20
 -
   - secondlife
   - Don't stand so close to me
@@ -358,50 +355,6 @@
     Bob: Okay, (unintelligible)
     Burt: Okay. Let's go. kid.
   - Burt|Alex|Woman|Bob
-  - 100
--
-  - smiling
-  - The meaning of smiles in the US and Germany
-  - intercultural
-  - A
-  - |+
-    Erica Gingerich: What form of non-verbal communication matters most in business?
-
-    Robert Gibson: Just to take one example, perhaps, um, it'd be good to talk about smiling. This seems very simple. Human beings smile all over the world. But they actually smile at different times and the smiling has a different meaning in different countries.
-  - Erica Gingerich|Robert Gibson|particular occasion
-  - 100
--
-  - smiling
-  - The meaning of smiles in the US and Germany
-  - intercultural
-  - B
-  - |+
-    One has to avoid over-generalization, but there's a frequently-experienced difference between the USA and Germany, as to when people smile.
-
-    Researchers say that actually there's a different attitude to smiling. Let's just look at what smiling really means in those two countries.
-
-    I think in Germany, people smile for a reason. And they often say about the Americans, Ah, people smile all the time. This is superficial. This is actually insincere, or maybe even dishonest.
-  - Erica Gingerich|Robert Gibson|particular occasion
-  - 100
--
-  - smiling
-  - The meaning of smiles in the US and Germany
-  - intercultural
-  - C
-  - |+
-    And if you talk to Americans about Germans, they can often say, Ah, the Germans are really unfriendly. When I go in the service encounter, a shop or I'm doing business, they never seem to smile.
-
-    Now, what's the reason for this? I think in Germany, the smile is something reserved for a particular occasion, or has a particular cause. There is a reason for the smile. 
-  - Erica Gingerich|Robert Gibson|particular occasion
-  - 100
--
-  - smiling
-  - The meaning of smiles in the US and Germany
-  - intercultural
-  - D
-  - |+
-    In America, researchers talk about the 'contact smile.' You smile when you meet someone, before you even say something. So, if you understand that, that there is a different reason for the smile, then I think you can avoid this misinterpretation of the situation.
-  - Erica Gingerich|Robert Gibson|particular occasion
   - 100
 -
   - leaving
@@ -750,58 +703,58 @@
   - answer
 -
   - intercultural
-  - smiling2
+  - smiling
   - 1
-  - A
+  - all
   - German students don't smile in lectures by visiting American exchange professors.
   - True
 -
   - intercultural
-  - smiling2
+  - smiling
   - 2
-  - A
+  - all
   - German students will come up to a visiting professor and say the lecture was interesting.
   - False
 -
   - intercultural
-  - smiling2
+  - smiling
   - 3
-  - B
+  - all
   - A person who loves to say, Hi will feel they don't like me, or want to fight.
   - True
 -
   - intercultural
-  - smiling2
+  - smiling
   - 4
-  - B
+  - all
   - A person who likes to make eye contact will like a person who doesn't like to.
   - False
 -
   - intercultural
-  - smiling2
+  - smiling
   - 5
-  - C
+  - all
   - Americans' acknowledgement of people in the street or elevator is not seen as nice or pleasant in some countries.
   - True
 -
   - intercultural
-  - smiling2
+  - smiling
   - 6
-  - C
+  - all
   - Americans think it is not nice to greet or smile at people in the elevator.
   - False
 -
   - intercultural
-  - smiling2
+  - smiling
   - 7
-  - D
+  - all
   - In Germany, you don't say something to the driver when you get off the bus, but in England you sometimes say, Thank you.
   - True
 -
   - intercultural
-  - smiling2
+  - smiling
   - 8
-  - D
+  - all
   - In Germany, bus drivers frown when you get off the bus if you remain anonymous.
   - False
 -
@@ -1143,57 +1096,57 @@
 -
   - intercultural
   - smiling
-  - 1 
-  - A
+  - 9 
+  - all
   - People in Germany maybe think people in the US are dishonest when they smile.
   - True
 -
   - intercultural
   - smiling
-  - 2 
-  - A
+  - 10 
+  - all
   - Shop people in Germany often don't smile when they talk.
   - True
 -
   - intercultural
   - smiling
-  - 3 
-  - B
+  - 11 
+  - all
   - Americans think Germans are unfriendly in service encounters.
   - True
 -
   - intercultural
   - smiling
-  - 4 
-  - B
+  - 12 
+  - all
   - People in Germany and the US have similar attitudes to smiling.
   - False
 -
   - intercultural
   - smiling
-  - 5 
-  - C
+  - 13 
+  - all
   - The contact smile is a smile for when you misinterpret a situation.
   - False
 -
   - intercultural
   - smiling
-  - 6 
-  - C
+  - 14 
+  - all
   - People in Germany and the US have similar attitudes to smiling.
   - False
 -
   - intercultural
   - smiling
-  - 7 
-  - D
+  - 15 
+  - all
   - Americans think Germans are unfriendly in service encounters
   - True
 -
   - intercultural
   - smiling
-  - 8 
-  - D
+  - 16 
+  - all
   - Germans think Americans are very friendly because they smile a lot.
   - False
 -
