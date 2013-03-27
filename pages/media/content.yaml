@@ -1,9 +1,23 @@
 topic:
   -
-    id: intro
+    id: stories
     title: Recent news stories 
     intro: News stories from around the world
     story:
+      -
+        id: axelrod
+        title: Obama's chief campaign strategist
+        blurb: |
+          <a href="http://en.wikipedia.org/wiki/David_Axelrod">David_Axelrod</a> is <a href="http://youtube.com/watch?v=Irc6b-dtK-c">interviewed</a> by <a href="http://en.wikipedia.org/wiki/Jake_Tapper">Jake_Tapper</a> about <a href="http://en.wikipedia.org/wiki/Barack_Obama">Obama's</a> re-election campaign.
+        comment: |
+          Do you think Axelrod is doing a good job as a campaigner?
+      -
+        id: pope
+        title: The pope, the media and the world
+        blurb: |
+          We looked at the story of <a href="http://www.nytimes.com/2012/12/04/world/europe/follow-the-pope-on-twitter-he-follows-no-one.html?_r=0">the Pope on Twitter.</a> The pope is now <a href="http://www.google.com/search?q=pope%20twitter&num=100">resigning and will stop posting tweets.</a> But the Roman Catholic Church's use of the media will not stop with the new pope. Listen to a religion reporter describe <a href="http://www.onthemedia.org/2013/feb/22/inside-vatican/?utm_source=local&utm_media=treatment&utm_campaign=daMost&utm_content=damostviewed">the relationship of the media and the Roman Catholic Church.</a>
+        comment: |
+          Listen to the podcast on the web page, or download the MP3 file from <a href="http://web.nuu.edu.tw/~greg/media/otm022213d.mp3">http://web.nuu.edu.tw/~greg/media/otm022213d.mp3</a>. Then fill in the blanks.
       -
         id: 20120224
         title: Jeremy Lin T-shirts
@@ -11,6 +25,11 @@ topic:
           ICRT <a href="http://www.icrt.com.tw/en/ezaudio/20120224PM.MP3">EZ News on Friday the 24th in the evening</a>.
         comment: |
           Transcribe sections of the second news item about Linsanity T-shirts.
+  -
+    id: issues
+    title: Recent issues
+    intro: Stories that continue to receive media focus
+    story:
       -
         id: hacking
         title: Phone hacking scandal closes newspaper
@@ -41,6 +60,11 @@ topic:
           Talk show host <a href="http://en.wikipedia.org/wiki/Howard_Stern">Howard Stern</a> expresses views at the opposite end of the political spectrum to those of Limbaugh, and at the leftish end of those that can be heard on <a href="http://en.wikipedia.org/wiki/Radio_in_the_United_States">U.S. radio</a>. But like Limbaugh, he is a user (an even worse user) of bad language. Listen to him <a href="http://www.youtube.com/watch?v=Ek-G_TYvyck">call 'Birthers' moronic and even worse.</a> A <a href="http://en.wikipedia.org/wiki/Barack_Obama_citizenship_conspiracy_theories">Birther</a> is someone who doubts whether Obama is really a 'natural-born American.'
         comment: |
           Listen to him. Whose views are you closer to? Stern's or Limbaugh's
+  -
+    id: figures
+    title: Prominent media personalities
+    intro: Famous radio show hosts, TV program interviewers, etc
+    story:
       -
         id: oreilly-stern
         title: Bill O'Reilly interviews Howard Stern
@@ -56,30 +80,21 @@ topic:
         comment: |
           Do you think he gives O'Reilly a hard time? O'Reilly liked him because he thought he gave interviewees a hard time. 
       -
-        id: quizkid
-        title: Young Mike Wallace interviews quiz kid
-        blurb: |
-          <a href="http://en.wikipedia.org/wiki/Mike_Wallace_(journalist)">Mike Wallace</a> interviews quiz kid, Leonard Ross, in 1957. Ross committed suicide when he was 40, in 1985. <a href="http://www.hrc.utexas.edu/multimedia/video/2008/wallace/ross_leonard.html">Listen</a>. Do you think Wallace is giving Ross a hard time? Ross is only 12 years old.
-        comment: |
-         What do you think of the <a href="http://en.wikipedia.org/w/index.php?title=Tobacco_advertising&section=23#United_States">tobacco commercial</a>? 
-      -
         id: wallace
         title: Mike Wallace interviewed by son on Fox
         blurb: |
           <a href="http://en.wikipedia.org/wiki/Chris_Wallace_(journalist)">Chris Wallace</a> was <a href="http://en.wikipedia.org/wiki/Mike_Wallace_(journalist)">Mike Wallace</a>'s son but his parents divorced when he was one year old and his step father had a greater influence on him. Listen to <a href="http://www.youtube.com/watch?v=hi_Wl12TilU">the tribute</a> he paid to his father last month on his death (with excerpts from the interview he had with him in 2005).
         comment: |
           Do you think he gives his father a hard time? How much is this just entertainment, rather than a real interview?
+  -
+    id: historical
+    title: Old broadcasts
+    intro: Radio, TV in an earlier era
+    story:
       -
-        id: axelrod
-        title: Obama's chief campaign strategist
+        id: quizkid
+        title: Young Mike Wallace interviews quiz kid
         blurb: |
-          <a href="http://en.wikipedia.org/wiki/David_Axelrod">David_Axelrod</a> is <a href="http://youtube.com/watch?v=Irc6b-dtK-c">interviewed</a> by <a href="http://en.wikipedia.org/wiki/Jake_Tapper">Jake_Tapper</a> about <a href="http://en.wikipedia.org/wiki/Barack_Obama">Obama's</a> re-election campaign.
+          <a href="http://en.wikipedia.org/wiki/Mike_Wallace_(journalist)">Mike Wallace</a> interviews quiz kid, Leonard Ross, in 1957. Ross committed suicide when he was 40, in 1985. <a href="http://www.hrc.utexas.edu/multimedia/video/2008/wallace/ross_leonard.html">Listen</a>. Do you think Wallace is giving Ross a hard time? Ross is only 12 years old.
         comment: |
-          Do you think Axelrod is doing a good job as a campaigner?
-      -
-        id: pope
-        title: The pope, the media and the world
-        blurb: |
-          We looked at the story of <a href="http://www.nytimes.com/2012/12/04/world/europe/follow-the-pope-on-twitter-he-follows-no-one.html?_r=0">the Pope on Twitter.</a> The pope is now <a href="http://www.google.com/search?q=pope%20twitter&num=100">resigning and will stop posting tweets.</a> But the Roman Catholic Church's use of the media will not stop with the new pope. Listen to a religion reporter describe <a href="http://www.onthemedia.org/2013/feb/22/inside-vatican/?utm_source=local&utm_media=treatment&utm_campaign=daMost&utm_content=damostviewed">the relationship of the media and the Roman Catholic Church.</a>
-        comment: |
-          Listen to the podcast on the web page, or download the MP3 file from <a href="http://web.nuu.edu.tw/~greg/media/otm022213d.mp3">http://web.nuu.edu.tw/~greg/media/otm022213d.mp3</a>. Then fill in the blanks.
+         What do you think of the <a href="http://en.wikipedia.org/w/index.php?title=Tobacco_advertising&section=23#United_States">tobacco commercial</a>? 
