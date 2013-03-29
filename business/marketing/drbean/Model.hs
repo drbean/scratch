@@ -18,10 +18,9 @@ entities	=  [minBound..maxBound]
 characters :: [ (String, Entity) ]
 
 characters = [
-	( "quanlian",	M ),
+	( "quanlian",	Q ),
+	( "quanjiafu",	F ),
 	( "dr_bean",	T ),
-	( "steve_fossett",	F ),
-	( "cusp",	K )
 
 	]
 
@@ -71,10 +70,16 @@ onePlacers = [
 	, ("oil",	pred1 [O] )
 	, ("shoes",	pred1 [S] )
 	, ("bananas",	pred1 [B] )
+	, ("fruit_store",	pred1 [F] )
 	, ("eggs",	pred1 [E] )
 	, ("milk",	pred1 [M] )
 	, ("teacher",	pred1 [T] )
 	, ("role",	pred1 [] )
+
+	, ("product",	pred1 [U] )
+	, ("price",	pred1 [C] )
+	, ("place",	pred1 [A] )
+	, ("promotion",	pred1 [N] )
 	, ("person",	person )
 	, ("thing",	thing )
 
@@ -129,8 +134,6 @@ twoPlacers = [
     --, ("work_as",	pred2 $ map (\x -> (patient x, location x) ) work)
 	]
 
-reactions = [(C,R,T),(U,R,T),(C,R,F),(U,R,F),(P,R,F),(C,R,M),(U,R,M),(P,R,M)]
-
 threePlacers = [
     ("finish",	pred3 [])
     , ("make",	pred3 $
@@ -163,15 +166,15 @@ fourPlacers = [
 -- (agent,theme,result,aim)
 makings	= []
 features	= []
-purchases	= [(AA,S,A,H),(AB,S,A,H),(AV,S,A,H)]
-services	= []
-pay = pred4 $ map (\x -> (agent4 x, provider4 x, theme4 x, purpose4 x) ) services
+looking	= [(T,R,Q,C),(T,B,F,C),(T,S,F,L),(T,M,Q,Unspec),(T,E,Unspec,A),(T,O,Q,Unspec)]
+purchases	= [(T,R,Q,C),(T,B,F,C),(T,S,F,L),(T,M,Q,Unspec),(T,E,Unspec,A)]
+pay = pred4 $ map (\x -> (agent4 x, provider4 x, theme4 x, purpose4 x) ) purchases
 
-wanted = predid4 "buy"
+wanted = predid4 "looking"
 
 wanted_to_buy :: FourPlacePred
 wanted_to_buy	= pred4 $
-	foldl ( \ps (a,t,p,l)  -> (a,a,t,p):(a,a,p,t):ps ) [] purchases
+	foldl ( \ps (a,t,p,l)  -> (a,a,t,p):(a,a,p,t):ps ) [] looking
 
 offered_to_buy_from :: FourPlacePred
 offered_to_buy_from	= pred4 []
@@ -179,7 +182,6 @@ offered_to_buy_from	= pred4 []
 possessions	= [(A,H),(M,F),(M,O),(AA,O),(AB,O),(AV,O)]
 
 
-looking	= []
 have	= pred2 $ possessions ++ support
 		++ ( map swap $ support )
 		++ ( map (\x->(recipient x, theme x) ) giving )
