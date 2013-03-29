@@ -18,7 +18,7 @@ entities	=  [minBound..maxBound]
 characters :: [ (String, Entity) ]
 
 characters = [
-	( "ellen_macarthur",	M ),
+	( "quanlian",	M ),
 	( "dr_bean",	T ),
 	( "steve_fossett",	F ),
 	( "cusp",	K )
@@ -26,21 +26,15 @@ characters = [
 	]
 
 classes :: [String]
-classes = ["stress", "lack_of_support","uncertainty","lack_of_control","pressure"]
+classes = []
 
 context :: [Entity]
 context = [M,T,F,K,Someone]
-
-plane = predid1 "poweredcraft"
-
-framework	= pred1 [K]
-useful	= framework
 
 namelist :: [String]
 namelist = map fst characters
 names :: [(Entity, String)]
 names = map swap characters
-
 
 predid1 :: String -> OnePlacePred
 predid2 :: String -> TwoPlacePred
@@ -71,38 +65,30 @@ onePlacers :: [(String, OnePlacePred)]
 onePlacers = [
 	("true",	pred1 entities )
 	, ("false",	pred1 [] )
-	, ("male",	pred1 [F,T] )
-	, ("female",	pred1 [M] )
-	, ("ambitious",	pred1 [F,M] )
-	, ("leader",	pred1 $ map fst leadership )
-	, ("adventurer",	pred1 $ map fst leadership )
-	, ("financial_trader",	pred1 [F] )
+	, ("male",	pred1 [T] )
+	, ("female",	pred1 [] )
+	, ("rice",	pred1 [R] )
+	, ("oil",	pred1 [O] )
+	, ("shoes",	pred1 [S] )
+	, ("bananas",	pred1 [B] )
+	, ("eggs",	pred1 [E] )
+	, ("milk",	pred1 [M] )
 	, ("teacher",	pred1 [T] )
-	, ("team",	pred1 [Someone] )
 	, ("role",	pred1 [] )
 	, ("person",	person )
 	, ("thing",	thing )
 
-    , ("lack_of_control",	pred1 [C] )
-    , ("uncertainty",	pred1 [U] )
-    , ("lack_of_support",	pred1 [S] )
-    , ("pressure",	pred1 [P] )
-    , ("stress",	pred1 [R] )
-    , ("stressful",	pred1 [C,U,S,P] )
+	, ("good",	pred1 [S,M,B,E,R] )
+	, ("bad",	pred1 [O] )
 
-	, ("good",	pred1 [] )
-	, ("bad",	pred1 [C,U,S,P,R] )
+	, ("world",	pred1 [W] )
+	, ("non-stop",	pred1 [N] )
+	, ("single-handed",	pred1 [O] )
 
-    , ("balloon",   pred1 [B] )
-    , ("glider",    pred1 [G] )
-    , ("plane",	pred1 [P] )
-    , ("aircraft",  pred1 [B,P,G] )
-    , ("boat",	pred1 [Y] )
-
-    , ("world",	pred1 [W] )
-    , ("non-stop",	pred1 [N] )
-    , ("single-handed",	pred1 [O] )
-
+	, ("advertisers",	pred1 [AA,AB,AV])
+	, ("money",	pred1 [O])
+	, ("successful",	pred1 [H,F])
+	, ("unsuccessful",	pred1 [P])
 	]
 
 type OnePlacePred	= Entity -> Bool
@@ -133,9 +119,6 @@ twoPlacers = [
     ("know",	pred2 $ acquainted ++ map swap acquainted)
     , ("have",	pred2 $ possessions ++ leadership ++ features ++
 	map (\(a,t,r) -> (r,t) ) reactions )
-    , ("felt_stress",	pred2 $ map (\x -> (recipient x, agent x) ) reactions )
-    , ("cause_stress",	pred2 $ map (\x -> (agent x, recipient x) ) reactions )
-    , ("pressurize",	pred2 [])
     , ("help",	pred2 [])
     , ("said",	pred2 $ map (\x->(agent x, theme x) ) comms)
     , ("asked",	pred2 $ map (\x->(agent x, recipient x) ) comms)
@@ -161,13 +144,13 @@ threePlacers = [
     , ("wanted_to_study", pred3 $ map (\(a,t) -> (a,a,t)) studies)
     ]
 
--- control	= [(Unspec,Unspec)]
--- uncertainty	= [(Unspec,Unspec)]
--- support	= [(Unspec,E)]
---(pressurizer,pressured)
-hotspots	= []
-
 fourPlacers = [
+	("buy",	pred4 $ map (\x -> (agent4 x, theme4 x, provider4 x, location4 x)
+				) purchases ++
+			map (\x -> (agent4 x, provider4 x, theme4 x, location4 x)
+				) purchases )
+	, ("sell", pred4 $ foldl (\ss (a,t,p,l) -> (l,t,a,l): (p,t,a,l): (p,t,l,a):
+					ss ) [] purchases)
 	("get",	pred4 $ map (\x -> (agent4 x, theme4 x, provider4 x, location4 x)
 				) services ++
 			map (\x -> (agent4 x, provider4 x, theme4 x, location4 x)
@@ -177,36 +160,24 @@ fourPlacers = [
 	, ("wanted_to_make",	pred4 $ map (\(a,t,_,p) -> (a,a,p,t)) makings)
 	]
 
--- circumnavigator, vehicle, accomplishment
-circumnavigations	= [(S,B),(S,P),(S,Y),(E,Y)]
-possessions	= [(F,Y),(F,G),(F,B),(F,P),(M,Y)]
-recruitment	= []
-support	= [(Someone,M),(Someone,F)]
-leadership	= map swap support
-appreciation	= []
-family	= []
-patronage	= []
-acquainted	= []
-studies	= []
 -- (agent,theme,result,aim)
 makings	= []
 features	= []
+purchases	= [(AA,S,A,H),(AB,S,A,H),(AV,S,A,H)]
 services	= []
 pay = pred4 $ map (\x -> (agent4 x, provider4 x, theme4 x, purpose4 x) ) services
 
-help	= support
-supporter	= pred1 $ map fst support
-supported	= pred1 $ map snd support
-leader	= supported
-team_member	= supporter
+wanted = predid4 "buy"
 
-circumnavigate = pred2 circumnavigations
-fly_around_in	= pred3 $ map (\x -> (fst x,W,snd x) ) $ filter (\x -> snd x == B || snd x == P)
-			circumnavigations
-sail_around_in	= pred3 $ map (\x -> (fst x,W,snd x) ) $ filter (\x -> snd x == Y )
-			circumnavigations
-fly_around	= forgetful3 fly_around_in
-sail_around	= forgetful3 sail_around_in
+wanted_to_buy :: FourPlacePred
+wanted_to_buy	= pred4 $
+	foldl ( \ps (a,t,p,l)  -> (a,a,t,p):(a,a,p,t):ps ) [] purchases
+
+offered_to_buy_from :: FourPlacePred
+offered_to_buy_from	= pred4 []
+
+possessions	= [(A,H),(M,F),(M,O),(AA,O),(AB,O),(AV,O)]
+
 
 looking	= []
 have	= pred2 $ possessions ++ support
@@ -236,41 +207,22 @@ theme (_,t,_) = t
 recipient (_,_,r) = r
 patient = theme
 location = recipient
+source	= recipient
 instrument = recipient
 origin	= theme
 destination = recipient
 
---(worker,job,site)
-working	= []
-volunteering = []
 comms	= [ (Someone,Y,F),(Someone,B,F),(Someone,P,F),(Someone,Y,M) ]
-offenses	= []
 acceptances = []
 -- (seller, item, buyer)
 selling	= []
---(killer,killed,instrument)
---(putter,theme,location)
---(agent,theme,location)
-looking_back	= [(Q,Unspec,Unspec)]
 
-worker	= pred1 $ map agent working
-work_where	= pred2 $ map (\x -> (agent x, location x) ) working
-work_as = pred2 $ map (\x -> (agent x, theme x) ) working
-volunteer_at	= pred2 $ map (\x -> (agent x, location x) ) volunteering
-look_back	= pred1 $ map agent looking_back
-look_back_on	= pred2 $ map (\x->(agent x, theme x) ) looking_back
 said	= pred2 $ map (\x->(agent x, theme x) ) comms
 asked	= pred2 $ map (\x->(agent x, recipient x) ) comms
 ask_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
 talked	= pred2 $ map (\x->(agent x, recipient x) ) comms
               ++  map (\(agent,theme,recipient)->(recipient, agent) ) comms
 talk_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
-offend_with	= pred3 offenses
-offend	= pred2 $ ( map (\x -> (agent x, recipient x) ) offenses ) ++
-		( map (\x -> (theme x, recipient x) ) offenses )
-anger = offend
-
-pressurize = pred2 hotspots
 
 told	= pred3 comms
 
@@ -287,9 +239,6 @@ purpose4	= location4
 aim4	= purpose4
 result4	= recipient4
 
-sailing    = [(F,W,Unspec,N),(M,W,O,N)]
-ballooning	= [(F,W,O,N)]
-plane_flights	= [(F,W,O,N)]
 
 fivePlacers = [
 	("sailed", pred5 $ foldl (\ss (a,d,s1,s2) ->
