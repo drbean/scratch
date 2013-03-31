@@ -173,7 +173,7 @@ wanted = predid4 "looking"
 offered_to_buy_from :: FourPlacePred
 offered_to_buy_from	= pred4 []
 
-possessions	= [(T,Y)]
+possessions	= [(T,Y),(T,S),(T,M),(T,E),(T,R)]
 
 
 knowledge	= [(T,Q),(T,J),(T,F)]
