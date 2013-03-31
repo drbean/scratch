@@ -178,9 +178,6 @@ possessions	= [(T,Y)]
 
 knowledge	= [(T,Q),(T,J),(T,F)]
 acquaintances	= []
--- visit	= pred2 $ map (\x -> (patient x, recipient x) ) recruitment
-interview	= pred2 $ map (\x -> (agent x, patient x) ) recruitment
--- greet	= interview
 look_at	= pred2 $ looking
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
