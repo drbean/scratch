@@ -21,6 +21,7 @@ objects = [
 inflections :: [(String, String)]
 inflections = [
  ( "offer_to_buy", "offered_to_buy" )
+ , ( "went", "go" )
  , ( "bought", "buy" )
  , ( "want_to_pay", "wanted_to_pay" )
  , ( "sold", "sell" )
@@ -53,6 +54,7 @@ relations = [
 	, ( "false",	\[x] -> predid1 "false" x	)
 	, ( "successful",	\[x] -> predid1 "successful" x	)
 	, ( "unsuccessful",	\[x] -> predid1 "unsuccessful" x	)
+	, ( "go",	\[x,y]	-> predid2 "go" y x	)
 	, ( "finish",	\[x,y,z] -> predid3 "finish" z y x	)
 	, ( "pay",	\args -> case args of
 		[x,y,z,w] -> predid4 "pay" w z y x
