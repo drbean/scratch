@@ -363,16 +363,19 @@ yn_test = [
 	, "Did Dr Bean go to QuanLian to buy rice?"
 	, "Did Dr Bean buy QuanLian's rice?"
 	, "Did Dr Bean like QuanLian's rice?"
-	-- , "Did Dr Bean prefer to buy rice or milk?"
 	, "Did Dr Bean buy shoes?"
 	, "Did Dr Bean buy shoes from QuanJiaFu?"
 	, "Did Dr Bean want to buy shoes from QuanJiaFu?"
+	, "Did Dr Bean want to buy oil at QuanLian?"
+	, "Did Dr Bean like oil?"
+	, "Did Dr Bean like rice?"
+	, "Did Dr Bean like oil from QuanLian?"
+	, "Did Dr Bean like the oil from QuanLian?"
+	, "Did Dr Bean like the rice from QuanLian?"
+	-- , "Did Dr Bean prefer to buy rice or milk?"
 	-- , "Did Dr Bean think that buying shoes is good?"
 	-- , "Did Dr Bean think that oil is good for health?"
 	-- , "Did Dr Bean think that eating oil is healthy ?"
-	, "Did Dr Bean want to buy oil at QuanLian?"
-	, "Did Dr Bean like oil?"
-	, "Did Dr Bean like oil from QuanLian?"
 	]
 
 tag_test = [
