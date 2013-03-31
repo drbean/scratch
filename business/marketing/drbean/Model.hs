@@ -176,12 +176,6 @@ offered_to_buy_from	= pred4 []
 possessions	= [(T,Y)]
 
 
-have	= pred2 $ possessions ++ support
-		++ ( map swap $ support )
-		++ ( map (\x->(recipient x, theme x) ) giving )
-		++ ( map (\x->(agent x,J) ) working )
-		++ ( map (\x->(agent x, patient x) ) recruitment )
-		++ ( map (\x->(agent x, location x) ) recruitment )
 knowledge	= [(T,Q),(T,J),(T,F)]
 acquaintances	= []
 appreciate	= pred2 appreciation
