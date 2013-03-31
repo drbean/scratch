@@ -22,23 +22,11 @@ inflections :: [(String, String)]
 inflections = [
  ( "offer_to_buy", "offered_to_buy" )
  , ( "went", "go" )
+ , ( "liked", "like" )
  , ( "bought", "buy" )
  , ( "want_to_pay", "wanted_to_pay" )
  , ( "sold", "sell" )
  , ( "want_to_sell", "wanted_to_sell" )
- , ( "grew", "grow" )
- , ( "want_to_grow", "wanted_to_grow" )
- , ( "helped", "help" )
- , ( "want_to_help", "wanted_to_help" )
- , ( "made", "make" )
- , ( "founded", "make" )
- , ( "found", "make" )
- , ( "set_up", "make" )
- , ( "decide_to_make", "make" )
- , ( "decided_to_make", "make" )
- , ( "want_to_make", "wanted_to_make" )
- , ( "studied", "study" )
- , ( "want_to_study", "wanted_to_study" )
  , ( "want_to_buy", "wanted_to_buy" )
  , ( "want_to_look", "wanted_to_look" )
  , ( "want_to_have", "wanted_to_have" )
@@ -55,6 +43,7 @@ relations = [
 	, ( "successful",	\[x] -> predid1 "successful" x	)
 	, ( "unsuccessful",	\[x] -> predid1 "unsuccessful" x	)
 	, ( "go",	\[x,y]	-> predid2 "go" y x	)
+	, ( "like",	\[x,y]	-> predid2 "like" y x	)
 	, ( "finish",	\[x,y,z] -> predid3 "finish" z y x	)
 	, ( "pay",	\args -> case args of
 		[x,y,z,w] -> predid4 "pay" w z y x
@@ -63,10 +52,6 @@ relations = [
 		[x] -> (forgetful2 . forgetful3 . forgetful4 . predid4) "pay" x )
 	, ( "have_to_pay",	\args -> case args of
 		[x,y,z] -> predid3 "have_to_pay" z y x )
-
-	, ( "offered_to_buy", \args -> case args of 
-		[x,y,z] -> predid3 "offered_to_buy" z y x
-		[x,y,z,w] -> offered_to_buy_from w z y x )
 
 	, ( "buy", \args -> case args of 
 		[x,y,z,w] -> predid4 "buy" w z y x
