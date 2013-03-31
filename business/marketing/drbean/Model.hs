@@ -122,8 +122,7 @@ pred5 xs	= curry5 ( `elem` xs )
 twoPlacers :: [(String, TwoPlacePred)]
 twoPlacers = [
     ("know",	pred2 $ knowledge ++ acquaintances ++ map swap acquaintances)
-    , ("have",	pred2 $ possessions ++ features ++
-	map (\(a,t,r) -> (r,t) ) reactions )
+    , ("have",	pred2 $ possessions ++ features  )
     , ("help",	pred2 [])
     , ("said",	pred2 $ map (\x->(agent x, theme x) ) comms)
     , ("asked",	pred2 $ map (\x->(agent x, recipient x) ) comms)
