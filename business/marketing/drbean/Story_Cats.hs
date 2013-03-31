@@ -21,39 +21,13 @@ nouns = [
 	, [Cat "rice"	"NP" [Thrd,Neutr,Sg] [],
 		Cat "rice"	"CN" [Thrd,Neutr,Sg] []]
 
-	, [Cat "experiment"	"CN" [Thrd,Neutr,Sg] []]
-	, [Cat "good_idea"	"CN" [Thrd,Neutr,Sg] []]
 	, [Cat "a_good_price"	"NP" [Thrd,Neutr,Sg] []]
-	, [Cat "advertisers"	"CN" [Thrd,MascOrFem,Pl] []]
-	, [Cat "advertising_space"	"NP" [Thrd,Neutr,Sg] []]
-	, [Cat "media"	"CN" [Thrd,Neutr,Sg] []]
-	, [Cat "radio_and_television"	"NP" [Thrd,Neutr,Sg] []]
-	, [Cat "website"	"CN" [Thrd,Neutr,Sg] []]
-	, [Cat "business_management"	"NP" [Thrd,Neutr,Sg] []]
 	, [Cat "money"   "NP" [Sg,Neutr,Thrd]   []]
 	]
 
 verbs = [
-	[Cat "studied"	"V" [Tense] [],
-		Cat "studied"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "study"	"V" [Infl] [],
-		Cat "study"	"V" [Infl] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "helped"	"V" [Tense] [],
-		Cat "helped"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "help"	"V" [Infl] [],
-		Cat "help"	"V" [Infl] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "founded"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "found"	"V" [Infl] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "set_up"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "set_up"	"V" [Infl] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "promoted"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []],
-		Cat "promoted"	"V" [Tense] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [On] []]],
-	[Cat "promote"	"V" [Infl] [Cat "_" "NP" [AccOrDat] []],
-		Cat "promote"	"V" [Infl] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [On] []]],
 	[Cat "liked"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "like"	"V" [Infl] [Cat "_" "NP" [AccOrDat] [],]]
+	[Cat "like"	"V" [Infl] [Cat "_" "NP" [AccOrDat] []]],
 	[Cat "bought"	"V" [Tense] [],
 		Cat "bought"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []],
 		Cat "bought"	"V" [Tense] [Cat "_" "PP" [From] []],
