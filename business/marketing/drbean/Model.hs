@@ -159,6 +159,7 @@ fourPlacers = [
 	, ("give", pred4 $ foldl (\ss (a,t,p,l) -> (l,t,a,l): (p,t,a,l): (p,t,l,a):
 					ss ) [] services)
 	, ("pay", pred4 $ map (\x -> (agent4 x, provider4 x, theme4 x, purpose4 x) ) purchases)
+    , ("wanted_to_buy", pred4 $ foldl ( \ps (a,t,p,l)  -> (a,a,t,p):(a,a,p,t):ps ) [] looking)
 	, ("wanted_to_make",	pred4 $ map (\(a,t,_,p) -> (a,a,p,t)) makings)
 	]
 
@@ -170,10 +171,6 @@ purchases	= [(T,R,Q,C),(T,B,F,C),(T,S,J,L),(T,M,Q,Unspec),(T,E,Unspec,A)]
 services    = []
 
 wanted = predid4 "looking"
-
-wanted_to_buy :: FourPlacePred
-wanted_to_buy	= pred4 $
-	foldl ( \ps (a,t,p,l)  -> (a,a,t,p):(a,a,p,t):ps ) [] looking
 
 offered_to_buy_from :: FourPlacePred
 offered_to_buy_from	= pred4 []
