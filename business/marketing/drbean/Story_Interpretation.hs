@@ -86,22 +86,5 @@ relations = [
 		[x,y,z] -> (forgetful4 . predid4) "wanted_to_buy" z y x
 		[x,y,z,w] -> predid4 "wanted_to_buy" w z y x )
 
-	, ( "caused_stress",	\args -> case args of
-		[x,y] -> predid2 "cause_stress" y x
-		[x] -> (forgetful2 . predid2) "cause_stress" x )
-	, ( "felt_stress",	\args -> case args of
-		[x,y] -> predid2 "felt_stress" y x
-		[x] -> (forgetful2 . predid2) "felt_stress" x )
-	, ( "put_pressure",	\[x,y]	-> predid2 "pressurize" y x	)
-	, ( "sailed",	\args -> case args of
-		[x,y,z,w,v] -> predid5 "sailed" v w z y x
-		[x,y,z,w] -> (forgetful5 . predid5 ) "sailed" w z y x
-		[x,y,z] -> (forgetful4 . forgetful5 . predid5 ) "sailed" z y x
-		[x,y] -> (forgetful3 . forgetful4 . forgetful5 . predid5 ) "sailed" y x )
-	, ( "flew",	\args -> case args of
-		[x,y,z,w,v] -> predid5 "flew" v w z y x
-		[x,y,z,w] -> (forgetful5 . predid5 ) "flew" w z y x
-		[x,y,z] -> (forgetful4 . forgetful5 . predid5 ) "flew" z y x
-		[x,y] -> (forgetful3 . forgetful4 . forgetful5 . predid5 ) "flew" y x )
 	]
 
