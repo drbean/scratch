@@ -18,9 +18,9 @@ entities	=  [minBound..maxBound]
 characters :: [ (String, Entity) ]
 
 characters = [
-	( "quanlian",	Q ),
-	( "quanjiafu",	F ),
-	( "dr_bean",	T ),
+	( "quanlian",	Q )
+	, ( "quanjiafu",	J )
+	, ( "dr_bean",	T )
 
 	]
 
@@ -90,8 +90,8 @@ onePlacers = [
 	, ("non-stop",	pred1 [N] )
 	, ("single-handed",	pred1 [O] )
 
-	, ("advertisers",	pred1 [AA,AB,AV])
-	, ("money",	pred1 [O])
+	, ("advertisers",	pred1 [Q,F,L])
+	, ("money",	pred1 [Y])
 	, ("successful",	pred1 [H,F])
 	, ("unsuccessful",	pred1 [P])
 	]
@@ -160,6 +160,7 @@ fourPlacers = [
 				) services )
 	, ("give", pred4 $ foldl (\ss (a,t,p,l) -> (l,t,a,l): (p,t,a,l): (p,t,l,a):
 					ss ) [] services)
+	, ("pay", pred4 $ map (\x -> (agent4 x, provider4 x, theme4 x, purpose4 x) ) purchases)
 	, ("wanted_to_make",	pred4 $ map (\(a,t,_,p) -> (a,a,p,t)) makings)
 	]
 
@@ -167,8 +168,8 @@ fourPlacers = [
 makings	= []
 features	= []
 looking	= [(T,R,Q,C),(T,B,F,C),(T,S,F,L),(T,M,Q,Unspec),(T,E,Unspec,A),(T,O,Q,Unspec)]
-purchases	= [(T,R,Q,C),(T,B,F,C),(T,S,F,L),(T,M,Q,Unspec),(T,E,Unspec,A)]
-pay = pred4 $ map (\x -> (agent4 x, provider4 x, theme4 x, purpose4 x) ) purchases
+purchases	= [(T,R,Q,C),(T,B,F,C),(T,S,J,L),(T,M,Q,Unspec),(T,E,Unspec,A)]
+services    = []
 
 wanted = predid4 "looking"
 
@@ -179,7 +180,7 @@ wanted_to_buy	= pred4 $
 offered_to_buy_from :: FourPlacePred
 offered_to_buy_from	= pred4 []
 
-possessions	= [(A,H),(M,F),(M,O),(AA,O),(AB,O),(AV,O)]
+possessions	= [(T,Y)]
 
 
 have	= pred2 $ possessions ++ support
