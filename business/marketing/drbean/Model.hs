@@ -151,7 +151,7 @@ fourPlacers = [
 				) purchases )
 	, ("sell", pred4 $ foldl (\ss (a,t,p,l) -> (l,t,a,l): (p,t,a,l): (p,t,l,a):
 					ss ) [] purchases)
-	("get",	pred4 $ map (\x -> (agent4 x, theme4 x, provider4 x, location4 x)
+	, ("get",	pred4 $ map (\x -> (agent4 x, theme4 x, provider4 x, location4 x)
 				) services ++
 			map (\x -> (agent4 x, provider4 x, theme4 x, location4 x)
 				) services )
@@ -178,7 +178,6 @@ possessions	= [(T,Y)]
 
 knowledge	= [(T,Q),(T,J),(T,F)]
 acquaintances	= []
-look_at	= pred2 $ looking
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
