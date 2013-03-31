@@ -71,6 +71,8 @@ relations = [
 		[x,y,z] -> (forgetful4 . predid4) "buy" z y x
 		[x,y] -> (forgetful3 .forgetful4 . predid4) "buy" y x
 		[x] -> (forgetful2 . forgetful3 . forgetful4 . predid4) "buy" x )
+	, ( "have_to_buy",	\args -> case args of
+		[x,y,z] -> predid3 "have_to_buy" z y x )
 
 	, ( "wanted_to_pay", \args -> case args of 
 		[x,y,z] -> predid3 "wanted_to_pay" z y x )
