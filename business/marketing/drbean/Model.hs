@@ -124,6 +124,7 @@ twoPlacers = [
     ("know",	pred2 $ knowledge ++ acquaintances ++ map swap acquaintances)
     , ("have",	pred2 $ possessions ++ features )
     , ("help",	pred2 [])
+    , ("go",	pred2 $ map (\(a,_,l,_) -> (a,l) ) looking )
     , ("said",	pred2 $ map (\x->(agent x, theme x) ) comms)
     , ("asked",	pred2 $ map (\x->(agent x, recipient x) ) comms)
     , ("talk_with_or_about",	pred2 $ map (\x->(agent x, recipient x) ) comms
@@ -176,7 +177,7 @@ wanted = predid4 "looking"
 offered_to_buy_from :: FourPlacePred
 offered_to_buy_from	= pred4 []
 
-possessions	= [(T,Y),(T,S),(T,M),(T,E),(T,R)]
+possessions	= [(T,Y),(Q,O),(F,B),(T,S),(J,S),(T,M),(Q,M),(T,E),(Unspec,E),(T,R),(Q,R)]
 
 
 knowledge	= [(T,Q),(T,J),(T,F)]
