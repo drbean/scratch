@@ -2,82 +2,114 @@ module Story_Cats where
 
 import Parsing
 
-type WordConverted = ([String],String)
-
-multipart_names :: [WordConverted]
-
-multipart_names = [
-	(["Dr","Bean"],	"Dr_Bean")
-	]
-
-names, nouns, verbs :: Lexset
+names, nouns, verbs, aux, adjs, advs :: Lexset
 
 names = [
-	[Cat "cusp" "NP" [Thrd,Neutr,Sg] []],
-	[Cat "ellen_macarthur" "NP" [Thrd,Fem,Sg] []],
-	[Cat "dr_bean" "NP" [Thrd,Masc,Sg] []],
-	[Cat "steve_fossett" "NP" [Thrd,Masc,Sg] []]
+	[Cat "dr_bean"	"NP" [Thrd,Masc,Sg] []]
+	, [Cat "quanlian"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "quanjiafu"	"NP" [Thrd,Neutr,Sg] []]
 	]
 
 nouns = [
+	[Cat "shoes"	"NP" [Thrd,Neutr,Pl] []]
+	, [Cat "oil"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "milk"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "bananas"	"NP" [Thrd,Neutr,Pl] []]
+	, [Cat "eggs"	"NP" [Thrd,Neutr,Pl] []]
+	, [Cat "rice"	"NP" [Thrd,Neutr,Sg] []]
 
-	[Cat "control"	"NP" [Thrd,Neutr,Sg] []],
-	[Cat "lack_of_control"	"NP" [Thrd,Neutr,Sg] []],
-	[Cat "uncertainty"	"NP" [Thrd,Neutr,Sg] []],
-	[Cat "support"	"NP" [Thrd,Neutr,Sg] []],
-	[Cat "lack_of_support"	"NP" [Thrd,Neutr,Sg] []],
-	[Cat "pressure"	"NP" [Thrd,Neutr,Sg] []],
-	[Cat "stress"	"NP" [Thrd,Neutr,Sg] []],
-
-	[Cat "team"	"CN" [Thrd,MascOrFem,Sg] []],
-
-	[Cat "teacher"	"CN" [Thrd,Masc,Sg] []],
-	[Cat "adventurer"	"CN" [Thrd,MascOrFem,Sg] []],
-	[Cat "adventurers"	"CN" [Thrd,MascOrFem,Pl] []],
-	[Cat "boat"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "aircraft"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "plane"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "powered_aircraft"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "glider"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "balloon"	"CN" [Thrd,Neutr,Sg] []],
-	[Cat "world"	"CN" [Thrd,Neutr,Sg] []]
+	, [Cat "experiment"	"CN" [Thrd,Neutr,Sg] []]
+	, [Cat "good_idea"	"CN" [Thrd,Neutr,Sg] []]
+	, [Cat "a_good_price"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "advertisers"	"CN" [Thrd,MascOrFem,Pl] []]
+	, [Cat "advertising_space"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "media"	"CN" [Thrd,Neutr,Sg] []]
+	, [Cat "radio_and_television"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "website"	"CN" [Thrd,Neutr,Sg] []]
+	, [Cat "business_management"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "money"   "NP" [Sg,Neutr,Thrd]   []]
 	]
 
 verbs = [
-	[Cat "helped"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "help"	"V" [Infl] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "felt_stress"	"V" [Tense] [Cat "_" "PP" [BecauseOf] []],
-		Cat "felt_stress"	"V" [Tense] []],
-	[Cat "feel_stress"	"V" [Infl] [Cat "_" "PP" [BecauseOf] []],
-		Cat "feel_stress"	"V" [Infl] []],
-	[Cat "caused_stress"	"V" [Tense] [Cat "_" "PP" [To] []],
-		Cat "caused_stress"	"V" [Tense] []],
-	[Cat "cause_stress"	"V" [Infl] [Cat "_" "PP" [To] []],
-		Cat "cause_stress"	"V" [Infl] []],
-	[Cat "put_pressure"	"V" [Tense] [Cat "_" "PP" [On] []],
-		Cat "put_pressure"	"V" [Infl] [Cat "_" "PP" [On] []]],
-	[Cat "flew"	"V" [Tense] [Cat "_" "PP" [Around] []],
-		Cat "flew"	"V" [Tense] [Cat "_" "PP" [Around] [],
-						Cat "_" "PP" [In] []]],
-	[Cat "fly"	"V" [Infl] [Cat "_" "PP" [Around] []],
-		Cat "fly"	"V" [Infl] [Cat "_" "PP" [Around] [],
-						Cat "_" "PP" [In] []]],
-	[Cat "sailed"	"V" [Tense] [Cat "_" "PP" [Around] []],
-		Cat "sailed"	"V" [Tense] [Cat "_" "PP" [Around] [],
-						Cat "_" "PP" [In] []],
-		Cat "sailed"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []]],
-	[Cat "sail"	"V" [Infl] [Cat "_" "PP" [Around] []],
-		Cat "sail"	"V" [Infl] [Cat "_" "PP" [Around] [],
-						Cat "_" "PP" [In] []],
-		Cat "sail"	"V" [Infl] [Cat "_" "NP" [AccOrDat] []]]
+	[Cat "studied"	"VP" [Tense] [],
+		Cat "studied"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "study"	"VP" [Infl] [],
+		Cat "study"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "helped"	"VP" [Tense] [],
+		Cat "helped"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "help"	"VP" [Infl] [],
+		Cat "help"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "founded"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "found"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "set_up"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "set_up"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []]],
+	[Cat "promoted"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
+		Cat "promoted"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [On] []]],
+	[Cat "promote"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
+		Cat "promote"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [On] []]],
+	[Cat "bought"	"VP" [Tense] [],
+		Cat "bought"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
+		Cat "bought"	"VP" [Tense] [Cat "_" "PP" [From] []],
+		Cat "bought"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [From] []],
+		Cat "bought"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [On] [],
+						Cat "_" "PP" [From] []]],
+	[Cat "buy"	"VP" [Infl] [],
+		Cat "buy"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
+		Cat "buy"	"VP" [Infl] [ Cat "_" "PP" [From] []],
+		Cat "buy"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [From] []],
+		Cat "buy"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [On] [],
+						Cat "_" "PP" [From] []]],
+	[Cat "sold"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
+		Cat "sold"	"VP" [Tense] [Cat "_" "PP" [To] []],
+		Cat "sold"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [To] []],
+		Cat "sold"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [On] []],
+		Cat "sold"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [To] [],
+						Cat "_" "PP" [On] []]],
+	[Cat "sell"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
+		Cat "sell"	"VP" [Infl] [Cat "_" "PP" [To] []],
+		Cat "sell"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [To] []],
+		Cat "sell"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [On] []],
+		Cat "sell"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [To] [],
+						Cat "_" "PP" [On] []]],
+	[Cat "paid"	"VP" [Tense] [],
+		Cat "paid"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
+		Cat "paid" "VP" [Tense]  [Cat "_" "NP" [AccOrDat] [],
+                                                Cat "_" "NP" [AccOrDat] []],
+		Cat "paid" "VP" [Tense]  [Cat "_" "NP" [AccOrDat] [],
+                                                Cat "_" "PP" [For] []],
+		Cat "paid" "VP" [Tense]  [Cat "_" "NP" [AccOrDat] [],
+                                                Cat "_" "NP" [AccOrDat] [],
+                                                Cat "_" "PP" [For] []]],
+	[Cat "pay"	"VP" [Infl] [],
+		Cat "pay"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
+		Cat "pay" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+                                                Cat "_" "NP" [AccOrDat] []],
+		Cat "pay" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+                                                Cat "_" "PP" [For] []],
+		Cat "pay" "VP" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+                                                Cat "_" "NP" [AccOrDat] [],
+                                                Cat "_" "PP" [For] []]]
+
 	]
 
 aux = [
 	]
 
 adjs = [
-	[Cat "stressful"	"ADJ" [] []]
-	, [Cat "ambitious"	"ADJ" [] []]
+	[Cat "successful"	"ADJ" [] []]
+	, [Cat "unsuccessful"	"ADJ" [] []]
 	]
 
 advs = [
