@@ -4,26 +4,26 @@ import LogicalForm
 import Parsing
 
 relatives = [
-	"Was Steve Fossett a man who flew around the world?"
-	, "Was Ellen MacArthur a man who flew around the world?"
-	, "Was Ellen MacArthur the woman who was an adventurer?"
+	"Was Dr Bean a man who flew around the world?"
+	, "Was Dr Bean a man who flew around the world?"
+	, "Was Dr Bean the woman who was an adventurer?"
 	]
 
 haves = [
-	"Did Ellen MacArthur have a team?"
-	, "Ellen MacArthur had stress."
-	, "Ellen MacArthur had a boat."
-	, "Did Ellen MacArthur have a boat?"
-	, "Did Ellen MacArthur have a plane?"
-	, "Did Ellen MacArthur have some plane?"
-	, "Did Steve Fossett have stress?"
-	, "Did Steve Fossett have a boat?"
-	, "Did Steve Fossett have some balloon?"
-	, "Did Steve Fossett have balloon?"
+	"Did Dr Bean have a team?"
+	, "Dr Bean had stress."
+	, "Dr Bean had a boat."
+	, "Did Dr Bean have a boat?"
+	, "Did Dr Bean have a plane?"
+	, "Did Dr Bean have some plane?"
+	, "Did Dr Bean have stress?"
+	, "Did Dr Bean have a boat?"
+	, "Did Dr Bean have some balloon?"
+	, "Did Dr Bean have balloon?"
 	, "Did a team have stress?"
 	, "Did a team have a plane?"
 	, "Did a team have a woman's plane?"
-	, "Did a team have Ellen MacArthur's plane?"
+	, "Did a team have Dr Bean's plane?"
 	, "Did a team have a team?"
 	, "Did a team have a boat?"
 	, "Did an ambitious woman have stress?"
@@ -36,7 +36,7 @@ haves = [
 	, "Did the boat have no plane?"
 	, "Did Dr Bean have stress?"
 	, "Did Dr Bean have a boat?"
-	, "Did Ellen MacArthur's boat have a boat?"
+	, "Did Dr Bean's boat have a boat?"
 	, "Did a team have a boat?"
 	, "Did a team have some balloon?"
 	, "Did a team have balloon?"
@@ -46,12 +46,12 @@ haves = [
 	]
 
 text_test = [
-	"Steve Fossett sailed around the world. He was an adventurer."
-	, "He was an adventurer. Steve Fossett sailed around the world."
-	, "Ellen MacArthur sailed around the world. She was an adventurer."
-	, "Ellen MacArthur sailed around the world. He was an adventurer."
-	, "Ellen MacArthur sailed around the world. She was a woman, but she was an adventurer."
-	, "Ellen MacArthur sailed around the world. She wasn't a man, but she was an adventurer."
+	"Dr Bean sailed around the world. He was an adventurer."
+	, "He was an adventurer. Dr Bean sailed around the world."
+	, "Dr Bean sailed around the world. She was an adventurer."
+	, "Dr Bean sailed around the world. He was an adventurer."
+	, "Dr Bean sailed around the world. She was a woman, but she was an adventurer."
+	, "Dr Bean sailed around the world. She wasn't a man, but she was an adventurer."
 	]
 
 comp_tests = [
@@ -59,107 +59,107 @@ comp_tests = [
 	, "Uncertainty was stressful."
 	, "Lack of control was stressful."
 	, "Pressure was stressful."
-	, "Steve Fossett was a man."
-	, "Steve Fossett was an adventurer."
-	, "Ellen MacArthur was a woman."
-	, "Ellen MacArthur was an adventurer."
-	, "Ellen MacArthur was a man."
-	, "Ellen MacArthur wasn't a woman."
-	, "Steve Fossett wasn't a woman."
-	, "Ellen MacArthur wasn't an adventurer."
-	, "Steve Fossett was ambitious."
-	, "Ellen MacArthur wasn't stressful."
+	, "Dr Bean was a man."
+	, "Dr Bean was an adventurer."
+	, "Dr Bean was a woman."
+	, "Dr Bean was an adventurer."
+	, "Dr Bean was a man."
+	, "Dr Bean wasn't a woman."
+	, "Dr Bean wasn't a woman."
+	, "Dr Bean wasn't an adventurer."
+	, "Dr Bean was ambitious."
+	, "Dr Bean wasn't stressful."
 	]
 
 pressure_test = [
 	"The team put pressure on the team.",
 	"A team didn't put pressure on a team.",
-	"The team put pressure on Steve Fossett.",
-	"The team didn't put pressure on Steve Fossett.",
-	"Steve Fossett put pressure on the team.",
-	"Steve Fossett didn't put pressure on the team.",
-	"Steve Fossett didn't put pressure on a team.",
-	"Steve Fossett put pressure on Ellen MacArthur.",
-	"Steve Fossett didn't put pressure on Ellen MacArthur.",
-	"The team put pressure on Ellen MacArthur.",
-	"The team didn't put pressure on Ellen MacArthur.",
-	"Ellen MacArthur put pressure on the team.",
-	"Ellen MacArthur didn't put pressure on the team.",
-	"Ellen MacArthur put pressure on Ellen MacArthur."
+	"The team put pressure on Dr Bean.",
+	"The team didn't put pressure on Dr Bean.",
+	"Dr Bean put pressure on the team.",
+	"Dr Bean didn't put pressure on the team.",
+	"Dr Bean didn't put pressure on a team.",
+	"Dr Bean put pressure on Dr Bean.",
+	"Dr Bean didn't put pressure on Dr Bean.",
+	"The team put pressure on Dr Bean.",
+	"The team didn't put pressure on Dr Bean.",
+	"Dr Bean put pressure on the team.",
+	"Dr Bean didn't put pressure on the team.",
+	"Dr Bean put pressure on Dr Bean."
 	]
 
 sail_test = [
-	"Steve Fossett sailed around the world.",
-	"The world sailed around Steve Fossett.",
+	"Dr Bean sailed around the world.",
+	"The world sailed around Dr Bean.",
 	"A man sailed around the world.",
-	"Ellen MacArthur sailed around the world.",
+	"Dr Bean sailed around the world.",
 	"CUSP sailed around the world.",
 	"Dr Bean sailed around the world.",
 	"Someone sailed around the world.",
-	"Steve Fossett sailed around the world in a boat.",
-	"Ellen MacArthur sailed around the world in a boat.",
+	"Dr Bean sailed around the world in a boat.",
+	"Dr Bean sailed around the world in a boat.",
 	"CUSP sailed around the world in a balloon.",
 	"Dr Bean sailed around the world in an aircraft.",
 	"Someone sailed around the world in an aircraft."
 	]
 
 mod_test = [
-	"Steve Fossett was a man who sailed around the world."
-	, "Steve Fossett was the man with a boat."
-	, "Steve Fossett was the man who sailed around the world."
-	, "Ellen MacArthur was the woman who sailed around the world."
-	, "Ellen MacArthur was the woman who had a boat."
-	, "Ellen MacArthur was the woman with the boat."
-	, "Steve Fossett was the man who felt stress."
-	, "Steve Fossett was a man who felt stress."
-	, "Steve Fossett was a man who felt stress because of lack of control."
+	"Dr Bean was a man who sailed around the world."
+	, "Dr Bean was the man with a boat."
+	, "Dr Bean was the man who sailed around the world."
+	, "Dr Bean was the woman who sailed around the world."
+	, "Dr Bean was the woman who had a boat."
+	, "Dr Bean was the woman with the boat."
+	, "Dr Bean was the man who felt stress."
+	, "Dr Bean was a man who felt stress."
+	, "Dr Bean was a man who felt stress because of lack of control."
 	]
 
 possessives = [
-	"Dr Bean's team helped Ellen MacArthur."
-	, "Did Ellen MacArthur's team talk to Steve Fossett?"
-	, "Did the team of Ellen MacArthur talk to Steve Fossett?"
-	, "Ellen MacArthur's stress talked to the team."
-	-- , "Ellen MacArthur's team caused Dr Bean's stress"
-	, "Did Dr Bean's stress cause stress to Steve Fossett's team?"
-	, "Did Dr Bean's stress cause stress to Steve Fossett's team?"
-	, "Ellen MacArthur was an adventurer."
-	, "Ellen MacArthur was ambitious."
+	"Dr Bean's team helped Dr Bean."
+	, "Did Dr Bean's team talk to Dr Bean?"
+	, "Did the team of Dr Bean talk to Dr Bean?"
+	, "Dr Bean's stress talked to the team."
+	-- , "Dr Bean's team caused Dr Bean's stress"
+	, "Did Dr Bean's stress cause stress to Dr Bean's team?"
+	, "Did Dr Bean's stress cause stress to Dr Bean's team?"
+	, "Dr Bean was an adventurer."
+	, "Dr Bean was ambitious."
 	, "Stress was because of lack of support."
-	, "Steve Fossett's stress was because of lack of support?"
-	, "The stress of Steve Fossett was because of lack of support?"
-	, "Was the stress of Steve Fossett because of lack of support?"
+	, "Dr Bean's stress was because of lack of support?"
+	, "The stress of Dr Bean was because of lack of support?"
+	, "Was the stress of Dr Bean because of lack of support?"
 	, "Was the stress of the ambitious women because of lack of support?"
 	, "Was the stress of Dr Bean because of lack of support?"
-	, "Was the team of Ellen MacArthur because of lack of support?"
-	, "Was the team of Steve Fossett because of lack of support?"
-	, "Did the team of Ellen MacArthur talk to Steve Fossett?"
-	, "Did someone talk to Steve Fossett?"
+	, "Was the team of Dr Bean because of lack of support?"
+	, "Was the team of Dr Bean because of lack of support?"
+	, "Did the team of Dr Bean talk to Dr Bean?"
+	, "Did someone talk to Dr Bean?"
 	]
 
 talks = [
-	"Did Steve Fossett talk to Dr Bean?"
-	, "Someone talked to Ellen MacArthur."
-	, "A team talked to Ellen MacArthur."
-	, "The team of Ellen MacArthur talked to Ellen MacArthur."
-	, "A team of Ellen MacArthur talked to Ellen MacArthur."
-	, "The team of Ellen MacArthur talked to Steve Fossett."
-	, "Did the stress of Ellen MacArthur talk to Dr Bean?"
-	, "Did a stress of Ellen MacArthur talk to Dr Bean?"
-	-- , "Did the stress of Steve Fossett talk to Ellen MacArthur's team?"
+	"Did Dr Bean talk to Dr Bean?"
+	, "Someone talked to Dr Bean."
+	, "A team talked to Dr Bean."
+	, "The team of Dr Bean talked to Dr Bean."
+	, "A team of Dr Bean talked to Dr Bean."
+	, "The team of Dr Bean talked to Dr Bean."
+	, "Did the stress of Dr Bean talk to Dr Bean?"
+	, "Did a stress of Dr Bean talk to Dr Bean?"
+	-- , "Did the stress of Dr Bean talk to Dr Bean's team?"
 	]
 
 fly_test = [
-	"Did Steve Fossett fly around the world.",
-	"Didn't Steve Fossett fly around the world.",
-	"Steve Fossett flew around the world.",
-	"Ellen MacArthur flew around the world.",
+	"Did Dr Bean fly around the world.",
+	"Didn't Dr Bean fly around the world.",
+	"Dr Bean flew around the world.",
+	"Dr Bean flew around the world.",
 	"CUSP flew around the world.",
 	"Dr Bean flew around the world.",
 	"Someone flew around the world.",
-	"Steve Fossett flew around the world in a balloon.",
-	"Steve Fossett flew around the world in a plane.",
-	"Ellen MacArthur flew around the world in a boat.",
+	"Dr Bean flew around the world in a balloon.",
+	"Dr Bean flew around the world in a plane.",
+	"Dr Bean flew around the world in a boat.",
 	"CUSP flew around the world in a balloon.",
 	"Dr Bean flew around the world in a plane.",
 	"Dr Bean flew around the world in a balloon.",
@@ -168,190 +168,247 @@ fly_test = [
 	]
 
 stress_test = [
-	"Steve Fossett felt stress"
-	, "Ellen MacArthur felt stress"
+	"Dr Bean felt stress"
 	, "Dr Bean felt stress"
-	, "Steve Fossett felt stress because of lack of control."
-	, "Steve Fossett felt stress because of uncertainty."
-	, "Steve Fossett felt stress because of lack of support."
-	, "Steve Fossett felt stress because of pressure."
-	, "Ellen MacArthur felt stress because of lack of control."
-	, "Ellen MacArthur felt stress because of uncertainty."
-	, "Ellen MacArthur felt stress because of lack of support."
-	, "Ellen MacArthur felt stress because of pressure."
-	, "Lack of control caused stress to Ellen MacArthur."
-	, "Uncertainty caused stress to Ellen MacArthur."
-	, "Lack of support caused stress to Ellen MacArthur."
-	, "Pressure caused stress to Ellen MacArthur."
+	, "Dr Bean felt stress"
+	, "Dr Bean felt stress because of lack of control."
+	, "Dr Bean felt stress because of uncertainty."
+	, "Dr Bean felt stress because of lack of support."
+	, "Dr Bean felt stress because of pressure."
+	, "Dr Bean felt stress because of lack of control."
+	, "Dr Bean felt stress because of uncertainty."
+	, "Dr Bean felt stress because of lack of support."
+	, "Dr Bean felt stress because of pressure."
+	, "Lack of control caused stress to Dr Bean."
+	, "Uncertainty caused stress to Dr Bean."
+	, "Lack of support caused stress to Dr Bean."
+	, "Pressure caused stress to Dr Bean."
+	]
+
+clothes = [
+	"What do you think about Ian's pants?"
+	, "Ian's jacket is quite fasion, isn't it?"
+	, "How often do you buy new coat?"
+	, "Do you have budget when you buy new shoes?"
+	, "She bought this shirt because it looked good on her, didn't she?"
+	, "Why did she buy this shirt in that shop?"
+	, "Where did you buy your red T-shirt?"
+	, "His jaket is great and cheap, isn't it?"
+	, "Where did you buy this coat?"
+	, "Where can we see uniqlo's shop?"
+	, "Does uniqlo's clothes cost low prices?"
+	, "Where can we see uniqlo's advertising?"
+	, "Japanese clothes are cute, aren't they?"
+	, "Why do you like to eat sandwitch for breakfast?"
+	, "Do you wear a skirt in summer?"
+	, "Sandy indulges in buying on the net, doesn't she ?"
+	, "Why does Sandy like to wear Korean clothes?"
+	, "Sandy buys clothes from Korea, doesn't she?"
+	, "What kinds of food does Sandy like?"
+	, "Why does Aslyn buy new clothes so often?"
+	, "You bought your clothes by your own money, didn't you?"
+	, "Why uniqlo so cheap?"
+	, "You usually buy new clothes, don't you?"
+	, "What kinds of clothes do you buy?"
+	, "Do you usually go to uniqlo to buy clothes?"
+	, "How often go you go t uniqlo?"
+	, "Why do you want to buy clothes in Zara?"
+	, "What is different between Zara and uniqlo ?"
+	, "When did you buy this shirt in Zara?"
+	, "This pants are very cheap, isn't it ?"
+	, "Where is Zara's company ?"
+	, "Is uniqlo bound of Zara ?"
+	, "Girls like clothes in Zara, don't they ?"
+	, "Why can uniqlo be develop from Japan to Taiwan ?"
+	, "Why uniqlo is so popular ?"
+	, "Has Banana buy uniqlo's clothes ?"
+	, "Do you like Zara's clothes ?"
+	, "Do you prefer to wear suit or T-shirt ?"
+	, "What kind of clothes do you like ?"
+	, "How much did you buy it ?"
+	, "You have Zara's clothes, don't you ?"
+	, "Where did you buy your jacket ?"
+	, "Your clothes are expensive, aren't they ?"
+	, "How much did you spend when you go shopping?"
+
+	, "What clothes style do you like to buy?"
+	, "Do you like  shipping in outlet?"
+	, "Where do you buy these clothes?"
+	, "You like those clothes,don`t you?"
+	, "When do you buy this T-shirt?"
+	, "Where do you buy these clothes?"
+	, "You like this clothes,don`t you?"
+	, "What do those T-shirt make from?"
+	, "The coat`s style is nice,isn`t it?"
+	, "What kind of skirt do you like?"
+	, "You like to shop on eBay,don`t you?"
+	, "Who bought this cellphone for you?"
+	, "Did you buy the computer ?"
+	, "When did you buy this watch?"
+	, "You bought book yesterday, didn`t you?"
+	, "Where did you buy the pencilbox?"
+	, "How often do you shop on the internet?"
+	, "Do you like shopping online?"
+
+	, "Do you like shopping online?"
+	, "You will buy clothes for your family , won`t you?"
+	, "Why do you buy those clothes?"
+	, "Do you like to buy cheap products?"
+	, "What kind of clothes do you like?"
+	, "You like black shirt , don`t you?"
+	, "Peter`s T-shirt is cheap, isn`t?"
+	, "Why did Peter buy this T-shirt?"
+	, "Do you like colorful shirt?"
+	, "Zara`s clothes are expensive , aren`t they?"
+	, "You like your T-shirt, don`t you?"
+	, "What is your T-shirt`s color?"
+	, "Is Alice`s T-shirt cheaper than Amy`s?"
+	, "Where do you buy this book?"
+	, "Why were you buy the cloth ?"
+	, "The clothes is cheap or not?"
+	, "Why did you buy the jacket?"
+	, "Did you like your jacket you buy?"
+	, "How much is it?"
+	, "Do you have any other size of this T-shirt?"
+
+	, "Where did you buy the jacket?"
+	, "Do you like your jacket?"
+	, "Are those designer jeans?"
+	, "Where do you buy your clothes?"
+	, "Do you know the brand of the jackey?"
+	, "Where did you buy the pants?"
+	, "What color of the clothes will you buy?"
+	, "How often do you buy T-Shirts?"
+	, "Do you like my coat?"
+	, "What's this shirt size?"
+	, "What size is your clothes?"
+	, "Do you want this cloth?"
+	, "Do you like to wash your pants?"
+	, "Where do you buy your jeans?"
+	, "Why do you choose this color?"
+	, "Do you like to wash your jacket?"
+	, "Which clothes do you like, cheap or expensive?"
+	, "Do you like low price clothes?"
+	, "Where did you buy your jeans?"
+	, "Do you like my shirt?"
+	, "What do you think of Leo's pants?"
+	, "Do you like my pants?"
+	, "What do you think about my new shoes?"
+	, "Do you like my jacket?"
+	, "Why did you buy it?"
+	, "Do you like my pants?"
+	, "Where did you buy the pants?"
+	, "Do you like my shoes?"
+	, "Why you buy the T-Shirt?"
+	, "Do you like your jacket?"
+	, "Your jacket is very cheap, isn't it?"
+	, "Is the T-shirt on sale?"
+	, "Where did you buy the T-shirt?"
+	, "What color clothes do you prefer?"
+	, "Do you like my T-shirts color?"
+	, "Where did you buy your socks?"
+	, "What kind of T-Shirts do you like?"
+
+
+	]
+
+food = [
+	"What did you usually buy the breakfast?"
+	, "Where do you like to buy your supplies?"
+	, "When did you eat the breakfast?"
+	, "Where did you buy the breakfast?"
+	, "Do you eat breakfast everyday?"
+	, "What do you consider to when you buy breakfast?"
+	, "Did you eat breakfast today?"
+	, "Why did you eat breakfast today?"
+	, "Do you think that sandwich is healthy?"
+	, "How much did you pay on breakfast?"
+	, "Do you think breakfast is good for health?"
+	, "What kind of breakfast did you buy?"
+	, "How often did you eat breakfast ?"
+	, "Yow ate breakfast this morning, didn't you ?"
+	, "What ingredients in your breakfast?"
+	, "Do you want to eat breakfast with Yuda ?"
+	, "Where did you eat your breakfast ?"
+	, "How did you eat your breakfast ?"
+	, "Did you eat +breakfast with your friends ?"
+	, "What time did you eat breakfast ?"
+	, "Do you think that eating breakfast is healthy ?"
+	, "How did you know the new product at breakfast shop?"
+	, "Do you like breakfast?"
+	, "Where did you usually eat breakfast, in the shop or take out?"
 	]
 
 wh_test = [
-	"Who sailed around the world?"
-	, "Who was a man who flew in a balloon."
-	, "Who sailed a boat around the world."
-	, "Who flew a glider."
-
-	, "How do you release your stress?"
-	, "What can reduce your stress?"
-	, "What is Ellen's career?"
-	, "How many records did Steve Fossett set?"
-	, "What is situation ehen Steve Fossett fly?"
-	, "What kind of situation make Ellen Arthur have stress in her sailing time?"
-	, "What can reduce your stress?"
-	, "How many times does Steve traveling around the world?"
-	, "How many times did she spend to successfully sail around the world?"
-	, "How many people sail with Ellen?"
-	, "What's Steve stressform?"
-	, "How much stress do you have?"
-
-	, "How old was he scaled his first mountain?"
-	, "Was Steve the first person to fly solo nonstop around the world in a balloon?"
-	, "Was Steve Fossett born in Jackson?"
-	, "How did he make his fortune? "
-	, "What was Fossett's first job?"
-	, "What does Steve Fossett's first job out of business school?"
-	, "Who was the first person to fly solo nonstop around the world in a balloon?"
-	, "Was Steve Fossett an American businessman?"
-	, "What makes you feel stressful?"
-	, "How many records did Steve set in five different sports?"
-	, "Who is Steve Fossett?"
-	, "How many records did Fossett set in five differents sports?"
-	, "How many years old was Steve Fossett?"
-
-	, "What about people's stress?"
-	, "who feels more stress,Susu or Angela?"
-	, "How do you release your stress?"
-	, "When do you feel stress?"
- 	, "Who felt more stress , Leo or Cathy ?"
-	, "Why Lisa with more supports was more stressful ?"
-	, "Who felt more stress , Ben or Danny ?"
-	, "Who felt more stress , Frank or Wei ?"
-	, "Who felt more stress , Eric or Leo ?"
-	, "Which person felt more stress , Dent or Alien ?"
-	, "What will you do when you haven't any support?"
-	, "What situation will make you feel stressful ?"
-	, "Who felt more stress , Bob or Chris ?"
-	, "Why did Toshe feel more stress than David , even though she had more control than David?"
-	, "Why does Tina always control others ?"
-	, "Why did Rene feel more stress than Alien , even though she had more support than Alien?"
-	, "What will you do when you under pressure ?"
-
-
-
+	"What did Dr Bean think about the rice?"
+	, "How often did Dr Bean buy rice?"
+	, "Why did he buy the rice at QuanLian?"
+	, "Where did buy the rice?"
+	, "Where can we buy rice?"
+	, "Where can we see QuanLian's promotion?"
+	, "Why did Dr Bean like to buy rice?"
+	, "Why did Dr Bean like to buy QuanLian's rice?"
+	, "What kinds of rice did Dr Bean like?"
+	, "What kinds of rice did Dr Bean buy?"
+	, "Why did Dr Bean buy rice so often?"
+	, "Why was QuanLian's rice so cheap?"
+	, "How often did Dr Bean go to QuanLian?"
+	, "Why did Dr Bean want to buy rice from QuanLian?"
+	, "What is the difference between QuanLian and QuanJiaFu?"
+	, "When did Dr Bean buy the rice from QuanLian?"
+	, "Where is QuanLian?"
+	, "Why is rice so popular?"
+	, "How much rice did Dr Bean buy?"
+	, "Where did Dr Bean buy his rice?"
+	, "How much did Dr Bean spend, shopping?"
+	, "What shoes did Dr Bean buy?"
+	, "Where did Dr Bean like to buy his shoes?"
+	, "When did Dr Bean buy shoes?"
+	, "Where did Dr Bean buy shoes?"
+	, "What did Dr Bean consider when he buys shoes?"
+	, "Why did Dr Bean buy shoes today?"
+	, "How much did Dr Bean pay for his shoes?"
+	, "What kind of oil did Dr Bean buy?"
+	, "How often did Dr Bean buy oil ?"
+	, "What ingredients in Dr Beanr breakfast?"
+	, "Where did Dr Bean buy his oil?"
+	, "How did Dr Bean buy oil?"
+	, "What time did Dr Bean buy oil?"
+	, "How did Dr Bean know about the oil at QuanLian?"
+	, "Where did Dr Bean buy oil, at QuanLian or QuanJiaFu?"
 	]
 
+
 yn_test = [
-	"Does stress make people feel like sick?"
-	, "Is he the person who traveling around the world in a balloon?"
-	, "Can Steve Fossett control his stress?"
-	, "Did Ellen MacArthur break any global record?"
-	, "Did she successfully sail around the world?"
-	, "Do you feel stressful when you face obstacles?"
-	, "Did he make fortune in financial services industry?"
-	, "Is Dame Ellen best known as a solo long-distance?"
-	, "Was Steve Fossett an adventurer?"
-	, "Did Steve sail sea?"
-	, "Did stress need to exist?"
-	, "Did Ellen MacArthur sail around the world?"
-
-	, "Did James Stephen Fossett was he born 1944?"
-	, "Was Steve the first person to fly solo nonstop around the world in a balloon?"
-	, "Was Steve Fossett born in Jackson?"
-	, "Was he a sailor?"
-	, "Was Fossett married to Peggy Fosset?"
-	, "Was Fossett best known for many world records?"
-	, "Did Steve fly solo nonstop in a balloon?"
-	, "Was Steve the first person to fly solo around the world in a balloon?"
-	, "Was Steve Fossett a American businessman?"
-	, "Did you think speeding English is stressful?"
-	, "Did Steve fly around the world the world with supports?"
-	, "Is Steve Fossett the first person to fly solo nonstop around the world in a balloon?"
-	, "Was Fossett declared legally dead on February 15, 2008?"
-	, "Was Fossett reported missing after the plane he was flying over the Nevada desert failed to return?"
-	, "Did Fossett set 116 records in five different sports?"
-
-	, "Do you feel stress when you are late for school?"
-	, "Does watching a horror movie make you feel stress?"
-	, "Do you feel stressful if you stuck in a traffic jam?"
-	, "Did you feel more stress in playing basketball than tennis?"
-	, "Did you have stress when you have to say 'I love you' to your parents?"
-	, "Did you feel stressful when you have a test in math?"
-	, "Do you think stress is good or bad?"
-	, "Did people feel much stress when they met with a car accident?"
-	, "Do you feel stress when you talk to Dr,Bean?"
-	, "Did you feel much stress when the exam's coming?"
-	, "Did you feel stress in Dr.Bean's class?"
-	, "Did James have more stress?"
-	, "Did you have more support?"
-	, "Did Eric have more support when he feel more stress?"
-	, "Did you have lack support?"
-	, "Did Rene have more support than Alien?"
-	, "Does uncertainty make you feel more pressure?"
-	, "Did Chris have more stress?"
-	, "Did Tina have more support?"
-	, "Did David have more stress?"
-	, "Does the situation always out of control?"
-	, "Did you have more stress?"
-	, "Do you feel attending this English class give you a lot of pressure?"
-	, "Did Abby feel pressure after her boss blame her?"
-	, "Did Leo have more support?"
-
+	"Did Dr Bean have money to buy rice?"
+	, "Did Dr Bean buy rice at QuanLian?"
+	, "Did Dr Bean go to QuanLian to buy rice?"
+	, "Did Dr Bean buy QuanLian's rice?"
+	, "Did Dr Bean like QuanLian's rice?"
+	, "Do you prefer to buy rice or milk?"
+	, "Did Dr Bean buy shoes everyday?"
+	, "Did Dr Bean buy shoes today?"
+	, "Did Dr Bean think that buying shoes is good?"
+	, "Did Dr Bean think that oil is good for health?"
+	, "Did Dr Bean want to buy oil at QuanLian?"
+	, "Did Dr Bean buy oil with his friends?"
+	, "Do Dr Bean think that eating oil is healthy ?"
+	, "Did Dr Bean like oil?"
 	]
 
 tag_test = [
-	"Steve Fossett sailed around the world. He was an adventurer, wasn't he."
-	, "Dr Bean didn't fly around the world in a balloon, did he?"
-	, "Uncertainty was stressful, wasn't it."
-	, "The team didn't put pressure on Steve Fossett, did it."
-	, "Steve Fossett sailed around the world, didn't he."
-	, "A man sailed around the world, didn't he."
-	, "A man sailed around the world, didn't she."
-	, "Ellen MacArthur flew around the world, didn't she."
-	, "Steve Fossett felt stress because of lack of control, didn't he."
-	, "Ellen MacArthur was the woman who sailed around the world, wasn't she."
-
-	, "Taking the exam is stressful ,isn't it? "
-	, "An interview makes you feel stress,doesn't it? "
-	, "Steve was an American Businessman,wasn't he? "
-	, "Ellen Rather broke the world record for the fastest solo circumnavigation of the global, didn't she? "
-	, "He became the first person to fly around the world alone,isn't he? "
-	, "Does Steve like fly,does he? "
-	, "Fossett flew solo nonstop around the world in a balloon,didn't he? "
-	, "Ellen MacArthur sailed around the world ,didn't she? "
-	, "Ellen is a best known as a solo long-distance yacht woman,isn't she? "
-	, "Fossett set 116record in five different sports,doesn't he? "
-	, "He was the first person to fly solo nonstop around the world in a balloon ,wasn't he? "
-	, "Fossett became a successful salesman in 1973,didn't he?"
-
-	, "Did he scaled his mountain in 12 years old?"
-	, "Fossett was one of the world’s most accomplished sailors, wasn’t he?"
-	, "Fossett was born in Jackson, wasn’t he?"
-	, "He was adventurer, wasn’t he?"
-	, "Did Fossett set the Absolute World Speed Record for airship on October 27, 2004, didn’t it?"
-	, "Steve Fossett was first to fly around the world in balloon, wasn’t he?"
-	, "Steve was an American business, wasn’t he?"
-	, "Ellen was named “Sailing Young Hope” in France, wasn’t she?"
-	, "Fossett was graduated from Stanford with the degree in economics, didn’t he?"
-	, "Being a worker is more stressful than being a student, isn’t it?"
-	, "Steve passed away in a plane crash, didn’t him?"
-	, "Fossett was born in Jackson.Tennessee, wasn’t he?"
-	, "Fossett see 166 record in five different sports, didn’t he?"
-	, "Fossett was the first person to fly solo nonstop around the world in the balloon, wasn’t he?"
-	, "Ellen MacArthur broke the world record for the fastest solo circumnavigation of the globe on 7 February 2005, didn’t she?"
-
-	, "B felt more stressful than A, didn't B?"
-	, "Watching a movie is a relaxing thing, isn't is?"
-	, "More control made Banana feel more stress, didn't it?"
-	, "Emily has stress on her job, doesn't she?"
-	, "The pressure is under my control, isn't it?"
-	, "It's stressful to raise a child, isn't it?"
-	, "Jophiel was stressful for money, wasn't he?"
-	, "It's stressful to do your homework, isn't it?"
-	, "Manage a team is more stressful than answer a question, isn't it?"
-	, "Teachers put more pressure on students, didn't they?"
-	, "Stress cause from internal feeling, doesn't it?"
-	, "Chossing the question by yourself is more stressful, isn't it?"
-	, "You are nervous when you feel stressful, aren't you?"
-	, "Some stress is sometimes good for us, isn't it?"
+	"The rice is quite good, isn't it?"
+	, "He bought the rice because it was cheap, didn't he?"
+	, "His rice was good and cheap, wasn't it?"
+	, "QuanLian's rice is cheap, isn't it?"
+	, "Dr Bean likes to buy rice, didn't he?"
+	, "Dr Bean buys rice from QuanLian, didn't he?"
+	, "Dr Bean bought rice with his own money, didn't he?"
+	, "Dr Bean buys old rice, didn't he?"
+	, "The rice is very cheap, isn't it?"
+	, "Everyone likes rice from QuanLian, don't they?"
+	, "Dr Bean has QuanLian's rice, didn't he?"
+	, "Dr Bean's rice is cheap, isn't it?"
+	, "Dr Bean bought oil this week, didn't he ?"
 	]
 
