@@ -174,9 +174,6 @@ services    = []
 
 wanted = predid4 "looking"
 
-offered_to_buy_from :: FourPlacePred
-offered_to_buy_from	= pred4 []
-
 possessions	= [(T,Y),(Q,O),(F,B),(T,S),(J,S),(T,M),(Q,M),(T,E),(Unspec,E),(T,R),(Q,R)]
 
 
