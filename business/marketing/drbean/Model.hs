@@ -121,7 +121,7 @@ pred5 xs	= curry5 ( `elem` xs )
 
 twoPlacers :: [(String, TwoPlacePred)]
 twoPlacers = [
-    ("know",	pred2 $ acquainted ++ map swap acquainted)
+    ("know",	pred2 $ knowledge ++ acquaintances ++ map swap acquaintances)
     , ("have",	pred2 $ possessions ++ leadership ++ features ++
 	map (\(a,t,r) -> (r,t) ) reactions )
     , ("help",	pred2 [])
@@ -189,9 +189,8 @@ have	= pred2 $ possessions ++ support
 		++ ( map (\x->(agent x,J) ) working )
 		++ ( map (\x->(agent x, patient x) ) recruitment )
 		++ ( map (\x->(agent x, location x) ) recruitment )
-knowledge	= []
+knowledge	= [(T,Q),(T,J),(T,F)]
 acquaintances	= []
-know	= pred2 $ knowledge ++ acquaintances ++ map swap acquaintances
 appreciate	= pred2 appreciation
 -- visit	= pred2 $ map (\x -> (patient x, recipient x) ) recruitment
 interview	= pred2 $ map (\x -> (agent x, patient x) ) recruitment
@@ -244,12 +243,6 @@ result4	= recipient4
 
 
 fivePlacers = [
-	("sailed", pred5 $ foldl (\ss (a,d,s1,s2) ->
-	    (a,d,s1,s2,Y) : (a,Y,d,s1,s2) : (a,d,Y,s1,s2) : ss ) [] sailing)
-	, ("flew", pred5 $ foldl (\ss (a,d,s1,s2) ->
-	    (a,d,s1,s2,P) : (a,P,d,s1,s2) : (a,d,P,s1,s2) : ss ) [] plane_flights
-			++ foldl (\ss (a,d,s1,s2) ->
-	    (a,d,s1,s2,B) : (a,B,d,s1,s2) : (a,d,B,s1,s2) : ss ) [] ballooning)
 	]
 
 
