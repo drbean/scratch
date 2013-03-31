@@ -11,12 +11,15 @@ names = [
 	]
 
 nouns = [
-	[Cat "shoes"	"NP" [Thrd,Neutr,Pl] []]
-	, [Cat "oil"	"NP" [Thrd,Neutr,Sg] []]
-	, [Cat "milk"	"NP" [Thrd,Neutr,Sg] []]
-	, [Cat "bananas"	"NP" [Thrd,Neutr,Pl] []]
-	, [Cat "eggs"	"NP" [Thrd,Neutr,Pl] []]
-	, [Cat "rice"	"NP" [Thrd,Neutr,Sg] []]
+	[Cat "shoes"	"CN" [Thrd,Neutr,Pl] []]
+	, [Cat "oil"	"NP" [Thrd,Neutr,Sg] [],
+		Cat "oil"	"CN" [Thrd,Neutr,Sg] []]
+	, [Cat "milk"	"NP" [Thrd,Neutr,Sg] [],
+		Cat "milk"	"CN" [Thrd,Neutr,Sg] []]
+	, [Cat "bananas"	"CN" [Thrd,Neutr,Pl] []]
+	, [Cat "eggs"	"CN" [Thrd,Neutr,Pl] []]
+	, [Cat "rice"	"NP" [Thrd,Neutr,Sg] [],
+		Cat "rice"	"CN" [Thrd,Neutr,Sg] []]
 
 	, [Cat "experiment"	"CN" [Thrd,Neutr,Sg] []]
 	, [Cat "good_idea"	"CN" [Thrd,Neutr,Sg] []]
@@ -49,22 +52,28 @@ verbs = [
 	[Cat "promote"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
 		Cat "promote"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [On] []]],
+	[Cat "liked"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
+		Cat "liked"	"VP" [Tense] [Cat "_" "PP" [From] []],
+		Cat "liked"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [From] []]],
+	[Cat "like"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
+		Cat "like"	"VP" [Infl] [Cat "_" "PP" [From] []],
+		Cat "like"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [From] []]],
 	[Cat "bought"	"VP" [Tense] [],
 		Cat "bought"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
 		Cat "bought"	"VP" [Tense] [Cat "_" "PP" [From] []],
 		Cat "bought"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [From] []],
 		Cat "bought"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [On] [],
-						Cat "_" "PP" [From] []]],
+						Cat "_" "PP" [At] []]],
 	[Cat "buy"	"VP" [Infl] [],
 		Cat "buy"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] []],
 		Cat "buy"	"VP" [Infl] [ Cat "_" "PP" [From] []],
 		Cat "buy"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [From] []],
 		Cat "buy"	"VP" [Infl] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [On] [],
-						Cat "_" "PP" [From] []]],
+						Cat "_" "PP" [At] []]],
 	[Cat "sold"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] []],
 		Cat "sold"	"VP" [Tense] [Cat "_" "PP" [To] []],
 		Cat "sold"	"VP" [Tense] [Cat "_" "NP" [AccOrDat] [],
