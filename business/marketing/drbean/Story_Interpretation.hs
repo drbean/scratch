@@ -6,35 +6,13 @@ objects :: [(String, [Entity] -> Bool)]
 objects = [
 	 ( "good_idea",	\[x] -> predid1 "good_idea" x	)
 	 , ( "a_good_price",	\[x] -> predid1 "a_good_price" x	)
-	( "adventurer",	\[x]	-> predid1 "adventurer" x )
 	, ( "teacher",	\[x]	-> predid1 "teacher" x )
-	, ( "team",	\[x]	-> predid1 "team" x )
-
-	, ( "lack_of_control",	\[x] -> predid1 "lack_of_control" x )
-	, ( "uncertainty",	\[x] -> predid1 "uncertainty" x )
-	, ( "lack_of_support",	\[x] -> predid1 "lack_of_support" x )
-	, ( "pressure",	\[x] -> predid1 "pressure" x )
-	, ( "stress",	\[x] -> predid1 "stress" x )
-	, ( "stressful",	\[x] -> predid1 "stressful" x )
-
-	, ( "world",	\[x] -> predid1 "world" x )
-	, ( "plane",	\[x] -> predid1 "plane" x )
-	, ( "boat",	\[x] -> predid1 "boat" x )
-	, ( "glider",	\[x] -> predid1 "glider" x )
-	, ( "balloon",	\[x] -> predid1 "balloon" x )
-	, ( "aircraft",	\[x] -> predid1 "aircraft" x )
 
 	]
 
 inflections :: [(String, String)]
 inflections = [
- ( "adventurers", "adventurer" )
- , ( "cause_stress", "caused_stress" )
- , ( "feel_stress", "felt_stress" )
- , ( "sail", "sailed" )
- , ( "fly", "flew" )
- , ( "powered_aircraft", "plane" )
- , ( "offer_to_buy", "offered_to_buy" )
+ ( "offer_to_buy", "offered_to_buy" )
  , ( "bought", "buy" )
  , ( "want_to_pay", "wanted_to_pay" )
  , ( "sold", "sell" )
