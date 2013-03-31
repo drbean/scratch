@@ -141,6 +141,7 @@ threePlacers = [
     , ("ask_about",	pred3 $ map (\x->(agent x, recipient x, theme x) ) comms)
     , ("talk_with_about",	pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
 			    ++ comms)
+    , ("have_to_buy",	have_to_buy )
     , ("told",	pred3 comms)
     ]
 
@@ -164,8 +165,10 @@ fourPlacers = [
 -- (agent,theme,result,aim)
 makings	= []
 features	= []
-looking	= [(T,R,Q,C),(T,B,F,C),(T,S,F,L),(T,M,Q,Unspec),(T,E,Unspec,A),(T,O,Q,Unspec)]
+looking	= [(T,R,Q,C),(T,B,F,C),(T,S,J,L),(T,M,Q,Unspec),(T,E,Unspec,A),(T,O,Q,Unspec)]
 purchases	= [(T,R,Q,C),(T,B,F,C),(T,S,J,L),(T,M,Q,Unspec),(T,E,Unspec,A)]
+non_purchases = looking \\ purchases
+have_to_buy = pred3 $ map (\(a,t,_,_) -> (a,Y,t) ) $ ( filter (\(a,t,r,_) -> t /= C) non_purchases ) ++ purchases
 services    = []
 
 wanted = predid4 "looking"
