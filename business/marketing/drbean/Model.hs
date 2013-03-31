@@ -85,6 +85,7 @@ onePlacers = [
 
 	, ("good",	pred1 [S,M,B,E,R] )
 	, ("bad",	pred1 [O] )
+	, ("old",	pred1 [R] )
 
 	, ("world",	pred1 [W] )
 	, ("non-stop",	pred1 [N] )
@@ -123,6 +124,7 @@ twoPlacers :: [(String, TwoPlacePred)]
 twoPlacers = [
     ("know",	pred2 $ knowledge ++ acquaintances ++ map swap acquaintances)
     , ("have",	pred2 $ possessions ++ features )
+    , ("like",	pred2 appreciation )
     , ("help",	pred2 [])
     , ("go",	pred2 $ map (\(a,_,l,_) -> (a,l) ) looking )
     , ("said",	pred2 $ map (\x->(agent x, theme x) ) comms)
@@ -176,9 +178,10 @@ wanted = predid4 "looking"
 
 possessions	= [(T,Y),(Q,O),(F,B),(T,S),(J,S),(T,M),(Q,M),(T,E),(Unspec,E),(T,R),(Q,R)]
 
-
+appreciation	= [(T,S),(T,M),(T,B),(T,E),(T,R)]
 knowledge	= [(T,Q),(T,J),(T,F)]
 acquaintances	= []
+comms	= [ (Someone,Y,F),(Someone,B,F),(Someone,P,F),(Someone,Y,M) ]
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
@@ -197,7 +200,6 @@ instrument = recipient
 origin	= theme
 destination = recipient
 
-comms	= [ (Someone,Y,F),(Someone,B,F),(Someone,P,F),(Someone,Y,M) ]
 acceptances = []
 -- (seller, item, buyer)
 selling	= []
