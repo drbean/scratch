@@ -138,7 +138,6 @@ threePlacers = [
     , ("make",	pred3 $
 	    foldl (\ms (a,t,r,_) -> (a,t,r):(a,r,t):ms ) [] makings)
     , ("gave",	pred3 giving)
-    , ("got",	pred3 $ map (\x -> (recipient x, patient x, agent x) ) giving)
     , ("ask_about",	pred3 $ map (\x->(agent x, recipient x, theme x) ) comms)
     , ("talk_with_about",	pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
 			    ++ comms)
