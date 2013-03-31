@@ -178,7 +178,6 @@ possessions	= [(T,Y)]
 
 knowledge	= [(T,Q),(T,J),(T,F)]
 acquaintances	= []
-appreciate	= pred2 appreciation
 -- visit	= pred2 $ map (\x -> (patient x, recipient x) ) recruitment
 interview	= pred2 $ map (\x -> (agent x, patient x) ) recruitment
 -- greet	= interview
