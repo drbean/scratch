@@ -7,6 +7,14 @@ objects = [
 	 ( "good_idea",	\[x] -> predid1 "good_idea" x	)
 	 , ( "a_good_price",	\[x] -> predid1 "a_good_price" x	)
 	, ( "teacher",	\[x]	-> predid1 "teacher" x )
+	, ( "shoes",	\[x]	-> predid1 "shoes" x	)
+	, ( "oil",	\[x]	-> predid1 "oil" x	)
+	, ( "milk",	\[x]	-> predid1 "milk" x	)
+	, ( "bananas",	\[x]	-> predid1 "bananas" x	)
+	, ( "eggs",	\[x]	-> predid1 "eggs" x	)
+	, ( "rice",	\[x]	-> predid1 "rice" x	)
+
+	, ( "money",	\[x]	-> predid1 "money" x	)
 
 	]
 
@@ -40,16 +48,17 @@ inflections = [
 relations :: [(String, [Entity] -> Bool)]
 relations = [
 	( "useful",	\[x]	-> predid1 "useful" x )
+	, ( "old",	\[x]	-> predid1 "old" x	)
 	, ( "true",	\[x] -> predid1 "true" x	)
 	, ( "false",	\[x] -> predid1 "false" x	)
 	, ( "successful",	\[x] -> predid1 "successful" x	)
 	, ( "unsuccessful",	\[x] -> predid1 "unsuccessful" x	)
 	, ( "finish",	\[x,y,z] -> predid3 "finish" z y x	)
 	, ( "pay",	\args -> case args of
-		[x,y,z,w] -> predid5 "pay" w z y x
-		[x,y,z] -> (forgetful5 . predid5) "pay" z y x
-		[x,y] -> (forgetful4 . forgetful5 . predid5) "pay" y x
-		[x] -> (forgetful3 . forgetful4 . forgetful5) "pay" x )
+		[x,y,z,w] -> predid4 "pay" w z y x
+		[x,y,z] -> (forgetful4 . predid4) "pay" z y x
+		[x,y] -> (forgetful3 . forgetful4 . predid4) "pay" y x
+		[x] -> (forgetful2 . forgetful3 . forgetful4 . predid4) "pay" x )
 	, ( "have_to_pay",	\args -> case args of
 		[x,y,z] -> predid3 "have_to_pay" z y x )
 
