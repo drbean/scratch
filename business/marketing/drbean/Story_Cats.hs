@@ -20,9 +20,12 @@ nouns = [
 	, [Cat "eggs"	"CN" [Thrd,Neutr,Pl] []]
 	, [Cat "rice"	"NP" [Thrd,Neutr,Sg] [],
 		Cat "rice"	"CN" [Thrd,Neutr,Sg] []]
+	, [Cat "fruit_store"	"CN" [Thrd,Neutr,Sg] []]
 
 	, [Cat "a_good_price"	"NP" [Thrd,Neutr,Sg] []]
 	, [Cat "money"   "NP" [Sg,Neutr,Thrd]   []]
+	, [Cat "price"	"NP" [Thrd,Neutr,Sg] []]
+
 	]
 
 verbs = [
