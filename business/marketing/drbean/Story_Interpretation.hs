@@ -13,6 +13,7 @@ objects = [
 	, ( "bananas",	\[x]	-> predid1 "bananas" x	)
 	, ( "eggs",	\[x]	-> predid1 "eggs" x	)
 	, ( "rice",	\[x]	-> predid1 "rice" x	)
+	, ( "fruit_store",	\[x]	-> predid1 "fruit_store" x	)
 
 	, ( "money",	\[x]	-> predid1 "money" x	)
 
