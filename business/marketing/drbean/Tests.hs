@@ -4,9 +4,9 @@ import LogicalForm
 import Parsing
 
 relatives = [
-	"Was Dr Bean a man who flew around the world?"
-	, "Was Dr Bean a man who flew around the world?"
-	, "Was Dr Bean the woman who was an adventurer?"
+	"Was Dr Bean a man who bought bananas?"
+	, "Was Dr Bean a man who bought oil?"
+	, "Was Dr Bean the man who sold bananas?"
 	]
 
 haves = [
@@ -20,6 +20,26 @@ haves = [
 	, "Did Dr Bean have milk?"
 	, "Did Dr Bean have some milk?"
 	, "Did Dr Bean have shoes?"
+	, "Did Quanjiafu have shoes?"
+	, "Did a fruit store have bananas?"
+	]
+
+buys_sells = [
+	"Did Dr Bean buy?"
+	, "Did Dr Bean buy from Quanlian?"
+	, "Did Dr Bean buy bananas?"
+	, "Did Dr Bean buy bananas from Quanlian?"
+	, "Did Dr Bean want to buy from Quanlian?"
+	, "Dr Bean wanted to buy bananas from Quanlian."
+	, "Dr Bean wanted to buy bananas from Quanlian because of the price."
+	, "Did Quanlian sell bananas to Dr Bean?"
+	, "Did a fruit store sell bananas to Dr Bean?"
+	, "Did Quanlian sell to Dr Bean?"
+	, "Did Quanlian sell bananas?"
+	, "Did Dr Bean sell bananas?"
+	, "Did Quanjiafu sell bananas?"
+	, "Did Quanlian sell bananas to Dr Bean because of the price?"
+	, "Did Quanjiafu sell shoes?"
 	]
 
 text_test = [
