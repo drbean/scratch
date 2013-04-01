@@ -123,7 +123,7 @@ pred5 xs	= curry5 ( `elem` xs )
 twoPlacers :: [(String, TwoPlacePred)]
 twoPlacers = [
     ("know",	pred2 $ knowledge ++ acquaintances ++ map swap acquaintances)
-    , ("have",	pred2 $ possessions ++ features )
+    , ("have",	pred2 $ possessions ++ stock ++ features )
     , ("like",	pred2 appreciation )
     , ("help",	pred2 [])
     , ("go",	pred2 $ map (\(a,_,l,_) -> (a,l) ) looking )
@@ -169,14 +169,15 @@ fourPlacers = [
 makings	= []
 features	= []
 looking	= [(T,R,Q,C),(T,B,F,C),(T,S,J,L),(T,M,Q,Unspec),(T,E,Unspec,A),(T,O,Q,Unspec)]
-purchases	= [(T,R,Q,C),(T,B,F,C),(T,S,J,L),(T,M,Q,Unspec),(T,E,Unspec,A)]
+purchases	= [(T,R,Q,C),(Unspec,B,Q,Unspec),(T,B,F,C),(T,S,J,L),(T,M,Q,Unspec),(T,E,Unspec,A)]
 non_purchases = looking \\ purchases
+stock = map ( \(_,t,p,_) -> (p,t) ) $ looking ++ purchases
 have_to_buy = pred3 $ map (\(a,t,_,_) -> (a,Y,t) ) $ ( filter (\(a,t,r,_) -> t /= C) non_purchases ) ++ purchases
 services    = []
 
 wanted = predid4 "looking"
 
-possessions	= [(T,Y),(Q,O),(F,B),(T,S),(J,S),(T,M),(Q,M),(T,E),(Unspec,E),(T,R),(Q,R)]
+possessions	= [(T,Y),(Q,O),(Q,M),(Q,B),(Q,E),(Q,R),(F,B),(T,S),(J,S),(T,M),(T,E),(Unspec,E),(T,R)]
 
 appreciation	= [(T,S),(T,M),(T,B),(T,E),(T,R)]
 knowledge	= [(T,Q),(T,J),(T,F)]
