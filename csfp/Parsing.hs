@@ -227,6 +227,8 @@ preproc ("forty-two":"years":"old":xs)	= "forty-two_years_old" : preproc xs
 
 preproc ("the":"united":"states":xs)	= "the_united_states" : preproc xs
 
+preproc ("fruit":"store":xs)	= "fruit_store" : preproc xs
+
 preproc ("dr":"bean":xs)	= "dr_bean" : preproc xs
 preproc ("steve":"fossett":xs)	= "steve_fossett" : preproc xs
 preproc ("ellen":"macarthur":xs)	= "ellen_macarthur" : preproc xs
