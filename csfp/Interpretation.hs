@@ -45,10 +45,10 @@ inflections = [
 relations = [
 
  ( "true", \[x] -> predid1 "true" x )
- , ( "had", \[x,y] -> predid2 "have" x y )
+ , ( "had", \[x,y] -> predid2 "have" y x )
  , ( "gave",	\ [x,y,z] ->	predid3 "gave" z y x )
  , ( "talked", \args -> case args of
-    [x,y,z] -> predid3 "talked_with_about" x y z
+    [x,y,z] -> predid3 "talked_with_about" z y x
     [x,y]    -> (forgetful3 . predid3) "talk_with_about" x y)
  --( "work", \args -> case args of
  --       [x] -> worker x
