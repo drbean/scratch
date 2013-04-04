@@ -105,3 +105,12 @@ topic:
           <a href="http://en.wikipedia.org/wiki/Mike_Wallace_(journalist)">Mike Wallace</a> interviews quiz kid, Leonard Ross, in 1957. Ross committed suicide when he was 40, in 1985. <a href="http://www.hrc.utexas.edu/multimedia/video/2008/wallace/ross_leonard.html">Listen</a>. Do you think Wallace is giving Ross a hard time? Ross is only 12 years old.
         comment: |
          What do you think of the <a href="http://en.wikipedia.org/w/index.php?title=Tobacco_advertising&section=23#United_States">tobacco commercial</a>? 
+  -
+    id: c-span
+    title: C-SPAN
+    intro: Broadcasts of US government proceedings
+    story:
+      -
+        id: scalia
+        title: Judge opposes televising of Supreme Court
+        blurb: |
