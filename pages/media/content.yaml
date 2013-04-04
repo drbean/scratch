@@ -78,14 +78,21 @@ topic:
         blurb: |
           Mike Wallace, a veteran interviewer known for giving interviewees a hard time on <a href="http://en.wikipedia.org/wiki/60_minutes">60 Minutes</a>, interviews O'Reilly. Wallace was more of a liberal than O'Reilly, who is a conservative. <a href="http://www.youtube.com/watch?v=BMZrLCqfWkM">Listen</a>. Decide if he likes O'Reilly or not.
         comment: |
-          Do you think he gives O'Reilly a hard time? O'Reilly liked him because he thought he gave interviewees a hard time. 
+          Do you think he gives O'Reilly a hard time? O'Reilly liked him because he thought he gave interviewees a hard time. Watch some 60 Minutes on the <a href="http://www.cbsnews.com/8301-504803_162-20016663-10391709.html">official CBS 60 Minutes web site</a>.
+      -
+        id: oreilly-wallace
+        title: Mike Wallace interviewed by O'Reilly
+        blurb: |
+          #<a href="http://en.wikipedia.org/wiki/Chris_Wallace_(journalist)">Chris Wallace</a> was <a href="http://en.wikipedia.org/wiki/Mike_Wallace_(journalist)">Mike Wallace</a>'s son but his parents divorced when he was one year old and his step father had a greater influence on him. Listen to <a href="http://www.youtube.com/watch?v=hi_Wl12TilU">the tribute</a> he paid to his father last month on his death (with excerpts from the interview he had with him in 2005).
+        comment: |
+          #Do you think he gives his father a hard time? How much is this just entertainment, rather than a real interview? Watch <a href="https://www.youtube.com/watch?v=5RCbebSq1A4">another tribute to Wallace</a> from a different TV network, showing him giving interviewees a hard time.
       -
         id: wallace
         title: Mike Wallace interviewed by son on Fox
         blurb: |
           <a href="http://en.wikipedia.org/wiki/Chris_Wallace_(journalist)">Chris Wallace</a> was <a href="http://en.wikipedia.org/wiki/Mike_Wallace_(journalist)">Mike Wallace</a>'s son but his parents divorced when he was one year old and his step father had a greater influence on him. Listen to <a href="http://www.youtube.com/watch?v=hi_Wl12TilU">the tribute</a> he paid to his father last month on his death (with excerpts from the interview he had with him in 2005).
         comment: |
-          Do you think he gives his father a hard time? How much is this just entertainment, rather than a real interview?
+          Do you think he gives his father a hard time? How much is this just entertainment, rather than a real interview? Watch <a href="https://www.youtube.com/watch?v=5RCbebSq1A4">another tribute to Wallace</a> from a different TV network, showing him giving interviewees a hard time.
   -
     id: historical
     title: Old broadcasts
