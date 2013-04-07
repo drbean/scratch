@@ -1,7 +1,7 @@
 package pingIrc;
 
 # Created: 04/07/2013 01:33:27 PM
-# Last Edit: 2013 Apr 07, 03:18:41 PM
+# Last Edit: 2013 Apr 07, 03:24:59 PM
 # $Id$
 
 =head1 NAME
@@ -34,14 +34,17 @@ my $server = "203.64.184.141";
 sub OnModCommand {
     my $self = shift;
     my $cmd = shift;
-    $self->CreateTimer( task => \&ping, interval => 10, cycles => 2, context => $server,
-	    description => "Ping Irc");
+    my $timer = $self->CreateTimer( task => 'pingIrc::task',
+	interval => 10, cycles => 2,
+	description => "Ping Irc");
+    $timer->{context} = $server;
 }
 
-sub ping {
+package pingIrc::task;
+
+sub RunJob {
     my $self = shift;
-    my %arg = @_;
-    $self->PutIRC( "PING $arg{context}" );
+    $self->GetModule->PutIRC( "PING $self->{context}" );
 }
 
 sub description { "Sends PING to IRC" }
