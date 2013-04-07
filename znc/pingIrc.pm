@@ -1,7 +1,7 @@
 package pingIrc;
 
 # Created: 04/07/2013 01:33:27 PM
-# Last Edit: 2013 Apr 07, 02:57:42 PM
+# Last Edit: 2013 Apr 07, 03:04:05 PM
 # $Id$
 
 =head1 NAME
@@ -37,7 +37,7 @@ sub OnModCommand {
 
 sub ping {
     my $self = shift;
-    my %arg = $_;
+    my %arg = @_;
     $self->PutIRC( "PING $arg{context}" );
 }
 
