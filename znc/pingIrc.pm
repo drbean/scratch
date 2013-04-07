@@ -1,7 +1,7 @@
 package pingIrc;
 
 # Created: 04/07/2013 01:33:27 PM
-# Last Edit: 2013 Apr 07, 03:29:47 PM
+# Last Edit: 2013 Apr 07, 03:31:40 PM
 # $Id$
 
 =head1 NAME
@@ -36,7 +36,7 @@ package pingIrc::task;
 sub RunJob {
     my $self = shift;
     $self->GetModule->PutIRC( "PING $self->{context}" );
-    $self->GetModule->PutModule( "PING $self->{context}" );
+    $self->PutModule( "PING $self->{context}" );
 }
 
 package pingIrc;
