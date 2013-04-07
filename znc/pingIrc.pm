@@ -1,7 +1,7 @@
 package pingIrc;
 
 # Created: 04/07/2013 01:33:27 PM
-# Last Edit: 2013 Apr 07, 04:36:57 PM
+# Last Edit: 2013 Apr 07, 04:42:29 PM
 # $Id$
 
 =head1 NAME
@@ -27,7 +27,7 @@ Znc replies to PING from IRC, but doesn't send PING to IRC. CLI sends PING once 
 
 use base 'ZNC::Module';
 
-# sub module_types { $ZNC::CModInfo::UserModule }
+sub module_types { $ZNC::CModInfo::UserModule }
 
 sub description { "Sends PING to IRC" }
 
