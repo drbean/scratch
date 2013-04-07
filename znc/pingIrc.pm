@@ -1,7 +1,7 @@
 package pingIrc;
 
 # Created: 04/07/2013 01:33:27 PM
-# Last Edit: 2013 Apr 07, 02:51:45 PM
+# Last Edit: 2013 Apr 07, 02:57:42 PM
 # $Id$
 
 =head1 NAME
@@ -29,7 +29,7 @@ use base 'ZNC::Module';
 
 sub module_types { $ZNC::CModInfo::UserModule }
 
-my $server = "chat.oftc.net";
+my $server = "magnet.oftc.net";
 sub OnModCommand {
     my ($self, $cmd) = @_;
     $self->CreateTimer( \&ping, interval => 10, cycles => 2, context => $server );
