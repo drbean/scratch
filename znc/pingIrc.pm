@@ -1,7 +1,7 @@
 package pingIrc;
 
 # Created: 04/07/2013 01:33:27 PM
-# Last Edit: 2013 Apr 07, 03:59:49 PM
+# Last Edit: 2013 Apr 07, 04:08:59 PM
 # $Id$
 
 =head1 NAME
@@ -46,9 +46,9 @@ sub report {
 sub OnModCommand {
     my $self = shift;
     my $cmd = shift;
-    $self->CreateTimer( task => \&report, interval => 5, cycles => 1, context => $server,
+    $self->CreateTimer( task => \&report, interval => 5, cycles => 1, context => $cmd,
 	    description => "Report Ping Irc");
-    $self->CreateTimer( task => \&ping, interval => 10, cycles => 2, context => $server,
+    $self->CreateTimer( task => \&ping, interval => 10, cycles => 2, context => $cmd,
 	    description => "Ping Irc");
 }
 
