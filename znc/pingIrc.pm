@@ -1,7 +1,7 @@
 package pingIrc;
 
 # Created: 04/07/2013 01:33:27 PM
-# Last Edit: 2013 Apr 07, 03:10:54 PM
+# Last Edit: 2013 Apr 07, 03:17:33 PM
 # $Id$
 
 =head1 NAME
@@ -32,8 +32,10 @@ sub module_types { $ZNC::CModInfo::UserModule }
 my $server = "203.64.184.141";
 
 sub OnModCommand {
-    my ($self, $cmd) = @_;
-    $self->CreateTimer( task => \&ping, interval => 10, cycles => 2, context => $server );
+    my ($self = shift;
+    my $cmd = shift;
+    $self->CreateTimer( task => \&ping, interval => 10, cycles => 2, context => $server,
+	    description => "Ping Irc");
 }
 
 sub ping {
