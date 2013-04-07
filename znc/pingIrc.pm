@@ -1,7 +1,7 @@
 package pingIrc;
 
 # Created: 04/07/2013 01:33:27 PM
-# Last Edit: 2013 Apr 07, 01:59:59 PM
+# Last Edit: 2013 Apr 07, 02:14:12 PM
 # $Id$
 
 =head1 NAME
@@ -37,6 +37,10 @@ sub ping {
     my $self = shift;
     my %arg = $_;
     $self->PutIRC( "PING $arg{context}" );
+}
+
+sub description { "Sends PING to IRC" }
+
 1;
 
 
