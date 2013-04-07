@@ -1,7 +1,7 @@
 package pingIrc;
 
 # Created: 04/07/2013 01:33:27 PM
-# Last Edit: 2013 Apr 07, 02:14:12 PM
+# Last Edit: 2013 Apr 07, 02:30:57 PM
 # $Id$
 
 =head1 NAME
@@ -26,6 +26,8 @@ Znc replies to PING from IRC, but doesn't send PING to IRC. CLI sends PING once 
 =cut
 
 use base 'ZNC::Module';
+
+sub module_types { $ZNC::CModInfo::UserModule }
 
 my $server = "chat.oftc.net";
 sub OnBoot {
