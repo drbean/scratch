@@ -137,10 +137,7 @@ twoPlacers = [
 	]
 
 threePlacers = [
-    ("finish",	pred3 [])
-    , ("make",	pred3 $
-	    foldl (\ms (a,t,r,_) -> (a,t,r):(a,r,t):ms ) [] makings)
-    , ("gave",	pred3 giving)
+    ("gave",	pred3 giving)
     , ("ask_about",	pred3 $ map (\x->(agent x, recipient x, theme x) ) comms)
     , ("talk_with_about",	pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
 			    ++ comms)
@@ -166,7 +163,6 @@ fourPlacers = [
 	]
 
 -- (agent,theme,result,aim)
-makings	= []
 features	= []
 looking	= [(T,R,Q,C),(T,B,F,C),(T,S,J,L),(T,M,Q,Unspec),(T,E,Unspec,A),(T,O,Q,Unspec)]
 purchases	= [(T,R,Q,C),(Unspec,B,Q,Unspec),(T,B,F,C),(T,S,J,L),(T,M,Q,Unspec),(T,E,Unspec,A)]
