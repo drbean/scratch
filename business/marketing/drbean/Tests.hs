@@ -40,6 +40,7 @@ buys_sells = [
 	, "Did Quanjiafu sell bananas?"
 	, "Did Quanlian sell bananas to Dr Bean because of the price?"
 	, "Did Quanjiafu sell shoes?"
+	, "Did Dr Bean buy shoes in Quanjiafu?"
 	]
 
 text_test = [
