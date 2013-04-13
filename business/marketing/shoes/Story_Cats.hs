@@ -101,9 +101,9 @@ adjs = [
 	]
 
 advs = [
-	[Cat "500_NT_and_up"	"ADV" [] []]
-	, [Cat "100-800_NT"	"ADV" [] []]
-	, [Cat "1,200_NT_and_up"	"ADV" [] []]
-	, [Cat "1,000_NT_and_up"	"ADV" [] []]
+	[Cat "500_nt_and_up"	"ADV" [] []]
+	, [Cat "100-800_nt"	"ADV" [] []]
+	, [Cat "1_200_nt_and_up"	"ADV" [] []]
+	, [Cat "1_000_nt_and_up"	"ADV" [] []]
 	, [Cat "too_far"	"ADV" [] []]
 	]
