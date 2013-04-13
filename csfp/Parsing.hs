@@ -228,6 +228,14 @@ preproc ("forty-two":"years":"old":xs)	= "forty-two_years_old" : preproc xs
 preproc ("the":"united":"states":xs)	= "the_united_states" : preproc xs
 
 preproc ("fruit":"store":xs)	= "fruit_store" : preproc xs
+preproc ("shoe":"store":xs)	= "shoe_store" : preproc xs
+preproc ("too":"far":xs)	= "too_far" : preproc xs
+preproc ("jogging":"shoes":xs)	= "jogging_shoes" : preproc xs
+preproc ("men's":"formal":"shoes":xs)	= "men's_formal_shoes" : preproc xs
+preproc ("women's":"formal":"shoes":xs)	= "women's_formal_shoes" : preproc xs
+preproc ("500":"NT":"and":"up":xs)	= "500_NT_and_up" : preproc xs
+preproc ("1,200":"NT":"and":"up":xs)	= "1,200_NT_and_up" : preproc xs
+preproc ("1,000":"NT":"and":"up":xs)	= "1,000_NT_and_up" : preproc xs
 
 preproc ("dr":"bean":xs)	= "dr_bean" : preproc xs
 preproc ("steve":"fossett":xs)	= "steve_fossett" : preproc xs
