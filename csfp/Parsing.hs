@@ -231,11 +231,11 @@ preproc ("fruit":"store":xs)	= "fruit_store" : preproc xs
 preproc ("shoe":"store":xs)	= "shoe_store" : preproc xs
 preproc ("too":"far":xs)	= "too_far" : preproc xs
 preproc ("jogging":"shoes":xs)	= "jogging_shoes" : preproc xs
-preproc ("men's":"formal":"shoes":xs)	= "men's_formal_shoes" : preproc xs
-preproc ("women's":"formal":"shoes":xs)	= "women's_formal_shoes" : preproc xs
-preproc ("500":"NT":"and":"up":xs)	= "500_NT_and_up" : preproc xs
-preproc ("1,200":"NT":"and":"up":xs)	= "1,200_NT_and_up" : preproc xs
-preproc ("1,000":"NT":"and":"up":xs)	= "1,000_NT_and_up" : preproc xs
+preproc ("men":"'s":"formal":"shoes":xs)	= "men's_formal_shoes" : preproc xs
+preproc ("women":"'s":"formal":"shoes":xs)	= "women's_formal_shoes" : preproc xs
+preproc ("500":"nt":"and":"up":xs)	= "500_nt_and_up" : preproc xs
+preproc ("1":",200":"nt":"and":"up":xs)	= "1_200_nt_and_up" : preproc xs
+preproc ("1":",000":"nt":"and":"up":xs)	= "1_000_nt_and_up" : preproc xs
 
 preproc ("dr":"bean":xs)	= "dr_bean" : preproc xs
 preproc ("steve":"fossett":xs)	= "steve_fossett" : preproc xs
