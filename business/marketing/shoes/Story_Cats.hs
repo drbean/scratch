@@ -20,10 +20,6 @@ nouns = [
 	, [Cat "women's_formal_shoes"	"CN" [Thrd,Neutr,Pl] []]
 	, [Cat "slippers"	"CN" [Thrd,Neutr,Pl] []]
 	, [Cat "shoe_store"	"CN" [Thrd,Neutr,Sg] []]
-	, [Cat "1_000_nt_and_up"	"NP" [Thrd,Neutr,Sg] []]
-	, [Cat "1_200_nt_and_up"	"NP" [Thrd,Neutr,Sg] []]
-	, [Cat "500_nt_and_up"	"NP" [Thrd,Neutr,Sg] []]
-	, [Cat "800_nt"	"NP" [Thrd,Neutr,Sg] []]
 
 
 	, [Cat "teacher"	"NP" [Thrd,MascOrFem,Sg] []]
