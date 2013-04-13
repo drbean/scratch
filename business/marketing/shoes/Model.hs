@@ -14,13 +14,42 @@ data Entity	= A | B | C | D | E | F | G
 entities :: [Entity]
 entities	=  [minBound..maxBound] 
 
+entity_check :: [ (Entity, String) ]
+entity_check =  [
+    (A, "place" )
+    , (B, "" )
+    , (C, "price" )
+    , (D, "jogging_shoes" )
+    , (E, "men's_formal_shoes" )
+    , (F, "women's_formal_shoes" )
+    , (G, "slippers" )
+    , (H, "500_nt_and_up" )
+    , (I, "100-800_nt" )
+    , (J, "1_200_nt_and_up" )
+    , (K, "1_000_nt_and_up" )
+    , (M, "miaoli" )
+    , (N, "promotion" )
+    , (O, "toufen" )
+    , (P, "" )
+    , (Q, "quanjiafu" )
+    , (R, "" )
+    , (S, "shoes" )
+    , (T, "dr_bean" )
+    , (U, "product" )
+    , (W, "" )
+    , (X, "yingtsailu" )
+    , (Y, "money" )
+    , (Z, "zhunan" )
+    ]
 
 characters :: [ (String, Entity) ]
 
 characters = [
-	( "quanlian",	Q )
-	, ( "quanjiafu",	J )
+	( "quanjiafu",	J )
 	, ( "dr_bean",	T )
+	, ( "miaoli",	M )
+	, ( "toufen",	O )
+	, ( "zhunan",	Z )
 
 	]
 
@@ -66,15 +95,13 @@ onePlacers = [
 	, ("false",	pred1 [] )
 	, ("male",	pred1 [T] )
 	, ("female",	pred1 [] )
-	, ("rice",	pred1 [R] )
-	, ("oil",	pred1 [O] )
+	, ("shoe_store",	pred1 [J] )
 	, ("shoes",	pred1 [S] )
-	, ("bananas",	pred1 [B] )
-	, ("fruit_store",	pred1 [F] )
-	, ("eggs",	pred1 [E] )
-	, ("milk",	pred1 [M] )
+	, ("jogging_shoes",	pred1 [D] )
+	, ("men's_formal_shoes",	pred1 [E] )
+	, ("women's_formal_shoes",	pred1 [F] )
+	, ("slippers",	pred1 [G] )
 	, ("teacher",	pred1 [T] )
-	, ("role",	pred1 [] )
 
 	, ("product",	pred1 [U] )
 	, ("price",	pred1 [C] )
@@ -83,18 +110,12 @@ onePlacers = [
 	, ("person",	person )
 	, ("thing",	thing )
 
-	, ("good",	pred1 [S,M,B,E,R] )
-	, ("bad",	pred1 [O] )
-	, ("old",	pred1 [R] )
+	, ("good",	pred1 [D,E,U,C,A,N] )
+	, ("bad",	pred1 [F,G] )
 
-	, ("world",	pred1 [W] )
-	, ("non-stop",	pred1 [N] )
-	, ("single-handed",	pred1 [O] )
-
-	, ("advertisers",	pred1 [Q,F,L])
 	, ("money",	pred1 [Y])
-	, ("successful",	pred1 [H,F])
-	, ("unsuccessful",	pred1 [P])
+	, ("successful",	pred1 [Q,T])
+	, ("unsuccessful",	pred1 [])
 	]
 
 type OnePlacePred	= Entity -> Bool
@@ -164,10 +185,11 @@ fourPlacers = [
 
 -- (agent,theme,result,aim)
 features	= []
-looking	= [(T,R,Q,C),(T,B,F,C),(T,S,J,L),(T,M,Q,Unspec),(T,E,Unspec,A),(T,O,Q,Unspec)]
-purchases	= [(T,R,Q,C),(Unspec,B,Q,Unspec),(T,B,F,C),(T,S,J,L),(T,M,Q,Unspec),(T,E,Unspec,A)]
+pricing = [(Q,D,H),(Q,E,J),(Q,F,K),(Q,G,I)]
+looking	= [(T,D,Q,C),(T,E,Q,C)]
+purchases	= [(T,D,Q,C)]
 non_purchases = looking \\ purchases
-stock = map ( \(_,t,p,_) -> (p,t) ) $ looking ++ purchases
+stock =  [(Q,F),(Q,G)] ++ ( map ( \(_,t,p,_) -> (p,t) ) $ looking ++ purchases )
 have_to_buy = pred3 $ map (\(a,t,_,_) -> (a,Y,t) ) $ ( filter (\(a,t,r,_) -> t /= C) non_purchases ) ++ purchases
 services    = []
 
@@ -175,8 +197,8 @@ wanted = predid4 "looking"
 
 possessions	= [(T,Y),(Q,O),(Q,M),(Q,B),(Q,E),(Q,R),(F,B),(T,S),(J,S),(T,M),(T,E),(Unspec,E),(T,R)]
 
-appreciation	= [(T,S),(T,M),(T,B),(T,E),(T,R)]
-knowledge	= [(T,Q),(T,J),(T,F)]
+appreciation	= [(T,D),(T,E)]
+knowledge	= [(T,Q),(T,M),(T,O),(T,Z)]
 acquaintances	= []
 comms	= [ (Someone,Y,F),(Someone,B,F),(Someone,P,F),(Someone,Y,M) ]
 

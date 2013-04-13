@@ -8,12 +8,12 @@ objects = [
 	 , ( "a_good_price",	\[x] -> predid1 "a_good_price" x	)
 	, ( "teacher",	\[x]	-> predid1 "teacher" x )
 	, ( "shoes",	\[x]	-> predid1 "shoes" x	)
-	, ( "oil",	\[x]	-> predid1 "oil" x	)
-	, ( "milk",	\[x]	-> predid1 "milk" x	)
-	, ( "bananas",	\[x]	-> predid1 "bananas" x	)
-	, ( "eggs",	\[x]	-> predid1 "eggs" x	)
+	, ( "jogging_shoes",	\[x]	-> predid1 "jogging_shoes" x	)
+	, ( "slippers",	\[x]	-> predid1 "slippers" x	)
+	, ( "men's_formal_shoes",	\[x]	-> predid1 "men's_formal_shoes" x	)
+	, ( "women's_formal_shoes",	\[x]	-> predid1 "women's_formal_shoes" x	)
 	, ( "rice",	\[x]	-> predid1 "rice" x	)
-	, ( "fruit_store",	\[x]	-> predid1 "fruit_store" x	)
+	, ( "shoe_store",	\[x]	-> predid1 "shoe_store" x	)
 
 	, ( "money",	\[x]	-> predid1 "money" x	)
 
