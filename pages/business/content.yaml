@@ -329,6 +329,12 @@ topic:
         comment: |+
           If you think you have a good answer, but Bett says you don't, try submitting an error report to Dr Bean. He is hoping you will help him improve the app by showing him where there are problems.
       -
+        id: shoes
+        title: Did Dr Bean buy shoes from QuanJiaFu
+        blurb: What did Dr Bean buy at QuanJiaFu? What didn't he buy? Make YN questions or tag questions.
+        comment: |+
+          I put the site up quickly. If you think you have a good answer, but Bett says you don't, try submitting an error report to Dr Bean. He is hoping you will help him improve the app by showing him where there are problems.
+      -
         id: turner
         title: The 3 skills of the great marketer
         blurb: Jonathan Turner heads <a href="http://www.oxfordsm.com">Oxford Strategic Management</a>, a market research company. Find his soundfile on elearning. He thinks there are 3 things the successful marketer must have, a feeling for what consumers are thinking, an understanding of how the company makes money from its consumers, and an ability to excite everyone in the company about the company's marketing strategy.
