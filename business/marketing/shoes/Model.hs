@@ -45,7 +45,7 @@ entity_check =  [
 characters :: [ (String, Entity) ]
 
 characters = [
-	( "quanjiafu",	J )
+	( "quanjiafu",	Q )
 	, ( "dr_bean",	T )
 	, ( "miaoli",	M )
 	, ( "toufen",	O )
@@ -95,8 +95,8 @@ onePlacers = [
 	, ("false",	pred1 [] )
 	, ("male",	pred1 [T] )
 	, ("female",	pred1 [] )
-	, ("shoe_store",	pred1 [J] )
-	, ("shoes",	pred1 [S] )
+	, ("shoe_store",	pred1 [Q] )
+	, ("shoes",	pred1 [S,D,E,F,G] )
 	, ("jogging_shoes",	pred1 [D] )
 	, ("men's_formal_shoes",	pred1 [E] )
 	, ("women's_formal_shoes",	pred1 [F] )
@@ -180,13 +180,13 @@ fourPlacers = [
 	, ("give", pred4 $ foldl (\ss (a,t,p,l) -> (l,t,a,l): (p,t,a,l): (p,t,l,a):
 					ss ) [] services)
 	, ("pay", pred4 $ map (\x -> (agent4 x, provider4 x, theme4 x, purpose4 x) ) purchases)
-    , ("wanted_to_buy", pred4 $ foldl ( \ps (a,t,p,l)  -> (a,a,t,p):(a,a,p,t):ps ) [] looking)
+    , ("wanted_to_buy", pred4 $ foldl ( \ps (a,t,p,l)  -> (a,a,t,p):(a,a,t,l):ps ) [] looking)
 	]
 
 -- (agent,theme,result,aim)
 features	= []
 pricing = [(Q,D,H),(Q,E,J),(Q,F,K),(Q,G,I)]
-looking	= [(T,D,Q,C),(T,E,Q,C)]
+looking	= [(T,D,Q,M),(T,E,Q,M)]
 purchases	= [(T,D,Q,C)]
 non_purchases = looking \\ purchases
 stock =  [(Q,F),(Q,G)] ++ ( map ( \(_,t,p,_) -> (p,t) ) $ looking ++ purchases )
