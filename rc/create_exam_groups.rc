@@ -1,0 +1,43 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use IO::All;
+use YAML qw/LoadFile DumpFile Dump/;
+use Cwd;
+use List::Util qw/first/;
+
+my $round = 2;
+
+$_REPL->load_plugin('DumpHistory');
+
+(my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
+use Grades;
+use Grades::Groupwork;
+my $l = League->new( leagues => '/home/drbean/012', id => $dir );
+my $g = Grades->new({ league => $l });
+my $co = Compcomp->new({ league => $l });
+my $cl = $g->classwork;
+my %m = map { $_->{id} => $_ } @{ $l->members };
+my $approach = $l->approach;
+
+my $b2 = $cl->beancans(2);
+my $b3  = $cl->beancans(3);
+my $n2 = $cl->names2beancans(2);
+my $n3 = $cl->names2beancans(3);
+
+my @n = map { $m{$_}->{name} } sort keys %m;
+my %i = map { $_ => $l->ided($_) } @n;
+
+my %p2 = map { my $n = $_ ; $n => first {$_ ne $n } @{$b2->{$n2->{$n}}} } @n;
+my %p3 = map { my $n = $_ ; $n => first {$_ ne $n } @{$b2->{$n3->{$n}}} } @n;
+
+my @g; my $i = 0;
+
+for ( @n ) {
+	$i++;
+	push @g, "$i. $_\t$i{$_}\t$p2{$_}\t$i{$p2{$_}}\t$p3{$_}\t$i{$p3{$_}}\n";
+}
+
+# io("exam/$round/groups.yaml")->print( @g );
+
