@@ -330,8 +330,13 @@
     Ross: Well, quiz shows are entertainment like the Mike Wallace Interview and I certainly a lot of the questions asked deal with facts which are not too useful, but not everything is useful. Certainly there... a number of things that a person acquires are material things and information, which have no actual use and I think the quiz show is an entertainment based on the fact that some people have accumulated a specialized knowledge of a subject.
 
     Wallace: You don't feel, then, that you were a freak or an oddity when you answered stock market questions that might've stopped -stumped, as a matter of fact did stump, veteran stock brokers. You didn't feel like a...
-  - Wallace|Ross|Commercial|Philip Morris|Vanessa Brown|Charles Van Doren|Teddy Nadler|Sputniks
-  - 100
+
+    Ross: A stock broker is not in the business of acquiring facts about the stock market. Which stocks paid dividends in a certain year. However, if you're, if somebody is not in the business and has a side interest, it's perfectly normal to acquire such facts. And thus you won't find the professional knowing them, and that's natural.
+
+    Wallace: Well, is it possible you just have a freak memory. For instance, Charles Van Doren said .. 
+    
+  - Wallace|Ross|Commercial|Philip Morris|Vanessa Brown|Charles Van Doren|Teddy Nadler|Sputniks|dividends
+  - 20
 -
   - wallace
   - Mike Wallace interviewed by son on Fox
@@ -390,7 +395,7 @@
     Mike: I love you. And I'm proud of you.
     Chris: After we ran that interview, I said, There's no crying on Sunday morning talk shows. Well, there have been lots of tears this week, along with lots of laughs, and some wonderful stories. Our family has really held on to each other tightly. Over the last two decades, my father became my best friend. He was so interesting, so much fun to be around. And, yes, sometimes, so exasperating. I didn't get into reporting, at least, consciously, because of him. But we used to get such joy from sharing experiences with each other. So many times this week, I've wanted to ask him what he thinks about all the coverage of his life. And then I stopped, and remembered he's not here. That is going to take some getting used to. I can't imagine life without him. We'll see you, next Fox News Sunday.
   - Wallace|Martha's Vineyard|Caroline|Fox News Sunday|Chris|Mike|Menachem Begin|Anwar Sadat|Shah|Iran|Ayatollah Khomeini|Imam|Shirley MacLaine|Johnny Carson|Barbara Streisand|subpoena|Peter|Myron Leon|Brookline|Massachusetts|Eleanor Roosevelt|Thomas Hart Benton|Voice-over|William
-  - 100
+  - 12
 -
   - axelrod
   - Obama's election campaign director
