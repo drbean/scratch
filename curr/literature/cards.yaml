@@ -248,3 +248,245 @@ don-quixote:
           answer  : True
         - question: Don Quixote leaves the inn.
           answer  : True
+swiss:
+  compcomp:
+    0:
+      identifier:
+      White: 
+      Black: 
+      quiz:
+        - question: 
+          answer: 
+  jigsaw:
+    0:
+      identifier: swiss 0
+      A: You are a woman. Your ship is on a rock. You help your husband. You take things from the ship and give them to him.
+      B: Your ship has been wrecked. But you can see land. You help your father build a raft, so that you can get to shore.
+      C: With your son Ernest, you build a raft. You take the things that your wife gives you and you put them on the raft.
+      quiz:
+        - question: A
+          option:
+            - Ernest
+            - Mother
+            - Father
+          answer: Mother
+        - question: B
+          option:
+            - Ernest
+            - Mother
+            - Father
+          answer: Ernest
+        - question: C
+          option:
+            - Ernest
+            - Mother
+            - Father
+          answer: Father
+        - question: Ernest is the woman's husband.
+          answer  : False
+        - question: The ship sinks.
+          answer  : False
+        - question: Father builds the raft by himself.
+          answer  : False
+        - question: The woman helps her husband load the raft.
+          answer  : True
+        - question: The ship is wrecked far from land.
+          answer  : False
+        - question: Ernest helps his father.
+          answer  : True
+        - question: They take things from the ship.
+          answer  : True
+    1:
+      identifier: swiss 1
+      A: You are a girl. Ernest and Fritz rescue you from pirates. They both love you. You love the younger, Fritz.
+      B: You stay on the island with your family when your younger brother, Fritz leaves with Roberta.
+      C: You and your older brother, Ernest both love Roberta. You win her love. You go back to Europe with her.
+      quiz:
+        - question: A
+          option:
+            - Ernest
+            - Fritz
+            - Roberta
+          answer: Roberta
+        - question: B
+          option:
+            - Ernest
+            - Fritz
+            - Roberta
+          answer: Ernest
+        - question: C
+          option:
+            - Ernest
+            - Fritz
+            - Roberta
+          answer: Fritz
+        - question: Ernest is older, Fritz is younger.
+          answer  : True
+        - question: Roberta is their sister.
+          answer  : False
+        - question: They rescue her from pirates.
+          answer  : True
+        - question: Ernest loves Roberta.
+          answer  : True
+        - question: Roberta loves Fritz.
+          answer  : True
+        - question: Ernest returns to Europe.
+          answer  : False
+        - question: Fritz \& Roberta stay on the island.
+          answer  : False
+frankenstein:
+  jigsaw:
+    0:
+      identifier: frankenstein 0
+      A: You are playing with the monster. You throw flowers in the water. The monster throws you in the water. You die.
+      B: You create a living person. It is a monster. It starts to kill people. You try to kill it. And it tries to kill you.
+      C: You are not a real person. You were created by Frankenstein. You kill people. And people try to kill you.
+      quiz:
+        - question: A
+          option:
+            - Frankenstein
+            - Girl
+            - Monster
+          answer: Girl
+        - question: B
+          option:
+            - Frankenstein
+            - Girl
+            - Monster
+          answer: Frankenstein
+        - question: C
+          option:
+            - Frankenstein
+            - Girl
+            - Monster
+          answer: Monster
+        - question: Frankenstein created the monster.
+          answer  : True
+        - question: The monster plays with the girl.
+          answer  : True
+        - question: The monster kills the girl.
+          answer  : True
+        - question: Frankenstein wants the monster dead.
+          answer  : True
+        - question: Frankenstein kills the monster.
+          answer  : False
+        - question: The monster kills Frankenstein.
+          answer  : False
+        - question: The two kill each other.
+          answer  : False
+    1:
+      identifier: frankenstein 1
+      A: You are a scientist. You create an ugly monster, which kills Waldman, your teacher. You try to kill it.
+      B: Frankenstein created you, but you have a bad relationship with him. You kill Waldman when he starts to cut you up.
+      C: Your student, Frankenstein creates a monster. The monster tries to hurt you, but you put it to sleep with a drug.
+      quiz:
+        - question: A
+          option:
+            - Frankenstein
+            - Monster
+            - Waldman
+          answer: Frankenstein
+        - question: B
+          option:
+            - Frankenstein
+            - Monster
+            - Waldman
+          answer: Monster
+        - question: C
+          option:
+            - Frankenstein
+            - Monster
+            - Waldman
+          answer: Waldman
+        - question: Frankenstein likes the monster.
+          answer  : False
+        - question: The monster doesn't like him.
+          answer  : True
+        - question: The monster frightens Waldman.
+          answer  : True
+        - question: The monster cuts Waldman up.
+          answer  : False
+        - question: Waldman puts it to sleep.
+          answer  : True
+        - question: The monster kills Waldman.
+          answer  : True
+        - question: Frankenstein kills the monster.
+          answer  : False
+twist:
+  jigsaw:
+    0:
+      identifier: twist 0
+      A: You send Oliver out to steal people's handkerchiefs. But Mr Brownlow takes Oliver into his home. You get Oliver back.
+      B: You are caught when Fagin's gang steals Mr Brownlow's handkerchief. Later, the gang takes you from Brownlow's home.
+      C: You don't think Oliver took your handkerchief. You feel sad. You take Oliver home. But Oliver disappears.
+      quiz:
+        - question: A
+          option:
+            - Fagin
+            - Mr Brownlow
+            - Oliver
+          answer: Fagin
+        - question: B
+          option:
+            - Fagin
+            - Mr Brownlow
+            - Oliver
+          answer: Oliver
+        - question: C
+          option:
+            - Fagin
+            - Mr Brownlow
+            - Oliver
+          answer: Mr Brownlow
+        - question: Fagin sends Oliver out to steal.
+          answer  : True
+        - question: Oliver takes Mr Brownlow's handkerchief.
+          answer  : False
+        - question: Mr Brownlow thinks Oliver is a bad boy.
+          answer  : False
+        - question: Mr Brownlow takes Oliver home.
+          answer  : True
+        - question: Oliver wants to return to Fagin.
+          answer  : False
+        - question: The gang takes Oliver back to Fagin.
+          answer  : True
+        - question: Mr Brownlow knows where Oliver is.
+          answer  : False
+    1:
+      identifier: twist 1
+      A: You run the workhouse where Oliver was. Monks asks you for information about Oliver. You give him his mother's ring.
+      B: You are an orphan. You don't know about your brother, Monks. Mr Bumble mistreated you when you asked for more.
+      C: Oliver is your brother. But you want to find him and hurt him. You want the money his father left him.
+      quiz:
+        - question: A
+          option:
+            - Mr Bumble
+            - Monks
+            - Oliver
+          answer: Mr Bumble
+        - question: B
+          option:
+            - Mr Bumble
+            - Monks
+            - Oliver
+          answer: Oliver
+        - question: C
+          option:
+            - Mr Bumble
+            - Monks
+            - Oliver
+          answer: Monks
+        - question: Monks is Oliver's brother.
+          answer  : True
+        - question: Oliver knows about his brother.
+          answer  : False
+        - question: Monks wants to find Oliver.
+          answer  : True
+        - question: Monks asks Mr Bumble for help.
+          answer  : True
+        - question: Monks gives him Oliver's mother's ring.
+          answer  : False
+        - question: Oliver likes Mr Bumble. He was good to him.
+          answer  : True
+        - question: Monks wants to give Oliver his father's money.
+          answer  : False
