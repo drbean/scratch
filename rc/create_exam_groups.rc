@@ -30,7 +30,7 @@ my @n = map { $m{$_}->{name} } sort keys %m;
 my %i = map { $_ => $l->ided($_) } @n;
 
 my %p2 = map { my $n = $_ ; $n => first {$_ ne $n } @{$b2->{$n2->{$n}}} } @n;
-my %p3 = map { my $n = $_ ; $n => first {$_ ne $n } @{$b2->{$n3->{$n}}} } @n;
+my %p3 = map { my $n = $_ ; $n => first {$_ ne $n } @{$b3->{$n3->{$n}}} } @n;
 
 my @g; my $i = 0;
 
