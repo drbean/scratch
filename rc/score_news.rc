@@ -10,18 +10,20 @@ use List::Util qw/sum/;
 
 $_REPL->load_plugin('DumpHistory');
 
+my $exam = 1;
+
 (my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
 use Grades;
 use Grades::Groupwork;
-my $l = League->new( leagues => '/home/drbean/002', id => $dir );
+my $l = League->new( leagues => '/home/drbean/012', id => $dir );
 my $g = Grades->new({ league => $l });
 my $c = Compcomp->new({ league => $l });
 my %m = map { $_->{id} => $_ } @{ $l->members };
 my $approach = $l->approach;
 
-my $n = LoadFile 'exam/3/newsresponse.yaml';
+my $n = LoadFile "exam/$exam/newsresponse.yaml";
 
 my  %g2 = map { my $p = $_; $_ =>  5 * (sum (
 	map { sum values %{ $n->{$p}->{$_} } } keys %{$n->{$p}} ) ) / 27
 		} keys %m;
-# DumpFile 'exam/2/newsscores.yaml', \%g1;
+# DumpFile "exam/$exam/newsscores.yaml", \%g1;
