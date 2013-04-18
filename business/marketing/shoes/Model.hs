@@ -69,23 +69,23 @@ predid2 :: String -> TwoPlacePred
 predid3 :: String -> ThreePlacePred
 predid4 :: String -> FourPlacePred
 predid1 name = lookup1 name onePlacers where
-	lookup1 name []	= error $ "no \"" ++ name ++ "\" one-place predicate."
+	lookup1 name []	= error $ "no '" ++ name ++ "' one-place predicate."
 	lookup1 name ((n,p):_) | n == name	= p
 	lookup1 name (i:is) = lookup1 name is
 predid2 name = lookup2 name twoPlacers where
-	lookup2 n []	= error $ "no \"" ++ name ++ "\" two-place predicate."
+	lookup2 n []	= error $ "no '" ++ name ++ "' two-place predicate."
 	lookup2 n ((name,pred):is) | n == name	= pred
 	lookup2 n (i:is) = lookup2 name is
 predid3 name = lookupPred name threePlacers where
-	lookupPred n []	= error $ "no \"" ++ name ++ "\" three-place predicate."
-	lookupPred n ((name,pred):is) | n == name	= pred
+	lookupPred n []	= error $ "no '" ++ name ++ "' three-place predicate."
+	lookupPred n ((name,pred):is) | n == name      = pred
 	lookupPred n (i:is) = lookupPred name is
 predid4 name = lookupPred name fourPlacers where
-	lookupPred n []	= error $ "no \"" ++ name ++ "\" four-place predicate."
-	lookupPred n ((name,pred):is) | n == name	= pred
+	lookupPred n []	= error $ "no '" ++ name ++ "' four-place predicate."
+	lookupPred n ((name,pred):is) | n == name     = pred
 	lookupPred n (i:is) = lookupPred name is
 predid5 name = lookupPred name fivePlacers where
-	lookupPred n []	= error $ "no \"" ++ name ++ "\" five-place predicate."
+	lookupPred n []	= error $ "no '" ++ name ++ "' five-place predicate."
 	lookupPred n ((name,pred):is) | n == name	= pred
 	lookupPred n (i:is) = lookupPred name is
 
@@ -95,6 +95,7 @@ onePlacers = [
 	, ("false",	pred1 [] )
 	, ("male",	pred1 [T] )
 	, ("female",	pred1 [] )
+	, ("role",	pred1 [T] )
 	, ("shoe_store",	pred1 [Q] )
 	, ("shoes",	pred1 [S,D,E,F,G] )
 	, ("jogging_shoes",	pred1 [D] )
@@ -167,10 +168,7 @@ threePlacers = [
     ]
 
 fourPlacers = [
-	("buy",	pred4 $ map (\x -> (agent4 x, theme4 x, provider4 x, location4 x)
-				) purchases ++
-			map (\x -> (agent4 x, provider4 x, theme4 x, location4 x)
-				) purchases )
+	("buy",	pred4 $ foldl (\ss (a,t,p,l) -> (a,t,p,l): (a,t,l,p): ss) [] purchases)
 	, ("sell", pred4 $ foldl (\ss (a,t,p,l) -> (l,t,a,l): (p,t,a,l): (p,t,l,a):
 					ss ) [] purchases)
 	, ("get",	pred4 $ map (\x -> (agent4 x, theme4 x, provider4 x, location4 x)
@@ -187,7 +185,7 @@ fourPlacers = [
 features	= []
 pricing = [(Q,D,H),(Q,E,J),(Q,F,K),(Q,G,I)]
 looking	= [(T,D,Q,M),(T,E,Q,M)]
-purchases	= [(T,D,Q,C)]
+purchases	= [(T,D,Q,M)]
 non_purchases = looking \\ purchases
 stock =  [(Q,F),(Q,G)] ++ ( map ( \(_,t,p,_) -> (p,t) ) $ looking ++ purchases )
 have_to_buy = pred3 $ map (\(a,t,_,_) -> (a,Y,t) ) $ ( filter (\(a,t,r,_) -> t /= C) non_purchases ) ++ purchases
