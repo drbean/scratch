@@ -79,10 +79,14 @@ player answers the question correctly, that player
 gets a Returned point (1). If he/she doesn't, the
 questioner gets an Unreturned point (1).
 
-I want you to do at least 4 questions each, one
++ I want you to do at least 4 questions each, one
 for each topic.
 
-F = Double Fault, U = Unreturned, R = Returned
++ F = Double Fault (1 for your opponent),
+U = Unreturned (1 for you),
+R = Returned (1 for your opponent)
+O = Old question (Someone else's question)
+(you must ask a different question)
 
 ----
 == Set questions
