@@ -39,16 +39,18 @@ verbs = [
 	, [Cat "like"	"V" [Infl] [Cat "_" "NP" [AccOrDat] []]]
 	, [Cat "bought"	"V" [Tense] [],
 		Cat "bought"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []],
-		Cat "bought"	"V" [Tense] [Cat "_" "PP" [From] []],
 		Cat "bought"	"V" [Tense] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [From] []],
+		Cat "bought"	"V" [Tense] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [In] []],
 		Cat "bought"	"V" [Tense] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [At] []]]
 	, [Cat "buy"	"V" [Infl] [],
 		Cat "buy"	"V" [Infl] [Cat "_" "NP" [AccOrDat] []],
-		Cat "buy"	"V" [Infl] [ Cat "_" "PP" [From] []],
 		Cat "buy"	"V" [Infl] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [From] []],
+		Cat "buy"	"V" [Infl] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [In] []],
 		Cat "buy"	"V" [Infl] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [At] []]]
 	, [Cat "sold"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []],
