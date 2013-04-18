@@ -309,7 +309,7 @@ collectCats db words =
 
   in
     if unknown /= [] then 
-      error ("unknown words: '" ++ show unknown ++ "'")
+      error ("unknown words: " ++ show unknown)
     else initCats (map snd listing) 
 	where unknownWord = [Cat "" "" [] []]
 
