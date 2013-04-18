@@ -43,7 +43,7 @@ for my $t ( keys %$cards ) {
 			source =>  '/home/drbean/class/tmpl/jigsaw.tmpl' ,
 			delimiters => [ '<TMPL>', '</TMPL>' ]);
 		my $quiztmpl = Text::Template->new( type => 'file',
-            source =>  '/home/drbean/class/tmpl/namequestionsB5.tmpl' ,
+            source =>  '/home/drbean/class/tmpl/namequestionsA6.tmpl' ,
 			delimiters => [ '<TMPL>', '</TMPL>' ]);
 		my $fio = io "$ARGV[0]/jigsaw_$t" . "_$f.tex";
 		my $qio = io "$ARGV[0]/quiz_$t" . "_$f.tex";
