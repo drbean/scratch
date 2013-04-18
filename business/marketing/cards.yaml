@@ -29,6 +29,64 @@ uniqlo:
       - question: 
         answer  : 
 sale:
+ jigsaw:
+  milk_1:
+   identifier: milk 1
+   A: |+
+      \item [Product] Dr Bean will not buy milk which comes from mainland China.
+      \item [Price] Dr Bean is willing to pay 500 NT for 2 kilograms.
+      \item [Place] Dr Bean will buy the milk at QuanLian.
+      \item [Promotion] The promotion is satisfactory.
+   B: |+
+      \item [Product] The label on Weichuan powdered milk says it comes from Australia.
+      \item [Price] Weichuan powdered milk costs 600NT for 2 kilograms.
+      \item [Place] The place is right.
+      \item [Promotion] Dr Bean has seen the Weichuan brand on other products.
+   C: |+
+      \item [Product] The product is okay.
+      \item [Price] Weichuan milk costs 100NT more than Dr Bean is willing to pay.
+      \item [Place] QuanLian sells Weichuan products.
+      \item [Promotion] Weichuan is a well-known food manufacturer in Taiwan.
+   quiz :
+     - question: The product is okay.
+       answer: True
+     - question: The price is right.
+       answer: True
+     - question: The place is right.
+       answer: True
+     - question: The promotion is satisfactory.
+       answer: True
+     - question: A sale is made.
+       answer: True
+  milk_2:
+   identifier: milk 2
+   A: |+
+      \item [Product] Dr Bean will not buy milk which comes from mainland China.
+      \item [Price] Dr Bean is willing to pay 550 NT for 2 kilograms.
+      \item [Place] Dr Bean will buy the milk at QuanLian.
+      \item [Promotion] The promotion is satisfactory.
+   B: |+
+      \item [Product] The label on Weichuan powdered milk says it comes from Australia.
+      \item [Price] Weichuan powdered milk costs 500NT for 2 kilograms.
+      \item [Place] The place is right.
+      \item [Promotion] Dr Bean has seen the Weichuan brand on other products.
+   C: |+
+      \item [Product] If the label doesn't say, Made in China, Dr Bean will buy the milk.
+      \item [Price] The price is right.
+      \item [Place] QuanLian sells Weichuan products.
+      \item [Promotion] Weichuan is a well-known food manufacturer in Taiwan.
+   quiz :
+     - question: The product is okay.
+       answer: True
+     - question: The price is right.
+       answer: True
+     - question: The place is right.
+       answer: True
+     - question: The promotion is satisfactory.
+       answer: True
+     - question: A sale is made.
+       answer: True
+
  compcomp:
   banana:
     identifier: fruit 1
