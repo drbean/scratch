@@ -233,6 +233,8 @@ preproc ("too":"far":xs)	= "too_far" : preproc xs
 preproc ("jogging":"shoes":xs)	= "jogging_shoes" : preproc xs
 preproc ("men":"'s":"formal":"shoes":xs)	= "men's_formal_shoes" : preproc xs
 preproc ("women":"'s":"formal":"shoes":xs)	= "women's_formal_shoes" : preproc xs
+preproc ("women":"'s_formal_shoes":xs)	= "women's_formal_shoes" : preproc xs
+
 preproc ("500":"nt":"and":"up":xs)	= "500_nt_and_up" : preproc xs
 preproc ("1":",200":"nt":"and":"up":xs)	= "1_200_nt_and_up" : preproc xs
 preproc ("1":",000":"nt":"and":"up":xs)	= "1_000_nt_and_up" : preproc xs
