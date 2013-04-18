@@ -76,7 +76,7 @@ my @g =
 	\\begin{multicols}{2}
       $dir League Midterm Exam Groups
 \\begin{tabbing}
-\\hspace{1cm} \\= A  \\hspace{1cm}  \\= B \\hspace{1cm}  \\= C\\\\
+\\hspace{1cm} \\= A  \\hspace{3cm}  \\= B \\hspace{3cm}  \\= C\\\\
 \\> \\> \\> Name:     ID\\\\
 \\end{tabbing}
 \\vspace{-1.0cm}
@@ -90,7 +90,7 @@ for ( @keys ) {
 	$i++;
 	# push @g, "$i. $_\t$i{$_}\t$p2{$_}\t$i{$p2{$_}}\t$p3{$_}\t$i{$p3{$_}}\n";
 	# push @g, "$_\t$p1{$_}\t$i{$p1{$_}}\t$p2{$_}\t$i{$p2{$_}}\t_______\t_______\n";
-	push @g, "\\item [$_] \\begin{small}$p1{$_}\\end{small} \\tabto{0.9cm} $i{$p1{$_}} \\begin{small}$p2{$_}\\end{small} \\tabto{3.5cm} $i{$p2{$_}} \\tabto{5.1cm} \\rule{1.0cm}{0.02cm} \\rule{2.0cm}{0.02cm} \\vspace{-0.45cm}\\\\\n";
+	push @g, "\\item [$_] \\begin{small}$p1{$_}\\end{small} \\tabto{0.9cm} $i{$p1{$_}} \\begin{small}$p2{$_}\\end{small} \\tabto{3.9cm} $i{$p2{$_}} \\tabto{6.1cm} \\rule{1.0cm}{0.02cm} \\rule{2.0cm}{0.02cm} \\vspace{-0.25cm}\\\\\n";
 }
 
 push @g, "
