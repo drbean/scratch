@@ -22,9 +22,9 @@ my %m = map { $_->{id} => $_ } @{ $l->members };
 my $approach = $l->approach;
 
 my $b2 = $cl->beancans(2);
-# my $b3  = $cl->beancans(3);
+my $b3  = $cl->beancans(3);
 my $n2 = $cl->names2beancans(2);
-# my $n3 = $cl->names2beancans(3);
+my $n3 = $cl->names2beancans(3);
 
 my @keys = sort {$a <=> $b} keys %$b2;
 my %group2order = map {
@@ -37,12 +37,25 @@ my %order2group = map { $group2order{$_}->{order} => $_ } keys %group2order;
 my @n = map { $m{$_}->{name} } sort keys %m;
 my %i = map { $_ => $l->ided($_) } @n;
 
-# my %p2 = map { my $n = $_ ; $n => first {$_ ne $n } @{$b2->{$n2->{$n}}} } @n;
-# my %p3 = map { my $n = $_ ; $n => first {$_ ne $n } @{$b3->{$n3->{$n}}} } @n;
+my %p2 = map { my $n = $_ ; $n => first {$_ ne $n } @{$b2->{$n2->{$n}}} } @n;
+my %p3 = map { my $n = $_ ; $n => first {$_ ne $n } @{$b3->{$n3->{$n}}} } @n;
+
+my $yaml;
+for my $n ( @n ) {
+	my $g = $i{$n};
+	my $p2 = $p2{$n};
+	my $p3 = $p3{$n};
+	$yaml->{$g}->{id} = $g;
+	$yaml->{$g}->{A} = "$n\t$i{$n}";
+	$yaml->{$g}->{B} = "$p2\t$i{$p2}";
+	$yaml->{$g}->{C} = "$p3\t$i{$p3}";
+}
+
+DumpFile "exam/$round/groups.yaml", $yaml;
 
 my %p1 = map { $_ => $b2->{$_}->[0] } @keys;
-my %p2 = map { $_ => $b2->{$_}->[1] } @keys;
-my %p3;
+# my %p2 = map { $_ => $b2->{$_}->[1] } @keys;
+# my %p3;
 
 my %groups = map { my $group = $_;
 					my $order = $group2order{$group};
