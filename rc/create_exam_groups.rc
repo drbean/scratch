@@ -46,9 +46,9 @@ for my $n ( @n ) {
 	my $p2 = $p2{$n};
 	my $p3 = $p3{$n};
 	$yaml->{$g}->{id} = $g;
-	$yaml->{$g}->{A} = "$n\t$i{$n}";
-	$yaml->{$g}->{B} = "$p2\t$i{$p2}";
-	$yaml->{$g}->{C} = "$p3\t$i{$p3}";
+	$yaml->{$g}->{A} = "$n";
+	$yaml->{$g}->{B} = "$p2";
+	$yaml->{$g}->{C} = "$p3";
 }
 
 DumpFile "exam/$round/groups.yaml", $yaml;
