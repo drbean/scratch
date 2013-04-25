@@ -30,6 +30,174 @@ uniqlo:
         answer  : 
 sale:
  jigsaw:
+  shoes_1:
+   identifier: shoes 1
+   A: |+
+      \item [Product] The shoe store has many kinds of shoes.
+      \item [Price] Jogging shoes are 500NT and up. Formal shoes are 1,000NT and up.
+      \item [Place] The place is right.
+      \item [Promotion] The store is a QuanJiaFu store.
+   B: |+
+      \item [Product] Dr Bean is looking for some shoes to wear at school. 
+      \item [Price] The price is right.
+      \item [Place] The shoe store is near Miaoli Train Station.
+      \item [Promotion] Dr Bean has seen QuanJiaFu in Toufen and Zhunan.
+   C: |+
+      \item [Product] Dr Bean will wear jogging shoes or formal shoes.
+      \item [Price] Dr Bean is willing to pay 1,200NT.
+      \item [Place] Dr Bean wants to buy the shoes in Miaoli.
+      \item [Promotion] The promotion is satisfactory.
+   quiz :
+     - question: The product is okay.
+       answer: True
+     - question: The price is right.
+       answer: True
+     - question: The place is right.
+       answer: True
+     - question: The promotion is satisfactory.
+       answer: True
+     - question: A sale is made.
+       answer: True
+  shoes_2:
+   identifier: shoes 2
+   A: |+
+      \item [Product] The shoe store has many kinds of shoes.
+      \item [Price] Formal shoes are 1,200NT and up.
+      \item [Place] The place is right.
+      \item [Promotion] The store is a QuanJiaFu store.
+   B: |+
+      \item [Product] Dr Bean is looking for some shoes to wear at school. 
+      \item [Price] Dr Bean is willing to pay 1,000NT.
+      \item [Place] The shoe store is near Miaoli Train Station.
+      \item [Promotion] The promotion is satisfactory.
+   C: |+
+      \item [Product] The product is okay.
+      \item [Price] Dr Bean only has 1,000NT.
+      \item [Place] Dr Bean wants to buy the shoes in Miaoli.
+      \item [Promotion] Dr Bean has seen QuanJiaFu in Toufen and Zhunan.
+   quiz :
+     - question: The product is okay.
+       answer: True
+     - question: The price is right.
+       answer: False
+     - question: The place is right.
+       answer: True
+     - question: The promotion is satisfactory.
+       answer: True
+     - question: A sale is made.
+       answer: False
+  shoes_3:
+   identifier: shoes 3
+   A: |+
+      \item [Product] The product is okay.
+      \item [Price] Dr Bean is willing to pay 1,000NT.
+      \item [Place] Dr Bean wants to buy the shoes in Miaoli.
+      \item [Promotion] Dr Bean has seen QuanJiaFu in Toufen and Zhunan.
+   B: |+
+      \item [Product] Dr Bean is looking for some shoes to wear at school. 
+      \item [Price] The price is right.
+      \item [Place] The shoe store is near Miaoli Train Station.
+      \item [Promotion] QuanJiaFu's advertising is attractive.
+   C: |+
+      \item [Product] The shoe store has many kinds of shoes.
+      \item [Price] Formal shoes are 1,200NT and up.
+      \item [Place] The place is right.
+      \item [Promotion] The store is a QuanJiaFu store.
+   quiz :
+     - question: The product is okay.
+       answer: True
+     - question: The price is right.
+       answer: False
+     - question: The place is right.
+       answer: True
+     - question: The promotion is satisfactory.
+       answer: True
+     - question: A sale is made.
+       answer: True
+  shoes_4:
+   identifier: shoes 4
+   A: |+
+      \item [Product] Dr Bean is looking for some shoes to wear at school. 
+      \item [Price] The price is right.
+      \item [Place] The shoe store is near Miaoli Train Station.
+      \item [Promotion] The store is a QuanJiaFu store.
+   B: |+
+      \item [Product] The shoe store has many kinds of shoes.
+      \item [Price] Formal shoes are 1,000NT and up.
+      \item [Place] It takes too long to get to Miaoli Train Station.
+      \item [Promotion] The promotion is satisfactory.
+   C: |+
+      \item [Product] The product is okay.
+      \item [Price] Dr Bean only has 1,000NT.
+      \item [Place] Dr Bean will buy the shoes in 南苗.
+      \item [Promotion] Dr Bean has seen QuanJiaFu in Toufen and Zhunan.
+   quiz :
+     - question: The product is okay.
+       answer: True
+     - question: The price is right.
+       answer: False
+     - question: The place is right.
+       answer: False
+     - question: The promotion is satisfactory.
+       answer: True
+     - question: A sale is made.
+       answer: False
+  oil_1:
+   identifier: oil 1
+   A: |+
+      \item [Product] Dr Bean believes the salad oil comes from mainland China.
+      \item [Price] Dr Bean thinks 175 NT is a good price.
+      \item [Place] Dr Bean does all his shopping at Quanlian.
+      \item [Promotion] The promotion is satisfactory.
+   B: |+
+      \item [Product] Dr Bean doesn't believe the label. It says the oil is made in Taiwan.
+      \item [Price] The salad oil is 175 NT for 3 litres.
+      \item [Place] The place is right.
+      \item [Promotion] Dr Bean has seen Tai Sugar stores and products before.
+   C: |+
+      \item [Product]  Dr Bean will not buy mainland Chinese salad oil.
+      \item [Price] The price is right.
+      \item [Place] Prices at QuanLian are often cheaper.
+      \item [Promotion] Tai Sugar is a big food company, producing sugar, salad oil, etc.
+   quiz:
+     - question: The product is okay.
+       answer: False
+     - question: The price is right.
+       answer: True
+     - question: The place is right.
+       answer: True
+     - question: The promotion is satisfactory.
+       answer: True
+     - question: A sale is made.
+       answer: False
+  oil_2:
+   identifier: oil 2
+   A: |+
+      \item [Product] The product is okay.
+      \item [Price] Dr Bean thinks 175 NT is a good price.
+      \item [Place] Dr Bean does all his shopping at Quanlian.
+      \item [Promotion] Tai Sugar is a big food company, producing sugar, salad oil, etc.
+   B: |+
+      \item [Product] The label says the oil is made in Taiwan.
+      \item [Price] The salad oil is 150 NT for 3 litres.
+      \item [Place] The place is right.
+      \item [Promotion] Dr Bean has seen Tai Sugar stores and products before.
+   C: |+
+      \item [Product]  Dr Bean will not buy mainland Chinese salad oil.
+      \item [Price] The oil is on sale. It's cheaper than usual.
+      \item [Place] Prices at QuanLian are often cheaper.
+      \item [Promotion] The promotion is satisfactory.
+   quiz:
+     - question: The product is okay.
+       answer: True
+     - question: The price is right.
+       answer: True
+     - question: The place is right.
+       answer: True
+     - question: The promotion is satisfactory.
+       answer: True
+     - question: A sale is made.
+       answer: True
   milk_1:
    identifier: milk 1
    A: |+
@@ -61,6 +229,34 @@ sale:
   milk_2:
    identifier: milk 2
    A: |+
+      \item [Product] The product is okay.
+      \item [Price] Dr Bean is willing to pay 550 NT for 2 kilograms.
+      \item [Place] Dr Bean will buy the milk at QuanLian.
+      \item [Promotion] Dr Bean has never heard about Weichuan.
+   B: |+
+      \item [Product] The label on the powdered milk says it comes from Australia.
+      \item [Price] The powdered milk costs 550NT for 2 kilograms.
+      \item [Place] The place is right.
+      \item [Promotion] Dr Bean has not seen the Weichuan brand on other products.
+   C: |+
+      \item [Product] Dr Bean thinks milk from Australia is okay.
+      \item [Price] The price is right.
+      \item [Place] QuanLian sells powdered milk.
+      \item [Promotion] Dr Bean does not like the look of the powdered milk packaging.
+   quiz :
+     - question: The product is okay.
+       answer: True
+     - question: The price is right.
+       answer: True
+     - question: The place is right.
+       answer: True
+     - question: The promotion is satisfactory.
+       answer: False
+     - question: A sale is made.
+       answer: False
+  milk_3:
+   identifier: milk 3
+   A: |+
       \item [Product] Dr Bean will not buy milk which comes from mainland China.
       \item [Price] Dr Bean is willing to pay 550 NT for 2 kilograms.
       \item [Place] Dr Bean will buy the milk at QuanLian.
@@ -86,6 +282,264 @@ sale:
        answer: True
      - question: A sale is made.
        answer: True
+  milk_4:
+   identifier: milk 4
+   A: |+
+      \item [Product] Dr Bean wants to buy milk from Australia.
+      \item [Price] Dr Bean is willing to pay 600 NT for 2 kilograms.
+      \item [Place] Dr Bean will buy the milk at QuanLian.
+      \item [Promotion] The promotion is satisfactory.
+   B: |+
+      \item [Product] The label on Weichuan powdered milk says it comes from Australia.
+      \item [Price] The price is right.
+      \item [Place] QuanLian sold all its powdered milk. It doesn't have any left.
+      \item [Promotion] Dr Bean has seen the Weichuan brand on other products.
+   C: |+
+      \item [Product] The product is okay.
+      \item [Price] Weichuan powdered milk costs 550NT for 2 kilograms.
+      \item [Place] QuanLian sells Weichuan powdered milk.
+      \item [Promotion] Weichuan is a well-known food manufacturer in Taiwan.
+   quiz :
+     - question: The product is okay.
+       answer: True
+     - question: The price is right.
+       answer: True
+     - question: The place is right.
+       answer: False
+     - question: The promotion is satisfactory.
+       answer: True
+     - question: A sale is made.
+       answer: False
+  bananas_1:
+   identifier: bananas 1
+   p: product
+   A: |+
+      \item [Product] Dr Bean is willing to eat old bananas.
+      \item [Price] Dr Bean is willing to pay 15 NT for 1 kilogram.
+      \item [Place] Dr Bean wants to buy the fruit near NUU.
+      \item [Promotion] The promotion is satisfactory.
+   B: |+
+      \item [Product] The fruit store bananas have brown spots.
+      \item [Price] The bananas are 10 NT for 1 kilogram.
+      \item [Place] The place is right.
+      \item [Promotion] Dr Bean passes the fruit store everyday.
+   C: |+
+      \item [Product] Old bananas often taste better than new bananas.
+      \item [Price] The price is right.
+      \item [Place] The fruit store is on the corner of 中正路 and 勝利路.
+      \item [Promotion] Dr Bean looks at the price of the fruit everyday.
+   quiz :
+     - question: The product is okay.
+       answer: True
+     - question: The price is right.
+       answer: True
+     - question: The place is right.
+       answer: True
+     - question: The promotion is satisfactory.
+       answer: True
+     - question: A sale is made.
+       answer: True
+  bananas_2:
+   identifier: bananas 2
+   p: price
+   A: |+
+      \item [Product] The product is okay.
+      \item [Price] Dr Bean is willing to pay 15 NT for 1 kilogram.
+      \item [Place] Dr Bean wants to buy the fruit near NUU.
+      \item [Promotion] Dr Bean passes the fruit store everyday.
+   B: |+
+      \item [Product] The fruit store bananas are new.
+      \item [Price] The bananas are 20 NT for 1 kilogram.
+      \item [Place] The place is right.
+      \item [Promotion] The fruit is on display and the price is shown.
+   C: |+
+      \item [Product] Old bananas often taste better than new bananas.
+      \item [Price] The fruit store often sells old bananas at a cheaper price.
+      \item [Place] The fruit store is on the corner of 中正路 and 勝利路.
+      \item [Promotion] The promotion is satisfactory.
+   quiz :
+     - question: The product is okay.
+       answer: True
+     - question: The price is right.
+       answer: False
+     - question: The place is right.
+       answer: True
+     - question: The promotion is satisfactory.
+       answer: True
+     - question: A sale is made.
+       answer: False
+  bananas_3:
+   identifier: bananas 3
+   A: |+
+      \item [Product] The product is okay.
+      \item [Price] Dr Bean is willing to pay 15 NT for 1 kilogram.
+      \item [Place] Dr Bean wants to buy the fruit near NUU.
+      \item [Promotion] Dr Bean passes the fruit store everyday.
+   B: |+
+      \item [Product] The fruit store bananas are new.
+      \item [Price] The bananas are 20 NT for 1 kilogram.
+      \item [Place] The place is right.
+      \item [Promotion] The fruit is on display with the price.
+   C: |+
+      \item [Product] Old bananas often taste better than new bananas.
+      \item [Price] Dr Bean buys cheap bananas.
+      \item [Place] The fruit store is on the corner of 中正路 and 勝利路.
+      \item [Promotion] Dr Bean always looks at the fruit and the prices.
+   quiz :
+     - question: The product is okay.
+       answer: True
+     - question: The price is right.
+       answer: True
+     - question: The place is right.
+       answer: True
+     - question: The promotion is satisfactory.
+       answer: True
+     - question: A sale is made.
+       answer: True
+  bananas_4:
+   identifier: bananas 4
+   A: |+
+      \item [Product] Dr Bean eats all kinds of bananas.
+      \item [Price] The price is right.
+      \item [Place] Dr Bean wants to buy bananas near NUU.
+      \item [Promotion] The fruit store near NUU plays music.
+   B: |+
+      \item [Product] The fruit store bananas are old.
+      \item [Price] The bananas are 10 NT for 1 kilogram.
+      \item [Place] The fruit store is on the corner of 中正路 and 勝利路.
+      \item [Promotion] The promotion is satisfactory.
+   C: |+
+      \item [Product] The product is okay.
+      \item [Price] Dr Bean buys cheap bananas.
+      \item [Place] Dr Bean walks around near NUU but can't find the fruit store.
+      \item [Promotion] The store displays fruit with the price.
+   quiz :
+     - question: The product is okay.
+       answer: True
+     - question: The price is right.
+       answer: True
+     - question: The place is right.
+       answer: False
+     - question: The promotion is satisfactory.
+       answer: True
+     - question: A sale is made.
+       answer: False
+  eggs_1:
+   identifier: eggs 1
+   p: product
+   A: |+
+      \item [Product] Dr Bean doesn't care about the eggs' quality.
+      \item [Price] Dr Bean wants to buy cheap eggs.
+      \item [Place] Dr Bean doesn't want to buy at Quanlian or 7-11.
+      \item [Promotion] The promotion is satisfactory.
+   B: |+
+      \item [Product] The eggs are clean and aren't broken.
+      \item [Price] The eggs at the store are now 38 NT per kilogram.
+      \item [Place] The place is right.
+      \item [Promotion] The store has many white and brown eggs on display.
+   C: |+
+      \item [Product] The product is okay.
+      \item [Price] They're cheaper than at Quanlian and 7-11.
+      \item [Place] The store is on 中正路.
+      \item [Promotion] The eggs can be seen from the street.
+   quiz :
+     - question: The product is okay.
+       answer: True
+     - question: The price is right.
+       answer: True
+     - question: The place is right.
+       answer: True
+     - question: The promotion is satisfactory.
+       answer: True
+     - question: A sale is made.
+       answer: True
+  rice_1:
+   identifier: rice 1
+   p: product
+   A: |+
+      \item [Product] Dr Bean doesn't care about the quality of the rice.
+      \item [Price] Dr Bean wants to buy cheap rice.
+      \item [Place] Dr Bean always buys rice at Quanlian.
+      \item [Promotion] The promotion is satisfactory.
+   B: |+
+      \item [Product] The rice is old rice.
+      \item [Price] The rice is 148 NT for a 4.5 kilogram bag.
+      \item [Place] The place is right.
+      \item [Promotion] The rice on sale is always displayed at the front of the store.
+   C: |+
+      \item [Product] The product is okay.
+      \item [Price] The rice is cheaper than other rice.
+      \item [Place] QuanLian often has cheap rice on sale.
+      \item [Promotion] Dr Bean sees the rice as he goes in the door.
+   quiz :
+     - question: The product is okay.
+       answer: True
+     - question: The price is right.
+       answer: True
+     - question: The place is right.
+       answer: True
+     - question: The promotion is satisfactory.
+       answer: True
+     - question: A sale is made.
+       answer: True
+  rice_2:
+   identifier: rice 2
+   p: place
+   A: |+
+      \item [Product] Dr Bean doesn't care about the quality of the rice.
+      \item [Price] Dr Bean wants to buy cheap rice.
+      \item [Place] Dr Bean only buys rice at Quanlian.
+      \item [Promotion] The promotion is satisfactory.
+   B: |+
+      \item [Product] The rice is old rice.
+      \item [Price] The price is right.
+      \item [Place] When Dr Bean goes to Quanlian, there is no cheap rice left.
+      \item [Promotion] The rice on sale is always displayed at the front of the store.
+   C: |+
+      \item [Product] The product is okay.
+      \item [Price] The rice is 148 NT for a 4.5 kilogram bag.
+      \item [Place] QuanLian often, but not always, has cheap rice on sale.
+      \item [Promotion] Dr Bean sees the rice as he goes in the door.
+   quiz :
+     - question: The product is okay.
+       answer: True
+     - question: The price is right.
+       answer: True
+     - question: The place is right.
+       answer: False
+     - question: The promotion is satisfactory.
+       answer: True
+     - question: A sale is made.
+       answer: False
+  rice_3:
+   identifier: rice 3
+   p: place
+   A: |+
+      \item [Product] Dr Bean wants to eat natural, organic, brown rice.
+      \item [Price] Dr Bean doesn't care about the price of the rice.
+      \item [Place] Dr Bean goes to buy rice at Quanlian.
+      \item [Promotion] The promotion is satisfactory.
+   B: |+
+      \item [Product] The product is okay.
+      \item [Price] The price is more than 300 NT for a 4 kilogram bag.
+      \item [Place] Quanlian doesn't sell natural, organic, brown rice.
+      \item [Promotion] Dr Bean's friends suggested he eat brown rice.
+   C: |+
+      \item [Product] Some natural organic brown rice is produced in Taiwan.
+      \item [Price] The price is right.
+      \item [Place] Dr Bean looks for natural brown rice at QuanLian, but can't see it.
+      \item [Promotion] Dr Bean read that natural brown rice is good for health.
+   quiz :
+     - question: The product is okay.
+       answer: True
+     - question: The price is right.
+       answer: True
+     - question: The place is right.
+       answer: False
+     - question: The promotion is satisfactory.
+       answer: True
+     - question: A sale is made.
+       answer: False
 
  compcomp:
   banana:
