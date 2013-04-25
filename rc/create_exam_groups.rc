@@ -56,10 +56,6 @@ for my $n ( @n ) {
 
 DumpFile "exam/$round/groups.yaml", $yaml;
 
-my %p1 = map { $_ => $b2->{$_}->[0] } @keys;
-%p2 = map { $_ => $b2->{$_}->[1] } @keys;
-# my %p3;
-
 my %groups = map { my $group = $_;
 					my $order = $group2order{$group};
 					if ( $order % 3 == 0 ) {
@@ -72,6 +68,11 @@ my %groups = map { my $group = $_;
 						$p3{$group} = $b2->{$othergroup}->[1];
 					}
 } @keys;
+
+my $c = LoadFile "exam/$round/C.yaml";
+my %p1 = map { $_ => $b2->{$_}->[0] } @keys;
+%p2 = map { $_ => $b2->{$_}->[1] } @keys;
+%p3 = map { $_ => $c->{$_} } @keys;
 
 my @g = 
 "\\documentclass[a4paper]{article}
@@ -89,11 +90,10 @@ my @g =
 
 \\newcommand{\\mysignup}[1]{
 	\\begin{textblock}{16}(#1)
-	\\begin{multicols}{2}
       $dir League Midterm Exam Groups
 \\begin{tabbing}
 \\hspace{1cm} \\= A  \\hspace{3cm}  \\= B \\hspace{3cm}  \\= C\\\\
-\\> \\> \\> Name:     ID\\\\
+\\> \\> \\> Name: \\hspace{1cm}  \\=ID \\hspace{2cm} \\=Order \\hspace{1cm} \\=CardID\\\\
 \\end{tabbing}
 \\vspace{-1.0cm}
 \\normalsize
@@ -106,17 +106,22 @@ for ( @keys ) {
 	$i++;
 	# push @g, "$i. $_\t$i{$_}\t$p2{$_}\t$i{$p2{$_}}\t$p3{$_}\t$i{$p3{$_}}\n";
 	# push @g, "$_\t$p1{$_}\t$i{$p1{$_}}\t$p2{$_}\t$i{$p2{$_}}\t_______\t_______\n";
-	push @g, "\\item [$_] \\begin{small}$p1{$_}\\end{small} \\tabto{0.9cm} $i{$p1{$_}} \\begin{small}$p2{$_}\\end{small} \\tabto{3.9cm} $i{$p2{$_}} \\tabto{6.1cm} \\rule{1.0cm}{0.02cm} \\rule{2.0cm}{0.02cm} \\vspace{-0.25cm}\\\\\n";
+	push @g,
+"\\item [$_]
+\\tabto{0.2cm} \\begin{normalsize}$p1{$_}\\end{normalsize} \\tabto{1.5cm} $i{$p1{$_}}
+\\tabto{3.8cm} \\begin{normalsize}$p2{$_}\\end{normalsize} \\tabto{5.1cm} $i{$p2{$_}}
+\\tabto{7.4cm} \\begin{large}$p3{$_}     \\end{large}      \\tabto{9.1cm} $i{$p3{$_}}
+\\tabto{11.4cm} \\rule{1.0cm}{0.02cm}
+\\tabto{13.0cm} \\rule{2.0cm}{0.02cm}
+\\vspace{+0.00cm}\\\\\n";
 }
 
 push @g, "
 \\end{description}\n
-\\end{multicols}
 \\end{textblock}
 }
 \\begin{document}
 \\mysignup{0,0}
-\\mysignup{0,8}
 \\end{document}\n";
 
 io("exam/$round/groups.tex")->print( @g );
