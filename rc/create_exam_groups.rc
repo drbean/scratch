@@ -7,7 +7,7 @@ use YAML qw/LoadFile DumpFile Dump/;
 use Cwd;
 use List::Util qw/first/;
 
-my $round = 2;
+my $round = '2.orig';
 
 $_REPL->load_plugin('DumpHistory');
 
@@ -57,7 +57,7 @@ for my $n ( @n ) {
 DumpFile "exam/$round/groups.yaml", $yaml;
 
 my %p1 = map { $_ => $b2->{$_}->[0] } @keys;
-# my %p2 = map { $_ => $b2->{$_}->[1] } @keys;
+%p2 = map { $_ => $b2->{$_}->[1] } @keys;
 # my %p3;
 
 my %groups = map { my $group = $_;
