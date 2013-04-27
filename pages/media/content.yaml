@@ -114,3 +114,15 @@ topic:
         id: scalia
         title: Judge opposes televising of Supreme Court
         blurb: |
+  -
+    id: channels
+    title: ESPN
+    intro: Radio stations and TV channels
+    story:
+      -
+        id: espn
+        title: ESPN--the major cable sports channel
+        blurb: |
+          <a href="http://en.wikipedia.org/wiki/ESPN">ESPN</a> is the "<a href="http://en.wikipedia.org/wiki/CNN">CNN</a> of sports." Like CNN, it is available 24 hours a day on cable or satellite TV in the US and other places around the world
+        comment: |
+          Besides live sports broadcasts, it also airs a variety of sports highlight, talk and documentary style shows. Watch clips from three shows. The first, published in its <a href="http://espn.go.com/magazine">ESPN Magazine</a>, at <a href="http://espn.go.com/nba/story/_/id/8677775/the-truth-houston-rockets-guards-james-harden-jeremy-lin-espn-magazine">True and False by Jeremy Lin and Jamese Harden</a> is <a href="http://www.youtube.com/watch?v=kPAxGHf5LdA">here</a>. The second, an interview with a Mixed Martial Arts fighter, <a href="http://espn.go.com/mma/fighter/_/id/2335796/chael-sonnen">Chael Sonnen</a> is <a href="http://www.youtube.com/watch?v=h4ARxky0Qv4">here</a>. The third, highlights of a match in the playoff series between the Chicago Bulls and Brooklyn Nets is <a href="http://www.youtube.com/watch?v=BRAYKwrfPJ4">here</a>.
