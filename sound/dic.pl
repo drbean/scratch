@@ -31,10 +31,10 @@ my @targets = ( "all");
 my $n = 0;
 my $order = { map { $_ => $n++ } @targets };
 my @voices = (
-			"voice_nitech_us_clb_arctic_hts",
-			"voice_nitech_us_slt_arctic_hts",
 			"voice_nitech_us_rms_arctic_hts",
 			"voice_nitech_us_awb_arctic_hts",
+			"voice_nitech_us_clb_arctic_hts",
+			"voice_nitech_us_slt_arctic_hts",
 		);
 
 use YAML qw/LoadFile DumpFile/;
