@@ -21,19 +21,20 @@ GetOptions(
 use Net::FTP;
 my $ftp = Net::FTP->new('web.nuu.edu.tw') or
 			die "web.nuu.edu.tw? $@";
-$ftp->login('greg', '1514') or die "web.nuu.edu.tw login? $@";
+$ftp->login('greg', '6y6t6y6t') or die "web.nuu.edu.tw login? $@";
 $ftp->cwd("public_html/$genre/$area") or die
 	"web.nuu.edu.tw/~greg/public_html? $@";
 $ftp->binary;
 
-my @targets = ( 'A' .. 'D' );
+# my @targets = ( 'A' .. 'D' );
+my @targets = ( "all");
 my $n = 0;
 my $order = { map { $_ => $n++ } @targets };
 my @voices = (
-			"voice_nitech_us_rms_arctic_hts",
-			"voice_nitech_us_awb_arctic_hts",
 			"voice_nitech_us_clb_arctic_hts",
 			"voice_nitech_us_slt_arctic_hts",
+			"voice_nitech_us_rms_arctic_hts",
+			"voice_nitech_us_awb_arctic_hts",
 		);
 
 use YAML qw/LoadFile DumpFile/;
@@ -45,7 +46,7 @@ for my $text ( @$texts ) {
 	my $target = $targets[ $targetindex ];
 	my $voice = $voices[ $targetindex ];
 	my $content = $text->[4];
-	my $local = "/home/drbean/soundfiles/$genre/$area/$story$target.mp3";
+	my $local = "/home/drbean/soundfiles/$genre/$area/${story}_$target.mp3";
 	system( "echo \"$content\" |
 		text2wave -eval \"($voice)\" -otype wav -o /tmp/$genre.wav"
 		) == 0 or die "text2wave? $@,";
