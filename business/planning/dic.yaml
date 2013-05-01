@@ -6,6 +6,7 @@
   - target
   - content
   - unclozeables
+  - percent
 -
   - graham
   - Creating plans
@@ -17,6 +18,7 @@
 
     Choose the structure of your business very carefully,
   - Interviewer|Graham
+  - 100
 -
   - graham
   - Creating plans
@@ -29,6 +31,7 @@
     
     One particular tip: desktop market research
   - reinvent the wheel
+  - 100
 -
   - graham
   - Creating plans
@@ -37,6 +40,7 @@
   - |+
     ... is great and is very valuable. But research carried out talking to real clients who really want to buy your service or your product breathe ... breathes life into any plan. Also, if you talk to clients and potential clients and find they don't like your offer, you can then find out what it is you would need to do in order for them to buy some adapted or revised offer.
   - breathe
+  - 100
 -
   - graham
   - Creating plans
@@ -45,6 +49,7 @@
   - |+
     So use your clients to market test your ideas and help you refine your plan. And again, this applies to both start-up, new businesses and established businesses. And with established businesses, it is always worth undertaking independent research. Sometimes clients prefer to talk to third parties, especially if they have concerns. And remember that this is the analysis of these concerns that helps shape the business moving forward, and make it a better business.
   - third parties|refine|concerns
+  - 100
 -
   - palmer
   - The Green and Black story
@@ -72,8 +77,13 @@
 
     So Jo is very much the luxury side of Green and Black's. She's a total chocoholic. She has got an interest in environmental issues. But her biggest deal in life is having great chocolate, and lots of indulgences. So, it's the fusion of Green and Black's, right from the early days.
 
-    This is the very first bar of Green and Black's.
-  - pyramids|essence|denotes|cachet|Cadbury|Nestle|Craig Sams|Anita Roddick|Craig|Notting Hill|macrobiotic|curve|Josephine Fairley|Craig|chocoholic|indulgences
+    05:08 This is the very first bar of Green and Black's. And I guess, you know, some of you in the room will be running your own businesses and you'll realize that the idea of hiring a design agency is a nice idea, but you simply can't afford it. So this was actually done at home by Craig on his Apple Mac. He's again ahead of the game, having an Apple Mac, way back then. But, the founders actually designed the pack, knocked it up, and got the first few packs printed.
+
+    But I always go back to this pack, because I think it's a brilliant explanation of what Green and Black's is about. I mean, really a high-quality chocolate with third-party verification. So we use the Soil Association in the U.K. to say we're organic, rather than making a vague claim about natural [...] And better than anything else, I think, I mean, having the balls to actually put the ingredients list on the front of the pack, rather than the back. Because they were so confident that this was a chocolate with no nasties. So why not actually announce what we have. It's all about high levels of cocoa. And not much more.
+
+    And that pack was what set Green and Black's on its path. And Dark 70 Percent was the very first bar we launched. And is still the biggest selling line in the range today. And we have about 65 lines now, I think, in the Green and Black's portfolio. But this is still the Number One. So the original idea still cuts it.
+  - pyramids|essence|denotes|cachet|Cadbury|Nestle|Craig Sams|Anita Roddick|Craig|Notting Hill|macrobiotic|curve|Josephine Fairley|Craig|chocoholic|indulgences|portfolio
+  - 12
 -
   - kendall_talk1
   - William Kendall
@@ -102,6 +112,7 @@
 
     And you know, as you heard from Simon, I then left being a farmer, which was probably quite a sensible thing to do and I became a barrister, and then a banker. But I was very, very frustrated ...
   - Simon|William|Kendall|serial|Cambridge|MBA|INSEAD|stint|barrister|Covent Garden|embryonic|Cadbury|passionate|erudite|Gosh|paraphernalia|motorized skateboards|fire|Maurice|Saatchi|elitist|carnivals|capex|sclerotic
+  - 100
 -
   - kendall_talk2
   - William Kendall
@@ -132,6 +143,7 @@
 
     It's a trip that sort of changed my life, going out and actually having spoken about it for years, actually realizing that you really can make a difference to your supply chain. Especially, you know, if you get involved yourself, and you just don't buy into some clever brand like Fairtrade. But you actually know the people who you're working with.
   - 05:20|Simon|barrister|Scandinavia|boffins|barcode|board ledger clerk|Nina|British|eschewed|Bourneville|Fairtrade|cocoa|Belize|Toledo
+  - 100
 -
   - kendall_people
   - Kendall, Sams, Fairley, Prince Charles, Palmer
@@ -167,6 +179,7 @@
 
 
 
+  - 100
 -
   - plans
   - Creating plans
@@ -178,6 +191,7 @@
     Planning is very, very important. Before talking to people who want to use your service or product, you need to do a lot of planning. But it is also very important to talk to clients. You need to see if you have what they are looking for. If you don't have what they want, perhaps your business plans won't be successful.
 
   - trip|fault|based|clients
+  - 100
 -
   - plans
   - Working with plans
@@ -189,6 +203,7 @@
     The plan you have written down can be shown to many different people whenever they want to see a business plan. So the hard work writing down the business plan also should not be regarded as a waste of time. It can be reused many times.
 
   - repaid|constantly|shareholders
+  - 100
 -
   - plans
   - Ownership of the plan
@@ -200,6 +215,7 @@
     You can't impose a plan on people and expect them to get excited about it and to follow it.  Everyone needs to know what the goal of the company is and to be excited about having a role in reaching that goal. That only happens when everyone feels they themselves are creating the goals of the company and new goals for themselves, at the same time. It doesn't happen when people feel they are just following someone else's goals.
 
   - identified|impose
+  - 100
 -
   - plans
   - William Kendall
@@ -211,6 +227,7 @@
     Therefore, when he started at his next company, Green and Black Chocolates, he immediately started thinking about how to sell it. He went to a very big chocolate company, Cadbury's and asked them if they would like to invest ten percent in the company. They did. And now Cadbury's has bought all of his company. That was his plan.
 
   - Covent Garden Soup|Cadbury's|invest
+  - 100
 -
   - organic
   - The rise in sales of organic food
@@ -220,6 +237,7 @@
     Organic food is food grown without the use of farm chemicals. There have always been people who believe in organic food and food which is different than the food other people eat. But the numbers of these people were very small and organic farmers, organic food producers and organic restaurants never made much money.
     Now, however, people like William Kendall and Craig Sams have made a lot of money by selling organic products. Kendall thinks many people with money have becoming dissatisfied with the cheap, packaged food they can buy in supermarkets. They want a closer connection with the production of the food they eat, and they are prepared to pay more for it. 
   - William Kendall|Craig Sams
+  - 100
 -
   - organic
   - William Kendall and organic food
@@ -230,6 +248,7 @@
     But he found that the organic products his first company made became very popular. He was very successful with this first company, which marketed fresh soup in a carton, rather than in a can or packet. He changed his views about organic food and he made his own farm an organic farm. 
     Then he took over Craig Sams' organic chocolate company, and he was even more successful.
   - William Kendall|soup|carton|packet|Craig Sams
+  - 100
 -
   - organic
   - William Kendall and Craig Sams
@@ -240,6 +259,7 @@
     His chocolate became very, very popular. All of the most popular natural food products sold in America are chocolate. But he didn't have the financial resources to build the company fast enough. William Kendall offered to buy a seventy-five-percent share in the company, and the company grew fifty percent each year.
     Now everybody eats some of Sams' chocolate.
   - Craig Sams|William Kendall|extreme
+  - 100
 -
   - organic
   - William Kendall and Prince Charles
@@ -250,6 +270,7 @@
     More and more people started believing in organic food. The organic food market is now worth two billion pounds each year in England. William Kendall was one of the farmers who went to the Prince's farm and learned about organic farming.
     Now William Kendall's own farm is run the same way as the Prince's, without agricultural chemicals.
   - Prince Charles|Queen Elizabeth|William Kendall
+  - 100
 -
   - kendall
   - William Kendall and the New Covent Garden Soup Company
@@ -267,6 +288,7 @@
     It took him two years to get a shareholder of the New Covent Garden Soup Company to buy the company. The shareholder was only willing to take over the New Covent Garden Soup Company if William Kendall joined this other company.
 
   - William Kendall|practices|inherited|chief executive|Covent Garden|shareholder
+  - 100
 -
   - kendall
   - William Kendall and organic food
@@ -284,6 +306,7 @@
     When he took over Green and Black, the company had sales of two million pounds. When the company was sold to a very big chocolate company, six years later, it had sales of twenty-two million pounds.
 
   - William Kendall|Covent Garden|chemicals|unpolluted|Chocolate|Craig Sams|supporter
+  - 100
 -
   - kendall
   - Planning to sell the business
@@ -313,6 +336,7 @@
     He had involved a very big company in his business from the start, and they were very willing to take over the business when it made a lot of money.
 
   - <NOT SO IMPORTANT>|</NOT SO IMPORTANT>|William Kendall|organic|Chocolate|connected|personal|pure|chemicals|supporters|Craig Sams|founder|share|Cadbury's|cooperate|compete|involved
+  - 100
 -
   - kendall
   - Motivation and control
@@ -346,6 +370,7 @@
     He says at the New Covent Garden Soup Company he learned how to give people a lot of freedom, but not too much freedom. The problem is getting everyone in the business excited about reaching the company's goals and making sure they only do what they are supposed to do to at the same time. The business's employees need to be motivated, but they also need to be controlled.
 
   - <NOT SO IMPORTANT>|</NOT SO IMPORTANT>|Teresa Graham|William Kendall|role|skilled|concentrate|Covent Garden|freedom
+  - 100
 -
   - badplan
   - Goals
@@ -357,6 +382,7 @@
     Graham: Choose an existing structure carefully.
     Bean: I don't want to use old structures. I want to create a new structure.
   - Graham|Bean|Kendall|language teaching
+  - 100
 -
   - badplan
   - Goals
@@ -368,6 +394,7 @@
     Graham: Plans also need to be shown to people.
     Bean: Unfortunately, I do not think many people have looked at what I wrote then. And I haven't tried asking people what they think of what I wrote. In fact I talk very little to people about my ideas.
   - Graham|Bean|investors
+  - 100
 -
   - badplan
   - Goals
@@ -381,6 +408,7 @@
     Graham: Good businesses involve everyone in creation of their plans.
     Bean: I work mostly by myself. I don't involve other people in what I do. I have a lot of freedom. I don't have to negotiate what I do.
   - Graham|Bean
+  - 100
 -
   - badplan
   - Goals
@@ -392,6 +420,7 @@
     
     I think I am getting better at planning. But I don't know what to do to reach my goal. Kendall had a good idea, or could recognize good ideas before other people recognized them. Google had a good idea. I have good ideas but I cannot turn them into things people want to do.
   - Graham|Kendall|Bean|Google
+  - 100
 -
   - comp
   - CompComp activity
@@ -404,6 +433,7 @@
     Graham: Will the competition help you reach your goals?
     Bean: Perhaps not.
   - Graham|Bean
+  - 100
 -
   - comp
   - CompComp activity
@@ -417,6 +447,7 @@
     Graham: Have you told them what your goals are?
     Bean: Yes, but they probably don't understand why I think the activity is important. Often, they don't understand what I say. 
   - Graham|Bean
+  - 100
 -
   - comp
   - CompComp activity
@@ -428,6 +459,7 @@
     Graham: What ideas do you think they have about the competition?
     Bean: I don't know. Perhaps I should ask them. But I think the activity doesn't have much meaning for them. It means a lot more for me.
   - Graham|Bean
+  - 100
 -
   - comp
   - Goals
@@ -439,6 +471,7 @@
 
     I want to do the same thing with English teaching. I want people to get excited about learning English, which most people think is not exciting. I want to be as successful as he was planning the growth of his business.
   - Graham|Bean
+  - 100
 ---
 -
   - genre
