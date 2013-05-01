@@ -191,3 +191,99 @@ no:
           answer  : True
         - question: The men are not good intercultural communicators.
           answer  : True
+injury:
+  compcomp:
+    1:
+      identifier:
+      White: 
+      Black: 
+      quiz:
+        - question: 
+          answer: 
+  jigsaw:
+    1:
+      identifier: injury 1
+      A: You hit your leg on the desk. It hurt. You don't feel good. Jennifer laughs. Dr Bean looks unhappy.
+      B: When Cheer hit her leg on the desk, you felt embarrassed. You were embarrassed, and you laughed. You noticed Dr Bean look sad.
+      C: When Cheer hit her leg, you knew it wasn't a bad injury. But you thought you should feel sympathy, so you pretended to be sad.
+      quiz:
+        - question: A
+          option:
+            - Cheer
+            - Dr Bean
+            - Jennifer
+          answer: Cheer
+        - question: B
+          option:
+            - Cheer
+            - Dr Bean
+            - Jennifer
+          answer: Jennifer
+        - question: C
+          option:
+            - Cheer
+            - Dr Bean
+            - Jennifer
+          answer: Dr Bean
+        - question: Cheer suffered a very bad injury.
+          answer  : False
+        - question: Dr Bean hurt his leg, too.
+          answer  : False
+        - question: Jennifer was happy.
+          answer  : False
+        - question: Dr Bean pretended to be sad.
+          answer  : True
+        - question: Dr Bean really was sad.
+          answer  : False
+        - question: Jennifer felt embarrassed.
+          answer  : True
+        - question: The Western and Taiwanese reaction is different.
+          answer  : True
+paying:
+  compcomp:
+    1:
+      identifier:
+      White: 
+      Black: 
+      quiz:
+        - question: 
+          answer: 
+  jigsaw:
+    1:
+      identifier: paying 1
+      A: An older Minnan father-in-law and a younger Hakka son-in-law, called Frank are fighting to pay you for food at the supermarket.
+      B: You are Hakka. You want to pay for the food your father-in-law is buying for a dinner. This is what the Hakka do.
+      C: Your son-in-law insists on paying. You feel he is not showing respect. You want him to enjoy the food you bought.
+      quiz:
+        - question: A
+          option:
+            - Cashier
+            - Father-in-law
+            - Frank
+          answer: Cashier
+        - question: B
+          option:
+            - Cashier
+            - Father-in-law
+            - Frank
+          answer: Frank
+        - question: C
+          option:
+            - Cashier
+            - Father-in-law
+            - Frank
+          answer: Father-in-law
+        - question: The father-in-law is Frank's guest.
+          answer  : False
+        - question: Frank paid for the food.
+          answer  : True
+        - question: Frank doesn't respect his father-in-law.
+          answer  : False
+        - question: Frank didn't realize he'd hurt his father-in-law.
+          answer  : True
+        - question: The father-in-law doesn't know Hakka customs.
+          answer  : True
+        - question: The father-in-law shouldn't have gotten upset.
+          answer  : True
+        - question: Frank was wrong to have insisted on paying.
+          answer  : False
