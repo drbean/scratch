@@ -10,7 +10,7 @@ use List::Util qw/sum/;
 
 $_REPL->load_plugin('DumpHistory');
 
-my $exam = 1;
+my $exam = 2;
 
 (my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
 use Grades;
@@ -26,4 +26,4 @@ my $n = LoadFile "exam/$exam/newsresponse.yaml";
 my  %g2 = map { my $p = $_; $_ =>  5 * (sum (
 	map { sum values %{ $n->{$p}->{$_} } } keys %{$n->{$p}} ) ) / 27
 		} keys %m;
-# DumpFile "exam/$exam/newsscores.yaml", \%g1;
+# DumpFile "exam/$exam/newsscores.yaml", \%g2;
