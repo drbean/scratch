@@ -534,6 +534,34 @@ drbean:
           - social
           - Kendall
         answer: Kendall
+  3:
+    identifier: planning 3
+    A: |
+      \item [Clarity] The idea was to develop a new activity that motivated students.
+      \item [Autonomy] Students had autonomy in the activity.
+      \item [Ownership] Dr Bean wanted students to feel they owned the activity.
+      \item [Innovation] The idea of a conversation competition was a new one.
+    B: |
+      \item [Clarity] The idea was clear and simple.
+      \item [Autonomy] Dr Bean wanted students to choose what to talk about.
+      \item [Ownership] Students did not accept Dr Bean's ideas about the activity.
+      \item [Innovation] Dr Bean continually made changes to improve the activity.
+    C: |
+      \item [Clarity] The idea was students ask questions and choose a winner.
+      \item [Autonomy] Dr Bean had little control of what the students did in groups.
+      \item [Ownership] Students did not feel involved in the activity.
+      \item [Innovation] There was innovation.
+    quiz:
+      - question: The idea was clear and simple.
+        answer: True
+      - question: Students had autonomy.
+        answer: True
+      - question: Everyone felt ownership of the activity.
+        answer: False
+      - question: There was innovation.
+        answer: True
+      - question: The activity was successful.
+        answer: False
 organic:
  jigsaw:
   0:
