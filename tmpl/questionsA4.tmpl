@@ -16,14 +16,6 @@
 \setlength{\unitlength}{1cm}
 \renewcommand{\baselinestretch}{0.5}
 
-\newcommand{\myTFquestion}[3]{%
-\begin{minipage}{7.5cm}
-\vspace{-0.1cm}
-\textbf{#1} \\
-\indent \textbf {} #2 \textbf {} #3
-\end{minipage}
-}
-
 \makeatletter
 \define@key{TFQuestions}{Question1}[Your question?]{%
 \item \textbf{#1} \\
@@ -130,41 +122,6 @@
 	<TMPL>$rubric</TMPL>
 	}
 }
-
-\newcommand{\myshortquestion}[5]{%
-\begin{minipage}{7.5cm}
-\vspace{-0.1cm}
-\textbf{#1} \\
-\indent \textbf {} #2 \textbf {} #3 \textbf {} #4 \textbf {} #5
-\end{minipage}
-}
-
-\newcommand{\myquestion}[4]{%
-\begin{minipage}{7.5cm}
-\vspace{-0.1cm}
-\textbf{#1}
-\vspace{-0.1cm}
-\begin{description}
-\vspace{-0.1cm}
-\item [a] #2
-\vspace{-0.2cm}
-\item [b] #3
-\vspace{-0.1cm}
-\item [c] #4
-\vspace{-0.1cm}
-\end{description}
-\end{minipage}
-}
-
-% \newcommand{\myblock}[11]{%
-% \begin{minipage}{7.5cm}
-% \begin{description}
-% 
-% \end{description}
-% \end{minipage}
-% \par
-% \vspace{0.5cm}
-% }
 
 \begin{document}
 
