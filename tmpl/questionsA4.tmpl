@@ -16,92 +16,98 @@
 \setlength{\unitlength}{1cm}
 \renewcommand{\baselinestretch}{0.5}
 
+\newcommand{\distractorsi}{ <TMPL>$distractors1</TMPL> }
+\newcommand{\distractorsii}{ <TMPL>$distractors2</TMPL> }
+\newcommand{\distractorsiii}{ <TMPL>$distractors3</TMPL> }
+\newcommand{\distractorsiv}{ <TMPL>$distractors4</TMPL> }
+\newcommand{\distractorsv}{ <TMPL>$distractors5</TMPL> }
+
 \makeatletter
-\define@key{TFQuestions}{Question1}[Your question?]{%
+\define@key{myQuestions}{Question1}[Your question?]{%
+\item \textbf{#1} \\
+\par
+\vspace{-0.1cm}
+\indent \distractorsi \\%
+\vspace{-0.2cm}
+}%
+\define@key{myQuestions}{Question2}[Your question?]{%
+\item \textbf{#1} \\
+\par
+\vspace{-0.1cm}
+\indent \distractorsii \\%
+\vspace{-0.2cm}
+}%
+\define@key{myQuestions}{Question3}[Your question?]{%
+\item \textbf{#1} \\
+\par
+\vspace{-0.1cm}
+\indent \distractorsiii \\%
+\vspace{-0.2cm}
+}%
+\define@key{myQuestions}{Question4}[Your question?]{%
+\item \textbf{#1} \\
+\par
+\vspace{-0.1cm}
+\indent \distractorsiv \\%
+\vspace{-0.2cm}
+}%
+\define@key{myQuestions}{Question5}[Your question?]{%
+\item \textbf{#1} \\
+\par
+\vspace{-0.1cm}
+\indent \distractorsv \\%
+\vspace{-0.2cm}
+}%
+\define@key{myQuestions}{Question6}[Your question?]{%
 \item \textbf{#1} \\
 \par
 \vspace{-0.1cm}
 \indent True \hspace{0.5cm} False\\%
 \vspace{-0.2cm}
 }%
-\define@key{TFQuestions}{Question2}[Your question?]{%
+\define@key{myQuestions}{Question7}[Your question?]{%
 \item \textbf{#1} \\
 \par
 \vspace{-0.1cm}
 \indent True \hspace{0.5cm} False\\%
 \vspace{-0.2cm}
 }%
-\define@key{TFQuestions}{Question3}[Your question?]{%
+\define@key{myQuestions}{Question8}[Your question?]{%
 \item \textbf{#1} \\
 \par
 \vspace{-0.1cm}
 \indent True \hspace{0.5cm} False\\%
 \vspace{-0.2cm}
 }%
-\define@key{TFQuestions}{Question4}[Your question?]{%
+\define@key{myQuestions}{Question9}[Your question?]{%
 \item \textbf{#1} \\
 \par
 \vspace{-0.1cm}
 \indent True \hspace{0.5cm} False\\%
 \vspace{-0.2cm}
 }%
-\define@key{TFQuestions}{Question5}[Your question?]{%
+\define@key{myQuestions}{Question10}[Your question?]{%
 \item \textbf{#1} \\
 \par
 \vspace{-0.1cm}
 \indent True \hspace{0.5cm} False\\%
 \vspace{-0.2cm}
 }%
-\define@key{TFQuestions}{Question6}[Your question?]{%
+\define@key{myQuestions}{Question11}[Your question?]{%
 \item \textbf{#1} \\
 \par
 \vspace{-0.1cm}
 \indent True \hspace{0.5cm} False\\%
 \vspace{-0.2cm}
 }%
-\define@key{TFQuestions}{Question7}[Your question?]{%
+\define@key{myQuestions}{Question12}[Your question?]{%
 \item \textbf{#1} \\
 \par
 \vspace{-0.1cm}
 \indent True \hspace{0.5cm} False\\%
 \vspace{-0.2cm}
 }%
-\define@key{TFQuestions}{Question8}[Your question?]{%
-\item \textbf{#1} \\
-\par
-\vspace{-0.1cm}
-\indent True \hspace{0.5cm} False\\%
-\vspace{-0.2cm}
-}%
-\define@key{TFQuestions}{Question9}[Your question?]{%
-\item \textbf{#1} \\
-\par
-\vspace{-0.1cm}
-\indent True \hspace{0.5cm} False\\%
-\vspace{-0.2cm}
-}%
-\define@key{TFQuestions}{Question10}[Your question?]{%
-\item \textbf{#1} \\
-\par
-\vspace{-0.1cm}
-\indent True \hspace{0.5cm} False\\%
-\vspace{-0.2cm}
-}%
-\define@key{TFQuestions}{Question11}[Your question?]{%
-\item \textbf{#1} \\
-\par
-\vspace{-0.1cm}
-\indent True \hspace{0.5cm} False\\%
-\vspace{-0.2cm}
-}%
-\define@key{TFQuestions}{Question12}[Your question?]{%
-\item \textbf{#1} \\
-\par
-\vspace{-0.1cm}
-\indent True \hspace{0.5cm} False\\%
-\vspace{-0.2cm}
-}%
-\define@key{TFQuestions}{Question13}[Your question?]{%
+\define@key{myQuestions}{Question13}[Your question?]{%
 \item \textbf{#1} \\
 \par
 \vspace{-0.1cm}
@@ -116,7 +122,7 @@
 \newcommand\SpecifyBlock[1][]{%
 	\parbox[t][114.6cm][t]{8.5cm}{%
 	\begin{description}
-  \setkeys{TFQuestions}{#1}%
+  \setkeys{myQuestions}{#1}%
 	\end{description}
 	\vspace{+0.25cm}
 	<TMPL>$rubric</TMPL>
