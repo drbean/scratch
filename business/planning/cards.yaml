@@ -535,7 +535,7 @@ drbean:
           - Kendall
         answer: Kendall
   3:
-    identifier: planning 3
+    identifier: drbean 3
     A: |
       \item [Clarity] The idea was to develop a new activity that motivated students.
       \item [Autonomy] Students had autonomy in the activity.
@@ -552,16 +552,68 @@ drbean:
       \item [Ownership] Students did not feel involved in the activity.
       \item [Innovation] There was innovation.
     quiz:
-      - question: The idea was clear and simple.
-        answer: True
-      - question: Students had autonomy.
-        answer: True
-      - question: Everyone felt ownership of the activity.
-        answer: False
+      - question: Clear and simple idea
+        option:
+          - Present
+          - Absent
+        answer: Present
+      - question: Autonomy
+        option:
+          - Present
+          - Absent
+        answer: Present
+      - question: Ownership
+        option:
+          - Present
+          - Absent
+        answer: Absent
       - question: There was innovation.
-        answer: True
+        option:
+          - Present
+          - Absent
+        answer: Present
       - question: The activity was successful.
         answer: False
+  4:
+    identifier: drbean 4
+    A: |
+      \item [Clarity] The idea was clear and simple.
+      \item [Autonomy] Students chose questions after listening to each other.
+      \item [Ownership] Students often got involved in the competition.
+      \item [Innovation] The conversation competition was Dr Bean's idea.
+    B: |
+      \item [Clarity] The idea was students compete with each other.
+      \item [Autonomy] There were student questions on the board.
+      \item [Ownership] Students wanted their champion to be the winner.
+      \item [Innovation] There was innovation.
+    C: |
+      \item [Clarity] Students had to chose the winner.
+      \item [Autonomy] Dr Bean wanted students to take control.
+      \item [Ownership] There was ownership.
+      \item [Innovation] Dr Bean developed variations of the activity.
+    quiz:
+      - question: Clear and simple idea
+        option:
+          - Present
+          - Absent
+        answer: Present
+      - question: Autonomy
+        option:
+          - Present
+          - Absent
+        answer: Present
+      - question: Ownership
+        option:
+          - Present
+          - Absent
+        answer: Present
+      - question: Innovation
+        option:
+          - Present
+          - Absent
+        answer: Present
+      - question: The activity was successful.
+        answer: True
 organic:
  jigsaw:
   0:
