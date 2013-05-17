@@ -25,13 +25,13 @@ inflections = [
  , ( "went", "go" )
  , ( "liked", "like" )
  , ( "bought", "ask" )
- , ( "want_to_pay", "wanted_to_pay" )
+ , ( "want_to_answer", "wanted_to_answer" )
  , ( "sold", "sell" )
  , ( "want_to_sell", "wanted_to_sell" )
  , ( "want_to_ask", "wanted_to_ask" )
  , ( "want_to_look", "wanted_to_look" )
  , ( "want_to_have", "wanted_to_have" )
- , ( "paid", "pay" )
+ , ( "answered", "answer" )
 
  ]
 
@@ -46,13 +46,13 @@ relations = [
 	, ( "go",	\[x,y]	-> predid2 "go" y x	)
 	, ( "like",	\[x,y]	-> predid2 "like" y x	)
 	, ( "finish",	\[x,y,z] -> predid3 "finish" z y x	)
-	, ( "pay",	\args -> case args of
-		[x,y,z,w] -> predid4 "pay" w z y x
-		[x,y,z] -> (forgetful4 . predid4) "pay" z y x
-		[x,y] -> (forgetful3 . forgetful4 . predid4) "pay" y x
-		[x] -> (forgetful2 . forgetful3 . forgetful4 . predid4) "pay" x )
-	, ( "have_to_pay",	\args -> case args of
-		[x,y,z] -> predid3 "have_to_pay" z y x )
+	, ( "answer",	\args -> case args of
+		[x,y,z,w] -> predid4 "answer" w z y x
+		[x,y,z] -> (forgetful4 . predid4) "answer" z y x
+		[x,y] -> (forgetful3 . forgetful4 . predid4) "answer" y x
+		[x] -> (forgetful2 . forgetful3 . forgetful4 . predid4) "answer" x )
+	, ( "have_to_answer",	\args -> case args of
+		[x,y,z] -> predid3 "have_to_answer" z y x )
 
 	, ( "ask", \args -> case args of 
 		[x,y,z,w] -> predid4 "ask" w z y x
@@ -62,8 +62,8 @@ relations = [
 	, ( "have_to_ask",	\args -> case args of
 		[x,y,z] -> predid3 "have_to_ask" z y x )
 
-	, ( "wanted_to_pay", \args -> case args of 
-		[x,y,z] -> predid3 "wanted_to_pay" z y x )
+	, ( "wanted_to_answer", \args -> case args of 
+		[x,y,z] -> predid3 "wanted_to_answer" z y x )
 
 	, ( "sell", \args -> case args of 
 		[x,y] -> (forgetful3 . forgetful4 . predid4) "sell" y x
