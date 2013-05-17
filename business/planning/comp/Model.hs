@@ -151,12 +151,12 @@ threePlacers = [
     , ("ask_about",	pred3 $ map (\x->(agent x, recipient x, theme x) ) comms)
     , ("talk_with_about",	pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
 			    ++ comms)
-    , ("have_to_buy",	have_to_buy )
+    , ("have_to_ask",	have_to_ask )
     , ("told",	pred3 comms)
     ]
 
 fourPlacers = [
-	("buy",	pred4 $ foldl (\ss (a,t,p,l) -> (a,t,p,l): (a,t,l,p): ss) [] purchases)
+	("ask",	pred4 $ foldl (\ss (a,t,p,l) -> (a,t,p,l): (a,t,l,p): ss) [] purchases)
 	, ("sell", pred4 $ foldl (\ss (a,t,p,l) -> (l,t,a,l): (p,t,a,l): (p,t,l,a):
 					ss ) [] purchases)
 	, ("get",	pred4 $ map (\x -> (agent4 x, theme4 x, provider4 x, location4 x)
@@ -166,7 +166,7 @@ fourPlacers = [
 	, ("give", pred4 $ foldl (\ss (a,t,p,l) -> (l,t,a,l): (p,t,a,l): (p,t,l,a):
 					ss ) [] services)
 	, ("pay", pred4 $ map (\x -> (agent4 x, provider4 x, theme4 x, purpose4 x) ) purchases)
-    , ("wanted_to_buy", pred4 $ foldl ( \ps (a,t,p,l)  -> (a,a,t,p):(a,a,t,l):ps ) [] looking)
+    , ("wanted_to_ask", pred4 $ foldl ( \ps (a,t,p,l)  -> (a,a,t,p):(a,a,t,l):ps ) [] looking)
 	]
 
 -- (agent,theme,result,aim)
@@ -176,7 +176,7 @@ looking	= [(T,D,Q,M),(T,E,Q,M)]
 purchases	= [(T,D,Q,M)]
 non_purchases = looking \\ purchases
 stock =  [(Q,F),(Q,G)] ++ ( map ( \(_,t,p,_) -> (p,t) ) $ looking ++ purchases )
-have_to_buy = pred3 $ map (\(a,t,_,_) -> (a,Y,t) ) $ ( filter (\(a,t,r,_) -> t /= C) non_purchases ) ++ purchases
+have_to_ask = pred3 $ map (\(a,t,_,_) -> (a,Y,t) ) $ ( filter (\(a,t,r,_) -> t /= C) non_purchases ) ++ purchases
 services    = []
 
 wanted = predid4 "looking"

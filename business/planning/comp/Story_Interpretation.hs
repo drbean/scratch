@@ -21,14 +21,14 @@ objects = [
 
 inflections :: [(String, String)]
 inflections = [
- ( "offer_to_buy", "offered_to_buy" )
+ ( "offer_to_ask", "offered_to_ask" )
  , ( "went", "go" )
  , ( "liked", "like" )
- , ( "bought", "buy" )
+ , ( "bought", "ask" )
  , ( "want_to_pay", "wanted_to_pay" )
  , ( "sold", "sell" )
  , ( "want_to_sell", "wanted_to_sell" )
- , ( "want_to_buy", "wanted_to_buy" )
+ , ( "want_to_ask", "wanted_to_ask" )
  , ( "want_to_look", "wanted_to_look" )
  , ( "want_to_have", "wanted_to_have" )
  , ( "paid", "pay" )
@@ -54,13 +54,13 @@ relations = [
 	, ( "have_to_pay",	\args -> case args of
 		[x,y,z] -> predid3 "have_to_pay" z y x )
 
-	, ( "buy", \args -> case args of 
-		[x,y,z,w] -> predid4 "buy" w z y x
-		[x,y,z] -> (forgetful4 . predid4) "buy" z y x
-		[x,y] -> (forgetful3 .forgetful4 . predid4) "buy" y x
-		[x] -> (forgetful2 . forgetful3 . forgetful4 . predid4) "buy" x )
-	, ( "have_to_buy",	\args -> case args of
-		[x,y,z] -> predid3 "have_to_buy" z y x )
+	, ( "ask", \args -> case args of 
+		[x,y,z,w] -> predid4 "ask" w z y x
+		[x,y,z] -> (forgetful4 . predid4) "ask" z y x
+		[x,y] -> (forgetful3 .forgetful4 . predid4) "ask" y x
+		[x] -> (forgetful2 . forgetful3 . forgetful4 . predid4) "ask" x )
+	, ( "have_to_ask",	\args -> case args of
+		[x,y,z] -> predid3 "have_to_ask" z y x )
 
 	, ( "wanted_to_pay", \args -> case args of 
 		[x,y,z] -> predid3 "wanted_to_pay" z y x )
@@ -79,11 +79,11 @@ relations = [
 	, ( "wanted_to_make", \args -> case args of 
 		[x,y,z,w] -> predid4 "wanted_to_make" w z y x
 		[x,y,z] -> (forgetful4 . predid4) "wanted_to_make" z y x)
-	, ( "wanted_to_buy", \args -> case args of 
-		[x] -> (forgetful2 . forgetful3 . forgetful4 . predid4) "wanted_to_buy" x
-		[x,y] -> (forgetful3 . forgetful4 . predid4) "wanted_to_buy" y x
-		[x,y,z] -> (forgetful4 . predid4) "wanted_to_buy" z y x
-		[x,y,z,w] -> predid4 "wanted_to_buy" w z y x )
+	, ( "wanted_to_ask", \args -> case args of 
+		[x] -> (forgetful2 . forgetful3 . forgetful4 . predid4) "wanted_to_ask" x
+		[x,y] -> (forgetful3 . forgetful4 . predid4) "wanted_to_ask" y x
+		[x,y,z] -> (forgetful4 . predid4) "wanted_to_ask" z y x
+		[x,y,z,w] -> predid4 "wanted_to_ask" w z y x )
 
 	]
 
