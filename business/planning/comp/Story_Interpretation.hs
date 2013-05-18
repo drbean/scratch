@@ -5,17 +5,21 @@ import Model
 objects :: [(String, [Entity] -> Bool)]
 objects = [
 	( "good_idea",	\[x] -> predid1 "good_idea" x	)
-	, ( "a_good_price",	\[x] -> predid1 "a_good_price" x	)
 	, ( "teacher",	\[x]	-> predid1 "teacher" x )
-	, ( "shoes",	\[x]	-> predid1 "shoes" x	)
-	, ( "jogging_shoes",	\[x]	-> predid1 "jogging_shoes" x	)
-	, ( "slippers",	\[x]	-> predid1 "slippers" x	)
-	, ( "men's_formal_shoes",	\[x]	-> predid1 "men's_formal_shoes" x	)
-	, ( "women's_formal_shoes",	\[x]	-> predid1 "women's_formal_shoes" x	)
-	, ( "rice",	\[x]	-> predid1 "rice" x	)
-	, ( "shoe_store",	\[x]	-> predid1 "shoe_store" x	)
-
-	, ( "money",	\[x]	-> predid1 "money" x	)
+	, ( "student",	\[x]	-> predid1 "student" x	)
+	, ( "students",	\[x]	-> predid1 "students" x	)
+	, ( "board",	\[x]	-> predid1 "board" x	)
+	, ( "english",	\[x]	-> predid1 "english" x	)
+	, ( "question",	\[x]	-> predid1 "question" x	)
+	, ( "questions",	\[x]	-> predid1 "questions" x	)
+	, ( "answer",	\[x]	-> predid1 "answer" x	)
+	, ( "answers",	\[x]	-> predid1 "answers" x	)
+	, ( "clear_and_simple_idea",	\[x]	-> predid1 "clear_and_simple_idea" x	)
+	, ( "autonomy",	\[x]	-> predid1 "autonomy" x	)
+	, ( "ownership",	\[x]	-> predid1 "ownership" x	)
+	, ( "innovation",	\[x]	-> predid1 "innovation" x	)
+	
+	
 
 	]
 
