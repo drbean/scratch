@@ -614,6 +614,46 @@ drbean:
         answer: Present
       - question: The activity was successful.
         answer: True
+  5:
+    identifier: drbean 5
+    A: |
+      \item [Clarity] The idea was clear and simple.
+      \item [Autonomy] Dr Bean wanted students to use English.
+      \item [Ownership] Students often got involved in the competition.
+      \item [Innovation] The conversation competition was Dr Bean's idea.
+    B: |
+      \item [Clarity] The idea was students compete with each other.
+      \item [Autonomy] Dr Bean walked around to make groups use English.
+      \item [Ownership] Students wanted their champion to be the winner.
+      \item [Innovation] There was innovation.
+    C: |
+      \item [Clarity] Students had to chose the winner.
+      \item [Autonomy] Some students didn't want to speak English.
+      \item [Ownership] There was ownership.
+      \item [Innovation] Dr Bean developed variations of the activity.
+    quiz:
+      - question: Clear and simple idea
+        option:
+          - Present
+          - Absent
+        answer: Present
+      - question: Autonomy
+        option:
+          - Present
+          - Absent
+        answer: Absent
+      - question: Ownership
+        option:
+          - Present
+          - Absent
+        answer: Present
+      - question: Innovation
+        option:
+          - Present
+          - Absent
+        answer: Present
+      - question: The activity was successful.
+        answer: True
 organic:
  jigsaw:
   0:
