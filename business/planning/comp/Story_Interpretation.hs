@@ -4,8 +4,8 @@ import Model
 
 objects :: [(String, [Entity] -> Bool)]
 objects = [
-	 ( "good_idea",	\[x] -> predid1 "good_idea" x	)
-	 , ( "a_good_price",	\[x] -> predid1 "a_good_price" x	)
+	( "good_idea",	\[x] -> predid1 "good_idea" x	)
+	, ( "a_good_price",	\[x] -> predid1 "a_good_price" x	)
 	, ( "teacher",	\[x]	-> predid1 "teacher" x )
 	, ( "shoes",	\[x]	-> predid1 "shoes" x	)
 	, ( "jogging_shoes",	\[x]	-> predid1 "jogging_shoes" x	)
