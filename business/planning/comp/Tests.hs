@@ -10,46 +10,41 @@ relatives = [
 	]
 
 haves = [
-	"Did Dr Bean have money?"
-	, "Dr Bean had rice."
-	, "Dr Bean had some rice."
-	, "Did Dr Bean have some bananas?"
-	, "Did Dr Bean have some eggs?"
-	, "Did Dr Bean have some oil?"
-	, "Did Dr Bean have oil?"
-	, "Did Dr Bean have milk?"
-	, "Did Dr Bean have some milk?"
-	, "Did Dr Bean have shoes?"
-	, "Did Quanjiafu have shoes?"
-	, "Did a fruit store have bananas?"
+	"Did Dr Bean have autonomy?"
+	, "Did students in the compcomp activity have autonomy?"
+	, "Did Dr Bean have some students?"
+	, "Did Dr Bean have some questions?"
+	, "Did Dr Bean have a compcomp activity?"
+	, "Did Dr Bean have a framework?"
+	, "Did Dr Bean have a successful activity?"
+	, "Did Dr Bean have answers?"
+	, "Did questions have answers?"
+	, "Did students have answers?"
+	, "Did all students have answers?"
+	, "Didn't students have questions?"
+	, "Didn't all students have questions?"
+	, "Did some students not have questions?"
 	]
 
-buys_sells = [
-	"Did Dr Bean buy?"
-	, "Did Dr Bean buy from Quanlian?"
-	, "Did Dr Bean buy bananas?"
-	, "Did Dr Bean buy bananas from Quanlian?"
-	, "Did Dr Bean want to buy from Quanlian?"
-	, "Dr Bean wanted to buy bananas from Quanlian."
-	, "Dr Bean wanted to buy bananas from Quanlian because of the price."
-	, "Did Quanlian sell bananas to Dr Bean?"
-	, "Did a fruit store sell bananas to Dr Bean?"
-	, "Did Quanlian sell to Dr Bean?"
-	, "Did Quanlian sell bananas?"
-	, "Did Dr Bean sell bananas?"
-	, "Did Quanjiafu sell bananas?"
-	, "Did Quanlian sell bananas to Dr Bean because of the price?"
-	, "Did Quanjiafu sell shoes?"
-	, "Did Dr Bean buy shoes in Quanjiafu?"
+framings = [
+	"Was autonomy an ingredient for success?"
+	, "Was Dr Bean a teacher?"
+	, "Were the ingredients for success a framework?"
+	, "Did the compcomp activity have a framework?"
+	, "Did Dr Bean ask questions about the ingredients for success?"
+	]
+
+asks = [
+	"Did Dr Bean ask questions?"
+	, "Did Dr Bean ask students questions?"
+	, "Did Dr Bean ask questions about the compcomp activity?"
+	, "Did Dr Bean ask questions about the students?"
+	, "Did Dr Bean want to ask questions?"
 	]
 
 text_test = [
-	"Dr Bean sailed around the world. He was an adventurer."
-	, "He was an adventurer. Dr Bean sailed around the world."
-	, "Dr Bean sailed around the world. She was an adventurer."
-	, "Dr Bean sailed around the world. He was an adventurer."
-	, "Dr Bean sailed around the world. She was a woman, but she was an adventurer."
-	, "Dr Bean sailed around the world. She wasn't a man, but she was an adventurer."
+	"Dr Bean asked questions. He was a teacher."
+	, "He was a teacher. Dr Bean asked questions."
 	]
 
 comp_tests = [
