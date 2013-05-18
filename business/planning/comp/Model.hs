@@ -9,6 +9,14 @@ data Entity	= A | B | C | D | E | F | G
 		| O | P | Q | R | S | T | U 
 		| V | W | X | Y | Z 
 		| Someone | Something | Unspec
+		| S1 | S2 | S3 | S4 | S5
+		| S6 | S7 | S8 | S9 | S10
+		| S11 | S12 | S13 | S14 | S15
+		| S16 | S17 | S18 | S19 | S20
+		| X1 | X2 | X3 | X4 | X5
+		| X6 | X7 | X8 | X9 | X10
+		| X11 | X12 | X13 | X14 | X15
+		| X16 | X17 | X18 | X19 | X20
 		deriving (Eq,Show,Bounded,Enum,Ord)
 
 entities :: [Entity]
@@ -18,10 +26,10 @@ entity_check :: [ (Entity, String) ]
 entity_check =  [
     (A, "autonomy" )
     , (B, "board" )
-    , (C, "clear and simple idea" )
+    , (C, "clear_and_simple_idea" )
     , (D, "" )
     , (E, "english" )
-    , (F, "" )
+    , (F, "framework" )
     , (G, "group" )
     , (H, "" )
     , (I, "ingredients" )
@@ -40,7 +48,7 @@ entity_check =  [
     , (V, "" )
     , (W, "winner" )
     , (X, "compcomp_activity" )
-    , (Y, "" )
+    , (Y, "answer" )
     , (Z, "" )
     ]
 
@@ -95,16 +103,24 @@ onePlacers = [
 	, ("female",	pred1 [] )
 	, ("role",	pred1 [] )
 	, ("teacher",	pred1 [T] )
+	, ("student",	pred1 [S1,S11] )
+	, ("group",	pred1 [G] )
 
+	, ("question",	pred1 [Q] )
+	, ("answer",	pred1 [Y] )
 	, ("person",	person )
 	, ("thing",	thing )
 
 	, ("good",	pred1 [C,A,O,N] )
 	, ("bad",	pred1 [F,G] )
 
+	, ("compcomp_activity",	pred1 [X1,X11])
 	, ("ingredients_for_success",	pred1 [C,A,O,N])
-	, ("successful",	pred1 [X])
-	, ("unsuccessful",	pred1 [X])
+	, ("autonomy",	pred1 [A])
+	, ("framework",	predid1 "ingredients_for_success" )
+	, ("activity",	pred1 [X])
+	, ("successful",	pred1 [X1])
+	, ("unsuccessful",	pred1 [X11])
 	]
 
 type OnePlacePred	= Entity -> Bool
@@ -136,6 +152,10 @@ twoPlacers = [
     , ("have",	pred2 $ possessions ++ stock ++ features )
     , ("like",	pred2 appreciation )
     , ("help",	pred2 [])
+    , ("speak",	pred2 [])
+    , ("listen",	pred2 [])
+    , ("read",	pred2 [])
+    , ("write",	pred2 [])
     , ("go",	pred2 $ map (\(a,_,l,_) -> (a,l) ) looking )
     , ("said",	pred2 $ map (\x->(agent x, theme x) ) comms)
     , ("asked",	pred2 $ map (\x->(agent x, recipient x) ) comms)
@@ -181,12 +201,12 @@ services    = []
 
 wanted = predid4 "looking"
 
-possessions	= [(T,Y),(Q,O),(Q,M),(Q,B),(Q,E),(Q,R),(F,B),(T,S),(J,S),(T,M),(T,E),(Unspec,E),(T,R)]
+possessions	= [(T,A),(T,X2),(S1,Q)]
 
-appreciation	= [(T,D),(T,E)]
-knowledge	= [(T,Q),(T,M),(T,O),(T,Z)]
+appreciation	= [(S1,X1),(T,E)]
+knowledge	= []
 acquaintances	= []
-comms	= [ (Someone,Y,F),(Someone,B,F),(Someone,P,F),(Someone,Y,M) ]
+comms	= []
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
