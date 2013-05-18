@@ -9,18 +9,35 @@ names = [
 	]
 
 nouns = [
-	[Cat "teacher"	"NP" [Thrd,MascOrFem,Sg] []]
-	, [Cat "student"	"NP" [Thrd,MascOrFem,Sg] []]
-	, [Cat "students"	"NP" [Thrd,MascOrFem,Sg] []]
+	[Cat "teacher"	"CN" [Thrd,MascOrFem,Sg] []]
+	, [Cat "student"	"CN" [Thrd,MascOrFem,Sg] []]
+	, [Cat "students"	"CN" [Thrd,MascOrFem,Pl] []]
+	, [Cat "group"	"CN" [Thrd,Neutr,Sg] []]
+	, [Cat "groups"	"CN" [Thrd,Neutr,Pl] []]
 
-	, [Cat "board"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "member"	"CN" [Thrd,MascOrFem,Sg] []]
+	, [Cat "members"	"CN" [Thrd,MascOrFem,Pl] []]
+	, [Cat "loser"	"CN" [Thrd,MascOrFem,Sg] []]
+	, [Cat "losers"	"CN" [Thrd,MascOrFem,Pl] []]
+	, [Cat "winner"	"CN" [Thrd,MascOrFem,Sg] []]
+	, [Cat "winners"	"CN" [Thrd,MascOrFem,Pl] []]
+
+
+	, [Cat "board"	"CN" [Thrd,Neutr,Sg] []]
 	, [Cat "english"	"NP" [Thrd,Neutr,Sg] []]
 
-	, [Cat "question"	"NP" [Thrd,Neutr,Sg] []]
-	, [Cat "questions"	"NP" [Thrd,Neutr,Pl] []]
+	, [Cat "question"	"CN" [Thrd,Neutr,Sg] []]
+	, [Cat "questions"	"CN" [Thrd,Neutr,Pl] []]
+	, [Cat "answer"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "answers"	"CN" [Thrd,Neutr,Pl] []]
 
 
-	, [Cat "clear_and_simple_idea"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "activity"	"CN" [Thrd,Neutr,Sg] []]
+	, [Cat "compcomp_activity"	"CN" [Thrd,Neutr,Sg] []]
+	, [Cat "ingredient_for_success"	"CN" [Thrd,Neutr,Sg] []]
+	, [Cat "ingredients_for_success"	"CN" [Thrd,Neutr,Pl] []]
+	, [Cat "framework"	"CN" [Thrd,Neutr,Sg] []]
+	, [Cat "clear_and_simple_idea"	"CN" [Thrd,Neutr,Sg] []]
 	, [Cat "autonomy"	"NP" [Thrd,Neutr,Sg] []]
 	, [Cat "ownership"	"NP" [Thrd,Neutr,Sg] []]
 	, [Cat "innovation"	"NP" [Thrd,Neutr,Sg] []]
@@ -33,21 +50,21 @@ verbs = [
 	, [Cat "saw"    "V" [Tense] [Cat "_" "NP" [AccOrDat] []]]
 	, [Cat "liked"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []]]
 	, [Cat "like"	"V" [Infl] [Cat "_" "NP" [AccOrDat] []]]
-	, [Cat "bought"	"V" [Tense] [],
-		Cat "bought"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []],
-		Cat "bought"	"V" [Tense] [Cat "_" "NP" [AccOrDat] [],
+	, [Cat "asked"	"V" [Tense] [],
+		Cat "asked"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []],
+		Cat "asked"	"V" [Tense] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [From] []],
-		Cat "bought"	"V" [Tense] [Cat "_" "NP" [AccOrDat] [],
+		Cat "asked"	"V" [Tense] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [In] []],
-		Cat "bought"	"V" [Tense] [Cat "_" "NP" [AccOrDat] [],
+		Cat "asked"	"V" [Tense] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [At] []]]
-	, [Cat "buy"	"V" [Infl] [],
-		Cat "buy"	"V" [Infl] [Cat "_" "NP" [AccOrDat] []],
-		Cat "buy"	"V" [Infl] [Cat "_" "NP" [AccOrDat] [],
+	, [Cat "ask"	"V" [Infl] [],
+		Cat "ask"	"V" [Infl] [Cat "_" "NP" [AccOrDat] []],
+		Cat "ask"	"V" [Infl] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [From] []],
-		Cat "buy"	"V" [Infl] [Cat "_" "NP" [AccOrDat] [],
+		Cat "ask"	"V" [Infl] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [In] []],
-		Cat "buy"	"V" [Infl] [Cat "_" "NP" [AccOrDat] [],
+		Cat "ask"	"V" [Infl] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [At] []]]
 	, [Cat "sold"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []],
 		Cat "sold"	"V" [Tense] [Cat "_" "PP" [To] []],
@@ -67,22 +84,22 @@ verbs = [
 		Cat "sell"	"V" [Infl] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [To] [],
 						Cat "_" "PP" [On] []]]
-	, [Cat "paid"	"V" [Tense] [],
-		Cat "paid"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []],
-		Cat "paid" "V" [Tense]  [Cat "_" "NP" [AccOrDat] [],
+	, [Cat "answered"	"V" [Tense] [],
+		Cat "answered"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []],
+		Cat "answered" "V" [Tense]  [Cat "_" "NP" [AccOrDat] [],
                                                 Cat "_" "NP" [AccOrDat] []],
-		Cat "paid" "V" [Tense]  [Cat "_" "NP" [AccOrDat] [],
+		Cat "answered" "V" [Tense]  [Cat "_" "NP" [AccOrDat] [],
                                                 Cat "_" "PP" [For] []],
-		Cat "paid" "V" [Tense]  [Cat "_" "NP" [AccOrDat] [],
+		Cat "answered" "V" [Tense]  [Cat "_" "NP" [AccOrDat] [],
                                                 Cat "_" "NP" [AccOrDat] [],
                                                 Cat "_" "PP" [For] []]]
-	, [Cat "pay"	"V" [Infl] [],
-		Cat "pay"	"V" [Infl] [Cat "_" "NP" [AccOrDat] []],
-		Cat "pay" "V" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+	, [Cat "answer"	"V" [Infl] [],
+		Cat "answer"	"V" [Infl] [Cat "_" "NP" [AccOrDat] []],
+		Cat "answer" "V" [Infl]  [Cat "_" "NP" [AccOrDat] [],
                                                 Cat "_" "NP" [AccOrDat] []],
-		Cat "pay" "V" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+		Cat "answer" "V" [Infl]  [Cat "_" "NP" [AccOrDat] [],
                                                 Cat "_" "PP" [For] []],
-		Cat "pay" "V" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+		Cat "answer" "V" [Infl]  [Cat "_" "NP" [AccOrDat] [],
                                                 Cat "_" "NP" [AccOrDat] [],
                                                 Cat "_" "PP" [For] []]]
 
