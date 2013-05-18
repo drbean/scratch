@@ -7,13 +7,22 @@ objects = [
 	( "good_idea",	\[x] -> predid1 "good_idea" x	)
 	, ( "teacher",	\[x]	-> predid1 "teacher" x )
 	, ( "student",	\[x]	-> predid1 "student" x	)
-	, ( "students",	\[x]	-> predid1 "students" x	)
+	, ( "group",	\[x]	-> predid1 "group" x	)
+	, ( "member",	\[x]	-> predid1 "member" x	)
+	, ( "loser",	\[x]	-> predid1 "loser" x	)
+	, ( "winner",	\[x]	-> predid1 "winner" x	)
+
+
 	, ( "board",	\[x]	-> predid1 "board" x	)
 	, ( "english",	\[x]	-> predid1 "english" x	)
 	, ( "question",	\[x]	-> predid1 "question" x	)
-	, ( "questions",	\[x]	-> predid1 "questions" x	)
 	, ( "answer",	\[x]	-> predid1 "answer" x	)
-	, ( "answers",	\[x]	-> predid1 "answers" x	)
+
+	, ( "activity",	\[x]	-> predid1 "activity" x	)
+	, ( "compcomp_activity",	\[x]	-> predid1 "compcomp_activity" x	)
+	, ( "ingredients_for_success",	\[x]	-> predid1 "ingredients_for_success" x	)
+	, ( "framework",	\[x]	-> predid1 "framework" x	)
+
 	, ( "clear_and_simple_idea",	\[x]	-> predid1 "clear_and_simple_idea" x	)
 	, ( "autonomy",	\[x]	-> predid1 "autonomy" x	)
 	, ( "ownership",	\[x]	-> predid1 "ownership" x	)
@@ -25,17 +34,31 @@ objects = [
 
 inflections :: [(String, String)]
 inflections = [
- ( "offer_to_ask", "offered_to_ask" )
- , ( "went", "go" )
- , ( "liked", "like" )
- , ( "bought", "ask" )
- , ( "want_to_answer", "wanted_to_answer" )
- , ( "sold", "sell" )
- , ( "want_to_sell", "wanted_to_sell" )
- , ( "want_to_ask", "wanted_to_ask" )
- , ( "want_to_look", "wanted_to_look" )
- , ( "want_to_have", "wanted_to_have" )
- , ( "answered", "answer" )
+	( "offer_to_ask",	"offered_to_ask" )
+	, ( "went",	"go" )
+	, ( "liked",	"like" )
+	, ( "asked",	"ask" )
+	, ( "want_to_answer",	"wanted_to_answer" )
+	, ( "sold",	"sell" )
+	, ( "want_to_sell",	"wanted_to_sell" )
+	, ( "want_to_ask",	"wanted_to_ask" )
+	, ( "want_to_look",	"wanted_to_look" )
+	, ( "want_to_have",	"wanted_to_have" )
+	, ( "answered",	"answer" )
+	, ("students",	"student" )
+	, ("groups",	"group") 
+	, ("members",	"member" )
+	, ("losers",	"loser" )
+	, ("winners",	"winner" )
+
+	, ("questions",	"question") 
+	, ("answers",	"answer" )
+	, ("ingredients",	"ingredient" )
+	, ("clear_and_simple_ideas",	"clear_and_simple_idea" )
+
+
+
+
 
  ]
 
