@@ -6,29 +6,25 @@ names, nouns, verbs, aux, adjs, advs :: Lexset
 
 names = [
 	[Cat "dr_bean"	"NP" [Thrd,Masc,Sg] []]
-	, [Cat "quanjiafu"	"NP" [Thrd,Neutr,Sg] []]
-	, [Cat "miaoli"	"NP" [Thrd,Neutr,Sg] []]
-	, [Cat "toufen"	"NP" [Thrd,Neutr,Sg] []]
-	, [Cat "zhunan"	"NP" [Thrd,Neutr,Sg] []]
-	, [Cat "yingtsailu"	"NP" [Thrd,Neutr,Sg] []]
 	]
 
 nouns = [
-	[Cat "shoes"	"CN" [Thrd,Neutr,Pl] []]
-	, [Cat "jogging_shoes"	"CN" [Thrd,Neutr,Pl] []]
-	, [Cat "men's_formal_shoes"	"CN" [Thrd,Neutr,Pl] []]
-	, [Cat "women's_formal_shoes"	"CN" [Thrd,Neutr,Pl] []]
-	, [Cat "slippers"	"CN" [Thrd,Neutr,Pl] []]
-	, [Cat "shoe_store"	"CN" [Thrd,Neutr,Sg] []]
+	[Cat "teacher"	"NP" [Thrd,MascOrFem,Sg] []]
+	, [Cat "student"	"NP" [Thrd,MascOrFem,Sg] []]
+	, [Cat "students"	"NP" [Thrd,MascOrFem,Sg] []]
+
+	, [Cat "board"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "english"	"NP" [Thrd,Neutr,Sg] []]
+
+	, [Cat "question"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "questions"	"NP" [Thrd,Neutr,Pl] []]
 
 
-	, [Cat "teacher"	"NP" [Thrd,MascOrFem,Sg] []]
-	, [Cat "a_good_price"	"NP" [Thrd,Neutr,Sg] []]
-	, [Cat "money"   "NP" [Sg,Neutr,Thrd]   []]
-	, [Cat "product"	"NP" [Thrd,Neutr,Sg] []]
-	, [Cat "price"	"NP" [Thrd,Neutr,Sg] []]
-	, [Cat "place"	"NP" [Thrd,Neutr,Sg] []]
-	, [Cat "promotion"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "clear_and_simple_idea"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "autonomy"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "ownership"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "innovation"	"NP" [Thrd,Neutr,Sg] []]
+
 
 	]
 
