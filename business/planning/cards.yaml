@@ -538,7 +538,7 @@ drbean:
     identifier: drbean 3
     A: |
       \item [Clarity] The idea was to develop a new activity that motivated students.
-      \item [Autonomy] Students had autonomy in the activity.
+      \item [Autonomy] There was autonomy.
       \item [Ownership] Dr Bean wanted students to feel they owned the activity.
       \item [Innovation] The idea of a conversation competition was a new one.
     B: |
@@ -567,7 +567,7 @@ drbean:
           - Present
           - Absent
         answer: Absent
-      - question: There was innovation.
+      - question: Innovation.
         option:
           - Present
           - Absent
@@ -587,7 +587,7 @@ drbean:
       \item [Ownership] Students wanted their champion to be the winner.
       \item [Innovation] There was innovation.
     C: |
-      \item [Clarity] Students had to chose the winner.
+      \item [Clarity] Students had to choose the winner.
       \item [Autonomy] Dr Bean wanted students to take control.
       \item [Ownership] There was ownership.
       \item [Innovation] Dr Bean developed variations of the activity.
@@ -617,18 +617,138 @@ drbean:
   5:
     identifier: drbean 5
     A: |
-      \item [Clarity] The idea was clear and simple.
+      \item [Clarity] The idea was students compete with each other.
       \item [Autonomy] Dr Bean wanted students to use English.
+      \item [Ownership] Students often got involved in the competition.
+      \item [Innovation] There was innovation.
+    B: |
+      \item [Clarity] The students quickly understood how to do the activity.
+      \item [Autonomy] There was autonomy.
+      \item [Ownership] Students wanted their champion to be the winner.
+      \item [Innovation] The conversation competition was Dr Bean's idea.
+    C: |
+      \item [Clarity] Students had to choose the winner.
+      \item [Autonomy] Some students didn't want to speak English.
+      \item [Ownership] There was ownership.
+      \item [Innovation] Dr Bean developed variations of the activity.
+    quiz:
+      - question: Clear and simple idea
+        option:
+          - Present
+          - Absent
+        answer: Present
+      - question: Autonomy
+        option:
+          - Present
+          - Absent
+        answer: Present
+      - question: Ownership
+        option:
+          - Present
+          - Absent
+        answer: Present
+      - question: Innovation
+        option:
+          - Present
+          - Absent
+        answer: Present
+      - question: The activity was successful.
+        answer: True
+  6:
+    identifier: drbean 6
+    A: |
+      \item [Clarity] The idea was students compete in groups.
+      \item [Autonomy] There was autonomy.
       \item [Ownership] Students often got involved in the competition.
       \item [Innovation] The conversation competition was Dr Bean's idea.
     B: |
-      \item [Clarity] The idea was students compete with each other.
-      \item [Autonomy] Dr Bean walked around to make groups use English.
+      \item [Clarity] The students understood how to do the activity.
+      \item [Autonomy] Dr Bean wanted students to use English.
+      \item [Ownership] There was ownership.
+      \item [Innovation] Dr Bean sometimes chose the winner, instead of the students.
+    C: |
+      \item [Clarity] The idea was clear and simple.
+      \item [Autonomy] Some students didn't want to speak English.
+      \item [Ownership] Students wanted their champion to be the winner.
+      \item [Innovation] Dr Bean constantly tried simple variations of the activity.
+    quiz:
+      - question: Clear and simple idea
+        option:
+          - Present
+          - Absent
+        answer: Present
+      - question: Autonomy
+        option:
+          - Present
+          - Absent
+        answer: Present
+      - question: Ownership
+        option:
+          - Present
+          - Absent
+        answer: Present
+      - question: Innovation
+        option:
+          - Present
+          - Absent
+        answer: Present
+      - question: The activity was successful.
+        answer: True
+  7:
+    identifier: drbean 7
+    A: |
+      \item [Clarity] The idea was clear and simple.
+      \item [Autonomy] Dr Bean wanted students to choose what to talk about.
+      \item [Ownership] Dr Bean wanted students to feel they owned the activity.
+      \item [Innovation] The idea for the activity was Dr Bean's.
+    B: |
+      \item [Clarity] Students understood how to do the activity.
+      \item [Autonomy] There was autonomy.
+      \item [Ownership] Students wanted their champion and their group to win.
+      \item [Innovation] Dr Bean continually made changes to improve the activity.
+    C: |
+      \item [Clarity] Students had to choose a winner.
+      \item [Autonomy] Dr Bean had little control of what the students did in groups.
+      \item [Ownership] Students felt involvement and commitment to their group.
+      \item [Innovation] There was innovation.
+    quiz:
+      - question: Clear and simple idea
+        option:
+          - Present
+          - Absent
+        answer: Present
+      - question: Autonomy
+        option:
+          - Present
+          - Absent
+        answer: Present
+      - question: Ownership
+        option:
+          - Present
+          - Absent
+        answer: Present
+      - question: Innovation.
+        option:
+          - Present
+          - Absent
+        answer: Present
+      - question: The activity was successful.
+        answer: True
+  8:
+    identifier: drbean 8
+    A: |
+      \item [Clarity] The idea was clear and simple.
+      \item [Autonomy] Students didn't want to speak English to each other.
+      \item [Ownership] But students often got involved.
+      \item [Innovation] The conversation competition was Dr Bean's idea.
+    B: |
+      \item [Clarity] Students had to choose the best English speaker.
+      \item [Autonomy] Dr Bean walked around to make students speak English.
       \item [Ownership] Students wanted their champion to be the winner.
       \item [Innovation] There was innovation.
     C: |
-      \item [Clarity] Students had to chose the winner.
-      \item [Autonomy] Some students didn't want to speak English.
+      \item [Clarity] The idea was students talk with each other.
+      \item [Autonomy] But students spoke English when they saw Dr Bean coming.
       \item [Ownership] There was ownership.
       \item [Innovation] Dr Bean developed variations of the activity.
     quiz:
@@ -653,7 +773,87 @@ drbean:
           - Absent
         answer: Present
       - question: The activity was successful.
-        answer: True
+        answer: False
+  9:
+    identifier: drbean 9
+    A: |
+      \item [Clarity] The idea was students talk with each other.
+      \item [Autonomy] Students often didn't want to speak English to each other.
+      \item [Ownership] There was ownership.
+      \item [Innovation] The conversation competition was Dr Bean's idea.
+    B: |
+      \item [Clarity] Students had to choose the best English speaker.
+      \item [Autonomy] There was autonomy.
+      \item [Ownership] Students wanted their champion to be the winner.
+      \item [Innovation] There were few changes. Each week it was the same thing.
+    C: |
+      \item [Clarity] The idea was clear and simple.
+      \item [Autonomy] Dr Bean walked around to make students speak English.
+      \item [Ownership] Students often got involved.
+      \item [Innovation] Students expected to do the same thing each week.
+    quiz:
+      - question: Clear and simple idea
+        option:
+          - Present
+          - Absent
+        answer: Present
+      - question: Autonomy
+        option:
+          - Present
+          - Absent
+        answer: Absent
+      - question: Ownership
+        option:
+          - Present
+          - Absent
+        answer: Present
+      - question: Innovation
+        option:
+          - Present
+          - Absent
+        answer: Absent
+      - question: The activity was successful.
+        answer: False
+  10:
+    identifier: drbean 10
+    A: |
+      \item [Clarity] Students didn't know who was the best English speaker.
+      \item [Autonomy] There was autonomy.
+      \item [Ownership] Students wanted their champion to be the winner.
+      \item [Innovation] Some changes were made each week.
+    B: |
+      \item [Clarity] Dr Bean wanted students to choose the best English speaker.
+      \item [Autonomy] Dr Bean walked around to make students speak English.
+      \item [Ownership] There was ownership.
+      \item [Innovation] Students expected to do the same thing each week.
+    C: |
+      \item [Clarity] Students didn't know how to follow Dr Bean's instructions.
+      \item [Autonomy] And students often didn't want to speak English to each other.
+      \item [Ownership] But students often got involved.
+      \item [Innovation] There was innovation.
+    quiz:
+      - question: Clear and simple idea
+        option:
+          - Present
+          - Absent
+        answer: Absent
+      - question: Autonomy
+        option:
+          - Present
+          - Absent
+        answer: Absent
+      - question: Ownership
+        option:
+          - Present
+          - Absent
+        answer: Present
+      - question: Innovation
+        option:
+          - Present
+          - Absent
+        answer: Absent
+      - question: The activity was successful.
+        answer: False
 organic:
  jigsaw:
   0:
