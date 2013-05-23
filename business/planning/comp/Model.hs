@@ -102,7 +102,7 @@ onePlacers = [
 	, ("male",	pred1 [T] )
 	, ("female",	pred1 [] )
 	, ("role",	pred1 [] )
-	, ("teacher",	pred1 [T] )
+	, ("t (Someone,Y,F),(Someone,B,F),(Someone,P,F),(Someone,Y,M)eeacher",	pred1 [T] )
 	, ("student",	pred1 [S1,S11] )
 	, ("group",	pred1 [G] )
 
@@ -149,7 +149,7 @@ pred5 xs	= curry5 ( `elem` xs )
 twoPlacers :: [(String, TwoPlacePred)]
 twoPlacers = [
     ("know",	pred2 $ knowledge ++ acquaintances ++ map swap acquaintances)
-    , ("have",	pred2 $ possessions ++ stock ++ features )
+    , ("have",	pred2 $ (map (\(t,_,_,s) -> (t,s) ) schooling ) )
     , ("like",	pred2 appreciation )
     , ("help",	pred2 [])
     , ("speak",	pred2 [])
@@ -189,8 +189,10 @@ fourPlacers = [
     , ("wanted_to_ask", pred4 $ foldl ( \ps (a,t,p,l)  -> (a,a,t,p):(a,a,t,l):ps ) [] looking)
 	]
 
+-- (teacher,activity,group,student)
+schooling   = [(T,X1,G,S1),(T,X11,G,S11)]
 -- (agent,theme,result,aim)
-features	= []
+features	= [(X1,A)]
 pricing = [(Q,D,H),(Q,E,J),(Q,F,K),(Q,G,I)]
 looking	= [(T,D,Q,M),(T,E,Q,M)]
 purchases	= [(T,D,Q,M)]
