@@ -356,8 +356,8 @@ blair:
   jigsaw:
     0:
       identifier: blair 0
-      A: Raines was your boss and Blair was your co-worker at the NY Times. Later, you went to another newspaper and wrote a story Blair copied. You didn't know.
-      B: You were Blair's boss. You found out he copied Hernandez' story. You fired him and wrote a story about what he did for the front page.
+      A: Raines was your boss and Blair was your co-worker at the NY Times. Later, Blair copied a story you wrote at a different newspaper. You didn't know.
+      B: You were Blair's boss. You found out he copied Hernandez' story. You fired him and wrote a big story about what he did for the newspaper's front page.
       C: Hernandez had been a co-worker at the NY Times. You thought she wouldn't mind if you copied her article. But Raines was mad, and fired you.
       quiz:
         - question: A
@@ -377,7 +377,6 @@ blair:
             - Blair
             - Hernandez
             - Raines
-          option:
           answer: 
         - question: Hernandez didn't know Blair.
           answer  : False
@@ -393,3 +392,43 @@ blair:
           answer  : True
         - question: Raines wrote about Hernandez' story for the front page.
           answer  : False
+campus:
+  jigsaw:
+    0:
+      identifier: campus 0
+      A: You teach communications. You are also the head of the campus radio station. Kyle and Mike are your students. You tell them what to do on the air.
+      B: You are a student, but you are also a radio DJ at your school. Jim gives you and Mike a lot of freedom, but he also shows you how to be professional.
+      C: You used to be a DJ before. When you came here, you took a class from Jim and found out about the campus station. Now you are a DJ again with Kyle.
+      quiz:
+        - question: A
+          option:
+            - Jim
+            - Kyle
+            - Mike
+          answer: Jim
+        - question: B
+          option:
+            - Jim
+            - Kyle
+            - Mike
+          answer: Kyle
+        - question: C
+          option:
+            - Jim
+            - Kyle
+            - Mike
+          answer: Mike
+        - question: The school has a campus radio station.
+          answer  : True
+        - question: The idea for the station is for the students just to have fun.
+          answer  : False
+        - question: Jim teaches Kyle and Mikehow to be professional DJs.
+          answer  : True
+        - question: Kyle and Mike have complete freedom to do anything they want.
+          answer  : False
+        - question: Kyle and Mike are professional DJs.
+          answer  : False
+        - question: Mike probably has more experience than Kyle.
+          answer  : True
+        - question: Jim probably has more experience than Mike.
+          answer  : True
