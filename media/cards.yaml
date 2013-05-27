@@ -312,3 +312,84 @@ pope:
           answer  : False
         - question: Dr Bean reads the Pope's tweets.
           answer  : True
+espn:
+  jigsaw:
+    0:
+      identifier: espn 0
+      A: You started playing for the Houston Rockets. Torre asks you if you know whether Harden gets upset playing video games.
+      B: You test Lin and Harden's knowledge of each other. You ask Lin about Harden and video games. You ask Harden about Lin and slam dunking.
+      C: You started playing for the Houston Rockets. Torre asks you if you know whether Lin could slam dunk in high school.
+      quiz:
+        - question: A
+          option:
+            - Harden
+            - Lin
+            - Torre
+          answer: Lin
+        - question: B
+          option:
+            - Harden
+            - Lin
+            - Torre
+          answer: Torre
+        - question: C
+          option:
+            - Harden
+            - Lin
+            - Torre
+          answer: Harden
+        - question: Lin and Harden both play for the Houston Rockets.
+          answer  : True
+        - question: They know each other very well.
+          answer  : False
+        - question: They have not been playing for the Houston Rockets very long.
+          answer  : True
+        - question: Lin asks Harden if he can slam dunk the ball.
+          answer  : False
+        - question: Toree asks Harden if Lin could slam dunk in high school.
+          answer  : True
+        - question: Lin asks Harden if he gets upset playing video games.
+          answer  : False
+        - question: Torre asks Lin if Harden gets upset playing video games.
+          answer  : True
+blair:
+  jigsaw:
+    0:
+      identifier: blair 0
+      A: Raines was your boss and Blair was your co-worker at the NY Times. Later, you went to another newspaper and wrote a story Blair copied. You didn't know.
+      B: You were Blair's boss. You found out he copied Hernandez' story. You fired him and wrote a story about what he did for the front page.
+      C: Hernandez had been a co-worker at the NY Times. You thought she wouldn't mind if you copied her article. But Raines was mad, and fired you.
+      quiz:
+        - question: A
+          option:
+            - Blair
+            - Hernandez
+            - Raines
+          answer: Hernandez
+        - question: B
+          option:
+            - Blair
+            - Hernandez
+            - Raines
+          answer: Raines
+        - question: C
+          option:
+            - Blair
+            - Hernandez
+            - Raines
+          option:
+          answer: 
+        - question: Hernandez didn't know Blair.
+          answer  : False
+        - question: Hernandez worked at the NY Times but then left.
+          answer  : True
+        - question: Blair copied Hernandez' story.
+          answer  : True
+        - question: Hernandez was mad.
+          answer  : False
+        - question: Raines was mad.
+          answer  : True
+        - question: Raines fired Blair.
+          answer  : True
+        - question: Raines wrote about Hernandez' story for the front page.
+          answer  : False
