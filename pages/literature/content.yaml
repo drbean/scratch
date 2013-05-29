@@ -58,12 +58,6 @@ topic:
     intro: These books were written between 200 and 100 years ago.
     story:
       -
-        id: frankenstein
-        title: Frankenstein
-        blurb: |
-          The original book was written by <a href="http://en.wikipedia.org/wiki/Mary_Shelley">Mary Shelley</a>, who was a radical like her husband, and her father (William Goldwin, who had earlier published a translation of Swiss Family Robinson).
-        comment: The classic horror movie version is <a href="http://en.wikipedia.org/wiki/Frankenstein_(1931_film)">Frankenstein (1931)</a>, 3 clips from which we will watch, the first a <a href="http://www.youtube.com/watch?v=8w2GKRccN7k">warning to viewers</a>, the second the <a href="http://www.youtube.com/watch?v=8H3dFh6GA-A">creation of the Monster</a>, the third the <a href="http://www.youtube.com/watch?v=MA9opHsLACk">murder of a child</a>. The <a href="http://www.youtube.com/watch?v=6JUkfA_SaM4">4th</a> and <a href="http://www.youtube.com/watch?v=yH97lImrr0Q.webyH97lImrr0Q">5th clips</a>, are from a comedy version of the movie, <a href="http://en.wikipedia.org/wiki/Young_Frankenstein">Young Frankenstein</a>.
-      -
         id: twist
         title: Oliver Twist
         blurb: |
@@ -90,6 +84,34 @@ topic:
         comment: |
           Like Oliver Twist, the story is very complicated. The cartoon versions don't stick closely to the book, but the two filmed versions do follow the book.
       -
+        id: musk2jekyll
+        title: Musketeers, 20000 Leagues, Jekyll and Hyde
+        blurb: |+
+          Fill in more blanks from the <a href="http://www.youtube.com/watch?v=AoKabmvTbwM">first meeting of d'Artagnan, the Comte de Rochefort and Milady de Winter</a>, <a href="https://www.youtube.com/watch?v=BtL87jvFVGs">Captain Nemo's announcement he is dying and he is going to sink the Nautilus</a>, and <a href="http://www.youtube.com/watch?v=NSl_pPocWx4">Dr Jekyll's discussion with Lanyon and Utterson and his first transformation into Hyde</a>
+        comment: The section to fill in in the first Musketeers clip starts at 1:00. And the corresponding section in the third Jekyll & Hyde clip starts at 6:00.
+  -
+    id: animal
+    title: Animal stories
+    intro: These books were written about animals instead of humans, but the animals are human-like. To see human characteristics in animals is called anthroporphism.
+    story:
+      -
+        id: mowgli
+        title: Mowgli
+        blurb: |
+          The original story was from <a href="http://en.wikipedia.org/wiki/Rudyard_Kipling">Rudyard_Kipling</a>'s <a href="http://en.wikipedia.org/wiki/The_Jungle_Book">The Jungle Book</a>. It's about a <a href="http://en.wikipedia.org/wiki/Feral_child">feral child</a>. Such children are certainly to have more unhappy lives than portrayed in literature.
+        comment: Rather than watching the <a href="http://en.wikipedia.org/wiki/The_Jungle_Book_(1967_film)">Disney version</a>, we watch a Japanese <a href="http://en.wikipedia.org/wiki/anime">anime</a> version, called <a href="http://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AB%E3%83%96%E3%83%83%E3%82%AF%E3%83%BB%E5%B0%91%E5%B9%B4%E3%83%A2%E3%83%BC%E3%82%B0%E3%83%AA">Jungle Book Shōnen Mowgli</a>, at <a href="https://www.youtube.com/watch?v=BqVfrRznZvo">https://www.youtube.com/watch?v=BqVfrRznZvo</a>, introduced by the first clip: <a href="https://www.youtube.com/watch?v=mdeivB7SfjM">https://www.youtube.com/watch?v=mdeivB7SfjM</a>
+  -
+    id: sf
+    title: Early science fiction
+    intro: These books were pioneering science fiction work published between 200 and 100 years ago.
+    story:
+      -
+        id: frankenstein
+        title: Frankenstein
+        blurb: |
+          The original book was written by <a href="http://en.wikipedia.org/wiki/Mary_Shelley">Mary Shelley</a>, who was a radical like her husband, and her father (William Goldwin, who had earlier published a translation of Swiss Family Robinson).
+        comment: The classic horror movie version is <a href="http://en.wikipedia.org/wiki/Frankenstein_(1931_film)">Frankenstein (1931)</a>, 3 clips from which we will watch, the first a <a href="http://www.youtube.com/watch?v=8w2GKRccN7k">warning to viewers</a>, the second the <a href="http://www.youtube.com/watch?v=8H3dFh6GA-A">creation of the Monster</a>, the third the <a href="http://www.youtube.com/watch?v=MA9opHsLACk">murder of a child</a>. The <a href="http://www.youtube.com/watch?v=6JUkfA_SaM4">4th</a> and <a href="http://www.youtube.com/watch?v=yH97lImrr0Q.webyH97lImrr0Q">5th clips</a>, are from a comedy version of the movie, <a href="http://en.wikipedia.org/wiki/Young_Frankenstein">Young Frankenstein</a>.
+      -
         id: 20000
         title: 20,000 Leagues Under the Sea
         blurb: |+
@@ -103,3 +125,10 @@ topic:
           <a href="http://en.wikipedia.org/wiki/Jekyll_hyde">Dr Jekyll and Mr Hyde</a>, by <a href="http://en.wikipedia.org/wiki/Robert_Louis_Stevenson">Robert Louis Stevenson</a> set new standards for horror stories because of its suggestion that evil comes from within and that anyone can be, and is, evil. The story was very popular. There have been more than 123 film versions.
         comment: |
           We will watch a <a href="http://www.youtube.com/watch?v=NSl_pPocWx4">1955 made-for-TV version</a> and a <a href="https://www.youtube.com/watch?v=g3M1wEe3hUs">1941 version</a>, a remake of the 1931 version featured in the textbook. The first version is closer to the book.
+      -
+        id: time
+        title: The Time Machine
+        blurb: |+
+          <a href="http://en.wikipedia.org/wiki/Time_travel_in_fiction">Time travel in fiction</a> predates <a href="http://en.wikipedia.org/wiki/H._G._Wells">H. G. Wells</a> ' <a href="http://en.wikipedia.org/wiki/The_Time_Machine">The Time Machine</a> but the book made the idea very popular.
+        comment: |
+          We will watch a <a href="http://en.wikipedia.org/wiki/The_Time_Machine_(1978_film)">1978 made-for-TV version</a> at <a href="https://www.youtube.com/watch?v=Hzrrs2e6CE0">http://www.youtube.com/watch?v=NSl_pPocWx4</a> after the trailer for a <a href="http://en.wikipedia.org/wiki/The_Time_Machine_(2002_film)">2002 version</a> at <a href="https://www.youtube.com/watch?v=90T7iLuzFgg">https://www.youtube.com/watch?v=90T7iLuzFgg</a>.
