@@ -490,3 +490,244 @@ twist:
           answer  : True
         - question: Monks wants to give Oliver his father's money.
           answer  : False
+musketeers:
+  jigsaw:
+    0:
+      identifier: musketeers 0
+      A: You gave your jewels away and Richelieu knows it. You ask d'Artagnan to get them back. When d'Artagnan returns, you give him a ring.
+      B: You want people to know the Queen's jewels are in England, so you want to stop her getting the jewels back. You send men to stop d'Artagnan.
+      C: The Queen sends you to England to get her jewels. You fight the men that Richelieu sends to kill you. You give the Queen the jewels.
+      quiz:
+        - question: A
+          option:
+            - d'Artagnan
+            - the Queen
+            - Richelieu
+          answer: the Queen
+        - question: B
+          option:
+            - d'Artagnan
+            - the Queen
+            - Richelieu
+          answer: Richelieu
+        - question: C
+          option:
+            - d'Artagnan
+            - the Queen
+            - Richelieu
+          answer: d'Artagnan
+        - question: The Queen's jewels were in England.
+          answer  : True
+        - question: The Queen didn't know where they were.
+          answer  : False
+        - question: Richelieu didn't know where they were.
+          answer  : False
+        - question: Richelieu wanted the jewels returned.
+          answer  : False
+        - question: The Queen sent d'Artagnan for them.
+          answer  : True
+        - question: Richelieu wanted to stop d'Artagnan.
+          answer  : True
+        - question: d'Artagnan gave the Queen a ring.
+          answer  : False
+    1:
+      identifier: musketeers 1
+      A: You fall in love with Milady, but you find out that she was in jail, and she wants to kill you. With Athos, you execute Milady.
+      B: You were married to Milady. You didn't know she was still alive. With d'Artagnan you put her to death.
+      C: You are the enemy of d'Artagnan and Athos, who was your husband. You tried to kill d'Artagnan. He and Athos kill you.
+      quiz:
+        - question: A
+          option:
+            - d'Artagnan
+            - Milady
+            - Athos
+          answer: d'Artagnan
+        - question: B
+          option:
+            - d'Artagnan
+            - Milady
+            - Athos
+          answer: Athos
+        - question: C
+          option:
+            - d'Artagnan
+            - Milady
+            - Athos
+          answer: Milady
+        - question: Athos and Milady were married.
+          answer  : True
+        - question: Athos and Milady are now enemies.
+          answer  : True
+        - question: d'Artagnan is not Milady's ememy.
+          answer  : False
+        - question: d'Artagnan was attracted to Milady.
+          answer  : True
+        - question: Milady was attracted to d'Artagnan.
+          answer  : False
+        - question: d'Artagnan looks for Milady in jail.
+          answer  : False
+        - question: d'Artagnan and Athos kill Milady.
+          answer  : True
+20000:
+  jigsaw:
+    0:
+      identifier: 20000 0
+      A: You are the captain of the Nautilus. You capture Aronnax and Land when their ship attacks you. You will not let them go.
+      B: You are an expert whale catcher. You fall into the sea and are caught by Nemo. You don't cooperate. Later, you escape with Aronnax.
+      C: You study sea animals. You are very interested in life under the sea. But when Nemo becomes depressed, you and Land escape.
+      quiz:
+        - question: A
+          option:
+            - Aronnax
+            - Land
+            - Nemo
+          answer: Nemo
+        - question: B
+          option:
+            - Aronnax
+            - Land
+            - Nemo
+          answer: Land
+        - question: C
+          option:
+            - Aronnax
+            - Land
+            - Nemo
+          answer: Aronnax
+        - question: Aronnax and Land's ship attacks the Nautilus.
+          answer  : True
+        - question: Nemo takes Aronnax and Land prisoner.
+          answer  : True
+        - question: Land constantly struggles against Nemo.
+          answer  : True
+        - question: Aronnax constantly struggles against Nemo.
+          answer  : False
+        - question: Nemo decides to let Land and Aronnax go.
+          answer  : False
+        - question: Aronnax escapes but Land dies while escaping.
+          answer  : False
+        - question: We don't know what happens to Nemo.
+          answer  : True
+    1:
+      identifier: 20000 1
+      A: You are the captain of the Nautilus. You are very happy to tell Aronnax about sea animals. But you become sad when a squid kills a seaman.
+      B: You study sea animals. You learn a lot from Nemo. You learn about giant squids, when they attack the Nautilus.
+      C: You are Nemo's submarine. Nemo loves living on you. Aronnax enjoys the experience, too. You take them around the world.
+      quiz:
+        - question: A
+          option:
+            - Aronnax
+            - the Nautilus
+            - Nemo
+          answer: Nemo
+        - question: B
+          option:
+            - Aronnax
+            - the Nautilus
+            - Nemo
+          answer: Aronnax
+        - question: C
+          option:
+            - Aronnax
+            - the Nautilus
+            - Nemo
+          answer: the Nautilus
+        - question: Nemo teaches Aronnax a lot about the sea.
+          answer  : True
+        - question: Then, Aronnax decides to study sea animals.
+          answer  : False
+        - question: Aronnax enjoys being on the Nautilus.
+          answer  : True
+        - question: Life is perfect for Nemo on the Nautilus.
+          answer  : False
+        - question: The Nautilus goes around the world. 
+          answer  : True
+        - question: The Nautilus attacks some giant squids.
+          answer  : False
+        - question: The Nautilus is destroyed by the squids.
+          answer  : False
+jekyll:
+  jigsaw:
+    0:
+      identifier: jekyll 0
+      A: You are Jekyll's friend. You gave him a stick. You find the stick after Hyde uses it in a murder. Later, you read Jekyll's letter.
+      B: You were a good man. But you experiment with your mind and you turn into Hyde. You write Utterson a letter.
+      C: You are Hyde. You were Dr Jekyll. You kill someone him with Dr Jekyll's stick. Utterson had given Dr Jekyll the stick.
+      quiz:
+        - question: A
+          option:
+            - Mr Hyde
+            - Dr Jekyll
+            - Mr Utterson
+          answer: Mr Utterson
+        - question: B
+          option:
+            - Mr Hyde
+            - Dr Jekyll
+            - Mr Utterson
+          answer: Dr Jekyll
+        - question: C
+          option:
+            - Mr Hyde
+            - Dr Jekyll
+            - Mr Utterson
+          answer: Mr Hyde
+        - question: Mr Hyde is Dr Jekyll.
+          answer  : True
+        - question: Mr Utterson always knew that Hyde was Jekyll.
+          answer  : False
+        - question: Mr Utterson gave Dr Jekyll a stick.
+          answer  : True
+        - question: Mr Utterson found Mr Hyde used the stick in a murder.
+          answer  : True
+        - question: Mr Hyde used the stick to kill Dr Jekyll.
+          answer  : False
+        - question: Mr Hyde writes a letter to Dr Jekyll.
+          answer  : False
+        - question: Mr Utterson reads Dr Jekyll's letter.
+          answer  : True
+    1:
+      identifier: jekyll 1
+      A: You are a doctor and Jekyll's friend. You see Mr Hyde change into Dr Jekyll before your eyes, You are so shocked, you die.
+      B: You need Lanyon's help to change back into Jekyll. The shock kills him. You also die. Before you die, you write Utterson a letter.
+      C: You are Dr Lanyon and Dr Jekyll's friend. You don't understand why Lanyon died. Jekyll's letter explains it to you.
+      quiz:
+        - question: A
+          option:
+            - Dr Jekyll
+            - Dr Lanyon
+            - Mr Utterson
+          answer: Dr Lanyon
+        - question: B
+          option:
+            - Dr Jekyll
+            - Dr Lanyon
+            - Mr Utterson
+          answer: Dr Jekyll
+        - question: C
+          option:
+            - Dr Jekyll
+            - Dr Lanyon
+            - Mr Utterson
+          answer: Mr Utterson
+        - question: Dr Lanyon sees Mr Hyde change into Dr Jekyll.
+          answer  : True
+        - question: Mr Utterson also knew that Hyde was Jekyll.
+          answer  : False
+        - question: Dr Lanyon is shocked to learn Mr Hyde is Dr Jekyll.
+          answer  : True
+        - question: Mr Hyde kills Dr Lanyon.
+          answer  : False
+        - question: Dr Jekyll writes a letter to Mr Utterson.
+          answer  : True
+        - question: Mr Utterson reads Dr Jekyll's letter.
+          answer  : True
+        - question: Utterson can't understand it. He asks Jekyll to explain.
+          answer  : False
+time:
+  jigsaw:
+    0:
+      identifier: time 0
+      A: The Time Traveler saves you from drowning. You like him. You put some flowers in his pocket.
+      B: On a trip into the future, you meet a helpless woman called Weena. You show the Narrator her flowers.
+      C: You tell the story of the Time Traveler. You don't know whether to believe him until you see Weena's flowers.
