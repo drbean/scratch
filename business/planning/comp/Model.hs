@@ -32,7 +32,7 @@ entity_check =  [
     , (F, "framework" )
     , (G, "group" )
     , (H, "" )
-    , (I, "ingredients" )
+    , (I, "ingredients_for_success" )
     , (J, "" )
     , (K, "" )
     , (L, "loser" )
@@ -105,6 +105,9 @@ onePlacers = [
 	, ("t (Someone,Y,F),(Someone,B,F),(Someone,P,F),(Someone,Y,M)eeacher",	pred1 [T] )
 	, ("student",	pred1 [S1,S11] )
 	, ("group",	pred1 [G] )
+	, ("teacher",	pred1 $ map ( \(t,_,_,_) -> t ) schooling )
+
+	, ("english",	pred1 [E] )
 
 	, ("question",	pred1 [Q] )
 	, ("answer",	pred1 [Y] )
@@ -114,9 +117,12 @@ onePlacers = [
 	, ("good",	pred1 [C,A,O,N] )
 	, ("bad",	pred1 [F,G] )
 
+	, ("innovative",	pred1 [X1] )
 	, ("compcomp_activity",	pred1 [X1,X11])
 	, ("ingredients_for_success",	pred1 [C,A,O,N])
 	, ("autonomy",	pred1 [A])
+	, ("ownership",	pred1 [O])
+	, ("innovation",	pred1 [N])
 	, ("framework",	predid1 "ingredients_for_success" )
 	, ("activity",	pred1 [X])
 	, ("successful",	pred1 [X1])
@@ -149,14 +155,14 @@ pred5 xs	= curry5 ( `elem` xs )
 twoPlacers :: [(String, TwoPlacePred)]
 twoPlacers = [
     ("know",	pred2 $ knowledge ++ acquaintances ++ map swap acquaintances)
-    , ("have",	pred2 $ (map (\(t,_,_,s) -> (t,s) ) schooling ) )
+    , ("have",	pred2 $ (map (\(t,_,_,s) -> (t,s) ) schooling ) ++ possessions )
     , ("like",	pred2 appreciation )
     , ("help",	pred2 [])
     , ("speak",	pred2 [])
     , ("listen",	pred2 [])
     , ("read",	pred2 [])
     , ("write",	pred2 [])
-    , ("go",	pred2 $ map (\(a,_,l,_) -> (a,l) ) looking )
+    -- , ("go",	pred2 $ map (\(a,_,l,_) -> (a,l) ) looking )
     , ("said",	pred2 $ map (\x->(agent x, theme x) ) comms)
     , ("asked",	pred2 $ map (\x->(agent x, recipient x) ) comms)
     , ("talk_with_or_about",	pred2 $ map (\x->(agent x, recipient x) ) comms
@@ -171,44 +177,38 @@ threePlacers = [
     , ("ask_about",	pred3 $ map (\x->(agent x, recipient x, theme x) ) comms)
     , ("talk_with_about",	pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
 			    ++ comms)
-    , ("have_to_ask",	have_to_ask )
+    -- , ("have_to_ask",	have_to_ask )
     , ("told",	pred3 comms)
     ]
 
 fourPlacers = [
-	("ask",	pred4 $ foldl (\ss (a,t,p,l) -> (a,t,p,l): (a,t,l,p): ss) [] purchases)
-	, ("sell", pred4 $ foldl (\ss (a,t,p,l) -> (l,t,a,l): (p,t,a,l): (p,t,l,a):
-					ss ) [] purchases)
-	, ("get",	pred4 $ map (\x -> (agent4 x, theme4 x, provider4 x, location4 x)
+	-- ("ask",	pred4 $ foldl (\ss (a,t,r) -> (a,t,r): (a,r,t): ss) [] comms)
+	-- ("sell", pred4 $ foldl (\ss (a,t,p,l) -> (l,t,a,l): (p,t,a,l): (p,t,l,a):
+	-- 				ss ) [] comms)
+	("get",	pred4 $ map (\x -> (agent4 x, theme4 x, provider4 x, location4 x)
 				) services ++
 			map (\x -> (agent4 x, provider4 x, theme4 x, location4 x)
 				) services )
 	, ("give", pred4 $ foldl (\ss (a,t,p,l) -> (l,t,a,l): (p,t,a,l): (p,t,l,a):
 					ss ) [] services)
-	, ("answer", pred4 $ map (\x -> (agent4 x, provider4 x, theme4 x, purpose4 x) ) purchases)
-    , ("wanted_to_ask", pred4 $ foldl ( \ps (a,t,p,l)  -> (a,a,t,p):(a,a,t,l):ps ) [] looking)
+	-- , ("answer", pred4 $ map (\x -> (agent4 x, provider4 x, theme4 x, purpose4 x) ) comms)
+    -- , ("wanted_to_ask", pred4 $ foldl ( \ps (a,t,p,l)  -> (a,a,t,p):(a,a,t,l):ps ) [] comms)
 	]
 
 -- (teacher,activity,group,student)
 schooling   = [(T,X1,G,S1),(T,X11,G,S11)]
 -- (agent,theme,result,aim)
 features	= [(X1,A)]
-pricing = [(Q,D,H),(Q,E,J),(Q,F,K),(Q,G,I)]
-looking	= [(T,D,Q,M),(T,E,Q,M)]
-purchases	= [(T,D,Q,M)]
-non_purchases = looking \\ purchases
-stock =  [(Q,F),(Q,G)] ++ ( map ( \(_,t,p,_) -> (p,t) ) $ looking ++ purchases )
-have_to_ask = pred3 $ map (\(a,t,_,_) -> (a,Y,t) ) $ ( filter (\(a,t,r,_) -> t /= C) non_purchases ) ++ purchases
 services    = []
 
 wanted = predid4 "looking"
 
-possessions	= [(T,A),(T,X2),(S1,Q)]
+possessions	= [(T,A),(S2,A),(T,X2),(S1,Q)]
 
 appreciation	= [(S1,X1),(T,E)]
 knowledge	= []
 acquaintances	= []
-comms	= []
+comms	= [(T,E,S1)]
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
@@ -221,6 +221,7 @@ agent (a,_,_) = a
 theme (_,t,_) = t
 recipient (_,_,r) = r
 patient = theme
+mode = theme
 location = recipient
 source	= recipient
 instrument = recipient
