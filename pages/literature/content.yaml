@@ -101,9 +101,21 @@ topic:
           The original story was from <a href="http://en.wikipedia.org/wiki/Rudyard_Kipling">Rudyard_Kipling</a>'s <a href="http://en.wikipedia.org/wiki/The_Jungle_Book">The Jungle Book</a>. It's about a <a href="http://en.wikipedia.org/wiki/Feral_child">feral child</a>. Such children are certainly to have more unhappy lives than portrayed in literature.
         comment: Rather than watching the <a href="http://en.wikipedia.org/wiki/The_Jungle_Book_(1967_film)">Disney version</a>, we watch a Japanese <a href="http://en.wikipedia.org/wiki/anime">anime</a> version, called <a href="http://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%B0%E3%83%AB%E3%83%96%E3%83%83%E3%82%AF%E3%83%BB%E5%B0%91%E5%B9%B4%E3%83%A2%E3%83%BC%E3%82%B0%E3%83%AA">Jungle Book Shōnen Mowgli</a>, at <a href="https://www.youtube.com/watch?v=BqVfrRznZvo">https://www.youtube.com/watch?v=BqVfrRznZvo</a>, introduced by the first clip: <a href="https://www.youtube.com/watch?v=mdeivB7SfjM">https://www.youtube.com/watch?v=mdeivB7SfjM</a>
   -
+    id: human
+    title: Human interest stories
+    intro: These books are stories about individuals facing problems in the societies they are living in.
+    story:
+      -
+        id: anne
+        title: Anne of Green Gables
+        blurb: |
+          The <a href="http://en.wikipedia.org/wiki/Anne_of_Green_Gables">original book</a> written by <a href="http://en.wikipedia.org/wiki/Lucy_Maud_Montgomery">Lucy Maud Montgomery</a>, takes material from her own  childhood experiences, and was a success as soon as it was published. She went on to publish 20 novels and over 500 short stories.
+        comment: The made-for-TV movie version featured in the textbook <a href="http://en.wikipedia.org/wiki/Anne_of_Green_Gables_(1985_film)">Anne of Green Gables (1931)</a>, 2 clips from which we will watch, the first <a href="http://www.youtube.com/watch?v=7HQDdggsgy8">before Anne meets the Cuthberts</a>, and the second the <a href="http://www.youtube.com/watch?v=q10hr82GDtw">the Cuthberts' reaction to finding Anne is a girl and Anne's response</a>, appears to be most popular. There are <a href="http://en.wikipedia.org/wiki/Anne_of_Green_Gables#Representation_in_other_media">other versions</a>, however.
+
+  -
     id: sf
     title: Early science fiction
-    intro: These books were pioneering science fiction work published between 200 and 100 years ago.
+    intro: These books were pioneering science fiction works published between 200 and 100 years ago.
     story:
       -
         id: frankenstein
