@@ -162,14 +162,11 @@ twoPlacers = [
     , ("listen",	pred2 [])
     , ("read",	pred2 [])
     , ("write",	pred2 [])
-    -- , ("go",	pred2 $ map (\(a,_,l,_) -> (a,l) ) looking )
     , ("said",	pred2 $ map (\x->(agent x, theme x) ) comms)
     , ("asked",	pred2 $ map (\x->(agent x, recipient x) ) comms)
     , ("talk_with_or_about",	pred2 $ map (\x->(agent x, recipient x) ) comms
 	++  map (\(agent,theme,recipient)->(agent, theme) ) comms)
     , ("recite",	pred2 $ map ( \x -> (agent x, theme x) ) comms)
-    --, ("work_where",	pred2 $ map (\x -> (patient x, agent x) ) work)
-    --, ("work_as",	pred2 $ map (\x -> (patient x, location x) ) work)
 	]
 
 threePlacers = [
@@ -177,22 +174,16 @@ threePlacers = [
     , ("ask_about",	pred3 $ map (\x->(agent x, recipient x, theme x) ) comms)
     , ("talk_with_about",	pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
 			    ++ comms)
-    -- , ("have_to_ask",	have_to_ask )
     , ("told",	pred3 comms)
     ]
 
 fourPlacers = [
-	-- ("ask",	pred4 $ foldl (\ss (a,t,r) -> (a,t,r): (a,r,t): ss) [] comms)
-	-- ("sell", pred4 $ foldl (\ss (a,t,p,l) -> (l,t,a,l): (p,t,a,l): (p,t,l,a):
-	-- 				ss ) [] comms)
 	("get",	pred4 $ map (\x -> (agent4 x, theme4 x, provider4 x, location4 x)
 				) services ++
 			map (\x -> (agent4 x, provider4 x, theme4 x, location4 x)
 				) services )
 	, ("give", pred4 $ foldl (\ss (a,t,p,l) -> (l,t,a,l): (p,t,a,l): (p,t,l,a):
 					ss ) [] services)
-	-- , ("answer", pred4 $ map (\x -> (agent4 x, provider4 x, theme4 x, purpose4 x) ) comms)
-    -- , ("wanted_to_ask", pred4 $ foldl ( \ps (a,t,p,l)  -> (a,a,t,p):(a,a,t,l):ps ) [] comms)
 	]
 
 -- (teacher,activity,group,student)
