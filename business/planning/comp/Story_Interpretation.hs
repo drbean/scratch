@@ -28,6 +28,7 @@ objects = [
 	, ( "ownership",	\[x]	-> predid1 "ownership" x	)
 	, ( "innovation",	\[x]	-> predid1 "innovation" x	)
 	
+	, ( "innovative",	\[x]	-> predid1 "innovative" x	)
 	
 
 	]
@@ -53,7 +54,7 @@ inflections = [
 
 	, ("questions",	"question") 
 	, ("answers",	"answer" )
-	, ("ingredients",	"ingredient" )
+	, ("ingredient_for_success",	"ingredients_for_success" )
 	, ("clear_and_simple_ideas",	"clear_and_simple_idea" )
 
 
