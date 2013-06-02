@@ -11,6 +11,9 @@ relatives = [
 
 haves = [
 	"Did Dr Bean have autonomy?"
+	, "Did students have autonomy?"
+	, "Did some students have autonomy?"
+	, "Did all students have autonomy?"
 	, "Did students in the compcomp activity have autonomy?"
 	, "Did Dr Bean have some students?"
 	, "Did Dr Bean have some questions?"
@@ -40,6 +43,9 @@ asks = [
 	, "Did Dr Bean ask questions about the compcomp activity?"
 	, "Did Dr Bean ask questions about the students?"
 	, "Did Dr Bean want to ask questions?"
+	, "Did Dr Bean want to ask students questions?"
+	, "Did students have to ask questions?"
+	, "Did students have to ask questions in the activity?"
 	]
 
 text_test = [
@@ -48,36 +54,30 @@ text_test = [
 	]
 
 comp_tests = [
-	"Lack of support was stressful."
-	, "Uncertainty was stressful."
-	, "Lack of control was stressful."
-	, "Pressure was stressful."
-	, "Dr Bean was a man."
-	, "Dr Bean was an adventurer."
-	, "Dr Bean was a woman."
-	, "Dr Bean was an adventurer."
-	, "Dr Bean was a man."
-	, "Dr Bean wasn't a woman."
-	, "Dr Bean wasn't a woman."
-	, "Dr Bean wasn't an adventurer."
-	, "Dr Bean was ambitious."
-	, "Dr Bean wasn't stressful."
+	"Dr Bean was an teacher."
+	, "Dr Bean was an ingredient for success."
+	, "Dr Bean wasn't an person."
+	, "Dr Bean was successful."
+	, "Dr Bean wasn't innovative."
+	, "Autonomy was an ingredient for success."
+	, "Ownership was an ingredient for success."
+	, "Innovation was an ingredient for success."
 	]
 
 pressure_test = [
-	"The team put pressure on the team.",
-	"A team didn't put pressure on a team.",
-	"The team put pressure on Dr Bean.",
-	"The team didn't put pressure on Dr Bean.",
-	"Dr Bean put pressure on the team.",
-	"Dr Bean didn't put pressure on the team.",
-	"Dr Bean didn't put pressure on a team.",
+	"The group put pressure on the group.",
+	"A group didn't put pressure on a group.",
+	"The group put pressure on Dr Bean.",
+	"The group didn't put pressure on Dr Bean.",
+	"Dr Bean put pressure on the group.",
+	"Dr Bean didn't put pressure on the group.",
+	"Dr Bean didn't put pressure on a group.",
 	"Dr Bean put pressure on Dr Bean.",
 	"Dr Bean didn't put pressure on Dr Bean.",
-	"The team put pressure on Dr Bean.",
-	"The team didn't put pressure on Dr Bean.",
-	"Dr Bean put pressure on the team.",
-	"Dr Bean didn't put pressure on the team.",
+	"The group put pressure on Dr Bean.",
+	"The group didn't put pressure on Dr Bean.",
+	"Dr Bean put pressure on the group.",
+	"Dr Bean didn't put pressure on the group.",
 	"Dr Bean put pressure on Dr Bean."
 	]
 
@@ -109,13 +109,13 @@ mod_test = [
 	]
 
 possessives = [
-	"Dr Bean's team helped Dr Bean."
-	, "Did Dr Bean's team talk to Dr Bean?"
-	, "Did the team of Dr Bean talk to Dr Bean?"
-	, "Dr Bean's stress talked to the team."
-	-- , "Dr Bean's team caused Dr Bean's stress"
-	, "Did Dr Bean's stress cause stress to Dr Bean's team?"
-	, "Did Dr Bean's stress cause stress to Dr Bean's team?"
+	"Dr Bean's group helped Dr Bean."
+	, "Did Dr Bean's group talk to Dr Bean?"
+	, "Did the group of Dr Bean talk to Dr Bean?"
+	, "Dr Bean's stress talked to the group."
+	-- , "Dr Bean's group caused Dr Bean's stress"
+	, "Did Dr Bean's stress cause stress to Dr Bean's group?"
+	, "Did Dr Bean's stress cause stress to Dr Bean's group?"
 	, "Dr Bean was an adventurer."
 	, "Dr Bean was ambitious."
 	, "Stress was because of lack of support."
@@ -124,22 +124,37 @@ possessives = [
 	, "Was the stress of Dr Bean because of lack of support?"
 	, "Was the stress of the ambitious women because of lack of support?"
 	, "Was the stress of Dr Bean because of lack of support?"
-	, "Was the team of Dr Bean because of lack of support?"
-	, "Was the team of Dr Bean because of lack of support?"
-	, "Did the team of Dr Bean talk to Dr Bean?"
+	, "Was the group of Dr Bean because of lack of support?"
+	, "Was the group of Dr Bean because of lack of support?"
+	, "Did the group of Dr Bean talk to Dr Bean?"
 	, "Did someone talk to Dr Bean?"
 	]
 
 talks = [
-	"Did Dr Bean talk to Dr Bean?"
+	"Did Dr Bean speak good English?"
+	, "Did Dr Bean talk to students?"
+	, "Did Dr Bean talk to students in English?"
 	, "Someone talked to Dr Bean."
-	, "A team talked to Dr Bean."
-	, "The team of Dr Bean talked to Dr Bean."
-	, "A team of Dr Bean talked to Dr Bean."
-	, "The team of Dr Bean talked to Dr Bean."
+	, "A group talked to Dr Bean."
+	, "A group of students talked to Dr Bean."
+	, "A group of Dr Bean talked to Dr Bean."
+	, "The group of Dr Bean talked to Dr Bean."
 	, "Did the stress of Dr Bean talk to Dr Bean?"
 	, "Did a stress of Dr Bean talk to Dr Bean?"
-	-- , "Did the stress of Dr Bean talk to Dr Bean's team?"
+	-- , "Did the stress of Dr Bean talk to Dr Bean's group?"
+	]
+
+knows = [
+	"Did Dr Bean know the answer?"
+	, "Did Dr Bean have the answer?"
+	, "Someone knew the answer to Dr Bean's question."
+	, "A member of a group knew Dr Bean."
+	, "The group of Dr Bean knew Dr Bean."
+	, "A group of Dr Bean knew Dr Bean."
+	, "The group of Dr Bean knew Dr Bean."
+	, "Did the stress of Dr Bean know Dr Bean?"
+	, "Did a stress of Dr Bean know Dr Bean?"
+	-- , "Did the stress of Dr Bean know Dr Bean's group?"
 	]
 
 fly_test = [
@@ -564,7 +579,7 @@ yn_test = [
 	]
 
 tag_test = [
-	"Dr Bean wanted to buy shoes from QuanJiaFu, didn't he?"
+	"Dr Bean talked to students in English, didn't he?"
 	, "Dr Bean wanted to buy shoes at QuanJiaFu, didn't he?"
 	, "Dr Bean wanted to buy shoes in QuanJiaFu, didn't he?"
 	, "Dr Bean wanted to buy shoes in Miaoli, didn't he?"
