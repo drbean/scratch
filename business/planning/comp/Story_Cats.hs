@@ -28,7 +28,7 @@ nouns = [
 
 	, [Cat "question"	"CN" [Thrd,Neutr,Sg] []]
 	, [Cat "questions"	"CN" [Thrd,Neutr,Pl] []]
-	, [Cat "answer"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "answer"	"CN" [Thrd,Neutr,Sg] []]
 	, [Cat "answers"	"CN" [Thrd,Neutr,Pl] []]
 
 
@@ -113,6 +113,7 @@ adjs = [
 	, [Cat "unsuccessful"	"ADJ" [] []]
 	, [Cat "good"	"ADJ" [] []]
 	, [Cat "bad"	"ADJ" [] []]
+	, [Cat "innovative"	"ADJ" [] []]
 	]
 
 advs = [
