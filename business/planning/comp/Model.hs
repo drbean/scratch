@@ -177,17 +177,6 @@ threePlacers = [
     , ("told",	pred3 comms)
     ]
 
-fourPlacers = [
-	("get",	pred4 $ map (\x -> (agent4 x, theme4 x, provider4 x, location4 x)
-				) services ++
-			map (\x -> (agent4 x, provider4 x, theme4 x, location4 x)
-				) services )
-	, ("give", pred4 $ foldl (\ss (a,t,p,l) -> (l,t,a,l): (p,t,a,l): (p,t,l,a):
-					ss ) [] services)
-	]
-
--- (teacher,activity,group,student)
-schooling   = [(T,X1,G,S1),(T,X11,G,S11)]
 -- (agent,theme,result,aim)
 features	= [(X1,A)]
 services    = []
@@ -199,7 +188,6 @@ possessions	= [(T,A),(S2,A),(T,X2),(S1,Q)]
 appreciation	= [(S1,X1),(T,E)]
 knowledge	= []
 acquaintances	= []
-comms	= [(T,E,S1)]
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
@@ -223,6 +211,8 @@ acceptances = []
 -- (seller, item, buyer)
 selling	= []
 
+comms	= [(T,E,S1)]
+
 said	= pred2 $ map (\x->(agent x, theme x) ) comms
 asked	= pred2 $ map (\x->(agent x, recipient x) ) comms
 ask_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
@@ -232,6 +222,17 @@ talk_about = pred3 $ map (\x->(agent x, recipient x, theme x) ) comms
 
 told	= pred3 comms
 
+fourPlacers = [
+	("get",	pred4 $ map (\x -> (agent4 x, theme4 x, provider4 x, location4 x)
+				) services ++
+			map (\x -> (agent4 x, provider4 x, theme4 x, location4 x)
+				) services )
+	, ("give", pred4 $ foldl (\ss (a,t,p,l) -> (l,t,a,l): (p,t,a,l): (p,t,l,a):
+					ss ) [] services)
+	]
+
+-- (teacher,activity,group,student)
+schooling   = [(T,X1,G,S1),(T,X11,G,S11)]
 recite = pred2 $ map ( \x -> (agent x, theme x) ) comms
 giving	= map (\(a,t,p,_) -> (a,t,p) ) services
 
