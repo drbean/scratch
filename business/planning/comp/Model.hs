@@ -103,7 +103,7 @@ onePlacers = [
 	, ("female",	pred1 [] )
 	, ("role",	pred1 [] )
 	, ("t (Someone,Y,F),(Someone,B,F),(Someone,P,F),(Someone,Y,M)eeacher",	pred1 [T] )
-	, ("student",	pred1 [S1,S11] )
+	, ("student",	pred1 [S1,S2,S11] )
 	, ("group",	pred1 [G] )
 	, ("teacher",	pred1 $ map ( \(t,_,_,_) -> t ) schooling )
 
