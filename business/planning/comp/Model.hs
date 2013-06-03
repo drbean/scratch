@@ -102,8 +102,8 @@ onePlacers = [
 	, ("male",	pred1 [T] )
 	, ("female",	pred1 [] )
 	, ("role",	pred1 [] )
-	, ("t (Someone,Y,F),(Someone,B,F),(Someone,P,F),(Someone,Y,M)eeacher",	pred1 [T] )
-	, ("student",	pred1 [S1,S2,S11] )
+	, ("teacher",	pred1 [T] )
+	, ("student",	pred1 [S1,S2,S3,S4,S11] )
 	, ("group",	pred1 [G] )
 	, ("teacher",	pred1 $ map ( \(t,_,_,_) -> t ) schooling )
 
@@ -124,7 +124,7 @@ onePlacers = [
 	, ("ownership",	pred1 [O])
 	, ("innovation",	pred1 [N])
 	, ("framework",	predid1 "ingredients_for_success" )
-	, ("activity",	pred1 [X])
+	, ("activity",	pred1 [X,X1,X11,X3,X4])
 	, ("successful",	pred1 [X1])
 	, ("unsuccessful",	pred1 [X11])
 	]
@@ -156,7 +156,7 @@ twoPlacers :: [(String, TwoPlacePred)]
 twoPlacers = [
     ("know",	pred2 $ knowledge ++ acquaintances ++ map swap acquaintances)
     , ("have",	pred2 $ (map (\(t,_,_,s) -> (t,s) ) schooling ) ++ possessions )
-    , ("like",	pred2 appreciation )
+    , ("like",	pred2 $ map (\(a,t,r) -> (a,t)) appreciation)
     , ("help",	pred2 [])
     , ("speak",	pred2 [])
     , ("listen",	pred2 [])
@@ -169,13 +169,6 @@ twoPlacers = [
     , ("recite",	pred2 $ map ( \x -> (agent4 x, theme4 x) ) comms)
 	]
 
-threePlacers = [
-    ("gave",	pred3 giving)
-    , ("ask_about",	pred3 $ map (\x->(agent4 x, recipient4 x, theme4 x) ) comms)
-    , ("talk_with_about",	pred3 $ map (\x->(agent4 x, recipient4 x, theme4 x) ) comms
-			    ++ map ( \(a,t,r,_) -> (a,t,r) ) comms)
-    ]
-
 -- (agent,theme,result,aim)
 features	= [(X1,A)]
 services    = []
@@ -184,7 +177,8 @@ wanted = predid4 "looking"
 
 possessions	= [(T,A),(S2,A),(T,X2),(S1,Q)]
 
-appreciation	= [(S1,X1),(T,E)]
+-- (appreciator, performance, actor)
+appreciation	= [(S1,X1,S),(T,E,S),(T,Q,S4),(T,Q,T)]
 knowledge	= []
 acquaintances	= []
 
@@ -206,6 +200,14 @@ instrument = recipient
 origin	= theme
 destination = recipient
 
+threePlacers = [
+    ("gave",	pred3 giving)
+    , ("ask_about",	pred3 $ map (\x->(agent4 x, recipient4 x, theme4 x) ) comms)
+    , ("talk_with_about",	pred3 $ map (\x->(agent4 x, recipient4 x, theme4 x) ) comms
+			    ++ map ( \(a,t,r,_) -> (a,t,r) ) comms)
+    , ("like_to_ask",	pred3 $ map (\(a,t,r) -> (a,r,t)) appreciation )
+    ]
+
 acceptances = []
 -- (seller, item, buyer)
 selling	= []
@@ -222,9 +224,11 @@ fourPlacers = [
 				) services ++
 			map (\x -> (agent4 x, provider4 x, theme4 x, location4 x)
 				) services )
-	, ("give", pred4 $ foldl (\ss (a,t,p,l) -> (l,t,a,l): (p,t,a,l): (p,t,l,a):
+	, ("give",	pred4 $ foldl (\ss (a,t,p,l) -> (l,t,a,l): (p,t,a,l): (p,t,l,a):
 					ss ) [] services)
-	, ("told",	pred4 comms)
+	, ("ask",   pred4 $foldl (\cc (a,t,r,m) -> (a,t,r,m): (a,r,t,m): cc) [] comms)
+	, ("have_to_ask",	pred4 $ map (\(_,t,r,l) -> (r,r,t,l) ) directives )
+	, ("wanted_to_talk",	pred4 $ map (\(a,t,r,l) -> (a,r,l,t) ) goals )
 	]
 
 -- (teacher,activity,group,student)
@@ -232,7 +236,11 @@ schooling   = [(T,X1,G,S1),(T,X11,G,S11)]
 recite = pred2 $ map ( \x -> (agent4 x, theme4 x) ) comms
 giving	= map (\(a,t,p,_) -> (a,t,p) ) services
 -- (speaker,content,listener,mode)
-comms	= [(T,Unspec,S1,E)]
+comms	= [(T,Unspec,S1,E),(T,Q,S2,E)]
+-- (instigator,act,agent,situation)
+directives  = [(T,Q,S3,X3)]
+-- (planner,goal,achiever,situation)
+goals	= [(T,E,S4,X4)]
 
 agent4, theme4, recipient4, location4 :: (Entity,Entity,Entity,Entity) -> Entity
 agent4 (a,_,_,_)	= a
@@ -240,6 +248,7 @@ theme4 (_,t,_,_)	= t
 recipient4 (_,_,r,_)	= r
 provider4	= recipient4
 location4 (_,_,_,l)	= l
+mode4	= location4
 purpose4	= location4
 aim4	= purpose4
 result4	= recipient4
