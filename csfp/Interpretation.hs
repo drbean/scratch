@@ -48,8 +48,8 @@ relations = [
  , ( "had", \[x,y] -> predid2 "have" y x )
  , ( "gave",	\ [x,y,z] ->	predid3 "gave" z y x )
  , ( "talked", \args -> case args of
-    [x,y,z] -> predid3 "talked_with_about" z y x
-    [x,y]    -> (forgetful3 . predid3) "talk_with_about" x y)
+    [x,y,z] -> predid3 "talk_with_about" z y x
+    [x,y]    -> (forgetful3 . predid3) "talk_with_about" y x)
  --( "work", \args -> case args of
  --       [x] -> worker x
  --       [x,y] -> predid2 "work_where" y x || predid2 "work_as" y x ),
