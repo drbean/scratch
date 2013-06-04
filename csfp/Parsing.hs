@@ -227,6 +227,10 @@ preproc ("forty-two":"years":"old":xs)	= "forty-two_years_old" : preproc xs
 
 preproc ("the":"united":"states":xs)	= "the_united_states" : preproc xs
 
+preproc ("ingredients":"for":"success":xs)	= "ingredients_for_success" : preproc xs
+preproc ("ingredient":"for":"success":xs)	= "ingredient_for_success" : preproc xs
+preproc ("compcomp":"activity":xs)	= "compcomp_activity" : preproc xs
+
 preproc ("fruit":"store":xs)	= "fruit_store" : preproc xs
 preproc ("shoe":"store":xs)	= "shoe_store" : preproc xs
 preproc ("too":"far":xs)	= "too_far" : preproc xs
