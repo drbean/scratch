@@ -43,6 +43,7 @@ inflections = [
 	, ( "sold",	"sell" )
 	, ( "want_to_sell",	"wanted_to_sell" )
 	, ( "want_to_ask",	"wanted_to_ask" )
+	, ( "want_to_talk",	"wanted_to_talk" )
 	, ( "want_to_look",	"wanted_to_look" )
 	, ( "want_to_have",	"wanted_to_have" )
 	, ( "answered",	"answer" )
@@ -88,7 +89,10 @@ relations = [
 		[x,y] -> (forgetful3 .forgetful4 . predid4) "ask" y x
 		[x] -> (forgetful2 . forgetful3 . forgetful4 . predid4) "ask" x )
 	, ( "have_to_ask",	\args -> case args of
-		[x,y,z] -> predid3 "have_to_ask" z y x )
+		[x,y,z,w] -> predid4 "have_to_ask" w z y x
+		[x,y,z] -> (forgetful4 . predid4) "have_to_ask" z y x )
+	, ( "like_to_ask",	\args -> case args of
+		[x,y,z] -> predid3 "like_to_ask" z y x )
 
 	, ( "wanted_to_answer", \args -> case args of 
 		[x,y,z] -> predid3 "wanted_to_answer" z y x )
@@ -112,6 +116,11 @@ relations = [
 		[x,y] -> (forgetful3 . forgetful4 . predid4) "wanted_to_ask" y x
 		[x,y,z] -> (forgetful4 . predid4) "wanted_to_ask" z y x
 		[x,y,z,w] -> predid4 "wanted_to_ask" w z y x )
+	, ( "wanted_to_talk", \args -> case args of 
+		[x] -> (forgetful2 . forgetful3 . forgetful4 . predid4) "wanted_to_talk" x
+		[x,y] -> (forgetful3 . forgetful4 . predid4) "wanted_to_talk" y x
+		[x,y,z] -> (forgetful4 . predid4) "wanted_to_talk" z y x
+		[x,y,z,w] -> predid4 "wanted_to_talk" w z y x )
 
 	]
 
