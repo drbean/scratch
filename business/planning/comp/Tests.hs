@@ -40,12 +40,52 @@ framings = [
 asks = [
 	"Did Dr Bean ask questions?"
 	, "Did Dr Bean ask students questions?"
+	, "Did Dr Bean ask questions students?"
 	, "Did Dr Bean ask questions about the compcomp activity?"
 	, "Did Dr Bean ask questions about the students?"
-	, "Did Dr Bean want to ask questions?"
-	, "Did Dr Bean want to ask students questions?"
 	, "Did students have to ask questions?"
 	, "Did students have to ask questions in the activity?"
+	, "Did students have to ask questions in some activity?"
+	, "Did Dr Bean like questions?"
+	, "Did Dr Bean like to ask questions?"
+	, "Did Dr Bean like students to ask questions?"
+	, "Did Dr Bean like questions to ask students?"
+	, "Did Dr Bean want to ask questions?"
+	, "Did Dr Bean want to ask students questions?"
+	]
+
+likes = [
+	"Did Dr Bean like questions?"
+	, "Did Dr Bean like to ask questions?"
+	, "Did Dr Bean like students to ask questions?"
+	, "Did Dr Bean like questions to ask students?"
+	, "Did Dr Bean like the activity?"
+	, "Didn't Dr Bean like the activity?"
+	]
+
+like_s = [
+	"Dr Bean liked the activity."
+	, "Dr Bean didn't like the activity."
+	]
+
+search = [
+	"The person who was a teacher didn't like the activity, did he?"
+	]
+
+neg_pos_tags = [
+	"Dr Bean liked the activity, didn't he?"
+	, "Dr Bean didn't like the activity, did he?"
+	, "Dr Bean liked all students, didn't he?"
+	, "Dr Bean didn't like all students, did he?"
+	, "Dr Bean liked all the students, didn't he?"
+	, "Dr Bean didn't like all the students, did he?"
+	, "The activity was innovative, wasn't it?"
+	, "The activity wasn't innovative, was it?"
+	]
+
+like_yn = [
+	"Did Dr Bean like the activity?"
+	, "Didn't Dr Bean like the activity?"
 	]
 
 text_test = [
@@ -135,11 +175,13 @@ talks = [
 	, "Did Dr Bean talk to students?"
 	, "Did Dr Bean talk to students in English?"
 	, "Someone talked to Dr Bean."
+	, "Did Dr Bean want students to talk?"
+	, "Did Dr Bean want students to talk in some activity?"
+	, "Did Dr Bean want students to talk in the activity?"
 	, "A group talked to Dr Bean."
 	, "A group of students talked to Dr Bean."
 	, "A group of Dr Bean talked to Dr Bean."
 	, "The group of Dr Bean talked to Dr Bean."
-	, "Did the stress of Dr Bean talk to Dr Bean?"
 	, "Did a stress of Dr Bean talk to Dr Bean?"
 	-- , "Did the stress of Dr Bean talk to Dr Bean's group?"
 	]
