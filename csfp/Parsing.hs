@@ -38,6 +38,17 @@ get_phon label tree = get ps tree
 				| otherwise = get ps' t
 	
 
+-- isNg :: ParseTree Cat Cat -> Bool
+-- isNg tree = findIn ps tree
+-- 	where
+-- 	    ps = pos tree
+-- 	    findIn [] _		= False
+-- 	    findIn [p] t           = phon (t2c(subtree t p))
+-- 	    findIn (p:ps') t	| (catLabel (t2c(subtree t p))) == label
+-- 				    = phon (t2c(subtree t p))
+-- 				| otherwise = findIn ps' t
+	
+
 data Feat = Masc  | Fem  | Neutr | MascOrFem 
           | Sg    | Pl 
           | Fst   | Snd  | Thrd 
