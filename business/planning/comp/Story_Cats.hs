@@ -57,7 +57,9 @@ verbs = [
 		Cat "asked"	"V" [Tense] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [In] []],
 		Cat "asked"	"V" [Tense] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [At] []]]
+						Cat "_" "PP" [At] []],
+		Cat "asked"	"V" [Tense] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "NP" [AccOrDat] []]]
 	, [Cat "ask"	"V" [Infl] [],
 		Cat "ask"	"V" [Infl] [Cat "_" "NP" [AccOrDat] []],
 		Cat "ask"	"V" [Infl] [Cat "_" "NP" [AccOrDat] [],
@@ -65,7 +67,9 @@ verbs = [
 		Cat "ask"	"V" [Infl] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [In] []],
 		Cat "ask"	"V" [Infl] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [At] []]]
+						Cat "_" "PP" [At] []],
+		Cat "ask"	"V" [Infl] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "NP" [AccOrDat] []]]
 	, [Cat "sold"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []],
 		Cat "sold"	"V" [Tense] [Cat "_" "PP" [To] []],
 		Cat "sold"	"V" [Tense] [Cat "_" "NP" [AccOrDat] [],
