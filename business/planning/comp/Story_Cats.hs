@@ -46,9 +46,7 @@ nouns = [
 	]
 
 verbs = [
-	[Cat "see"    "V" [Infl]  [Cat "_" "NP" [AccOrDat] []]]
-	, [Cat "saw"    "V" [Tense] [Cat "_" "NP" [AccOrDat] []]]
-	, [Cat "liked"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []]]
+	[Cat "liked"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []]]
 	, [Cat "like"	"V" [Infl] [Cat "_" "NP" [AccOrDat] []]]
 	, [Cat "asked"	"V" [Tense] [],
 		Cat "asked"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []],
