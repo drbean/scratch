@@ -2,7 +2,7 @@
 
 use strict;
 use warnings;
-use IO::All;
+use IO::All -encoding => 'UTF-8';
 use YAML qw/LoadFile DumpFile/;
 use Cwd;
 
