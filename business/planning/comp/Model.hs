@@ -203,8 +203,7 @@ destination = recipient
 threePlacers = [
     ("gave",	pred3 giving)
     , ("ask_about",	pred3 $ map (\x->(agent4 x, recipient4 x, theme4 x) ) comms)
-    , ("talk_with_about",	pred3 $ map (\x->(agent4 x, recipient4 x, theme4 x) ) comms
-			    ++ map ( \(a,t,r,_) -> (a,t,r) ) comms)
+    , ("talk_with_about",	pred3 $ foldl (\cs (s,c,l,m) ->(s,l,c): (s,c,l): (s,l,m): cs) [] comms )
     , ("like_to_ask",	pred3 $ map (\(a,t,r) -> (a,r,t)) appreciation )
     ]
 
