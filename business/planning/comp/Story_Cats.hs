@@ -106,7 +106,22 @@ verbs = [
 		Cat "answer" "V" [Infl]  [Cat "_" "NP" [AccOrDat] [],
                                                 Cat "_" "NP" [AccOrDat] [],
                                                 Cat "_" "PP" [For] []]]
-
+        , [Cat "talked" "V" [Tense] [],
+                Cat "talked"    "V" [Tense] [Cat "_" "PP" [To] []],
+                Cat "talked"    "V" [Tense] [Cat "_" "PP" [About] []],
+                Cat "talked"    "V" [Tense] [Cat "_" "PP" [In] []],
+                Cat "talked"    "V" [Tense] [Cat "_" "PP" [To] [],
+                                        Cat "_" "PP" [About] []],
+                Cat "talked"    "V" [Tense] [Cat "_" "PP" [To] [],
+                                        Cat "_" "PP" [In] []]]
+        , [Cat "talk"   "V" [Infl]  [],
+                Cat "talk"      "V" [Infl]  [Cat "_" "PP" [To] []],
+                Cat "talk"      "V" [Infl] [Cat "_" "PP" [About] []],
+                Cat "talk"      "V" [Infl] [Cat "_" "PP" [In] []],
+                Cat "talk"      "V" [Infl] [Cat "_" "PP" [To] [],
+                                        Cat "_" "PP" [About] []],
+                Cat "talk"      "V" [Infl] [Cat "_" "PP" [To] [],
+                                        Cat "_" "PP" [In] []]]
 	]
 
 aux = [

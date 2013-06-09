@@ -39,6 +39,7 @@ inflections = [
 	, ( "went",	"go" )
 	, ( "liked",	"like" )
 	, ( "asked",	"ask" )
+	, ( "talk",      "talked" )
 	, ( "want_to_answer",	"wanted_to_answer" )
 	, ( "sold",	"sell" )
 	, ( "want_to_sell",	"wanted_to_sell" )
@@ -121,6 +122,9 @@ relations = [
 		[x,y] -> (forgetful3 . forgetful4 . predid4) "wanted_to_talk" y x
 		[x,y,z] -> (forgetful4 . predid4) "wanted_to_talk" z y x
 		[x,y,z,w] -> predid4 "wanted_to_talk" w z y x )
+	, ( "talked", \args -> case args of
+		[x,y,z] -> predid3 "talk_with_about" z y x
+		[x,y]    -> (forgetful3 . predid3) "talk_with_about" y x)
 
 	]
 
