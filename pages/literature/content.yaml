@@ -118,18 +118,30 @@ topic:
     intro: These books were pioneering science fiction works published between 200 and 100 years ago.
     story:
       -
-        id: frankenstein
-        title: Frankenstein
-        blurb: |
-          The original book was written by <a href="http://en.wikipedia.org/wiki/Mary_Shelley">Mary Shelley</a>, who was a radical like her husband, and her father (William Goldwin, who had earlier published a translation of Swiss Family Robinson).
-        comment: The classic horror movie version is <a href="http://en.wikipedia.org/wiki/Frankenstein_(1931_film)">Frankenstein (1931)</a>, 3 clips from which we will watch, the first a <a href="http://www.youtube.com/watch?v=8w2GKRccN7k">warning to viewers</a>, the second the <a href="http://www.youtube.com/watch?v=8H3dFh6GA-A">creation of the Monster</a>, the third the <a href="http://www.youtube.com/watch?v=MA9opHsLACk">murder of a child</a>. The <a href="http://www.youtube.com/watch?v=6JUkfA_SaM4">4th</a> and <a href="http://www.youtube.com/watch?v=yH97lImrr0Q.webyH97lImrr0Q">5th clips</a>, are from a comedy version of the movie, <a href="http://en.wikipedia.org/wiki/Young_Frankenstein">Young Frankenstein</a>.
-      -
         id: 20000
         title: 20,000 Leagues Under the Sea
         blurb: |+
           <a href="http://en.wikipedia.org/wiki/Twenty_Thousand_Leagues_Under_the_Sea">Twenty Thousand Leagues Under the Sea</a>, like the Three Musketeers, was written in the middle of the 19th century by a French author, but instead of being a historical novel, was about an imagined future. <a href="http://en.wikipedia.org/wiki/Jules_verne">Jules Verne</a>'s imagined submarine became real submarines in the 20th century. The first nuclear submarine, the <a href="http://en.wikipedia.org/wiki/USS_Nautilus_(SSN-571)">Nautilus</a> was named after Captain Nemo's craft. Watch a <a href="https://www.youtube.com/watch?v=eJKSkN-zthU">1. cartoon version</a>, and a <a href="https://www.youtube.com/watch?v=BtL87jvFVGs">2. 1954 Walt Disney version</a>.
         comment: |
           Like Frankenstein, Twenty Thousand Leagues under the Sea is an early work of science fiction.
+      -
+        id: time
+        title: The Time Machine
+        blurb: |+
+          <a href="http://en.wikipedia.org/wiki/Time_travel_in_fiction">Time travel in fiction</a> predates <a href="http://en.wikipedia.org/wiki/H._G._Wells">H. G. Wells</a> ' <a href="http://en.wikipedia.org/wiki/The_Time_Machine">The Time Machine</a> but the book made the idea very popular.
+        comment: |
+          We will watch a <a href="http://en.wikipedia.org/wiki/The_Time_Machine_(1978_film)">1978 made-for-TV version</a> at <a href="https://www.youtube.com/watch?v=Hzrrs2e6CE0">http://www.youtube.com/watch?v=NSl_pPocWx4</a> after the trailer for a <a href="http://en.wikipedia.org/wiki/The_Time_Machine_(2002_film)">2002 version</a> at <a href="https://www.youtube.com/watch?v=90T7iLuzFgg">https://www.youtube.com/watch?v=90T7iLuzFgg</a>.
+  -
+    id: horror
+    title: Horror stories
+    intro: These books seek to shock and evoke repulsion of their contents
+    story:
+      -
+        id: frankenstein
+        title: Frankenstein
+        blurb: |
+          The original book was written by <a href="http://en.wikipedia.org/wiki/Mary_Shelley">Mary Shelley</a>, who was a radical like her husband, and her father (William Goldwin, who had earlier published a translation of Swiss Family Robinson).
+        comment: The classic horror movie version is <a href="http://en.wikipedia.org/wiki/Frankenstein_(1931_film)">Frankenstein (1931)</a>, 3 clips from which we will watch, the first a <a href="http://www.youtube.com/watch?v=8w2GKRccN7k">warning to viewers</a>, the second the <a href="http://www.youtube.com/watch?v=8H3dFh6GA-A">creation of the Monster</a>, the third the <a href="http://www.youtube.com/watch?v=MA9opHsLACk">murder of a child</a>. The <a href="http://www.youtube.com/watch?v=6JUkfA_SaM4">4th</a> and <a href="http://www.youtube.com/watch?v=yH97lImrr0Q.webyH97lImrr0Q">5th clips</a>, are from a comedy version of the movie, <a href="http://en.wikipedia.org/wiki/Young_Frankenstein">Young Frankenstein</a>.
       -
         id: jekyll
         title: Dr Jekyll and Mr Hyde
@@ -138,9 +150,9 @@ topic:
         comment: |
           We will watch a <a href="http://www.youtube.com/watch?v=NSl_pPocWx4">1955 made-for-TV version</a> and a <a href="https://www.youtube.com/watch?v=g3M1wEe3hUs">1941 version</a>, a remake of the 1931 version featured in the textbook. The first version is closer to the book.
       -
-        id: time
-        title: The Time Machine
+        id: phantom
+        title: The Phantom of the Opera
         blurb: |+
-          <a href="http://en.wikipedia.org/wiki/Time_travel_in_fiction">Time travel in fiction</a> predates <a href="http://en.wikipedia.org/wiki/H._G._Wells">H. G. Wells</a> ' <a href="http://en.wikipedia.org/wiki/The_Time_Machine">The Time Machine</a> but the book made the idea very popular.
+          The <a href="http://en.wikipedia.org/wiki/Phantom_of_the_Opera">original Phantom of the Opera</a> spawned <a href="http://en.wikipedia.org/wiki/Adaptations_of_The_Phantom_of_the_Opera">many adaptations</a>, of which the most notable are perhaps the <a href="http://en.wikipedia.org/wiki/The_Phantom_of_the_Opera_(1925_film)">1925 silent film version</a>, a <a href="http://en.wikipedia.org/wiki/Song_at_Midnight">1937 Chinese version</a> and the <a href="http://en.wikipedia.org/wiki/The_Phantom_of_the_Opera_(2004_film)">2004 movie version</a> of <a href="http://en.wikipedia.org/wiki/The_Phantom_of_the_Opera_(1986_musical)">the Andrew Lloyd Webber musical</a>. (The musical is the biggest money-making entertainment event in history.)
         comment: |
-          We will watch a <a href="http://en.wikipedia.org/wiki/The_Time_Machine_(1978_film)">1978 made-for-TV version</a> at <a href="https://www.youtube.com/watch?v=Hzrrs2e6CE0">http://www.youtube.com/watch?v=NSl_pPocWx4</a> after the trailer for a <a href="http://en.wikipedia.org/wiki/The_Time_Machine_(2002_film)">2002 version</a> at <a href="https://www.youtube.com/watch?v=90T7iLuzFgg">https://www.youtube.com/watch?v=90T7iLuzFgg</a>.
+          None of those versions is appropriate for a dictation. So we will listen to parts of a <a href="http://www.youtube.com/watch?v=akS21gLYL94">mainly positive review of the 2004 movie</a>, a <a href="https://www.youtube.com/watch?v=U4IWOGybBcQ">mainly negative review of the 2004 movie</a>, and a <a href="http://www.youtube.com/watch?v=IUVqVq0g5b8">1983 made-for-TV movie version</a>.
