@@ -10,7 +10,7 @@ use List::Util qw/sum/;
 
 $_REPL->load_plugin('DumpHistory');
 
-my $exam = 2;
+my $exam = 3;
 
 (my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
 use Grades;
