@@ -3,6 +3,13 @@ module Tests where
 import LogicalForm
 import Parsing
 
+one_place_predicate = [
+	, "Dr_Bean didn't see a teacher, did he ?"
+	, "The activity wasn't innovation, was it?"
+	"Did students have a clear_and_simple_idea?"
+	, "Did all students see a winner?"
+	]
+
 relatives = [
 	"Was Dr Bean a man who bought bananas?"
 	, "Was Dr Bean a man who bought oil?"

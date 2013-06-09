@@ -120,6 +120,7 @@ onePlacers = [
 	, ("innovative",	pred1 [X1] )
 	, ("compcomp_activity",	pred1 [X1,X11])
 	, ("ingredients_for_success",	pred1 [C,A,O,N])
+	, ("clear_and_simple_idea",	pred1 [C])
 	, ("autonomy",	pred1 [A])
 	, ("ownership",	pred1 [O])
 	, ("innovation",	pred1 [N])
@@ -127,6 +128,8 @@ onePlacers = [
 	, ("activity",	pred1 [X,X1,X11,X3,X4])
 	, ("successful",	pred1 [X1])
 	, ("unsuccessful",	pred1 [X11])
+
+	, ("winner",	pred1 [W])
 	]
 
 type OnePlacePred	= Entity -> Bool
