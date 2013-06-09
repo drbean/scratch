@@ -801,7 +801,7 @@ drbean:
         option:
           - Present
           - Absent
-        answer: Absent
+        answer: Present
       - question: Ownership
         option:
           - Present
@@ -841,7 +841,7 @@ drbean:
         option:
           - Present
           - Absent
-        answer: Absent
+        answer: Present
       - question: Ownership
         option:
           - Present
@@ -851,7 +851,7 @@ drbean:
         option:
           - Present
           - Absent
-        answer: Absent
+        answer: Present
       - question: The activity was successful.
         answer: False
 organic:
