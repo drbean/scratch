@@ -30,9 +30,9 @@
 <TMPL>$C</TMPL>
 }
 
-% \newcommand{\myDcontent}[0]{
-% <TMPL>$D</TMPL>
-% }
+\newcommand{\myDcontent}[0]{
+<TMPL>$D</TMPL>
+}
 
 \newcommand{\mycard}[5]{%
 	\vspace{0.1cm}
@@ -94,6 +94,13 @@
 \textblocklabel{picture7}
 \mycard{}{\myIdentifier}{\parbox{9.0cm}{C:
 \myCcontent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(8,12)
+\textblocklabel{picture7}
+\mycard{}{\myIdentifier}{\parbox{9.0cm}{D:
+\myDcontent
 }}{}{} 
 \end{textblock}
 
