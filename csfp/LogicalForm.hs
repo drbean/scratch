@@ -322,11 +322,11 @@ transVP (Branch (Cat _ "VP" _ _)
                 [Leaf (Cat "didn't" "AUX" _ []),vp]) = 
         \x -> Neg ((transVP vp) x)
 transVP (Branch vp@(Cat _ "VP" _ _) 
-                [Leaf (Cat "wasn't" "AUX" fs subcats),pred]) = 
-        \x -> Neg ((transVP (Branch vp [Leaf (Cat "was" "AUX" fs subcats),pred])) x)
+                [Leaf (Cat "wasn't" label fs subcats),pred]) = 
+        \x -> Neg ((transVP (Branch vp [Leaf (Cat "was" label fs subcats),pred])) x)
 transVP (Branch vp@(Cat _ "VP" _ _) 
-                [Leaf (Cat "weren't" "AUX" fs subcats),pred]) = 
-        \x -> Neg ((transVP (Branch vp [Leaf (Cat "were" "AUX" fs subcats),pred])) x)
+                [Leaf (Cat "weren't" label fs subcats),pred]) = 
+        \x -> Neg ((transVP (Branch vp [Leaf (Cat "were" label fs subcats),pred])) x)
 transVP (Branch (Cat _ "VP" _ _) 
                 [Leaf (Cat "#" "AUX" _ []),vp]) = 
         transVP vp 
