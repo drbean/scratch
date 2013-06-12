@@ -28,11 +28,10 @@ nouns = [
 
 	, [Cat "question"	"CN" [Thrd,Neutr,Sg] []]
 	, [Cat "questions"	"CN" [Thrd,Neutr,Pl] []]
-	, [Cat "answer"	"CN" [Thrd,Neutr,Sg] []]
-	, [Cat "answers"	"CN" [Thrd,Neutr,Pl] []]
 
 
 	, [Cat "activity"	"CN" [Thrd,Neutr,Sg] []]
+	, [Cat "activities"	"CN" [Thrd,Neutr,Pl] []]
 	, [Cat "compcomp_activity"	"CN" [Thrd,Neutr,Sg] []]
 	, [Cat "ingredient_for_success"	"CN" [Thrd,Neutr,Sg] []]
 	, [Cat "ingredients_for_success"	"CN" [Thrd,Neutr,Pl] []]
@@ -43,12 +42,32 @@ nouns = [
 	, [Cat "innovation"	"NP" [Thrd,Neutr,Sg] []
 		, Cat "innovation"	"CN" [Thrd,Neutr,Sg] []]
 
+	, [Cat "answers"	"CN" [Thrd,Neutr,Pl] []]
+	, [Cat "answer"	"CN" [Thrd,Neutr,Sg] []
+		, Cat "answer"	"V" [Infl] [],
+			Cat "answer"	"V" [Infl] [Cat "_" "NP" [AccOrDat] []],
+			Cat "answer" "V" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+							Cat "_" "NP" [AccOrDat] []],
+			Cat "answer" "V" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+							Cat "_" "PP" [For] []],
+			Cat "answer" "V" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+							Cat "_" "NP" [AccOrDat] [],
+							Cat "_" "PP" [For] []]]
 
 
 	]
 
 verbs = [
-	[Cat "liked"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []]]
+	[Cat "answered"	"V" [Tense] [],
+		Cat "answered"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []],
+		Cat "answered" "V" [Tense]  [Cat "_" "NP" [AccOrDat] [],
+                                                Cat "_" "NP" [AccOrDat] []],
+		Cat "answered" "V" [Tense]  [Cat "_" "NP" [AccOrDat] [],
+                                                Cat "_" "PP" [For] []],
+		Cat "answered" "V" [Tense]  [Cat "_" "NP" [AccOrDat] [],
+                                                Cat "_" "NP" [AccOrDat] [],
+                                                Cat "_" "PP" [For] []]]
+	, [Cat "liked"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []]]
 	, [Cat "like"	"V" [Infl] [Cat "_" "NP" [AccOrDat] []]]
 	, [Cat "asked"	"V" [Tense] [],
 		Cat "asked"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []],
@@ -88,24 +107,6 @@ verbs = [
 		Cat "sell"	"V" [Infl] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "PP" [To] [],
 						Cat "_" "PP" [On] []]]
-	, [Cat "answered"	"V" [Tense] [],
-		Cat "answered"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []],
-		Cat "answered" "V" [Tense]  [Cat "_" "NP" [AccOrDat] [],
-                                                Cat "_" "NP" [AccOrDat] []],
-		Cat "answered" "V" [Tense]  [Cat "_" "NP" [AccOrDat] [],
-                                                Cat "_" "PP" [For] []],
-		Cat "answered" "V" [Tense]  [Cat "_" "NP" [AccOrDat] [],
-                                                Cat "_" "NP" [AccOrDat] [],
-                                                Cat "_" "PP" [For] []]]
-	, [Cat "answer"	"V" [Infl] [],
-		Cat "answer"	"V" [Infl] [Cat "_" "NP" [AccOrDat] []],
-		Cat "answer" "V" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-                                                Cat "_" "NP" [AccOrDat] []],
-		Cat "answer" "V" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-                                                Cat "_" "PP" [For] []],
-		Cat "answer" "V" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-                                                Cat "_" "NP" [AccOrDat] [],
-                                                Cat "_" "PP" [For] []]]
         , [Cat "talked" "V" [Tense] [],
                 Cat "talked"    "V" [Tense] [Cat "_" "PP" [To] []],
                 Cat "talked"    "V" [Tense] [Cat "_" "PP" [About] []],
