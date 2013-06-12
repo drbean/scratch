@@ -12,7 +12,8 @@ one_place_predicate = [
 	, "Did all students have a winner?"
 	, "Did Dr Bean like English?"
 	, "did Dr_Bean have ownership?"
-	, "was innovation successful?"
+	, "Was ownership good?"
+	, "Was innovation successful?"
 	, ""
 	, "Dr_Bean didn't have a teacher, did he ?"
 	, "The activity wasn't innovation, was it?"
@@ -24,8 +25,20 @@ relatives = [
 	, "Was Dr Bean the person who asked questions?"
 	]
 
+answers = [
+	"Did Dr_Bean want students to answer?"
+	, "Did Dr_Bean want to answer questions?"
+	, "Did Dr_Bean want students to answer questions?"
+	, "Did Dr_Bean want students to answer all questions?"
+	, "Did Dr_Bean want students to answer questions in English?"
+	, "Did Dr_Bean want students to answer some questions in English?"
+	, "Did Dr_Bean want students to answer all questions in English?"
+	, "Did Dr_Bean decide to answer the question?"
+	]
+
 decides = [
 	"Students decided the winner, didn't they?"
+	, "Did Dr_Bean decide to answer the question?"
 	]
 
 haves = [
@@ -101,8 +114,35 @@ neg_pos_tags = [
 	, "Dr Bean didn't like all students, did he?"
 	, "Dr Bean liked all the students, didn't he?"
 	, "Dr Bean didn't like all the students, did he?"
+	, "Dr Bean was a person, wasn't he?"
+	, "Dr Bean wasn't a person, was he?"
+	, "The teacher was innovative, wasn't he?"
+	, "The teacher wasn't innovative, was he?"
 	, "The activity was innovative, wasn't it?"
 	, "The activity wasn't innovative, was it?"
+	, "An activity was innovative, wasn't it?"
+	, "An activity wasn't innovative, was it?"
+	, "The activities were innovative, weren't they?"
+	, "The activities weren't innovative, were they?"
+	]
+
+neg_pos_tf = [
+	"Dr Bean liked the activity."
+	, "Dr Bean didn't like the activity."
+	, "Dr Bean liked all students."
+	, "Dr Bean didn't like all students."
+	, "Dr Bean liked all the students."
+	, "Dr Bean didn't like all the students."
+	, "Dr Bean was a person."
+	, "Dr Bean wasn't a person."
+	, "The teacher was innovative."
+	, "The teacher wasn't innovative."
+	, "The activity was innovative."
+	, "The activity wasn't innovative."
+	, "An activity was innovative."
+	, "An activity wasn't innovative."
+	, "The activities were innovative."
+	, "The activities weren't innovative."
 	]
 
 like_yn = [
