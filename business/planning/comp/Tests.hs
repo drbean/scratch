@@ -3,17 +3,25 @@ module Tests where
 import LogicalForm
 import Parsing
 
+mass_count_ambiguity = [
+	"Was the compcomp_activity an innovation?"
+	, "Was some compcomp_activity an innovation?"
+	]
 one_place_predicate = [
-	, "Dr_Bean didn't see a teacher, did he ?"
-	, "The activity wasn't innovation, was it?"
 	"Did students have a clear_and_simple_idea?"
-	, "Did all students see a winner?"
+	, "Did all students have a winner?"
+	, "Did Dr Bean like English?"
+	, "did Dr_Bean have ownership?"
+	, "was innovation successful?"
+	, ""
+	, "Dr_Bean didn't have a teacher, did he ?"
+	, "The activity wasn't innovation, was it?"
 	]
 
 relatives = [
-	"Was Dr Bean a man who bought bananas?"
-	, "Was Dr Bean a man who bought oil?"
-	, "Was Dr Bean the man who sold bananas?"
+	"Was Dr Bean a person who had a clear and simple idea?"
+	, "Was Dr Bean a person who liked English?"
+	, "Was Dr Bean the person who asked questions?"
 	]
 
 haves = [
@@ -30,9 +38,11 @@ haves = [
 	, "Did Dr Bean have answers?"
 	, "Did questions have answers?"
 	, "Did students have answers?"
+	, "Did students have good answers?"
 	, "Did all students have answers?"
 	, "Didn't students have questions?"
 	, "Didn't all students have questions?"
+	, "Did some students have no questions?"
 	, "Did some students not have questions?"
 	]
 
@@ -58,6 +68,7 @@ asks = [
 	, "Did Dr Bean like students to ask questions?"
 	, "Did Dr Bean like questions to ask students?"
 	, "Did Dr Bean want to ask questions?"
+	, "Did Dr Bean want students to ask questions?"
 	, "Did Dr Bean want to ask students questions?"
 	]
 
@@ -182,9 +193,11 @@ talks = [
 	, "Did Dr Bean talk to students?"
 	, "Did Dr Bean talk to students in English?"
 	, "Someone talked to Dr Bean."
+	, "No one talked to Dr Bean."
 	, "Did Dr Bean want students to talk?"
 	, "Did Dr Bean want students to talk in some activity?"
 	, "Did Dr Bean want students to talk in the activity?"
+	, "Did Dr Bean want students to talk in English?"
 	, "A group talked to Dr Bean."
 	, "A group of students talked to Dr Bean."
 	, "A group of Dr Bean talked to Dr Bean."

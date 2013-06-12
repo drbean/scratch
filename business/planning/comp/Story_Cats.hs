@@ -40,7 +40,9 @@ nouns = [
 	, [Cat "clear_and_simple_idea"	"CN" [Thrd,Neutr,Sg] []]
 	, [Cat "autonomy"	"NP" [Thrd,Neutr,Sg] []]
 	, [Cat "ownership"	"NP" [Thrd,Neutr,Sg] []]
-	, [Cat "innovation"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "innovation"	"NP" [Thrd,Neutr,Sg] []
+		, Cat "innovation"	"CN" [Thrd,Neutr,Sg] []]
+
 
 
 	]

@@ -71,6 +71,7 @@ relations = [
 	, ( "old",	\[x]	-> predid1 "old" x	)
 	, ( "true",	\[x] -> predid1 "true" x	)
 	, ( "false",	\[x] -> predid1 "false" x	)
+	, ( "good",	\[x] -> predid1 "good" x	)
 	, ( "successful",	\[x] -> predid1 "successful" x	)
 	, ( "unsuccessful",	\[x] -> predid1 "unsuccessful" x	)
 	, ( "go",	\[x,y]	-> predid2 "go" y x	)

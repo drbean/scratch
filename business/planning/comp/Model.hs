@@ -114,7 +114,7 @@ onePlacers = [
 	, ("person",	person )
 	, ("thing",	thing )
 
-	, ("good",	pred1 [C,A,O,N] )
+	, ("good",	pred1 [C,A,O,N,Y] )
 	, ("bad",	pred1 [F,G] )
 
 	, ("innovative",	pred1 [X1] )
@@ -123,7 +123,7 @@ onePlacers = [
 	, ("clear_and_simple_idea",	pred1 [C])
 	, ("autonomy",	pred1 [A])
 	, ("ownership",	pred1 [O])
-	, ("innovation",	pred1 [N])
+	, ("innovation",	pred1 [X,X1,X11,X3,X4])
 	, ("framework",	predid1 "ingredients_for_success" )
 	, ("activity",	pred1 [X,X1,X11,X3,X4])
 	, ("successful",	pred1 [X1])
@@ -158,7 +158,8 @@ pred5 xs	= curry5 ( `elem` xs )
 twoPlacers :: [(String, TwoPlacePred)]
 twoPlacers = [
     ("know",	pred2 $ knowledge ++ acquaintances ++ map swap acquaintances)
-    , ("have",	pred2 $ (map (\(t,_,_,s) -> (t,s) ) schooling ) ++ possessions )
+    , ("have",	pred2 $ (map (\(t,_,_,s) -> (t,s) ) schooling ) ++ possessions 
+	++ (map (\(s,c,_,_) -> (s,c)) $ filter (\(_,c,_,_) -> or [(predid1 "answer" c), (predid1 "question" c)]) comms ) )
     , ("like",	pred2 $ map (\(a,t,r) -> (a,t)) appreciation)
     , ("help",	pred2 [])
     , ("speak",	pred2 [])
@@ -230,7 +231,7 @@ fourPlacers = [
 					ss ) [] services)
 	, ("ask",   pred4 $foldl (\cc (a,t,r,m) -> (a,t,r,m): (a,r,t,m): cc) [] comms)
 	, ("have_to_ask",	pred4 $ map (\(_,t,r,l) -> (r,r,t,l) ) directives )
-	, ("wanted_to_talk",	pred4 $ map (\(a,t,r,l) -> (a,r,l,t) ) goals )
+	, ("wanted_to_talk",	pred4 $ foldl (\cc (a,t,r,p) -> (a,t,r,p): (a,r,t,p): (a,r,p,t): cc) [] goals)
 	]
 
 -- (teacher,activity,group,student)
@@ -238,11 +239,11 @@ schooling   = [(T,X1,G,S1),(T,X11,G,S11)]
 recite = pred2 $ map ( \x -> (agent4 x, theme4 x) ) comms
 giving	= map (\(a,t,p,_) -> (a,t,p) ) services
 -- (speaker,content,listener,mode)
-comms	= [(T,Unspec,S1,E),(T,Q,S2,E)]
+comms	= [(T,Unspec,S1,E),(T,Q,S2,E),(S1,Y,S2,E)]
 -- (instigator,act,agent,situation)
 directives  = [(T,Q,S3,X3)]
--- (planner,goal,achiever,situation)
-goals	= [(T,E,S4,X4)]
+-- (planner,situation,achiever,goal)
+goals	= [(T,X4,S4,E)]
 
 agent4, theme4, recipient4, location4 :: (Entity,Entity,Entity,Entity) -> Entity
 agent4 (a,_,_,_)	= a

@@ -42,6 +42,18 @@ ingredients:
     A: Jensen Huang, Curtis Priem and Chris Malachowsky had been graduate students at Stanford University, studying electrical engineering. At the same time, they were working at Sun, AMD and LSI. They started NVIDIA to make sound and video cards to play computer games.
     B: The 3 founders didn't know what to do for the first 6 months. They hadn't studied business and didn't have business experience. They hired a lawyer who introduced them to venture capitalists (VCs), but it was difficult convincing the VCs that NVIDIA could make money.
     C: They made a lot of mistakes. They quickly almost went out of business when their first chip didn't work. And a lot of other new companies got the same idea of making video cards for computer games. Older companies had made cards for engineering and design, not computer games.
+  huang:
+    identifier:  The ingredients at NVIDIA
+    A: Jensen Huang, Curtis Priem and Chris Malachowsky were electrical engineers, working for companies designing computer chips. They started NVIDIA to make sound and video chips to play video games on home computers. No-one was doing this before them.
+    B: They hadn't studied business and didn't have business experience. Jensen Huang was introduced by his old boss to a venture capitalist but he wasn't able to write a business plan that convinced the venture capitalist.
+    C: They almost went out of business in the first 2 years when computer memory suddenly became very cheap. Their first chip didn't use lots of memory, to keep it cheap. The chips of the 90 other new companies that had appeared did, and were better.
+    D: They worked together very, very hard to quickly develop a very powerful chip, but they weren't able to test it well, and it had problems. Despite the problems, it was very popular. And they made a lot of money.
+  chang:
+    identifier:  The ingredients at TSMC
+    A: Chang worked at Texas Instruments in the U.S. for 25 years. He had been responsible for manufacturing its semiconductors. Sometimes Texas Instruments made semiconductors for other big companies when it wasn't producing its own. He saw that this service was a possible business model.
+    B: After leaving Texas Instruments. Chang came to Taiwan and helped advise the government on technological development at 工業技術研究院. He got to know 曾繁城 there and in the government, 李國鼎 wanted him to start a Taiwanese semiconductor company and promised to help him.
+    C: Chang knew Taiwan had few strengths, so creating the company would be difficult. But the government raised a lot of money to start the company and forced rich businessmen to put money into it too. Philips was a willing investor.
+    D: Between '87 and '91, TSMC had to rely on a few orders from the big semiconductor companies just like when he had been at Texas Instruments. Their own manufacturing plants were too busy, so they got TSMC to make their chips. But from '91, many ``fabless'' companies became TSMC customers.
   1:
     identifier:  Dr Bean's language school 0
     A: In Taiwan, many people would like to be able to speak English. Many parents want their children to learn English, so they can succeed in their careers. Many people however don't want to put the effort that remembering many words and grammar forms requires. They also do not want the pain and embarrassment that talking to foreigners often involves. Easy and fun learning, however, is popular.
@@ -186,6 +198,62 @@ ingredients:
           - market opportunity
           - financial strategy
         answer: innovation
+  4:
+    identifier: ingredients 4
+    A: |
+      \item [Innovation] NVIDIA designed a chip that was very different.
+      \item [Team] The 3 engineers had experience designing chips.
+      \item [Market opportunity] They developed a cheap chip that used little memory.
+      \item [Financial strategy] The financial strategy was good.
+    B: |
+      \item [Innovation] The product was innovative.
+      \item [Team] The team had contacts who could help them.
+      \item [Market opportunity] Memory suddenly became very cheap.
+      \item [Financial strategy] Venture capitalists gave them enough money to last 2 years.
+    C: |
+      \item [Innovation] The idea was to develop new computer graphics for video games.
+      \item [Team] The team was good.
+      \item [Market opportunity] Other newer companies had built better chips using more memory.
+      \item [Financial strategy] They decided to take a chance with the money that remained.
+    quiz:
+      - question: The product was innovative.
+        answer: True
+      - question: The team was good.
+        answer: True
+      - question: The company had a market opportunity.
+        answer: False
+      - question: The financial strategy was good.
+        answer: True
+      - question: The company was headed for success.
+        answer: False
+  5:
+    identifier: ingredients 5
+    A: |
+      \item [Innovation] Chang had provided a chip manufacturing service in the U.S.
+      \item [Team] The team was good.
+      \item [Market opportunity] Many ``fabless'' companies had designed new chips.
+      \item [Financial strategy] The Taiwan government really wanted a Taiwanese semiconductor company.
+    B: |
+      \item [Innovation] His idea was to provide the same service in Taiwan.
+      \item [Team] Chang got to know 曾繁城 at the 工業技術研究院.
+      \item [Market opportunity] The company had a market opportunity.
+      \item [Financial strategy] Philips was a willing investor, but the government had to force some businessmen to invest.
+    C: |
+      \item [Innovation] The idea was innovative.
+      \item [Team] Chang had associations with 李國鼎 in the Taiwan government.
+      \item [Market opportunity] The companies that made chips mostly built their own chips.
+      \item [Financial strategy] The Taiwanese government raised 220 million dollars to start TSMC.
+    quiz:
+      - question: The product was innovative.
+        answer: True
+      - question: The team was good.
+        answer: True
+      - question: The company had a market opportunity.
+        answer: True
+      - question: The financial strategy was good.
+        answer: True
+      - question: The company was headed for success.
+        answer: True
 
  compcomp:
   0:
@@ -231,6 +299,35 @@ ingredients:
         answer: True
       - question: You need to be able to put different ideas together and see a relationship.
         answer: True
+  1:
+    identifier: ingredients 1
+    White: |+
+       \vspace{-0.2cm}
+       \begin{large}The Team\end{large}\\
+       \normalsize
+       \begin{description}
+       \item [First] The ability to sell its vision to other people, the ability to make people enthusiastic about your ideas.
+       \item [Second] The ability to understand the cash flow and to be able to control it.
+       \item [Third] Experience in 1, working with customers in this kind of business, 2. making products in this kind of business, 3. working in a start-up.
+       \item [Fourth] Contacts of many, many different kinds. A wide network of people who you have relationships with and who can help you.
+       \item [Fifth] The ability to give up time and money for the idea.
+       \end{description}
+    Black: |+
+       \vspace{-0.2cm}
+       \begin{large}Ideas about market opportunity\end{large}\\
+       \normalsize
+       \vspace{-0.4cm}
+       \begin{description}
+       \item [Definition] The most important thing is whether a need for the product (service) exists.
+       \vspace{-0.2cm}
+       \item [Product] Some technology, or means of production, has to be used to produce the product.
+       \vspace{-0.2cm}
+       \item [Competitors] Are companies competing for the same market opportunity? Are there different technologies (means of production) also competing?
+       \vspace{-0.2cm}
+       \item [Existing need] If you have a new or improved solution (\& only you have it), you have a market opportunity.
+       \vspace{-0.2cm}
+       \item [New need] If you can see a new need that competitors cannot see (And you can produce the product), you have a market opportunity.
+       \end{description}
 innovation:
  compcomp:
   0:
