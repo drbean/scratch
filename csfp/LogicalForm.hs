@@ -133,7 +133,7 @@ transTXT (Just (Branch (Cat _ "TXT" _ _) [s,conj,
 	    Conj [ transS (Just s), transTXT (Just s2) ]
 
 transTAG :: Maybe (ParseTree Cat Cat) -> LF
--- transTAG (Just t) | isNg t = Neg (transS (Just (subtree t [0])))
+transTAG (Just t) | isNg t = Neg (transS (Just (subtree t [0])))
 transTAG (Just t) = transS (Just (subtree t [0]))
 
 transS :: Maybe (ParseTree Cat Cat) -> LF
