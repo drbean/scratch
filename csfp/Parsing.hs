@@ -38,16 +38,10 @@ get_phon label tree = get ps tree
 				| otherwise = get ps' t
 	
 
--- isNg :: ParseTree Cat Cat -> Bool
--- isNg tree = findIn ps tree
--- 	where
--- 	    ps = pos tree
--- 	    findIn [] _		= False
--- 	    findIn [p] t           = phon (t2c(subtree t p))
--- 	    findIn (p:ps') t	| (catLabel (t2c(subtree t p))) == label
--- 				    = phon (t2c(subtree t p))
--- 				| otherwise = findIn ps' t
-	
+isNg :: ParseTree Cat Cat -> Bool
+isNg tree | catLabel (t2c tree) == "S" =
+    (elem Ng . fs. t2c . flip subtree [0,1,0,1]) tree
+isNg tree = error (show tree ++ "tree not a top level tree")
 
 data Feat = Masc  | Fem  | Neutr | MascOrFem 
           | Sg    | Pl 
@@ -240,6 +234,7 @@ preproc ("the":"united":"states":xs)	= "the_united_states" : preproc xs
 
 preproc ("ingredients":"for":"success":xs)	= "ingredients_for_success" : preproc xs
 preproc ("ingredient":"for":"success":xs)	= "ingredient_for_success" : preproc xs
+preproc ("clear":"and":"simple":"idea":xs)	= "clear_and_simple_idea" : preproc xs
 preproc ("compcomp":"activity":xs)	= "compcomp_activity" : preproc xs
 
 preproc ("fruit":"store":xs)	= "fruit_store" : preproc xs
