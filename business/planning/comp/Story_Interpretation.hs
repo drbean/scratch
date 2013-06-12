@@ -53,6 +53,7 @@ inflections = [
 	, ("members",	"member" )
 	, ("losers",	"loser" )
 	, ("winners",	"winner" )
+	, ("activities",	"activity" )
 
 	, ("questions",	"question") 
 	, ("answers",	"answer" )
@@ -97,7 +98,10 @@ relations = [
 		[x,y,z] -> predid3 "like_to_ask" z y x )
 
 	, ( "wanted_to_answer", \args -> case args of 
-		[x,y,z] -> predid3 "wanted_to_answer" z y x )
+		[x] -> (forgetful2 . forgetful3 . forgetful4 . predid4) "wanted_to_answer" x
+		[x,y] -> (forgetful3 . forgetful4 . predid4) "wanted_to_answer" y x
+		[x,y,z] -> (forgetful4 . predid4) "wanted_to_answer" z y x
+		[x,y,z,w] -> predid4 "wanted_to_answer" w z y x )
 
 	, ( "sell", \args -> case args of 
 		[x,y] -> (forgetful3 . forgetful4 . predid4) "sell" y x
