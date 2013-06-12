@@ -233,6 +233,7 @@ fourPlacers = [
 	, ("have_to_ask",	pred4 $ map (\(_,t,r,l) -> (r,r,t,l) ) directives )
 	, ("wanted_to_talk",	pred4 $ foldl (\cc (a,t,r,p) -> (a,t,r,p): (a,r,t,p): (a,r,p,t): cc) [] goals)
 	, ("wanted_to_ask",	pred4 $ foldl (\cc (a,t,r,p) -> (a,t,r,p): (a,r,t,p): (a,r,p,t): cc) [] goals)
+	, ("wanted_to_answer",	pred4 $ foldl (\cc (a,t,r,p) -> (a,t,r,p): (a,r,t,p): (a,r,p,t): cc) [] goals)
 	]
 
 -- (teacher,activity,group,student)
