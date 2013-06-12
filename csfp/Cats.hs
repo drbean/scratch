@@ -138,8 +138,10 @@ transitives = [
 						Cat "_" "PP" [From] []],
 		Cat "want" "V" [Infl] [Cat "_" "NP" [AccOrDat] [],
 						Cat "_" "INF" [To] []]]
-	, [Cat "decided" "V" [Tense] [Cat "_" "INF" [To] []]]
-	, [Cat "decide" "V" [Infl] [Cat "_" "INF" [To] []]]
+	, [Cat "decided" "V" [Tense] [Cat "_" "INF" [To] []],
+		Cat "decided" "V" [Tense] [Cat "_" "NP" [AccOrDat] []]]
+	, [Cat "decide" "V" [Infl] [Cat "_" "INF" [To] []],
+		Cat "decide" "V" [Infl] [Cat "_" "NP" [AccOrDat] []]]
 	--[Cat "appreciated"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	--[Cat "appreciate"	"V" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
 	--[Cat "disappointed"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []]],
