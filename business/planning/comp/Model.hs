@@ -232,6 +232,7 @@ fourPlacers = [
 	, ("ask",   pred4 $foldl (\cc (a,t,r,m) -> (a,t,r,m): (a,r,t,m): cc) [] comms)
 	, ("have_to_ask",	pred4 $ map (\(_,t,r,l) -> (r,r,t,l) ) directives )
 	, ("wanted_to_talk",	pred4 $ foldl (\cc (a,t,r,p) -> (a,t,r,p): (a,r,t,p): (a,r,p,t): cc) [] goals)
+	, ("wanted_to_ask",	pred4 $ foldl (\cc (a,t,r,p) -> (a,t,r,p): (a,r,t,p): (a,r,p,t): cc) [] goals)
 	]
 
 -- (teacher,activity,group,student)
@@ -243,7 +244,7 @@ comms	= [(T,Unspec,S1,E),(T,Q,S2,E),(S1,Y,S2,E)]
 -- (instigator,act,agent,situation)
 directives  = [(T,Q,S3,X3)]
 -- (planner,situation,achiever,goal)
-goals	= [(T,X4,S4,E)]
+goals	= [(T,X4,S4,E),(T,X1,T,Q),(T,X1,S1,Q)]
 
 agent4, theme4, recipient4, location4 :: (Entity,Entity,Entity,Entity) -> Entity
 agent4 (a,_,_,_)	= a
