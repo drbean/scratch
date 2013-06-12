@@ -48,7 +48,7 @@ data Feat = Masc  | Fem  | Neutr | MascOrFem
           | Fst   | Snd  | Thrd 
           | Nom   | AccOrDat
           | Pers  | Refl | Wh 
-          | Tense | Infl
+          | Tense | Infl | Part
 	  | Pos   | Ng
           | About | After | Around | At | As | BecauseOf
 	  | In | Like | On | For | With
@@ -231,6 +231,15 @@ preproc ("fifty-two":"years":"old":xs)	= "fifty-two_years_old" : preproc xs
 preproc ("forty-two":"years":"old":xs)	= "forty-two_years_old" : preproc xs
 
 preproc ("the":"united":"states":xs)	= "the_united_states" : preproc xs
+
+preproc ("electrical":"engineering":xs)	= "electrical_engineering" : preproc xs
+preproc ("mechanical":"engineering":xs)	= "mechanical_engineering" : preproc xs
+preproc ("jensen":"huang":xs)	= "jensen_huang" : preproc xs
+preproc ("morris":"chang":xs)	= "morris_chang" : preproc xs
+preproc ("master's":"degree":xs)	= "master's_degree" : preproc xs
+preproc ("phd":"degree":xs)	= "phd_degree" : preproc xs
+
+preproc ("stanford":"university":xs)	= "stanford_university" : preproc xs
 
 preproc ("ingredients":"for":"success":xs)	= "ingredients_for_success" : preproc xs
 preproc ("ingredient":"for":"success":xs)	= "ingredient_for_success" : preproc xs
@@ -640,13 +649,14 @@ finVpR = \us xs -> [(vp',vs,ys) |
 
 auxVpR :: SPARSER Cat Cat
 auxVpR = \us xs -> [ (Branch (Cat "_" "VP" (fs (t2c aux)) []) 
-	[aux,inf'], ws, zs) | 
+	[aux,inf], ws, zs) | 
 	(aux,vs,ys) <- prsAUX us xs,
 	tag        <- [Cat (phon (t2c aux)) (catLabel(t2c aux)) (balancefs aux) []],
 	(inf,ws,zs) <- case us of
 		[Cat _ "NP" _ _] -> push tag vpR vs ys
-		otherwise -> vpR vs ys,
-	inf'       <- assignT Infl inf ] 
+		otherwise -> vpR vs ys
+	-- inf'       <- assignT Infl inf ] 
+			]
 
 prsAUX :: SPARSER Cat Cat
 prsAUX = leafPS "AUX" <||> pop "AUX" 
