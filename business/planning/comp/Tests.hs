@@ -24,6 +24,10 @@ relatives = [
 	, "Was Dr Bean the person who asked questions?"
 	]
 
+decides = [
+	"Students decided the winner, didn't they?"
+	]
+
 haves = [
 	"Did Dr Bean have autonomy?"
 	, "Did students have autonomy?"
