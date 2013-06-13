@@ -138,6 +138,15 @@ pred3 xs	= curry3 ( `elem` xs )
 pred4 xs	= curry4 ( `elem` xs )
 pred5 xs	= curry5 ( `elem` xs )
 
+-- (agent,theme,result,aim)
+features	= []
+services    = []
+
+possessions	= [(M,T),(J,N)]
+
+knowledge	= []
+acquaintances	= [(M,J)]
+
 twoPlacers :: [(String, TwoPlacePred)]
 twoPlacers = [
     ("know",	pred2 $ knowledge ++ acquaintances ++ map swap acquaintances)
@@ -146,22 +155,17 @@ twoPlacers = [
     , ("like",	pred2 $ map (\(a,t,r) -> (a,t)) appreciation)
 	]
 
--- (agent,theme,result,aim)
-features	= []
-services    = []
-
-
-possessions	= [(M,T),(J,N)]
-
--- (appreciator, performance, actor)
-appreciation	= [(J,Unspec,M)]
-knowledge	= []
-acquaintances	= [(M,J)]
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
 curry4 f x y z w	= f (x,y,z,w)
 curry5 f x y z w v	= f (x,y,z,w,v)
+
+-- (appreciator, performance, actor)
+appreciation	= [(J,Unspec,M)]
+
+threePlacers = [
+    ]
 
 agent, theme, recipient, location, instrument ::
 	(Entity,Entity,Entity) -> Entity
@@ -176,9 +180,6 @@ instrument = recipient
 origin	= theme
 destination = recipient
 
-threePlacers = [
-    ]
-
 acceptances = []
 -- (seller, item, buyer)
 selling	= []
@@ -190,9 +191,6 @@ talked	= pred2 $ map (\x->(agent4 x, recipient4 x) ) comms
               ++  map (\(agent,theme,recipient,_)->(recipient, agent) ) comms
 talk_about = pred3 $ map (\x->(agent4 x, recipient4 x, theme4 x) ) comms
 
-fourPlacers = [
-	]
-
 -- (teacher,school(location),subject,student)
 schooling   = [(Unspec,U,E,J),(Unspec,V,H,M),(Unspec,U,E,M)]
 recite = pred2 $ map ( \x -> (agent4 x, theme4 x) ) comms
@@ -203,6 +201,9 @@ comms	= []
 directives  = []
 -- (planner,situation,achiever,goal)
 goals	= []
+
+fourPlacers = [
+	]
 
 agent4, theme4, recipient4, location4 :: (Entity,Entity,Entity,Entity) -> Entity
 agent4 (a,_,_,_)	= a
