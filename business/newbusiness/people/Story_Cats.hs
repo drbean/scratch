@@ -40,7 +40,7 @@ verbs = [
 	 , Cat "started"	"V" [Part] [Cat "_" "PP" [In] []]
 	 , Cat "started" "V" [Tense] [Cat "_" "NP" [AccOrDat] []]
 	 , Cat "started" "V" [Tense] [Cat "_" "NP" [AccOrDat] []
-	 				, Cat "_" "NP" [In] []]]
+	 				, Cat "_" "PP" [In] []]]
 	]
 
 aux = [

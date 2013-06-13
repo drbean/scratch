@@ -6,6 +6,7 @@ import Parsing
 birth	= [
 	"Was Jensen Huang born in 1963?"
 	, "Jensen Huang was born in 1963."
+	, "Jensen Huang born in 1963."
 	]
 
 haves =	[
@@ -16,6 +17,9 @@ haves =	[
 
 starts = [
 	"Was NVIDIA started in 1993?"
+	, "NVIDIA started in 1993."
+	, "Jensen Huang started NVIDIA in 1993."
+	, "Jensen Huang started NVIDIA."
 	]
 
 mia0009 = [
