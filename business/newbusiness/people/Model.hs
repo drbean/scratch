@@ -47,9 +47,14 @@ entity_check =  [
 characters :: [ (String, Entity) ]
 
 characters = [
-	( "dr_bean",	T )
+	( "dr_bean",	D )
 	, ( "jensen_huang",	J )
 	, ( "morris_chang",	M )
+	, ( "nvidia",	N )
+	, ( "tsmc",	T )
+	, ( "1931",	F )
+	, ( "1963",	G )
+	, ( "1993",	I )
 
 	]
 
