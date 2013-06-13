@@ -9,14 +9,6 @@ data Entity	= A | B | C | D | E | F | G
 		| O | P | Q | R | S | T | U 
 		| V | W | X | Y | Z 
 		| Someone | Something | Unspec
-		| S1 | S2 | S3 | S4 | S5
-		| S6 | S7 | S8 | S9 | S10
-		| S11 | S12 | S13 | S14 | S15
-		| S16 | S17 | S18 | S19 | S20
-		| X1 | X2 | X3 | X4 | X5
-		| X6 | X7 | X8 | X9 | X10
-		| X11 | X12 | X13 | X14 | X15
-		| X16 | X17 | X18 | X19 | X20
 		deriving (Eq,Show,Bounded,Enum,Ord)
 
 entities :: [Entity]
@@ -24,31 +16,31 @@ entities	=  [minBound..maxBound]
 
 entity_check :: [ (Entity, String) ]
 entity_check =  [
-    (A, "autonomy" )
-    , (B, "board" )
-    , (C, "clear_and_simple_idea" )
-    , (D, "" )
-    , (E, "english" )
-    , (F, "framework" )
-    , (G, "group" )
-    , (H, "" )
-    , (I, "ingredients_for_success" )
-    , (J, "" )
+    (A, "" )
+    , (B, "" )
+    , (C, "china" )
+    , (D, "dr_bean" )
+    , (E, "electrical_engineering" )
+    , (F, "1931" )
+    , (G, "1963" )
+    , (H, "mechanical_engineering" )
+    , (I, "1993" )
+    , (J, "jensen_huang" )
     , (K, "" )
-    , (L, "loser" )
-    , (M, "member" )
-    , (N, "innovation" )
-    , (O, "ownership" )
-    , (P, "points" )
-    , (Q, "question" )
+    , (L, "" )
+    , (M, "morris_chang" )
+    , (N, "nvidia" )
+    , (O, "master's_degree" )
+    , (P, "phd_degree" )
+    , (Q, "" )
     , (R, "" )
     , (S, "student" )
-    , (T, "dr_bean" )
-    , (U, "" )
-    , (V, "" )
-    , (W, "winner" )
-    , (X, "compcomp_activity" )
-    , (Y, "answer" )
+    , (T, "tsmc" )
+    , (U, "stanford_university" )
+    , (V, "mit" )
+    , (W, "taiwan" )
+    , (X, "" )
+    , (Y, "" )
     , (Z, "" )
     ]
 
@@ -56,6 +48,8 @@ characters :: [ (String, Entity) ]
 
 characters = [
 	( "dr_bean",	T )
+	, ( "jensen_huang",	J )
+	, ( "morris_chang",	M )
 
 	]
 
@@ -63,7 +57,7 @@ classes :: [String]
 classes = []
 
 context :: [Entity]
-context = [M,T,F,K,Someone]
+context = []
 
 namelist :: [String]
 namelist = map fst characters
@@ -99,37 +93,21 @@ onePlacers :: [(String, OnePlacePred)]
 onePlacers = [
 	("true",	pred1 entities )
 	, ("false",	pred1 [] )
-	, ("male",	pred1 [T] )
-	, ("female",	pred1 [] )
 	, ("role",	pred1 [] )
-	, ("teacher",	pred1 [T] )
-	, ("student",	pred1 [S1,S2,S3,S4,S11] )
-	, ("group",	pred1 [G] )
-	, ("teacher",	pred1 $ map ( \(t,_,_,_) -> t ) schooling )
+	, ("teacher",	pred1 [D] )
+	, ("ceo",	pred1 [J,M] )
+	, ("company",	pred1 [N,T] )
 
-	, ("english",	pred1 [E] )
-
-	, ("question",	pred1 [Q] )
-	, ("answer",	pred1 [Y] )
-	, ("person",	person )
+	, ("person",	pred1 [D,J,M] )
 	, ("thing",	thing )
 
-	, ("good",	pred1 [C,A,O,N,Y] )
-	, ("bad",	pred1 [F,G] )
+	, ("old",	pred1 [D,M] )
+	, ("good",	pred1 [] )
+	, ("bad",	pred1 [] )
 
-	, ("innovative",	pred1 [X1] )
-	, ("compcomp_activity",	pred1 [X1,X11])
-	, ("ingredients_for_success",	pred1 [C,A,O,N])
-	, ("clear_and_simple_idea",	pred1 [C])
-	, ("autonomy",	pred1 [A])
-	, ("ownership",	pred1 [O])
-	, ("innovation",	pred1 [X,X1,X11,X3,X4])
-	, ("framework",	predid1 "ingredients_for_success" )
-	, ("activity",	pred1 [X,X1,X11,X3,X4])
-	, ("successful",	pred1 [X1])
-	, ("unsuccessful",	pred1 [X11])
+	, ("successful",	pred1 [M,J,N,T])
+	, ("unsuccessful",	pred1 [D])
 
-	, ("winner",	pred1 [W])
 	]
 
 type OnePlacePred	= Entity -> Bool
@@ -159,32 +137,21 @@ twoPlacers :: [(String, TwoPlacePred)]
 twoPlacers = [
     ("know",	pred2 $ knowledge ++ acquaintances ++ map swap acquaintances)
     , ("have",	pred2 $ (map (\(t,_,_,s) -> (t,s) ) schooling ) ++ possessions 
-	++ (map (\(s,c,_,_) -> (s,c)) $ filter (\(_,c,_,_) -> or [(predid1 "answer" c), (predid1 "question" c)]) comms ) )
+	)
     , ("like",	pred2 $ map (\(a,t,r) -> (a,t)) appreciation)
-    , ("help",	pred2 [])
-    , ("speak",	pred2 [])
-    , ("listen",	pred2 [])
-    , ("read",	pred2 [])
-    , ("write",	pred2 [])
-    , ("said",	pred2 $ map (\x->(agent4 x, theme4 x) ) comms)
-    , ("asked",	pred2 $ map (\x->(agent4 x, recipient4 x) ) comms)
-    , ("talk_with_or_about",	pred2 $ map (\x->(agent4 x, recipient4 x) ) comms
-	++  map (\(agent,theme,recipient,_)->(agent, theme) ) comms)
-    , ("recite",	pred2 $ map ( \x -> (agent4 x, theme4 x) ) comms)
 	]
 
 -- (agent,theme,result,aim)
-features	= [(X1,A)]
+features	= []
 services    = []
 
-wanted = predid4 "looking"
 
-possessions	= [(T,A),(S2,A),(T,X2),(S1,Q)]
+possessions	= [(M,T),(J,N)]
 
 -- (appreciator, performance, actor)
-appreciation	= [(S1,X1,S),(T,E,S),(T,Q,S4),(T,Q,T)]
+appreciation	= [(J,Unspec,M)]
 knowledge	= []
-acquaintances	= []
+acquaintances	= [(M,J)]
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
@@ -205,10 +172,6 @@ origin	= theme
 destination = recipient
 
 threePlacers = [
-    ("gave",	pred3 giving)
-    , ("ask_about",	pred3 $ map (\x->(agent4 x, recipient4 x, theme4 x) ) comms)
-    , ("talk_with_about",	pred3 $ foldl (\cs (s,c,l,m) ->(s,l,c): (s,c,l): (s,l,m): cs) [] comms )
-    , ("like_to_ask",	pred3 $ map (\(a,t,r) -> (a,r,t)) appreciation )
     ]
 
 acceptances = []
@@ -223,29 +186,18 @@ talked	= pred2 $ map (\x->(agent4 x, recipient4 x) ) comms
 talk_about = pred3 $ map (\x->(agent4 x, recipient4 x, theme4 x) ) comms
 
 fourPlacers = [
-	("get",	pred4 $ map (\x -> (agent4 x, theme4 x, provider4 x, location4 x)
-				) services ++
-			map (\x -> (agent4 x, provider4 x, theme4 x, location4 x)
-				) services )
-	, ("give",	pred4 $ foldl (\ss (a,t,p,l) -> (l,t,a,l): (p,t,a,l): (p,t,l,a):
-					ss ) [] services)
-	, ("ask",   pred4 $foldl (\cc (a,t,r,m) -> (a,t,r,m): (a,r,t,m): cc) [] comms)
-	, ("have_to_ask",	pred4 $ map (\(_,t,r,l) -> (r,r,t,l) ) directives )
-	, ("wanted_to_talk",	pred4 $ foldl (\cc (a,t,r,p) -> (a,t,r,p): (a,r,t,p): (a,r,p,t): cc) [] goals)
-	, ("wanted_to_ask",	pred4 $ foldl (\cc (a,t,r,p) -> (a,t,r,p): (a,r,t,p): (a,r,p,t): cc) [] goals)
-	, ("wanted_to_answer",	pred4 $ foldl (\cc (a,t,r,p) -> (a,t,r,p): (a,r,t,p): (a,r,p,t): cc) [] goals)
 	]
 
--- (teacher,activity,group,student)
-schooling   = [(T,X1,G,S1),(T,X11,G,S11)]
+-- (teacher,school(location),subject,student)
+schooling   = [(Unspec,U,E,J),(Unspec,V,H,M),(Unspec,U,E,M)]
 recite = pred2 $ map ( \x -> (agent4 x, theme4 x) ) comms
 giving	= map (\(a,t,p,_) -> (a,t,p) ) services
 -- (speaker,content,listener,mode)
-comms	= [(T,Unspec,S1,E),(T,Q,S2,E),(S1,Y,S2,E)]
+comms	= []
 -- (instigator,act,agent,situation)
-directives  = [(T,Q,S3,X3)]
+directives  = []
 -- (planner,situation,achiever,goal)
-goals	= [(T,X4,S4,E),(T,X1,T,Q),(T,X1,S1,Q)]
+goals	= []
 
 agent4, theme4, recipient4, location4 :: (Entity,Entity,Entity,Entity) -> Entity
 agent4 (a,_,_,_)	= a
