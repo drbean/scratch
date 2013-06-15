@@ -65,7 +65,7 @@ number   = filter (`elem` [Sg,Pl])
 person   = filter (`elem` [Fst,Snd,Thrd])
 gcase    = filter (`elem` [Nom,AccOrDat])
 pronType = filter (`elem` [Pers,Refl,Wh]) 
-tense    = filter (`elem` [Tense,Infl]) 
+tense    = filter (`elem` [Tense,Infl,Part]) 
 prepType = filter (`elem` [About,After,As,At,BecauseOf,Like,In,On,For,With,By,To,From,Through]) 
 advType = filter (`elem` [Around,In,On]) 
 posType  = filter (`elem` [Of])
@@ -679,10 +679,10 @@ prsTO :: SPARSER Cat Cat
 prsTO = leafPS "TO"
 
 prsNPorPP :: SPARSER Cat Cat
-prsNPorPP = prsNP <||> prsPP 
+prsNPorPP = prsNP <||> prsPP
 
 prsCOMPorNPorPP :: SPARSER Cat Cat
-prsCOMPorNPorPP = prsCOMP <||> prsNPorPP 
+prsCOMPorNPorPP = prsCOMP <||> prsNPorPP
 
 prsVdependent :: SPARSER Cat Cat
 prsVdependent = prsCOMPorNPorPP
@@ -752,7 +752,10 @@ prsWH = \us xs ->
        (wh,vs,ys) <- prsCOMPorNPorPP us xs, 
        isWH wh, 
        gapfs      <- [filter (/= Wh) (fs (t2c wh))],
-       gap        <- [Cat "#" (catLabel (t2c wh)) gapfs []], 
+       gap        <- case (phon (t2c wh)) of 
+			"when"	-> [Cat "#" "PP" gapfs []]
+			"where"	-> [Cat "#" "PP" gapfs []]
+			_	-> [Cat "#" (catLabel (t2c wh)) gapfs []],
        (yn,ws,zs) <- push gap prsYNS vs ys ]
 
 prsYNS :: SPARSER Cat Cat
