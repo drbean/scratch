@@ -752,9 +752,10 @@ prsWH = \us xs ->
        (wh,vs,ys) <- prsCOMPorNPorPP us xs, 
        isWH wh, 
        gapfs      <- [filter (/= Wh) (fs (t2c wh))],
+       ppgap	<- [ (Branch (Cat "_" "PP" gapfs) [Leaf (Cat "_" "PREP" [In] []), Branch (Cat "#" "NP" [] []) [] ]) ],
        gap        <- case (phon (t2c wh)) of 
-			"when"	-> [Cat "#" "PP" gapfs []]
-			"where"	-> [Cat "#" "PP" gapfs []]
+			"when"	-> [ppgap]
+			"where"	-> [ppgap]
 			_	-> [Cat "#" (catLabel (t2c wh)) gapfs []],
        (yn,ws,zs) <- push gap prsYNS vs ys ]
 
