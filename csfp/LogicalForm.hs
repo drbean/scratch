@@ -469,13 +469,11 @@ transWH (Just (Branch (Cat _ "WH" _ _ )
 		(Cat _ "S" _ _) [np,(Branch
 			(Cat _ "VP" _ _) [_,vp@(Branch
 				(Cat _ "VP" _ _) [Leaf (Cat two_ple "V" _ _),obj])])])])])) =
-	case (obj) of 
-		(Leaf (Cat _ "NP" _ _) ) ->
-			WH (\x -> Conj [transW wh x,
+	case(catLabel (t2c obj)) of
+	    "NP" -> WH (\x -> Conj [transW wh x,
 				transNP np (\agent ->
 					Rel two_ple [agent,x])])
-		(Branch (Cat _ "PP" _ _) _ ) ->
-			WH (\x -> Conj [transW wh x,
+	    "PP" -> WH (\x -> Conj [transW wh x,
 				transNP np (\agent ->
 					Rel two_ple [agent,x])])
 
