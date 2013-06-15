@@ -673,7 +673,7 @@ ppR = \us xs ->
        fs          <- combine (t2c prep) (t2c np') ]
 
 prsPREP :: SPARSER Cat Cat
-prsPREP = leafPS "PREP"
+prsPREP = leafPS "PREP" <||> pop "PREP"
 
 prsTO :: SPARSER Cat Cat
 prsTO = leafPS "TO"
