@@ -49,16 +49,17 @@ reflexives = [
 	]
 
 interrogatives = [
-	[Cat "who" "NP"  [Wh,Thrd,MascOrFem] [],
-			Cat "who" "REL" [MascOrFem]         []],
-	[Cat "whom" "NP"  [Sg,Wh,Thrd,AccOrDat,MascOrFem] [],
-			Cat "whom" "REL" [Sg,MascOrFem,AccOrDat]         []],
-	-- [Cat "what" "NP"  [Wh,Thrd,AccOrDat,Neutr]    []],
-	[Cat "that"  "REL" [] [], Cat "that"  "DET" [Sg]    []],
-	[Cat "which" "REL" [Neutr] [], Cat "which" "DET" [Wh] []],
-	[Cat "whose" "REL" [Neutr] [], Cat "whose" "DET" [Wh] []]
+	[Cat "who" "NP"  [Wh,Thrd,MascOrFem] []
+			, Cat "who" "REL" [MascOrFem]         []]
+	, [Cat "whom" "NP"  [Sg,Wh,Thrd,AccOrDat,MascOrFem] []
+			, Cat "whom" "REL" [Sg,MascOrFem,AccOrDat]         []]
+	, [Cat "what" "NP"  [Wh,Thrd,AccOrDat,Neutr]    [], Cat "what" "DET" [Wh] []]
+	, [Cat "that"  "REL" [] [], Cat "that"  "DET" [Sg]    []]
+	, [Cat "which" "REL" [Neutr] [], Cat "which" "DET" [Wh] []]
+	, [Cat "whose" "REL" [Neutr] [], Cat "whose" "DET" [Wh] []]
 	-- [Cat "how_much" "NP" [Wh,Thrd,Neutr] [], Cat "how_much" "DET" [Wh] []]
-	-- [Cat "where" "NP" [Neutr] [], Cat "where" "REL" [] []]
+	, [Cat "where" "NP" [Wh,Neutr] [], Cat "where" "REL" [Neutr] []]
+	, [Cat "when" "NP" [Wh,Neutr] [], Cat "when" "REL" [Neutr] []]
 	]
 
 interrolist = map (phon . head) interrogatives
@@ -86,7 +87,6 @@ aux = [
 	[Cat "did"    "AUX" [Pos] [], Cat "did"    "TAG" [Pos] []],
 	[Cat "didn't" "AUX" [Ng] [], Cat "didn't" "TAG" [Ng] []]
 	]
-
 cops = [
 	[Cat "was"     "AUX" [Pos,Sg] [],
 	 Cat "was"     "COP" [Pos,Sg] [],
