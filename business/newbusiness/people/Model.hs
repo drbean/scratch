@@ -55,6 +55,8 @@ characters = [
 	, ( "1931",	F )
 	, ( "1963",	G )
 	, ( "1993",	I )
+	, ( "taiwan",	W )
+	, ( "china",	C )
 
 	]
 
@@ -103,7 +105,8 @@ onePlacers = [
 	, ("ceo",	pred1 [J,M] )
 	, ("company",	pred1 [N,T] )
 
-	, ("person",	pred1 [D,J,M] )
+	, ("male",	pred1 [D,J,M] )
+	, ("female",	pred1 [] )
 	, ("thing",	thing )
 
 	, ("old",	pred1 [D,M] )
@@ -150,7 +153,8 @@ acquaintances	= [(M,J)]
 twoPlacers :: [(String, TwoPlacePred)]
 twoPlacers = [
     ("know",	pred2 $ knowledge ++ acquaintances ++ map swap acquaintances)
-    , ("have",	pred2 $ (map (\(t,_,_,s) -> (t,s) ) schooling ) ++ possessions 
+    , ("have",	pred2 $ (foldl  (\hs (t,_,_,s,d) -> (t,s): (s,t): (s,d): hs )
+			[] schooling ) ++ possessions 
 	)
     , ("like",	pred2 $ map (\(a,t,r) -> (a,t)) appreciation)
 	]
@@ -191,8 +195,8 @@ talked	= pred2 $ map (\x->(agent4 x, recipient4 x) ) comms
               ++  map (\(agent,theme,recipient,_)->(recipient, agent) ) comms
 talk_about = pred3 $ map (\x->(agent4 x, recipient4 x, theme4 x) ) comms
 
--- (teacher,school(location),subject,student)
-schooling   = [(Unspec,U,E,J),(Unspec,V,H,M),(Unspec,U,E,M)]
+-- (teacher,school(location),subject,student,degree)
+schooling   = [(Unspec,U,E,J,O),(Unspec,V,H,M,O),(Unspec,U,E,M,P)]
 recite = pred2 $ map ( \x -> (agent4 x, theme4 x) ) comms
 giving	= map (\(a,t,p,_) -> (a,t,p) ) services
 -- (speaker,content,listener,mode)
@@ -201,8 +205,15 @@ comms	= []
 directives  = []
 -- (planner,situation,achiever,goal)
 goals	= []
+-- (mother,baby,place,year)
+births	= [(Unspec,J,W,G),(Unspec,M,C,F)]
+startups    = [(J,N,Unspec,I),(M,T,W,Unspec)]
 
 fourPlacers = [
+    ("born",	pred4 $ foldl (\cc (a,r,l,t) -> (a,r,l,t): (a,r,t,l): cc) [] births)
+    , ("started",	pred4 $ foldl (\cc (a,r,l,t) -> (a,r,l,t): (a,r,t,l): cc) []
+	    startups)
+	
 	]
 
 agent4, theme4, recipient4, location4 :: (Entity,Entity,Entity,Entity) -> Entity
