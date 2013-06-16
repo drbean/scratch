@@ -15,6 +15,7 @@ inflections = [
 	("ceos",	"ceo" )
 	, ("companies",	"company") 
 	, ("liked",	"like") 
+	, ("start",	"started") 
 
  ]
 
@@ -29,6 +30,16 @@ relations = [
 	, ( "successful",	\[x] -> predid1 "successful" x	)
 	, ( "unsuccessful",	\[x] -> predid1 "unsuccessful" x	)
 	, ( "like",	\[x,y]	-> predid2 "like" y x	)
+	, ( "born", \args -> case args of 
+		[x,y,z,w] -> predid4 "born" w z y x
+		[x,y,z] -> (forgetful4 . predid4) "born" z y x
+		[x,y] -> (forgetful3 .forgetful4 . predid4) "born" y x
+		[x] -> (forgetful2 . forgetful3 . forgetful4 . predid4) "born" x )
+	, ( "started", \args -> case args of 
+		[x,y,z,w] -> predid4 "started" w z y x
+		[x,y,z] -> (forgetful4 . predid4) "started" z y x
+		[x,y] -> (forgetful3 .forgetful4 . predid4) "started" y x
+		[x] -> (forgetful2 . forgetful3 . forgetful4 . predid4) "started" x )
 
 	]
 
