@@ -28,13 +28,13 @@ prons = [
 	-- [Cat "we"  "NP" [Pers,Fst,Pl,Nom]        []],
 	-- [Cat "us"  "NP" [Pers,Fst,Pl,AccOrDat]   []],
 	-- [Cat "you" "NP" [Pers,Snd]               []],
-	[Cat "he"  "NP" [Pers,Thrd,Sg,Nom,Masc]  []],
-	-- [Cat "him" "NP" [Pers,Thrd,Sg,AccOrDat,Masc] []],
-	[Cat "she" "NP" [Pers,Thrd,Sg,Nom,Fem]   []],
-	-- [Cat "her" "NP" [Pers,Thrd,Sg,AccOrDat,Fem] []],
-	[Cat "it"  "NP" [Pers,Thrd,Sg,Neutr]     []],
-	[Cat "they" "NP" [Pers,Thrd,Pl,Nom]     []]
-	-- [Cat "them" "NP" [Pers,Thrd,Pl,AccOrDat] []]
+	--[Cat "he"  "NP" [Pers,Thrd,Sg,Nom,Masc]  []],
+	---- [Cat "him" "NP" [Pers,Thrd,Sg,AccOrDat,Masc] []],
+	--[Cat "she" "NP" [Pers,Thrd,Sg,Nom,Fem]   []],
+	---- [Cat "her" "NP" [Pers,Thrd,Sg,AccOrDat,Fem] []],
+	--[Cat "it"  "NP" [Pers,Thrd,Sg,Neutr]     []],
+	--[Cat "they" "NP" [Pers,Thrd,Pl,Nom]     []]
+	---- [Cat "them" "NP" [Pers,Thrd,Pl,AccOrDat] []]
 	]
 
 reflexives = [
@@ -51,13 +51,13 @@ reflexives = [
 interrogatives = [
 	[Cat "who" "NP"  [Wh,Thrd,MascOrFem] []
 			, Cat "who" "REL" [MascOrFem]         []]
-	, [Cat "whom" "NP"  [Sg,Wh,Thrd,AccOrDat,MascOrFem] []
-			, Cat "whom" "REL" [Sg,MascOrFem,AccOrDat]         []]
+	--, [Cat "whom" "NP"  [Sg,Wh,Thrd,AccOrDat,MascOrFem] []
+	--		, Cat "whom" "REL" [Sg,MascOrFem,AccOrDat]         []]
 	, [Cat "what" "NP"  [Wh,Thrd,AccOrDat,Neutr]    [], Cat "what" "DET" [Wh] []]
-	, [Cat "that"  "REL" [] [], Cat "that"  "DET" [Sg]    []]
+	--, [Cat "that"  "REL" [] [], Cat "that"  "DET" [Sg]    []]
 	, [Cat "which" "REL" [Neutr] [], Cat "which" "DET" [Wh] []]
 	, [Cat "whose" "REL" [Neutr] [], Cat "whose" "DET" [Wh] []]
-	-- [Cat "how_much" "NP" [Wh,Thrd,Neutr] [], Cat "how_much" "DET" [Wh] []]
+	---- [Cat "how_much" "NP" [Wh,Thrd,Neutr] [], Cat "how_much" "DET" [Wh] []]
 	, [Cat "where" "NP" [Wh,Neutr] [], Cat "where" "REL" [Neutr] []]
 	, [Cat "when" "NP" [Wh,Neutr] [], Cat "when" "REL" [Neutr] []]
 	]
@@ -127,22 +127,22 @@ intransitives = [
 transitives = [
 	[Cat "had" "V" [Tense] [Cat "_" "NP" [AccOrDat] []]]
 	, [Cat "have" "V" [Infl] [Cat "_" "NP" [AccOrDat] []]]
-	, [Cat "wanted" "V" [Tense] [Cat "_" "INF" [To] []],
-		Cat "wanted" "V" [Tense] [Cat "_" "NP" [AccOrDat] []],
-		Cat "wanted" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [From] []],
-		Cat "wanted" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "INF" [To] []]]
-	, [Cat "want" "V" [Infl] [Cat "_" "INF" [To] []],
-		Cat "want" "V" [Infl] [Cat "_" "NP" [AccOrDat] []],
-		Cat "want" "V" [Infl] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [From] []],
-		Cat "want" "V" [Infl] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "INF" [To] []]]
-	, [Cat "decided" "V" [Tense] [Cat "_" "INF" [To] []],
-		Cat "decided" "V" [Tense] [Cat "_" "NP" [AccOrDat] []]]
-	, [Cat "decide" "V" [Infl] [Cat "_" "INF" [To] []],
-		Cat "decide" "V" [Infl] [Cat "_" "NP" [AccOrDat] []]]
+	--, [Cat "wanted" "V" [Tense] [Cat "_" "INF" [To] []],
+	--	Cat "wanted" "V" [Tense] [Cat "_" "NP" [AccOrDat] []],
+	--	Cat "wanted" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
+	--					Cat "_" "PP" [From] []],
+	--	Cat "wanted" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
+	--					Cat "_" "INF" [To] []]]
+	--, [Cat "want" "V" [Infl] [Cat "_" "INF" [To] []],
+	--	Cat "want" "V" [Infl] [Cat "_" "NP" [AccOrDat] []],
+	--	Cat "want" "V" [Infl] [Cat "_" "NP" [AccOrDat] [],
+	--					Cat "_" "PP" [From] []],
+	--	Cat "want" "V" [Infl] [Cat "_" "NP" [AccOrDat] [],
+	--					Cat "_" "INF" [To] []]]
+	--, [Cat "decided" "V" [Tense] [Cat "_" "INF" [To] []],
+	--	Cat "decided" "V" [Tense] [Cat "_" "NP" [AccOrDat] []]]
+	--, [Cat "decide" "V" [Infl] [Cat "_" "INF" [To] []],
+	--	Cat "decide" "V" [Infl] [Cat "_" "NP" [AccOrDat] []]]
 	--[Cat "appreciated"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []]],
 	--[Cat "appreciate"	"V" [Infl]  [Cat "_" "NP" [AccOrDat] []]],
 	--[Cat "disappointed"	"V" [Tense] [Cat "_" "NP" [AccOrDat] []]],
@@ -220,36 +220,36 @@ ditransitives = [
 	--	Cat "work" "V" [Infl] [Cat "_" "PP" [On,Neutr] []],
 	--	Cat "work" "V" [Infl] [Cat "_" "PP" [In,Neutr] []],
 	--	Cat "work" "V" [Infl] [Cat "_" "PP" [For,Neutr] []]],
-	[Cat "gave" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [To]       []],
-			Cat "gave" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "NP" [AccOrDat]  []]],
-	[Cat "give" "V" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [To]       []],
-			Cat "give" "V" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "NP" [AccOrDat] []]],
-	[Cat "got" "V" [Tense] [Cat "_" "NP" [AccOrDat] []],
-			Cat "got" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [From]  []]],
-	[Cat "get" "V" [Infl]  [Cat "_" "NP" [AccOrDat] []],
-			Cat "get" "V" [Infl]  [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [From] []]],
-	[Cat "took" "V" [Tense] [Cat "_" "NP" [AccOrDat] []],
-			Cat "took" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [For]  []],
-			Cat "took" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [From]  []],
-			Cat "took" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [From]  [],
-						Cat "_" "PP" [For]  []]],
-	[Cat "take" "V" [Infl] [Cat "_" "NP" [AccOrDat] []],
-			Cat "take" "V" [Infl] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [For]  []],
-			Cat "take" "V" [Infl] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [From]  []],
-			Cat "take" "V" [Infl] [Cat "_" "NP" [AccOrDat] [],
-						Cat "_" "PP" [From]  [],
-						Cat "_" "PP" [For]  []]]
+	--[Cat "gave" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
+	--					Cat "_" "PP" [To]       []],
+	--		Cat "gave" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
+	--					Cat "_" "NP" [AccOrDat]  []]],
+	--[Cat "give" "V" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+	--					Cat "_" "PP" [To]       []],
+	--		Cat "give" "V" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+	--					Cat "_" "NP" [AccOrDat] []]],
+	--[Cat "got" "V" [Tense] [Cat "_" "NP" [AccOrDat] []],
+	--		Cat "got" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
+	--					Cat "_" "PP" [From]  []]],
+	--[Cat "get" "V" [Infl]  [Cat "_" "NP" [AccOrDat] []],
+	--		Cat "get" "V" [Infl]  [Cat "_" "NP" [AccOrDat] [],
+	--					Cat "_" "PP" [From] []]],
+	--[Cat "took" "V" [Tense] [Cat "_" "NP" [AccOrDat] []],
+	--		Cat "took" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
+	--					Cat "_" "PP" [For]  []],
+	--		Cat "took" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
+	--					Cat "_" "PP" [From]  []],
+	--		Cat "took" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
+	--					Cat "_" "PP" [From]  [],
+	--					Cat "_" "PP" [For]  []]],
+	--[Cat "take" "V" [Infl] [Cat "_" "NP" [AccOrDat] []],
+	--		Cat "take" "V" [Infl] [Cat "_" "NP" [AccOrDat] [],
+	--					Cat "_" "PP" [For]  []],
+	--		Cat "take" "V" [Infl] [Cat "_" "NP" [AccOrDat] [],
+	--					Cat "_" "PP" [From]  []],
+	--		Cat "take" "V" [Infl] [Cat "_" "NP" [AccOrDat] [],
+	--					Cat "_" "PP" [From]  [],
+	--					Cat "_" "PP" [For]  []]]
 	--[Cat "accepted" "V" [Tense] [Cat "_" "NP" [AccOrDat] []],
 	--		Cat "accepted" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
 	--					Cat "_" "PP" [From]  []]],
@@ -269,23 +269,23 @@ ditransitives = [
 	]
 
 preps = [
-	[Cat "around"   "PREP" [Around]   []],
-	[Cat "about"   "PREP" [About]   []],
-	[Cat "after"   "PREP" [After]   []],
-	[Cat "as"   "PREP" [As]   []],
-	[Cat "at"   "PREP" [At]   []],
-	[Cat "because_of"   "PREP" [BecauseOf]   []],
-	[Cat "by"   "PREP" [By]   []],
-	[Cat "for"  "PREP" [For]  []],
-	[Cat "from" "PREP" [From] []],
-	-- [Cat "like" "PREP" [Like] []],
-	[Cat "in"   "PREP" [In]   []],
-	[Cat "on"   "PREP" [On]   []],
-	[Cat "to"   "PREP" [To]   [],
-		-- Cat "to" "TO" [ToInf] [Cat "_" "VP" [] []]],
-		Cat "to" "TO" [ToInf] []],
-	[Cat "through" "PREP" [Through] []],
-	[Cat "with" "PREP" [With] []]
+	[Cat "in"   "PREP" [In]   []]
+	, [Cat "by"   "PREP" [By]   []]
+	--, [Cat "around"   "PREP" [Around]   []]
+	--, [Cat "about"   "PREP" [About]   []]
+	--, [Cat "after"   "PREP" [After]   []]
+	--, [Cat "as"   "PREP" [As]   []]
+	--, [Cat "at"   "PREP" [At]   []]
+	--, [Cat "because_of"   "PREP" [BecauseOf]   []]
+	--, [Cat "for"  "PREP" [For]  []]
+	--, [Cat "from" "PREP" [From] []]
+	--, -- [Cat "like" "PREP" [Like] []]
+	--, [Cat "on"   "PREP" [On]   []]
+	--, [Cat "to"   "PREP" [To]   []
+	--, 	-- Cat "to" "TO" [ToInf] [Cat "_" "VP" [] []]]
+	--, 	Cat "to" "TO" [ToInf] []]
+	--, [Cat "through" "PREP" [Through] []]
+	--, [Cat "with" "PREP" [With] []]
 	]
 
 advs = [
