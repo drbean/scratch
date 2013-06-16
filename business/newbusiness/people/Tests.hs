@@ -6,8 +6,19 @@ import Parsing
 birth	= [
 	"Was Jensen Huang born in 1963?"
 	, "Jensen Huang was born in 1963."
+	, "Jensen Huang was born in Taiwan."
+	, "Jensen Huang was born in Taiwan in 1963."
 	, "Jensen Huang born in 1963."
+	, "Did Jensen Huang born in China?"
 	]
+
+birth_wh	= [
+	"When was Jensen Huang born?"
+	, "Where was Jensen Huang born?"
+	, "Who was born in 1963?"
+	]
+
+passive_whs	= birth_wh ++ starts_wh
 
 haves =	[
 	"Did Jensen Huang have a company?"
@@ -15,11 +26,46 @@ haves =	[
 	, "Did Jensen Huang have a master's degree?"
 	]
 
+starts_wh	= [
+	"What did Jensen Huang start?"
+	, "Which company did Jensen Huang start?"
+	, "What company did Jensen Huang start?"
+	, "When did Jensen Huang start NVIDIA?"
+	, "When was NVIDIA started?"
+	, "Where did Jensen Huang start NVIDIA?"
+	, "Whose company was started by Jensen Huang?"
+	, "Who was NVIDIA started by?"
+	]
+
 starts = [
 	"Was NVIDIA started in 1993?"
 	, "NVIDIA started in 1993."
 	, "Jensen Huang started NVIDIA in 1993."
 	, "Jensen Huang started NVIDIA."
+	, "NVIDIA was started by Jensen Huang in 1993."
+	, "NVIDIA was started in Jensen Huang by 1993."
+	, "NVIDIA was started in 1993 by Jensen Huang."
+	]
+
+comp_wh = [
+	"Whose company was NVIDIA?"
+	]
+
+comp_tests = [
+	"Dr Bean was an teacher."
+	, "Dr Bean was an ceo"
+	, "Dr Bean was a person."
+	, "Dr Bean wasn't an person."
+	, "Morris Chang wasn't a person."
+	, "Wasn't Dr Bean a person?"
+	, "Wasn't Morris Chang a person?"
+	, "Wasn't NVIDIA a person?"
+	, "Wasn't Jensen Huang a teacher"
+	, "Was Morris Chang a CEO?"
+	]
+
+relatives = [
+	"Who was the person who NVIDIA was started by?"
 	]
 
 mia0009 = [
