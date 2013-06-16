@@ -254,6 +254,34 @@ ingredients:
         answer: True
       - question: The company was headed for success.
         answer: True
+  6:
+    identifier: ingredients 6
+    A: |
+      \item [Innovation] NVIDIA designed a chip that wasn't very different.
+      \item [Team] The team was good.
+      \item [Market opportunity] They developed a cheap chip that used little memory.
+      \item [Financial strategy] They decided to take a chance with the money that remained.
+    B: |
+      \item [Innovation] It was not possible to make design of sound chips 
+      \item [Team] The team had contacts who could help them.
+      \item [Market opportunity] Memory suddenly became very cheap.
+      \item [Financial strategy] Venture capitalists gave them enough money to last 2 years.
+    C: |
+      \item [Innovation] The idea was to develop sound chips.
+      \item [Team] The 3 engineers had experience designing chips.
+      \item [Market opportunity] Other newer companies had built better chips using more memory.
+      \item [Financial strategy] The financial strategy was good.
+    quiz:
+      - question: The product was innovative.
+        answer: True
+      - question: The team was good.
+        answer: True
+      - question: The company had a market opportunity.
+        answer: False
+      - question: The financial strategy was good.
+        answer: True
+      - question: The company was headed for success.
+        answer: False
 
  compcomp:
   0:
