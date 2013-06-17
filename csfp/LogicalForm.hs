@@ -477,7 +477,9 @@ transWH (Just (Branch (Cat _ "WH" _ _ )
 	    "NP" -> WH (\x -> Conj [transW wh x,
 				transNP np (\agent ->
 					Rel two_ple [agent,x])])
-	    "PP" -> WH (\x -> Conj [transW wh x,
+	    "PP" -> case (fs (t2c vp)) of 
+			[Part] -> WH (\x -> Exists (\agent -> Conj [transW wh x, transNP np (\patient -> Rel two_ple [agent, patient, x] ) ] ) )
+			_ -> WH (\x -> Conj [transW wh x,
 				transNP np (\agent ->
 					Rel two_ple [agent,x])])
 
