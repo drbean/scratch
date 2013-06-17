@@ -312,6 +312,9 @@ transVP :: ParseTree Cat Cat -> Term -> LF
 --transVP (Branch (Cat "_" "VP" [Part] _) [Leaf (Cat part "V" _ _), obj] ) =
 --	\x -> Exists( \agent -> transPP obj (\cond -> Rel part [agent, x, cond] ) )
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat _ "AUX" _ _),
+    Branch (Cat "_" "VP" [Part] _) [Leaf (Cat part "V" _ _)] ]) =
+	\x -> Exists( \agent -> Rel part [agent, x] )
+transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat _ "AUX" _ _),
     Branch (Cat "_" "VP" [Part] _) [Leaf (Cat part "V" _ _), obj] ]) =
 	\x -> Exists( \agent -> transPP obj (\cond -> Rel part [agent, x, cond] ) )
 transVP (Branch (Cat "_" "VP" [Part] _) [Leaf (Cat part "V" _ [_,_]), obj1, obj2] ) =
