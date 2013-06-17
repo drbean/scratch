@@ -309,8 +309,8 @@ transPP (Leaf   (Cat "#" "PP" _ _)) = \ p -> p (Var 0)
 transPP (Branch (Cat _   "PP" _ _) [prep,np]) = transNP np
 
 transVP :: ParseTree Cat Cat -> Term -> LF
-transVP (Branch (Cat "_" "VP" [Part] _) [Leaf (Cat part "V" _ _), obj] ) =
-	\x -> Exists( \agent -> transPP obj (\cond -> Rel part [agent, x, cond] ) )
+--transVP (Branch (Cat "_" "VP" [Part] _) [Leaf (Cat part "V" _ _), obj] ) =
+--	\x -> Exists( \agent -> transPP obj (\cond -> Rel part [agent, x, cond] ) )
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat "was" "AUX" _ _),
     Branch (Cat "_" "VP" [Part] _) [Leaf (Cat part "V" _ _), obj] ]) =
 	\x -> Exists( \agent -> transPP obj (\cond -> Rel part [agent, x, cond] ) )
@@ -336,6 +336,7 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat "was" "AUX" _ _),
 	    \x -> Exists( \agent -> transPP obj1
 		(\cond1 -> transPP obj2
 		    (\cond2 -> Rel part [agent, x, cond1, cond2] ) ) )
+
 transVP (Branch (Cat _ "VP" _ _) 
                 [Leaf (Cat "could" "AUX" _ []),vp]) = 
         transVP vp 
