@@ -311,26 +311,26 @@ transPP (Branch (Cat _   "PP" _ _) [prep,np]) = transNP np
 transVP :: ParseTree Cat Cat -> Term -> LF
 --transVP (Branch (Cat "_" "VP" [Part] _) [Leaf (Cat part "V" _ _), obj] ) =
 --	\x -> Exists( \agent -> transPP obj (\cond -> Rel part [agent, x, cond] ) )
-transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat "was" "AUX" _ _),
+transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat _ "AUX" _ _),
     Branch (Cat "_" "VP" [Part] _) [Leaf (Cat part "V" _ _), obj] ]) =
 	\x -> Exists( \agent -> transPP obj (\cond -> Rel part [agent, x, cond] ) )
 transVP (Branch (Cat "_" "VP" [Part] _) [Leaf (Cat part "V" _ [_,_]), obj1, obj2] ) =
 	\x -> Exists( \agent -> transPP obj1 
 	    (\cond1 -> transPP obj2 
 		(\cond2 -> Rel part [agent, x, cond1, cond2] ) ) )
-transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat "was" "AUX" _ _),
+transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat _ "AUX" _ _),
     Branch (Cat "_" "VP" [Part] _) [Leaf (Cat part "V" _ [_,_]), obj1, obj2] ])
 	| ( elem By (fs (t2c obj1)) ) =
 	    \x -> transPP obj1 
 		    (\agent -> transPP obj2 
 			(\cond -> Rel part [agent, x, cond] ) )
-transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat "was" "AUX" _ _),
+transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat _ "AUX" _ _),
     Branch (Cat "_" "VP" [Part] _) [Leaf (Cat part "V" _ [_,_]), obj1, obj2] ])
 	| ( elem By (fs (t2c obj2)) ) =
 	    \x -> transPP obj1
 		(\cond -> transPP obj2
 		    (\agent -> Rel part [agent, x, cond] ) )
-transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat "was" "AUX" _ _),
+transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat _ "AUX" _ _),
     Branch (Cat "_" "VP" [Part] _) [Leaf (Cat part "V" _ [_,_]), obj1, obj2] ])
 	=
 	    \x -> Exists( \agent -> transPP obj1
