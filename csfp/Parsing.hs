@@ -651,13 +651,15 @@ finVpR = \us xs -> [(vp',vs,ys) |
 
 auxVpR :: SPARSER Cat Cat
 auxVpR = \us xs -> [ (Branch (Cat "_" "VP" (fs (t2c aux)) []) 
-	[aux,inf], ws, zs) | 
+	[aux,inf'], ws, zs) | 
 	(aux,vs,ys) <- prsAUX us xs,
 	tag        <- [Cat (phon (t2c aux)) (catLabel(t2c aux)) (balancefs aux) []],
 	(inf,ws,zs) <- case us of
 		[Cat _ "NP" _ _] -> push tag vpR vs ys
-		otherwise -> vpR vs ys
-	-- inf'       <- assignT Infl inf ] 
+		otherwise -> vpR vs ys,
+	inf'       <- case (phon (t2c aux)) of
+			"did" -> assignT Infl inf
+			_ -> assignT Part inf
 			]
 
 prsAUX :: SPARSER Cat Cat
