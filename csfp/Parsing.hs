@@ -236,7 +236,7 @@ preproc ("electrical":"engineering":xs)	= "electrical_engineering" : preproc xs
 preproc ("mechanical":"engineering":xs)	= "mechanical_engineering" : preproc xs
 preproc ("jensen":"huang":xs)	= "jensen_huang" : preproc xs
 preproc ("morris":"chang":xs)	= "morris_chang" : preproc xs
-preproc ("master's":"degree":xs)	= "master's_degree" : preproc xs
+preproc ("master":"'s":"degree":xs)	= "master's_degree" : preproc xs
 preproc ("phd":"degree":xs)	= "phd_degree" : preproc xs
 
 preproc ("stanford":"university":xs)	= "stanford_university" : preproc xs
