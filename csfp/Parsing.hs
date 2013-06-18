@@ -49,6 +49,7 @@ data Feat = Masc  | Fem  | Neutr | MascOrFem
           | Nom   | AccOrDat
           | Pers  | Refl | Wh 
           | Tense | Infl | Part
+	  | Act   | Pass
 	  | Pos   | Ng
           | About | After | Around | At | As | BecauseOf
 	  | In | Like | On | For | With
@@ -66,6 +67,7 @@ person   = filter (`elem` [Fst,Snd,Thrd])
 gcase    = filter (`elem` [Nom,AccOrDat])
 pronType = filter (`elem` [Pers,Refl,Wh]) 
 tense    = filter (`elem` [Tense,Infl,Part]) 
+voice    = filter (`elem` [Act,Pass])
 prepType = filter (`elem` [About,After,As,At,BecauseOf,Like,In,On,For,With,By,To,From,Through]) 
 advType = filter (`elem` [Around,In,On]) 
 posType  = filter (`elem` [Of])
