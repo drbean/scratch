@@ -198,6 +198,34 @@ ingredients:
           - market opportunity
           - financial strategy
         answer: innovation
+  333:
+    identifier: ingredients 333
+    A: |
+      \item [Innovation] The product was innovative.
+      \item [Team] Dr Bean's wife is Japanese and has business skills.
+      \item [Market opportunity] Many people in Taiwan don't speak good English.
+      \item [Financial strategy] Dr Bean is not concerned about money.
+    B: |
+      \item [Innovation] Dr Bean designed some activities students could do themselves.
+      \item [Team] The team was good.
+      \item [Market opportunity] There are not many foreign teachers in Taiwan.
+      \item [Financial strategy] Investors might have doubts about investing in Dr Bean.
+    C: |
+      \item [Innovation] Dr Bean's lessons were game-like, with competition and winners.
+      \item [Team] Dr Bean knows good teachers who would like to work with him.
+      \item [Market opportunity] The school had a market opportunity.
+      \item [Financial strategy] Dr Bean does not take any risks at all, using his money.
+    quiz:
+      - question: The product was innovative.
+        answer: True
+      - question: The team was good.
+        answer: True
+      - question: The company had a market opportunity.
+        answer: True
+      - question: The financial strategy was good.
+        answer: False
+      - question: The company was headed for success.
+        answer: False
   4:
     identifier: ingredients 4
     A: |
