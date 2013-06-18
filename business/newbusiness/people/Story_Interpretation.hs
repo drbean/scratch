@@ -7,6 +7,10 @@ objects = [
 	( "teacher",	\[x]	-> predid1 "teacher" x )
 	, ( "ceo",	\[x]	-> predid1 "ceo" x	)
 	, ( "company",	\[x]	-> predid1 "company" x	)
+	, ( "master's_degree",	\[x]	-> predid1 "master's_degree" x	)
+	, ( "phd_degree",	\[x]	-> predid1 "phd_degree" x	)
+
+
 	
 	]
 
