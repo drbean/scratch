@@ -22,8 +22,13 @@ passive_whs	= birth_wh ++ starts_wh
 
 haves =	[
 	"Did Jensen Huang have a company?"
-	, "Who had a company?"
 	, "Did Jensen Huang have a master's degree?"
+	, "Jensen Huang had a master's degree?"
+	]
+have_whs = [
+	"Who had a master's degree?"
+	, "Who had a PhD degree?"
+	, "Who had a company?"
 	]
 
 starts_wh	= [
