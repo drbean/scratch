@@ -396,6 +396,8 @@ oneS (p:ps) = p <::> succeedS []
 
 push :: Cat -> SPARSER Cat Cat -> SPARSER Cat Cat 
 push c p stack = p (c:stack) 
+pushlist :: [Cat] -> SPARSER Cat Cat -> SPARSER Cat Cat 
+pushlist c p stack = p (c ++ stack)
 
 pop :: CatLabel -> SPARSER Cat Cat 
 pop c []     xs                   = []
@@ -752,12 +754,11 @@ prsWH = \us xs ->
        (wh,vs,ys) <- prsCOMPorNPorPP us xs, 
        isWH wh, 
        gapfs      <- [filter (/= Wh) (fs (t2c wh))],
-       ppgap	<- [ (Branch (Cat "_" "PP" gapfs) [Leaf (Cat "_" "PREP" [In] []), Branch (Cat "#" "NP" [] []) [] ]) ],
        gap        <- case (phon (t2c wh)) of 
-			"when"	-> [ppgap]
-			"where"	-> [ppgap]
-			_	-> [Cat "#" (catLabel (t2c wh)) gapfs []],
-       (yn,ws,zs) <- push gap prsYNS vs ys ]
+			"when"	-> [[Cat "in" "PREP" [In] [], Cat "#" (catLabel (t2c wh)) gapfs []]]
+			"where"	-> [[Cat "in" "PREP" [In] [], Cat "#" (catLabel (t2c wh)) gapfs []]]
+			_	-> [[Cat "#" (catLabel (t2c wh)) gapfs []]],
+       (yn,ws,zs) <- pushlist gap prsYNS vs ys ]
 
 prsYNS :: SPARSER Cat Cat
 prsYNS = prsYN <||> spR
