@@ -49,12 +49,12 @@ data Feat = Masc  | Fem  | Neutr | MascOrFem
           | Nom   | AccOrDat
           | Pers  | Refl | Wh 
           | Tense | Infl | Part
-	  | Act   | Pass
-	  | Pos   | Ng
+          | Act   | Pass
+          | Pos   | Ng
           | About | After | Around | At | As | BecauseOf
-	  | In | Like | On | For | With
-	  | By | To | ToInf | From | Through
-	  | Of
+          | In | Like | On | For | With
+          | By | To | ToInf | From | Through
+          | Of
           deriving (Eq,Show,Ord)
 
 type Agreement = [Feat]
