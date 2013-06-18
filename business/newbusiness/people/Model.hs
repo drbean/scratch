@@ -116,6 +116,8 @@ onePlacers = [
 	, ("successful",	pred1 [M,J,N,T])
 	, ("unsuccessful",	pred1 [D])
 
+	, ("master's_degree",	pred1 [O])
+	, ("phd_degree",	pred1 [P])
 	]
 
 type OnePlacePred	= Entity -> Bool
