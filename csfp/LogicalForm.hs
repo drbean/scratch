@@ -311,6 +311,12 @@ transPP (Branch (Cat _   "PP" _ _) [prep,np]) = transNP np
 transVP :: ParseTree Cat Cat -> Term -> LF
 --transVP (Branch (Cat "_" "VP" [Part] _) [Leaf (Cat part "V" _ _), obj] ) =
 --	\x -> Exists( \agent -> transPP obj (\cond -> Rel part [agent, x, cond] ) )
+transVP (Branch vp@(Cat _ "VP" _ _) 
+                [Leaf (Cat "wasn't" label fs subcats),pred]) = 
+        \x -> Neg ((transVP (Branch vp [Leaf (Cat "was" label fs subcats),pred])) x)
+transVP (Branch vp@(Cat _ "VP" _ _) 
+                [Leaf (Cat "weren't" label fs subcats),pred]) = 
+        \x -> Neg ((transVP (Branch vp [Leaf (Cat "were" label fs subcats),pred])) x)
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat _ "AUX" _ _),
     Branch (Cat "_" "VP" [Part] _) [Leaf (Cat part "V" _ _)] ]) =
 	\x -> Exists( \agent -> Rel part [agent, x] )
@@ -352,12 +358,6 @@ transVP (Branch (Cat _ "VP" _ _)
 transVP (Branch (Cat _ "VP" _ _) 
                 [Leaf (Cat "didn't" "AUX" _ []),vp]) = 
         \x -> Neg ((transVP vp) x)
-transVP (Branch vp@(Cat _ "VP" _ _) 
-                [Leaf (Cat "wasn't" label fs subcats),pred]) = 
-        \x -> Neg ((transVP (Branch vp [Leaf (Cat "was" label fs subcats),pred])) x)
-transVP (Branch vp@(Cat _ "VP" _ _) 
-                [Leaf (Cat "weren't" label fs subcats),pred]) = 
-        \x -> Neg ((transVP (Branch vp [Leaf (Cat "were" label fs subcats),pred])) x)
 transVP (Branch (Cat _ "VP" _ _) 
                 [Leaf (Cat "#" "AUX" _ []),vp]) = 
         transVP vp 
