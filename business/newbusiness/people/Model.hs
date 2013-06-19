@@ -147,7 +147,7 @@ pred5 xs	= curry5 ( `elem` xs )
 features	= []
 services    = []
 
-possessions	= [(M,T),(J,N)]
+entrepreneurship	= [(M,T),(J,N)]
 
 knowledge	= []
 acquaintances	= [(M,J)]
@@ -156,7 +156,8 @@ twoPlacers :: [(String, TwoPlacePred)]
 twoPlacers = [
     ("know",	pred2 $ knowledge ++ acquaintances ++ map swap acquaintances)
     , ("have",	pred2 $ (foldl  (\hs (t,_,_,s,d) -> (t,s): (s,t): (s,d): hs )
-			[] schooling ) ++ possessions 
+			[] schooling )
+			    ++ entrepreneurship ++ map swap entrepreneurship
 	)
     , ("like",	pred2 $ map (\(a,t,r) -> (a,t)) appreciation)
 	]
