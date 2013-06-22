@@ -111,13 +111,16 @@ for ( @n ) {
 	# push @g, "$i. $_\t$i{$_}\t$p2{$_}\t$i{$p2{$_}}\t$p3{$_}\t$i{$p3{$_}}\n";
 	# push @g, "$_\t$p1{$_}\t$i{$p1{$_}}\t$p2{$_}\t$i{$p2{$_}}\t_______\t_______\n";
 	push @g,
-"\\item [$_]
+"\\item [$i]
 \\tabto{0.2cm} \\begin{normalsize}$p1{$_}\\end{normalsize} \\tabto{1.5cm} $i{$p1{$_}}
 \\tabto{3.8cm} \\begin{normalsize}$p2{$_}\\end{normalsize} \\tabto{5.1cm} $i{$p2{$_}}
 \\tabto{7.4cm} \\begin{large}$p3{$_}     \\end{large}      \\tabto{9.1cm} $i{$p3{$_}}
 \\tabto{11.4cm} \\rule{1.0cm}{0.02cm}
 \\tabto{13.0cm} \\rule{2.0cm}{0.02cm}
 \\vspace{+0.00cm}\\\\\n";
+	if ( $i == 24 or $i == 48 ) {
+		push @g, "\\newpage\n"
+	}
 }
 
 push @g, "
