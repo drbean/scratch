@@ -8,7 +8,7 @@ use Cwd;
 use List::Util qw/first/;
 
 my $round = '4';
-my $session = 6;
+my $session = 5;
 my $previous_session = $session-1;
 
 $_REPL->load_plugin('DumpHistory');
@@ -80,6 +80,7 @@ my %groups = map { my $group = $_;
 
 my @g = 
 "\\documentclass[a4paper]{article}
+\\usepackage[a4paper,vmargin={10mm,10mm},hmargin={20mm,10mm}]{geometry}
 \\usepackage[absolute]{textpos}
 \\usepackage{tabto}
 \\usepackage{multicol}
@@ -92,8 +93,9 @@ my @g =
 \\pagestyle{empty}
 \\setlength{\\unitlength}{1cm}
 
-\\newcommand{\\mysignup}[1]{
-	\\begin{textblock}{16}(#1)
+%\\newcommand{\\mysignup}[1]{
+%	\\begin{textblock}{16}(#1)
+\\begin{document}
       $dir League Midterm Exam Groups
 \\begin{tabbing}
 \\hspace{1cm} \\= A  \\hspace{3cm}  \\= B \\hspace{3cm}  \\= C\\\\
@@ -112,23 +114,24 @@ for ( @n ) {
 	# push @g, "$_\t$p1{$_}\t$i{$p1{$_}}\t$p2{$_}\t$i{$p2{$_}}\t_______\t_______\n";
 	push @g,
 "\\item [$i]
-\\tabto{0.2cm} \\begin{normalsize}$p1{$_}\\end{normalsize} \\tabto{1.5cm} $i{$p1{$_}}
-\\tabto{3.8cm} \\begin{normalsize}$p2{$_}\\end{normalsize} \\tabto{5.1cm} $i{$p2{$_}}
-\\tabto{7.4cm} \\begin{large}$p3{$_}     \\end{large}      \\tabto{9.1cm} $i{$p3{$_}}
-\\tabto{11.4cm} \\rule{1.0cm}{0.02cm}
-\\tabto{13.0cm} \\rule{2.0cm}{0.02cm}
+\\tabto{0.2cm} \\begin{normalsize}$p1{$_}\\end{normalsize} \\tabto*{1.7cm} $i{$p1{$_}}
+\\tabto{4.0cm} \\begin{normalsize}$p2{$_}\\end{normalsize} \\tabto*{5.3cm} $i{$p2{$_}}
+\\tabto{7.7cm} \\begin{normalsize}$p3{$_}     \\end{normalsize}      \\tabto*{9.4cm} $i{$p3{$_}}
+\\tabto{11.6cm} \\rule{1.0cm}{0.02cm}
+\\tabto{13.2cm} \\rule{2.0cm}{0.02cm}
 \\vspace{+0.00cm}\\\\\n";
-	if ( $i == 24 or $i == 48 ) {
-		push @g, "\\newpage\n"
-	}
+	#if ( $i == 24 or $i == 48 ) {
+	#	push @g, "\\newpage\n"
+	#}
 }
 
 push @g, "
 \\end{description}\n
-\\end{textblock}
-}
-\\begin{document}
-\\mysignup{0,0}
+
+%\\end{textblock}
+%}
+% \\begin{document}
+% \\mysignup{0,0}
 \\end{document}\n";
 
 io("exam/$round/groups.tex")->print( @g );
