@@ -28,7 +28,8 @@ my $b3  = $cl->beancans($session);
 my $n2 = $cl->names2beancans($previous_session);
 my $n3 = $cl->names2beancans($session);
 
-my @keys = sort {$a <=> $b} keys %$b2;
+# my @keys = sort {$a <=> $b} keys %$b2;
+my @keys = sort  keys %$b2;
 my %group2order = map {
 		my ($team, $group) = split '-', $_;
 		$team--;
@@ -39,6 +40,7 @@ my %order2group = map { $group2order{$_}->{order} => $_ } keys %group2order;
 my @n = map { $m{$_}->{name} } sort keys %m;
 my %i = map { $_ => $l->ided($_) } @n;
 
+my %p1 = map { $_ => $_ } @n;
 my %p2 = map { my $n = $_ ; $n => first {$_ ne $n } @{$b2->{$n2->{$n}}} } @n;
 my %p3 = map { my $n = $_ ; $n => first {$_ ne $n } @{$b3->{$n3->{$n}}} } @n;
 
@@ -71,10 +73,10 @@ my %groups = map { my $group = $_;
 					}
 } @keys;
 
-my $c = LoadFile "exam/$round/C.yaml";
-my %p1 = map { $_ => $b2->{$_}->[0] } @keys;
-%p2 = map { $_ => $b2->{$_}->[1] } @keys;
-%p3 = map { $_ => $c->{$_} } @keys;
+# my $c = LoadFile "exam/$round/C.yaml";
+# my %p1 = map { $_ => $b2->{$_}->[0] } @keys;
+# %p2 = map { $_ => $b2->{$_}->[1] } @keys;
+# %p3 = map { $_ => $b3->{$_} } @keys;
 
 my @g = 
 "\\documentclass[a4paper]{article}
@@ -103,8 +105,8 @@ my @g =
 ";
 my $i = 0;
 
-for ( @keys ) {
-# for ( @n ) {
+# for ( @keys ) {
+for ( @n ) {
 	$i++;
 	# push @g, "$i. $_\t$i{$_}\t$p2{$_}\t$i{$p2{$_}}\t$p3{$_}\t$i{$p3{$_}}\n";
 	# push @g, "$_\t$p1{$_}\t$i{$p1{$_}}\t$p2{$_}\t$i{$p2{$_}}\t_______\t_______\n";
