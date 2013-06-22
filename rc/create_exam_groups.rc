@@ -7,7 +7,9 @@ use YAML qw/LoadFile DumpFile Dump/;
 use Cwd;
 use List::Util qw/first/;
 
-my $round = '2.orig';
+my $round = '4';
+my $session = 6;
+my $previous_session = $session-1;
 
 $_REPL->load_plugin('DumpHistory');
 
@@ -21,10 +23,10 @@ my $cl = $g->classwork;
 my %m = map { $_->{id} => $_ } @{ $l->members };
 my $approach = $l->approach;
 
-my $b2 = $cl->beancans(2);
-my $b3  = $cl->beancans(3);
-my $n2 = $cl->names2beancans(2);
-my $n3 = $cl->names2beancans(3);
+my $b2 = $cl->beancans($previous_session);
+my $b3  = $cl->beancans($session);
+my $n2 = $cl->names2beancans($previous_session);
+my $n3 = $cl->names2beancans($session);
 
 my @keys = sort {$a <=> $b} keys %$b2;
 my %group2order = map {
