@@ -96,7 +96,7 @@ my @g =
 %\\newcommand{\\mysignup}[1]{
 %	\\begin{textblock}{16}(#1)
 \\begin{document}
-      $dir League Midterm Exam Groups
+      $dir League Exam $round Groups
 \\begin{tabbing}
 \\hspace{1cm} \\= A  \\hspace{3cm}  \\= B \\hspace{3cm}  \\= C\\\\
 \\> \\> \\> Name: \\hspace{1cm}  \\=ID \\hspace{2cm} \\=Order \\hspace{1cm} \\=CardID\\\\
