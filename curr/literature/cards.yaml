@@ -820,19 +820,19 @@ time:
             - Eloi
             - Morlocks
             - Time Traveler
-          answer: The Eloi
+          answer: Eloi
         - question: B
           option:
             - Eloi
             - Morlocks
             - Time Traveler
-          answer: The Morlocks
+          answer: Morlocks
         - question: C
           option:
             - Eloi
             - Morlocks
             - Time Traveler
-          answer: The Time Traveler
+          answer: Time Traveler
         - question: The Time Traveler: the future is worse.
           answer  : True
         - question: The Eloi eat people.
@@ -923,7 +923,7 @@ anne:
         - question: Anne becomes very drunk.
           answer  : False
         - question: Mrs Barry \& Anne are both upset.
-          answer  : False
+          answer  : True
         - question: Diana is not allowed to meet Anne.
           answer  : True
         - question: Anne apologizes to Mrs Barry.
