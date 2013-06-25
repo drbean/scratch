@@ -153,6 +153,7 @@ entrepreneurship	= [(M,T),(J,N)]
 
 knowledge	= []
 acquaintances	= [(M,J)]
+residents   = [(M,W),(D,W)]
 
 twoPlacers :: [(String, TwoPlacePred)]
 twoPlacers = [
@@ -162,6 +163,7 @@ twoPlacers = [
 			    ++ entrepreneurship ++ map swap entrepreneurship
 	)
     , ("like",	pred2 $ map (\(a,t,r) -> (a,t)) appreciation)
+    , ("resident",	pred2 residents )
 	]
 
 
