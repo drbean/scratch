@@ -25,7 +25,7 @@ nouns = [
 	, [Cat "ceo"	"CN" [Thrd,MascOrFem,Sg] []]
 	, [Cat "ceos"	"CN" [Thrd,MascOrFem,Pl] []]
 	, [Cat "electrical_engineering"	"NP" [Thrd,Neutr,Sg] []]
-	, [Cat "mechanical_engineering"	"NP" [Thrd,Neutr,Pl] []]
+	, [Cat "mechanical_engineering"	"NP" [Thrd,Neutr,Sg] []]
 
 	, [Cat "master's_degree"	"CN" [Thrd,Neutr,Sg] []]
 	, [Cat "phd_degree"	"CN" [Thrd,Neutr,Sg] []]
