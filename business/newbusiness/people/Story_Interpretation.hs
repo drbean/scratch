@@ -34,6 +34,7 @@ relations = [
 	, ( "successful",	\[x] -> predid1 "successful" x	)
 	, ( "unsuccessful",	\[x] -> predid1 "unsuccessful" x	)
 	, ( "like",	\[x,y]	-> predid2 "like" y x	)
+	, ( "resident",	\[x,y]	-> predid2 "resident" y x	)
 	, ( "born", \args -> case args of 
 		[x,y,z,w] -> predid4 "born" w z y x
 		[x,y,z] -> (forgetful4 . predid4) "born" z y x
