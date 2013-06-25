@@ -19,15 +19,21 @@
 }
 
 \newcommand{\myAcontent}[0]{
+\begin{description}
 <TMPL>$A</TMPL>
+\end{description}
 }
 
 \newcommand{\myBcontent}[0]{
+\begin{description}
 <TMPL>$B</TMPL>
+\end{description}
 }
 
 \newcommand{\myCcontent}[0]{
+\begin{description}
 <TMPL>$C</TMPL>
+\end{description}
 }
 
 % \newcommand{\myDcontent}[0]{
@@ -37,8 +43,9 @@
 % }
 
 \newcommand{\mycard}[5]{%
-	\vspace{0.1cm}
+	\vspace{0.3cm}
 	\small #1 #2
+	\vspace{-0.2cm}
 	\par
 	\parbox[t][6.7cm][c]{9.5cm}{%
 	\hspace{0.1cm} \Large#3\\
