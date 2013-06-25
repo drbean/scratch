@@ -4,29 +4,47 @@ import LogicalForm
 import Parsing
 
 birth	= [
-	"Was Jensen Huang born in 1963?"
-	, "Jensen Huang was born in 1963."
-	, "Jensen Huang was born in Taiwan."
-	, "Jensen Huang was born in Taiwan in 1963."
+	"Jensen Huang was born in Taiwan."
+	, "Jensen Huang wasn't born in Taiwan."
+	, "Was Jensen Huang born in Taiwan?"
+	, "Wasn't Jensen Huang born in Taiwan?"
+	-- , "Was Jensen Huang born in 1963?"
+	-- , "Jensen Huang was born in 1963."
+	-- , "Jensen Huang was born in Taiwan in 1963."
 	, "Jensen Huang born in 1963."
-	, "Did Jensen Huang born in China?"
+	, "Did Jensen Huang born in Taiwan?"
+	, "Jensen Huang didn't born in Taiwan."
 	]
 
 birth_wh	= [
 	"When was Jensen Huang born?"
-	, "Where was Jensen Huang born?"
 	, "Who was born in 1963?"
+	, "Who wasn't born in 1931?"
+	-- , "Where was Jensen Huang born?"
+	]
+
+birth_tag	= [
+	"Jensen Huang was born in Taiwan, wasn't he?"
+	, "Jensen Huang wasn't born in Taiwan, was he?"
+	-- , "Jensen Huang wasn't born in Taiwan, was Jensen Huang?"
+	-- "Jensen Huang was born in Taiwan in 1963, wasn't he?"
 	]
 
 passive_whs	= birth_wh ++ starts_wh
 
+passive_parse	=  map ( birth_wh !! ) [0,2] ++ map ( birth !! ) [1,2] ++ map ( birth_tag !! ) [0,2]
+	
+-- passive_trans	=  (handler transWH $ map ( birth_wh !! ) [0,2]) ++ (handler transTXT $ map ( birth !! ) [1,2]) ++ (handler transTAG $ map ( birth_tag !! ) [0,2])
+	
 haves =	[
 	"Did Jensen Huang have a company?"
 	, "Did Jensen Huang have a master's degree?"
+	, "Did Jensen Huang have a master's degree in electrical engineering?"
 	, "Jensen Huang had a master's degree?"
 	]
 have_whs = [
-	"Who had a master's degree?"
+	"Who had a master's degree in electrical engineering?"
+	, "Who had a master's degree in mechanical engineering?"
 	, "Who had a PhD degree?"
 	, "Who had a company?"
 	]
@@ -50,6 +68,8 @@ starts = [
 	, "NVIDIA was started by Jensen Huang in 1993."
 	, "NVIDIA was started in Jensen Huang by 1993."
 	, "NVIDIA was started in 1993 by Jensen Huang."
+	, "NVIDIA wasn't started in 1993 by Jensen Huang."
+	, "Wasn't NVIDIA started in 1993 by Jensen Huang?"
 	]
 
 comp_wh = [
@@ -57,8 +77,13 @@ comp_wh = [
 	]
 
 comp_tests = [
-	"Dr Bean was an teacher."
-	, "Dr Bean was an ceo"
+	"Dr Bean was an ceo"
+	, "Was Morris Chang a CEO?"
+	, "Was Morris Chang TSMC's CEO?"
+	, "Was Morris Chang a CEO of TSMC?"
+	, "Was Morris Chang the CEO of TSMC?"
+	, "Dr Bean was an teacher."
+	, "Dr Bean was a teacher in Taiwan."
 	, "Dr Bean was a person."
 	, "Dr Bean wasn't an person."
 	, "Morris Chang wasn't a person."
@@ -66,7 +91,6 @@ comp_tests = [
 	, "Wasn't Morris Chang a person?"
 	, "Wasn't NVIDIA a person?"
 	, "Wasn't Jensen Huang a teacher"
-	, "Was Morris Chang a CEO?"
 	]
 
 relatives = [
