@@ -60,8 +60,8 @@ ingredients:
     B: The financial requirements of a language school are mainly salaries for teachers and administrative staff and rent for an office and classrooms. A bank loan to cover these for 1-2 months would not be difficult for someone with credit with a bank. Dr Bean is not worried about his ability to get a loan.
     C: Dr Bean's innovation is his determination, flexibility, intelligence, innovative teaching techniques, friendliness, easygoing nature, knowledge of languages, understanding of psychology, business understanding, wide cultural knowledge of the West and Japan, Korea and Taiwan, wide life experience, his university degrees, and his preparedness for hardwork and hardship.
     D: Dr Bean's team is minimal. He has his wife, who is Japanese, and who has does not have much business sense. He is good at saving money, but not at using cashflow to drive the business. He is also not very good at making people enthusiastic about what he is enthusiastic about. He is experienced at teaching English, and interacting with customers, but not at setting up and running a new business. He also doesn't have many contacts with other teachers or Taiwanese people in general.
-  11:
-    identifier:  Dr Bean's language school 11
+  111:
+    identifier:  Dr Bean's language school 111
     A: In Taiwan, many people do not know English but want to learn it. Many parents also want their children to learn English. Any school which can show that it has a new or improved solution to language learning, like Dr Bean, can make a lot of money.
     B: Dr Bean is uncomfortable with the idea of borrowing money to set up a school. He is not confident of success. He doesn't think people with money will be enthusiastic about his school. He doesn't have any contacts in the finance industry.
     C: Dr Bean's innovation is his understanding that a little stress is exciting but a lot of stress is bad. He is able to control the stress learners feel and this helps them learn. When students study with Dr Bean, they learn a lot faster.
@@ -262,7 +262,7 @@ ingredients:
       \item [Market opportunity] Many ``fabless'' companies had designed new chips.
       \item [Financial strategy] The Taiwan government really wanted a Taiwanese semiconductor company.
     B: |
-      \item [Innovation] His idea was to provide the same service in Taiwan.
+      \item [Innovation] His idea was to provide the same chip manufacturing service in Taiwan.
       \item [Team] Chang got to know 曾繁城 at the 工業技術研究院.
       \item [Market opportunity] The company had a market opportunity.
       \item [Financial strategy] Philips was a willing investor, but the government had to force some businessmen to invest.
@@ -285,18 +285,18 @@ ingredients:
   6:
     identifier: ingredients 6
     A: |
-      \item [Innovation] NVIDIA designed a chip that wasn't very different.
+      \item [Innovation] NVIDIA's sound chip wasn't different from other companies' sound chips.
       \item [Team] The team was good.
       \item [Market opportunity] They developed a cheap chip that used little memory.
       \item [Financial strategy] They decided to take a chance with the money that remained.
     B: |
       \item [Innovation] It was not possible to make design of sound chips 
-      \item [Team] The team had contacts who could help them.
+      \item [Team] The 3 engineers had experience designing sound chips.
       \item [Market opportunity] Memory suddenly became very cheap.
       \item [Financial strategy] Venture capitalists gave them enough money to last 2 years.
     C: |
       \item [Innovation] The idea was to develop sound chips.
-      \item [Team] The 3 engineers had experience designing chips.
+      \item [Team] The team had contacts who could help them.
       \item [Market opportunity] Other newer companies had built better chips using more memory.
       \item [Financial strategy] The financial strategy was good.
     quiz:
@@ -309,6 +309,146 @@ ingredients:
       - question: The financial strategy was good.
         answer: True
       - question: The company was headed for success.
+        answer: False
+  7:
+    identifier: ingredients 7
+    A: |
+      \item [Innovation] NVIDIA's chip didn't use much memory, which was expensive.
+      \item [Team] The 3 engineers had experience designing chips.
+      \item [Market opportunity] The company had a market opportunity.
+      \item [Financial strategy] Huang assumed the cost of memory would not change.
+    B: |
+      \item [Innovation] The product was innovative.
+      \item [Team] The team had contacts who helped them get money.
+      \item [Market opportunity] Many people wanted graphics cards.
+      \item [Financial strategy] Memory suddenly became very cheap, changing the market for graphics chips.
+    C: |
+      \item [Innovation] The idea was to use less memory so the video card was cheap.
+      \item [Team] The team was good.
+      \item [Market opportunity] NVIDIA was the first company to build cheap graphics chips, but many followed.
+      \item [Financial strategy] They only had a little money left to develop a chip for the new market.
+    quiz:
+      - question: The product was innovative.
+        answer: True
+      - question: The team was good.
+        answer: True
+      - question: The company had a market opportunity.
+        answer: True
+      - question: The financial strategy was good.
+        answer: False
+      - question: The company was headed for success.
+        answer: False
+  8:
+    identifier: ingredients 8
+    A: |
+      \item [Innovation] The idea was innovative.
+      \item [Team] Taiwanese engineers in the US came home to work for TSMC.
+      \item [Market opportunity] Chang hoped small companies would ask TSMC to make chips.
+      \item [Financial strategy] The Taiwan government wanted Chang to start TSMC.
+    B: |
+      \item [Innovation] His idea was to provide the same service in Taiwan.
+      \item [Team] The team was good.
+      \item [Market opportunity] Few small companies asked TSMC to make chips.
+      \item [Financial strategy] The Taiwanese government raised money to start TSMC.
+    C: |
+      \item [Innovation] Chang's company had made other companies' chips in the US.
+      \item [Team] It was easy for Chang to find good workers.
+      \item [Market opportunity] Big companies asked TSMC to make a few chips.
+      \item [Financial strategy] The financial strategy was good.
+    quiz:
+      - question: The product was innovative.
+        answer: True
+      - question: The team was good.
+        answer: True
+      - question: The company had a market opportunity.
+        answer: False
+      - question: The financial strategy was good.
+        answer: True
+      - question: The company was headed for success.
+        answer: False
+  9:
+    identifier: ingredients 9
+    A: |
+      \item [Innovation] The idea was innovative.
+      \item [Team] Taiwanese engineers in the US came home to work for TSMC.
+      \item [Market opportunity] Chang hoped small companies would ask TSMC to make chips.
+      \item [Financial strategy] The Taiwan government wanted Chang to start TSMC.
+    B: |
+      \item [Innovation] Chang's company had made other companies' chips in the US.
+      \item [Team] Everyone wanted to work at TSMC \& Chang chose the best of them.
+      \item [Market opportunity] Big companies asked TSMC to make some chips.
+      \item [Financial strategy] The financial strategy was good.
+    C: |
+      \item [Innovation] His idea was to make other companies' chips in Taiwan.
+      \item [Team] Tseng is TSMC vice-chairman. He \& Chang were co-founders in 1987.
+      \item [Market opportunity] The company had a market opportunity.
+      \item [Financial strategy] The Taiwanese government raised money to start TSMC.
+    quiz:
+      - question: The product was innovative.
+        answer: True
+      - question: The team was good.
+        answer: True
+      - question: The company had a market opportunity.
+        answer: True
+      - question: The financial strategy was good.
+        answer: True
+      - question: The company was headed for success.
+        answer: True
+  10:
+    identifier: ingredients 10
+    A: |
+      \item [Innovation] The idea was innovative.
+      \item [Team] Chang is older \& not Taiwan-born. He is isolated from his managers.
+      \item [Market opportunity] Chang thought TSMC could help small companies.
+      \item [Financial strategy] The government wanted Chang to start the company.
+    B: |
+      \item [Innovation] Chang had provided a chip manufacturing service in the U.S.
+      \item [Team] Often managers do not tell Chang what they really think.
+      \item [Market opportunity] Big companies asked TSMC to make some chips.
+      \item [Financial strategy] The financial strategy was good.
+    C: |
+      \item [Innovation] Chang thought of a chip manufacturing service in Taiwan.
+      \item [Team] The top managers fight to be No 2 man and CEO after Chang goes.
+      \item [Market opportunity] The company had a market opportunity.
+      \item [Financial strategy] The Taiwanese government raised money to start TSMC.
+    quiz:
+      - question: The product was innovative.
+        answer: True
+      - question: The team was good.
+        answer: False
+      - question: The company had a market opportunity.
+        answer: True
+      - question: The financial strategy was good.
+        answer: True
+      - question: The company was headed for success.
+        answer: False
+  11:
+    identifier: ingredients 11
+    A: |
+      \item [Innovation] TSMC has adopted a new technology developed by Intel.
+      \item [Team] TSMC managers feel close to the company.
+      \item [Market opportunity] The company has a market opportunity.
+      \item [Financial strategy] Semiconductor manufacturing is very expensive.
+    B: |
+      \item [Innovation] TSMC spends a lot of money on new plants but less on research.
+      \item [Team] TSMC managers give up their own time to work for the company.
+      \item [Market opportunity] Apple and Samsung buy TSMC chips.
+      \item [Financial strategy] The financial strategy is good.
+    C: |
+      \item [Innovation] TSMC is dependent on other companies for new technology.
+      \item [Team] The team is good.
+      \item [Market opportunity] TSMC chips are being used more and more.
+      \item [Financial strategy] TSMC sales were up 18.5\% last year.
+    quiz:
+      - question: The product is innovative.
+        answer: False
+      - question: The team is good.
+        answer: True
+      - question: The company has a market opportunity.
+        answer: True
+      - question: The financial strategy is good.
+        answer: True
+      - question: The company is headed for success.
         answer: False
 
  compcomp:
