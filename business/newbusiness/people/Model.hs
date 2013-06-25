@@ -57,6 +57,8 @@ characters = [
 	, ( "1993",	I )
 	, ( "taiwan",	W )
 	, ( "china",	C )
+	, ( "stanford_university",	U )
+	, ( "mit",	V )
 
 	]
 
