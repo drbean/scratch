@@ -26,6 +26,7 @@ birth_wh	= [
 birth_tag	= [
 	"Jensen Huang was born in Taiwan, wasn't he?"
 	, "Jensen Huang wasn't born in Taiwan, was he?"
+	, "Jensen Huang was born in Stanford University, wasn't he?"
 	-- , "Jensen Huang wasn't born in Taiwan, was Jensen Huang?"
 	-- "Jensen Huang was born in Taiwan in 1963, wasn't he?"
 	]
