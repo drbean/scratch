@@ -41,6 +41,7 @@ haves =	[
 	"Did Jensen Huang have a company?"
 	, "Did Jensen Huang have a master's degree?"
 	, "Did Jensen Huang have a master's degree in electrical engineering?"
+	, "Did Jensen Huang have a master's degree in mechanical engineering?"
 	, "Jensen Huang had a master's degree?"
 	]
 have_whs = [
