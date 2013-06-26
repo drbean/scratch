@@ -298,7 +298,7 @@ transCN (Branch (Cat _    "RCN" _ _) [cn,rel]) = case (rel) of
 	\x -> Conj [transCN cn x, transNP np (\patient -> Rel "had" [x, patient])]
     (Branch (Cat _ "MOD" _ _) [Branch (Cat _ "PP" _ _)
 	[Leaf (Cat "in" "PREP" [In] _),np]]) -> 
-	\x -> Conj [transCN cn x, transNP np (\location -> Rel "resident" [x, location])]
+	\x -> Conj [transCN cn x, transNP np (\field -> Rel "kind" [x, field])]
     _ ->	\ x -> Conj [transCN cn x, transREL rel x]
 
 transREL :: ParseTree Cat Cat -> Term -> LF
