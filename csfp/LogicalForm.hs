@@ -371,6 +371,7 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ _),
     Branch (Cat "_" "COMP" [] []) [comp]]) = case (catLabel (t2c comp)) of
 	"ADJ" -> \subj -> (Rel (phon (t2c comp)) [subj] )
 	"NP" -> \subj -> (transNP comp (\pred -> Eq pred subj ))
+	"PP" -> \subj -> transPP comp (\place -> Rel "resident" [subj,place])
 	--Leaf (Cat name "NP" _ _ ) -> \t -> (Rel name [t] )
 	--Branch (Cat _ "NP" _ _) [det,cn] -> case (cn) of
 	--    Leaf (Cat name "CN" _ _) -> \t -> Rel name [t]
