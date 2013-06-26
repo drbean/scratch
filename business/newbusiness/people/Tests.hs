@@ -42,6 +42,9 @@ haves =	[
 	, "Did Jensen Huang have a master's degree?"
 	, "Did Jensen Huang have a master's degree in electrical engineering?"
 	, "Did Jensen Huang have a master's degree in mechanical engineering?"
+	, "Did Morris Chang have a master's degree in mechanical engineering?"
+	, "Did Morris Chang have a PhD degree in mechanical engineering?"
+	, "Did Morris Chang have a PhD degree in electrical engineering?"
 	, "Jensen Huang had a master's degree?"
 	]
 have_whs = [
