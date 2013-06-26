@@ -9,6 +9,8 @@ objects = [
 	, ( "company",	\[x]	-> predid1 "company" x	)
 	, ( "master's_degree",	\[x]	-> predid1 "master's_degree" x	)
 	, ( "phd_degree",	\[x]	-> predid1 "phd_degree" x	)
+	, ( "electrical_engineering",	\[x]	-> predid1 "electrical_engineering" x)
+	, ( "mechanical_engineering",	\[x]	-> predid1 "mechanical_engineering" x)
 
 
 	
@@ -35,6 +37,12 @@ relations = [
 	, ( "unsuccessful",	\[x] -> predid1 "unsuccessful" x	)
 	, ( "like",	\[x,y]	-> predid2 "like" y x	)
 	, ( "resident",	\[x,y]	-> predid2 "resident" y x	)
+	, ( "kind",	\[x,y]	-> predid2 "kind" y x	)
+	, ( "held", \args -> case args of 
+		[x,y,z,w] -> predid4 "held" w z y x
+		[x,y,z] -> (forgetful4 . predid4) "held" z y x
+		[x,y] -> (forgetful3 .forgetful4 . predid4) "held" y x
+		)
 	, ( "born", \args -> case args of 
 		[x,y,z,w] -> predid4 "born" w z y x
 		[x,y,z] -> (forgetful4 . predid4) "born" z y x
