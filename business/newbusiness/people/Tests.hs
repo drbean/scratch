@@ -84,6 +84,7 @@ comp_tests = [
 	, "Was Morris Chang a CEO of TSMC?"
 	, "Was Morris Chang the CEO of TSMC?"
 	, "Dr Bean was an teacher."
+	, "Dr Bean was in Taiwan."
 	, "Dr Bean was a teacher in Taiwan."
 	, "Dr Bean was a person."
 	, "Dr Bean wasn't an person."
