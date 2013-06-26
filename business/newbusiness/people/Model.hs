@@ -167,7 +167,7 @@ twoPlacers = [
 	)
     , ("like",	pred2 $ map (\(a,t,r) -> (a,t)) appreciation)
     , ("resident",	pred2 residents )
-    , ("kind",	pred2 $ map ( \(_,_,subject,student,degree) -> ((student,degree),subject ) )
+    , ("kind",	pred2 $ map ( \(_,_,subject,student,degree) -> (degree,subject ) )
 		    schooling)
 	]
 
@@ -208,7 +208,7 @@ talked	= pred2 $ map (\x->(agent4 x, recipient4 x) ) comms
 talk_about = pred3 $ map (\x->(agent4 x, recipient4 x, theme4 x) ) comms
 
 -- (teacher,school(location),subject,student,degree)
-schooling   = [(Unspec,U,E,J,O),(Unspec,V,H,M,O),(Unspec,U,E,M,P)]
+schooling   = [(Unspec,U,E,J,O),(Unspec,V,H,M,Q),(Unspec,U,E,M,P)]
 recite = pred2 $ map ( \x -> (agent4 x, theme4 x) ) comms
 giving	= map (\(a,t,p,_) -> (a,t,p) ) services
 -- (speaker,content,listener,mode)
