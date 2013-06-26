@@ -30,9 +30,9 @@ entity_check =  [
     , (L, "" )
     , (M, "morris_chang" )
     , (N, "nvidia" )
-    , (O, "master's_degree" )
-    , (P, "phd_degree" )
-    , (Q, "" )
+    , (O, "jensen's_master's_degree" )
+    , (P, "morris's_phd_degree" )
+    , (Q, "morris's_master's_degree" )
     , (R, "" )
     , (S, "student" )
     , (T, "tsmc" )
@@ -118,8 +118,11 @@ onePlacers = [
 	, ("successful",	pred1 [M,J,N,T])
 	, ("unsuccessful",	pred1 [D])
 
-	, ("master's_degree",	pred1 [O])
+	, ("master's_degree",	pred1 [O,Q])
 	, ("phd_degree",	pred1 [P])
+
+	, ("electrical_engineering",	pred1 [E])
+	, ("mechanical_engineering",	pred1 [H])
 	]
 
 type OnePlacePred	= Entity -> Bool
@@ -164,6 +167,8 @@ twoPlacers = [
 	)
     , ("like",	pred2 $ map (\(a,t,r) -> (a,t)) appreciation)
     , ("resident",	pred2 residents )
+    , ("kind",	pred2 $ map ( \(_,_,subject,student,degree) -> ((student,degree),subject ) )
+		    schooling)
 	]
 
 
@@ -220,6 +225,8 @@ fourPlacers = [
     ("born",	pred4 $ foldl (\cc (a,r,l,t) -> (a,r,l,t): (a,r,t,l): cc) [] births)
     , ("started",	pred4 $ foldl (\cc (a,r,l,t) -> (a,r,l,t): (a,r,t,l): cc) []
 	    startups)
+    , ("held", pred4 $ map (\(_,school,subject,student,degree) ->
+				(student,degree,subject,school) ) schooling )
 	
 	]
 
