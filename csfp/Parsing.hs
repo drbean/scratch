@@ -591,7 +591,9 @@ prsVP :: SPARSER Cat Cat
 prsVP = finVpR <||> auxVpR <||> copR
 
 copR :: SPARSER Cat Cat
-copR = \us xs -> [(Branch (Cat "_" "VP" (fs (t2c cop)) []) [cop,Branch (Cat "_" "COMP" [] []) [comp]],ws,zs) |
+copR = cop1R <||> cop2R
+
+cop1R = \us xs -> [(Branch (Cat "_" "VP" (fs (t2c cop)) []) [cop,Branch (Cat "_" "COMP" [] []) [comp]],ws,zs) |
 	(cop,vs,ys)  <- prsCOP us xs,
 	tag          <- [Cat (phon (t2c cop)) (catLabel(t2c cop)) (balancefs cop) [] ],
 	(comp,ws,zs) <- case us of
@@ -601,11 +603,28 @@ copR = \us xs -> [(Branch (Cat "_" "VP" (fs (t2c cop)) []) [cop,Branch (Cat "_" 
 	match subcatlist [t2c comp]
 		]
 
+cop2R = \us xs -> [(Branch (Cat "_" "VP" (fs (t2c cop)) []) [cop,Branch (Cat "_" "COMP" [] []) [comp1,comp2]],ps,qs) |
+	(cop,vs,ys)  <- prsCOP us xs,
+	tag          <- [Cat (phon (t2c cop)) (catLabel(t2c cop)) (balancefs cop) [] ],
+	(comp1,ws,zs) <- case us of
+		[Cat _ "NP" _ _] -> push tag prsCOMP vs ys
+		otherwise -> prsCOMP vs ys,
+	subcatlist   <- [subcatList (t2c cop)],
+	match subcatlist [t2c comp1],
+	(comp2,ps,qs)	<- prsCOMP ws zs
+		]
+
 prsCOP :: SPARSER Cat Cat
 prsCOP = leafPS "COP" <||> pop "COP"
 
 prsCOMP :: SPARSER Cat Cat
-prsCOMP = prsNP <||> prsADJ <||> prsPP
+prsCOMP = prsNP <||> prsADJ <||> prsPP -- <||> nPandPPR
+
+--nPandPPR :: SPARSER Cat Cat
+--nPandPPR = \us xs ->
+-- [(Branch (Cat "_" "COMP" [no]) [],ws,zs) |
+--    (np,vs,ys) <- prsNP us xs,
+--    (pp,ws,zs) <- prsPP vs ys ]
 
 vpR :: SPARSER Cat Cat
 vpR = vp0R <||> vp1R <||> vp2R <||> vp3R <||> infinR1 <||> infinR2
