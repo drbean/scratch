@@ -17,13 +17,13 @@ my $l = League->new( leagues => "/home/drbean/$semester", id => $dir );
 my $g = Grades->new({ league => $l });
 my $c = $l->yaml;
 my %m = map { $_->{id} => $_ } @{ $l->members };
-my $io = io("../../admin/must/$semester/$dir.txt");
+my $io = io("../../admin/$semester/must/$dir.txt");
 my @members;
 my @lines = $io->slurp;
 for my $line ( @lines ) {
 	my $dline = decode( 'UTF-8', $line);
 	chomp $dline;
-	my ($id, $name, $other) = split ' ', $dline; 
+	my ($n, $id, $name, $other) = split ' ', $dline; 
 	push @members, {
 		id => $id,
 		Chinese => $name,
