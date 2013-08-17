@@ -11,7 +11,7 @@ $_REPL->load_plugin('DumpHistory');
 
 (my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
 use Grades;
-my $l = League->new( leagues => '/home/drbean/012', id => $dir );
+my $l = League->new( leagues => '/home/drbean/021', id => $dir );
 my $g = Grades->new({ league => $l });
 my %m = map { $_->{id} => $_ } @{ $l->members };
 my $approach = $l->approach;
