@@ -1,25 +1,25 @@
 ---
-id: literature
-title: Selected Readings in Fiction
+id: multimedia
+title: Computer and Multimedia-Assisted Language Teaching
 blurb: |+
          <p>
-         我的英語閱讀花園 is about 16 famous books. You can find those original books on <a href="http://www.gutenberg.org">www.gutenberg.org</a>. For homework we will listen to movies and cartoons made about those books, and copy down the words.
+         This course is about using the computer and multimedia to learn English.
          <br>
-         Dr Bean thinks dictation is a very important activity 
+         Dr Bean thinks when we talk about the computer and multimedia we can talk indirectly about learning, something which is difficult to do directly.
          </p>
 
 topic:
   -
-    id: ancient
-    title: Pre-19th century classics
-    intro: These books were written, or are about events, more than 200 years ago.
+    id: course
+    title: Using the computer/multimedia to learn English
+    intro: The course is divided into 4 sections, dealing with: dictation, flash cards, videos, grammar parsing.
     story:
       -
-        id: robin-hood
-        title: Robin Hood and his Merry Men
+        id: courseintro
+        title: Dr Bean introduces Computers/Multimedia course
         blurb: |
-          Robin Hood was an outlaw living in a forest. He robbed from the rich and gave to the poor. He also was very good with a bow and arrow.
-        comment: Although early songs were written about Robin Hood, books were not written until later. Read Howard Pyle's <a href="http://www.gutenberg.org/ebooks/964">The Adventures of Robin Hood</a>, written at the end of the 19th century.
+                Dr Bean is excited about teaching this course because he has been trying to use the computer in his classes. Listen to him <a href="http://www.youtube.com/watch?v=_4tLVLiww1U">introduce the course on Youtube</a>
+        comment: Dr Bean is going to ask you to upload a video like this later in the course.
       -
         id: disney-robin
         title: Walt Disney's Robin Hood
@@ -53,8 +53,9 @@ topic:
         comment: |
           The book and movie versions that have been published since have tried to make the story more interesting by adding events and characters. The <a href="http://www.imdb.com/title/tt0222519/episodes">made-for-TV version</a> we see here has different characters and stories. Listen to clips from <a href="http://www.youtube.com/watch?v=hJ8Q86OVZoc">Episodes 1-3</a> and <a href="http://www.youtube.com/watch?v=EDFCBG7n_Xw">Episodes 4-6</a>.
   -
-    id: 19th
-    title: 19th century classics
+  -
+    id: dictation
+    title: Dictation on the computer
     intro: These books were written between 200 and 100 years ago.
     story:
       -
