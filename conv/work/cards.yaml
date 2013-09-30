@@ -379,6 +379,11 @@ pestcontroller:
         - question: A and B are not happy.
 dickson:
   jigsaw:
+    00:
+      identifier: dickson 00
+      A: You come from Biloxi and you work for a shipbuilding company there. You are almost 60 and a manager. Sometimes your family asks you to help them get work. Your nephew, Bruce, asks you to let his daughter become an apprentice electrician at the shipyard. You get Dee the job even though she is a woman.
+      B: Your daughter, Dee married and had two sons when she was 19, but the marriage broke up after 3 years and she needs to find a good job to support her family. She tells you about the interview. 
+      C: You tell your dad, who is in his mid-forties, that the shipyard didn't accept you. He tells you that he can talk to his Uncle Alf, who is a superintendent there. You don't want him to do that. You want to get the job on your own merits.
     0:
       identifier: dickson 0
       A: You come from Biloxi and you work for a shipbuilding company there. You are almost 60 and a manager. Sometimes your family asks you to help them get work. Your nephew, Bruce, asks you to let his daughter become an apprentice electrician at the shipyard.
