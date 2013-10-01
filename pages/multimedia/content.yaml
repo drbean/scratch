@@ -20,6 +20,17 @@ topic:
         blurb: |
                 Dr Bean is excited about teaching this course because he has been trying to use the computer in his classes. Listen to him <a href="http://www.youtube.com/watch?v=_4tLVLiww1U">introduce the course on Youtube</a>
         comment: Dr Bean is going to ask you to upload a video like this later in the course.
+  -
+    id: flash
+    title: Using the computer to sequence flash cards
+    intro: Flash cards are/were small cards with a word on one side and the translation on the other. Nowadays the computer is used to space repetition of forgotten words more frequently and remembered words less frequently. <a href="http://en.wikipedia.org/wiki/Flashcard">http://en.wikipedia.org/wiki/Flashcard</a>.
+    story:
+      -
+        id: mnemosyne
+        title: A Mnemosyne user shows how to learn kanji
+        blurb: |
+                Listen to a Mnemosyne user <a href="http://www.youtube.com/watch?v=8p1WDb5f_ro">explain what Mnemosyne is</a> and <a href="http://www.youtube.com/watch?v=WBowB3lpV3k">how to install it on your computer.</a>
+        comment: Dr Bean is going to ask students to try learning with this software and another free, open-source flashcard app, <a href="http://ankisrs.net/">Anki</a>, Week 5-8. So try installing them yourself now.
       -
         id: disney-robin
         title: Walt Disney's Robin Hood
