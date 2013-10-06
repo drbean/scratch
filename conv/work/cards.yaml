@@ -469,6 +469,44 @@ dickson:
           answer: True
         - question: Alf can't help Dee with the job.
           answer: True
+    2:
+      identifier: dickson 2
+      A: You have a daughter, Dee, who needs to get a job, because she is a single parent. You ask your Uncle Jay, a top manager at the shipyard, to help her.
+      B: You apply for a job at a shipyard, but the shipyard doesn't want you, because you are a woman. You don't want your dad, Ian to speak to his uncle, Jay.
+      C: Your nephew, Ian, tells you the shipyard won't give Dee a job. You talk to some people and tell them to give Dee a job even though she is a woman.
+      quiz:
+        - question: A
+          option: 
+           - Dee
+           - Ian
+           - Jay
+          answer: Ian
+        - question: B
+          option:
+           - Dee
+           - Ian
+           - Jay
+          answer: Dee
+        - question: C
+          option:
+           - Dee
+           - Ian
+           - Jay
+          answer: Jay
+        - question: Jay is Ian's uncle.
+          answer: True
+        - question: Dee is Jay's niece.
+          answer: False
+        - question: Dee heads a single-parent family.
+          answer: True
+        - question: The shipyard wants to hire Dee.
+          answer: False
+        - question: Dee wants her dad to speak to Jay.
+          answer: False
+        - question: Ian speaks to Jay about Dee.
+          answer: True
+        - question: Jay helps Dee with the job.
+          answer: True
   compcomp:
     0:
       identifier: dickson 0
@@ -588,6 +626,44 @@ abreu:
           answer: True
         - question: Dead bodies may be named 'John Doe.'
           answer: True
+    2:
+      identifier: abreu 2
+      A: Your company sells computers. You hired Claritza as a receptionist. Her English is OK, but you are worried customers like John Smith won't understand her.
+      B: You are worried that Jane will fire you. You have problems spelling the name of John Smith, a customer. You ask him how to spell his name because you don't know.
+      C: You are John Smith, a customer of Joan's company. You need computers. You talk to Claritza, Jane's receptionist. You are surprised that she can't spell your name.
+      quiz:
+        - question: A
+          option: 
+           - Claritza
+           - Jane
+           - John Smith
+          answer: Jane
+        - question: B
+          option:
+           - Claritza
+           - Jane
+           - John Smith
+          answer: Claritza
+        - question: C
+          option:
+           - Claritza
+           - Jane
+           - John Smith
+          answer: John Smith
+        - question: Jane employs Claritza.
+          answer: True
+        - question: Jane knows Claritza is OK.
+          answer: False
+        - question: John Smith is Jane's customer.
+          answer: True
+        - question: Claritza is confident.
+          answer: False
+        - question: Claritza can spell Smith's name.
+          answer: False
+        - question: Claritza surprises Smith.
+          answer: True
+        - question: Claritza asks how to spell `Smith.'
+          answer: True
   compcomp:
     0:
       identifier: abreu 0
@@ -705,6 +781,44 @@ smallwood:
           answer: True
         - question: Batchelor offended Tia unintentionally.
           answer: True
+    2:
+      identifier: smallwood 2
+      A: You interviewed Tia. You thought she was attractive. You thought it was OK to ask her to stand up and turn around. You were not happy when she said, No.
+      B: You taught business. Tia was the only woman in your class. You gave her a hard time. You didn't sexually harass her like Mr Batchelor did at her interview.
+      C: You studied at an all-male business school. The teacher, Mr Payne was unfair. At the interview, Mr Batchelor offended you and you didn't stand up for him.
+      quiz:
+        - question: A
+          option: 
+           - Batchelor
+           - Payne
+           - Tia
+          answer: Batchelor
+        - question: B
+          option:
+           - Batchelor
+           - Payne
+           - Tia
+          answer: Payne
+        - question: C
+          option:
+           - Batchelor
+           - Payne
+           - Tia
+          answer: Tia
+        - question: Payne taught Tia.
+          answer: True
+        - question: Tia's teacher was friendly.
+          answer: False
+        - question: Payne treated her equally with the men.
+          answer: False
+        - question: Tia was sexually harassed by Payne.
+          answer: False
+        - question: Tia welcomed Batchelor's attention.
+          answer: False
+        - question: Tia was sexually harassed by Batchelor.
+          answer: True
+        - question: Both men offended Tia.
+          answer: True
   compcomp:
     0:
       identifier: smallwood 0
@@ -820,6 +934,44 @@ jackson:
         - question: Queen's daughter wants her to move in.
           answer: True
         - question: Queen wants to live with her family.
+          answer: False
+        - question: The housing Debra found is not permanent.
+          answer: True
+    2:
+      identifier: jackson 2
+      A: Like Ann, you had a good job but lost it and your home. You went to a center for homeless women. Debra, a worker at the center helped you find housing.
+      B: You have a master's degree, but suffer from depression and lost your job and home. You lived in your car for 2 months. Then Debra found housing for you.
+      C: You help homeless women. You helped Queen and Ann, both 60-year-old college graduates who lost their jobs and homes. You found temporary housing for them.
+      quiz:
+        - question: A
+          option: 
+           - Ann
+           - Debra
+           - Queen
+          answer: Queen
+        - question: B
+          option:
+           - Ann
+           - Debra
+           - Queen
+          answer: Ann
+        - question: C
+          option:
+           - Ann
+           - Debra
+           - Queen
+          answer: Debra
+        - question: Ann, Queen were both older, homeless.
+          answer: True
+        - question: None of the three has work.
+          answer: False
+        - question: Debra's job is to find people housing.
+          answer: True
+        - question: Queen lived with Debra's family.
+          answer: False
+        - question: Both women graduated college.
+          answer: True
+        - question: Queen is living in a car.
           answer: False
         - question: The housing Debra found is not permanent.
           answer: True
