@@ -32,6 +32,12 @@ topic:
                 Listen to a Mnemosyne user <a href="http://www.youtube.com/watch?v=8p1WDb5f_ro">explain what Mnemosyne is</a> and <a href="http://www.youtube.com/watch?v=WBowB3lpV3k">how to install it on your computer.</a>
         comment: Dr Bean is going to ask students to try learning with this software and another free, open-source flashcard app, <a href="http://ankisrs.net/">Anki</a>, Week 5-8. So try installing them yourself now.
       -
+        id: anki
+        title: A Mnemosyne user shows how to learn kanji
+        blurb: |
+                Listen to <a href="http://www.youtube.com/user/AnkiSRS?feature=watch">Anki's developer</a> describe how to <a href="http://www.youtube.com/watch?v=QS2G-k2hQyg">use Anki to study</a>. The procedure with Mnemosyne is very similar.
+        comment: Dr Bean is going to ask students to upload flashcard decks to the <a href="https://ankiweb.net/shared/decks/">Anki shared deck web site</a> and <a href="http://mnemosyne-proj.org/card-sets">Mnemosyne card set web site</a>,  Week 5-8. So try installing <a href="http://mnemosyne-proj.org">Mnemosyne</a> and <a href="http://ankisrs.net/">Anki</a> now.
+      -
         id: disney-robin
         title: Walt Disney's Robin Hood
         blurb: |
