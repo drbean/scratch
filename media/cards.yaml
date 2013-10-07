@@ -74,6 +74,44 @@ hacking:
           answer  : True
         - question: The girlfriend was mad at Harry.
           answer  : True
+    1:
+      identifier: hacking 1
+      A: You were able to stop a police investigation of phone hacking. Filkin tries to find out what happened. People are angry. Someone throws something at you.
+      B: You find out some police were taking money from newspapers. You don't know (but Deng knows) that Murdoch was giving the money to the police.
+      C: You are married to Murdoch. He tells you that he was able to stop the investigation by giving police money. When someone attacks him, you hit back.
+      quiz:
+        - question: A
+          option:
+            - Deng
+            - Filkin
+            - Murdoch
+          answer: Murdoch
+        - question: B
+          option:
+            - Deng
+            - Filkin
+            - Murdoch
+          answer: Filkin
+        - question: C
+          option:
+            - Deng
+            - Filkin
+            - Murdoch
+          answer: Deng
+        - question: Murdoch's newspaper was hacking phones.
+          answer  : True
+        - question: Filkin wanted to find out what happened.
+          answer  : True
+        - question: Filkin knows Murdoch gave money to police.
+          answer  : False
+        - question: Deng didn't know Murdoch gave money to police.
+          answer  : False
+        - question: The truth about the hacking was found out.
+          answer  : False
+        - question: Deng supported Murdoch.
+          answer  : True
+        - question: Deng attacked Murdoch's attacker.
+          answer  : True
 illegals:
   jigsaw:
     0:
@@ -109,6 +147,44 @@ illegals:
         - question: O'Reilly \& Rivera share a program.
           answer  : False
         - question: Rivera thinks Fox is creating anger with illegal aliens.
+          answer  : True
+        - question: Rivera criticizes O'Reilly's reporting.
+          answer  : True
+        - question: Rivera doesn't want Ramos punished.
+          answer  : False
+    1:
+      identifier: illegals 1
+      A: You are an illegal alien. You ran over a woman and killed her. Before, you had been arrested 3 times for drunk driving. The judge jails you for 24 years, in the US.
+      B: You present the accident as an illegal alien story. You want Ramos deported. You like Rivera, but you get mad at him, because he says you are a bad news presenter.
+      C: You like O'Reilly, but he makes you mad by trying to create anger at illegal aliens, a controversial topic. You think Ramos should be punished, but not deported.
+      quiz:
+        - question: A
+          option:
+            - O'Reilly
+            - Ramos
+            - Rivera
+          answer: Ramos
+        - question: B
+          option:
+            - O'Reilly
+            - Ramos
+            - Rivera
+          answer: O'Reilly
+        - question: C
+          option:
+            - O'Reilly
+            - Ramos
+            - Rivera
+          answer: Rivera
+        - question: Rivera and O'Reilly dislike each other.
+          answer  : False
+        - question: Ramos was deported by the judge.
+          answer  : False
+        - question: O'Reilly wanted Ramos deported.
+          answer  : True
+        - question: O'Reilly \& Rivera disagree over what the story is about.
+          answer  : False
+        - question: Rivera thinks O'Reilly is creating anger with illegal aliens.
           answer  : True
         - question: Rivera criticizes O'Reilly's reporting.
           answer  : True
@@ -316,9 +392,9 @@ espn:
   jigsaw:
     0:
       identifier: espn 0
-      A: You started playing for the Houston Rockets. Torre asks you if you know whether Harden gets upset playing video games.
+      A: You have just started playing for the Houston Rockets. Torre asks you if you know whether Harden gets upset playing video games.
       B: You test Lin and Harden's knowledge of each other. You ask Lin about Harden and video games. You ask Harden about Lin and slam dunking.
-      C: You started playing for the Houston Rockets. Torre asks you if you know whether Lin could slam dunk in high school.
+      C: You have just started playing for the Houston Rockets. Torre asks you if you know whether Lin could slam dunk in high school.
       quiz:
         - question: A
           option:
