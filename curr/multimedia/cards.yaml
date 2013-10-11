@@ -48,13 +48,51 @@ roles:
           answer  : False
         - question: Consumers can become critics and producers.
           answer  : True
+    1:
+      identifier: roles 1
+      A: You downloaded a deck of flashcards and are using them with Anki or Mnemosyne to learn English. Your role is: ??
+      B: You tried using Anki and Mnemosyne and you prefer one of them. You tell others why you prefer that one. Your role is: ??
+      c: You uploaded a deck of flashcards to the Anki or Mnemosyne website for other to use to learn. Your role is: ??
+      quiz:
+        - question: A
+          option:
+            - consumer
+            - critic
+            - producer
+          answer: consumer
+        - question: B
+          option:
+            - consumer
+            - critic
+            - producer
+          answer: critic
+        - question: C
+          option:
+            - consumer
+            - critic
+            - producer
+          answer: producer
+        - question: All 3 work with flashcards, but take 3 different roles.
+          answer  : True
+        - question: Producers and critics of the software probably have more experience.
+          answer  : True
+        - question: It's probably easier using flashcards to learn than uploading new decks.
+          answer  : False
+        - question: Someone who learned with his/her own deck might want to upload it for others.
+          answer  : True
+        - question: Uploading cards to the Anki/Mnemosyne website is not useful.
+          answer  : False
+        - question: It's probably better to download cards than produce your own cards.
+          answer  : False
+        - question: It's easier to download cards than produce your own cards.
+          answer  : True
 sessions:
   jigsaw:
     0:
       identifier: sessions 0
       A: You are creating a video and will place it on the Internet, so other students can learn from it.
       B: You are listening to a soundfile and writing it down so other students can listen to it and write it down.
-      C: You are looking at sentences and deciding what their different structures are and how to describe them.
+      C: You are looking at sentence structures and deciding how other students can make sentences with them.
       quiz:
         - question: A
           option:
@@ -82,9 +120,47 @@ sessions:
           answer  : True
         - question: B must have a computer to listen and write.
           answer  : False
-        - question: Critics can help producers make decisions.
-          answer  : True
-        - question: Producers can use other producers' dictations.
+        - question: C should not take sentences from A or B's work.
           answer  : False
-        - question: Consumers can become critics and producers.
+        - question: A's work is harder than B and C's work.
+          answer  : False
+        - question: A, B and C will learn English while helping others to learn.
+          answer  : True
+    1:
+      identifier: sessions 1
+      A: You are trying to write a sentence with a sentence structure which another student gave you.
+      B: You are using Anki with material downloaded from the Internet to learn new English words.
+      C: You listen to a soundfile/CD/tape, write it down and compare your answers with a transcript.
+      quiz:
+        - question: A
+          option:
+            - dictation
+            - flashcards
+            - grammar
+          answer: grammar
+        - question: B
+          option:
+            - dictation
+            - flashcards
+            - grammar
+          answer: flashcards
+        - question: C
+          option:
+            - dictation
+            - flashcards
+            - grammar
+          answer: dictation
+        - question: A, B, and C are all taking the role of critic.
+          answer  : False
+        - question: A's sentences could come from C's transcript.
+          answer  : True
+        - question: B probably uses example sentences to learn the words.
+          answer  : False
+        - question: Only B must have a computer to do his/her work.
+          answer  : True
+        - question: A's sentence structure might come from C's soundfile.
+          answer  : False
+        - question: C's work is probably more interesting than A and B's.
+          answer  : False
+        - question: Others learn as the direct result of A, B and C's work.
           answer  : True
