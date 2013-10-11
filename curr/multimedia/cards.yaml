@@ -12,9 +12,9 @@ roles:
   jigsaw:
     0:
       identifier: roles 0
-      A: You are logging into Dr Bean's dictation site, listening to a soundfile and filling in the blanks. Your role is: ??
-      B: You are listening to a soundfile and writing it down so other students can listen to it and do dictation. Your role is: ??
-      C: You have tried a number of dictation methods and you tell other students which you think is best. Your role is: ??
+      A: You are logging into Dr Bean's dictation site, listening to a soundfile and filling in the blanks. What is your role?
+      B: You are listening to a soundfile and writing it down so other students can listen to it and do dictation. What is your role?
+      C: You have tried a number of dictation methods and you tell other students which you think is best. What is your role?
       quiz:
         - question: A
           option:
@@ -36,9 +36,9 @@ roles:
           answer: critic
         - question: Critics make dictations.
           answer  : False
-        - question: Consumers produce dictations.
+        - question: Consumers talk about dictations.
           answer  : False
-        - question: Producers must do dictations.
+        - question: Producers do dictations.
           answer  : False
         - question: Consumers can use producers' dictations.
           answer  : True
@@ -50,9 +50,9 @@ roles:
           answer  : True
     1:
       identifier: roles 1
-      A: You downloaded a deck of flashcards and are using them with Anki or Mnemosyne to learn English. Your role is: ??
-      B: You tried using Anki and Mnemosyne and you prefer one of them. You tell others why you prefer that one. Your role is: ??
-      c: You uploaded a deck of flashcards to the Anki or Mnemosyne website for other to use to learn. Your role is: ??
+      A: You downloaded a deck of flashcards and are using them with Anki or Mnemosyne to learn English. What is your role?
+      B: You tried using Anki and Mnemosyne and you prefer one of them. You tell others why you prefer that one. What is your role?
+      C: You uploaded a deck of flashcards to the Anki or Mnemosyne website for other to use to learn. What is your role?
       quiz:
         - question: A
           option:
@@ -72,20 +72,20 @@ roles:
             - critic
             - producer
           answer: producer
-        - question: All 3 work with flashcards, but take 3 different roles.
+        - question: A, B and C take 3 different roles.
           answer  : True
         - question: Producers and critics of the software probably have more experience.
           answer  : True
-        - question: It's probably easier using flashcards to learn than uploading new decks.
+        - question: It's easier being a consumer, learning new words than producing new decks.
           answer  : False
+        - question: Consumers of own cards are producers.
+          answer  : True
         - question: Someone who learned with his/her own deck might want to upload it for others.
           answer  : True
-        - question: Uploading cards to the Anki/Mnemosyne website is not useful.
-          answer  : False
         - question: It's probably better to download cards than produce your own cards.
           answer  : False
-        - question: It's easier to download cards than produce your own cards.
-          answer  : True
+        - question: Downloading cards is harder than producing cards.
+          answer  : False
 sessions:
   jigsaw:
     0:
@@ -150,17 +150,17 @@ sessions:
             - flashcards
             - grammar
           answer: dictation
-        - question: A, B, and C are all taking the role of critic.
+        - question: A, B, and C all take the role of critic.
           answer  : False
         - question: A's sentences could come from C's transcript.
           answer  : True
         - question: B probably uses example sentences to learn the words.
           answer  : False
-        - question: Only B must have a computer to do his/her work.
+        - question: Only B must use a computer to do his/her work.
           answer  : True
-        - question: A's sentence structure might come from C's soundfile.
+        - question: B's words might come from A's sentence structure.
           answer  : False
-        - question: C's work is probably more interesting than A and B's.
-          answer  : False
+        - question: C's work is probably most interesting.
+          answer  : True
         - question: Others learn as the direct result of A, B and C's work.
-          answer  : True
+          answer  : False
