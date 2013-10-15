@@ -179,6 +179,8 @@ biodad:
         - question: Nick loved Jock.
           answer: False
 biomom:
+  bingo:
+    - biomom biological adoption contact birth_mother pregnant hospital decision hospital_bill black_out magic_marker aspirin concrete serious_relationship cross_my_mind inconsequential message voice_machine grateful passionate resented fluke mentor
   jigsaw:
     1:
       identifier: biomom 1
