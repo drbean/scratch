@@ -614,7 +614,7 @@ topic:
         id: biomom
         title: Bio-mom
         blurb: |
-          Here is a story about a <a href=http://www.wordspy.com/words/bio-mom.asp>bio-mom</a>. <a href=http://www.storycorps.org/wordpress/wp-content/uploads/listen/audio/adam.mp3>Listen</a> to Sue Adam and Deborah Dimasi talk about their relationship. Read the <a href=http://www.npr.org/templates/story/story.php?storyId=103920363>NPR story and comments</a>. <b>And read an <a href=http://www.storycorps.org/blog/storybooths/new-york-new-york/a-birth-mother-daughter-relationship/>account of the recording</a> with <a href=http://www.storycorps.org/blog/storybooths/new-york-new-york/a-birth-mother-daughter-relationship/#comment-1613>comment from Deborah's "other mother</a>.</b>"
+                Here is a story about a <a href=http://www.wordspy.com/words/bio-mom.asp>bio-mom</a>. <a href="http://cdn.storycorps.org/wordpress/wp-content/uploads/adam.mp3">Listen to Sue Adam and Deborah Dimasi</a> talk about their relationship. Read the <a href=http://www.npr.org/templates/story/story.php?storyId=103920363>NPR story and comments</a>. <b>And read an <a href="http://storycorps.org/a-birth-mother-daughter-relationship/">account of the recording</a>. Scroll down to the bottom of this article and <a href="http://storycorps.org/a-birth-mother-daughter-relationship/">read the comment from Deborah's "other mother</a>.</b>"
         comment: | 
           Read the <a href="http://adoption.about.com/od/birthfirstmothers/a/diarybirthmom.htm">diary</a> of a woman who gave up her child in an open adoption, and an essay about <a href=http://birthparents.adoptionblogs.com/weblogs/how-do-you-explain-your-adoption-story>what to say to people if you are a birthmother</a>.
       -
