@@ -87,22 +87,16 @@
 -
   - emersonj
   - Man takes on son
-  - intermediate
-  - A
+  - conversation
+  - all
   - |+
     Brian: When I adopted you, they had said that you had something called Post Traumatic Stress Syndrome, which I didn't understand except from soldiers that came back from a war that had what they used to call shell shock. So, yeah, I don't think you knew how scared I was the first six months.
 
     Johnathan: I think I used to throw things - desks, pencils and pens, I believe.
 
     Brian: Yeah. It was probably the first year and you were at school. I used to tell the staff there: if he's not paying attention to you, if he's not doing what you ask, call me.
-  - Brian|Johnathan|Post Traumatic Stress|shell shock
--
-  - emersonj
-  - Man takes on son
-  - intermediate
-  - B
-  - |+
-    Brian: And so one time they did call me and you went around after the calls and you ripped the phones out the wall.
+
+    And so one time they did call me and you went around after the calls and you ripped the phones out the wall.
 
     Johnathan: I was very distraught, yes.
 
@@ -110,32 +104,17 @@
 
     Johnathan: You know, it's kind of hard to explain, but yeah.
 
-    Brian: Yeah. The first year or two, sometimes I'd have to take the television away for whatever reason. You'd look at me and you'd say, wait till I tell the judge this.
-  - Brian|Johnathan|distraught|judge|ripped
--
-  - emersonj
-  - Man takes on son
-  - intermediate
-  - C
-  - |+
-    Brian: And I used to have to remind you, it's over, Johnathan, you're adopted. There's no more judges in your life. I think it didn't sink into you for a couple of years that, you know, the adoption was final.
+    Brian: Yeah. The first year or two, sometimes I'd have to take the television away for whatever reason. You'd look at me and you'd say, wait till I tell the judge this. And I used to have to remind you, it's over, Johnathan, you're adopted. There's no more judges in your life. I think it didn't sink into you for a couple of years that, you know, the adoption was final.
 
     But the moment that it hit me is when I was in church and you were in some little skit in the Sunday school. And you did something and the whole congregation started cracking up and then everybody looked at me.  And I was sitting around going, yeah, that's my kid.
 
-    And I remember one day ...
-  - Brian|Johnathan|judges|church|skit|congregation
--
-  - emersonj
-  - Man takes on son
-  - intermediate
-  - D
-  - |+
-    Brian: ... when I worried about you, just worried about, well, what if Johnathan got in a car accident, and I just started crying. And then I said, oh, that must be what parents feel and that's what I feel like.
+    And I remember one day when I worried about you, just worried about, well, what if Johnathan got in a car accident, and I just started crying. And then I said, oh, that must be what parents feel and that's what I feel like.
 
     When people tell me, oh, you know, what a wonderful thing you did, adopting a seven-year-old boy, I said, you don't understand. I didn't do this to save some little child. It's father and son but it's also, it's, you know, you are my best friend; there's no doubt about it. You know more about me than anybody else.
 
     I'm glad we did this.
-  - Brian|Johnathan|judges|church|skit|congregation
+  - Brian|Johnathan|Post Traumatic Stress|shell shock|distraught|judge|ripped|judges|church|skit|congregation
+  - 30
 ---
 -
   - genre
@@ -274,55 +253,55 @@
   - intermediate
   - emersonj
   - 1
-  - A
+  - all
   - For months after the adoption, they were scared, thinking of things.
   - True 
 -
   - intermediate
   - emersonj
   - 2
-  - A
+  - all
   - At school they threw a pencil or pen at him if he was not paying attention.
   - False 
 -
   - intermediate
   - emersonj
   - 3
-  - B
+  - all
   - It's hard to explain why he did what he did, but he was worried.
   - True 
 -
   - intermediate
   - emersonj
   - 4
-  - B
+  - all
   - The reason they had no television was they were worried the judge would hear it.
   - False 
 -
   - intermediate
   - emersonj
   - 5
-  - C
+  - all
   - He remembers sitting in church and and everybody cracking up over what he did.
   - True 
 -
   - intermediate
   - emersonj
   - 6
-  - C
+  - all
   - The adopted kid didn't go to church. Everyone looked at him when he cracked up.
   - False 
 -
   - intermediate
   - emersonj
   - 7
-  - D
+  - all
   - He adopted a son and he got a friend, a boy who knows more about him than anybody.
   - True 
 -
   - intermediate
   - emersonj
   - 8
-  - D
+  - all
   - He tells his friends, crying, it's wonderful to adopt a seven-year-old boy.
   - False 
