@@ -1,6 +1,8 @@
 ---
 genre: intermediate
 biodad:
+  bingo:
+    - relationship birth factor biological_father willing hostile Glasgow impatient hallway odd Connecticut panic baseline panic disease history circumstances surrounding 15-minute offer disposable peace
   compcomp:
     1:
       identifier: biodad
@@ -84,6 +86,44 @@ biodad:
         - question: Nick wanted to see his biological dad.
           answer: True
   jigsaw:
+    1:
+      identifier: biodad 1
+      A: You were living with a student called Eloise, when she got pregnant with Nick, you didn't want her to keep the child, and you left her.
+      B: You were living with a student called Jock. You wanted to get married when you got pregnant with Nick, but he refused to and left you.
+      C: Your mother, Eloise. was an unmarried mother. You are Jock's son. But you didn't know your dad. Your mother didn't talk about him.
+      quiz:
+        - question: A
+          option:
+            - Eloise
+            - Jock
+            - Nick
+          answer: Jock
+        - question: B
+          option:
+            - Eloise
+            - Jock
+            - Nick
+          answer: Eloise
+        - question: C
+          option:
+            - Eloise
+            - Jock
+            - Nick
+          answer: Nick
+        - question: Jock and Eloise were both students.
+          answer  : True
+        - question: Eloise didn't want to get married.
+          answer  : False
+        - question: Jock wanted to have children.
+          answer  : False
+        - question: Jock welcomed Eloise's pregnancy.
+          answer  : False
+        - question: Jock left Eloise.
+          answer  : True
+        - question: Nick didn't know Jock.
+          answer  : True
+        - question: Eloise told Nick a lot about Jock.
+          answer  : False
     2:
       identifier: biodad 2
       A: When you were a student, you were living with a student called Eloise. When Eloise got pregnant, you didn't want her to keep the child. You didn't want children. She refused to give up the child, so you left her.
@@ -377,6 +417,8 @@ biomom:
         - question: Terri probably did not want to change the way people feel about adoption.
           answer: False
 emersonj:
+  bingo:
+    - foster_care adoption welfare_agency disrupted_adoption Post_Traumatic_Stress_Disorder skit congregation crack_up distraught the_state social_worker threat talkative mental_state reunion regret outrage boil_over suicidal disturbed
   jigsaw:
     0:
       identifier: emersonj 0
