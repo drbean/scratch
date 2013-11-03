@@ -113,7 +113,7 @@ Anki introduction
 http://ankisrs.net/docs/manual.html
 http://www.youtube.com/watch?v=QS2G-k2hQyg&feature=plcp
 
----
+----
 Problems with flashcards
 
 * Non-contextualized (just single words)
@@ -122,25 +122,228 @@ Problems with flashcards
 * Every repetition is the same (no change in the presentation)
 	but in the real world, the presented word always changes
 ----
-Robin Hood
+Session 2
 
-Howard Pyle
-http://en.wikipedia.org/wiki/Howard_Pyle
-
-The Adventures of Robin Hood by Howard Pyle - Project Gutenberg
-http://www.gutenberg.org/ebooks/964
+learning 180 most common words from Academic Word List
 
 ----
-Youtube Robin Hood videos
+Academic Word List
 
-Robin asks men to join fight againt sheriff
-https://www.youtube.com/watch?v=KXTj5nd2oKQ
-
-Other videos
-http://www.youtube.com/results?search_query=%22robin%20hood%22
+http://www.victoria.ac.nz/lals/resources/academicwordlist/
 
 ----
-Don Quixote
+Words you need to know if you are going to study in the US
+
+Words most native speakers don't use every day but are necessary
+if you read academic books or listen to profs talk
+
+----
+Academic words
+
+assume
+authority	
+available
+benefit 
+concept 
+consist
+constitute 
+context
+contract
+create
+data
+define
+
+
+----
+Procedure: pre-test post-test
+
+Pretest: Homework Week 6 translate 180 words into Chinese
+
++ Week 6, 7, 8, 9
+After doing pretest, learn the words with Anki or Mnemosyne
+
++ Week 9 (Midterm)
+Again translate the same 180 words into Chinese
+
+The difference between your score on the pre-test and the post-test
+is your grade for the midterm (worth 5 points).
+
+----
+Pretest
+
+Don't use a dictionary. Give your best answer for the translations 
+of the 180 words.
+
+You must write something for each word.
+
+----
+Number of players
+
+aca021=# SELECT COUNT(DISTINCT player) FROM play ;
+ count
+ -------
+     9
+(1 row)
+
+Thank you for doing this so quickly. I only got
+it up at lunchtime.
+
+
+----
+What to do?
+
+Students appear to know all the words from the first 3 sublists
+already.
+
+aca021=# SELECT * from play where word = 'significant' ;
+    word     | answer |  player   | league | try | exercise
+ -------------+--------+-----------+--------+-----+----------
+ significant | 顯著的 | N00200001 | AFN3Y0 |   1 | base
+ significant | 顯著   | N00200037 | AFN3Y0 |   1 | base
+ significant | 顯著   | N00200054 | AFN3Y0 |   6 | base
+ significant | 重要的 | N00200030 | AFN3Y0 |   1 | base
+ significant | 顯著   | N01202001 | AFN3Y0 |   1 | base
+ significant | 顯著   | N01202004 | AFN3Y0 |   1 | base
+(6 rows)
+
+aca021=# SELECT * from play where word = 'legal' ;
+ word  | answer |  player   | league | try | exercise
+ -------+--------+-----------+--------+-----+----------
+ legal | 合法的 | N00200001 | AFN3Y0 |   1 | base
+ legal | 法律   | N00200054 | AFN3Y0 |   4 | base
+ legal | 合法的 | N00200030 | AFN3Y0 |   1 | base
+ legal | 法律   | N01202001 | AFN3Y0 |   2 | base
+ legal | 法律   | N00200037 | AFN3Y0 |   6 | base
+ legal | 合法   | N01203003 | AFN3Y0 |   1 | base
+ legal | 合法   | N01202004 | AFN3Y0 |   1 | base
+(7 rows)
+
+----
+Further examples
+
+aca021=# SELECT * from play where word = 'policy' ;
+  word  | answer |  player   | league | try | exercise
+ --------+--------+-----------+--------+-----+----------
+ policy | 政治   | N00200001 | AFN3Y0 |   1 | base
+ policy | 政策   | N00200037 | AFN3Y0 |   1 | base
+ policy | 政策   | N00200054 | AFN3Y0 |   3 | base
+ policy | 政治   | N00200030 | AFN3Y0 |   1 | base
+ policy | 政治   | N01202001 | AFN3Y0 |   1 | base
+ policy | 長官   | N96200030 | AFN3Y0 |   8 | base
+ policy | 政策   | N01203003 | AFN3Y0 |   1 | base
+ policy | 政策   | N01202004 | AFN3Y0 |   1 | base
+(8 rows)
+
+----
+But ...
+
+on closer examination some words have not been entered
+
+----
+Test
+
+What does derive mean?
+
+----
+Answer
+
+aca021=# SELECT * from play where word = 'derive' ;
+  word  | answer |  player   | league | try | exercise
+ --------+--------+-----------+--------+-----+----------
+ derive | XXXX   | N00200037 | AFN3Y0 |   1 | base
+ derive | XXXX   | N00200054 | AFN3Y0 |   6 | base
+ derive | XXXX   | N01202001 | AFN3Y0 |   1 | base
+ derive | XXXX   | N01203003 | AFN3Y0 |   1 | base
+(4 rows)
+
+----
+Test
+
+What does legislate mean?
+
+----
+Answer
+
+aca021=# SELECT * from play where word='legislate';
+   word    | answer |  player   | league | try | exercise
+ -----------+--------+-----------+--------+-----+----------
+ legislate | XXXX   | N00200037 | AFN3Y0 |   1 | base
+ legislate | XXXX   | N00200054 | AFN3Y0 |   3 | base
+ legislate | XXXX   | N01202004 | AFN3Y0 |   1 | base
+(3 rows)
+
+aca021=#
+
+----
+Test
+
+What does constrain mean?
+
+----
+Answer
+
+aca021=# SELECT * from play where word='constrain';
+   word    | answer |  player   | league | try | exercise
+ -----------+--------+-----------+--------+-----+----------
+ constrain | XXXX   | N00200054 | AFN3Y0 |  10 | base
+ constrain | XXXX   | N00200037 | AFN3Y0 |   6 | base
+(2 rows)
+
+aca021=#
+
+----
+Number of answers
+
+aca021=# SELECT COUNT(word) FROM play where player='N00200054';
+ count
+ -------
+   179
+(1 row)
+
+aca021=# SELECT COUNT(word) FROM play where player='N00200001';
+ count
+ -------
+   133
+(1 row)
+
+aca021=# SELECT COUNT(word) FROM play where player='N96200030';
+ count
+ -------
+    19
+(1 row)
+
+aca021=#
+
+----
+Problem
+
+The more correct answers you have now, the harder it is 
+to have a big increase in number of correct answers after
+using Anki and Mnemosyne.
+
+I offer the students who already have finished entering many
+words the opportunity to
+
+1. enter the words again, or
+2. do sublists 7, 8, and 9.
+
+If you know all the words in sublists 1, 2 and 3 already,
+you will choose option 2.
+
+If you used the dictionary to fill in the words, you will
+choose option 1.
+
+----
+Advice
+
+It is OK to guess. You HAVE to guess if you don't know
+the word.
+
+If you cheat and look in the dictionary or ask someone,
+you hurt your grade in the midterm.
+
+
+----
 
 adventures chivalry decides founding his humor influential
 knighthood literature mad novel reads volumes
@@ -182,7 +385,7 @@ http://web.nuu.edu.tw/~greg/cclass
 http://web.nuu.edu.tw/~greg/literature/questions.pdf
 http://web.nuu.edu.tw/~greg/literature/draw/AFN231.html
 
----- include ../cclass/comp.vroom
+---- include /home/drbean/class/cclass/comp.vroom
 
 ----
 == The Swiss Family Robinson
