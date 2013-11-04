@@ -183,7 +183,7 @@ illegals:
         - question: O'Reilly wanted Ramos deported.
           answer  : True
         - question: O'Reilly \& Rivera disagree over what the story is about.
-          answer  : False
+          answer  : True
         - question: Rivera thinks O'Reilly is creating anger with illegal aliens.
           answer  : True
         - question: Rivera criticizes O'Reilly's reporting.
@@ -466,7 +466,7 @@ blair:
           answer  : True
         - question: Raines fired Blair.
           answer  : True
-        - question: Raines wrote about Hernandez' story for the front page.
+        - question: Raines wrote about Hernandez for the front page.
           answer  : False
 campus:
   jigsaw:
