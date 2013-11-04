@@ -348,6 +348,46 @@ interviews:
           answer  : True
         - question: Only Chris is still alive.
           answer  : True
+wallace-oreilly:
+  jigsaw:
+    0:
+      identifier: wallace-oreilly 0
+      A: You died in 2012. You were known on 60 Minutes for asking tough questions. But you didn't ask O'Reilly tough questions in 2004.
+      B: You interviewed O'Reilly in 2013 on 60 Minutes. You asked tough questions about religion. His answers upset some people. 
+      C: You were interviewed on 60 Minutes by Wallace in 2004 and O'Donnell in 2013. You admired Wallace because of his style.
+      quiz:
+        - question: A
+          option:
+            - O'Reilly
+            - O'Donnell
+            - Wallace
+          answer: Stern
+        - question: B
+          option:
+            - O'Reilly
+            - O'Donnell
+            - Wallace
+          answer: Wallace
+        - question: C
+          option:
+            - O'Reilly
+            - O'Donnell
+            - Wallace
+          answer: O'Reilly
+        - question: O'Reilly interviewed Wallace.
+          answer  : False
+        - question: O'Donnell interviewed O'Reilly.
+          answer  : True
+        - question: O'Donnell asked tough questions.
+          answer  : True
+        - question: Everyone liked O'Reilly's answers.
+          answer  : False
+        - question: Wallace's style was to ask tough questions.
+          answer  : True
+        - question: Wallace asked O'Reilly tough questions.
+          answer  : False
+        - question: O'Reilly didn't like Wallace.
+          answer  : False
 pope:
   jigsaw:
     0:
