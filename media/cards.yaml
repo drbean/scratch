@@ -361,13 +361,13 @@ wallace-oreilly:
             - O'Reilly
             - O'Donnell
             - Wallace
-          answer: Stern
+          answer: Wallace
         - question: B
           option:
             - O'Reilly
             - O'Donnell
             - Wallace
-          answer: Wallace
+          answer: O'Donnell
         - question: C
           option:
             - O'Reilly
@@ -493,7 +493,7 @@ blair:
             - Blair
             - Hernandez
             - Raines
-          answer: 
+          answer: Blair
         - question: Hernandez didn't know Blair.
           answer  : False
         - question: Hernandez worked at the NY Times but then left.
