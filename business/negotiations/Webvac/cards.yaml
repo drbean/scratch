@@ -776,7 +776,6 @@ vacations:
       identifier: vacations 777
       A: Lifetime's position: It wants to spend 100,000 dollars. It wants to have control of the joint venture. It is willing to spend 200,000 dollars and to share control with Direct.
       B: Direct's position: It wants to spend 400,000 dollars. It wants to have control of the joint venture. It is willing to spend only $300,000 and share conrol with Lifetime.
-      B: Lifetime's offers: It is willing for advertising to be 100,000 dollars more than the original 100,000 dollars. It is willing for the joint venture to be run by directors from both companies.
       C: Direct's offers: It is willing to spend 300,000 dollars. It is willing to share control with Lifetime by having a board of directors from both companies.
       rubric: \input{/home/drbean/class/tmpl/negotiation.tex}
       quiz:
@@ -857,6 +856,24 @@ vacations:
           answer: True
         - question: It's a deal.
           answer: True
+    999:
+      identifier: vacations 999
+      A: Lifetime's position: It wants the contract to be for one year. It wants to have control over running the joint venture. It is willing to share control with Direct. It is willing for the contract to be for 3 years.
+      B: Direct's position: It wants the contract to be for five years. It wants the company to be run by people from Direct. It is willing for the contract to be for 3 years.
+      C: Direct's offers: It is willing for the contract to be two years less than five years. It is willing for the company to be controlled by vote by both companies.
+      rubric: \input{/home/drbean/class/tmpl/negotiation.tex}
+      quiz:
+        - question: Do they reach agreement on the length of contract?
+          option:
+            - Yes
+            - No
+          answer: Yes
+        - question: Do they agree on control?
+          option:
+            - Yes
+            - No
+          answer: Yes
+          answer: Yes
     9:
       identifier: vacations 9
       A: Lifetime's position: It wants the contract to be for one year. It wants to have control over running the joint venture. It is willing to discuss Direct's offers.
