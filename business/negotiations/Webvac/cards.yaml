@@ -772,6 +772,25 @@ vacations:
           answer: False
         - question: It's a deal.
           answer: False
+    777:
+      identifier: vacations 777
+      A: Lifetime's position: It wants to spend 100,000 dollars. It wants to have control of the joint venture. It is willing to spend 200,000 dollars and to share control with Direct.
+      B: Direct's position: It wants to spend 400,000 dollars. It wants to have control of the joint venture. It is willing to spend only $300,000 and share conrol with Lifetime.
+      B: Lifetime's offers: It is willing for advertising to be 100,000 dollars more than the original 100,000 dollars. It is willing for the joint venture to be run by directors from both companies.
+      C: Direct's offers: It is willing to spend 300,000 dollars. It is willing to share control with Lifetime by having a board of directors from both companies.
+      rubric: \input{/home/drbean/class/tmpl/negotiation.tex}
+      quiz:
+        - question: Do they have an agreement on spending?
+          option:
+            - Yes
+            - No
+          answer: No
+        - question: May they agree on control?
+          option:
+            - Yes
+            - No
+          answer: Yes
+          answer: False
     77:
       identifier: 77
       A: |
