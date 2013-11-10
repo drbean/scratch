@@ -455,6 +455,36 @@ vacations:
           answer: False
         - question: They reach agreement on advertising budget.
           answer: True
+    333:
+      identifier: 333
+      A: |
+            You have Lifetime's position before discussion with Direct.
+            It wants the destinations to be only in Taiwan.
+            In all other areas there is agreement.
+            Can Lifetime reach agreement with Direct in this area? Do they have a deal?
+            You may be willing to include Japan.
+      B: |
+            You have Direct's position before discussion with Lifetime.
+            It wants the destinations to be all over Asia.
+            In all other areas there is agreement.
+            Can Lifetime reach agreement with Direct in this area? Do they have a deal?
+            You may be willing to have only Japan and Taiwan.
+      C: |
+            In the negotiation Lifetime is willing to include Japan. And Direct is willing to have only destinations in Taiwan and Japan.
+            Do Lifetime and Direct reach agreement on destinations?
+            In all other areas there is agreement. Do Lifetime and Direct have a deal or not?
+      rubric: \input{/home/drbean/class/tmpl/negotiation.tex}
+      quiz:
+        - question: Do they agree on destinations?
+          option:
+            - Yes
+            - No
+          answer: Yes
+        - question: Is it a deal? Do they have agreement in all areas?
+          option:
+            - Yes
+            - No
+          answer: Yes
     33:
       identifier: 33
       A: |
