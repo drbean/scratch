@@ -562,28 +562,36 @@ vacations:
           answer: False
         - question: They reach agreement on the manager.
           answer: True
-    44:
-      identifier: 44
+    444:
+      identifier: 444
       A: |
             You have Lifetime's position before discussion with Direct.
             It wants the contract to be for 2 years.
             Do Lifetime and Direct reach agreement on the length of contract?
             In all other areas there is agreement. Do Lifetime and Direct have a deal or not?
+            Lifetime may be willing to accept a 3-year contract.
       B: |
             You have Direct's position before discussion with Lifetime.
             It wants the contract to be for 5 years.
             Do Lifetime and Direct reach agreement on the length of contract?
             In all other areas there is agreement. Do Lifetime and Direct have a deal or not?
+            Direct may be willing to accept a 4-year contract.
       C: |
-            In the negotiation, Lifetime is willing to accept a contract one year longer than it wanted. And Direct is willing to have a contract one year shorter than it wanted.
+            In the negotiation, Lifetime is willing to accept a contract one year longer than 2 years. And Direct is willing to have a contract one year shorter than 5 years.
             Do Lifetime and Direct reach agreement on the length of contract?
             In all other areas there is agreement. Do Lifetime and Direct have a deal or not?
       rubric: \input{/home/drbean/class/tmpl/negotiation.tex}
       quiz:
-        - question: Lifetime's original position on length of contract was 3 years.
-          answer: False
-        - question: Lifetime was willing to accept a contract of 3 years in length.
-          answer: True
+        - question: Do they have an agreement on the contract.
+          option:
+            - Yes
+            - No
+          answer: No
+        - question: Is it a deal? Do they have agreement on all areas of negotiation?
+          option:
+            - Yes
+            - No
+          answer: No
         - question: Direct's original position was 5 years.
           answer: True
         - question: Direct was willing to accept a contract of 3 years in length.
