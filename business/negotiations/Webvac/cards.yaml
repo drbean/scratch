@@ -592,14 +592,6 @@ vacations:
             - Yes
             - No
           answer: No
-        - question: Direct's original position was 5 years.
-          answer: True
-        - question: Direct was willing to accept a contract of 3 years in length.
-          answer: False
-        - question: They reach agreement on length of contract.
-          answer: False
-        - question: Lifetime and Direct do not have a deal.
-          answer: True
     4:
       identifier: Lifetime Holidays-Direct Sun joint venture negotiation 4
       A: |
