@@ -1017,6 +1017,49 @@ tips:
         8. \textbf{Togetherness:} Get together with co-workers off the job.\\
         9. \textbf{Talk to the boss:} Tell him/her what you want.\\
         10. \textbf{Get a life!} Relax on the weekend.\\
+    13:
+      identifier: tips 13
+      A: Dr Bean wants to set up his own business. His dream is to be his own boss and to be a successful businessman.
+      B: Dr Bean thinks it is difficult to become a businessman, and he isn't sure what to do. However, this is his goal.
+      C: Dr Bean's dream will not come true. Each month, he doesn't check whether he is getting closer to his goal or not.
+      quiz:
+        - question: 'The candidate believes in:'
+          option:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+            - 9
+            - 10
+          answer: 6
+        - question: "The candidate doesn't believe in:"
+          option:
+            - 1
+            - 2
+            - 3
+            - 4
+            - 5
+            - 6
+            - 7
+            - 8
+            - 9
+            - 10
+          answer: 7
+      rubric: |+
+        1. \textbf{Think!} Keep your mind on what you are doing.\\
+        2. \textbf{Seek challenges:} Do things the hard way.\\
+        3. \textbf{Change your job!} Make your job better, or get a new job.\\
+        4. \textbf{Teamwork:} Get others to help you.\\
+        5. \textbf{The student:} Learn while away from the job.\\
+        6. \textbf{My way:} Have your own goals.\\
+        7. \textbf{The plan:} Have a schedule\\
+        8. \textbf{Togetherness:} Get together with co-workers off the job.\\
+        9. \textbf{Talk to the boss:} Tell him/her what you want.\\
+        10. \textbf{Get a life!} Relax on the weekend.\\
 
   compcomp:
     0:
