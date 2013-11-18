@@ -88,7 +88,7 @@ biodad:
   jigsaw:
     1:
       identifier: biodad 1
-      A: You were living with a student called Eloise, when she got pregnant with Nick, you didn't want her to keep the child, and you left her.
+      A: You were living with a student called Eloise. When she got pregnant with Nick, you didn't want her to keep the child, and you left her.
       B: You were living with a student called Jock. You wanted to get married when you got pregnant with Nick, but he refused to and left you.
       C: Your mother, Eloise. was an unmarried mother. You are Jock's son. But you didn't know your dad. Your mother didn't talk about him.
       quiz:
@@ -110,20 +110,6 @@ biodad:
             - Jock
             - Nick
           answer: Nick
-        - question: Jock and Eloise were both students.
-          answer  : True
-        - question: Eloise didn't want to get married.
-          answer  : False
-        - question: Jock wanted to have children.
-          answer  : False
-        - question: Jock welcomed Eloise's pregnancy.
-          answer  : False
-        - question: Jock left Eloise.
-          answer  : True
-        - question: Nick didn't know Jock.
-          answer  : True
-        - question: Eloise told Nick a lot about Jock.
-          answer  : False
     2:
       identifier: biodad 2
       A: When you were a student, you were living with a student called Eloise. When Eloise got pregnant, you didn't want her to keep the child. You didn't want children. She refused to give up the child, so you left her.
@@ -366,9 +352,33 @@ biomom:
     3:
       identifier: biomom 1
       A: You got drunk at a party and you went to bed with someone there. You regret this, but you are now pregnant. You don't want to have an abortion, but you don't think you can bring the child up alone.
-      B: Your biological mom is Sue, but she gave you up for adoption. You were brought up by your parents, Don and Devonna. You love them. You want to find out about the woman who gave you birth.
+      B: Your biological mom is Sue, but she gave you up for adoption. You were brought up by your parents, Don and Dovonna. You love them. You want to find out about the woman who gave you birth.
       C: You adopted Deborah when she was one month old, You love her very much and she loves you too. You told her she was adopted when she was 5. She is a happy person. You are proud of her.
       D: You are Deborah's father. When she was in her early twenties, she asked if you could help her contact her birth mother. You gave her all the papers that the adoption agency had given you twenty years ago.
+    4:
+      identifier: biomom 4
+      A: You were pregnant with Debby, but couldn't bring her up alone. You gave her up for adoption. Dovonna adopted her. You meet Dovonna.
+      B: Your biological mom is Sue, but she gave you up for adoption. You were brought up by Dovonna. You love her and you love Sue too.
+      C: You adopted Debby when she was one month old, You love her very much and she loves you too. You meet Sue and enjoy talking to her.
+      quiz:
+        - question: A
+          option: 
+           - Debby
+           - Dovonna
+           - Sue
+          answer: Sue
+        - question: B
+          option:
+           - Debby
+           - Dovonna
+           - Sue
+          answer: Debby
+        - question: C
+          option:
+           - Debby
+           - Dovonna
+           - Sue
+          answer: Dovonna
   compcomp:
     1:
       White: |+
@@ -473,6 +483,30 @@ emersonj:
           answer: True
         - question: Fay doesn't want Jane to adopt Johnathan.
           answer: False
+    2:
+      identifier: emersonj 2
+      A: You adopted Johnathan and were a good father. Later, after he goes to jail, you become disturbed. You threaten your boss.
+      B: You are Brian's boss. Brian is disruptive. The police take him to jail. Johnathan was disturbed and now Brian has lost his mind.
+      C: You are disturbed. Brian adopted you when you were 7, but you are a wild child and you go to jail when you are 19.
+      quiz:
+        - question: A
+          option: 
+           - Brian
+           - Brian's boss
+           - Johnathan
+          answer: Brian
+        - question: B
+          option:
+           - Brian
+           - Brian's boss
+           - Johnathan
+          answer: Brian's boss
+        - question: C
+          option:
+           - Brian
+           - Brian's boss
+           - Johnathan
+          answer: Johnathan
 
   compcomp:
     0:
