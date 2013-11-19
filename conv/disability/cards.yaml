@@ -615,6 +615,8 @@ davist:
         - question: More people can do CPR and help arrives quicker in Seattle than in NY.
           answer: True
 warm:
+  bingo:
+    - sunny_personality intelligent/intelligence age Down_syndrome abortion bug/bugs special_needs_program pre-school_children free-form_dance church_group_participation regular_classes volunteer_YMCA_helper fingerprint palm tongue life_expectancy reproduction father_children fertile/fertility difficulty_bearing_children offspring screening_test/tests fortunate
   jigsaw:
     0:
       identifier: warm 0
