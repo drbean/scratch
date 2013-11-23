@@ -52,6 +52,13 @@ topic:
         comment: |
           Listen to <a href="http://www.youtube.com/watch?v=kFePfsBlocA">a lecture<a/> he gave about his actions.
       -
+        id: thanksgiving
+        title: Journalistic bias reporting Thanksgiving news
+        blurb: |
+          Every year in the US, newspapers report the cost of Thanksgiving dinner is going up. It is like a Thanksgiving tradition in the media. But this is not really good reporting. Listen to <a href="http://www.onthemedia.org/story/reporting-price-thanksgiving-dinner/">what really is happening.</a> 
+        comment: |
+          You can also <a href="http://www.podtrac.com/pts/redirect.mp3/audio.wnyc.org/otm/otm112213a.mp3">download</a> the file.
+      -
         id: illegals
         title: TV show hosts square off over illegal immigration
         blurb: |
