@@ -56,7 +56,28 @@
     G: Water is a liquid. When it is heated, it moves around faster and faster. When it starts to boil, the liquid turns into a gas. This gas is called water vapor. This gas is lighter than the water around it. It rises to the top. Then it disappears into the air.
     G: As the water gets hotter and hotter, it starts turning into a gas very quickly. A lot of bubbles form at the same time. All these bubbles try to escape at once. The bubbles push the water out of the way and "jump" out. This is what we call "boiling water."
     G: More and more water turns into a gas. More of it disappears into the air. After a while, every drop of the water will be gone. Try it and see!
-  - Where|come|you|around faster|When|Water|water vapor|lighter|This|It rises|top|Then|into|As|gets hotter|turning|very|A lot|form|push|try to|and "jump"|More|After|every|Try
+  - Where|come|you|around faster|When|Water|water vapor|lighter|This|It rises|top|Then|into|As|gets hotter|turning|very|A lot|form|push|try to|and "jump"|call|More|After|every|Try
+  - non_existent
+  - 100
+
+-
+  - sky
+  - "The blue sky"
+  - "topics"
+  - "all"
+  - |+
+    B: Joe asked me something about science just now. But I didn't know the answer.
+    G: I'm good at science. Ask me.
+    B: OK. Why is the sky blue?
+    G: I'll explain it in a simple way. Light comes through the air from the sun in waves.
+    B: The light is in many colors, right?
+    G: Right. Blue waves are smaller than air molecules. They sometimes get absorbed by these molecules.
+    B: OK. What happens then?
+    G: Then the blue light waves scatter in many directions. Your eyes see this blue light from above you, after it leaves the air molecules.
+    B: So that is what makes the sky blue! What happens to the other colors?
+    G: They reflect off the things that they hit. Your shirt is red because our eyes see the red light reflected from it.
+    B: Now I understand why the sky is blue!
+  - Joe|about|didn't know|I'm|Ask|OK|Why|I'll explain|simple|Light|The|right|Blue|than|molecules|get|scatter|directions|Your shirt|see|from it|why
   # - non_existent
   - 100
 
