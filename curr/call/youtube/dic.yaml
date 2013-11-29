@@ -1,0 +1,48 @@
+---
+-
+  - id
+  - description
+  - genre
+  - target
+  - content
+  - unclozeables
+  - percent
+-
+  - rena
+  - Rena by Carlos
+  - call
+  - all
+  - |+
+    Rena: My name is Rena, Chinese name is 戴睿萱.  My favorites are pink, hello kitty and cats. This is my cat “ Mi Mi” . And I think I have a very optimistic personality and I’m very easygoing person as well. I am pretty outgoing but sometimes still shy with strangers. About my interests, I like to listing to the music. I usually listen to the English song and to learn English. My favorite  singer is Avril Lavigne. My ambition is... I hope I can work in American in the future, and meet a lot of foreigner that I can improve my English ability. Thank you for your listening.
+  - Bill Gates|Powerpoint|Microsoft|Youtube|parsing|transcribe
+  - 100
+-
+  - jeff
+  - Jeff by Dave
+  - call
+  - all
+  - |+
+    Jeff: My name is Huang Che-Yu, I am 19 years old now. I was born in Taoyuan, on April 30th, 1994. I come from a middle class family. There are five member in my family. My grandmother is a farmer. My father is a truck driver and my mother is a career woman. I have two siblings. They are college students too. My mother has taught me to be polite and well-behaved since I was a child . So I can take care of myself and deal with things independently. I am outgoing people and I like to do some exercises. Basketball is my favorite sport. I always play basketball at the park with my friends. I think exercise is the best way to release my stress, because it can help me to relax and sleep well quickly at night.
+-
+  - alex
+  - Alex by Jeff
+  - call
+  - all
+  - |+
+    Alex: hello everyone my name is Alex and I am living in Hsinchu I'm local here. I majored in English and my family brother and sister. My job is Design Assistant.You know the commercials My hobbies are sleeping,listening to music,drawing,and reading. Traveling is one of my favorite projects,because I can go to different places.
+
+---
+-
+  - genre
+  - text
+  - id
+  - target
+  - content
+  - answer
+-
+  - "call"
+  - "rena"
+  - 1
+  - "all"
+  - ""
+  - ""
