@@ -144,13 +144,13 @@ divorce:
           answer  : True
         - question: Blair and Deng were friends.
           answer  : True
-        - question: Deng has made Murdoch happy.
-          answer  : False
         - question: Blair has made Murdoch happy.
           answer  : False
         - question: Murdoch perhaps felt Deng was unfaithful.
           answer  : True
         - question: Blair broke up with Deng.
+          answer  : False
+        - question: Murdoch and Blair are still friends.
           answer  : False
 illegals:
   jigsaw:
@@ -618,13 +618,13 @@ scalia:
           answer  : False
         - question: Joe Public wants to watch Scalia on TV.
           answer  : True
-        - question: Joe thinks seeing Scalia would be educational.
+        - question: Joe wants to see him for his educational value.
           answer  : False
         - question: Scalia thinks Joe would be educated.
           answer  : False
         - question: Lamb and Scalia agree to put the court on TV.
           answer  : False
-        - question: Lamb and Joe public agree on the court on TV.
+        - question: Lamb and Joe Public agree on the court on TV.
           answer  : True
         - question: Scalia doesn't want the court televised.
           answer  : True
