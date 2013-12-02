@@ -446,6 +446,8 @@ connell:
         - question: Derek has mental problems.
           answer  : True
 foreman:
+  bingo:
+    - gym speak say talk tell  funny_sound embarrass/embarrassed/embarrassing aggravate/aggravated/aggravating shrinking_violet mixed_feelings reaction disturb/disturbed/disturbing telephone_soliciting scare/scared/scary operation
   jigsaw:
     0:
       identifier: foreman 0
@@ -529,6 +531,8 @@ foreman:
           answer: False
 
 davist:
+  bingo:
+    - bowel_movement rectum excrement_(feces) suppository paralyzed/paralysis incapacitated quadriplegic limbs partial_loss brain_damage routine_maintenance spine_\&_spinal_cord muscles joints depress/depressing/depressed regret injury resuscitate CPR screeching_halt
   jigsaw:
     0:
       identifier: davist 0
