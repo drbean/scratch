@@ -112,6 +112,46 @@ hacking:
           answer  : True
         - question: Deng attacked Murdoch's attacker.
           answer  : True
+divorce:
+  jigsaw:
+    0:
+      identifier: divorce 0
+      A: You used to be the English prime minister. You become friends with Murdoch (and later with Deng) after his newspaper supports you.
+      B: You married Deng, but you separate from her and divorce her. You also break up with Blair, when he continues to be friends with her.
+      C: You ask Blair for emotional support as your marriage to Murdoch breaks up, meeting him at home when Murdoch isn't there. Murdoch is mad.
+      quiz:
+        - question: A
+          option:
+            - Blair
+            - Deng
+            - Murdoch
+          answer: Blair
+        - question: B
+          option:
+            - Blair
+            - Deng
+            - Murdoch
+          answer: Murdoch
+        - question: C
+          option:
+            - Blair
+            - Deng
+            - Murdoch
+          answer: Deng
+        - question: Murdoch and Deng are divorced
+          answer  : True
+        - question: Murdoch and Blair were friends.
+          answer  : True
+        - question: Blair and Deng were friends.
+          answer  : True
+        - question: Deng has made Murdoch happy.
+          answer  : False
+        - question: Blair has made Murdoch happy.
+          answer  : False
+        - question: Murdoch perhaps felt Deng was unfaithful.
+          answer  : True
+        - question: Blair broke up with Deng.
+          answer  : False
 illegals:
   jigsaw:
     0:
