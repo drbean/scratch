@@ -52,7 +52,7 @@ relations = [
  , ( "wanted", \args -> case args of 
  	[x,y,z,w] -> wanted w z y x
  	[x,y,z] -> forgetful4 wanted z y x
- 	[x,y]	-> (forgetful3 . forgetful4 ) wanted y x ),
+ 	[x,y]	-> (forgetful3 . forgetful4 ) wanted y x )
  , ( "got", \args -> case args of
  	[x,y,z] -> predid3 "got" z y x
  	[x,y] -> forgetful3 (predid3 "got") y x )
