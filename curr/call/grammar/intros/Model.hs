@@ -39,7 +39,7 @@ entity_check =  [
     , (U, "america" )
     , (V, "vicky" )
     , (W, "taiwan" )
-    , (X, "xinzhu" )
+    , (X, "hsinchu" )
     , (Y, "" )
     , (Z, "music" )
     ]
