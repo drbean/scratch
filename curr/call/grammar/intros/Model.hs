@@ -23,25 +23,25 @@ entity_check =  [
     , (E, "applied_foreign_languages" )
     , (F, "" )
     , (G, "" )
-    , (H, "minghsin university" )
-    , (I, "" )
+    , (H, "minghsin_university" )
+    , (I, "hello_kitty" )
     , (J, "jeff" )
     , (K, "kelly" )
     , (L, "avril_lavigne" )
     , (M, "mindy" )
     , (N, "neil" )
     , (O, "" )
-    , (P, "" )
-    , (Q, "" )
+    , (P, "the color pink" )
+    , (Q, "mi-mi" )
     , (R, "rena" )
     , (S, "shane" )
     , (T, "" )
-    , (U, "" )
+    , (U, "america" )
     , (V, "vicky" )
     , (W, "taiwan" )
     , (X, "xinzhu" )
     , (Y, "" )
-    , (Z, "" )
+    , (Z, "music" )
     ]
 
 characters :: [ (String, Entity) ]
@@ -55,19 +55,19 @@ characters = [
 	, ("", F)
 	, ("", G)
 	, ("minghsin university", H)
-	, ("", I)
+	, ("hello kitty", I)
 	, ("jeff", J)
 	, ("kelly", K)
 	, ("", L)
 	, ("mindy", M)
 	, ("neil", N)
 	, ("", O)
-	, ("", P)
-	, ("", Q)
+	, ("the color pink", P)
+	, ("mi-mi", Q)
 	, ("rena", R)
 	, ("shane", S)
 	, ("", T)
-	, ("", U)
+	, ("america", U)
 	, ("vicky", V)
 	, ("taiwan", W)
 	, ("xinzhu", X)
@@ -91,10 +91,7 @@ predid1 :: String -> OnePlacePred
 predid2 :: String -> TwoPlacePred
 predid3 :: String -> ThreePlacePred
 predid4 :: String -> FourPlacePred
-predid1 name = lookup1 name onePlacers where
-	lookup1 name []	= error $ "no '" ++ name ++ "' one-place predicate."
-	lookup1 name ((n,p):_) | n == name	= p
-	lookup1 name (i:is) = lookup1 name is
+
 predid2 name = lookup2 name twoPlacers where
 	lookup2 n []	= error $ "no '" ++ name ++ "' two-place predicate."
 	lookup2 n ((name,pred):is) | n == name	= pred
@@ -125,6 +122,7 @@ onePlacers = [
 	, ("male",	pred1 [B,A,D,J,N,S] )
 	, ("female",	pred1 [C,K,M,R,V] )
 	, ("thing",	thing )
+	, ("cat",	pred1 [N] )
 
 	, ("old",	pred1 [B] )
 	, ("reserved",	pred1 [M,R] )
@@ -134,8 +132,12 @@ onePlacers = [
 	, ("applied_foreign_languages",	pred1 [E])
 	]
 
-predid1 "optimistic" = predid1 "outgoing"
-predid1 "shy"	= predi1 "reserved"
+predid1 "optimistic"	= predid1 "outgoing"
+predid1 "shy"	= predid1 "reserved"
+predid1 name = lookup1 name onePlacers where
+	lookup1 name []	= error $ "no '" ++ name ++ "' one-place predicate."
+	lookup1 name ((n,p):_) | n == name	= p
+	lookup1 name (i:is) = lookup1 name is
 
 type OnePlacePred	= Entity -> Bool
 type TwoPlacePred	= Entity -> Entity -> Bool
@@ -187,7 +189,7 @@ curry4 f x y z w	= f (x,y,z,w)
 curry5 f x y z w v	= f (x,y,z,w,v)
 
 -- (appreciator, performance, actor)
-appreciation	= [(R,Unspec,music),(R,Unspec,pink),(R,Unspec,hellokitty),(R,Unspec,cats),(R,Unspec,V)]
+appreciation	= [(R,Unspec,Z),(R,Unspec,P),(R,Unspec,I),(R,Unspec,Q),(R,Unspec,L)]
 
 threePlacers = [
     ]
@@ -231,8 +233,6 @@ births	= [(Unspec,A,X,Unspec),(Unspec,K,X,Unspec),(Unspec,M,X,Unspec)]
 
 fourPlacers = [
     ("born",	pred4 $ foldl (\cc (a,r,l,t) -> (a,r,l,t): (a,r,t,l): cc) [] births)
-    , ("started",	pred4 $ foldl (\cc (a,r,l,t) -> (a,r,l,t): (a,r,t,l): cc) []
-	    startups)
     , ("held", pred4 $ map (\(_,school,subject,student,degree) ->
 				(student,degree,subject,school) ) schooling )
 	
