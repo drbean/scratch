@@ -16,30 +16,30 @@ entities	=  [minBound..maxBound]
 
 entity_check :: [ (Entity, String) ]
 entity_check =  [
-    (A, "" )
-    , (B, "" )
-    , (C, "china" )
-    , (D, "dr_bean" )
-    , (E, "electrical_engineering" )
-    , (F, "1931" )
-    , (G, "1963" )
-    , (H, "mechanical_engineering" )
-    , (I, "1993" )
-    , (J, "jensen_huang" )
-    , (K, "" )
+    (A, "alex" )
+    , (B, "dr_bean" )
+    , (C, "cindy" )
+    , (D, "dave" )
+    , (E, "applied_foreign_languages" )
+    , (F, "" )
+    , (G, "" )
+    , (H, "minghsin university" )
+    , (I, "" )
+    , (J, "jeff" )
+    , (K, "kelly" )
     , (L, "" )
-    , (M, "morris_chang" )
-    , (N, "nvidia" )
-    , (O, "jensen's_master's_degree" )
-    , (P, "morris's_phd_degree" )
-    , (Q, "morris's_master's_degree" )
-    , (R, "" )
-    , (S, "student" )
-    , (T, "tsmc" )
-    , (U, "stanford_university" )
-    , (V, "mit" )
+    , (M, "mindy" )
+    , (N, "neil" )
+    , (O, "" )
+    , (P, "" )
+    , (Q, "" )
+    , (R, "rena" )
+    , (S, "shane" )
+    , (T, "" )
+    , (U, "" )
+    , (V, "vicky" )
     , (W, "taiwan" )
-    , (X, "" )
+    , (X, "xinzhu" )
     , (Y, "" )
     , (Z, "" )
     ]
@@ -47,18 +47,32 @@ entity_check =  [
 characters :: [ (String, Entity) ]
 
 characters = [
-	( "dr_bean",	D )
-	, ( "jensen_huang",	J )
-	, ( "morris_chang",	M )
-	, ( "nvidia",	N )
-	, ( "tsmc",	T )
-	, ( "1931",	F )
-	, ( "1963",	G )
-	, ( "1993",	I )
-	, ( "taiwan",	W )
-	, ( "china",	C )
-	, ( "stanford_university",	U )
-	, ( "mit",	V )
+	("alex", A)
+	, ("dr_bean", B)
+	, ("cindy", C)
+	, ("dave", D)
+	, ("applied_foreign_languages", E)
+	, ("", F)
+	, ("", G)
+	, ("minghsin university", H)
+	, ("", I)
+	, ("jeff", J)
+	, ("kelly", K)
+	, ("", L)
+	, ("mindy", M)
+	, ("neil", N)
+	, ("", O)
+	, ("", P)
+	, ("", Q)
+	, ("rena", R)
+	, ("shane", S)
+	, ("", T)
+	, ("", U)
+	, ("vicky", V)
+	, ("taiwan", W)
+	, ("xinzhu", X)
+	, ("", Y)
+	, ("", Z)
 
 	]
 
@@ -98,31 +112,23 @@ predid5 name = lookupPred name fivePlacers where
 	lookupPred n ((name,pred):is) | n == name	= pred
 	lookupPred n (i:is) = lookupPred name is
 
+students    = [A,C,D,J,K,M,N,R,S,V]
+
 onePlacers :: [(String, OnePlacePred)]
 onePlacers = [
 	("true",	pred1 entities )
 	, ("false",	pred1 [] )
 	, ("role",	pred1 [] )
-	, ("teacher",	pred1 [D] )
-	, ("ceo",	pred1 [J,M] )
-	, ("company",	pred1 [N,T] )
+	, ("teacher",	pred1 [B] )
+	, ("student",	pred1 students )
 
-	, ("male",	pred1 [D,J,M] )
-	, ("female",	pred1 [] )
+	, ("male",	pred1 [B,A,D,J,N,S] )
+	, ("female",	pred1 [C,K,M,R,V] )
 	, ("thing",	thing )
 
-	, ("old",	pred1 [D,M] )
-	, ("good",	pred1 [] )
-	, ("bad",	pred1 [] )
+	, ("old",	pred1 [B] )
 
-	, ("successful",	pred1 [M,J,N,T])
-	, ("unsuccessful",	pred1 [D])
-
-	, ("master's_degree",	pred1 [O,Q])
-	, ("phd_degree",	pred1 [P])
-
-	, ("electrical_engineering",	pred1 [E])
-	, ("mechanical_engineering",	pred1 [H])
+	, ("applied_foreign_languages",	pred1 [E])
 	]
 
 type OnePlacePred	= Entity -> Bool
@@ -152,18 +158,15 @@ pred5 xs	= curry5 ( `elem` xs )
 features	= []
 services    = []
 
-entrepreneurship	= [(M,T),(J,N)]
-
 knowledge	= []
 acquaintances	= [(M,J)]
-residents   = [(M,W),(D,W)]
+residents   = [(A,X),(M,X),(K,X)]
 
 twoPlacers :: [(String, TwoPlacePred)]
 twoPlacers = [
     ("know",	pred2 $ knowledge ++ acquaintances ++ map swap acquaintances)
     , ("have",	pred2 $ (foldl  (\hs (t,_,_,s,d) -> (t,s): (s,t): (s,d): hs )
 			[] schooling )
-			    ++ entrepreneurship ++ map swap entrepreneurship
 	)
     , ("like",	pred2 $ map (\(a,t,r) -> (a,t)) appreciation)
     , ("resident",	pred2 residents )
@@ -208,7 +211,7 @@ talked	= pred2 $ map (\x->(agent4 x, recipient4 x) ) comms
 talk_about = pred3 $ map (\x->(agent4 x, recipient4 x, theme4 x) ) comms
 
 -- (teacher,school(location),subject,student,degree)
-schooling   = [(Unspec,U,E,J,O),(Unspec,V,H,M,Q),(Unspec,U,E,M,P)]
+schooling   = map ( \x -> (Unspec,H,E,x,Unspec) ) students
 recite = pred2 $ map ( \x -> (agent4 x, theme4 x) ) comms
 giving	= map (\(a,t,p,_) -> (a,t,p) ) services
 -- (speaker,content,listener,mode)
