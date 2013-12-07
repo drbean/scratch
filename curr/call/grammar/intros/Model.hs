@@ -221,8 +221,7 @@ directives  = []
 -- (planner,situation,achiever,goal)
 goals	= []
 -- (mother,baby,place,year)
-births	= [(Unspec,J,W,G),(Unspec,M,C,F)]
-startups    = [(J,N,Unspec,I),(M,T,W,Unspec)]
+births	= [(Unspec,A,X,Unspec),(Unspec,K,X,Unspec),(Unspec,M,X,Unspec)]
 
 fourPlacers = [
     ("born",	pred4 $ foldl (\cc (a,r,l,t) -> (a,r,l,t): (a,r,t,l): cc) [] births)
