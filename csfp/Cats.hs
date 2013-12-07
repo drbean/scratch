@@ -11,10 +11,10 @@ class_names = [
 	, [Cat "person"  "CN" [Sg,MascOrFem,Thrd]  []]
 	, [Cat "persons" "CN" [Pl,MascOrFem,Thrd]  []]
 	, [Cat "people" "CN" [Pl,MascOrFem,Thrd]  []]
-	-- , [Cat "man"     "CN" [Sg,Masc,Thrd]  []]
-	-- , [Cat "men"     "CN" [Pl,Masc,Thrd]  []]
-	-- , [Cat "woman"   "CN" [Sg,Fem,Thrd]   []]
-	-- , [Cat "women"   "CN" [Pl,Fem,Thrd]   []]
+	, [Cat "man"     "CN" [Sg,Masc,Thrd]  []]
+	, [Cat "men"     "CN" [Pl,Masc,Thrd]  []]
+	, [Cat "woman"   "CN" [Sg,Fem,Thrd]   []]
+	, [Cat "women"   "CN" [Pl,Fem,Thrd]   []]
 	]
 
 possessives = [
