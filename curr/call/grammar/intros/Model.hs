@@ -32,7 +32,7 @@ entity_check =  [
     , (N, "neil" )
     , (O, "" )
     , (P, "the color pink" )
-    , (Q, "mi-mi" )
+    , (Q, "mi_mi" )
     , (R, "rena" )
     , (S, "shane" )
     , (T, "" )
