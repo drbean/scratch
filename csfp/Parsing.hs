@@ -154,6 +154,14 @@ preproc ("3":",000":"dollars":xs)	= "3_000_dollars" : preproc xs
 
 preproc (",":xs)           = preproc xs
 
+preproc ("applied":"foreign":"languages":xs)	= "applied_foreign_languages" : preproc xs
+preproc ("minghsin":"university":xs)	= "minghsin_university" : preproc xs
+preproc ("hello":"kitty":xs)	= "hello_kitty" : preproc xs
+preproc ("avril":"lavigne":xs)	= "avril_lavigne" : preproc xs
+preproc ("the":"color":"pink":xs)	= "the_color_pink" : preproc xs
+preproc ("mi":"mi":xs)	= "mi_mi" : preproc xs
+
+
 preproc ("steve":"wynn":xs)	= "steve_wynn" : preproc xs
 preproc ("entrance":"fee":xs)	= "entrance_fee" : preproc xs
 preproc ("the":"ferrari":"showroom":xs)	= "the_ferrari_showroom" : preproc xs
