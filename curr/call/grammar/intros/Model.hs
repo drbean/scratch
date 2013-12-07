@@ -27,7 +27,7 @@ entity_check =  [
     , (I, "" )
     , (J, "jeff" )
     , (K, "kelly" )
-    , (L, "" )
+    , (L, "avril_lavigne" )
     , (M, "mindy" )
     , (N, "neil" )
     , (O, "" )
@@ -127,9 +127,15 @@ onePlacers = [
 	, ("thing",	thing )
 
 	, ("old",	pred1 [B] )
+	, ("reserved",	pred1 [M,R] )
+	, ("reserved",	pred1 [M,R] )
+	, ("outgoing",	pred1 [R] )
 
 	, ("applied_foreign_languages",	pred1 [E])
 	]
+
+predid1 "optimistic" = predid1 "outgoing"
+predid1 "shy"	= predi1 "reserved"
 
 type OnePlacePred	= Entity -> Bool
 type TwoPlacePred	= Entity -> Entity -> Bool
@@ -181,7 +187,7 @@ curry4 f x y z w	= f (x,y,z,w)
 curry5 f x y z w v	= f (x,y,z,w,v)
 
 -- (appreciator, performance, actor)
-appreciation	= [(J,Unspec,M)]
+appreciation	= [(R,Unspec,music),(R,Unspec,pink),(R,Unspec,hellokitty),(R,Unspec,cats),(R,Unspec,V)]
 
 threePlacers = [
     ]
