@@ -154,8 +154,6 @@ preproc ("3":",000":"dollars":xs)	= "3_000_dollars" : preproc xs
 
 preproc (",":xs)           = preproc xs
 
-preproc ("how":"much":xs)	= "how_much" : preproc xs
-
 preproc ("steve":"wynn":xs)	= "steve_wynn" : preproc xs
 preproc ("entrance":"fee":xs)	= "entrance_fee" : preproc xs
 preproc ("the":"ferrari":"showroom":xs)	= "the_ferrari_showroom" : preproc xs
@@ -298,6 +296,8 @@ preproc ("the":"gathering":"place":xs)  = "the_gathering_place" : preproc xs
 preproc ("ten":"dollar":"bill":xs)      = "ten_dollar_bill" : preproc xs
 preproc ("administrative":"assistant":xs) = "administrative_assistant" : preproc xs
 preproc ("birthday":"card":xs)  = "birthday_card" : preproc xs
+
+preproc ("how":"much":xs)	= "how_much" : preproc xs
 
 preproc ("because":"of":xs)	= "because_of" : preproc xs
 
