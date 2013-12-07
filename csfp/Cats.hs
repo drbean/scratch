@@ -131,18 +131,18 @@ intransitives = [
 transitives = [
 	[Cat "had" "V" [Tense] [Cat "_" "NP" [AccOrDat] []]]
 	, [Cat "have" "V" [Infl] [Cat "_" "NP" [AccOrDat] []]]
-	--, [Cat "wanted" "V" [Tense] [Cat "_" "INF" [To] []],
-	--	Cat "wanted" "V" [Tense] [Cat "_" "NP" [AccOrDat] []],
-	--	Cat "wanted" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
-	--					Cat "_" "PP" [From] []],
-	--	Cat "wanted" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
-	--					Cat "_" "INF" [To] []]]
-	--, [Cat "want" "V" [Infl] [Cat "_" "INF" [To] []],
-	--	Cat "want" "V" [Infl] [Cat "_" "NP" [AccOrDat] []],
-	--	Cat "want" "V" [Infl] [Cat "_" "NP" [AccOrDat] [],
-	--					Cat "_" "PP" [From] []],
-	--	Cat "want" "V" [Infl] [Cat "_" "NP" [AccOrDat] [],
-	--					Cat "_" "INF" [To] []]]
+	, [Cat "wanted" "V" [Tense] [Cat "_" "INF" [To] []],
+		Cat "wanted" "V" [Tense] [Cat "_" "NP" [AccOrDat] []],
+		Cat "wanted" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [From] []],
+		Cat "wanted" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "INF" [To] []]]
+	, [Cat "want" "V" [Infl] [Cat "_" "INF" [To] []],
+		Cat "want" "V" [Infl] [Cat "_" "NP" [AccOrDat] []],
+		Cat "want" "V" [Infl] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "PP" [From] []],
+		Cat "want" "V" [Infl] [Cat "_" "NP" [AccOrDat] [],
+						Cat "_" "INF" [To] []]]
 	--, [Cat "decided" "V" [Tense] [Cat "_" "INF" [To] []],
 	--	Cat "decided" "V" [Tense] [Cat "_" "NP" [AccOrDat] []]]
 	--, [Cat "decide" "V" [Infl] [Cat "_" "INF" [To] []],
