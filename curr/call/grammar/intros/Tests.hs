@@ -4,16 +4,16 @@ import LogicalForm
 import Parsing
 
 birth	= [
-	"Mindy was born in Xinzhu."
-	, "Neil wasn't born in Xinzhu."
-	, "Was Mindy born in Xinzhu?"
-	, "Wasn't Neil born in Xinzhu?"
+	"Mindy was born in Hsinchu."
+	, "Neil wasn't born in Hsinchu."
+	, "Was Mindy born in Hsinchu?"
+	, "Wasn't Neil born in Hsinchu?"
 	-- , "Was Jensen Huang born in 1963?"
 	-- , "Jensen Huang was born in 1963."
 	-- , "Jensen Huang was born in Taiwan in 1963."
-	, "Kelly born in Xinzhu."
-	, "Did Neil born in Xinzhu?"
-	, "Neil didn't born in Xinzhu."
+	, "Kelly born in Hsinchu."
+	, "Did Neil born in Hsinchu?"
+	, "Neil didn't born in Hsinchu."
 	]
 
 birth_wh	= [
