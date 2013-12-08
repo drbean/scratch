@@ -192,6 +192,8 @@ curry5 f x y z w v	= f (x,y,z,w,v)
 appreciation	= [(R,Unspec,Z),(R,Unspec,P),(R,Unspec,I),(R,Unspec,Q),(R,Unspec,L)]
 
 threePlacers = [
+    ("wanted_to_work", pred3 careers )
+    , ("liked", pred3 appreciation )
     ]
 
 agent, theme, recipient, location, instrument ::
