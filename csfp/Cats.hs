@@ -84,27 +84,27 @@ determiners = [
 	]
 
 aux = [
-	[Cat "did"    "AUX" [Pos] [], Cat "did"    "TAG" [Pos] []],
-	[Cat "didn't" "AUX" [Ng] [], Cat "didn't" "TAG" [Ng] []]
+	[Cat "did"    "AUX" [Pos] [Cat "_" "V" [Infl] []], Cat "did"    "TAG" [Pos] []],
+	[Cat "didn't" "AUX" [Ng] [Cat "_" "V" [Infl] []], Cat "didn't" "TAG" [Ng] []]
 	]
 cops = [
-	[Cat "was"     "AUX" [Pos,Sg] [],
+	[Cat "was"     "AUX" [Pos,Sg] [Cat "_" "V" [Part] []],
 	 Cat "was"     "COP" [Pos,Sg] [],
 	 Cat "was"     "COP" [Pos,Sg] [Cat "_" "NP" [] []],
 	 Cat "was"     "COP" [Pos,Sg] [Cat "_" "ADJ" [] []],
 	 Cat "was"     "COP" [Pos,Sg] [Cat "_" "PP" [In] []],
 	 Cat "was"     "COP" [Pos,Sg] [Cat "_" "NP" [] [], Cat "_" "PP" [In] []]],
-	[Cat "wasn't"  "AUX" [Ng,Sg] [],
+	[Cat "wasn't"  "AUX" [Ng,Sg] [Cat "_" "V" [Part] []],
 	 Cat "wasn't"  "COP" [Ng,Sg] [],
 	 Cat "wasn't"  "COP" [Ng,Sg] [Cat "_" "NP" [] []],
 	 Cat "wasn't"  "COP" [Ng,Sg] [Cat "_" "ADJ" [] []],
 	 Cat "wasn't"  "COP" [Ng,Sg] [Cat "_" "PP" [] []]],
-	[Cat "were"    "AUX" [Pos,Pl] [],
+	[Cat "were"    "AUX" [Pos,Pl] [Cat "_" "V" [Part] []],
 	 Cat "were"    "COP" [Pos,Pl] [],
 	 Cat "were"    "COP" [Pos,Pl] [Cat "_" "NP" [] []],
 	 Cat "were"    "COP" [Pos,Pl] [Cat "_" "ADJ" [] []],
 	 Cat "were"    "COP" [Pos,Pl] [Cat "_" "PP" [] []]],
-	[Cat "weren't" "AUX" [Ng,Pl] [],
+	[Cat "weren't" "AUX" [Ng,Pl] [Cat "_" "V" [Part] []],
 	 Cat "weren't" "COP" [Ng,Pl] [],
 	 Cat "weren't" "COP" [Ng,Pl] [Cat "_" "NP" [] []],
 	 Cat "weren't" "COP" [Ng,Pl] [Cat "_" "ADJ" [] []],
