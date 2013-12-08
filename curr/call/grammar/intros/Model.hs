@@ -46,35 +46,7 @@ entity_check =  [
 
 characters :: [ (String, Entity) ]
 
-characters = [
-	("alex", A)
-	, ("dr_bean", B)
-	, ("cindy", C)
-	, ("dave", D)
-	, ("applied_foreign_languages", E)
-	, ("", F)
-	, ("", G)
-	, ("minghsin university", H)
-	, ("hello kitty", I)
-	, ("jeff", J)
-	, ("kelly", K)
-	, ("", L)
-	, ("mindy", M)
-	, ("neil", N)
-	, ("", O)
-	, ("the color pink", P)
-	, ("mi-mi", Q)
-	, ("rena", R)
-	, ("shane", S)
-	, ("", T)
-	, ("america", U)
-	, ("vicky", V)
-	, ("taiwan", W)
-	, ("xinzhu", X)
-	, ("", Y)
-	, ("", Z)
-
-	]
+characters = [(string,entity) | (entity,string) <- entity_check ]
 
 classes :: [String]
 classes = []
