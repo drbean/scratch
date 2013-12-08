@@ -31,9 +31,8 @@ names = [
 
 nouns = [
 	[Cat "teacher"	"CN" [Thrd,MascOrFem,Sg] []]
-	, [Cat "ceo"	"CN" [Thrd,MascOrFem,Sg] []]
-	, [Cat "ceos"	"CN" [Thrd,MascOrFem,Pl] []]
-	, [Cat "electrical_engineering"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "student"	"CN" [Thrd,MascOrFem,Sg] []]
+	, [Cat "students"	"CN" [Thrd,MascOrFem,Pl] []]
 	, [Cat "mechanical_engineering"	"NP" [Thrd,Neutr,Sg] []]
 
 	, [Cat "master's_degree"	"CN" [Thrd,Neutr,Sg] []]
