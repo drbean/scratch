@@ -20,6 +20,7 @@ birth	= [
 	, "Kelly born in Hsinchu."
 	, "Did Neil born in Hsinchu?"
 	, "Neil didn't born in Hsinchu."
+	, "Mindy was born in Taiwan"
 	]
 
 birth_wh	= [
