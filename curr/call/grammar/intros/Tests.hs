@@ -24,18 +24,16 @@ birth	= [
 	]
 
 birth_wh	= [
-	"When was Jensen Huang born?"
-	, "Who was born in 1963?"
-	, "Who wasn't born in 1931?"
-	-- , "Where was Jensen Huang born?"
+	"Where was Mindy born?"
+	, "Who was born in Hsinchu?"
+	, "Who wasn't born in Hsinchu?"
 	]
 
 birth_tag	= [
-	"Jensen Huang was born in Taiwan, wasn't he?"
-	, "Jensen Huang wasn't born in Taiwan, was he?"
-	, "Jensen Huang was born in Stanford University, wasn't he?"
-	-- , "Jensen Huang wasn't born in Taiwan, was Jensen Huang?"
-	-- "Jensen Huang was born in Taiwan in 1963, wasn't he?"
+	"Neil was born in Hsinchu, wasn't he?"
+	, "Neil wasn't born in Hsinchu, was he?"
+	, "Neil was born in America, wasn't he?"
+	-- , "Neil wasn't born in Hsinchu, was Neil?"
 	]
 
 passive_whs	= birth_wh ++ starts_wh
