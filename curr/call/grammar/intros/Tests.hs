@@ -3,6 +3,12 @@ module Tests where
 import LogicalForm
 import Parsing
 
+work	= [
+	"Rena worked in America."
+	, "Rena wanted to work in America."
+	, "Rena wanted to work in Hsinchu."
+	]
+
 birth	= [
 	"Mindy was born in Hsinchu."
 	, "Neil wasn't born in Hsinchu."
