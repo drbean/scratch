@@ -33,10 +33,6 @@ nouns = [
 	[Cat "teacher"	"CN" [Thrd,MascOrFem,Sg] []]
 	, [Cat "student"	"CN" [Thrd,MascOrFem,Sg] []]
 	, [Cat "students"	"CN" [Thrd,MascOrFem,Pl] []]
-	, [Cat "mechanical_engineering"	"NP" [Thrd,Neutr,Sg] []]
-
-	, [Cat "master's_degree"	"CN" [Thrd,Neutr,Sg] []]
-	, [Cat "phd_degree"	"CN" [Thrd,Neutr,Sg] []]
 
 
 	]
