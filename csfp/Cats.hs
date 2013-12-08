@@ -215,15 +215,15 @@ ditransitives = [
 		Cat "worked" "V" [Tense] [Cat "_" "PP" [At,Neutr] []],
 		Cat "worked" "V" [Tense] [Cat "_" "PP" [On,Neutr] []],
 		Cat "worked" "V" [Tense] [Cat "_" "PP" [In,Neutr] []],
-		Cat "worked" "V" [Tense] [Cat "_" "PP" [For,Neutr] []]],
-	[Cat "work" "NP" [Sg,Neutr,Thrd]  [],
+		Cat "worked" "V" [Tense] [Cat "_" "PP" [For,Neutr] []]]
+	, [Cat "work" "NP" [Sg,Neutr,Thrd]  [],
 		Cat "work" "NP" [Sg,Neutr,Thrd] [],
 		Cat "work" "V" [Infl] [],
 		Cat "work" "V" [Infl] [Cat "_" "PP" [As,Neutr] []],
 		Cat "work" "V" [Infl] [Cat "_" "PP" [At,Neutr] []],
 		Cat "work" "V" [Infl] [Cat "_" "PP" [On,Neutr] []],
 		Cat "work" "V" [Infl] [Cat "_" "PP" [In,Neutr] []],
-		Cat "work" "V" [Infl] [Cat "_" "PP" [For,Neutr] []]],
+		Cat "work" "V" [Infl] [Cat "_" "PP" [For,Neutr] []]]
 	--[Cat "gave" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
 	--					Cat "_" "PP" [To]       []],
 	--		Cat "gave" "V" [Tense] [Cat "_" "NP" [AccOrDat] [],
