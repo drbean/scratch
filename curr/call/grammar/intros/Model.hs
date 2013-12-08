@@ -118,6 +118,8 @@ onePlacers = [
 	, ("role",	pred1 [] )
 	, ("teacher",	pred1 [B] )
 	, ("student",	pred1 students )
+	, ("worker",	pred1 [ w | (w,period,_) <- careers,
+				    period == Present ] )
 
 	, ("male",	pred1 [B,A,D,J,N,S] )
 	, ("female",	pred1 [C,K,M,R,V] )
@@ -180,6 +182,8 @@ twoPlacers = [
     , ("resident",	pred2 residents )
     , ("kind",	pred2 $ map ( \(_,_,subject,student,degree) -> (degree,subject ) )
 		    schooling)
+    , ("wanted_to_work", pred2 $ [(a,c) | (a,p,c) <- careers,
+					    p == Future ] )
 	]
 
 
@@ -190,10 +194,15 @@ curry5 f x y z w v	= f (x,y,z,w,v)
 
 -- (appreciator, performance, actor)
 appreciation	= [(R,Unspec,Z),(R,Unspec,P),(R,Unspec,I),(R,Unspec,Q),(R,Unspec,L)]
+data Period	= Present | Future
+		deriving (Eq,Show,Bounded,Enum,Ord)
+periods :: [Period]
+periods	=  [minBound..maxBound] 
+-- (agent, status, ie present or future, career)
+careers	    = [(R,Future,U)]
 
 threePlacers = [
-    ("wanted_to_work", pred3 careers )
-    , ("liked", pred3 appreciation )
+    ("liked", pred3 appreciation )
     ]
 
 agent, theme, recipient, location, instrument ::
