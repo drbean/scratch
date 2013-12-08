@@ -154,8 +154,7 @@ twoPlacers = [
     , ("resident",	pred2 residents )
     , ("kind",	pred2 $ map ( \(_,_,subject,student,degree) -> (degree,subject ) )
 		    schooling)
-    , ("wanted_to_work", pred2 $ [(a,c) | (a,p,c) <- careers,
-					    p == Future ] )
+    , ("work",	pred2 $ [(a,c) | (a,p,c) <- careers, p == Present ] )
 	]
 
 
@@ -175,6 +174,8 @@ careers	    = [(R,Future,U)]
 
 threePlacers = [
     ("liked", pred3 appreciation )
+    , ("wanted_to_work",	pred3 $ [(a,a,c) | (a,p,c) <- careers,
+					    p == Future ] )
     ]
 
 agent, theme, recipient, location, instrument ::
