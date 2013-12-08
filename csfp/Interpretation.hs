@@ -29,8 +29,8 @@ inflections = [
  ( "take",	"got" ),
  ( "took",	"got" ),
  ( "bought", "got" ),
- --( "worked",   "work" ),
- ( "want", "wanted" ),
+ ( "worked",   "work" ),
+ ( "want_to_work", "wanted_to_work" ),
  
  ( "accepted", "got" ),
  ( "buy",	"bought" ),
@@ -46,13 +46,12 @@ relations = [
  ( "true", \[x] -> predid1 "true" x )
  , ( "had", \[x,y] -> predid2 "have" y x )
  , ( "gave",	\ [x,y,z] ->	predid3 "gave" z y x )
- --( "work", \args -> case args of
- --       [x] -> worker x
- --       [x,y] -> predid2 "work_where" y x || predid2 "work_as" y x ),
- , ( "wanted", \args -> case args of 
- 	[x,y,z,w] -> wanted w z y x
- 	[x,y,z] -> forgetful4 wanted z y x
- 	[x,y]	-> (forgetful3 . forgetful4 ) wanted y x )
+ , ( "work", \args -> case args of
+        [x] -> predid1 "worker" x
+        [x,y] -> predid2 "work_where" y x || predid2 "work_as" y x )
+ , ( "wanted_to_work", \args -> case args of 
+ 	[x,y,z] -> predid3 "wanted_to_work" z y x
+ 	[x,y]	-> forgetful3 ( predid3 "wanted_to_work" ) y x )
  , ( "got", \args -> case args of
  	[x,y,z] -> predid3 "got" z y x
  	[x,y] -> forgetful3 (predid3 "got") y x )
