@@ -684,9 +684,22 @@ auxVpR = \us xs -> [ (Branch (Cat "_" "VP" (fs (t2c aux)) [])
 	(aux,vs,ys) <- prsAUX us xs,
 	tag        <- [Cat (phon (t2c aux)) (catLabel(t2c aux)) (balancefs aux) []],
 	(inf,ws,zs) <- case us of
-		[Cat _ "NP" _ _] -> push tag vpR vs ys
-		otherwise -> vpR vs ys
-	-- inf'       <- assignT Infl inf ] 
+		[Cat _ "NP" _ _]	-> push tag vpR vs ys
+		otherwise	-> vpR vs ys,
+	inf'       <- case (phon (t2c aux), fs (t2c inf) ) of
+		("was",	[Part])	-> assignT Part inf
+		("#was",    [Part])	-> assignT Part inf
+		("wasn't",  [Part])	-> assignT Part inf
+		("#wasn't", [Part])	-> assignT Part inf
+		("were",    [Part])	-> assignT Part inf
+		("#were",   [Part])	-> assignT Part inf
+		("weren't", [Part])	-> assignT Part inf
+		("#weren't",[Part])	-> assignT Part inf
+		("did",	[Infl])	-> assignT Infl inf
+		("#did",    [Infl])	-> assignT Infl inf
+		("didn't",  [Infl])	-> assignT Infl inf
+		("#didn't", [Infl])	-> assignT Infl inf
+		otherwise   -> []
 			]
 
 prsAUX :: SPARSER Cat Cat
@@ -767,7 +780,7 @@ prsYN :: SPARSER Cat Cat
 prsYN = \us xs -> 
    [(Branch (Cat "_" "YN" [] []) [dum,s], ws,zs) | 
        (dum,vs,ys) <- prsCOPAUX us xs, 
-       gap         <- [Cat "#" (catLabel (t2c dum)) (fs (t2c dum))
+       gap         <- [Cat ("#"++phon (t2c dum) ) (catLabel (t2c dum)) (fs (t2c dum))
 					       (subcatList (t2c dum)) ], 
        (s,ws,zs)   <- push gap prsS vs ys ]
 
