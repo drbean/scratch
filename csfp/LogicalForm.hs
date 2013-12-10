@@ -356,13 +356,13 @@ transVP (Branch (Cat _ "VP" _ _)
                 [Leaf (Cat "couldn't" "AUX" _ []),vp]) = 
         \x -> Neg ((transVP vp) x)
 transVP (Branch (Cat _ "VP" _ _) 
-                [Leaf (Cat "did" "AUX" _ []),vp]) = 
+                [Leaf (Cat "did" "AUX" _ _),vp]) = 
         transVP vp 
 transVP (Branch (Cat _ "VP" _ _) 
-                [Leaf (Cat "didn't" "AUX" _ []),vp]) = 
+                [Leaf (Cat "didn't" "AUX" _ _),vp]) = 
         \x -> Neg ((transVP vp) x)
 transVP (Branch (Cat _ "VP" _ _) 
-	    [Leaf (Cat ('#':_) "AUX" _ []),vp]) = 
+	    [Leaf (Cat ('#':_) "AUX" _ _),vp]) = 
         transVP vp 
 
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat name "V" _ [])]) = 
