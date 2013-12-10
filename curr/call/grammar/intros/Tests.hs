@@ -7,6 +7,9 @@ work	= [
 	"Rena worked in America."
 	, "Rena wanted to work in America."
 	, "Rena wanted to work in Hsinchu."
+	, "Did Rena work in America."
+	, "Did Rena want to work in America."
+	, "Did Rena want to work in Hsinchu."
 	]
 
 birth	= [
@@ -34,6 +37,7 @@ birth_tag	= [
 	, "Neil wasn't born in Hsinchu, was he?"
 	, "Neil was born in America, wasn't he?"
 	-- , "Neil wasn't born in Hsinchu, was Neil?"
+	-- "Neil was born in Hsinchu in 1963, wasn't he?"
 	]
 
 passive_whs	= birth_wh ++ starts_wh
