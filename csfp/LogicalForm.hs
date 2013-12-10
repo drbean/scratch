@@ -150,7 +150,7 @@ transS (Just (Branch (Cat _ "YN" _ _)
        [Leaf (Cat "couldn't" "AUX" _ []),s])) = transS (Just s)
 
 transS (Just (Branch (Cat _ "YN" _ _) 
-       [Leaf (Cat _ "AUX" _ []),s])) = transS (Just s)
+       [Leaf (Cat _ "AUX" _ _),s])) = transS (Just s)
 
 transS (Just (Branch (Cat _ "YN" _ _) 
        [Leaf (Cat _ "COP" _ _),s])) = transS (Just s)
