@@ -601,19 +601,19 @@ scalia:
             - Joe
             - Lamb
             - Scalia
-          answer: Jim
+          answer: Lamb
         - question: B
           option:
             - Joe
             - Lamb
             - Scalia
-          answer: Kyle
+          answer: Joe
         - question: C
           option:
             - Joe
             - Lamb
             - Scalia
-          answer: Mike
+          answer: Scalia
         - question: Scalia wants Lamb to put the Supreme Court on TV.
           answer  : False
         - question: Joe Public wants to watch Scalia on TV.
