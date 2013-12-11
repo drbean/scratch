@@ -9,7 +9,7 @@ work	= [
 	, "Rena wanted to work in Hsinchu."
 	, "Did Rena work in America."
 	, "Did Rena want to work in America."
-	, "Did Rena want to work in Hsinchu."
+	, "Rena did want to work in America."
 	]
 
 birth	= [
@@ -33,7 +33,8 @@ birth_wh	= [
 	]
 
 birth_tag	= [
-	"Neil was born in Hsinchu, wasn't he?"
+	"Mindy was born in Hsinchu, wasn't she?"
+	, "Neil was born in Hsinchu, wasn't he?"
 	, "Neil wasn't born in Hsinchu, was he?"
 	, "Neil was born in America, wasn't he?"
 	-- , "Neil wasn't born in Hsinchu, was Neil?"
