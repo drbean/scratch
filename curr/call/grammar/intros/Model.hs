@@ -16,30 +16,30 @@ entities	=  [minBound..maxBound]
 
 entity_check :: [ (Entity, String) ]
 entity_check =  [
-    (A, "alex" )
-    , (B, "dr_bean" )
-    , (C, "cindy" )
-    , (D, "dave" )
+    -- (A, "alex" )
+    (B, "dr_bean" )
+    -- , (C, "cindy" )
+    -- , (D, "dave" )
     , (E, "applied_foreign_languages" )
     , (F, "" )
     , (G, "" )
     , (H, "minghsin_university" )
     , (I, "hello_kitty" )
-    , (J, "jeff" )
-    , (K, "kelly" )
+    -- , (J, "jeff" )
+    -- , (K, "kelly" )
     , (L, "avril_lavigne" )
-    , (M, "mindy" )
-    , (N, "neil" )
+    -- , (M, "mindy" )
+    -- , (N, "neil" )
     , (O, "" )
     , (P, "the_color_pink" )
     , (Q, "mi_mi" )
     , (R, "rena" )
-    , (S, "shane" )
+    -- , (S, "shane" )
     , (T, "" )
     , (U, "america" )
-    , (V, "vicky" )
-    , (W, "taiwan" )
-    , (X, "hsinchu" )
+    -- , (V, "vicky" )
+    -- , (W, "taiwan" )
+    -- , (X, "hsinchu" )
     , (Y, "" )
     , (Z, "music" )
     ]
@@ -96,7 +96,7 @@ onePlacers = [
 	, ("male",	pred1 [B,A,D,J,N,S] )
 	, ("female",	pred1 [C,K,M,R,V] )
 	, ("thing",	thing )
-	, ("cat",	pred1 [N] )
+	, ("cat",	pred1 [Q] )
 
 	, ("old",	pred1 [B] )
 	, ("reserved",	pred1 [M,R] )
@@ -143,11 +143,12 @@ services    = []
 knowledge	= []
 acquaintances	= [(M,J)]
 residents   = [(A,X),(M,X),(K,X)]
+possessions = [(R,Q)]
 
 twoPlacers :: [(String, TwoPlacePred)]
 twoPlacers = [
     ("know",	pred2 $ knowledge ++ acquaintances ++ map swap acquaintances)
-    , ("have",	pred2 $ (foldl  (\hs (t,_,_,s,d) -> (t,s): (s,t): (s,d): hs )
+    , ("have",	pred2 $ possessions ++ (foldl  (\hs (t,_,_,s,d) -> (t,s): (s,t): (s,d): hs )
 			[] schooling )
 	)
     , ("like",	pred2 $ map (\(a,t,r) -> (a,t)) appreciation)
