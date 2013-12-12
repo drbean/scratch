@@ -41,16 +41,6 @@ verbs = [
 	[Cat "born"	"V" [Part] []
 	, Cat "born"	"V" [Part] [Cat "_" "PP" [In] []]
 	, Cat "born"	"V" [Part] [Cat "_" "PP" [In] [], Cat "_" "PP" [In] []]]
-	--, [Cat "started"	"V" [Part] []
-	--, Cat "started"	"V" [Part] [Cat "_" "PP" [In] []]
-	--, Cat "started"	"V" [Part] [Cat "_" "PP" [By] [], Cat "_" "PP" [In] []]
-	--, Cat "started"	"V" [Part] [Cat "_" "PP" [In] [], Cat "_" "PP" [By] []]
-	--, Cat "started" "V" [Tense] [Cat "_" "NP" [AccOrDat] []]
-	--, Cat "started" "V" [Tense] [Cat "_" "NP" [AccOrDat] []
-	--			, Cat "_" "PP" [In] []]]
-	--, [Cat "start" "V" [Infl] [Cat "_" "NP" [AccOrDat] []]
-	--, Cat "start" "V" [Infl] [Cat "_" "NP" [AccOrDat] []
-	--			, Cat "_" "PP" [In] []]]
 	]
 
 aux = [
