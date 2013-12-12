@@ -160,6 +160,7 @@ preproc ("hello":"kitty":xs)	= "hello_kitty" : preproc xs
 preproc ("avril":"lavigne":xs)	= "avril_lavigne" : preproc xs
 preproc ("the":"color":"pink":xs)	= "the_color_pink" : preproc xs
 preproc ("mi":"mi":xs)	= "mi_mi" : preproc xs
+preproc ("brothers":"and":"sisters":xs)	= "brothers_and_sisters" : preproc xs
 
 
 preproc ("steve":"wynn":xs)	= "steve_wynn" : preproc xs
