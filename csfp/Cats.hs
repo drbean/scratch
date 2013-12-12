@@ -30,7 +30,7 @@ prons = [
 	-- [Cat "you" "NP" [Pers,Snd]               []],
 	[Cat "he"  "NP" [Pers,Thrd,Sg,Nom,Masc]  []],
 	---- [Cat "him" "NP" [Pers,Thrd,Sg,AccOrDat,Masc] []],
-	--[Cat "she" "NP" [Pers,Thrd,Sg,Nom,Fem]   []],
+	[Cat "she" "NP" [Pers,Thrd,Sg,Nom,Fem]   []],
 	---- [Cat "her" "NP" [Pers,Thrd,Sg,AccOrDat,Fem] []],
 	[Cat "it"  "NP" [Pers,Thrd,Sg,Neutr]     []],
 	[Cat "they" "NP" [Pers,Thrd,Pl,Nom]     []]
