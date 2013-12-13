@@ -56,6 +56,7 @@ topic:
           We studied 180 words from the Academic Wordlist, but it is better to study words you want to learn, rather than someone else wants you learn. Make a deck of cards of words you want to study and upload them to Mnemosyne or Anki so other people can study them also.
         comment: |
           Creating the deck of cards. Make 10 or more cards.
+
   -
     id: self-intros
     title: Self-introductions
@@ -121,6 +122,12 @@ topic:
         blurb: |
           N00200030
         comment: Transcribed by Alex
+      -
+        id: q-and-a
+        title: Questions, Answers about self-introductions
+        blurb: |
+          Although it is more natural for questions about the members of the class ("Who has a cat") to be in present tense, all questions must be in past tense ("Who had a cat") and they must only use the words from the list. If something was not mentioned in the video, then it can be assumed that answers to questions about that thing are No. So, the answer to ("Dr Bean didn't have a mother, did he?") is "No. He didn't." Many students didn't talk about their families in their videos, so they didn't have families. Check out the videos on http://ec.must.edu.tw
+        comment: I don't have the resources of IBM. This is all my own work. So you are going to find problems with the app. Some of your grammatical questions will be evaluated as ungrammatical. Some of your questions with correct answers will be evaluated as having the wrong answers. If the answer is wrong to a question like, "Did the man who was a teacher want to work in Hsinchu," for example, (if it is "No," not "Yes," for example), then please contact me by using the web form on the app.
       
   -
     id: dictation
