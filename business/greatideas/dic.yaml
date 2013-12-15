@@ -8,12 +8,23 @@
   - unclozeables
   - percent
 -
-  - cars
-  - Penske-Wynn's problem
+  - wynn
+  - Wynn opens Macau casino
   - business
-  - A
-  - At the Penske-Wynn Maserati-Ferrari showroom in Las Vegas, people didn't want to buy the cars. they just wanted to look at them. The problem was that there were lots of these people. Many Americans who aren't rich go to Las Vegas because they dream about winning lots of money. These people like to look at expensive cars.
-  - Penske-Wynn|Maserati-Ferrari|Las Vegas
+  - all
+  - |+
+    Wynn: We're all very excited, and very .. very proud, and very grateful, that we have been allowed to be part of the Macau scene. Our company and all of us that work in it are grateful and humble that we have been given a chance by the government to be part of this community and to contribute to it. And we hope to be here forever. So, thank you Macau for giving us this moment. 
+
+    We've got a plunger here. We're coming up on 8:08. So, Linda, Ian, Alan. Right here, my boy. Where is the button. Is everybody ready? Look out towards Taipa. You're ready? OK, we're all going to hit this button. One, two, three.
+
+    0:30:
+    Interviewer: OK, this place is amazing, Tony. Tell me about the dealership.
+    Dealer: Well, we're an exclusive Ferrari-Maserati dealer here in Vegas with full service and parts. And we have a nice selection of pre-owned Ferraris. The new ones [..] you have to wait about a year or so.
+
+    Interviewer: And what is the most expensive vehicle you have in here?
+    Dealer: Right now, we have an antique, a '57 Super America going for a million eight.
+  - Wynn|Taipa|plunger|Linda|Ian|Alan|0:30|Interviewer|Dealer|Tony|Ferrari|Maserati|Vegas|antique
+  - 50
 -
   - cars
   - A good idea
