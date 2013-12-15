@@ -218,6 +218,12 @@ topic:
     intro: The secret to business success is a great idea. IKEA's ideas were great. Here are some other great ideas.
     story:
       -
+        id: wynn
+        title: Las Vegas car showroom charges admission fee
+        blurb: <a href="http://en.wikipedia.org/wiki/Steve_Wynn_(entrepreneur)">Steve Wynn</a> runs the <a href="http://en.wikipedia.org/wiki/Wynn_Las_Vegas">Wynn Las Vegas Casino Hotel/Resort</a>, a gambling casino hotel. For the people who win a lot of money from him, he has a <a href="http://en.wikipedia.org/wiki/Wynn_Las_Vegas#Penske-Wynn_Ferrari-Maserati_dealership">car showroom</a> that sells expensive cars. There he can get back some of the money that he has lost to them. But people were just coming to look at the cars. That is the problem. What was the good idea? Did it work? What can YOU learn from Wynn's experiment?
+        comment: |+
+          Listen to Wynn <a href="http://www.youtube.com/watch?v=opi6nra7ETg">open the Wynn Macau Resort</a> in <a href="http://en.wikipedia.org/wiki/Macau">Macau</a>. Then listen to a <a href="http://www.youtube.com/watch?v=vl82X5lE708">dealer introduce the Penske-Wynn Ferrari Maserati showroom</a> in Las Vegas.
+      -
         id: cars
         title: Las Vegas car showroom charges admission fee
         blurb: <a href="http://en.wikipedia.org/wiki/Steve_Wynn_(entrepreneur)">Steve Wynn</a> runs the <a href="http://en.wikipedia.org/wiki/Wynn_Las_Vegas">Wynn Las Vegas Casino Hotel/Resort</a>, a gambling casino hotel. For the people who win a lot of money from him, he has a <a href="http://en.wikipedia.org/wiki/Wynn_Las_Vegas#Penske-Wynn_Ferrari-Maserati_dealership">car showroom</a> that sells expensive cars. There he can get back some of the money that he has lost to them. But people were just coming to look at the cars. That is the problem. What was the good idea? Did it work? What can YOU learn from Wynn's experiment?
