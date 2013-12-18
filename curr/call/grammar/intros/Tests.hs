@@ -3,6 +3,58 @@ module Tests where
 import LogicalForm
 import Parsing
 
+vicky = [
+	"Vicky's mother was a babysitter."
+	,"Vicky's mother was a teacher."
+	-- ,"Vicky's mother taught children."
+	, "Vicky had some sisters."
+	, "Vicky's sisters were students."
+	, "Vicky liked shopping."
+	, "Vicky had some hobbies."
+	, "Vicky's hobby was exercising."
+	, "Vicky liked reading."
+	, "Vicky went out with friends on weekends."
+	, "Vicky worked at a drug_store."
+	]
+
+cindy = [
+	"Cindy was born in Jiayi."
+	, "Cindy had a mother."
+	, "Cindy liked playing the piano."
+	, "Cindy liked listening to music."
+	, "Cindy was 24."
+	]
+
+studies	= [
+	"Alex studied English in Minghsin University."
+	, "Jeff studied in Minghsin University Applied Foreign Languages."
+	, "Jeff's brothers and sisters studied in Minghsin University."
+	, "Rena studied English."
+	, "Rena studied Applied Foreign Languages."
+	]
+
+jeff	= [
+	"Jeff liked basketball."
+	, "Jeff had a father."
+	, "Jeff's mother was a career woman."
+	, "Jeff's brothers and sisters were students."
+	, "Jeff's brothers and sisters were students in Minghsin University."
+	]
+
+residents	= [
+	"Rena lived in Hsinchu."
+	, "Alex lived in Hsinchu."
+	, "Shane lived in Hukou."
+	]
+
+likes	= [
+	"Rena liked America."
+	, "Rena liked cats."
+	, "Rena liked Hello Kitty."
+	, "Did Rena like the color pink."
+	, "Did Jeff like the color pink."
+	]
+
 work	= [
 	"Rena worked in America."
 	, "Rena wanted to work in America."
@@ -10,6 +62,7 @@ work	= [
 	, "Did Rena work in America."
 	, "Did Rena want to work in America."
 	, "Rena did want to work in America."
+	, "Alex was a design assistant."
 	]
 
 birth	= [
@@ -48,8 +101,8 @@ passive_parse	=  map ( birth_wh !! ) [0,2] ++ map ( birth !! ) [1,2] ++ map ( bi
 -- passive_trans	=  (handler transWH $ map ( birth_wh !! ) [0,2]) ++ (handler transTXT $ map ( birth !! ) [1,2]) ++ (handler transTAG $ map ( birth_tag !! ) [0,2])
 	
 haves =	[
-	"Did Jensen Huang have a company?"
-	, "Did Jensen Huang have a master's degree?"
+	"Did Jeff have a farmer?"
+	, "Did Jeff have a basketball?"
 	, "Did Jensen Huang have a master's degree in electrical engineering?"
 	, "Did Jensen Huang have a master's degree in mechanical engineering?"
 	, "Did Morris Chang have a master's degree in mechanical engineering?"
@@ -110,46 +163,8 @@ comp_tests = [
 	]
 
 relatives = [
-	"Who was the person who NVIDIA was started by?"
-	]
-
-mia0009 = [
-	"Jensen Huang moved to the U.S when he was eight years old, didn't he?"
-	, "Where was Morris Chang born ?"
-	, "How old is Jensen Huang?"
-	, "Was Jensen Huang born in February?"
-	, "Where did Jensen Huang graduate from before moving to Califovnia?"
-	, "How much time did Morris Chang take to Master's degree?"
-	, "Which university did Jensen Huang graduation from?"
-	, "Where is Morris Chang from?"
-	, "Jensen Huang moved to the U.S when he was 10,didn't he?"
-	, "Where was Morris born?"
-	, "Where did Jensen Huang graduate from?"
-	, "Was NVIOIA starts in 1993?"
-	, "Is Morris Chang graduated from M.I.T?"
-	, "Where was Jensen Huang born?"
-	, "What is Jensen Huang's chinese name?"
-	, "How old is Morris Chang?"
-	, "How old was Jensen Huang when he moved to the U.S?"
-	, "Morris Chang's birthday is July 10,isn't he ?"
-	, "Is Jensen Huang really a bankrupt?"
-	, "How old did Morris Chang move to the U.S?"
-	, "Does Jensen Huang like Taiwan?"
-	, "Has Morris Chang worked with Jensen Huang?"
-	, "Does Jensen Huang play table tennis?"
-	, "Did Morris Chang move to the U.S when he was ten?"
-	, "When is Jensen Huang's birthday?"
-	, "How old is Morris Chang?"
-	, "Zhang Zhong-Mo's college was MIT,wasn't it?"
-	, "Where was Huang Ren-Xun's birthplace?"
-	, "When did Jensen Huang move to the U.S?"
-	, "Is Morris Chang birthplace in China?"
-	, "When was Morris Chang born ?"
-	, "How old is Jensen Huang?"
-	, "Did Zhang Zhong-Mo take one year to do master's degree?"
-	, "What company did Jensen Huang create?"
-	, "Does Jensen Huang born in 1964?"
-	, "Does Morris Chang born in Taiwan?"
-	, "Did Jensen take more time than Morris to do Master's degree?"
-	, "How old was Morris when he moved to the U.S?"
+	"Who was a man who was a teacher?"
+	, "Who was the man who was a teacher?"
+	, "Who was a man who was a student?"
+	, "Who was the man who was a student?"
 	]
