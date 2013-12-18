@@ -1,48 +1,212 @@
-module Model where 
+module Model where
 
 import Data.Tuple
 import Data.List
 import Data.Maybe
 
-data Entity	= A | B | C | D | E | F | G 
-		| H | I | J | K | L | M | N 
-		| O | P | Q | R | S | T | U 
-		| V | W | X | Y | Z 
+data Entity	=
+
+		  A | B | C | D | E | F | G
+		| H | I | J | K | L | M | N
+		| O | P | Q | R | S | T | U
+		| V | W | X | Y | Z
+
+		| RA | RB | RC | RD | RE | RF | RG
+		| RH | RI | RJ | RK | RL | RM | RN
+		| RO | RP | RQ | RR | RS | RT | RU
+		| RV | RW | RX | RY | RZ
+
+		| JA | JB | JC | JD | JE | JF | JG
+		| JH | JI | JJ | JK | JL | JM | JN
+		| JO | JP | JQ | JR | JS | JT | JU
+		| JV | JW | JX | JY | JZ
+
+		| AA | AB | AC | AD | AE | AF | AG
+		| AH | AI | AJ | AK | AL | AM | AN
+		| AO | AP | AQ | AR | AS | AT | AU
+		| AV | AW | AX | AY | AZ
+
+		| CA | CB | CC | CD | CE | CF | CG
+		| CH | CI | CJ | CK | CL | CM | CN
+		| CO | CP | CQ | CR | CS | CT | CU
+		| CV | CW | CX | CY | CZ
+
+		| VA | VB | VC | VD | VE | VF | VG
+		| VH | VI | VJ | VK | VL | VM | VN
+		| VO | VP | VQ | VR | VS | VT | VU
+		| VV | VW | VX | VY | VZ
+
 		| Someone | Something | Unspec
 		deriving (Eq,Show,Bounded,Enum,Ord)
 
 entities :: [Entity]
-entities	=  [minBound..maxBound] 
+entities	=  [minBound..maxBound]
 
 entity_check :: [ (Entity, String) ]
 entity_check =  [
-    -- (A, "alex" )
-    (B, "dr_bean" )
-    -- , (C, "cindy" )
+    (A, "alex" )
+    , (B, "dr_bean" )
+    , (C, "cindy" )
     -- , (D, "dave" )
     , (E, "applied_foreign_languages" )
     , (F, "" )
     , (G, "" )
     , (H, "minghsin_university" )
-    , (I, "hello_kitty" )
-    -- , (J, "jeff" )
+    , (I, "reading" )
+    , (J, "jeff" )
     -- , (K, "kelly" )
-    , (L, "avril_lavigne" )
+    , (L, "" )
     -- , (M, "mindy" )
     -- , (N, "neil" )
     , (O, "" )
-    , (P, "the_color_pink" )
-    , (Q, "mi_mi" )
+    , (P, "" )
+    , (Q, "" )
     , (R, "rena" )
     -- , (S, "shane" )
     , (T, "" )
-    , (U, "america" )
-    -- , (V, "vicky" )
+    , (U, "listening_to_music" )
+    , (V, "vicky" )
     -- , (W, "taiwan" )
-    -- , (X, "hsinchu" )
+    , (X, "hsinchu" )
     , (Y, "" )
-    , (Z, "music" )
-    ]
+    , (Z, "" )
+
+    , (RA, "")
+    , (RB, "")
+    , (RC, "")
+    , (RD, "")
+    , (RE, "")
+    , (RF, "")
+    , (RG, "")
+    , (RH, "")
+    , (RI, "")
+    , (RJ, "")
+    , (RK, "hello_kitty")
+    , (RL, "avril_lavigne")
+    , (RM, "")
+    , (RN, "")
+    , (RO, "")
+    , (RP, "the_color_pink")
+    , (RQ, "mi_mi")
+    , (RR, "")
+    , (RS, "")
+    , (RT, "")
+    , (RU, "america")
+    , (RV, "")
+    , (RW, "")
+    , (RX, "")
+    , (RY, "")
+    , (RZ, "")
+
+    , (JA, "")
+    , (JB, "basketball")
+    , (JC, "")
+    , (JD, "")
+    , (JE, "exercise")
+    , (JF, "Jeff's father")
+    , (JG, "Jeff's grandmother")
+    , (JH, "Huang Che-Yu")
+    , (JI, "")
+    , (JJ, "")
+    , (JK, "")
+    , (JL, "")
+    , (JM, "Jeff's mother")
+    , (JN, "April 30th, 1994")
+    , (JO, "")
+    , (JP, "")
+    , (JQ, "")
+    , (JR, "")
+    , (JS, "Jeff's 2 siblings")
+    , (JT, "Taoyuan")
+    , (JU, "")
+    , (JV, "")
+    , (JW, "")
+    , (JX, "")
+    , (JY, "1994")
+    , (JZ, "")
+
+    , (AA, "")
+    , (AB, "Alex's brother")
+    , (AC, "")
+    , (AD, "drawing")
+    , (AE, "")
+    , (AF, "")
+    , (AG, "")
+    , (AH, "Alex's hobbies")
+    , (AI, "")
+    , (AJ, "Alex's job")
+    , (AK, "")
+    , (AL, "sleeping")
+    , (AM, "")
+    , (AN, "")
+    , (AO, "")
+    , (AP, "")
+    , (AQ, "")
+    , (AR, "reading")
+    , (AS, "Alex's sister")
+    , (AT, "travel")
+    , (AU, "")
+    , (AV, "")
+    , (AW, "")
+    , (AX, "")
+    , (AY, "")
+    , (AZ, "")
+
+    , (CA, "")
+    , (CB, "")
+    , (CC, "")
+    , (CD, "")
+    , (CE, "")
+    , (CF, "Cindy's dad")
+    , (CG, "")
+    , (CH, "")
+    , (CI, "")
+    , (CJ, "jiayi")
+    , (CK, "")
+    , (CL, "")
+    , (CM, "Cindy's mom")
+    , (CN, "")
+    , (CO, "")
+    , (CP, "playing_the_piano")
+    , (CQ, "")
+    , (CR, "")
+    , (CS, "Cindy's sister")
+    , (CT, "")
+    , (CU, "")
+    , (CV, "")
+    , (CW, "")
+    , (CX, "")
+    , (CY, "")
+    , (CZ, "")
+
+    , (VA, "")
+    , (VB, "")
+    , (VC, "")
+    , (VD, "drug_store")
+    , (VE, "exercising")
+    , (VF, "Vicky's father")
+    , (VG, "shopping")
+    , (VH, "")
+    , (VI, "")
+    , (VJ, "")
+    , (VK, "")
+    , (VL, "")
+    , (VM, "Vicky's mother")
+    , (VN, "")
+    , (VO, "")
+    , (VP, "")
+    , (VQ, "")
+    , (VR, "")
+    , (VS, "Vicky's first sister")
+    , (VT, "Vicky's second sister")
+    , (VU, "")
+    , (VV, "")
+    , (VW, "weekends")
+    , (VX, "")
+    , (VY, "")
+    , (VZ, "")
+
+	]
 
 characters :: [ (String, Entity) ]
 
@@ -81,33 +245,57 @@ predid5 name = lookupPred name fivePlacers where
 	lookupPred n ((name,pred):is) | n == name	= pred
 	lookupPred n (i:is) = lookupPred name is
 
-students    = [A,C,D,J,K,M,N,R,S,V]
+afld_students    = [A,C,D,J,K,M,N,R,S,V]
+other_students = [JS,VS,VT]
+students = afld_students ++ other_students
 
 onePlacers :: [(String, OnePlacePred)]
 onePlacers = [
 	("true",	pred1 entities )
 	, ("false",	pred1 [] )
 	, ("role",	pred1 [] )
-	, ("teacher",	pred1 [B] )
+	, ("teacher",	pred1 [ t | (t,_,_,_,_) <- schooling,
+				    t /= Unspec ] ) 
 	, ("student",	pred1 students )
 	, ("worker",	pred1 [ w | (w,period,_) <- careers,
 				    period == Present ] )
+	, ("father",	pred1 [JF,CF] )
+	, ("mother",	pred1 [ m | (m,_,_,_) <- births,
+				    m /= Unspec ] )
+	, ("brother", pred1 [AB] )
+	, ("sister", pred1 [AS,CS,VS,VT] )
+	, ("sibling", pred1 [JS,AB,CS] )
+	, ("cats", pred1 [RQ] )
 
-	, ("male",	pred1 [B,A,D,J,N,S] )
-	, ("female",	pred1 [C,K,M,R,V] )
+	, ("male",	pred1 [B,A,D,J,N,S,JF] )
+	, ("female",	pred1 [C,K,M,R,V,JM] )
 	, ("thing",	thing )
-	, ("cat",	pred1 [Q] )
+	, ("cat",	pred1 [RQ] )
 
 	, ("old",	pred1 [B] )
 	, ("reserved",	pred1 [M,R] )
 	, ("reserved",	pred1 [M,R] )
-	, ("outgoing",	pred1 [R] )
+	, ("outgoing",	pred1 [R,J] )
+	, ("polite",	pred1 [R,J] )
 
+	, ("career_woman",	pred1 [JM] )
+	, ("truck_driver",	pred1 [JF] )
+
+	, ("design_assistant",	pred1 [A] )
 	, ("applied_foreign_languages",	pred1 [E])
+
+	, ("24",	pred1 [C])
+
+	, ("babysitter",	pred1 [VM])
+	, ("hobby",	pred1 [I,U,JB,JE,AD,AL,AT,CP,VE,VG])
+
 	]
 
+-- predid1 "sibling"   = or [(pred1 [JS]) (predid1 "brother") (predid1 "sister")]
+predid1 "english"	= predid1 "applied_foreign_languages"
 predid1 "optimistic"	= predid1 "outgoing"
 predid1 "shy"	= predid1 "reserved"
+predid1 "well-behaved"	= predid1 "polite"
 predid1 name = lookup1 name onePlacers where
 	lookup1 name []	= error $ "no '" ++ name ++ "' one-place predicate."
 	lookup1 name ((n,p):_) | n == name	= p
@@ -143,7 +331,9 @@ services    = []
 knowledge	= []
 acquaintances	= [(M,J)]
 residents   = [(A,X),(M,X),(K,X)]
-possessions = [(R,Q)]
+family	= [(R,RQ), (J,JF),(J,JM),(J,JS),(C,CD),(C,CM),(C,CS),(V,VF),(V,VM),(V,VS),(V,VT)]
+-- see births
+possessions = family
 
 twoPlacers :: [(String, TwoPlacePred)]
 twoPlacers = [
@@ -151,10 +341,10 @@ twoPlacers = [
     , ("have",	pred2 $ possessions ++ (foldl  (\hs (t,_,_,s,d) -> (t,s): (s,t): (s,d): hs )
 			[] schooling )
 	)
-    , ("like",	pred2 $ map (\(a,t,r) -> (a,t)) appreciation)
-    , ("resident",	pred2 residents )
-    , ("kind",	pred2 $ map ( \(_,_,subject,student,degree) -> (degree,subject ) )
-		    schooling)
+    , ("like",	pred2 $ map (\(a,t,r) -> (a,r)) appreciation)
+    , ("live",	pred2 residents )
+    , ("studied", pred2 (foldl  (\ss (_,school,subject,student,_) ->
+	(student,subject): (student,school): ss ) [] schooling ) )
     , ("work",	pred2 $ [(a,c) | (a,p,c) <- careers, p == Present ] )
 	]
 
@@ -165,18 +355,26 @@ curry4 f x y z w	= f (x,y,z,w)
 curry5 f x y z w v	= f (x,y,z,w,v)
 
 -- (appreciator, performance, actor)
-appreciation	= [(R,Unspec,Z),(R,Unspec,P),(R,Unspec,I),(R,Unspec,Q),(R,Unspec,L)]
+appreciation	= [
+    (R,Unspec,U),(R,Unspec,RP),(R,Unspec,RK),(R,Unspec,RQ),(R,Unspec,RL)
+    ,(J,Unspec,JB),(J,Unspec,JE),(J,Unspec,JE)
+    , (A,Unspec,AL),(A,Unspec,U),(A,Unspec,AD),(A,Unspec,AR),(A,Unspec,AT)
+    , (C,Unspec,CP),(C,Unspec,CR),(C,Unspec,U)
+    , (V,Unspec,VG),(V,Unspec,VE),(V,Unspec,I)
+    ]
 data Period	= Present | Future
 		deriving (Eq,Show,Bounded,Enum,Ord)
 periods :: [Period]
-periods	=  [minBound..maxBound] 
+periods	=  [minBound..maxBound]
 -- (agent, status, ie present or future, career)
-careers	    = [(R,Future,U)]
+careers	    = [(R,Future,RU)]
 
 threePlacers = [
     ("liked", pred3 appreciation )
     , ("wanted_to_work",	pred3 $ [(a,a,c) | (a,p,c) <- careers,
 					    p == Future ] )
+    , ("studied_subj_at", pred3 $ map (\(_,school,subject,student,_) ->
+		    (student,subject,school) ) schooling )
     ]
 
 agent, theme, recipient, location, instrument ::
@@ -204,7 +402,10 @@ talked	= pred2 $ map (\x->(agent4 x, recipient4 x) ) comms
 talk_about = pred3 $ map (\x->(agent4 x, recipient4 x, theme4 x) ) comms
 
 -- (teacher,school(location),subject,student,degree)
-schooling   = map ( \x -> (Unspec,H,E,x,Unspec) ) students
+schooling   = map (\s -> (B,H,E,s,Unspec) ) afld_students ++
+		[(VM,Unspec,Unspec,Unspec,Unspec)] ++
+		map (\s -> (Unspec,Unspec,Unspec,s,Unspec) ) other_students
+
 recite = pred2 $ map ( \x -> (agent4 x, theme4 x) ) comms
 giving	= map (\(a,t,p,_) -> (a,t,p) ) services
 -- (speaker,content,listener,mode)
@@ -214,13 +415,13 @@ directives  = []
 -- (planner,situation,achiever,goal)
 goals	= []
 -- (mother,baby,place,year)
-births	= [(Unspec,A,X,Unspec),(Unspec,K,X,Unspec),(Unspec,M,X,Unspec)]
+births	= [(Unspec,A,X,Unspec),(JM,J,JT,JY),(Unspec,K,X,Unspec),(Unspec,M,X,Unspec),(CM,C,CJ,Unspec),(VM,V,Unspec,Unspec)]
 
 fourPlacers = [
     ("born",	pred4 $ foldl (\cc (a,r,l,t) -> (a,r,l,t): (a,r,t,l): cc) [] births)
     , ("held", pred4 $ map (\(_,school,subject,student,degree) ->
 				(student,degree,subject,school) ) schooling )
-	
+
 	]
 
 agent4, theme4, recipient4, location4 :: (Entity,Entity,Entity,Entity) -> Entity
@@ -274,6 +475,6 @@ passivize3 r	= \x y -> or ( map ( \u -> r u x y ) entities )
 passivize4 r = \x y z -> or ( map (\u -> r u x y z ) entities )
 
 self ::  (a -> a -> b) -> a -> b
-self p	= \ x -> p x x 
+self p	= \ x -> p x x
 
 -- vim: set ts=8 sts=4 sw=4 noet:
