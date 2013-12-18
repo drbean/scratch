@@ -81,6 +81,28 @@
   - ''
   - 100
 
+-
+  - camera
+  - "A new camera"
+  - "topics"
+  - "all"
+  - |+
+    M: I just bought a digital camera.
+    W: What is wrong with your old camera?
+    M: Nothing. I bought this one because I want to store my pictures on my computer.
+    W: I see.
+    M: I can also delete pictures that are not very good.
+    W: I like to print all my photos. That's why I like the old cameras.
+    M: Oh, you can print digital photos, too. Many shops will print them for you.
+    W: Really?
+    M: Yes. You can even buy a good printer and do it from home.
+    W: That seems easy! How do you store these digital pictures?
+    M: You can store the pictures on your computer. But you might run out of space.I save all the pictures I like on compact discs. You can store more than seven hundred photos on one CD!
+    W: Great! Maybe I should get a digital camera, too.
+  - bought|What|with|old|Nothing|store|computer|also|that are|all|photos|Many|Really|buy|printer|home|That seems|might|of space|I like on|than seven|Great|Maybe|get a|too
+  - ''
+  - 100
+
 ---
 -
   - genre
