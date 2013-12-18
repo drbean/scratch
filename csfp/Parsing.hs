@@ -161,6 +161,13 @@ preproc ("avril":"lavigne":xs)	= "avril_lavigne" : preproc xs
 preproc ("the":"color":"pink":xs)	= "the_color_pink" : preproc xs
 preproc ("mi":"mi":xs)	= "mi_mi" : preproc xs
 preproc ("brothers":"and":"sisters":xs)	= "brothers_and_sisters" : preproc xs
+preproc ("april":"30th,":"1994":xs)	= "april_30th,_1994" : preproc xs
+preproc ("truck":"driver":xs)	= "truck_driver" : preproc xs
+preproc ("career":"woman":xs)	= "career_woman" : preproc xs
+preproc ("listening":"to":"music":xs)	= "listening_to_music" : preproc xs
+preproc ("design":"assistant":xs)	= "design_assistant" : preproc xs
+preproc ("playing":"the":"piano":xs)	= "playing_the_piano" : preproc xs
+
 
 
 preproc ("steve":"wynn":xs)	= "steve_wynn" : preproc xs
