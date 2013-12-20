@@ -3,6 +3,16 @@ module Tests where
 import LogicalForm
 import Parsing
 
+hobbies_wh = [
+	"What was Alex's hobby?"
+	, "Whose hobby was drawing?"
+	]
+
+hobbies_yn = [
+	"Was Rena's hobby listening to music?"
+	, "Did Rena have a hobby?"
+	]
+
 vicky = [
 	"Vicky's mother was a babysitter."
 	,"Vicky's mother was a teacher."
@@ -10,8 +20,8 @@ vicky = [
 	, "Vicky had some sisters."
 	, "Vicky's sisters were students."
 	, "Vicky liked shopping."
-	, "Vicky had some hobbies."
-	, "Vicky's hobby was exercising."
+	-- , "Vicky had some hobbies."
+	-- , "Vicky's hobby was exercising."
 	, "Vicky liked reading."
 	, "Vicky went out with friends on weekends."
 	, "Vicky worked at a drug_store."
