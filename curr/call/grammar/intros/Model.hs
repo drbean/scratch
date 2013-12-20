@@ -262,10 +262,10 @@ onePlacers = [
 	, ("father",	pred1 [JF,CF] )
 	, ("mother",	pred1 [ m | (m,_,_,_) <- births,
 				    m /= Unspec ] )
+	, ("grandmother", pred1 [JG] )
 	, ("brother", pred1 [AB] )
 	, ("sister", pred1 [AS,CS,VS,VT] )
 	, ("sibling", pred1 [JS,AB,CS] )
-	, ("cats", pred1 [RQ] )
 
 	, ("male",	pred1 [B,A,D,J,N,S,JF] )
 	, ("female",	pred1 [C,K,M,R,V,JM] )
@@ -278,6 +278,7 @@ onePlacers = [
 	, ("outgoing",	pred1 [R,J] )
 	, ("polite",	pred1 [R,J] )
 
+	, ("farmer",	pred1 [JG] )
 	, ("career_woman",	pred1 [JM] )
 	, ("truck_driver",	pred1 [JF] )
 
@@ -287,7 +288,6 @@ onePlacers = [
 	, ("24",	pred1 [C])
 
 	, ("babysitter",	pred1 [VM])
-	, ("hobby",	pred1 [I,U,JB,JE,AD,AL,AT,CP,VE,VG])
 
 	]
 
@@ -331,7 +331,7 @@ services    = []
 knowledge	= []
 acquaintances	= [(M,J)]
 residents   = [(A,X),(M,X),(K,X)]
-family	= [(R,RQ), (J,JF),(J,JM),(J,JS),(C,CD),(C,CM),(C,CS),(V,VF),(V,VM),(V,VS),(V,VT)]
+family	= [(R,RQ), (J,JG),(J,JF),(J,JM),(J,JS),(C,CD),(C,CM),(C,CS),(V,VF),(V,VM),(V,VS),(V,VT)]
 -- see births
 possessions = family
 
