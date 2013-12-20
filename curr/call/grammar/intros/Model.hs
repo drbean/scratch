@@ -117,7 +117,7 @@ entity_check =  [
     , (JQ, "")
     , (JR, "")
     , (JS, "Jeff's 2 siblings")
-    , (JT, "Taoyuan")
+    , (JT, "taoyuan")
     , (JU, "")
     , (JV, "")
     , (JW, "")
