@@ -48,7 +48,6 @@ nouns = [
 	, [Cat "the_color_pink"	"NP" [Thrd,Neutr,Sg] []]
 	, [Cat "mi_mi"	"NP" [Thrd,Neutr,Sg] []]
 
-	, [Cat "hobby"	"CN" [Thrd,Neutr,Sg] []]
 	, [Cat "basketball"	"NP" [Thrd,Neutr,Sg] []]
 	, [Cat "exercising"	"NP" [Thrd,Neutr,Sg] []]
 	, [Cat "drawing"	"NP" [Thrd,Neutr,Sg] []]
