@@ -418,20 +418,13 @@ fourswot:
       C: |+
         Valentino takes longer to change machines than other chocolate companies. Other companies have thought carefully about how to produce new designs quickly.
       quiz:
-        - question: Valentino could buy new machines and make many different chocolates on one machine.
+        - question: Valentino is thinking of making new and different kinds of chocolates.
           option:
             - a strength
             - a weakness
             - an opportunity
             - a threat
           answer: an opportunity
-        - question: The way Valentino starts production of a new chocolate is:
-          option:
-            - a strength
-            - a weakness
-            - an opportunity
-            - a threat
-          answer: a weakness
         - question: Valentino designers have lots of ideas about attractive designs and flavors.
           option:
             - a strength
@@ -439,7 +432,14 @@ fourswot:
             - an opportunity
             - a threat
           answer: a strength
-        - question: Valentino is thinking of changing its chocolates, but some customers don't want it to change.
+        - question: Valentino machinery makes it difficult to produce many different kinds of chocolates.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a weakness
+        - question: Many traditional Valentino customers don't want it produce many different kinds of new chocolate.
           option:
             - a strength
             - a weakness
