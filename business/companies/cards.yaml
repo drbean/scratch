@@ -344,34 +344,34 @@ fourswot:
       C: |+
         IKEA furniture is DIY (do-it-yourself). People assemble it themselves. They take home a flat package and use the tools and instructions IKEA put in the package.
       quiz:
-        - question: IKEA is thinking about on-line shopping. On-line shopping for IKEA is:
-          option:
-            - a strength
-            - a weakness
-            - an opportunity
-            - a threat
-          answer: an opportunity
-        - question: An online operation will take business away from IKEA stores.
-          option:
-            - a strength
-            - a weakness
-            - an opportunity
-            - a threat
-          answer: a weakness
-        - question: Some people are not good at assembling IKEA furniture. They don't want to do it themselves.
-          option:
-            - a strength
-            - a weakness
-            - an opportunity
-            - a threat
-          answer: a threat
-        - question: IKEA's distribution system and DIY furniture make setting up an online operation easy.
+        - question: IKEA has a good distribution system and its furniture is easy to ship.
           option:
             - a strength
             - a weakness
             - an opportunity
             - a threat
           answer: a strength
+        - question: IKEA is thinking about starting an on-line shopping website.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: an opportunity
+        - question: An on-line website will take business away from IKEA stores.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a threat
+        - question: People find it difficult to put IKEA furniture together by themselves.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a weakness
     04:
       identifier: fourswot 04
       A: |+
