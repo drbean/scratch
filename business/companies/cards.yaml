@@ -501,21 +501,21 @@ fourswot:
             - an opportunity
             - a threat
           answer: an opportunity
-        - question: Flicker's technology is:
-          option:
-            - a strength
-            - a weakness
-            - an opportunity
-            - a threat
-          answer: a strength
-        - question: A competitor to Flicker is spending lots of money on developing its own technology.
+        - question: There is a lot of competition from other companies, many in China, making cheap plastic lighters.
           option:
             - a strength
             - a weakness
             - an opportunity
             - a threat
           answer: a threat
-        - question: Flicker cigarette lighters are cheap. It is difficult for it to compete on the basis of design or quality of product.
+        - question: Flicker has more technology than these other cigarette lighter companies.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a strength
+        - question: Flicker cigarette lighters are cheap. It cannot compete on the basis of design or quality of product.
           option: 
             - a strength
             - a weakness
