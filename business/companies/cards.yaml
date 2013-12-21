@@ -633,6 +633,43 @@ fourswot:
             - an opportunity
             - a threat
           answer: a strength
+    099:
+      identifier: fourswot 099
+      A: |+
+        Zara's designers create 40,000 designs each year, 10,000 of them are made into clothes. They are quickly sent to Zara's stores.
+      B: |+
+        Costs for Zara are 30 percent higher than its competitors. Labor costs in Spain are 20 times those in Asia.
+      C: |+
+        Store managers and sales clerks think the company is very unfriendly and disrespectful. Some customers are also upset by the way staff treat them.
+      quiz:
+        - question: Zara produces small quantities of a very large number of designs and quickly puts them into stores.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a strength
+        - question: Labor costs in Spain are rising.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a threat
+        - question: Zara doesn't care what staff and customers think about the company.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: a weakness
+        - question: Zara could sell the many designs it does not make to other companies.
+          option:
+            - a strength
+            - a weakness
+            - an opportunity
+            - a threat
+          answer: an opportunity
     1:
       identifier: fourswot 1
       A: |+
