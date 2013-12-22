@@ -3,8 +3,11 @@ module Tests where
 import LogicalForm
 import Parsing
 
+yn_tests = cindy ++ studies ++ jeff ++ residents ++ likes ++ work ++ birth
+
 tag = [
-	"Vicky had sisters, didn't she?"
+	"Vicky did have sisters, didn't she?"
+	, "Vicky had sisters, didn't she?"
 	-- , "Did Vicky have sisters?"
 	, "Cindy liked playing the piano, didn't she?"
 	-- , "Did Cindy like playing the piano?"
@@ -15,6 +18,8 @@ tag = [
 	, "Mi Mi was Rena's cat, wasn't it?"
 	, "Jeff's father was a truck_driver, wasn't he?"
 	, "Alex was born in Taoyuan, wasn't he?"
+	, "Was Alex born in Taoyuan, wasn't he?"
+	, "Alex was born in Taoyuan, wasn't Alex?"
 	]
 
 hobbies_wh = [
@@ -47,14 +52,6 @@ cindy = [
 	, "Cindy liked playing the piano."
 	, "Cindy liked listening to music."
 	, "Cindy was 24."
-	]
-
-studies	= [
-	"Alex studied English in Minghsin University."
-	, "Jeff studied in Minghsin University Applied Foreign Languages."
-	, "Jeff's brothers and sisters studied in Minghsin University."
-	, "Rena studied English."
-	, "Rena studied Applied Foreign Languages."
 	]
 
 jeff	= [
@@ -104,7 +101,7 @@ birth	= [
 	]
 
 birth_wh	= [
-	"Where was Mindy born?"
+	"Where was Alex born?"
 	, "Who was born in Hsinchu?"
 	, "Who wasn't born in Hsinchu?"
 	]
@@ -118,7 +115,7 @@ birth_tag	= [
 	-- "Neil was born in Hsinchu in 1963, wasn't he?"
 	]
 
-passive_whs	= birth_wh ++ starts_wh
+passive_whs	= birth_wh ++ studies_wh
 
 passive_parse	=  map ( birth_wh !! ) [0,2] ++ map ( birth !! ) [1,2] ++ map ( birth_tag !! ) [0,2]
 	
@@ -139,30 +136,32 @@ have_whs = [
 	"Who had a mother in Hsinchu?"
 	, "Who had a mother in Taoyuan?"
 	, "Who had a sister?"
-	, "Who had a company?"
+	, "Who had a job?"
 	]
 
-starts_wh	= [
-	"What did Jeff start?"
-	, "Which company did Jeff start?"
-	, "What company did Jeff start?"
-	, "When did Jeff start NVIDIA?"
-	, "When was NVIDIA started?"
-	, "Where did Jeff start NVIDIA?"
-	, "Whose company was started by Jeff?"
-	, "Who was NVIDIA started by?"
+studies_wh	= [
+	"What did Jeff study?"
+	, "When did Jeff study Applied Foreign Languages?"
+	, "When was Applied Foreign Languages studied?"
+	, "Where did Jeff study Applied Foreign Languages?"
+	, "Who was Applied Foreign Languages studied by?"
 	]
 
-starts = [
-	"Was NVIDIA started in 1993?"
-	, "NVIDIA started in 1993."
-	, "Jeff started NVIDIA in 1993."
-	, "Jeff started NVIDIA."
-	, "NVIDIA was started by Jeff in 1993."
-	, "NVIDIA was started in Jeff by 1993."
-	, "NVIDIA was started in 1993 by Jeff."
-	, "NVIDIA wasn't started in 1993 by Jeff."
-	, "Wasn't NVIDIA started in 1993 by Jeff?"
+studies	= [
+	"Alex studied English in Minghsin University."
+	, "Jeff studied in Minghsin University Applied Foreign Languages."
+	, "Jeff's brothers and sisters studied in Minghsin University."
+	, "Rena studied English."
+	, "Rena studied Applied Foreign Languages."
+	, "Was Applied Foreign Languages studied in 1994?"
+	, "Applied Foreign Languages studied in 1994."
+	, "Jeff studied Applied Foreign Languages in 1994."
+	, "Jeff studied Applied Foreign Languages."
+	, "Applied Foreign Languages was studied by Jeff in 1994."
+	, "Applied Foreign Languages was studied in Jeff by 1994."
+	, "Applied Foreign Languages was studied in 1994 by Jeff."
+	, "Applied Foreign Languages wasn't studied in 1994 by Jeff."
+	, "Wasn't Applied Foreign Languages studied in 1994 by Jeff?"
 	]
 
 comp_wh = [
