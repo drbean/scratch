@@ -3,6 +3,20 @@ module Tests where
 import LogicalForm
 import Parsing
 
+tag = [
+	"Vicky had sisters, didn't she?"
+	-- , "Did Vicky have sisters?"
+	, "Cindy liked playing the piano, didn't she?"
+	-- , "Did Cindy like playing the piano?"
+	, "Alex lived in Hsinchu, didn't he?"
+	-- , "Did Alex live in Hsinchu?"
+	, "Alex was a design_assistant, wasn't he?"
+	, "Cindy was born in Jiayi, wasn't she?"
+	, "Mi Mi was Rena's cat, wasn't it?"
+	, "Jeff's father was a truck_driver, wasn't he?"
+	, "Alex was born in Taoyuan, wasn't he?"
+	]
+
 hobbies_wh = [
 	"What was Alex's hobby?"
 	, "Whose hobby was drawing?"
