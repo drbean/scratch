@@ -432,9 +432,58 @@ Transformation--From grammar into logic
 Evaluation--Is the logical statement True or False
 
 ----
+Parsing
+
+S = NP + VP
+NP = DET + CN | dr_bean
+VP = V + O | V + to + VP
+
+Dr Bean was a student.
+
+             dr_bean was a student
+		/        \
+          dr_bean      was a student
+                         /    \
+                     was     a student
+                             /   \
+                            a     student
+
+----
+Parsing on the computer
+
+Branch  Cat S[Thrd,Masc,Sg][]   [
+        Leaf (Cat dr_bean NP[Masc,Sg,Thrd,Nom][]),
+Branch  Cat VP[Pos,Sg][]        [
+        Leaf (Cat was COP[Pos,Sg][Cat NP[][]]),
+Branch  Cat COMP[][]    [
+Branch  Cat NP[MascOrFem,Sg,Thrd][]     [
+        Leaf (Cat a DET[Sg][]),
+        Leaf (Cat student CN[Thrd,MascOrFem,Sg][])]
+
+
+----
+Translation
+
+From language to a math formula
+
+Dr Bean was a student. ==  [Exists x1 conj[student[x1],x1==B]]
+
+There exists an entity, such that:
+it was a student, ie student[x1] was True
+and it equaled B.
+
+----
+Evaluation
+
+Put in all the entities in Model.hs and see if the formula's true
+
+afld_students    = [A,C,D,J,K,M,N,R,S,V]
+other_students = [JS,VS,VT]
+students = afld_students ++ other_students
+
+----
 Bett WH questions
 
-Was dr_bean a student?
 Who was a teacher?
 Who was a student?
 Who are students?
@@ -446,6 +495,26 @@ Whose grandmother was a farmer?
 Who was the student who had a cat?
 Who was the student whose cat was Mi Mi?
 Whose cat was Mi Mi?
+
+----
+Problem questions
+
+Did a student have a farmer?
+
++ Doesn't make sense, but Bett says:
+	Jeff had a grandmother
+	and the grandmother was a farmer,
+	so Jeff had a farmer.
+
+----
+Problem questions with 'a', 'the'
+
+relatives = [
+	"Who was a man who was a teacher?"
+	, "Who was the man who was a teacher?"
+	, "Who was a man who was a student?"
+	, "Who was the man who was a student?"
+	]
 
 ----
 Bett passive questions
