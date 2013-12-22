@@ -11,30 +11,26 @@ data Entity	=
 		| O | P | Q | R | S | T | U
 		| V | W | X | Y | Z
 
-		| RA | RB | RC | RD | RE | RF | RG
-		| RH | RI | RJ | RK | RL | RM | RN
-		| RO | RP | RQ | RR | RS | RT | RU
-		| RV | RW | RX | RY | RZ
+		| RK | RL
+		| RP | RQ | RU
 
-		| JA | JB | JC | JD | JE | JF | JG
-		| JH | JI | JJ | JK | JL | JM | JN
-		| JO | JP | JQ | JR | JS | JT | JU
-		| JV | JW | JX | JY | JZ
+		| JB | JE | JF | JG
+		| JH | JM | JN
+		| JS | JT
+		| JY
 
-		| AA | AB | AC | AD | AE | AF | AG
-		| AH | AI | AJ | AK | AL | AM | AN
-		| AO | AP | AQ | AR | AS | AT | AU
-		| AV | AW | AX | AY | AZ
+		| AB | AD
+		| AH | AJ | AL
+		| AS | AT
 
-		| CA | CB | CC | CD | CE | CF | CG
-		| CH | CI | CJ | CK | CL | CM | CN
-		| CO | CP | CQ | CR | CS | CT | CU
-		| CV | CW | CX | CY | CZ
+		| CF
+		| CJ | CM
+		| CP | CS
 
-		| VA | VB | VC | VD | VE | VF | VG
-		| VH | VI | VJ | VK | VL | VM | VN
-		| VO | VP | VQ | VR | VS | VT | VU
-		| VV | VW | VX | VY | VZ
+		| VD | VE | VF | VG
+		| VM
+		| VS | VT
+		| VW
 
 		| Someone | Something | Unspec
 		deriving (Eq,Show,Bounded,Enum,Ord)
@@ -71,140 +67,45 @@ entity_check =  [
     , (Y, "" )
     , (Z, "" )
 
-    , (RA, "")
-    , (RB, "")
-    , (RC, "")
-    , (RD, "")
-    , (RE, "")
-    , (RF, "")
-    , (RG, "")
-    , (RH, "")
-    , (RI, "")
-    , (RJ, "")
     , (RK, "hello_kitty")
     , (RL, "avril_lavigne")
-    , (RM, "")
-    , (RN, "")
-    , (RO, "")
     , (RP, "the_color_pink")
     , (RQ, "mi_mi")
-    , (RR, "")
-    , (RS, "")
-    , (RT, "")
     , (RU, "america")
-    , (RV, "")
-    , (RW, "")
-    , (RX, "")
-    , (RY, "")
-    , (RZ, "")
 
-    , (JA, "")
     , (JB, "basketball")
-    , (JC, "")
-    , (JD, "")
     , (JE, "exercise")
     , (JF, "Jeff's father")
     , (JG, "Jeff's grandmother")
     , (JH, "Huang Che-Yu")
-    , (JI, "")
-    , (JJ, "")
-    , (JK, "")
-    , (JL, "")
     , (JM, "Jeff's mother")
     , (JN, "April 30th, 1994")
-    , (JO, "")
-    , (JP, "")
-    , (JQ, "")
-    , (JR, "")
     , (JS, "Jeff's 2 siblings")
     , (JT, "taoyuan")
-    , (JU, "")
-    , (JV, "")
-    , (JW, "")
-    , (JX, "")
     , (JY, "1994")
-    , (JZ, "")
 
-    , (AA, "")
     , (AB, "Alex's brother")
-    , (AC, "")
     , (AD, "drawing")
-    , (AE, "")
-    , (AF, "")
-    , (AG, "")
     , (AH, "Alex's hobbies")
-    , (AI, "")
     , (AJ, "Alex's job")
-    , (AK, "")
     , (AL, "sleeping")
-    , (AM, "")
-    , (AN, "")
-    , (AO, "")
-    , (AP, "")
-    , (AQ, "")
-    , (AR, "reading")
     , (AS, "Alex's sister")
     , (AT, "travel")
-    , (AU, "")
-    , (AV, "")
-    , (AW, "")
-    , (AX, "")
-    , (AY, "")
-    , (AZ, "")
 
-    , (CA, "")
-    , (CB, "")
-    , (CC, "")
-    , (CD, "")
-    , (CE, "")
     , (CF, "Cindy's dad")
-    , (CG, "")
-    , (CH, "")
-    , (CI, "")
     , (CJ, "jiayi")
-    , (CK, "")
-    , (CL, "")
     , (CM, "Cindy's mom")
-    , (CN, "")
-    , (CO, "")
     , (CP, "playing_the_piano")
-    , (CQ, "")
-    , (CR, "")
     , (CS, "Cindy's sister")
-    , (CT, "")
-    , (CU, "")
-    , (CV, "")
-    , (CW, "")
-    , (CX, "")
-    , (CY, "")
-    , (CZ, "")
 
-    , (VA, "")
-    , (VB, "")
-    , (VC, "")
     , (VD, "drug_store")
     , (VE, "exercising")
     , (VF, "Vicky's father")
     , (VG, "shopping")
-    , (VH, "")
-    , (VI, "")
-    , (VJ, "")
-    , (VK, "")
-    , (VL, "")
     , (VM, "Vicky's mother")
-    , (VN, "")
-    , (VO, "")
-    , (VP, "")
-    , (VQ, "")
-    , (VR, "")
     , (VS, "Vicky's first sister")
     , (VT, "Vicky's second sister")
-    , (VU, "")
-    , (VV, "")
     , (VW, "weekends")
-    , (VX, "")
-    , (VY, "")
-    , (VZ, "")
 
 	]
 
@@ -331,7 +232,7 @@ services    = []
 knowledge	= []
 acquaintances	= [(M,J)]
 residents   = [(A,X),(M,X),(K,X)]
-family	= [(R,RQ), (J,JG),(J,JF),(J,JM),(J,JS),(C,CD),(C,CM),(C,CS),(V,VF),(V,VM),(V,VS),(V,VT)]
+family	= [(R,RQ), (J,JG),(J,JF),(J,JM),(J,JS),(C,CF),(C,CM),(C,CS),(V,VF),(V,VM),(V,VS),(V,VT)]
 -- see births
 possessions = family
 
@@ -358,8 +259,8 @@ curry5 f x y z w v	= f (x,y,z,w,v)
 appreciation	= [
     (R,Unspec,U),(R,Unspec,RP),(R,Unspec,RK),(R,Unspec,RQ),(R,Unspec,RL)
     ,(J,Unspec,JB),(J,Unspec,JE),(J,Unspec,JE)
-    , (A,Unspec,AL),(A,Unspec,U),(A,Unspec,AD),(A,Unspec,AR),(A,Unspec,AT)
-    , (C,Unspec,CP),(C,Unspec,CR),(C,Unspec,U)
+    , (A,Unspec,AL),(A,Unspec,U),(A,Unspec,AD),(A,Unspec,I),(A,Unspec,AT)
+    , (C,Unspec,CP),(C,Unspec,I),(C,Unspec,U)
     , (V,Unspec,VG),(V,Unspec,VE),(V,Unspec,I)
     ]
 data Period	= Present | Future
