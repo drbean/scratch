@@ -679,7 +679,7 @@ vp3R = \us xs ->
              match subcatlist (map t2c [obj1,obj2,pp]) ]
 
 finVpR :: SPARSER Cat Cat
-finVpR = \us xs -> [(vp',ys,vs) | 
+finVpR = \us xs -> [(vp',vs,ys) | 
 		tag        <- [Cat "didn't" "AUX" [ Ng ] [] ],
                 (vp,vs,ys) <- case us of
 			[Cat _ "NP" _ _] -> push tag vpR us xs
