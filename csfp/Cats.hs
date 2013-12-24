@@ -219,7 +219,7 @@ ditransitives = [
 	, [Cat "work" "NP" [Sg,Neutr,Thrd]  [],
 		Cat "work" "NP" [Sg,Neutr,Thrd] [],
 		Cat "work" "V" [Infl] [],
-		Cat "work" "V" [Infl] [Cat "_" "PP" [As,Neutr] []],
+		Cat "work" "V" [Infl] [Cat "_" "PP" [As] []],
 		Cat "work" "V" [Infl] [Cat "_" "PP" [At,Neutr] []],
 		Cat "work" "V" [Infl] [Cat "_" "PP" [On,Neutr] []],
 		Cat "work" "V" [Infl] [Cat "_" "PP" [In,Neutr] []],
@@ -278,7 +278,7 @@ preps = [
 	--, [Cat "around"   "PREP" [Around]   []]
 	--, [Cat "about"   "PREP" [About]   []]
 	--, [Cat "after"   "PREP" [After]   []]
-	--, [Cat "as"   "PREP" [As]   []]
+	, [Cat "as"   "PREP" [As]   []]
 	--, [Cat "at"   "PREP" [At]   []]
 	--, [Cat "because_of"   "PREP" [BecauseOf]   []]
 	--, [Cat "for"  "PREP" [For]  []]
