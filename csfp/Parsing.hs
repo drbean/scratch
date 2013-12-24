@@ -151,6 +151,9 @@ preproc ["?"]              = []
 
 preproc ("6":",000":"dollars":xs)	= "6_000_dollars" : preproc xs
 preproc ("3":",000":"dollars":xs)	= "3_000_dollars" : preproc xs
+preproc ("the":"song,":"memory":xs)	= "the_song,_memory" : preproc xs
+preproc ("the":"tv":"program,":"discovery":xs)	= "the_tv_program,_discovery" : preproc xs
+
 
 preproc (",":xs)           = preproc xs
 
@@ -167,8 +170,14 @@ preproc ("career":"woman":xs)	= "career_woman" : preproc xs
 preproc ("listening":"to":"music":xs)	= "listening_to_music" : preproc xs
 preproc ("design":"assistant":xs)	= "design_assistant" : preproc xs
 preproc ("playing":"the":"piano":xs)	= "playing_the_piano" : preproc xs
-
-
+preproc ("watching":"tv":xs)	= "watching_tv" : preproc xs
+preproc ("going":"to":"the":"movies":xs)	= "going_to_the_movies" : preproc xs
+preproc ("japanese":"interpreter":xs)	= "japanese_interpreter" : preproc xs
+preproc ("non-commissioned":"officer":xs)	= "non-commissioned_officer" : preproc xs
+preproc ("jeremy":"lin":xs)	= "jeremy_lin" : preproc xs
+preproc ("hsiao":"ching-teng":xs)	= "hsiao_ching-teng" : preproc xs
+preproc ("the":"military":xs)	= "the_military" : preproc xs
+preproc ("making":"friends":xs)	= "making_friends" : preproc xs
 
 preproc ("steve":"wynn":xs)	= "steve_wynn" : preproc xs
 preproc ("entrance":"fee":xs)	= "entrance_fee" : preproc xs
