@@ -22,6 +22,7 @@ inflections = [
 	, ("companies",	"company") 
 	, ("liked",	"like") 
 	, ("lived",	"live") 
+	, ("resident",	"live") 
 	, ("cats",	"cat") 
 	, ("brothers",	"brother") 
 	, ("sisters",	"sister") 
@@ -58,9 +59,15 @@ relations = [
 
 	, ( "design_assistant",	\[x] -> predid1 "design_assistant" x	)
 
+	, ( "21",	\[x] -> predid1 "21" x	)
 	, ( "24",	\[x] -> predid1 "24" x	)
+	, ( "27",	\[x] -> predid1 "27" x	)
 
 	, ( "babysitter",	\[x] -> predid1 "babysitter" x	)
+	, ( "reserved",	\[x] -> predid1 "reserved" x	)
+	, ( "dietitian",	\[x] -> predid1 "dietitian" x	)
+	, ( "non-commissioned_officer",	\[x] -> predid1 "non-commissioned_officer" x	)
+	, ( "christian",	\[x] -> predid1 "christian" x	)
 
 	, ( "like",	\[x,y]	-> predid2 "like" y x	)
 	, ( "live",	\[x,y]	-> predid2 "live" y x	)
