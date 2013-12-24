@@ -19,12 +19,19 @@ topic:
         comment: |
           Listen to the podcast on the web page, or download the MP3 file from <a href="http://web.nuu.edu.tw/~greg/media/otm121313b.mp3">http://web.nuu.edu.tw/~greg/media/otm121313b.mp3</a>. The photographer is not a native English speaker and will be hard to understand. <a href="mailto:drbean@freeshell.org?Subject=Selfie-gate">Send email to DrBean</a> for help.
       -
-        id: pope
+        id: palmo
         title: The pope, the media and the world
         blurb: |
           We looked at the story of <a href="http://www.nytimes.com/2012/12/04/world/europe/follow-the-pope-on-twitter-he-follows-no-one.html?_r=0">the Pope on Twitter.</a> The pope is now <a href="http://www.google.com/search?q=pope%20twitter&num=100">resigning and will stop posting tweets.</a> But the Roman Catholic Church's use of the media will not stop with the new pope. Listen to a religion reporter describe <a href="http://www.onthemedia.org/2013/feb/22/inside-vatican/?utm_source=local&utm_media=treatment&utm_campaign=daMost&utm_content=damostviewed">the relationship of the media and the Roman Catholic Church.</a>
         comment: |
           Listen to the podcast on the web page, or download the MP3 file from <a href="http://web.nuu.edu.tw/~greg/media/otm022213d.mp3">http://web.nuu.edu.tw/~greg/media/otm022213d.mp3</a>. Then fill in the blanks.
+      -
+        id: pope
+        title: The media-savvy pope
+        blurb: |
+          <a href="http://www.onthemedia.org/story/peoples-pope/">This week's story</a> is about the new pope, <a href="http://en.wikipedia.org/wiki/Pope_Francis">Pope Francis</a>, named after <a href="http://en.wikipedia.org/wiki/Francis_of_assisi">Francis of Assisi</a>.
+        comment: |
+          The pope is using the media, in particular <a href="http://en.wikipedia.org/wiki/Twitter">Twitter</a>, to spread his message. Follow him at <a href="https://twitter.com/Pontifex">https://twitter.com/Pontifex</a>. According to <a href="http://twiplomacy.com">Twiplomacy</a>, more than 2/3 of the world's leaders are on Twitter.
       -
         id: 20120224
         title: Jeremy Lin T-shirts
