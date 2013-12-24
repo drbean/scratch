@@ -25,12 +25,37 @@ data Entity	=
 
 		| CF
 		| CJ | CM
-		| CP | CS
+		| CS
 
 		| VD | VE | VF | VG
 		| VM
 		| VS | VT
 		| VW
+
+		|  MA | MB | MC | MD | ME | MF | MG
+		| MH | MI | MJ | MK | ML | MM | MN
+		| MO | MP | MQ | MR | MS | MT | MU
+		| MV | MW | MX | MY | MZ
+
+		| KA | KB | KC | KD | KE | KF | KG
+		| KH | KI | KJ | KK | KL | KM | KN
+		| KO | KP | KQ | KR | KS | KT | KU
+		| KV | KW | KX | KY | KZ
+
+		| NA | NB | NC | ND | NE | NF | NG
+		| NH | NI | NJ | NK | NL | NM | NN
+		| NO | NP | NQ | NR | NS | NT | NU
+		| NV | NW | NX | NY | NZ
+
+		| SA | SB | SC | SD | SE | SF | SG
+		| SH | SI | SJ | SK | SL | SM | SN
+		| SO | SP | SQ | SR | SS | ST | SU
+		| SV | SW | SX | SY | SZ
+
+		| DA | DB | DC | DD | DE | DF | DG
+		| DH | DI | DJ | DK | DL | DM | DN
+		| DO | DP | DQ | DR | DS | DT | DU
+		| DV | DW | DX | DY | DZ
 
 		| Someone | Something | Unspec
 		deriving (Eq,Show,Bounded,Enum,Ord)
@@ -40,73 +65,209 @@ entities	=  [minBound..maxBound]
 
 entity_check :: [ (Entity, String) ]
 entity_check =  [
-    (A, "alex" )
-    , (B, "dr_bean" )
-    , (C, "cindy" )
-    -- , (D, "dave" )
+    -- (A, "alex" )
+    (B, "dr_bean" )
+    -- , (C, "cindy" )
+    , (D, "dave" )
     , (E, "applied_foreign_languages" )
-    , (F, "" )
+    , (F, "japanese" )
     , (G, "" )
     , (H, "minghsin_university" )
     , (I, "reading" )
-    , (J, "jeff" )
-    -- , (K, "kelly" )
-    , (L, "" )
-    -- , (M, "mindy" )
-    -- , (N, "neil" )
+    -- , (J, "jeff" )
+    , (K, "kelly" )
+    , (L, "basketball" )
+    , (M, "mindy" )
+    , (N, "neil" )
     , (O, "" )
-    , (P, "" )
+    , (P, "playing_the_piano" )
     , (Q, "" )
-    , (R, "rena" )
-    -- , (S, "shane" )
+    -- , (R, "rena" )
+    , (S, "shane" )
     , (T, "" )
     , (U, "listening_to_music" )
-    , (V, "vicky" )
+    -- , (V, "vicky" )
     -- , (W, "taiwan" )
     , (X, "hsinchu" )
     , (Y, "" )
     , (Z, "" )
 
-    , (RK, "hello_kitty")
-    , (RL, "avril_lavigne")
-    , (RP, "the_color_pink")
-    , (RQ, "mi_mi")
-    , (RU, "america")
+    -- , (RK, "hello_kitty")
+    -- , (RL, "avril_lavigne")
+    -- , (RP, "the_color_pink")
+    -- , (RQ, "mi_mi")
+    -- , (RU, "america")
 
-    , (JB, "basketball")
-    , (JE, "exercise")
-    , (JF, "Jeff's father")
-    , (JG, "Jeff's grandmother")
-    , (JH, "Huang Che-Yu")
-    , (JM, "Jeff's mother")
-    , (JN, "April 30th, 1994")
-    , (JS, "Jeff's 2 siblings")
-    , (JT, "taoyuan")
-    , (JY, "1994")
+    -- , (JB, "basketball")
+    -- , (JE, "exercise")
+    -- , (JF, "Jeff's father")
+    -- , (JG, "Jeff's grandmother")
+    -- , (JH, "Huang Che-Yu")
+    -- , (JM, "Jeff's mother")
+    -- , (JN, "April 30th, 1994")
+    -- , (JS, "Jeff's 2 siblings")
+    -- , (JT, "taoyuan")
+    -- , (JY, "1994")
 
-    , (AB, "Alex's brother")
-    , (AD, "drawing")
-    , (AH, "Alex's hobbies")
-    , (AJ, "Alex's job")
-    , (AL, "sleeping")
-    , (AS, "Alex's sister")
-    , (AT, "travel")
+    -- , (AB, "Alex's brother")
+    -- , (AD, "drawing")
+    -- , (AH, "Alex's hobbies")
+    -- , (AJ, "Alex's job")
+    -- , (AL, "sleeping")
+    -- , (AS, "Alex's sister")
+    -- , (AT, "travel")
 
-    , (CF, "Cindy's dad")
-    , (CJ, "jiayi")
-    , (CM, "Cindy's mom")
-    , (CP, "playing_the_piano")
-    , (CS, "Cindy's sister")
+    -- , (CF, "Cindy's father")
+    -- , (CJ, "jiayi")
+    -- , (CM, "Cindy's mom")
+    -- , (CS, "Cindy's sister")
 
-    , (VD, "drug_store")
-    , (VE, "exercising")
-    , (VF, "Vicky's father")
-    , (VG, "shopping")
-    , (VM, "Vicky's mother")
-    , (VS, "Vicky's first sister")
-    , (VT, "Vicky's second sister")
-    , (VW, "weekends")
+    -- , (VD, "drug_store")
+    -- , (VE, "exercising")
+    -- , (VF, "Vicky's father")
+    -- , (VG, "shopping")
+    -- , (VM, "Vicky's mother")
+    -- , (VS, "Vicky's first sister")
+    -- , (VT, "Vicky's second sister")
+    -- , (VW, "weekends")
+       
+    , (MA, "")
+    , (MB, "Mindy's younger brother")
+    , (MC, "")
+    , (MD, "the TV program, Discovery")
+    , (ME, "")
+    , (MF, "Mindy's father")
+    , (MG, "going_to_the_movies")
+    , (MH, "")
+    , (MI, "japanese_interpreter")
+    , (MJ, "")
+    , (MK, "")
+    , (ML, "")
+    , (MM, "Mindy's mother")
+    , (MN, "")
+    , (MO, "")
+    , (MP, "pizza")
+    , (MQ, "")
+    , (MR, "")
+    , (MS, "the_song,_memory")
+    , (MT, "")
+    , (MU, "")
+    , (MV, "")
+    , (MW, "")
+    , (MX, "")
+    , (MY, "")
+    , (MZ, "")
 
+    , (KA, "")
+    , (KB, "")
+    , (KC, "")
+    , (KD, "")
+    , (KE, "")
+    , (KF, "Kelly's father")
+    , (KG, "")
+    , (KH, "")
+    , (KI, "")
+    , (KJ, "")
+    , (KK, "")
+    , (KL, "lextar")
+    , (KM, "Kelly's mother")
+    , (KN, "")
+    , (KO, "")
+    , (KP, "")
+    , (KQ, "")
+    , (KR, "")
+    , (KS, "Kelly's sister")
+    , (KT, "watching_tv")
+    , (KU, "")
+    , (KV, "")
+    , (KW, "")
+    , (KX, "")
+    , (KY, "")
+    , (KZ, "")
+
+-- neil
+    , (NA, "the_military")
+    , (NB, "Neil's brother")
+    , (NC, "")
+    , (ND, "")
+    , (NE, "")
+    , (NF, "Neil's father")
+    , (NG, "")
+    , (NH, "")
+    , (NI, "swimming")
+    , (NJ, "jogging")
+    , (NK, "")
+    , (NL, "")
+    , (NM, "Neil's mother")
+    , (NN, "nantou")
+    , (NO, "non-commissioned_officer")
+    , (NP, "")
+    , (NQ, "")
+    , (NR, "")
+    , (NS, "Neil's first sister")
+    , (NT, "Neil's second sister")
+    , (NU, "")
+    , (NV, "")
+    , (NW, "")
+    , (NX, "")
+    , (NY, "")
+    , (NZ, "")
+
+-- shane
+    , (SA, "")
+    , (SB, "")
+    , (SC, "hsiao_ching-teng")
+    , (SD, "")
+    , (SE, "")
+    , (SF, "Shane's father")
+    , (SG, "gemitek")
+    , (SH, "hukou")
+    , (SI, "")
+    , (SJ, "jeremy_lin")
+    , (SK, "")
+    , (SL, "")
+    , (SM, "Shane's mother")
+    , (SN, "singing")
+    , (SO, "")
+    , (SP, "")
+    , (SQ, "")
+    , (SR, "")
+    , (SS, "Shane's first sister")
+    , (ST, "Shane's second sister")
+    , (SU, "")
+    , (SV, "")
+    , (SW, "")
+    , (SX, "")
+    , (SY, "")
+    , (SZ, "")
+
+-- dave
+    , (DA, "")
+    , (DB, "")
+    , (DC, "")
+    , (DD, "Dave's brother")
+    , (DE, "")
+    , (DF, "Dave's father")
+    , (DG, "")
+    , (DH, "")
+    , (DI, "")
+    , (DJ, "")
+    , (DK, "making_friends")
+    , (DL, "")
+    , (DM, "Dave's mother")
+    , (DN, "")
+    , (DO, "")
+    , (DP, "")
+    , (DQ, "")
+    , (DR, "")
+    , (DS, "")
+    , (DT, "")
+    , (DU, "")
+    , (DV, "")
+    , (DW, "")
+    , (DX, "")
+    , (DY, "")
+    , (DZ, "")
 	]
 
 characters :: [ (String, Entity) ]
@@ -147,7 +308,7 @@ predid5 name = lookupPred name fivePlacers where
 	lookupPred n (i:is) = lookupPred name is
 
 afld_students    = [A,C,D,J,K,M,N,R,S,V]
-other_students = [JS,VS,VT]
+other_students = [JS,VS,VT,DB]
 students = afld_students ++ other_students
 
 onePlacers :: [(String, OnePlacePred)]
@@ -160,12 +321,12 @@ onePlacers = [
 	, ("student",	pred1 students )
 	, ("worker",	pred1 [ w | (w,period,_) <- careers,
 				    period == Present ] )
-	, ("father",	pred1 [JF,CF] )
+	, ("father",	pred1 [JF,CF,VF,MF,KF,NF,SF] )
 	, ("mother",	pred1 [ m | (m,_,_,_) <- births,
 				    m /= Unspec ] )
 	, ("grandmother", pred1 [JG] )
-	, ("brother", pred1 [AB] )
-	, ("sister", pred1 [AS,CS,VS,VT] )
+	, ("brother", pred1 [AB,MB,NB] )
+	, ("sister", pred1 [AS,CS,VS,VT,KS,NS,NT,SS,ST] )
 	, ("sibling", pred1 [JS,AB,CS] )
 
 	, ("male",	pred1 [B,A,D,J,N,S,JF] )
@@ -174,7 +335,6 @@ onePlacers = [
 	, ("cat",	pred1 [RQ] )
 
 	, ("old",	pred1 [B] )
-	, ("reserved",	pred1 [M,R] )
 	, ("reserved",	pred1 [M,R] )
 	, ("outgoing",	pred1 [R,J] )
 	, ("polite",	pred1 [R,J] )
@@ -190,6 +350,20 @@ onePlacers = [
 
 	, ("babysitter",	pred1 [VM])
 
+	, ("dietitian",	pred1 [K])
+
+-- neil
+	, ("non-commissioned_officer",	pred1 [N])
+	, ("27",	pred1 [N])
+
+--shane
+	, ("21",	pred1 [S])
+	, ("christian", pred1 [S,SJ])
+
+-- dave
+	, ("good", pred1 [DF])
+	, ("nice", pred1 [DM])
+	, ("busy", pred1 [D])
 	]
 
 -- predid1 "sibling"   = or [(pred1 [JS]) (predid1 "brother") (predid1 "sister")]
@@ -230,9 +404,9 @@ features	= []
 services    = []
 
 knowledge	= []
-acquaintances	= [(M,J)]
-residents   = [(A,X),(M,X),(K,X)]
-family	= [(R,RQ), (J,JG),(J,JF),(J,JM),(J,JS),(C,CF),(C,CM),(C,CS),(V,VF),(V,VM),(V,VS),(V,VT)]
+acquaintances	= []
+residents   = [(A,X),(M,X),(K,X),(S,SH)]
+family	= [(R,RQ), (J,JG),(J,JF),(J,JM),(J,JS),(C,CF),(C,CM),(C,CS),(V,VF),(V,VM),(V,VS),(V,VT),(M,MF),(M,MM),(M,MB),(K,KF),(K,KM),(K,KS),(N,NF),(N,NM),(N,B),(N,NS),(N,NT),(S,SF),(S,SM),(S,SS),(S,ST),(D,DF),(D,DM),(D,DB)]
 -- see births
 possessions = family
 
@@ -247,8 +421,8 @@ twoPlacers = [
     , ("studied", pred2 (foldl  (\ss (_,school,subject,student,_) ->
 	(student,subject): (student,school): ss ) [] schooling ) )
     , ("work",	pred2 $ [(a,c) | (a,p,c) <- careers, p == Present ] )
-	]
-
+    , ("kind",	pred2 $ [(student, H) | (_,_,_,student,_) <- schooling ])
+    ]
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
 curry3 f x y z	= f (x,y,z)
@@ -260,15 +434,20 @@ appreciation	= [
     (R,Unspec,U),(R,Unspec,RP),(R,Unspec,RK),(R,Unspec,RQ),(R,Unspec,RL)
     ,(J,Unspec,JB),(J,Unspec,JE),(J,Unspec,JE)
     , (A,Unspec,AL),(A,Unspec,U),(A,Unspec,AD),(A,Unspec,I),(A,Unspec,AT)
-    , (C,Unspec,CP),(C,Unspec,I),(C,Unspec,U)
+    , (C,Unspec,P),(C,Unspec,I),(C,Unspec,U)
     , (V,Unspec,VG),(V,Unspec,VE),(V,Unspec,I)
+    , (M,Unspec,F),(M,Unspec,MG),(M,Unspec,U),(M,Unspec,MP),(M,Unspec,MS),(M,Unspec,MD)
+    , (K,Unspec,F),(K,Unspec,KT),(K,Unspec,P)
+    , (N,Unspec,NJ),(N,Unspec,NI)
+    , (S,Unspec,L),(S,Unspec,SN),(S,Unspec,SJ),(S,Unspec,SC)
+    , (D,Unspec,K)
     ]
 data Period	= Present | Future
 		deriving (Eq,Show,Bounded,Enum,Ord)
 periods :: [Period]
 periods	=  [minBound..maxBound]
 -- (agent, status, ie present or future, career)
-careers	    = [(R,Future,RU)]
+careers	    = [(A,Present,Unspec),(R,Future,RU),(M,Future,MI),(K,Present,KL),(K,Future,KD),(N,Present,NA),(S,Present,SG)]
 
 threePlacers = [
     ("liked", pred3 appreciation )
@@ -316,7 +495,7 @@ directives  = []
 -- (planner,situation,achiever,goal)
 goals	= []
 -- (mother,baby,place,year)
-births	= [(Unspec,A,X,Unspec),(JM,J,JT,JY),(Unspec,K,X,Unspec),(Unspec,M,X,Unspec),(CM,C,CJ,Unspec),(VM,V,Unspec,Unspec)]
+births	= [(Unspec,A,X,Unspec),(JM,J,JT,JY),(Unspec,K,X,Unspec),(MM,M,X,Unspec),(CM,C,CJ,Unspec),(VM,V,Unspec,Unspec),(MM,M,X,Unspec),(KM,K,X,Unspec),(NM,N,NN,Unspec),(SM,S,Unspec,Unspec),(DM,D,Unspec,Unspec)]
 
 fourPlacers = [
     ("born",	pred4 $ foldl (\cc (a,r,l,t) -> (a,r,l,t): (a,r,t,l): cc) [] births)
