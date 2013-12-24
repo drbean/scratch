@@ -3,6 +3,69 @@ module Tests where
 import LogicalForm
 import Parsing
 
+dave	= [
+	"Dave was a student in Minghsin University."
+	, "Dave was 21."
+	, "Dave's mother was nice."
+	, "Dave's father was good."
+	, "Dave was busy."
+	, "Dave had a brother who was a student."
+	, "Dave liked making friends."
+	]
+
+shane	= [
+	"Shane was 21."
+	, "Shane lived in Hukou."
+	, "Shane worked in Gemitek."
+	, "Shane had a father."
+	, "Shane liked basketball."
+	, "Shane liked singing."
+	, "Shane liked Jeremy Lin."
+	, "Shane was Christian"
+	, "Shane was a Christian"
+	, "Jeremy Lin was Christian"
+	, "Jeremy Lin was a Christian"
+	, "Shane liked singing."
+	, "Shane liked Hsiao Ching-teng."
+	]
+
+neil	= [
+	"Neil was 27"
+	, "Neil was born in Nantou"
+	, "Neil was a student in Minghsin University."
+	, "Neil was a non-commissioned officer."
+	, "Neil had sisters."
+	, "Neil liked jogging."
+	, "Neil liked swimming."
+	, "Neil was in the military"
+	, "Neil was a non-commissioned officer in the military."
+	]
+
+kelly	= [
+	"Kelly was born in Hsinchu."
+	, "Kelly had a sister."
+	, "Kelly was a student in Minghsin University."
+	, "Kelly worked in Lextar."
+	, "Kelly liked Japanese."
+	, "Kelly liked watching TV."
+	, "Kelly liked playing the piano."
+	, "Kelly was a dietitian."
+	, "Kelly wanted to work as a dietitian."
+	]
+
+mindy	= [
+	"Mindy was born in Hsinchu."
+	, "Mindy was reserved."
+	, "Mindy had a mother."
+	, "Mindy studied in Minghsin University."
+	, "Mindy liked Japanese."
+	, "Mindy liked listening to music."
+	, "Mindy liked pizza."
+	, "Mindy liked going to the movies."
+	, "Mindy wanted to work as a Japanese interpreter."
+	, "Mindy liked the TV program, Discovery."
+	, "Mindy liked the song, Memory."
+	]
 yn_tests = cindy ++ studies ++ jeff ++ residents ++ likes ++ work ++ birth
 
 tag = [
