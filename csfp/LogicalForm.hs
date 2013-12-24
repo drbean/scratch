@@ -371,13 +371,13 @@ transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ _),
     Branch (Cat "_" "COMP" [] []) [comp]]) = case (catLabel (t2c comp)) of
 	"ADJ" -> \subj -> (Rel (phon (t2c comp)) [subj] )
 	"NP" -> \subj -> (transNP comp (\pred -> Eq pred subj ))
-	"PP" -> \subj -> transPP comp (\place -> Rel "resident" [subj,place])
+	"PP" -> \subj -> transPP comp (\place -> Rel "placing" [subj,place])
 transVP (Branch (Cat _ "VP" _ _) [Leaf (Cat _ "COP" _ _),
     Branch (Cat "_" "COMP" [] []) [comp1,place]]) = case (catLabel (t2c comp1)) of
 	"NP" ->
 	    case (catLabel (t2c place)) of
 		"PP" -> \subj -> Conj [(transNP comp1 (\pred -> Eq pred subj )),
-		    (transPP place (\place -> Rel "resident" [subj,place]) )]
+		    (transPP place (\place -> Rel "placing" [subj,place]) )]
 	--Leaf (Cat name "NP" _ _ ) -> \t -> (Rel name [t] )
 	--Branch (Cat _ "NP" _ _) [det,cn] -> case (cn) of
 	--    Leaf (Cat name "CN" _ _) -> \t -> Rel name [t]
