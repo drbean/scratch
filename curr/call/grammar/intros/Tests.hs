@@ -8,6 +8,7 @@ yn_tests = cindy ++ studies ++ jeff ++ residents ++ likes ++ work ++ birth
 tag = [
 	"Vicky did have sisters, didn't she?"
 	, "Vicky had sisters, didn't she?"
+	, "Vicky didn't have sisters, did she?"
 	-- , "Did Vicky have sisters?"
 	, "Cindy liked playing the piano, didn't she?"
 	-- , "Did Cindy like playing the piano?"
