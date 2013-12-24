@@ -6,17 +6,17 @@ names, nouns, verbs, aux, adjs, advs :: Lexset
 
 names = [
 	[Cat "dr_bean"	"NP" [Thrd,Masc,Sg] []]
-	, [Cat "alex"	"NP" [Thrd,Masc,Sg] []]
-	-- , [Cat "dave"	"NP" [Thrd,Masc,Sg] []]
-	, [Cat "jeff"	"NP" [Thrd,Masc,Sg] []]
-	-- , [Cat "neil"	"NP" [Thrd,Masc,Sg] []]
-	-- , [Cat "shane"	"NP" [Thrd,Masc,Sg] []]
-	, [Cat "cindy"	"NP" [Thrd,Fem,Sg] []]
-	-- , [Cat "kelly"	"NP" [Thrd,Fem,Sg] []]
+	-- , [Cat "alex"	"NP" [Thrd,Masc,Sg] []]
+	, [Cat "dave"	"NP" [Thrd,Masc,Sg] []]
+	-- , [Cat "jeff"	"NP" [Thrd,Masc,Sg] []]
+	, [Cat "neil"	"NP" [Thrd,Masc,Sg] []]
+	, [Cat "shane"	"NP" [Thrd,Masc,Sg] []]
+	-- , [Cat "cindy"	"NP" [Thrd,Fem,Sg] []]
+	, [Cat "kelly"	"NP" [Thrd,Fem,Sg] []]
 	, [Cat "avril_lavigne"	"NP" [Thrd,Fem,Sg] []]
-	-- , [Cat "mindy"	"NP" [Thrd,Fem,Sg] []]
-	, [Cat "rena"	"NP" [Thrd,Fem,Sg] []]
-	, [Cat "vicky"	"NP" [Thrd,Fem,Sg] []]
+	, [Cat "mindy"	"NP" [Thrd,Fem,Sg] []]
+	-- , [Cat "rena"	"NP" [Thrd,Fem,Sg] []]
+	-- , [Cat "vicky"	"NP" [Thrd,Fem,Sg] []]
 	, [Cat "applied_foreign_languages"	"NP" [Thrd,Neutr,Sg] []]
 	, [Cat "english"	"NP" [Thrd,Neutr,Sg] []]
 	, [Cat "minghsin_university"	"NP" [Thrd,Neutr,Sg] []]
@@ -27,6 +27,14 @@ names = [
 	, [Cat "jiayi"	"NP" [Thrd,Neutr,Sg] []]
 	, [Cat "april_30th,_1994"	"NP" [Thrd,Neutr,Sg] []]
 	, [Cat "1994"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "lextar"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "japanese"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "nantou"	"NP" [Thrd,Neutr,Sg] []]
+
+	, [Cat "jeremy_lin"	"NP" [Thrd,Masc,Sg] []]
+	, [Cat "hukou"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "gemitek"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "hsiao_ching-teng"	"NP" [Thrd,Masc,Sg] []]
 
 	]
 
@@ -69,6 +77,32 @@ nouns = [
 	, [Cat "shopping"	"NP" [Thrd,Neutr,Sg] []]
 	, [Cat "weekends"	"NP" [Thrd,Neutr,Pl] []]
 
+-- mindy
+	, [Cat "the_tv_program,_discovery"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "the_song,_memory"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "going_to_the_movies"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "japanese_interpreter"	"CN" [Thrd,MascOrFem,Sg] []]
+	, [Cat "pizza"	"NP" [Thrd,Neutr,Sg] []]
+
+--kelly
+	, [Cat "watching_tv"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "dietitian"	"CN" [Thrd,MascOrFem,Sg] []]
+
+-- neil
+	, [Cat "27"	"NP" [Thrd,MascOrFem,Sg] []]
+	, [Cat "non-commissioned_officer"	"CN" [Thrd,MascOrFem,Sg] []]
+	, [Cat "jogging"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "swimming"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "the_military"	"NP" [Thrd,Neutr,Sg] []]
+
+-- shane
+	, [Cat "21"	"NP" [Thrd,MascOrFem,Sg] []]
+	, [Cat "christian"	"CN" [Thrd,MascOrFem,Sg] []
+		, Cat "christian" "ADJ" [] []]
+	, [Cat "singing"	"NP" [Thrd,Neutr,Sg] []]
+
+-- dave
+	, [Cat "making_friends"	"NP" [Thrd,Neutr,Sg] []]
 	]
 
 verbs = [
@@ -85,6 +119,11 @@ aux = [
 	]
 
 adjs = [
+	[Cat "shy"	"ADJ" [] []]
+	, [Cat "reserved"	"ADJ" [] []]
+	, [Cat "good"	"ADJ" [] []]
+	, [Cat "nice"	"ADJ" [] []]
+
 	]
 
 advs = [
