@@ -57,6 +57,7 @@ relations = [
  	[x,y] -> forgetful3 (predid3 "got") y x )
  , ( "studied", \args -> case args of
         [x,y] -> predid2 "studied" y x
+        -- [x,y] -> forgetful3 $ flip (predid3 "studied_subj_at" y) x
         [x,y,z] -> predid3 "studied_subj_at" z y x )
  ]
 
