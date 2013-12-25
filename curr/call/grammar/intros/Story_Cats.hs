@@ -78,15 +78,15 @@ nouns = [
 	, [Cat "weekends"	"NP" [Thrd,Neutr,Pl] []]
 
 -- mindy
-	, [Cat "the_tv_program,_discovery"	"NP" [Thrd,Neutr,Sg] []]
-	, [Cat "the_song,_memory"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "the_tv_program_discovery"	"NP" [Thrd,Neutr,Sg] []]
+	, [Cat "the_song_memory"	"NP" [Thrd,Neutr,Sg] []]
 	, [Cat "going_to_the_movies"	"NP" [Thrd,Neutr,Sg] []]
-	, [Cat "japanese_interpreter"	"CN" [Thrd,MascOrFem,Sg] []]
+	, [Cat "a_japanese_interpreter"	"NP" [Thrd,MascOrFem,Sg] []]
 	, [Cat "pizza"	"NP" [Thrd,Neutr,Sg] []]
 
 --kelly
 	, [Cat "watching_tv"	"NP" [Thrd,Neutr,Sg] []]
-	, [Cat "dietitian"	"CN" [Thrd,MascOrFem,Sg] []]
+	, [Cat "a_dietitian"	"NP" [Thrd,MascOrFem,Sg] []]
 
 -- neil
 	, [Cat "27"	"NP" [Thrd,MascOrFem,Sg] []]
@@ -123,6 +123,7 @@ adjs = [
 	, [Cat "reserved"	"ADJ" [] []]
 	, [Cat "good"	"ADJ" [] []]
 	, [Cat "nice"	"ADJ" [] []]
+	, [Cat "busy"	"ADJ" [] []]
 
 	]
 
