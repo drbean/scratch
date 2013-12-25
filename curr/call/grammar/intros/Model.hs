@@ -32,30 +32,24 @@ data Entity	=
 		| VS | VT
 		| VW
 
-		|  MA | MB | MC | MD | ME | MF | MG
-		| MH | MI | MJ | MK | ML | MM | MN
-		| MO | MP | MQ | MR | MS | MT | MU
-		| MV | MW | MX | MY | MZ
+		| MB | MD | MF | MG
+		| MI | MM
+		| MP | MS
 
-		| KA | KB | KC | KD | KE | KF | KG
-		| KH | KI | KJ | KK | KL | KM | KN
-		| KO | KP | KQ | KR | KS | KT | KU
-		| KV | KW | KX | KY | KZ
+		| KD | KF
+		| KL | KM
+		| KS | KT
 
-		| NA | NB | NC | ND | NE | NF | NG
-		| NH | NI | NJ | NK | NL | NM | NN
-		| NO | NP | NQ | NR | NS | NT | NU
-		| NV | NW | NX | NY | NZ
+		| NA | NB | NF
+		| NI | NJ | NM | NN
+		| NO | NS | NT
 
-		| SA | SB | SC | SD | SE | SF | SG
-		| SH | SI | SJ | SK | SL | SM | SN
-		| SO | SP | SQ | SR | SS | ST | SU
-		| SV | SW | SX | SY | SZ
+		| SC | SF | SG
+		| SH | SJ | SM | SN
+		| SS | ST
 
-		| DA | DB | DC | DD | DE | DF | DG
-		| DH | DI | DJ | DK | DL | DM | DN
-		| DO | DP | DQ | DR | DS | DT | DU
-		| DV | DW | DX | DY | DZ
+		| DB | DF
+		| DK | DM
 
 		| Someone | Something | Unspec
 		deriving (Eq,Show,Bounded,Enum,Ord)
@@ -131,143 +125,50 @@ entity_check =  [
     -- , (VT, "Vicky's second sister")
     -- , (VW, "weekends")
        
-    , (MA, "")
     , (MB, "Mindy's younger brother")
-    , (MC, "")
-    , (MD, "the TV program, Discovery")
-    , (ME, "")
+    , (MD, "the_tv_program_discovery")
     , (MF, "Mindy's father")
     , (MG, "going_to_the_movies")
-    , (MH, "")
-    , (MI, "japanese_interpreter")
-    , (MJ, "")
-    , (MK, "")
-    , (ML, "")
+    , (MI, "a_japanese_interpreter")
     , (MM, "Mindy's mother")
-    , (MN, "")
-    , (MO, "")
     , (MP, "pizza")
-    , (MQ, "")
-    , (MR, "")
     , (MS, "the_song,_memory")
-    , (MT, "")
-    , (MU, "")
-    , (MV, "")
-    , (MW, "")
-    , (MX, "")
-    , (MY, "")
-    , (MZ, "")
 
-    , (KA, "")
-    , (KB, "")
-    , (KC, "")
-    , (KD, "")
-    , (KE, "")
+    , (KD, "a_dietitian")
     , (KF, "Kelly's father")
-    , (KG, "")
-    , (KH, "")
-    , (KI, "")
-    , (KJ, "")
-    , (KK, "")
     , (KL, "lextar")
     , (KM, "Kelly's mother")
-    , (KN, "")
-    , (KO, "")
-    , (KP, "")
-    , (KQ, "")
-    , (KR, "")
     , (KS, "Kelly's sister")
     , (KT, "watching_tv")
-    , (KU, "")
-    , (KV, "")
-    , (KW, "")
-    , (KX, "")
-    , (KY, "")
-    , (KZ, "")
 
 -- neil
     , (NA, "the_military")
     , (NB, "Neil's brother")
-    , (NC, "")
-    , (ND, "")
-    , (NE, "")
     , (NF, "Neil's father")
-    , (NG, "")
-    , (NH, "")
     , (NI, "swimming")
     , (NJ, "jogging")
-    , (NK, "")
-    , (NL, "")
     , (NM, "Neil's mother")
     , (NN, "nantou")
     , (NO, "non-commissioned_officer")
-    , (NP, "")
-    , (NQ, "")
-    , (NR, "")
     , (NS, "Neil's first sister")
     , (NT, "Neil's second sister")
-    , (NU, "")
-    , (NV, "")
-    , (NW, "")
-    , (NX, "")
-    , (NY, "")
-    , (NZ, "")
 
 -- shane
-    , (SA, "")
-    , (SB, "")
     , (SC, "hsiao_ching-teng")
-    , (SD, "")
-    , (SE, "")
     , (SF, "Shane's father")
     , (SG, "gemitek")
     , (SH, "hukou")
-    , (SI, "")
     , (SJ, "jeremy_lin")
-    , (SK, "")
-    , (SL, "")
     , (SM, "Shane's mother")
     , (SN, "singing")
-    , (SO, "")
-    , (SP, "")
-    , (SQ, "")
-    , (SR, "")
     , (SS, "Shane's first sister")
     , (ST, "Shane's second sister")
-    , (SU, "")
-    , (SV, "")
-    , (SW, "")
-    , (SX, "")
-    , (SY, "")
-    , (SZ, "")
 
 -- dave
-    , (DA, "")
-    , (DB, "")
-    , (DC, "")
-    , (DD, "Dave's brother")
-    , (DE, "")
+    , (DB, "Dave's brother")
     , (DF, "Dave's father")
-    , (DG, "")
-    , (DH, "")
-    , (DI, "")
-    , (DJ, "")
     , (DK, "making_friends")
-    , (DL, "")
     , (DM, "Dave's mother")
-    , (DN, "")
-    , (DO, "")
-    , (DP, "")
-    , (DQ, "")
-    , (DR, "")
-    , (DS, "")
-    , (DT, "")
-    , (DU, "")
-    , (DV, "")
-    , (DW, "")
-    , (DX, "")
-    , (DY, "")
-    , (DZ, "")
 	]
 
 characters :: [ (String, Entity) ]
@@ -321,11 +222,11 @@ onePlacers = [
 	, ("student",	pred1 students )
 	, ("worker",	pred1 [ w | (w,period,_) <- careers,
 				    period == Present ] )
-	, ("father",	pred1 [JF,CF,VF,MF,KF,NF,SF] )
+	, ("father",	pred1 [JF,CF,VF,MF,KF,NF,SF,DF] )
 	, ("mother",	pred1 [ m | (m,_,_,_) <- births,
 				    m /= Unspec ] )
 	, ("grandmother", pred1 [JG] )
-	, ("brother", pred1 [AB,MB,NB] )
+	, ("brother", pred1 [AB,MB,NB,DB] )
 	, ("sister", pred1 [AS,CS,VS,VT,KS,NS,NT,SS,ST] )
 	, ("sibling", pred1 [JS,AB,CS] )
 
@@ -350,14 +251,12 @@ onePlacers = [
 
 	, ("babysitter",	pred1 [VM])
 
-	, ("dietitian",	pred1 [K])
-
 -- neil
 	, ("non-commissioned_officer",	pred1 [N])
 	, ("27",	pred1 [N])
 
 --shane
-	, ("21",	pred1 [S])
+	, ("21",	pred1 [S,D])
 	, ("christian", pred1 [S,SJ])
 
 -- dave
@@ -418,10 +317,14 @@ twoPlacers = [
 	)
     , ("like",	pred2 $ map (\(a,t,r) -> (a,r)) appreciation)
     , ("live",	pred2 residents )
-    , ("studied", pred2 (foldl  (\ss (_,school,subject,student,_) ->
-	(student,subject): (student,school): ss ) [] schooling ) )
     , ("work",	pred2 $ [(a,c) | (a,p,c) <- careers, p == Present ] )
     , ("kind",	pred2 $ [(student, H) | (_,_,_,student,_) <- schooling ])
+    , ("placing",	pred2 $ [(student, school) | (_,school,_,student,_) <- schooling ]
+		++ [(worker, place) | (worker,period,place) <- careers,
+						    period == Present ]
+		++ residents )
+    , ("studied", pred2 $ foldl (\hs (_,school,subject,student,_) ->
+		    (student,subject): (student,school) : hs) [] schooling )
     ]
 
 curry3 :: ((a,b,c) -> d) -> a -> b -> c -> d
@@ -440,7 +343,7 @@ appreciation	= [
     , (K,Unspec,F),(K,Unspec,KT),(K,Unspec,P)
     , (N,Unspec,NJ),(N,Unspec,NI)
     , (S,Unspec,L),(S,Unspec,SN),(S,Unspec,SJ),(S,Unspec,SC)
-    , (D,Unspec,K)
+    , (D,Unspec,DK)
     ]
 data Period	= Present | Future
 		deriving (Eq,Show,Bounded,Enum,Ord)
