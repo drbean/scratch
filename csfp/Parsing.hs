@@ -151,8 +151,8 @@ preproc ["?"]              = []
 
 preproc ("6":",000":"dollars":xs)	= "6_000_dollars" : preproc xs
 preproc ("3":",000":"dollars":xs)	= "3_000_dollars" : preproc xs
-preproc ("the":"song,":"memory":xs)	= "the_song,_memory" : preproc xs
-preproc ("the":"tv":"program,":"discovery":xs)	= "the_tv_program,_discovery" : preproc xs
+preproc ("the":"song,":"memory":xs)	= "the_song_memory" : preproc xs
+preproc ("the":"tv":"program,":"discovery":xs)	= "the_tv_program_discovery" : preproc xs
 
 
 preproc (",":xs)           = preproc xs
@@ -172,7 +172,8 @@ preproc ("design":"assistant":xs)	= "design_assistant" : preproc xs
 preproc ("playing":"the":"piano":xs)	= "playing_the_piano" : preproc xs
 preproc ("watching":"tv":xs)	= "watching_tv" : preproc xs
 preproc ("going":"to":"the":"movies":xs)	= "going_to_the_movies" : preproc xs
-preproc ("japanese":"interpreter":xs)	= "japanese_interpreter" : preproc xs
+preproc ("a":"japanese":"interpreter":xs)	= "a_japanese_interpreter" : preproc xs
+preproc ("a":"dietitian":xs)	= "a_dietitian" : preproc xs
 preproc ("non-commissioned":"officer":xs)	= "non-commissioned_officer" : preproc xs
 preproc ("jeremy":"lin":xs)	= "jeremy_lin" : preproc xs
 preproc ("hsiao":"ching-teng":xs)	= "hsiao_ching-teng" : preproc xs
