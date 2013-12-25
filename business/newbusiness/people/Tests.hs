@@ -77,6 +77,17 @@ starts = [
 	, "Wasn't NVIDIA started in 1993 by Jensen Huang?"
 	]
 
+starts_tags = [
+	"NVIDIA started in 1993, didn't it?"
+	, "Jensen Huang started NVIDIA in 1993, didn't he?"
+	, "Jensen Huang started NVIDIA, didn't he?"
+	, "NVIDIA was started by Jensen Huang in 1993, wasn't it?"
+	, "NVIDIA was started in Jensen Huang by 1993, wasn't it?"
+	, "NVIDIA was started in 1993 by Jensen Huang, wasn't it?"
+	, "NVIDIA wasn't started in 1993 by Jensen Huang, was it?"
+	-- , "Wasn't NVIDIA started in 1993 by Jensen Huang?"
+	]
+
 comp_wh = [
 	"Whose company was NVIDIA?"
 	]
