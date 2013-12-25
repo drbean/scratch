@@ -40,6 +40,8 @@ relations = [
 	, ( "bad",	\[x] -> predid1 "bad" x	)
 	, ( "successful",	\[x] -> predid1 "successful" x	)
 	, ( "unsuccessful",	\[x] -> predid1 "unsuccessful" x	)
+	, ( "nice",	\[x] -> predid1 "nice" x	)
+	, ( "busy",	\[x] -> predid1 "busy" x	)
 
 	, ( "applied_foreign_languages",	\[x] -> predid1 "applied_foreign_languages" x	)
 	, ( "english",	\[x] -> predid1 "english" x	)
@@ -72,6 +74,7 @@ relations = [
 	, ( "like",	\[x,y]	-> predid2 "like" y x	)
 	, ( "live",	\[x,y]	-> predid2 "live" y x	)
 	, ( "kind",	\[x,y]	-> predid2 "kind" y x	)
+	, ( "placing",	\[x,y]	-> predid2 "placing" y x	)
 
 	, ( "held", \args -> case args of 
 		[x,y,z,w] -> predid4 "held" w z y x
