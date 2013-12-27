@@ -219,7 +219,7 @@ have_whs = [
 	"Who had a mother in Hsinchu?"
 	, "Who had a mother in Nantou?"
 	, "Who had a sister?"
-	, "Who had a job?"
+	-- , "Who had a job?"
 	]
 
 studies_wh	= [
@@ -249,24 +249,27 @@ studies	= [
 
 comp_wh = [
 	"Whose grandmother was a farmer?"
+	, "Who was a student of Minghsin University"
+	, "Who was a student in Minghsin University"
 	]
 
 comp_tests = [
 	"Dr Bean was a teacher."
-	, "Was Alex a teacher?"
-	, "Was Alex a student?"
-	, "Was Alex a student in Minghsin University?"
-	, "Was Alex the student in Minghsin University?"
+	, "Was Shane a teacher?"
+	, "Was Shane a student?"
+	, "Was Shane a student in Minghsin University?"
+	, "Was Shane a student of Minghsin University?"
+	, "Was Shane the student in Minghsin University?"
 	, "Dr Bean was an teacher."
 	, "Dr Bean was in Hshinchu."
 	, "Dr Bean was a teacher in Hshinchu."
 	, "Dr Bean was a person."
 	, "Dr Bean wasn't an person."
-	, "Alex wasn't a person."
+	, "Shane wasn't a person."
 	, "Wasn't Dr Bean a person?"
-	, "Wasn't Alex a person?"
-	, "Wasn't NVIDIA a person?"
-	, "Wasn't Jeff a teacher"
+	, "Wasn't Shane a person?"
+	, "Wasn't Minghsin University a person?"
+	, "Wasn't Mindy a teacher"
 	]
 
 relatives = [
