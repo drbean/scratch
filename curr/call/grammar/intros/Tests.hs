@@ -8,6 +8,7 @@ dave	= [
 	, "Dave was 21."
 	, "Dave's mother was nice."
 	, "Dave had a father."
+	, "Did Dave have a father."
 	, "Dave's father was good."
 	, "Dave was busy."
 	, "Dave had a brother."
@@ -73,33 +74,34 @@ yn_tests = cindy ++ studies ++ jeff ++ residents ++ likes ++ work ++ birth
 tag = [
 	"Kelly had, didn't she?"
 	, "Kelly had sisters, didn't she?"
-	, "Mindy liked playing_the_piano, didn't she?"
-	, "Neil was a design_assistant, wasn't he?"
-	, "Neil lived in Hsinchu, didn't he?"
-	, "Mindy was born in Nantou, wasn't she?"
-	, "Mi_mi was Dave 's cat, wasn't it?"
-	, "Shane 's father was a truck_driver, wasn't he?"
-	, "Neil was born in Hukou, wasn't he?"
-	, "Neil liked jogging, didn't he?"
-	, "Shane was born in Hukou, wasn't he?"
-	, "Shane 's mother was a career_woman, wasn't she?"
-	, "Shane 's grandmother was a farmer, wasn't she?"
-	, "Dave liked cats, didn't she?"
 	, "Mindy had sisters, didn't she?"
 	, "Mindy did have sisters, didn't she?"
 	, "Mindy didn't have sisters, did she?"
 	-- , "Did Mindy have sisters?"
 	-- , "Did Kelly like playing the piano?"
-	, "Shane lived in Hsinchu, didn't he?"
 	-- , "Did Shane live in Hsinchu?"
-	, "Shane was a design_assistant, wasn't he?"
-	, "Kelly was born in Hukou, wasn't she?"
+	, "Kelly liked playing_the_piano, didn't she?"
+	, "Mindy liked playing_the_piano, didn't she?"
+	, "Neil liked jogging, didn't he?"
+	, "Dave liked cats, didn't she?"
+	, "Neil lived in Hsinchu, didn't he?"
+	, "Shane lived in Hsinchu, didn't he?"
+	, "Shane lived in Hukou, didn't he?"
+	, "Neil was a design_assistant, wasn't he?"
 	, "Mi Mi was Dave's cat, wasn't it?"
+	, "Shane 's father was a truck_driver, wasn't he?"
 	, "Dave's father was a truck_driver, wasn't he?"
-	, "Shane was born in Taoyuan, wasn't he?"
-	, "Was Shane born in Taoyuan, wasn't he?"
-	, "Shane was born in Taoyuan, wasn't Shane?"
-	, "Shane was born in Taoyuan, wasn't she?"
+	, "Shane was born in Hukou, wasn't he?"
+	, "Shane 's mother was a career_woman, wasn't she?"
+	, "Shane 's grandmother was a farmer, wasn't she?"
+	, "Neil was born in Nantou, wasn't she?"
+	, "Mindy was born in Nantou, wasn't she?"
+	, "Neil was born in Hukou, wasn't he?"
+	, "Kelly was born in Hukou, wasn't she?"
+	, "Shane was born in Nantou, wasn't he?"
+	, "Was Shane born in Nantou, wasn't he?"
+	, "Shane was born in Nantou, wasn't Shane?"
+	, "Shane was born in Nantou, wasn't she?"
 	, "Shane was born in 1994, wasn't he?"
 	]
 
@@ -182,7 +184,7 @@ birth	= [
 	]
 
 birth_wh	= [
-	"Where was Alex born?"
+	"Where was Mindy born?"
 	, "Who was born in Hsinchu?"
 	, "Who wasn't born in Hsinchu?"
 	]
@@ -215,16 +217,16 @@ haves =	[
 	]
 have_whs = [
 	"Who had a mother in Hsinchu?"
-	, "Who had a mother in Taoyuan?"
+	, "Who had a mother in Nantou?"
 	, "Who had a sister?"
 	, "Who had a job?"
 	]
 
 studies_wh	= [
-	"What did Jeff study?"
-	, "When did Jeff study Applied Foreign Languages?"
+	"What did Neil study?"
+	, "When did Neil study Applied Foreign Languages?"
 	, "When was Applied Foreign Languages studied?"
-	, "Where did Jeff study Applied Foreign Languages?"
+	, "Where did Neil study Applied Foreign Languages?"
 	, "Who was Applied Foreign Languages studied by?"
 	]
 
