@@ -457,10 +457,9 @@ prsTAG = \us xs -> [ (Branch (Cat "_" "S" [] []) [s,t],ws,zs) |
 tagR :: SPARSER Cat Cat 
 tagR = \ us xs -> 
  [ (Branch (Cat "_" "TAG" fs []) [tagV,tagS],rs,ss) | 
-	(tagV,vs,ys)	<- prsCOPAUX us xs,
+	(tagV,vs,ys)	<- leafPS "TAG" us xs,
 	(aux,ws,zs)	<- popCOPAUX vs ys,
 	agreeC tagV aux,
-	subcatList (t2c tagV) == [],
 	and $ zipWith (==) (phon (t2c tagV)) (phon (t2c aux)),
 	(tagS,ps,qs)	<- leafPS "NP" ws zs,
 	pronType (fs (t2c tagS)) == [Pers],
