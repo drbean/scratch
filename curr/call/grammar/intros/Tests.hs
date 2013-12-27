@@ -99,6 +99,7 @@ tag = [
 	, "Shane was born in Taoyuan, wasn't he?"
 	, "Was Shane born in Taoyuan, wasn't he?"
 	, "Shane was born in Taoyuan, wasn't Shane?"
+	, "Shane was born in Taoyuan, wasn't she?"
 	, "Shane was born in 1994, wasn't he?"
 	]
 
