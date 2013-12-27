@@ -693,7 +693,6 @@ finVpR = \us xs -> [(vp',vs,ys) |
 		tag        <- [Cat "didn't" "AUX" [ Ng ] [] ],
                 (vp,vs,ys) <- case us of
 			[Cat _ "NP" _ _] -> push tag vpR us xs
-			[] -> push tag vpR us xs
 			otherwise -> vpR us xs,
 		vp'        <- assignT Tense vp ]
 
