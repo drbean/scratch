@@ -23,7 +23,7 @@ names = [
 	, [Cat "america"	"NP" [Thrd,Neutr,Sg] []]
 	-- , [Cat "taiwan"	"NP" [Thrd,Neutr,Sg] []]
 	, [Cat "hsinchu"	"NP" [Thrd,Neutr,Sg] []]
-	, [Cat "taoyuan"	"NP" [Thrd,Neutr,Sg] []]
+	-- , [Cat "taoyuan"	"NP" [Thrd,Neutr,Sg] []]
 	, [Cat "jiayi"	"NP" [Thrd,Neutr,Sg] []]
 	, [Cat "april_30th,_1994"	"NP" [Thrd,Neutr,Sg] []]
 	, [Cat "1994"	"NP" [Thrd,Neutr,Sg] []]
