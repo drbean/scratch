@@ -463,6 +463,7 @@ tagR = \ us xs ->
 	subcatList (t2c tagV) == [],
 	and $ zipWith (==) (phon (t2c tagV)) (phon (t2c aux)),
 	(tagS,ps,qs)	<- leafPS "NP" ws zs,
+	pronType (fs (t2c tagS)) == [Pers],
 	(subj,rs,ss)	<- pop "NP" ps qs,
 	agreeC tagS subj,
 	agreement	<- combine (t2c tagV) (t2c tagS),
