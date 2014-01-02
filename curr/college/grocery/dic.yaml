@@ -8,8 +8,8 @@
   - unclozeables
   - percent
 -
-  - test-3-responses
-  - Elearning practice test Unit 3
+  - test-responses-3-4
+  - Elearning practice test Unit 3, 4
   - college
   - all
   - |+
@@ -20,20 +20,15 @@
     5. Do you go to the movies?
     6. Why does she like to go swimming?
     7. What do you do for fun?
+    8. Is there any milk?
+    9. Do we need to buy soap?
+    10. How much does this toothbrush cost?
+    11. Do we need to buy eggs?
+    12. Where do you go grocery shopping?
+    13. Do we need to buy a lot of things?
+    14. What do we need from the store?
 
--
-  - test-4-responses
-  - Elearning practice test Unit 4
-  - college
-  - all
-  - |+
-    1. Is there any milk?
-    2. Do we need to buy soap?
-    3. How much does this toothbrush cost?
-    4. Do we need to buy eggs?
-    5. Where do you go grocery shopping?
-    6. Do we need to buy a lot of things?
-    7. What do we need from the store?
+  - What | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 14. | 13. | 12. | 11. | 10.
 
 -
   - test-conversations-unit3
@@ -46,22 +41,23 @@
     M: What do you like to do?
     F: I love to go dancing.
     M: I seldom go dancing.
-    F: Really? I’m surprised.
+    F: Really? I'm surprised.
     Q: What is TRUE about the man?
     
     2. 
     F: How old are you?
     M: I am eighteen.
-    F: Well, I’m almost eighteen. My birthday is in a week. 
-    M: You aren’t nineteen?
+    F: Well, I'm almost eighteen. My birthday is in a week. 
+    M: You aren't nineteen?
     Q: How old is the girl?
     
     3. 
     M: How are you doing?
-    F: I’m pretty good, thanks.
+    F: I'm pretty good, thanks.
     M: Do you have time to talk?
-    F: Sure. I’m free right now.
+    F: Sure. I'm free right now.
     Q: What does the woman mean?
+  - F|M|Q|1|2|3
 
 -
   - test-conversations-unit4
@@ -71,13 +67,13 @@
   - |+
     1. 
     M: We have to go shopping today.
-    F: I know. Let’s go.
+    F: I know. Let's go.
     M: Do you have a grocery list?
-    F: Yes. It’s in my pocket.
+    F: Yes. It's in my pocket.
     Q: What does the woman have?
     
     2. 
-    F: This restaurant is great! I’m really full.
+    F: This restaurant is great! I'm really full.
     M: Me too.
     F: Are you ready to leave?
     M: I need to pay first.
