@@ -11,7 +11,7 @@ $_REPL->load_plugin('DumpHistory');
 (my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
 use Grades;
 use Grades::Groupwork;
-my $l = League->new( leagues => '/home/drbean/class/beans/t', id => $dir );
+my $l = League->new( leagues => '/home/drbean/021', id => $dir );
 my $g = Grades->new({ league => $l });
 my $co = Compcomp->new({ league => $l });
 my $cl = $g->classwork;
