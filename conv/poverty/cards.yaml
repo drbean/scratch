@@ -236,7 +236,7 @@ vanbeke:
             - Eva
             - Mary
           answer: Eva
-        - question: Eva paid Mrs Blaisdell to care for Mary.
+        - question: Eva worked far from the Blaisdell's.
           answer  : False
         - question: Mary cleaned house in return for food.
           answer  : True
