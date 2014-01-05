@@ -214,9 +214,10 @@ vanbeke:
           answer  : True
     1:
       identifier: vanbeke 1
-      A: You were living at Mrs Blaisdell's house and cleaning and washing for her. You saw your mother outside and asked her to come in to talk. After, Mrs Blaisdell told you not to invite your mother in the front door. You were upset and left.
+      A: You were living at Mrs Blaisdell's house and cleaning and washing for her. You saw your mother outside and asked her to come in to talk. Later, Mrs Blaisdell told you not to invite your mother in the front door. You were upset and left.
       B: You helped Eva, who was working near your house, by letting her daughter, Mary stay and feeding her. In return, she did housework. But you were unhappy Mary let her mother in the front door. Mary was the help, not part of your family. 
       C: You were passing Mrs Blaisdell's house on your way to work, and your daughter, Mary called you in. After, Mary told you that Mrs Blaisdell told her not to let you in the front door. You told Mary that she should not have gotten upset.
+      quiz:
         - question: A
           option:
             - Mrs Blaisdell
@@ -239,14 +240,16 @@ vanbeke:
           answer  : False
         - question: Mary cleaned house in return for food.
           answer  : True
-        - question: Mrs B. treated Eva as a family member.
+        - question: Mrs B. treated Mary as a family member.
+          answer  : False
+        - question: Mrs Blaisdell told Mary Eva was welcome.
+          answer  : False
+        - question: Mary was OK with Eva coming around the back.
           answer  : False
         - question: Mary was unhappy with Mrs Blaisdell.
           answer  : True
-        - question: Mrs Blaisdell told Mary Eva was not welcome.
+        - question: Eva thought Mary was unwise to leave.
           answer  : True
-        - question: Eva thought Mary was wise to leave.
-          answer  : False
   compcomp:
     0:
       identifier: vanbeke 0
