@@ -214,10 +214,39 @@ vanbeke:
           answer  : True
     1:
       identifier: vanbeke 1
-      A: You were the oldest of four children. You were only 5 when your father died in 1922. Life was very hard for you in the 1920's and even harder in the 1930's during the Depression. Your mother
-      B: You knew Eva, who was working near your home, needed to find some family who would take her daughter in. In 2031, you let her daughter stay and fed her. In return, she had to clean house and wash clothes. 
-      C: Your daughter, Mary called you in to Mrs Blaisdell's house. After, Mary told you that Mrs Blaisdell told her not to let you in the front door.kk
-      D: You brought your wife, Eva to the US kk
+      A: You were living at Mrs Blaisdell's house and cleaning and washing for her. You saw your mother outside and asked her to come in to talk. After, Mrs Blaisdell told you not to invite your mother in the front door. You were upset and left.
+      B: You helped Eva, who was working near your house, by letting her daughter, Mary stay and feeding her. In return, she did housework. But you were unhappy Mary let her mother in the front door. Mary was the help, not part of your family. 
+      C: You were passing Mrs Blaisdell's house on your way to work, and your daughter, Mary called you in. After, Mary told you that Mrs Blaisdell told her not to let you in the front door. You told Mary that she should not have gotten upset.
+        - question: A
+          option:
+            - Mrs Blaisdell
+            - Eva
+            - Mary
+          answer: Mary
+        - question: B
+          option:
+            - Mrs Blaisdell
+            - Eva
+            - Mary
+          answer: Mrs Blaisdell
+        - question: C
+          option:
+            - Mrs Blaisdell
+            - Eva
+            - Mary
+          answer: Eva
+        - question: Eva paid Mrs Blaisdell to care for Mary.
+          answer  : False
+        - question: Mary cleaned house in return for food.
+          answer  : True
+        - question: Mrs B. treated Eva as a family member.
+          answer  : False
+        - question: Mary was unhappy with Mrs Blaisdell.
+          answer  : True
+        - question: Mrs Blaisdell told Mary Eva was not welcome.
+          answer  : True
+        - question: Eva thought Mary was wise to leave.
+          answer  : False
   compcomp:
     0:
       identifier: vanbeke 0
