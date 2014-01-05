@@ -38,41 +38,41 @@ hacking:
   jigsaw:
     0:
       identifier: hacking 0
-      A: Your company, News of the World was hacking phones of famous people. Police investigated when Prince Harry complained, but they didn't investigate very carefully. Only one reporter was jailed, but everyone in the newspaper was hacking phones. People say you asked police not to investigate the phone hacking. You read Filkin's report.
-      B: Before the chief police officer resigned, he asked you to report on the proper relationship between the police and the media. You say that some police were taking money from journalists. You think News of the World might have stopped a full police investigation. You don't know if Murdoch knew.
-      C: You are third in line to be King of England. You went to a strip club. News of the World found out your girlfriend was mad at you. You think the newspaper hacked your phones. You told police. They arrested a reporter, who went to jail. You hear later that the newspaper hacked the phones of many people. Later, the newspaper closed down.
+      A: You tell Rebekah, the editor of your newspaper, to hack the messages of Prince William and his girlfriend to find big news about him.
+      B: You are the editor of Rupert Murdoch's newspaper. You publish a picture of Prince William wearing a bikini, taken from his cell phone.
+      C: You will be King of England in the future. You went to a party dressed in a bikini. Rebekah gets the picture. She tells Rupert Murdoch.
       quiz:
         - question: A
           option:
-            - Filkin
-            - Prince Harry
             - Murdoch
+            - Prince William
+            - Rebekah
           answer: Murdoch
         - question: B
           option:
-            - Filkin
-            - Prince Harry
             - Murdoch
-          answer: Filkin
+            - Prince William
+            - Rebekah
+          answer: Rebekah
         - question: C
           option:
-            - Filkin
-            - Prince Harry
             - Murdoch
-          answer: Prince Harry
-        - question: News of the World no longer exists.
-          answer  : True
-        - question: The resigning police chief may have been involved.
-          answer  : True
-        - question: Filkin knows that Murdoch knew.
+            - Prince William
+            - Rebekah
+          answer: Prince William
+        - question: Murdoch didn't know what Rebekah was doing.
           answer  : False
-        - question: Many phone hackers were jailed.
-          answer  : False
-        - question: The prince hacked Murdoch's phone.
-          answer  : False
-        - question: Filkin wants changes to police-media relationships.
+        - question: Murdoch told Rebekah to hack phones.
           answer  : True
-        - question: The girlfriend was mad at Harry.
+        - question: Rebekah wore a bikini, while hacking phones.
+          answer  : False
+        - question: The prince wore a bikini at a party.
+          answer  : True
+        - question: The prince gave Rebekah the picture.
+          answer  : False
+        - question: Rebekah tells Murdoch about the picture.
+          answer  : True
+        - question: Rebekah publishes the picture of Prince William.
           answer  : True
     1:
       identifier: hacking 1
