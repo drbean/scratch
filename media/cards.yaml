@@ -660,11 +660,11 @@ selfie:
           answer  : True
         - question: Many people (perhaps Obama's wife) criticize them. 
           answer  : True
-        - question: Cameron is unhappy Helle took the selfie.
+        - question: Cameron is unhappy about the selfie.
           answer  : False
-        - question: He wants Helle to delete the selfie.
+        - question: He wants the selfie to be deleted.
           answer  : False
-        - question: Cameron tells Helle he will buy the selfie.
+        - question: Cameron says that he will buy the selfie.
           answer  : False
         - question: Helle thought the selfie was a good idea.
           answer  : True
