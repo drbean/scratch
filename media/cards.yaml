@@ -628,3 +628,83 @@ scalia:
           answer  : True
         - question: Scalia doesn't want the court televised.
           answer  : True
+selfie:
+  jigsaw:
+    0:
+      identifier: scalia 0
+      A: You are at a funeral with the British Prime Minister and Obama. You want to get a photo of them with you. You take a selfie on your smartphone.
+      B: You are in the selfie with Helle and Obama. You ignore critics. You tell Helle to sell the selfie and to give the money to charity.
+      C: You move close to Helle and smile for the selfie she takes of the 3 of you. Many people, and perhaps your wife, are unhappy about the funeral selfie.
+      quiz:
+        - question: A
+          option:
+            - Cameron
+            - Helle
+            - Obama
+          answer: Helle
+        - question: B
+          option:
+            - Cameron
+            - Helle
+            - Obama
+          answer: Cameron
+        - question: C
+          option:
+            - Cameron
+            - Helle
+            - Obama
+          answer: Obama
+        - question: Obama uses his phone to take the selfie.
+          answer  : False
+        - question: Obama looks happy and friendly in it.
+          answer  : True
+        - question: Many people (perhaps Obama's wife) criticize them. 
+          answer  : True
+        - question: Cameron is unhappy Helle took the selfie.
+          answer  : False
+        - question: He wants Helle to delete the selfie.
+          answer  : False
+        - question: Cameron tells Helle he will buy the selfie.
+          answer  : False
+        - question: Helle thought the selfie was a good idea.
+          answer  : True
+thanksgiving:
+  jigsaw:
+    0:
+      identifier: thanksgiving 0
+      A: Each year you go to markets and find the cost of turkeys and other things in a Thanksgiving dinner. You then send a report on the prices to newspapers.
+      B: You take the same Farm Board press release each year and write the same Thanksgiving story. But you add tension to the story because it interests readers and sells papers.
+      C: You say reporters don't think about the story and don't write it well. They say turkey prices are going up, but they are going down. They also make math mistakes.
+      quiz:
+        - question: A
+          option:
+            - Critics
+            - Farm Board
+            - Reporters
+          answer: Farm Board
+        - question: B
+          option:
+            - Critics
+            - Farm Board
+            - Reporters
+          answer: Reporters
+        - question: C
+          option:
+            - Critics
+            - Farm Board
+            - Reporters
+          answer: Critics
+        - question: Reporters go to markets to check turkey prices.
+          answer  : False
+        - question: The Farm Board sends a press release out.
+          answer  : True
+        - question: Reporters use the press release to write stories.
+          answer  : True
+        - question: Reporters put tension in the Farm Board story.
+          answer  : True
+        - question: The tension is not real tension
+          answer  : True
+        - question: Critics think the reporters do a good job.
+          answer  : False
+        - question: Turkey prices are going up.
+          answer  : False
