@@ -38,7 +38,7 @@ hacking:
   jigsaw:
     0:
       identifier: hacking 0
-      A: You tell Rebekah, the editor of your newspaper, to hack the messages of Prince William and his girlfriend to find big news about him.
+      A: You tell Rebekah, the editor of your newspaper, to hack the cell phone messages of Prince William to find big news. You tell her to publish it.
       B: You are the editor of Rupert Murdoch's newspaper. You publish a picture of Prince William wearing a bikini, taken from his cell phone.
       C: You will be King of England in the future. You went to a party dressed in a bikini. Rebekah gets the picture. She tells Rupert Murdoch.
       quiz:
