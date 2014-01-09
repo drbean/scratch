@@ -205,15 +205,19 @@ passive_parse	=  map ( birth_wh !! ) [0,2] ++ map ( birth !! ) [1,2] ++ map ( bi
 -- passive_trans	=  (handler transWH $ map ( birth_wh !! ) [0,2]) ++ (handler transTXT $ map ( birth !! ) [1,2]) ++ (handler transTAG $ map ( birth_tag !! ) [0,2])
 	
 haves =	[
-	"Did Jeff have a farmer?"
-	, "Did Jeff have a basketball?"
-	-- , "Did Jeff have a mother in Hsinchu?"
-	-- , "Did Jeff have a mother in Taoyuan?"
-	-- , "Did Alex have a mother in Taoyuan?"
-	-- , "Did Alex have a sister in Taoyuan?"
-	-- , "Did Alex have a sister in Hsinchu?"
-	, "Jeff had a mother?"
+	"Did Dave have a farmer?"
+	, "Did Dave have a basketball?"
+	, "Did Dave have a mother in Hsinchu?"
+	, "Did Dave have a mother in Nantou?"
+	, "Did Shane have a mother in Nantou?"
+	, "Did Shane have a sister in Nantou?"
+	, "Did Shane have a sister in Hsinchu?"
+	, "Dave had a mother?"
 	, "Some students had a mother?"
+	, "Was a sister who Dave had a student?"
+	, "Was Dave's sister a student?"
+	, "Did Shane have a sister who was a student?"
+	, "Did Shane have a sister?"
 	]
 have_whs = [
 	"Who had a mother in Hsinchu?"
@@ -250,7 +254,9 @@ studies	= [
 comp_wh = [
 	"Whose grandmother was a farmer?"
 	, "Who was a student of Minghsin University"
-	, "Who was a student in Minghsin University"
+	, "Who was a student of Minghsin University"
+	, "Who was a woman who was born in Hsinchu?" -- long
+	, "Who was the woman who was born in Hsinchu?" -- excessively long
 	]
 
 comp_tests = [
@@ -261,8 +267,8 @@ comp_tests = [
 	, "Was Shane a student of Minghsin University?"
 	, "Was Shane the student in Minghsin University?"
 	, "Dr Bean was an teacher."
-	, "Dr Bean was in Hshinchu."
-	, "Dr Bean was a teacher in Hshinchu."
+	, "Dr Bean was in Hsinchu."
+	, "Dr Bean was a teacher in Hsinchu."
 	, "Dr Bean was a person."
 	, "Dr Bean wasn't an person."
 	, "Shane wasn't a person."
