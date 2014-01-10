@@ -28,7 +28,14 @@
     13. Do we need to buy a lot of things?
     14. What do we need from the store?
 
-  - What | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 14. | 13. | 12. | 11. | 10.
+    1. 
+    M: What do you like to do?
+    F: I love to go dancing.
+    M: I seldom go dancing.
+    F: Really? I'm surprised.
+    Q: What is TRUE about the man?
+    
+  - 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 14. | 13. | 12. | 11. | 10.
 
 -
   - test-conversations-unit3
@@ -37,13 +44,6 @@
   - all
   - |+
 
-    1. 
-    M: What do you like to do?
-    F: I love to go dancing.
-    M: I seldom go dancing.
-    F: Really? I'm surprised.
-    Q: What is TRUE about the man?
-    
     2. 
     F: How old are you?
     M: I am eighteen.
@@ -57,6 +57,21 @@
     M: Do you have time to talk?
     F: Sure. I'm free right now.
     Q: What does the woman mean?
+
+    1. 
+    M: We have to go shopping today.
+    F: I know. Let's go.
+    M: Do you have a grocery list?
+    F: Yes. It's in my pocket.
+    Q: What does the woman have?
+
+    2. 
+    F: This restaurant is great! I'm really full.
+    M: Me too.
+    F: Are you ready to leave?
+    M: I need to pay first.
+    Q: What must the man do?
+
   - F|M|Q|1|2|3
 
 -
@@ -65,20 +80,7 @@
   - college
   - all
   - |+
-    1. 
-    M: We have to go shopping today.
-    F: I know. Let's go.
-    M: Do you have a grocery list?
-    F: Yes. It's in my pocket.
-    Q: What does the woman have?
     
-    2. 
-    F: This restaurant is great! I'm really full.
-    M: Me too.
-    F: Are you ready to leave?
-    M: I need to pay first.
-    Q: What must the man do?
-
     3. 
     M: Do you plan to walk home?
     F: Yes, I do.
