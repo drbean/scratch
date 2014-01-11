@@ -630,11 +630,11 @@ fourconcepts:
           answer: lesson
     01:
       identifier: fourconcepts 01
-      A: When Wynn's casino opened, there was the same problem, that there was in the Ferrari showroom. Many people were gambling, and the tables were full. But they were not spending much, Only a few dollars per bet.
+      A: When Wynn's casino opened, there was a problem. Many people were gambling, and the tables were full. But they were not spending much, because it was cheap to gamble--only a few dollars per bet.
       B: After the casino opened, Wynn decided to make the minimum bet \$50. People who didn't have much money stopped coming to the casino. But there were enough people who could spend \$50 to bet, so the tables were still full.
       C: Now, the economy is bad and everyone has less money. There were fewer people coming to the casino. Wynn decided to lower the minimum bet to \$25. Now the tables are full again. This helped Wynn make more money again.
       quiz:
-        - question: If you have a business, how much will customers pay for your product?
+        - question: Businessmen should think about how much customers will pay for their product?
           option:
             - problem
             - solution
