@@ -48,6 +48,44 @@ rueda:
           answer  : False
         - question: Steve gave Noe a chance to study.
           answer  : True
+    1:
+      identifier: rueda 1
+      A: You were an unmarried mother with four children. Your oldest child, Noe was only 8 years old. You didn't ask him to work, but he made you happy by selling old cleaning supplies and giving you the money. You don't know Alex, his teacher.
+      B: You taught Noe in high school. Noe tells you a story about working on a building site when he was in elementary school to help his mother, Maria. You want him to continue to study and become a businessman so he can become rich.
+      C: You are now in college. No one in your family has ever been to college. Your mother, Maria and teacher, Alex want you to do well in college and get a good job. You want to succeed because it will make them happy. You like to make them happy.
+      quiz:
+        - question: A
+          option:
+            - Alex
+            - Maria
+            - Noe
+          answer: Maria
+        - question: B
+          option:
+            - Alex
+            - Maria
+            - Noe
+          answer: Alex
+        - question: C
+          option:
+            - Alex
+            - Maria
+            - Noe
+          answer: Noe
+        - question: Maria gave Noe money to start selling things.
+          answer  : False
+        - question: Noe helped Maria run a dry-cleaner's.
+          answer  : False
+        - question: Maria asked Noe to work to make money for the family.
+          answer  : False
+        - question: Noe first started work at the age of 18.
+          answer  : False
+        - question: Alex wants Noe to do well in business.
+          answer  : True
+        - question: Maria encourages Noe to do well in college.
+          answer  : True
+        - question: Noe wants to succeed to make Maria happy.
+          answer  : True
   compcomp:
     0:
       identifier: rueda 0
@@ -130,6 +168,44 @@ salazar:
           answer  : False
         - question: They were poor kids, but had good shoes.
           answer  : False
+    1:
+      identifier: salazar 1
+      A: You were the oldest of eight children. After graduating from college, you took over the farm. You are not a politician. And you are not as well known as your brothers, John and Ken. But you are well known in your district.
+      B: You are the second oldest in the family. There was no money to buy shoes, so you wore one of your brother, Leroy's big shoes on your left foot, going to school. You were a politician, but you were not as successful as Ken.
+      C: You are the third son of the Salazar family. You went to one of the most expensive colleges in the U.S and became a lawyer. You were a member of Obama's government. You made \$180,000 a year. You talk with John about your childhood.
+      quiz:
+        - question: A
+          option:
+            - John
+            - Ken
+            - Leroy
+          answer: Leroy
+        - question: B
+          option:
+            - John
+            - Ken
+            - Leroy
+          answer: John
+        - question: C
+          option:
+            - John
+            - Ken
+            - Leroy
+          answer: Ken
+        - question: Ken is the most well-known Salazar.
+          answer  : True
+        - question: John is more famous than Leroy.
+          answer  : True
+        - question: The eldest brother runs the family farm.
+          answer  : True
+        - question: Leroy is not well known, even in his hometown.
+          answer  : False
+        - question: They were poor kids, but had good shoes.
+          answer  : False
+        - question: Now Leroy probably is the richest.
+          answer  : False
+        - question: Leroy is the only one who was not a politician.
+          answer  : True
   compcomp:
     0:
       identifier: salazar 0
