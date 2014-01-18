@@ -237,7 +237,7 @@ studies_wh	= [
 studies	= [
 	"Alex studied English in Minghsin University."
 	, "Jeff studied in Minghsin University Applied Foreign Languages."
-	, "Jeff's brothers and sisters studied in Minghsin University."
+	-- , "Jeff's siblings studied in Minghsin University."
 	, "Rena studied English."
 	, "Rena studied Applied Foreign Languages."
 	, "Was Applied Foreign Languages studied in 1994?"
