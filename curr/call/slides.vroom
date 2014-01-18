@@ -563,6 +563,82 @@ groups vote on the winner.
 They list their reasons for their vote on 
 the form.
 
+----
+Question competition + assigned grammar structure
+
+The champion comes to the board with a grammar structure
+which the opponent will follow, asking a question.
+
+It must be different to a prior grammar structure.
+If the grammar structure is ungrammatical, the group
+gets a second chance.
+
+The champions write questions and answers on the board.
+Dr Bean evaluates the grammaticality of the questions
+and the correctness of the answers and awards points.
+
+----
+Bett grammar structures
+
+Tag question	= NP + VP + Tag
+		DET + CN + VP + Tag
+		Dr Bean  + VP + Tag
+		NP  +  V + O + Tag
+		NP + V + to + VP + Tag
+
+NP		= Name
+		DET + CN
+		DET + ADJ + CN
+		NP + 's + CN
+		DET + V + ing
+		DET + CN + RelCL
+		DET + CN + of + NP
+
+DET		= all | some | the | a | zero
+
+RelCL		= that + S | who + S | S
+		PrepP
+
+VP		= was | wasn't | were | weren't + COMP
+		V
+		V + NP
+		V + PrepP
+		V + NP + NP
+		V + NP + PrepP
+		V + to + VP
+
+COMP		= NP | ADJ | PrepP
+
+----
+Next week writing grammatical sentences with correct answers
+
+No books, notes
+It's OK to talk.
+Ask:	Alex, Cindy, Dave, Jeff, Kelly, 
+	Mindy, Neil, Rena, Shane, Vicky
+
+It's OK to look at their videos on youtube.
+
+----
+Preparation for Next week writing grammatical sentences with correct answers
+
+Running out of simple questions, try: more difficult questions
+
+----
+1: Questions with 'who', 'that', which are not WH questions, 
+
+	Who was the woman who was born in hsinchu
+	, "Was a sister who Dave had a student?"
+	, "Was Dave's sister a student?"
+	, "Did Shane have a sister who was a student?"
+	, "Did Shane have a sister?"
+
+----
+2: Questions with determiners other than 'a,' 'the,'
+
+Did mindy have some sisters?
+Was some sister of shane a student?
+Were all sisters of shane students? Yes??
 
 
 ----
