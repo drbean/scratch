@@ -8,7 +8,6 @@ import Model
 objects, relations :: [( String, [Entity] -> Bool)]
 objects = [
 	( "worker",	\ [x] -> worker x	),
-	( "administrative_assistant",	\ [x] -> secretary x	),
 	( "daughter",	\ [x] -> daughter x	),
 	( "mother",	\ [x] -> isMother x	)
  ]
