@@ -6,6 +6,7 @@ story_objects = [
 	( "boss",	\[x] -> boss x	),
 	( "company",	\[x] -> company x	),
 	( "receptionist",	\[x] -> receptionist x	),
+	( "administrative_assistant",	\ [x] -> secretary x	),
 	( "customer",	\[x] -> customer x	),
 	( "hospital",	\[x] -> hospital x	),
 	( "company",	\[x] -> company x	),
