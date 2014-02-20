@@ -67,15 +67,15 @@ topic:
         blurb: |
           Listen to Barbara, Tadeusz, Eva, three candidates for the job of Marketing Manager in Poland for Fast-Track, an American company. And listen to Dr Bean's experience as manager.
         comment: |
-          <!-- The files are at <a href=http://elearning.nuu.edu.tw> http://elearning.nuu.edu.tw</a>. Login and find them in the Learning Interaction Area. -->
-          The files are <ul>
+          The files are at <a href=http://elearning.nuu.edu.tw> http://elearning.nuu.edu.tw</a>. Login and find them in the Learning Interaction Area.
+          <!-- The files are <ul>
           <li><a href=http://web.nuu.edu.tw/~greg/careers/barbara_1.mp3> File 1</a>.
           <li><a href=http://web.nuu.edu.tw/~greg/careers/barbara_2.mp3> File 2</a>.
           <li><a href=http://web.nuu.edu.tw/~greg/careers/tadeusz_1.mp3> File 3</a>.
           <li><a href=http://web.nuu.edu.tw/~greg/careers/tadeusz_2.mp3> File 4</a>.
           <li><a href=http://web.nuu.edu.tw/~greg/careers/eva_1.mp3> File 5</a>.
           <li><a href=http://web.nuu.edu.tw/~greg/careers/eva_2.mp3> File 6</a>.
-                                </ul>
+                                </ul> -->
           Last, listen to <a href=http://web.nuu.edu.tw/~greg/careers/drbean.mp3>Dr Bean's experience</a> as Marketing Director at Fast-Track.
       -
         id: careercandidate
