@@ -6,6 +6,7 @@
   - target
   - content
   - unclozeables
+  - percent
 -
   - spano
   - Running a restaurant
@@ -75,43 +76,13 @@
   - lerman
   - Competitive eating
   - intermediate
-  - A
+  - all
   - |+
-     Everybody got something in their life that they're good at. This is what I do good--I eat. I was always a bigger eater than most people in my family and about five years ago there was an ad in the paper for a matzo ball contest. I went down to the contest. I broke a record; I ate ten matzo balls, half-pounders the size of baseballs, in two minutes, fifty seconds. No one ever ate more than ten. And I went on to the finals and I won. And Mayor Giuliani gave me the trophy, and the announcer said, `Let's hear it for Don Lerman ...
-  - matzo ball|half-pounders|Mayor Giulani|Don Lerman
-
--
-  - lerman
-  - Competitive eating
-  - intermediate
-  - B
-  - |+
-     I broke a record; I ate ten matzo balls, half-pounders the size of baseballs, in two minutes, fifty seconds. No one ever ate more than ten. And I went on to the finals and I won. And Mayor Giuliani gave me the trophy, and the announcer said, `Let's hear it for Don Lerman and Rudy Giuliani.' And we were both shaking hands like the president and the vice president-elect. That was the first trophy, the matzo ball trophy, ever in my life.
-
-     I always wanted to be famous. I always wanted to be president or a big lawyer or a doctor or something, and it just never happened.
-  - matzo ball|half-pounders|Mayor Giulani|Don Lerman|Rudy|elect
-
--
-  - lerman
-  - Competitive eating
-  - intermediate
-  - C
-  - |+
-     And Mayor Giuliani gave me the trophy, and the announcer said, `Let's hear it for Don Lerman and Rudy Giuliani.' And we were both shaking hands like the president and the vice president-elect. That was the first trophy, the matzo ball trophy, ever in my life.
-
-     I always wanted to be famous. I always wanted to be president or a big lawyer or a doctor or something, and it just never happened. I had a couple of day-old bread stores; that was my business. I worked eighty hours a week, seven days a week. I just thought, you know, the parade would pass me by until the eating.
-  - Mayor Giulani|Don Lerman|Rudy|elect
-
--
-  - lerman
-  - Competitive eating
-  - intermediate
-  - D
-  - |+
-     That was the first trophy, the matzo ball trophy, ever in my life.
+     Everybody got something in their life that they're good at. This is what I do good--I eat. I was always a bigger eater than most people in my family and about five years ago there was an ad in the paper for a matzo ball contest. I went down to the contest. I broke a record; I ate ten matzo balls, half-pounders the size of baseballs, in two minutes, fifty seconds. No one ever ate more than ten. And I went on to the finals and I won. And Mayor Giuliani gave me the trophy, and the announcer said, "Let's hear it for Don Lerman and Rudy Giuliani." And we were both shaking hands like the president and the vice president-elect. That was the first trophy, the matzo ball trophy, ever in my life.
 
      I always wanted to be famous. I always wanted to be president or a big lawyer or a doctor or something, and it just never happened. I had a couple of day-old bread stores; that was my business. I worked eighty hours a week, seven days a week. I just thought, you know, the parade would pass me by until the eating. My father never lived to see me famous and he always thought I was a loser, you know, but I wish he was alive to see that I'm a somebody. 
-  - trophy|parade
+  - matzo ball|half-pounders|Mayor Giulani|Don Lerman|Rudy|elect|trophy|parade
+  - 33
 -
   - tyson
   - Being heavy
@@ -209,6 +180,16 @@
     Lynch: I think that Antonio Douglas has been one of the important things in my life. Somebody I've been really proud to be associated with and I love him.
   - Douglas|Lynch|Antonio
 
+-
+  - seixas
+  - Weight watching 
+  - intermediate
+  - all
+  - |+
+
+    With my father I was terrified. I don't remember one incident of ever having sat on his lap, or being held, or hugged, or loved, or told that I was beautiful or wonderful. I was told I was overweight but as I looked at pictures recently, I was not overweight. Everyone would have ice cream for dessert but I was given a half a grapefruit. My father, he was the one who weighed me. He would say, Looks to me as if you've gained some weight - tomorrow morning we'll weigh you. And I stayed up all night worrying about being weighed, and that's when my struggles with food started.  And here I am: 81 years old and it's still going on.
+  - terrified|incident|hugged|dessert|grapefruit|struggles
+
 ---
 -
   - genre
@@ -277,70 +258,70 @@
   - intermediate
   - lerman
   - 1
-  - A
+  - all
   - He was good at eating more than most people, and ate ten matzo balls at an eating contest. 
   - True
 -
   - intermediate
   - lerman
   - 2
-  - A
+  - all
   - People were bigger eaters than him in his family, but five years ago he went on to eat more.
   - False
 -
   - intermediate
   - lerman
   - 3
-  - B
+  - all
   - He wanted to be a famous lawyer or doctor, but he went on to be a big eater and he won a matzo ball trophy.
   - True
 -
   - intermediate
   - lerman
   - 4
-  - B
+  - all
   - People ate baseballs at a ball-eating contest, but no-one ate more than ten.
   - False
 -
   - intermediate
   - lerman
   - 5
-  - B
+  - all
   - He broke matzo balls in half but no-one ate more than two balls.
   - False
 -
   - intermediate
   - lerman
   - 6
-  - C
+  - all
   - He wanted to be famous, but it never happened until his first trophy, the matzo ball trophy.
   - True
 -
   - intermediate
   - lerman
   - 7
-  - C
+  - all
   - He was shaking hands with the announcer, like he was the president and the announcer was the vice president.
   - False
 -
   - intermediate
   - lerman
   - 8
-  - C
+  - all
   - He always had something, but he wanted to be famous for eating, so he had a bread store.
   - False
 -
   - intermediate
   - lerman
   - 9
-  - D
+  - all
   - When his father was alive, he never was a somebody, but now he is famous for eating.
   - True
 -
   - intermediate
   - lerman
   - 10
-  - D
+  - all
   - His first business, when his father was alive, was being president or something. His father never lived to see his famous bread store.
   - False
 -
