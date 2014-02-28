@@ -37,6 +37,32 @@ learners have to use machines to work around their disability.
 	Breaks easily. Not permanent. Web pages disappear. It's harder to lose books or CD's.
 
 ----
+Identity on the Internet
+
+http://en.wikipedia.org/wiki/On_the_Internet,_nobody_knows_you%27re_a_dog
+
+'dog' can have many meanings: good, as in the cartoon
+
+or bad: eg, it can mean an ugly woman or man:
+
+http://www.urbandictionary.com/define.php?term=dog
+
+What identity do you have on the Internet?
+What character do you portray on the Internet?
+
+----
+Internet use
+
+Finding information
+Facebook
+Keeping in touch
+Chat
+Playing games
+Movies
+Music
+Shopping
+
+----
 Internet activities in class
 
 	Recording webcam videos and uploading them
@@ -62,6 +88,45 @@ http://www.languages.dk/archive/pools-m/manuals/final/call.pdf
 Download and print the first 15 pages -- but not now
 
 pools-m www.languages.dk 2010
+
+----
+Treasure (scavenger) hunts
+
+http://www.google.com/search?q=internet%20treasure%20hunt%20esl&num=100
+http://www.rochedalss.eq.edu.au/mapp.htm
+
+----
+Beginner scavenger hunt
+
+http://iteslj.org/th/1/sg-begin.html
+
+----
+Weather forecast hunt
+
+What is the weather like in Mexico City today?
+Is it raining?
+
++ You can use http://weather.yahoo.com
+
+----
+Exchange rate hunt
+
+How much is one US dollar worth in Taiwan NT dollars today?
+
+Is it more or less than 30?
+
++ You can use http://xe.com
+
+----
+Movie which made most money
+
+The highest grossing movie in history
+
+Did it make more than 3 billion dollars?
+
++ You can use http://www.ssonlineuniverse.net
+
++ http://en.wikipedia.org/wiki/List_of_highest-grossing_films
 
 ----
 Homework
@@ -263,12 +328,8 @@ Number of players
 aca021=# SELECT COUNT(DISTINCT player) FROM play ;
  count
  -------
-     9
+     45
 (1 row)
-
-Thank you for doing this so quickly. I only got
-it up at lunchtime.
-
 
 ----
 What to do?
@@ -276,44 +337,85 @@ What to do?
 Students appear to know all the words from the first 3 sublists
 already.
 
-aca021=# SELECT * from play where word = 'significant' ;
-    word     | answer |  player   | league | try | exercise
- -------------+--------+-----------+--------+-----+----------
- significant | 顯著的 | N00200001 | AFN3Y0 |   1 | base
- significant | 顯著   | N00200037 | AFN3Y0 |   1 | base
- significant | 顯著   | N00200054 | AFN3Y0 |   6 | base
- significant | 重要的 | N00200030 | AFN3Y0 |   1 | base
- significant | 顯著   | N01202001 | AFN3Y0 |   1 | base
- significant | 顯著   | N01202004 | AFN3Y0 |   1 | base
-(6 rows)
+aca022=# SELECT * from play where word = 'technology' ;
+    word    | answer |  player  | league  | try | exercise
+------------+--------+----------+---------+-----+----------
+ technology | 科技的 | V0041049 | FLA0027 |  57 | base
+ technology | 工藝學 | V9941023 | FLA0027 |  15 | base
+ technology | 工藝學 | V9941012 | FLA0027 |   6 | base
+ technology | 科技   | V9941049 | FLA0027 |   3 | base
+ technology | 科技   | V9941050 | FLA0027 |   1 | base
+ technology | 科技   | V9941057 | FLA0027 |   3 | base
+ technology | 工藝   | V9941011 | FLA0027 |   2 | base
+ technology | 科學   | V9841025 | FLA0027 |   3 | base
+ technology | 科技   | V9941007 | FLA0027 |  14 | base
+ technology | 科技的 | V9941029 | FLA0027 |   7 | base
+ technology | 專業   | V0041038 | FLA0027 |   8 | base
+ technology | 科技   | V9941067 | FLA0027 |  13 | base
+ technology | 科技   | V0041030 | FLA0027 |   1 | base
+ technology | 科技   | V9841028 | FLA0027 |   4 | base
+ technology | 科技   | V9941068 | FLA0027 |  30 | base
+ technology | 工藝   | V9941015 | FLA0027 |   2 | base
+ technology | 技術   | V9941045 | FLA0027 |  23 | base
+ technology | 工藝   | V9941069 | FLA0027 |   4 | base
+ technology | 工藝   | V0041040 | FLA0027 |   4 | base
+ technology | 技術   | V9941073 | FLA0027 |   7 | base
+ technology | 工藝學 | V0041009 | FLA0027 |   2 | base
+ technology | 科技   | V9941028 | FLA0027 |   1 | base
+ technology | 科技   | V9941065 | FLA0027 |   5 | base
+ technology | 科技   | V0041033 | FLA0027 |   7 | base
+ technology | 工藝   | V0041036 | FLA0027 |   7 | base
+ technology | 術語   | V9941025 | FLA0027 |  27 | base
+ technology | 技術   | V0041053 | FLA0027 |  20 | base
+ technology | 科技   | V0041039 | FLA0027 |   8 | base
+ technology | 科技   | V9941046 | FLA0027 |  17 | base
+ technology | 科技   | V0041047 | FLA0027 |   1 | base
+ technology | 技術   | V9941040 | FLA0027 |   3 | base
+ technology | 科技   | V0141042 | FLA0027 |   2 | base
+ technology | 科技學 | V0041052 | FLA0027 |   1 | base
+ technology | 科技   | T9823041 | FLA0027 |   6 | base
+ technology | 科技   | V9841069 | FLA0027 |   3 | base
+(35 rows)
 
-aca021=# SELECT * from play where word = 'legal' ;
- word  | answer |  player   | league | try | exercise
- -------+--------+-----------+--------+-----+----------
- legal | 合法的 | N00200001 | AFN3Y0 |   1 | base
- legal | 法律   | N00200054 | AFN3Y0 |   4 | base
- legal | 合法的 | N00200030 | AFN3Y0 |   1 | base
- legal | 法律   | N01202001 | AFN3Y0 |   2 | base
- legal | 法律   | N00200037 | AFN3Y0 |   6 | base
- legal | 合法   | N01203003 | AFN3Y0 |   1 | base
- legal | 合法   | N01202004 | AFN3Y0 |   1 | base
-(7 rows)
+aca022=# SELECT * from play where word = 'outcome' ;
+  word   | answer |  player  | league  | try | exercise
+---------+--------+----------+---------+-----+----------
+ outcome | 產物   | V0041049 | FLA0027 |  62 | base
+ outcome | 結局   | V9941023 | FLA0027 |  15 | base
+ outcome | 產物   | V9941012 | FLA0027 |   6 | base
+ outcome | 出門   | V9941057 | FLA0027 |  13 | base
+ outcome | 結局   | V9941011 | FLA0027 |   1 | base
+ outcome | 支出   | V9941029 | FLA0027 |   4 | base
+ outcome | 外來的 | V0041038 | FLA0027 |   1 | base
+ outcome | 支出   | V0041039 | FLA0027 |   2 | base
+ outcome | 下場   | V9941067 | FLA0027 |  21 | base
+ outcome | 結果   | V9941007 | FLA0027 |  21 | base
+ outcome | 支出   | V0041030 | FLA0027 |   1 | base
+ outcome | 結局   | V9841028 | FLA0027 |   4 | base
+ outcome | 結果   | V9941047 | FLA0027 |   9 | base
+ outcome | 結果   | V9941068 | FLA0027 |  34 | base
+ outcome | 結果   | V9841071 | FLA0027 |   3 | base
+ outcome | 結局   | V9941015 | FLA0027 |   2 | base
+ outcome | 成果   | V9941045 | FLA0027 |  23 | base
+ outcome | 支出   | V9941075 | FLA0027 |   1 | base
+ outcome | 結局   | V9941069 | FLA0027 |   4 | base
+ outcome | 後果   | V0041040 | FLA0027 |   4 | base
+ outcome | 結局   | V9941073 | FLA0027 |   5 | base
+ outcome | 結論   | V0041009 | FLA0027 |   2 | base
+ outcome | 進出   | V9941028 | FLA0027 |   1 | base
+ outcome | 支出   | V9941065 | FLA0027 |   8 | base
+ outcome | 支出   | V0041033 | FLA0027 |   9 | base
+ outcome | 後果   | V0041036 | FLA0027 |   7 | base
+ outcome | 結局   | V9941025 | FLA0027 |  27 | base
+ outcome | 結局   | V0041053 | FLA0027 |  22 | base
+ outcome | 支出   | V9941046 | FLA0027 |  16 | base
+ outcome | 結果   | V0041047 | FLA0027 |   1 | base
+ outcome | 支出   | V9941040 | FLA0027 |   3 | base
+ outcome | 出口   | V0041052 | FLA0027 |   1 | base
+ outcome | 結果   | T9823041 | FLA0027 |   6 | base
+ outcome | 輸出   | V9841069 | FLA0027 |   3 | base
+(34 rows)
 
-----
-Further examples
-
-aca021=# SELECT * from play where word = 'policy' ;
-  word  | answer |  player   | league | try | exercise
- --------+--------+-----------+--------+-----+----------
- policy | 政治   | N00200001 | AFN3Y0 |   1 | base
- policy | 政策   | N00200037 | AFN3Y0 |   1 | base
- policy | 政策   | N00200054 | AFN3Y0 |   3 | base
- policy | 政治   | N00200030 | AFN3Y0 |   1 | base
- policy | 政治   | N01202001 | AFN3Y0 |   1 | base
- policy | 長官   | N96200030 | AFN3Y0 |   8 | base
- policy | 政策   | N01203003 | AFN3Y0 |   1 | base
- policy | 政策   | N01202004 | AFN3Y0 |   1 | base
-(8 rows)
 
 ----
 But ...
@@ -328,14 +430,41 @@ What does derive mean?
 ----
 Answer
 
-aca021=# SELECT * from play where word = 'derive' ;
-  word  | answer |  player   | league | try | exercise
- --------+--------+-----------+--------+-----+----------
- derive | XXXX   | N00200037 | AFN3Y0 |   1 | base
- derive | XXXX   | N00200054 | AFN3Y0 |   6 | base
- derive | XXXX   | N01202001 | AFN3Y0 |   1 | base
- derive | XXXX   | N01203003 | AFN3Y0 |   1 | base
-(4 rows)
+aca022=# SELECT * FROM play where word='derive';
+  word  | answer |  player  | league  | try | exercise
+--------+--------+----------+---------+-----+----------
+ derive | 派生   | V0041049 | FLA0027 |  35 | base
+ derive | 起源   | V9941023 | FLA0027 |  13 | base
+ derive | 派生   | V9941012 | FLA0027 |   3 | base
+ derive | 派生   | V0041053 | FLA0027 |  18 | base
+ derive | 淨化   | V9941057 | FLA0027 |  10 | base
+ derive | 取的   | V9941011 | FLA0027 |   2 | base
+ derive | 起源   | V9941007 | FLA0027 |  12 | base
+ derive | 得到   | V9941045 | FLA0027 |  16 | base
+ derive | 駕馭   | V0041038 | FLA0027 |   1 | base
+ derive | 派生   | V9941067 | FLA0027 |  24 | base
+ derive | 取得   | V9841028 | FLA0027 |   5 | base
+ derive | 代表   | V9941068 | FLA0027 |   1 | base
+ derive | 起源   | V0041009 | FLA0027 |   1 | base
+ derive | 派生   | V9941071 | FLA0027 |   1 | base
+ derive | 起源   | V9941015 | FLA0027 |   4 | base
+ derive | 駕駛   | V9941075 | FLA0027 |   1 | base
+ derive | 派生   | V9941069 | FLA0027 |   1 | base
+ derive | 取得   | V0041040 | FLA0027 |   2 | base
+ derive | 得到[  | V9941073 | FLA0027 |  17 | base
+ derive | 充滿   | V9941028 | FLA0027 |   1 | base
+ derive | 可能   | V0041030 | FLA0027 |   5 | base
+ derive | 得到   | V0041036 | FLA0027 |   6 | base
+ derive | 剝奪   | V9841069 | FLA0027 |   2 | base
+ derive | 派生   | V9941025 | FLA0027 |  20 | base
+ derive | 驅使   | V0041039 | FLA0027 |   6 | base
+ derive | 抵達   | V9941046 | FLA0027 |   9 | base
+ derive | 開     | V9941076 | FLA0027 |   1 | base
+ derive | 藏匿   | V0041047 | FLA0027 |   1 | base
+ derive | 減     | V9941040 | FLA0027 |   3 | base
+ derive | 取得   | V0041057 | FLA0027 |   4 | base
+ derive | 駕駛   | V0041052 | FLA0027 |   1 | base
+(31 rows)
 
 ----
 Test
@@ -363,12 +492,40 @@ What does constrain mean?
 ----
 Answer
 
-aca021=# SELECT * from play where word='constrain';
-   word    | answer |  player   | league | try | exercise
- -----------+--------+-----------+--------+-----+----------
- constrain | XXXX   | N00200054 | AFN3Y0 |  10 | base
- constrain | XXXX   | N00200037 | AFN3Y0 |   6 | base
-(2 rows)
+aca022=# SELECT * FROM play where word='constrain';
+   word    | answer |  player  | league  | try | exercise
+-----------+--------+----------+---------+-----+----------
+ constrain | 壓抑   | V0041049 | FLA0027 |  56 | base
+ constrain | 強迫   | V9941023 | FLA0027 |  14 | base
+ constrain | 壓抑   | V9941012 | FLA0027 |   5 | base
+ constrain | 保障   | V9941057 | FLA0027 |  12 | base
+ constrain | 強迫   | V9941011 | FLA0027 |   1 | base
+ constrain | 強迫   | V9941029 | FLA0027 |   6 | base
+ constrain | 思考   | V0041038 | FLA0027 |   1 | base
+ constrain | 壓抑   | V9941067 | FLA0027 |  15 | base
+ constrain | 強迫   | V9941007 | FLA0027 |  27 | base
+ constrain | 強迫的 | V9841028 | FLA0027 |   4 | base
+ constrain | 壓抑   | V9941047 | FLA0027 |   5 | base
+ constrain | 壓抑   | V9941068 | FLA0027 |  30 | base
+ constrain | 壓抑   | V9841071 | FLA0027 |   4 | base
+ constrain | 壓抑   | V9941071 | FLA0027 |   3 | base
+ constrain | 迫使   | V9941015 | FLA0027 |   2 | base
+ constrain | 強迫   | V9941045 | FLA0027 |  22 | base
+ constrain | 壓抑   | V9941069 | FLA0027 |   3 | base
+ constrain | 壓抑   | V0041040 | FLA0027 |   2 | base
+ constrain | 迫使   | V9941073 | FLA0027 |   6 | base
+ constrain | 強迫   | V0041009 | FLA0027 |   2 | base
+ constrain | 傷痛   | V9941028 | FLA0027 |   1 | base
+ constrain | 強迫   | V0041033 | FLA0027 |   7 | base
+ constrain | 壓抑   | V0041036 | FLA0027 |   6 | base
+ constrain | 壓抑   | V9941025 | FLA0027 |  22 | base
+ constrain | 強迫   | V0041053 | FLA0027 |  20 | base
+ constrain | 瓶子   | V9941046 | FLA0027 |  23 | base
+ constrain | 結構   | V0041030 | FLA0027 |   6 | base
+ constrain | 精算   | V0041047 | FLA0027 |   1 | base
+ constrain | 合併   | V9941040 | FLA0027 |   3 | base
+ constrain | 面臨   | V0041052 | FLA0027 |   5 | base
+(30 rows)
 
 aca021=#
 
@@ -524,7 +681,7 @@ for them. Everyone must do it themselves.
 ----
 Self-introductions not uploaded
 
-Do it before next week, or lose points
+Do it before next week (next Tuesday morning 8am, March 4), or lose points
 You are preventing your group from doing the homework
 for week 2.
 
