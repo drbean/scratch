@@ -170,7 +170,7 @@ a. R Squared = .165 (Adjusted R Squared = .145)
 
 Instruction is concluded with a commendable result
 Distribution of innovation indices
-The distribution of the statement sentences conforms to the principle of a balance among the positive, negative and neutral opinions of Brooks (1970). The result shows (Table6): the statement sentences concerning complexity and fluency with three items in the positive side account for the maximum; next to it are two items each concerning market sensitivity, organizational integration, flexibility and novelty, etc. 
+The distribution of the statement sentences conforms to the principle of a balance among the positive, negative and neutral opinions, following Brooks (1970). The result shows (Table 6): the statement sentences concerning complexity and fluency with three items on the positive side account for the maximum; next to it are two items each about market sensitivity, organizational integration, flexibility and novelty, etc. 
 Table 6 Distribution of the statement sentences for the Q sample
 Perspective
 Topic Distribution 
@@ -227,7 +227,7 @@ Negative
 
 
 Priority ordering of indices of innovation ability
-The 17 items with distribution in the positive side are highly regarded, as shown in Fig. 1.  Concerning the distribution of items for the innovation ability content, it shows the instruction units of innovation ability, the priority order in the positive group from high to low are: +3 groups (d19、c14、f30), +2 groups (f31、c13、g36、d22、g35、b10), +1 group (e29, h42, b11, e24, g39, a1, a5, c12). After a further analysis is conducted for the attributed indices of innovation ability, three items each for complexity and fluency are acquired as the maximum, next to it are two items each concerning originality, novelty, market sensitivity, organizational integration, and flexibility, etc. Its result in general conforms to the originally set experimental instruction objective. 
+The 17 items distributed on the positive side are highly regarded, as shown in Fig. 1.  These 17 items, with their associated innovation ability content, that is, the instructional units of innovation ability, and arranged in order from high to low are: in the +3 group, (d19、c14、f30), in the +2 group, (f31、c13、g36、d22、g35、b10), and in the +1 group, (e29, h42, b11, e24, g39, a1, a5, c12). After a further analysis is conducted of the attribute indices of innovation ability, three items each representing complexity and fluency (that is, 6 in total) acquired first place, with next to them two items each representing originality, novelty, market sensitivity, organizational integration, and flexibility, etc. This result in general conforms to the originally determined experimental instruction objective. 
 
 
 
