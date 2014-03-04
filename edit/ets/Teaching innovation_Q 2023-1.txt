@@ -232,73 +232,73 @@ The 17 items distributed on the positive side are highly regarded, as shown in F
 
 
 
-b6.FB integrating various dynamic information 
+b6. FB mashups
 
 
 
 
 
 
-a3In combination with EasyCard
+a3. EasyCard combinations
 
 
 
 
 
-e25 Bluetooth watch, convenience in service
-a4 In combination with the electronic purse
-e29 In combination with GPS global positioning system
+e25. Convenient Bluetooth watch
+a4. Electronic purse combinations
+e29. GPS global positioning system combinations
 
 
 
 
-d22 Remote control, able to monitor at all times 
-c15 Automatically apply the beautification effect after taking a picture 
-h42 Provided with QR-code function
+d22. Remote control, allowing round-clock monitoring
+c15. Automatic photograph beautification
+h42. QR-code function provision
 
 
 
-d18 Key press for digitalization
-b7 Synchronization with network information
-f32 Upgrade the pixel of a picture, with an elevated resolution  
-b11 A mobile phone serves as a multiple remote control device 
-f31.App map inquiry 
+d18. Key press digitalization
+b7. Synchronization with network information
+f32. High-resolution picture pixel upgrades
+b11. Mobile phone doubling as remote control device 
+f31. Map inquiry app
 
 
-h41 A video telephone, convenience in service
-g38 Waterproof function 
-h43NFC Wireless induction
-e24 Wi-Fi sharing 
-c13 Encoded graphicrization
+h41. Convenient video telephone
+g38. Waterproof function 
+h43. NFC wireless induction
+e24. Wi-Fi sharing 
+c13. Encoded graphicalization
 
 
-e26 Keyboard touch-orientation
-g37 Child mode 
-f33 Electric torch
-g39 Intelligence tag, to upgrade the service
+e26. Keyboard touch-orientation
+g37. Child mode 
+f33. Electric torch
+g39. Intelligence tag, upgrading services
 g36. 3D control screen
 
-d20 Bluetooth MP3 watch
-b8 News headline interception App
-c16 Weather forecast function 
-f34 Projection keyboard 
-a1 Mobile phone online shopping, extremely convenient 
-d22 Monitor scale resizing, convenient in checking 
-d19Mobile name card
-b9 Personalized magazine App
-c17High dynamic range in photography
-h40 Eye scrolling, to upgrade the performance 
-a2 App in calculating calories 
-a5 Upgrade the sound quality, to improve  the audio pleasure 
-g35 Webpage games with popularity in cell phones
-c14 Edit the music ringing tone
-d21 Wireless charging 
-e27 Provided with the function as a projector 
-e28 Satellite navigation 
-d23 Horoscope fortune telling
-c12 Finger print identification, to upgrade the theft proof function
+d20. Bluetooth MP3 watch
+b8. News headline interception app
+c16. Weather forecast function 
+f34. Projection keyboard 
+a1. extremely convenient mobile phone online shopping
+d22. Convenient Monitor scale resizing checking 
+d19. Mobile name card
+b9. Personalized magazine app
+c17. High dynamic photographic range
+h40. Eye scrolling performance upgrade
+a2. Calorie calculating app
+a5. Sound quality upgrade to improve audio pleasure 
+g35. Webpage games popular in cell phones
+c14. Music ringtone editing
+d21. Wireless charging 
+e27. Projector functions on other devices
+e28. Satellite navigation 
+d23. Horoscope fortune telling
+c12. Finger print identification, for theft proof functions
 b10. Office file integration system 
-f30 Voice secretary SIRI
+f30. Voice secretary SIRI
 -3
 -2
 -1
