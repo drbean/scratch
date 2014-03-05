@@ -299,7 +299,7 @@ c13. Encoded graphicalization
 
 
 e26. Keyboard touch-orientation
-g37. Child mode 
+g37. Child-friendly modes 
 f33. Electric torch
 g39. Intelligence tag, upgrading services
 g36. 3D control screen
