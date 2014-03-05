@@ -82,8 +82,8 @@ The Q-technique is a research method developed to study the subjectivity of huma
 
 Table 4 Design of Teacher/Student activity 
 Process
-Teacher’s activities
-Students’ activities
+Teacher’s actions
+Students’ actions
 Instruction/ learning activity 
 (1) Explain the indices of innovation ability, and interpret the definition of each index 
 (2) Describe Q-technique theory and procedure
@@ -102,7 +102,7 @@ Development activity
 (5) (Group discussion) Select the most representative 44 statement sentences, to form the Q population. 
 
 
-(6) (Group discussion) Engage in flat ordering. Make the statement sentences follow the flat ordering of the balance principle with 17 positive, 17 negative, and 10 neutral comments, after weighing the statement sentence attribution positions of the Q sample, insert the 3-6-8-10-8-6-3 developed Q sorting table. 
+(6) (Group discussion) Engage in flat ordering. Make the statement sentences follow the flat ordering of the balance principle with 17 positive, 17 negative, and 10 neutral comments, after weighing the statement sentence attribution positions of the Q sample, insert them in the 3-6-8-10-8-6-3 developed Q sorting table. 
 Synthetic activity
 (7) In the workshop process, provide guidance, support and encouragement necessary in response to each group 
 (7) Display results and share
@@ -116,7 +116,7 @@ The use of the Q-technique in the instruction of innovation ability is a full ap
 During the instruction process, it is required, through participation in the activity practice, that active learning and conscious recognition of the “doing” process (Burton, Schlemer, & Vanasupa, 2012) take place. Substantially speaking, the difference of the Q-technique from traditional instruction mainly lies in its catalyzing effect on identification by students of their ideas, and hence on promoting the generation of innovation. Through the recognition of innovation and the upgrading of the thinking ability of individuals, it incurs a change in mental models. The application of Q-technique to the instruction of innovation conforms to the perspective of Drazin, et al., (1999); Gomes, Kruglianskas, and Scherer (2011) concerning the role of process in creativity. 
 In addition, the application of Q-technique to the instruction of innovation conforms to the instructional concept of teaching scientific creation thinking (Burton, Schlemer, & Vanasupa, 2012), the group dynamics principles addressed by Cole and Faota (2005), and the systematic approach to working with mental models (Capelo & Dias, 2009). In other words, its emphasizes mutual knowledge sharing in a group discussion; it helps to break through personal thinking frameworks, change thinking habits, and further promote the generation of creativity.
 Instructional effect of the Q-technique
-Concerning the reliability and validity test of the test scale, its Content Validity was investigated by submission in its draft form to experts, who checked if the scale content sufficiently reflected the substantial essence of innovation. Concerning the reliability of the scale, the overall Cronbach α was 0.958, while the Cronbach α of each topic ranged between 0.956~0.960, all indicating a high reliability. This shows there is a high accordance inside the topic respondents. Concerning the examination of homogeneity for the regression coefficients in each group, the result was F=.307, p=.581>.05, failing to be significant, indicating the slopes of the regression lines of both groups to be the same, conforming to the assumption of homogeneity of the regression coefficients in the covariate group. The covariance analysis was conducted continuously. Concerning the results of the Tests of Between-Subjects Effects, F value was 13.724; p=.000<.001. This shows after eliminating the influence of the pre-test performance record, the treatment effect of the experiment is significant. That is, the learning performance record of the experimental group after applying the instruction by means of the Q-technique is significantly better than that of the baseline group. 
+Concerning the reliability and validity test of the test scale, its Content Validity was investigated by submission in its draft form to experts, who checked if the scale content sufficiently reflected the substantial essence of innovation. Concerning the reliability of the scale, the overall Cronbach α was 0.958, while the Cronbach α of each topic ranged between 0.956~0.960, all indicating a high reliability. This shows there is a high accordance inside the topic respondents. Concerning the examination of homogeneity for the regression coefficients in each group, the result was F=.307, p=.581>.05, failing to be significant, indicating the slopes of the regression lines of both groups to be the same, and conforming to the assumption of homogeneity of the regression coefficients in the covariate group. The covariance analysis was conducted continuously. Concerning the results of the Tests of Between-Subjects Effects, F value was 13.724; p=.000<.001. This shows after eliminating the influence of the pre-test performance record, the treatment effect of the experiment is significant. That is, the learning performance record of the experimental group after applying the the Q-technique instruction is significantly better than that of the baseline group. 
 Table 5. Tests of Between-Subjects Effects                 Dependent variable: Y
 Source
 Type III Sum of Squares
@@ -170,7 +170,7 @@ a. R Squared = .165 (Adjusted R Squared = .145)
 
 Instruction is concluded with a commendable result
 Distribution of innovation indices
-The distribution of the statement sentences conforms to the principle of a balance among the positive, negative and neutral opinions, following Brooks (1970). The result shows (Table 6): the statement sentences concerning complexity and fluency with three items on the positive side account for the maximum; next to it are two items each about market sensitivity, organizational integration, flexibility and novelty, etc. 
+The distribution of the statement sentences conforms to the principle of a balance among the positive, negative and neutral opinions, following Brooks (1970). The result shows (Table 6): the statement sentences concerning complexity and fluency with three items on the positive side account for the maximum; next to it are two items each about market sensitivity, organizational integration, flexibility and novelty. 
 Table 6 Distribution of the statement sentences for the Q sample
 Perspective
 Topic Distribution 
@@ -227,7 +227,7 @@ Negative
 
 
 Priority ordering of indices of innovation ability
-The 17 items distributed on the positive side are highly regarded, as shown in Fig. 1.  These 17 items, with their associated innovation ability content, that is, the instructional units of innovation ability, and arranged in order from high to low are: in the +3 group, (d19、c14、f30), in the +2 group, (f31、c13、g36、d22、g35、b10), and in the +1 group, (e29, h42, b11, e24, g39, a1, a5, c12). After a further analysis is conducted of the attribute indices of innovation ability, three items each representing complexity and fluency (that is, 6 in total) acquired first place, with next to them two items each representing originality, novelty, market sensitivity, organizational integration, and flexibility, etc. This result in general conforms to the originally determined experimental instruction objective. 
+The 17 items distributed on the positive side are highly regarded, as shown in Fig. 1.  These 17 items, with their associated innovation ability content, that is, the instructional units of innovation ability, and arranged in order from high to low are: in the +3 group, (d19、c14、f30), in the +2 group, (f31、c13、g36、d22、g35、b10), and in the +1 group, (e29, h42, b11, e24, g39, a1, a5, c12). After a further analysis was conducted of the attribute indices of innovation ability, three items each, representing complexity and fluency respectively, acquired first place, with next to them two items each representing originality, novelty, market sensitivity, organizational integration, and flexibility. This result in general conforms to the originally determined experimental instruction objective. 
 
 
 
@@ -282,7 +282,7 @@ d20. Bluetooth MP3 watch
 b8. News headline interception app
 c16. Weather forecast function 
 f34. Projection keyboard 
-a1. extremely convenient mobile phone online shopping
+a1. Extremely convenient mobile phone online shopping
 d22. Convenient Monitor scale resizing checking 
 d19. Mobile name card
 b9. Personalized magazine app
@@ -803,11 +803,11 @@ H36
 +2
 
 Conclusions
-“Innovation ability” is one of the most important professional competencies required in the IT industry. Therefore, this study sought to determine how it could be better taught, adopting the “process perspective” as its approach. In the first stage, through literature review and focus group expert consultations, eight indices, namely, market sensitivity, organizational integration, complexity, originality, flexibility, novelty, fluency, and creative impulse, which together allowed a precise determination innovation ability, were obtained. By means of the pre-test and post-test scales as they stood at the completion of development, the instruction effect could be effectively verified for each index.  
+“Innovation ability” is one of the most important professional competencies required in the IT industry. Therefore, this study sought to determine how it could be better taught, adopting the “process perspective” as its approach. In the first stage, through literature review and focus group expert consultations, eight indices, namely, market sensitivity, organizational integration, complexity, originality, flexibility, novelty, fluency, and creative impulse, which together allowed a precise determination of innovation ability, were obtained. By means of the pre-test and post-test scales as they stood at the completion of development, the instruction effect could be effectively verified for each index.  
 In the second stage, the quasi-experimental research method was selected in an instruction experiment to see to what extent the Q-technique could enhance creativity instruction in the area of “innovation ability”. Systematic learning over the range of the creative process from the generation of innovative ideas to marketization is of particular concern to the IT industry. The experiment showed the instruction effect to be significant, verifying that the Q-technique is applicable to innovative instruction in the field. The Q-technique can cultivate capability most successfully in the complexity and fluency indices, followed by market sensitivity, organizational integration, flexibility, and novelty. As for originality and the creative impulse, it failed to attain the level of significance in these indices. 
 Concerning the factor attitude results of the third stage, the post-test scale analysis revealed six factors: the application of methods to generate ideas, the analysis of requirements in problem solving, the application of knowledge in developing an innovative product, the satisfaction of the requirements of active innovation, a topic orientation in proposing ideas, and a customer orientation in innovation risk. The ideas represented by each factor may serve as the reference basis for a further reform of innovative teaching.
 Finally, the research contribution of this study is its verification of the Q-technique's applicability to the instruction of innovation ability. The technique facilitates the change of students’ mental models, and promotes their output in innovation. 
-In the area of study limitations, the period of the unit instruction experiment was merely 8 weeks, and confirmation of the clear contribution of the Q-technique toward a “process perspective” in the longer term can only await further experimental verification. In respect of future work, verification studies of changes in the mental models of students by means of the Q-technique could be extended to include instruction in other professional fields than information technology.
+In the area of study limitations, the period of the unit instruction experiment was merely 8 weeks, and confirmation of the clear and longer term contribution of the Q-technique to a “process perspective” can only await further experimental verification. In respect of future work, verification studies of changes in the mental models of students by means of the Q-technique could be extended to include instruction in other professional fields than information technology.
 
 References
 Amabile, T. M. (1983). The social psychology of creativity. New York: Springer-Verlag Inc.
