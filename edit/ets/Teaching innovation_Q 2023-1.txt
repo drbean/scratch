@@ -299,9 +299,8 @@ c13. Encoded graphicalization
 
 
 e26. Keyboard touch-orientation
-g37. Child-friendly modes 
-f33. Electric torch
-g39. Intelligence tag, upgrading services
+g37. Child-friendly mode 
+f33 Electric g39. Intelligence tag, upgrading services
 g36. 3D control screen
 
 d20. Bluetooth MP3 watch
@@ -315,7 +314,7 @@ b9. Personalized magazine app
 c17. High dynamic photographic range
 h40. Eye scrolling performance upgrade
 a2. Calorie calculating app
-a5. Sound quality upgrade to improve audio pleasure 
+a5. Sound quality upgrade to improve audio enjoyment
 g35. Webpage games popular in cell phones
 c14. Music ringtone editing
 d21. Wireless charging 
