@@ -334,7 +334,7 @@ f30. Voice secretary SIRI
 Fig. 1. Q-technique in enhancing the students’ innovation ability
 
 Q-technique in promoting innovation ability
-The scales did not serve for the analysis of the covariance of learning effect only; the data obtained from the post-test scale also allowed interpretation of the factors obtained through the factor analysis (Barbosa et al., 1998). Bartlett's Test of Sphericity (Approx. Chi-Square) = 1118.992, df =435, p<.01, confirmed each perspective to be close to the normal multivariate; and the Kaiser-Meyer-Olkin Measure of Sampling Adequacy, KMO=.801 supported this result. Therefore, performing the factor analysis was justified. 
+The scales did not serve for the analysis of the covariance of learning effect alone; the data obtained from the post-test scale also allowed interpretation of the factors obtained through the factor analysis (Barbosa et al., 1998). Bartlett's Test of Sphericity (Approx. Chi-Square) = 1118.992, df =435, p<.01, confirmed each perspective to be close to the normal multivariate; and the Kaiser-Meyer-Olkin Measure of Sampling Adequacy, KMO=.801 supported this result. Therefore, performing the factor analysis was justified. 
 So, the Principal Components Analysis was conducted, adopting the Varimax with Kaiser Normalization method. Six factors accumulated a total interpretation quantity of 76.047% as shown in Table 7. The six factors were renamed as: (1) Apply a method to generate ideas; (2) Analyse requirements to solve the problem; (3)  Apply knowledge to create a new product; (4) Satisfy the demand and be active in innovation; (5) Be topic-oriented and propose innovation; (6) Be client-oriented and courageous in innovation. 
 
 
