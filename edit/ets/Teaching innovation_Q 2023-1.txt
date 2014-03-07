@@ -71,7 +71,7 @@ Resource: revised from Chang (2014).
 Methodology
 Focus Group method: Three separate focus group sessions were conducted. A total 24 experts in the industrial and academic fields were invited to participate in joint discussion and study; among them 18 came from ICT as junior and senior managers, and 6 were scholars. The objective of the meetings mainly was to confirm that “innovation ability” is one of the professional competencies required by IT enterprises, and the rationality of each index. Next, the aim was to revise the pre-test and post-test scales; review the rationality of the design of the instructional activities; and check the feasibility of an instruction/learning mode, etc. 
 Quasi-experiment
-Design of the experiment: Taking the senior students of the IT Management Department of a University of Science and Technology in Taiwan as the target, purposive sampling was used to assign 44 students each to the experimental group and to the baseline group. The experimental group received the “Q-technique instruction mode” (i.e., X1), and the baseline group received the “general instruction mode” (i.e., C), in the traditional lecture manner as the main instruction type as shown in Table 2. The same teaching material was used, to engage in instruction for a total 8 weeks, with 2 hours each week. Each class was divided into 9 teams, with 4-5 people in each team. An assignment was done in a group manner, and was handed in in fulfillment of class requirements.
+Design of the experiment: Taking the senior students of the IT Management Department of a University of Science and Technology in Taiwan as the target, purposive sampling was used to assign 44 students each to the experimental group and to the baseline group. The experimental group received the “Q-technique instruction mode” (i.e., X1), and the baseline group received the “general instruction mode” (i.e., C), in the traditional lecture manner as the main instruction type as shown in Table 2. The same teaching material was used, to engage in instruction for a total 8 weeks, with 2 hours each week. Each class was divided into 9 teams, with 4-5 people in each team. An assignment was done in a group manner, and was handed in in fulfilment of class requirements.
 
 Table 2 Design chart of the Quasi-experiment Research 
 Group attribute
@@ -278,7 +278,7 @@ e29. GPS global positioning system combinations
 
 
 
-d22. Remote control, allowing round-clock monitoring
+d22. Remote control, allowing round-the-clock monitoring
 c15. Automatic photograph beautification
 h42. QR-code function provision
 
