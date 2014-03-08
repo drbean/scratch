@@ -76,7 +76,7 @@ If that link doesn\'t work, try the <a href="http://sac.nuu.edu.tw/cgi-bin/<TMPL
 </p>
 
 <p>You did the Dee Dickson exercise. Continue to ask questions about her:
-<h3>Continue to GAME OVER before Saturday lunchtime March 16</h3>
+<h3>Continue to GAME OVER before Saturday lunchtime March 15</h3>
 </p>
 <p>
 In the <a 
