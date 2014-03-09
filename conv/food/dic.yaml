@@ -134,22 +134,14 @@
 -
   - douglas
   - Heavy eater
-  - upper
+  - intermediate
   - A
   - |+
     Lynch: When I first met Antonio, he was 270 pounds.
 
     Douglas: I always have been kind of a bad eater. If it didn't move, I ate it; and if it moved too slow, I ate it.
 
-    Lynch: So, one day, I says, look, Antonio, I'd be really embarrassed if an old guy like me could run faster than you can. He was so anxious to get back at me he challenged me to this race. I says, okay, I'll take you up on that.
-  - Lynch|Douglas|Antonio
--
-  - douglas
-  - Heavy eater
-  - upper
-  - B
-  - |+
-    But I tell you what, this race isn't going to be on this car wash lot. What we need to do is we need to go out and rent a small stadium.
+    Lynch: So, one day, I says, look, Antonio, I'd be really embarrassed if an old guy like me could run faster than you can. He was so anxious to get back at me he challenged me to this race. I says, okay, I'll take you up on that. But I tell you what, this race isn't going to be on this car wash lot. What we need to do is we need to go out and rent a small stadium.
 
     Douglas: I had on a tank top that represented NAACP and he had one representing his people - the AARP.
 
@@ -157,28 +149,13 @@
 
     Douglas: I had never ran a 100 meters in my life. Wasn't no way I was going to beat him.
 
-  - Douglas|Lynch
--
-  - douglas
-  - Heavy eater
-  - upper
-  - C
-  - |+
-    Lynch: After the race, I gave him a big hug, you know, and I said, it was amazing what you've done. Everybody's so proud of him. So, we had a subsequent race the following year. And the second race he's been in the gym for 12 months and he's been psyched up by his son, who's telling him what an embarrassment it is for him that his father get whipped by a geriatric guy like me. And guess what? He won the second race.
-  - Lynch|geriatric
--
-  - douglas
-  - Heavy eater
-  - upper
-  - D
-  - |+
-
-    There was only one person in the stadium that was happier than Antonio, and that was me.
+    Lynch: After the race, I gave him a big hug, you know, and I said, it was amazing what you've done. Everybody's so proud of him. So, we had a subsequent race the following year. And the second race he's been in the gym for 12 months and he's been psyched up by his son, who's telling him what an embarrassment it is for him that his father get whipped by a geriatric guy like me. And guess what? He won the second race. There was only one person in the stadium that was happier than Antonio, and that was me.
 
     Douglas: Over the years, I think I've learned more from him than any one individual I have met. I don't know where I'd be without him. I just thank God for him.
 
     Lynch: I think that Antonio Douglas has been one of the important things in my life. Somebody I've been really proud to be associated with and I love him.
-  - Douglas|Lynch|Antonio
+  - Douglas|Lynch|Antonio|NAACP|AARP|geriatric|psyched|whipped|subsequent
+  - 30
 
 -
   - seixas
@@ -391,55 +368,55 @@
   - upper
   - douglas
   - 1
-  - A
+  - all
   - The guy was embarrassing. He was 270 pounds and slow. An old guy could run faster than he can.
   - True
 -
   - upper
   - douglas
   - 2
-  - A
+  - all
   - He raced old guys, and if they ran too slow he ate them. And if they didn't move, he ate them.
   - False
 -
   - upper
   - douglas
   - 3
-  - B
+  - all
   - In the first race, the NAACP representative was beaten by the AARP representative.
   - True
 -
   - upper
   - douglas
   - 4
-  - B
+  - all
   - He tells him he will never beat him in a 100-meter race in his life.
   - False
 -
   - upper
   - douglas
   - 5
-  - C
+  - all
   - His son was embarrassed by his father getting whipped by the guy in a race.
   - True
 -
   - upper
   - douglas
   - 6
-  - C
+  - all
   - He whips a guy in the gym who tells him he is embarrassed by him being so proud for 12 months.
   - False
 -
   - upper
   - douglas
   - 7
-  - D
+  - all
   - The only person that was happier than him was the person that was really proud of him and loved him.
   - True
 -
   - upper
   - douglas
   - 8
-  - D
+  - all
   - The one who learned more than any one individual doesn't know where God would be without him.
   - False
