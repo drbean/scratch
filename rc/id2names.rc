@@ -5,21 +5,31 @@ use warnings;
 use IO::All -encoding => 'UTF-8';
 use YAML qw/LoadFile DumpFile/;
 use Cwd;
+use Encode;
+use Lingua::Han::PinYin;
 
 $_REPL->load_plugin('DumpHistory');
 
 (my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
 use Grades;
 use Grades::Groupwork;
-my $l = League->new( leagues => '/home/drbean/021', id => $dir );
+my $l = League->new( leagues => '/home/drbean/022', id => $dir );
 my $g = Grades->new({ league => $l });
 my $co = Compcomp->new({ league => $l });
 my $cl = $g->classwork;
 my %m = map { $_->{id} => $_ } @{ $l->members };
 my $approach = $l->approach;
 
-my %b = map { $m{$_}->{name} => $cl->name2beancan(14, $m{$_}->{name}) } keys %m;
-my %i = map { $_ => "$_ $m{$_}->{Chinese} $m{$_}->{name}\t$b{$m{$_}->{name}}\n"} keys %m;
+my $h2p = Lingua::Han::PinYin->new( tone => 1 );
+
+my %b = map { $m{$_}->{name} => $cl->name2beancan(1, $m{$_}->{name}) } keys %m;
+my %i;
+for my $member ( keys %m ) {
+	my $chinese = encode( 'UTF-8', $m{$member}->{Chinese} );
+	my $pinyin = $h2p->han2pinyin( $chinese );
+	$i{$member} = "$member $m{$member}->{Chinese} $pinyin\t" . 
+	"$m{$member}->{name}\t$b{$m{$member}->{name}}\n";
+}
 my @i;
 push @i, $i{$_} for sort keys %i;
 io("id2names_groups.txt")->print(@i);
