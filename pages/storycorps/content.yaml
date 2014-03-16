@@ -16,6 +16,35 @@ blurb: |+
 
 topic:
   -
+    id: food
+    title: Food stories
+    intro: Food is wonderful. But the stories people have about it are varied. Some people have food problems. 
+    story:
+      -
+        id: lerman
+        title: Competitive eating
+        blurb: |
+          <a href=http://www.ifoce.com/rankings.php?action=detail&sn=13>Don Lerman</a>, with his <a href=http://donmoseslerman.com>web page</a>, was a <a href="http://en.wikipedia.org/wiki/Don_Lerman">famous</a> competitor in <a href=http://www.ifoce.com>eating contests</a>. Listen to him talk about <a href=http://www.npr.org/templates/story/story.php?storyId=4677856>why he did it</a>. Read/listen to <a href=http://www.slate.com/id/2117577>an account of an eating competition</a>.
+        comment: I like to eat, but I can't understand why people would want to try and eat more than other people and to eat so much that it hurts and you want to vomit. I think it is not good for their bodies. What do you think?
+      -
+        id: tyson
+        title: Being heavy
+        blurb: |
+          Listen to <a href=http://www.npr.org/templates/story/story.php?storyId=6913145>Johnnie Tyson, a big woman</a> describe how being heavy made her feel bad, but also how she overcome bad feelings. You can also <a href=" http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/tyson.mp3">download the file</a>.
+        comment: A <a href=http://storycorps.org/blog/west-mobilebooth/little-rock-ar/weighty-matters/>picture</a>. She apparently had surgery to cut down on her weight. But her size was determined from birth.
+      -
+        id: douglas
+        title: Heavy eater
+        blurb: |
+         The overweight Antonio Douglas and 70-year-old Frank Lynch talk about <a href="http://www.npr.org/templates/story/story.php?storyId=122107928">racing each other</a>, in Lynch's efforts to get Douglas lose weight.
+        comment: Vocabulary to look up:<ul><li> tank top (Try Wikipedia), <li>NAACP (We discussed it talking about Mildred Roxborough Bond in Caught in the Tub), <li>AARP (An organization representing older people), <li>psyched up (Try www.urbandictionary,com), <li>whipped (See same), <li>geriatric (A medical word for 'old', Try urbandictionary again.</ul>
+      -
+        id: seixas
+        title: Weight watching
+        blurb: |
+          The 81-year-old Judith Seixas talks with a friend, who is overweight, about her father's concern about her own weight, a concern which resulted for her in a life-long struggle with what she ate.
+        comment: Look at <a href="http://www.npr.org/templates/story/story.php?storyId=4697167">the picture at the bottom</a> of the two old women hugging each other. Judith Seixas is on the right and is thin, perhaps too thin. Listen to the <a href="http://www.npr.org/templates/story/story.php?storyId=4697167">the sound track</a> below the picture, labeled: Struggling with Weight. Oliver's self intro is at https://www.youtube.com/watch?v=0OM7HEtlgfs
+  -
     id: disability
     title: People with disabilities
     intro: A disability is the absence of some ability that normal people have. Disabilities can be mental, eg very low intelligence, or physical, eg, an inability to walk or to see. Dr Bean's inability to speak Chinese, a language he did not learn as a child is not regarded as a disability (but it should be :-) How do people with disabilities cope?
@@ -233,30 +262,6 @@ topic:
         blurb: |
           The <a href=http://www.naacp.org>NAACP</a> is an American civil rights organization protecting the rights of black people in the US. <a href=http://www.thehistorymakers.com/biography/biography.asp?bioindex=1135>Mildred Bond Roxborough</a>, an executive member tells of being <a href=http://www.npr.org/templates/story/story.php?storyId=112075660>Caught in the Bath</a>. You can also <a href=http://media.storycorps.org/wordpress/wp-content/uploads/listen/audio/roxborough.mp3>download</a> the MP3 file.
         comment: What would you do if you were caught in the bath?
-      -
-        id: lerman
-        title: Competitive eating
-        blurb: |
-          <a href=http://www.ifoce.com/rankings.php?action=detail&sn=13>Don Lerman</a>, with his <a href=http://donmoseslerman.com>web page</a>, was a <a href="http://en.wikipedia.org/wiki/Don_Lerman">famous</a> competitor in <a href=http://www.ifoce.com>eating contests</a>. Listen to him talk about <a href=http://www.npr.org/templates/story/story.php?storyId=4677856>why he did it</a>. Read/listen to <a href=http://www.slate.com/id/2117577>an account of an eating competition</a>.
-        comment: I like to eat, but I can't understand why people would want to try and eat more than other people and to eat so much that it hurts and you want to vomit. I think it is not good for their bodies. What do you think?
-      -
-        id: tyson
-        title: Being heavy
-        blurb: |
-          Listen to <a href=http://www.npr.org/templates/story/story.php?storyId=6913145>Johnnie Tyson, a big woman</a> describe how being heavy made her feel bad, but also how she overcome bad feelings. You can also <a href=" http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/tyson.mp3">download the file</a>.
-        comment: A <a href=http://storycorps.org/blog/west-mobilebooth/little-rock-ar/weighty-matters/>picture</a>. She apparently had surgery to cut down on her weight. But her size was determined from birth.
-      -
-        id: douglas
-        title: Heavy eater
-        blurb: |
-         The overweight Antonio Douglas and 70-year-old Frank Lynch talk about <a href="http://www.npr.org/templates/story/story.php?storyId=122107928">racing each other</a>, in Lynch's efforts to get Douglas lose weight.
-        comment: Vocabulary to look up:<ul><li> tank top (Try Wikipedia), <li>NAACP (We discussed it talking about Mildred Roxborough Bond in Caught in the Tub), <li>AARP (An organization representing older people), <li>psyched up (Try www.urbandictionary,com), <li>whipped (See same), <li>geriatric (A medical word for 'old', Try urbandictionary again.</ul>
-      -
-        id: seixas
-        title: Weight watching
-        blurb: |
-          The 81-year-old Judith Seixas talks with a friend, who is overweight, about her father's concern about her own weight, a concern which resulted for her in a life-long struggle with what she ate.
-        comment: Look at <a href="http://www.npr.org/templates/story/story.php?storyId=4697167">the picture at the bottom</a> of the two old women hugging each other. Judith Seixas is on the right and is thin, perhaps too thin. Listen to the <a href="http://www.npr.org/templates/story/story.php?storyId=4697167">the sound track</a> below the picture, labeled: Struggling with Weight. Oliver's self intro is at https://www.youtube.com/watch?v=0OM7HEtlgfs
       -
         id: novak
         title: The love of flying
