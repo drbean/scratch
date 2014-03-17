@@ -635,33 +635,22 @@ tips:
       A: Barbara wants to study after work. She asks the boss for money to study. She wants to make her job a better job.
       B: Tadeusz is studying on weekends. He tells the boss he wants to be manager. He plans to become manager next year
       C: Eva gets together with co-workers outside work to study on the weekends. She asks the boss to give them money.
-      D: Dr Bean studies on weekends. He has his own goals. He wants to make the job a better job.
       quiz:
-        - question: '4 of the candidates believe in:'
+        - question: 'All of the candidates believe in:'
           option:
             - 4. The student
             - 8. Talk to the boss
           answer: 4. The student
-        - question: '3 of the candidates believe in:'
+        - question: '2 of the candidates believe in:'
           option:
             - 8. Talk to the boss
             - 9. Get a life
           answer: 8. Talk to the boss
-        - question: '2 of the candidates believe in:'
-          option:
-            - 1. The plan
-            - 10. Change your job
-          answer: 10. Change your job
-        - question: '1 of the candidates believes in:'
-          option:
-            - 1. The plan
-            - 2. Think!
-          answer: 1. The plan
         - question: 'None of the candidates believe in:'
           option:
-            - 2. Think!
-            - 6. My way
-          answer: 2. Think!
+            - 5. Togetherness
+            - 6. Get a life!
+          answer: 6. Get a life!
       rubric: |+
         1. \textbf{The plan:} Have a schedule\\
         2. \textbf{Think!} Keep your mind on what you are doing.\\
