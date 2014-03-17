@@ -664,31 +664,20 @@ tips:
         10. \textbf{Change your job!} Make your job better, or get a new job.
     5:
       identifier: tips 5
-      A: Barbara gets together with co-workers outside work and relaxes on the weekends, but while on the job, she keeps her mind on the job.
-      B: Tadeusz relaxes on the weekend, but while on the job he keeps a schedule and thinks about what he is doing.
-      C: Eva creates her own goals. And she keeps her mind on her job while at work. She wants to make her job a better job.
-      D: Dr Bean thinks about his job while working. He wants to make it a better job. But he relaxes on the weekend.
+      A: Barbara creates her own goals. And she keeps her mind on her job while at work. She wants to make her job a better job.
+      B: Tadeusz relaxes on the weekend, but while on the job he keeps a schedule and thinks about the job and what he is doing.
+      C: Eva gets together with co-workers outside work and relaxes on the weekends, but while on the job, she keeps her mind on the job.
       quiz:
-        - question: '4 of the candidates believe in:'
+        - question: 'All of the candidates believe in:'
           option:
             - 2. Think!
             - 9. Get a life!
           answer: 2. Think!
-        - question: '3 of the candidates believe in:'
+        - question: '2 of the candidates believe in:'
           option:
             - 6. My way
             - 9. Get a life!
           answer: 9. Get a life!
-        - question: '2 of the candidates believe in:'
-          option:
-            - 2. Think!
-            - 10. Change your job
-          answer: 10. Change your job
-        - question: '1 of the candidates believes in:'
-          option:
-            - 4. The student
-            - 6. My way
-          answer: 6. My way
         - question: 'None of the candidates believe in:'
           option:
             - 1. The plan
