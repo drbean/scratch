@@ -70,23 +70,6 @@ href=http://203.64.184.141/cgi-bin/<TMPL> $location </TMPL>/script/<TMPL> $locat
 If that link doesn\'t work, try the <a href="http://sac.nuu.edu.tw/cgi-bin/<TMPL> $location </TMPL>/script/<TMPL> $location </TMPL>_cgi.pl/login?exercise=<TMPL> $id </TMPL>"> alternative <TMPL> $id </TMPL> exercise link </a>.
 </div>
 
-<div class=story id="candidate">
-<p>
-<h2>Questions about Barbara, Tadeusz and Eva</h2>
-</p>
-
-<p>You did the candidate exercise. Continue to ask questions about Barbara, Tadeusz and Eva:
-<h3>Continue to GAME OVER before Saturday lunchtime March 15</h3>
-</p>
-<p>
-In the <a 
-href=http://203.64.184.141/cgi-bin/bett/script/bett_cgi.pl/login?exercise=candidate>candidate</a> exercise. (You will be asked to log in.)
-</p>
-<p>
-If that link doesn\'t work, try the <a href="http://sac.nuu.edu.tw/cgi-bin/dic/script/dic_cgi.pl/login?exercise=candidate"> alternative candidate exercise link </a>.
-</div>
-
-
 ';
 
 my $areatmpl = Text::Template->new(
