@@ -855,41 +855,32 @@ jackson:
     0:
       identifier: jackson 0
       A: You help homeless women find housing. You helped Queen and Ann, both college graduates who lost their jobs and then their homes. You know Queen's daughter, Jennifer is willing to have her move in, but you don't think that Queen should have to do that.
-      B: Your mother, Queen had a good job with the state government, but the government had no money and fired her. She can't find a new job. She was getting an unemployment check, but it didn't pay for her apartment. You told her to move in with you.
+      B: You lost your job and your home. Your daughter, Jennifer asked you to move in with her, but instead you went to Debra, a worker at a day center for women who are homeless or poor. You told her that Jennifer wants you to move in, but she said that may not be the best solution.
       C: You have a master's degree, but suffer from depression and lost your job and home. When you went to Debra, at the women's center for help, you had been living in your car for 2 months and had \$40 and half a tank of gas. Like Queen, Debra found temporary housing for you.
-      D: You lost your job and your home. Your daughter, Jennifer asked you to move in with her, but instead you went to Debra, a worker at a day center for women who are homeless or poor. You told her that Jennifer wants you to move in, but she said that may not be the best solution.
       quiz:
         - question: A
           option: 
            - Ann
            - Debra
-           - Jennifer
            - Queen
           answer: Debra
         - question: B
           option:
            - Ann
            - Debra
-           - Jennifer
            - Queen
-          answer: Jennifer
+          answer: Queen
         - question: C
           option:
            - Ann
            - Debra
-           - Jennifer
            - Queen
           answer: Ann
-        - question: D
-          option:
-           - Ann
-           - Debra
-           - Jennifer
-           - Queen
-          answer: Queen
         - question: Ann, Queen were both older, homeless.
           answer: True
-        - question: Queen had no money at all.
+        - question: Ann was living in her car.
+          answer: True
+        - question: Queen probably had less money than Ann.
           answer: False
         - question: Debra's job is to find people housing.
           answer: True
