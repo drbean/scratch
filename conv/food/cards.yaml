@@ -74,16 +74,45 @@ lerman:
           answer: George
         - question: Two of the contestants are Jewish.
           answer: True
-        - question: One of the contestants is black.
+    1:
+      identifier: lerman 1
+      A: You were disappointed in your son, Don. He never achieved anything. But after you die, Ray, the mayor, gives him the biggest eater prize.
+      B: You are the mayor. you give Don a prize for eating 60 hot dogs. He tells you his father, Josh, would have loved to see him win the prize.
+      C: You feel great when Ray, the mayor, gives you a prize for eating 60 hot dogs. You wish your father, Josh, could have lived to see you.
+      quiz:
+        - question: A
+          option: 
+           - Don
+           - Josh
+           - Ray
+           - Moses
+          answer: Josh
+        - question: B
+          option: 
+           - Don
+           - Josh
+           - Ray
+          answer: Ray
+        - question: C
+          option: 
+           - Don
+           - Josh
+           - Ray
+          answer: Don
+        - question: Josh's son is Don.
           answer: True
-        - question: Matzo balls are a Jewish food.
+        - question: Josh sees Don win the prize.
+          answer: False
+        - question: The prize is for eating 60 hot dogs.
           answer: True
-        - question: The winner is Jewish.
+        - question: Josh is not proud of Don.
+          answer: True
+        - question: Don is the mayor.
           answer: False
-        - question: Emily ate more matzo balls than Moses.
+        - question: Don was a `somebody,' but now is a `nobody.'
           answer: False
-        - question: Moses used to be a 'somebody,' but now he's a 'nobody.'
-          answer: False
+        - question: Josh is dead.
+          answer: True
 tyson:
   compcomp:
     0:
@@ -251,15 +280,43 @@ douglas:
           answer: Frank
         - question: Antonio works for Frank.
           answer: True
-        - question: Antonio is John's boss.
+    2:
+      identifier: douglas 2
+      A: Your father, Antonio is overweight. He works for Frank, an old man. Frank ran faster than your father in a race. You want them to run again.
+      B: You are 45. Your boss, Frank, who is 70, ran faster than you. Your son, Jackson wants you to beat him in a 2nd race. You race Frank again.
+      C: You own a company. You are 70, but in good shape. You want Antonio to get into shape, so you race him and win. In a 2nd race, he wins.
+      quiz:
+        - question: A
+          option: 
+           - Antonio
+           - Frank
+           - Jackson
+          answer: Jackson
+        - question: B
+          option: 
+           - Antonio
+           - Frank
+           - Jackson
+          answer: Antonio
+        - question: C
+          option: 
+           - Antonio
+           - Frank
+           - Jackson
+          answer: Frank
+        - question: Antonio works for Frank.
           answer: True
-        - question: Antonio likes Frank's jokes.
-          answer: False
-        - question: John likes Frank's jokes.
-          answer: False
+        - question: Antonio's son is Jackson.
+          answer: True
         - question: Jackson wants Frank to win.
           answer: False
-        - question: John wants Antonio to win.
+        - question: Antonio is older than Frank.
+          answer: False
+        - question: Antonio is fitter than Frank.
+          answer: False
+        - question: Antonio wins the first race.
+          answer: False
+        - question: Antonio wins the second race.
           answer: True
   compcomp:
     0:
@@ -283,3 +340,43 @@ douglas:
         \item [Membership] 40,000,000
         \item [Finances] Revenue for 2006 was approximately \$1 billion and \$23 million was spent on lobbying government.
         \end{description}
+seixas:
+  jigsaw:
+    0:
+      identifier: seixas 0
+      A: You weigh your daughter, Judith. She is not as heavy as Louisa, her friend, but you think she needs to diet. You give her fruit to eat, instead of icecream.
+      B: You are overweight. But your friend, Judith, is underweight. You eat ice cream, but she can't. Her father, Fred makes her go on a diet and eat fruit.
+      C: You think your father, Fred doesn't love you because he is very strict about what you eat. You wish you could eat anything like your friend, Louisa does.
+      quiz:
+        - question: A
+          option: 
+           - Fred
+           - Judith
+           - Louise
+          answer: Fred
+        - question: B
+          option: 
+           - Fred
+           - Judith
+           - Louise
+          answer: Louise
+        - question: C
+          option: 
+           - Fred
+           - Judith
+           - Louise
+          answer: Judith
+        - question: Fred and Louisa are friends
+          answer: False
+        - question: Fred is Judith's father.
+          answer: True
+        - question: Fred is concerned about Judith's weight.
+          answer: True
+        - question: Judith weighs more than Louisa.
+          answer: False
+        - question: Judith thinks Fred doesn't love her.
+          answer: True
+        - question: Fred gives Judith icecream to eat.
+          answer: False
+        - question: Louisa eats icecream.
+          answer: True
