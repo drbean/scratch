@@ -129,13 +129,13 @@
     Interviewer: How do you help companies to deal with stress?
     Bradshaw: Well, we help in two main ways: er, firstly by investigating causes of stress, what we call stress risk assessment. The idea of this is to identify problem areas and/or groups, hotspots, where the risk of stress is high. Secondly, we train managers by raising their awareness of stress and giving them skills to prevent and reduce stress at work.
 
-    Interviewer: Do you think that mean and women deal with stress differently?
+    Interviewer: Do you think that men and women deal with stress differently?
     Bradshaw: Yes, I do. Er, women tend to, er, report more stress. They talk more, um about their problems. Er, but they usually, in my experience, have better coping strategies. They're better at asking for and getting support, especially from their managers. Men report less stress, in my experience. They don't like to appear vulnerable. And the truth is, they are often more vulnerable and have poor coping strategies. Men are not good at getting support when they need it, and they find it difficult to talk to their managers about stress.
   - Interviewer|Bradshaw|vulnerable
   - 50
 -
-  - cusp
-  - CUSP--Control, Uncertainty, Support and Pressure
+  - gourlay-1
+  - CUSP--Control and Uncertainty
   - business
   - all
   - |+
@@ -150,7 +150,15 @@
     The way the CUSP works is very simple. The framework suggests that as a manager, if you can do anything to boost someone's sense of control, if you can reduce the level of uncertainty in the situation, or if you can offer support, either directly or facilitated from elsewhere, then that will tend to reduce the level of the pressure impacting on stress risk.
 
     Hence, the 'C' stands for Control. The 'U' for Uncertainty, the 'S' for Support, and the 'P' for Pressure.
+  - In Equilibrium|CUSP|psychological|boost|facilitated|impacting|abdicating|delegation|assertive|consultation|approachability|one-to-ones|latter|options
+  - 30
 
+-
+  - gourlay-2
+  - CUSP--Support and Pressure
+  - business
+  - all
+  - |+
     Enabling control is not about abdicating managerial responsibility. What it is about is encouraging people to take responsibility for their own day-to-day performance. Through for example, effective delegation, applying flexibility, encouraging assertive communication, and consultation within workload.
 
     The key to reducing uncertainty is timely and effective face-to-face communication. With some other elements to also consider. For example, management and team openness and management approachability. As managers, you are in a unique position to provide both social and practical support to your staff.
@@ -162,7 +170,7 @@
     Good luck.
 
   - In Equilibrium|CUSP|psychological|boost|facilitated|impacting|abdicating|delegation|assertive|consultation|approachability|one-to-ones|latter|options
-  - 100
+  - 30
 ---
 -
   - genre
