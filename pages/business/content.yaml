@@ -299,7 +299,12 @@ topic:
           <li><b>Text 4:</b> Listen to <a href="http://web.nuu.edu.tw/~greg/business/stress-1D.mp3">D</a>
           </ul>
       -
-        id: cusp
+        id: gourlay-1
+        title: CUSP--Control, Uncertainty, Support and Pressure
+        blurb: <a href="http://www.in-equilibrium.co.uk/resources/podcasts/stress-prevention-tool">CUSP</a> is <a href="http://www.the-stress-site.net/alan-bradshaw.html">Alan Bradshaw</a>'s framework for thinking about stress. Businesses can try to reduce stress by following this framework. <a href="http://www.in-equilibrium.co.uk/about/our-consultants/dot-gourlay">Dot Gourlay</a> is a Scottish psychologist at <a href="http://www.in-equilibrium.co.uk">In Equilibrium</a>.
+        comment: |+
+          The presentation is short, but Dot Gourlay's Scottish accent is hard to understand. Which of Control, Uncertainty, Support and Pressure does she <b>not</b> talk about? Think about the roles of control, uncertainty, support and pressure in reducing stress.
+        id: gourlay-2
         title: CUSP--Control, Uncertainty, Support and Pressure
         blurb: <a href="http://www.in-equilibrium.co.uk/resources/podcasts/stress-prevention-tool">CUSP</a> is <a href="http://www.the-stress-site.net/alan-bradshaw.html">Alan Bradshaw</a>'s framework for thinking about stress. Businesses can try to reduce stress by following this framework. <a href="http://www.in-equilibrium.co.uk/about/our-consultants/dot-gourlay">Dot Gourlay</a> is a Scottish psychologist at <a href="http://www.in-equilibrium.co.uk">In Equilibrium</a>.
         comment: |+
