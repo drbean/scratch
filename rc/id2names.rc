@@ -10,6 +10,8 @@ use Lingua::Han::PinYin;
 
 $_REPL->load_plugin('DumpHistory');
 
+my $week = 6;
+
 (my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
 use Grades;
 use Grades::Groupwork;
@@ -22,7 +24,7 @@ my $approach = $l->approach;
 
 my $h2p = Lingua::Han::PinYin->new( tone => 1 );
 
-my %b = map { $m{$_}->{name} => $cl->name2beancan(1, $m{$_}->{name}) } keys %m;
+my %b = map { $m{$_}->{name} => $cl->name2beancan($week, $m{$_}->{name}) } keys %m;
 my %i;
 for my $member ( keys %m ) {
 	my $chinese = encode( 'UTF-8', $m{$member}->{Chinese} );
