@@ -168,7 +168,6 @@ sub topicsAndStories {
     my %seen; @seen{ @storyids } = ( undef ) x @storyids;
     my $topicLibrary = $area->{topic};
     my $presentTopic = '';
-    my $include;
     for my $id ( @storyids ) {
 	for my $topic ( @$topicLibrary ) {
 	    my $storyLibrary = $topic->{story};
@@ -181,12 +180,10 @@ sub topicsAndStories {
 	    $presentTopic = $topic->{id};
 	    $story->{location} = $location;
 	    $io->append( $storytmpl->fill_in( hash => $story ) );
-	    $include = io "$id.tmpl" if -f "$id.tmpl";
-	    if ( $include ) {
-		my $include_string = $include->slurp;
+	    if ( -T "$id.tmpl" ) {
 		my $include_tmpl = Text::Template->new(
-		    type       => 'string',
-		    source     => $include_string,
+		    type       => 'file',
+		    source     => "$id.tmpl",
 		    delimiters => [ '<TMPL>', '</TMPL>' ]
 		) ;
 		$io->append( $include_tmpl->fill_in( hash => $story ) );
