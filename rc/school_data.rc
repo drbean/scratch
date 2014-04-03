@@ -10,7 +10,7 @@ use Cwd; use File::Basename;
 use Encode;
 use Lingua::Han::PinYin;
 
-my $semester = "021";
+my $semester = "022";
 my $school	= "nuu";
 my $dir = basename( getcwd );
 
@@ -20,14 +20,15 @@ my $g = Grades->new({ league => $l });
 my $c = $l->yaml;
 my %m = map { $_->{id} => $_ } @{ $l->members };
 my $io = io("../../admin/$semester/$school/$dir.txt");
-my $h2p = Lingua::Han::PinYin->new;
+my $h2p = Lingua::Han::PinYin->new();
 my @members;
 my @lines = $io->slurp;
 for my $line ( @lines ) {
-	my $dline = decode( 'UTF-8', $line);
+	my $dline = decode( 'UTF8', $line);
 	chomp $dline;
 	my ($n, $id, $name, $other) = split ' ', $dline; 
-	my $char = substr $name, 1, 1;
+	my $ename = encode('UTF8', $name);
+	my $char = encode( 'UTF-8', substr $name, 1, 1 );
 	my $p = $h2p->han2pinyin1( $char );
 	push @members, {
 		id => $id,
