@@ -4,157 +4,313 @@ field:
   - head
   - answer
   - sublist
-fitness_theory:
-  abdominal: ~
-  absorption: ~
-  acceleration: ~
-  active: ~
-  activity: ~
-  adherence: ~
-  aerobic: ~
-  agility: ~
-  anaerobic: ~
-  artery: ~
-  balance: ~
-  biceps: ~
-  blood_pressure: ~
-  body_composition: ~
-  body_mass_index: ~
-  bone: ~
-  calorie: ~
-  cardiac: ~
-  cardiopulmonary: ~
-  cardiorespiratory: ~
-  cardiovascular: ~
-  center_of_gravity: ~
-  centrifugal: ~
-  centripetal: ~
-  circulatory: ~
-  cool-down: ~
-  coordination: ~
-  dehydration: ~
-  dexterity: ~
-  diet: ~
-  effort: ~
-  endurance: ~
-  exercise: ~
-  expenditure: ~
-  exposure: ~
-  extend: ~
-  fitness: ~
-  FITT_principle: ~
-  flex: ~
-  flexibility: ~
-  force: ~
-  frequency: ~
-  friction: ~
-  goal: ~
-  hamstring: ~
-  heart_rate: ~
-  individuality: ~
-  inertia: ~
-  intensity: ~
-  lifestyle: ~
-  lifetime: ~
-  locomotor: ~
-  mastery: ~
-  metabolic_rate: ~
-  moderate: ~
-  momentum: ~
-  muscle: ~
-  muscular: ~
-  obesity: ~
-  overhand: ~
-  overload: ~
-  oxygen: ~
-  participation: ~
-  pectorals: ~
-  persistence: ~
-  physical: ~
-  physiology: ~
-  power: ~
-  practice: ~
-  progression: ~
-  pulse: ~
-  reaction_time: ~
-  recovery: ~
-  regularity: ~
-  repetition: ~
-  resistance: ~
-  skill: ~
-  specificity: ~
-  speed: ~
-  steroids: ~
-  strength: ~
-  stretch: ~
-  technique: ~
-  time: ~
-  triceps: ~
-  type: ~
-  vein: ~
-  vigorous: ~
-  warm-up: ~
-  weight_training: ~
-  workout: ~
-activities:
-  skip: ~
-  slide: ~
-  walk: ~
-  underhand: ~
-  turn_V: ~
-  twist_V: ~
-  track_V: ~
-  throw: ~
-  sway: ~
-  swing: ~
-  step_V: ~
-  quick_feet: ~
-  reach_V: ~
-  pinkies_and_thumbs: ~
-  pass: ~
-  jog: ~
-  leap: ~
-  hop: ~
-  gallop: ~
-  follow_through_V: ~
-  catch_V: ~
-weight_training:
-  barbell: ~
-  chinups: ~
-  curl-up: ~
-  dumbbell: ~
-  exercise_machine: ~
-  good_form: ~
-  gym: ~
-  nutrition: ~
-  pushups: ~
-  sit-up: ~
-sports:
-  amateur: ~
-  athlete: ~
-  coach: ~
-  competition: ~
-  course: ~
-  court: ~
-  cup: ~
-  defeat: ~
-  draw: ~
-  event: ~
-  fan: ~
-  field: ~
-  goal: ~
-  half-time: ~
-  league: ~
-  lob: ~
-  opponent: ~
-  penalty: ~
-  pitch: ~
-  professional: ~
-  referee: ~
-  serve: ~
-  shoot: ~
-  spectator: ~
-  sportsmanship: ~
-  tackle: ~
-  tie: ~
-  tournament: ~
+fitness_theory(健身理論):
+  abdominal                : 腹部的
+  absorption               : 吸收
+  acceleration             : 促進
+  active                   : 活躍
+  activity                 : 活動
+  adherence                : 附著
+  aerobic                  : 有氧
+  agility                  : 敏捷
+  anaerobic                : 厭氧
+  artery                   : 動脈
+  balance                  : 平衡
+  biceps                   : 肱二頭肌
+  blood_pressure           : 血壓
+  body_composition         : 身體組成
+  body_mass_index          : 身體質量指數
+  bone                     : 骨
+  calorie                  : 熱量
+  cardiac                  : 心臟的
+  cardiopulmonary          : 心肺
+  cardiorespiratory        : 心肺
+  cardiovascular           : 心血管
+  center_of_gravity        : 重心
+  centrifugal              : 離心
+  centripetal              : 向心力
+  circulatory              : 循環
+  cool-down                : 降溫
+  coordination             : 協調
+  dehydration              : 脫水
+  dexterity                : 靈巧
+  diet                     : 飲食
+  effort                   : 功夫
+  endurance                : 耐力
+  exercise                 : 鍛煉
+  expenditure              : 支出
+  exposure                 : 曝光
+  extend                   : 延長
+  fitness                  : 健身
+  FITT_principle           : 強度頻率種類時間原則 
+  flex                     : 柔性
+  flexibility              : 靈活性
+  force                    : 力
+  frequency                : 頻率
+  friction                 : 摩擦
+  goal                     : 目標
+  hamstring                : 腿筋
+  heart_rate               : 心臟率
+  individuality            : 個性
+  inertia                  : 慣性
+  intensity                : 強度
+  lifestyle                : 生活方式
+  lifetime                 : 一生
+  locomotor                : 自發
+  mastery                  : 征服
+  metabolic_rate           : 代謝率
+  moderate                 : 溫和
+  momentum                 : 勢頭
+  muscle                   : 肌肉
+  muscular                 : 肌肉發達
+  obesity                  : 肥胖
+  overhand                 : 上手
+  overload                 : 超載
+  oxygen                   : 氧
+  participation            : 參與
+  pectorals                : 胸肌
+  persistence              : 堅持
+  physical                 : 物理
+  physiology               : 生理
+  power                    : 功率
+  practice                 : 實踐
+  progression              : 級數
+  pulse                    : 脈衝
+  reaction_time            : 反應時間
+  recovery                 : 復甦
+  regularity               : 規律性
+  repetition               : 重
+  resistance               : 阻力
+  skill                    : 技能
+  specificity              : 特異性
+  speed                    : 速度
+  steroids                 : 類固醇
+  strength                 : 實力
+  stretch                  : 伸展
+  technique                : 技術
+  time                     : 時間
+  triceps                  : 肱三頭肌
+  type                     : 類型
+  vein                     : 靜脈
+  vigorous                 : 蒼勁
+  warm-up                  : 熱身
+  weight_training          : 重量訓練
+  workout                  : 鍛煉
+activities(活動):
+  skip                     : 跳躍
+  slide                    : 滑
+  walk                     : 走
+  underhand                : 陰招
+  turn_V                   : 轉
+  twist_V                  : 捻
+  track                    : 追踪
+  throw                    : 扔
+  sway                     : 搖擺
+  swing                    : 搖擺
+  step_V                   : 一步
+  quick_feet               : 快速的腳步
+  reach_V                  : 伸手
+  pinkies_and_thumbs       : 幼鼠和拇指
+  pass                     : 通過
+  jog                      : 慢跑
+  leap                     : 飛躍
+  hop                      : 跳
+  gallop                   : 馳騁
+  follow_through_V         : 後續通過
+  catch_a_ball             : 接球
+weight_training(重量訓練):
+  barbell                  : 槓鈴
+  chinups                  : 引體向上
+  curl-up                  : 捲曲機
+  dumbbell                 : 啞鈴
+  exercise_machine         : 運動機
+  good_form                : 好形式
+  gym                      : 健身房
+  nutrition                : 營養
+  pushups                  : 俯臥撑
+  sit-up                   : 仰臥起坐
+sports(運動):
+  amateur                  : 業餘
+  athlete                  : 運動員
+  coach                    : 教練
+  competition              : 競爭
+  course                   : 跑道
+  court                    : 場
+  cup                      : 杯
+  defeat                   : 敗
+  draw                     : 平局
+  event                    : 賽事
+  fan                      : 迷
+  field                    : 場
+  goal                     : 球門
+  half-time                : 半衰期
+  league                   : 聯盟
+  lob                      : 高球
+  opponent                 : 對手
+  penalty                  : 刑罰
+  pitch                    : 投
+  professional             : 專業的
+  referee                  : 裁判
+  serve                    : 發球
+  shoot                    : 射擊
+  spectator                : 觀眾
+  sportsmanship            : 體育精神
+  tackle                   : 對付
+  tie                      : 平局
+  tournament               : 比賽
+
+---
+# 健身理論:
+# 腹部的
+# 吸收
+# 促進
+# 活躍
+# 活動
+# 附著
+# 有氧
+# 敏捷
+# 厭氧
+# 動脈
+# 平衡
+# 肱二頭肌
+# 血壓
+# 身體組成
+# 身體質量指數
+# 骨
+# 熱量
+# 心臟的
+# 心肺
+# 心肺
+# 心血管
+# 重心
+# 離心
+# 向心力
+# 循環
+# 降溫
+# 協調
+# 脫水
+# 靈巧
+# 飲食
+# 功夫
+# 耐力
+# 鍛煉
+# 支出
+# 曝光
+# 延長
+# 健身
+# FITT原則 
+# 柔性
+# 靈活性
+# 力
+# 頻率
+# 摩擦
+# 目標
+# 腿筋
+# 心臟率
+# 個性
+# 慣性
+# 強度
+# 生活方式
+# 一生
+# 自發
+# 征服
+# 代謝率
+# 溫和
+# 勢頭
+# 肌肉
+# 肌肉發達
+# 肥胖
+# 上手
+# 超載
+# 氧
+# 參與
+# 胸肌
+# 堅持
+# 物理
+# 生理
+# 功率
+# 實踐
+# 級數
+# 脈衝
+# 反應時間
+# 復甦
+# 規律性
+# 重
+# 阻力
+# 技能
+# 特異性
+# 速度
+# 類固醇
+# 實力
+# 伸展
+# 技術
+# 時間
+# 肱三頭肌
+# 類型
+# 靜脈
+# 蒼勁
+# 熱身
+# 重量訓練
+# 鍛煉
+# 活動:
+# 跳躍
+# 滑
+# 走
+# 陰招
+# 轉
+# 捻
+# 追踪
+# 扔
+# 搖擺
+# 搖擺
+# 一步
+# 快速的腳步
+# 伸手
+# 幼鼠和拇指
+# 通過
+# 慢跑
+# 飛躍
+# 跳
+# 馳騁
+# 後續通過
+# 接球
+# 重量訓練:
+# 槓鈴
+# 引體向上
+# 捲曲機
+# 啞鈴
+# 運動機
+# 好形式
+# 健身房
+# 營養
+# 俯臥撑
+# 仰臥起坐
+# 運動:
+# 業餘
+# 運動員
+# 教練
+# 競爭
+# 課程
+# 法庭
+# 杯
+# 敗
+# 畫
+# 事件
+# 風扇
+# 場
+# 目標
+# 半衰期
+# 聯盟
+# 高球
+# 對手
+# 刑罰
+# 瀝青
+# 專業的
+# 裁判
+# 服務
+# 射擊
+# 觀眾
+# 體育精神
+# 解決
+# 領帶
+# 比賽
