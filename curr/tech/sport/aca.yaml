@@ -4,7 +4,7 @@ field:
   - head
   - answer
   - sublist
-fitness_theory_健身理論:
+fitness_theory:
   abdominal                : 腹部的
   absorption               : 吸收
   acceleration             : 促進
@@ -95,7 +95,7 @@ fitness_theory_健身理論:
   warm-up                  : 熱身
   weight_training          : 重量訓練
   workout                  : 鍛煉
-activities_活動:
+activities:
   skip                     : 跳躍
   slide                    : 滑
   walk                     : 走
@@ -117,7 +117,7 @@ activities_活動:
   gallop                   : 馳騁
   follow_through_V         : 後續通過
   catch_a_ball             : 接球
-weight_training_重量訓練:
+weight_training:
   barbell                  : 槓鈴
   chinups                  : 引體向上
   curl-up                  : 仰臥起坐
@@ -128,7 +128,7 @@ weight_training_重量訓練:
   nutrition                : 營養
   pushups                  : 俯臥撑
   sit-up                   : 仰臥起坐
-sports_運動:
+sports:
   amateur                  : 業餘
   athlete                  : 運動員
   coach                    : 教練
