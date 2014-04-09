@@ -130,5 +130,49 @@ so I (and your followers) can read it.
 - Eg, Jeremy puts a message on http://espnfc.com
 - and posts the link in an email to internet_english@gmail.com
 
+## Homework results Week 7
+
+[http://web.nuu.edu.tw/~greg/AFB1J0/homework.yaml](http://web.nuu.edu.tw/~greg/AFB1J0/homework.yaml)
+
 ## Classwork Week 8
+
+Chat on freenode
+ 
+- Connect via [http://webchat.freenode.net](http://webchat.freenode.net)
+- Choose a nickname, (tell Dr Bean so he can give you a score)
+- Enter channels:
+	* \##AFB1JO-Black
+	* \##AFB1JO-Blue
+	* \##AFB1JO-Green
+	* \##AFB1JO-Charcoal
+	* \##AFB1JO-Orange
+	* \##AFB1JO-Pink
+	* \##AFB1JO-White
+	* \##AFB1JO-Yellow
+
+- Copy the letters
+- Connect
+- Join other channels by typing '/join ##AFB1J0-Yellow' etc
+- Ask questions, answer questions
+
+## Classwork grade
+
+- Every question/answer gives 1 point to the questioner
+  and 1 point to the owner of the room, unless the questioner
+  owns that room.
+- The 4 groups with most points get a grade of 3, the other
+  4 groups get 2.
+
+## Homework Week 8
+
+6 questions and 6 answers to someone else's questions on one or more of:
+
+		- ##AFB1JO-Black
+		- ##AFB1JO-Blue
+		- ##AFB1JO-Green
+		- ##AFB1JO-Charcoal
+		- ##AFB1JO-Orange
+		- ##AFB1JO-Pink
+		- ##AFB1JO-White
+		- ##AFB1JO-Yellow
 
