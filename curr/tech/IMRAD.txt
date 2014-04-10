@@ -78,3 +78,435 @@ Abstract considerations[edit]
    abstracts".^ The growing importance of abstracts in the era of computerized literature search and information overload has led 
    some users to modify the IMRAD acronym to AIMRAD, in order to give due _____(11) to the abstract.
 
+IMRAD
+
+   The IMRAD (/ˈɪmræd/) structure is the most prominent norm for the structure of a scientific journal article of the original research type. IMRAD is an
+   acronym for introduction, methods, results, and discussion. Original research articles are typically structured in this basic order:
+     * Introduction - Why was the study undertaken? What was the research question, the tested hypothesis or the purpose of the research?
+     * Methods - When, where, and how was the study done? What materials were used or who was included in the study groups (patients, etc.)?
+     * Results - What answer was found to the research question; what did the study find? Was the tested hypothesis true?
+     * and
+     * Discussion - What might the answer imply and why does it matter? How does it fit in with what other researchers have found? What are the perspectives for future research?
+
+   Besides original-research articles, other major types of article include literature reviews, case reports, case series, and meta-analyses, which usually use non-IMRAD structures.
+
+   The IMRAD format has been adopted by a steadily increasing number of academic journals since the first half of the 20th century. The IMRAD structure has come to dominate academic writing in
+   the sciences, most notably in empirical biomedicine.^^^ The structure of most public health journal articles reflects this trend. Although the IMRAD structure
+   originates in the empirical sciences, it now also regularly appears in academic journals across a wide range of disciplines. Many scientific journals now not only prefer this structure but
+   also use the IMRaD acronym as an instructional device in the instructions to their authors, recommending the use of the four terms as main headings. For example, it is explicitly recommended in
+   the "Uniform Requirements for Manuscripts Submitted to Biomedical Journals" issued by the International Committee of Medical Journal Editors (previously called the Vancouver
+   guidelines):
+
+     The text of observational and experimental articles is usually (but not necessarily) divided into the following sections: Introduction, Methods, Results, and Discussion. This so-called
+     “IMRAD” structure is not an arbitrary publication format but rather a direct reflection of the process of scientific discovery. Long articles may need subheadings within some sections
+     (especially Results and Discussion) to clarify their content. Other types of articles, such as case reports, reviews, and editorials, probably need to be formatted differently.^
+
+   The IMRAD structure is also recommended for empirical studies in the 6th edition of the publication manual of the American Psychological Association (APA style).^ The APA
+   publication manual is widely used by journals in the social, educational and behavioral sciences.^
+
+Contents
+
+     * 1 Benefits
+     * 2 Caveats
+     * 3 Abstract considerations
+     * 4 Heading style variations
+     * 5 Other elements that are typical although not part of the acrostic
+     * 6 See also
+     * 7 References
+
+Benefits[edit]
+
+   The IMRAD structure has proved successful because it facilitates literature review, allowing readers to navigate articles more quickly to locate material relevant to their purpose.^ But
+   the neat order of IMRAD rarely corresponds to the actual sequence of events or ideas of the research presented; the IMRAD structure effectively supports a reordering that eliminates unnecessary
+   detail, and allow the reader to assess a well-ordered and noise free presentation of the relevant and significant information. It allows the most relevant information to be presented clearly and
+   logically to the readership, by summarizing the research process in an ideal sequence and without unnecessary detail.
+
+Caveats[edit]
+
+   The idealised sequence of the IMRAD structure has on occasion been criticised for being too rigid and simplistic. In a radio talk in 1964 the Nobel laureate Peter Medawar even criticised
+   this instructive text structure for not giving a realistic representation of the thought processes of the writing scientist: "... the scientific paper may be a fraud because it misrepresents the
+   processes of thought that accompanied or gave rise to the work that is described in the paper".^ Medawar's criticism was discussed at the XIXth General Assembly of the World Medical
+   Association in 1965.^^ It is probably a bit too much to ask from such a simple instructional device to carry the burden of representing the entire process of scientific discovery.
+   But Medawar's caveat was sensible as a response to how many students and faculty throughout academia have sometimes treated it as such a panacea. Medawar and others have given eloquent testimony
+   both to the importance and to the limitations of the device.
+
+Abstract considerations[edit]
+
+   In addition to the scientific article itself a brief abstract is usually required for publication. The abstract should, however, be composed to function as an autonomous text, even if some
+   authors and readers may think of it as an almost integral part of the article. The increasing importance of well-formed autonomous abstracts may well be a consequence of the increasing use of
+   searchable digital abstract archives, where a well-formed abstract will dramatically increase the probability for an article to be found by its optimal readership.^ Consequently, there
+   is a strong recent trend toward developing formal requirements for abstracts, most often structured on the IMRAD pattern, and often with strict additional specifications of topical content items
+   that should be considered for inclusion in the abstract.^ Such abstracts are often referred to as "structured abstracts".^ The growing importance of abstracts in the era of
+   computerized literature search and information overload has led some users to modify the IMRAD acronym to AIMRAD, in order to give due emphasis to the abstract.
+
+major
+specific
+data
+range
+site
+policy
+correspond
+text
+sequence
+analyse
+register
+resource
+document
+similar
+item
+individual
+technical
+function
+survey
+require
+source
+issue
+method
+previous
+imply
+process
+rely
+available
+locate
+assess
+respond
+emphasis
+journal
+dominate
+occur
+structure
+vary
+research
+fund
+significant
+relevant
+contribute
+link
+section
+compute
+export
+element
+
+
+Heading style variations[edit]
+
+   Usually, the IMRAD article sections use the IMRAD words as headings. A few variations can occur, as follows:
+     * Many journals have a convention of omitting the "Introduction" heading, based on the idea that the reader who begins reading an article does not need to be told that the beginning of the
+       text is the introduction. This fussy print-era proscription is fading since the advent of the Web era, when having an explicit "Introduction" heading helps with navigation via document maps
+       and collapsible/expandable TOC trees. (The same considerations are true regarding the presence or proscription of an explicit "Abstract" heading.)
+     * In some journals, the "Methods" heading may vary, being "Methods and materials", "Materials and methods", or similar phrases. Some journals mandate that exactly the same wording for this
+       heading be used for all articles without exception; other journals reasonably accept whatever each submitted manuscript contains, as long as it is one of these sensible variants.
+     * The "Discussion" section may subsume any "Summary", "Conclusion", or "Conclusions" section, in which case there may or may not be any explicit "Summary", "Conclusion", or "Conclusions"
+       subheading; or the "Summary"/"Conclusion"/"Conclusions" section may be a separate section, using an explicit heading on the same heading hierarchy level as the "Discussion" heading.
+       Which of these variants to use as the default is a matter of each journal's chosen style, as is the question of whether the default style must be forced onto every article or whether
+       sensible interarticle flexibility will be allowed.
+
+Other elements that are typical although not part of the acrostic[edit]
+
+     * Disclosure statements
+          + Reader's theme that is the point of this element's existence: "Why should I (the reader) trust or believe what you (the author) say? Are you just making money off of saying it?"
+          + Appear either in opening footnotes or a section of the article body
+          + Subtypes of disclosure:
+               o Disclosure of funding (grants to the project)
+               o Disclosure of conflict of interest (grants to individuals, jobs/salaries, stock or stock options)
+     * Clinical relevance statements
+          + Reader's theme that is the point of this element's existence: "Why should I (the reader) spend my time reading what you say? How is it relevant to my clinical practice? Basic research
+            is nice, other people's cases are nice, but my time is triaged, so make your case for 'why bother'"
+          + Appear either as a display element (sidebar) or a section of the article body
+          + Format: short, a few sentences or bullet points
+
+See also[edit]
+
+     * EASE Guidelines for Authors and Translators of Scientific Articles
+
+References[edit]
+
+    1. ^ Luciana B. Sollaci & Mauricio G. Pereira (July 2004). "The introduction, methods, results, and discussion (IMRAD) structure: a fifty-year survey". J Med Libr Assoc (J Med Libr
+       Assoc. 2004 July; 92(3): 364–371) 92 (3): 364–7. PMC 442179. PMID 15243643.
+    2. ^ Day, RA (1989). "The Origins of the Scientific Paper: The IMRAD Format". American Medical Writers Association Journal 4 (2): 16–18. Retrieved 2011-06-17.
+    3. ^ Szklo, Moyses (2006). "Quality of scientific articles". Revista de Saúde Pública 40: 30–35. Retrieved 2011-06-17.
+    4. ^ "Uniform Requirements for Manuscripts Submitted to Biomedical Journals: Writing and Editing for Biomedical Publication - IV.A.1.a. General Principles". International Committee of
+       Medical Journal Editors. Retrieved 2010-03-08.
+    5. ^ American Psychological Association (2010). Publication Manual of the American Psychological Association (6th ed.). American Psychological Association. ISBN 978-1-4338-0562-2.
+    6. ^ "The IMRAD Research Paper Format". Department of Translation Studies, University of Tampere. Retrieved 2008-10-22.
+    7. ^ Burrough-Boenisch, J (1999). "International Reading Strategies for IMRD Articles". Written Communication 16 (3): 296–316. Retrieved 2011-06-17.
+    8. ^ Medawar, P (1964). "Is the scientific paper fraudulent?". The Saturday Review (August 1): 42–43. Retrieved 2012-11-05.
+    9. ^ Brain, L (1965). "Structure of the scientific paper". Br Med J (2): 868–869. Retrieved 2011-06-19.
+   10. ^ Editorial (1965). "Report of Editors' Conference". Br Med J (2): 870. Retrieved 2011-06-19.
+   11. ^ "Structured Abstract Initiative". Education Resources Information Center. Retrieved 2011-06-17.
+   12. ^ Ripple, AM; Mork JG, Knecht LS, Humphreys BL (2011). "A retrospective cohort study of structured abstracts in MEDLINE, 1992-2006.". J Med Libr Assoc. 99 (2): 160–3.
+       doi:10.3163/1536-5050.99.2.009. PMC 3066587. PMID 21464855.  Cite uses deprecated parameters (help)
+   13. ^ U.S. National Library of Medicine (2011-06-16). "Structured Abstracts".
+
+   Retrieved from "http://en.wikipedia.org/w/index.php?title=IMRAD&oldid=591781091"
+   Categories:
+     * Medical research
+     * Academic literature
+     * Scientific documents
+     * Technical communication
+     * Style guides for technical and scientific writing
+
+   Hidden categories:
+     * Pages containing cite templates with deprecated parameters
+
+Navigation menu
+
+Personal tools
+
+     * Create account
+     * Log in
+
+Namespaces
+
+     * Article
+     * Talk
+
+Variants
+
+Views
+
+     * Read
+     * Edit
+     * View history
+
+Actions
+
+Search
+
+   ____________________ Search Go
+
+Navigation
+
+     * Main page
+     * Contents
+     * Featured content
+     * Current events
+     * Random article
+     * Donate to Wikipedia
+     * Wikimedia Shop
+
+Interaction
+
+     * Help
+     * About Wikipedia
+     * Community portal
+     * Recent changes
+     * Contact page
+
+Tools
+
+     * What links here
+     * Related changes
+     * Upload file
+     * Special pages
+     * Permanent link
+     * Page information
+     * Data item
+     * Cite this page
+
+Print/export
+
+     * Create a book
+     * Download as PDF
+     * Printable version
+
+Languages
+
+     * 日本語
+     * Norsk bokmål
+     * Suomi
+     *
+     * Edit links
+
+     * This page was last modified on 21 January 2014 at 22:22.
+     * Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy.
+       Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+     * Privacy policy
+     * About Wikipedia
+     * Disclaimers
+     * Contact Wikipedia
+     * Developers
+     * Mobile view
+
+     * Wikimedia Foundation
+     * Powered by MediaWiki
+
+References
+
+   Visible links
+   1. http://en.wikipedia.org/w/index.php?title=IMRAD&action=edit
+   2. http://en.wikipedia.org/w/opensearch_desc.php
+   3. http://creativecommons.org/licenses/by-sa/3.0/
+   4. http://en.wikipedia.org/w/index.php?title=Special:RecentChanges&feed=atom
+   5. http://en.wikipedia.org/wiki/IMRAD#mw-navigation
+   6. http://en.wikipedia.org/wiki/IMRAD#p-search
+   7. http://en.wikipedia.org/wiki/Help:IPA_for_English
+   8. http://en.wikipedia.org/wiki/Help:IPA_for_English#Key
+   9. http://en.wikipedia.org/wiki/Help:IPA_for_English#Key
+  10. http://en.wikipedia.org/wiki/Help:IPA_for_English#Key
+  11. http://en.wikipedia.org/wiki/Help:IPA_for_English#Key
+  12. http://en.wikipedia.org/wiki/Help:IPA_for_English#Key
+  13. http://en.wikipedia.org/wiki/Help:IPA_for_English#Key
+  14. http://en.wikipedia.org/wiki/Help:IPA_for_English
+  15. http://en.wikipedia.org/wiki/Scientific_journal
+  16. http://en.wikipedia.org/wiki/Original_research
+  17. http://en.wikipedia.org/wiki/Acronym
+  18. http://en.wikipedia.org/wiki/Research_question
+  19. http://en.wikipedia.org/wiki/Hypothesis
+  20. http://en.wikipedia.org/wiki/Literature_review
+  21. http://en.wikipedia.org/wiki/Case_report
+  22. http://en.wikipedia.org/wiki/Case_series
+  23. http://en.wikipedia.org/wiki/Meta-analysis
+  24. http://en.wikipedia.org/wiki/Academic_journal
+  25. http://en.wikipedia.org/wiki/Empirical
+  26. http://en.wikipedia.org/wiki/IMRAD#cite_note-1
+  27. http://en.wikipedia.org/wiki/IMRAD#cite_note-2
+  28. http://en.wikipedia.org/wiki/IMRAD#cite_note-3
+  29. http://en.wikipedia.org/wiki/Public_health_journal
+  30. http://en.wikipedia.org/wiki/Discipline_(academia)
+  31. http://en.wikipedia.org/wiki/Uniform_Requirements_for_Manuscripts_Submitted_to_Biomedical_Journals
+  32. http://en.wikipedia.org/wiki/International_Committee_of_Medical_Journal_Editors
+  33. http://en.wikipedia.org/wiki/Vancouver_guidelines
+  34. http://en.wikipedia.org/wiki/IMRAD#cite_note-4
+  35. http://en.wikipedia.org/wiki/American_Psychological_Association
+  36. http://en.wikipedia.org/wiki/APA_style
+  37. http://en.wikipedia.org/wiki/IMRAD#cite_note-5
+  38. http://en.wikipedia.org/wiki/Social_science
+  39. http://en.wikipedia.org/wiki/Educational_research
+  40. http://en.wikipedia.org/wiki/Behavioral_science
+  41. http://en.wikipedia.org/wiki/IMRAD#cite_note-Tampere-6
+  42. http://en.wikipedia.org/wiki/IMRAD#Benefits
+  43. http://en.wikipedia.org/wiki/IMRAD#Caveats
+  44. http://en.wikipedia.org/wiki/IMRAD#Abstract_considerations
+  45. http://en.wikipedia.org/wiki/IMRAD#Heading_style_variations
+  46. http://en.wikipedia.org/wiki/IMRAD#Other_elements_that_are_typical_although_not_part_of_the_acrostic
+  47. http://en.wikipedia.org/wiki/IMRAD#See_also
+  48. http://en.wikipedia.org/wiki/IMRAD#References
+  49. http://en.wikipedia.org/w/index.php?title=IMRAD&action=edit&section=1
+  50. http://en.wikipedia.org/wiki/IMRAD#cite_note-7
+  51. http://en.wikipedia.org/w/index.php?title=IMRAD&action=edit&section=2
+  52. http://en.wikipedia.org/wiki/List_of_Nobel_laureates
+  53. http://en.wikipedia.org/wiki/Peter_Medawar
+  54. http://en.wikipedia.org/wiki/IMRAD#cite_note-8
+  55. http://en.wikipedia.org/wiki/World_Medical_Association
+  56. http://en.wikipedia.org/wiki/IMRAD#cite_note-9
+  57. http://en.wikipedia.org/wiki/IMRAD#cite_note-10
+  58. http://en.wikipedia.org/w/index.php?title=IMRAD&action=edit&section=3
+  59. http://en.wikipedia.org/wiki/Abstract_(summary)
+  60. http://en.wikipedia.org/wiki/IMRAD#cite_note-11
+  61. http://en.wikipedia.org/wiki/IMRAD#cite_note-12
+  62. http://en.wikipedia.org/wiki/IMRAD#cite_note-13
+  63. http://en.wikipedia.org/wiki/Information_overload
+  64. http://en.wikipedia.org/w/index.php?title=IMRAD&action=edit&section=4
+  65. http://en.wiktionary.org/wiki/heading
+  66. http://en.wikipedia.org/wiki/Table_of_contents
+  67. http://en.wiktionary.org/wiki/subsume
+  68. http://en.wiktionary.org/wiki/subheading
+  69. http://en.wikipedia.org/w/index.php?title=IMRAD&action=edit&section=5
+  70. http://en.wikipedia.org/w/index.php?title=IMRAD&action=edit&section=6
+  71. http://en.wikipedia.org/wiki/EASE_Guidelines_for_Authors_and_Translators_of_Scientific_Articles
+  72. http://en.wikipedia.org/w/index.php?title=IMRAD&action=edit&section=7
+  73. http://en.wikipedia.org/wiki/IMRAD#cite_ref-1
+  74. http://www.ncbi.nlm.nih.gov/pmc/articles/PMC442179
+  75. http://en.wikipedia.org/wiki/PubMed_Central
+  76. http://www.ncbi.nlm.nih.gov/pmc/articles/PMC442179
+  77. http://en.wikipedia.org/wiki/PubMed_Identifier
+  78. http://www.ncbi.nlm.nih.gov/pubmed/15243643
+  79. http://en.wikipedia.org/wiki/IMRAD#cite_ref-2
+  80. http://www.amwa.org/default/publications/journal/scanned/v04.2.pdf
+  81. http://en.wikipedia.org/wiki/IMRAD#cite_ref-3
+  82. http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0034-89102006000400005&nrm=iso
+  83. http://en.wikipedia.org/wiki/IMRAD#cite_ref-4
+  84. http://www.icmje.org/urm_full.pdf
+  85. http://en.wikipedia.org/wiki/IMRAD#cite_ref-5
+  86. http://en.wikipedia.org/wiki/International_Standard_Book_Number
+  87. http://en.wikipedia.org/wiki/Special:BookSources/978-1-4338-0562-2
+  88. http://en.wikipedia.org/wiki/IMRAD#cite_ref-Tampere_6-0
+  89. http://www.uta.fi/FAST/FIN/RESEARCH/imrad.html
+  90. http://en.wikipedia.org/wiki/University_of_Tampere
+  91. http://en.wikipedia.org/wiki/IMRAD#cite_ref-7
+  92. http://wcx.sagepub.com/content/16/3/296.abstract
+  93. http://en.wikipedia.org/wiki/IMRAD#cite_ref-8
+  94. http://www.unz.org/Pub/SaturdayRev-1964aug01-00042
+  95. http://en.wikipedia.org/wiki/IMRAD#cite_ref-9
+  96. http://www.bmj.com/content/2/5466/868.full.pdf
+  97. http://en.wikipedia.org/wiki/IMRAD#cite_ref-10
+  98. http://www.bmj.com/content/2/5466/870.full.pdf
+  99. http://en.wikipedia.org/wiki/IMRAD#cite_ref-11
+ 100. http://www.eric.ed.gov/ERICWebPortal/resources/html/about/sa_initiative.html
+ 101. http://en.wikipedia.org/wiki/IMRAD#cite_ref-12
+ 102. http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3066587
+ 103. http://en.wikipedia.org/wiki/Digital_object_identifier
+ 104. http://dx.doi.org/10.3163%2F1536-5050.99.2.009
+ 105. http://en.wikipedia.org/wiki/PubMed_Central
+ 106. http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3066587
+ 107. http://en.wikipedia.org/wiki/PubMed_Identifier
+ 108. http://www.ncbi.nlm.nih.gov/pubmed/21464855
+ 109. http://en.wikipedia.org/wiki/Help:CS1_errors#deprecated_params
+ 110. http://en.wikipedia.org/wiki/IMRAD#cite_ref-13
+ 111. http://www.nlm.nih.gov/bsd/policy/structured_abstracts.html
+ 112. http://en.wikipedia.org/w/index.php?title=IMRAD&oldid=591781091
+ 113. http://en.wikipedia.org/wiki/Help:Category
+ 114. http://en.wikipedia.org/wiki/Category:Medical_research
+ 115. http://en.wikipedia.org/wiki/Category:Academic_literature
+ 116. http://en.wikipedia.org/wiki/Category:Scientific_documents
+ 117. http://en.wikipedia.org/wiki/Category:Technical_communication
+ 118. http://en.wikipedia.org/wiki/Category:Style_guides_for_technical_and_scientific_writing
+ 119. http://en.wikipedia.org/wiki/Category:Pages_containing_cite_templates_with_deprecated_parameters
+ 120. http://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=IMRAD&type=signup
+ 121. http://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=IMRAD
+ 122. http://en.wikipedia.org/wiki/IMRAD
+ 123. http://en.wikipedia.org/wiki/Talk:IMRAD
+ 124. http://en.wikipedia.org/wiki/IMRAD
+ 125. http://en.wikipedia.org/w/index.php?title=IMRAD&action=edit
+ 126. http://en.wikipedia.org/w/index.php?title=IMRAD&action=history
+ 127. form field = text entry field
+ 128. form field = submit button
+ 129. form field = submit button
+ 130. http://en.wikipedia.org/wiki/Main_Page
+ 131. http://en.wikipedia.org/wiki/Portal:Contents
+ 132. http://en.wikipedia.org/wiki/Portal:Featured_content
+ 133. http://en.wikipedia.org/wiki/Portal:Current_events
+ 134. http://en.wikipedia.org/wiki/Special:Random
+ 135. https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_en.wikipedia.org&uselang=en
+ 136. http://shop.wikimedia.org/
+ 137. http://en.wikipedia.org/wiki/Help:Contents
+ 138. http://en.wikipedia.org/wiki/Wikipedia:About
+ 139. http://en.wikipedia.org/wiki/Wikipedia:Community_portal
+ 140. http://en.wikipedia.org/wiki/Special:RecentChanges
+ 141. http://en.wikipedia.org/wiki/Wikipedia:Contact_us
+ 142. http://en.wikipedia.org/wiki/Special:WhatLinksHere/IMRAD
+ 143. http://en.wikipedia.org/wiki/Special:RecentChangesLinked/IMRAD
+ 144. http://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard
+ 145. http://en.wikipedia.org/wiki/Special:SpecialPages
+ 146. http://en.wikipedia.org/w/index.php?title=IMRAD&oldid=591781091
+ 147. http://en.wikipedia.org/w/index.php?title=IMRAD&action=info
+ 148. http://www.wikidata.org/wiki/Q3361133
+ 149. http://en.wikipedia.org/w/index.php?title=Special:Cite&page=IMRAD&id=591781091
+ 150. http://en.wikipedia.org/w/index.php?title=Special:Book&bookcmd=book_creator&referer=IMRAD
+ 151. http://en.wikipedia.org/w/index.php?title=Special:Book&bookcmd=render_article&arttitle=IMRAD&oldid=591781091&writer=rl
+ 152. http://en.wikipedia.org/w/index.php?title=IMRAD&printable=yes
+ 153. http://ja.wikipedia.org/wiki/IMRAD
+ 154. http://no.wikipedia.org/wiki/IMRAD
+ 155. http://fi.wikipedia.org/wiki/IMRD-rakenne
+ 156. http://www.wikidata.org/wiki/Q3361133#sitelinks-wikipedia
+ 157. http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
+ 158. http://wikimediafoundation.org/wiki/Terms_of_Use
+ 159. http://wikimediafoundation.org/wiki/Privacy_policy
+ 160. http://www.wikimediafoundation.org/
+ 161. http://wikimediafoundation.org/wiki/Privacy_policy
+ 162. http://en.wikipedia.org/wiki/Wikipedia:About
+ 163. http://en.wikipedia.org/wiki/Wikipedia:General_disclaimer
+ 164. http://en.wikipedia.org/wiki/Wikipedia:Contact_us
+ 165. https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute
+ 166. http://en.m.wikipedia.org/wiki/IMRAD
+ 167. http://wikimediafoundation.org/
+ 168. http://www.mediawiki.org/
+
+   Hidden links:
+ 170. http://en.wikipedia.org/wiki/IMRAD
+ 171. http://en.wikipedia.org/wiki/IMRAD
+ 172. http://en.wikipedia.org/wiki/Main_Page
+ 173. http://en.wikipedia.org/wiki/IMRAD
+ 174. http://creativecommons.org/licenses/by-sa/3.0/
