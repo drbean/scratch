@@ -1,0 +1,206 @@
+﻿­Building Indexes on Professional Competencies for Engineering Education in Solar Industry
+Chin-Guo Kuo
+Department of Industrial Education, National Taiwan Normal University, No.162, Sec. 1, Ho-Ping East Rd., Taipei, Taiwan. chinguo7@yahoo.com.tw  
+*Chi-Cheng Chang
+Department of Information Management, Lunghwa University of Science and Technology, No.300, Sec.1, Wanshou Rd., Guishan, Taoyuan County 333, Taiwan. chig@mail.lhu.edu.tw 
+* Corresponding author:chig@mail.lhu.edu.tw
+Abstract 
+This study aims to build the professional competency indexes and their connotations needed by the solar industry, as the bases for developing engineering education curriculums. The adopted methodologies by this study are literature analysis, expert advisory, and focus group. This study focuses on the establishment of competency indexes by the experts of stock market listed companies, and then confirms the competency connotations by focus group method. This study found that the competencies of solar industry are constituted of the competencies of materials development and application, photovoltaic technology, cell manufacturing technology, biotechnology, chemical technology, power generation and electricity, process development and improvement, data collection and analysis, regulation, green energy beliefs, working attitudes and values. The results of this study can be used as the bases for the talent cultivation, selection, and employment.
+
+Keywords: Index, Solar, Professional competency, and Engineering education.
+
+1. Introduction
+Green energy industry is one of important industries in international competition. This energy industry includes: (1) the main industries: solar photovoltaic and LED lighting; (2) the general potential industries: wind power, biofuels, hydrogen and fuel cells, energy information and communication, electric vehicles and so on [1]. Solar industry is one of important "Green Energy Industry". The output value of Taiwan's solar industry as a whole is expected to exceed 15 billion NTD in 2015, in which the silicon solar cell module accounts for No. 4 in the world [1]. The maintenance of international competitiveness and the sustainable development of energy industry in the future mainly rely on the qualities of human resources. How to get the professional competencies needed by the solar industry, and to further develop curriculums to nurture talent are the cores/priorities of engineering education.
+The researches on solar industry in the past primarily focused on several different related aspects, such as: business strategy, scientific knowledge and technology, tools and software applications, processes, optimization development and so on. For example, in the business strategy, Chang and Guo [2] studied two sets of dynamic competencies needed by the business of solar industry; on technical aspect, there was study of Guo et al. [3]. In terms of professional competency, on aspects of solar energy competency standard and application, O'net [4] built 51 industrial competency standards. Although there are not many studies focused on how to apply the energy technologies on engineering education, there are still energy education research related to ecology by Acikgoz [5] and the literatures related to solar education by Dalitz, Toner, and Turpin [6]. In summary, these solar industry talent training studies are mainly based on the competence-based and resource-based perspectives. Wherein, the competence-based theory can build the core competencies for the solar business talents, so that enterprises can develop the core competencies with market segmentation. From the route of business strategy, the resource-based viewers regard the professional talents of solar industry as one of the organization's core resources, which may generate maximum benefit from the competitive market for the enterprise, through the domination and appropriate allocation of resources.
+In recent years, the solar industry is in an ultra-competitive environment. The enterprise’s competitive advantage accumulated from the resources strength is quickly eroded by the competitors’ technological innovation [7, 30]. Moreover, the operations of international companies in the solar industry generally focus on the vertical integration of supply chain, while Taiwan’s manufacturers mostly focus on the specialized manufacturing [8, 29]. Facing the rapid change of technical content of energy technologies, since Taiwan’s advantages focus on the manufacturing, one of the biggest problems of engineering education is how to get professional competencies needed by the industry to thereby plan and design the curriculums to foster the talent required in the industrial development. Therefore, based on the solution of this problem, the purpose of this study is to build the professional competency indexes and their connotations for the solar industry. The research results can be contributed as the bases for planning and designing the nurturing curriculums of talent cultivation for the higher education engineering; secondly, in the industrial side, as the important references for the enterpriese to select, train, utilize the talents or to cultivate the successors.
+2. Theoretical background
+Solar industry requires highly professional talents. The competence-based and resource-based theories have been regarded as two important theories in supporting the talent’s professional competency development for the solar industry. Workers with appropriate competencies needed to perform the tasks is extremely important [9, 10]. "Competency" can be regarded as: a prerequisite for a particular occupation, a set of performance standards, as well as the ability to complete the work/task [11]. According to the competence-based theory, the I-O psychologists generally considered that the competency model formed by KSAOs (Knowledge, Skill, Ability, Others) can be used to describe the critical capabilities required for performing a particular job [12]. Therefore, "Competency" can be regard as a set of capabilities that you should have when engaging in a particular task [13]. And this competency can be further subdivided into the general competency, the management competency, the professional competency, and the core competency [14]. Wherein, in terms of the professional competency expected by employer, the techniques and skills can predict the job performance of technical personnel [15, 16].
+The resource-based viewers regard the professional talent as a rare, unique, and irreplaceable intangible asset for solar industry, who can create the competitive advantage for enterprise [17]. In other words, the resource-based viewers consider the unique resources within the enterprise as the fundamental source of competitive advantage of solar enterprise, while the talent is the core of this unique resource [2]. When the talent possesses the professional competencies required for performing the job, he owns the resources value desired by enterprise, so that the talent can get hired in the labour market. Therefore, according to the view of Sandberg and Pinnington [11], this study defines the professional competencies as a set of capabilities possessed by the university graduates to successfully perform the task when engaged in a professional mission in the field of solar energy.
+3. Dimensions of professional competency
+In the study results of solar executives, Chang and Guo [2] pointed out that the solar executives should have the commonality of dynamic competencies listed as the follows: the environmental sensing competencies, the learning absorption competency, the social networking competencies, as well as the coordination and integration competencies. Moreover, the required particular dynamic competencies are: the competency to discern the market's growth momentum, the competency to master the market timing, the competency to change or create customer’s demand. On the other hand, from the route of structuralism, in the dimensions of professional competency indexes, the engineering education certification standards of ABET [18] listed the important core competencies such as the problem solving, the innovation, and the information competency. Abdullah et al. [19] explored the competency gaps by adopting the soft and hard skills. Wherein, the soft skills include ICT skills, personal qualities, thinking skills, interpersonal skills, management skills, and communication skills. Cilliers [20] regarded that these soft skills should also include "ability to produce reports", while the hard skills should include "practical usage of the software tools", "circuits construction", "operate, troubleshoots systems and equipment", "process, control and installation", "quality and reliability testing", etc. For example, in "Solar Energy Systems Engineers", O'net [4] listed the titles of this job, ten major tasks of engagement required by this job connotation, as well as the demanded data of each competency application including tools & technology, interests, work values, wages & employment trends, etc.
+In summary, based on the 51 competency standards in O'net [4], the literatures of Cilliers [20], Kuo and Sheen [26], Abdullah et al. [19] and others, this study summarized 11 professional competencies and their connotation draft as the follows: materials development and application competency, photovoltaic technology competency, cell manufacturing technology competency, biotechnology competency, chemical technology competency, power generation and power competency, process development and improvement competency, data collection and analysis competency, regulation, green energy beliefs, work attitudes and values, etc.
+4. Methodology
+4.1. Literature analysis: the aim is through literature analysis to obtain the professional competency dimensions and connotation draft that should be possessed by the solar company grassroots engineers, as the bases for expert advisory and focus expert group discussion.
+4.2. Expert advisory: From the enterprises employing point of view, the aims of expert advisory are to establish the professional competency dimensions for solar industry and to obtain the professional competencies demanded by the grassroots engineers. Wherein, the sample selection representatives are ten Taiwan’s solar companies listed in stock market, including the solar raw materials industry (two in upstream end), the solar manufacturing industry (five in midstream end) and the solar module and integration industry (three in downstream end), wherein the subjects interviewed in the field are the heads in middle and high levels.
+4.3. Focus group method: The aim is to amend the connotation draft of each competency developed from the dimension of professional competency. The expert composition is shown in Table 1. In terms of sampling, the total of existing Taiwan’s solar manufacturers is 122, including the solar raw materials industry in the upstream end (e.g., pure metals, iron alloys and titanium metal, etc. and other metal materials, silicon chip production); the solar manufacturing industry in the midstream end (e.g., amorphous silicon thin film solar cells and modules; mono-crystalline silicon, polycrystalline silicon solar cells and modules; silicon solar cells and modules; poly-silicon solar cells and modules; silicon, thin film solar cells), and the solar module and integration industry in the downstream end (e.g., small-scale solar power systems, solar electric power converter and solar power system). In three focus group meetings, the industrial and academic experts were jointly invited to discuss. Wherein, the invited industrial experts were from the manufacturers respectively with a scale of more than 30 employees, totalling 45 experts are the grassroots heads. In the academia, nine scholars within this study field were invited to participate in the discussion.
+
+Table 1 The expert sampling list of Taiwan’s solar enterprises 
+Distribution
+Business item
+The number of manufacturer
+%
+The number of sample collected (%)
+Upstream
+Silicon materials, silicon wafer materials
+17
+13.93
+8(47.06%)
+Midstream
+
+47
+38.51
+16(34.04%)
+
+Solar cell
+15
+12.30
+
+
+Solar cell module
+18
+14.73
+
+
+Thin film solar cell module
+9
+7.38
+
+
+Dye-sensitized solar cell
+3
+2.46
+
+
+Concentrating solar cell module
+2
+1.64
+
+Downstream
+
+58
+47.56
+21(36.21%)
+
+Solar PV system
+39
+31.98
+
+
+Solar PV power converter
+10
+8.20
+
+
+Solar PV access/supplier
+9
+7.38
+
+Total
+
+122
+100
+45(100%)
+
+5. Results & discussion
+This study found that the solar industry professional competency dimension is composed of 11 professional competencies. Wherein, each professional competency is further composed of several competency connotations, as shown in Table 2. On the application of research methods, in response to the needs in setting the professional competencies for the solar industry, DACUM (Develop A Curriculum) method is usually used, in which the experts use brainstorm technique to obtain the needed professional skill directory/listing [21]. In Delphi method, the expert anonymous manner is used to seek the advisory consistency between the professional competency and the connotation [22]. In V-tech method, the enterprise survey emphasizes a large sample within the same industry to get a list of general professional competency needed for the engagement in a specific professional career [23]. This study adopted the expert advisory method, emphasizing the qualitative expert interviews through the close contact with benchmark solar companies listed in stock market; together with the focus group method, after the discussions with the solar industrial experts, the professional competencies and their connotations for the solar industry are thus confirmed. Therefore, the research method adopted by this study can be regarded as an application of DACUM method essentially.
+In terms of competency connotation, the professional engineers demanded in solar market, not only necessarily possess the technical knowledge and hard skills, but also need the soft skills, in order to foster the talent in line with market competition demand [24, 27]. Each competency dimension and connotation obtained by this study is composed of three fields, namely, knowledge, skill and attitude. Moreover, all the important soft skills are also fully covered in this study. Both the mental model and system concept are adopted by this study [25], in line with the requirement to foster professionals.
+
+Table 2 The solar professional competency dimensions and connotations
+Dimension
+Competency connotation
+Dimension
+Competency connotation
+1. Materials development and application competency
+(1) Understand the materials development process
+(2) Understand the solar cell principle
+(3) Compare the solar light-absorbing material types and characteristics 
+(4) Understand the polymer characteristics and energy development 
+(5) Understand the polymer application technology 
+2. Photovoltaic technology competency
+(1) Understand the principles of solid state physics
+(2) Understand the characteristics of semiconductor materials
+(3) Understand the core technology of photovoltaic
+(4) Understand the main problem of solar industry
+(5) For the solar industry issues, propose the solutions 
+3. Cell manufacturing technology competency
+(1) Compare the types and characteristics of solar cell materials
+(2) Analyse the application relationship between cell type and energy
+(3) Understand the industry's process and packaging technology
+(4) Understand the technology of cell manufacturing
+4. Biotechnology competency
+(1) Integrate the interdisciplinary knowledge of solar industry 
+(2) Understand the concepts of energy and renewable energy 
+(3) Understand the relevant knowledge of energy and renewable energy 
+(4) Apply the relevant knowledge of energy and renewable energy 
+(5) Explain the relations between solar panel power generation and environment 
+5. Chemical technology competency
+(1) Understand the knowledge of chemistry, physical chemistry, analytical chemistry and organic chemistry 
+(2) Understand the interdisciplinary engineering-related knowledge 
+(3) Construct an energy integration platform 
+(4) Understand the materials analysis techniques
+(5) Understand the physical and chemical technologies
+6. Power generation and power competency 
+(1) Understand the principle of monitor
+(2) Understand the principle of solar panel
+(3) Understand the principle and structure of solar power generation 
+(4) Understand the relevant knowledge of solid state physics
+(5) Understand the thin film technology 
+7. Process development and improvement competency 
+(1) Understand the key technology of packaging materials 
+(2) Understand the relevant knowledge of process development 
+(3) Apply the relevant knowledge to improve process 
+(4) Skill the assembly technology of solar products 
+(5) Possess the knowledge of industrial safety and health
+8. Data collection and analysis competency 
+(1) Understand the knowledge of industrial safety 
+(2) Understand the knowledge of environmental pollution prevention and control 
+(3) Explain the relationship between solar cell and energy efficiency and carbon reduction
+(4) Collect and analyse the data on demand 
+(5) Understand the represented significance of data 
+9. Regulation 
+(1) Understand the solar power relevant policies 
+(2) Understand the relevant policies of renewable energy 
+(3) Understand the renewable energy incentives
+10. Green energy beliefs
+(1) Enhance self-skills, enhance professional knowledge 
+(2) Identify with green beliefs 
+(3) Possess the concept to implement environmental protection, sustainable management and development 
+(4) Identify with the solar power industry professionals cultivation, enabling to promote the development of green energy industry
+11. Work attitudes and values 
+(1) Have a sense of mission and a passion to work 
+(2) Have a positive work value 
+(3) Have a positive professionalism 
+(4) Have the integrity and business ethics 
+(5) Hold the spirits of innovation and research
+
+
+
+6. Conclusions
+Although the international competition of the green energy industry is fierce, under the demand of human technology application to achieve the global ecological sustainability, the green energy industry is still subjected to universal attention. Since talent is the force to drive the industrial development, this study selected the solar industry talent cultivation as the topic of research. This study is grounded in the competence-based and resource-based theories, regarding the solar energy professionals as the important human resources of enterprises; and regarding the talent should possess various basic competencies needed to perform the job duties. Therefore, this study selected the benchmarking enterprises that are listed companies in the stock market from the upstream, midstream and downstream of Taiwan’s solar industry as the expert advisory to get the professional competency dimensions, coupled with the focus group meetings, to build the professional competency connotations for the solar industry. In summary, this study found 11 professional competencies and their connotations, which are the professional competencies should be required by the university graduates as a grassroots professional engineer.
+On the practical application, the results of this study can be used as a talent selection standard for the enterprises in the field of solar energy for the further development or as the professional level assessment standard for talent promotion. On aspects of university application, the results of this study can be also used as the bases of talent cultivation, when planning and designing the curriculums. In the future, the implementation of these curriculums can nurture the appropriate talents demanded by the solar industry and create the benefits of shortening the gaps between school and industry. Therefore, this study specially demonstrates the contributions on the engineering education associated with the solar industry’s talent training curriculum, as well as on the application of enterprise’s talent selection and employment.
+In terms of research restrictions, this study only focuses on the professionals’ competencies of commonality demanded by the solar enterprises, and does not focus on the study of professional competencies required by the specific enterprise in the upstream, midstream or downstream. This study also did not explore the connotation of a single solar expertise, including process design, software and hardware technologies, tools applications, etc. The interested researchers can do the further studies.
+
+Acknowledgments
+The authors acknowledge the financial support of NSC 102-3113-S-003-008-G and NSC 102-3113-S-262-001.
+
+References
+1. MOEAEC, “Green energy industry information net,” 2014, accessed on 21 February 2014. http://www.taiwangreenenergy.org.tw 
+2. C. C. Chang, and C. G. Kuo, “Exploring dynamic capabilities of executives of solar product manufacturers,”  African Journal of Business Management, vol. 7, no. 40, pp. 4188-4198, 2013.
+3. C. G. Kuo, C. F. Yang, M. J. Kao, W. P. Weng, C. C. Chang, L. R. Hwang, and J. L. Nil, “An Analysis and Research on the Transmission Ratio of Dye Sensitized Solar Cell Photoelectrodes by Using Different Etching Process,” International Journal of Photoenergy, vol. 2013, Article ID 151973, http://dx.doi.org/10.1155/2013/151973
+4. O’net, “17-2199.11 - Solar Energy Systems Engineers ,” 2014, accessed on 16 February 2014, http://www.onetonline.org/link/summary/17-2199.11 
+5. C. Acikgoz, “Renewable energy education in Turkey,” Renewable Energy, vol. 36, pp. 608-611, 2011.
+6. R. Dalitz, P. Toner, and T. Turpin, “VET and the diffusion and implementation of innovation in the mining, solar energy and computer games sectors,” Department of Education, Employment and Workplace Relations, Australian Government, 2011.
+7. H. Y. Liu, and C. W. Hsu, “Antecedents and consequences of corporate diversification: a dynamic capabilities perspective,” Management Decision, vol. 49, issue: 9, pp. 1-45, 2011.
+8. MIC, “Outlook for the Global Emerging Solar Photovoltaic Market, 2011 Recap and 2012 Forecast,” Market Intelligence & Consulting Institute, 2014, accessed 21 Feb. 2014, http://mic.iii.org.tw/english/store/en_3_mic_store_1_2_1.asp?doc_sqno=9010.
+9. Z. Lim, C. Anderson, and S. McGrath, “Professional skills development in a resource-poor setting: the case of pharmacy in Malawi,” International Journal of Educational Development, vol. 32, pp. 654-664, 2012.
+10. C. C. Chang, “Improving employment services management using IPA technique,” Expert Systems with Applications, vol. 40, pp. 6948–6954, 2013.
+11. J. Sandberg, and A. H. Pinnington, “Professional competency as ways of being: an existential ontological perspective,” Journal of Management Studies, vol. 46, no. 7, pp. 1138-1170, 2009.
+12. F. J. Landy, and J. M. Conte, “Work in the 21st century,” New York, NY: McGRAW-HILL, 2004.
+13. C.C. Chang, “Exploring IT entrepreneurs' dynamic capabilities using Q-technique,” Industrial Management & Data Systems, vol. 112, no.8, pp. 1201 – 1216, 2012.
+14. D. Hellriegel, S. E. Jackson, and J. W. Slocum, “Management: A competency based approach,” PA: Winter Ventures, 1998.
+15. S. J. Hysong, “The role of technical skill in perceptions of managerial performance,” Journal of Management Development, vol. 27, no.3, pp. 275-290, 2008.
+16. C. C. Chang, “Building an approach to evaluate capabilities development,” Pensee Journal, vol. 76, no.1, pp. 167-179, 2014.
+17. J. B. Barney, “Firm resources and sustained competitive advantage,” Journal of Management, vol. 17, no. 1, pp. 99-120, 2000.
+18. ABET, “Criteria for accrediting engineering programs 2012-2013”, accessed 8 April, http://www.abet.org/DisplayTemplates/DocsHandbook.aspx?id=3143, 2013.
+19. A. G. K. Abdullah, S. H. Keat, M. H. Abdullah, and M. Purba, “Mismatch between higher education and employment in Malaysian electronic industry: An analysis of the acquired and required competencies,” International Journal of Engineering Education, vol. 28, no. 5, pp. 1232-1242, 2012.
+20. C. B. Cilliers, “Student perception of academic writing skills activities in a traditional programming course,” Computers & Education, vol. 58, pp. 1028-1041, 2012.
+21. O. Gazman, “Industry-based skills standards for building operators- A business case,” Strategic Planning for Energy and the Environment, vol. 32, no.3, pp. 25-38, 2013.
+22. R. L. Jacobs, and M. J. Bu-Rahmah, “Developing employee expertise through structured on-the-job training (S-OJT): an introduction to this training approach and the KNPC experience,” Industrial and Commercial Training, vol. 44, no.2, pp. 75-84, 2012.
+23. C. Dede, “Emerging influences of information technology on school curriculum,” Journal of Curriculum Studies, vol. 32, no.2, pp. 281-303, 2000.
+24. H. Baytiyeh, “Disparity between college preparation and career demands for graduating engineers,” International Journal of Engineering Education, vol. 28, no. 5, pp. 1221-1231, 2012.
+25. C. Capelo, and J. F. Dias, “A feedback learning and mental models perspective on strategic decision making,” Education Technology Research & Development, vol. 57, no. 5, pp. 629-644, 2009.
+26. C. G. Kuo and B. J. Sheen, “Seaweed Chlorophyll on the Light-electron Efficiency of DSSC”, Journal of the Chinese Chemical Society, vol. 58, no. 2, pp. 186-190, January 2011.
+27. P. C. Huang, C.H. Huang, M. Y. Lin, C. Y. Chou, C. Y.  Hsu, and C. G. Kuo , “ The effect of Sputtering Parameters on the film properties of Molybdenum Back Contact for CIGS Solar Cells”, International Journal of Photoenergy,vol. 2013, article ID 390824, pp. 1-8, 2013.
+28. C.G. Kuo, C.Y. Hsu, S.S. Wang, and D.C. Wen, “Photocatalytic characteristics of TiO2 films deposited by magnetron sputtering on polycarbonate at room temperature”, Applied Surface Science, vol. 258, no.18, pp. 6952-6957, July 2012.
+29.C. G. Kuo, C. F. Yang, L. R. Hwang, and J. S. Huang, “ effects of Titanium Oxide Nanotube Arrays with different lengths on the characteristics of Dye-Sensitized Solar Cells”, International Journal of Photoenergy, vol. 2013, article ID 650973, pp. 1-6, 2013.
+30. C. C. Chang, “An IPA-embedded model for evaluating creativity curricula”, Innovations in Education and Teaching International, vol. 51, no. 1, pp. 59-71, 2014.
