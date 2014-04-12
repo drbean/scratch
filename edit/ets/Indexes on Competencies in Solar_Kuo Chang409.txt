@@ -103,65 +103,65 @@ Competency connotation
 1. Materials development and application competency
 (1) Understand the materials development process
 (2) Understand the solar cell principle
-(3) Compare the solar light-absorbing material types and characteristics 
-(4) Understand the polymer characteristics and energy development 
-(5) Understand the polymer application technology 
+(3) Understand solar light-absorbing material types and characteristics' differences
+(4) Understand polymer characteristics and energy development 
+(5) Understand polymer application technology 
 2. Photovoltaic technology competency
 (1) Understand the principles of solid state physics
 (2) Understand the characteristics of semiconductor materials
-(3) Understand the core technology of photovoltaic
-(4) Understand the main problem of solar industry
-(5) For the solar industry issues, propose the solutions 
+(3) Understand core photovoltaic technology
+(4) Understand the main problems of the solar industry
+(5) For solar industry issues, be able to propose solutions 
 3. Cell manufacturing technology competency
-(1) Compare the types and characteristics of solar cell materials
-(2) Analyse the application relationship between cell type and energy
+(1) Understand solar cell material types and characteristics' differences
+(2) Understand applications of the relationship between cell type and energy
 (3) Understand the industry's process and packaging technology
 (4) Understand the technology of cell manufacturing
 4. Biotechnology competency
-(1) Integrate the interdisciplinary knowledge of solar industry 
+(1) Have integrated the interdisciplinary knowledge of the solar industry 
 (2) Understand the concepts of energy and renewable energy 
-(3) Understand the relevant knowledge of energy and renewable energy 
-(4) Apply the relevant knowledge of energy and renewable energy 
-(5) Explain the relations between solar panel power generation and environment 
+(3) Understand the application of relevant energy and renewable energy knowledge 
+(4) Be able to apply relevant knowledge of energy and renewable energy 
+(5) Understand the relations between solar panel power generation and the environment 
 5. Chemical technology competency
-(1) Understand the knowledge of chemistry, physical chemistry, analytical chemistry and organic chemistry 
-(2) Understand the interdisciplinary engineering-related knowledge 
-(3) Construct an energy integration platform 
-(4) Understand the materials analysis techniques
-(5) Understand the physical and chemical technologies
+(1) Understand the principles of chemistry, physical chemistry, analytical chemistry and organic chemistry 
+(2) Understand interdisciplinary engineering-related processes
+(3) Have constructed an energy integration platform 
+(4) Understand materials analysis techniques
+(5) Understand physical and chemical technologies
 6. Power generation and power competency 
-(1) Understand the principle of monitor
-(2) Understand the principle of solar panel
-(3) Understand the principle and structure of solar power generation 
-(4) Understand the relevant knowledge of solid state physics
-(5) Understand the thin film technology 
+(1) Understand monitor principles
+(2) Understand solar panel principles
+(3) Understand the principles and structure of solar power generation 
+(4) Understand the relevant principles of solid state physics
+(5) Understand thin film technology 
 7. Process development and improvement competency 
 (1) Understand the key technology of packaging materials 
-(2) Understand the relevant knowledge of process development 
-(3) Apply the relevant knowledge to improve process 
-(4) Skill the assembly technology of solar products 
-(5) Possess the knowledge of industrial safety and health
+(2) Understand the relevant principles of process development 
+(3) Be able to apply relevant knowledge to improve processes
+(4) Have skills in assembly technology of solar products 
+(5) Possess knowledge of industrial safety and health principles
 8. Data collection and analysis competency 
-(1) Understand the knowledge of industrial safety 
-(2) Understand the knowledge of environmental pollution prevention and control 
-(3) Explain the relationship between solar cell and energy efficiency and carbon reduction
-(4) Collect and analyse the data on demand 
+(1) Understand the principles of industrial safety 
+(2) Understand the principles of environmental pollution prevention and control 
+(3) Be able to explain solar cell and energy efficiency and carbon reduction relationships
+(4) Know how to collect and analyse data on demand 
 (5) Understand the represented significance of data 
-9. Regulation 
-(1) Understand the solar power relevant policies 
-(2) Understand the relevant policies of renewable energy 
-(3) Understand the renewable energy incentives
-10. Green energy beliefs
-(1) Enhance self-skills, enhance professional knowledge 
+9. Regulation competency
+(1) Understand relevant solar power policies 
+(2) Understand relevant renewable energy policies
+(3) Understand renewable energy incentives
+10. Green energy belief competency
+(1) Be engaged in enhancing self-skills, professional knowledge 
 (2) Identify with green beliefs 
-(3) Possess the concept to implement environmental protection, sustainable management and development 
-(4) Identify with the solar power industry professionals cultivation, enabling to promote the development of green energy industry
-11. Work attitudes and values 
-(1) Have a sense of mission and a passion to work 
-(2) Have a positive work value 
-(3) Have a positive professionalism 
-(4) Have the integrity and business ethics 
-(5) Hold the spirits of innovation and research
+(3) Possess the desire to implement environmental protection, sustainable management and development measures
+(4) Identify with solar power industry professional advancement, enabling promotion of green energy industry development
+11. Work attitude and value competencies 
+(1) Have a sense of mission and a passion for work 
+(2) Have positive work values 
+(3) Exhibit a positive professionalism 
+(4) Have a sense of integrity and business ethics 
+(5) Embody the spirit of innovation and research
 
 
 
