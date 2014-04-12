@@ -27,9 +27,9 @@ In summary, based on the 51 competency standards in O'net [4], and the work of C
 Table 1 The expert sampling list of Taiwan’s solar enterprises 
 Distribution
 Business item
-The number of manufacturer
+The number of manufacturers
 %
-The number of sample collected (%)
+The size of sample collected (%)
 Upstream
 Silicon materials, silicon wafer materials
 17
