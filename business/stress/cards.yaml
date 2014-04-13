@@ -478,9 +478,9 @@ adventure:
         answer: pressure
   9:
     identifier: adventure stress 9
-    A: Steve made 5 unsuccessful attempts to fly round the world in a balloon. On the 4th attempt, there was a fire, which he put out. Over the ocean he started going backwards. 
+    A: Steve made 5 unsuccessful attempts to fly round the world in a balloon. The 4th time, there was a fire, which he put out. Then he started going backwards, because his team gave him wrong advice. 
     B: Later, he flew into a thunderstorm. His team told him to fly over the thunderstorm. But, the thunderstorm broke the balloon, and he fell into the ocean. The balloon caught fire and sank.
-    C: A rescue plane found him the next morning. But, he was in the water for 24 hours. For his 6th attempt, he found a different team. The new team was good at helping ballooners find good weather.
+    C: A rescue plane found him the next morning. But, he was in the water for 24 hours. For his 6th attempt, he found a different team. The new team were experts at finding good weather for ballooners.
     quiz:
       - question: The old team
         option:
