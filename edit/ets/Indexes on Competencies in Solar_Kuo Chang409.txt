@@ -114,7 +114,7 @@ Competency connotation
 (5) For solar industry issues, be able to propose solutions 
 3. Cell manufacturing technology competency
 (1) Understand solar cell material types and characteristics' differences
-(2) Understand applications of the relationship between cell type and energy
+(2) Understand the cell type-energy relationship as it affects applications
 (3) Understand the industry's process and packaging technology
 (4) Understand the technology of cell manufacturing
 4. Biotechnology competency
