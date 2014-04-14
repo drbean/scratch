@@ -562,7 +562,7 @@ adventure:
     identifier: adventure stress 11
     A: One time, Ellen had been on a boat which turned over. There were 4 other people on the boat. The boat hit something and it became impossible to steer it. A wave quickly turned the boat over.
     B: The boat was in a race with other boats, and it turned over not far from land. They knew someone would look for them but they didn't know when they would find them. They had to wait in the boat.
-    C: Before the accident, the boat was winning the race. After the accident, they forgot about the race. It was less stressful after the accident than before. They no longer felt they had to win.
+    C: Before the accident, the boat was winning the race. After the accident, they forgot about the race. It was LESS stressful after the accident than before. They no longer felt they had to win.
     quiz:
       - question: Stress because of not being able to steer the boat. Which source?
         option:
