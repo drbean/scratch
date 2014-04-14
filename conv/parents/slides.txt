@@ -1,34 +1,8 @@
-# This is a sample Vroom input file. It should help you get started.
-#
-# Edit this file with your content. Then run `vroom --vroom` to start
-# the show!
-#
-# See `perldoc Vroom::Vroom` for complete details.
-#
----- config
-# Basic config options.
-title: Parents--single and otherwise!
-indent: 5
-height: 18
-width: 69
-skip: 0
+% Parents--single and otherwise!
+% by Dr Bean
+% Thu Apr 10 07:00:53 CST 2014
 
-# The following options are for Gvim usage.
-# vim: gvim
-# fuopt: maxhorz,maxvert
-# guioptions: egmLtT
-# guicursor: a:blinkon0-ver25-Cursor
-# guifont: Bitstream_Vera_Sans_Mono:h18
-
----- center
-Parents--single and otherwise!
-
-by Dr Bean
-
-(hint: press the spacebar)
-
-----
-== Biomom roleplay
+## == Biomom roleplay
 
 Pretend that you gave a child up for adoption.
 The other members of the group may or may not have given
@@ -40,8 +14,9 @@ with the babies' fathers.
 How do you ask about adoption?
 How do you tell about adoption?
 
-----
-== Sue Adam and Deborah Dimasi
+[http://en.wikipedia.org/wiki/Language_of_adoption](http://en.wikipedia.org/wiki/Language_of_adoption)
+
+## == Sue Adam and Deborah Dimasi
 
 abortion adopted adoption biomom birth college contact curious Deborah introduced
 it Mother's Day named origins parents pregnant relationship returned studying three
@@ -58,8 +33,7 @@ her to her _____(16) and the _____(17) got together on
 _____(18) to talk about _____(19). They established a good 
 _____(20).
 
-----
-Nick Shepard and his biological father: 3 questions
+## Nick Shepard and his biological father: 3 questions
 
 birth born came circumstances genetically have history if left
 need of picture ready take think was way weren willing you
@@ -76,8 +50,7 @@ have a child. Q: And you _____(15)? A:  No. Never
 _____(16), never _____(17) been.
 Q: May I _____(18) a _____(19) of _____(20)?
 
-----
-Questions
+## Questions
 
 Is there no/any effect on children from not having a father?
 May Nick have had a father to bring him up?
@@ -91,8 +64,7 @@ question: It is not clear why Nick's parents broke up.
 question: The effect of not having a dad depends on mom's age.
 question: Nick may want to see his dad less than vice-versa.
 
-----
-Disrupted adoptions
+## Disrupted adoptions
 
 Require legal court proceedings (a bit like a divorce)
 
@@ -103,54 +75,72 @@ do a good job, but who may be given a hard time by the children.
 These children who are "homeless" (actually, family-less) may not
 have the best of lives.
 
-----
-Miller cracks up
+## Miller cracks up
 
 
 any argue arrested asked bail called classes demanding die
 held night office police principal random showing snap
 teachers teaching told treated upset
 
-A teacher is being ___(1) in jail on more than $1 million 
-___(2) after a disruptive outburst at a local campus. 
-According to a ___(3) report, Brian Miller, was ___(4) 
-after ___(5) up at the campus and ___(6) to know what 
-___(7) he would be ___(8) next semester. The ___(9) told 
-Miller he would not be teaching ___(10) classes, and 
-___(11) the district school board who ___(12) Miller the 
-same thing. Miller got ____(13) and started to ___(14), at 
-which point he was ___(15) to leave.  The ____(16) before, 
-he emailed the ____(17)' association: "Guys ____(18) and 
-shoot up the ____(19) because they get ____(20) like ****. 
-I'm going to the office & will probably ____(21) there. 
-But three ____(22) people get to die too."
+A teacher is being _____(1) in jail on more than $1 million 
+_____(2) after a disruptive outburst at a local campus. 
+According to a _____(3) report, Brian Miller, was _____(4) 
+after _____(5) up at the campus and _____(6) to know what 
+_____(7) he would be _____(8) next semester. The _____(9) told 
+Miller he would not be teaching _____(10) classes, and 
+_____(11) the district school board who _____(12) Miller the 
+same thing. Miller got _____(13) and started to _____(14), at 
+which point he was _____(15) to leave.  The _____(16) before, 
+he emailed the _____(17)' association: "Guys _____(18) and 
+shoot up the _____(19) because they get _____(20) like ****. 
+I'm going to the office & will probably _____(21) there. 
+But three _____(22) people get to die too."
 
-----
-Brian Miller
+## Brian Miller
 
 April 2012
-http://www.sanluisobispo.com/2012/04/11/2025569/brian-miller-teacher-slo-high.html
-https://www.facebook.com/bmillerstudents
-http://www.ksby.com/news/police-san-luis-obispo-high-school-teacher-threatens-to-kill-others-and-himself/
-http://calcoastnews.com/2012/04/popular-teacher-arrested-for-criminal-threats/
+[http://www.sanluisobispo.com/2012/04/11/2025569/brian-miller-teacher-slo-high.html](http://www.sanluisobispo.com/2012/04/11/2025569/brian-miller-teacher-slo-high.html)
+[https://www.facebook.com/bmillerstudents](https://www.facebook.com/bmillerstudents)
+[http://www.ksby.com/news/police-san-luis-obispo-high-school-teacher-threatens-to-kill-others-and-himself/](http://www.ksby.com/news/police-san-luis-obispo-high-school-teacher-threatens-to-kill-others-and-himself/)
+[http://calcoastnews.com/2012/04/popular-teacher-arrested-for-criminal-threats/](http://calcoastnews.com/2012/04/popular-teacher-arrested-for-criminal-threats/)
 
 Jan 2013
-http://www.sanluisobispo.com/2013/01/10/2352351/brian-miller-teacher-arrest.html
+[http://www.sanluisobispo.com/2013/01/10/2352351/brian-miller-teacher-arrest.html](http://www.sanluisobispo.com/2013/01/10/2352351/brian-miller-teacher-arrest.html)
+
+## Brian Miller mugshots
 
 Mugshots
-https://www.google.com.tw/search?q=brian+miller+mugshot&tbm=isch&tbo=u&source=univ&sa=X&ei=JAFuUuHGJoe2kgXvjIDoCw&ved=0CCsQsAQ&biw=1024&bih=607#facrc=_&imgdii=_&imgrc=MC-W-0tPh0Fr2M%3A%3BrylMfVfihSkwnM%3Bhttp%253A%252F%252Fthumbs.mugshots.com%252Fgallery%252Fimages%252Fbe%252F47%252FBRIAN-MILLER-mugshot-25782054.400x800.jpg%3Bhttp%253A%252F%252Fmugshots.com%252FCurrent-Events%252FBRIAN-MILLER.41544138.html%3B400%3B482
+[https://www.google.com.tw/search?q=brian+miller+mugshot&tbm=isch&tbo=u&source=univ&sa=X&ei=JAFuUuHGJoe2kgXvjIDoCw&ved=0CCsQsAQ&biw=1024&bih=607#facrc=_&imgdii=_&imgrc=MC-W-0tPh0Fr2M%3A%3BrylMfVfihSkwnM%3Bhttp%253A%252F%252Fthumbs.mugshots.com%252Fgallery%252Fimages%252Fbe%252F47%252FBRIAN-MILLER-mugshot-25782054.400x800.jpg%3Bhttp%253A%252F%252Fmugshots.com%252FCurrent-Events%252FBRIAN-MILLER.41544138.html%3B400%3B482](https://www.google.com.tw/search?q=brian+miller+mugshot&tbm=isch&tbo=u&source=univ&sa=X&ei=JAFuUuHGJoe2kgXvjIDoCw&ved=0CCsQsAQ&biw=1024&bih=607#facrc=_&imgdii=_&imgrc=MC-W-0tPh0Fr2M%3A%3BrylMfVfihSkwnM%3Bhttp%253A%252F%252Fthumbs.mugshots.com%252Fgallery%252Fimages%252Fbe%252F47%252FBRIAN-MILLER-mugshot-25782054.400x800.jpg%3Bhttp%253A%252F%252Fmugshots.com%252FCurrent-Events%252FBRIAN-MILLER.41544138.html%3B400%3B482)
 
-----
-=Johnathan Emerson's message
+## =Johnathan Emerson's message
+
+
+achieve
+anyone
+anything
+criminal
+dad
+fought
+helping
+hero
+leave
+opinion
+outrage
+paperwork
+reason
+situation
+support
+system
+threat
+treated
+way
+wrong
+
+This is an _____(1). I'm Brian Miller's son. I think this whole _____(2) is out of control. My dad is no _____(3) to anyone, and the _____(4) he has been _____(5) by the school is not only _____(6) but disgusting. My _____(7) is not the criminal. If _____(8) is, it's the school _____(9), which he _____(10) so that students could _____(11) their goals. This is the only _____(12) my dad was put on _____(13). He was always _____(14) others, attending to students and _____(15). In my _____(16), to call him a _____(17) is wrong. If my dad is to be called _____(18), it's a _____(19). Please _____(20) my dad.
+
+## =Johnathan Emerson's message
 
 This is an outrage I'm Brian Miller's son I think this whole situation is out of control. My dad is no threat to anyon,e and the way he has been treated by school officals, police and jail personal is not only wrong but disgusting. My dad is not the criminal If anyone is its the people who ruined his life, the school officails that where tiered of the complaints even after he fought with the school system in order to make sure students that where not going to graduate accualy achived their goals thanks to my dad. This is the only reason my dad was put on leave and nothing els. And as many times as I can recall he was always helping others not matter what staying at school until 7:30PM long after the rest of the teachers had left even the the dean, still attending to students and paper work. In my opinion and most of the others to he was not just a teacher but a mentor to call him a terrorist of a felon is distasteful. If my dad is to be called anything its a hero.
 
-----
-=Johnathan Emerson's message
-
-This is an outrage I'm Brian Miller's son I think this whole situation is out of control. My dad is no threat to anyon,e and the way he has been treated by school officals, police and jail personal is not only wrong but disgusting. My dad is not the criminal If anyone is its the people who ruined his life, the school officails that where tiered of the complaints even after he fought with the school system in order to make sure students that where not going to graduate accualy achived their goals thanks to my dad. This is the only reason my dad was put on leave and nothing els. And as many times as I can recall he was always helping others not matter what staying at school until 7:30PM long after the rest of the teachers had left even the the dean, still attending to students and paper work. In my opinion and most of the others to he was not just a teacher but a mentor to call him a terrorist of a felon is distasteful. If my dad is to be called anything its a hero.
-
-----
-
-----
-== The end
+## 
+## == The end
