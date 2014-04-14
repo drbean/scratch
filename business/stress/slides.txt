@@ -409,8 +409,7 @@ B. does not choose the question, so has less control.
 29: What does the 'S' stand for?
 30: What does the 'P' stand for?
 
-----
-== Post-experiment questions
+## == Post-experiment questions
 
 Why did Rene feel more stress than Alien, even though she had more support than Alien?
 Who felt more stress, Angela or Susu?
@@ -439,8 +438,7 @@ https://gist.github.com/Maxdamantus/ad43f1530572bd93a469/raw/96fcc5a5d069f822396
 
 http://web.nuu.edu.tw/~greg/yesitis.mp3
 
-----
-Uncertainty
+## Uncertainty
 
 Group 1, 2: Dr Bean asks a question
 1. Knows who will have to answer the question. DrBean: 'I will tell you the question beforehand.'
@@ -476,16 +474,14 @@ Group 1, 2: Asks Dr Bean a question
 ---- skip
 1. A&B 2. C&D
 
-----
-Exam 1
+##Exam 1
 
 Jigsaw: Ellen MacArthur's stress Control (Lack of), Uncertainty,
 		Support (Lack of), Pressure
 
 A situation: http://web.nuu.edu.tw/~greg/stress/adventure.pdf
 
-----
-Dr Bean's stress:	Control (Lack of), Uncertainty,
+##Dr Bean's stress:	Control (Lack of), Uncertainty,
 		Support (Lack of), Pressure
 
 Stress problem: I like teaching, but it is very stressful. 
@@ -501,8 +497,7 @@ Keywords: make, work, difficult, make the students do something
 
 +Cause of stress: Control (Lack of)
 
-----
-Student's stress:	Control (Lack of), Uncertainty,
+##Student's stress:	Control (Lack of), Uncertainty,
 		Support (Lack of), Pressure
 
 Stress problem: X comes to school every morning by train 
@@ -518,8 +513,7 @@ Keywords: late, know, happen
 
 +Cause of stress: Uncertainty
 
-----
-Elle Macarthur's stress:	Control (Lack of), Uncertainty,
+##Elle Macarthur's stress:	Control (Lack of), Uncertainty,
 		Support (Lack of), Pressure
 
 Stress problem: The boat is very big and very fast, and she 
@@ -534,8 +528,7 @@ Keywords: skill, difficult, careful, bad thing
 
 +Cause of stress: Control (Lack of)
 
-----
-Soccer's stress:	Control (Lack of), Uncertainty,
+##Soccer's stress:	Control (Lack of), Uncertainty,
 		Support (Lack of), Pressure
 
 Stress problem: Soccer wants to get on to the school basketball team, but no-one else he knows wants to. He finds it stressful none of his friends are interested in joining him. He has to practice himself a lot.
@@ -663,5 +656,41 @@ Does X feel stress because of a lack of control?
 Is pressure a reason X feels stress?
 Is pressure causing X stress?
 Do the causes of the stress X feels include pressure?
+
+## Stress CompComp
+
+Ask a question about stress experienced by students
+and teachers, or about differences in the way men and women
+experience stress.
+
+## No use of words, "control", "uncertainty", "support", "pressure"
+
+But your question (or answer) must be about one of these 4 causes of stress.
+
+## 2nd chance
+
+If Dr Bean thinks the question or the answer doesn't fit into one
+of the 4 categories, he will give the questioner a 2nd chance.
+
+Grammar will not be a criterion used to judge whether the questioner asks again 
+or not, unless Dr Bean can't understand the question (or answer).
+
+## CompComp Form
+
+     Black          CompComp      White      Table: 3  
+     Name: ID:                   Name: ID:
+----------------- ------------- ----------- ------------ 
+                     School                         
+                          C                         
+                          U                         
+                          S                         
+                          P                         
+                  Men,women                         
+                          C                         
+                          U                         
+                          S                         
+                          P                         
+----------------- ------------- ----------- ------------ 
+
 
 # The End
