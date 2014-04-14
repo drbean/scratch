@@ -104,7 +104,7 @@ Competency connotation
 1. Materials development and application competency
 (1) Understand the materials development process
 (2) Understand the solar cell principle
-(3) Understand solar light-absorbing material types and characteristics' differences
+(3) Understand solar light-absorbing material type and characteristic differences
 (4) Understand polymer characteristics and energy development 
 (5) Understand polymer application technology 
 2. Photovoltaic technology competency
@@ -114,7 +114,7 @@ Competency connotation
 (4) Understand the main problems of the solar industry
 (5) For solar industry issues, be able to propose solutions 
 3. Cell manufacturing technology competency
-(1) Understand solar cell material types and characteristics' differences
+(1) Understand solar cell material type and characteristic differences
 (2) Understand the cell type-energy relationship as it affects applications
 (3) Understand the industry's process and packaging technology
 (4) Understand the technology of cell manufacturing
