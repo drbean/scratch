@@ -110,6 +110,20 @@ biodad:
             - Jock
             - Nick
           answer: Nick
+        - question: Jock and Eloise were both students.
+          answer: True
+        - question: Eloise didn't want to get married.
+          answer: False
+        - question: Jock wanted to have children.
+          answer: False
+        - question: Jock welcomed Eloise's pregnancy.
+          answer: False
+        - question: Jock left Eloise.
+          answer: True
+        - question: Nick didn't know Jock.
+          answer: True
+        - question: Eloise told Nick a lot about Jock.
+          answer: False
     2:
       identifier: biodad 2
       A: When you were a student, you were living with a student called Eloise. When Eloise got pregnant, you didn't want her to keep the child. You didn't want children. She refused to give up the child, so you left her.
@@ -379,6 +393,20 @@ biomom:
            - Dovonna
            - Sue
           answer: Dovonna
+        - question: Dovonna is the biomom.
+          answer: False
+        - question: Sue adopted the child.
+          answer: False
+        - question: The biomom gave the child up.
+          answer: True
+        - question: Debby loves her mother.
+          answer: True
+        - question: Debby loves her biomom more.
+          answer: False
+        - question: The 2 moms never meet.
+          answer: False
+        - question: The 2 moms get on well.
+          answer: True
   compcomp:
     1:
       White: |+
@@ -507,6 +535,20 @@ emersonj:
            - Brian's boss
            - Johnathan
           answer: Johnathan
+        - question: Brian is Johnathan's biological father.
+          answer: False
+        - question: Raising Johnathan was hard work.
+          answer: True
+        - question: Johnathan goes to jail.
+          answer: True
+        - question: Brian creates problems at work.
+          answer: True
+        - question: Brian's boss is disturbed.
+          answer: False
+        - question: Brian goes to jail.
+          answer: True
+        - question: Neither Brian nor Johnathan are disturbed.
+          answer: False
 
   compcomp:
     0:
