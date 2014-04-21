@@ -1,8 +1,8 @@
-% Business English--Planning!
+% Business English--Managing!
 % Dr Bean
-Sun Apr 20 21:34:14 CST 2014
+% Sun Apr 20 21:34:14 CST 2014
 
-##== The unexamined life is not worth living--Socrates
+## The unexamined life is not worth living--Socrates
 
 What should be your aim living life, working?
 
@@ -10,7 +10,7 @@ To make money, OK.
 
 But also, to examine your actions and thoughts
 
-##== Aim of course
+## Aim of course
 
 To get you to think like the boss, or a top executive. 
 Be in control of your actions in the workplace.
@@ -19,7 +19,91 @@ It is unlikely that you will be using English in your job.
 
 So we won't be doing Telephone English.
 
-##== 
+## The company
+
+A controlled community where we spend a large part of our lives.
+
+Management/the bosses have the power
+because of the Golden Rule
+
+## The Golden Rule
+
+Not, 'Do unto others as you would have them do unto you.'
+
+But, "He who has the gold makes the rules."
+
+## Conflict in the company
+
+In a company, it's the workers who do the work.
+
+All the bosses do is stand around giving orders.
+
+What would happen if there were no bosses, or
+the communists took over?
+
+Would the company collapse?
+
+## Same question, applied to this class
+
+Dr Bean is a manager.
+The students are the workers.
+
+If Dr Bean were to drop dead, could this class
+continue without a teacher?
+
+# The answer
+
+## There is an answer
+
+Theories X, Y and Z
+
+Douglas McGregor 
+
+Theory X
+http://www.youtube.com/watch?v=yR03d9gN1nw
+
+http://www.youtube.com/watch?v=kQp9zFHgimUodd
+
+
+## Theory X: Authoritarianism, Direction and Control
+
+Subordinates need constant supervision because students/workers
+don't like to work.
+
+Decisions must be imposed from above without consultation.
+
+## Theory Y: Consensus, Self-initiative and Empowerment
+
+Supervisors delegate responsibility because students/workers
+have a desire to do a good job, and have better access to
+the information required to quickly cope with changing needs.
+
+## Vocabulary
+
+authoritarianism consensus consulting control delegating empowerment imposing intitiative manage managers obligation orders subordinates supervisors Theory X(x2),Y(x3)
+
+## Theory X and theory Y
+
+_____(1) and _____(2), of McGregor in the '60s are now famous. He wanted people to think about the way _____(3) choose to _____(4). They have a choice between _____(5) or _____(6), between _____(10) their requirements with _____(11), or _____(7) with their _____(8) and _____(9) responsibility. The choice is between top-down _____(12), or bottom-up _____(13), and  depends on whether they think workers/students will take the _____(14) and feel an _____(15) to do their best or not. McGregor didn't believe _____(16) should follow _____(17) or _____(18). He didn't say _____(19) was a better style.
+
+## Which theory does Dr Bean believe
+
+- The first speaker (the odd numbered group's speaker) will argue Dr Bean believes Theory X, giving evidence from his teaching.
+- The second speaker (the even numbered group's speaker) will argue Dr Bean believes Theory Y, giving evidence from his teaching.
+
+* The group will decide which speaker presented the better argument.
+* 2 spokespersons (not the speakers) will stand up and report to the class the discussion and the result.
+
+## What kind of person are you?
+
+Do you need to be told what to do?
+
+## Are you a manager, Jack?
+
+Are your subordinates able to work without constant supervision?
+
+
+## 
 
 1. A:
 2. B:
@@ -31,7 +115,8 @@ So we won't be doing Telephone English.
 8. Brian wants Debbie to quit.
 9. Brian is stealing Debbie's ideas.
 10. Nick wants Nigel to help Debbie.
-##== Managing
+
+## Managing
 
     鏈結名稱： BBC NEWS | Business | My boss 'keeps stealing my ideas'
             URL: http://news.bbc.co.uk/2/hi/business/4481899.stm
@@ -44,6 +129,4 @@ So we won't be doing Telephone English.
 + 6: His advice is to ask the boss to recognize her ideas.
 + 7: He warns the boss might fire her if she asks for recognition.
 
-##== The End
-
-##== The End
+## The End
