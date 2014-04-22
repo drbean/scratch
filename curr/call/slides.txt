@@ -184,4 +184,36 @@ Chat on freenode
 
 [Questions about self-intros again](http://sac.nuu.edu.tw/cgi-bin/bett/script/bett_cgi.pl/login?exercise=AFB1J0)
 
+## Flashcards
+
+demonstration
+Anki http://ankisrs.net
+Mnemosyne http://mnemosyne-proj.org
+
+## Anki introduction
+
+[http://ankisrs.net/docs/manual.html](http://ankisrs.net/docs/manual.html)
+[http://www.youtube.com/watch?v=QS2G-k2hQyg&feature=plcp](http://www.youtube.com/watch?v=QS2G-k2hQyg&feature=plcp)
+
+## Problems with flashcards
+
+* Non-contextualized (just single words)
+* Language-focused (not communication-focused),
+	so meaningless
+* Every repetition is the same (no change in the presentation)
+	but in the real world, the presented word always changes
+
+## Problems using flashcards
+
+- How to use?
+
+- If not practiced, no use.
+
+- Many flash cards make a collection or deck. Too many cards is same problem as not using the cards.
+
+- Answer: use the cards which you didn't see recently, or forgot last time.
+
+## http://memrise.com
+
+
 ## The end
