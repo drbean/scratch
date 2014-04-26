@@ -1,95 +1,156 @@
 ---
+field:
+  - exercise
+  - head
+  - answer
+  - sublist
 instructions:
-  - terminate
-  - command_line
-
-terminal:
-  - terminal
-  - terminal emulator
-  - shell
-  - kernel
-  - cursor
-  - escape sequences
-  - prompt
-  - command parameter
-  - graphical user interface
-  - preferences
-  - profile
-  - keyboard shortcuts
-  - font
-  - customize
-
-
+  reset: ~
+  execute: ~
+  command: ~
+  copy-and-paste: ~
+  terminate: ~
+  reboot: ~
+interface:
+  command line: ~
+  tabs: ~
+  terminal: ~
+  terminal emulator: ~
+  shell: ~
+  kernel: ~
+  cursor: ~
+  escape sequences: ~
+  prompt: ~
+  command parameter: ~
+  graphical user interface: ~
+  preferences: ~
+  profile: ~
+  keyboard shortcuts: ~
+  font: ~
+  customize: ~
+  menu: ~
+  accelerator key: ~
+  zoom: ~
+  reset: ~
+  clear: ~
+  disable: ~
+  switch: ~
+  detach: ~
+  clone: ~
+  sidebar: ~
+  toolbar: ~
+  bookmark: ~
+  button: ~
+  option: ~
+  system UI: ~
+  navigation: ~
+  notification: ~
+  swipe: ~
+  chronological order: ~
+  drag and drop: ~
+  device status: ~
+  display: ~
+  immersive content: ~
+  refresh: ~
+  share: ~
+  dashboard: ~
+  widget: ~
+  plugin: ~
+  add-on: ~
+  upgrade: ~
+  update: ~
+  sync: ~
+  mode: ~
 encoding:
-  - character
-  - encoding
-  - byte
-  - bit
-  - ASCII
-  - Unicode
-  - UTF-8
-  - Big5
-  - reset
-  - execute
-  - command
-  - tabs
-  - copy-and-paste
-
+  character: ~
+  encoding: ~
+  byte: ~
+  bit: ~
+  ASCII: ~
+  Unicode: ~
+  UTF-8: ~
+  Big5: ~
+  GB18030: ~
 other:
-  - cloud_computing
-  - version_control_system
-
+  cloud_computing: ~
+  version_control_system: ~
+  encryption: ~
 networks:
-  - TCP
-  - packet
-  - server
-  - client
-
-  - wireless
-  - wi-fi
-  - access point
-  - Bluetooth
-  - broadband connection
-  - dial-up connection
-  - network router
-  - land-line phone
-
-"app (application)":
-  - dashboard
-  - widget
-
+  TCP: ~
+  packet: ~
+  server: ~
+  client: ~
+  wireless: ~
+  wi-fi: ~
+  access point: ~
+  Bluetooth: ~
+  broadband connection: ~
+  dial-up connection: ~
+  network router: ~
+  land-line phone: ~
 phones:
-  - ringtone
-  - base station
-
-developing:
-  - plugin
-
+  ringtone: ~
+  base station: ~
+  unlock: ~
 software:
-  - bundled software
-  - public domain
-  - copyright
-  - copyleft
-  - license
-  - open source
-  - wetware
-  - vaporware
-  - GPL
-
-messages:
-  - Blue Screen of Death
-
-development_process,methodology:
-  - test-driven development
-  - agile development
-  - incremental
-  - user representative
-  - waterfall
-  - iterative
-  - use case
-  - user story
-  - face-to-face communication
-  - test harness
-  - refactor
-  - debug
-  - greenfield
+  operating system: ~
+  bundled software: ~
+  public domain: ~
+  copyright: ~
+  copyleft: ~
+  license: ~
+  open source: ~
+  wetware: ~
+  vaporware: ~
+  GPL: ~
+  Blue Screen of Death: ~
+development_process/methodology:
+  test-driven development: ~
+  agile development: ~
+  incremental: ~
+  user representative: ~
+  waterfall: ~
+  iterative: ~
+  use case: ~
+  user story: ~
+  face-to-face communication: ~
+  test harness: ~
+  refactor: ~
+  debug: ~
+  greenfield: ~
+interface_design:
+  design principles: ~
+  user experience: ~
+  carefully-placed: ~
+  well-timed: ~
+  subtle: ~
+  effortlessness: ~
+  real objects: ~
+  cognitive effort: ~
+  manipulate: ~
+  default: ~
+  customization: ~
+  primary task: ~
+  "enchant me": ~
+  "simplify my life": ~
+  "make me amazing": ~
+  digestible chunk: ~
+  overwhelmed: ~
+  transition: ~
+  relationship among screens: ~
+  task progress feedback : ~
+  visually distinct: ~
+  theme: ~
+  touch feedback: ~
+  jolt: ~
+  typography: ~
+  iconography: ~
+  branding: ~
+hardware:
+  keyboard layout: ~
+  SIM card: ~
+  device: ~
+  hand-held: ~
+  handset: ~
+  tablet: ~
+  laptop: ~
