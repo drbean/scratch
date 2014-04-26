@@ -1,0 +1,95 @@
+---
+instructions:
+  - terminate
+  - command_line
+
+terminal:
+  - terminal
+  - terminal emulator
+  - shell
+  - kernel
+  - cursor
+  - escape sequences
+  - prompt
+  - command parameter
+  - graphical user interface
+  - preferences
+  - profile
+  - keyboard shortcuts
+  - font
+  - customize
+
+
+encoding:
+  - character
+  - encoding
+  - byte
+  - bit
+  - ASCII
+  - Unicode
+  - UTF-8
+  - Big5
+  - reset
+  - execute
+  - command
+  - tabs
+  - copy-and-paste
+
+other:
+  - cloud_computing
+  - version_control_system
+
+networks:
+  - TCP
+  - packet
+  - server
+  - client
+
+  - wireless
+  - wi-fi
+  - access point
+  - Bluetooth
+  - broadband connection
+  - dial-up connection
+  - network router
+  - land-line phone
+
+"app (application)":
+  - dashboard
+  - widget
+
+phones:
+  - ringtone
+  - base station
+
+developing:
+  - plugin
+
+software:
+  - bundled software
+  - public domain
+  - copyright
+  - copyleft
+  - license
+  - open source
+  - wetware
+  - vaporware
+  - GPL
+
+messages:
+  - Blue Screen of Death
+
+development_process,methodology:
+  - test-driven development
+  - agile development
+  - incremental
+  - user representative
+  - waterfall
+  - iterative
+  - use case
+  - user story
+  - face-to-face communication
+  - test harness
+  - refactor
+  - debug
+  - greenfield
