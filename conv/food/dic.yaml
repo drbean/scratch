@@ -11,7 +11,7 @@
   - spano
   - Running a restaurant
   - upper
-  - A
+  - all
   - |+
     Father: When we opened the restaurant we really didn't know what we were doing. We had some pots and pans from the house and I never cooked anything until we opened that restaurant. I said to myself, my gosh, I don't know how to cook, do I? But I did. And I didn't realize I knew. I learned by watching my grandmother and my mother, and now you're doing it.
 
@@ -20,13 +20,7 @@
     Father: Yeah, amazing, isn't it? That's a lot of pasta.
 
     Son: I never realized before I started working with you, you sure knew how to drew the line between son and employee. And I mean I can remember when I was the first dishwasher at Spano's ..
-  - Father|Son|gosh|pasta|Spano's
--
-  - spano
-  - Running a restaurant
-  - upper
-  - B
-  - |+
+
     Son: .. and I was wondering, why do I have to be the dishwasher?  
 
     Father: Yeah. I'm the son, I'm supposed to be the executive.  
@@ -40,13 +34,6 @@
     Father: But you also saw your dad washing dishes too at that same sink.
 
     Son: I don't know if you knew early on that I was going to want to do this forever. I don't know if that was part of it and you were trying to teach me or if you were just doing it because that's way it's supposed to be.
-  - Father|Son|executive
--
-  - spano
-  - Running a restaurant
-  - upper
-  - C
-  - |+
 
     Father: No, we were trying to teach you a work ethic; whether you were in a restaurant business or not, I think we did a heck of a job.
 
@@ -54,15 +41,7 @@
 
     Father: Yeah, well, you know, they say the older you get, the smarter your parents get.
 
-    Son: Yeah, I'm real - now I know. Just this past Friday night, my dishwasher got sick and the guys in the kitchen were busy and I took my coat off and I took my tie off and I put an apron on and I started scrubbing dishes. And I mean the guys in the kitchen, they were amazed.
-  - Father|Son|heck|ethic
--
-  - spano
-  - Running a restaurant
-  - upper
-  - D
-  - |+
-    Son: I guess they had never seen the owner scrubbing dishes before.
+    Son: Yeah, I'm real - now I know. Just this past Friday night, my dishwasher got sick and the guys in the kitchen were busy and I took my coat off and I took my tie off and I put an apron on and I started scrubbing dishes. And I mean the guys in the kitchen, they were amazed. I guess they had never seen the owner scrubbing dishes before.
 
     Father: What do you like about the restaurant business? It's not easy, is it?
 
@@ -71,7 +50,8 @@
     Father: Um-hum.
 
     Son: Because, you can have all the money in the world, but if you don't do something that has any meaning, I mean, what's the point? When somebody's plate comes back completely empty, that's instant gratification. Or they were starving to death, one of the two, and that makes it all worthwhile. There's no other job like that. You know, at least every day I can make somebody happy.
-  - Father|Son|lottery
+  - Father|Son|gosh|pasta|Spano's|executive|heck|ethic|lottery
+  - 20
 -
   - lerman
   - Competitive eating
