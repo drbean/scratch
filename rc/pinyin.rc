@@ -1,0 +1,28 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use IO::All -encoding => 'UTF-8';
+use YAML qw/LoadFile DumpFile/;
+use Cwd;
+use Encode;
+use Lingua::Han::PinYin;
+
+$_REPL->load_plugin('DumpHistory');
+
+my $h2p = Lingua::Han::PinYin->new( tone => 1 );
+
+my $ws = LoadFile 'flash/awl_freq_1.yaml';
+
+my %pws;
+
+for my $w ( keys %$ws ) {
+	# my $chinese = encode( 'UTF-8', $ws->{$w} );
+	# my $pinyin = $h2p->han2pinyin( $chinese );
+	# $pws{$w} = "$chinese $pinyin";
+	my $pinyin = $h2p->han2pinyin( $ws->{$w} );
+	$pws{$w} = "$w,$ws->{$w} $pinyin\n";
+}
+my @i;
+push @i, $_,$pws{$_} for sort keys %pws;
+io("flash/awl_freq_1_pinyin.csv")->print(@i);
