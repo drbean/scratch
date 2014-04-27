@@ -60,9 +60,9 @@ Theories X, Y and Z
 Douglas McGregor 
 
 Theory X
-http://www.youtube.com/watch?v=yR03d9gN1nw
+[http://www.youtube.com/watch?v=yR03d9gN1nw](http://www.youtube.com/watch?v=yR03d9gN1nw)
 
-http://www.youtube.com/watch?v=kQp9zFHgimUodd
+[http://www.youtube.com/watch?v=kQp9zFHgimUodd](http://www.youtube.com/watch?v=kQp9zFHgimUodd)
 
 
 ## Theory X: Authoritarianism, Direction and Control
@@ -102,6 +102,10 @@ Do you need to be told what to do?
 
 Are your subordinates able to work without constant supervision?
 
+## Richard Branson
+
+What makes you think he believes in Theory X or Theory Y?
+[http://www.youtube.com/watch?v=tDTX5UVoDxQ](http://www.youtube.com/watch?v=tDTX5UVoDxQ)
 
 ## 
 
@@ -119,7 +123,7 @@ Are your subordinates able to work without constant supervision?
 ## Managing
 
     鏈結名稱： BBC NEWS | Business | My boss 'keeps stealing my ideas'
-            URL: http://news.bbc.co.uk/2/hi/business/4481899.stm
+            [URL: http://news.bbc.co.uk/2/hi/business/4481899.stm](http://news.bbc.co.uk/2/hi/business/4481899.stm)
 
 + 1: Nicholson is stealing Wilson's ideas
 + 2: Male bosses don't want people to know if the idea is a woman's.
