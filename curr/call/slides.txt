@@ -195,6 +195,14 @@ Mnemosyne http://mnemosyne-proj.org
 [http://ankisrs.net/docs/manual.html](http://ankisrs.net/docs/manual.html)
 [http://www.youtube.com/watch?v=QS2G-k2hQyg&feature=plcp](http://www.youtube.com/watch?v=QS2G-k2hQyg&feature=plcp)
 
+## Installing Anki
+
+[http://www.youtube.com/watch?v=4CMaoOzhehU](http://www.youtube.com/watch?v=4CMaoOzhehU)
+
+## Using Anki in a browser
+
+[http://ankiweb.net](http://ankiweb.net)
+
 ## Problems with flashcards
 
 * Non-contextualized (just single words)
@@ -215,5 +223,26 @@ Mnemosyne http://mnemosyne-proj.org
 
 ## http://memrise.com
 
+The site uses the metaphor of growing a plant for learning a language. So 'watering the plant' means practicing vocaulary you have learned.
+
+It will send you email messages when you get an account.
+
+## Let's learn some topic on http://memrise.com
+
+Learn [Upper-intermediate English](http://www.memrise.com/course/48407/upper-intermediate-english/)
+
+Dr Bean learns [http://www.memrise.com/course/984/hsk-level-4/](http://www.memrise.com/course/984/hsk-level-4/)
+
+## Quiz
+
+Which group knows the most words
+
+One word from the first 2 levels is shown.
+Group representatives have to write down the meaning.
+
+## Homework week 10
+
+15 words (with Chinese equivalents) that you would like to learn using anki/mnemosyne for an exam in Week 13.
+On [http://ec.must.edu.tw](http://ec.must.edu.tw)
 
 ## The end
