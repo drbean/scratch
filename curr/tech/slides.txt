@@ -267,6 +267,9 @@ In June 1999, Qualcomm released a "CDMA Digital PCS Smartphone" with integrated 
 In early 2000, the Ericsson R380 was released by Ericsson Mobile Communications,^[13] and was the first device marketed as a "smartphone".^[14] It combined the
 functions of a mobile phone and a personal digital assistant (PDA), supported limited web browsing with a resistive touchscreen utilizing a stylus.^[15]
 
+## Android interface design
+http://developer.android.com/design/index.html
+
 ## 
 Really excited: My own teaching computers, multimedia
 
