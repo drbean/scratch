@@ -1,0 +1,988 @@
+﻿
+First Commercial Bank
+
+
+
+
+Guidelines for Syndicated Loan Business 
+at Overseas Branches
+
+
+
+
+Published by Overseas Business Administration Division
+
+Compilation Date: December 2013
+
+
+
+Guidelines for Syndicated Loan Business 
+at Overseas Branches
+
+Table of Contents
+
+
+Chapter One  Introduction
+
+In the narrow sense, the so-called syndicated loan refers to credit extension action accepted by a bank syndicate consisting of two or more banks or financial institutions which are commissioned by the borrower.  The bank syndicate enters a syndicate loan agreement with the borrower and provides funding according to the proportion specified by the agreement to extend loans to the borrower.  Broadly speaking, it also includes financing such as issuing securitization financing instruments such as floating rate bonds, commercial paper, corporate bonds, etc. as a credit extension action.  In general, the loan exists from the agreement signing date until the borrower fully repays the debt.  In addition, through the method of signing an inter-bank syndicated loan agreement, banks in the syndication specify the rights and obligations among each other.  Each participant has its own specific obligations and rights.
+
+The nature of credit extension of funding is immense for syndicated loans.  The use of funds is mostly targeted to specific investment projects that seek financing, such as project financing.  Also the funding sought may be used for the company’s working capital or refinancing old loans with new ones, such as working capital financing or operational purpose of financing or refinancing. There is a variety of design based on the relevant financial needs and risk of plans and market acceptance given its relevant financing conditions, financing instruments and documents such as the investment planning.  
+
+
+Chapter Two Considerations When Participating in Syndicated Loans
+
+Participating in syndicated loan operations is a form of credit extension business.  Credit Applications, review and management shall adhere to spirit of credit business conduct.  In addition, it shall be conducted carefully in a way that complies with the provisions of our bank's internal and external relevant regulations and laws.
+
+Before participating in a syndicated loan case, the feasibility of the investment project and its risks, use of the loan, sources of repayment, debt repayment assurance, future prospects and so forth shall be carefully assessed.  After the loan is granted, the case shall be tracked and managed.  If discrepancies are found that do not comply with the terms and conditions of the agreement, the lead bank or management bank shall be notified immediately in order to take the necessary measures to protect the interests of our bank. 
+
+Currently, relevant handling procedures and work content relating to participating in syndicated loan operations are described below:
+
+Section I:  Assessment
+
+I. When invited to participate in a syndicated loan by another lead bank, all information and credit conditions based on what it provides shall be assessed to determine whether to participate in the syndicated loan.  If the syndicated loan is considered worth investing in after a preliminary assessment, a Confidential Letter is to be signed and given to the lead bank. Subsequently, an Information Memorandum is to be obtained from the lead bank for further in depth assessment.
+
+II. Completion of in-depth assessment of credit in a short period of time to participate in a syndicated loan is not easy.  Therefore, selecting the lead bank to participate in a syndicated loan is very important.  The lead bank usually participates in a greater amount of loan or underwrites a larger amount; thus, the credit risk it faces is higher than participating when compared to the situation when it does not lead.   Consequently, it is usually even more cautious in its risk assessment.  However, the lead bank is not legally responsible if the lender misjudges the risk assessment that leads to losses by the participating banks.  Thus, in addition to carefully evaluating the various factors of the borrower, the lead bank’s financial conditions, size in the industry, its reputation, and ability to lead shall also be considered.  As much as possible, it is best to participate in cases sponsored by a lead bank which is larger, more experienced, and responsible.
+
+III. After initially accepting the invitation to participate in the syndicated loan, attention shall be given to our bank's capital adequacy, and the liquidity of funds shall be measured.  This is in addition to considering factors such as the feasibility of the investment project, the borrower credit, country risk, credit conditions and so forth.  Also, credit approval shall be avoided if it is overly concentrated in a single affiliated company, industry and country.  Finally, the pricing conditions of the syndicated loan shall be considered.
+
+IV. If there is an opportunity to participate in a syndicated loan briefing or planning an on site visit, the opportunity shall be seized proactively.  One can listen to both the borrower and lead bank explain the company operations and its financial conditions, the content of the investment project, and its credit conditions, etc.  In addition, one can personally ask the borrower and lead bank questions about relevant industry or company operations.
+
+
+V. Provisions for Sub-Participation are listed below:
+
+1. The criteria for participating in Sub-Participation are listed below:
+
+1. Borrower Credit Rating 
+Investment Grade or Above (Lead Cases of EBRD are not limited to this condition)
+2. Counterparty Credit Rating
+A-/A3 or above
+3. Credit Approved Amount
+1. 1. For non-banking industry, the upper limit is the lesser of the single loan amount of USD 10 million or 10% of the total amount of syndicated loan. 
+
+2. Interbank credit approval is unlimited. 
+4. Limit of Credit Life
+To reduce the risk, the remaining useful life must be within 3 years.
+5 Application Process
+The case application must be approved by the head office. The manager is not authorized to undertake the loan. 
+
+2. Key Items to Review in Sub-Participation Agreement
+(1) During the undertaking of sub-participation cases, it is necessary to know the rights and obligations of the agreement in depth and to review the main agreement in detail.  When signing the undertaking of the agreement with the transfer bank, one shall ensure that the part regarding the transfer bank is signed by an entitled signer.  The agreement must specify the rights and obligations of the transfer bank with us. For articles that are unfavorable to us, the amendment of such clauses be actively sought to guarantee the rights of our bank.
+(2) Shall request voting rights for important articles in the main agreement. 
+(3) Shall try to ensure that the transaction party is the lead bank or management bank because they have a mastery of the borrower’s first hand dynamic information and have credit extension position.  This will reduce the conflict of interest and allows us to respond immediately to the borrower’s credit changes.
+
+3. Profit and Taxes
+(1) Because the risk of sub-participation is higher, the yield demanded shall also be higher.  When considering the differences of regional markets, we shall demand higher rates to raise the yield.
+(2) We shall avoid undertake sub-participation in tax avoidance in regions that tax authorities expressly disagree or syndicate loans in regions with stricter tax inspection to avoid tax investigation disputes in the future. 
+
+4. We shall obtain the original syndicate loan agreement to ensure if the counterparty is a directly participating bank. 
+
+VI. The Provisions of Buying Syndicated Loan Credit Debt
+1. Borrower and Guarantor:
+
+(1) The borrower or guarantor must be a leader in that industry (based on market share, assets, or business scale including affiliated companies and must provide supporting and concrete evidence).  Also, it must conform to one of the two conditions below (one selected from borrower/guarantor as basis of judgment):
+
+Having S & P, Moody's or Fitch investment grade ratings or higher (S & P and Fitch at BBB- (or higher), Moody `s at Baa3 (or higher). If the borrower or guarantor has two or more types of such ratings listed above at the same time, the evaluation standard is be conducted according to our bank’s “Credit Risk Management Guidelines for Financial Transactions”.  If the credit assessment is completed over four months ago, then we need to obtain the borrower’s most recent financial data; or
+As a publicly listed company on the main exchange, there was no incident where the share price fell sharply (falling 20% or more).
+
+(2) The borrower or guarantor can not be a finance related company such as a commercial bank, investment bank, leasing company, asset management company and financing company, etc. 
+
+2. Counterparty: 
+(1) The counterparty must be a bank that is ranked among the Top 100 globally by The Banker and must not trade with any broker other than the bank.
+(2) Must ensure that the original loan participating bank of credit debt is purchased by the counterparty.
+
+3. Price and Credit Extension Period:
+(3) All-in real yield must not be lower than the demand for risky asset rate of return and the real yield rate required by our bank.
+(4) Shall take into consideration the borrower’s recent primary market issuance, funding conditions or the borrower’s relative scheduled CDS price to assess the reasonability of the price.
+(5) If the credit granted period is less than 3 years, the agreement maturity dates to serve as basis for judgment.
+
+4. Guidelines for classifying region for undertaking
+(1) The principle is that the oversea branches shall undertake cases of borrowers or guarantors located in the branch’s resident country.  However, for borrowers or guarantors located in different countries/regions, the determination shall be based on our bank’s country risk attribution principles.  For cases where the borrowers or guarantors located in countries/regions where our bank does not have branches, the principles for classifying region for undertaking shall be conducted according to the table below.  However, this is limited to countries where there is still credit limit allocated based on the country risk amount authorized by our bank.
+
+
+Country where borrow or guarantor is located
+Oversea branches allowed for undertaking
+Asia (excluding South Korea)
+Hong Kong, Macau, Singapore and OBU Branches
+Europe (including Russia)
+London and OBU Branches
+Australia
+Brisbane branches and OBU
+Central and South America
+New York, Los Angeles, Vancouver, Toronto and OBU Branches
+Middle East
+Hong Kong, Macau, Singapore, London and OBU Branches
+Africa
+London and OBU Branch
+
+Note: The country/region of the borrower or guarantor refers to the country/region where the main operations are for the borrower or guarantor
+
+
+(2) For cases where the region of undertaking is not listed in the table, they shall be based on the geographical location of branches and nature of business to assess the reasonableness of the case for undertaking by the branch.  However, this is limited to countries where there is still credit limit allocated based on the country risk amount authorized by our bank.
+
+5. Other Considerations:
+
+(1) The counterparty shall directly provide the list of debts with plans to be sold directly to our bank for assessment and selection.  Cases recommended one-way to our bank by the counterparty’s should be carefully assessed or rejected politely.
+(2) The purchasing of credit granted debt from the secondary market shall not exceed 25% of the total amount of credit extended by the branch.  The branch shall state the amount of credit extended for the secondary market as a ratio of the total credit extended by the branch after stating the amount after adding the debt from this case when applying for this credit approval case.
+
+VII. If the decision is not to participate in the loan after assessment, the lead bank’s invitation shall be politely declined in writing and record the rejected loan case in the record book.
+
+Section II:  Signing and Reporting
+
+I. Based on the lead bank’s syndicated loan marketing group meeting, the key points shall be recorded.  If it is an international (joint) lead case, the overseas bank shall first fill out the “International Syndicated Loan Case Application Form” (attachment I) beforehand.  Also, the relevant data shall be transferred to the Corporate Banking Division (Syndicated Loan Department).  After compilation, it shall be submitted to the syndicated loan marketing group meeting for discussion and resolution.
+II. By noon of five business days before the meeting, the overseas branch shall submit the International Syndicated Loan Case Application Form and relevant data to the Corporate Banking Division (Syndicated Loan Department).  If additional supplementary data or explanation is required after compilation, the overseas branch shall provide them and their explanation as soon as possible to ensure the timeliness of submission to the meeting.
+III. For syndicated loan cases that the syndicated loan marketing group meeting approves for undertaking after resolution, the overseas branch shall apply for credit amount based on the credit approval procedure of our bank.  If the case is not to be undertaken, it shall inform the borrower or lead bank immediately to seek other financial institutions to take over the case.
+IV. General syndicated loan cases shall be based on the invitation from the lead bank’s credit approval conditions and our bank’s credit approval application procedures.  If the case is not to be undertaken, it shall inform the lead bank immediately                        
+
+
+Section III: Credit Approval Review
+
+I. Before the application for syndicated loan is done, the Invitation Letter or the Information Memorandum shall be carefully read.  Because the information provided by the lead bank generally contains disclaimers, the credit review report or information memorandum can not entirely rely on them.  Therefore, the overseas branch shall still actively collect relevant data (such as those from channels such as Reuters, Bloomberg and Global Insight, etc.) and understand the business operational status locally.
+
+II. Whether the borrower, the uses by the borrower, sources of repayment, debt security, future prospects and overall risk and return are matched up for the syndicated loan shall be assessed carefully.  Currently, the principle for undertaking cases are those of investment grades (Moody's Baa3 / S & P BBB-/ Fitch BBB- and above).  For cases that are non-investment grades or without ratings, they may still be undertaken.  However, these must be carefully assessed and described specifically.
+
+III. In general, because the fund size of international syndicated loan application is generally large, it usually must be approved by the Credit Committee of the Head Office and Board of Directors.  General applications will usually take more time.  To avoid the credit approval work by the Credit Committee being late, it is necessary to submit the application electronic files and adjudicated documents (first scanned and then stored as electronic files) by e-mail for review by the Credit Committee before the end of business hours on Wednesday of the previous week with the original submitted later to strive for timeliness.
+
+IV. In addition, for financial statements of borrowers whose credit approval amount requires approval by the Credit Committee (including Board of Director’s authorization), the date (period) of financial statements and the credit approval application date of the case must not exceed 6 months in principle.  However, for borrower’s whose operations, finances or credit have undergone major changes, the most recent financial statements must be obtained for analysis.
+
+V. When participating in international syndicated loan cases, in addition to assessing the credit risk of the borrower, it is necessary to analyze carefully the resident country of the borrower.  Also, it is necessary to use that country’s important economic data such as GDP, foreign exchange reserves figures, the overall amount of debt, the trade surplus or deficit, etc. as important basis of whether to participate in the loan.
+
+VI. Participating in a syndicate loan case must not exceed the total corporate credit limitation of the bank to a single company or company group. Also, it must not exceed the country risk amount assigned by Overseas Business Administration Division.  In addition, there are provisions relevant to other interested parties or with the provisions of the bank capital adequacy in The Banking Act of The Republic of China.  Thus, it is necessary to abide by The Banking Act or relevant regulations of regulatory agencies in the handling.  If there are stricter laws and regulations in the region where the branch is located, then it shall be conducted based on local laws.
+
+VII. Upon receiving the approval letter in fax or original copy from the Credit Approval Division, it must have the Commitment Letter for adjudication by the unit head before the commitment letter can be faxed to the lead bank to control the risk of our bank. 
+
+Section IV: Other Considerations
+
+I. In addition to the financial risk, credit risks, the national risk of the loan should also be considered.  Also, attention must be paid to whether the amount of credit granted exceeds the amount allocated by our bank’s relevant management section annually for the specific country, region, government and industry.  Other than credit approval for cross-national financial organizations, the attribution of the national risk for the foreign government and foreign bank’s credit granted for the same industry is based on the country or region of its headquarter regarding the foreign government and foreign bank’s industry.  As for the attribution of national risks for general corporate credit approval, the principle is to use the location of fund use as standard unless there are other considerations based on the guarantor or collateral.
+
+II. The income produced by the syndicated loan business, based on one time payment or annual payment is classified as two types, front-end fee and annual fee. 
+1. Front-end fees or prepaid fees are usually paid only once.  It is calculated based on a previously agreed rate, and are hosting fees, underwriting fees, participation in loan fees, and differential fees, etc.  It is received when the syndicated loan case is established, and it is first recorded as “revenue received in advance” or “interest received in advanced” based on its nature when it is received.  It is transferred to “fee income" or "interest income" according to the credit granting existence schedule (days or months).
+2. Annual Fee is paid annually by the borrower.  In general, it is classified as commitment fees, facility fees, user fees management fees and waiver fees, etc and is received periodically according to the agreement.  It shall be listed as “fee income" or "interest income" according to its nature during the period when it is received. 
+
+III. Other than those regulated by laws, syndicated loan agreements, or syndicated bank agreement, other relevant items not covered should be handled according to our bank’s relevant provisions. 
+
+Section V: Operation Flowchart
+
+Invitation from lead Bank / Syndicated Loan Information meeting
+
+
+
+Invitation Letter Received from Lead Bank
+
+Internal Preliminary Assessment by Branch
+
+
+Not to undertake
+1. Send back confidentiality letter and obtain Information Memorandum and other relevant data from lead bank. 
+2. Arrange to attend syndicated loan information meeting or site visit of borrower
+
+1. Reply to lead bank on reason why not to participate
+2. Record the rejected loan case on file
+
+
+
+Receive Information Memorandum
+
+
+
+If it is an international (joint) lead case, then conducted according to the key points of Syndicated Loan Marketing Group Meeting for leading joint syndicated loan case
+1. Invitation letter for syndicated loan and information memorandum
+2. Credit approval application form
+3. Credit approval application form attached table
+4. Organized summary of credit approval conditions
+5. Detail list of credit approval
+6. Comprehensive assessment of business unit
+7. Financial reports listed
+8. Borrower’s Credit Report
+9. Summary of borrower’s credit report
+10. Guarantor’s Credit Report
+11. summary of guarantor’s credit report
+12. Credit approval case review table
+13. Financial Commitment Audit
+14. Summary table of affiliated companies and related parties financial status
+15. Affiliated companies relationship table
+16. Collateral appraisal report
+17. Rating / Credit profile
+18. Others
+Application for facility (headquarter Credit Approval Division)
+Defer discussion
+1. Notify lead bank not to participate
+2. Record the rejected loan case on file
+
+Credit Approved
+
+
+Reply to lead bank (after receiving the fax/original copy of the approval form
+1. Pay attention to the approval conditions and final approved facility by headquarter
+2. After receiving the approval letter in fax or original copy from Credit Approval Division and adjudicated by unit head, then can fax the commitment letter to the lead bank.
+3. Provide Settlement Instruction to lead bank
+
+Receive the agreement documents /legal opinion report from lead bank or law firm and express and reply views
+
+Receive Final Allotment
+Receive the Execution Version of relevant documents
+
+
+Arranging and Official Agreement signing
+1. Receive the syndicated loan agreement and relevant documents
+2. Produce the security bag for the syndicated loan case and place the contract for safekeeping in vault
+
+Customer basic information / credit approved facility file building
+OBBS system
+Newly established client information file C100 and newly established credit approval facility file L001
+
+Lead bank notify of the amount / time of first fund transfer
+1. fax the loan fund transfer form to lead bank
+2. Inform Fund Dispatch Department
+3. Information Accounting Department
+
+Fund transfer of loan
+OBBS system
+New Loan 100 and 
+Circulatory and Recycling Loan L110
+Principal payment
+Interest payment
+Relevant fee received
+Regularly receiving and auditing of borrower and guarantor financial report data according to the syndicated loan agreement
+Regularly receiving and auditing of Compliance Letter – Financial commitment and/or other committed items according to the syndicated loan agreement
+Regularly receiving appraisal report of collateral and auditing Loan-to-Value changes according to market value
+Paying attention to relevant news of borrower and guarantor, credit changes, stock prices, and changes in country risk
+Compiling and producing relevant reports
+Changes in credit approval conditions
+Review and tracking
+
+Post management after fund transfer 
+
+
+
+
+
+
+Section VI: Documents Required for Signing Credit Approval Application and Consideration (Items after * means that it is a required document 
+for signing credit approval application)
+
+Item
+Required Document for Syndicated Loan Case
+Considerations
+1*
+Invitation Letter/IM
+Credit Granting Conditions
+Participation Loan amounts and Title
+Participation Loan Deadline
+Provisions of Governing Law and Jurisdiction
+Tax Burden
+2*
+Credit Approval Application Form
+Rate Plus and All-In Rate
+Fund Transfer Period
+Repayment Methods
+Type of Collateral
+Financial Commitments or Other Matters
+3*
+Credit Approval List
+Table Listing Lending Between Banks - Syndicated Loan Total and the Bank's Loan Participation Ratio
+4
+Affiliate Companies and Related Parties Financial Position Summary
+Listing of the most recent financial reports numbers of all related parties
+5
+Affiliate Companies Ownership Table
+Pay attention if the total credit approval amount for the group exceeds provisions
+6*
+Business Unit Comprehensive Assessment
+First, to understand if the borrower is a Operating Company / Holding Company / or Special Purpose Company (SPV) and to Clarify Granting Analysis for the Main Body
+Borrower and Guarantor Analysis (analysis on aspects from Group's business model, the Group's background, main business, organizational profile (shareholding structure), management share holdings, the company operating results, stock price charts of borrower and/or guarantor)
+Use of Funds Analysis (analysis on aspects from planning and reasonableness of fund’s use)
+Repayment Source Analysis (borrower and guarantor profitability, solvency, quality of inventory and accounts receivable, cash flow analysis or other sources of repayment, etc.)
+Debt Security Analysis (analysis such as financial structure of borrower and guarantor, collateral, guarantor finance, lending restrictions, financial commitments, guarantees ratio, credit rating, etc)
+Credit Approval for Future Prospect Analysis (aspects such as current status and prospect for industry, market share of borrow, and ranking)
+Other supplementary explanation (data such as borrower dealings performance, contribution level of dealing profit, income compared with cases of same class)
+
+
+
+7*
+Amortization of Financial Reports
+Whether the financial data provided by the borrower is complete
+Whether the most recent mid-term financial reports are provided
+Based on our bank’s business handling detailed provisions – amortized financial reports requirements of credit approval article
+8*
+Borrower’s Credit Approval Report
+The key points of the credit approval report includes:
+Basic information
+International credit rating information
+Management information (board members and key shareholders, key management team, company milestone and status of management)
+Sales and industry overview (main suppliers and customers, general account receivable and payable information, important reinvestment information, analysis of sales, industry and investment status, global layout of borrower and related parties)
+Savings and borrowing information (bank deposits, financial institutional loans, supplementary information on other debts)
+Real estate information
+Other important items for disclosure (related party transactions/lending information, lawsuits, endorsements and guarantees, etc.)
+Financial status analysis
+Comprehensive opinion (including the external environment of the company, all types of strengths and weaknesses of internal operations) 
+9
+Summary Table of Borrower’s Credit Approval Report 
+Adapted from the “Borrower’s Credit Approval Report”
+
+10*
+Guarantor’s Credit Approval Report
+1. If the guarantor is a corporation, then the credit approval report’s main points are the same as Item 8 “Borrower’s Credit Approval Report”
+2. If the guarantor is an individual, then the main points of the credit approval report includes:
+Basic information
+Current business managed or profession
+Real estate information
+Economic conditions
+Annual income and expenditure status
+Comprehensive assessment (including reputation, family background, social relationships and current status of business or career)
+
+
+
+11
+Summary Table of Guarantor’s Credit Approval Report
+Adapted from the “Guarantor’s Credit Approval Report”
+
+12*
+Review and Assessment Table for Credit Approval Case
+Management in the meeting must include Head of Syndicated Loans, deputy managers of credit approval, foreign exchange, loan issuance, and (checking) deposit.  Pay attention to whether any is missing. 
+
+13
+Financial Commitment Checklist
+Produced from most recent period’s official data
+14
+Consolidated Summary of Credit Approval Conditions
+Consolidate the important credit approval conditions and translate into Chinese
+15
+(Real Estate) Appraisal Report
+Pay attention to the appraisal date of the collateral, market value, and Loan-to-Value Ratio
+16
+Summary Table of Collateral
+Produced from summary of the (Real Estate) Appraisal Report
+17
+Rating/Credit Profile
+Print the credit profile from Bloomberg data
+Provide the changes from the most recent Rating
+Provide the most recent ratings report to the Credit Approval Division
+18
+Industry Analysis
+Can make good use of the “Industry and Economics Credit Inquiry System” on my.firstbank.com
+19
+Credit Approval Inquiry Report
+If the credit approval inquiry report is received from the Credit Approval Division, to provide supplementary explanation and respond as soon as possible
+20
+Others
+If the borrower is a local publicly listed company on the main stock exchange, we can make good use of the relevant functions and information of the local stock exchange and provide the most recent stock price information.
+
+Chapter III  Considerations after Facility is Approved
+Section I: Agreement Review
+
+After receiving the Draft Loan Document and Draft Legal Opinion from the lead bank, though the draft loan document is reviewed by the lawyers of the bank group, our bank should still review each article and item to note if it is the same as the approval conditions sent to the headquarter.  If any doubt or inappropriate point is discovered, the lead bank should be contacted quickly for explanation or amendment.  The final signed edition shall be adjudicated by the unit head before it can be responded back to the lead bank.
+
+Because the loan agreement is the most detailed document among all relevant documents specifying the rights and obligations between the borrower and lender and among the syndication banks, each item and article shall be reviewed and read to verify if the lending conditions or amended conditions are consistent with what the offer letter-cum-proxy drafted and also if it ensures the rights of the bank syndication.  Hereby, the main points of the agreement review are set up as follows:
+
+1. Definitions or Interpretation:
+Important terminologies such as legal, financial, accounting, organization, etc frequently used in agreement should be clearly defined.  These types of definitions or interpretations are usually elaborated in the English version of the agreement.  If a Chinese version of the agreement is to be elaborated, the generic terms used colloquially should be avoided if possible to avoid being too cumbersome. 
+
+2. The Facility:
+It includes descriptions of the use of the loan, total loan, borrowing method, loan period, etc.
+
+3. Loan Commitments: 
+These state the total syndicated loan amount and ratio of all participating banks, etc.  It is usually listed in the form of attachments.
+
+4. Majority Banks:
+The majority resolutions is established based on a certain ratio of participating in the loan (generally 1/2, 2/3 or other designated ratio) to serve as the lowest ratio for participating banks to pass through all types of resolutions.  The loan agreement shall clearly state the ratio and applicable scope of the majority.  The majority is usually applied on resolutions when amending conditions of the syndicated loan or giving extensions to borrowers breaching the agreement.  What one needs to note is for certain topics or situations (especially for resolutions when the borrower is in breach of the agreement and enters debt restructuring or changes in conditions based on abiding by new laws after changes in them), it may not be applicable to use the majority established by the agreement.
+
+5. Conditions Precedent:
+This article refers to the obligation of the banking group to allocate loans only after certain conditions are satisfied.  Also, the borrower can request fund transfer only when all conditions are satisfied.  Usually, whether the conditions precedent for fund transfer are satisfied is based on reference of the opinions and management of lawyers entrusted by the syndication banks having reviewed relevant documents.  Conditions precedent usually includes:
+
+
+(1) The borrower/guarantor presenting proof of being legally registered and established and proof that the loan/collateral has passed the board of directors’ resolution.
+(2) The borrower providing proof of approval from relevant agencies in the government or consent to getting the loan.
+(3) Legal Opinions from the lawyers from both the borrowing and lending parties.  The opinion document usually will state the existence of the following facts:
+The borrower has legal status to sign the loan agreement.
+Representations and Warranties items listed in the articles are true and no changes occur when the loan is being used.
+No violations of the Covenants.
+No major events occurring with regards to financial status
+No Events of Default occurring, and no incident that may lead to breach of agreement.
+The collaterals have been pledged (including guarantor having signed the letter of guarantee).
+
+In addition to satisfying all conditions precedent, fund transfer conditions also include clearly establishing the fund transfer deadline, the last utilization date, and the upper and lower limits of usable amount of funding each time, etc.  The borrower can inform the management bank in written and irrevocable method several days before the utilization date according to the agreement and provide information such as the receiving bank and bank account to wait for appropriation instructions. 
+  
+6. Repayment: 
+It is conducted according to the repayment period, manner, amount and date, etc. clearly established in the syndicated loan agreement. 
+
+7. Prepayment: 
+This refers to the loan that the borrower has already used and is unpaid and repays before the (each period) maturity date.  The following rules usually apply:
+(1) The borrower must inform the management bank in written and irrevocable form several days before the repayment date (usually at least 15 business days) of the intention to repay and the amount and date.
+(2) The prepayment date is generally limited to the interest payment date
+(3) The principle is to prepay for the last period and go forward.  After prepayment, it can not be used again.
+
+8. Cancellation of Commitments: 
+This refers to the commitment period agreed upon by both the lending and borrowing sides.  Participating banks has an obligation to provide the funding within this period.  However, after the commitment period, the commitment of participating banks is automatically cancelled.
+
+9. Interest:
+It includes the benchmark interest rate, plus (minus) percentage points, specified interest rates, reference banks, alternative interest rates, etc.  The main points of these articles are listed below: 
+
+(1) LIBOR Interest Rate:  If it is a credit approval case in US dollars, the benchmark interests rates are generally calculated for two business days before the interest date using the average number or the announced average interest rate after eliminating extreme values for the each day period call rate reported by the London Interbank Offered Rate Market.  The interest calculated is flexible and based on the agreement’s interest calculation period.
+
+(2) Interest Period and Options: Common interest periods are one, three or six months.  Sometimes, the borrower can freely choose the most favorable interest period among one, three or six months.  However, it must abide by the agreement which stipulates several days before the interest adjustment day and first inform the management bank in writing of its decision.
+
+(3) Breach of Agreement Interest: If there is a late payment of interest rates, then the breach of agreement interest must be paid according to the agreement interest rate.  Its content generally includes breach of agreement applicable interest period and interest rate, the method of informing the interest rate, and whether the overdue interest is compounded, etc. 
+
+(4) Interest bearing basis: Interest is usually paid by the actual days during the interest period.  For USD and Japanese yen, the interest bearing basis is 360 days per annum. For British Commonwealth national currencies such as the British Pound, Canadian dollars, Australian dollars, Hong Kong dollars, etc., the interest bearing basis is 365 days per annum. 
+
+10. All types of handling fees, costs and expenses:
+
+(1) The calculated charging rate and payment date for all types of handling fees shall be clearly established.  If the hosting fees or management fees of the lead bank is involved and the lead bank is unwilling to let other banks know them, then it is to be replaced by the Fee Letter.
+
+(2) Other Reasonable Out-of-Pocket Expenses such as attorneys' fees, postal fees, travel expenses, printing costs and enforcement fees, etc. created during the process of loan syndication because of provisions shall be paid by the borrower or bank group.
+
+11. Articles guaranteeing bank profit usually includes the following items:
+
+(1) The attribution of tax burden: For example, when the sales taxes and stamp duties are attributable to the borrower, these shall be put in writing to conform to the relevant provisions for sales tax laws.
+
+(2) Market disruption responses: When market disruption occurs that makes the benchmark interest rate unobtainable or unable to reflect the banking group’s cost of capital, or the lead bank deems that the cost of capital obtainable from the market exceeds the loan earnings of this case leading to difficulties of obtaining funding from the sources, participating banks can request that that unallocated loan be temporarily halted or renegotiate the interest rate with the borrower based on bank group’s cost of capital.
+
+(3) Increased costs:  To guarantee the earnings of the participating banks, when there are changes in financial laws (such as raising the deposit reserve ratio) or tax laws (such as cancelling the original applicable tax incentives) which create additional burden to the lender (usually including lending relevant expenses, legal costs and taxes, etc), the agreement usually stipulates that such burdens be transferred to the borrower to guarantee that rate of return on banks’ assets.
+
+
+(4) Responses to invalidity of the syndicated loan agreement: When laws and regulations change after the signing of agreement that makes the loan illegal or unlawful, the borrower shall return immediately the allocated portion of the loan.  The unallocated portion of the loan will be considered invalid.
+
+12. Representations and Warranties: 
+These refer to the representations towards the legal status and financial situations by the borrower when signing agreement, using or extending the loan.  These usually include the following items:
+
+(1) Representing the borrower is a surviving company that is legally formed according to the law and is entitled to own assets and execute all types of business items.
+
+(2) It is entitled to handle all assets under its ownership and the right to execute its business.
+
+(3) It is entitled to sign loan agreements and has the ability to fulfill the agreed items in the agreement.
+
+(4) Its signed loan agreement is completely legal and conforms to laws and regulations or other company’s internal regulations and charters.  Also, the borrowing has obtained the approval or permission by relevant authorities.
+
+(5) Representing that no breaching of agreement exists when the borrower signs the agreement and that its affiliated companies have no incidents that breach the agreement. 
+
+(6) The financial statements presented can fairly and truly represent its financial conditions with no major significant events occurring afterwards.
+
+(7) Representing that the borrower has no lawsuits or arbitrations that may affect the company’s management at the time of agreement signing.
+
+(8) Representing the data on the information memorandum provided by the borrower is true, fully represents the actual conditions and no information meant to deliberately hide or mislead the loan participating banks. 
+
+13. Covenants:
+This article’s purpose intends to establish the lowest standard or limits on borrower’s items such as operating performance, liquidity, financial operations, etc to prevent the borrower to make decisions not conducive to the participating banks leading to losses of rights on the loans.  In practice, covenants are classified as either positive covenants or negative covenants based on the strengths of the regulated items.
+Different covenants are designed based on the individual case, and they usually include the following items:
+
+(1) Providing financial information during the covenant period.
+(2) Notifying when violations of covenant occur.
+
+
+(3) Commitment to achieve all financial ratios, such as the current ratio, interest coverage ratio, debt ratio, etc. established by the agreement.
+(4) Commitment that in the future, to lenders without collateral, when the borrower defaults and is liquidated, assets not pledged will be Pari Passu Ranked based on the debt ownership ratio. 
+(5) Commit to no longer pledge the company’s collaterals to others (Negative Pledge).
+(6) Commit to not make major changes in the business items and their nature
+(7) Commit not to sale, transfer, or lease important assets without getting consent.
+(8) Commit to complete the scheduled progress of projects on time.
+
+14. Events of Defaults: 
+
+This article explicitly states that when the borrower or guarantor does not fulfill each item of what the agreement specifies, it is considered an event of default.  Usually, if it is not resolved within the period specified in the agreement, the debt is considered matured.  The compensation fee and interest from the event of default must be paid to protect the participating banks.  Once the borrower has an event of default, acceleration clauses can be introduced by the majority bank resolution and the fund transfer of loans and advocate that all loans are mature.  The borrower must repay all outstanding debt immediately.  Events of default usually include the following:
+
+(1) Non-payments
+(2) Breach of Obligations
+(3) Misrepresentations
+(4) Cross-default, i.e. when there is an event of default by an affiliate company or the borrower can not fulfill the debt obligations of other case, etc.
+(5) Ceasing business
+(6) The occurrence of bankruptcy, liquidation, reorganization and other violations
+(7) Unlawfulness (Changes in laws and regulations making the loan case unlawful)
+(8) Material adverse change, where the majority banks consider sufficient to affect the management and debt repaying ability of the borrower
+
+15. Management Banks’ Rights and Obligations
+
+(1) The management bank must regularly provide financial and business reports provided by the borrower to all participating banks according to the agreement.
+
+(2) For the financial and business reports provided by the borrower that are distributed by the management bank, the management bank is not responsible for verifying their authenticity and accuracy.  Each participating bank shall do its own analysis and make its own judgment. 
+
+(3) Unless the management bank has major faults or deliberate illegal actions, its actions that are based on the agreement are not liable for any damages.
+
+
+16. Assignment:
+The assignment of syndicated loan debt usually requires written notice to the borrower before coming into effect.  Provision of assignment usually includes:
+
+(1) Rights and obligations shall not be assigned unless all participating bank agree to it.
+
+(2) The participating bank can assign the debt to other banks after lenders agree.  In general, the borrower cannot refuse with a good reason.  The conditions for the assignment to take effect are:
+Existing Bank and New Bank must fill out the proof of transfer and notify the management bank according to agreement provisions. 
+The New Bank promises to fulfill the content of the agreement and have already done its own investigation and assessment on the borrower’s financial and business data.
+
+17. Governing Law:
+The best way of avoiding disagreement regarding the governing law is to abide by the stipulations of the law.  To avoid disputes and to have effective execution, one should note whether the syndicated loan agreement violates any local national laws when choosing the governing law to ensure the effectiveness of the agreement.  If the borrower is located in a different country, relevant Legal Opinions shall be obtained separately for the records. 
+
+18. Jurisdiction
+It shall conform to the branch location of the lead bank to have jurisdiction.
+
+19. Set-off and Pro-rata Sharing: 
+This article is the solidarity or being in the same boat article.  It stipulates that when the management bank or participating bank obtains loan returns and additional guarantees from the borrower, each participating bank will repaid or share by the ratio of participating in the loan.  This ensures that when obligation breaches occur, no particular participating bank gets the benefit or has set-off rights. If there is a private agreement between the borrower and particular participating bank and no other participating bank discovers it, this article is still unable to come into effect.
+
+20. Notices:
+It stipulates how both parties contact each other and relevant data.
+
+
+21. No waiver of Rights, Cumulative Remedies:
+It stipulates that if participating banks does not exercise, delay exercising, or exercises only a portion of its entitled rights, it is not to be interpreted as waiving its other rights.  In addition, it stipulates that if the rights of participating banks are disparaged, remedies can be taken.
+
+22. Indemnities: 
+(1) If the borrower does not pay in the currencies specified in the agreement, it shall be accountable and pay the currency indemnity to participating banks because of losses from currency exchange.
+(2) If obligations of the borrower are breached which lead to losses of participating banks, the borrower should pay indemnities to the participating banks.
+
+23. Amendments and Waivers
+This mainly stipulates amendments of which articles in the agreement must get agreement from all participating banks.  Examples include changes in loan amount, repayment period and guarantors and waivers, etc.  Certain articles require only agreement from a majority of banks.  The management bank shall inform the content after amendments to all participating banks immediately.
+
+24. Other important attachments of the syndicated loan agreement include:
+(1) Banks and Commitments
+(2) Conditions Precedent Documents
+(3) Form of Request
+(4) Transfer Certificate
+
+25. Others, include mainly the points below:
+(1) Disclosure Provisions
+(2) Language used by the Agreement
+(3) Effectiveness of Counterparts, after signing has the same effectiveness as the original
+
+26. Severalty
+If any clause of the agreement is deemed by the courts to be invalid or illegal, this will not affect the legality and validity of any other clause nor will it affect the legality and validity in other courts.  This is to maintain the validity of the agreement and to guarantee the rights of the participating banks.
+
+27. Others
+
+(1) Jointly and Severally
+Jointly means that the syndicated loan is a cooperation participated by many with participation under the same conditions.  Severally means the responsibilities and obligations of each participating bank are independent and will not be affected by the breaching of agreement or bankruptcies of other participating banks.
+
+(2) Force majeure′ clause is a French phrase.  In English, it means “accident beyond control, referring to events such as natural disasters, man-made disasters and wars, etc.  Force majeure′ clause is the accident beyond control clause in the agreement used to establish the rights and obligations of both the buyer and seller when such event occurs.  Because Force Majeure Events will prevent the fulfilling of the original buying and selling agreement, in particular the seller probably being unable to deliver products, this clause is used by the seller to cancel the transaction or delay product delivery.  Thus, this clause basically protects the seller and is generally proposed and established by the seller.
+
+28. Particular stipulations among the syndicated loan bank:
+
+(1) The burden of credit approval risk:
+For loans allocated with principal balance outstanding, the risk is shared on a pro rata based on participation ratio for each bank.  Each participating bank will shared interest in the collateral based on loan participating ratio.
+
+(2) Joint debt:
+The debt allocated to the borrower is a joint debt for each participating bank.  Except for the corresponding bank, the resolution of the syndicated bank group must is required if any bank wants the borrower to pay such joint debt.  However, set-off rights are not limited in this way; therefore, the paying off of debt by the borrower can only be paid to the management bank. 
+
+(3) The lead bank does not have any responsibility regarding the correctness and authenticity of the borrower’s credit, financial condition, revenue projections, statements or reports.  Each participating bank shall have its own independent judgment using its professional knowledge. 
+
+(4) During the credit approval period, the lead bank or management bank is not obliged to actively supervise and monitor the operations of the borrower.  The lead bank is not obliged to actively report whether the borrower has any agreement breach.  However, this does not include agreement breaches that are known for certain.
+
+(5) If there is any item that needs amending or the resolution of the syndicated loan bank group, the lead bank can inform with written notice and conduct the item according to the resolution.  If a majority of banks consider that a meeting should be convened, it can be requested in written form.
+
+Section II: Agreement Signing
+
+After the lead bank confirms that final allotment of each loan participating bank and has the execution version of the syndicated loan agreement, the lead bank or law firm will provide written notification to participate in the agreement signing ceremony.  After receiving the written notification, the unit head should have the adjudication first and then entrust personnel with signing authority to represent the bank at the ceremony.  If participating in a foreign credit approval case and no bank staff can sign the agreement in person, there shall still be coordination with the lead bank’s notification by signing a power of attorney to designate a proxy to sign the agreement.
+
+
+Section III: Management Work after the Signing of Agreement
+
+I. Document Custody: For loan participating case, in addition to the general syndicated loan agreement, the remaining original copy of the debt obligations shall be kept with the management bank.  Only relevant draft loan document & legal opinions, document copies and corresponding letters, faxes, and documents, etc shall be in specific files for safekeeping.  After receiving the original of the syndicated loan agreement or signed electronic documents (such as PDF files) from the lead bank or management bank and then printed to be kept in records, these shall be placed into secured bags and kept securely in the vault. 
+
+II. Loan Appropriation:  After receiving the appropriation notice from the syndicated loan’s lead bank (usually by fax or e-mail), the conditions precedent must be confirmed to be satisfied before fund transfer.  Before the first fund transfer, basic customer information file and facility file must be confirmed (OBBS system: Trading Symbol [C100] and [L001]; OBU applicable for Domestic Terminal Ending System Trading Symbol [9707, 9772] and Foreign Credit System Trading Symbol [I621]) are built properly.  Next, by following relevant instructions, a fax is to confirm the loan fund transfer notification to the management bank while informing the fund dispatching department.  Then on the designated date, the allotment fund of our bank is wired to the designated account of the lead bank.  At the appropriate time, all types of payment information such as handling fees, interests, and principals, etc are filled out and recorded.
+
+
+Chapter IV:  Management Considerations after Lending
+
+Section I:  Management after Lending
+
+After lending, in addition to paying attention to the operational status such as changes in credit assessment, stock prices, market prices (collateral) and relevant news of the credit extended borrower, conditions such as political and economic situation, other laws and changes in the market in the country of the borrower should be carefully noted.  At the appropriate time, assessment reports should be provided for reference.
+
+Section II: Credit Reassessment
+
+Other than cases which are “Our bank being lead and management bank for the syndicated loan” cases, a reassessment must be done within two months of the lending (or from day held).  Afterwards, a reassessment shall be done every six months (for large facility reassessment borrower: reassessment twice in 1 year).  For remaining syndicated loan cases, credit reassessment needs not be conducted. 
+
+Section III: Changes in Conditions for Syndicated Loan Credit
+
+If the borrower or guarantor are unable to fulfill the financial commitments or other obligations because of mergers and acquisitions, splitting up, or other reasons, or apply for changes in conditions for credit granted or extensions, the lead bank will usually e-mail or fax in written form (or call a syndicated loan meeting) to inquire the opinions of participating banks.  Usually, depending on changed content by resolution, the lead bank will draft the amended agreement or formally notify in written form to send to the borrower and each participating bank respectively to seek opinions regarding amendments.  After receiving the relevant agreement draft, the branch shall check each clause and propose an amendment opinion.  However, an application for approval or availability for inspection by our headquarter shall be done based on the syndicated loan agreement, the syndicated bank agreement, and relevant provisions of our bank.  In addition, together with other syndicated loan banks, the same steps are to be taken for handling.
+
+Section IV: Audit of Financial Commitments
+
+In general, the borrower and guarantor of the syndicated loan case must provide audited financial statements or self reported reports to the lead bank according to relevant loan agreement provisions and provide the Compliance Certificate.  In addition to validating the relevant financial commitment numbers, a statement of No event of default shall be made.  Upon receiving the e-mail or fax of Compliance Certificate for the lead bank, the document needs to be adjudicated and have a backup on file (electronic file or scanned copy). 
+
+Section V: On Demand Reports
+
+Currently, the On Demand system provides relevant daily and monthly report for reference at the same time:
+
+1. Daily Report: Symbol LD26, SYNDICATION LOAN OUTSTANDING REPORT
+2. Monthly Report: Symbol LM04, FOREIGN BRANCHES SYNDICATED LOAN SCHEDULE.
+
+
+Chapter V:  Considerations when Leading a Syndicated Loan
+
+Leading a syndicated loan is a process that starts from solicitation to eventually recovering the loan.  The process involves many banks or different countries, and the handling process is very complex.  To serve as a lead bank, the role of leading and coordination work is even more burdensome.  A professional lead bank usually needs to have the planning ability of preparing a financing structure, be very familiar with syndicated loan market procedures and financing tools, and have a professional management and coordination ability.
+
+Leading a syndicated loan is a method of credit extension business. Credit application, review, and management shall have the spirit of conducting credit approval process and be conducted in a careful manner that conforms to all internal provisions and external relevant laws and regulations.  Because the responsibility of the lead bank is greater than other loan participating banks, before being entrusted to lead, the feasibility and risks of the investment project, use of the loan, repayment sources, debt guarantees, and future prospects, etc should be carefully assessed.  After being appointed to lead, there shall be tight tracking, supervision, and executing of management work to conform to the credit extension principles such as security, liquidity, profitability, and timeliness, etc.  Because the reputation, ability, and credit, etc of the lead bank will affect the promotion and management of the syndicated loan case, to ensure the smooth and successful fund raising in the future of the case led, a good relationship should be maintained with all financial sector peers at all times in addition to carefully assessing the syndicated loan case and appropriate planning of the financial structure beforehand.
+
+Section I: Before Getting the Appointment to Lead
+
+I. Solicitation
+
+Potential sources of syndicated loan cases include:
+
+(1) The borrower initiating contact
+(2) Proactively planning customer’s finance needs upon returning old funds with borrowing new funds
+(3) Major corporate investment information in newspapers and magazines
+(4) Regular interviews and outward activities
+(5) Public information for listed/public and unlisted/private companies
+(6) Invitation from other banks to jointly lead
+(7) Market information
+(8) Customer base from departments other than Loan Department
+(9) Referrals from international and domestic operating units and cross marketing from the financial holding company’s subsidiaries 
+
+II. Assessment
+
+Assessment is divided into two types, immediate assessment and in-depth assessment.   Immediate assessment is doing a rough judgment in a very short period of time on the borrower’s operational and financial status, content of investment project, and bank dealings to decide if the case should be understood and handled at a deeper level.  In-depth assessment refers to obtaining all types of data to do a comprehensive assessment.  What is worth noting is that the market competition for syndicated loan cases is fierce.  Thus, companies with stronger fundamentals or in industry with better prospects will have banks actively proposing offers to become lead banks once investment opportunities are available.  If the assessment takes too long, opportunities to lead are easily lost.  Thus, relevant finance information should be collected, organized, and classified at all times to help with instant analysis and shortening assessment time.
+
+
+1. For lead cases that need competitive bidding, if that company has not dealt with our bank, the borrower usually will not provide detailed data on their own initiative for assessment and analysis.  Thus, relevant information from all sides should be collected to do immediate analysis, using methods such as newspaper and magazine reporting, prospectus, and online research.  Rushed assessment because of time pressure should never be done to avoid getting the opportunity to lead and then finding there are many unsolvable problems.
+
+2. For investment projects relevant to syndicated loan cases which involved assessment issues such as project’s or specialized technology which our bank is unable to assess on our own, external professional institutions which can conduct feasibility or technical assessment should be hired.  This is to serve as reference for leading, participating, and project’s management and control in the future.  As for the relevant fees, it shall be handled on a case by case basis.  The burden should fall on either the overseas branch or the borrower after discussing with it beforehand.
+
+3. To ensure the success of future solicitation, assessment of other banks’ willing to participate in the syndicated loan should be done beforehand in addition to carefully selecting the lead case.  This will facilitate the appropriate distribution strategy after getting the right to lead.  If the interest of other banks to participate is low after assessment and our bank cannot commit to become the only lender, such cases should be planned properly ahead of time or should be directly rejected politely.  This will avoid the situation where fundraising is either unsuccessful or takes too long.  If either situation occurs, the image and effectiveness of our bank as a lead bank will be affected.
+
+4. To effectively promote syndicated loans, the design of financing structure, pricing strategy, and marketing strategy are all very important in addition to carefully selecting high quality cases.  To establish strict and realistic financing structure to bid and get the borrower’s consent to get the right to lead, the marketability, profitability, risk, forward-looking nature of the industry should be considered in addition to frequently refer to syndicated loan cases led by other banks. 
+
+III. Signing and Reporting
+Cases that we lead should have it signed by and reported to the Corporate Banking BU (Syndicated Loan Department) based on Article II of Chapter II of this Guideline.
+
+IV. Bidding
+
+1. Unless the accepted syndicated loan case is certain for our bank or the join lead bank group serving as lead bank, the appointment of lead bank for most syndicated loan cases need to go through competitive bidding.  After the approval of the Syndicated Loan Marketing Group Meeting, a joint credit approval recommendation cum appointment report or a financing letter of intent based on preliminary established credit approval structure should be produced to facilitate in the bidding to get the right to lead.
+
+2. Cases to determine lead banks through bidding are usually very competitive during the bidding process. Therefore, to make our bank or the joint leading bank group team offer prices of financing structure that are more competitive than other competing teams, credit approval conditions must be amended and adjusted at all times to conform with the latest status.  Therefore, information regarding the competitors’ status and the bottom line of our bank or joint leading bank group team shall fully be in control and followed.  In addition, the Syndicated Loan Department shall be informed of market dynamics in written form or by phone at all times.
+
+3. The joint credit approval recommendation cum appointment report or a financing letter of intent shall be signed or sealed by an employee with signing authority at the lead overseas branch office.
+
+4. The main points of the joint credit approval recommendation cum appointment report shall have a financing structure that is diversified and flexible in addition to conforming to the borrower’s financing needs and lowering the cost of capital of both parties.  This way, the credit approval risk can be shared appropriately.  Because the joint credit approval recommendation cum appointment report cannot include all the conditions in meticulous details like the syndicated loan agreement in a short period of time.  Also, depending on the size of the case, the content’s complexity varies.  Therefore, a statement of “The conditions of the final signed syndicated loan agreement prevail” should be included.   In addition, the phrase “include but not limited to” should be used frequently to avoid the many potential issues caused by missing important items.  It usually includes:
+
+(1) Borrower: To conform to the borrower’s financial planning, the parent company, the special project company that actually uses the fund, or overseas holding company established for tax considerations, etc are used.
+
+(2) Borrowing method: It shall conform to the borrower’s financial planning to match different financing tools, such as secured or unsecured loans, circulation facility, notes and bills or corporate bonds that are issued with guarantee and also methods such as matching up with government preferential loans or bank’s own fund, etc. 
+
+(3) Total borrowings: When deciding the total borrowings, in addition to considering the sources of borrower’s funding and its use, factors such as the proportion of own funds, the number of collateral, market preference, monetary environment on the availability of funds, the bank regulatory restrictions, etc should also be considered at the same time.
+
+(4) Use of borrowings: It should conform to the borrower’s actual funding need plan such as construction of factories, purchasing machinery and equipment or land, general operating working capital, borrowing new loans and paying back old loans, etc.
+
+(5) The loan period: The loan period should not be too long to avoid the uncertainty in increasing credit risk.  The length of the period should consider the completion time of the investment project, whether the borrower’s cash flow is sufficient, debt-servicing capacity, debt repayment plan and whether there will be prepayment.  As for the calculation of the starting date of the loan period, in practice, it is generally either the date of agreement signing or the date the loan is used for the first time.
+
+(6) Fund transfer period:  The length of the fund transfer period should conform to the borrower’s capital needs.  Usually, it depends on the project financing, the construction for architectural financing or the progress of purchasing machinery and equipment and depending of the fund transfer schedule or the raw material input time for allocating.  Borrowing new loans and paying back old ones need to conform to the repayment date of the bank, which is usually how much time is used to complete the use after the signing of agreement.  As of working capital financing, it can be used in a recycling manner during the period usually starting from the signing of agreement to the maturity date. 
+
+(7) Method of Repayment:  Is there an extension period? Repayment at maturity or repay as agreed repayment schedule in batches? If prepayment provisions,  how is the settlement time? A few days' notice? Is there early repayment of the compensation provisions? What is the principle for repayment? 
+In practice, there are several ways to repay, which are listed below:
+Bullet Repayment: Repay in 1 installment at maturity, usually applied to syndicated loan cases under three years. 
+Staged Repayment: Repaying fixed amount during fixed period to repay the loan principal in installments, usually applied to syndicated loans that are medium to long period
+Escalating Repayment: It is a form of installment repayment where each period of repayment is increased by a certain amount or ratio.  The later the installment of repayment, the greater the amount.
+Balloon Repayment: Even though repayment starts at the early installments, the amount repaid is small.  Most of the loan is repaid in the last few installments or just before the maturity date.
+Except for bullet repayment, for all other forms of repayment, the agreement shall clearly list the date and size of repayment for each period.
+
+(8) Fund transfer terms:  These usually require conditions such as signing of relevant legal documents, completing the procedure of pledging the collateral, obtaining lawyer’s legal opinion, the promise of not violating the agreement, submitting the fund transfer application form or certificate to use fund, etc before it can be used.
+
+(9) Interest rate terms: Interest rate terms include the two items of benchmark interest rates and plus (minus) percentage points. The benchmark interest rates shall conform to the currency borrowed and the supplier of capital’s specified interest rates for its setting.  As for plus (minus) percentage points level shall consider factors such as our bank’s cost of capital, the supply and demand of capital, the total borrowing, the loan period, the credit of borrower, who pays the sales tax and stamp duty, the status of borrower in the industry, the price offered by competing teams, the price offered for similar cases, etc for reference.
+
+(10) The fees for leading and other fees:  Its setting depends on the content of the case, the soliciting strategy, and the will of the borrower.  The most important ones include the three items of fees for leading, management fees and commitment fees, etc.
+
+(11) The conditions for paying taxes:  Usually, except for the income tax that the banks should pay on its gains, the remaining tax burden of the case shall be paid by the borrower.  Thus, the sales tax and stamp duty shall be paid by the borrower.  In general, during the price quotation proposed by the lead bank to the borrower for leading the syndicated loan case, different conditions of adding percentage points on interest rates are taken based on who pay taxes.
+
+(12) Creditor Protection:  This usually includes items such as land, factories, machinery and equipment, accounts receivable, negative covenants, insurance, cashier’s check, and guarantors, etc.  In addition, items such as appraisal methods, appraisal value, loan to value, amount of the insurance, the setting of order for loan retrieval should also be agreed upon and included in the agreement.
+
+(13) Commitment Items: These are usually established based on general syndicated loan standards.  Also, “included but not limited to” should be used as frequently as possible.  These usually include maintaining all types of financial ratios, maintaining the management or controlling right by the parent company, the subordination of debt rights of shareholders with respect to syndicated loan debt obligations, regularly providing financial statements, not changing the use of loan purpose, truly fulfilling the agreement obligations, not making other agreements or amendments made that are not beneficial to the project, etc.
+
+(14) Breach of Agreement Items: This is established based on standard items of general syndicated loan agreements.  Also, the phrase “included but not limited to” should be used.  Items usually include not fulfilling obligations of the agreement, not paying, violating the declarations and guarantee items, and breaching commitment items, etc.
+
+(15) Applicable Laws and Jurisdiction: Based on the governing laws and relevant jurisdiction agreed upon by the bank group and borrower (currently, international syndicated loan cases mainly use UK laws, New York laws, or Hong Kong laws as government laws).  For collaterals located in foreign countries, then it is based on local laws and regulations.
+
+(16) Other Major Contributing Items:
+The case required the borrower providing sufficient data.  After our bank assesses its ability to repay medium to long term debt, then it shall abide by the bank’s credit approval process for approval and handling.  Other additional conditions shall become one of the conditions that make up the syndicated loan case.
+Given the preliminary structure’s drafted conditions, the final detailed conditions must still get the approval from all participating bank in the syndicated loan bank group.  In addition, the final signed syndicated loan agreement between the borrower and syndicated loan bank group and the relevant articles that it contains will prevail.
+Our bank commits to lead by serving as agent (or underwriting the full amount).
+Relevant fees such as lawyers’ fees, appraisals of collaterals and setup fees, printing and production fees of information memorandum and syndicated loan agreement shall be paid by the borrower in general.
+This price quotation is valid until   month   day   year.
+
+5. If our bank or the team of joint lead group including our bank is appointed to lead and after obtaining the borrower’s appointment letter signed by an authorized and entitled person, the entire work of bidding to become appointed to lead is completed.
+
+
+V. Before getting the appointment to lead, the operation flow chart is shown below:
+
+
+Invitation/Discussion
+
+
+
+
+Invitation by Sales Unit 
+Preliminary Drafting of Credit Approval Conditions/Preliminary Assessment
+Invitation by Syndicated Department
+Syndicated Loan Application Sent to the Syndicated Loan Department
+
+
+Syndicated loan Marketing Group Meeting Called
+1. Proposal report presented to the vice presidents of the Corporate Banking BU, International Business BU, and Risk Management Center for approval
+2. If the vice presidents of the BU and Risk Management Center have different views, then it is presented to the president for approval.
+
+
+
+
+
+
+Notify Loan is Refused
+
+Pass
+
+
+
+
+
+1. Establishing work schedule 
+2. Tracking, monitoring and management
+3. Establishing credit approval recommendation report to participate in bidding
+
+
+
+
+
+Successful Bid
+
+
+Bid unsuccessful
+Self Loan or Loan Participation
+
+Once the appointment to lead is obtained, official start of fundraising
+
+
+
+
+
+
+
+Section II: After Getting the Appointment to Lead
+
+I. Credit Information Collection and Approval
+
+1. In addition to the resolution of the Syndicated loan Marketing Group Meeting, relevant information shall be collected for credit approval case by overseas branch according to local laws and regulations or characteristics of international syndicated loans.  Also, credit information collection shall be conducted based on the Loan Policy of the branch.  However, if our bank leads, jointly leads the syndicated loan or participate in a syndicated loan up to US$ 30 million (or equivalent in other currencies), there should be a professional assessment report from a professional assessment institution trusted by our bank.  In addition, for loan cases involving international credit approval, external professional institutions should be hired to do an assessment based on the political and economic situation, cultural background, values, laws and regulations, and the accounting system which may be different from where the overseas branch is located to serve as reference for loan approval.
+
+2. For cases that are approved by the Syndicated loan Marketing Group Meeting, the overseas branch shall conduct the credit approval process of our bank to apply for and the approval for transfer work.  The filling out of the credit approval application form is the same as general credit approval cases.  The facility applied for is the predetermined loan facility of our bank.  For remaining conditions, they are temporarily based on the conditions described in the joint credit approval recommendation cum appointment report signed by an entitled person from the borrower for application.  Also, the phrase “Our bank is the lead bank for this case” should be added and noted for clarity.  
+
+3. Unless otherwise regulated by law, the actual loan granted by our bank should be included into the borrower’s total credit approved amount when participating in syndicated loan cases.  The total amount shall not exceed the limitation of the Banking Act of the Republic of China for a single company or corporate group.  Also, credit approval should not be overly concentrated on a single company, corporate group, industry or country.  In addition, for provisions in the Banking Act regarding relevant stakeholders or those conforming to our bank’s capital adequacy and liquidity, its handling shall abide by the Banking Act or relevant provisions of regulatory agencies.  
+
+4. If there is additional credit approval conditions after the case has passed the credit application process of our bank or other participating bank, even though it shall be a detailed credit approval condition of the syndicated loan case, the borrower and participating banks should be contacted and negotiations initiated as soon as possible to avoid the appearance of proposing unreasonable conditions.
+
+5. For syndicated loan cases led by our bank, the overseas branch should have full mastery of the status of credit application.  Also, it shall inform the syndicated loan department at all times and the pass the photocopies of credit approvals forms that have been approved to the syndicated loan department for record keeping.
+
+
+II. Fundraising
+(I) Funding Strategy and Analysis:
+1. The main work of fundraising consists of compiling and producing of the Information Memorandum, selecting and inviting participating banks, holding syndicated loan information meetings and organizing the syndicated loan bank group, etc. 
+
+2. The success of the syndicated loan fundraising affects the reputation of the lead bank and customers.  Thus, to ensure the success of the fundraising and to achieve the objective of having fund raised as quickly as possible, the lead bank shall have detailed plans for the fundraising strategy and invite as many banks as possible to participate in addition to having good planning beforehand and formulating fundraising schedule.   This will avoid the situation of individual bank’s approved amount being less than expected during the approval process and affecting the progress of the entire fundraising work.
+
+3. fundraising strategies can usually be classified as items such as What, Whom When, How, etc.  The descriptions are listed below:
+
+(1) What (Promoting what):  this includes the marketing of finance structure, the compiling and producing Information Memorandum, the arranging of syndicated loan information meetings, and distributing of work, etc. 
+
+(2) Whom (who will participate in the loan):  this includes deciding the list of participating banks, the willingness of participating banks to participate in the loan
+
+(3) How (How to fundraise): this includes how to invite other banks to participate, the allocation of loan participating fee rate, the allocation of participating loan facility, and the reserved loan facility kept by our bank, etc. 
+
+(4) When (when to fundraise): this includes when to launch, when fundraising will be completed, being in control of the timeliness of fundraising 
+
+4. Even though the Syndicated loan Marketing Group Meeting has approved, one should try to get our bank’s internal review and approval while the overseas branch is applying for credit approval using our bank’s procedure whenever possible so that the operations are timely.  After making certain of the final underwriting conditions and amount before releasing the information external and fundraise.  For the timeliness and progress of the fundraising’s  completion, it shall be tracked, be in control, and managed appropriately.
+
+5. The financial status, industry reputation, and management ability, etc of the invited participated banks should be considered.  If possible, banks with a greater size, more stable management, better reputation, and willing to cooperate should be invited.
+
+(II) Compiling and Producing the Information Memorandum
+
+1. The oversea branch shall compile and produce the information memorandum based on the data provided by the borrower and the external data collected by itself to facilitate the promotion of syndicated loan fundraising.  The information memorandum’s printing and production fee should be paid by either the lead bank or borrower based on the case conditions or the amount of complied and produced content.
+
+
+2. The information memorandum is the most important marketing document during the syndicated loan fundraising process. The compilation and production of the information memorandum’s content usually indicates the professional ability of the lead bank. Through the information memorandum, all the information of the case led can be completely and quickly passed on to banks willing to participate.  As for the amount or depth of the information memorandum’s content, it is compiled based on the individual case’s requirement.  In addition, to compile and produce an information memorandum that has credibility and professionalism, the lead bank should collect and research all types of relevant information beforehand.
+
+The content of the information memorandum usually includes:
+1) Table of content 
+2) The lead bank’s statements
+The main item is the lead bank’s Disclaimer Notice.  Because the information memorandum is based on the information provided by the borrower for its compilation and production by the lead bank, the lead bank usually makes statements beforehand that it is not responsible for the completeness and accuracy of the document.  Thus, participating banks must make their own judgment and analysis based on their professional knowledge before deciding whether to participate or not.
+3) The borrower’s statements
+The borrower states that it agrees that the lead bank will pass on information such as the information memorandum, etc to participating banks.
+4) Summary of borrowing conditions
+This lists out the borrowing conditions from the joint credit approval recommendation cum appointment report confirmed and signed by the borrower  from the item described above.  However, the fees for leading and other fees that our bank should collect do not have to be listed.
+5) Introduction of the borrower company or guarantor
+This includes company History, business items, business conditions, industry status, the principal managers’ educational experience, the main shareholders, the main affiliates, operational performance analysis, financial situation for the last three years, banks and other credit granting transactions, etc.
+6) Summary of investment project
+The description is based on the case’s content and usually includes the project’s origins, project’s content, and expected returns, etc.
+7) Brief introduction of industry
+The description is based on the case’s content and usually includes current status of industry and future prospects, etc.
+8) Technical feasibility assessment
+The description is based on the case’s content and usually includes factory building timeline, capacity, equipment, processes, supply of raw materials, marketing, environmental impact assessments, etc.  If the borrower provides relevant technical feasibility assessment report, the content should still be evaluated and then attaching a photocopy as reference data for the information memorandum.  If necessary, a professional or credible accreditation institution should be hired to assess its feasibility.
+
+
+9) Financial Feasibility Assessment
+Based on all the pro forma financial statements (including balance sheet, income statement, cash flow statement, etc.) for each year during the loan period, an analysis shall be done on the funding sources and use, future operations, sensitivity analysis, and the ability to pay interest and repay the principal for the medium and long term, etc.
+10) Brief introduction of collateral
+An introduction of the collateral and its details, appraisal amount, the amount pledged, the amount of loan granted, etc.
+11) National risk analysis
+For overseas credit approval cases that involve other countries, a brief introduction shall be made on the country’s investment environment, laws, political stability, and economic data, etc.  
+12) Attachment
+This includes the company basic licenses, the most recent three years of financial statements, interim reports, recent sales amount and tax applications, official documents approved by the government, or relevant feasibility assessment reports, etc.
+13) The deadline for fundraising and attachment containing commitment letter form or reply to participate in the loan or not.
+
+(III) Calling the Syndicated Loan Information Meeting
+
+1. It depends on the case status to decide whether or not to call a syndicated loan information meeting.  If the case is fairly simple and banks willing to participate understand the conditions of the borrower quite well, the credit approval application can be conducted just by referencing the information memorandum’s data.  However, if the decision is to call the meeting, the overseas branch shall have good planning and preparation and include arranging details such as selecting the venue and time, the venue layout, arrangement of proceedings, the method of notifying the meeting, make statistics of the number of participants, written or computer data, tables, chairs and seat, pen, paper, tea, lunch boxes, microphones, attendance book, chairman’s staff, reception staff, and other details such as the draft speech.
+
+2. The syndicated loan information meeting is usually jointly called by the borrower and the lead bank.  The invited mainly consist of those banks with interest to participate and invitation of participating banks.  Generally, the borrower will explain the company’s operational and financial conditions, the investment project’s content, etc; the lead bank will explain the credit approval conditions and answer questions of banks attending the meeting.
+
+3. If telephone calls or written inquiries are received by banks that are interested in participating during the fundraising period, responses and handling should be done quickly.  If one cannot answer at the time, this condition should be politely.  Replies to participating banks and relevant data and response should be found as quickly as possible.  During the communication with participating banks, the attitude must be courteous and friendly to maintain the professional image of our bank as the lead bank.  In addition, frequent phone calls on one’s initiative should be done to understand the application status of individual banks.  Also, regular reporting up the ranks on current status must be made; if necessary, individual visits to participating banks should be arranged.
+
+
+4. To be in control of the status of participation bank’s action and to increase the long term dealings and relationships of both parties, basic information files of participating banks should be established which include information such as contact person, telephone number, fax and address, etc.  All written correspondences, fax or official documents should be reported up the ranks and after reading be properly kept in records to facilitate referencing.  
+
+(IV) Completion of Organizing the Syndicated Loan Bank Group
+
+1. Banks willing to participate in the syndicated loan shall use their internal credit approval procedure for approval respectively and use the form required by our bank to sign and return the “Commitment Letter of Confirmation of Participation” to our bank within the deadline based on the authorized amount to participate.  Because the Commitment Letter of Confirmation of Participation cannot be withdrawn, receiving the letter from participating banks ensures the commitment of that bank to participate in the loan.
+
+2. The Commitment Letter of Confirmation of Participation of participating banks should be faxed first.  Afterwards, phone calls are to be made to request the original copy be given to our bank confirming the commitment to participate.  The original copy of the Commitment Letter of Confirmation of Participation should be safely kept in dedicated folders by the overseas branch.  Upon receiving the letter from participating banks, it should be read and reviewed to see if there are any additional conditions.  Though the additional conditions for credit approval will become one of the detailed conditions of credit approval of the syndicated loan case, the borrower and participating banks should be communicated and consulted as quickly as possible to avoid the proposing of unreasonable conditions. 
+
+3. In practice, the lead bank has the decision to finalize the participating banks and the allocated loan amount depending on fundraising status.  The allocation is to be informed in writing to all participating banks.  If the interest to participate is very high, the final allocated amount may be less than the promised amount at the beginning.
+
+4. The progress and completion of the fundraising should always be in control.  In practice, it should be completed within two months of its launch.  Unless it is a case that our bank promises to underwrite, if the time of fundraising has passed the original deadline or if fundraising cannot be successfully completed for sure, the borrower should be consulted as quickly as possible to decide if the amount should be lower to close the case successfully or to seek other banks to participate.  The case must not be delayed as this will hurt our bank’s reputation or even affect the rights of participating banks and borrower. 
+
+III. Drafting and Review of the Agreement
+
+1. While the fundraising is proceeding, the syndicated loan agreement and other relevant agreements should be drafted at the same time.  As the drafting of agreement involved professionalism, external law firms should be hired to handle relevant matters.  As of hiring of outside law firms, its professionalism should be studied and evaluated whether is it recommended by the borrower or our bank.  If possible, law firms specializing in business and commerce that is better known and more willing to cooperate should be hired.  General low priced private law firms must not be hired.  Because the legal fees are to be paid by the borrower according to the borrower accepting the joint credit approval recommendation cum appointment report, the law firm’s bill with the fee quotation should be transferred to the borrower. 
+
+
+2. The entrusted lawyers of the law firm shall draft the relevant agreement manuscript based on the borrowing conditions listed in the joint credit approval recommendation cum appointment report and other additional conditions added.  The syndicated loan agreement is the most detailed document that specifies borrower’s obligations.  The content usually includes table of content, affiliated parties, definitions, the article of purpose, conditions of use, repayment terms, interest terms, warranties, representations and warranties, undertakings terms, breach, alternative terms, agency terms, fees and taxes, applicable law and jurisdiction, transfer terms, etc.  Depending on the individual case, there may also be transfer agreement and/or underwriting agreement, etc. 
+
+3. Upon receiving the amended views from participating banks and borrower, it shall be studied and reviewed to determine if the proposed views are reasonable or not.  If it is apparently unreasonable or if it only required amending the wording, explanations shall be given to participating banks and replied using written form or telephone call.  If necessary, lawyer should be reached to explain the parts in question.  Usually, the compilation of all views are done before notifying the lawyer about the amendments followed by sending the correct amended and added draft to the borrower and participating banks for review and editing.  These processes are repeated until the draft is finalized.  the final version should have basic information such as a special review and signature page for all participating banks and the name of authorized signing person.  It shall be reviewed for errors and typographical errors. 
+
+4. Because the syndicated loan agreement is the most detailed document among all relevant documents specifying the rights and obligations between the two parties of borrower and syndicated loan banks.  Thus, each article shall be carefully read and reviewed to verify if it is consistent with the joint credit approval recommendation cum appointment report and other additional conditions added. Also, our bank’s legal department or appointed lawyers shall provide relevant views in conjunction. Relevant views include whether the agreement’s content violates any relevant provisions of our bank or our country to ensure the rights of the bank group.
+
+IV. Agreement Signing Ceremony and Publicity
+Arranging the agreement signing ceremony and publicity includes details such as selecting venue and time, arranging the schedule of the signing, seating plan of staff signing the agreement, layout of the venue of signing, selections of agreement signing memorabilia, inviting and notifying participants, statistics of number of people attending, the decision of who the chairperson is, master of ceremonies script, the distribution of executives’ speeches and issuing press releases, the allocation of photographic staff, reception staff, etc, the preparation of dessert and tea, the payment of all fees, etc.  All these should be carefully planned and prepared by the overseas branch together with the borrower. 
+
+The day before agreement signing, the “Power of Attorney” form shall be referenced to notify all participating banks to authorize the person authorized to sign to represent and sign the agreement.  The power of attorney form can be either signed or stamped.  In addition, the appointed law shall confirm whether there are enough copies of the agreement form.  Upon receiving the agreement form, it should once again verify if the name of the signer on the signature page conforms to that of the power of attorney form.  Usually, each agreement form shall be signed by the relevant party.  After the signing is completed, it is passed to the lowery for review and witnessing.  In principle, all relevant parties should keep a copy of the original.
+
+The original copy of the relevant agreement and debt obligation certificate shall be kept well by the operations unit.  Relevant agreement shall have one copy that is photocopied for review at all times afterwards.
+
+
+Section III: Management after Agreement Signing
+
+I. For cases led by our bank, our bank shall serve as management bank unless there are special situations leading to arrangement of another management bank.  Our bank’s lead operational unit shall serve as management bank.  Upon completion of the agreement signing, the unit that undertakes the loan shall handle the relevant affairs of the management bank in a manner conforming to the syndicated loan agreement and other arrangements and conform toe our bank’s relevant provisions.
+
+II. Implementing the appointed affairs of the management shall implement the obligations that come with the agreement in a careful, quick, and reliable attitude to pay the due attention of a good administrator. This will avoid damaging the rights of participating bank and maintain the professional image of our bank as the lead bank.  When executive the duties as a management bank, if any breach of agreement is found, in addition to information the syndicated loan department by telephone or in written form, proactive notification of participating banks or calling a joint syndicated meeting to jointly consult or negotiate the situation to ensure the claim is required.
+
+III. The main responsibilities of the management bank is the handle all transactions and work after agreement signing.  The work content is classified below:
+
+(I) Review
+1. Each fund transfer by the borrower shall be reviewed and approved for having the required documents and conditions.
+2. The appointed lawyer’s legal opinion shall be reviewed and approved.
+
+(II) Bookkeeping
+1. The notification relevant to fund transfer, receiving interest, repayment of principal and other fees, etc during the loan subsisting period.
+2. Truly logging in the joint syndicated loan general ledger card and the joint syndicated loan participating ledger card to maintain the completeness of the syndicated loan bookkeeping.
+
+(III) Supervision
+1. The borrower shall provide photocopied versions of financial statements, project’s progress or business plans, etc to participating banks on a regular basis.
+2. Regular assessments shall be done to verify if the borrower is fulfilling all commitments and obligations required by the syndicated loan agreement.
+3. Regular assessments of collateral’s value and capture procedures required are  to be done.
+
+(IV) Security Measures
+1. Notification of any breach or amendments of conditions. 
+2. Necessary measures of protection and amending of agreements, etc are taken.
+
+IV. According to the provisions of the syndicated loan agreement, the borrower shall follow fund transfer document satisfying all provisions of the agreement and deliver them to the management bank to transfer to the appointed lawyer for review and to issue legal opinion document.  Upon receiving the legal opinion document, it shall be carefully read to check if there are any reservations or negative opinions by the lawyer.  If there are any unfavorable opinions, the borrow shall be asked to provide additional supplements before fund transfer can be conducted.  In addition, each article of relevant document shall be reviewed to verify if all the required conditions stipulated in the agreement is completed before agreeing to fund transfer.  The legal opinion signed by the lawyer shall be photocopied and given to all participating banks for reference and safekeeping.  Other items including fund transfer notification form or relevant receipts, certificates, etc shall be taken care of well and kept in records.
+
+V. if the pledging and registration of collaterals are involved, the procedures shall be conducted according to the relevant provisions of our bank because the owner of right is the lead bank (or management bank) in practice.  If there are special cases, external professional institutions should be hired to handle them, and the relevant fees shall be paid by the borrower in general.  If there are other arrangements in the syndicated loan agreement or required by local laws, notice must be paid to the insured amount of the insurance policy conforms to agreement provisions and if our bank is the beneficiary regarding the insurance of the collateral.
+
+VI. Unless there are other provisions in the agreement, all commitments stipulated by the agreement shall be filled out and reviewed and passed on by ranks to verify the syndicated loan case’s commitment checklist.  After it is reviewed and approved, it shall be photocopied and be placed in the syndicated loan department for safekeeping as records.
+
+VII. In addition to the operational status of the borrower with credit extended, close attention should be paid to situations such as changes in the political and economic status of the country or region involved, changes in laws and regulations and market changes.  For relevant bookkeeping, management and control of collateral, auditing of agreement’s commitments, supervision of project’s progress, changes in the credit approval report, review of credit, the overseas branch undertaking the loan should fill out the verified forms according to relevant provisions.  Also, staff shall be sent for field survey regularly to implement the supervision and management work after loan is granted.
+
+VIII. If the borrower is unable to fulfill all the obligations of the agreement, applies for changes and extensions in credit approval conditions, the syndicated loan department must be informed immediately by telephone or in written form after such events occur or after these are known.  Also, joint discussion and negotiation with that center and borrower on follow-up relevant details and method of handling shall be conducted.  The follow-up work shall match the breach of agreement or the level of changes in content of the syndicated loan agreement’s requirements that need resolution from a majority or all of the banks.  This is to be done in written form or by calling a syndicated loan meeting to seek the views of all loan participated banks.  All relevant meeting records of resulting contents shall be sent to all participating banks and the syndicated loan department for record keeping after the meeting or upon reaching an agreement.  In addition, the transfer of approval or reporting of the handling of the changes in terms, etc of the syndicated loan agreement or our bank’s relevant provisions shall be done.  Also, our bank and other syndicated loan banks are to jointly take the same action. 
+
+
+IX. The Operation Flowchart after getting the Appointment to Lead
+
+Compiling & producing the information memorandum
+
+
+Holding the syndicated loan information meeting
+Getting the appointment to lead/syndicated loan fundraising
+Credit information collection/application for transfer of credit approval
+Invite banks interested in participating
+
+
+
+Authorizing the loan facility of participating banks               
+Getting the commitment letter to participate
+Allocation fixed
+Loan participating facility
+
+Formation of syndicated loan bank group
+Lead bank
+
+
+Management bank
+
+
+Loan participated banks
+
+Drafting of agreement / Finalizing Agreement and arranging agreement signing ceremony
+
+Fund transfer review and approval
+
+
+
+Fund transfer
+
+Notification of fund transfer
+
+
+
+Supervision / Management
+• Interest payment 
+• Fee payment 
+• Payment of principal 
+• Commitment to check 
+• Supervision and review tracking
+• Relevant reports sent
+Notifying / Calling syndicated loan meeting
+Preservation Operations
+
+
+
+Case Closed
+
+
+
+Section IV:  Other Considerations
+
+I. The way to lead is usually classified as Fully or partly Underwritten and Best Effort.  Detailed assessment of the market should be done before to determine the market supply and demand situation to decide if all the funds can be raised or only a best effort can be committed to invite loan participation.  This will avoid having fundraising situation being not as smoothly as expected.  If possible, the best approach is to use best effort to invite loan participating. 
+
+II. In addition to the financial and credit risks of the borrower, considerations should be given to the national risks involved and whether the credit approved amount exceeds our bank’s relevant management department’s provisions targeted of individual countries, regions, government and industries’ approved quota annually.  Other than credit approval for multi-nation financial organizations, attributed national risks shall be based on the nation or region of where the borrower’s headquarter is located for overseas banks and government.  The rest shall be based on the provisions of Article IV of our bank’s National Risk Management Guidelines.  
+
+III. The original copies of relevant documents of the syndicated loan case includes: the original debt certificates, original documents of the guarantees and the original agreement.  These should be securely kept in dedicated files by the operational unit undertaking the loan. 
+
+IV. For international syndicated loan cases that we lead or jointly lead, based on the requirements of the case, the handling is to be coordinated by the Corporate Banking BU and Overseas Business Administration Division. 
+
+V. For relevant items not stipulated by laws and the syndicated loan agreement, these shall be handled according to our bank’s relevant provisions.
+
+VI. All the documents in the attachments shall have its contents modified or added depending on the how the case if promoted. 
+
+
+
+Chapter VI:  Summary of Relevant Official Documents
+
+1. The Key Points of Credit Approval Limits for Oversea Branch Managers of the First Commercial Bank.  
+
+2. The Key Points of Oversea Units helping to Promote International Syndicated Loan Distribution
+
+3. 2007/08/28 – Financial Holdings Approval document Letter Number 14869 (Summary of Main points for Credit Review) 
+
+4. 2008/06/26 – Comprehensive International Business Document Letter Number 15231 (Considerations, Management and Control Policies for Undertaking “Sub-Participation”)
+
+5. International Business Document Letter Number 33221/Executive Council Financial Document Letter Number 33221 (Guidelines for Handling Overseas Branches Handling of Syndicated Loan Business Income)
+
+6. 2013/03/25 – Comprehensive Overseas Management Document One Letter Number 09472 (Key Points of Manager Authorization of First Commercial Bank’s Overseas Branches Conducting International Financial Businesses)
+
+7. 2013/03/14 – Comprehensive Review and Planning Document Letter Number 07902 (Management and Control Guidelines and the Authorization of All Levels of Staff Reviewing International Financial businesses at the Headquarter)
+
+8. 2011/04/25 – Comprehensive Institutional Syndication document letter Number 14193 (Key Points of Leading by Syndicated Loan Marketing Group Meeting Operations)
+
+9. 2013/08/14 - Comprehensive Overseas Management Document One Letter Number 26848 (Key Points of Oversea Branches Purchasing Secondary Market Credit Approval for Debts)
+
