@@ -22,13 +22,13 @@ interface:
   terminal emulator            : 終端仿真器
   shell                        : 外殼
   kernel                       : 核心
-  cursor                       : 光標
+  cursor                       : 游標
   escape sequences             : 轉義序列
   prompt                       : 提示
   command parameter            : 命令參數
   graphical user interface     : 圖形用戶界面
   preferences                  : 喜好
-  profile                      : 輪廓
+  profile                      : 設定檔
   keyboard shortcuts           : 鍵盤快捷鍵
   font                         : 字形
   customize                    : 定制
@@ -71,13 +71,13 @@ encoding:
   byte                         : 字節
   bit                          : 位
   ASCII                        : ASCII碼
-  Unicode                      : 統一
+  Unicode                      : 統一碼
   UTF-8                        : UTF -8
   Big5                         : BIG5
   GB18030                      : GB18030
 other:
-  cloud computing              : 雲計算
-  version control system       : 版本控制系統
+  cloud_computing              : 雲計算
+  version_control_system       : 版本控制系統
   encryption                   : 加密
 networks:
   TCP                          : TCP
@@ -101,9 +101,9 @@ software:
   bundled software             : 捆綁軟件
   public domain                : 公共領域
   copyright                    : 版權
-  copyleft                     : copyleft的
+  copyleft                     : 公共版權
   license                      : 許可證
-  open source                  : 開源
+  open source                  : 開放源始碼
   wetware                      : 濕件
   vaporware                    : 霧件
   GPL                          : GPL
@@ -120,7 +120,7 @@ development methodology:
   face-to-face communication   : 面對面面對面溝通
   test harness                 : 測試工具
   refactor                     : 重構
-  debug                        : 調試
+  debug                        : 除錯
   greenfield                   : 綠地
 interface design:
   design principles            : 設計原則
@@ -135,9 +135,9 @@ interface design:
   default                      : 默認
   customization                : 定制
   primary task                 : 首要任務
-  "enchant me"                 : “我去換”
-  "simplify my life"           : “簡化我的生活”
-  "make me amazing"            : “讓我驚艷”
+  enchant me                   : 使我著迷
+  simplify my life             : 簡化我的生活
+  make me amazing              : 讓我驚艷
   digestible chunk             : 易消化塊
   overwhelmed                  : 不堪重負
   transition                   : 過渡
@@ -156,5 +156,5 @@ hardware:
   device                       : 設備
   hand-held                    : 手持
   handset                      : 手機
-  tablet                       : 片劑
+  tablet                       : 平板電腦
   laptop                       : 筆記本電腦
