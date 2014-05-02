@@ -4,153 +4,157 @@ field:
   - head
   - answer
   - sublist
+
+  
+  
+  
 instructions:
-  reset: ~
-  execute: ~
-  command: ~
-  copy-and-paste: ~
-  terminate: ~
-  reboot: ~
+  reset                        : 重置
+  execute                      : 執行
+  command                      : 命令
+  copy-and-paste               : 複製和粘貼
+  terminate                    : 終止
+  reboot                       : 重啟
 interface:
-  command line: ~
-  tabs: ~
-  terminal: ~
-  terminal emulator: ~
-  shell: ~
-  kernel: ~
-  cursor: ~
-  escape sequences: ~
-  prompt: ~
-  command parameter: ~
-  graphical user interface: ~
-  preferences: ~
-  profile: ~
-  keyboard shortcuts: ~
-  font: ~
-  customize: ~
-  menu: ~
-  accelerator key: ~
-  zoom: ~
-  reset: ~
-  clear: ~
-  disable: ~
-  switch: ~
-  detach: ~
-  clone: ~
-  sidebar: ~
-  toolbar: ~
-  bookmark: ~
-  button: ~
-  option: ~
-  system UI: ~
-  navigation: ~
-  notification: ~
-  swipe: ~
-  chronological order: ~
-  drag and drop: ~
-  device status: ~
-  display: ~
-  immersive content: ~
-  refresh: ~
-  share: ~
-  dashboard: ~
-  widget: ~
-  plugin: ~
-  add-on: ~
-  upgrade: ~
-  update: ~
-  sync: ~
-  mode: ~
+  command line                 : 命令行
+  tabs                         : 標籤
+  terminal                     : 終端
+  terminal emulator            : 終端仿真器
+  shell                        : 外殼
+  kernel                       : 核心
+  cursor                       : 光標
+  escape sequences             : 轉義序列
+  prompt                       : 提示
+  command parameter            : 命令參數
+  graphical user interface     : 圖形用戶界面
+  preferences                  : 喜好
+  profile                      : 輪廓
+  keyboard shortcuts           : 鍵盤快捷鍵
+  font                         : 字形
+  customize                    : 定制
+  menu                         : 菜單
+  accelerator key              : 快捷鍵
+  zoom                         : 放大
+  reset                        : 重置
+  clear                        : 明確
+  disable                      : 關閉
+  switch                       : 開關
+  detach                       : 分離
+  clone                        : 克隆
+  sidebar                      : 邊欄
+  toolbar                      : 工具欄
+  bookmark                     : 書籤
+  button                       : 鈕
+  option                       : 選項
+  system UI                    : 系統UI
+  navigation                   : 導航
+  notification                 : 通知
+  swipe                        : 刷卡
+  chronological order          : 按時間順序排列
+  drag and drop                : 拖放
+  device status                : 設備狀態
+  display                      : 顯示
+  immersive content            : 身臨其境的內容
+  refresh                      : 刷新
+  share                        : 共享
+  dashboard                    : 儀表盤
+  widget                       : 小工具
+  plugin                       : 插件
+  add-on                       : 附加
+  upgrade                      : 升級
+  update                       : 更新
+  sync                         : 同步
+  mode                         : 模式
 encoding:
-  character: ~
-  encoding: ~
-  byte: ~
-  bit: ~
-  ASCII: ~
-  Unicode: ~
-  UTF-8: ~
-  Big5: ~
-  GB18030: ~
+  character                    : 字符
+  encoding                     : 編碼
+  byte                         : 字節
+  bit                          : 位
+  ASCII                        : ASCII碼
+  Unicode                      : 統一
+  UTF-8                        : UTF -8
+  Big5                         : BIG5
+  GB18030                      : GB18030
 other:
-  cloud_computing: ~
-  version_control_system: ~
-  encryption: ~
+  cloud computing              : 雲計算
+  version control system       : 版本控制系統
+  encryption                   : 加密
 networks:
-  TCP: ~
-  packet: ~
-  server: ~
-  client: ~
-  wireless: ~
-  wi-fi: ~
-  access point: ~
-  Bluetooth: ~
-  broadband connection: ~
-  dial-up connection: ~
-  network router: ~
-  land-line phone: ~
+  TCP                          : TCP
+  packet                       : 包
+  server                       : 服務器
+  client                       : 客戶
+  wireless                     : 無線
+  wi-fi                        : 無線網絡
+  access point                 : 接入點
+  Bluetooth                    : 藍牙
+  broadband connection         : 寬帶連接
+  dial-up connection           : 撥號連接
+  network router               : 網絡路由器
+  land-line phone              : 陸線電話
 phones:
-  ringtone: ~
-  base station: ~
-  unlock: ~
+  ringtone                     : 鈴聲
+  base station                 : 基站
+  unlock                       : 開鎖
 software:
-  operating system: ~
-  bundled software: ~
-  public domain: ~
-  copyright: ~
-  copyleft: ~
-  license: ~
-  open source: ~
-  wetware: ~
-  vaporware: ~
-  GPL: ~
-  Blue Screen of Death: ~
-development_process/methodology:
-  test-driven development: ~
-  agile development: ~
-  incremental: ~
-  user representative: ~
-  waterfall: ~
-  iterative: ~
-  use case: ~
-  user story: ~
-  face-to-face communication: ~
-  test harness: ~
-  refactor: ~
-  debug: ~
-  greenfield: ~
-interface_design:
-  design principles: ~
-  user experience: ~
-  carefully-placed: ~
-  well-timed: ~
-  subtle: ~
-  effortlessness: ~
-  real objects: ~
-  cognitive effort: ~
-  manipulate: ~
-  default: ~
-  customization: ~
-  primary task: ~
-  "enchant me": ~
-  "simplify my life": ~
-  "make me amazing": ~
-  digestible chunk: ~
-  overwhelmed: ~
-  transition: ~
-  relationship among screens: ~
-  task progress feedback : ~
-  visually distinct: ~
-  theme: ~
-  touch feedback: ~
-  jolt: ~
-  typography: ~
-  iconography: ~
-  branding: ~
+  operating system             : 操作系統
+  bundled software             : 捆綁軟件
+  public domain                : 公共領域
+  copyright                    : 版權
+  copyleft                     : copyleft的
+  license                      : 許可證
+  open source                  : 開源
+  wetware                      : 濕件
+  vaporware                    : 霧件
+  GPL                          : GPL
+  Blue Screen of Death         : 藍屏死機
+development methodology:
+  test-driven development      : 測試驅動開發
+  agile development            : 敏捷開發
+  incremental                  : 增量
+  user representative          : 用戶代表
+  waterfall                    : 瀑布
+  iterative                    : 迭代
+  use case                     : 使用情況
+  user story                   : 用戶故事
+  face-to-face communication   : 面對面面對面溝通
+  test harness                 : 測試工具
+  refactor                     : 重構
+  debug                        : 調試
+  greenfield                   : 綠地
+interface design:
+  design principles            : 設計原則
+  user experience              : 用戶體驗
+  carefully-placed             : 精心放置
+  well-timed                   : 合拍的
+  subtle                       : 微妙
+  effortlessness               : 毫不費力
+  real objects                 : 真正的對象
+  cognitive effort             : 認知努力
+  manipulate                   : 操縱
+  default                      : 默認
+  customization                : 定制
+  primary task                 : 首要任務
+  "enchant me"                 : “我去換”
+  "simplify my life"           : “簡化我的生活”
+  "make me amazing"            : “讓我驚艷”
+  digestible chunk             : 易消化塊
+  overwhelmed                  : 不堪重負
+  transition                   : 過渡
+  relationship among screens   : 屏幕之間的關係
+  task progress feedback       : 任務進度反饋
+  visually distinct            : 視覺上不同
+  theme                        : 主題
+  touch feedback               : 觸摸反饋
+  jolt                         : 顛簸
+  typography                   : 活版印刷
+  iconography                  : 意象
+  branding                     : 品牌
 hardware:
-  keyboard layout: ~
-  SIM card: ~
-  device: ~
-  hand-held: ~
-  handset: ~
-  tablet: ~
-  laptop: ~
+  keyboard layout              : 鍵盤佈局
+  SIM card                     : SIM卡
+  device                       : 設備
+  hand-held                    : 手持
+  handset                      : 手機
+  tablet                       : 片劑
+  laptop                       : 筆記本電腦
