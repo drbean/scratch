@@ -190,6 +190,7 @@ The questionnaire had good reliability and validity
 
 Table 7 (Mr. Greg, please do in WORD for this part, tks!)
   
+Eigenvalue
 
 The purpose of factor analysis was to obtain the construct validity of the questionnaire, and to form the basis for judging the order of importance of the employability indicators. The application of factor analysis could extract common factors between the variables so as to make sure a less complicated data structure would ensue in the end. Through the findings for common factors, the content for conceptual structure can be said to be confirmed. The analysis results showed the questionnaire itself to be of good validity, while each employability indicator was based on the scale of Eigen value, where the order of importance was ranked from high to low as: Integrated Planning, Working Spirit, Monitoring Control, Working Attitude, Evaluation & Judgment, Working Efficiency, Working Quality. 
 
