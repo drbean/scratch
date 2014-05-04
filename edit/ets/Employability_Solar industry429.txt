@@ -41,9 +41,9 @@ Resource-based theory considers the three elements, company-critical resources, 
 
 Employability indicators 
 
-The employability indicators from performance point of view tend to put emphasis on job performance. The so-called job performance could be defined as the pursuance of special action with the ability to maintain and conform to the condition given, policy and procedure under the organizational environment to effectively accomplish the job demands [22]. ¡§Job¡¨ is considered as a certain special appointment in the achievement of a certain task, where the said task is a description of the activity content of a certain job for an employee [23]. Performance of an employee could include two categories as job behaviour and activity, job result [24]. The former applies to job process itself, activity, and behaviour for the assessment of performance mainly by measuring the activity engaged in and the behaviour demonstrated on the job by the employee; while the latter assesses the degree of accomplishment by the employee of a predetermined target. As pointed out by SPSP[28], job performance needs to emphasise on ACT, which means:
-     A: employees must effectively and timely complete job Activity;
-     C: employees must have the competence to do a good job;
+Employability indicators from the performance point of view naturally put emphasis on job performance. So-called job performance can be defined as the pursuance of special action by a person with the ability to maintain and conform to the condition, policy and procedure given by the organizational environment to effectively accomplish the job demands [22]. ¡§Job¡¨ is considered to be a certain special appointment in the achievement of a certain task, while the task is a description of the activity content of a certain job for an employee [23]. The performance of an employee can include the two categories of job behaviour and activity, and job result [24]. The former applies to the job process itself, and is assessed mainly by measuring the activity engaged in and the behaviour demonstrated on the job by the employee; while the latter assesses the degree of accomplishment by the employee of a predetermined target. As pointed out by SPSP[28], job performance needs to emphasise ACT, which means:
+     A: employees' effective and timely completion of a job Activity;
+     C: employees' Competence to do a good job;
      T: their possession of Tools and Techniques.
      In aspect of employability indicators, Table 1 summarises related studies. 
      
@@ -62,50 +62,50 @@ MOE [33]ƒç The most needed to enhance employability: foreign language ability, 
 
 NYC [5]ƒç Core employability: working attitude and cooperation capacity favourable for employment, occupational career planning capacity and aggressive learning to advance, possession of professional knowledge, and ability to apply them at work. 
 
-Peng [14]ƒç Employability is constructed by three aspects as capacity, attitude and confidence.
-ƒç           Detailed indicators: presentation and communication skills, teamwork cooperation, mother tongue language capability, stability or stress resistance, professional knowledge and techniques, basic computer application skills, the ability to explore and solve problems confronted with at work, good working attitude, strong willingness to continue with studies, high degree of plasticity, professional ethics and morality, optimistic in facing career development prospects, active dedication to current job, leadership capacity, innovation capacity, the capacity to apply theory into actual work, professional certificates or related capacity, knowledge of relevant industrial environment and development status, foreign language capacity, full understanding and planning for self-career development, possession of job searching and self-promoting capacity.
+Peng [14]ƒç Employability is constructed from three elements: capacity, attitude and confidence.
+ƒç           Detailed indicators: presentation and communication skills, teamwork cooperation, mother tongue language capability, stability or stress resistance, professional knowledge and techniques, basic computer application skills, the ability to explore and solve problems confronted at work, good working attitudes, strong willingness to continue with studies, high degree of plasticity, professional ethics and morality, optimism in facing career development prospects, active dedication to current job, leadership capacity, innovation capacity, the capacity to apply theory to actual work, professional certificates or related capacities, knowledge of the relevant industrial environment and its development status, foreign language capacity, full understanding and planning for self-career development, possession of job searching and self-promoting capacity.
 
-NTNU[5]ƒç The 2005 follow-up survey of university graduates after one year of employment found insufficiency in employability and included as its causes leadership capacity, innovation capacity, the capacity to apply theory into actual work, professional certificates or related capacity, knowledge of relevant industrial environment and development status, foreign language capacity, full understanding and planning for self-career development, possession of job searching and self-promoting capacity.
+NTNU[5]ƒç A 2005 follow-up survey of university graduates after one year of employment found insufficiencies in employability and concluded the causes to be lack of leadership capacity, innovation capacity, the capacity to apply theory to actual work, professional certificates or related capacities, knowledge of the relevant industrial environment and its development status, foreign language capacity, full understanding and planning for self-career development, possession of job searching and self-promoting capacity.
 
-Jaffer, Ng¡¦ambi & Czerniewicz [38]ƒç Efficiency and quality are the challenges of industry towards advanced education. 
+Jaffer, Ng¡¦ambi & Czerniewicz [38]ƒç Efficiency and quality are the challenges of industry for advanced education. 
 
-Chang & Kuo [26]ƒçFour common dynamic capabilities in response to external demand: ¡§market-oriented sensitivity¡¨, ¡§the ability to absorb knowledge¡¨, ¡§social-networking capability¡¨ and ¡§the integrative ability to communicate and negotiate¡¨. 3 special dynamic capabilities in business practices required: ¡§the capability to identify what drives market growth¡¨, ¡§the capability to develop a good sense of market-entry timing¡¨ and ¡§the capability to alter/create customers¡¦ needs¡¨.
+Chang & Kuo [26]ƒçFour common dynamic capabilities in response to external demands: ¡§market-oriented sensitivity¡¨, ¡§the ability to absorb knowledge¡¨, ¡§social-networking capability¡¨ and ¡§the integrative ability to communicate and negotiate¡¨. 3 special dynamic capabilities required by business practices: ¡§the capability to identify what drives market growth¡¨, ¡§the capability to develop a good sense of market-entry timing¡¨ and ¡§the capability to alter/create customers¡¦ needs¡¨.
 
 Chang [27]ƒçMarket-oriented sensitivity, the ability to absorb knowledge, social-networking capability, and the integrative ability to communicate and negotiate are the dynamic capabilities required of IT entrepreneurs.      
   
-In summary of the above, the logical process for the establishment of the draft performance point of view, employability indicators in this research are:
-     (1). To define performance point of view of employability;
-     (2). To obtain ¡§diverse point of view of employability¡¨;
-     (3). To cut in the path of research from ¡§resulting point of view¡¨.
+In summary of the above, the logical process for the establishment of draft employability indicators in this research following the performance point of view is:
+     (1). To define the performance point of view of employability;
+     (2). To obtain ¡§diverse points of view on employability¡¨;
+     (3). To fold in the path of research from the ¡§resulting point of view¡¨.
 
-To summarise the point of view from Ljungquist [21], SPSP [28], Chang [27, 25], Kuo et al. [39] and to establish the draft performance point of view of employability indicator construction as: on the job integrated planning, evaluation and judgment, working efficiency, working quality, working spirit, monitoring control, and working attitude. 
+For (1), we took the point of view of Ljungquist [21], SPSP [28], Chang [27, 25], and Kuo et al. [39] and decided performance-point-of-view employability to be on-the-job integrated planning, evaluation and judgment, working efficiency, working quality, working spirit, monitoring control, and working attitude. 
 
-Based on the need for the research, the operability for each indicator is defined as shown in Table 2.
+Based on the needs of the research, the operational definitions for each indicator are as shown in Table 2.
 
-Table 2 The definition of operability for employability indicator in Solar industry
+Table 2 The definition of employability indicators in the solar industry
 
-Indicators     Definition of Operation
+Indicators     Operational Definitions
 
 Integrated Planning
-To do project planning and implementation with the ability to consider the project¡¦s marketability, executability, and effectiveness, so as to further integrate resources in generating the maximum value for the Solar company and customers. 
+To do project planning and implementation with the ability to consider the project¡¦s marketability, executability, and effectiveness, so as to further integrate resources in generating the maximum value for the company and customers. 
 
 Evaluation and Judgement
-To execute difficult work with the ability of conducting prior assessments, find the best work procedures, methods and possible supporting resources within Solar company.
+To execute difficult work with the ability to conduct prior assessments, find the best work procedures, methods and possible supporting resources within the company.
 
 Working Efficiency
-To execute work with the capacity for self-adjustment, active acquisition of new knowledge and techniques, goal-oriented work, advanced completion according to quality requirement, finding problems, finding the right person to do the thing right. 
+To execute work with the capacity for self-adjustment, active acquisition of new knowledge and techniques, goal-oriented work, advanced completion according to quality requirements, finding problems, finding the right person to do the thing right. 
 
 Working Quality
-To ensure that quality is the priority for the completion of work content, with the ability to fully control each factor in a workflow, with self-inspection to exhibit high quality of work results. 
+To ensure that quality is the priority for the completion of work content, with the ability to fully control each factor in a workflow, with self-inspection exhibiting a high level of quality of work results. 
 
 Working Spirit
-To accept challenging work target, focus attention, make good use of strategy, manage resources, achieve job task on time. 
+To accept challenging work targets, focus attention, make good use of strategies, manage resources, finish job tasks on time. 
 
 Monitoring Control
-Cost control and work progress control. Emphasis on process monitoring and control. Elimination of potential interfering factors. Presenting satisfactory work results to supervisors.
+To observe cost control and work progress control, put emphasis on process monitoring and control, eliminate potential interfering factors, present satisfactory work results to supervisors.
 
 Working attitude
-Being proactive, active and aggressive without the needs for others to urge one or remind. High ambition and willingness to take the job and help colleagues actively. Good relationship with people stemming from a positive attitude towards others. Work results surpass supervisors¡¦ expectation. 
+To be proactive, active and aggressive without the need for others to urge or remind, have great ambition and willingness to take on jobs and help colleagues actively, have good relationships with people stemming from a positive attitude towards others, exhibit work results surpassing supervisors¡¦ expectation. 
 
 3. Methodology
 
