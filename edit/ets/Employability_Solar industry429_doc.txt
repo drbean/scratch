@@ -1,0 +1,717 @@
+﻿Constructing Employability Indicators for Enhancing Effectiveness of  Engineering Education in Solar Industry
+Chin-Guo Kuo
+Department of Industrial Education, National Taiwan Normal University, No.162, Sec. 1, Ho-Ping East Rd., Taipei, Taiwan. chinguo7@yahoo.com.tw  
+*Chi-Cheng Chang
+Department of Information Management, Lunghwa University of Science and Technology, No.300, Sec.1, Wanshou Rd., Guishan, Taoyuan County 333, Taiwan. chig@mail.lhu.edu.tw 
+Chun-Cheng Huang
+Taipei Municipal Nangang Vocational High School,No.29, Xingzhing Rd., Taipei, Taiwan. kobe116119@hotmail.com
+* Corresponding author: chig@mail.lhu.edu.tw
+
+Abstract
+The purpose of this research aimed at establishing a set of employability indicators to acquire the competency requirements and performance expectation from Solar enterprises in future workplace. The qualitative study conducted interviewing 12 administrators and 32 engineers from Solar enterprises, meetings with focus groups intended to formulate the questionnaire for quantitative survey to Taiwanese Solar enterprises for the confirmation and prioritization of employability indicators. The result built the interpretational model for competence, job performance, working attitude and employability for Solar corporation talents selection and cultivation as well as for school curricular development came into being. The interpretation model formulated can effectively interpret the relationship between Solar enterprises’ expectations and students’ employability. The research has contributed the qualification form for talents selection and the assessment form for talents cultivation, as well as valuable references for curricular development in engineering education. 
+Keywords: Solar Industry, employability, competence, performance, indicator.
+
+1. Introduction
+Employability is a field of complex nature that is often subject to questions being raised about it, a field which has no clear and definitive answers at all times [1]. As pointed out by many researches, employability is closely related to the level of the competence and possible performance demonstrated by each individual [2, 3, 4]. Its true significance consists in the production activity devoted to an enterprise by the employee’s competence where the said performance is the output of the enterprise’s production results. When the employee commands the competence required by the enterprise then it can be expected that the employee could demonstrate good performance anticipated by the enterprise [25]. Such competence includes four types such as core competence, professional competency, management competence, and general competence [6]. For example, the common core competences needed for staff of each department of an enterprise could include: customer orientation, teamwork cooperation, profession orientation, active aggressiveness, and performance orientation [4]. Obviously, the competence and performance emphasized by enterprises towards their employees has made employability one of the issues concerned by Solar enterprises and every employee. 
+As pointed out by competence-based theory, the important features of Solar employability put emphasis on advancing competence in adherence to an individual and focusing on the advancement of competence aimed at a long term self career development engulfed upon by an individual. Therefore, this research is to solve the questions such as: the job performances demanded by Solar enterprises for graduates of universities of technology to demonstrate and how they should reflect on the requirements for students’ employability as major indicators? The major contribution of these indicators at the Solar enterprise end would be for the selection of talents in recruitment and for references to Solar enterprises’ internal talents cultivation and on-the-job training; while on the engineering education, they could provide references to the planning and design of Solar curriculum to enhance university students’ employability [25]. 
+Accordingly, the research focused on the needs for students to be able to sustain long term employment in Solar enterprises after being employed via qualitative research methods to translate the job performance required by workplace into employability indicators [30, 31], as well as through qualitative survey and analysis to confirm such employability indicators [34]. Thus the purpose of the research aimed at establishing a set of employability indicators for students in the field of Solar industry from universities of technology meant to represent the performance expected by Solar enterprises for students to demonstrate in their future job positions becomes painfully obvious. From which purpose, the research desired to establish the competence and performance interpretation model for the selection of talents by enterprise recruitment and references for Solar enterprise internal talents cultivation planning, which could also provide references to curricular planning in engineering education takes on ever clearer shape. The research’s contribution to theory has primarily focused on establishing the interpretation model for the relationship between competence, job performance, working attitude and employability, as well as the establishment of employability indicators in Solar industry. 
+2.Employability
+Employability is generally recognized as the ability of a student to successfully apply for their first employment after graduation in a way as smooth as possible and to maintain their long term prospects of thus acquired positions longevity, as well as to be able to develop their job career favorably [7]. Cox and King [8] considered employability to signify a person’s possession of the ability to acquire skills for the implementation of required jobs, but it does not necessarily mean the person could start working immediately without further training. Employability can be deemed as the special feature of a person’s capability at work and their desire to maintain his or her attractiveness in the labor market [9]. Hillage and Pollard [10] assumed “employability” to mean the individual who could self-sufficiently realize his or her potential of employment in the labor market, and continue to demonstrate self-sufficiency on his or her work position even under limited job resources. Pool & Sewell [11] believed that employability could be understood as its embodiment in an individual who possesses a set of skills, knowledge and ability to develop satisfactorily and successfully in the employment market. Rothwell and Arnold [2] deemed from the point of view of an individual’s employment and career development. That employability is concerned with long term career development in professional fields, even to the point of inclusion of the capability to shift into different professions [12]. Therefore, the essence of employability can even be seen as the capability of an individual to shift into another profession for employment after the employment market of the individual’s professional field is saturated. Hence, employability also emphasizes the possession of good profession spillover effect. Accordingly, this paper defines employability in domain of Solar industry as an individual who possesses the capability to maintain ongoing process of the acquisition of knowledge, skills and positive attitude, and to properly translate learning experiences so as to maintain demonstrating the performances expected by the enterprise after being employed. Persons with high employability potential can learn fast when they are asked to execute a task demanded by a job, and they can transform personal knowledge and skills into expected job performance according to the job scenario’s requirements within Solar enterprise. 
+Diverse point of view of employability 
+The employability can be summarized into three aspects - as input, process and result for the direction of research: 
+ The input point of view — which sets out from the point of view of structuralism to explore the composition elements of employability. Based on competence-based theory, it is considered that an individual should possess good competence to be able to demonstrate high performance on the job. Such as researches by Hafeez & Essmail [13], Peng [14], and Rae [1].
+Researches results based on competence-based performance theory are emerging [15]. Robbins [16] assumed performance measurement based on competence could evaluate individual job output, behavior, characteristics (including the exhibition of the attitude, self-confidence, independence, cooperation, experience, etc. related to superb job performance). Competence-based theory has done well explaining the reference criteria adopted by modern enterprises for recruitment, so graduates need to possess the competence required by the employment market. 
+ Process point of view — which emphasizes high level of association between cultivation curriculum and employment market: It is necessary to reflect the expectation by experts of enterprises on students’ curricular design and learning activities. Study subjects should maintain focuses on the changes in practical needs [17]. Rae [1] believes that the students’ experiences of learning core subjects should be associated with enterprises and employability. 
+ Result point of view — which takes the point of view of behaviorism to explore the demonstration of employability: Based on resource-based theory, the performance standards required by the working world are translated into job performance expected by enterprises, such as the empirical investigation of resources driven performance conducted by Fernandes, Mills, and Fleury [18].
+Resource-based theory considers the three elements as company-critical resources, capabilities and competencies to have associated concepts [19], where capabilities and competencies are considered to be interchangeable [20]. The significance of capabilities was considered by Ljungquist [21] study to have two meanings, one was the ability of a work team to utilize resources needed in execution of a certain task or activity; the other was an individual’s tacit knowledge and organizational memory, which could be incorporated and applied to job coordination. As pointed out by resource-based theory that enterprises expect graduates who are devoted to workplace could demonstrate good ability in integrative planning and disposal of available resources. Therefore this research took the direction from result point of view towards employability and emphasized on job performance standards to be decided according to enterprise workplace’s surroundings, coupled with experts’ judgment, to respond to the requirements for students’ employability in Solar enterprises. 
+Employability indicators 
+The employability indicators from performance point of view tend to put emphasis on job performance. The so-called job performance could be defined as the pursuance of special action with the ability to maintain and conform to the condition given, policy and procedure under the organizational environment to effectively accomplish the job demands [22]. “Job” is considered as a certain special appointment in the achievement of a certain task, where the said task is a description of the activity content of a certain job for an employee [23]. Performance of an employee could include two categories as job behavior and activity, job result [24]. The former applies to job process itself, activity, and behavior for the assessment of performance mainly by measuring the activity engaged in and the behavior demonstrated on the job by the employee; while the latter assesses the degree of accomplishment by the employee of a predetermined target. As pointed out by SPSP[28], job performance needs to emphasize on ACT, which means:
+A: employees must effectively and timely complete job Activity;
+C: employees must have the competence to do a good job;
+T: their possession of Tools and Techniques.
+In aspect of employability indicators, Table 1 summarizes related studies. 
+
+
+
+
+Table 1 Related studies of students' employability in engineering education 
+Experts/Institution
+Employability Indicators
+Tsai, Zheng, & Lee [24]
+ Work attitude and job performance are closely related.
+Kagaari [32]
+ Application of skills, responsibilities, challenges, creativity, originality, safety, career development, adaptation to status quo, technical knowledge, at work. etc.
+MOE [33]
+ The most needed to enhance employability: foreign language ability, job searching and self-promoting capacity, innovation capability, leadership capacity.
+NYC [5]
+ Core employability: working attitude and cooperation capacity favorable for employment, occupational career planning capacity and aggressive learning to advance, possession of professional knowledge, and ability to apply them at work. 
+Peng [14]
+ Employability is constructed by three aspects as capacity, attitude and confidence.
+ Detailed indicators: presentation and communication skills, teamwork cooperation, mother tongue language capability, stability or stress resistance, professional knowledge and techniques, basic computer application skills, the ability to explore and solve problems confronted with at work, good working attitude, strong willingness to continue with studies, high degree of plasticity, professional ethics and morality, optimistic in facing career development prospects, active dedication to current job, leadership capacity, innovation capacity, the capacity to apply theory into actual work, professional certificates or related capacity, knowledge of relevant industrial environment and development status, foreign language capacity, full understanding and planning for self-career development, possession of job searching and self-promoting capacity.
+NTNU[5]
+ The 2005 follow-up survey of university graduates after one year of employment found insufficiency in employability and included as its causes leadership capacity, innovation capacity, the capacity to apply theory into actual work, professional certificates or related capacity, knowledge of relevant industrial environment and development status, foreign language capacity, full understanding and planning for self-career development, possession of job searching and self-promoting capacity.
+Jaffer, Ng’ambi & Czerniewicz [38]
+ Efficiency and quality are the challenges of industry towards advanced education. 
+Chang & Kuo [26]
+Four common dynamic capabilities in response to external demand: “market-oriented sensitivity”, “the ability to absorb knowledge”, “social-networking capability” and “the integrative ability to communicate and negotiate”. 3 special dynamic capabilities in business practices required: “the capability to identify what drives market growth”, “the capability to develop a good sense of market-entry timing” and “the capability to alter/create customers’ needs”.
+Chang [27]
+Market-oriented sensitivity, the ability to absorb knowledge, social-networking capability, and the integrative ability to communicate and negotiate are the dynamic capabilities required of IT entrepreneurs. 
+
+In summary of the above, the logical process for the establishment of the draft performance point of view, employability indicators in this research are:
+(1). To define performance point of view of employability;
+(2). To obtain “diverse point of view of employability”;
+(3). To cut in the path of research from “resulting point of view”.
+To summarize the point of view from Ljungquist [21], SPSP [28], Chang [27, 25], Kuo et al. [39] and to establish the draft performance point of view of employability indicator construction as: on the job integrated planning, evaluation and judgment, working efficiency, working quality, working spirit, monitoring control, and working attitude. 
+Based on the need for the research, the operability for each indicator is defined as shown in Table 2.
+Table 2 The definition of operability for employability indicator in Solar industry
+Indicators
+Definition of Operation
+Integrated Planning
+To do project planning and implementation with the ability to consider the project’s marketability, executability, and effectiveness, so as to further integrate resources in generating the maximum value for the Solar company and customers. 
+Evaluation and Judgement
+To execute difficult work with the ability of conducting prior assessments, find the best work procedures, methods and possible supporting resources within Solar company.
+Working Efficiency
+To execute work with the capacity for self-adjustment, active acquisition of new knowledge and techniques, goal-oriented work, advanced completion according to quality requirement, finding problems, finding the right person to do the thing right. 
+Working Quality
+To ensure that quality is the priority for the completion of work content, with the ability to fully control each factor in a workflow, with self-inspection to exhibit high quality of work results. 
+Working Spirit
+To accept challenging work target, focus attention, make good use of strategy, manage resources, achieve job task on time. 
+Monitoring Control
+Cost control and work progress control. Emphasis on process monitoring and control. Elimination of potential interfering factors. Presenting satisfactory work results to supervisors.
+Working attitude
+Being proactive, active and aggressive without the needs for others to urge one or remind. High ambition and willingness to take the job and help colleagues actively. Good relationship with people stemming from a positive attitude towards others. Work results surpass supervisors’ expectation. 
+3. Methodology
+The qualitative study method adopted field interviews and meetings with focus groups; while the quantitative study method adopted questionnaire survey approach. 
+Field interviews: The field interviews included 12 administrators (see Table 3) from Solar enterprises throughout Taiwan and 32 of the top 10% good performance worker from Solar enterprises. All interviews were completed within 5 months. The interview form used in this study followed Dessler’s methods [40] for the collection of duties for graduates’ first employment in Solar enterprises, where the STAR specific behavioral events included: (1) Situation: the circumstance occurred in the incidence; (2) Task: the target generated in response to the demand from the situation; (3) Action: the proceeding adopted by the person in charge; (4) Result: the outcome of the action. And, the Behavioral Event Interview (BEI) method was applied in translating the behavioral events into the questionnaire items. 
+Table 3 Taiwanese solar product manufacturers sampled and interviewed in this study
+Manufacturers’ positions in the supply chain
+Chief products
+Number of companies sampled 
+Percentage (%)
+Number of companies interviewed (%) 
+Upper-stream firms
+Silica materials,  silicon wafer materials
+17
+13.93
+3 (25%) 
+Mid-stream firms
+
+47
+38.51
+4 (33.33%) 
+
+Solar cells
+15
+12.30
+
+
+Solar cell modules
+18
+14.73
+
+
+Thin-film solar cell modules
+9
+7.38
+
+
+Dye-sensitized solar cells
+3
+2.46
+
+
+Concentrator solar cell modules
+2
+1.64
+
+Lower-stream firms
+
+58
+47.56
+5 (41.67%) 
+
+Solar photovoltaic system
+39
+31.98
+
+
+Solar photovoltaic converters
+10
+8.20
+
+
+Sales channels/suppliers of solar photovoltaic products
+9
+7.38
+
+Total 
+
+122
+100
+12 (100%) 
+ Source: [41, 26]. 
+
+Key points in STAR specific behavioral event interview included the listing of each STAR item with emphasis on what a good performance worker should exhibit according to supposed demonstrative behavioral feature, the degree of improvement through training, the possibility to makeup a performance insufficiency via recruiting new employees, the capacity standard (certificate requirement) needed for an individual, and the suggestion for measures when the individual’s competence is inadequate to demonstrate the anticipated performance(see Table 4, 5). 
+
+Table 4 Structure of field interviews with administrators and good performance engineers (form I)
+Employability Indicators
+Behavioral Feature
+Weighted Demonstration (%)
+Difficulty
+Importance
+Frequency
+Improvement via Training
+Improvement via Recruiting
+Certificate Requirement
+Competence Deficiency Handling
+Situation
+
+
+
+
+
+
+
+
+
+Task
+
+
+
+
+
+
+
+
+
+Action
+
+
+
+
+
+
+
+
+
+Result
+
+
+
+
+
+
+
+
+
+
+
+Table 5 Structure of field interviews with administrators and good performance engineers (form II)
+Employability Indicators
+Behavioral Feature
+Weighted Demonstration (%)
+Difficulty
+Importance
+Frequency
+Improvement via Training
+Improvement via Recruiting
+Certificate Requirement
+Competence Deficiency Handling
+Integrated Planning 
+
+
+
+
+
+
+
+
+
+Evaluation & Judgment
+
+
+
+
+
+
+
+
+
+Working Efficiency
+
+
+
+
+
+
+
+
+
+Working Quality
+
+
+
+
+
+
+
+
+
+Working Spirit
+
+
+
+
+
+
+
+
+
+Monitoring Control
+
+
+
+
+
+
+
+
+
+Working Attitude
+
+
+
+
+
+
+
+
+
+Figure 2: Structure of field interviews with administrators and good performance workers
+
+Focus group method: A group of 12 experts was formed to include a manpower resources consultant and a specialists from industry and academia to hold the focus group meeting with the participation from consultant, general manager, marketing plan manager, manpower resources department staff representatives, department heads, managers, scholars, good performance workers. The draft questionnaire that originally contained 110 questions was modified and combined to formulate the final questionnaire with 37 questions through repeated discussions. The structure of the questionnaire is shown in the following table:
+
+Table 6 Structure of the employability survey questionnaire 
+
+
+Employability Indicators from Performance Point of View
+
+Construct
+Number of question for behavioral event
+
+Integrated Planning
+4
+
+Evaluation and Judgement
+4
+
+Working Efficiency
+8
+
+Working Quality
+4
+
+Working Spirit
+6
+
+Monitoring Control
+5
+
+Working Attitude
+6
+
+Survey research: Through analysis by experts placed in the focus groups, the draft questionnaire was further tested for its reliability and overall validity. The reliability test adopted Cronbach’s α coefficient to examine the internal consistency from pre-test receivers. The reliability test adopted content validity through the confirmation of employability indicators by experts from focus groups and systematic examination of the questionnaire content to find out whether the questionnaire does fully reflect the practical behaviors represented by the employability indicators. Afterwards, Bartlett’s sphericity test was applied to confirm whether each aspect was near normal multivariate; and the KMO (Kaiser-Meyer-Olkin) measure of sampling adequacy was adopted for the factor validity test to determine whether the factor analysis was appropriate or not. Finally, the major content analysis was adopted to conduct oblique rotation for maximum variance with the intent of obtaining the validity for the construction of questionnaire and the order of importance for employability indicators. 
+The methods for data collection adopted random sampling of small and medium Solar enterprises in Taiwan area for survey by the internet version of questionnaire. After subtracting repeated mails from the questionnaire returned, a total of 501 valid returns were received representing a valid return rate of 50.1%. The purpose of analyzing the data was to understand whether the employability indicators established by this research could receive popular recognition from Solar enterprises.
+The application of the above mentioned research methods followed the logical procedures listed below, so as to receive research results at different stages.
+ Literature analysis: to obtain key points for field interviews;
+ Focus group meeting I: to confirm key points for field interviews via experts’ point of view;
+ Behavioral Events interview method: to obtain the draft employability indicators from performance point of view;
+ Focus group meeting II: to confirm the draft employability indicators and the draft questionnaire;
+ Implementation of survey and data analysis.
+Among them, several meetings were held during Stage II of the focus group meeting due to diverging opinions from experts on the significance of employability indicators. It was considered that a high degree of differences existed in the direct performance indicators between Solar enterprises for manufacturing and services that it was not appropriate to directly translate the direct performance requirements for employees into the requirements for students’ employability. Therefore, the direct performance requirements for field interviews were transformed to become indirect requirements so that they could represent enterprises’ expectation for performance as translated into employability. 
+4. Results and discussions
+Working attitude, competence, job performance and employability form an interactional model
+The research is based on competence-based theory to explore performance standards to be demonstrated through field interviews with Solar enterprises in order to formulate seven employability indicators including: working attitude, working efficiency, integrated planning, working spirit, evaluation and judgement, monitoring control, and working quality. A triangle shaped interpretation model can be used to summarize through the research results. This triangle model is jointly constructed by competence, job performance, and working attitude, where the degree of dependence between competence and job performance forms the degree of expectation value for students’ employability from enterprises. The concept is shown in Fig. 1. From the results of field interviews, it can be seen that “working attitude” is the basis for an employee to fully express his or her competence and demonstrate the “job performance” expected by the Solar enterprise. Employability shall not only demonstrate consistency between the level of an individual’s “competence” and “job performance” but also the expected high employability so as to create the individual’s employable value for long term employment. The significance contains the followings (as in Fig. 2):
+ Working attitude and competence, job performance together form an interactional model. The level of the employability expectation value signifies the employability for long term employment in Solar enterprise.
+ The variation in employability expectation value is based on working attitude; where working attitude determines the level demonstrated in competence and job performance in Solar enterprise.
+ There is dependence between competence and job performance; where students who possess the competence can demonstrate the expected job performance in Solar enterprise.
+ Being affected by the enterprises’ internal organizational behaviour, employees with high competence might not necessarily demonstrate high job performance. However, the possession of high working attitude may improve such condition.
+ Working attitude determines the level of competence and job performance. The possession of aggressive working attitude and active learning competence can help increasing job performance. When an individual’s job performance is not as expected, good working attitude could enable the individual to pursue even higher job performance and to improve the individual’s value for long term employment in Solar enterprise.
+
+
+
+
+
+
+
+
+
+A part of the competence was augmented and the performance requirement was diminished
+From cross-comparison of field interview records it was shown that even the interviewed objectives were screened in advance however the interview results still exhibited a part of the work items to have been exaggerated for the competence required. Conversely, it also exhibited a part of the enterprises’ expected job performance was weakened. Possible reasons for this may include:
+ Enterprises are generally likely to consider students who are the first to be employed as the ones who are more likely to execute their job task under the assistance from senior supervisors. 
+ Enterprises usually consider students’ possession of professional certificates as merely having the minimum level needed to enter the workplace, where on-the-job trainings (OJT) are still needed to a certain degree for students to qualify for the job properly.
+ The phenomenon that a part of the competence was seen as exaggerated, if not truly augmented, could be explained from the point of view of the expectation theory’s angle of Chang [25], the interviewed persons might expect their opinions to be respected by their administrators to affect the company’s salary adjustment policy.
+The questionnaire had good reliability and validity
+In qualitative study, the overall questionnaire reached the Cronbach's  value of 0.927, indicating the reliability to reach excellent level. The KMO reached 0.838 where the validity of all factors reached medium (KMO>0.7) level, indicating the stable effect of the questionnaire. Meanwhile, the Bartlett’s value of 869.15(p<0.01) also indicated each aspect to be near normal multivariate and suitable for further factor analysis.
+The principal component analysis was adopted for factor analysis, and Promax with Kaiser Normalization was conducted. The employability index chose Eigen value >0.7, factor loading >0.6, and the standard for extracted factor was assessed as one that should contain at least two items for assessment. The reason for the selecting of Eigen value>0.7 was to ensure the goodness-of-fit for the factor model to reach certain level and the adoption of Kaiser method and Scree test as solution was feasible. Therefore, in order to ensure the integrity of the factors, Scree test was conducted for the discretion of the number of factor. The analysis results extracted 18 items and 7 factors with the interpretation capability reaching 80.35% as listed in the following Table 7.  
+Table 7 Employability indicators factor analysis
+Number of
+Questions
+Integrated Planning 
+Working Spirit
+Monitoring
+Control
+Working Attitude
+Evaluation &
+Judgment
+Working Efficiency
+Working Quality
+A2
+0.94
+
+
+
+
+
+
+A1
+0.93
+
+
+
+
+
+
+A3
+0.86
+
+
+
+
+
+
+A4
+0.79
+
+
+
+
+
+
+A26
+
+0.83
+
+
+
+
+
+A25
+
+0.83
+
+
+
+
+
+A27
+
+0.71
+
+
+
+
+
+A14
+
+
+0.87
+
+
+
+
+A28
+
+
+0.86
+
+
+
+
+A36
+
+
+
+0.92
+
+
+
+A35
+
+
+
+0.89
+
+
+
+A8
+
+
+
+
+0.87
+
+
+A7
+
+
+
+
+0.86
+
+
+A24
+
+
+
+
+
+0.81
+
+A12
+
+
+
+
+
+0.76
+
+A15
+
+
+
+
+
+0.72
+
+A20
+
+
+
+
+
+
+0.94
+A33
+
+
+
+
+
+
+0.65
+Eigen value
+7.95
+1.93
+1.21
+0.95
+0.90
+0.78
+0.75
+Descriptive 
+Variation
+44.19%
+10.71%
+6.70%
+5.29%
+4.99%
+4.33%
+4.14%
+Accumulative
+Descriptive 
+Variation 
+Value
+44.19%
+54.90%
+61.60%
+66.89%
+71.88%
+76.21%
+80.35%
+Factor Extraction：Principal Component Analysis
+Rotation Method：Promax with Kaiser Normalization
+The purpose of factor analysis was to obtain the construct validity of the questionnaire, and to form the basis for judging the order of importance of the employability indicators. The application of factor analysis could extract common factors between the variables so as to make sure a less complicated data structure would ensue in the end. Through the findings for common factors, the content for conceptual structure can be said to be confirmed. The analysis results showed the questionnaire itself to be of good validity, while each employability indicator was based on the scale of Eigen value, where the order of importance was ranked from high to low as: Integrated Planning, Working Spirit, Monitoring Control, Working Attitude, Evaluation & Judgment, Working Efficiency, Working Quality. 
+Description of statistical analysis
+The valid returns consisted of sampling from 338 males (67.5%) being the highest, and 163 females, while the sampling age was distributed as 26-30 (57.5%), 21-25 (21/25%), 31-35 (16.25%). Technical duty was the highest (71.8%) among the duties surveyed, as listed in Table 8; where the seniority from 3 years to less than 5 years (41.0%) occupied the most, as listed in Table 9. Averages and standard deviations for different categories are shown in the following Table 10. 
+Table 8 Distribution of sample duty                                  N=501 
+ 
+%
+Accumulated %
+Valid
+Sales Duty
+5.1
+5.1
+ 
+Technical Duty
+71.8
+76.9
+ 
+Management Duty
+5.1
+82.1
+ 
+Administrative Duty
+7.7
+89.7
+ 
+Others
+10.3
+100.0
+ 
+Total
+100.0
+
+	Table 9 Distribution of sample seniority                               N=501
+ 
+%
+Accumulated %
+Valid
+less than 1 year
+5.1
+5.1
+ 
+1 year to less than 3 years
+20.5
+25.6
+ 
+3 years to less than 5 years
+41.0
+66.7
+ 
+5 years to less than 10 years
+23.1
+89.7
+ 
+over 10 years
+10.3
+100.0
+ 
+Total
+100.0
+
+Table 10 Averages and standard deviations of job performance indicator and its items
+Category
+Item
+Individual Average
+Individual Standard Deviation
+Average
+Standard Deviation
+Employability Indicator from Performance Point of View
+Integrated Planning
+3.26
+0.93
+3.60
+0.57
+
+Working Spirit
+3.70
+0.70
+
+
+
+Monitoring Control
+3.54
+0.67
+
+
+
+Working Attitude
+3.60
+0.84
+
+
+
+Evaluation & Judgment
+3.84
+0.69
+
+
+
+Working Efficiency
+3.68
+0.61
+
+
+
+Working Quality
+3.79
+0.68
+
+
+
+Observation of the distribution of each employability indicator from “individual average” shows the three items: working spirit, evaluation & judgment, working quality to be significantly higher. The possible phenomenon could come from the test samples which had the most from “technical duty”, therefore these three items were particularly emphasized. 
+The radar chart indicates the strength of employability required by enterprises for students of Solar technology 
+The purpose of the radar chart is to understand whether the questionnaire survey results indicate enterprises to expect university students’ employability to reach the score of 60 as a generally acceptable level. Therefore, the strength of employability indicators expected by Solar enterprises was envisaged according to the average for each indicator to form the radar chart as shown in Fig. 3. Assuming the weighted value for each factor is the same, and taking the 5 level of classification from the questionnaire to have 5 as the highest and 1 as the lowest, then a triangle can be formed between any two factors. Accordingly, the ratio method was applied to calculation the area of included angle between the two factors (Δ) by the equation Δ=ab sinθ, where, a, b respectively represents the arm length (for example for Δ1 area calculation where a=3.26, b=3.84)[7]. Hence, the strength of employability indicator is ΣΔ=92.20 in comparison to the ideal value ΣΔ=150 (i.e. the two arms a=5, b=5), and the strength can reach the ideal value of 61.47% after being true valued. It indicated the individual enterprise worker who accepted the survey considered the score of about 60 to be at an acceptable level for the requirement of employability to be demonstrated by students of Solar technology. (Mr. Greg, I also attach this paragraph, but I found the symbols disappear in TEXT. You may directly edit here or collate to this part while you are editing it in TEXT that you can see the symbols)
+
+
+
+
+
+
+
+
+
+
+
+
+Figure 3 Area of strength of employability demonstration expected by individual Solar enterprise
+
+Through the indication by radar chart analysis for each employability indicator, the averages obtained from the survey on the Likert scale were all over the level of 3 (such as 3.26 for Integrated Planning). However, from conversions of the radar chart areas, the returned Solar enterprises did not hold very high level of expectation for students’ performance. It implied that enterprises required students’ employability for only the minimum level but emphasized on the formation of the employees’ competence and working attitude after their entry into the workforce. 
+5. Conclusions 
+The process in this research to obtain the seven employability indicators shared the concept of key performance indicators (KPI) and inferred their application to the expectation of employability for students of universities of technology. Therefore, the research process is essentially competence-based and as such is meant to achieve the desired effect of estimating competence from performance. The interpretation model formulated by competence, job performance, working attitude and employability can effectively interpret the relationship between enterprises’ expectation and students’ employability. In addition, since the acquisition of employability indicators came from the results of field interviews, it signified the path of this research that ventured out in its attempt to obtain the employability indicators in correspondence with the short life cycle of Taiwanese Solar industry’s products and the special requirement for high market competition. Whereas, each indicator is also appropriate as the basis for reference to curricular planning in Solar related departments of universities in Taiwan area. In other words, when students possess the employability items named in this research then they shall hopefully be more encouraged to boldly conform to the ever stricter requirements for long term employment in enterprises. 
+The application in practice, Solar enterprises can use the employability indicators to develop the “Employability Assessment Form” that meets the requirement by individual enterprise for recruiting new employees as objectively as possible when needed. The employability indicators can be further applied to the planning for enterprise internal education training courses to enhance workers’ employability for long term employment. 
+Performance assessment can be quite difficult for Solar industry, which is categorized into Solar product manufacturing, Solar service, or technical service businesses where the knowledge and techniques for each category can largely vary in depth and broadness, therefore each company may expect students to perform differently. Based on limitation on the research, the study only explored the “job performance” in direct relationship with work. The study suggests future development of this subject as follows:
+Curricular design based on the employability indicators. The seven items of employability indicators obtained from this research can be matched to job positions in Solar industry applicable to graduates with the planning of graduates’ curriculum enhancement in mind as well as the employability in the field of Solar management at universities. The curriculum could include both the formal curriculum and informal curriculum section as well. The formal curriculum should have definitive goal structure, such as: employment targeted curriculum, practical training in Solar enterprises, industry and academia associated optional courses; while its informal counterpart can be based on industrial and academic activities, such as topical lectures, field visits to enterprises, workplace experiencing. The curriculum should be reviewed periodically by experts invited directly from industry in order to ensure the design of the curriculum corresponds to the requirement for employability indicators. 
+References
+1. D. Rae, “Connecting enterprise and graduate employability”, Education + Training, vol.49, no.8/9, pp. 605-619, 2007.
+2. A. Rothwell, and J. Arnold, “Self-perceived employability: development and validation”, Personnel Review, vol.36, no.1, pp.23-41, 2007.
+3. A. Shahin, and M. A. Mahbod, “Prioritization of key performance indicators- an integration of analytical hierarchy process and goal setting”, International Journal of Productivity and Performance Management, vol.56, no.3, pp.226-240, 2007.
+4. C. C. Chang, “Fuzzy assessment of core competence for human resources in a representative technological organization”, NTU Management Review, vol.18, no.2, pp. 105-132, 2008.
+5. NTNU, “Integrated higher education database system in Taiwan”, 2009, available at:  http://www.cher.ntnu.edu.tw/sindex.php (accessed 23 May 2010).
+6. D. Lei, and J. W. Slocum, “Global strategy, competence-building and strategic alliances”, California Management Review, vol.35, no.1, pp.81-97, 1992.
+7. C. C. Chang, "Improving employment services management using IPA technique", Expert Systems with Applications, vol. 40, pp. 6948–6954, 2013.
+8. S. Cox, and D. King, “Skill sets: an approach to embed employability in course design”, Education + Training, vol.48, no.4, pp. 262-274, 2006.
+9. J. Sanders, and A. De Grip, “Training, task flexibility and the employability of low-skilled workers”, International Journal of Manpower, vol. 25, no.1, pp.73-89, 2004.
+10. J. Hillage, and E. Pollard, "Employability: developing a framework for policy analysis", research report RR85, Institute for Employment Studies, DfEE, Brighton, 1998.
+11. L. D. Pool, and P. Sewell, “The key to employability: developing a practical model of graduate employability”, Education + Training, vol. 49, no.4, pp. 277-289, 2007.
+12. R. Z. Wang, “The new evaluative indicator for university—employability”, 2008, available at: http://epaper.heeact.edu.tw/archive/2008/09/01/723.aspx (accessed 20 April 2014).
+13. K. Hafeez, and E. A. Essmail, “Evaluating organization core competence and associated personal competencies using analytical hierarchy process”, Management Research News, vol.30, no.8, pp. 530-547, 2007.
+14. S. M. Peng, “2005 A year after graduating from university survey report”, 2008, available at: http://www.cher.ntnu.edu.tw/wp-content/uploads/file/report/report_94_pba.pdf(accessed 9 April 2014).
+15. D. D. Dubois, “Competence-Based Performance Improvement: A Strategy for Organizational Change”, 2007, available at: http://www.knowledge.hut.fi/projects/itss/referDubois.pdf (accessed 24 ,March 2014).
+16. S. P. Robbins, "Essentials of Organizational Behavior (6th Edi.)", NJ: Prentice Hall, 2000.
+17. F. J. Landy, and J. M. Conte, "Work in the 21st Century", New York, NY: McGraw-Hill Companies, 2004.
+18. B. H. R. Fernandes, J. F. Mills, and M. T. L. Fleury, “Resources that drive performance: an empirical investigation”, International Journal of Productivity and Performance Management, vol.54, issue 5/6, pp. 340-354, 2004.
+19. C. K. Prahalad, and G. Hamel, “The core competence of the corporation”, Harvard Business Review, vol. 68, no.3, pp. 79-92, 1990.
+20. Y. E. Spanos, and G. Prastacos, “Understanding organizational capabilities: towards a conceptual framework”, Journal of Knowledge Management, vol. 8, no.3, pp. 31-43, 2004.
+21. U. Ljungquist, “Core competence beyond identification: presentation of a model”, Management Decision, vol.45, no.3, pp. 393-402, 2007.
+22. D. Boyatzis, "The competence manager: A model for effective performance", New York, NY: John Wiley & Son, 1982.
+23. R. A. Noe, "Employee Training and Development(3rd ed.)", Singapore: McGraw-Hill/Irwin, 2005.
+24. M.C. Tsai, Q. S. Zheng, and J. H. Lee, “A study on the competence and job performance of the Mainland China direct employees-In case of Taiwanese enterprises of component parts of monitors”, Business Review, vol.10, no.1, pp. 53-74, 2005.
+25. C. C. Chang, "Obtaining IT competencies for curricular development using Q-technique", International Journal of Academic Research in Business and Social Sciences, vol. 4, no.3,  pp. 60-74, 2014a. 
+26. C. G. Kuo, C. F. Yang, M. J. Kao, W. P. Weng, C. C. Chang , L.R.Hwang , and J. L. Ni1, “An analysis and research on the transmission ratio of Dye Sensitized Solar Cell Photoelectrodes by using different etching process”, International Journal of Photoenergy, vol. 2013, Article ID 151973, pp. 1-8, 2013.
+27. C. C. Chang, "Exploring IT entrepreneurs’ dynamic capabilities using Q-technique. Industrial Management & Data Systems, vol.122, no.8, pp. 1201 – 1216, 2012.
+28. SPSP, “Success performance solutions-Hire competence with confidence”, 2009, Available at: http://www.super-solutions.com/criteriaone.sap (accessed 12 March 2014).
+29. P. C. Huang, C.H. Huang, M. Y. Lin, C. Y. Chou, C. Y.  Hsu, and C. G. Kuo , “ The effect of sputtering parameters on the film properties of Molybdenum Back Contact for CIGS Solar Cells”, International Journal of Photoenergy,Vol. 2013, Article ID 390824, pp. 1-8.
+30. C.G. Kuo, C.Y. Hsu, S.S. Wang, and D.C. Wen,, “Photocatalytic characteristics of TiO2 films deposited by magnetron sputtering on polycarbonate at room temperature”, Applied Surface Science, Vol. 258, No.18, July 2012, pp.6952-6957.
+31. C. G. Kuo, C. F. Yang, L. R. Hwang, and J. S. Huang, “ effects of Titanium Oxide Nanotube Arrays with different lengths on the characteristics of Dye-Sensitized Solar Cells”, International Journal of Photoenergy,Vol. 2013, Article ID 650973, pp. 1-6.
+32. J. R. K. Kagaari, “Evaluation of the effects of vocational choice and practical training on students’ employability”, Journal of European Industrial Training, vol.31, no.6, pp. 449-471, 2007.
+33. MOE, “Constructing a mechanism of supply chain and integration for high level talents—grasping the flow of university graduates”, 2009, available at: http://www.edu.tw/high/news.aspx?news_sn=2513(accessed 23 March 2014).
+34. C. C. Chang, "Building an approach to evaluate capabilities development", Pensee Journal, vol. 76, no.1, pp. 167-179, 2014b.
+35. NYC, "Enhancing graduates employability within formal education—a survey report on graduates employability", National Youth Commission, Executive Yuan. Taiwan, ROC, 2007.
+36. C. C. Chang, and C. G. Kuo, "Exploring dynamic capabilities of executives for core strategy", African Journal of Business Management, vol. 7, no. 40, pp. 4188-4198, 2013.
+37. C. C. Chang, "An IPA-embedded model for evaluating creativity curricula", Innovations in Education and Teaching International, vol. 51, no. 1, pp. 59-71, 2014c.
+38. S. Jaffer, D. Ng’ambi, and L. Czerniewicz, ”The role of ICTs in higher education in South Africa: One strategy for addressing teaching and learning challenges”, International Journal of Education and Development using Solar an Communication Technology, vol.3, Issue 4, pp.131-142, 2007.
+39. C. G. Kuo and B. J. Sheen, “Seaweed Chlorophyll on the Light-electron efficiency of DSSC”, Journal of the Chinese Chemical Society, vol. 58, no. 2, January 2011, pp.186-190.
+40. G. Dessler, "Human resource management (11th ed.)", Prentice Hall, New York, 2007.
+41. IDBMEA, "Industrial Development Bureau, Ministry of Economic Affairs", 2013, http: //www.moeaidb.gov.tw/external/view/tw/inquery/index.html (accessed on 2 April 2013)
+
