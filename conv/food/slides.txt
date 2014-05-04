@@ -1,60 +1,33 @@
-# This is a sample Vroom input file. It should help you get started.
-#
-# Edit this file with your content. Then run `vroom --vroom` to start
-# the show!
-#
-# See `perldoc Vroom::Vroom` for complete details.
-#
----- config
-# Basic config options.
-title: Vroom!
-indent: 5
-height: 18
-width: 69
-skip: 0
+% Food!
 
-# The following options are for Gvim usage.
-# vim: gvim
-# fuopt: maxhorz,maxvert
-# guioptions: egmLtT
-# guicursor: a:blinkon0-ver25-Cursor
-# guifont: Bitstream_Vera_Sans_Mono:h18
+% by Dr Bean
 
----- center
-Food!
+% 二  4月 29 09:14:32 CST 2014
 
-by Dr Bean
-
-(hint: press the spacebar)
-
-----
-== Socializing with people in other parties
+## Socializing with people in other parties
 
 Inviting people to appreciate, share the food.
 
-----
-== Eating contests
+## Eating contests
 
-http://en.wikipedia.org/wiki/Competitive_eating
+[http://en.wikipedia.org/wiki/Competitive_eating](http://en.wikipedia.org/wiki/Competitive_eating)
 
-https://www.youtube.com/results?q=eating%20contests&hl=en&client=firefox-a&hs=QXO&rls=org.mozilla:en-US:unofficial&channel=fflb&biw=599&bih=644&ie=UTF-8&sa=N&tab=i1
+[https://www.youtube.com/results?q=eating%20contests&hl=en&client=firefox-a&hs=QXO&rls=org.mozilla:en-US:unofficial&channel=fflb&biw=599&bih=644&ie=UTF-8&sa=N&tab=i1](https://www.youtube.com/results?q=eating%20contests&hl=en&client=firefox-a&hs=QXO&rls=org.mozilla:en-US:unofficial&channel=fflb&biw=599&bih=644&ie=UTF-8&sa=N&tab=i1)
 
-https://www.google.com/search?q=eating+contests&hl=en&client=firefox-a&hs=QXO&tbo=d&rls=org.mozilla:en-US:unofficial&channel=fflb&source=lnms&tbm=isch&sa=X&ei=GajbUJe9IceHkgX-iYBY&ved=0CAoQ_AUoAA&biw=599&bih=644
+[https://www.google.com/search?q=eating+contests&hl=en&client=firefox-a&hs=QXO&tbo=d&rls=org.mozilla:en-US:unofficial&channel=fflb&source=lnms&tbm=isch&sa=X&ei=GajbUJe9IceHkgX-iYBY&ved=0CAoQ_AUoAA&biw=599&bih=644](https://www.google.com/search?q=eating+contests&hl=en&client=firefox-a&hs=QXO&tbo=d&rls=org.mozilla:en-US:unofficial&channel=fflb&source=lnms&tbm=isch&sa=X&ei=GajbUJe9IceHkgX-iYBY&ved=0CAoQ_AUoAA&biw=599&bih=644)
 
-----
-== Hotdogs, hamburgers, pizzas
+## Hotdogs, hamburgers, pizzas
 
 68 hotdogs in 10:00
-https://www.youtube.com/watch?v=UInIYi167dA
+[https://www.youtube.com/watch?v=UInIYi167dA](https://www.youtube.com/watch?v=UInIYi167dA)
 
 One hamburger meal in 2:58
-https://www.youtube.com/watch?v=dKjtVqLLLR0
+[https://www.youtube.com/watch?v=dKjtVqLLLR0](https://www.youtube.com/watch?v=dKjtVqLLLR0)
 
 7,9-year-olds eat one pizza each in 8:00
-https://www.youtube.com/watch?v=36rnoxonj-0
+[https://www.youtube.com/watch?v=36rnoxonj-0](https://www.youtube.com/watch?v=36rnoxonj-0)
 
-----
-== Simulated eating competition
+## Simulated eating competition
 
 A: Hot dogs
 
@@ -76,19 +49,17 @@ X: Cups of corn soup
 How many cups of corn soup can C in each group consume
 (produce by drawing) in one minute?
 
-----
-Moses Lerman and matzo ball eating
+## Moses Lerman and matzo ball eating
 
-http://web.nuu.edu.tw/~greg/conversation/Lerman.html
+[http://web.nuu.edu.tw/~greg/conversation/Lerman.html](http://web.nuu.edu.tw/~greg/conversation/Lerman.html)
 
-http://youtube.com/
+[http://youtube.com/](http://youtube.com/)
 Moses Lerman
 
-http://en.wikipedia.org/wiki/Matzah_ball
-http://images.google.com/search?num=10&hl=en&site=&tbm=isch&source=hp&biw=419&bih=451&q=matzo+ball+soup&oq=matzo+ba&gs_l=img.3.0.0l5j0i5l3j0i24l2.893.3387.0.6219.8.8.0.0.0.0.73.519.8.8.0...0.0...1ac.1.nEr0pzo2w6A
+[http://en.wikipedia.org/wiki/Matzah_ball](http://en.wikipedia.org/wiki/Matzah_ball)
+[http://images.google.com/search?num=10&hl=en&site=&tbm=isch&source=hp&biw=419&bih=451&q=matzo+ball+soup&oq=matzo+ba&gs_l=img.3.0.0l5j0i5l3j0i24l2.893.3387.0.6219.8.8.0.0.0.0.73.519.8.8.0...0.0...1ac.1.nEr0pzo2w6A](http://images.google.com/search?num=10&hl=en&site=&tbm=isch&source=hp&biw=419&bih=451&q=matzo+ball+soup&oq=matzo+ba&gs_l=img.3.0.0l5j0i5l3j0i24l2.893.3387.0.6219.8.8.0.0.0.0.73.519.8.8.0...0.0...1ac.1.nEr0pzo2w6A)
 
-----
-Don Lerman
+## Don Lerman
 
 alive contest could did Don eating famous(x2) father
 happened mayor proud somebody talks thought wanted wishes
@@ -105,8 +76,7 @@ _____(15) so he _____(16) see he is a _____(17).
 
 Read/listen to an account of an eating competition. Dr Bean likes to eat, but can't understand why people would want to try and eat more  than other people and to eat so much that it hurts and you want to stop. Dr Bean thinks it is not good for their bodies. What do you think?
 
-----
-Judith Seixas
+## Judith Seixas
 
 
 concern felt friend fruit heavy icecream love other
@@ -120,8 +90,7 @@ tells her _____(10) Louisa, who is _____(11), that as a
 _____(12) of her father's _____(13) she always 
 _____(14) about what _____(15) is eating.
 
-----
-Statements about being over- and under-weight
+## Statements about being over- and under-weight
 
 + question: Some overweight people are not worried.
 + question: More people who are overweight are unhappy
@@ -142,8 +111,7 @@ solution for people who are overweight.
 + question: Exercise is not a good idea if you are underweight.
 
 
-----
-== Overeaters and undereaters
+## Overeaters and undereaters
 
 + 1: Young American women are more likely to start
 out undereating, than overeating.
@@ -157,3 +125,84 @@ eating medicine.
 + 7: Not many people recover from eating disorders.
 + 8: One form of treatment is talking to other people
 with the same problem.
+
+## Joe Spano, Sr and Joe Spano, Jr
+
+Abilene restaurant closes down:
+
+[http://www.reporternews.com/news/2007/nov/06/spanos-restaurant-closes-down](http://www.reporternews.com/news/2007/nov/06/spanos-restaurant-closes-down)
+
+Joe Spano opens restaurant in New Jersey
+
+[http://www.tripadvisor.co.uk/Restaurant_Review-g46745-d1113401-Reviews-Spano_s_Ristorante_Italiano-Point_Pleasant_Beach_New_Jersey.html#REVIEWS](http://www.tripadvisor.co.uk/Restaurant_Review-g46745-d1113401-Reviews-Spano_s_Ristorante_Italiano-Point_Pleasant_Beach_New_Jersey.html#REVIEWS)
+
+## Buffalo Gap Rd, Abilene
+
+[https://maps.google.com/maps?q=Buffalo+Gap+Road,+Abilene,+TX,+United+States&hl=zh-TW&sll=37.0625,-95.677068&sspn=47.483365,82.353516&oq=abilene,+buff&t=h&hnear=Buffalo+Gap+Rd,+Abilene,+Texas&z=12](https://maps.google.com/maps?q=Buffalo+Gap+Road,+Abilene,+TX,+United+States&hl=zh-TW&sll=37.0625,-95.677068&sspn=47.483365,82.353516&oq=abilene,+buff&t=h&hnear=Buffalo+Gap+Rd,+Abilene,+Texas&z=12)
+
+
+## 719 Arnold Ave, Point Pleasant Beach, NJ 08742
+
+[https://maps.google.com/maps?q=719+Arnold+Ave,+Point+Pleasant+Beach,+NJ+08742&hl=zh-TW&sll=32.360686,-99.782784&sspn=0.199231,0.321693&t=h&hnear=719+Arnold+Ave,+Point+Pleasant,+New+Jersey+08742&z=16](https://maps.google.com/maps?q=719+Arnold+Ave,+Point+Pleasant+Beach,+NJ+08742&hl=zh-TW&sll=32.360686,-99.782784&sspn=0.199231,0.321693&t=h&hnear=719+Arnold+Ave,+Point+Pleasant,+New+Jersey+08742&z=16)
+
+## Closing down a restaurant
+
+
+coming
+customers
+dozens
+drive
+enough
+first
+go
+know
+large
+last
+main
+open
+options
+owned
+point.
+quietly
+right
+sad
+see
+shut
+struggling
+tears
+think
+wish
+
+Spano's Italian Restaurant _____(1) closed its doors for the _____(2) time Saturday night. Spano _____(3) down the eatery because he said he could no longer compete with the _____(4) corporate restaurants. "We've been _____(5) for about a year," said Spano. The 29-year-old Spano said he was able to give _____(6) a personal touch but that just wasn't _____(7). When he asked his customers why they hadn't been _____(8), they'd say: "We just didn't _____(9) about it."
+
+"The big boys are out on the _____(10) streets," Spano said. "They're the _____(11) ones you see, and I don't have that luxury at this _____(12). You can _____(13) by my place 20 times, and you won't _____(14) me. You have to _____(15) exactly where you're going." 
+
+It was _____(16) for Spano. "We had some _____(17) in the restaurant this past week," Spano said. "I _____(18) I could stay _____(19) for them." Spano said he will consider his options. Those _____(20) may include a new restaurant. "It would have to be the _____(21) building in the right place," Spano said.
+
+Spano encouraged Abilenians to go to local restaurants. "There are _____(22) of locally _____(23) restaurants in this town," he said. "They're struggling. Find them and _____(24) there."
+
+## Point Pleasant Beach, New Jersey
+
+[http://www.pointpleasantbeach.com/](http://www.pointpleasantbeach.com/)
+[http://en.wikipedia.org/wiki/Point_Pleasant_Beach,_New_Jersey](http://en.wikipedia.org/wiki/Point_Pleasant_Beach,_New_Jersey)
+
+## Guess the fruit
+
+* Color (inside and outside)
+* Shape
+* Size
+* Taste
+* Price
+* Origin: tropical or temperate (European)
+* Harvest time: winter fruit
+* Use
+* Eating style, with a spoon,or biting it
+* Texture
+
+Vocabulary: core, skin (peel), seed
+
+## Feelings about cooking 
+
+- Do you like to cook?
+- Do you like cooking for other people?
+- Would you like to open a restaurant?
