@@ -169,11 +169,13 @@ The research used competence-based theory to explore performance standards expec
      
 Figuire 1 and Figure 2 (Mr. Greg, please do in WORD for this part, tks!)
      
+Wait.
 I don't see how to change the text in Figure 1.
 I want to change "The level of of employability expectation value" to
 "Employability"
 Please do this for me.
      
+No changes to Figure 2.
      
 The contribution of competence was augmented and the performance requirement was diminished
    From a cross-comparison of field interview results it was seen that even if the interviewed objectives were screened in advance, the interviewees still exhibited for some of the work items exaggerated opinions of the competencies required. Conversely, they also exhibited for some of the enterprises¡¦ job performance requirements weakened expectations.  Possible reasons for this may include:
@@ -182,8 +184,8 @@ The contribution of competence was augmented and the performance requirement was
 „P The phenomenon of exaggerated expressions, if not truly heightened beliefs, in the requirements of competence could be explained from the expectation theory angle of Chang [25]. The interviewed persons might expect their opinions to be respected by their administrators, and thus affect the company¡¦s salary adjustment policy.
 
 The questionnaire had good reliability and validity
-   In qualitative study, the overall questionnaire reached the Cronbach's ƒÑ value of 0.927, indicating the reliability to reach excellent level. The KMO reached 0.838 where the validity of all factors reached medium (KMO>0.7) level, indicating the stable effect of the questionnaire. Meanwhile, the Bartlett¡¦s value of 869.15(p<0.01) also indicated each aspect to be near normal multivariate and suitable for further factor analysis.
-   The principal component analysis was adopted for factor analysis, and Promax with Kaiser Normalization was conducted. The employability index chose Eigen value >0.7, factor loading >0.6, and the standard for extracted factor was assessed as one that should contain at least two items for assessment. The reason for the selecting of Eigen value>0.7 was to ensure the goodness-of-fit for the factor model to reach certain level and the adoption of Kaiser method and Scree test as solution was feasible. Therefore, in order to ensure the integrity of the factors, Scree test was conducted for the discretion of the number of factor. The analysis results extracted 18 items and 7 factors with the interpretation capability reaching 80.35% as listed in the following Table 7.  
+   In the qualitative study, reliability of the questionnaire overall, as measured by Cronbach's ƒÑ, reached a value of 0.927, indicating reliability was excellent. The maximum KMO value was 0.838 while the validity of all factors reached a medium (KMO>0.7) level, indicating the questionnaire data was stable. Meanwhile, the Bartlett value of 869.15(p<0.01) also indicated each dimension of the data to be near normal multivariate and suitable for further factor analysis.
+   Principal component analysis was adopted for the factor analysis, and Promax with Kaiser Normalization was performed. For the employability index eigenvalues >0.7 were chosen, with factor loadings >0.6. The standard for extracted factors was that they should contain at least two items for assessment. The reason for selecting eigenvalues >0.7 was to ensure that the goodness-of-fit of the factor model reached an acceptable level and the adoption of the Kaiser method and Scree test to find solutions was feasible. In order to ensure the integrity of the factors, a Scree test was conducted to decide on the number of factors. The analysis results extracted 18 items and 7 factors with the interpretation capability reaching 80.35% as listed in the following Table 7.  
 
 
 Table 7 (Mr. Greg, please do in WORD for this part, tks!)
