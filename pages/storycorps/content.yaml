@@ -18,8 +18,14 @@ topic:
   -
     id: food
     title: Food stories
-    intro: Food is wonderful. But the stories people have about it are varied. Some people have food problems. 
+    intro: Food is wonderful. But the stories people have about it are varied. Some people have food problems. Some people get their food from places other than stores.
     story:
+      -
+        id: diaz
+        title: Families sharing food
+        blurb: |
+          <a href="http://en.wikipedia.org/wiki/Great_Depression">The Great Depression</a>, 80 years ago in the U.S, was a severe economic downturn, with incomes dropping 40 percent, and one in 4 families having no wage earner. Listen to Manny Diaz <a href="http://storycorps.org/listen/manny-diaz-and-blanca-vazquez/">describe how his family got food to survive</a>.
+        comment: During the <a href="http://en.wikipedia.org/wiki/Prohibition_in_the_United_States">The Prohibition</a>, making and selling alchohol was illegal, so Diaz's family was breaking the law.
       -
         id: lerman
         title: Competitive eating
