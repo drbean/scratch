@@ -159,17 +159,20 @@ Following this procedure, several meetings were held during Stage II of the focu
 
 Working attitudes, competence, job performance and employability form an interactional model
 
-The research uses competence-based theory to explore performance standards expected to be demonstrated through field interviews with solar industry representatives in order to formulate seven employability indicators that include: working attitudes, working efficiency, integrated planning, working spirit, evaluation and judgement, monitoring control, and working quality. A triangle shaped interpretation model can be used to summarise through the research results. This triangle model is jointly constructed by competence, job performance, and working attitude, where the degree of dependence between competence and job performance forms the degree of expectation value for students¡¦ employability from enterprises. The concept is shown in Fig. 1. From the results of field interviews, it can be seen that ¡§working attitude¡¨ is the basis for an employee to fully express his or her competence and demonstrate the ¡§job performance¡¨ expected by the Solar enterprise. Employability shall not only demonstrate consistency between the level of an individual¡¦s ¡§competence¡¨ and ¡§job performance¡¨ but also the expected high employability so as to create the individual¡¦s employable value for long term employment. The significance contains the followings (as in Fig. 2):
-„P Working attitude and competence, job performance together form an interactional model. The level of the employability expectation value signifies the employability for long term employment in Solar enterprise.
-„P The variation in employability expectation value is based on working attitude; where working attitude determines the level demonstrated in competence and job performance in Solar enterprise.
-„P There is dependence between competence and job performance; where students who possess the competence can demonstrate the expected job performance in Solar enterprise.
-„P Being affected by the enterprises¡¦ internal organizational behaviour, employees with high competence might not necessarily demonstrate high job performance. However, the possession of high working attitude may improve such condition.
-„P Working attitude determines the level of competence and job performance. The possession of aggressive working attitude and active learning competence can help increasing job performance. When an individual¡¦s job performance is not as expected, good working attitude could enable the individual to pursue even higher job performance and to improve the individual¡¦s value for long term employment in Solar enterprise.
+The research used competence-based theory to explore performance standards expected to be demonstrated through field interviews with solar industry representatives in order to formulate seven employability indicators that included: working attitude, working efficiency, integrated planning, working spirit, evaluation and judgement, monitoring control, and working quality. A triangle shaped interpretation model can be used to summarise the research results. This triangle model is jointly constructed by competence, job performance, and working attitude, where the combination of the mutually dependent competence and job performance determines the expected value of students¡¦ employability in the industry. The concept is shown in Fig. 1. From the results of field interviews, it was seen that ¡§working attitude¡¨ establishes a basis upon which an employee can fully express his or her competence and demonstrate the ¡§job performance¡¨ expected by the company. Employability not only demonstrates consistency between the level of an individual¡¦s ¡§competence¡¨ and ¡§job performance¡¨ but these two also contribute to high employability, in the form of the individual¡¦s long term value for the company. The implications include the following (as in Fig. 2):
+„P Working attitude and competence and job performance together form an interactional model. The height of the triangle signifies employability in the long term for the individual in the enterprise.
+„P Variation in employability is based on working attitude; and working attitude determines the level demonstrated in competence and job performance in the enterprise.
+„P There is a dependence between competence and job performance; where engineers who possess competence can demonstrate the expected job performance in the enterprise.
+„P As a result of problems in the enterprise¡¦s internal organizational behaviour, employees with high competence might not necessarily demonstrate high job performance. However, the possession of a superior working attitude may compensate for such a condition.
+„P Working attitude determines the level of competence and job performance. The possession of an aggressive working attitude and active learning competence can help increase job performance. When an individual¡¦s job performance is not as expected, good working attitude could enable the individual to pursue a higher job performance and to improve his/her value for long term employment by the enterprise.
      
      
 Figuire 1 and Figure 2 (Mr. Greg, please do in WORD for this part, tks!)
      
- 
+I don't see how to change the text in Figure 1.
+I want to change "The level of of employability expectation value" to
+"Employability"
+Please do this for me.
      
      
 A part of the competence was augmented and the performance requirement was diminished
