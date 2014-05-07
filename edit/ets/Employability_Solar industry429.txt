@@ -30,13 +30,13 @@ The input point of view, which sets out from the point of view of structuralism 
 Research results based on competence-based performance theory are emerging [15]. Robbins [16] assumes performance measurement based on competence could include individual job output, behaviour, personal characteristics (including the exhibition of attitudes, self-confidence, independence, cooperation, experience, etc. related to superb job performance). Competence-based theory has done well explaining the reference criteria adopted by modern enterprises for recruitment, so graduates need to possess the competences required by the employment market. 
 
 
-The process point of view, which emphasises a high level of association between school curricula and the employment market. considers it is necessary to reflect enterprise experts' expectations of students in curricular design and learning activities. School subjects should maintain focus on the changes in practical needs [17]. Rae [1] believes that the students¡¦ experience of learning core subjects should be associated with enterprises and employability. 
+The process point of view, which emphasises a high level of association between school curricula and the employment market, considers it is necessary to reflect enterprise experts' expectations of students in curricular design and learning activities. School subjects should maintain focus on the changes in practical needs [17]. Rae [1] believes that the students¡¦ experience of learning core subjects should be associated with enterprises and employability. 
 
 
 The result point of view, which takes the point of view of behaviourism and follows resource-based theory exploring the demonstration of employability, translates performance standards required by the working world into the job performances expected by enterprises, by for example the empirical investigation of resource-driven performance conducted by Fernandes, Mills, and Fleury [18].
 
 
-Resource-based theory considers the three elements, company-critical resources, capabilities and competencies to be associated concepts [19], where capabilities and competencies are considered to be interchangeable [20]. The term, capabilities was considered by the Ljungquist [21] study to have two meanings, one was the ability of a work team to utilise resources needed in execution of a certain task or activity; the other was an individual¡¦s tacit knowledge and organizational memory, which could be incorporated and applied to job coordination. As pointed out in resource-based theory, enterprises expect graduates who are devoted to the workplace to demonstrate good ability in integrative planning and the disposal of available resources. Therefore this research took its direction from the result point of view on employability and emphasised job performance standards to be decided according to the enterprise workplace¡¦s surroundings, coupled with experts¡¦ judgment, developing the requirements for students¡¦ employability in solar enterprises. 
+Resource-based theory considers the three elements, company-critical resources, capabilities and competencies to be associated concepts [19], where capabilities and competencies are considered to be interchangeable [20]. The term, capabilities was considered by the Ljungquist [21] study to have two meanings, one was the ability of a work team to utilise resources needed in execution of a certain task or activity; the other was an individual¡¦s tacit knowledge and organizational memory, which could be incorporated and applied to job coordination. As pointed out in resource-based theory, enterprises expect graduates who are devoted to the workplace to demonstrate good ability in integrative planning and the disposal of available resources. Therefore this research took its direction from the result point of view on employability and emphasised job performance standards to be decided according to the enterprise workplace¡¦s surroundings, coupled with experts¡¦ judgement, developing the requirements for students¡¦ employability in solar enterprises. 
 
 
 Employability indicators 
@@ -78,7 +78,7 @@ In summary of the above, the logical process for the establishment of draft empl
      (2). To obtain ¡§diverse points of view on employability¡¨;
      (3). To fold in the path of research from the ¡§resulting point of view¡¨.
 
-For (1), we took the point of view of Ljungquist [21], SPSP [28], Chang [27, 25], and Kuo et al. [39] and decided performance-point-of-view employability to be on-the-job integrated planning, evaluation and judgment, working efficiency, working quality, working spirit, monitoring control, and working attitude. 
+For (1), we took the point of view of Ljungquist [21], SPSP [28], Chang [27, 25], and Kuo et al. [39] and decided performance-point-of-view employability to be on-the-job integrated planning, evaluation and judgement, working efficiency, working quality, working spirit, monitoring control, and working attitude. 
 
 Based on the needs of the research, the operational definitions for each indicator are as shown in Table 2.
 
@@ -144,7 +144,7 @@ No changes in table
 
 Survey research: Through analysis by the experts of the focus group, the draft questionnaire was tested for its reliability and overall validity. Cronbach¡¦s £\ coefficient was used to examine the internal consistency of responses from pre-test receivers. The content validity of the test was assessed through the confirmation of the employability indicators by the focus group and systematic examination of the questionnaire content to determine whether the questionnaire did fully reflect the practical behaviours represented by the employability indicators. Afterwards, Bartlett¡¦s sphericity test was applied to confirm whether each aspect was near normal multivariate; and the KMO (Kaiser-Meyer-Olkin) measure of sampling adequacy was adopted for the factor validity test to determine whether factor analysis was appropriate or not. Finally, the major step of content analysis was performed, conducting oblique rotation for maximum variance of the factors revealed by the factor analysis with the intent of assessing the validity of the construction of the questionnaire and the order of importance of the employability indicators. 
    
-Random sampling of small and medium solar enterprises in the Taiwan area for the addressing of a survey with the internet version of the questionnaire was the method adopted for data collection. After removing repeated mailings of the questionnaire returned, a total of 501 valid returns were received representing a response rate of 50.1%. The purpose of analyzing the data was to understand whether the employability indicators established by the research could receive popular recognition from the solar energy industry.
+Random sampling of small and medium solar enterprises in the Taiwan area for the addressing of a survey with the internet version of the questionnaire was the method adopted for data collection. After removing repeated mailings of the questionnaire returned, a total of 501 valid returns were received representing a response rate of 50.1%. The purpose of analysing the data was to understand whether the employability indicators established by the research could receive popular recognition from the solar energy industry.
    
 The application of the above mentioned research methods followed the logical procedure listed below, with a research result being associated with each of the different stages.
 „P Literature analysis: to obtain key points for field interviews;
@@ -167,7 +167,7 @@ The research used competence-based theory to explore performance standards expec
 „P Working attitude determines the level of competence and job performance. The possession of an aggressive working attitude and active learning competence can help increase job performance. When an individual¡¦s job performance is not as expected, good working attitude could enable the individual to pursue a higher job performance and to improve his/her value for long term employment by the enterprise.
      
      
-Figuire 1 and Figure 2 (Mr. Greg, please do in WORD for this part, tks!)
+Figure 1 and Figure 2 (Mr. Greg, please do in WORD for this part, tks!)
      
 Wait.
 I don't see how to change the text in Figure 1.
@@ -192,7 +192,7 @@ Table 7 (Mr. Greg, please do in WORD for this part, tks!)
   
 Eigenvalue
 
-The purpose of factor analysis was to examine the construct validity of the questionnaire, and to form the basis for judging the order of importance of the employability indicators. The application of factor analysis allowed extraction of common factors between the variables, leaving a less complicated data structure in the end. Through the finding of common factors, the conceptual structure of employability can be said to be confirmed. The factor analysis results showed the questionnaire itself to be of good validity, and the ranking of each employability indicator by eigenvalue, in order of importance from high to low was: Integrated Planning, Working Spirit, Monitoring Control, Working Attitude, Evaluation & Judgment, Working Efficiency, and Working Quality. 
+The purpose of factor analysis was to examine the construct validity of the questionnaire, and to form the basis for judging the order of importance of the employability indicators. The application of factor analysis allowed extraction of common factors between the variables, leaving a less complicated data structure in the end. Through the finding of common factors, the conceptual structure of employability can be said to be confirmed. The factor analysis results showed the questionnaire itself to be of good validity, and the ranking of each employability indicator by eigenvalue, in order of importance from high to low was: Integrated Planning, Working Spirit, Monitoring Control, Working Attitude, Evaluation & Judgement, Working Efficiency, and Working Quality. 
 
 
 Description of statistical analysis
@@ -208,7 +208,7 @@ Table 10  (Mr. Greg, please do in WORD for this part, tks!)
 
 
 
-Observation of the individual average of each employability indicator shows the three items: working spirit, evaluation & judgment, and working quality to be significantly higher. It is possible that as a result of the fact that a large majority of the survey respondents had technical duties as their responsibility, these three items were particularly emphasised. 
+Observation of the individual average of each employability indicator shows the three items: working spirit, evaluation & judgement, and working quality to be significantly higher. It is possible that as a result of the fact that a large majority of the survey respondents had technical duties as their responsibility, these three items were particularly emphasised. 
 
 
 The radar chart indicates the level of employability required by enterprises for students of solar technology 
