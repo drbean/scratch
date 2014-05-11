@@ -209,6 +209,7 @@ Vocabulary: core, skin (peel), seed
 
 ## Diaz pictures
 
+- [Pronunciation of the Diaz family name](http://www.google.com/search?q=pronunciation%20diaz&num=100)
 - [37 West 114th Street](https://maps.google.com/maps?q=37+West+114th+Street,+New+York,+NY,+United+States&hl=zh-TW&ll=40.799809,-73.949425&spn=0.011159,0.020106&sll=37.0625,-95.677068&sspn=47.483365,82.353516&oq=37+West+114&t=h&hnear=37+W+114th+St,+New+York,+10026&z=16&layer=c&cbll=40.800963,-73.951177&panoid=G4xBPuCycyf2Yk3jZqK9mg&cbp=12,270,,0,0)
 
 - [tenement house](http://images.google.com/images?q=%22tenement%20house%22&num=100)
