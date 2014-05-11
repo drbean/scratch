@@ -50,9 +50,9 @@
 
 -
   - "trinka"
-  - "Getting the doorman job"
-  - "upper"
-  - A
+  - "Ed Trinka--Hotel doorman"
+  - conversation
+  - all
   - |+
     Debra: How did you get the job as doorman at the Plaza Hotel.
     Ed: Well, my father was a garage manager at the Plaza for thirty years.
@@ -67,29 +67,14 @@
     And then, uh, it was great.
     
     Debra: What was the best tip you ever got? 
-  - Debra|Ed|graduated|tip
--
-  - "trinka"
-  - "The best tip"
-  - "upper"
-  - B
-  - |+
-    Debra: What was the best tip you ever got? 
     Ed: Well, I was always tell the story about Jackie Gleason, for Christmas time. 
     He says to me, What was the biggest tip you ever got.
     And I says, Well, a hundred dollars.
     And he says, Here's a hundred and fifty dollars. Merry Christmas.
     And he says, By the way, who was the one who gave you a hundred?
     And I says, Well, that was you last year.
+
     Debra: Now, I got to know you because I walk to work every morning, and I cut by the Plaza, and you made my day. \"Good morning, young lady.\" \"Beautiful day.\"
-    Ed: Eh, that's what it's all about.
-  - "Debra|Ed|Jackie|Gleason|Merry Christmas"
--
-  - "trinka"
-  - "Making everyone happy"
-  - "upper"
-  - C
-  - |+
     Ed: Eh, that's what it's all about.
     Out being in front there and smiling. 
     And just making everybody happy.
@@ -101,22 +86,14 @@
     And he had to go to a very important meeting.
     And he asked me where he could get his shoes shined.
     And I says, It don't open till eight o'clock. Our barber shop.
-    So I said, I tell you what. Give me the shoes and you come back in a half an hour...
-  - "Ed|shined|barber"
--
-  - "trinka"
-  - "Shining a guest's shoes"
-  - "upper"
-  - D
-  - |+
-    Ed: You come back in a half an hour or so and I'll have them done.
+    So I said, I tell you what. Give me the shoes and you come back in a half an hour or so and I'll have them done.
     I ran down to my locker, got my shoeshine kit, which I have in my locker to shine my shoes, shined them up for him, come back up. He come by, put his shoes on, and he went to the meeting, and he's one of my best friends.
     Matter of fact, he comes back to the Plaza all the time.
 
     You know, my father told me years ago,
     He said, Be such a man, and live such a life, that if, everybody lived a life like yours, this would be God's paradise.
     And I go by that.
-  - "Ed|shined|locker|shoeshine|kit|paradise"
+  - Debra|Ed|graduated|tip|Jackie|Gleason|Merry Christmas|shined|barber|locker|shoeshine|kit|paradise
 -
   - "jackson-1"
   - "Charles on his mom with Alzheimers"
@@ -231,6 +208,23 @@
     You know, a lot of people think because we're morticians, and we're in the business of dealing with this on a day-to-day basis, that we're cold. But we react the same way when we lose a loved one. I mean, there's no different. And the best part is, meeting the needs of the families. Their loads should just be a little bit lighter. That's what I strive to do every day, to make people feel better.
   - morticians|day-to-day|loads|strive
 -
+  - reed
+  - Reed's early funeral experiences
+  - conversation
+  - all
+  - |+
+    I remember one time in the first grade, my teacher, she was going round to everyone, and, uh, she asked them what they wanted to be. So she got to me. And she says, Sammy Reed. They all called me Sammy, instead of Samuel. What do you want to be when you grow up. And I said I want to be an undertaker. And, everybody thought that was crazy. But I was always fascinated with the way a dead person looked when you went to see them.
+    Coming up, you would listen to the elders talk about a person was killed in a car wreck, and they was messed up and everything. But when you got to the funeral, you would hear them say, Wow, Grandma looked great. She looked at peace. And, and I wanted to know how to do that.
+
+    And whenever I had a pet die, you know, I always would bury the pet, on the side of the creek bank. I would have my little sisters. They would pick flowers, and we'd just stand around, have a little funeral, you know.
+
+    So, I just knew that this was what I was destined to do, to deal with the dead.
+
+    And, I always get this. You don't look like an undertaker. And I said, Well, what does an undertaker look like. They said, They look dead. And, they look old. And they drink a lot. I said, Well, I'm not dead. I don't think I look old, even for my age. And I said, I don't drink.
+
+    You know, a lot of people think because we're morticians, and we're in the business of dealing with this on a day-to-day basis, that we're cold. But we react the same way when we lose a loved one. I mean, there's no different. And the best part is, meeting the needs of the families. Their loads should just be a little bit lighter. That's what I strive to do every day, to make people feel better.
+-
+  - undertaker|Samuel|wreck|messed|peace|creek bank|funeral|destined|undertaker|morticians|day-to-day|loads|strive
   - pestcontroller
   - Identifying insects
   - intermediate
@@ -717,101 +711,101 @@
   - "Rose tells Ron: \"You're kind for fixing the piano.\""
   - "False" 
 -
-  - "upper"
+  - "conversation"
   - "trinka"
   - 1
-  - A
+  - all
   - "Ed started working at the Plaza after he graduated from high school."
   - "True" 
 -
-  - "upper"
+  - "conversation"
   - "trinka"
   - 2
-  - A
+  - all
   - "Ed got his first job at the Plaza when one of the doormen was sick."
   - "True" 
 -
-  - "upper"
+  - "conversation"
   - "trinka"
   - 3
-  - A
+  - all
   - "When Ed got sick, they put a hat and coat on him."
   - "False" 
 -
-  - "upper"
+  - "conversation"
   - "trinka"
   - 4
-  - B
+  - all
   - "Jackie Gleason gave Ed his biggest tip of one hundred and fifty dollars."
   - "True" 
 -
-  - "upper"
+  - "conversation"
   - "trinka"
   - 5
-  - B
+  - all
   - "Jackie Gleason got the best tip from Ed Trinka, one hundred and fifty dollars."
   - "False" 
 -
-  - "upper"
+  - "conversation"
   - "trinka"
   - 6
-  - B
+  - all
   - "Jackie Gleason, a garage manager at the Plaza, was Ed's father."
   - "False" 
 -
-  - "upper"
+  - "conversation"
   - "trinka"
   - 7
-  - C
+  - all
   - "Ed shone the shoes of a guest at the Plaza because the barber shop wasn't open."
   - "True" 
 -
-  - "upper"
+  - "conversation"
   - "trinka"
   - 8
-  - C
+  - all
   - "Ed's thing is to treat guests like VIPs and make them happy, because they are VIPs."
   - "True" 
 -
-  - "upper"
+  - "conversation"
   - "trinka"
   - 9
-  - D
+  - all
   - "Ed's father told him to live the life he is living and treat people very well."
   - "True" 
 -
-  - "upper"
+  - "conversation"
   - "trinka"
   - 10
-  - C
+  - all
   - "Ed Trinka made Debra's day by smiling and being happy."
   - "True" 
 -
-  - "upper"
+  - "conversation"
   - "trinka"
   - 11
-  - D
+  - all
   - "Ed Trinka shined a guest's shoes with his shoeshine kit."
   - "True" 
 -
-  - "upper"
+  - "conversation"
   - "trinka"
   - 12
-  - B
+  - all
   - "Debra met Ed when she was working at the Plaza Hotel as a VIP and he shone her shoes."
   - "False" 
 -
-  - "upper"
+  - "conversation"
   - "trinka"
   - 13
-  - D
+  - all
   - "Ed shone his shoes because he had an important meeting with a guest."
   - "False" 
 -
-  - "upper"
+  - "conversation"
   - "trinka"
   - 14
-  - C
+  - all
   - "Ed shines his shoes every morning because he has an important meeting with Debra."
   - "False" 
 -
