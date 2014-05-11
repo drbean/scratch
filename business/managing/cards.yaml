@@ -1,4 +1,95 @@
 genre: business
+theory-x-y:
+ jigsaw:
+  0:
+    identifier: theory-x-y 0
+    A: |+
+       Motivation: \\\\
+       Nicholson thinks motivation is important. He wants to know how to get people to do what he wants. If he understands them, then he can get them to do the job in ways they like. \\\\
+       Dr Bean agrees motivation is important. But he thinks only parents and friends can change the way people think. Managers and teachers CANNOT. They must choose the right level to talk to people.
+    B: |+
+       Reflection: \\\\
+       Nicholson recommends people think about their goals. This is difficult because people are so busy, they don't have time to think. If they know what they want, it's easier talking to the boss.\\\\
+       Dr Bean thinks a lot about his work and wants other people to do that too. He thinks some people don't do that. He hopes learning interesting things will make them do that.
+    C: People Differ: \\\\ Nicholson thinks managers need to treat everyone differently.\\\\ Dr Bean has many students and cannot treat everyone differently. He speaks to the whole group and hopes they do the work because they enjoy it. Even if they don't enjoy it, he wants them to do it anyway.
+    quiz :
+      - question: Nicholson believes in:
+        option:
+          - Theory X
+          - Theory Y
+        answer: Theory Y
+      - question: Dr Bean believes in:
+        option:
+          - Theory X
+          - Theory Y
+        answer: Theory Y
+  1:
+    identifier: theory-x-y 1
+    A: Motivation: \\\\ Nicholson thinks motivation is important. If people want to do a good job, then managers are happy. If many people don't want to do a good job, managers have to understand what they do want, and then get them to do the job. \\\\ Dr Bean agrees motivation is important. He wants people to enjoy their work. But he thinks only parents and friends can change the way people think. Managers and teachers CANNOT.
+    B: Reflection: \\\\ Nicholson recommends people think about their jobs. Many people don't want to do this, because they are busy. Managers have to make them think about what they want. If they know what they want, managing them is easier.\\\\ Dr Bean thinks a lot at a high level and wants other people to do that too. He thinks some people don't do that. He hopes if learning is interesting, it might make them do that.
+    C: People Differ: \\\\ Nicholson thinks a few people want to do a good job. Managers don't need to worry about those few people. Managers need to force the others to do a good job.\\\\ Dr Bean has many students and cannot treat everyone differently. He speaks to the whole group and hopes they do the work because they enjoy it. Even if they don't enjoy it, he wants them to do it anyway.
+    quiz :
+      - question: Nicholson believes in:
+        option:
+          - Theory X
+          - Theory Y
+        answer: Theory X
+      - question: Dr Bean believes in:
+        option:
+          - Theory X
+          - Theory Y
+        answer: Theory Y
+  2:
+    identifier: theory-x-y 2
+    A: Motivation: \\\\ Nicholson thinks motivation is important. He wants to know how to get people to do what he wants. If he understands them, then he can give them what they want to do a good job. \\\\ Dr Bean agrees motivation is important. But he thinks many people only do the job because they have to. He makes them do the work anyway, even if they don't want to.
+    B: Reflection: \\\\ Nicholson wants people to think about their goals. This is difficult because people are so busy. They want to do a good job, but don't have time to think about how to do it. \\\\ Dr Bean thinks a lot at a high level and wants other people to do that too. He thinks many people don't do that. He thinks if they did, he wouldn't have to force people to do a good job.
+    C: People Differ: \\\\ Nicholson thinks managers need to treat everyone differently. Everyone wants to do a good job. But people's ideas about how to do their jobs well differ. He wants them to try doing it their way. \\\\ Dr Bean cannot treat everyone differently. He speaks to the whole group and hopes they all do the work because they enjoy it. But he knows most people do it because they have to.
+    quiz :
+      - question: Nicholson believes in:
+        option:
+          - Theory X
+          - Theory Y
+        answer: Theory Y
+      - question: Dr Bean believes in:
+        option:
+          - Theory X
+          - Theory Y
+        answer: Theory X
+  3:
+    identifier: theory-x-y 3
+    A: Motivation: \\\\ Nicholson thinks motivation is important. But he thinks many people only work because they have to. He tries to understand them to make them do a good job, even if they don't want. \\\\ Dr Bean agrees motivation is important. He wants to know how to get people to do what he wants. If he understands them, then he can give them work they want so they do a good job.
+    B: Reflection: \\\\  Nicholson thinks a lot at a high level and thinks others should too. But he thinks many people can't. He thinks if they could, managers wouldn't have to force people to do a good job. \\\\ Dr Bean wants people to think about their goals. This is difficult because people are so busy. They want to do a good job, but don't have time to think about how to do it.
+    C: People Differ: \\\\ Nicholson says to treat everyone differently. And he hopes people work because they enjoy it. But he knows only a few do. Most people do it because they have to. \\\\ Dr Bean thinks managers need to treat people differently. Everyone wants to do a good job. But people's ideas about how to do their jobs well differ. He wants them to try doing it their way.
+    quiz :
+      - question: Nicholson believes in:
+        option:
+          - Theory X
+          - Theory Y
+        answer: Theory X
+      - question: Dr Bean believes in:
+        option:
+          - Theory X
+          - Theory Y
+        answer: Theory Y
+  4:
+    identifier: theory-x-y 4
+    A: Motivation: \\\\ Nicholson thinks motivation is important. He wants to know how to get people to do what he wants. If he understands them, then he can make them work, even if they don't want to. \\\\ Dr Bean agrees motivation is important. But he thinks only parents and friends can change the way people think. Managers and teachers cannot. So he makes most people do work they don't like.
+    B: Reflection: \\\\ Nicholson wants people to think about their goals. This is difficult because people are so busy at work, they don't have time to think. They don't want to think about their jobs.\\\\ Dr Bean thinks a lot about his work and wants other people to do that too. He thinks most people don't do that. He wishes his teaching made them think. But he knows it is impossible.
+    C: |+
+       People Differ: \\\\
+       Nicholson wishes managers could treat people differently. But he knows they can't because they have many people to manage. They have to make everyone follow the same direct orders. \\\\
+       Dr Bean cannot treat everyone differently. There are too many to speak to individually and their English isn't good. He speaks to the few good people. He just tells the others what to do.
+    quiz :
+      - question: Nicholson believes in:
+        option:
+          - Theory X
+          - Theory Y
+        answer: Theory X
+      - question: Dr Bean believes in:
+        option:
+          - Theory X
+          - Theory Y
+        answer: Theory X
 nicholson:
  jigsaw:
   0:
