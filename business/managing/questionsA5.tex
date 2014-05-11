@@ -1,0 +1,129 @@
+\documentclass[a4paper]{article}
+\usepackage{multicol}
+\usepackage[absolute]{textpos}
+% \usepackage[absolute,showboxes]{textpos}
+% \textblockorigin{0.00cm}{0.00cm} %HPDeskJet5160
+% \textblockorigin{0.00cm}{0.50cm} %HPDeskJet5160
+% \textblockorigin{0.15cm}{0.00cm} %HPDeskJet5160
+% \textblockorigin{0.20cm}{0.40cm} %HPDeskJet5160
+\textblockorigin{0.0cm}{0.00cm} %kyocera
+\pagestyle{empty}
+\setlength{\unitlength}{1cm}
+
+\newcommand{\myline}{
+	\vspace{-0.13cm}
+	\rule{9.5cm}{0.01cm}
+}
+\newcommand{\myrole}[1]{
+\large #1: \large Name \rule{2.5cm}{0.02cm} Id \rule{2.3cm}{0.02cm}\\
+	\normalsize
+	% \vspace{1.0cm}
+	\begin{enumerate}
+	\item \myline
+	\item \myline
+	\item \myline
+	\item \myline
+	\item \myline
+	\item \myline
+	\end{enumerate}
+	\vspace{0.3cm}
+	\begin{enumerate}
+	\item \myline
+	\item \myline
+	\item \myline
+	\item \myline
+	\item \myline
+	\item \myline
+	\end{enumerate}
+	\vspace{0.3cm}
+	\begin{enumerate}
+	\item \myline
+	\item \myline
+	\item \myline
+	\item \myline
+	\item \myline
+	\item \myline
+	\end{enumerate}
+}
+
+\newcommand{\mytitlei}[1]{%
+	\begin{textblock}{16}(#1)
+	\centering
+\mbox{Theory X and Theory Y}
+	\end{textblock}
+}
+
+\newcommand{\mytitleii}[1]{%
+	\begin{textblock}{16}(#1)
+	\centering
+\mbox{Nicholson on Motivation, Reflecting and Cultural differences}
+	\end{textblock}
+}
+
+\newcommand{\mytitleiii}[1]{%
+	\begin{textblock}{16}(#1)
+	\centering
+\mbox{Dr Bean and Theory X, Theory Y}
+	\end{textblock}
+}
+
+\newcommand{\mytitleiv}[1]{%
+	\begin{textblock}{16}(#1)
+	\centering
+% \mbox{Queen Jackson: an older woman at The Gathering Place}
+	\end{textblock}
+}
+
+\newcommand{\mycard}[3]{%
+	\begin{textblock}{16}(#1)
+	\textblocklabel{picture1}
+\begin{center}
+\Large Comprehension competition questions\hspace{2cm} Table: \rule{2cm}{0.01cm}
+\end{center}
+	\end{textblock}
+
+	\begin{textblock}{8}(#2)
+	\textblocklabel{picture1}
+	\myrole{White}
+	\end{textblock}
+
+	\begin{textblock}{8}(#3)
+	\textblocklabel{picture1}
+	\myrole{Black}
+	\end{textblock}
+}
+
+\newcommand{\myfoot}[1]{%
+	\begin{textblock}{16}(#1)
+	\textblocklabel{picture3}
+\indent
+\begin{center}
+\normalsize Not 1 question each: 1,2 or 3 pts. 1 question each: 2,3 or 4 pts. 2 questions each: 3,4 or 5 pts.
+\normalsize F: o\textbf{FF}-topic, U: \textbf{U}nderstood, R: w\textbf{R}ong, O: Someone else's \textbf{O}ld question
+\end{center}
+	\end{textblock}
+}
+
+\begin{document}
+
+\mycard{0,0}{0,0.6}{8,0.6}
+\mycard{0,8}{0,8.6}{8,8.6}
+
+\mytitlei  {0,0.8}
+\mytitleii {0,3.0}
+\mytitleiii{0,5.2}
+
+\mytitlei  {0,8.8}
+\mytitleii {0,11.0}
+\mytitleiii{0,13.2}
+
+\myfoot{0,7.1}
+\myfoot{0,15.1}
+
+
+\myfoot{0,7.1}
+\myfoot{0,15.1}
+
+\null\newpage
+
+\end{document}
