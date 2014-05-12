@@ -1,0 +1,47 @@
+#!/usr/bin/perl;
+
+use strict;
+use warnings;
+use IO::All;
+use YAML qw/LoadFile DumpFile/;
+use Cwd;
+$_REPL->load_plugin('DumpHistory');
+
+use List::Util qw/sum max min/;
+
+my $week = 12;
+
+(my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
+use Grades;
+use Grades::Groupwork;
+my $l = League->new( leagues => '/home/drbean/022', id => $dir );
+my $g = Grades->new({ league => $l });
+my $co = Compcomp->new({ league => $l });
+my $cl = $g->classwork;
+my %m = map { $_->{id} => $_ } @{ $l->members };
+my $approach = $l->approach;
+
+my $card = LoadFile "classwork/$week.yaml";
+my $session = $cl->week2session($week);
+my $beancans = $cl->beancan_names($session);
+
+my %points;
+%points = ();
+for my $letter (qw/a b c/) {
+	for ( keys %{ $card->{$letter} } ) {
+		$points{$_} += sum values %{ $card->{$letter}->{$_} }
+			if $card->{$letter}->{$_} and ref $card->{$letter}->{$_} eq 'HASH'
+	}
+};
+
+$card->{points} = \%points;
+
+my $max = max values %points;
+my $min = min values %points;
+
+my %score = map { $_ => sprintf("%.1f", 2 + ( $points{$_} - $min ) / ($max-$min ) ) }
+				keys %$beancans;
+
+$card->{score} = \%score;
+for ( keys %$beancans ) { $card->{$_}->{merits} = $score{$_} };
+DumpFile "classwork/$week.yaml", $card;
