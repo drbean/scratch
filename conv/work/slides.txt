@@ -1,52 +1,36 @@
-# This is a sample Vroom input file. It should help you get started.
-#
-# Edit this file with your content. Then run `vroom --vroom` to start
-# the show!
-#
-# See `perldoc Vroom::Vroom` for complete details.
-#
----- config
-# Basic config options.
-title: Vroom!
-indent: 5
-height: 18
-width: 69
-skip: 0
+% Work!
+% by Dr Bean (高來圭)
+% 日  5月 11 12:03:33 CST 2014
 
-# The following options are for Gvim usage.
-# vim: gvim
-# fuopt: maxhorz,maxvert
-# guioptions: egmLtT
-# guicursor: a:blinkon0-ver25-Cursor
-# guifont: Bitstream_Vera_Sans_Mono:h18
+## Ed Trinka--the doorman
 
----- center
-Work!
+## The doorman job
 
-by Dr Bean (高來圭)
+Will White at the Hotel Intercontinental
+[http://www.youtube.com/watch?v=93ykBX61r7M](http://www.youtube.com/watch?v=93ykBX61r7M)
+[https://maps.google.com/maps?q=Hotel+InterContinental+chicago&hl=zh-TW&ll=41.891863,-87.622468&spn=0.010974,0.020106&sll=40.758554,-73.989658&sspn=0.011166,0.020106&t=m&z=16&layer=c&cbll=41.891361,-87.624073&panoid=pB1kNLj0Y9OnafGXQUhAbw&cbp=12,81.8,,0,0](https://maps.google.com/maps?q=Hotel+InterContinental+chicago&hl=zh-TW&ll=41.891863,-87.622468&spn=0.010974,0.020106&sll=40.758554,-73.989658&sspn=0.011166,0.020106&t=m&z=16&layer=c&cbll=41.891361,-87.624073&panoid=pB1kNLj0Y9OnafGXQUhAbw&cbp=12,81.8,,0,0)
 
-(hint: press the spacebar)
+Steve at the Boston 4 Seasons
+[http://www.youtube.com/watch?v=yqHkEPBpRkI](http://www.youtube.com/watch?v=yqHkEPBpRkI)
 
-----
-= Women at work
 
-Images for 'women at work'
+# Women at work
+
+## Images for 'women at work'
 
 http://www.google.com/search?q=%22working+woman%22&num=100&oi=image_result_group&sa=X&biw=742&bih=739&sei=57LZTt6kNe3ymAWSo4DdCw&tbm=isch#hl=en&tbm=isch&sa=X&ei=LbPZTsLHG6LqmAWij73ICw&ved=0CD4QvwUoAQ&q=%22women+at+work%22&spell=1&bav=on.2,or.r_gc.r_pw.,cf.osb&fp=152f46652666df43&biw=742&bih=739
 
-Images for 'working woman'
+## Images for 'working woman'
 
 http://www.google.com/search?q=%22working+woman%22&num=100&oi=image_result_group&sa=X&biw=742&bih=739&sei=57LZTt6kNe3ymAWSo4DdCw&tbm=isch
 
-----
-== Female electricians
+## Female electricians
 
 http://www.youtube.com/user/tradeswomen#p/c/2/pbNHHXzXLoU
 http://www.youtube.com/watch?v=pbNHHXzXLoU
 http://womensenews.org/story/equal-payfair-wage/110412/female-electricians-burn-out-male-dominance
 
-----
-== Electricians--The job
+## Electricians--The job
 
 
 all also businesses(x2) electrical(x2) electricity
@@ -60,8 +44,7 @@ flows. They _____(10) install and maintain _____(11)
 equipment and _____(12) in factories and a _____(13)
 range of other _____(14).
 
-----
-== Electricians--The work environment
+## Electricians--The work environment
 
 
 average bending construction cuts electricians factories heavy
@@ -79,8 +62,7 @@ When working _____(13), they may be subject to bad
 _____(14). Some electricians may have to _____(15) long
 distances to jobsites.
 
-----
-== Conversation about Dee Dickson and women electricians
+## Conversation about Dee Dickson and women electricians
 
 One: What do you think about working as an electrician?
 Two: I think it is difficult for a woman.
@@ -97,20 +79,17 @@ Two: The guys didn't like her to be their supervisor, did they.
 One: That would be difficult in Taiwan too, I think, wouldn't it.
 Two: Do you think women make good bosses?
 
-----
-== Claritza Abreu
+## Claritza Abreu
 
 Mass High-Tech Women to Watch 2011
 http://www.youtube.com/watch?v=QMFuy6TMLGA
 http://www.linkedin.com/pub/claritza-n-abreu-ms/6/99/8a0
 
-----
-== 1,000 most common surnames in the US
+## 1,000 most common surnames in the US
 
 http://names.mongabay.com/most_common_surnames.htm
 
-----
-== Receptionists--The job
+## Receptionists--The job
 
 answer calls desk duties employee include inquiries office organization
 patients products receive specifically title waiting work
@@ -126,8 +105,7 @@ telephone _____(12). His/her business _____(13) may
 _____(14) answering visitors' _____(15) about a company
 and its _____(16) or services.
 
-----
-== Receptionists--The job (2)
+## Receptionists--The job (2)
 
 .. directing visitors to their destinations, sorting and handing out mail, 
 answering incoming calls on multi-line telephones or, earlier in the 20th 
@@ -141,8 +119,7 @@ A receptionist may also assume some security guard access control functions for
 an organization by verifying employee identification, issuing visitor passes, 
 and observing and reporting any unusual or suspicious persons or activities.
 
-----
-== Receptionists--Status and prospects
+## Receptionists--Status and prospects
 
 
 administrative advance careers considered corporation familiarize job
@@ -160,13 +137,11 @@ In _____(13) businesses, such as a doctor's office, a
 receptionist may also be the _____(14) manager with
 many middle-management-level business _____(15).
 
-----
-== John, Joan and John Doe
+## John, Joan and John Doe
 
 http://en.wikipedia.org/wiki/John_Doe
 
-----
-== Tia Smallwood
+## Tia Smallwood
 
 Provocative red dress
 http://www.google.com/search?q=red+dress&num=100&um=1&ie=UTF-8&hl=en&tbm=isch&source=og&sa=N&tab=wi
@@ -179,8 +154,7 @@ http://radaris.com/p/Tia/Smallwood/
 "What did the woman that Mr Batchelor interviewed wear?"
 * "What did the woman that the man interviewed wear?"
 
-----
-== Sexual harassment
+## Sexual harassment
 
 
 because frequent harass harassment isolated nature offensive person
@@ -200,8 +174,7 @@ offensive work environment or when it results in an adverse
 employment decision (such as the victim being fired or demoted).
 
 
-----
-== Government body says, No discrimination against mothers
+## Government body says, No discrimination against mothers
 
 children company decides discriminated employer experience female
 men more mother preschool rejected selectees tells training
@@ -219,8 +192,7 @@ investigator _____(14) that the company discriminated against
 Charmaine and the government _____(15) the company to include
 Charmaine in the program.
 
-----
-== Queen Jackson
+## Queen Jackson
 
 http://www.npr.org/2011/12/16/143771611/homeless-at-60-a-bullet-i-didnt-see-coming
 
@@ -237,8 +209,7 @@ http://www.youtube.com/watch?v=7Y4Uamddgrw
 "Did some homeless women cry?"
 "Who did Queen have?"
 
-----
-== Ann at the Gathering Place
+## Ann at the Gathering Place
 
 benefits degree depressed for helped home
 housing job living suffers tank time went
@@ -255,114 +226,194 @@ _____(10) of gas. The center _____(11) her
 get social security _____(12) and find
 transitional _____(13).
 
-----
-We think half of all the homeless in Denver are women.
+## We think half of all the homeless in Denver are women.
 Let's ask.
 
 As a Yes/No Question:
 
 The answer is 'Yes'.
 The question was:
-+ Are half of the homeless in Denver women?
-+ * Are 45 percent of the women in Denver homeless?
 
-+ As a WH Question:
+. . .
+
+Are half of the homeless in Denver women?
+
+. . .
+
+* Are 45 percent of the women in Denver homeless?
+
+
+. . .
+
+As a WH Question:
 
 The answer is 'half.'
 The question was:
-+ How many homeless people in Denver are women?
-+ * How many women in Denver are homeless?
 
-----
-We think it might be easier being a working mother in
+. . .
+
+How many homeless people in Denver are women?
+
+. . .
+
+* How many women in Denver are homeless?
+
+## We think it might be easier being a working mother in
 Taiwan than in the West.
 
 As a Yes/No Question:
 
 The answer is 'Yes'.
 The question was:
-+ Is it easier being a working mom in Taiwan (than in the US)?
 
-+ As a WH Question:
+. . .
+
+Is it easier being a working mom in Taiwan (than in the US)?
+
+
+. . .
+
+As a WH Question:
 
 The answer is 'Taiwan.'
 The question was:
-+ Where is it easier to be a working mom, Taiwan or the West?
+
+. . .
+
+Where is it easier to be a working mom, Taiwan or the West?
 
 
-----
-We think the skills a receptionist needs to have are 
+## We think the skills a receptionist needs to have are 
 interpersonal skills and computer proficiency. Let's ask.
 
 As a Yes/No Question:
 
 The answer is 'Yes'.
 The question was:
-+ Does a receptionist need interpersonal skills and computer proficiency?
 
-+ As a WH Question:
+. . .
+
+Does a receptionist need interpersonal skills and computer proficiency?
+
+
+. . .
+
+As a WH Question:
 
 The answer is 'interpersonal skills and computer proficiency'
 The question was:
-+ What skills does a receptionist need (to have)?
+
+. . .
+
+What skills does a receptionist need (to have)?
 
 
-----
-We think the first entry of women into the job was in the 1960's.
+## We think the first entry of women into the job was in the 1960's.
 Let's ask.
 
 As a Yes/No Question:
 
 The answer is 'Yes'.
 The question was:
-+ Did women first become electricians in the 1960's?
-+ Was the first entry of women into the job in the 1960's?
 
-+ As a WH Question:
+. . .
+
+Did women first become electricians in the 1960's?
+
+. . .
+
+Was the first entry of women into the job in the 1960's?
+
+
+. . .
+
+As a WH Question:
 
 The answer is 'the 1960's'
 The question was:
-+ When did women first become electricians?
-+ When was the first entry of women into the job?
+
+. . .
+
+When did women first become electricians?
+
+. . .
+
+When was the first entry of women into the job?
 
 
-----
-== Mainland Chinese vs American shoppers
+## Mainland Chinese vs American shoppers
 
 
-----
-== Mainland visitors vs year-round residents
-
-+ 1. The visitors and year-round residents have a lot in common.
-+ 2. The visitors probably are making more money than the locals.
-+ 3. The number of visitors is about 4 times the number of locals.
-+ 4. Some of the residents don't speak English.
-+ 5. Some famous Americans spend their summers on the island.
-+ 6. President Obama spends his summer on the island.
-+ 7. Obama is about the only black person on the island.
+## Mainland visitors vs year-round residents
 
 
-----
-==== Australian Christmases
+. . .
 
-+ question: Christmas is at a different time of year 
+1. The visitors and year-round residents have a lot in common.
+
+. . .
+
+2. The visitors probably are making more money than the locals.
+
+. . .
+
+3. The number of visitors is about 4 times the number of locals.
+
+. . .
+
+4. Some of the residents don't speak English.
+
+. . .
+
+5. Some famous Americans spend their summers on the island.
+
+. . .
+
+6. President Obama spends his summer on the island.
+
+. . .
+
+7. Obama is about the only black person on the island.
+
+
+##== Australian Christmases
+
+
+. . .
+
+question: Christmas is at a different time of year 
 in Australia.
 
-+ question: The weather at the Australian 
+
+. . .
+
+question: The weather at the Australian 
 Christmas is very different than a northern 
 hemisphere one.
 
-+ question: Australian Christmas cards are the 
+
+. . .
+
+question: Australian Christmas cards are the 
 same as northern hemisphere cards with snow and 
 reindeers.
 
-+ question: Being Santa Claus makes you feel cool 
+
+. . .
+
+question: Being Santa Claus makes you feel cool 
 in Australia.
 
-+ question: There is a lot of kissing of children 
+
+. . .
+
+question: There is a lot of kissing of children 
 by their aunts and uncles at Australian 
 Christmases.
 
-+ question: Many Australians spend their 
+
+. . .
+
+question: Many Australians spend their 
 Christmases outdoors.
 
