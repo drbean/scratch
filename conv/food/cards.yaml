@@ -235,6 +235,171 @@ spano:
       B: You liked the cooking and the atmosphere at Spano's Italian Restaurant, so you were sad when you read that it was closing because it could not compete with the chain restaurants in the town. You always appreciated Joe's interest in your reaction to the food.
       C: You and your father started a restaurant. He left you to handle it, while he went on to other things. It is very gratifying to you when guests like Luke tell you they love the cooking, and they empty their plates. You know this shows they loved the meal. You tell your cook, Manny.
       D: You were surprised when Joe washed the dishes at the restaurant one night when the usual dishwasher was sick. He told you that all the work of the restaurant is important. He said the cooking and the attention to detail is why the restaurant is popular.
+      quiz:
+        - question: A
+          option: 
+            - Joe, Jr
+            - Joe, Sr
+            - Luke
+          answer: Joe, Sr
+        - question: B
+          option: 
+            - Joe, Jr
+            - Joe, Sr
+            - Luke
+          answer: Luke
+        - question: C
+          option: 
+            - Joe, Jr
+            - Joe, Sr
+            - Luke
+          answer: Joe, Jr
+        - question: Luke is Joe's customer.
+          answer: True
+        - question: Joe, Jr is Joe Sr's boss.
+          answer: False
+        - question: Joe loves it when guests eat everything.
+          answer: True
+        - question: Luke liked Joe's interest in what he thought of the food.
+          answer: True
+        - question: Joe, Sr is still running the restaurant.
+          answer: False
+        - question: The father taught the son the importance of hard work.
+          answer: True
+        - question: The restaurant is more popular than the big restaurants.
+          answer: False
+    1:
+      identifier: spano 1
+      A: You wanted your son to realize the value of hard work, so you gave him unimportant jobs, like dishwashing, when you established an Italian restaurant with him. You are now doing something else.
+      B: You liked Spano's Italian Restaurant, but it is closing because it cannot compete with the chain restaurants in town. You liked that Joe was interested in what you thought of the food.
+      C: You and your father started a restaurant. He left you to handle it, while he went on to other things. You like it when guests like Luke tell you they love the cooking. You tell your cook, Manny.
+      D: You are a cook. You were surprised when Joe washed the dishes at the restaurant one night. He told you that washing dishes is important. You said your cooking is what is important.
+      quiz:
+        - question: A
+          option: 
+            - Joe, Jr
+            - Joe, Sr
+            - Luke
+          answer: Joe, Sr
+        - question: B
+          option: 
+            - Joe, Jr
+            - Joe, Sr
+            - Luke
+          answer: Luke
+        - question: C
+          option: 
+            - Joe, Jr
+            - Joe, Sr
+            - Luke
+            - Manny
+          answer: Joe, Jr
+        - question: D
+          option: 
+            - Joe, Jr
+            - Joe, Sr
+            - Luke
+            - Manny
+          answer: Manny
+        - question: Luke is Joe's customer.
+          answer: True
+        - question: Manny is Joe's boss.
+          answer: False
+        - question: Joe loves it when guests eat everything.
+          answer: True
+        - question: Luke liked Joe's interest in what he thought of the food.
+          answer: True
+        - question: Joe Sr is still running the restaurant.
+          answer: False
+        - question: The restaurant is making much money.
+          answer: True
+    2:
+      identifier: spano 2
+      A: You had never cooked when you established your Italian restaurant. But you worked very hard and you made your son work hard too, washing dishes. Now he is the boss and you are doing something else.
+      B: You liked going to Spano's Italian Restaurant, because you liked the food and because Joe liked talking to you about your meal. But now it is closing because it is losing money.
+      C: You and your father started a restaurant. After it became successful, he left you to handle it. You like talking to guests like Luke. They tell you they love the cooking, You tell your cook, Manny.
+      D: Joe washed the dishes at the restaurant one night. He told you that all the work of the restaurant is important. He said you are a good cook, but attention to detail is also important.
+      quiz:
+        - question: A
+          option: 
+            - Joe, Jr
+            - Joe, Sr
+            - Luke
+            - Manny
+          answer: Joe, Sr
+        - question: B
+          option: 
+            - Joe, Jr
+            - Joe, Sr
+            - Luke
+            - Manny
+          answer: Luke
+        - question: C
+          option: 
+            - Joe, Jr
+            - Joe, Sr
+            - Luke
+            - Manny
+          answer: Joe, Jr
+        - question: D
+          option: 
+            - Joe, Jr
+            - Joe, Sr
+            - Luke
+            - Manny
+          answer: Manny
+        - question: Luke is a cook.
+          answer: False
+        - question: Manny is the restaurant's boss.
+          answer: False
+        - question: Joe likes talking to guests about the meal.
+          answer: True
+        - question: Luke liked Joe's interest in what he thought of the food.
+          answer: True
+        - question: Joe Sr is still running the restaurant.
+          answer: False
+        - question: Joe thinks hard work is important.
+          answer: True
+diaz:
+  jigsaw:
+    0:
+      identifier: diaz 0
+      A: During the Depression your family makes wine from grapes and gives it or sells it to your neighbors. You can't have a bath because the bathtub is full of wine. So you ask the Johnsons, your neighbors if you can use their bathtub.
+      B: You have some money so you buy a whole pig, and cook it on the roof of your house. You invite the Diaz, Johnson and other families to cook and share the meat with you, and you sell it to the neighbors. The Diaz family gives you some wine.
+      C: The army dumps grapes near your house. You help the Diaz family take the grapes to their apartment. When they need to take a bath, you let them use your bath. You help the Russo family cook their pig. They give you some meat.
+      quiz:
+        - question: A
+          option: 
+           - Diaz
+           - Johnson
+           - Russo
+          answer: Diaz
+        - question: B
+          option: 
+           - Diaz
+           - Johnson
+           - Russo
+          answer: Russo
+        - question: C
+          option: 
+           - Diaz
+           - Johnson
+           - Russo
+          answer: Johnson
+        - question: The families are all helping each other.
+          answer: True
+        - question: The pig is the Johnson family's.
+          answer: False
+        - question: The wine is the Diaz family's.
+          answer: True
+        - question: The Johnsons \& Russos exchange meat \& wine.
+          answer: False
+        - question: The Johnsons use the Diaz family's bath.
+          answer: False
+        - question: The Russos get the Diaz family's wine.
+          answer: True
+        - question: The Russos sell the meat to the Johnsons.
+          answer: False
 douglas:
   jigsaw:
     0:
