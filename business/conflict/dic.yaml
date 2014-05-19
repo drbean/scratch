@@ -123,48 +123,21 @@
   - olivier
   - The difficult sales rep
   - business
-  - A
+  - all
   - |+
     Olivier: I've been thinking a lot recently, Todd. I think you probably know, I'm not happy here at all. And I feel I've got to do something about it.
     Todd: Really? What exactly is the problem?
     Olivier: I think you know it, Todd. Jacques let me down badly with that order. He just wouldn't make any effort for me, so we've lost the order. It means I don't get the commission, and it'll also affect my bonus.
     Todd: Olivier, you must understand. You can't promise a customer that we'll deliver in three weeks. It's a busy time at the moment. Jacques's working under a lot of pressure.
-  - Olivier|Todd|Jacques
--
-  - olivier
-  - The difficult sales rep
-  - business
-  - B
-  - |+
-    Todd: Olivier, you must understand. You can't promise a customer that we'll deliver in three weeks. It's a busy time at the moment. Jacques's working under a lot of pressure.
     Olivier: Maybe, but let's face it. Jacques's no good as a production manager. He can't deal with pressure. He just says, Sorry I can't help. But it's not just Jacques..
     Todd: Oh yes?
     Olivier: Well, to be honest, I'm not happy with the way you run the department.
     Todd: I'm listening.
-    Olivier: The trouble with you is, you always want to know where I am, every second of the day.
-  - Olivier|Todd|Jacques
--
-  - olivier
-  - The difficult sales rep
-  - business
-  - C
-  - |+
-    Olivier: Well, to be honest, I'm not happy with the way you run the department.
-    Todd: I'm listening.
-    Olivier: The trouble with you is, you always want to know where I am, every second of the day.
-    You give me no space. You want to control me all the time. How can I meet my sales targets if I have to spend all the time writing reports, answering your telephone messages and attending meetings? I've got to be out there selling, twenty-four hours every day.
-    Todd: Maybe, but you can't just do what you like, when you like, Olivier. Discipline is important.
-  - Olivier|Todd|Jacques
--
-  - olivier
-  - The difficult sales rep
-  - business
-  - D
-  - |+
-    Olivier: I have to spend all the time writing reports, answering your telephone messages and attending meetings? I've got to be out there selling, twenty-four hours every day.
+    Olivier: The trouble with you is, you always want to know where I am, every second of the day. You give me no space. You want to control me all the time. How can I meet my sales targets if I have to spend all the time writing reports, answering your telephone messages and attending meetings? I've got to be out there selling, twenty-four hours every day.
     Todd: Maybe, but you can't just do what you like, when you like, Olivier. Discipline is important.
     Olivier: Discipline! Control! Look, I've had enough. I've give everything to this company. But no one cares. So, I've decided to resign. You'll get my letter in the morning and I'll send a copy to Charles. He won't be pleased, I'm sure. We've been friends for years. But I just can't work with you Todd. There's no other solution.
   - Olivier|Todd|Jacques|Charles
+  - 33
 -
   - responsibility
   - The Carrefour order
