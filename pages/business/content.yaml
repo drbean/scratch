@@ -555,6 +555,16 @@ topic:
         comment: |+
           Do you understand what is happening? What do you think about it? What should Charles, the CEO of the company do? Who is at fault? Charles? Jacques, the production manager, Olivier, or Todd?
       -
+        id: tensions
+        title: A framework for discussing conflict
+        blurb: Robert Mnookin's framework has 3 dimensions. The first dimension (dividing the pie and creating a bigger pie) is about whether the 2 parties can think not just about getting what each wants, but also about how helping the other party may allow them to BOTH get what they want and MORE than they can expect. The second dimension (empathy and assertiveness) is about the poor communication in conflict. Each party lacks the ability to understand what the other party wants and the ability to express what IT wants. The third dimension is about the personal ownership of the reasons for the conflict. The issue about which there is conflict may not belong to the people who are in conflict. Each party may be just a representative of other people who are not there.
+        comment: |+
+          <ul>
+          <li> This framework in the <a href="http://www.mediate.com//articles/mnookin_full.cfm">first video</a>, starting at 24:23, is on the exam in Week 18.
+          <li> In the <a href="http://www.youtube.com/watch?v=BMC-FxqPDWU">second video</a>, starting at 34:00, Mnookin describes the difference between intuitive thinking and analytical thinking. He says people should analyze their intuitions, not to support those intuitions, but to judge whether the intuitions are correct.
+          </ul>
+
+      -
         id: responsibility
         title: A different story about Olivier, Todd, Jacques, and Charles
         blurb: I wrote a different story about European Campers. Olivier is not the cause of the conflict. Some other person, Todd, Jacques, or Charles is the problem. In fact I wrote two different stories and mixed them up. Can you sort out the two different stories?
