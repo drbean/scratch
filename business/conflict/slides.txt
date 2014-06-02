@@ -53,6 +53,14 @@ OR
 
 I win, you lose.
 
+## cooperative <-> competitive
+
+- cooperative <-> competitive
+- Creating value <-> distributive
+- win-win situation  <-> zero-sum game
+
+(everyone wins) (you scratch my back, I'll scratch yours)
+
 ## Table and Pair Compcomp
 
 - [Table compcomp](http://web.nuu.edu.tw/~greg/FLA0021/conversation.pdf)
@@ -69,6 +77,12 @@ Is communication good?
 
 - Is the speaker acting in the place of someone else? Is the conflict their own conflict?
 - Or are they like a spokesperson representing someone else in the conflict?
+
+## 朝三幕四
+
+[Monkeys get 4 & 3 instead of 3 & 4](http://www.chinapage.com/story/monkeyfeed.html)
+
+Analyze the story in terms of the cooperative-competitive dimension and empathy-assertiveness dimension.
 
 ## Role play--the champions
 
@@ -133,14 +147,30 @@ Mr Spock
 [http://en.wikipedia.org/wiki/Spock](http://en.wikipedia.org/wiki/Spock)
 
 [Mr Spock says fascinating](http://www.youtube.com/watch?v=cFods1KSWsQ)
+[Mr Spock argues with others](http://www.youtube.com/watch?v=5_APSczipvo)
 
-## Which theory does Dr Bean believe
+## Which of the 3 dimensions do Olivier and Todd exhibit
 
-- The first speaker (the odd numbered group's speaker) will argue Dr Bean believes Theory X, giving evidence from his teaching.
-- The second speaker (the even numbered group's speaker) will argue Dr Bean believes Theory Y, giving evidence from his teaching.
+- The first speaker (the odd numbered group's speaker) will argue Olivier wants to expand the pie, is empathetic, and the principal and Todd isn't or doesn't.
+- The second speaker (the even numbered group's speaker) will argue Todd wants to expand the pie, is empathetic, and the principal and Olivier isn't or doesn't.
 
 * The group will decide which speaker presented the better argument.
 * 2 spokespersons (not the speakers) will stand up and report to the class the discussion and the result.
+* Before the discussion, I will walk around looking at books. Have you written questions?
+
+## The spokespersons will say:
+
+The 2 spokespersons say:
+
+1. Something the champions said. eg Our champion said Todd wants to help Olivier. He wants to expand the pie
+2. What the listeners thought. eg We thought our champion spoke more and did a better job.
+3. In terms of the framework, whether the champions were:
+	
+	a. concerned about expanding the pie, or dividing the pie.
+	b. good communicators, showing empathy &/or assertiveness.
+	c. negotiating for people not at the table (ie stakeholders.)
+
+Dr Bean will listen to the spokespersons and choose the winners, the group of the spokesperson who gave the best report.
 
 ## What kind of person are you?
 
