@@ -1538,6 +1538,11 @@ trinka:
           answer  : False
         - question: Shane is Mary's father-in-law.
           answer  : False
+    3:
+      identifier: trinka 3
+      A: A is old. He has now stopped working at the Plaza Hotel. He met Mary. B is Shane. C is Ed's wife.
+      B: You are Ed's father. You worked at the Plaza too and you got Ed his job there. Workers made a lot of the decisions about who would work at the hotel. Sometimes relationships with the managers weren't good at the hotel, but you enjoyed working there. When Ed was young, you told him to be a good man, and to live a good life. And he did that.
+      C: Your name is Mary. You are now dead. You were Ed's wife. You met him when you were working at the hotel. He was a good husband. At home, he was happy, friendly and helpful, just like when he was at work. He loved you very much and you loved him. Now he is sad, because you are dead. Now he is looking for a new wife. 
   compcomp:
     0:
       identifier: Ed Trinka--doorman
