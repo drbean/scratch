@@ -1,0 +1,41 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use IO::All;
+use YAML qw/LoadFile DumpFile/;
+use Cwd;
+
+$_REPL->load_plugin('DumpHistory');
+
+(my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
+use Grades;
+use Grades::Groupwork;
+my $l = League->new( leagues => '/home/drbean/022', id => $dir );
+my $g = Grades->new({ league => $l });
+my $co = Compcomp->new({ league => $l });
+my $cl = $g->classwork;
+my %m = map { $_->{id} => $_ } @{ $l->members };
+my $approach = $l->approach;
+
+my $session = 4;
+my $week = 15;
+
+my $y = LoadFile 'classwork/15.yaml';
+my $report = $y->{report};
+my %report = map { $_ =>  $y->{report}->{$_} } qw/A B C Other/;
+for my $letter ( keys %$report ) {
+	my $tables = $report->{$letter};
+	for my $table ( keys %$tables ) {
+		my $winner = $report->{$letter}->{$table}->{winner};
+		next if ( $winner eq "Unplayed" or $winner eq  "None" );
+		# TODO die "Who won of $letter letter at $table table" if none ($winner) ;
+		$y->{$winner}->{merits}++;
+	}
+}
+my $cans = $cl->beancan_names($session);
+for my $can ( keys %$cans ) {
+	my $n = scalar values $cans->{$can};
+	my $wins = $y->{$can}->{merits} || 0;
+	$y->{$can}->{merits} = sprintf( '%.2f', 2 + $wins/$n);
+}
