@@ -10,7 +10,7 @@ use Lingua::Han::PinYin;
 
 $_REPL->load_plugin('DumpHistory');
 
-my $week = 14;
+my $week = 16;
 
 (my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
 use Grades;
