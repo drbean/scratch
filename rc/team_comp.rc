@@ -19,15 +19,14 @@ my %m = map { $_->{id} => $_ } @{ $l->members };
 my $approach = $l->approach;
 
 my $session = 4;
-my $week = 15;
+my $week = 16;
 
-my $y = LoadFile 'classwork/15.yaml';
+my $y = LoadFile "classwork/$week.yaml";
 my $report = $y->{report};
-my %report = map { $_ =>  $y->{report}->{$_} } qw/A B C Other/;
-for my $letter ( keys %$report ) {
-	my $tables = $report->{$letter};
-	for my $table ( keys %$tables ) {
-		my $winner = $report->{$letter}->{$table}->{winner};
+for my $table ( keys %$report ) {
+	my $play = $report->{$table};
+	for my $letter ( keys %$play ) {
+		my $winner = $report->{$table}->{$letter}->{winner};
 		next if ( $winner eq "Unplayed" or $winner eq  "None" );
 		# TODO die "Who won of $letter letter at $table table" if none ($winner) ;
 		$y->{$winner}->{merits}++;
