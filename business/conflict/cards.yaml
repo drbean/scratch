@@ -404,5 +404,131 @@ olivier:
         answer: True
       - question: Olivier and Todd: Question 11. Olivier and Jacques should have spoken to Charles about the problem.
         answer: True
-
-
+framework:
+ jigsaw:
+  0:
+    identifier: framework 0
+    A: \item Mnookin asks Olivier: What can Todd do to help you? \item Olivier says: I would like an assistant to help me write reports. \item Todd says: An assistant is a good idea. He/she will tell me what Olivier is doing.
+    B: \item Mnookin asks Todd: Can you explain why Olivier is upset? \item Todd says, Olivier enjoys selling but he may also want to leave the company and steal its customers, so he doesn't want me to meet them. \item Olivier denies it, but smiles.
+    C: \item Mnookin asks Olivier: Why do you want freedom? Who benefits? You, or the company? \item Olivier says: Both me and the company. \item Mnookin asks Todd: Whose position are you taking? Your own or the company's. \item Todd says: the company's.
+    quiz :
+      - question: Talk about cutting up the pie or creating a bigger pie?
+        option:
+          - zero-sum game
+          - win-win situation
+        answer: Todd
+      - question: Understanding the other's position or presenting one's own?
+        option:
+          - empathy
+          - assertiveness
+        answer: Todd
+      - question: The stakeholders are Olivier and Todd, or someone else?
+        option:
+          - principal
+          - agent
+        answer: Todd
+  1:
+    identifier: framework 1
+    A: \item [zero-sum/win-win] Mnookin asks: What can you do to help each other? \item [empathy/assertiveness] Mnookin asks Todd: Can you see why Olivier is upset? \item [principal/agent] Mnookin asks Olivier: Why do you want freedom? For your benefit? Or the company's? 
+    B: \item [zero-sum/win-win] Olivier says he wants an assistant to help him write reports. \item [empathy/assertiveness] Olivier thinks Todd understands how he feels. \item [principal/agent] Olivier tells Mnookin he wants freedom for his own benefit.
+    C: \item [zero-sum/win-win] Todd thinks an assistant is a good idea. He/she will know where Olivier is. \item [empathy/assertiveness] Todd says, Olivier thinks he is Number One. He only thinks about himself. \item [principal/agent] Todd agrees Olivier is acting for himself.
+    quiz :
+      - question: Talk about cutting up the pie or creating a bigger pie?
+        option:
+          - zero-sum game
+          - win-win situation
+        answer: win-win situation
+      - question: Understanding the other's position or presenting one's own?
+        option:
+          - empathy
+          - assertiveness
+        answer: empathy
+      - question: The stakeholders are Olivier and Todd, or someone else?
+        option:
+          - principal
+          - agent
+        answer: principal
+  2:
+    identifier: framework 2
+    A: \item [zero-sum/win-win] Mnookin asks: Can you agree on Olivier writing reports? \item [empathy/assertiveness] Mnookin says: You both spoke very strongly. Did you convince each other? \item [principal/agent] Mnookin asks Todd and Olivier: Are you arguing for your own benefit? Or the company's? 
+    B: \item [zero-sum/win-win] Olivier says he will not write any reports. \item [empathy/assertiveness] Olivier persuades Todd that not all reports are necessary. \item [principal/agent] But Olivier says he is taking the company's position. It doesn't need reports.
+    C: \item [zero-sum/win-win] Todd thinks fewer reports from Olivier might be enough, but 1 or 2 are necessary. \item [empathy/assertiveness] Todd explains very well why the company wants reports. \item [principal/agent] Todd is arguing for the company, which wants reports.
+    quiz :
+      - question: Talk about cutting up the pie or creating a bigger pie?
+        option:
+          - zero-sum game
+          - win-win situation
+        answer: zero-sum game
+      - question: Understanding the other's position or presenting one's own?
+        option:
+          - empathy
+          - assertiveness
+        answer: assertiveness
+      - question: The stakeholders are Olivier and Todd, or someone else?
+        option:
+          - principal
+          - agent
+        answer: agent
+  3:
+    identifier: framework 3
+    A: \item [zero-sum/win-win] Mnookin asks: Should Olivier become assistant sales manager? \item [empathy/assertiveness] Mnookin says: You seem like you don't understand each other. \item [principal/agent] Mnookin asks Todd and Olivier: Are you thinking of your own benefit? Or the company's? 
+    B: \item [zero-sum/win-win] Olivier wants to be a manager. \item [empathy/assertiveness] But Olivier thinks Todd is frightened of him being a manager. \item [principal/agent] Talking with Todd, Olivier discusses how being manager would help everyone. The company's interests concern him.
+    C: \item [zero-sum/win-win] Todd thinks making Olivier a manager is a good idea. He would become more responsible. \item [empathy/assertiveness] But Todd thinks Olivier wants to be a salesman, not a manager. \item [principal/agent] Todd thinks making Olivier a manager would be good for the company, but not himself.
+    quiz :
+      - question: Talk about cutting up the pie or creating a bigger pie?
+        option:
+          - zero-sum game
+          - win-win situation
+        answer: win-win situation
+      - question: Understanding the other's position or presenting one's own?
+        option:
+          - empathy
+          - assertiveness
+        answer: empathy
+      - question: The stakeholders are Olivier and Todd, or someone else?
+        option:
+          - principal
+          - agent
+        answer: agent
+  4:
+    identifier: framework 4
+    A: \item [zero-sum/win-win] Mnookin asks Todd: Are you going to let Olivier quit? \item [empathy/assertiveness] You both spoke very strongly. Did you convince each other? \item [principal/agent] Mnookin asks Todd and Olivier: Are you thinking of your own benefit? Or the company's? 
+    B: \item [zero-sum/win-win] Olivier wants to stay, but only on his own conditions. \item [empathy/assertiveness] Olivier persuades Todd that maintaining contact by cellphone 24 hours a day is unnecessary. \item [principal/agent] Olivier is thinking of his own interests.
+    C: \item [zero-sum/win-win] Todd wants Olivier to stay, but only on Todd's conditions. \item [empathy/assertiveness] Todd persuades Olivier to report by telephone once a day. \item [principal/agent] Todd is thinking only of his own interests, not of the value of Olivier to the company.
+    quiz :
+      - question: Talk about cutting up the pie or creating a bigger pie?
+        option:
+          - zero-sum game
+          - win-win situation
+        answer: zero-sum game
+      - question: Understanding the other's position or presenting one's own?
+        option:
+          - empathy
+          - assertiveness
+        answer: assertiveness
+      - question: The stakeholders are Olivier and Todd, or someone else?
+        option:
+          - principal
+          - agent
+        answer: principal
+  5:
+    identifier: framework 5
+    A: \item [zero-sum/win-win] Mnookin asks Todd: Are you going to let Olivier quit? \item [empathy/assertiveness] Mnookin says: You seem like you don't understand each other. \item [principal/agent] Mnookin asks Todd and Olivier: Are you thinking of your own benefit? Or the company's? 
+    B: \item [zero-sum/win-win] Olivier wants to be a manager. \item [empathy/assertiveness] But Olivier thinks Todd is frightened of him being a manager. \item [principal/agent] Talking with Todd, Olivier discusses how being manager would help everyone. The company's interests concern him.
+    C: \item [zero-sum/win-win] Todd thinks making Olivier a manager is a good idea. He would become more responsible. \item [empathy/assertiveness] But Todd thinks Olivier wants to be a salesman, not a manager. \item [principal/agent] Todd thinks making Olivier a manager would be good for the company, but not himself.
+    quiz :
+      - question: Talk about cutting up the pie or creating a bigger pie?
+        option:
+          - zero-sum game
+          - win-win situation
+        answer: win-win situation
+      - question: Understanding the other's position or presenting one's own?
+        option:
+          - empathy
+          - assertiveness
+        answer: empathy
+      - question: The stakeholders are Olivier and Todd, or someone else?
+        option:
+          - principal
+          - agent
+        answer: agent
