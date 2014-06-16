@@ -1665,6 +1665,82 @@ bruno:
           answer: False
         - question: People thank Angelo at Christmas.
           anwer: True
+    2:
+      identifier: bruno 2
+      A: You think Angelo is a nice person. He and Eddie carry your trash from your door out to the garbage truck. You give them a Christmas present. You are a nun, but you kiss Angelo on the cheek. You are sad and cry when he retires.
+      C: You are not famous, but you are well-known in your area of New York. New Yorkers don't appear friendly and helpful. But you and Eddie do when you pick up the trash. At Christmas, people give you and Eddie money and gifts to show their thanks.
+      D: You like working with Angelo because he is a great person. He really tries to do a good job. However, often it is you who do the work, lifting the garbage into the truck. He just stands and talks to people, like Sister Helen, the nun.
+      quiz:
+        - question: A
+          option:
+            - Angelo
+            - Eddie
+            - Sr Helen
+          answer: Sr Helen
+        - question: B
+          option:
+            - Angelo
+            - Eddie
+            - Sr Helen
+          answer: Angelo
+        - question: C
+          option:
+            - Angelo
+            - Eddie
+            - Sr Helen
+          answer: Eddie
+        - question: Sister Helen is a nun in New York City.
+          answer: True
+        - question: Sister Helen carries her trash out for Angelo.
+          answer: False
+        - question: Sister Helen kissed Angelo.
+          answer: True
+        - question: Angelo works together with Eddie.
+          answer: True
+        - question: Angelo does more work than Eddie.
+          answer: False
+        - question: People thank Angelo at Christmas.
+          anwer: True
+        - question: New Yorkers appear friendly.
+          anwer: False
+    3:
+      identifier: bruno 3
+      A: You don't know Angelo Bruno. But he is like you. He is very friendly and helpful. Most people in New York don't usually appear to be friendly, but you and he always do. You make more than him in tips perhaps, but his salary may be better than yours.
+      B: You are not as famous as Ed Trinka, the doorman at the Plaza, but like him, you try to help people and be friendly when you pick up their trash. At Christmas, people give you and Eddie more money and gifts than other trash men to show their thanks.
+      C: You like working with Angelo because he is a great person. He really tries to do a good job. However, it is you who do all the work, lifting the garbage into the truck. He just stands around and talks to people. You miss him because he has retired.
+      quiz:
+        - question: A
+          option:
+            - Angelo
+            - Eddie
+            - Ed Trinka
+          answer: Ed Trinka
+        - question: B
+          option:
+            - Angelo
+            - Eddie
+            - Ed Trinka
+          answer: Angelo
+        - question: C
+          option:
+            - Angelo
+            - Eddie
+            - Ed Trinka
+          answer: Eddie
+        - question: Angelo is more famous than Ed Trinka.
+          answer: False
+        - question: Angelo works together with Eddie.
+          answer: True
+        - question: Angelo does more work than Eddie.
+          answer: False
+        - question: People thank Angelo at Christmas.
+          anwer: True
+        - question: Angelo gets more tips than Ed Trinka.
+          anwer: False
+        - question: Angelo's salary maybe is higher.
+          anwer: True
+        - question: Eddie misses Angelo.
+          anwer: True
   compcomp:
     0:
       identifier: bruno 0
