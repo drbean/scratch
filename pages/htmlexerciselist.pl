@@ -63,11 +63,11 @@ my $storystring = '
 <TMPL> $comment </TMPL>
 </p>
 <p>
-Fill in the blanks in the <a 
-href=http://203.64.184.141/cgi-bin/<TMPL> $location </TMPL>/script/<TMPL> $location </TMPL>_cgi.pl/login?exercise=<TMPL> $id </TMPL>><TMPL> $id </TMPL></a> exercise. (You will be asked to log in.)
+If you are OFF/OUTSIDE the NUU campus, fill in the blanks HERE in the <a 
+href=http://113.196.171.180/cgi-bin/<TMPL> $location </TMPL>/script/<TMPL> $location </TMPL>_cgi.pl/login?exercise=<TMPL> $id </TMPL>><TMPL> $id </TMPL></a> exercise. (You will be asked to log in.)
 </p>
 <p>
-If that link doesn\'t work, try the <a href="http://sac.nuu.edu.tw/cgi-bin/<TMPL> $location </TMPL>/script/<TMPL> $location </TMPL>_cgi.pl/login?exercise=<TMPL> $id </TMPL>"> alternative <TMPL> $id </TMPL> exercise link </a>.
+If you are ON the NUU campus and that link doesn\'t work, try the <a href="http://sac.nuu.edu.tw/cgi-bin/<TMPL> $location </TMPL>/script/<TMPL> $location </TMPL>_cgi.pl/login?exercise=<TMPL> $id </TMPL>"> alternative <TMPL> $id </TMPL> exercise link </a>.
 </div>
 
 ';
