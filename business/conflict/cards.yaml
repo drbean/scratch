@@ -513,15 +513,15 @@ framework:
         answer: principal
   5:
     identifier: framework 5
-    A: \item [zero-sum/win-win] Mnookin asks Todd: Are you going to let Olivier quit? \item [empathy/assertiveness] Mnookin says: You seem like you don't understand each other. \item [principal/agent] Mnookin asks Todd and Olivier: Are you thinking of your own benefit? Or the company's? 
-    B: \item [zero-sum/win-win] Olivier wants to be a manager. \item [empathy/assertiveness] But Olivier thinks Todd is frightened of him being a manager. \item [principal/agent] Talking with Todd, Olivier discusses how being manager would help everyone. The company's interests concern him.
-    C: \item [zero-sum/win-win] Todd thinks making Olivier a manager is a good idea. He would become more responsible. \item [empathy/assertiveness] But Todd thinks Olivier wants to be a salesman, not a manager. \item [principal/agent] Todd thinks making Olivier a manager would be good for the company, but not himself.
+    A: \item [zero-sum/win-win] Mnookin asks Todd: Are you going to let Olivier quit? \item [empathy/assertiveness] Mnookin says: Explain to me what the other wants. \item [principal/agent] Mnookin asks Todd and Olivier: Are you thinking of your own benefit? Or the company's? 
+    B: \item [zero-sum/win-win] Olivier wants to stay. \item [empathy/assertiveness] Olivier thinks Todd wants him to stay, too. \item [principal/agent] Talking with Todd, Olivier discusses how he wants to help the company. The company's interests concern him.
+    C: \item [zero-sum/win-win] Todd wants Olivier to leave. \item [empathy/assertiveness] And Todd thinks Olivier wants to leave. \item [principal/agent] But talking with Olivier, Todd takes the company's position, which is Olivier should stay.
     quiz :
       - question: Talk about cutting up the pie or creating a bigger pie?
         option:
           - zero-sum game
           - win-win situation
-        answer: win-win situation
+        answer: zero-sum game
       - question: Understanding the other's position or presenting one's own?
         option:
           - empathy
