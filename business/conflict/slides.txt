@@ -61,10 +61,26 @@ I win, you lose.
 
 (everyone wins) (you scratch my back, I'll scratch yours)
 
-## Table and Pair Compcomp
+## Table Jigsaw and Pair Compcomp
 
-- [Table compcomp](http://web.nuu.edu.tw/~greg/FLA0021/conversation.pdf)
-- [Pair compcomp](http://web.nuu.edu.tw/~greg/managing/questionsA5.pdf)
+- [Table jigsaw](http://web.nuu.edu.tw/~greg/FLA0021/conversation_A.pdf)
+- [Table jigsaw](http://web.nuu.edu.tw/~greg/FLA0021/conversation_B.pdf)
+- [Table jigsaw](http://web.nuu.edu.tw/~greg/FLA0021/conversation_C.pdf)
+- [Exam questions](http://web.nuu.edu.tw/~greg/conflict/quiz_framework_0.pdf)
+
+- [Pair compcomp](http://web.nuu.edu.tw/~greg/conflict/questionsA5.pdf)
+
+## Table Jigsaw--Procedure
+
+- Champions come to front, read card for one minute
+- All 6 persons in table from both groups discuss answer to framework dimension
+- Spokespersons at table report:
+  	- What the table talked about
+	- How what they discussed would help answer the questionkkk
+
+## Table Jigsaw--Card
+
+[Framework](http://web.nuu.edu.tw/~greg/conflict/jigsaw_framework_0.pdf)
 
 ## Communication: Empathy OR assertiveness
 
@@ -82,7 +98,12 @@ Is communication good?
 
 [Monkeys get 4 & 3 instead of 3 & 4](http://www.chinapage.com/story/monkeyfeed.html)
 
-Analyze the story in terms of the cooperative-competitive dimension and empathy-assertiveness dimension.
+Are the monkeys stupid? No, no,  no,  no,  no,  no,  no,  no,  no, 
+
+- 朝三暮四 contradict one's own words, fickle, undecided in mind;
+- Analyze the story in terms of the cooperative-competitive dimension and empathy-assertiveness dimension.
+- The monkeys are NOT stupid. Perhaps they prefer a bigger breakfast and smaller dinner.
+- Is this a zero-sum game, or win-win situation
 
 ## Role play--the champions
 
@@ -172,97 +193,5 @@ The 2 spokespersons say:
 
 Dr Bean will listen to the spokespersons and choose the winners, the group of the spokesperson who gave the best report.
 
-## What kind of person are you?
-
-Do you need to be told what to do?
-
-## Are you a manager, Jack?
-
-Are your subordinates able to work without constant supervision?
-
-## Richard Branson
-
-What makes you think he believes in Theory X or Theory Y?
-[http://www.youtube.com/watch?v=tDTX5UVoDxQ](http://www.youtube.com/watch?v=tDTX5UVoDxQ)
-
-5:30 Taking it to the next stage
-
-## 3 Management levels
-
-
-$200,000
-above
-control
-deciding
-execute
-fire
-make
-managers.
-motivate
-people
-president
-quality
-raising
-responsible
-shareholders
-tasks
-top
-work
-work
-
-At the _____(1) are directors, the _____(2) and other executives, _____(3) for setting standards, _____(4) directions, and _____(5) money, They are accountable to _____(6) and the public. Directors may _____(7) only 4 hours a week, earn _____(8), and _____(9) the president.
-
-Middle-level managers _____(10) plans with goals from _____(11), talk to more _____(12), design and _____(13) more systems, and _____(14) workers.
-
-First-level managers _____(15) and direct workers, giving out _____(16), supervising _____(17), checking _____(18), reporting back to _____(19)
-
-## Nicholson's advice 
-
-1. Top-level managers
-2. Middle-level managers
-3. First-level managers
-4. Labor/workers
-
-## Nicholson and Dr Bean: Who acts according to Theory X and who to Theory Y
-
-A: Nicholson thinks understanding people is important. Nicholson thinks if you know what people want, you can control them. Dr Bean is different than many people and doesn't understand them so well as Nicholson. Dr Bean thinks that it is impossible to control people successfully. Giving orders doesn't work. He wants everyone to have control.
-
-B: 
-
-C: Dr Bean works with just Taiwanese students. He is used to working with them and wants to try a new approach motivating them. He wants to make learning English exciting. Nicholson works with a team of people from many different cultures. He doesn't know them well and they are all different and some are not interested in working. He has to just tell them what to do.
-
-## Nicholson and Dr Bean: Who acts according to Theory X and who to Theory Y
-
-Nicholson: Dr Bean is a great teacher, but I don't think he understands the students. He doesn't recognize them as individuals and what drives them. So he can only appeal to the most basic motivations, like grades and a desire to please the teacher. In my teaching, I recognize everyone is an individual. I have students from Africa in my classes, and although they all have black skin they are just like the European students.
-
-## Nicholson and Dr Bean: Who acts according to Theory X and who to Theory Y
-
-Dr Bean: I try to get students to work in groups, and it only succeeds sometimes. Nicholson just adopts traditional techniques of lecturing, exams and grades. I try to get students to be responsible for their own goals by thinking about what they admire in some particular student's English. Nicholson is just trying to teach students what is in the textbook. I don't know what the students' goals are, but I think if they enjoy talking to each other in English, they might feel successful and want to keep on learning.
-
-##
-
-1. A:
-2. B:
-3. C:
-4. D:
-5. Brian is Debbie's husband.
-6. Nick sends Nigel an email.
-7. Nigel suggests talking to Brian.
-8. Brian wants Debbie to quit.
-9. Brian is stealing Debbie's ideas.
-10. Nick wants Nigel to help Debbie.
-
-## Managing
-
-    鏈結名稱： BBC NEWS | Business | My boss 'keeps stealing my ideas'
-            [URL: http://news.bbc.co.uk/2/hi/business/4481899.stm](http://news.bbc.co.uk/2/hi/business/4481899.stm)
-
-+ 1: Nicholson is stealing Wilson's ideas
-+ 2: Male bosses don't want people to know if the idea is a woman's.
-+ 3: Wilson is unhappy about the different treatment of men and women.
-+ 4: Nicholson's advice is to not write ideas down.
-+ 5: His advice is for her to tell the boss she will quit.
-+ 6: His advice is to ask the boss to recognize her ideas.
-+ 7: He warns the boss might fire her if she asks for recognition.
 
 ## The End
