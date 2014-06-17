@@ -1449,48 +1449,39 @@ trinka:
       A: You are the doorman at the Plaza Hotel, an old and famous hotel in New York. You love your job. You are a happy person, and you like to make everyone feel happy too, A lot of the guests at the hotel have lots of money and many of them are famous VIPs, like Jackie Gleason. But you treat everyone like VIPs, even Debra and other people who aren't guests. 
       B: You are a New Yorker. Most New Yorkers are unfriendly. They don't have time to talk to other people. But Ed is different. You are not a guest at his hotel. You are not famous. You just walk past the hotel every day. But he became your friend too. You ask him to record his story. You ask him questions about working at the Plaza Hotel.
       C: You are a famous comedian. You are not a happy person, but you make people laugh because you say funny things. You make lots of money, but you spend it all. Ed makes you feel happy so you give him a very big tip. You ask him if anyone else gave him a very big tip. He tells you that you gave him his biggest tip.
-      D: You are a rich businessman staying at the Plaza Hotel. Your name is David. It is very early in the morning, but you need your shoes shined. You ask Ed where you can get your shoes shined. He says it is too early. Instead, he shines them for you. You give him a tip. And you decide to always stay at the Plaza, because Ed is very friendly and helpful.
       quiz:
         - question: A
           option:
-            - David
             - Debra
             - Ed
             - Jackie Gleason
           answer: Ed
         - question: B
           option:
-            - David
             - Debra
             - Ed
             - Jackie Gleason
           answer: Debra
         - question: C
           option:
-            - David
             - Debra
             - Ed
             - Jackie Gleason
           answer: Jackie Gleason
-        - question: D
-          option:
-            - David
-            - Debra
-            - Ed
-            - Jackie Gleason
-          answer: David
-        - question: Ed treats VIPs differently than others.
-          answer  : True
-        - question: Debra is a Plaza guest.
-          answer  : False
-        - question: Gleason is not happy.
-          answer  : False
-        - question: David stays at the Plaza, because it's famous.
-          answer  : True
-        - question: Gleason gave Ed his biggest tip.
-          answer  : False
-        - question: Ed told Debra his story.
-          answer  : True
+        - question: Jackie Gleason gave Ed Trinka a very big tip.
+          answer: True
+        - question: The Plaza is a very new hotel.
+          answer: False
+        - question: Debra Goodman was a guest at the hotel.
+          answer: False
+        - question: Ed appears to be an ordinary New Yorker, just like other New Yorkers.
+          answer: False
+        - question: Ed Trinka made Jackie Gleason feel happy.
+          answer: True
+        - question: Ed's job was to shine shoes.
+          answer: False
+        - question: Debra is a VIP.
+          answer: False
     2:
       identifier: trinka 2
       A: You are old. You have now stopped working at the Plaza Hotel. You worked there as a doorman for almost 50 years. Your father, Tony got you the job. You enjoyed your job every day and you tried very hard to do your best. However, you didn't get on with the boss, Shane. You didn't think he was a good manager.
