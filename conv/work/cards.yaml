@@ -1668,8 +1668,8 @@ bruno:
     2:
       identifier: bruno 2
       A: You think Angelo is a nice person. He and Eddie carry your trash from your door out to the garbage truck. You give them a Christmas present. You are a nun, but you kiss Angelo on the cheek. You are sad and cry when he retires.
-      C: You are not famous, but you are well-known in your area of New York. New Yorkers don't appear friendly and helpful. But you and Eddie do when you pick up the trash. At Christmas, people give you and Eddie money and gifts to show their thanks.
-      D: You like working with Angelo because he is a great person. He really tries to do a good job. However, often it is you who do the work, lifting the garbage into the truck. He just stands and talks to people, like Sister Helen, the nun.
+      B: You are not famous, but you are well-known in your area of New York. New Yorkers don't appear friendly and helpful. But you and Eddie do when you pick up the trash. At Christmas, people give you and Eddie money and gifts to show their thanks.
+      C: You like working with Angelo because he is a great person. He really tries to do a good job. However, often it is you who do the work, lifting the garbage into the truck. He just stands and talks to people, like Sister Helen, the nun.
       quiz:
         - question: A
           option:
