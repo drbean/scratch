@@ -19,7 +19,7 @@ my %m = map { $_->{id} => $_ } @{ $l->members };
 my $approach = $l->approach;
 
 my $session = 4;
-my $week = 17;
+my $week = 16;
 
 my $y = LoadFile "classwork/$week.yaml";
 my $report = $y->{report};
@@ -36,5 +36,5 @@ my $cans = $cl->beancan_names($session);
 for my $can ( keys %$cans ) {
 	my $n = scalar values $cans->{$can};
 	my $wins = $y->{$can}->{merits} || 0;
-	$y->{$can}->{merits} = sprintf( '%.2f', 2 + $wins/$n);
+	$y->{$can}->{merits} = sprintf( '%.2f', 2 + $wins/($n-1));
 }
