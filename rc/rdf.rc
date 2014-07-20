@@ -1,0 +1,28 @@
+#!/usr/bin/env perl
+use HTML::HTML5::Microdata::Parser;
+use LWP::Simple 'get';
+use RDF::Query;
+my $uri = "http://buzzword.org.uk/2012/schema-org.html";
+my $microdata = HTML::HTML5::Microdata::Parser->new(
+   get($uri),
+   $uri,
+);
+my $query = RDF::Query->new(<<'SPARQL');
+PREFIX schema: <http://schema.org/>
+SELECT ?name ?page
+WHERE {
+   ?person
+      a schema:Person ;
+      schema:name ?name ;
+      schema:url ?page .
+}
+SPARQL
+my $people = $query->execute($microdata->graph);
+while (my $person = $people->next)
+{
+   printf(
+      "Found person: %s %s\n",
+      $person->{name},
+      $person->{page},
+   );
+}
