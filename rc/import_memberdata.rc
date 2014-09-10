@@ -10,30 +10,30 @@ $_REPL->load_plugin('DumpHistory');
 
 my $dir = basename( getcwd );
 
-my $oldid = 'FLA0030';
+my $oldid = 'AFN2N0';
 
 use Grades;
-my $l = League->new( leagues => '/home/drbean/001', id => $dir );
+my $l = League->new( leagues => '/home/drbean/031', id => $dir );
 my $g = Grades->new({ league => $l });
 my %m = map { $_->{id} => $_ } @{ $l->members };
 my $approach = $l->approach;
 
-my $ol = League->new( leagues => '/home/drbean/class', id => $oldid );
+my $ol = League->new( leagues => '/home/drbean/021', id => $oldid );
 my $om = $ol->members;
 my %om = map { $_->{id} => $_ } @$om;
 
-my @grades = io("../../class/$oldid/grades.txt")->chomp->slurp;
-@grades = map { [ split /: /, $_ ] } @grades;
-my %grades = map { $_->[0] => $_->[1] } @grades;
+# my @grades = io("../../class/$oldid/grades.txt")->chomp->slurp;
+# @grades = map { [ split /: /, $_ ] } @grades;
+# my %grades = map { $_->[0] => $_->[1] } @grades;
 
 my $yaml = $l->yaml;
 my $members = $l->members;
 my @rated;
 for my $member ( @$members ) {
 	my $id = $member->{id};
-	$member->{name} ||= $om{ $id }->{name};
-	$member->{password} ||= $om{ $id }->{password};
-	$member->{rating} ||= $grades{ $id };
+	$member->{name} = $om{ $id }->{name} if $om{ $id }->{name};
+	# $member->{password} ||= $om{ $id }->{password};
+	# $member->{rating} ||= $grades{ $id };
 	push @rated, $member;
 }
 
