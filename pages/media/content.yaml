@@ -182,3 +182,14 @@ topic:
         blurb: |
           <a href="http://en.wikipedia.org/wiki/Campus_radio">Campus radio stations</a> in the US are of various sorts. Listen to <a href="http://www.youtube.com/watch?v=TUcWfHy_LSs">an introduction to one</a> run to teach students about radio. Others like <a href="http://vu.wsum.wisc.edu/wsumlive.m3u">this one</a>, the students are more in control, but are perhaps not as professional.
         comment: Students also produce newspapers, like the <a href="http://www.thecrimson.com">Harvard Crimson</a>. These newspapers are now moving online, and are being read less. They also are producing videos. Listen to a Harvard Crimson video about a <a href="http://www.youtube.com/watch?v=sebQ-Q6TbO4"> Harvard center for women</a>.
+  -
+    id: oddities
+    title: Strange but true
+    intro: Perhaps some of these stories are not real news--but they are interesting. By not real news, we might mean, they are not worth reading, or, they are not true: the event described didn't take place.
+    story:
+      -
+        id: dog
+        title: World's tallest dog
+        blurb: |
+          The <a href="http://en.wikipedia.org/wiki/Great_dane">Great Dane</a> is a very tall dog. Listen to a Youtube <a href="http://www.youtube.com/watch?v=LOd79cpwniM">story about Zeus</a>, the world's largest dog, which just died.
+        comment: Some Youtube <a href="http://www.youtube.com/watch?v=T-GGLpEp_8g">pictures</a>. On his hind legs the dog stood at 7 feet 4 inches, or 220 cm. At his shoulders, he was 110 cm.
