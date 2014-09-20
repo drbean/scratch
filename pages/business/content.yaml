@@ -34,20 +34,14 @@ topic:
 
       -
         id: candidate
-        title: Choosing the best candidate: Do you qualify?
+        title: Questions about the candidates
         blurb: |
-          Look at the information about the three candidates for the job of Marketing Manager in Poland for Fast-Track on page 13 of Market Leader. And look at what Fast-Track wants from the successful candidate on page 12.
+          Listen to the three candidates for the job of Marketing Manager and listen to Dr Bean describe his experience as Marketing Manager.
         comment: |
           <p>
-          The three candidates may or may not satisfy the requirements. Say why your candidate should be given the job.
+          Write a question and an answer about one of the four people.
           </p>
 
-          <ul>
-          <li><b>A students:</b> BDL describes <a href=http://web.nuu.edu.tw/~greg/business/candidateA.mp3>the ideal candidate.</a> </li>
-          <li><b>B students:</b> SLT describes <a href=http://web.nuu.edu.tw/~greg/business/candidateB.mp3>Barbara</a> </li>
-          <li><b>C students:</b> Listen to KED talk about <a href=http://web.nuu.edu.tw/~greg/business/candidateC.mp3>Tadeusz.</a> </li>
-          <li><b>D students:</b> KED describes <a href=http://web.nuu.edu.tw/~greg/business/candidateD.mp3>Eva</a> </li>
-          </ul>
       -
         id: tips
         title: Which candidate believes in which tip?
