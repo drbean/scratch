@@ -72,6 +72,37 @@ WRITE DOWN 3 things you are going to tell the interviewERs.
 
 Drs Chang and Bean assign groups to interviewER and interviewEE roles.
 
+## Interview groups
+
+<!--
+Assuming the students are not divided into groups, I am going to
+try to work out group arrangements ahead of time.
+
+Assuming the seats are laid out 8 across, and 6 deep, I think 3
+students in front can work with 3 students behind.
+
+At the right hand side of the class, 2 students in front can work
+with 2 students behind.
+
+This will give 9 separate teams made up of 2 groups of 3 (2) students
+each.
+
+We put the interviewers behind, because it might be a strain for
+them to face backwards interviewing 3 interviewees.
+-->
+
+	Groups:         7      4       1
+	Interviewees:  * *   * * *   * * *
+	Interviewers:  * *   * * *   * * *
+
+	Groups:         8      5       2
+	Interviewees:  * *   * * *   * * *
+	Interviewers:  * *   * * *   * * *
+
+	Groups:         9      6       3
+	Interviewees:  * *   * * *   * * *
+	Interviewers:  * *   * * *   * * *
+
 ## STEP 3. The interview
 
 Candidate 1:
