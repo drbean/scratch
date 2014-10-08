@@ -1484,51 +1484,42 @@ trinka:
           answer: False
     2:
       identifier: trinka 2
-      A: You are old. You have now stopped working at the Plaza Hotel. You worked there as a doorman for almost 50 years. Your father, Tony got you the job. You enjoyed your job every day and you tried very hard to do your best. However, you didn't get on with the boss, Shane. You didn't think he was a good manager.
-      B: You are Ed's father. You worked at the Plaza too and you got Ed his job there. Workers made a lot of the decisions about who would work at the hotel. Sometimes relationships with the managers weren't good at the hotel, but you enjoyed working there. When Ed was young, you told him to be a good man, and to live a good life. And he did that.
-      C: Your name is Mary. You are now dead. You were Ed's wife. You met him when you were working at the hotel. He was a good husband. At home, he was happy, friendly and helpful, just like when he was at work. He loved you very much and you loved him. Now he is sad, because you are dead. Now he is looking for a new wife. 
-      D: You are the manager. You are not happy, because the hotel is old and not as many people stay as before. It is also difficult to control Ed and the others. They have too much freedom and do not listen to you. Ed left the hotel for one year and worked at another hotel after you told him to do a better job.You asked him to come back, because he was popular.
+      A: You are old. You have now stopped working at the Plaza Hotel. You worked there as a doorman for almost 50 years. Your father, Tony got you the job. You enjoyed your job every day and you tried very hard to do your best.
+      B: You are Ed's father. You worked at the Plaza too and you got Ed his job there. Workers made a lot of the decisions about who would work at the hotel. When Ed was young, you told him to be a good man, and to live a good life. And he did that.
+      C: Your name is Mary. You are now dead. You were Ed's wife. You met him when you were working at the hotel. He was a good husband. At home, he was happy, friendly and helpful, just like when he was at work. He loved you very much and you loved him.
       quiz:
         - question: A
           option:
             - Ed
             - Mary
-            - Shane
             - Tony
           answer: Ed
         - question: B
           option:
             - Ed
             - Mary
-            - Shane
             - Tony
           answer: Tony
         - question: C
           option:
             - Ed
             - Mary
-            - Shane
             - Tony
           answer: Mary
-        - question: D
-          option:
-            - Ed
-            - Mary
-            - Shane
-            - Tony
-          answer: Shane
         - question: Ed still works at the Plaza.
           answer  : False
-        - question: Tony told Ed to be a good man.
+        - question: Workers had influence on hiring decisions.
           answer  : True
+        - question: Ed's father told him to be a good man.
+          answer  : True
+        - question: Tony's words probably had little effect.
+          answer  : False
+        - question: Ed met his wife at the hotel.
+          answer  : True
+        - question: Ed acted differently at home.
+          answer  : False
         - question: Mary is dead.
           answer  : True
-        - question: Shane is unhappy.
-          answer  : True
-        - question: Tony is Ed's boss.
-          answer  : False
-        - question: Shane is Mary's father-in-law.
-          answer  : False
     3:
       identifier: trinka 3
       A: A is old. He has now stopped working at the Plaza Hotel. He met Mary. B is Shane. C is Ed's wife.
@@ -1691,9 +1682,9 @@ bruno:
         - question: Angelo does more work than Eddie.
           answer: False
         - question: People thank Angelo at Christmas.
-          anwer: True
+          answer: True
         - question: New Yorkers appear friendly.
-          anwer: False
+          answer: False
     3:
       identifier: bruno 3
       A: You don't know Angelo Bruno. But he is like you. He is very friendly and helpful. Most people in New York don't usually appear to be friendly, but you and he always do. You make more than him in tips perhaps, but his salary may be better than yours.
@@ -1725,13 +1716,13 @@ bruno:
         - question: Angelo does more work than Eddie.
           answer: False
         - question: People thank Angelo at Christmas.
-          anwer: True
+          answer: True
         - question: Angelo gets more tips than Ed Trinka.
-          anwer: False
+          answer: False
         - question: Angelo's salary maybe is higher.
-          anwer: True
+          answer: True
         - question: Eddie misses Angelo.
-          anwer: True
+          answer: True
   compcomp:
     0:
       identifier: bruno 0
