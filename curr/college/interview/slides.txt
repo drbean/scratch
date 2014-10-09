@@ -155,6 +155,24 @@ Candidate 3:
 walk around making sure they are speaking English, giving advice, asking 
 questions, checking understanding, etc.)
 -->
+
+## Grading
+
+A grade for English use during the interviews:
+
+	0: No English
+	1: Some English
+	2: A lot of English
+
+And a grade for the reports:
+
+	0: Minimal effort made
+	1: Effort made, but ineffective
+	2: Good report
+
+Drs Chang and Bean will circulate around the classroom to keep an eye on the
+uncooperative groups and praise the effective groups.
+
  
 ## STEP 4. After the interview--the report
 
