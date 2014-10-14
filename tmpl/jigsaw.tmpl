@@ -14,41 +14,32 @@
 \pagestyle{empty}
 \setlength{\unitlength}{1cm}
 
-\newcommand{\myIdentifier}[0]{
+\newcommand{\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Identifier}[0]{
 <TMPL>$identifier</TMPL>
 }
 
-\newcommand{\myAcontent}[0]{
-\begin{description}
+\newcommand{\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Acontent}[0]{
 <TMPL>$A</TMPL>
-\end{description}
 }
 
-\newcommand{\myBcontent}[0]{
-\begin{description}
+\newcommand{\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Bcontent}[0]{
 <TMPL>$B</TMPL>
-\end{description}
 }
 
-\newcommand{\myCcontent}[0]{
-\begin{description}
+\newcommand{\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Ccontent}[0]{
 <TMPL>$C</TMPL>
-\end{description}
 }
 
-% \newcommand{\myDcontent}[0]{
-% \begin{description}
-% <TMPL>$D</TMPL>
-% \end{description}
-% }
+\newcommand{\myDcontent}[0]{
+<TMPL>$D</TMPL>
+}
 
 \newcommand{\mycard}[5]{%
-	\vspace{0.3cm}
+	\vspace{0.1cm}
 	\small #1 #2
-	\vspace{-0.2cm}
 	\par
 	\parbox[t][6.7cm][c]{9.5cm}{%
-	\hspace{0.1cm} \large#3\\
+	\hspace{0.1cm} \Large#3\\
 	\normalsize#4 #5
 	}
 }
@@ -60,8 +51,8 @@
 
 \begin{textblock}{8}(0,0)
 \textblocklabel{picture1}
-\mycard{}{\myIdentifier}{\parbox{9.0cm}{A:
-\myAcontent
+\mycard{}{\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Identifier}{\parbox{9.0cm}{A:
+\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Acontent
 }}{}{} 
 \end{textblock}
 
@@ -70,8 +61,8 @@
 
 \begin{textblock}{8}(0,0)
 \textblocklabel{picture2}
-\mycard{}{\myIdentifier}{\parbox{9.0cm}{B:
-\myBcontent
+\mycard{}{\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Identifier}{\parbox{9.0cm}{B:
+\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Bcontent
 }}{}{} 
 \end{textblock}
 
@@ -80,58 +71,38 @@
 
 \begin{textblock}{8}(0,0)
 \textblocklabel{picture3}
-\mycard{}{\myIdentifier}{\parbox{9.0cm}{C:
-\myCcontent
+\mycard{}{\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Identifier}{\parbox{9.0cm}{C:
+\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Ccontent
 }}{}{} 
 \end{textblock}
 
-% \null
-% \newpage
+\begin{textblock}{8}(0,8)
+\textblocklabel{picture5}
+\mycard{}{\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Identifier}{\parbox{9.0cm}{A:
+\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Acontent
+}}{}{} 
+\end{textblock}
 
-% \begin{textblock}{8}(0,0)
-% \textblocklabel{picture1}
-% \mycard{}{\myIdentifier}{\parbox{9.0cm}{A:
-% \myAcontent
-% }}{}{} 
-% \end{textblock}
-% 
-% \begin{textblock}{8}(8,0)
-% \textblocklabel{picture2}
-% \mycard{}{\myIdentifier}{\parbox{9.0cm}{B:
-% \myBcontent
-% }}{}{} 
-% \end{textblock}
-% 
-% \begin{textblock}{8}(0,4)
-% \textblocklabel{picture3}
-% \mycard{}{\myIdentifier}{\parbox{9.0cm}{C:
-% \myCcontent
-% }}{}{} 
-% \end{textblock}
-% 
-% % \null
-% % \newpage
-% 
-% %\begin{textblock}{8}(0,0)
-% %\textblocklabel{picture1}
-% %\mycard{}{\myIdentifier}{\parbox{9.0cm}{A:
-% %\myAcontent
-% %}}{}{} 
-%\end{textblock}
-%
-%\begin{textblock}{8}(8,0)
-%\textblocklabel{picture2}
-%\mycard{}{\myIdentifier}{\parbox{9.0cm}{B:
-%\myBcontent
-%}}{}{} 
-%\end{textblock}
-%
-%\begin{textblock}{8}(0,4)
-%\textblocklabel{picture3}
-%\mycard{}{\myIdentifier}{\parbox{9.0cm}{C:
-%\myCcontent
-%}}{}{} 
-%\end{textblock}
+\begin{textblock}{8}(8,8)
+\textblocklabel{picture6}
+\mycard{}{\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Identifier}{\parbox{9.0cm}{B:
+\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Bcontent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(0,12)
+\textblocklabel{picture7}
+\mycard{}{\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Identifier}{\parbox{9.0cm}{C:
+\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Ccontent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(8,12)
+\textblocklabel{picture7}
+\mycard{}{\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Identifier}{\parbox{9.0cm}{D:
+\myDcontent
+}}{}{} 
+\end{textblock}
 
 \end{document}
 
