@@ -331,6 +331,80 @@ candidate:
             - Tadeusz
             - Eva
           answer: Barbara
+    8:
+      identifier: candidate 8
+      A: |+
+        \item[Barbara] is competitive and has a lot to offer.
+        \item[Tadeusz] has ability and experience. And he is a safe pair of hands.
+        \item[Eva] has been a successful sales person and could lead a team well.
+      B: |+
+        \item[Barbara] is competitive and difficult to work with.
+        \item[Tadeusz] has good judgement. He is a safe pair of hands.
+        \item[Eva] is the head of a local business club. She could lead a team well.
+      C: |+
+        \item[Barbara] is difficult to work with. but she has a lot to offer.
+        \item[Tadeusz] has ability and experience. And he has good judgement.
+        \item[Eva] has been a successful sales person and is the head of a local business club.
+      quiz:
+        - question: Who could lead a team well?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Eva
+        - question: Who has ability and experience?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Tadeusz
+        - question: Who has a lot to offer?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Barbara
+        - question: Who has been a successful sales person?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Eva
+        - question: Who has good judgement?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Tadeusz
+        - question: Who is a safe pair of hands?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Tadeusz
+        - question: Who is competitive?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Barbara
+        - question: Who is difficult to work with?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Barbara
+        - question: Who is the head of a local business club?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Eva
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Eva
   compcomp:
     0:
       identifier: candidate 0
