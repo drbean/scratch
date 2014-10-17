@@ -409,6 +409,70 @@ candidate:
             - Tadeusz
             - Eva
           answer: Eva
+    9:
+      identifier: candidate 9
+      A: |+
+        \item[Barbara] likes to win. She likes to get results.
+        \item[Tadeusz] thinks if Fast-Track is patient, it could increase market share.
+        \item[Eva] likes organizing people and telling them what to do.
+      B: |+
+        \item[Barbara] is ambitious. She likes to get results.
+        \item[Tadeusz] thinks the market is competitive but Fast-Track could increase market share.
+        \item[Eva] likes organizing people, but thinks a course would help her do the job better.
+      C: |+
+        \item[Barbara] is ambitious and likes to win.
+        \item[Tadeusz] think the market is competitive, so Fast-Track must be patient.
+        \item[Eva] would like to go on a course, so she can tell people what to do.
+      quiz:
+        - question: Who believes Fast-Track could increase market share?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Tadeusz
+        - question: Who is ambitious?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Barbara
+        - question: Who likes to get results?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Barbara
+        - question: Who likes to organize people?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Eva
+        - question: Who likes to telling people what to do?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Eva
+        - question: Who likes to win?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Barbara
+        - question: Who thinks Fast-Track must be patient?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Tadeusz
+        - question: Who thinks the market is competitive?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Tadeusz
+        - question: Who would like to go on a course?
           option:
             - Barbara
             - Tadeusz
