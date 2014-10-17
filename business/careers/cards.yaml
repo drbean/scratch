@@ -273,9 +273,18 @@ candidate:
           answer: True
     7:
       identifier: candidate 7
-      A: \item[Barbara] is ambitious and wants to get to the top as soon as she can. \item[Tadeusz] wants to do a good job for the company and thinks the company should expand slowly. \item[Eva] wants to improve the sales team. She wants the sales team to enjoy its work.
-      B: \item[Barbara] wants to get to the top as soon as she can, and become a director in a few years time. \item[Tadeusz] thinks the company should expand slowly and not take too many risks. \item[Eva] wants people in the sales team to help each other and enjoy their work.
-      C: \item[Barbara] is ambitious. She wants to become a director in a few years time. \item[Tadeusz] won't take too many risks, but wants to do a good job for the company. \item[Eva] wants to improve the sales team. She wants people in the sales team to help each other.
+      A: |+
+        \item[Barbara] is ambitious and wants to get to the top quickly.
+        \item[Tadeusz] wants to do a good job. He thinks the company should expand slowly.
+        \item[Eva] wants to improve the sales team. She people to enjoy their work.
+      B: |+
+        \item[Barbara] wants to get to the top quickly, and become a director.
+        \item[Tadeusz] thinks the company should expand slowly and not take too many risks.
+        \item[Eva] wants people in the sales team to help each other and enjoy their work.
+      C: |+
+        \item[Barbara] is ambitious. She wants to become a director in a few years time.
+        \item[Tadeusz] wants to do a good job and won't take too many risks.
+        \item[Eva] wants to improve the sales team, and get people to help each other.
       quiz:
         - question: Who wants people in the sales team to help each other?
           option:
