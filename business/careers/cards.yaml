@@ -271,6 +271,66 @@ candidate:
           answer: False
         - question: Tadeusz has the highest position at Fast-Track now.
           answer: True
+    7:
+      identifier: candidate 7
+      A: \item[Barbara] is ambitious and wants to get to the top as soon as she can. \item[Tadeusz] wants to do a good job for the company and thinks the company should expand slowly. \item[Eva] wants to improve the sales team. She wants the sales team to enjoy its work.
+      B: \item[Barbara] wants to get to the top as soon as she can, and become a director in a few years time. \item[Tadeusz] thinks the company should expand slowly and not take too many risks. \item[Eva] wants people in the sales team to help each other and enjoy their work.
+      C: \item[Barbara] is ambitious. She wants to become a director in a few years time. \item[Tadeusz] won't take too many risks, but wants to do a good job for the company. \item[Eva] wants to improve the sales team. She wants people in the sales team to help each other.
+      quiz:
+        - question: Who wants people in the sales team to help each other?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Eva
+        - question: Who thinks the company should expand slowly?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Tadeusz
+        - question: Who is ambitious?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Barbara
+        - question: Who wants people in the sales team to enjoy their work?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Eva
+        - question: Who thinks the company can expand market share?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Tadeusz
+        - question: Who wants to get to the top quickly?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Barbara
+        - question: Who wants to improve the sales team?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Eva
+        - question: Who wants to do a good job?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Tadeusz
+        - question: Who wants to become a director?
+          option:
+            - Barbara
+            - Tadeusz
+            - Eva
+          answer: Barbara
   compcomp:
     0:
       identifier: candidate 0
