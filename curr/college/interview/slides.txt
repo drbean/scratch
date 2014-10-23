@@ -103,6 +103,8 @@ them to face backwards interviewing 3 interviewees.
 	Interviewees:  * *   * * *   * * *
 	Interviewers:  * *   * * *   * * *
 
+	Extra groups:  12      11     10
+
 ## STEP 3. The interview
 
 Candidate 1:

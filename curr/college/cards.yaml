@@ -38,4 +38,24 @@ hobbies:
     - hobby/hobbies bicycle play_chess play_basketball play_the_guitar see_plays play_video_games read_comic_books weekday/weekdays weekend/weekends almost_every_day seldom often always sometimes never enjoy practice free gym on_Thursdays exercise favorite 
     - playing_sports teach/teaches paint swim/swims/swimming almost_over interests/interesting active/activity improve/improvement spending_time_with_family fishing have_fun similar is_afraid/scared_of health/healthy go_climbing slam_dunk make_a_basket soccer kick_the_ball pitcher batter brand_new
     - shirt expensive similar second sister gym active beach cool weekend swimming favorite hobby mine beginner tired jogging idea free woman have_fun chess puzzles think brain a_fun_way hobby_clubs good_for_you healthy/healthier
+disaster:
+  jigsaw:
+    0:
+      identifier: disaster 0
+      A: \item[The helpless foreigner] \hfill \\ You don't speak Chinese and you have never experienced an earthquake and you have no idea of what to do. You are not very frightened, because you don't think you are going to be injured or die. But you need help to get out of the building.
+      B: \item[The frightened teacher] \hfill \\ You remember the 9-21 Earthquake and are very afraid because you were injured in it and members of your family died. You speak English well, but you don't know what to do, because you have never taken natural disaster training courses, because you were in the US when they were held.
+      C: \item[The well-prepared student] \hfill \\ You are frightened because you know that some people are likely to die and be injured. You have taken natural disaster training courses so you have an idea of what to do. You need to tell the people you are with what to do. But you don't speak English.
+
+      quiz:
+        - question: A
+          option:
+          answer: 
+        - question: B
+          option:
+          answer: 
+        - question: C
+          option:
+          answer: 
+        - question: 
+          answer  : False
    
