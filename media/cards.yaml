@@ -708,3 +708,125 @@ thanksgiving:
           answer  : False
         - question: Turkey prices are going up.
           answer  : False
+dog:
+  jigsaw:
+    0:
+      identifier: dog 0
+      A: You owned Zeus, the world's tallest dog. You miss him very much. He was very gentle with people in hospital, like Zeke.
+      B: You are now dead. You died at the age of 5. Your owner, Kevin used to take you to hospitals to make people like Zeke feel better.
+      C: You met Zeus when Kevin brought him to the hospital you were in. He put his head down on your bed. It made you feel good.
+      quiz:
+        - question: A
+          option:
+            - Kevin
+            - Zeke
+            - Zeus
+          answer: Kevin
+        - question: B
+          option:
+            - Kevin
+            - Zeke
+            - Zeus
+          answer: Zeus
+        - question: C
+          option:
+            - Kevin
+            - Zeke
+            - Zeus
+          answer: Zeke
+        - question: Zeus is still the world's tallest dog.
+          answer  : False
+        - question: Zeke went to the hospital to see Zeus.
+          answer  : False
+        - question: Kevin took Zeus to the dog hospital.
+          answer  : False
+        - question: Zeke put his head near Zeke's head.
+          answer  : True
+        - question: Zeus made Zeke feel bad.
+          answer  : False
+        - question: Kevin misses Zeus very much.
+          answer  : True
+        - question: Zeus didn't have a 6th birthday.
+          answer  : True
+kiss:
+  jigsaw:
+    0:
+      identifier: kiss 0
+      A: You were arrested for creating a disturbance. The police let you go, and Mario tries to interview you, but he cannot find you. You escape the cameras. 
+      B: You create a disturbance by trying to kiss Mario as he is reporting the arrest of Shia for an earlier, different disturbance. You are not arrested.
+      C: You are reporting the arrest of Shia. But Erykah interrupts you by trying to kiss you. But you are able to avoid her and continue your report.
+      quiz:
+        - question: A
+          option:
+            - Erykah
+            - Mario
+            - Shia
+          answer: Shia
+        - question: B
+          option:
+            - Erykah
+            - Mario
+            - Shia
+          answer: Erykah
+        - question: C
+          option:
+            - Erykah
+            - Mario
+            - Shia
+          answer: Mario
+        - question: Shia is troublesome \& is arrested.
+          answer  : True
+        - question: Shia gives Mario \& Erykah trouble.
+          answer  : False
+        - question: Mario wants Shia to talk to him.
+          answer  : True
+        - question: Mario interviews Erykah.
+          answer  : False
+        - question: Erykah interrupts Mario.
+          answer  : True
+        - question: Mario lets Erykah kiss him.
+          answer  : False
+        - question: Shia \& Erykah are both arrested.
+          answer  : False
+potato:
+  jigsaw:
+    0:
+      identifier: potato 0
+      A: You are an Internet web site for people who need money to create interesting projects. Zack, as a joke, asks for money on your site to make potato salad. 
+      B: Zack wants to make a salad out of you. And jokingly asks people on Kickstarter to give him ten dollars to buy you. Many people give him that and more.
+      C: You get 55,000 dollars to make potato salad. You don't know what to do with it. You decide to throw a party to raise money for charity.
+      quiz:
+        - question: A
+          option:
+            - Kickstarter
+            - Potato
+            - Zack
+          answer: Kickstarter
+        - question: B
+          option:
+            - Kickstarter
+            - Potato
+            - Zack
+          answer: Potato
+        - question: C
+          option:
+            - Kickstarter
+            - Potato
+            - Zack
+          answer: Zack
+          answer: 
+        - question: Kickstarter helps people to get money.
+          answer  : True
+        - question: Zack was serious about needing money.
+          answer  : False
+        - question: People didn't want to give him money.
+          answer  : False
+        - question: He wanted the money to buy potatoes.
+          answer  : True
+        - question: He wanted the money to give to the poor.
+          answer  : False
+        - question: Zack decided to throw a party for charity.
+          answer  : True
+        - question: He got \$55,000 dollars for potato salad.
+          answer  : True
+
