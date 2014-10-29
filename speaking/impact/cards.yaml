@@ -135,24 +135,24 @@ marriage:
       identifier: marriage 0
       A: You are a teacher. You think that Akane and Lucas should live separate lives for 2-3 years, before living together.
       B: You are an artist from Finland. Your girlfriend, Akane doesn't want to live in Finland. You don't want to live in Japan.
-      C: You are a Japanese artist. You want to live with your boyfriend, but Dr Bean says, you should live separately.
+      C: You are a Japanese artist. You want to live with your boyfriend, but Gillian says, you should live separately.
       quiz:
         - question: A
           option: 
            - Akane
-           - Dr Bean
+           - Gillian
            - Lucas
-          answer: Dr Bean
+          answer: Gillian
         - question: B
           option:
            - Akane
-           - Dr Bean
+           - Gillian
            - Lucas
           answer: Lucas
         - question: C
           option:
            - Akane
-           - Dr Bean
+           - Gillian
            - Lucas
           answer: Akane
         - question: Akane \& Lucas want to live together.
@@ -163,11 +163,125 @@ marriage:
           answer: False
         - question: Lucas wants to live in Japan.
           answer: False
-        - question: Dr Bean thinks they should live apart.
+        - question: Gillian thinks they should live apart.
           answer: True
-        - question: Akane agrees with Dr Bean.
+        - question: Akane agrees with Gillian.
           answer: False
-        - question: Lucas disagrees with Dr Bean.
+        - question: Lucas disagrees with Gillian.
+          answer: True
+    1:
+      identifier: marriage 1
+      A: You are black. Your mother, Whoopi is black too. But your father is white. You don't know your father.
+      B: You are a black woman with a black daughter. You don't know her father, Ted. You are unhappy he is white.
+      C: You gave your sperm to a sperm bank. A black woman had a daughter, Nia with the sperm. You don't know.
+      quiz:
+        - question: A
+          option: 
+           - Nia
+           - Ted
+           - Whoopi
+          answer: Nia
+        - question: B
+          option:
+           - Nia
+           - Ted
+           - Whoopi
+          answer: Whoopi
+        - question: C
+          option:
+           - Nia
+           - Ted
+           - Whoopi
+          answer: Ted
+        - question: Nia doesn't know her father.
+          answer: True
+        - question: Whoopi knows the father of her daughter.
+          answer: False
+        - question: Ted is the father of Nia.
+          answer: True
+        - question: Ted knows Nia.
+          answer: False
+        - question: Ted is black.
+          answer: False
+        - question: Ted's color is a problem for Whoopi.
+          answer: True
+        - question: Whoopi wanted Nia's father to be black.
+          answer: True
+    2:
+      identifier: marriage 2
+      A: You are American, but your girlfriend, Tomoko is Japanese. You are not thinking of marrying her yet.
+      B: You tell Tomoko she should marry Justin. She disagrees. You tell her she has a negative attitude.
+      C: You tell Carlos you won't marry Justin, because you think international marriages are difficult.
+      quiz:
+        - question: A
+          option: 
+           - Carlos
+           - Justin
+           - Tomoko
+          answer: Justin
+        - question: B
+          option:
+           - Carlos
+           - Justin
+           - Tomoko
+          answer: Carlos
+        - question: C
+          option:
+           - Carlos
+           - Justin
+           - Tomoko
+          answer: Tomoko
+        - question: Justin \& Tomoko are planning to marry.
+          answer: False
+        - question: Carlos: Justin \& Tomoko should marry.
+          answer: True
+        - question: Tomoko wants to marry Justin.
+          answer: False
+        - question: Justin is planning to marry Tomoko.
+          answer: False
+        - question: Justin \& Tomoko disagree about marriage.
+          answer: False
+        - question: Carlos \& Tomoko disagree about marriage.
+          answer: True
+        - question: Carlos is more optimistic than Tomoko.
+          answer: True
+    3:
+      identifier: marriage 3
+      A: Your foreign husband, Dr Bean is in Taiwan. You don't like Taiwan. Gillian tells you to stay in Japan.
+      B: You tell Dr Bean and Yoko that it is OK for them to live separately. Dr Bean in Taiwan, Yoko in Japan.
+      C: Your wife doesn't like Taiwan, but you don't like Japan. You agree with Gillian it's OK to be apart.
+      quiz:
+        - question: A
+          option: 
+           - Dr Bean
+           - Gillian
+           - Yoko
+          answer: Yoko
+        - question: B
+          option:
+           - Dr Bean
+           - Gillian
+           - Yoko
+          answer: Gillian
+        - question: C
+          option:
+           - Dr Bean
+           - Gillian
+           - Yoko
+          answer: Dr Bean
+        - question: Gillian thinks Yoko should go to Taiwan.
+          answer: False
+        - question: Yoko likes Taiwan and wants to go.
+          answer: False
+        - question: Dr Bean likes Japan. He wants to go there.
+          answer: False
+        - question: Yoko wants Dr Bean to move to Japan.
+          answer: False
+        - question: Dr Bean doesn't want Yoko to come to Taiwan.
+          answer: True
+        - question: Dr Bean \& Gillian agree on living apart.
+          answer: True
+        - question: Yoko \& Gillian agree on living apart.
           answer: True
 rumor:
   jigsaw:
