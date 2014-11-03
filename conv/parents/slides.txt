@@ -79,19 +79,53 @@ have a child. Q: And you _____(15)? A:  No. Never
 _____(16), never _____(17) been.
 Q: May I _____(18) a _____(19) of _____(20)?
 
-## Questions
+## Single-parent family questions
 
 Is there no/any effect on children from not having a father?
 May Nick have had a father to bring him up?
 
-question: Obama's family was a single-parent family.
-question: Nick wasn't aware of his father's name, growing up.
-question: Single-parent families are often poorer.
-question: Nick may have caused his parents' break-up.
-question: The effects of being without a dad are not big.
-question: It is not clear why Nick's parents broke up.
-question: The effect of not having a dad depends on mom's age.
-question: Nick may want to see his dad less than vice-versa.
+- question: Obama's family was a single-parent family.
+- question: Nick wasn't aware of his father's name, growing up.
+- question: Single-parent families are often poorer.
+- question: Nick may have caused his parents' break-up.
+- question: The effects of being without a dad are not big.
+- question: It is not clear why Nick's parents broke up.
+- question: The effect of not having a dad depends on mom's age.
+- question: Nick may want to see his dad less than vice-versa.
+
+## Children's view of parents
+
+The older I get the wiser my parents were.
+
+(meaning, children have more understanding of their parents' actions when they become parents themselves.)
+
+## Parenting questions
+
+Student A asks the first set of questions, Student B asks the second set.
+
+## Student A questions:
+- What springs to mind when you hear the word ‘parenting’?
+- What do you think is the most important thing to remember about parenting?
+- Do you think you’d be / you are a good parent?
+- What did you learn from your parents about parenting?
+- Do you think parenting is easy?
+- Why do things go wrong with some parents?
+- Did your parents excel in parenting skills?
+- Do you think parenting has changed throughout the ages?
+- What would you do differently from your parents?
+- Would you buy a parenting book and video?
+
+## Student B questions:
+- Do you think parenting is the same all over the world?
+- How long does parenting last?
+- What do you think of the word ‘parenting’? Is there a better word?
+- Do you think children should learn parenting skills at school?
+- What makes a good parent?
+- Are parenting skills different for women and men?
+- What do you think children think of their parents’ parenting skills?
+- Would you tell your friend if you thought s/he was being a bad parent?
+- Do you think kids should be able to fill in surveys and rank their parents on their parenting skills?
+- What do you think of the parenting skills of Michael Jackson and Britney Spears?
 
 ## Disrupted adoptions
 
@@ -132,6 +166,7 @@ April 2012
 [https://www.facebook.com/bmillerstudents](https://www.facebook.com/bmillerstudents)
 [http://www.ksby.com/news/police-san-luis-obispo-high-school-teacher-threatens-to-kill-others-and-himself/](http://www.ksby.com/news/police-san-luis-obispo-high-school-teacher-threatens-to-kill-others-and-himself/)
 [http://calcoastnews.com/2012/04/popular-teacher-arrested-for-criminal-threats/](http://calcoastnews.com/2012/04/popular-teacher-arrested-for-criminal-threats/)
+[http://www.newtimesslo.com/news/7607/loose-cannon/](http://www.newtimesslo.com/news/7607/loose-cannon/)
 
 Jan 2013
 [http://www.sanluisobispo.com/2013/01/10/2352351/brian-miller-teacher-arrest.html](http://www.sanluisobispo.com/2013/01/10/2352351/brian-miller-teacher-arrest.html)
