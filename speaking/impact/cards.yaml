@@ -499,7 +499,7 @@ environment:
            - Nazim
            - Mary
           answer: Mary
-        - question: A
+        - question: C
           option: 
            - Francesca
            - Nazim
