@@ -323,6 +323,202 @@ rumor:
           answer: False
         - question: The problem is the result of a false belief.
           answer: True
+money:
+  jigsaw:
+    0:
+      identifier: money 0
+      A: You think money makes people greedy. You disagree with Nazim. You think Dr Bean and other people like working.
+      B: You disagree with JinSook. You think people are greedy, The only reason they work is to make lots of money.
+      C: You want to make more money. But money is not the main reason you work. You like your work.
+      quiz:
+        - question: A
+          option: 
+            - Dr Bean
+            - JinSook
+            - Nazim
+          answer: JinSook
+        - question: B
+          option: 
+            - Dr Bean
+            - JinSook
+            - Nazim
+          answer: Nazim
+        - question: C
+          option: 
+            - Dr Bean
+            - JinSook
+            - Nazim
+          answer: Dr Bean
+        - question: Nazim \& JinSook agree people are or become greedy.
+          answer: True
+        - question: Nazim disagrees about the cause of greediness.
+          answer: True
+        - question: Nazim thinks money makes people greedy.
+          answer: False
+        - question: JinSook thinks money causes greediness.
+          answer: False
+        - question: Dr Bean works mainly to make money.
+          answer: False
+        - question: Dr Bean wants to make more money.
+          answer: True
+        - question: Jinsook thinks some people like work.
+          answer: True
+    1:
+      identifier: money 1
+      A: You are a woman. Jason wants you to go on a date with him for money. Gillian says it's OK.
+      B: You have no woman friends. You want Marie to go on a date with you. You will give her NT \$5,000.
+      C: You are Gillian. You think it is OK for Marie to go out with Jason if she is happy doing that.
+      quiz:
+        - question: A
+          option: 
+            - Gillian
+            - Jason
+            - Marie
+          answer: Marie
+        - question: B
+          option: 
+            - Gillian
+            - Jason
+            - Marie
+          answer: Jason
+        - question: C
+          option: 
+            - Gillian
+            - Jason
+            - Marie
+          answer: Gillian
+        - question: Jason and Marie are friends.
+          answer: False
+        - question: Jason wants to take money from Marie.
+          answer: False
+        - question: Jason wants to date Marie.
+          answer: True
+        - question: Gillian says Marie can go if she wants.
+          answer: True
+        - question: Jason wants to give Marie \$5,000.
+          answer: True
+        - question: Marie would be paid to go on a date.
+          answer: False
+        - question: Gillian says Marie doesn't have to go.
+          answer: True
+health:
+  jigsaw:
+    0:
+      identifier: health 0
+      A: You think people have a right to health care, even if they can't pay. You agree with Obama and disagree with Annan.
+      B: You are trying to increase health care benefits and the number of people who have health insurance in the US.
+      C: You disagree with Chen. You don't think government health care is a good idea. You think people have to pay.
+      quiz:
+        - question: A
+          option: 
+            - Annan
+            - Chen
+            - Obama
+          answer: Annan
+        - question: B
+          option: 
+            - Annan
+            - Chen
+            - Obama
+          answer: Obama
+        - question: A
+          option: 
+            - Annan
+            - Chen
+            - Obama
+          answer: Chen
+        - question: Chen, Annan agree on government health care.
+          answer: False
+        - question: Chen wants less government health care.
+          answer: False
+        - question: Annan: People shouldn't have to pay.
+          answer: False
+        - question: Chen: People have a right to health care.
+          answer: True
+        - question: Annan: No! to government health care.
+          answer: True
+        - question: Obama wants more people to have health insurance.
+          answer: True
+        - question: Obama's views are closer to Chen's, than they are to Annan's.
+          answer: True
+    1:
+      identifier: health 1
+      A: Your boyfriend, Jeff is sick. You are worried. Groucho comes with you to see Jeff.
+      B: You have no money. You can't go to the hospital. Julie and Groucho hope you get better.
+      C: You are Jeff's friend. You watch Julie try to make Jeff feel comfortable.
+      quiz:
+        - question: A
+          option: 
+            - Groucho
+            - Jeff
+            - Julie
+          answer: Julie
+        - question: B
+          option: 
+            - Groucho
+            - Jeff
+            - Julie
+          answer: Jeff
+        - question: A
+          option: 
+            - Groucho
+            - Jeff
+            - Julie
+          answer: Groucho
+        - question: Groucho \& Julie are doctor \& nurse.
+          answer: False
+        - question: Jeff is in the hospital.
+          answer: False
+        - question: Julie \& Groucho are worried.
+          answer: True
+        - question: Jeff doesn't want to go to hospital.
+          answer: False
+        - question: Jeff has no money.
+          answer: True
+        - question: Julie and Groucho hope Jeff gets better.
+          answer: True
+        - question: Jeff probably has health insurance.
+          answer: False
+environment:
+  jigsaw:
+    0:
+      identifier: environment 0
+      A: You disagree with Francesca. You think global warming is a very big problem, and drastic action is necessary.
+      B: You enjoy the mountains. You disagree with Francesca \& Nazim. You think the environment is OK. You think there is no problem.
+      C: You think international action is needed on the environment, which is a problem, but not a very big one.
+      quiz:
+        - question: A
+          option: 
+           - Francesca
+           - Nazim
+           - Mary
+          answer: Nazim
+        - question: B
+          option: 
+           - Francesca
+           - Nazim
+           - Mary
+          answer: Mary
+        - question: A
+          option: 
+           - Francesca
+           - Nazim
+           - Mary
+          answer: Francesca
+        - question: The 3 agree global warming is a problem.
+          answer: False
+        - question: Francesca \& Nazim agree there is a problem.
+          answer: True
+        - question: Nazim doesn't agree with international action.
+          answer: False
+        - question: Mary doesn't see any problem.
+          answer: True
+        - question: Mary doesn't enjoy the environment.
+          answer: False
+        - question: Nazim is more pessimistic than Mary.
+          answer: True
+        - question: Nazim sees a bigger problem than Francesca.
+          answer: True
 control:
   jigsaw:
     0:
