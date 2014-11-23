@@ -15,6 +15,231 @@ argos:
       quiz:
         - question: 
           answer: 
+factors:
+  jigsaw:
+    0:
+      identifier: factors 0
+      A: \item[What's important to customers about a site] \hfill \\ \vspace{-1.0cm} \begin{enumerate} \item Is the site easy to use? \item Is it possible to get help from a real person when there are problems? \item Is it a pleasant experience using the site? \end{enumerate} \item[What's not important for them] \hfill \\ \vspace{-0.8cm} \begin{enumerate} \item Is the site in Taiwan or elsewhere? \item Is the site famous? \item What other kinds of products are sold on the site? \end{enumerate}
+      B: \item[What's important to customers about a site] \hfill \\ \vspace{-1.0cm} \begin{enumerate} \item Is there good information about the products and prices? \item Is it possible to get help from a real person when there are problems? \item Is it a pleasant experience using the site? \end{enumerate} \item[What's not important for them] \hfill \\ \vspace{-0.8cm} \begin{enumerate} \item The computer technology used to build the site \item Is the site in Taiwan or elsewhere? \item Is the site famous? \end{enumerate}
+      C: \item[What's important to customers about a site] \hfill \\ \vspace{-1.0cm} \begin{enumerate} \item Is the site easy to use? \item Is it possible to get help from a real person when there are problems? \item Is there good information about the products and prices? \end{enumerate} \vspace{-0.4cm} \item[What's not important for them] \hfill \\ \vspace{-0.8cm} \begin{enumerate} \item What computer technology was used to build the site? \item Is the site famous? \item What other kinds of products are sold on the site? \end{enumerate}
+      quiz:
+        - question: Is it a pleasant experience using the site? 
+          option:
+            - Important
+            - Unimportant
+          answer: Important
+        - question: Is it possible to get help from a real person when there are problems? 
+          option:
+            - Important
+            - Unimportant
+          answer: Important
+        - question: Is there good information about the products and prices?
+          option:
+            - Important
+            - Unimportant
+          answer: Important
+        - question: Is the site easy to use?
+          option:
+            - Important
+            - Unimportant
+          answer: Important
+        - question: Is the site famous? 
+          option:
+            - Important
+            - Unimportant
+          answer: Unimportant
+        - question: Is the site in Taiwan or elsewhere? 
+          option:
+            - Important
+            - Unimportant
+          answer: Unimportant
+        - question: What computer technology was used to build the site?  
+          option:
+            - Important
+            - Unimportant
+          answer: Unimportant
+        - question: What other kinds of products are sold on the site?
+          option:
+            - Important
+            - Unimportant
+          answer: Unimportant
+    1:
+      identifier: factors 1
+      A: |
+        \item[What's important to SELLERS about a site] \hfill \\
+        \vspace{-1.0cm}
+        \begin{enumerate}
+        \item Do the owners of the site give advice?
+        \item Do visitors to the site buy or just look?
+        \item How many people visit the site?
+        \end{enumerate}
+        \item[What's not important for them] \hfill \\
+        \vspace{-0.8cm}
+        \begin{enumerate}
+        \item Are companies competing with me also on the site?
+        \item Are the people who built the site well-known?
+        \item Do buyers order from me or from the site?
+        \end{enumerate}
+      B: |
+        \item[What's important to SELLERS about a site] \hfill \\
+        \vspace{-1.0cm}
+        \begin{enumerate}
+        \item Do the owners of the site give advice?
+        \item How many people visit the site?
+        \item How much does space on the site cost?
+        \end{enumerate}
+        \item[What's not important for them] \hfill \\
+        \vspace{-0.8cm}
+        \begin{enumerate}
+        \item Are companies competing with me also on the site?
+        \item Do buyers order from me or from the site?
+        \item What software was used to build the site?
+        \end{enumerate}
+      C: |
+        \item[What's important to SELLERS about a site] \hfill \\
+        \vspace{-1.0cm}
+        \begin{enumerate}
+        \item Do visitors to the site buy or just look?
+        \item How many people visit the site?
+        \item How much does space on the site cost?
+        \end{enumerate}
+        \item[What's not important for them] \hfill \\
+        \vspace{-0.8cm}
+        \begin{enumerate}
+        \item Are the people who built the site well-known?
+        \item Do buyers order from me or from the site?
+        \item What software was used to build the site?
+        \end{enumerate}
+      quiz:
+        - question: Are companies competing with me also on the site?
+          option:
+            - Important
+            - Unimportant
+          answer: Unimportant
+        - question: Are the people who built the site well-known?
+          option:
+            - Important
+            - Unimportant
+          answer: Unimportant
+        - question: Do buyers order from me or from the site?
+          option:
+            - Important
+            - Unimportant
+          answer: Unimportant
+        - question: Do the owners of the site give advice?
+          option:
+            - Important
+            - Unimportant
+          answer: Important
+        - question: Do visitors to the site buy or just look?
+          option:
+            - Important
+            - Unimportant
+          answer: Important
+        - question: How many people visit the site?
+          option:
+            - Important
+            - Unimportant
+          answer: Important
+        - question: How much does space on the site cost?
+          option:
+            - Important
+            - Unimportant
+          answer: Important
+        - question: What software was used to build the site?
+          option:
+            - Important
+            - Unimportant
+          answer: Unimportant
+    2:
+      identifier: factors 2
+      A: |
+        \item[What was important to ARGOS] \hfill \\
+        \vspace{-0.8cm}
+        \begin{enumerate}
+        \item Having same prices online \& in stores
+        \item Helping customers do what they want to do
+        \item Providing good information
+        \end{enumerate}
+        \item[What was not important for them] \hfill \\
+        \vspace{-0.8cm}
+        \begin{enumerate}
+        \item Becoming only an online business
+        \item Making customers like Argos more
+        \item Offering the very cheapest price
+        \end{enumerate}
+      B: |
+        \item[What was important to ARGOS] \hfill \\
+        \vspace{-0.8cm}
+        \begin{enumerate}
+        \item Having same prices online \& in stores
+        \item Providing good information
+        \item Realizing everyone is different
+        \end{enumerate}
+        \item[What was not important for them] \hfill \\
+        \vspace{-0.8cm}
+        \begin{enumerate}
+        \item Becoming only an online business
+        \item Offering the very cheapest price
+        \item Selling to customers overseas
+        \end{enumerate}
+      C: |
+        \item[What was important to ARGOS] \hfill \\
+        \vspace{-0.8cm}
+        \begin{enumerate}
+        \item Helping customers do what they want to do
+        \item Providing good information
+        \item Realizing everyone is different
+        \end{enumerate}
+        \item[What was not important for them] \hfill \\
+        \vspace{-0.8cm}
+        \begin{enumerate}
+        \item Making customers like Argos more
+        \item Offering the very cheapest price
+        \item Selling to customers overseas
+        \end{enumerate}
+      quiz:
+        - question: Becoming only an online business
+          option:
+            - Important
+            - Unimportant
+          answer: Unimportant
+        - question: Having same prices online \& in stores
+          option:
+            - Important
+            - Unimportant
+          answer: Important
+        - question: Helping customers do what they want to do
+          option:
+            - Important
+            - Unimportant
+          answer: Important
+        - question: Making customers like Argos more
+          option:
+            - Important
+            - Unimportant
+          answer: Unimportant
+        - question: Offering the very cheapest price
+          option:
+            - Important
+            - Unimportant
+          answer: Unimportant
+        - question: Providing good information
+          option:
+            - Important
+            - Unimportant
+          answer: Important
+        - question: Realizing everyone is different
+          option:
+            - Important
+            - Unimportant
+          answer: Important
+        - question: Selling to customers overseas
+          option:
+            - Important
+            - Unimportant
+          answer: Unimportant
+
 ibm:
   jigsaw:
     0:
