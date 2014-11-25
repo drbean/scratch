@@ -513,9 +513,9 @@ emersonj:
           answer: False
     2:
       identifier: emersonj 2
-      A: You adopted Johnathan and were a good father. Later, after he goes to jail, you become disturbed. You threaten your boss.
-      B: You are Brian's boss. Brian is disruptive. The police take him to jail. Johnathan was disturbed and now Brian has lost his mind.
-      C: You are disturbed. Brian adopted you when you were 7, but you are a wild child and you go to jail when you are 19.
+      A: You adopted Johnathan and were a good father. But, with the stress of work and bringing Johnathan up, you crack up. You threaten your boss.
+      B: You are Brian's boss. Brian threatens to kill people. The police take him to jail. Johnathan was disturbed and now Brian has lost his mind.
+      C: You are disturbed. Brian adopted you when you were 7, but you are a wild child and you give him a hard time. Like your dad, you also go to jail.
       quiz:
         - question: A
           option: 
