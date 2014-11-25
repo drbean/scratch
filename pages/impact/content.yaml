@@ -61,6 +61,12 @@ topic:
     intro: Some issues concerning the environment are population, pollution, traffic problems
     story:
       -
+        id: environment
+        title: Caring for the environment?
+        blurb: |
+          What should we do for the environment? Should we stop riding cars, which cause air pollution, and using air conditioners, which contribute to global warming? That is drastic action. Should the government increase taxes on environmentally-destructive activities? Should all countries agree to limit pollution?
+        comment: Listen to Todd discuss <a href="http://www.impactseries.com/Issues_new/personal_opinion/3_3.mov">what people should do</a>. Do you agree with <a href="http://www.motherearthnews.com/natural-health/getting-back-to-nature-fantastic-zbcz1410.aspx">getting back to nature</a>?
+      -
         id: traffic
         title: What can be done about traffic problems?
         blurb: |
