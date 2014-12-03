@@ -519,6 +519,9 @@ environment:
           answer: True
         - question: Nazim sees a bigger problem than Francesca.
           answer: True
+alien:
+  bingo:
+    - UFOs universe science_fiction dimension speed_of_light astronomers solar_system flying_saucers sightings black_holes outer_space galaxies intelligent_life aliens other_planets comet space_probe advanced_technology evidence SF space_travel democratic_government conspiracy_theory
 control:
   jigsaw:
     0:
