@@ -392,9 +392,9 @@ wallace-oreilly:
   jigsaw:
     0:
       identifier: wallace-oreilly 0
-      A: You died in 2012. You were known on 60 Minutes for asking tough questions. But you didn't ask O'Reilly tough questions in 2004.
-      B: You interviewed O'Reilly in 2013 on 60 Minutes. You asked tough questions about religion. His answers upset some people. 
-      C: You were interviewed on 60 Minutes by Wallace in 2004 and O'Donnell in 2013. You admired Wallace because of his style.
+      A: You are famous for asking tough questions. But only O'Donnell asks O'Reilly tough questions. You like O'Reilly, but don't like his politics.
+      B: Like Wallace, you also interview O'Reilly on 60 Minutes. You ask tougher questions than Wallace. You don't like O'Reilly' answers, but are polite.
+      C: You are interviewed on 60 Minutes by Wallace and O'Donnell. You admire Wallace for his style, which is to ask tough questions.
       quiz:
         - question: A
           option:
@@ -414,20 +414,62 @@ wallace-oreilly:
             - O'Donnell
             - Wallace
           answer: O'Reilly
-        - question: O'Reilly interviewed Wallace.
+        - question: O'Reilly interviews Wallace, O'Donnell.
           answer  : False
-        - question: O'Donnell interviewed O'Reilly.
+        - question: O'Donnell interviews O'Reilly.
           answer  : True
-        - question: O'Donnell asked tough questions.
+        - question: O'Donnell asks tough questions.
           answer  : True
-        - question: Everyone liked O'Reilly's answers.
+        - question: Everyone likes O'Reilly's answers.
           answer  : False
-        - question: Wallace's style was to ask tough questions.
+        - question: Wallace's style is to ask tough questions.
           answer  : True
-        - question: Wallace asked O'Reilly tough questions.
+        - question: Wallace asks O'Reilly tough questions.
           answer  : False
-        - question: O'Reilly didn't like Wallace.
+        - question: O'Reilly doesn't like Wallace.
           answer  : False
+freakout:
+  jigsaw:
+    0:
+      identifier: freakout 0
+      A: You make fun of O'Reilly in a Youtube video, by editing out John, his producer, and replacing him with your insults. O'Reilly doesn't know and doesn't care.
+      B: "John, your producer want you to say, ``play us out.'' You don't like these words, and you get mad with him. Matt makes fun of you with an edited video on Youtube."
+      C: You are O'Reilly's producer, and tell him what to say. But he refuses to use your words. So, you don't like him, but are polite. You think Matt's video is funny.
+      quiz:
+        - question: A
+          option:
+            - John
+            - Matt
+            - O'Reilly
+          answer: Matt
+        - question: B
+          option:
+            - John
+            - Matt
+            - O'Reilly
+          answer: O'Reilly
+        - question: C
+          option:
+            - John
+            - Matt
+            - O'Reilly
+          answer: John
+        - question: "``Play us out'' are O'Reilly's words."
+          answer  : False
+        - question: O'Reilly doesn't like John's words.
+          answer  : True
+        - question: John is impolite to O'Reilly.
+          answer  : False
+        - question: O'Reilly is impolite to John.
+          answer  : True
+        - question: Matt is impolite to O'Reilly.
+          answer  : True
+        - question: Matt's insults hurt O'Reilly.
+          answer  : False
+        - question: John likes Matt's video.
+          answer  : False
+        #- question: Matt's video isn't real.
+        #  answer  : True
 pope:
   jigsaw:
     0:
@@ -548,6 +590,44 @@ blair:
           answer  : True
         - question: Raines wrote about Hernandez for the front page.
           answer  : False
+    1:
+      identifier: blair 1
+      A: Hernandez had been a co-worker at the NY Times. You thought she wouldn't mind if you copied her article. But Raines was mad, and fired you.
+      B: You were Blair's boss. You found out he copied Hernandez' story. You fired him and wrote a big story about what he did for the newspaper's front page.
+      C: At the NY Times, Raines was your boss and Blair was your co-worker. Later, Blair copied a story you wrote at a different newspaper. You didn't know.
+      quiz:
+        - question: A
+          option:
+            - Blair
+            - Hernandez
+            - Raines
+          answer: Hernandez
+        - question: B
+          option:
+            - Blair
+            - Hernandez
+            - Raines
+          answer: Raines
+        - question: C
+          option:
+            - Blair
+            - Hernandez
+            - Raines
+          answer: Blair
+        - question: Blair left the New York Times before Hernandez.
+          answer  : False
+        - question: Blair copied Hernandez' story.
+          answer  : True
+        - question: Hernandez knew Blair copied her story.
+          answer  : False
+        - question: Raines put the story Blair wrote on the front page.
+          answer  : False
+        - question: Raines knew Blair copied the story.
+          answer  : False
+        - question: Raines wrote a big front-page story about Blair.
+          answer  : True
+        - question: Raines fired Blair.
+          answer  : True
 campus:
   jigsaw:
     0:
@@ -707,6 +787,44 @@ thanksgiving:
         - question: Critics think the reporters do a good job.
           answer  : False
         - question: Turkey prices are going up.
+          answer  : False
+    1:
+      identifier: thanksgiving 1
+      A: You say Paul doesn't use Aggie's Thanksgiving press release to write a good story. You say the tension in his story is not real.
+      B: You take Aggie's press release and add tension to the story by saying prices are going up, but you make math mistakes. Chris is critical of you.
+      C: You write a report about the cost of a Thanksgiving dinner and send it to Paul at the newspaper. Chris criticizes Paul's story.
+      quiz:
+        - question: A
+          option:
+            - Aggie
+            - Chris
+            - Paul
+          answer: Chris
+        - question: B
+          option:
+            - Aggie
+            - Chris
+            - Paul
+          answer: Paul
+        - question: C
+          option:
+            - Aggie
+            - Chris
+            - Paul
+          answer: Aggie
+        - question: Aggie sends a report to Paul, who writes the story.
+          answer  : True
+        - question: Paul says prices are going up, which creates tension.
+          answer  : True
+        - question: Paul makes mistakes. Prices may not be rising.
+          answer  : True
+        - question: Chris: `Paul's story is not good.'
+          answer  : True
+        - question: Chis thinks a good Thanksgiving story is impossible.
+          answer  : False
+        - question: Chris is critical of Aggie, too.
+          answer  : False
+        - question: In fact, Paul's story is good. The tension is real.
           answer  : False
 dog:
   jigsaw:
