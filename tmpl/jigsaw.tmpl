@@ -14,20 +14,26 @@
 \pagestyle{empty}
 \setlength{\unitlength}{1cm}
 
-\newcommand{\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Identifier}[0]{
+\newcommand{\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XIdentifier}[0]{
 <TMPL>$identifier</TMPL>
 }
 
-\newcommand{\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Acontent}[0]{
+\newcommand{\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XAcontent}[0]{
+\begin{description}
 <TMPL>$A</TMPL>
+\end{description}
 }
 
-\newcommand{\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Bcontent}[0]{
+\newcommand{\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XBcontent}[0]{
+\begin{description}
 <TMPL>$B</TMPL>
+\end{description}
 }
 
-\newcommand{\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Ccontent}[0]{
+\newcommand{\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XCcontent}[0]{
+\begin{description}
 <TMPL>$C</TMPL>
+\end{description}
 }
 
 % \newcommand{\myDcontent}[0]{
@@ -52,8 +58,8 @@
 
 \begin{textblock}{8}(0,0)
 \textblocklabel{picture1}
-\mycard{}{\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Identifier}{\parbox{9.0cm}{A:
-\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Acontent
+\mycard{}{\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XIdentifier}{\parbox{8.0cm}{A:
+\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XAcontent
 }}{}{} 
 \end{textblock}
 
@@ -62,8 +68,8 @@
 
 \begin{textblock}{8}(0,0)
 \textblocklabel{picture2}
-\mycard{}{\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Identifier}{\parbox{9.0cm}{B:
-\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Bcontent
+\mycard{}{\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XIdentifier}{\parbox{9.0cm}{B:
+\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XBcontent
 }}{}{} 
 \end{textblock}
 
@@ -72,8 +78,8 @@
 
 \begin{textblock}{8}(0,0)
 \textblocklabel{picture3}
-\mycard{}{\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Identifier}{\parbox{9.0cm}{C:
-\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Ccontent
+\mycard{}{\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XIdentifier}{\parbox{9.0cm}{C:
+\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XCcontent
 }}{}{} 
 \end{textblock}
 
@@ -82,28 +88,28 @@
 
 \begin{textblock}{8}(0,0)
 \textblocklabel{picture5}
-\mycard{}{\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Identifier}{\parbox{9.0cm}{A:
-\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Acontent
+\mycard{}{\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XIdentifier}{\parbox{9.0cm}{A:
+\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XAcontent
 }}{}{} 
 \end{textblock}
 
 \begin{textblock}{8}(8,0)
 \textblocklabel{picture6}
-\mycard{}{\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Identifier}{\parbox{9.0cm}{B:
-\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Bcontent
+\mycard{}{\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XIdentifier}{\parbox{9.0cm}{B:
+\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XBcontent
 }}{}{} 
 \end{textblock}
 
 \begin{textblock}{8}(0,4)
 \textblocklabel{picture7}
-\mycard{}{\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Identifier}{\parbox{9.0cm}{C:
-\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Ccontent
+\mycard{}{\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XIdentifier}{\parbox{9.0cm}{C:
+\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XCcontent
 }}{}{} 
 \end{textblock}
 
 % \begin{textblock}{8}(8,4)
 % \textblocklabel{picture7}
-% \mycard{}{\my<TMPL>$topic</TMPL><TMPL>$form</TMPL>Identifier}{\parbox{9.0cm}{D:
+% \mycard{}{\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XIdentifier}{\parbox{9.0cm}{D:
 % \myDcontent
 % }}{}{} 
 % \end{textblock}
