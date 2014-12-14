@@ -764,3 +764,562 @@ fourconcepts:
             - evaluation
             - lesson
           answer: solution
+actionresearch:
+  jigsaw:
+    0:
+      identifier: actionresearch 0
+        # \item Harvard U. was slow to put student pictures on the Internet.
+        # \item Mark wanted to see student pictures on the Internet.
+        # \item Mark wanted to make a popular web site.
+
+        # \item He hacked Harvard computers and got student pictures.
+        # \item He built a site with student pictures.
+        # \item He put 2 pictures side-by-side. Visitors chose the "hotter."
+
+        # \item More than 450 students visited the site in one day.
+        # \item 200,000 votes were made for the "hotter" picture.
+        # \item Mark was punished by Harvard for hacking computers.
+
+        # \item It is easy to do something on the Internet.
+        # \item If you have an idea, you can be popular.
+        # \item If you hack computers, you may be punished.
+      A: |
+        \item[Zuckerberg's Problem]
+        \hspace{-4.0cm} \vspace{-0.4cm}
+        \begin{enumerate}
+        \item Harvard had no student photos online.
+        \item Mark wanted to see student pictures on the Internet.
+        \end{enumerate}
+        \item[Solution]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item He hacked Harvard computers and got student pictures.
+        \item He built a site with student pictures.
+        \end{enumerate}
+        \item[Evaluation]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item More than 450 students visited the site in 1 day.
+        \item 200,000 votes were made for the "hotter" picture.
+        \end{enumerate}
+        \item[Lesson]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item It is easy to do something on the Internet.
+        \item If you have an idea, you can be popular.
+        \end{enumerate}
+      B: |
+        \item[Zuckerberg's Problem] \hfill \\
+        \hspace{-4.0cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item Mark wanted to see student pictures on the Internet.
+        \item Mark wanted to make a popular web site.
+        \end{enumerate}
+        \item[Solution]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item He built a site with student pictures.
+        \item Visitors chose the hotter of 2 student pictures.
+        \end{enumerate}
+        \item[Evaluation]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item 200,000 votes were made for the "hotter" picture.
+        \item Mark was punished by Harvard for hacking computers.
+        \end{enumerate}
+        \item[Lesson]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item If you have an idea, you can be popular.
+        \item If you hack computers, you may be punished.
+        \end{enumerate}
+      C: |
+        \item[Zuckerberg's Problem] \hfill \\
+        \hspace{-4.0cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item Harvard had no student photos online.
+        \item Mark wanted to make a popular web site.
+        \end{enumerate}
+        \item[Solution]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item He hacked Harvard computers and got student pictures.
+        \item Visitors chose the hotter of 2 student pictures.
+        \end{enumerate}
+        \item[Evaluation]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item More than 450 students visited the site in 1 day.
+        \item Mark was punished by Harvard for hacking computers.
+        \end{enumerate}
+        \item[Lesson]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item It is easy to do something on the Internet.
+        \item If you hack computers, you may be punished.
+        \end{enumerate}
+      quiz:
+        # \item Harvard U. was slow to put student pictures on the Internet.
+        # \item Mark wanted to see student pictures on the Internet.
+        # \item Mark wanted to make a popular web site.
+
+        # \item He hacked Harvard computers and got student pictures.
+        # \item He built a site with student pictures.
+        # \item He put 2 pictures side-by-side. Visitors chose the "hotter."
+
+        # \item More than 450 students visited the site in one day.
+        # \item 200,000 votes were made for the "hotter" picture.
+        # \item Mark was punished by Harvard for hacking computers.
+
+        # \item It is easy to do something on the Internet.
+        # \item If you have an idea, you can be popular.
+        # \item If you hack computers, you may be punished.
+        #
+
+
+
+        - question: 200,000 votes were made for the "hotter" picture.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: Unimportant
+
+        - question: Harvard U. had no student photos online.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: Unimportant
+        - question: He built a site with student pictures.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: Unimportant
+        - question: He hacked Harvard computers and got student pictures.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: Unimportant
+        - question: Visitors chose the hotter of 2 student pictures.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: Unimportant
+        - question: If you hack computers, you may be punished.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: Unimportant
+        - question: If you have an idea, you can be popular.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: Unimportant
+        - question: It is easy to do something on the Internet.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: Unimportant
+        - question: Mark wanted to make a popular web site.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: Unimportant
+        - question: Mark wanted to see student pictures on the Internet.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: Unimportant
+        - question: Mark was punished by Harvard for hacking computers.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: Unimportant
+        - question: More than 450 students visited the site in 1 day.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: Unimportant
+
+    1:
+      identifier: actionresearch 1
+      A: |
+        \item[Tew's Million Dollar Homepage Problem]
+        \hspace{-4.0cm} \vspace{-0.4cm}
+        \begin{enumerate}
+        \item Alex wanted to become a millionaire.
+        \item Alex wanted people to visit his site.
+        \end{enumerate}
+        \item[Solution]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item He sold advertising space on his website.
+        \item One pixel cost one dollar.
+        \end{enumerate}
+        \item[Evaluation]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item He made more than one million dollars.
+        \item The websites advertised are not good.
+        \end{enumerate}
+        \item[Lesson]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item It is easy to do something on the Internet.
+        \item If you have an idea, you can make money.
+        \end{enumerate}
+      B: |
+        \item[Tew's Million Dollar Homepage Problem] \hfill \\
+        \hspace{-4.0cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item Alex wanted people to visit his site.
+        \item Mark wanted to help other websites.
+        \end{enumerate}
+        \item[Solution]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item One pixel cost one dollar.
+        \item Many websites could advertise on 1 page.
+        \end{enumerate}
+        \item[Evaluation]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item The websites advertised are not good.
+        \item Not many people visit his site now.
+        \end{enumerate}
+        \item[Lesson]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item If you have an idea, you can make money.
+        \item Some Internet projects are short-term.
+        \end{enumerate}
+      C: |
+        \item[Tew's Million Dollar Homepage Problem] \hfill \\
+        \hspace{-4.0cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item Alex wanted to become a millionaire.
+        \item Mark wanted to help other websites.
+        \end{enumerate}
+        \item[Solution]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item He sold advertising space on his website.
+        \item Many websites could advertise on 1 page.
+        \end{enumerate}
+        \item[Evaluation]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item He made more than one million dollars.
+        \item Not many people visit his site now.
+        \end{enumerate}
+        \item[Lesson]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item It is easy to do something on the Internet.
+        \item Some Internet projects are short-term.
+        \end{enumerate}
+      quiz:
+        # \item Alex wanted to become a millionaire.
+        # \item Alex wanted people to visit his site.
+        # \item Alex wanted to help other websites.
+
+        # \item Alex sold advertising space on his site.
+        # \item One pixel cost one dollar.
+        # \item Many websites could advertise on 1 page.
+
+        # \item Alex made more than one million dollars.
+        # \item The websites advertised are not good.
+        # \item Not many people visit his site now.
+
+        # \item It is easy to do something on the Internet.
+        # \item If you have an idea, you can make money.
+        # \item Some Internet projects are short-term.
+
+
+        - question: Alex made more than one million dollars.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: Unimportant
+        - question: Alex sold advertising space on his site.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: Unimportant
+        - question: Alex wanted people to visit his site.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: Unimportant
+        - question: Alex wanted to become a millionaire.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: Unimportant
+        - question: Alex wanted to help other websites.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: Unimportant
+        - question: If you have an idea, you can make money.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: Unimportant
+        - question: It is easy to do something on the Internet.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: Unimportant
+        - question: Many websites could advertise on 1 page.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: Unimportant
+        - question: Not many people visit his site now.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: Unimportant
+        - question: One pixel cost one dollar.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: Unimportant
+        - question: Some Internet projects are short-term.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: Unimportant
+        - question: The websites advertised are not good.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: Unimportant
+
+    2:
+      identifier: actionresearch 2
+      A: |
+        \item[Tew's Calmness and Relaxation Problem]
+        \hspace{-4.0cm} \vspace{-0.4cm}
+        \begin{enumerate}
+        \item Many people spend all their time on the Internet.
+        \item Many people need to relax and be calm.
+        \end{enumerate}
+        \item[Solution]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item Alex developed a site where people do nothing.
+        \item The site asks you to be quiet for 2 minutes.
+        \end{enumerate}
+        \item[Evaluation]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item 2.6 million people visited Alex's site.
+        \item The site did not make any money.
+        \end{enumerate}
+        \item[Lesson]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item A site that makes no money may be a success.
+        \item A site that does nothing may be a success.
+        \end{enumerate}
+      B: |
+        \item[Tew's Calmness and Relaxation Problem] \hfill \\
+        \hspace{-4.0cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item Many people need to relax and be calm.
+        \item Alex wanted to develop a site to help people.
+        \end{enumerate}
+        \item[Solution]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item The site asks you to be quiet for 2 minutes.
+        \item The site requires no action by the visitor.
+        \end{enumerate}
+        \item[Evaluation]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item The site did not make any money.
+        \item Alex thought the site was successful.
+        \end{enumerate}
+        \item[Lesson]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item A site that does nothing may be a success.
+        \item People may be looking for calmness online.
+        \end{enumerate}
+      C: |
+        \item[Tew's Calmness and Relaxation Problem] \hfill \\
+        \hspace{-4.0cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item Many people spend all their time on the Internet.
+        \item Alex wanted to develop a site to help people.
+        \end{enumerate}
+        \item[Solution]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item Alex developed a site where people do nothing.
+        \item The site requires no action by the visitor.
+        \end{enumerate}
+        \item[Evaluation]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item 2.6 million people visited Alex's site.
+        \item Alex thought the site was successful.
+        \end{enumerate}
+        \item[Lesson]
+        \hspace{-4.8cm} \vspace{-0.8cm}
+        \begin{enumerate}
+        \item A site that makes no money may be a success.
+        \item People may be looking for calmness online.
+        \end{enumerate}
+
+      quiz:
+        # \item Many people spend all their time on the Internet.
+        # \item Many people need to relax and be calm.
+        # \item Alex wanted to develop a site to help people.
+
+        # \item Alex developed a site where people do nothing.
+        # \item The site asks you to be quiet for 2 minutes.
+        # \item The site requires no action by the visitor.
+
+        # \item 2.6 million people visited Alex's site.
+        # \item The site did not make any money.
+        # \item Alex thought the site was successful.
+
+        # \item A site that makes no money may be a success.
+        # \item A site that does nothing may be a success.
+        # \item People may be looking for calmness online.
+
+        - question: 2.6 million people visited Alex's site.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: evaluation
+        - question: Alex developed a site where people do nothing.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: evaluation
+        - question: Alex thought the site was successful.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: evaluation
+        - question: Alex wanted to develop a site to help people.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: evaluation
+        - question: A site that does nothing may be a success.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: evaluation
+        - question: A site that makes no money may be a success.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: evaluation
+        - question: Many people need to relax and be calm.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: evaluation
+        - question: Many people spend all their time on the Internet.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: evaluation
+        - question: People may be looking for calmness online.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: evaluation
+        - question: The site asks you to be quiet for 2 minutes.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: evaluation
+        - question: The site did not make any money.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: evaluation
+        - question: The site requires no action by the visitor.
+          option:
+            - Problem
+            - Solution
+            - Evaluation
+            - Lesson
+          answer: evaluation
