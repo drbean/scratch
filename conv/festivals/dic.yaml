@@ -1,0 +1,222 @@
+---
+-
+  - id
+  - description
+  - genre
+  - target
+  - content
+  - unclozeables
+  - percent
+-
+  - breakstone
+  - Christmas
+  - intermediate
+  - A
+  - |+
+    I was in first grade. And I was at the bus stop. And Chrissie Urban told me that there was no Santa Claus. And my gut reaction was, I punched her right in the face. And I ran home. And I told my mother, 'Mommy, Chrissie Urban just said there's no Santa Claus. What a liar she is. And I don't even want to go to school, 'cause I'm so upset.' And. ha, ha. All I remember is, getting so upset that Chrissie Urban told me that.
+
+    Christmas was huge.
+  - Chrissie Urban
+-
+  - breakstone
+  - Christmas
+  - intermediate
+  - B
+  - |+
+    We had this myth that Santa Claus decorated our tree, so .. So the older kids had, anyone who knew that Santa Claus wasn't real, would stay up and decorate the tree. And we always put the tinsel on, one strand at a time. And we'd take a box of powder Tide, mix enough water to just make it pastey, and then just take our fingers and slide it over every branch on the tree, so that it looked like a snow blizzard had just plopped all the snow down. And it really made the tree special.
+  - tinsel|strand|Tide|pasty|blizzard|pastey
+
+-
+  - breakstone
+  - Christmas
+  - intermediate
+  - C
+  - |+
+    I was in first grade. And I was at the bus stop. And Chrissie Urban told me that there was no Santa Claus. And my gut reaction was, I punched her right in the face. And I ran home. And I told my mother, 'Mommy, Chrissie Urban just said there's no Santa Claus. What a liar she is. And I don't even want to go to school, 'cause I'm so upset.' And. ha, ha. All I remember is, getting so upset that Chrissie Urban told me that.
+
+    Christmas was huge.
+  - Chrissie Urban
+-
+  - breakstone
+  - Christmas
+  - intermediate
+  - D
+  - |+
+    We had this myth that Santa Claus decorated our tree, so .. So the older kids had, anyone who knew that Santa Claus wasn't real, would stay up and decorate the tree. And we always put the tinsel on, one strand at a time. And we'd take a box of powder Tide, mix enough water to just make it pastey, and then just take our fingers and slide it over every branch on the tree, so that it looked like a snow blizzard had just plopped all the snow down. And it really made the tree special.
+  - tinsel|strand|Tide|pasty|blizzard|pastey
+-
+  - desantis
+  - Christmas during war
+  - intermediate
+  - A
+  - |+
+    In 1944, my brother Joe was in the service. Of course, he was fighting in Germany. A telegram came saying that he was missing in action.
+    And so, I was afraid to tell my parents and I ran to get my three sisters who were at church. And I said you have to come home, Momma and Papa need you.
+    We were so upset, my sister, instead of getting in the car, she ran home, ran all the way home alongside the car. It was the worst news you could get.
+    It was getting closer to Christmas and Mother says, We won't be able to have a Christmas tree this year, because Joey's not here. We don't know if he is alive.
+  - Joe|Germany|telegram|Momma
+-
+  - desantis
+  - Christmas during war
+  - intermediate
+  - B
+  - |+
+    We don't know anything. So we're going to not have a Christmas tree.
+    And then Christmas Eve, a letter came from Joey. I'm in a hospital, I'm all right, I'll come home soon, and by now you must be putting up the Christmas tree.
+    And my mother says, Oh, look what happened. He's telling us to decorate the tree.
+    And my brother John, he says: Mom, guess what? Last night when I came home from work, I got a Christmas tree, and I put it under the porch, because I thought maybe you would change your mind and we could have the Christmas tree.
+    So we put it up and decorated it. This one's for you Joe.
+    And it turned out nice.
+  - porch
+-
+  - desantis
+  - Christmas during war
+  - intermediate
+  - C
+  - |+
+    In 1944, my brother Joe was in the service. Of course, he was fighting in Germany. A telegram came saying that he was missing in action.
+    And so, I was afraid to tell my parents and I ran to get my three sisters who were at church. And I said you have to come home, Momma and Papa need you.
+    We were so upset, my sister, instead of getting in the car, she ran home, ran all the way home alongside the car. It was the worst news you could get.
+    It was getting closer to Christmas and Mother says, We won't be able to have a Christmas tree this year, because Joey's not here. We don't know if he is alive.
+  - Joe|Germany|telegram|Momma
+-
+  - desantis
+  - Christmas during war
+  - intermediate
+  - D
+  - |+
+    We don't know anything. So we're going to not have a Christmas tree.
+    And then Christmas Eve, a letter came from Joey. I'm in a hospital, I'm all right, I'll come home soon, and by now you must be putting up the Christmas tree.
+    And my mother says, Oh, look what happened. He's telling us to decorate the tree.
+    And my brother John, he says: Mom, guess what? Last night when I came home from work, I got a Christmas tree, and I put it under the porch, because I thought maybe you would change your mind and we could have the Christmas tree.
+    So we put it up and decorated it. This one's for you Joe.
+    And it turned out nice.
+  - porch
+-
+  - norad
+  - Christmas during war
+  - intermediate
+  - D
+  - |+
+    We don't know anything. So we're going to not have a Christmas tree.
+
+---
+-
+  - genre
+  - text
+  - id
+  - target
+  - content
+  - answer
+-
+  - intermediate
+  - breakstone
+  - 1
+  - A
+  - She didn't know there was no Santa Claus, but one kid did know that it was a myth.
+  - True
+-
+  - intermediate
+  - breakstone
+  - 2
+  - A
+  - She punched her mother because she was upset that she was a liar who had told her there was no Santa.
+  - False
+-
+  - intermediate
+  - breakstone
+  - 3
+  - B
+  - They decorated the tree putting pastey powder on the branches to make it look like snow.
+  - True
+-
+  - intermediate
+  - breakstone
+  - 4
+  - B
+  - Anyone who knew the real Santa would look at Santa decorate the tree while the older kids stayed in the snow.
+  - False
+-
+  - intermediate
+  - breakstone
+  - 5
+  - C
+  - She didn't know there was no Santa Claus, but one kid did know that it was a myth.
+  - True
+-
+  - intermediate
+  - breakstone
+  - 6
+  - C
+  - She punched her mother because she was upset that she was a liar who had told her there was no Santa.
+  - False
+-
+  - intermediate
+  - breakstone
+  - 7
+  - D
+  - They decorated the tree putting pastey powder on the branches to make it look like snow.
+  - True
+-
+  - intermediate
+  - breakstone
+  - 8
+  - D
+  - Anyone who knew the real Santa would look at Santa decorate the tree while the older kids stayed in the snow.
+  - False
+-
+  - intermediate
+  - desantis
+  - 1
+  - A
+  - Their Christmas news was that their brother was missing. They were afraid of the worst, that he was not alive.
+  - True
+-
+  - intermediate
+  - desantis
+  - 2
+  - A
+  - Their mother says they were going to have a Christmas tree, because her brother was fighting in Germany.
+  - False
+-
+  - intermediate
+  - desantis
+  - 3
+  - B
+  - They decorated the tree that her brother got, because their brother was all right.
+  - True
+-
+  - intermediate
+  - desantis
+  - 4
+  - B
+  - The brother did tell Mom that he got a Christmas tree, and she tells him to put it under the porch.
+  - False
+-
+  - intermediate
+  - desantis
+  - 5
+  - C
+  - Their Christmas news was that their brother was missing. They were afraid of the worst, that he was not alive.
+  - True
+-
+  - intermediate
+  - desantis
+  - 6
+  - C
+  - They were not going to have a Christmas tree, because her brother was fighting in Germany.
+  - False
+-
+  - intermediate
+  - desantis
+  - 7
+  - D
+  - They decorated the tree that her brother got, because their brother was all right.
+  - True
+-
+  - intermediate
+  - desantis
+  - 8
+  - D
+  - The brother did tell Mom that he got a Christmas tree, and she tells him to put it under the porch.
+  - False
