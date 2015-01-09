@@ -1,0 +1,112 @@
+\documentclass[a4paper]{article}
+\usepackage[T1]{fontenc}
+% \usepackage[absolute,noshowtext,showboxes]{textpos}
+\usepackage{xeCJK}
+\setCJKmainfont{WenQuanYi Zen Hei}
+\usepackage{color}
+\usepackage[absolute,showboxes]{textpos}
+% \textblockorigin{-0.02cm}{0.07cm} %HPDeskJet5160
+% \textblockorigin{0.00cm}{0.00cm} %HPDeskJet5160
+\textblockorigin{0.00cm}{0.03cm} %HPDeskJet5160
+\textblockorigin{0.05cm}{0.13cm} %HPDeskJet5160
+% \textblockorigin{0.00cm}{0.00cm} %HPLaserJet5000LE
+\usepackage{texdraw}
+\pagestyle{empty}
+\setlength{\unitlength}{1cm}
+
+\newcommand{\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XIdentifier}[0]{
+<TMPL>$identifier</TMPL>
+}
+
+\newcommand{\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XAcontent}[0]{
+<TMPL>$A</TMPL>
+}
+
+\newcommand{\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XBcontent}[0]{
+<TMPL>$B</TMPL>
+}
+
+\newcommand{\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XCcontent}[0]{
+<TMPL>$C</TMPL>
+}
+
+% \newcommand{\myDcontent}[0]{
+% <TMPL>$D</TMPL>
+% }
+
+\newcommand{\mycard}[5]{%
+	\vspace{0.1cm}
+	\small #1 #2
+	\par
+	\parbox[t][6.7cm][c]{9.5cm}{%
+	\hspace{0.1cm} \Large#3\\
+	\normalsize#4 #5
+	}
+}
+
+\begin{document}
+\fontfamily{hlst}\fontseries{b}\fontshape{n}\selectfont
+% \begin{picture}(15,20)(+4.8,-22.05)
+% \begin{tabular}[t]{*{2}{|p{10.05cm}}|}
+
+\begin{textblock}{8}(0,0)
+\textblocklabel{picture1}
+\mycard{}{\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XIdentifier}{\parbox{8.0cm}{A:
+\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XAcontent
+}}{}{} 
+\end{textblock}
+
+\null
+\newpage
+
+\begin{textblock}{8}(0,0)
+\textblocklabel{picture2}
+\mycard{}{\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XIdentifier}{\parbox{9.0cm}{B:
+\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XBcontent
+}}{}{} 
+\end{textblock}
+
+\null
+\newpage
+
+\begin{textblock}{8}(0,0)
+\textblocklabel{picture3}
+\mycard{}{\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XIdentifier}{\parbox{9.0cm}{C:
+\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XCcontent
+}}{}{} 
+\end{textblock}
+
+\null
+\newpage
+
+\begin{textblock}{8}(0,0)
+\textblocklabel{picture5}
+\mycard{}{\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XIdentifier}{\parbox{9.0cm}{A:
+\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XAcontent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(8,0)
+\textblocklabel{picture6}
+\mycard{}{\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XIdentifier}{\parbox{9.0cm}{B:
+\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XBcontent
+}}{}{} 
+\end{textblock}
+
+\begin{textblock}{8}(0,4)
+\textblocklabel{picture7}
+\mycard{}{\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XIdentifier}{\parbox{9.0cm}{C:
+\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XCcontent
+}}{}{} 
+\end{textblock}
+
+% \begin{textblock}{8}(8,4)
+% \textblocklabel{picture7}
+% \mycard{}{\myX<TMPL>$topic</TMPL>X<TMPL>$form</TMPL>XIdentifier}{\parbox{9.0cm}{D:
+% \myDcontent
+% }}{}{} 
+% \end{textblock}
+
+\end{document}
+
+
