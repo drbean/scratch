@@ -133,3 +133,8 @@ References
 Editor Notes: 
 1. Not all the studies cited are included in the references, and not all the references above are mentioned in the text.
 2. Why were high school graduates, finishing 12 years of primary and secondary education, not represented? I changed 'junior high' to 'a secondary school education'.
+3. I didn't touch the figures, but there are a few necessary changes:
+	a. In Figure 4.1, "Knowledge" in "Store Knowledge" should not wrap to the next line. If this is unavoidable, there should be a hyphen, "Knowled-", "ge".
+	b. Also in Figure 4.1, "Decision Postpone" should be "Decision Postponement."
+	c. In Table 4.1, "Advertizing" should be "Advertising."
+Accordingly, I have made no changes to Confusion2_01092015.doc, so I am not including it in the attachments.
