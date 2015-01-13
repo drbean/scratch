@@ -428,3 +428,83 @@ ward:
       identifier: ward 0
       White: |+
       Black: |+
+sobozinskywall:
+  jigsaw:
+    0:
+      identifier: sobozinskywall 0
+      A: You are from San Francisco. You met Scott in New York on New Year's Eve. Then you returned to San Francisco. But you keep in contact by cassette tape.
+      B: You are a cassette tape. Scott records his daily life on you, and then sends you to Isabel. Isabel records a message on the same tape and sends it back.
+      C: You were feeling lonely on New Year's Eve and met Isabel, but she returns to San Francisco. You maintain contact not by telephone, but by tape.
+      quiz:
+        - question: A
+          option:
+            - Cassette tape
+            - Isabel
+            - Scott
+          answer: Isabel
+        - question: B
+          option:
+            - Cassette tape
+            - Isabel
+            - Scott
+          answer: Cassette tape
+        - question: C
+          option:
+            - Cassette tape
+            - Isabel
+            - Scott
+          answer: Scott
+        - question: Scott and Isabel meet at Christmas.
+          answer  : False
+        - question: Scott gives Isabel a tape as a gift.
+          answer  : False
+        - question: Scott sends a tape on New Year's Eve.
+          answer  : False
+        - question: Isabel is in San Francisco.
+          answer  : True
+        - question: Scott puts his daily life on tape.
+          answer  : True
+        - question: Isabel telephones Scott.
+          answer  : False
+        - question: They communicate by cassette tape.
+          answer  : True
+safir:
+  jigsaw:
+    0:
+      identifier: safir 0
+      A: You are a student, working at a mountain hotel for the summer. An older woman asks you to talk to her daughter, Carol. You end up marrying her 3 years later.
+      B: You are angry with your mother at a hotel during the vacation. You wanted to stay in New York, but you enjoy the attention from a boy. You get married.
+      C: You brought your daughter, Carol to a mountain hotel for the vacation. She is mad. You ask Ed, who seems like a good match for her, to talk to her.
+      quiz:
+        - question: A
+          option:
+            - Carol
+            - Carol's mother
+            - Ed
+          answer: Ed
+        - question: B
+          option:
+            - Carol
+            - Carol's mother
+            - Ed
+          answer: Carol
+        - question: C
+          option:
+            - Carol
+            - Carol's mother
+            - Ed
+          answer: Carol's mother
+        - question: Carol and her mom are from New York.
+          answer  : True
+        - question: Carol wanted to vacation in the mountains.
+          answer  : False
+        - question: Carol's mom is angry Carol likes Ed.
+          answer  : False
+        - question: Carol's husband is angry Carol likes Ed.
+          answer  : False
+        - question: Carol's husband met her at a hotel.
+          answer  : True
+        - question: Carol's mom brought Carol \& Ed together.
+          answer  : True
+        - question: Carol wanted to make Carol less angry.
+          answer  : True
