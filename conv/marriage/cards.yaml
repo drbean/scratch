@@ -506,5 +506,5 @@ safir:
           answer  : True
         - question: Carol's mom brought Carol \& Ed together.
           answer  : True
-        - question: Carol wanted to make Carol less angry.
+        - question: Carol's mom wanted to make Carol less angry.
           answer  : True
