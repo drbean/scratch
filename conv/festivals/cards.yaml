@@ -234,3 +234,43 @@ watterson:
           answer: True
         - question: Question c. General knowledge questions about Christmas: If a child believes Santa is fake, it is difficult to convince him/her that the real Santa is too busy to be there.
           answer: True
+norad:
+  jigsaw:
+    0:
+      identifier: norad 0
+      A: Nicky calls you on the phone, but because he has the wrong number from the advertisement, he calls the Colonel by mistake. 
+      B: A boy, Nicky calls you on your hotline, and you don't understand, because he shouldn't have the number of your hotline.
+      C: You call Santa, but the Colonel answers the phone. You don't understand why the Colonel isn't Santa. He makes you cry.
+      quiz:
+        - question: A
+          option:
+            - Nicky
+            - the Colonel
+            - Santa
+          answer: Santa
+        - question: B
+          option:
+            - Nicky
+            - the Colonel
+            - Santa
+          answer: the Colonel
+        - question: C
+          option:
+            - Nicky
+            - the Colonel
+            - Santa
+          answer: Nicky
+        - question: Nicky calls Santa.
+          answer: True
+        - question: Santa answers the phone.
+          answer: False
+        - question: Nicky has the right number.
+          answer: False
+        - question: Nicky got the number from an advertisement.
+          answer: True
+        - question: The number is for the Colonel's hotline.
+          answer: True
+        - question: The Colonel understands why Nicky calls.
+          answer: False
+        - question: The Colonel is happy to have Nicky call.
+          answer: False
