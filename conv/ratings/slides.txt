@@ -46,17 +46,46 @@ Add one aspect of his teaching he needs to work on to improve his teaching.
 
 ## Ratings
 
-Competition:
+	Competition:
 
-1	2	3	4	5
+		1	2	3	4	5
 
-Advanced level:
+	Advanced level:
 
-1	2	3	4	5
+		1	2	3	4	5
 
-Control:
+	Control:
 
-1	2	3	4	5
+		1	2	3	4	5
 
-Your idea:
+	Your idea:
 
+## Grading according to the curve
+
+- [Grading on a curve - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Grading_on_a_curve)
+
+If the average grade of the class is below 80, I will raise the grades so the average is 80.
+
+## Before adjustment
+	90 |
+	   |
+	   |
+	80 |                *
+	   |                      *          *
+	   |         *    *  *         *    *   *    *
+	70 +------*-----*--------*---*----*--------*-------
+	   |          *      *      *       *    *
+	   |             *      *       *      *
+	   |                         *
+
+## After adjustment
+	90 |                *
+	   |                      *          *
+	   |         *    *  *         *    *   *    *
+	80 +------*-----*--------*---*----*--------*-------
+	   |          *      *      *       *    *
+	   |             *      *       *      *
+	70 |                         *
+	   |
+	   |
+	   |
