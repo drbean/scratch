@@ -46,7 +46,7 @@ ingredients:
     identifier:  The ingredients at NVIDIA
     A: Jensen Huang, Curtis Priem and Chris Malachowsky were electrical engineers, working for companies designing computer chips. They started NVIDIA to make sound and video chips to play video games on home computers. No-one was doing this before them.
     B: They hadn't studied business and didn't have business experience. Jensen Huang was introduced by his old boss to a venture capitalist but he wasn't able to write a business plan that convinced the venture capitalist.
-    C: They almost went out of business in the first 2 years when computer memory suddenly became very cheap. Their first chip didn't use lots of memory, to keep it cheap. The chips of the 90 other new companies that had appeared did, and were better.
+    C: They almost went out of business in the first 2 years when computer memory suddenly became very cheap. Their first chip didn't use lots of memory, to keep it cheap. The chips of the 90 other new companies that had appeared did use lots of memory, and were better.
     D: They worked together very, very hard to quickly develop a very powerful chip, but they weren't able to test it well, and it had problems. Despite the problems, it was very popular. And they made a lot of money.
   chang:
     identifier:  The ingredients at TSMC
@@ -450,7 +450,507 @@ ingredients:
         answer: True
       - question: The company is headed for success.
         answer: False
+  12:
+    identifier: ingredients 12
+      # \item Chang had provided a chip manufacturing service in the U.S.
+      # \item Chang thought a chip manufacturing service in 台灣 was a good idea.
+      # \item People in the US couldn't understand what Chang was doing.
 
+      # \item Chang got to know 曾繁城 at the 工業技術研究院.
+      # \item Chang had associations with 李國鼎 in the 台灣 government.
+      # \item Many top engineers came back from the US to work for TSMC.
+
+      # \item Chang thought TSMC could help small companies.
+      # \item Some big companies ordered a few TSMC chips.
+      # \item Many smaller companies ordered many TSMC chips.
+
+      # \item The 台灣 government forced companies to invest in TSMC.
+      # \item The 台灣 government raised money to start TSMC.
+      # \item Philips was a willing investor in TSMC.
+    A: |
+      \item[The innovation]
+      \hspace{-4.0cm} \vspace{-0.1cm}
+      \begin{enumerate}
+      \item 張忠謀 had manufactured chips in the U.S.
+      \item 張忠謀: How about making chips in 台灣?
+      \end{enumerate}
+      \item[The team]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item Chang got 曾繁城 from ITRI to join him.
+      \item Chang had help from 李國鼎 in the 台灣 government.
+      \end{enumerate}
+      \item[The market opportunity]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item Chang thought TSMC could help small companies.
+      \item Some big companies ordered a few TSMC chips.
+      \end{enumerate}
+      \item[The financial strategy]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item The 台灣 government raised money to start TSMC.
+      \item The 台灣 government forced companies to invest.
+      \end{enumerate}
+    B: |
+      \item[The innovation]
+      \hspace{-4.0cm} \vspace{-0.1cm}
+      \begin{enumerate}
+      \item 張忠謀: How about making chips in 台灣?
+      \item People in the US couldn't understand Chang's plan.
+      \end{enumerate}
+      \item[The team]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item Chang had help from 李國鼎 in the 台灣 government.
+      \item Many top engineers came back from the US to work for TSMC.
+      \end{enumerate}
+      \item[The market opportunity]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item Some big companies ordered a few TSMC chips.
+      \item Many smaller companies ordered many TSMC chips.
+      \end{enumerate}
+      \item[The financial strategy]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item The 台灣 government raised money to start TSMC.
+      \item Philips was a willing investor in TSMC.
+      \end{enumerate}
+    C: |
+      \item[The innovation]
+      \hspace{-4.0cm} \vspace{-0.1cm}
+      \begin{enumerate}
+      \item Chang had manufactured chips in the U.S.
+      \item People in the US couldn't understand Chang's plan.
+      \end{enumerate}
+      \item[The team]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item Chang got 曾繁城 from ITRI to join him.
+      \item Many top engineers came back from the US to work for TSMC.
+      \end{enumerate}
+      \item[The market opportunity]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item Chang thought TSMC could help small companies.
+      \item Many smaller companies ordered many TSMC chips.
+      \end{enumerate}
+      \item[The financial strategy]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item The 台灣 government forced companies to invest. 
+      \item But Philips was a willing investor in TSMC.
+      \end{enumerate}
+    quiz:
+      - question: Big companies ordered a few chips.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: Market opportunity
+      - question: Chang got to know 曾繁城 at ITRI.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: Team
+      - question: 李國鼎 in the 台灣 government helped 張.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: Team
+      - question: Chang had made chips in the U.S.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: Innovation
+      - question: 張: I could make chips in 台灣!!
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: Innovation
+      - question: 張: TSMC could help small companies.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: Market opportunity
+      - question: Many smaller companies ordered many chips.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: Market opportunity
+      - question: Many top engineers came back from the US to work for TSMC.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: Team
+      - question: People in the US couldn't understand his idea.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: Innovation
+      - question: Philips was a willing investor in TSMC.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: Financial strategy
+      - question: The 台灣 government raised money to start TSMC.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: Financial strategy
+      - question: The 台灣 government forced companies to invest.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: Financial strategy
+  13:
+    identifier: ingredients 13
+      # \item NVIDIA designed a chip that was very different.
+      # \item NVIDIA: `Let's make graphics chips for video games.'
+      # \item NVIDIA: The 1st company with the idea.
+      # \item The 3 engineers had experience designing chips.
+      # \item The 3 knew people who could help NVIDIA.
+      # \item The 3 worked hard to make popular chips.
+      # \item They couldn't sell their 1st chip.
+      # \item New companies' chips were better.
+      # \item They developed a better 2nd chip.
+      # \item Investors gave NVIDIA \$20 million to start.
+      # \item They had enough money to last 2 years.
+      # \item They ran out of money after 2 years.
+    A: |
+      \item[The innovation]
+      \hspace{-4.0cm} \vspace{-0.1cm}
+      \begin{enumerate}
+      \item NVIDIA designed a different type of chip.
+      \item NVIDIA: `Let's make graphics chips for PCs.'
+      \end{enumerate}
+      \item[The team]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item The 3 were experienced chip designers.
+      \item The 3 knew people who could help them.
+      \end{enumerate}
+      \item[The market opportunity]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item They couldn't sell their 1st chip.
+      \item New companies' chips were better.
+      \end{enumerate}
+      \item[The financial strategy]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item Investors gave NVIDIA \$20 million to start.
+      \item They had enough money to last 2 years.
+      \end{enumerate}
+    B: |
+      \item[The innovation]
+      \hspace{-4.0cm} \vspace{-0.1cm}
+      \begin{enumerate}
+      \item NVIDIA: `Let's make graphics chips for PCs.'
+      \item NVIDIA: The 1st company with the idea.
+      \end{enumerate}
+      \item[The team]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item The 3 knew people who could help them.
+      \item The 3 worked hard to make popular chips.
+      \end{enumerate}
+      \item[The market opportunity]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item New companies' chips were better.
+      \item They developed a better 2nd chip.
+      \end{enumerate}
+      \item[The financial strategy]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item They had enough money to last 2 years.
+      \item They ran out of money after 2 years.
+      \end{enumerate}
+    C: |
+      \item[The innovation]
+      \hspace{-4.0cm} \vspace{-0.1cm}
+      \begin{enumerate}
+      \item NVIDIA designed a chip that was very different.
+      \item NVIDIA: The 1st company with the idea.
+      \end{enumerate}
+      \item[The team]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item The 3 engineers had experience designing chips.
+      \item The 3 worked hard to make popular chips.
+      \end{enumerate}
+      \item[The market opportunity]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item They couldn't sell their 1st chip.
+      \item They developed a better 2nd chip.
+      \end{enumerate}
+      \item[The financial strategy]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item Investors gave NVIDIA \$20 million to start.
+      \item They ran out of money after 2 years.
+      \end{enumerate}
+    quiz:
+      # - question: NVIDIA: The 1st company with the idea.
+      # - question: The 3 engineers had experience designing chips.
+      - question: Investors gave NVIDIA \$20 million.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: ???
+      - question: New companies' chips were more popular.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: ???
+      - question: NVIDIA designed a different type of chip.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: ???
+      - question: 黃仁勳: `Let's make graphics chips for PCs.'
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: ???
+      - question: The 3 knew people who could help NVIDIA.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: ???
+      - question: The 3 worked hard to make popular chips.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: ???
+      - question: They couldn't sell their 1st chip.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: ???
+      - question: They developed a popular 2nd chip.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: ???
+      - question: They had enough money to last 2 years.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: ???
+      - question: They ran out of money after 2 years.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: ???
+  14:
+    identifier: ingredients 14
+      # \item 張's idea: Make chips for small companies.
+      # \item US companies like Intel, didn't understand.
+      # \item Only 張 could see the need for a chip maker.
+      # \item 李國鼎 in the 台灣 government helped.
+      # \item Top engineers returned to 台灣 to help.
+      # \item TSMC workers cooperate and enjoy their jobs.
+      # \item At first TSMC did not sell many chips.
+      # \item Not many smaller companies existed.
+      # \item Bigger companies didn't buy many chips.
+      # \item The 台灣 government gave 50\% of the money.
+      # \item Big investors provided 25\%.
+      # \item Philips provided 25% of TSMC money.
+    A: |
+      \item[The innovation]
+      \hspace{-4.0cm} \vspace{-0.1cm}
+      \begin{enumerate}
+      \item 張's idea: Make chips for small companies.
+      \item US companies like Intel, didn't understand.
+      \end{enumerate}
+      \item[The team]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item 李國鼎 in the 台灣 government helped.
+      \item Top engineers returned to 台灣 to help.
+      \end{enumerate}
+      \item[The market opportunity]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item At first TSMC did not sell many chips.
+      \item Not many smaller companies existed.
+      \end{enumerate}
+      \item[The financial strategy]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item The 台灣 government gave 50\% of the money.
+      \item Big investors provided 25\%.
+      \end{enumerate}
+    B: |
+      \item[The innovation]
+      \hspace{-4.0cm} \vspace{-0.1cm}
+      \begin{enumerate}
+      \item Only 張 could see the need for a chip maker.
+      \item US companies like Intel, didn't understand.
+      \end{enumerate}
+      \item[The team]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item Top engineers returned to 台灣 to help.
+      \item They cooperate and enjoy their jobs.
+      \end{enumerate}
+      \item[The market opportunity]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item Not many smaller companies existed.
+      \item And big companies didn't buy many chips.
+      \end{enumerate}
+      \item[The financial strategy]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item Philips provided 25\% of TSMC money.
+      \item Big investors provided 25\%.
+      \end{enumerate}
+    C: |
+      \item[The innovation]
+      \hspace{-4.0cm} \vspace{-0.1cm}
+      \begin{enumerate}
+      \item 張's idea: Make chips for small companies.
+      \item Only 張 could see the need for a chip maker.
+      \end{enumerate}
+      \item[The team]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item 李國鼎 in the 台灣 government helped.
+      \item TSMC workers cooperate and enjoy their jobs.
+      \end{enumerate}
+      \item[The market opportunity]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item At first TSMC did not sell many chips.
+      \item Big companies didn't buy many chips.
+      \end{enumerate}
+      \item[The financial strategy]
+      \hspace{-4.8cm} \vspace{-0.3cm}
+      \begin{enumerate}
+      \item The 台灣 government gave 50\% of the money.
+      \item Philips provided 25\% of TSMC money.
+      \end{enumerate}
+    quiz:
+      # - question: TSMC workers cooperate and enjoy their jobs.
+      # - question: US companies like Intel, didn't understand.
+      - question: 張's idea: Make chips for small companies.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: ???
+      - question: 李國鼎 in the 台灣 government helped.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: ???
+      - question: At first TSMC did not sell many chips.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: ???
+      - question: Bigger companies didn't buy many chips.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: ???
+      - question: Big investors provided 25\%.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: ???
+      - question: Not many smaller companies existed.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: ???
+      - question: Only 張 could see the need for a chip maker.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: ???
+      - question: Philips provided 25\% of TSMC money.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: ???
+      - question: The 台灣 government gave 50\% of the money.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: ???
+      - question: Top engineers returned to 台灣 to help.
+        option:
+          - 革新
+          - 球隊
+          - 市場機遇
+          - 財務戰略
+        answer: ???
  compcomp:
   0:
     identifier: ingredients
