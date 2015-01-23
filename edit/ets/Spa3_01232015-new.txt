@@ -21,7 +21,7 @@ Consumer perception
 Research Methods
 
 Model building for spa service: A decision-making framework
-  Based on the work of Sweeney, Soutar, and Johnson (1999), the conceptual model of perceived net value, was developed and refined by considering the key constituents of perceived net value, is presented in Figure 1. In this model, we argue that perceived quality, price and risk contribute directly to the perceived net value and indirectly to willingness to buy respectively. In the following section, the proposed model is described, and the theoretical support for the hypothesized relationships is set forth.
+  Based on the work of Sweeney, Soutar, and Johnson (1999), a conceptual model of perceived net value was developed and refined, incorporating the key constituents of quality, price and risk, as presented in Figure 1. In this model, we posit that perceived quality, price and risk contribute directly to perceived net value and indirectly to willingness to buy. In the following section, the proposed model is described, and theoretical support for the hypothesized relationships is provided.
 
 <Figure 1 inserts here>
 
