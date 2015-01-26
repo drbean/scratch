@@ -53,7 +53,7 @@ Data collection and measurement
 Empirical Results
 
 Factor analysis
-¡@As in our previous study, table 1 shows the results of the factor analysis. The results of principal component analysis indicated that there were 7 factors with eigenvalues exceeding 1 (representing 7 dimensions in all 5 constructs), cumulatively explaining a total of 71.24% of the variance. It was found that each item loaded on their respective factor with loadings greater than .50. Moreover, the results of reliability analysis indicated that the Cronbach¡¦s coefficient alpha of the multi-item measures was .80, and that of constructs ranged between .75 and .92, which suggested the acceptability of all measurements in terms of internal consistency. 
+¡@Adopting the same format as in our previous study, we show in table 1 the results of the factor analysis. The results of principal component analysis indicated that there were 7 factors with eigenvalues exceeding 1 (representing 7 dimensions in all 5 constructs), cumulatively explaining a total of 71.24% of the variance. It was found that each item loaded on their respective factor with loadings greater than .50. Moreover, the results of the reliability analysis indicated that the Cronbach¡¦s coefficient alpha of the multi-item measures was .80, and that of the constructs ranged between .75 and .92, which suggested the acceptability of all measurements in terms of internal consistency. 
 
 <Table 1 inserts here>
 
