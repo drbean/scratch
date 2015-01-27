@@ -176,4 +176,17 @@ A RELATIONAL PERSPECTIVE OF VALUE PERCEPTION                                    
 
 
 
+Editor Notes:
+
+1. In a number of places the text included sentences repeated verbatim in following sections. Assuming this was intentional, I have reworked the sentences to make sense in the new context. If this was not the intention, I can look at the text again.
+
+2. Finacial -> Financial in Figure 1
+
+3. Hypotheses -> Hypothesis in Figure 2
+
+4. In a number of places in Table 1, column headings have been wrapped without hyphens from one line to the next. I am assuming this is because I am using not Microsoft Word, but LibreOffice, another WYSWYG editing software package, to look at them. If in the original editing software they are also wrapped, this wrapping needs to be fixed.
+
+Column headings:
+Constructs Dimensions Items Factor loadings Eigenvalues % of variance Cumulative % Item/ total Correlation Cronbach¿s ¿ Value
+
 
