@@ -393,7 +393,7 @@ Macnamara, J. (1973). Attitudes and learning a second language. Language attitud
 Mathieson, K., Peacock, E., & Chin, W. W. (2001). Extending the technology acceptance model: the influence of perceived user resources. ACM SigMIS Database, 32(3), 86-112.
 Mather, N., & Gregg, N. (2006). Specific learning disabilities: Clarifying, not eliminating, a construct.
 May, R. (1977). The meaning of anxiety (rev. ed.). New York.
-McCroskey, J. C. (1977). Oral communication apprehension: A summary of recent theory and research. Human communication research, 4(1), 78-96.
+McCroskey, J. C. (1977). Oral communication apprehension: A summary of recent theory and research. Human Communication Research, 4(1), 78-96.
 Ming,T. S., Ling, T. S., & Jaafar, N. M. (2011). Attitudes and motivation of Malaysian secondary students towards learning English as a second Language: A case study. 3L: The Southeast Asian Journal of English Language Studies. Vol, 17, 40-54.
 Mills, N., Pajares, F., & Herron, C. (2006). A reevaluation of the role of anxiety: Self?efficacy, anxiety, and their relation to reading and listening proficiency. Foreign Language Annals, 39(2), 276-295.
 Na, Z. (2007). A study of high school students' English learning anxiety. The Asian EFL Journal, 9(3), 22-34.
@@ -415,10 +415,10 @@ Ro, E. (2013). A case study of extensive reading with an unmotivated L2 reader. 
 Saito, Y., & Samimy, K. K. (1996). Foreign language anxiety and language performance: A study of learner anxiety in beginning, intermediate, and advanced?level college students of Japanese. Foreign Language Annals, 29(2), 239-249.
 Ro, E. (2013). A case study of extensive reading with an unmotivated L2 reader. Reading in a Foreign Language, 25(2), 2.
 Samsiah Bidin, Kamaruzaman Jusoff, Nurazila Abdul Aziz, Musdiana Mohammad Salleh &Taniza Tajudin. (2009). Motivation and attitude in learning English among UiTM students in the northern region of Malaysia. English Language Teaching. Vol. 2(2), 16-20.
-Sarason, I. G. (1984). Stress, anxiety, and cognitive interference: reactions to tests. Journal of personality and social psychology, 46(4), 929.
-Sarason, I. G. (1988). Anxiety, self-preoccupation and attention. Anxiety research, 1(1), 3-7.
+Sarason, I. G. (1984). Stress, anxiety, and cognitive interference: reactions to tests. Journal of Personality and Social Psychology, 46(4), 929.
+Sarason, I. G. (1988). Anxiety, self-preoccupation and attention. Anxiety Research, 1(1), 3-7.
 Schmidt, A. M., & Ford, J. K. (2003). Learning within a learner control training environment: The interactive effects of goal orientation and metacognitive instruction on learning outcomes. Personnel Psychology, 56(2), 405-429.
-Shah, P. S. A., & Perak, B. THE RELATIONSHIP BETWEEN ATTITUDE AND MOTIVATION OF POLYTECHNIC CERTIFICATE MECHANICAL ENGINEERING STUDENTS IN LEARNING ENGLISH FOR SPECIFIC PURPOSES (ESP).
+Munawira bt. Saharani, Ezatul Marini bt. Mohd. Ghazali and Shahiza bt. Zainuddin (2012) The relationship between attitude and motivation of polytechnic certificate mechanical engineering students in learning English for Specific Purposes (ESP). Penyelidikan Dan Inovasi Memperkasa Kualiti Pendidikan Tvet. Retrieved January 31, 2015 from http://politeknik.gov.my/webjpp2/penyelidikan/penerbitan/files/The%20Relationship%20Between%20Attitude%20And%20Motivation%20Of%20Polytechnic%20Certificate%20Mechanical%20Engineering%20Students%20In%20Learning%20English%20For%20Specific%20Purpose.pdf
 Sharifi, H. P. (2008). The Introductory study of Gardner's multiple intelligence theory, in the field of lesson subjects and the students' compatibility. Journal of Educational Innovations, 24, 11-20.
 Siddhu, G.K. (2009). Empowering learners through strategy training. In Thang, S.M. & B.Sinclair (Eds.). Learner Autonomy: Research and Practice in Malaysia and Singapore(pp. 106-134). Petaling Jaya: Pearson Malaysia.
 Smith, P. M., Breslin, F. C., & Beaton, D. E. (2003). Questioning the stability of sense of coherence. Social Psychiatry and Psychiatric Epidemiology, 38(9), 475-484.
@@ -472,4 +472,6 @@ Zimbardo, P. G. (1977). Shyness: What it is, what to do about it. Reading, MA:
 
 54
 
+Editor notes:
 
+Not all the references cited in the text are listed in the references at the end
