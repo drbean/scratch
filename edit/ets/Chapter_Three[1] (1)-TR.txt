@@ -418,7 +418,7 @@ Samsiah Bidin, Kamaruzaman Jusoff, Nurazila Abdul Aziz, Musdiana Mohammad Salleh
 Sarason, I. G. (1984). Stress, anxiety, and cognitive interference: reactions to tests. Journal of Personality and Social Psychology, 46(4), 929.
 Sarason, I. G. (1988). Anxiety, self-preoccupation and attention. Anxiety Research, 1(1), 3-7.
 Schmidt, A. M., & Ford, J. K. (2003). Learning within a learner control training environment: The interactive effects of goal orientation and metacognitive instruction on learning outcomes. Personnel Psychology, 56(2), 405-429.
-Munawira bt. Saharani, Ezatul Marini bt. Mohd. Ghazali and Shahiza bt. Zainuddin (2012) The relationship between attitude and motivation of polytechnic certificate mechanical engineering students in learning English for Specific Purposes (ESP). Penyelidikan Dan Inovasi Memperkasa Kualiti Pendidikan Tvet. Retrieved January 31, 2015 from http://politeknik.gov.my/webjpp2/penyelidikan/penerbitan/files/The%20Relationship%20Between%20Attitude%20And%20Motivation%20Of%20Polytechnic%20Certificate%20Mechanical%20Engineering%20Students%20In%20Learning%20English%20For%20Specific%20Purpose.pdf
+Munawira bt. Saharani, Ezatul Marini bt. Mohd. Ghazali and Shahiza bt. Zainuddin (2012). The relationship between attitude and motivation of polytechnic certificate mechanical engineering students in learning English for Specific Purposes (ESP). Penyelidikan Dan Inovasi Memperkasa Kualiti Pendidikan Tvet. Retrieved January 31, 2015 from http://politeknik.gov.my/webjpp2/penyelidikan/penerbitan/files/The%20Relationship%20Between%20Attitude%20And%20Motivation%20Of%20Polytechnic%20Certificate%20Mechanical%20Engineering%20Students%20In%20Learning%20English%20For%20Specific%20Purpose.pdf
 Sharifi, H. P. (2008). The Introductory study of Gardner's multiple intelligence theory, in the field of lesson subjects and the students' compatibility. Journal of Educational Innovations, 24, 11-20.
 Siddhu, G.K. (2009). Empowering learners through strategy training. In Thang, S.M. & B.Sinclair (Eds.). Learner Autonomy: Research and Practice in Malaysia and Singapore(pp. 106-134). Petaling Jaya: Pearson Malaysia.
 Smith, P. M., Breslin, F. C., & Beaton, D. E. (2003). Questioning the stability of sense of coherence. Social Psychiatry and Psychiatric Epidemiology, 38(9), 475-484.
@@ -474,4 +474,8 @@ Zimbardo, P. G. (1977). Shyness: What it is, what to do about it. Reading, MA:
 
 Editor notes:
 
-Not all the references cited in the text are listed in the references at the end
+Sentences, clauses that appeared twice and required changing to be acceptable:
+Anxiety: a state of apprehension, a vague fear that is only indirectly associated with an object (Hilgard, Atkinson, & Atkinson, 1971)
+The "subjective feeling of tension, apprehension, nervousness, and worry associated with an arousal of the autonomic nervous system." Due to Spielberger, or Horwitz?
+
+Not all the references cited in the text are listed in the references at the end, eg Scovel, 1978. Horwitz et al, 1986.
