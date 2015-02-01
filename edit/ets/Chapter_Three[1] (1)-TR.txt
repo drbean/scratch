@@ -486,6 +486,6 @@ Horwitz, E.K. Preliminary evidence for the reliability and validity of a foreign
 
 Reference to Young (1990). Should 1990 be 1999?
 Or is this:
-Young, D. J. (1990), An Investigation of Students' Perspectives on Anxiety and Speaking. Foreign Language Annals, 23: 539¿553.
+Young, D. J. (1990), An Investigation of Students' Perspectives on Anxiety and Speaking. Foreign Language Annals, 23: 539-553.
 Not in the list of references.
 Not all the references cited in the text are listed in the references at the end, eg Scovel, 1978. Horwitz et al, 1986.
