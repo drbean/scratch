@@ -477,11 +477,15 @@ Editor notes:
 Sentences, clauses that appeared twice and required changing to be acceptable:
 Anxiety: a state of apprehension, a vague fear that is only indirectly associated with an object (Hilgard, Atkinson, & Atkinson, 1971)
 The "subjective feeling of tension, apprehension, nervousness, and worry associated with an arousal of the autonomic nervous system." Due to Spielberger, or Horwitz?
-I found another definition ascribed to Spielberger on the Internet.
+I found another definition ascribed to Spielberger on the Internet and replaced the above definition with that one.
 
 (cited by Horwitz, 1986, p.156). Is this the right page number? None of Horwitz's 1986 publications appear to have a page 156.
 
 Horwitz, E.K., Horwitz, M.B., and J.A. Cope, Foreign language classroom anxiety, The Modern Language Journal, 1986, 70, 125-132.
 Horwitz, E.K. Preliminary evidence for the reliability and validity of a foreign language anxiety scale. TESOL Quarterly, 1986, 20, 559-562.
 
+Reference to Young (1990). Should 1990 be 1999?
+Or is this:
+Young, D. J. (1990), An Investigation of Students' Perspectives on Anxiety and Speaking. Foreign Language Annals, 23: 539¿553.
+Not in the list of references.
 Not all the references cited in the text are listed in the references at the end, eg Scovel, 1978. Horwitz et al, 1986.
