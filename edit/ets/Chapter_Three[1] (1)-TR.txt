@@ -49,8 +49,8 @@ Questionnaire:
 1. Pilot study sample count: The pilot study subjects were from the same or similar population as the formal study
 and were representative of Taiwanese vocational high school students. There were at least 100 ( ¤ý¤å¬ì, 1990). The number surveyed in the pilot study was 120. 
 2. Sampling: The pilot study questionnaire survey depended on convenience sampling of school classes choosing the pilot study students. Students were males 40 and females 40. The total surveyed numbered about 120 (Table3-1). Each class received 40 copies of the questionnaire. The total number of questionnaires distributed was 120. The invalid questionnaires returned numbered 15. The valid questionnaires represented 87% of the total.
-Pilot study questionnaire survey statistics                       Table 3-2
-NumberSchool subjectStudentSubjectBranchrecycleusefulProbability1Civil Engineering and Architecture50Architecture40403382.5%2Motor46Motor40393589%3Comprehensive48Comprehensive40403690%Total branch¡G12 0  Recycle branch¡G119  Useful branch¡G104  Probability¡G87%1. Select and Surveying way
+
+Select and Surveying way
 Pilot study's questionnaire use the way of Mention items, factor, reliability analysis to test the reliability and validity. Delete suit items to formal questionnaire. The formal questionnaires were divided into 4 subjects, six classes. The classes are about 25 males and15 females .The total people are 40.All questionnaire people are 240(Table 3-2)  
 Formal questionnaire survey statistics        Table3-3
 NumberSchool subjectStudentSubjectBranchrecycleusefulProbability1Machinery48Machinery40373697%2Machinery50Cartography40403485%3Civil Engineering and Architecture45Building40403997.5%4Motor47Motor40383694.7%5Comprehensive48Comprehensive404040100%6Comprehensive44Comprehensive40403895%Total branch¡G240  Recycle branch¡G236 Useful branch¡G223 Probability¡G93%2. Research sample and data collection
@@ -440,7 +440,7 @@ Males numbered 20 and females 20. The total surveyed in the pilot study numbered
 Students are males 40 and females 40.The total survey people are about 120 (Table3-1). ?? Now the numbers are larger but don't equal 120.
 Tables:
 
-a. I corrected Table 3.1 in the Word docx file.
+a. I corrected Table 3.1, 3.2 in the Word docx file.
 References:
 
 Questionable references that are not cited in the text and have no relevance to anxiety, motivation and attitudes, eg Campo et al, (2008), and Cardy et al, (1996), need to be removed.
