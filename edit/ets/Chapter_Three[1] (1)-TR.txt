@@ -17,9 +17,11 @@ Route 4: Probe the relationship between learning anxiety and learning motivation
 Route 5: Probe the relationship between learning motivation and learning attitudes.
 Route 6: Probe the relationship between learning anxiety and learning attitudes.
 
-3-1 The Research Design was divided into four parts: Background Variables, Learning 
-Anxiety, Learning Motivation, Learning Attitude. Background Variables is since, variables. Learning Anxiety, Learning Motivation, and Learning Attitude is result variables. The purpose is to probe the difference Background Variables¡¦ students 
-In Learning Anxiety, Learning Motivation, Learning Attitude.   
+3-1 The Research Design divided the variables being considered into four groups: Background Variables, and Learning 
+Anxiety, Learning Motivation, Learning Attitude Variables. Background Variables were idependent variables. Learning Anxiety, Learning Motivation, and Learning Attitude were result variables. The purpose of the study was to probe the differences Background Variables have on Learning Anxiety, Learning Motivation, and Learning Attitude.   
+
+Data on the variables was collected from students in the form of a questionnaire developed by the author. A pilot study was run and the questionnaire revised on the basis of the results of validity (subject experts' evaluations and factor analysis) and reliability (Cronbach's alpha) tests. The questionnaire was then distributed and data collected. t-tests and a one way ANOVA were run on the data.
+
 Research Hypotheses 
   According to the purpose of study and research questions, five hypotheses are presented as follows:
 Hypothesis 1: There is no relationship in English learning anxiety of vocational high school students with different majors.
