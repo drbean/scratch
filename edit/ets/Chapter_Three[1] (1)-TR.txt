@@ -24,71 +24,22 @@ Data on the variables was collected from students in the form of a questionnaire
 
 Research Hypotheses 
   According to the purpose of study and research questions, five hypotheses are presented as follows:
-Hypothesis 1: There is no relationship in English learning anxiety of vocational high school students with different majors.
-Hypothesis 2: There is no relationship in English learning motivation of vocational high school students with different majors.
-Hypothesis 3: There is no relationship in English learning attitude of vocational high school students with different majors.  
-Hypothesis 4: There is no relationship for the purpose of vocational high school students with different majors.  
-Hypothesis 5: There is no relationship for the purpose of vocational high school students' careers ways with different majors.
-Hypothesis 6: There is no relationship for the purpose of vocational high school students' advanced studies ways with different majors.
+Hypothesis 1: There is no relationship between the English learning anxiety of vocational high school students and their different majors.
+Hypothesis 2: There is no relationship between the English learning motivation of vocational high school students and their different majors.
+Hypothesis 3: There is no relationship between the English learning attitude of vocational high school students and their different majors.  
+Hypothesis 4: There is no relationship between the English learning purposes of vocational high school students and their different majors.  
+Hypothesis 5: There is no relationship between the choice of career as the reason individual vocational high school students are learning English and their different majors.
+Hypothesis 6: There is no relationship between the choice of academic advancement as the reason individual vocational high school students are learning English and their different majors.
 Participants
-  The participants in the study were the students of Chiai Industrial vocational school .The total participants were 360. The participants of the pilot study were major in department of Architecture, Motor Comprehensive High School. Males are 20 and females are 20.The total survey people of pilot study are about 120.        
-¡@The survey students of formal Study were major in department of Machinery, Cartography, Architecture, Motor, and Comprehensive High School. The total survey people of formal Study are about 240.
+  The participants in the study were students of National Chia-yi Industrial Vocational High School .The total participants were 360. The participants in the pilot study were in the departments of Architecture, Automotive Engineering or Comprehensive High School. Males numbered 20 and females 20. The total surveyed in the pilot study numbered about 120.        
+¡@The surveyed students in the formal study were in the departments of Machinery, Cartography, Architecture, Automotive Engineering, or Comprehensive High School. The total surveyed in the formal study numbered about 240.
 
 
 
 
 
-Background variables                                     Table 3-1
-ItemsGroupFrequencyPercentageGenderMale16071Female6329SubjectMachinery3616.1Cartography
-Building34
-3915.2
-17.4Motor
-Composite36
-7816.1
-35.2School English courseFive courses
-Six courses145
-7865
-35English InterestVery Interest2511.2A little interest11852.9No interest
-Very no interest59
-2126.4
-9.5English Learning purposeCompetitiveness
-Parent requirement61
-1327.3
-5.8Careers10948.8School test4019.1Careers waysExam Admission
-Academic attainments test
-Audition
-Excellent skills¡FCollege Admission
-Specified Subjects
-Others127
-34
-39
-8
-11
-456.9
-15.2
-17.4
-3.5
-4.9
-2.1English Learning 
-waysCram school
-English magazine
-English video
-Chat with foreign people
-           tutor
-none
-else47
-74
-44
-16
-2
-39
-121
-33.1
-19.7
-7.1
-0.8
-17.9
-0.4
+For Table 3-1 see the Word docx file.
+
 Instruments
 ¡@The survey is to investigate the English learning situation of vocational high 
 school student.The questionnaire were from related literature discussion and learning observation. The researcher used the survey to collect data.
@@ -483,6 +434,12 @@ b. The "subjective feeling of tension, apprehension, nervousness, and worry asso
 c. Han (2009) investigated the study of vocational high school students¡¦ English learning motivation, learning style, learning strategy and learning achievement. The results of her study showed that students were extrinsically motivated.
 	- I replaced that sentence the second time with: Han (2009) and a number of the other studies reported above discuss the relationships between anxiety, motivation and attitudes."
 
+Inconsistencies:
+Males numbered 20 and females 20. The total surveyed in the pilot study numbered about 120. ?? 20 + 20 doesn't equal 120.
+
+Tables:
+
+a. I corrected Table 3.1 in the Word docx file.
 References:
 
 Questionable references that are not cited in the text and have no relevance to anxiety, motivation and attitudes, eg Campo et al, (2008), and Cardy et al, (1996), need to be removed.
@@ -500,5 +457,5 @@ Not all the references cited in the text are listed in the references at the end
 
 Advice:
 
-1. There is no Discussion and Conclusions section. The author may add this later. But already in the Introduction and Literature Review sections, the author needs to explain why/how she thinks anxiety affects attitudes and motivation. He/she needs to contribute new ideas to the academic study of language learning to make the paper worthwhile. She needs to try to explain, for example, why some high achievers still feel anxiety. She needs to explain how anxiety, motivation and attitudes develop over time and how the relationship between the three changes over time, for example.
+1. There is no Discussion and Conclusions section. The author may add this later. But already in the Introduction and Literature Review sections, the author needs to explain why/how she thinks anxiety affects attitudes and motivation. He/she needs to contribute new ideas to the academic study of language learning to make the paper worthwhile. She needs to try to explain, for example, why some high achievers still feel anxiety. She needs to explain how anxiety, motivation and attitudes develop over time and how the relationship between the three changes over time, for example. She needs to explain why students with different majors might show differences.
 2. There needs to be an engagement with the ideas of researchers he/she quotes. He/she needs to make claims, and assertions about the mechanisms by which anxiety has its effects. In other words, he/she needs to express his/her own opinion, and agree or disagree with Horwitz, or someone.
