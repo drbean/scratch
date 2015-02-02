@@ -41,13 +41,11 @@ Participants
 For Table 3-1 see the Word docx file.
 
 Instruments
-¡@The survey is to investigate the English learning situation of vocational high 
-school student.The questionnaire were from related literature discussion and learning observation. The researcher used the survey to collect data.
-   The questionnaire consisted of four part. The first part is background information. The second part is learning anxiety ( Self ).The third part is learning motivation ( Self ) . The fourth part is learning attitude ( Self ). The researcher adopted from The Relationships among Junior High School Students¡¦ Foreign Language Anxiety, EFL Learning Motivation and Strategy.  Participants responded to the questionnaires by using five-point Liker .It including 5 points "strongly disagree."4 points¡¨ disagree,¡§ 3 points¡§neutral,¡¨2 points ¡§agree,¡§ and 1 point ¡§strongly agree.¡¨ The reference are
-The Relationship between English Learning Anxiety and Learning Motivation of Nursing Staffs. A Study on Relationship of Parenting Style of Students at Junior High School Levels and Their Foreign Language Anxiety to Their English Learning Achievement ?? a Case Study in Keelung City .
+¡@A survey was used to investigate the English learning situation of vocational high school students. A questionnaire was developed using sources from the literature and learning observations. The researcher used the survey to collect data.
+   The questionnaire consisted of four parts. The first part sought background information. The second part asked for learning anxiety self reports. The third part was for motivation self reports. The fourth part was self-reported learning attitudes. The researcher adopted items from Hsu (2003). Participants responded to the questionnaire using a five-point Likert scale. The 5 points were, 5 points¡ "strongly disagree," 4 points¡¨ disagree,¡§ 3 points¡§neutral,¡¨2 points ¡§agree,¡§ and 1 point ¡§strongly agree.¡¨ Referenced in its construction were Chu (2006), and Su (2011).
 Pilot study
-Questionnaire Sample:
-¡@The questionnaire consisted of three parts. The first part is learning anxiety. The second part is Learning Motivation. The third part is learning attitude. The questionnaire was made from researcher after consulting the related literature. The   Preliminary including learning anxiety, motivation, attitude scale. Then Expert Validity test and revise to finish the survey of pilot study questionnaire. The pilot study place is in Chiai Industrial vocational school.	
+Questionnaire:
+¡@The questionnaire consisted of three parts. The first part measured learning anxiety, the second part learning motivation and the third part learning attitudes. The questionnaire was developed by the researcher after consulting the literature. The preliminary draft of the questionnaire included learning anxiety, motivation and attitude scales. Then experts assessed content validity and the instrument was revised to prepare for the pilot study questionnaire survey. The pilot study location was Chia-yi Industrial Vocational School.	
 1. Pilot study sample count: The pilot study Object is from the research instruments 
 which are representative. They are at least 100 ( ¤ý¤å¬ì, 1990).The survey¡¦s people of pilot study are 120. 
 2. Sampling: Pilot study questionnaire survey depends on school subjects to choose for pilot study student. Students are males 40 and females 40.The total survey people are about 120 (Table3-1).Each subject are 40 branches. The total questionnaires are 120. The useless questionnaire are 15.The useful questionnaire are 104,87%.
@@ -310,6 +308,7 @@ Campo, A. E., Williams, V., Williams, R. B., Segundo, M. A., Lydston, M. D., & W
 Cardy, R. L., & Dobbins, G. H. (1996). Human resource management in a total quality organizational environment: shifting from a traditional to a TQHRM approach. Journal of Quality Management, 1(1), 5-20.
 Chang, F. C., Lee, C. M., Lai, H. R., Chiang, J. T., Lee, P. H., & Chen, W. J. (2006). Social influences and self?efficacy as predictors of youth smoking initiation and cessation: a 3?year longitudinal study of vocational high school students in Taiwan. Addiction, 101(11), 1645-1655
 Chang, Y. Y., Gong, Y., & Peng, M. (2011). Expatriate knowledge transfer, subsidiary absorptive capacity, and subsidiary performance. Academy of Management Journal, amj-2010.
+Chu, S.-M. (2006). The relationship between English learning anxiety and learning motivation of nursing staff. Unpublished MA thesis, Tainan Hsian, Southern Taiwan University, School of Applied English. Taiwan.
 Chesebro, J. W., McCroskey, J. C., Atwater, D. F., Bahrenfuss, R. M., Cawelti, G., Gaudino, J. L., & Hodges, H. (1992). Communication apprehension and self?perceived communication competence of at?risk students. Communication Education, 41(4), 345-360.
 Cl?ment, R., Gardner, R. C., & Smythe, P. C. (1980). Social and individual factors in second language acquisition. Canadian Journal of Behavioural Science/Revue canadienne des sciences du comportement, 12(4), 293.
 Cosden, M., Morrison, G., Gutierrez, L., & Brown, M. (2004). The effects of homework programs and after-school activities on school success. Theory into Practice, 43(3), 220-226.
@@ -328,6 +327,7 @@ Halawah, I. (2006). The effect of motivation, family environment, and student ch
 Hill, K. T., & Wigfield, A. (1984). Test anxiety: A major educational problem and what can be done about it. The Elementary School Journal, 105-126.
 Huang, S. C. (2006). Reading English for academic purposes¡VWhat situational factors may motivate learners to read?. System, 34(3), 371-383.
 Huijser, P., & Schmid, M. (2011). The control of developmental phase transitions in plants. Development, 138(19), 4117-4129.
+Hsu, Y. T. (2003). The relationships among junior high school students' foreign language anxiety, EFL learning motivation and strategy. Unpublished master's thesis, National Cheng Kung University, Tainan, Taiwan.
 Hwang, G. J., & Wu, P. H. (2012). Advancements and trends in digital game?based learning research: a review of publications in selected journals from 2001 to 2010. British Journal of Educational Technology, 43(1), E6-E10.
 ?nal, S., Evin, ?., & Saracaloglu, A. S. (2005). The relation between students¡¦ attitudes toward foreign language and foreign language achievement. Dil Dergisi, 130, 37-52.
 Islam, M. (2012). Students¡¦ perception and motivation towards english medium instruction at higher education. EXCEL International Journal of Multidisciplinary Management Studies, 2(9), 110-128.
@@ -376,6 +376,7 @@ Siddhu, G.K. (2009). Empowering learners through strategy training. In Thang, S.
 Smith, P. M., Breslin, F. C., & Beaton, D. E. (2003). Questioning the stability of sense of coherence. Social Psychiatry and Psychiatric Epidemiology, 38(9), 475-484.
 Spielberger, C. D. (2010). State?Trait Anxiety Inventory. John Wiley & Sons, Inc..
 Spolsky, B. (1969). Attitudinal aspect of second language learning. Language Learning. Vol.19, 271-283.
+Su, Chiou-Shiang (2011). A Study on Relationship of Parenting Style of Students at Junior High School Levels and Their Foreign Language Anxiety to Their English Learning Achievement ¡ÿÐÿ a Case Study in Keelung City. Unpublished MA Thesis, MingChuan University, Taipei.
 Swain, M., & Lapkin, S. (1995). Problems in output and the cognitive processes they generate: A step towards second language learning. Applied linguistics, 16(3), 371-391.
 Tasnimi, M. (2009). Affective Factors: Anxiety. Journal of Pan-Pacific Association of Applied Linguistics, 13(2), 117-124.
 Young, Dolly Jesusita. "Creating a Low?Anxiety Classroom Environment: What Does Language Anxiety Research Suggest?." The Modern Language Journal 75.4 (1991): 426-437.
