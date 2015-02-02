@@ -42,13 +42,13 @@ For Table 3-1 see the Word docx file.
 
 Instruments
 ¡@A survey was used to investigate the English learning situation of vocational high school students. A questionnaire was developed using sources from the literature and learning observations. The researcher used the survey to collect data.
-   The questionnaire consisted of four parts. The first part sought background information. The second part asked for learning anxiety self reports. The third part was for motivation self reports. The fourth part was self-reported learning attitudes. The researcher adopted items from Hsu (2003). Participants responded to the questionnaire using a five-point Likert scale. The 5 points were, 5 points¡ "strongly disagree," 4 points¡¨ disagree,¡§ 3 points¡§neutral,¡¨2 points ¡§agree,¡§ and 1 point ¡§strongly agree.¡¨ Referenced in its construction were Chu (2006), and Su (2011).
+   The questionnaire consisted of four parts. The first part sought background information. The second part asked for learning anxiety self reports. The third part was for motivation self reports. The fourth part was self-reported learning attitudes. The researcher adopted items from Hsu (2003). Participants responded to the questionnaire using a five-point Likert scale. The points were, 5 points¡ "strongly disagree," 4 points¡¨ disagree,¡§ 3 points¡§neutral,¡¨2 points ¡§agree,¡§ and 1 point ¡§strongly agree.¡¨ Referenced in its construction were Chu (2006), and Su (2011).
 Pilot study
 Questionnaire:
 ¡@The questionnaire consisted of three parts. The first part measured learning anxiety, the second part learning motivation and the third part learning attitudes. The questionnaire was developed by the researcher after consulting the literature. The preliminary draft of the questionnaire included learning anxiety, motivation and attitude scales. Then experts assessed content validity and the instrument was revised to prepare for the pilot study questionnaire survey. The pilot study location was Chia-yi Industrial Vocational School.	
-1. Pilot study sample count: The pilot study Object is from the research instruments 
-which are representative. They are at least 100 ( ¤ý¤å¬ì, 1990).The survey¡¦s people of pilot study are 120. 
-2. Sampling: Pilot study questionnaire survey depends on school subjects to choose for pilot study student. Students are males 40 and females 40.The total survey people are about 120 (Table3-1).Each subject are 40 branches. The total questionnaires are 120. The useless questionnaire are 15.The useful questionnaire are 104,87%.
+1. Pilot study sample count: The pilot study subjects were from the same or similar population as the formal study
+and were representative of Taiwanese vocational high school students. There were at least 100 ( ¤ý¤å¬ì, 1990). The number surveyed in the pilot study was 120. 
+2. Sampling: The pilot study questionnaire survey depended on convenience sampling of school classes choosing the pilot study students. Students were males 40 and females 40. The total surveyed numbered about 120 (Table3-1). Each class received 40 copies of the questionnaire. The total number of questionnaires distributed was 120. The invalid questionnaires returned numbered 15. The valid questionnaires represented 87% of the total.
 Pilot study questionnaire survey statistics                       Table 3-2
 NumberSchool subjectStudentSubjectBranchrecycleusefulProbability1Civil Engineering and Architecture50Architecture40403382.5%2Motor46Motor40393589%3Comprehensive48Comprehensive40403690%Total branch¡G12 0  Recycle branch¡G119  Useful branch¡G104  Probability¡G87%1. Select and Surveying way
 Pilot study's questionnaire use the way of Mention items, factor, reliability analysis to test the reliability and validity. Delete suit items to formal questionnaire. The formal questionnaires were divided into 4 subjects, six classes. The classes are about 25 males and15 females .The total people are 40.All questionnaire people are 240(Table 3-2)  
@@ -437,7 +437,7 @@ c. Han (2009) investigated the study of vocational high school students¡¦ Englis
 
 Inconsistencies:
 Males numbered 20 and females 20. The total surveyed in the pilot study numbered about 120. ?? 20 + 20 doesn't equal 120.
-
+Students are males 40 and females 40.The total survey people are about 120 (Table3-1). ?? Now the numbers are larger but don't equal 120.
 Tables:
 
 a. I corrected Table 3.1 in the Word docx file.
