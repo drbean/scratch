@@ -37,45 +37,47 @@ Participants
 
 
 
-
 For Table 3-1 see the Word docx file.
+
 
 Instruments
 ¡@A survey was used to investigate the English learning situation of vocational high school students. A questionnaire was developed using sources from the literature and learning observations. The researcher used the survey to collect data.
    The questionnaire consisted of four parts. The first part sought background information. The second part asked for learning anxiety self reports. The third part was for motivation self reports. The fourth part was self-reported learning attitudes. The researcher adopted items from Hsu (2003). Participants responded to the questionnaire using a five-point Likert scale. The points were, 5 points¡ "strongly disagree," 4 points¡¨ disagree,¡§ 3 points¡§neutral,¡¨2 points ¡§agree,¡§ and 1 point ¡§strongly agree.¡¨ Referenced in its construction were Chu (2006), and Su (2011).
 Pilot study
 Questionnaire:
-¡@The questionnaire consisted of three parts. The first part measured learning anxiety, the second part learning motivation and the third part learning attitudes. The questionnaire was developed by the researcher after consulting the literature. The preliminary draft of the questionnaire included learning anxiety, motivation and attitude scales. Then experts assessed content validity and the instrument was revised to prepare for the pilot study questionnaire survey. The pilot study location was Chia-yi Industrial Vocational School.	
+¡@The questionnaire consisted of three parts. The first part measured learning anxiety, the second part learning motivation and the third part learning attitudes. The questionnaire was developed by the researcher after consulting the literature. The preliminary draft of the questionnaire included learning anxiety, motivation and attitude scales. Then experts assessed content validity and the instrument was revised to prepare for the pilot study questionnaire survey. The pilot study location was National Chia-yi Industrial Vocational High School.	
 1. Pilot study sample count: The pilot study subjects were from the same or similar population as the formal study
 and were representative of Taiwanese vocational high school students. There were at least 100 ( ¤ý¤å¬ì, 1990). The number surveyed in the pilot study was 120. 
-2. Sampling: The pilot study questionnaire survey depended on convenience sampling of school classes choosing the pilot study students. Students were males 40 and females 40. The total surveyed numbered about 120 (Table3-1). Each class received 40 copies of the questionnaire. The total number of questionnaires distributed was 120. The invalid questionnaires returned numbered 15. The valid questionnaires represented 87% of the total.
+2. Sampling: The pilot study questionnaire survey depended on convenience sampling of school classes, choosing the pilot study students. Students were males 40 and females 40. The total surveyed numbered about 120 (Table3-1). Each class received 40 copies of the questionnaire. The total number of questionnaires distributed was 120. The invalid questionnaires returned numbered 15. The valid questionnaires represented 87% of the total.
 
 
 For Table 3-2 see the Word docx file.
 
 
 Formal study
-Item Selection and Survey methods
+1. Item selection and survey methods
 Items from the pilot study's questionnaire were kept or dropped on the basis of a factor analysis and reliability analysis to test the individuals items' reliability and validity. The suitable items constituted the formal questionnaire. The formal questionnaire was distributed to students in six classes in four departments. The classes each had about 25 males and 15 females, for a total of 40 students in each class. The total number of students surveyed was 240. (Table 3-2)  
-Formal questionnaire survey statistics        Table3-3
-NumberSchool subjectStudentSubjectBranchrecycleusefulProbability1Machinery48Machinery40373697%2Machinery50Cartography40403485%3Civil Engineering and Architecture45Building40403997.5%4Motor47Motor40383694.7%5Comprehensive48Comprehensive404040100%6Comprehensive44Comprehensive40403895%Total branch¡G240  Recycle branch¡G236 Useful branch¡G223 Probability¡G93%2. Research sample and data collection
-Formal recycle useful questionnaire of basic data Frequency Allocation.
-The data including ¡ugender¡v¡B¡usubject¡v¡B¡uschool English course¡v¡B¡uEnglish Interest¡v¡B¡uEnglish Learning purpose¡v¡B¡uCareers ways¡v¡B¡uEnglish Learning ways¡v.
-3. Student Variables Analysis
+
+
+For Table 3-3 see the Word docx file.
+
+
+2. Research sample and data collection
+The formal study followed the pattern of the pilot study, recycling valid and reliable items from its questionnaire and adding basic background data questions. This data included gender, department, school English course load, English Interest, English learning purpose, College admission plans, and English Learning methods.
+3. Student Variable Analysis
 Gender:
-According the questionnaire student¡¦s gender, male 160, 71%; female 63,29% .
-Subjects:
-The student was divided into 5 groups .Machinery Division are about 36 students ¡]16.1%¡^. Cartographic Section is about 34 students (15.2%).Architecture Division
-are about 39 students (17.4%).Motor Division are 36 students¡]16.1%¡^. Comprehensive High School is 78 students (35.2%).
-English courses:
-The students who have 5 courses are the most. It is about 145 students. (65%).
-The students who have 6 courses are about 78. (35%)
+According to the questionnaire, student¡¦s gender was male 160, 71%; and female 63, 29%.
+Departments:
+The students were divided into 5 groups by department. The Machinery division had about 36 students ¡]16.1%¡^. the Technical Drawing section about 34 students (15.2%), the Architecture division about 39 students (17.4%), the Motor Division 36 students ¡]16.1%¡^. and the Comprehensive High School 78 students (35.2%).
+English course load:
+The students who have 5 periods a week are in the majority, with about 145 students. (65%).
+The students who have 6 a week number 78. (35%)
 English interest:
-The students who are very interested in learning English are 25¡]11.2%¡^.The students who are a little bit interested in learning are118¡]52.9%¡^.The students who are not interested in learning English are 59¡]26.4%¡^. The students who are very not interested in learning English are 21.¡]9.5%¡^.
+The students who are very interested in learning English number 25¡]11.2%¡^.The students who are a little bit interested in learning number 118¡]52. 9%¡^.The students who are not interested in learning English number 59¡]26.4%¡^. The students who are very uninterested in learning English number 21.¡]9.5%¡^.
 English learning purpose:
-The English learning purpose is to promote Competitiveness. It is about 61 students. ¡]27.3%¡^The purpose for parents requirements are 13 students.¡]5.8%¡^The purpose for Careers are 109 students .¡]48.8%¡^The purpose is for school test are 40 students. ¡]19.1%¡^
-Careers ways:
-The student attend Exam Admission are 127. ¡]56.9%¡^The student attend Academic attainments test are 34. ¡]15.2%¡^The student attend Audition are 39 ¡]17.4%¡^
+Those who seek to promote their Competitiveness number about 61 students. ¡]27.3%¡^ Those learning English because it is a parental requirement number 13 students.¡]5.8%¡^ Those learning for the purpose of their Careers number 109 students .¡]48.8%¡^ Those learning for school tests number 40 students. ¡]19.1%¡^
+College advancement plans:
+Those who will follow the Exam Admission route number 127. ¡]56.9%¡^ The students who plan to take the Academic attainments test number 34. ¡]15.2%¡^ The student attend Audition are 39 ¡]17.4%¡^
 College Admission test are 8. ¡]3.5%¡^The student attend Specified Subjects test are 11.¡]4.9%¡^Other ways are 4¡]2.1%¡^
 English Learning Pipeline:
 The students ' English Learning Pipeline with cram school are 47.¡]21%¡^The students who read magazine are74. ¡]33.1%¡^The students who watch video are 44.¡]19.7%¡^The students who chat with foreigner are16.¡]7.1%¡^The students taught by tutor are 2. ¡]0.8%¡^The students who do not have English Learning Pipeline are 39 .¡]17.9%¡^
