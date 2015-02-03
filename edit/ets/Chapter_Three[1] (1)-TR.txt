@@ -117,9 +117,9 @@ For Table 3-5 see the Word docx file.
 
 For Table 3-6 see the Word docx file.
 
-¡@The Learning anxiety Factor Analysis results are as follows. KMO is higher than .80. Bartlett's sphericity test is significant.( p¡Õ.001¡^. Factor Analysis suitability is assessed by the KMO Statistics. The figure is higher than 70 is moderate. The figure is higher than 80 is favorable. ¡]§õª÷¬u¡A2010:21-7¡^
-The analysis result indicate that all factor loading is higher than 55. The Variance is
-30%. Therefore, all items are retained. 
+¡@The Learning anxiety Factor Analysis results are as follows. KMO is higher than .80. Bartlett's sphericity test is significant.( p¡Õ.001¡^. Factor Analysis suitability is assessed by the KMO statistic. Figures higher than .70 indicate the analysis is reliable. Figures higher than .80 indicate the analysis is very reliable. ¡]§õª÷¬u¡A2010:21-7¡^
+All factor loading were higher than .55. Unexplained variance was 30%. Therefore, all items were retained. 
+
 [Learning motivation survey] Expert Validity sistency Analysis (Table3-7)
 LevelNumbersuitablereviseunsuitableresultN%N%N%retentionrevisedeleteExtrinsic
 Motivation171000000¡Ô271000000¡Ô371000000¡Ô471000000¡Ô571000000¡Ô6
