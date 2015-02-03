@@ -113,49 +113,11 @@ For Table 3-5 see the Word docx file.
 (I don't understand what 'Extreme' and 'Scale consistently' mean in Table 3-5)
 
 
-[Learning anxiety survey] Expert Validity consistency Analysis     (Table3-4)
-Levelnumbersuitablerevise unsuitableresultN%N%N%retentionrevise deleteLear-ning
-Anxi-ety171000000¡Ô271000000¡Ô371000000¡Ô471000000¡Ô571000000¡Ô6
-77
-7100
-1000
-00
-00
-00
-0¡Ô
-¡Ô
+¡@None of the items in Table 3-5 have Critical Ratios as low as 3.The item-total correlations are above .400. The communalities are above .200. The factor loadings are above .450.Therefore, all items were retained.
 
-LevelnumbersuitablereviseunsuitableresultN%N%N%retentionrevisedeleteTest
-Anxiety871000000¡Ô971000000¡Ô1071000000¡Ô1171000000¡Ô1271000000¡Ô13
-146
-686
-861
-114
-140
-00
-0
-¡Ô
-¡ÔNegat-ive
-Evalu-ation Anxi-ety1571000000¡Ô1671000000¡Ô1771000000¡Ô1871000000¡Ô¡@§d©ú¶© andÒ\ª÷°ó¡]2008¡^all regard the Expert Validity Unanimous Analysis of principle are as follows. First, according to the ¡usuit¡vitem is up to 70% or 80 %.Second, according to the ¡usuit¡vand ¡urevise to suit¡vitem is to up 80% or 90%.
-Item Analysis for Learning Anxiety                              Table 3-4
-DiminutionNum.Extreme   Item title and TotalHomogeneityNot normal  notes  Critical 
-RationalItem title and TotalRevise
-Item title and TotalDelete
-item
-£\­ÈCommu-nalitiesFactor loadingLearning Anxiety120.18***.690.581.955.657.6040retention220.25***.670.594.954.667.6330retention320.16***.718.689.954.681.7120retention420.11***.639.559.955.562.5900retention520.00***.678.651.954.543.6640retention620.09***.712.746.953.756.7890retention720.14***.747.791.953.810.8280retentionTest 
-Anxiety816.55***.715.765.953.731.8000retention916.57***.785.793.953.800.8360retention1016.70***.467.572.955.418.6050retention1116.67***.637.682.954.635.7070retention1216.57***.758.700.954.716.7530retention1316.57***.758.700.954.716.8270retention
-Learning Anxiety Analysis                                   Table 3-5
-LevelNumExtremeItem HomogeneityNot normalnotesDecision valueItem title and TotalRevise
-Item title and TotalDelete
-item
-£\­ÈCommu-nalitiesFactor LoadingsNegat-ive
-Evalu-ation1415.74***.752.517.954.730.4770retention1515.82***.821.517.955.878.7970retention1615.79***.676.432.957.676.6950retention1715.79***.699.432.956.842.8250retentionCritical> 3.00> .400> .400< . 953> .200> .450***p<.001¡AScale Consistently. Cronbach £\«Y¼Æis 953.¡­Not arrive Index.
-¡@According to Table 3-5, ¡uLearning Anxiety ¡vdo not have CR to 3.The item and Total are low to 400. Communalities are low to 200. Factor burden is low to 450.Therefore, all items are retained.
-¡uLearning Anxiety survey questionnaire¡vFactor Analysis result    Table 3-6
-DiminutionNumberfactor loadingKMOBox M Test variance¡]%¡^Eigenvalues1¡BLearning Anxiety1.879.878420.647***63.4244.1522.8813.8754.8855.8806.8767.8722.Test 
-Anxiety8.860.848410.526***62.4893.8539.84810.89811.87312.84813.84814.7663.Negative
-Evaluation15.745.814396.890***60.1543.79816.78217.88420.848***p<.001¡Afactor loading > .55
-¡@Learning anxiety survey questionnaire Factor Analysis is as follows. KMO is higher than 80. Bartlett(²y«¬ÀË©w) is Notable.( p¡Õ.001¡^. Kaiser regards evaluate Factor Analysis Suitability refer to KMO Statistics. The figure is higher than 70 is moderate. The figure is higher than 80 is favorable. ¡]§õª÷¬u¡A2010:21-7¡^
+For Table 3-6 see the Word docx file.
+
+¡@The Learning anxiety Factor Analysis results are as follows. KMO is higher than .80. Bartlett's sphericity test is significant.( p¡Õ.001¡^. Factor Analysis suitability is assessed by the KMO Statistics. The figure is higher than 70 is moderate. The figure is higher than 80 is favorable. ¡]§õª÷¬u¡A2010:21-7¡^
 The analysis result indicate that all factor loading is higher than 55. The Variance is
 30%. Therefore, all items are retained. 
 [Learning motivation survey] Expert Validity sistency Analysis (Table3-7)
