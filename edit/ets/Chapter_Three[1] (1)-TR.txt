@@ -94,17 +94,16 @@ Motivation and Intrinsic Motivation. Two experts and five teachers who teach in 
   The Learning Attitude Scale is the instrument used to assess the students' self-reported attitudes.
 The literature review again provided a basis in theory. Its two sections measure Extracurricular and School Curriculum. Two experts and five teachers who teach in college and senior high school were asked to provide expert validity analysis. They all had doctoral or master's degrees.
 
-Data Collection Procedure
-¡@The procedure of the study consists of five steps. First, the researcher reviewed the relevant study and developed the questionnaires. Second, investigate the reliability of the questionnaire; a pilot study was conducted with students in National Chia-yi Industrial Vocational High School. Third, make formal questionnaire to investigate.
-Forth, analyze the research result. Finally, write research suggestion for the further research.
+Research and Data Collection Procedure
+¡@The procedure of the study consisted of five steps. First, the researcher reviewed the relevant studies and developed the questionnaire. Second, she investigated the validity and reliability of the questionnaire; a pilot study was conducted with students in National Chia-yi Industrial Vocational High School. Third, the questionnaire was revised for the formal data collection stage to investigate the research questions. Fourth, the data was analyzed and the research results and conclusions written up. Finally, suggestions for further research were written .
 
 
 
 
 Data analysis
-¡@The data collected from the student s¡¦ responses to the questionnaires were calculated and analyzed by SPSS. The data collection steps are as follows. First, the data investigate the useful questionnaire. Second, enter the useful data and questionnaire result in computer. Third, check all the data is correct.
-¡@The statistics analysis ways are as follows. First, use the average value and Standard deviation to analysis vocational high school students' English learning to
-the Verification and Hypothesis. Second, use the t-test to understand the vocational high school students' English learning notable difference. Third, use the (one-way    ANOVA) to indicate the Notable difference between learning anxiety, learning motivation and learning attitude in ¡uGender¡v, ¡usubjects¡v, ¡uEnglish Course¡v, ¡uEnglish Interest¡v, ¡uEnglish learning purpose¡v, ¡uEnglish learning purpose¡v,¡uCareers ways¡v,¡u English Learning Pipeline¡v.
+¡@The data collected from the students¡¦ responses to the questionnaire were collated and SPSS was used to analyze the results. The data analysis steps are as follows. First, the researcher removed the incomplete, or otherwise invalid, questionnaire responses. Second, the valid questionnaire data was entered in the computer. Third, the correctness of all the data was checked.
+¡@The statistical analysis proceeded as follows. First, the means and standard deviations of the vocational high school students' responses were calculated to determine if they supported the Research Hypotheses. Second, t-tests were run to understand if differences in the responses were statistically significant. Third, a one-way ANOVA was computed to test whether the purpose for which the students were learning English made a difference to the relationship between the students' major and their learning anxiety, learning motivation and learning attitude.
+
 [Learning anxiety survey] Expert Validity consistency Analysis     (Table3-4)
 Levelnumbersuitablerevise unsuitableresultN%N%N%retentionrevise deleteLear-ning
 Anxi-ety171000000¡Ô271000000¡Ô371000000¡Ô471000000¡Ô571000000¡Ô6
