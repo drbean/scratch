@@ -120,29 +120,8 @@ For Table 3-6 see the Word docx file.
 ¡@The Learning anxiety Factor Analysis results are as follows. KMO is higher than .80. Bartlett's sphericity test is significant.( p¡Õ.001¡^. Factor Analysis suitability is assessed by the KMO statistic. Figures higher than .70 indicate the analysis is reliable. Figures higher than .80 indicate the analysis is very reliable. ¡]§õª÷¬u¡A2010:21-7¡^
 All factor loading were higher than .55. Unexplained variance was 30%. Therefore, all items were retained. 
 
-[Learning motivation survey] Expert Validity sistency Analysis (Table3-7)
-LevelNumbersuitablereviseunsuitableresultN%N%N%retentionrevisedeleteExtrinsic
-Motivation171000000¡Ô271000000¡Ô371000000¡Ô471000000¡Ô571000000¡Ô6
-77
-6100
-860
-10
-140
-00
-0¡Ô
-¡Ô
-Intrinsic
-Motivation871000000¡Ô971000000¡Ô1071000000¡Ô1171000000¡Ô1271000000¡Ô13
-145
-771
-1002
-029
-00
-00
-0
-¡Ô¡Ô
-¡@The survey standard is refer to ¡usuit¡vitem up to 70% or 80%.  (§d©ú¶©¡BÒ\ª÷°ó2008¡^The¡usuit¡vitem up to 70% are retained.
-¡@The research method is expert validity to test the questionnaire reliability and validity. It is also use the critical ration (¨MÂ_­È¤ÀªR), reliability(«H«×ÀË®Ö), communalities(¦@¦P©Ê) and factor loading (¦]¯À­t²ü¶q) to make the formal scale.
+¡@The consistency standard is to require item-total correlations of .70 or .80.  (§d©ú¶©¡BÒ\ª÷°ó2008¡^Items with revised item-total correlations above .70 were retained.
+¡@Besides the research method of expert validity judgements to test the questionnaire's reliability and validity, critical ratio, Cronbach alpha, communality and factor loading statistics were used to produce the scale used in the formal study.
 
 ¡uLearning motivation survey¡vItem Analysis                    (Table 3-8)
 LevelnumExtremeMention and TotalHomogeneityNot to Indexnote  Decision valueMention and TotalRevise Mention and Totaldelete£\­ÈCommonsfactor loadingExtrinsic
