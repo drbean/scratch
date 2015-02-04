@@ -152,6 +152,8 @@ For Tables 3-12 see the Word docx file.
 ¡@
 ¡@
 
+Appendix
+
 ¿Ë·Rªº¦P¾Ç­Ì§A/©p¦n:
 ¡@¡@¦¹¥÷°Ý¨÷¬ã¨s¥Øªº¥D­n½Õ¬d°ªÂ¾¾Ç¥Í¾Ç²ß­^¤å±¡§Î¡C°Ý¨÷¤º®eªº¬ÛÃö¸ê°T©M¼Æ¾Ú¥D­n±´°Q¾Ç²ß­^¤åªºµJ¼{¡B°Ê¾÷»PºA«×¼vÅT¾Ç²ß¤§Ãö«Y¡C
     ±zªº·N¨£¤Q¤ÀÄ_¶Q¡AÀµ½Ð±z¨Ì·Ó¦Û¤vªº¹ê»Ú¸gÅç»P·P¨ü§@µª¡A¹ï©ó¶ñ¼g¤º®e±N¤©¥H«O±K¡A½Õ¬dµ²ªG¶È§@¾Ç³N¬ã¨s¤§¥Î¡A·q½Ð©ñ¤ß¶ñµª¡CÁÂÁÂ±zªº¨ó§U¡I  
@@ -208,23 +210,23 @@ For Tables 3-12 see the Word docx file.
 
 
 Appendix (English Version)
-Dear Participants: 
-    Thank you for participating in this study. This questionnaire is designed for vocational high school students to gather information about the relationship between anxiety, motivation, and attitude. Your answers and personal information that you give in this questionnaire will be kept in confidential and used only for academic purpose.  Thank you!
+Dear Participant: 
+    Thank you for participating in this study. This questionnaire is designed for vocational high school students to gather information about the relationship between anxiety, motivation, and attitude. Your answers and personal information that you give in this questionnaire will be kept confidential and used only for academic purposes.  Thank you!
 Applied English Department, STUST
  Advisor: Dr. I-Chen Chen
-¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@Students: Rong- Zhen LaiPart I: Background Information
+¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@Student: Rong- Zhen LaiPart I: Background Information
 1. Gender¡G ¤f Male ¤fFemale
-2. Major¡G  ¤fMachinery¤fCartography ¤f Architecture ¤fMotor¤f Others      
-English interest: ¤fvery Interest ¤f A little Interest ¤fNo Interest ¤fvery not Interest
-3.English purpose: ¤fCareers¤fParent requirement¤fSchool test
+2. Department¡G  ¤fMachinery¤fTechnical Drawing ¤f Architecture ¤fMotor¤f Other      
+English interest: ¤fVery interested ¤f A little interested ¤fNot interested ¤fVery uninterested
+3.English study purpose: ¤fCareer¤fParental requirement¤fSchool tests
 ¤fCompetitiveness
-4. Careers ways: ¤fExam Admission¤fAcademic attainments test¤fAudition
- ¤fCollege Admission¤fSpecified Subjects ¤fOthers
-5. English Learning ways: ¤fCram school¤fEnglish magazine¤fEnglish video
-¤fChat with foreign people¤ftutor¤fnone¤felse
+4. College advancement plans: ¤fExam Admission¤fAcademic Attainments Test¤fAudition
+ ¤fCollege Admission¤fSpecified Subjects ¤fOther
+5. Extra-curricular English contact: ¤fCram school¤fEnglish magazines¤fEnglish videos
+¤fChatting with foreigners¤FTutor¤FNone¤fOther
 Part II: Learning Anxiety Questionnaire
-(Adapted from Horvitz¡¦s Foreign Language Classroom Anxiety Scale, FLCAS)
-Direction: Please read each item and indicate whether you 1) strongly disagree, 2) disagree, 3) neural, 4) agree, 5) strongly agree.
+(Adapted from Horwitz¡¦s Foreign Language Classroom Anxiety Scale, FLCAS)
+Direction: Please read each item and indicate whether you 1) strongly disagree, 2) disagree, 3) are neutral, 4) agree, or 5) strongly agree.
 ¡mLearning Anxiety¡n1. I worry about I don't understand what the teacher is saying in the foreign language.543212 I get nervous when the language teacher asks questions543213. I get upset when I don't understand the new words.543214. I am afraid that teacher corrects mistake what I make.543215. Language class moves so quickly I worry about getting left behind.543216. I feel nervous in language class than in other classes.543217. I feel very sure and relaxed in English classes.54321
 ¡mTest Anxiety¡n8. I am afraid that I cannot do the test on time.5432110. I worry about I don't understand new words in test.5432111. I am afraid that I'm going to be asked in language class.5432112. I get nervous when I cannot understand the meaning during
  the test.5432113. I get nervous about the unfamiliar subjects.5432114. I am afraid that I get bad grade.5432115. I feel confident about my English grade.54321¡mFear of Negative Evaluation¡n16.I am afraid that teacher blames for my mistake.5432117.I am afraid that parents blame for my bad grade.5432118. I am afraid that other classmates will laugh at me for the grade.5432119. I am afraid that other classmates will have the negative Evaluation when practice.54321
