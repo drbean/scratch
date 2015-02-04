@@ -123,28 +123,21 @@ All factor loading were higher than .55. Unexplained variance was 30%. Therefore
 ¡@The consistency standard is to require item-total correlations of .70 or .80.  (§d©ú¶©¡BÒ\ª÷°ó2008¡^Items with revised item-total correlations above .70 were retained.
 ¡@Besides the research method of expert validity judgements to test the questionnaire's reliability and validity, critical ratio, Cronbach alpha, communality and factor loading statistics were used to produce the scale used in the formal study.
 
-¡uLearning motivation survey¡vItem Analysis                    (Table 3-8)
-LevelnumExtremeMention and TotalHomogeneityNot to Indexnote  Decision valueMention and TotalRevise Mention and Totaldelete£\­ÈCommonsfactor loadingExtrinsic
-Motivation113.46***.856***.794.980.810.8090retain213.45***.816***.771.980.797.7880retain313.39***.788***.755.980.739.7730retain413.42***.834***.710.980.844.7310retain513.48***.733***.747.980.721.7640retain620.18***.871***.874.979.808.8870retain720.23***.845***.798.980.759.8150retain¡uLearning motivation survey¡vItem Analysis
-LevelnumExtremeMention and TotalHomogeneityNot to
-IndexnoteDecision valueMention and TotalRevise Mention and Totaldelete£\­ÈCommonsfactor loadingIntrinsic
-Motivation2213.94***.691***.709.980.574.7270retain2317.09***.820***.704.980.832.7170retain2417.06***.832***.740.980.813.7530retain2516.99***.888***.773.980.849.7860retain2617.06***.787***.717.980.729.7330retain2716.97***.905***.802.980.901.8130retain2816.96***.859***.817.980.849.8290retainCritical> 3.000> .400> .400< .980> .200> .450***p<.001¡AScale Consistently. Cronbach £\«Y¼Æis 980.¡­Not to Critical.
-The learning motivation scales is no item CR to 3. Item and Total lower than 400.
-Communion is lower 200. Factor loading is lower than 450. Therefore, all items are retained.
+For Table 3-8 see the Word docx file.
+(I don't understand what 'Extreme' and 'Scale consistently' mean in Table 3-8)
 
 
-¡uLearning motivation¡vFactor Analysis result                  (Table 3-9)
-Levelnumberfactor loadingKMOBox M Testvariance¡]%¡^Eigenvalues¤@¡B
-Extrinsic
-Motivation30.877.911590.647***67.0984.69728.84831.84329.84226.81027.76632.740
-¡uLearning motivation¡vFactor Analysis result
-Levelnumberfactor loadingKMOBox M Testvariance¡]%¡^Eigenvalues¤G¡B
-Intrinsic
-Motivation9.841.808272.086***53.6243.2097.78610.7518.74113.88412.72014.79215.763***p<.001¡AFactor loading  > .55
-[Learning attitude survey] Expert Validity consistency Analysis   (Table 3-10)
-LevelnumbersuitablereviseunsuitableresultN%N%N%retentionrevisedeleteSchool Curriculum171000000¡Ô271000000¡Ô371000000¡Ô477122900¡Ô571000000¡Ô671000000¡Ô771000000¡ÔExtra
-curricular868611400¡Ô957122900¡Ô1071000000¡Ô1171000000¡Ô1271000000¡Ô1371000000¡Ô1471000000¡Ô1568611400¡Ô                                                               
-¡@The survey standard is refer to ¡usuit¡vitem up to 70% or 80%.  (§d©ú¶©¡BÒ\ª÷°ó2008¡^The¡usuit¡vitem up to 70% are retained.
+For the learning motivation scales, no item has a critical ratio below 3. No item-total correlations were lower than .400.
+No communality was lower than .200. No factor loading was lower than .450. Therefore, all items were retained.
+
+
+For Tables 3-9, 3-10 see the Word docx file.
+
+¡@In item analyses, the standard is to require item-total correlations of 70% or 80%.  (§d©ú¶©¡BÒ\ª÷°ó2008¡^ Items with revised item-total correlations of up to 70% are retained.
+
+For Tables 3-11, 3-12 see the Word docx file.
+(The author forgot to number the tables)
+(I don't understand what 'Extreme' and 'Scale consistently' mean in Table 3-11)
 
 
 ¡uLearning motivation survey¡vItem Analysis
