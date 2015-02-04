@@ -135,26 +135,18 @@ For Tables 3-9, 3-10 see the Word docx file.
 
 ¡@In item analyses, the standard is to require item-total correlations of 70% or 80%.  (§d©ú¶©¡BÒ\ª÷°ó2008¡^ Items with revised item-total correlations of up to 70% are retained.
 
-For Tables 3-11, 3-12 see the Word docx file.
-(The author forgot to number the tables)
+For Tables 3-11, see the Word docx file.
+(The author forgot to number the table)
 (I don't understand what 'Extreme' and 'Scale consistently' mean in Table 3-11)
 
 
-¡uLearning motivation survey¡vItem Analysis
-LevelnumExtremeMention and TotalHomogeneityNot to
-IndexnoteDecision valueMention and TotalRevise Mention and TotalDelete
-item
-£\­ÈCommonsfactor loadingSchool Curriculum113.68***.820***.821.980.758.8400retain213.65***.885***.880.979.875.8950retain313.65***.865***.823.980.801.8420retain413.65***.799***.794.980.737.8120retain513.60***.795***.798.980.819.8170retain613.79***.887***.866.879.905.8810retain713.78***.828***.815.980.823.8330retainExtra
-curricular813.69***.830***.790.980.770.8080retain913.77***.880***.815.980.837.8320retain1013.94***.691***.709.980.574.7270retain1117.09***.820***.704.980.832.7170retain1217.06***.832***.740.980.813.7530retain1316.99***.888***.773.980.849.7860retain1417.06***.787***.717.980.729.7330retain1516.97***.905***.802.980.901.8130retainIndex> 3.000> .400> .400< .980> .200> .450*p<.001¡AScale Consistently. Cronbach £\«Y¼Æis 980¡A¡­Not arrive Index.
-The learning attitude scales is no item CR to 3. Item and Total lower than 400.
-Communion is lower 200. Factor loading is lower than 450. Therefore, all items are retained.
+For the learning attitude scales, no item has a critical ratio below 3. No item-total correlations were lower than .400.
+No communality was lower than .200. No factor loading was lower than .450. Therefore, all items were retained.
 
-¡uSchool learning survey¡vFactor Analysis result
-Levelnumberfactor loadingKMOBox M Testvariance¡]%¡^Eigenvalues¤G¡B
-Extra
-curricular9.877.911590.647***67.0984.6978.84811.84310.84212.81013.76614.74015.859¤@¡B
-School Curriculum7.856.898418.526***65.0863.9054.8346.8181.7413.7232.8465.815***p<.001¡Afactor loading > .55
-¡@©P·s´I¡]2007¡^think Reliability is main for scale test result. Item Analysis indicate formal questionnaires ¡¦stability and consistency.  Cronbach¡¦s £\ Reliability can understand questionnaires¡¦ unanimous. £\ Reliability is as higher as Reliability.
+For Tables 3-12 see the Word docx file.
+(The author forgot to number the table)
+
+¡@According to ©P·s´I¡]2007¡^, reliability is the main consideration in scale testing. Item Analysis indicates the formal questionnaire's stability and consistency is good.  Cronbach¡¦s £\ Reliability is a measure of the questionnaire¡¦s unanimity. £\ Reliability provides a lower bound estimate of the scale's reliability.
 ¡@
 ¡@
 ¡@
