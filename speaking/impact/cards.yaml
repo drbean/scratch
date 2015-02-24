@@ -522,6 +522,319 @@ environment:
 alien:
   bingo:
     - UFOs universe science_fiction dimension speed_of_light astronomers solar_system flying_saucers sightings black_holes outer_space galaxies intelligent_life aliens other_planets comet space_probe advanced_technology evidence SF space_travel democratic_government conspiracy_theory
+  jigsaw:
+    0:
+      identifier: aliens 0
+      A: You are an alien from space. You come to Earth in a UFO. Christina doesn't believe in you. JinSook sees you.
+      B: You see a UFO. ALian steps out and speaks English to you. You tell Christina but she doesn't believe you.
+      C: JinSook tells you about a UFO and ALian, an alien. You don't believe her. You don't believe in UFOs and aliens.
+      quiz:
+        - question: A
+          option: 
+           - ALian
+           - Christina
+           - JinSook
+          answer: ALian
+        - question: B
+          option: 
+           - ALian
+           - Christina
+           - JinSook
+          answer: JinSook
+        - question: A
+          option: 
+           - ALian
+           - Christina
+           - JinSook
+          answer: Christina
+        - question: ALian comes to Earth in a UFO.
+          answer: True
+        - question: Christina and JinSook both see ALian.
+          answer: False
+        - question: ALian talks to JinSook.
+          answer: True
+        - question: JinSook doesn't understand ALian.
+          answer: False
+        - question: JinSook takes ALian to meet Christina.
+          answer: False
+        - question: Christina doesn't believe in ALian.
+          answer: True
+        - question: Christina sees ALian and changes her mind.
+          answer: False
+education:
+  jigsaw:
+    0:
+      identifier: education 0
+      A: You are a shy student. Robin Williams forces you to make a poem and stand on the desk. After Mr Nolan fires Williams, you stand on your desk.
+      B: You are the principal. You fire Robin Williams because he creates problems. You are angry when Todd stands on the desk as Williams leaves.
+      C: You are a teacher who makes students stand on their desks, and make poetry. You have an effect on Todd, but there are problems. Nolan fires you.
+      quiz:
+        - question: A
+          option: 
+           - Mr Nolan
+           - Robin Williams
+           - Todd
+          answer: Todd
+        - question: B
+          option: 
+           - Mr Nolan
+           - Robin Williams
+           - Todd
+          answer: Mr Nolan
+        - question: C
+          option: 
+           - Mr Nolan
+           - Robin Williams
+           - Todd
+          answer: Robin Williams
+        - question: Though unwilling to, Todd makes poetry.
+          answer: True
+        - question: Todd is the only one to stand on his desk.
+          answer: False
+        - question: Williams creates problems for Nolan.
+          answer: True
+        - question: Williams leaves to help solve the school's problems.
+          answer: False
+        - question: On leaving, Williams asks Todd to stand on his desk.
+          answer: False
+        - question: Mr Nolan asks Todd to stand on his desk.
+          answer: False
+        - question: Todd shows his feelings for Williams, as he leaves.
+          answer: True
+    1:
+      identifier: education 1
+      A: Tomoko \& JinSook are your students. You keep them under control, and teach them your way.
+      B: You like Paul. You disagree with Tomoko. You will become a teacher and teach like Paul.
+      C: You don't like Paul's teaching style. You disagree with JinSook. You want more freedom.
+      quiz:
+        - question: A
+          option: 
+           - JinSook
+           - Paul
+           - Tomoko
+          answer: Paul
+        - question: B
+          option: 
+           - JinSook
+           - Paul
+           - Tomoko
+          answer: JinSook
+        - question: C
+          option: 
+           - JinSook
+           - Paul
+           - Tomoko
+          answer: Tomoko
+        - question: Paul gives students a lot of freedom.
+          answer: False
+        - question: JinSook likes Paul's teaching style.
+          answer: True
+        - question: JinSook thinks students should have freedom.
+          answer: False
+        - question: Tomoko wants to teach like Paul.
+          answer: False
+        - question: Paul is teacher-centered, not student-centered.
+          answer: True
+        - question: Tomoko is student-centered and JinSook is teacher-centered.
+          answer: True
+        - question: If Tomoko were a teacher, she would try to teach like Paul.
+          answer: False
+crime:
+  jigsaw:
+    0:
+      identifier: crime 0
+      A: You killed three people. Francesca thinks you should be sentenced to death. Abena thinks you should be imprisoned for life.
+      B: You support the death penalty. You disagree with Abena. You think Ted should be put to death for killing three people.
+      C: You oppose capital punishment. You disagree with Francesca. You think Ted should be imprisoned for life for his murders.
+      quiz:
+        - question: A
+          option: 
+           - Abena
+           - Francesca
+           - Ted
+          answer: Ted
+        - question: B
+          option: 
+           - Abena
+           - Francesca
+           - Ted
+          answer: Francesca
+        - question: C
+          option: 
+           - Abena
+           - Francesca
+           - Ted
+          answer: Abena
+        - question: Abena and Francesca agree Ted should be punished.
+          answer: True
+        - question: Abena and Francesca disagree on the method of punishment.
+          answer: True
+        - question: Abena doesn't want Ted to be punished.
+          answer: False
+        - question: Francesca wants Ted to be imprisoned for life.
+          answer: False
+        - question: Francesca wants Ted to be executed.
+          answer: True
+        - question: Abena wants Ted to be imprisoned for life.
+          answer: True
+        - question: Abena wants Ted to be executed.
+          answer: False
+    1:
+      identifier: crime 1
+      A: You don't say whether the murderer of Mamie's son should be executed. You may or may not agree with Scott's opposition.
+      B: You disagree with Mamie, who wants the death penalty. You want the murderer imprisoned. You think Richard may agree.
+      C: Your son was murdered. You want the murderer executed. You disagree with Scott. You don't know about Richard.
+      quiz:
+        - question: A
+          option: 
+           - Mamie
+           - Richard
+           - Scott
+          answer: Richard
+        - question: B
+          option: 
+           - Mamie
+           - Richard
+           - Scott
+          answer: Scott
+        - question: C
+          option: 
+           - Mamie
+           - Richard
+           - Scott
+          answer: Mamie
+        - question: Mamie's son murdered someone.
+          answer: False
+        - question: Richard wants Mamie's son put to death.
+          answer: False
+        - question: Mamie wants her son's murderer put to death.
+          answer: True
+        - question: Scott wants the murderer imprisoned.
+          answer: True
+        - question: Richard doesn't want the murderer to be punished.
+          answer: False
+        - question: Richard doesn't say whether he agrees with the death penalty.
+          answer: True
+        - question: Scott thinks Richard may disagree with the death penalty.
+          answer: True
+    2:
+      identifier: crime 2
+      A: You are dying. Your husband, Charles shoots you, killing you. You are unhappy that Judge Judy puts Charles in jail.
+      B: You are a judge. You put Charles in prison for killing Sara. You have to do this because it's the law, but are unhappy.
+      C: You kill your wife, Sara, who is dying and in pain. Judge Judy jails you. You don't care. You are happy to go to jail.
+      quiz:
+        - question: A
+          option: 
+           - Charles
+           - Judge Judy
+           - Sara
+          answer: Sara
+        - question: B
+          option: 
+           - Charles
+           - Judge Judy
+           - Sara
+          answer: Judge Judy
+        - question: A
+          option: 
+           - Charles
+           - Judge Judy
+           - Sara
+          answer: Charles
+        - question: Charles hates his wife.
+          answer: False
+        - question: Charles shoots his wife, killing her.
+          answer: True
+        - question: Judge Judy sentences Charles to death.
+          answer: False
+        - question: Charles doesn't care what happens to him.
+          answer: True
+        - question: Sara, Judy are unhappy about what happens.
+          answer: True
+        - question: Judge Judy could have let Charles go free.
+          answer: False
+        - question: Charles is happy to go to jail.
+          answer: True
+history:
+  jigsaw:
+    0:
+      identifier: history 0
+      A: You disagree with Christina about Napoleon. You admire him because he was powerful. He controlled his country and made big changes.
+      B: Annan and Christina argue about you. You disagree with Christina. You think men need to control women, because women are strong.
+      C: You argue with Annan about Napoleon. You think women should have control. They could prevent war. Napoleon disagrees with you.
+      quiz:
+        - question: A
+          option: 
+           - Annan
+           - Christina
+           - Napoleon
+          answer: Annan
+        - question: B
+          option: 
+           - Annan
+           - Christina
+           - Napoleon
+          answer: Napoleon
+        - question: C
+          option: 
+           - Annan
+           - Christina
+           - Napoleon
+          answer: Christina
+        - question: Napoleon: women are weak.
+          answer: False
+        - question: Napoleon: women should have more power.
+          answer: False
+        - question: Christina: women could prevent war.
+          answer: True
+        - question: Christina: women should have more power.
+          answer: True
+        - question: Annan: Napoleon was powerful, so great.
+          answer: True
+        - question: Annan: Napoleon gave women power.
+          answer: False
+        - question: Napoleon: men should control women.
+          answer: True
+norad:
+  jigsaw:
+    0:
+      identifier: norad 0
+      A: Nicky calls you on the phone, but because he has the wrong number from the advertisement, he calls the Colonel by mistake. 
+      B: A boy, Nicky calls you on your hotline, and you don't understand, because he shouldn't have the number of your hotline.
+      C: You call Santa, but the Colonel answers the phone. You don't understand why the Colonel isn't Santa. He makes you cry.
+      quiz:
+        - question: A
+          option:
+            - Nicky
+            - the Colonel
+            - Santa
+          answer: Santa
+        - question: B
+          option:
+            - Nicky
+            - the Colonel
+            - Santa
+          answer: the Colonel
+        - question: C
+          option:
+            - Nicky
+            - the Colonel
+            - Santa
+          answer: Nicky
+        - question: Nicky calls Santa.
+          answer: True
+        - question: Santa answers the phone.
+          answer: False
+        - question: Nicky has the right number.
+          answer: False
+        - question: Nicky got the number from an advertisement.
+          answer: True
+        - question: The number is for the Colonel's hotline.
+          answer: True
+        - question: The Colonel understands why Nicky calls.
+          answer: False
+        - question: The Colonel is happy to have Nicky call.
+          answer: False
 control:
   jigsaw:
     0:
@@ -808,4 +1121,3 @@ execution:
           answer: False
         - question: Wang's mother was happy the killer died.
           answer: True
-
