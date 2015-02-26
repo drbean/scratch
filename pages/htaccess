@@ -1,0 +1,2 @@
+RedirectMatch permanent 2L1.html http://web.nuu.edu.tw/~greg/2L2.html
+RedirectMatch permanent MB1.html http://web.nuu.edu.tw/~greg/MB2.html
