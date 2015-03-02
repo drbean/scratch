@@ -1,34 +1,8 @@
-# This is a sample Vroom input file. It should help you get started.
-#
-# Edit this file with your content. Then run `vroom --vroom` to start
-# the show!
-#
-# See `perldoc Vroom::Vroom` for complete details.
-#
----- config
-# Basic config options.
-title: Marriage!
-indent: 5
-height: 18
-width: 40
-skip: 0
+% Marriage: The Good, the Bad and the Ugly
+% by Dr Bean
+% 三  2月 25 18:21:56 CST 2015
 
-# The following options are for Gvim usage.
-# vim: gvim
-# fuopt: maxhorz,maxvert
-# guioptions: egmLtT
-# guicursor: a:blinkon0-ver25-Cursor
-# guifont: Bitstream_Vera_Sans_Mono:h18
-
----- center
-Marriage: Rebia Mixon-Clay, Judy Allen!
-
-by Dr Bean
-
-(hint: press the spacebar)
-
-----
-= Marriage
+## Marriage--A mixed bag
 
 bad divorce good humorous marriage mixon
 mixture some
@@ -39,6 +13,9 @@ unhappily. PJ Goetz' marriage has seen _____(4) times and
 bad times. And Judy Allen's ended in _____(5), but with a
 _____(6) twist. 
 
+# Rebia Mixon Clay and Frank Mixon
+
+## The marriage--how it started
 
 any child class didn't engagement Frank got had
 her later married met pregnant ring 
@@ -51,6 +28,8 @@ her his old _____(15) ring, but she _____(16) want it.
 _____(17) on, after they were married, Frank got
 _____(18) a beautiful _____(19) ring and wedding
 _____(20)
+
+## The marriage--how it ended
 
 father older youngest biological same kids killing
 gentle steal boyfriend damsel city separated 
@@ -66,35 +45,56 @@ _____(31) of the woman apparently thought he was trying
 to _____(32) his woman and shot Frank in the back,
 _____(34) him.
 
-----
-== Questions
+## Questions
 
-+ For both Frank and Rebia, it was love at first sight.
-+ Rebia both liked and disliked Frank's attention.
-+ Rebia already had children before meeting Frank.
-+ After marrying Frank, the situation of Rebia's children
-was probably even worse than before the marriage.
-+ Rebia didn't want engagement and wedding rings.
+- For both Frank and Rebia, it was love at first sight.
+- Rebia both liked and disliked Frank's attention.
+- Rebia already had children before meeting Frank.
+- After marrying Frank, the situation of Rebia's children was probably even worse than before the marriage.
+- Rebia didn't want engagement and wedding rings.
 
-+ question: Frank killed Rebia's boyfriend.
-+ question: Rebia died.
-+ question: Rebia didn't want a wedding ring.
-+ question: Frank gave Rebia his class ring when they got married.
+- question: Frank killed Rebia's boyfriend.
+- question: Rebia died.
+- question: Rebia didn't want a wedding ring.
+- question: Frank gave Rebia his class ring when they got married.
 
-----
-== Questions about Judy Allen
-+question: The girlfriend was the only cause of disagreement between the two.
-+question: Judy's husband wanted her to work, but Judy didn't want to work.
-+question: Judy thought her husband worked too much, but he thought he needed to work.
-+question: Judy was cold to her husband because he wouldn't spend much time with her.
-+question: Both the husband and the wife caused the divorce.
-+question: Judy divorced her husband.
-+question: Perhaps Judy was responsible for her husband being attracted by another woman.
-+question: They both wanted the divorce.
+## Rebia handed Frank the rings
+
+Nora handed/gave John the book.
+
+Nora handed/gave the book to John.
+
+AGENT verb THEME DESTINATION(BENEFICIARY)
+
+- [The grammar of GIVE](http://verbs.colorado.edu/vn3.2.3-test-uvi/vn/give-13.1.php)
+
+Your example?
+
+## Rebia remembered coming home and seeing the note on the back of the door.
+
+AGENT verb THEME (V-ing)
+
+- [The grammar of CONSIDER](http://verbs.colorado.edu/vn3.2.3-test-uvi/vn/consider-29.9.php)
+
+Your example?
 
 
-----
-== Judy Allen's story
+
+# Judy Allen and Rex
+
+## Questions about Judy Allen
+
+- question: The girlfriend was the only cause of disagreement between the two.
+- question: Judy's husband wanted her to work, but Judy didn't want to work.
+- question: Judy thought her husband worked too much, but he thought he needed to work.
+- question: Judy was cold to her husband because he wouldn't spend much time with her.
+- question: Both the husband and the wife caused the divorce.
+- question: Judy divorced her husband.
+- question: Perhaps Judy was responsible for her husband being attracted by another woman.
+- question: They both wanted the divorce.
+
+
+## Judy Allen's story
 
 
 calls divorce doesn't father hear husband Judy
@@ -142,8 +142,7 @@ _____(43), but it occurs.
 
 Perhaps _____(44) knew _____(45) about _____.(46)
 
-----
-== PJ meets her husband, Sam's father
+## PJ meets her husband, Sam's father
 
 16 18 7 apartment couldn't day father for herself
 lived man mother sat talk talked too was
@@ -164,8 +163,7 @@ The next ____(14), he came looking ____(15) her in the
 ____(16) complex in which she ____(17).
 
 
-----
-== PJ's marriage
+## PJ's marriage
 
 learned person love other married that show shouldn't
 children husband other yelling son times divorced
@@ -187,5 +185,4 @@ ____(35) is not just a feeling for another person.
 It is also what you do for that ____(36) She says
 she ____(37) that from her husband.
 
-----
-== The End
+## The End
