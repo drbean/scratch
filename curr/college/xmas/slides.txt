@@ -378,6 +378,155 @@ way
 
 She was in _____(1) and her mother took her on a _____(2) vacation to the Poconos, a long _____(3) from New York in the middle of the _____(4). She was _____(5) about going and _____(6) to go down with her for _____(7) at the hotel. Her mother thought the _____(8) that served her _____(9) be able to change her _____(10), so she gave him $5 (Carol's _____(11) insists it was $20) to _____(12) to her. In fact, the boy _____(13) her head, and she _____(14) up marrying him, 3 years _____(15).
 
+# Find the right verb
+
+## norad exercise
+
+Dad talked to him, and asked, "May I talk to your mother?" The mother _____ on and said, "You haven't seen the paper yet?
+
+. . .
+
+Dad talked to him, and asked, "May I talk to your mother?" The mother got on and said, "You haven't seen the paper yet?
+
+
+
+. . .
+
+Dad called the radio station and said, "We have an unidentified flying object. Why, it _____ like a sleigh."
+
+. . .
+
+Dad called the radio station and said, "We have an unidentified flying object. Why, it looks like a sleigh."
+
+
+. . .
+
+And in his nineties, he would _____ those letters around with him in a briefcase that had a lock on it.
+
+. . .
+
+And in his nineties, he would carry those letters around with him in a briefcase that had a lock on it.
+
+- [http://verbs.colorado.edu/verb-index/vn/carry-11.4.php#carry-11.4](http://verbs.colorado.edu/verb-index/vn/carry-11.4.php#carry-11.4)
+
+
+. . .
+
+
+## sobozinskywall exercise
+
+ISW: I have been _____ that Manhattan is so big and scary, and I want to make sure that your name matches up and your birth date, and all those details. [laughs] 
+
+. . .
+
+ISW: I have been told that Manhattan is so big and scary, and I want to make sure that your name matches up and your birth date, and all those details. [laughs] 
+
+- [http://verbs.colorado.edu/verb-index/vn/tell-37.2.php#tell-37.2-1](http://verbs.colorado.edu/verb-index/vn/tell-37.2.php#tell-37.2-1)
+
+. . .
+
+ISW: And then I _____ you and you took me to the airport. 
+
+. . .
+
+ISW: And then I called you and you took me to the airport. 
+
+- [https://framenet2.icsi.berkeley.edu/fnReports/data/frame/Contacting.xml](https://framenet2.icsi.berkeley.edu/fnReports/data/frame/Contacting.xml)
+
+
+. . .
+
+SW: You know, when I was making these tapes for you I just _____ like you were this little angel on my shoulder wherever I was going. ARCHIVAL AUDIO: To Isabel 
+
+. . .
+
+SW: You know, when I was making these tapes for you I just felt like you were this little angel on my shoulder wherever I was going. ARCHIVAL AUDIO: To Isabel 
+
+- [https://framenet2.icsi.berkeley.edu/fnReports/data/frame/Desiring.xml](https://framenet2.icsi.berkeley.edu/fnReports/data/frame/Desiring.xml)
+
+
+## sobozinskywall exercise (cont)
+
+
+ISW: Yeah, you even _____ it to the dentist once when you were having dental work. ARCHIVAL AUDIO: Oh, that tooth is getting uglier. 
+
+. . .
+
+ISW: Yeah, you even took it to the dentist once when you were having dental work. ARCHIVAL AUDIO: Oh, that tooth is getting uglier. 
+
+- [http://verbs.colorado.edu/verb-index/vn/bring-11.3.php#bring-11.3](http://verbs.colorado.edu/verb-index/vn/bring-11.3.php#bring-11.3)
+
+
+. . .
+
+SW: I _____ you were really making an effort to share your world with me. It just really was a nice thing for me to hear. 
+
+. . .
+
+SW: I realized you were really making an effort to share your world with me. It just really was a nice thing for me to hear. 
+
+- [http://verbs.colorado.edu/verb-index/vn/discover-84.php#discover-84](http://verbs.colorado.edu/verb-index/vn/discover-84.php#discover-84)
+
+
+
+. . .
+
+
+## safir exercise
+
+I'll starve until you _____ me on a bus going back to New York. 
+
+. . .
+
+I'll starve until you put me on a bus going back to New York. 
+
+- [http://verbs.colorado.edu/verb-index/vn/spatial_configuration-47.6.php#spatial_configuration-47.6](http://verbs.colorado.edu/verb-index/vn/spatial_configuration-47.6.php#spatial_configuration-47.6)
+
+. . .
+
+Who does she meet? Your father, who _____ to be our waiter.
+
+. . .
+
+Who does she meet? Your father, who happens to be our waiter.
+
+
+
+. . .
+
+Maybe if I _____ her (to go) down to see that there are these young waiters maybe she'll be interested in staying.
+
+. . .
+
+Maybe if I get her (to go) down to see that there are these young waiters maybe she'll be interested in staying.
+
+- [http://verbs.colorado.edu/html_groupings/get-vpc-v.html](http://verbs.colorado.edu/html_groupings/get-vpc-v.html)
+
+## safir exercise (cont)
+
+So, what happened was, your grandmother (and I don't know, daddy _____ it was 20 bucks, but I think grandma probably gave him 5 dollars
+
+. . .
+
+So, what happened was, your grandmother (and I don't know, daddy insists it was 20 bucks, but I think grandma probably gave him 5 dollars
+
+- [http://verbs.colorado.edu/verb-index/vn/say-37.7.php#say-37.7](http://verbs.colorado.edu/verb-index/vn/say-37.7.php#say-37.7)
+
+
+. . .
+
+Well, she _____ me to go down there.
+
+. . .
+
+Well, she convinced me to go down there.
+
+- [http://verbs.colorado.edu/html_groupings/get-vpc-v.html](http://verbs.colorado.edu/html_groupings/get-vpc-v.html)
+
+. . .
+
+
+
 ## Vacation plans--looking ahead
 
 What are you going to do?
