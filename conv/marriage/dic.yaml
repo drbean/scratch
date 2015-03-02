@@ -10,8 +10,8 @@
 -
   - "clay"
   - "Life with Frank Mixon"
-  - "intermediate"
-  - A
+  - "conversation"
+  - all
   - |+
     00:17 I was pregnant when I met him.
     00:20 And he saw me, and walked over towards me, and he said, You're going to be my wife.
@@ -21,30 +21,14 @@
     00:40 And I was like, Uh-huh. 
     00:43 And I remember coming home one day, and he wasn't there. 
     00:48 And there was a note on the back of the door. 
-    00:50 And it said, Go in the bedroom ..
-  - City Hall
--
-  - "clay"
-  - "Remembering Frank"
-  - "intermediate"
-  - B
-  - |+
-    ... and look on the dresser. 
+    00:50 And it said, Go in the bedroom and look on the dresser. 
     00:53 And I went in the bedroom and looked on the dresser, and there was the ring box. 
     00:59 A beautiful wedding ring and engagement ring. 
     01:02 I grabbed those things. I didn't put them on. 
     01:05 I just ran out of the house, 'cause I knew where he hung out at. 
     01:08 And when he saw me coming, he said, Did you find them? 
     01:10 And I said, Yes, and I was shaking and stuff, like I had just met him. 
-    01:14 And I handed him the rings and he got down on one knee. He said, Will you be my wife ..
-  - dresser
--
-  - "clay"
-  - "Remembering Frank"
-  - "intermediate"
-  - C
-  - |+
-    ... really be my wife? 
+    01:14 And I handed him the rings and he got down on one knee. He said, Will you be my wife really be my wife? 
     01:22 And I said, Yeah."
 
     01:25 He would come home and he would say, what's for dinner?
@@ -57,13 +41,6 @@
     01:46 I was married to him for seventeen years, and we separated. And he moved to Michigan. 
     01:51 I don't know the details, but Frank got into an altercation. 
     01:57 They say that this woman was a \"damsel in distress.\" 
-  - altercation
--
-  - "clay"
-  - "Remembering Frank"
-  - "intermediate"
-  - D
-  - |+
     02:02 And Frank was helping her. And the woman's boyfriend shot him in the back. 
     02:11 I had my fourth child with him and he's exactly like his father. Exactly. 
     02:20 He never talks above a whisper. He's always happy and laughing. He's the gentleman of all gentlemen. 
@@ -71,7 +48,8 @@
     02:34 My oldest son, he'll tell you, My biological father's name is So-and-so, but my dad's name is Frank Mixon. 
     02:43 And out of all the years that we were separated, I still remember Frank Mixon. 
     02:50 Because I honestly believe that he was my first true love.
-  - whisper
+  - City Hall|dresser|altercation|whisper
+  - 18
 -
   - goetz
   - "Mother tells son about meeting dad"
@@ -254,240 +232,240 @@
   - content
   - answer
 -
-  - "intermediate"
+  - "conversation"
   - "clay"
   - 1
-  - A
+  - all
   - "Frank gave Rebia some rings on the day they got married."
   - "False" 
 -
-  - "intermediate"
+  - "conversation"
   - "clay"
   - 2
-  - A
+  - all
   - "Frank tried to give Rebia a ring when they got married, but Rebia said no."
   - True
 -
-  - "intermediate"
+  - "conversation"
   - "clay"
   - 3
-  - B
+  - all
   - "Frank handed Rebia the wedding ring and the engagement ring."
   - "False" 
 -
-  - "intermediate"
+  - "conversation"
   - "clay"
   - 4
-  - B
+  - all
   - "Rebia went looking for Frank when she saw the rings, not putting them on."
   - True
 -
-  - "intermediate"
+  - "conversation"
   - "clay"
   - 5
-  - C
+  - all
   - "Frank was a mean guy. He made her eat popcorn for dinner."
   - False
 -
-  - "intermediate"
+  - "conversation"
   - "clay"
   - 6
-  - C
+  - all
   - "If Rebia burnt dinner, he made her feel like it was magnificent."
   - True
 -
-  - "intermediate"
+  - "conversation"
   - "clay"
   - 7
-  - D
+  - all
   - "Frank shot the boyfriend of the woman he was helping."
   - False
 -
-  - "intermediate"
+  - "conversation"
   - "clay"
   - 8
-  - D
+  - all
   - "Rebia's fourth child was Frank's, but they separated."
   - True
 -
-  - "intermediate"
+  - "conversation"
   - goetz
   - 1
-  - B
+  - all
   - "The guy didn't know where she lived, so he drove into the apartment complex looking for her."
   - "True" 
 -
-  - "intermediate"
+  - "conversation"
   - goetz
   - 2
-  - A
+  - all
   - "The guy sat down and talked to her for four hours."
   - "True" 
 -
-  - "intermediate"
+  - "conversation"
   - goetz
   - 3
-  - C
+  - all
   - "The couple came close to getting divorced."
   - "True" 
 -
-  - "intermediate"
+  - "conversation"
   - goetz
   - 4
-  - C
+  - all
   - "The couple were separated, but never thought of getting a divorce."
   - "False" 
 -
-  - "intermediate"
+  - "conversation"
   - goetz
   - 5
-  - D
+  - all
   - "The couple are always mature, and never angry."
   - "False" 
 -
-  - "intermediate"
+  - "conversation"
   - goetz
   - 6
-  - D
-  - "The children wanted to leave Dad and be with Mom."
+  - all
+  - "The children wanted to leave allad and be with Mom."
   - "False" 
 -
-  - "intermediate"
+  - "conversation"
   - "allen"
   - 1
-  - "A"
-  - "After she found her husband was at his girlfriend's house, she divorced him."
+  - "all"
+  - "allfter she found her husband was at his girlfriend's house, she divorced him."
   - "True" 
 -
-  - "intermediate"
+  - "conversation"
   - "allen"
   - 11
-  - "C"
-  - "After she found her husband was at his girlfriend's house, she divorced him."
+  - "all"
+  - "allfter she found her husband was at his girlfriend's house, she divorced him."
   - "True" 
 -
-  - "intermediate"
+  - "conversation"
   - "allen"
   - 2
-  - "A"
+  - "all"
   - "The mom and her daughter talk about her divorce with her husband."
   - "True" 
 -
-  - "intermediate"
+  - "conversation"
   - "allen"
   - 22
-  - "C"
+  - "all"
   - "The mom and her daughter talk about her divorce with her husband."
   - "True" 
 -
-  - "intermediate"
+  - "conversation"
   - "allen"
   - 3
-  - "A"
+  - "all"
   - "She suddenly had a heavy feeling when she put the rock through the window."
   - "False" 
 -
-  - "intermediate"
+  - "conversation"
   - "allen"
   - 33
-  - "C"
+  - "all"
   - "She suddenly had a heavy feeling when she put the rock through the window."
   - "False" 
 -
-  - "intermediate"
+  - "conversation"
   - "allen"
   - 4
-  - "B"
+  - "all"
   - "The husband saved the rock that she had put through the window of his car."
   - "True" 
 -
-  - "intermediate"
+  - "conversation"
   - "allen"
   - 44
-  - "D"
+  - "all"
   - "The husband saved the rock that she had put through the window of his car."
   - "True" 
 -
-  - "intermediate"
+  - "conversation"
   - "allen"
   - 5
-  - "B"
+  - "all"
   - "In the heavy box were her books and things."
   - "False" 
 -
-  - "intermediate"
+  - "conversation"
   - "allen"
   - 55
-  - "D"
+  - "all"
   - "In the heavy box were her books and things."
   - "False" 
 -
-  - "intermediate"
+  - "conversation"
   - "allen"
   - 6
-  - "B"
+  - "all"
   - "The husband told her there was a rock in the box."
   - "False" 
 -
-  - "intermediate"
+  - "conversation"
   - "allen"
   - 66
-  - "D"
+  - "all"
   - "The husband told her there was a rock in the box."
   - "False" 
 -
-  - intermediate
+  - conversation
   - ward
   - 1
-  - A
+  - all
   - Their mother would say to the court that the guests had been with her for six weeks.
   - True
 -
-  - intermediate
+  - conversation
   - ward
   - 2
-  - A
+  - all
   - Their mother would say the guests had been with her for six weeks, but they had been at the ranch for just two weeks.
   - False
 -
-  - intermediate
+  - conversation
   - ward
   - 3
-  - B
+  - all
   - One guest fussed and fumed for six weeks, because of her divorce, but her Joe wasn't a nice or smooth man.
   - True
 -
-  - intermediate
+  - conversation
   - ward
   - 4
-  - B
+  - all
   - Joe reminded people that there were no prizes in a package divorce, if you were unhappy and if you thought they were great.
   - False
 -
-  - intermediate
+  - conversation
   - ward
   - 5
-  - C
+  - all
   - Some guests made awful mistakes when they walked down the aisle. Many married again after.
   - True
 -
-  - intermediate
+  - conversation
   - ward
   - 6
-  - C
+  - all
   - They listened to their guests and thought they were awful, but their mistakes were great.
   - False
 -
-  - intermediate
+  - conversation
   - ward
   - 7
-  - D
+  - all
   - The man she married had been divorced. She knew his wife before she married him. She was his next wife.
   - True
 -
-  - intermediate
+  - conversation
   - ward
   - 8
-  - D
+  - all
   - She thinks her move to divorce her husband and marry a divorcee was a great mistake.
   - False
