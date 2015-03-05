@@ -1,7 +1,6 @@
 % Business Presentations
 % 032FLA0027      商務英語簡報    夜應外四甲      高來圭
-% Dr Bean
-% Sat Feb 28 16:09:51 CST 2015
+% Dr Bean Sat Feb 28 16:09:51 CST 2015
 
 ## The unexamined life is not worth living--Socrates
 
@@ -19,10 +18,14 @@ and OTHERS' actions and thoughts.
 
 # The elevator speech
 
-## Definitions and examples
+## Definitions
 - [Elevator pitch - Wikipedia, the free encyclopedia ](http://en.wikipedia.org/wiki/Elevator_pitch)
 
 Speaking to one person, standing, not to a group of people, sitting.
+
+We can do it in the elevator
+
+## Examples
 
 - [Good/bad elevator speeches](https://www.youtube.com/watch?v=LDpe9StfGTA)
 - [3 things to say:](https://www.youtube.com/watch?v=_mc1ckQGHpk)
@@ -65,9 +68,20 @@ If you are working a 30-second elevator pitch, directed at Dr Bean, about YOUR c
 	  3. No car? Or your car doesn't need work?
 	  	- Friendly advice about second-hand cars and car repairs
 
+	or
+
+	  1. FLA0032 科技英語 Technical English
+	  2.
+	  	- A small class
+		- Academic English, smartphones, cooking, fitness and travel
+	  3. Not interested in those subjects? Or no time?
+	  	- We can make time and space for your specific interests
+
 ## Non-workers
-If you aren't working a 30-second elevator pitch, directed at Dr Bean, like his 全聯 promotion
-	- eg 
+If you aren't working, a 30-second elevator pitch, directed at Dr Bean, like his 全聯 promotion
+
+	eg 
+
 	  1. 7-11
 	  2.
 	  	- one point
