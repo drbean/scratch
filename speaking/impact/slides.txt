@@ -1757,22 +1757,6 @@ admirals
 提督
 
 
-古
-期
-內戰
-中世紀
-革新
-文藝復興
-貴族
-工業革命
-殖民地
-封建制度
-改革
-文明
-人道
-將軍
-提督
-
 # The future--What will it be like?
 
 ## Future questions
@@ -1899,25 +1883,6 @@ cyber_space
 
 . . .
 
-網絡空間
-
-## 
-
-
-精神
-樂觀
-悲觀
-虛擬現實
-時間機器
-未來學
-預測
-科幻
-行星
-最好的還在後頭
-過去的好時光
-機器人
-AI
-世界秩序
 網絡空間
 
 # Women in society
@@ -2049,20 +2014,7 @@ conditioned
 
 
 
-區別
-適當
-基因
-職業生涯
-性騷擾
-性別歧視
-配額
-平等機會
-社會習俗
-平權行動
-男性佔主導地位
-條件
-
-## Points of view--Manosh (India) and Francesca (Italy) on women in society
+## Points of view--Manosh (India) and Francesca (Italy) on women in society {.allowframebreaks}
 
 
 Francesca talks about sexual equality.
@@ -2090,5 +2042,61 @@ He means:
 
 ## Personalization
 
-- supposed 
-- 
+One student from each group reads a sentence about themselves using the words,
+
+- It's hard ...
+- I'm supposed to ...
+
+## Your family's division of housework
+
+- What does your mom do?
+- What does your dad do?
+- What do you and your brothers and sisters do?
+
+|	Washing/Laundry
+|	Cooking
+|	Cleaning
+|	Taking out trash
+|	Taking kids to school
+|	Shopping
+|	Washing dishes
+
+## What household chore do you most dislike doing?
+
+* cooking
+* ironing
+* vacuuming
+* washing the dishes
+
+* tidying
+* food shopping
+* dusting
+* hanging the washing out
+
+
+## International Women's Day
+
+- ["International Women's Day" according to Google ](http://www.google.com.tw/search?q=%22international+women's+day%22&num=100&gws_rd=cr&ei=ne_-VJqZKdfi8AWghYDQDA)
+- ["International Women's Day" - Google Images ](http://images.google.com/search?q=%22international+women's+day%22&num=100&tbm=isch)
+
+## House work role play
+
+Role  A – Partner A  You spend 40 hours a week at work and come home and do most of the housework. You think this is unfair. Tell your partner three reasons why. You have a bad back and find it difficult to bend down. You think you should do the cooking, washing and ironing only. You want a divorce.
+
+Role  B – Partner B  You spend 50 hours at work and earn double the money your partner gets. You think you should do little housework. Tell your partner 3 reasons why. You have no time for housework, what with work, training for and running marathons and going out regularly with friends. You love cooking.
+
+Role  C – Counsellor  You believe modern marriages are a 50-50 relationship. All household chores must be shared. Tell the others 3 reasons why. Anyone who does not do their share does not love their partner. Tell Partner B this. Solution – Partner B does the cooking, cleaning and dusting. Partner A does the rest.
+
+Role  D – Partner A's mother  You are shocked at how much work your son / daughter has to do. A full-time job and 99% of the housework. Marriage is forever, so divorce is not an option. Tell Partner A three reasons why. Tell Partner B not to be so lazy. Marriage and togetherness is more important than friends and running.
+
+# Causes of divorce
+
+## The biggest cause of divorce is: infidelity, arguments over money, or disputes over housework?
+
+Most people believe that the biggest grounds for divorce are either infidelity or arguments over money. However, a new report from British law firm Gateley suggests    otherwise. According to its analysis of 350 divorce cases, seven out of ten divorces occur because of disputes over who does what household chores. Twenty per cent of   divorces are due to unfaithfulness. Gateley says gone are the days when the wife did all the cooking and cleaning. Dual income marriages now mean split responsibilities     for vacuuming, doing the dishes and tidying. Gateley advised couples to discuss who does what before walking down the aisle. A spokeswoman said that, "going into a                                                               marriage blind could be a recipe for disaster".
+
+## Couples who share household chores are more likely/less likely to split up? The case in Norway.
+
+Conversely, a study in Norway suggests that couples who share household chores are more likely to split up. Thomas Hansen, co-author of the report 'Equality in the      Home,' said the divorce rate among couples who shared housework equally was 50 per cent higher than for those where women did all the work. Mr Hansen said that in    Norway women did most of the housework in 70 per cent of marriages, and were "largely happy" to do so. An adverse side effect of marital discord is that many families     are now "too poor to split up". The U.K. charity Relate said that in many middle-income families, couples stay together because they can't afford to divorce. Relate says this results in a "toxic" home environment.                                                                                  
+
+Sources: http://www.telegraph.co.uk/finance/newsbysector/retailandconsumer/9691280/Most-marriages-break-down-over-mundane-household-chores.html
