@@ -10,12 +10,12 @@ use Lingua::Han::PinYin;
 
 $_REPL->load_plugin('DumpHistory');
 
-my $week = 16;
+my $week = 1;
 
 (my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
 use Grades;
 use Grades::Groupwork;
-my $l = League->new( leagues => '/home/drbean/022', id => $dir );
+my $l = League->new( leagues => '/home/drbean/032', id => $dir );
 my $g = Grades->new({ league => $l });
 my $co = Compcomp->new({ league => $l });
 my $cl = $g->classwork;
