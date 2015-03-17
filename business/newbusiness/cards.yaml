@@ -545,88 +545,88 @@ ingredients:
     quiz:
       - question: Big companies ordered a few chips.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
         answer: Market opportunity
       - question: Chang got to know 曾繁城 at ITRI.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
         answer: Team
       - question: 李國鼎 in the 台灣 government helped 張.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
         answer: Team
       - question: Chang had made chips in the U.S.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
         answer: Innovation
       - question: 張: I could make chips in 台灣!!
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
         answer: Innovation
       - question: 張: TSMC could help small companies.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
         answer: Market opportunity
       - question: Many smaller companies ordered many chips.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
         answer: Market opportunity
       - question: Many top engineers came back from the US to work for TSMC.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
         answer: Team
       - question: People in the US couldn't understand his idea.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
         answer: Innovation
       - question: Philips was a willing investor in TSMC.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
         answer: Financial strategy
-      - question: The 台灣 government raised money to start TSMC.
-        option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
-        answer: Financial strategy
-      - question: The 台灣 government forced companies to invest.
-        option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
-        answer: Financial strategy
+      #- question: The 台灣 government raised money to start TSMC.
+      #  option:
+      #    - Innovation
+      #    - Team
+      #    - Market opportunity
+      #    - Financial strategy
+      #  answer: Financial strategy
+      #- question: The 台灣 government forced companies to invest.
+      #  option:
+      #    - Innovation
+      #    - Team
+      #    - Market opportunity
+      #    - Financial strategy
+      #  answer: Financial strategy
   13:
     identifier: ingredients 13
       # \item NVIDIA designed a chip that was very different.
@@ -721,74 +721,74 @@ ingredients:
       # - question: The 3 engineers had experience designing chips.
       - question: Investors gave NVIDIA \$20 million.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
-        answer: ???
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
+        answer: Financial strategy
       - question: New companies' chips were more popular.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
-        answer: ???
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
+        answer: Market opportunity
       - question: NVIDIA designed a different type of chip.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
-        answer: ???
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
+        answer: Innovation
       - question: 黃仁勳: `Let's make graphics chips for PCs.'
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
-        answer: ???
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
+        answer: Innovation
       - question: The 3 knew people who could help NVIDIA.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
-        answer: ???
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
+        answer: Team
       - question: The 3 worked hard to make popular chips.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
-        answer: ???
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
+        answer: Team
       - question: They couldn't sell their 1st chip.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
-        answer: ???
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
+        answer: Market opportunity
       - question: They developed a popular 2nd chip.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
-        answer: ???
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
+        answer: Market opportunity
       - question: They had enough money to last 2 years.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
-        answer: ???
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
+        answer: Financial strategy
       - question: They ran out of money after 2 years.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
-        answer: ???
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
+        answer: Financial strategy
   14:
     identifier: ingredients 14
       # \item 張's idea: Make chips for small companies.
@@ -883,74 +883,74 @@ ingredients:
       # - question: US companies like Intel, didn't understand.
       - question: 張's idea: Make chips for small companies.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
-        answer: ???
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
+        answer: Innovation
       - question: 李國鼎 in the 台灣 government helped.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
-        answer: ???
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
+        answer: Team
       - question: At first TSMC did not sell many chips.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
-        answer: ???
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
+        answer: Market opportunity
       - question: Bigger companies didn't buy many chips.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
-        answer: ???
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
+        answer: Market opportunity
       - question: Big investors provided 25\%.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
-        answer: ???
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
+        answer: Financial strategy
       - question: Not many smaller companies existed.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
-        answer: ???
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
+        answer: Market opportunity
       - question: Only 張 could see the need for a chip maker.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
-        answer: ???
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
+        answer: Innovation
       - question: Philips provided 25\% of TSMC money.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
-        answer: ???
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
+        answer: Financial strategy
       - question: The 台灣 government gave 50\% of the money.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
-        answer: ???
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
+        answer: Financial strategy
       - question: Top engineers returned to 台灣 to help.
         option:
-          - 革新
-          - 球隊
-          - 市場機遇
-          - 財務戰略
-        answer: ???
+          - Innovation
+          - Team
+          - Market opportunity
+          - Financial strategy
+        answer: Team
  compcomp:
   0:
     identifier: ingredients
