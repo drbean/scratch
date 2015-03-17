@@ -1,0 +1,124 @@
+sector	部門提供
+available	可用的
+financial	金融
+process	工藝
+individual	單個
+specific	特定
+principle	原則
+estimate	估計
+variables	變量
+method	方法
+data	數據
+research	調研
+contract	合同
+environment	環境
+export	出口
+source	源
+assessment	評估
+policy	政策
+identified	認定
+create	創造
+derived	衍生
+factors	因素
+procedure	程序
+definition	定義
+assume	假設
+theory	理論
+benefit	好處
+evidence	證據
+established	建立
+authority	權威
+major	大
+issues	問題
+labour	勞動力
+occur	發生
+economic	經濟
+involved	參與
+percent	百分之
+interpretatio	詮釋
+consistent	一致
+income	收入
+structure	結構
+legal	法律
+concept	設計
+formula	公式
+section	節
+required	需要
+constitution	憲法
+analysis	分析
+distribution	分佈
+function	功能
+area	區
+approach	做法
+role	作用
+legislation	立法
+indicate	顯示
+response	響應
+period	期
+context	環境
+significant	顯著
+similar	類似於
+
+
+
+部門提供
+可用的
+金融
+工藝
+單個
+特定
+原則
+估計
+變量
+方法
+數據
+調研
+合同
+環境
+出口
+源
+評估
+政策
+認定
+創造
+衍生
+因素
+程序
+定義
+假設
+理論
+好處
+證據
+建立
+權威
+大
+問題
+勞動力
+發生
+經濟
+參與
+百分之
+詮釋
+一致
+收入
+結構
+法律
+設計
+公式
+節
+需要
+憲法
+分析
+分佈
+功能
+區
+做法
+作用
+立法
+顯示
+響應
+期
+環境
+顯著
+類似於
+
