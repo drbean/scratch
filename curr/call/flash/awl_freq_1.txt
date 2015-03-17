@@ -1,4 +1,4 @@
-sector	部門提供
+sector	部門
 available	可用的
 financial	金融
 process	工藝
