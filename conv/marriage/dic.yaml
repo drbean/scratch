@@ -53,7 +53,7 @@
 -
   - goetz
   - "Mother tells son about meeting dad"
-  - "conversaion"
+  - "conversation"
   - all
   - |+
     "Sam: How did you meet Dad?
@@ -82,54 +82,22 @@
     Sam: I see what you're saying.
     PJ: To love somebody is not just how you feel about them, but what you do, also."
   - "PJ|Sam|barstool|horn|Laughs|privilege"
+  - 15
 -
   - "allen"
   - "Mother tells daughter about divorcing husband"
-  - "intermediate"
-  - "A"
+  - "conversation"
+  - "all"
   - |+
     "Edwards: Describe a memory when you felt independent and empowered.
     Allen: I think the most empowered I've ever felt in my life was when my philandering husband told me he was going to work and I suddenly realized he'd gone to be with his girlfriend. I went to where she was staying, and found his car parked in front of her house, got a great big rock about as big as a bowling ball from somebody's garden, and heaved it through the back window of his car.
 
     That was wonderful. It felt great. And then I started divorce proceedings.
 
-    Years later he called.. he sent me a message somehow ..."
+    Years later he called.. he sent me a message somehow and told me that he still had some stuff of mine--books and things--that if I was ever traveling in Alaska, I should stop by and pick them up. And I was doing a business trip to Alaska, so I went up there, made an appointment, went to see him in his office, and he handed me a very heavy box, and said 'There's a lot of heavy stuff--books and stuff--in there'. And so I dragged it and schlepped it through airports all the way home. God, it was heavy. And then I got home and opened it up and, nothing in it but that rock. Which he had saved all those years."
 
   - "Allen|Edwards|empowered|philandering|heaved|proceedings|Alaska|schlepped"
--
-  - "allen"
-  - "Mother tells daughter about divorcing husband"
-  - "intermediate"
-  - "C"
-  - |+
-    "Edwards: Describe a memory when you felt independent and empowered.
-    Allen: I think the most empowered I've ever felt in my life was when my philandering husband told me he was going to work and I suddenly realized he'd gone to be with his girlfriend. I went to where she was staying, and found his car parked in front of her house, got a great big rock about as big as a bowling ball from somebody's garden, and heaved it through the back window of his car.
-
-    That was wonderful. It felt great. And then I started divorce proceedings.
-
-    Years later he called.. he sent me a message somehow ..."
-
-  - "Allen|Edwards|empowered|philandering|heaved|proceedings|Alaska|schlepped"
--
-  - "allen"
-  - "Mother tells daughter about divorcing husband"
-  - "intermediate"
-  - "B"
-  - |+
-
-    "... and told me that he still had some stuff of mine--books and things--that if I was ever traveling in Alaska, I should stop by and pick them up. And I was doing a business trip to Alaska, so I went up there, made an appointment, went to see him in his office, and he handed me a very heavy box, and said 'There's a lot of heavy stuff--books and stuff--in there'. And so I dragged it and schlepped it through airports all the way home. God, it was heavy. And then I got home and opened it up and, nothing in it but that rock. Which he had saved all those years."
-
-  - "Allen|Edwards|empowered|philandering|heaved|proceedings|Alaska|schlepped"
--
-  - "allen"
-  - "Mother tells daughter about divorcing husband"
-  - "intermediate"
-  - "D"
-  - |+
-
-    "... and told me that he still had some stuff of mine--books and things--that if I was ever traveling in Alaska, I should stop by and pick them up. And I was doing a business trip to Alaska, so I went up there, made an appointment, went to see him in his office, and he handed me a very heavy box, and said 'There's a lot of heavy stuff--books and stuff--in there'. And so I dragged it and schlepped it through airports all the way home. God, it was heavy. And then I got home and opened it up and, nothing in it but that rock. Which he had saved all those years."
-
-  - "Allen|Edwards|empowered|philandering|heaved|proceedings|Alaska|schlepped"
+  - 35
 
 -
   - ward
