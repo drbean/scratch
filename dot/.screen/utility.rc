@@ -1,5 +1,0 @@
-screen
-stuff "v^M"
-stuff ":e "
-screen
-stuff "svn st -q^M svn log -vr BASE:HEAD^M"

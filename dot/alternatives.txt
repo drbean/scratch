@@ -1,2 +1,0 @@
-alternatives --install /usr/bin/v v /usr/bin/vim 50
-
