@@ -386,6 +386,85 @@ students at college or for students working alone to learn the words they most
 needed. The sublists are ordered such that the words in the first sublist are
 the most frequent words and those in the last sublist are the least frequent.
 
+## The history of IMRAD in medical journals {.allowframebreaks}
+
+authored
+authors
+briefly
+contributed
+editors
+evolved(x2)
+format(x2)
+global
+internal
+interpreted
+investigation
+journal(x2)
+journals(x2)
+majority
+medical(x3)
+method
+methods(x2)
+norms
+objective
+overall
+period(x2)
+published
+randomly
+selected
+structure(x7)
+structured
+style(x4)
+theory
+
+Medical articles [1]____ from letters with a simple descriptive [2]____ 400 years ago to a standardized form now known as introduction, [3]____ , results, and discussion (IMRAD). The speed at which this [4]____ began to be used and the period it became standard in medicine is not well established. This study proposes to determine the [5]____ in time during which IMRAD [6]____ became the most common form of [7]____ scientific writing.
+
+Methods: The frequency of articles following the IMRAD [8]____ was measured from 1935 to 1985 in a [9]____ [10]____ sample of articles [11]____ in four leading [12]____ in [13]____ medicine: the British [14]____ [15]____ , JAMA, The Lancet, and the New England [16]____ of Medicine.
+
+authored
+authors
+briefly
+contributed
+editors
+evolved(x2)
+format(x2)
+global
+internal
+interpreted
+investigation
+journal(x2)
+journals(x2)
+majority
+medical(x3)
+method
+methods(x2)
+norms
+objective
+overall
+period(x2)
+published
+randomly
+selected
+structure(x7)
+structured
+style(x4)
+theory
+
+Results: The IMRAD [17]____ , in those [18]____ , began to be used in the 1940s. In the 1970s, it reached 80% and, in the 1980s, was the only pattern adopted in original papers.
+
+Conclusions: Although recommended since the beginning of the twentieth century, the IMRAD [19]____ was adopted as a [20]____ only in the 1970s. The influence of other disciplines and the recommendations of [21]____ are among the facts that [22]____ to [23]____ adhering to it.
+
+## More on the history of IMRAD in medical journals {.allowframebreaks}
+
+Since its origin in 1665, the scientific paper has been through many changes. Although during the first two centuries its form and [24]____ were not standardized, the letter form and the experimental report coexisted. The letter was usually single [25]____ , written in a polite [26]____ , and addressed several subjects at the same time . The experimental report was purely descriptive, and events were often presented in chronological order. It [27]____ to a more [28]____ form in which methods and results were incipiently described and [29]____ , while the letter form disappeared . [30]____ description increasingly developed during the second half of the nineteenth century , and an [31]__________ organization known as [32]__________ " ---experiment ---discussion" appeared. In the early twentieth century, contemporary [33]______ began to be standardized with a decreasing use of the literary [34]________ . Gradually, in the course of the twentieth century, the formal established introduction, [35]____________ , results, and discussion (IMRAD) [36]______________ was adopted .
+
+However, neither the rate at which the use of this [37]________ increased nor the point at which it became the standard for today's [38]__________ scientific writing is well established. The main [39]______________ of this [40]______________________ is to discover when this [41]________ was definitively adopted. Also, to have a [42]________ idea of the articles published during the studied [43]__________ , articles written without the IMRAD [44]______________ will be [45]__________ described.
+
+## The history of IMRAD in medical journals--the original article
+
+- [The introduction, methods, results, and discussion (IMRAD) structure: a fifty-year survey ](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC442179/)
+
+
 ## Procedure: pre-test post-test
 
 Pretest: Homework Week 6 translate 180 words into Chinese
@@ -792,7 +871,9 @@ answers.
 	That is only one meaning, and probably not the most important one.
 
 	In any case, this will be regarded as the right answer in the exam. All others 
-	will be regarded as incorrect. Sorry.
+	will be regarded as incorrect, even if they are actually correct
+	
+	Do you want to change any of these translations. Report.
 
 ## Youtube self-introductions
 
