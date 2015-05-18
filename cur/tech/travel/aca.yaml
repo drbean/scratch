@@ -1,0 +1,269 @@
+---
+field:
+  - exercise
+  - head
+  - answer
+  - sublist
+V0041055:
+
+  earthquake                : 地震
+  flood                     : 洪水
+  disaster                  : 災難
+  infectious disease        : 傳染病
+  thief                     : 小偷
+  medicine                  : 藥
+  crackup                   : 裂了
+  culture                   : 文化
+  robbery                   : 搶劫
+  storm                     : 風暴
+  illness                   : 疾病
+  virus                     : 病毒
+  pathogen                  : 病原
+  currency                  : 貨幣
+  abrupt                    : 突然
+  map                       : 地圖
+  accident insurance        : 意外傷害保險
+  lodging                   : 住宿
+  baggage                   : 行李
+  passport                  : 護照
+  emergency exit            : 緊急出口
+  missing                   : 遺失的
+  crime syndicate           : 犯罪集團
+  sanitation                : 衛生
+  traffic regulations       : 交通規則
+  traffic safety            : 行車安全
+  personal safety           : 人身安全
+  public security           : 公共安全
+  global positioning system : 全球定位系統
+  contact                   : 聯絡
+
+V0041064:
+
+  destination               : 目的地
+  journey                   : 旅程
+  travel agent              : 旅行社
+  route                     : 路線
+  take off                  : 起飛
+  hostel                    : 旅館
+  cruise                    : 巡航
+  excursion                 : 遠足
+  sightseeing               : 觀光
+  self-catering holiday     : 自助式度假
+  package holiday           : 包假期
+  minor road                : 輕微道路
+  lane                      : 車道
+  coach station             : 長途汽車站
+  railway station           : 火車站
+  underground               : 地下
+  subway                    : 地鐵
+  port                      : 港
+  sail                      : 帆
+  board                     : 板
+  set off                   : 掀起
+  voyage                    : 航程
+  hitch-hike                : 順利加息
+  departure lounge          : 候機室
+  gate                      : 門
+  runway                    : 跑道
+  cabin crew                : 機組人員
+  immigration officer       : 移民官
+  control tower             : 控制塔
+  cockpit                   : 座艙
+  trolley                   : 手推車
+
+V9741022:
+
+  lobby                     : 前廳
+  luggage                   : 行李
+  rental                    : 出租
+  purpose                   : 目的
+  payphone                  : 公用電話
+  credit card               : 信用卡
+  sales                     : 銷售
+  return                    : 回報
+  sail                      : 帆
+  tax                       : 稅
+  restroom                  : 衛生間
+  tickets                   : 門票
+  toilet                    : 馬桶
+  station                   : 站
+  tips                      : 技巧
+  tour                      : 遊
+  tourist                   : 遊客
+  package                   : 包
+  passenger                 : 乘客
+  map                       : 地圖
+  airplane                  : 飛機
+  bus stop                  : 公共汽車站
+  gift                      : 禮物
+  hotel                     : 飯店
+  ID                        : 身份證
+  life jacket               : 救生衣
+  overweight                : 超重
+  visit                     : 訪問
+  weekend                   : 週末
+  weather                   : 天氣
+  gate                      : 門
+  souvenir                  : 紀念品
+
+V0041046:
+
+  passport                  : 護照       
+  lobby                     : 前廳       
+  boarding gate             : 登機口     
+  declare                   : 聲明       
+  luggage                   : 行李       
+  check-in                  : 報到       
+  platform                  : 平台       
+  tickets                   : 門票       
+  ferry                     : 渡船       
+  station                   : 站         
+  parking lot               : 停車場     
+  garage                    : 車庫       
+  passenger                 : 乘客       
+  public transportation     : 公共交通   
+  reception                 : 招待會     
+  reservation               : 預訂       
+  sail                      : 帆         
+  terminal                  : 終奌站     
+  visa                      : 簽證       
+  arrival                   : 到達       
+  carrier                   : 運輸公司
+  claim tag                 : 要求標籤   
+  suite                     : 套房       
+  bus stop                  : 公共汽車站 
+  hallway                   : 門廳       
+  carousel                  : 圓盤傳送帶 
+  customs                   : 海關       
+  attendant                 : 服務員     
+  economy                   : 經濟       
+  round-trip                : 往返       
+  destination               : 目的地     
+
+# 護照
+# 前廳
+# 登機口
+# 聲明
+# 行李
+# 報到
+# 平台
+# 門票
+# 渡船
+# 站
+# 停車場
+# 車庫
+# 乘客
+# 公共交通
+# 招待會
+# 預訂
+# 帆
+# 終奌站
+# 簽證
+# 到達
+# 支架
+# 要求標籤
+# 套房
+# 公共汽車站
+# 門廳
+# 圓盤傳送帶
+# 海關
+# 服務員
+# 經濟
+# 往返
+# 目的地
+# 
+# 前廳
+# 行李
+# 出租
+# 目的
+# 公用電話
+# 信用卡
+# 銷售
+# 回報
+# 帆
+# 稅
+# 衛生間
+# 門票
+# 馬桶
+# 站
+# 技巧
+# 遊
+# 遊客
+# 包
+# 乘客
+# 地圖
+# 飛機
+# 公共汽車站
+# 禮物
+# 飯店
+# ID
+# 救生衣
+# 超重
+# 訪問
+# 週末
+# 天氣
+# 門
+# 紀念品
+# 
+# 目的地
+# 旅程
+# 旅行社
+# 路線
+# 起飛
+# 旅館
+# 巡航
+# 遠足
+# 觀光
+# 自助式度假
+# 包假期
+# 輕微道路
+# 車道
+# 長途汽車站
+# 火車站
+# 地下
+# 地鐵
+# 港
+# 帆
+# 板
+# 掀起
+# 航程
+# 順利加息
+# 候機室
+# 門
+# 跑道
+# 機組人員
+# 移民官
+# 控制塔
+# 座艙
+# 手推車
+# 
+# 地震
+# 洪水
+# 災難
+# 傳染病
+# 賊
+# 藥
+# 裂了
+# 文化
+# 搶劫
+# 風暴
+# 疾病
+# 病毒
+# 病原
+# 貨幣
+# 突兀
+# 地圖
+# 意外傷害保險
+# 住宿
+# 行李
+# 護照
+# 緊急出口
+# 失踪
+# 黑社會性質組織罪
+# 衛生
+# 交通規則
+# 行車安全
+# 人身安全
+# 公安
+# 全球定位系統
+# 聯繫
