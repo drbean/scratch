@@ -6,22 +6,22 @@ field:
   - sublist
 1:
   analyse: 分析
-  approach: 途徑
+  approach: 接近
   area: 區域
   assess: 評估
   assume: 假設
   authority: 權威
   available: 可用的
-  benefit: 得益
+  benefit: 利益
   concept: 概念
-  consist: 由
+  consist: 組成
   constitute: 構成
   context: 上下文
   contract: 合同
   create: 創建
   data: 數據
-  define: 確定
-  derive: 派生
+  define: 定義
+  derive: 取得
   distribute: 分配
   economy: 經濟
   environment: 環境
@@ -31,7 +31,7 @@ field:
   export: 出口
   factor: 因素
   finance: 金融
-  formula: 公式
+  formula: 規則
   function: 功能
   identify: 鑒定
   income: 收入
@@ -57,10 +57,10 @@ field:
   respond: 響應
   role: 角色
   section: 部分
-  sector: 扇形
+  sector: 部門
   significant: 顯著
   similar: 類似
-  source: 源
+  source: 來源
   specific: 具體
   structure: 結構
   theory: 理論
@@ -94,7 +94,7 @@ field:
   feature: 特點
   final: 最終
   focus: 集中
-  impact: 碰撞
+  impact: 影響
   injure: 傷害
   institute: 研究所
   invest: 投資
@@ -113,7 +113,7 @@ field:
   range: 範圍
   region: 地區
   regulate: 調節
-  relevant: 相應
+  relevant: 有關的
   reside: 居住
   resource: 資源
   restrict: 限制
@@ -147,7 +147,7 @@ field:
   demonstrate: 演示
   document: 文件
   dominate: 主宰
-  emphasis: 重點
+  emphasis: 強調
   ensure: 確保
   exclude: 排除
   framework: 骨架
@@ -156,7 +156,7 @@ field:
   immigrate: 移民
   imply: 暗示
   initial: 初始
-  instance: 例
+  instance: 例子
   interact: 相互作用
   justify: 辯解
   layer: 層
@@ -182,8 +182,8 @@ field:
   specify: 指定
   sufficient: 足夠
   task: 任務
-  technical: 技術
-  technique: 技術
+  technical: 技術的
+  technique: 技巧
   technology: 技術
   valid: 有效
   volume: 量
