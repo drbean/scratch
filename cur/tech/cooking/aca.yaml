@@ -1,0 +1,185 @@
+---
+field:
+  - exercise
+  - head
+  - answer
+  - sublist
+V0041015:
+  barbecue:                   燒烤
+  broil:                      烤
+  carve:                      雕刻
+  chop:                       剁
+  crush:                      粉碎
+  fry:                        炒
+  gel:                        膠化
+  grate:                      摩擦
+  gratin:                     奶汁
+  grease:                     油脂
+  grill:                      烤架
+  knead:                      揉
+  measure:                    測量
+  melt:                       溶解
+  microwave:                  用微波爐熱
+  mince:                      剁碎
+  parboil:                    先煮成半熟
+  peel:                       削去
+  pinch:                      一少量
+  pit:                        坑
+  pour:                       倒
+  roast:                      烤
+  saute:                      炒香
+  scramble:                   炒
+  sear:                       燒烤
+  serve:                      服務
+  shell:                      外殼
+  simmer:                     煨
+  steam:                      蒸汽
+  weigh:                      衡量
+  whip:                       鞭
+V0041046:
+  bake:                       烘
+  baste:                      繃
+  blend:                      使混和
+  boil:                       熬
+  braise:                     燴
+  brew:                       釀
+  combine:                    結合
+  cooker:                     炊具
+  cut:                        切
+  dough:                      生麵團
+  drain:                      排出
+  mash:                       搗碎
+  mix:                        混合
+  oven:                       烤箱
+  pot:                        鍋
+  pre-cook:                   預煮
+  pressure-cook:              以高壓烹調
+  refresh:                    使清涼
+  sauce:                      醬
+  saute:                      炒香
+  season:                     季節
+  shave:                      刮鬍子
+  slice:                      片
+  stir:                       攪動
+V0041058:
+  all-purpose flour:          通用麵粉
+  arrowroot flour:            藕粉
+  baking powder:              發酵粉
+  bread:                      麵包
+  breadcrumbs:                麵包屑
+  cooked rice flour:          煮熟的米粉
+  cornstarch:                 玉米澱粉
+  cream of tartar:            酒石
+  custard powder:             吉士粉
+  fried glutinous rice flour: 炒糯米粉
+  gluten flour:               筋麵粉
+  low protein flour:          低蛋白粉
+  mungbean flour:             綠豆粉
+  pastry cream:               酥皮奶油
+  potassium carbonate:        碳酸鉀
+  potato flour:               馬鈴薯粉
+  powdered baking ammonia:    粉烘焙氨
+  rice flour:                 米粉
+  self-raising flour:         自發麵粉
+  sweet potato flour:         地瓜粉
+  sweet rice flour:           糯米粉
+  tapioca flour:              木薯粉
+  toast:                      烤麵包
+  vanilla pod:                香草莢
+  water chestnut flour:       菱角粉
+  wheat germ:                 小麥胚芽
+  wheat gluten:               小麥麵筋
+  wheat starch:               小麥澱粉
+  whole wheat flour:          全麥麵粉
+  yeast:                      酵母
+  yellow cornmeal:            黃玉米麵
+
+# 燒烤
+# 烤
+# 雕刻
+# 斬
+# 粉碎
+# 炒
+# 凝膠
+# 爐排
+# 奶汁
+# 油脂
+# 烤架
+# 揉
+# 測量
+# 熔
+# 微波
+# 剁碎
+# parboil
+# 果皮
+# 掐
+# 坑
+# 倒
+# 烤
+# 炒香
+# 爭奪
+# 瘢痕
+# 服務
+# 外殼
+# 煨
+# 蒸汽
+# 衡量
+# 鞭
+# V0041046：
+# 烘
+# 繃
+# 混合
+# 熬
+# 燴
+# 釀
+# 結合
+# 灶
+# 切
+# 生麵團
+# 排水
+# 搗碎
+# 混合
+# 烤箱
+# 果皮
+# 鍋
+# precook
+# 壓煮
+# 刷新
+# 醬
+# 炒香
+# 季節
+# 刮鬍子
+# 片
+# 轟動
+# V0041058：
+# 通用麵粉
+# 藕粉
+# 發酵粉
+# 麵包
+# 麵包屑
+# 煮熟的米粉
+# 玉米澱粉
+# 酒石
+# 吉士粉
+# 炒糯米粉
+# 筋麵粉
+# 低蛋白粉
+# 綠豆粉
+# 酥皮奶油
+# 碳酸鉀
+# 土豆粉
+# 粉烘焙氨
+# 米粉
+# 自發麵粉
+# 地瓜粉
+# 糯米粉
+# 木薯粉
+# 烤麵包
+# 香草莢
+# 菱角粉
+# 小麥胚芽
+# 小麥麵筋
+# 小麥澱粉
+# 全麥麵粉
+# 酵母
+# 黃玉米麵
