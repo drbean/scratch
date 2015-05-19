@@ -34,6 +34,12 @@ topic:
     intro: There are both wrong things and right things happening in the world. What is the right way for us to act to do good and not to do wrong?
     story:
       -
+        id: aid
+        title: Aid--Good or bad?
+        blurb: |
+          <a href="http://en.wikipedia.org/wiki/Dambisa_Moyo">Dambisa Moyo</a>, an African economist, argues that aid to Africa has been bad.
+        comment: Play or download a <a href=" http://learningenglish.voanews.com/content/international-aid-for-the-horn-of-africa-133038893/117067.html">VOA broadcast about aid in Africa</a> and listen from 12:07 to some problems. Then listen to a student question Bill Gates, a major aid-giver to Africa with the <a href="http://en.wikipedia.org/wiki/Bill_%26_Melinda_Gates_Foundation">Bill and Melinda Gates Foundation</a> about <a href="https://www.youtube.com/watch?v=5utDdxveaJc">his views of Dambisa Moyo</a>.
+      -
         id: refugees
         title: Who will help the refugees?
         blurb: |
@@ -51,6 +57,12 @@ topic:
         blurb: |
           The Communication Strategies book talks about money, what you can do with it, and whether money is good, or bad. Listen to Gillian again, on a soundfile on <a href=" http://ec.must.edu.tw">http://ec.must.edu.tw</a>, say that women have the right to choose any job they like to make money. Some people will disagree.
         comment: How do you feel about a woman going on a date for money? Do you think it is immoral to be an escort? Or is it OK for a woman to go on a date and be paid for her time? Is there nothing morally wrong with being an escort? We will debate this topic in class.
+      -
+        id: ideology
+        title: The economic role of government
+        blurb: |
+          Listen to 2 people discuss <a href="http://en.wikipedia.org/wiki/Unemployment">unemployment</a> and the role of government. They disagree because of their different political philosophies, <a href="http://en.wikipedia.org/wiki/Communism">communism</a>, <a href="http://en.wikipedia.org/wiki/Socialism">socialism</a>, and <a href="http://en.wikipedia.org/wiki/Capitalism">capitalism</a>. And listen to <a href="http://en.wikipedia.org/wiki/English_as_a_Second_Language_Podcast">Jeff McQuillan</a> explain their dialogue.
+        comment: The soundfile is at <a href="http://www.eslpod.com/website/show_podcast.php?issue_id=11812486">http://www.eslpod.com/website/show_podcast.php?issue_id=11812486</a>.
   -
     id: technology
   -
