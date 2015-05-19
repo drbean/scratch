@@ -191,6 +191,12 @@ topic:
         title: Memorial Day memories
         blurb: Last week's story about the US Army lieutenant killed in Iraq. His father <a href="http://www.npr.org/templates/story/story.php?storyId=104389637">describes</a> accidentally meeting the trauma nurse who prepared his body for viewing at a Memorial Day ceremony.
         comment: The father placed a <a href="http://images.google.com/search?tbm=isch&hl=en&source=hp&biw=624&bih=611&q=lei&btnG=Search+Images&gbv=2&aq=f&aqi=g10&aql=&oq=">lei</a> around her neck. <a href="http://en.wikipedia.org/wiki/Lei_(Hawaii)">Giving a lei</a> is a Hawaiian custom.
+      -
+        id: harllee
+        title: A chaplain at war
+        blurb: |
+          A <a href="http://www.google.com/search?q=chaplain&num=30">chaplain</a> is a religious person who cares for the spiritual needs of soldiers at war, or people in other non-religious organizations. Bob Harllee describes being a <a href="http://www.npr.org/templates/story/story.php?storyId=5430603">chaplain in Vietnam</a>.
+        comment: The other disasters we discussed were a plane crash and a hurricane, or <a href="http://www.google.com/search?q=acts%20of%20god&num=30">Acts of God</a>. War, on the other hand, is the Work of Man.
   -
     id: disease
     title: Coping with disease
@@ -292,6 +298,30 @@ topic:
         blurb: |
           Listen to <a href=http://signal.baldwincity.com/photos/2006/jun/22/10002/>Star Novak</a> talk about <a href=http://www.youtube.com/watch?v=DO4EciJgVD8>falling in love with flying,</a> a condition many Americans have, in <a href=http://www.youtube.com/watch?v=G-kcF89MHNc&feature=related>Kansas City</a>. See <a href=http://www.airliners.net</a> or <a href=http://www.smilinjack.com>http://www.smilinjack.com</a>. She is talking about the <a href=http://en.wikipedia.org/TWA>TWA</a> <a href=http://en.wikipedia.org/wiki/Lockheed_Constellation>Constellation</a>, in both of which <a href=http://en.wikipedia.org/wiki/Howard_Hughes>Howard_Hughes</a> had a hand.
         comment: Note the <a href=http://www.youtube.com/t/captions_about>closed captions, CC</a> on the Star Novak sound file. There is also a Chinese translation. Unfortunately (heh-heh), there are many errors in it.
+  -
+    id: crime
+    title: Crime--Offenders, Victims, the Police, the Courts
+    intro: No crime story is a good story, but for most people, crime stories are also fascinating, compelling, and hard to ignore.
+    story:
+      - 
+        id: blackh
+        title: Father reflects on murder of adopted daughter
+        blurb: |
+          A religious man talks about <a href="http://www.npr.org/templates/story/story.php?storyId=18791726">his murdered daughter and the man who murdered her.</a>
+        comment: Read <a href="http://www.willsworld.com/~mvfhr/whatcanlovedo.htm">an account of the event.</a>. A pastor claims, <a href="http://parsippanyumc.com/blog/?p=2194">"Black regards Ivan Simpson, the nurderer, as his friend."</a>
+
+      -
+        id: abath
+        title: Man remembers involvement in art theft
+        blurb: |
+          <a href="http://politicalmoll.com/author/ra/">Rick Abath</a> talks about <a href="http://storycorps.org/podcast">his involvement in the biggest art theft ever</a>. Scroll down to Storycorps 419: I shall be released. Or you can download the MP3 file at <a href="http://web.nuu.edu.tw/~greg/crime/StoryCorps_Podcast_419_Abath.mp3">http://web.nuu.edu.tw/~greg/crime/StoryCorps_Podcast_419_Abath.mp3</a>.
+        comment: Listen for the vocabulary: <a href="http://images.google.com/search?q=jam+band&num=100">jam band</a>, fanny pack: <a href="http://en.wikipedia.org/wiki/Fanny_pack">wikipedia definition</a>, <a href="http://www.urbandictionary.com/define.php?term=fanny+pack">urbandictionary definition</a>.
+      -
+        id: carlos-rocha
+        title: Prisoner regrets killing of other inmate
+        blurb: |
+          Carlos Rocha <a href="http://www.npr.org/2014/05/16/312827317/brother-s-murder-sparks-inmate-to-re-think-his-own-past">tells</a> how, just before his release, he killed another inmate. Then, his brother was murdered just before his release. This murder of his brother and the pain he felt as a result caused him to think of the pain the family of the man he killed must have felt, too. Now, he regrets killing the other inmate.
+        comment: Rocha doesn't say it, but these two murders were probably part of a program of revenge organized by prisoners grouped into gangs. See the account of "Bad News Lists" in the <a href="http://en.wikipedia.org/wiki/Prison_violence">Wikipedia article on prison violence</a>.
       -
         id: pigott
         title: Judge's relationship with criminal
@@ -311,12 +341,6 @@ topic:
           <li><a href="http://www.youtube.com/watch?v=kz2ZM3eR-nQ">Ferrigno on Night Court</a></li>
           <li><a href="http://www.youtube.com/watch?v=S6lm__xmapQ">Night Court - First appearance of Bob & June Wheeler</a></li>
           </ul>
-      -
-        id: harllee
-        title: A chaplain at war
-        blurb: |
-          A <a href="http://www.google.com/search?q=chaplain&num=30">chaplain</a> is a religious person who cares for the spiritual needs of soldiers at war, or people in other non-religious organizations. Bob Harllee describes being a <a href="http://www.npr.org/templates/story/story.php?storyId=5430603">chaplain in Vietnam</a>.
-        comment: The other disasters we discussed were a plane crash and a hurricane, or <a href="http://www.google.com/search?q=acts%20of%20god&num=30">Acts of God</a>. War, on the other hand, is the Work of Man.
   -
     id: katrina
     title: Hurrican Katrina
@@ -618,7 +642,7 @@ topic:
         id: ward
         title: The Divorce Ranch/Motel
         blurb: |
-          Sisters Robbie McBride and Beth Ward <a href=http://www.npr.org/templates/story/story.php?storyId=128545233>tell stories</a> from a <a href="http://en.wikipedia.org/wiki/Reno">Reno</a> <a href="http://www.slate.com/id/2261131/pagenum/all/">divorce ranch</a>, which was a hotel for people waiting for a <a href="http://www.google.com/search?q=%22quickie%20divorce%22&num=30">"quickie divorce"</a> in the state of Nevada in the USA, like <a href="http://images.google.com/search?tbm=isch&hl=en&source=hp&biw=797&bih=740&q=divorce+ranch&gbv=2&oq=divorce+ran&aq=0S&aqi=g-S2g-sS1g-mS1&aql=&gs_sm=e&gs_upl=726l5442l0l9714l11l11l0l2l2l0l171l927l5.4l9l0#hl=en&gbv=2&tbm=isch&sa=1&q=lazy+a+guest+ranch&pbx=1&oq=lazy+a+guest+ranch&aq=f&aqi=&aql=&gs_sm=e&gs_upl=768642l775247l0l775700l30l21l0l9l0l2l169l1120l5.6l12l0&bav=on.2,or.r_gc.r_pw.&fp=1c2d68bb305ba4a2&biw=797&bih=740">Lazy A Guest Ranch</a>, and the <a href="http://www.roadsidepeek.com/roadusa/southwest/nevada/nvmotel/nvrenomotel/silverstatelodge/index.htm">Silver State Lodge</a> motel, the place that Patricia Klos's parents ran. You can also download the <a href="http://media.storycorps.org/wordpress/wp-content/uploads/listen/audio/ward.mp3">ward</a> and <a href="http://media.storycorps.org/listen/audio/klos.mp3">klos</a> files.
+          Sisters Robbie McBride and Beth Ward <a href=http://www.npr.org/templates/story/story.php?storyId=128545233>tell stories</a> from a <a href="http://en.wikipedia.org/wiki/Reno">Reno</a> <a href="http://www.slate.com/id/2261131/pagenum/all/">divorce ranch</a>, which was a hotel for people waiting for a <a href="http://www.google.com/search?q=%22quickie%20divorce%22&num=30">"quickie divorce"</a> in the state of Nevada in the USA, like <a href="http://images.google.com/search?tbm=isch&hl=en&source=hp&biw=797&bih=740&q=divorce+ranch&gbv=2&oq=divorce+ran&aq=0S&aqi=g-S2g-sS1g-mS1&aql=&gs_sm=e&gs_upl=726l5442l0l9714l11l11l0l2l2l0l171l927l5.4l9l0#hl=en&gbv=2&tbm=isch&sa=1&q=lazy+a+guest+ranch&pbx=1&oq=lazy+a+guest+ranch&aq=f&aqi=&aql=&gs_sm=e&gs_upl=768642l775247l0l775700l30l21l0l9l0l2l169l1120l5.6l12l0&bav=on.2,or.r_gc.r_pw.&fp=1c2d68bb305ba4a2&biw=797&bih=740">Lazy A Guest Ranch</a>, and the <a href="http://www.roadsidepeek.com/roadusa/southwest/nevada/nvmotel/nvrenomotel/silverstatelodge/index.htm">Silver State Lodge</a> motel, the place that Patricia Klos's parents ran. You can also download the <a href="http://cdn.storycorps.org/wordpress/wp-content/uploads/ward.mp3">ward</a> and <a href="http://cdn.storycorps.org/wordpress/wp-content/uploads/klos.mp3">klos</a> files.
 
         comment: |
           With the liberalization of laws in other states, Nevada is now no longer the "divorce capital" of the United States. <br>
@@ -633,7 +657,7 @@ topic:
         id: goetz
         title: Marriage not always pretty, Mom tells son
         blurb: |
-          A mother tells her 11-year-old son about <a href=http://www.storycorps.org/wordpress/wp-content/uploads/listen/audio/goetz.mp3>meeting his dad</a> when she was 18. A romantic start to a 23-year relationship, but their marriage has not always been good. They were separated for 2 years, and she thought of getting divorced. Read the <a href=http://www.npr.org/templates/story/story.php?storyId=101507281>NPR write-up</a>.
+          A mother tells her 11-year-old son about meeting his dad when she was 18. A romantic start to a 23-year relationship, but their marriage has not always been good. They were separated for 2 years, and she thought of getting divorced. Listen at and read the <a href=http://www.npr.org/templates/story/story.php?storyId=101507281>NPR write-up</a>.
         comment: | 
           What do you think? PJ Goetz is/was a teacher and writer. She has a website, <a href="http://tampawithkids.com">Tampa with kids</a> about things to do with kids in the Tampa, Florida area in the US.
       -
