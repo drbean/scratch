@@ -12,7 +12,7 @@ V0041055:
   infectious disease        : 傳染病
   thief                     : 小偷
   medicine                  : 藥
-  crackup                   : 裂了
+  crackup                   : 撞壞
   culture                   : 文化
   robbery                   : 搶劫
   storm                     : 風暴
@@ -57,7 +57,7 @@ V0041064:
   underground               : 地下
   subway                    : 地鐵
   port                      : 港
-  sail                      : 帆
+  sail                      : 帆行
   board                     : 板
   set off                   : 掀起
   voyage                    : 航程
@@ -81,7 +81,7 @@ V9741022:
   credit card               : 信用卡
   sales                     : 銷售
   return                    : 回報
-  sail                      : 帆
+  sail                      : 帆行
   tax                       : 稅
   restroom                  : 衛生間
   tickets                   : 門票
@@ -94,7 +94,7 @@ V9741022:
   passenger                 : 乘客
   map                       : 地圖
   airplane                  : 飛機
-  bus stop                  : 公共汽車站
+  bus stop                  : 公車站
   gift                      : 禮物
   hotel                     : 飯店
   ID                        : 身份證
@@ -108,37 +108,37 @@ V9741022:
 
 V0041046:
 
-  passport                  : 護照       
-  lobby                     : 前廳       
-  boarding gate             : 登機口     
-  declare                   : 聲明       
-  luggage                   : 行李       
-  check-in                  : 報到       
-  platform                  : 平台       
-  tickets                   : 門票       
-  ferry                     : 渡船       
-  station                   : 站         
-  parking lot               : 停車場     
-  garage                    : 車庫       
-  passenger                 : 乘客       
-  public transportation     : 公共交通   
-  reception                 : 招待會     
-  reservation               : 預訂       
-  sail                      : 帆         
-  terminal                  : 終奌站     
-  visa                      : 簽證       
-  arrival                   : 到達       
+  passport                  : 護照
+  lobby                     : 前廳
+  boarding gate             : 登機口
+  declare                   : 聲明
+  luggage                   : 行李
+  check-in                  : 報到
+  platform                  : 平台
+  tickets                   : 門票
+  ferry                     : 渡船
+  station                   : 站
+  parking lot               : 停車場
+  garage                    : 車庫
+  passenger                 : 乘客
+  public transportation     : 公共交通
+  reception                 : 招待會
+  reservation               : 預訂
+  sail                      : 帆行
+  terminal                  : 終奌站
+  visa                      : 簽證
+  arrival                   : 到達
   carrier                   : 運輸公司
-  claim tag                 : 要求標籤   
-  suite                     : 套房       
-  bus stop                  : 公共汽車站 
-  hallway                   : 門廳       
-  carousel                  : 圓盤傳送帶 
-  customs                   : 海關       
-  attendant                 : 服務員     
-  economy                   : 經濟       
-  round-trip                : 往返       
-  destination               : 目的地     
+  claim tag                 : 要求標籤
+  suite                     : 套房
+  bus stop                  : 公共汽車站
+  hallway                   : 門廳
+  carousel                  : 圓盤傳送帶
+  customs                   : 海關
+  attendant                 : 服務員
+  economy                   : 經濟
+  round-trip                : 來回旅行
+  destination               : 目的地
 
 # 護照
 # 前廳
@@ -171,7 +171,7 @@ V0041046:
 # 經濟
 # 往返
 # 目的地
-# 
+#
 # 前廳
 # 行李
 # 出租
@@ -204,7 +204,7 @@ V0041046:
 # 天氣
 # 門
 # 紀念品
-# 
+#
 # 目的地
 # 旅程
 # 旅行社
@@ -236,7 +236,7 @@ V0041046:
 # 控制塔
 # 座艙
 # 手推車
-# 
+#
 # 地震
 # 洪水
 # 災難
