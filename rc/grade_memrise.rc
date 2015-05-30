@@ -1,0 +1,54 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use IO::All;
+use YAML qw/LoadFile DumpFile/;
+use Cwd; use File::Basename;
+use List::Util qw/max sum/;
+
+$_REPL->load_plugin('DumpHistory');
+
+my $dir = basename( getcwd );
+
+use Grades;
+use Grades::Groupwork;
+my $l = League->new( leagues => '/home/drbean/032', id => $dir );
+my $g = Grades->new({ league => $l });
+my $co = Compcomp->new({ league => $l });
+my $cl = $g->classwork;
+my %m = map { $_->{id} => $_ } @{ $l->members };
+my $approach = $l->approach;
+
+my @id=keys %m;
+my $sessions = $l->yaml->{session};
+my $last = max keys %$sessions;
+my $file = $l->yaml->{exams} . "/" . $last . "/g.yaml";
+my $report < io( $file );
+my @g = io( $file )->slurp;
+my ($rank, $number, $name) = (0, 2, 4);
+
+
+
+my (@points, %p, %points, @values, @trueval, %grade);
+push @points, [split /\s+/] for @g;
+$p{$_->[1]} = $_ for @points;
+$points{$_} = {
+	rank => $p{$_}->[$rank]
+	, number => $p{$_}->[$number]
+	, name => $p{$_}->[$name] } for @id;
+$points{$_}->{number} =~ s/,// for @id;
+
+push @values, $points{$_}->{number} for @id;
+push @trueval, grep defined, @values;
+my $median = (sort grep {$_ != 0} @trueval)[ @trueval/2 - 1];
+my $max = max @trueval;
+for ( @id ) {
+	$grade{$_} = 3+$points{$_}->{number}/$median
+		if $points{$_}->{number} <= $median;
+	$grade{$_} = 4 + ($points{$_}->{number} - $median) / ($max - $median)
+		if $points{$_}->{number} > $median;
+	$grade{$_} = 0 if not defined $points{$_}->{number};
+}
+my $av = (sum values %grade) / @trueval;
+DumpFile $file, {grade => \%grade, points => \%points, report => $report}, \%grade;
