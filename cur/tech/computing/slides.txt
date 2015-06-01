@@ -1,0 +1,164 @@
+% 科技英文, or Technical English
+% Computing, smartphones by Dr Bean
+% Mon Mar 16 16:54:12 CST 2015
+
+# Computing, mobile devices
+
+## Homework
+
+Most students are not doing homework
+
+It is likely that students will fail this class.
+
+# Smartphones
+
+## Smartphone criticism
+
+Dr Bean thinks smartphone use is dumbing down a generation. Instead of reading a book or thinking, people are reading email from their friends, looking at pictures of their pets, or watching movies. They should be reading a book, or sleeping!
+
+The only way to escape this is to stop using smartphones or to become the master of the smartphone, taking control of it by programming it. This is difficult, but it makes you smart, not dumb. So it is good for you.
+
+## Smartphones--What are they?
+
+
+3rd-party
+basic_feature
+browsing
+computing
+consumer
+currently
+devices
+digital_camera
+features
+handset
+mobile
+modern
+operating systems
+personal_digital_assistant (PDA)
+powered
+those
+touchscreen
+typically
+unit
+Wi-Fi
+
+A smartphone, or smart phone, is a _____(0) phone with more advanced _____(1) capability and connectivity than _____(2) phones.
+
+Early smartphones _____(3) combined the _____(4) of a mobile phone with _____(5) of another popular _____(6) device, such as a _____(7), a media
+player, a _____(8), or a GPS navigation _____(9). _____(10) smartphones include all of those features plus the features of a _____(11) computer, including web
+_____(12) _____(13) and _____(14) apps.
+
+_____(15), about 90% of _____(16) sales worldwide are for _____(17) _____(18) by Google's Android and Apple's iOS mobile _____(19).
+
+
+## Smartphone history
+
+
+best-selling
+operating systems
+users
+display.
+referred
+Simon
+marketed
+trade
+demonstrated
+prototype
+PDA
+first
+Ericsson
+appeared
+"smartphone"
+sale
+conceptualized
+telephony
+Devices
+
+_____(1) that combined _____(2) and computing were first _____(3) in 1973, and were offered for _____(4) beginning in 1993. The term _____(5) first _____(6) in
+1997, when _____(7) described its GS 88 as one.
+
+The _____(8) mobile phone to incorporate _____(9) features was an IBM _____(10) developed in 1992 and _____(11) that year at and industry _____(12) show. A
+refined version of the product was _____(13) to consumers in 1994 by BellSouth under the name Simon. The _____(14) was the first device that can be
+_____(15) to as a "smartphone". Simon could make and receive cellular phone calls and send and receive faxes and e-mails through a touch screen _____(16).
+
+In the late 1990s, many mobile phone _____(17) carried a separate dedicated PDA device, running early versions of _____(18) such as Palm OS, BlackBerry OS or
+Windows CE/Pocket PC. These would later evolve into mobile OSes.
+
+In 1996, Nokia released the Nokia 9000 which became their _____(19) phone of that time. It was a palmtop computer-style phone combined with a PDA from HP. In early
+prototypes, the two devices were fixed together via a hinge in what became known as a clamshell design. When opened, the display was on the inside top surface and with
+a physical QWERTY keyboard on the bottom. Email and text-based web browsing was provided by the GEOS V3.0 operating system.
+
+In June 1999, Qualcomm released a "CDMA Digital PCS Smartphone" with integrated Palm PDA and Internet connectivity, known as the "pdQ Smartphone".^[12]
+
+In early 2000, the Ericsson R380 was released by Ericsson Mobile Communications,^[13] and was the first device marketed as a "smartphone".^[14] It combined the
+functions of a mobile phone and a personal digital assistant (PDA), supported limited web browsing with a resistive touchscreen utilizing a stylus.^[15]
+
+# Android interface design
+
+## Principles that app designers should understand
+
+- [http://developer.android.com/design/index.html ](http://developer.android.com/design/index.html)
+
+## Statement about importance of Android Design Principles
+
+creativity
+designers
+detailed
+developed
+interests
+principles
+purpose.
+these
+types
+user
+
+_____(1) design principles were _____(2) by and for the Android _____(3) Experience Team to keep users' best _____(4) in mind. For Android developers and _____(5), they continue to underlie the more _____(6) design guidelines for different _____(7) of devices. Consider these _____(8) as you apply your own _____(9) and design thinking. Deviate with _____(10).
+
+## Android Design Principles
+
+Developers are good at writing computer programs, but they are not good at thinking about design and the experience of the app's users. The principles were created by the Android User Experience Team to help developers make their apps useful to users like you.
+
+There a 3 major design principles:
+
+- Enchant me
+- Simplify my life
+- Make me amazing.
+
+Each principle has subprinciples. For example, Enchant me's subprinciples are
+
+- Delight me in surprising ways
+- Real objects are more fun than buttons and menus
+- Let me make it mine
+- Get to know me.
+
+## Enchant Me
+
+
+reach
+previous
+choices
+rather
+preferences
+get
+home
+personal
+make
+satisfying
+cognitive
+touch
+menus
+objects
+powerful
+feeling
+effects
+delight
+
+_____(11) me in surprising ways: Subtle _____(12) contribute to a _____(13) of effortlessness and a sense that a _____(14) force is at hand.
+
+Real _____(15) are more fun than buttons and _____(16): Allow people to directly _____(17) and manipulate objects. It reduces the _____(18) effort and makes it emotionally _____(19).
+
+Let me _____(20) it mine:  People love to add _____(21) touches because it helps them feel at _____(22) and in control.
+
+_____(23) to know me: Learn peoples' _____(24) over time. _____(25) than asking them to make the same _____(26) over and over, place _____(27) choices within easy _____(28).
+
+== The End
