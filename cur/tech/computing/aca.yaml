@@ -8,120 +8,6 @@ field:
   
   
   
-instructions:
-  reset                        : 重置
-  execute                      : 執行
-  command                      : 命令
-  copy-and-paste               : 複製和粘貼
-  terminate                    : 終止
-  reboot                       : 重啟
-interface:
-  command line                 : 命令行
-  tabs                         : 標籤
-  terminal                     : 終端
-  terminal emulator            : 終端仿真器
-  shell                        : 外殼
-  kernel                       : 核心
-  cursor                       : 游標
-  escape sequences             : 轉義序列
-  prompt                       : 提示
-  command parameter            : 命令參數
-  graphical user interface     : 圖形用戶界面
-  preferences                  : 喜好
-  profile                      : 設定檔
-  keyboard shortcuts           : 鍵盤快捷鍵
-  font                         : 字形
-  customize                    : 定制
-  menu                         : 菜單
-  accelerator key              : 快捷鍵
-  zoom                         : 放大
-  reset                        : 重置
-  clear                        : 明確
-  disable                      : 關閉
-  switch                       : 開關
-  detach                       : 分離
-  clone                        : 克隆
-  sidebar                      : 邊欄
-  toolbar                      : 工具欄
-  bookmark                     : 書籤
-  button                       : 鈕
-  option                       : 選項
-  system UI                    : 系統UI
-  navigation                   : 導航
-  notification                 : 通知
-  swipe                        : 刷卡
-  chronological order          : 按時間順序排列
-  drag and drop                : 拖放
-  device status                : 設備狀態
-  display                      : 顯示
-  immersive content            : 身臨其境的內容
-  refresh                      : 刷新
-  share                        : 共享
-  dashboard                    : 儀表盤
-  widget                       : 小工具
-  plugin                       : 插件
-  add-on                       : 附加
-  upgrade                      : 升級
-  update                       : 更新
-  sync                         : 同步
-  mode                         : 模式
-encoding:
-  character                    : 字符
-  encoding                     : 編碼
-  byte                         : 字節
-  bit                          : 位
-  ASCII                        : ASCII碼
-  Unicode                      : 統一碼
-  UTF-8                        : UTF -8
-  Big5                         : BIG5
-  GB18030                      : GB18030
-other:
-  cloud_computing              : 雲計算
-  version_control_system       : 版本控制系統
-  encryption                   : 加密
-networks:
-  TCP                          : TCP
-  packet                       : 包
-  server                       : 服務器
-  client                       : 客戶
-  wireless                     : 無線
-  wi-fi                        : 無線網絡
-  access point                 : 接入點
-  Bluetooth                    : 藍牙
-  broadband connection         : 寬帶連接
-  dial-up connection           : 撥號連接
-  network router               : 網絡路由器
-  land-line phone              : 陸線電話
-phones:
-  ringtone                     : 鈴聲
-  base station                 : 基站
-  unlock                       : 開鎖
-software:
-  operating system             : 操作系統
-  bundled software             : 捆綁軟件
-  public domain                : 公共領域
-  copyright                    : 版權
-  copyleft                     : 公共版權
-  license                      : 許可證
-  open source                  : 開放源始碼
-  wetware                      : 濕件
-  vaporware                    : 霧件
-  GPL                          : GPL
-  Blue Screen of Death         : 藍屏死機
-development methodology:
-  test-driven development      : 測試驅動開發
-  agile development            : 敏捷開發
-  incremental                  : 增量
-  user representative          : 用戶代表
-  waterfall                    : 瀑布
-  iterative                    : 迭代
-  use case                     : 使用情況
-  user story                   : 用戶故事
-  face-to-face communication   : 面對面面對面溝通
-  test harness                 : 測試工具
-  refactor                     : 重構
-  debug                        : 除錯
-  greenfield                   : 綠地
 interface design:
   design principles            : 設計原則
   user experience              : 用戶體驗
@@ -150,11 +36,230 @@ interface design:
   typography                   : 活版印刷
   iconography                  : 意象
   branding                     : 品牌
-hardware:
-  keyboard layout              : 鍵盤佈局
-  SIM card                     : SIM卡
-  device                       : 設備
-  hand-held                    : 手持
-  handset                      : 手機
-  tablet                       : 平板電腦
-  laptop                       : 筆記本電腦
+
+design principles:
+  access                       : 訪問             
+  accessibility                : 無障礙設施       
+  accomplished                 : 完成             
+  acknowledge                  : 承認             
+  act                          : 法案             
+  address                      : 地址             
+  amazing                      : 驚人             
+  analyze                      : 分析             
+  animation                    : 動漫             
+  API                          : 應用程序編程接口 
+  app                          : 應用程序         
+  attribution                  : 歸因             
+  auto                         : 汽車             
+  avoid                        : 避免             
+  awareness                    : 意識             
+  button                       : 鈕               
+  carefully-placed             : 精心放置         
+  checkbox                     : 複選框           
+  chunks                       : 塊               
+  cognitive                    : 認知             
+  compatibility                : 兼容性           
+  confirming                   : 確認             
+  consider                     : 考慮             
+  console                      : 控制台           
+  content                      : 內容             
+  context                      : 上下文           
+  control                      : 控制             
+  creativity                   : 創造力           
+  customizations               : 自定義           
+  defaults                     : 默認             
+  details                      : 詳細信息         
+  deviate                      : 偏離             
+  devices                      : 設備             
+  digestible                   : 消化             
+  discern                      : 辨別             
+  displays                     : 顯示器           
+  distinct                     : 不同             
+  distribute                   : 分發             
+  downloads                    : 下載             
+  effortlessness               : 毫不費力         
+  enabling                     : 啟用             
+  enchant                      : 蠱惑             
+  encouragement                : 鼓勵             
+  engage                       : 從事             
+  entry                        : 輸入             
+  essential                    : 必要             
+  feedback                     : 反饋             
+  field                        : 場               
+  figure                       : 人物             
+  first                        : 第一             
+  fix                          : 確定             
+  focused                      : 重點             
+  force                        : 力               
+  form                         : 形式             
+  frustrating                  : 洩氣             
+  functional                   : 實用             
+  gentle                       : 溫和             
+  gesture                      : 手勢             
+  glow                         : 發光             
+  guidelines                   : 方針             
+  hinder                       : 阻礙             
+  instructions                 : 說明             
+  interrupt                    : 打斷             
+  leveraging                   : 借力             
+  license                      : 許可證           
+  manipulate                   : 操縱             
+  minutiae                     : 細節             
+  modes                        : 模式             
+  multiple                     : 多種             
+  navigation                   : 導航             
+  notifications                : 通知             
+  novices                      : 新手             
+  objects                      : 對象             
+  optional                     : 自選             
+  overwhelmed                  : 不堪重負         
+  patterns                     : 圖案             
+  policy                       : 政策             
+  popup                        : 彈出             
+  preferences                  : 喜好             
+  preview                      : 預覽             
+  privacy                      : 隱私             
+  progress                     : 進度             
+  prompt                       : 提示             
+  provide                      : 提供             
+  pure                         : 純               
+  recovery                     : 恢復             
+  reference                    : 參考             
+  references                   : 參考             
+  restrictions                 : 限制             
+  retain                       : 保留             
+  screen                       : 屏幕             
+  settings                     : 設置             
+  shortcut                     : 捷徑             
+  simplify                     : 簡化             
+  skip                         : 跳躍             
+  sprinkle                     : 灑               
+  stuff                        : 東東             
+  support                      : 支持             
+  swipe                        : 刷卡             
+  tablets                      : 平板電腦         
+  taxing                       : 徵稅             
+  time-sensitive               : 時間敏感         
+  tips                         : 技巧             
+  transitions                  : 轉換             
+  tricks                       : 竅門             
+  UI                           : 用戶接口
+  underlie                     : 背後             
+  undo                         : 復原             
+  upgrading                    : 升級             
+  URLs                         : 網址             
+  well-timed                   : 合拍的           
+  widgets                      : 小部件           
+
+    # 訪問
+    # 無障礙設施
+    # 完成
+    # 承認
+    # 法案
+    # 地址
+    # 驚人
+    # 分析
+    # 動漫
+    # 應用程序編程接口
+    # 應用程序
+    # 歸因
+    # 汽車
+    # 避免
+    # 意識
+    # 鈕
+    # 精心放置
+    # 複選框
+    # 塊
+    # 認知
+    # 兼容性
+    # 確認
+    # 考慮
+    # 控制台
+    # 內容
+    # 上下文
+    # 控制
+    # 創造力
+    # 自定義
+    # 默認
+    # 詳細信息
+    # 偏離
+    # 設備
+    # 消化
+    # 辨別
+    # 顯示器
+    # 不同
+    # 分發
+    # 下載
+    # 毫不費力
+    # 啟用
+    # 蠱惑
+    # 鼓勵
+    # 從事
+    # 輸入
+    # 必要
+    # 反饋
+    # 場
+    # 人物
+    # 第一
+    # 確定
+    # 重點
+    # 力
+    # 形式
+    # 洩氣
+    # 實用
+    # 溫和
+    # 手勢
+    # 發光
+    # 方針
+    # 阻礙
+    # 說明
+    # 打斷
+    # 借力
+    # 許可證
+    # 操縱
+    # 細節
+    # 模式
+    # 多種
+    # 導航
+    # 通知
+    # 新手
+    # 對象
+    # 自選
+    # 不堪重負
+    # 圖案
+    # 政策
+    # 彈出
+    # 喜好
+    # 預覽
+    # 隱私
+    # 進度
+    # 提示
+    # 提供
+    # 純
+    # 恢復
+    # 參考
+    # 參考
+    # 限制
+    # 保留
+    # 屏幕
+    # 設置
+    # 捷徑
+    # 簡化
+    # 跳躍
+    # 灑
+    # 東東
+    # 支持
+    # 刷卡
+    # 平板電腦
+    # 徵稅
+    # 時間敏感
+    # 技巧
+    # 轉換
+    # 竅門
+    # 用戶inferface
+    # 背後
+    # 復原
+    # 升級
+    # 網址
+    # 合拍的
+    # 小部件
