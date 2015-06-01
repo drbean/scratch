@@ -196,6 +196,20 @@ Inertia, resistance
 
 [Centripetal, centrifugal force](https://www.google.com/search?site=&tbm=isch&source=hp&biw=1318&bih=748&q=centripetal+centrifugal+force&oq=centripetal%2C+centri&gs_l=img.3.0.0i24l2.152463.157698.1.160308.19.15.0.4.4.0.91.654.15.15.0....0...1ac.1.40.img..27.43.1505.WO7aDiWQJVc)
 
+# Computing, mobile devices
+
+## Homework
+
+Most students are not doing homework
+
+It is likely that students will fail this class.
+
+## Smartphone criticism
+
+Dr Bean thinks smartphone use is dumbing down a generation. Instead of reading a book or thinking, people are reading email from their friends, looking at pictures of their pets, or watching movies.
+
+The only way to escape this is to stop using smartphones or to become the master of the smartphone, taking control of it by programming it. This is difficult, but it makes you smart, not dumb. So it is good for you.
+
 ## Smartphones
 
 
@@ -220,7 +234,7 @@ typically
 unit
 Wi-Fi
 
-A smartphone, or smart phone, is a _____() phone with more advanced _____(1) capability and connectivity than _____(2) phones.
+A smartphone, or smart phone, is a _____(0) phone with more advanced _____(1) capability and connectivity than _____(2) phones.
 
 Early smartphones _____(3) combined the _____(4) of a mobile phone with _____(5) of another popular _____(6) device, such as a _____(7), a media
 player, a _____(8), or a GPS navigation _____(9). _____(10) smartphones include all of those features plus the features of a _____(11) computer, including web
@@ -272,7 +286,9 @@ In early 2000, the Ericsson R380 was released by Ericsson Mobile Communications,
 functions of a mobile phone and a personal digital assistant (PDA), supported limited web browsing with a resistive touchscreen utilizing a stylus.^[15]
 
 ## Android interface design
-http://developer.android.com/design/index.html
+
+- [http://developer.android.com/design/index.html ](http://developer.android.com/design/index.html)
+
 
 ## 
 Really excited: My own teaching computers, multimedia
