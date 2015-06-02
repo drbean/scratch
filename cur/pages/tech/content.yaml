@@ -56,6 +56,12 @@ topic:
           We now will learn the 120 words from 4 students, using <a href="http://ankisrs.n, or <a href="http://memrise.com">Memrise</a>. But first we need to establish what the base level is.
         comment: To do this, we will guess the meanings (in Chinese) of the words, or if we know them, just write them in.
       -
+        id: computing
+        title: 'Base for learning of 140 computing words from http://developer.android.com'
+        blurb: |
+          We now will learn 140 words about smartphone app design principles from <a href="http://developer.android.com">http://developer.android.com</a>, using <a href="http://ankisrs.net">Anki</a>, or <a href="http://memrise.com">Memrise</a>. But first we need to establish what the base level is.
+        comment: To do this, we will guess the meanings (in Chinese) of the words, or if we know them, just write them in.
+      -
         id: sport
         title: Sports/Fitness sublists: Theory, Activities, Weight training, Sports
         blurb: |
