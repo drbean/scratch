@@ -34,6 +34,15 @@ topic:
         comment: Some words they use: <table border="1" style="width:100%"><tr> <td>down in the dumps<td>feeling miserable or unhappy <tr><td>happy-go-lucky<td>describes someone who doesn't worry about the future <tr><td>satisfaction<td>the good feeling you get when you get something you want <tr><td>a state of mind<td>how someone feels about their life at the present time <tr><td>content<td>feel happy or pleased with the situation <tr><td>materialistic<td>believing money and possessions are the most important things <tr><td>goals<td>things you want to achieve <tr><td>hectic<td>busy, lots of things going on <tr><td>rewarding<td>a feeling of satisfaction and pleasure <tr><td>wiser<td>gained the ability to make good judgements based on life experience <tr><td>comforting<td>making you feel less sad or worried </table>
   -
     id: jobs
+    title: How should we approach the problem of needing money to live?
+    intro: Work is something that is hard to avoid, but which can destroy you. How do you take control of work, and not let work take control of you?
+    story:
+      -
+        id: publishing
+        title: Managing a publishing company
+        blurb: |
+          Listen to Dr Bean <a href="http://web.nuu.edu.tw/~greg/speaking/publishing.mp3">inviting you to be a publishing company manager</a>. Think about the <a href="http://www.huffingtonpost.com/news/the-economics-of-book-publishing/">economics</a> of <a href="http://en.wikipedia.org/wiki/Textbook">textbook publishing</a>.
+        comment: I will put this soundfile on ec.must.edu.tw, if it plays too slowly from 聯合 in 苗栗.
   -
     id: ethics
     title: How should we act toward other people?
