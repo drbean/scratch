@@ -62,6 +62,12 @@ topic:
           We now will learn 140 words about smartphone app design principles from <a href="http://developer.android.com">http://developer.android.com</a>, using <a href="http://ankisrs.net">Anki</a>, or <a href="http://memrise.com">Memrise</a>. But first we need to establish what the base level is.
         comment: To do this, we will guess the meanings (in Chinese) of the words, or if we know them, just write them in.
       -
+        id: computing-test
+        title: Test for learning of 140 app design principle words
+        blurb: |
+          We wrote or guessed the meaning of up to 140 words to do with the ways users interact with apps, things that developers need to think about when writing their apps.
+        comment: Write, or guess the meanings (in Chinese) of the words you got wrong in the pre-test.
+      -
         id: sport
         title: Sports/Fitness sublists: Theory, Activities, Weight training, Sports
         blurb: |
