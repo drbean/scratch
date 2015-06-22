@@ -160,6 +160,17 @@ topic:
           Listen to <a href="https://www.youtube.com/watch?v=1oTkWU00Yfo">Ariel's self-introduction</a> and <a href="https://www.youtube.com/watch?v=pXg2P75kkPo&feature=youtu.be">Simon's self-introduction</a>.
         comment: What 3 things do they both talk about?
   -
+    id: qa
+    title: Question answering
+    intro: Computers can now answer questions
+    story:
+      -
+        id: chat
+        title: Questions, Answers about chat by AFB1J0
+        blurb: |
+          Read the facts about their conversations at <a href="http://web.nuu.edu.tw/~greg/call/chat_facts.txt">http://web.nuu.edu.tw/~greg/call/chat_facts.txt</a>. Turn these facts into questions.
+        comment: Some grammatical questions, the app cannot handle. "Does Mandy 
+  -
     id: dictation
     title: Dictation on the computer
     intro: These books were written between 200 and 100 years ago.
