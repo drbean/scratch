@@ -161,4 +161,153 @@ Let me _____(20) it mine:  People love to add _____(21) touches because it helps
 
 _____(23) to know me: Learn peoples' _____(24) over time. _____(25) than asking them to make the same _____(26) over and over, place _____(27) choices within easy _____(28).
 
-== The End
+
+## Simplify my life's first 4 subprinciples are
+
+Simplify My Life
+
+
+asking
+attention
+brief
+decisions
+digestible
+efficient
+essential
+explain
+guess
+me
+need
+once
+overwhelmed
+sentences
+simple
+teach
+words
+wrong
+
+Keep it _____(1) Use short phrases with _____(2) words. People are likely to skip _____(3) if they're long.
+
+Pictures are faster than _____(4) Consider using pictures to _____(5) ideas. They get people's _____(6) and can be much more _____(7) than words.
+
+Decide for me but let _____(8) have the final say: Take your best _____(9) and act rather than _____(10) first. Too many choices and _____(11) make people unhappy. Just in case you get it _____(12) allow for 'undo'.
+
+Only show what I _____(13) when I need it: People get _____(14) when they see too much at _____(15). Break tasks and information into small, _____(16) chunks. Hide options that aren't _____(17) at the moment, and _____(18) people as they go.
+
+## Simplify my life's second 4 subprinciples are
+
+
+access
+act
+act
+anywhere
+confidence
+create
+distinct
+distinct
+feedback
+focused
+I
+important
+interruption
+lose
+people
+relationships
+upgrading
+
+I should always know where _____(19) am: Give people _____(20) that they know their way around. Make places in your app look _____(21) and use transitions to show _____(22) among screens. Provide _____(23) on tasks in progress.
+
+Never _____(24) my stuff: Save what people took time to _____(26) and let them _____(27) it from _____(28). Remember settings, personal touches, and creations across phones, tablets, and computers. It makes _____(29) the easiest thing in the world.
+
+If it looks the same, it should _____(30) the same: Help people discern functional differences by making them visually _____(31) rather than subtle. Avoid modes, which are places that look similar but _____(32) differently on the same input.
+
+Only interrupt me if it's _____(33): Like a good personal assistant, shield _____(34) from unimportant minutiae. People want to stay _____(35), and unless it's critical and time-sensitive, an _____(37) can be taxing and frustrating.
+
+## Simplify my life's subprinciples are
+
+Simplify My Life
+
+
+
+Keep it brief: Use short phrases with simple words. People are likely to skip sentences if they're long.
+
+Pictures are faster than words: Consider using pictures to explain ideas. They get people's attention and can be much more efficient than words.
+
+Decide for me but let me have the final say: Take your best guess and act rather than asking first. Too many choices and decisions make people unhappy. Just in case you get it wrong, allow for 'undo'.
+
+Only show what I need when I need it: People get overwhelmed when they see too much at once. Break tasks and information into small, digestible chunks. Hide options that aren't essential at the moment, and teach people as they go.
+
+## Simplify my life's subprinciples are
+
+I should always know where I am: Give people confidence that they know their way around. Make places in your app look distinct and use transitions to show relationships among screens. Provide feedback on tasks in progress.
+
+Never lose my stuff: Save what people took time to create and let them access it from anywhere. Remember settings, personal touches, and creations across phones, tablets, and computers. It makes upgrading the easiest thing in the world.
+
+If it looks the same, it should act the same: Help people discern functional differences by making them visually distinct rather than subtle. Avoid modes, which are places that look similar but act differently on the same input.
+
+Only interrupt me if it's important: Like a good personal assistant, shield people from unimportant minutiae. People want to stay focused, and unless it's critical and time-sensitive, an interruption can be taxing and frustrating.
+
+## Make me amazing
+
+
+details
+easier
+easily
+experts
+figure
+gentle
+gesture
+important
+look
+not
+smaller
+smart
+thought
+work
+wrong
+
+Give me tricks that _____(1) everywhere: People feel great when they _____(2) things out for themselves. Make your app _____(3) to learn by following the same patterns as other apps. For example, the swipe _____(4) is a good navigational shortcut.
+
+It's _____(5) my fault: Be _____(6) in how you prompt people to make corrections. They want to feel _____(7) when they use your app. If something goes _____(8), give clear recovery instructions but
+   spare them the technical _____(9).
+
+Sprinkle encouragement: Break complex tasks into _____(10) steps that can be _____(11) accomplished. Give feedback on actions, even if it's just a subtle glow.
+
+Do the heavy lifting for me: Make novices feel like _____(12) by enabling them to do things they never _____(13) they could. For example, combining multiple photo effects in just one step can make ordinary photographs _____(14) amazing.
+
+Make _____(15) things fast: Make the most important feature of your app easy to find and fast to use, like the shutter button in a camera, or the pause button in a music player.
+
+## Google maps is difficult to use
+
+Which of the design principles and subprinciples does it follow? Which doesn't it follow?
+
+# Computing exam--applying the principles we learned
+
+## Downloading and installing Anki
+
+Which groups are the fastest to download and install Anki?
+
+Talk to each other in Chinese but use no resources in Chinese, only English. Searching on google.com.tw is OK, but only links in English can be followed.
+
+- [Anki screen](http://web.nuu.edu.tw/~greg/computing/Screenshot\ from\ 2015-06-22\ 14:19:54.png)
+
+
+## Downloading and installing Mnemosyne
+
+Which groups are the fastest to download and install Mnemosyne?
+
+## Creating a Computing word course on Memrise from the words of the computing baseline at http://web.nuu.edu.tw/~greg/tech/flash/V0041046.txt
+
+Which groups are the fastest to create a course of one of the 3 students words?
+
+- [Camuel's Memrise course](http://web.nuu.edu.tw/~greg/computing/Screenshot\ from\ 2015-06-22\ 14:58:39.png)
+
+## Downloading and installing Nini, Joanne and Willy's decks.
+
+Which groups are the fastest to download and install the decks that Nini, Joanne and Willy shared on http://ankiweb.net?
+
+## Creating an Anki deck of words from the same list used to create the Memrise course and sharing them on Ankiweb
+
+Which groups are the fastest to create and share decks from words they got wrong in the computing pretest?
+
+## The End
