@@ -1,396 +1,0 @@
-Chapter Three
-Methods
-¡@¡@This chapter presents the research method adopted for this study. The study's aim was to investigate vocational high school students¡¦ anxiety, motivation, and attitudes in English learning. This chapter has the following sections: research design, research hypotheses, participants, instruments, procedures, pilot study, data collection and data analysis.
-¡@¡@
-Research Design
-  The study was designed to explore vocational high school students¡¦ anxiety, motivation and attitudes in English learning. Quantitative research methods were used to collect and analyze the data in the study. The framework is shown in Figure 3-1. 
-
-
-
-
-Figure 3-1: The research structure of the study
-Routes of Research Concepts
-Route 1: Explores the differences in learning anxiety with respect to student background variables.
-Route 2: Explores the differences in learning motivation with respect to student background variables.
-Route 3: Explores the differences in learning attitude with respect to student background variables.
-Route 4: Probe the relationship between learning anxiety and learning motivation.
-Route 5: Probe the relationship between learning motivation and learning attitudes.
-Route 6: Probe the relationship between learning anxiety and learning attitudes.
-
-3-1 The Research Design divided the variables being considered into four groups: Background Variables, and Learning 
-Anxiety, Learning Motivation, Learning Attitude Variables. Background Variables were idependent variables. Learning Anxiety, Learning Motivation, and Learning Attitude were result variables. The purpose of the study was to probe the differences Background Variables have on Learning Anxiety, Learning Motivation, and Learning Attitude.   
-
-Data on the variables was collected from students in the form of a questionnaire developed by the author. A pilot study was run and the questionnaire revised on the basis of the results of validity (subject experts' evaluations and factor analysis) and reliability (Cronbach's alpha) tests. The questionnaire was then distributed and data collected. t-tests and a one way ANOVA were run on the data.
-
-Research Hypotheses 
-  According to the purpose of study and research questions, five hypotheses are presented as follows:
-Hypothesis 1: There is no relationship between the English learning anxiety of vocational high school students and their different majors.
-Hypothesis 2: There is no relationship between the English learning motivation of vocational high school students and their different majors.
-Hypothesis 3: There is no relationship between the English learning attitude of vocational high school students and their different majors.  
-Hypothesis 4: There is no relationship between the English learning purposes of vocational high school students and their different majors.  
-Hypothesis 5: There is no relationship between the choice of career as the reason individual vocational high school students are learning English and their different majors.
-Hypothesis 6: There is no relationship between the choice of academic advancement as the reason individual vocational high school students are learning English and their different majors.
-Participants
-  The participants in the study were students of National Chia-yi Industrial Vocational High School .The total participants were 360. The participants in the pilot study were in the departments of Architecture, Automotive Engineering or Comprehensive High School. Males numbered 20 and females 20. The total surveyed in the pilot study numbered about 120.        
-¡@The surveyed students in the formal study were in the departments of Machinery, Technical Drawing, Architecture, Automotive Engineering, or Comprehensive High School. The total surveyed in the formal study numbered about 240.
-
-
-
-
-For Table 3-1 see the Word docx file.
-
-
-Instruments
-¡@A survey was used to investigate the English learning situation of vocational high school students. A questionnaire was developed using sources from the literature and learning observations. The researcher used the survey to collect data.
-   The questionnaire consisted of four parts. The first part sought background information. The second part asked for learning anxiety self reports. The third part was for motivation self reports. The fourth part was self-reported learning attitudes. The researcher adopted items from Hsu (2003). Participants responded to the questionnaire using a five-point Likert scale. The points were, 5 points¡ "strongly disagree," 4 points¡¨ disagree,¡§ 3 points¡§neutral,¡¨2 points ¡§agree,¡§ and 1 point ¡§strongly agree.¡¨ Referenced in its construction were Chu (2006), and Su (2011).
-Pilot study
-Questionnaire:
-¡@The questionnaire consisted of three parts. The first part measured learning anxiety, the second part learning motivation and the third part learning attitudes. The questionnaire was developed by the researcher after consulting the literature. The preliminary draft of the questionnaire included learning anxiety, motivation and attitude scales. Then experts assessed content validity and the instrument was revised to prepare for the pilot study questionnaire survey. The pilot study location was National Chia-yi Industrial Vocational High School.	
-1. Pilot study sample count: The pilot study subjects were from the same or similar population as the formal study
-and were representative of Taiwanese vocational high school students. There were at least 100 ( ¤ý¤å¬ì, 1990). The number surveyed in the pilot study was 120. 
-2. Sampling: The pilot study questionnaire survey depended on convenience sampling of school classes, choosing the pilot study students. Students were males 40 and females 40. The total surveyed numbered about 120 (Table3-1). Each class received 40 copies of the questionnaire. The total number of questionnaires distributed was 120. The invalid questionnaires returned numbered 15. The valid questionnaires represented 87% of the total.
-
-
-For Table 3-2 see the Word docx file.
-
-
-Formal study
-1. Item selection and survey methods
-Items from the pilot study's questionnaire were kept or dropped on the basis of a factor analysis and reliability analysis to test the individuals items' reliability and validity. The suitable items constituted the formal questionnaire. The formal questionnaire was distributed to students in six classes in four departments. The classes each had about 25 males and 15 females, for a total of 40 students in each class. The total number of students surveyed was 240. (Table 3-2)  
-
-
-For Table 3-3 see the Word docx file.
-
-
-2. Research sample and data collection
-The formal study followed the pattern of the pilot study, recycling valid and reliable items from its questionnaire and adding basic background data questions. This data included gender, department, school English course load, English Interest, English learning purpose, College admission plans, and English Learning methods.
-3. Student Variable Analysis
-Gender:
-According to the questionnaire, student¡¦s gender was male 160, 71%; and female 63, 29%.
-Departments:
-The students were divided into 5 groups by department. The Machinery division had about 36 students ¡]16.1%¡^. the Technical Drawing section about 34 students (15.2%), the Architecture division about 39 students (17.4%), the Motor Division 36 students ¡]16.1%¡^. and the Comprehensive High School 78 students (35.2%).
-English course load:
-The students who have 5 periods a week are in the majority, with about 145 students. (65%).
-The students who have 6 a week number 78. (35%)
-English interest:
-The students who are very interested in learning English number 25¡]11.2%¡^.The students who are a little bit interested in learning number 118¡]52. 9%¡^.The students who are not interested in learning English number 59¡]26.4%¡^. The students who are very uninterested in learning English number 21.¡]9.5%¡^.
-English learning purpose:
-Those who seek to promote their competitiveness number about 61 students. ¡]27.3%¡^ Those learning English because it is a parental requirement number 13 students.¡]5.8%¡^ Those learning for the purpose of their careers number 109 students .¡]48.8%¡^ Those learning for school tests number 40 students. ¡]19.1%¡^
-College advancement plans:
-Those who will follow the Exam Admission route number 127. ¡]56.9%¡^ The students who plan to take the Academic Attainments test number 34. ¡]15.2%¡^ The students who seek to enter via Audition number 39 ¡]17.4%¡^Potential College Admission testees number 8. ¡]3.5%¡^The students who will take the Specified Subjects test number 11.¡]4.9%¡^Others number 4¡]2.1%¡^
-English learning outside school
-The students learning English in cram schools number 47.¡]21%¡^The students who read English magazines number 74. ¡]33.1%¡^The students who watch videos in English number 44.¡]19.7%¡^The students who chat with foreigners number 16.¡]7.1%. ¡^Two students have tutors. ¡]0.8%¡^The students who do not have any contact with English outside class number 39.¡]17.9%¡^ One student has some other form of contact with English.¡]0.4%¡^
-Learning anxiety scale 
-Content:
-The sale measures Learning Anxiety, Test Anxiety, and Negative Evaluation Anxiety 
-Respondents and Scoring methods:
-Participants responded to the questionnaire using a five-point Likert scale, with 5 points representing "strongly disagree."4 points¡¨ disagree,¡§ 3 points¡§neutral,¡¨2 points ¡§agree,¡§ and 1 point ¡§strongly agree.¡¨
- Method of development:
-¡@The scale is the instrument used to assess the students' self-perceived language anxiety.
-The literature review provided a basis in theory. The three aspects of anxiety it measures are Learning Anxiety, Test Anxiety, and Negative Evaluation Anxiety. Two experts and five teachers who teach in college and senior high school were asked to provide expert validity analysis. They all had doctoral or master's degrees.      
-  The Learning Motivation Scale is the instrument used to assess the students' self-reported motivation.
-The literature review again provided a basis in theory. Its two sections measure Extrinsic
-Motivation and Intrinsic Motivation. Two experts and five teachers who teach in college and senior high school were asked to provide expert validity analysis. They all had doctoral or master's degrees.
-  The Learning Attitude Scale is the instrument used to assess the students' self-reported attitudes.
-The literature review again provided a basis in theory. Its two sections measure Extracurricular and School Curriculum attitudes. Two experts and five teachers who teach in college and senior high school were asked to provide expert validity analysis. They all had doctoral or master's degrees.
-
-Research and Data Collection Procedure
-¡@The procedure of the study consisted of five steps. First, the researcher reviewed the relevant studies and developed the questionnaire. Second, she investigated the validity and reliability of the questionnaire; a pilot study was conducted with students in National Chia-yi Industrial Vocational High School. Third, the questionnaire was revised for the formal data collection stage to investigate the research questions. Fourth, the data was analyzed and the research results and conclusions written up. Finally, suggestions for further research were written .
-
-
-
-
-Data analysis
-¡@The data collected from the students¡¦ responses to the questionnaire were collated and SPSS was used to analyze the results. The data analysis steps are as follows. First, the researcher removed the incomplete, or otherwise invalid, questionnaire responses. Second, the valid questionnaire data was entered in the computer. Third, the correctness of all the data was checked.
-¡@The statistical analysis proceeded as follows. First, the means and standard deviations of the vocational high school students' responses were calculated to determine if they supported the Research Hypotheses. Second, t-tests were run to understand if differences in the responses were statistically significant. Third, a one-way ANOVA was computed to test whether the purpose for which the students were learning English made a difference to the relationship between the students' major and their learning anxiety, learning motivation and learning attitude.
-
-For Table 3-4 see the Word docx file.
-
-吳明隆、涂金堂 (2008) regard as necessary for Expert Validity Unanimity Analysis the following. First, the item-total correlation should be above 0.70 or 0.80. Second, the item-total correlation  and revised item-total correlation should be up to 0.80 or 0.90.
-
-For Table 3-5 see the Word docx file.
-(The title should say '3.5', not '3.4.')
-(I don't understand what 'Extreme' and 'Scale consistently' mean in Table 3-5)
-
-
-¡@None of the items in Table 3-5 have Critical Ratios as low as 3.The item-total correlations are above .400. The communalities are above .200. The factor loadings are above .450.Therefore, all items were retained.
-
-For Table 3-6 see the Word docx file.
-
-¡@The Learning anxiety Factor Analysis results are as follows. KMO is higher than .80. Bartlett's sphericity test is significant.( p¡Õ.001¡^. Factor Analysis suitability is assessed by the KMO statistic. Figures higher than .70 indicate the analysis is reliable. Figures higher than .80 indicate the analysis is very reliable. ¡]§õª÷¬u¡A2010:21-7¡^
-All factor loading were higher than .55. Unexplained variance was 30%. Therefore, all items were retained. 
-
-¡@The consistency standard is to require item-total correlations of .70 or .80.  (§d©ú¶©¡BÒ\ª÷°ó2008¡^Items with revised item-total correlations above .70 were retained.
-¡@Besides the research method of expert validity judgements to test the questionnaire's reliability and validity, critical ratio, Cronbach alpha, communality and factor loading statistics were used to produce the scale used in the formal study.
-
-For Table 3-8 see the Word docx file.
-(I don't understand what 'Extreme' and 'Scale consistently' mean in Table 3-8)
-
-
-For the learning motivation scales, no item has a critical ratio below 3. No item-total correlations were lower than .400.
-No communality was lower than .200. No factor loading was lower than .450. Therefore, all items were retained.
-
-
-For Tables 3-9, 3-10 see the Word docx file.
-
-¡@In item analyses, the standard is to require item-total correlations of 70% or 80%.  (§d©ú¶©¡BÒ\ª÷°ó2008¡^ Items with revised item-total correlations of up to 70% are retained.
-
-For Tables 3-11, see the Word docx file.
-(The author forgot to number the table)
-(I don't understand what 'Extreme' and 'Scale consistently' mean in Table 3-11)
-
-
-For the learning attitude scales, no item has a critical ratio below 3. No item-total correlations were lower than .400.
-No communality was lower than .200. No factor loading was lower than .450. Therefore, all items were retained.
-
-For Tables 3-12 see the Word docx file.
-(The author forgot to number the table)
-
-¡@According to ©P·s´I¡]2007¡^, reliability is the main consideration in scale testing. Item Analysis indicates the formal questionnaire's stability and consistency is good.  Cronbach¡¦s £\ Reliability is a measure of the questionnaire¡¦s unanimity. £\ Reliability provides a lower bound estimate of the scale's reliability.
-¡@
-¡@
-¡@
-¡@
-
-Appendix
-
-¿Ë·Rªº¦P¾Ç­Ì§A/©p¦n:
-¡@¡@¦¹¥÷°Ý¨÷¬ã¨s¥Øªº¥D­n½Õ¬d°ªÂ¾¾Ç¥Í¾Ç²ß­^¤å±¡§Î¡C°Ý¨÷¤º®eªº¬ÛÃö¸ê°T©M¼Æ¾Ú¥D­n±´°Q¾Ç²ß­^¤åªºµJ¼{¡B°Ê¾÷»PºA«×¼vÅT¾Ç²ß¤§Ãö«Y¡C
-    ±zªº·N¨£¤Q¤ÀÄ_¶Q¡AÀµ½Ð±z¨Ì·Ó¦Û¤vªº¹ê»Ú¸gÅç»P·P¨ü§@µª¡A¹ï©ó¶ñ¼g¤º®e±N¤©¥H«O±K¡A½Õ¬dµ²ªG¶È§@¾Ç³N¬ã¨s¤§¥Î¡A·q½Ð©ñ¤ß¶ñµª¡CÁÂÁÂ±zªº¨ó§U¡I  
-¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@«n¥x¬ì§Þ¤j¾ÇÀ³¥Î­^»y¬ã¨s©Ò
-                                     ¬ã¨s¥Í¡G¿àÜþ¿²
- «ü¾É±Ð±Â¡G³¯©É¯u³Õ¤h     
-¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@
-¤¤µØ¥Á°ê¤@o¥|¦~¤T¤ë
-¡·¶ñµª?©ú:
-  ¥»°Ý¨÷¦@¤À4­Ó³¡¤À¡A½Ð¨Ì·Ó±zªº¹ê»Ú¸gÅç»P·P¨ü¡A¦b¾A·íªÅ®æ¤º¶ñ¼g¡C
-²Ä¤@³¡¥÷¡G°ò¥»¸ê?
-1.©Ê§O¡G¡¼¡]1¡^¨k ¡¼¡]2¡^?
-2.¬ì§O: ¡¼¾÷±ñ¬ì ¡¼»s¹Ï¬ì ¡¼«Ø¿v¬ì ¡¼¹q¾÷¬ì ¡¼¨ä¥¦______         
-3.¾Ç®Õ­^»y½Ò¸`¼Æ(¨C©P´X¸`): ______
-4.¥¼¨Ó³W¹ºªº¤É¾Ç¤è¦¡? ¥|§Þ¤G±M²Î¤@¤J¾Ç´úÅç: ¡¼¦Ò¸Õ¤J¾Ç ¡¼ºÂ¿ï¤J¾Ç¡¼§ÞÀu¤J¾Ç;¤j¾Ç¤J¾Ç¦Ò¸Õ: ¡¼°ò¥»¾Ç¤O´úÅç ¡¼«ü©w¬ì¥Ø¦Ò¸Õ ¡¼ ¨ä¥L_______
-5.°£¤F¾Ç®Õ¦Ñ®v¤W½Ò¤º®e¥~¡A§A¬O§_¦³¨ä¥Lªº¾Ç²ß­^¤åºÞ¹D¡H
-¡¼¸É²ß¯Z ¡¼¬Ý­^»yÂø»x ¡¼¬Ý­^»y¼v¶° ¡¼»P¥~°êªB¤Í¥æ½Í
-¡¼®a±Ð ¡¼µL¨ä¥L¾Ç²ßºÞ¹D ¡¼ ¨ä¥L_______
-
-
-
-²Ä¤G³¡¥÷ ¾Ç²ßµJ¼{(±´°Q¾Ç¥Í¾Ç²ß­^»yµJ¼{±¡§Î)
-¥»³¡¤À¦@¦³18ÃD¡A¨CÃD§¡¦³¤­¿ï¶µ¡A±q¡u5:«D±`¦P·N¡v¨ì¡u1¡G«D±`?¦P·N¡v¡A½Ð®Ú¾Ú±zªº¹ê»ÚÆ[¹î»P·P¨ü¡A¦b¨C¤@ÃD«á­±¾A·íªº?¦r¤Wµe°é¡³¡C
-                                                           
-«D
-±`
-¦P
-·N
-                                                                  
-                                                         5
-                                                
-                                                 ¦P·N
-
-
-
-4¨S
-·N¨£
-
-
-3¤£
-¦P
-·N
-
-
-2
-«D±`
-¤£
-¦P·N
-1¡u¾Ç²ßµJ¼{¡v          
-1.Å¥¤£À´¦Ñ®vªº¤W½Ò¤º®e¡A§Ú·|·P¨ì®`©È¡C543212.³Q¦Ñ®vÂI¦W¦^µª°ÝÃD®É¡A§Ú·|·P¨ìºò±i¡C543213.­Y­^¤å½Ò¥»¦³¤£À´ªº³æ¦r,§Ú·|·P¨ì¤£¦w¡C543214.§Ú®`©È¦Ñ®vªÈ¥¿§Úªº¿ù»~¡C543215.¦pªG­^¤å½Ò±Ð±o¤Ó§Ö,§Ú·|¾á¤ß¶i«×¸¨«á¡C543216.¤W­^¤å½Ò®É§Ú¤ñ¨ä¥L¬ì¥Ø®ÉÁÙ­nºò±i¤£¦w¡C	543217.¤W­^¤å®É¡A§ÚÄ±±o¦³«H¤ß¨Ã·P¨ì»´ÃP¡C
- ¡u´ú¸ÕµJ¼{¡v543218.§Ú¾á¤ß¾\Åª³t«×¤ÓºC,µLªk¦b¦Ò¸Õ®É¶¡¤º§âÃD¥Ø¬Ý§¹¡C543219.§Ú¾á¤ß¦b¦Ò¸Õ®É¬Ý¤£À´½Ò¥~ªº³æ¦r¡C5432110.¤W­^¤å½Ò¦Ñ®v·í³õ©â°Ý,§Ú·|«Üºò±i¡C5432111.¦b¦Ò­^¤å®É¡A§Ú¹ï¬Ý¤£À´¤W¤U¤å·N«ä·P¨ì¤£¦w¡C5432112.¦Ò¤£¼ô±xªº­^¤åÃD§÷®É¡A§Ú·|·P¨ìºò±i¡C5432113.§Ú®`©È­^¤å¦Ò¸Õ¦¨ÁZ¤£²z·Q¡C5432114.§Ú¹ï¦Û¤vªº­^¤å¦Ò¸Õ¦¨ÁZ¦³¦Û«H¡C54321¡u­t­±µû»ùµJ¼{¡v
-15.§Ú¾á¤ß§@¿ù°ÝÃD³Q¦Ñ®v³d½|¡C5432116.§Ú¾á¤ß¦Ò¸Õ¦¨ÁZ¤£²z·Q³Q¤÷¥À³d½|¡C5432117.§Ú¾á¤ß¦P¾Ç¹ï§Ú¦Ò¸Õ¦¨ÁZ¦³­t­±ªº¬Ýªk¡C5432118.§Ú¾á¤ß½Ò°ó¤À²Õ½m²ß®Éªí²{¤£¦n³Q¦P¾Ç¼J¯º¡C54321
-
-
-
-Appendix (English Version)
-Dear Participant: 
-    Thank you for participating in this study. This questionnaire is designed for vocational high school students to gather information about the relationship between anxiety, motivation, and attitude. Your answers and personal information that you give in this questionnaire will be kept confidential and used only for academic purposes.  Thank you!
-Applied English Department, STUST
- Advisor: Dr. I-Chen Chen
-¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@¡@Student: Rong- Zhen LaiPart I: Background Information
-1. Gender¡G ¤f Male ¤fFemale
-2. Department¡G  ¤fMachinery¤fTechnical Drawing ¤f Architecture ¤fMotor¤f Other      
-English interest: ¤fVery interested ¤f A little interested ¤fNot interested ¤fVery uninterested
-3.English study purpose: ¤fCareer¤fParental requirement¤fSchool tests
-¤fCompetitiveness
-4. College advancement plans: ¤fExam Admission¤fAcademic Attainments Test¤fAudition
- ¤fCollege Admission¤fSpecified Subjects ¤fOther
-5. Extra-curricular English contact: ¤fCram school¤fEnglish magazines¤fEnglish videos
-¤fChatting with foreigners¤FTutor¤FNone¤fOther
-Part II: Learning Anxiety Questionnaire
-(Adapted from Horwitz¡¦s Foreign Language Classroom Anxiety Scale, FLCAS)
-Direction: Please read each item and indicate whether you 1) strongly disagree, 2) disagree, 3) are neutral, 4) agree, or 5) strongly agree.
-¡mLearning Anxiety¡n1. I worry when I don't understand what the teacher is saying in the foreign language.543212 I get nervous when the language teacher asks questions543213. I get upset when I don't understand the new words.543214. I am afraid that the teacher will correct mistakes that I make.543215. The language class moves so quickly I worry about getting left behind.543216. I feel more nervous in the language class than in other classes.543217. I feel very confident and relaxed in English classes.54321
-¡mTest Anxiety¡n8. I am afraid that I cannot finish the test on time.5432110. I worry when I don't understand new words in a test.5432111. I am afraid that I'm going to be called upon in the language class.5432112. I get nervous when I cannot understand the meaning during
-a test.5432113. I get nervous when I am unfamiliar with the subject of a test question.5432114. I am afraid that I will get a bad grade.5432115. I feel confident my English grade will be good.54321¡mFear of Negative Evaluation¡n16. I am afraid that the teacher will criticize me for a mistake.5432117. I am afraid that my parents will be angry I got a bad grade.5432118. I am afraid that my classmates will laugh at my grade.5432119. I am afraid that my classmates will evaluate me negatively when we practice in a group.54321
-
-Part III:: Learning Motivation Questionnaire
-
-Direction: Please read each item and indicate whether you 1) strongly disagree, 2) disagree, 3) are neutral, 4) agree, or 5) strongly agree.
-¡mLearning Motivation¡n¡mExtrinsic motivation¡n1. I study English to get high grades in the school exams.543212. I study English to get into a more prestigious college.543213. I study English to get rewards from my parents.543214. I study English because it is an employment requirement.543215. I would not want to study English if I did not need to learn it.543216. I study English because I hope I can be more competitive in the future.543217. I study English because it is the trend.¡mIntrinsic motivation¡n543218. I learn English to understand different national cultures.543219. I learn English because I want to make foreign friends. 5432110. I learn English because I love foreign culture.5432111. Learning English is a lot of fun.5432112. I learn English for the pleasure it gives me.5432113. I learn English to satisfy my need to learn new things.5432114. I learn English because I want to take a trip abroad.5432115. I learn English to improve my English ability.54321
-
-Part IV: Learning Attitude Questionnaire
-Direction: Please read each item and indicate whether you 1) strongly disagree, 2) disagree, 3) are neutral, 4) agree, or 5) strongly agree.
-¡mLearning Attitude¡n¡mSchool Curriculum¡n1. I think carefully when I do my English homework.543212. I almost have a regular time for studying English.543213. I prepare for the English test seriously.543214. I write down and correct my mistakes in homework or on tests.543215. I preview my English schoolwork.543216. I review my English schoolwork.543217. I am willing to answer questions that the English teacher asks in class.54321¡mExtracurricular Learning¡n543218. I am interested in reading relevant English books that are not homework.543219. I like to take part in English activities.5432110. I listen to and watch English news and videos.5432111. I like to watch movies in English.5432112. I like songs in English.5432113. I am interested in reading extracurricular English magazines.5432114. I speak and communicate in English.5432115. I create an English learning environment for myself.  54321References
-Agheyisi, R., & Fishman, J. A. (1970). Language attitude studies: A brief survey of methodological approaches. Anthropological linguistics, 137-157.
-Bandura, A. (1977). Self-efficacy: toward a unifying theory of behavioral change. Psychological review, 84(2), 191.
-Belaja, K., Sai, G. T. B., & Lin, A. L. W. (2012). Effects of lecturer¡¦s transactional presence towards learners¡¦ intrinsic motivation in learning English as a second language through distance education. Malaysian Journal of Distance Education, 14(1), 77-97.
-Brown, H. D., & Qiufang (¤å¬îªÚ)¡P Wen. (1994). Teaching by principles: An interactive approach to language pedagogy (Vol. 1, p. 994). New Jersey: Prentice Hall Regents.
-Buschenhofen, P. (1998). English language attitudes of final-year high school and first-year university students in Papua New Guinea. Asian Journal of English Language Teaching, 8, 93-116.
-Campo, A. E., Williams, V., Williams, R. B., Segundo, M. A., Lydston, M. D., & Weiss, S. M. (2008). Effects of lifeskills training on medical students¡¦ performance in dealing with complex clinical cases. Academic Psychiatry, 32(3), 188-193.
-Cardy, R. L., & Dobbins, G. H. (1996). Human resource management in a total quality organizational environment: shifting from a traditional to a TQHRM approach. Journal of Quality Management, 1(1), 5-20.
-Chang, F. C., Lee, C. M., Lai, H. R., Chiang, J. T., Lee, P. H., & Chen, W. J. (2006). Social influences and self?efficacy as predictors of youth smoking initiation and cessation: a 3?year longitudinal study of vocational high school students in Taiwan. Addiction, 101(11), 1645-1655
-Chang, Y. Y., Gong, Y., & Peng, M. (2011). Expatriate knowledge transfer, subsidiary absorptive capacity, and subsidiary performance. Academy of Management Journal, amj-2010.
-Chesebro, J. W., McCroskey, J. C., Atwater, D. F., Bahrenfuss, R. M., Cawelti, G., Gaudino, J. L., & Hodges, H. (1992). Communication apprehension and self?perceived communication competence of at?risk students. Communication Education, 41(4), 345-360.
-Chu, S.-M. (2006). The relationship between English learning anxiety and learning motivation of nursing staff. Unpublished MA thesis, Tainan Hsian, Southern Taiwan University, School of Applied English. Taiwan.
-Clément, R., Gardner, R. C., & Smythe, P. C. (1980). Social and individual factors in second language acquisition. Canadian Journal of Behavioural Science/Revue canadienne des sciences du comportement, 12(4), 293.
-Cosden, M., Morrison, G., Gutierrez, L., & Brown, M. (2004). The effects of homework programs and after-school activities on school success. Theory into Practice, 43(3), 220-226.
-Csizér, K., & Dörnyei, Z. (2005). The internal structure of language learning motivation and its relationship with language choice and learning effort. The Modern Language Journal, 89(1), 19-36.
-Day, R. R., & Bamford, J. (1998). Extensive reading in the second language classroom. Ernst Klett Sprachen.
-Deci, E. L. (1976). Notes on the theory and metatheory of intrinsic motivation. Organizational behavior and human performance, 15(1), 130-145.
-Dulay, H. C. Marina K. Burt (1977) Remarks on creativity in language acquisition. Viewpoints on English as a Second Language. New York: Regents, 95-126.
-Eagly, A. H., & Chaiken, S. (1993). The psychology of attitudes. Harcourt Brace Jovanovich College Publishers.
-Ehrman, M. E., Leaver, B. L., & Oxford, R. L. (2003). A brief overview of individual differences in second language learning. System, 31(3), 313-330.
-Gardner, R. C. (1988). Attitudes and motivation. Annual Review of Applied Linguistics, 9, 135-148.
-Gardner, R. C. (2009, May). Gardner and Lambert (1959): Fifty years and counting. In annual meeting of the Canadian Association of Applied Linguistics, Ottawa. Retrieved July (Vol. 31, p. 2009).
-Gardner, R. C., & Lysynchuk, L. M. (1990). The role of aptitude, attitudes, motivation, and language use on second-language acquisition and retention. Canadian Journal of Behavioural Science/Revue canadienne des sciences du comportement, 22(3), 254.
-Gardner, Robert C. "Lambert (1972) Attitudes and Motivation in Second Language Learning." (5).
-Ghonsooly, B., & Loghmani, Z. (2012). The Interrelationship between EFL Learners¡¦ Levels of Reading Anxiety and Their Levels of Cognitive Test Anxiety: An Analysis of EFL Learners¡¦ Speed of Processing an IELTS Reading Test. International Journal of Linguistics, 4(3), pp-191.
-Halawah, I. (2006). The effect of motivation, family environment, and student characteristics on academic achievement. Journal of instructional psychology, 33(2), 91.
-Hill, K. T., & Wigfield, A. (1984). Test anxiety: A major educational problem and what can be done about it. The Elementary School Journal, 105-126.
-Hsu, Y. T. (2003). The relationships among junior high school students' foreign language anxiety, EFL learning motivation and strategy. Unpublished master's thesis, National Cheng Kung University, Tainan, Taiwan.
-Huang, S. C. (2006). Reading English for academic purposes¡VWhat situational factors may motivate learners to read?. System, 34(3), 371-383.
-Huijser, P., & Schmid, M. (2011). The control of developmental phase transitions in plants. Development, 138(19), 4117-4129.
-Hwang, G. J., & Wu, P. H. (2012). Advancements and trends in digital game?based learning research: a review of publications in selected journals from 2001 to 2010. British Journal of Educational Technology, 43(1), E6-E10.
-İnal, S., Evin, ?., & Saracaloglu, A. S. (2005). The relation between students¡¦ attitudes toward foreign language and foreign language achievement. Dil Dergisi, 130, 37-52.
-Islam, M. (2012). Students¡¦ perception and motivation towards english medium instruction at higher education. EXCEL International Journal of Multidisciplinary Management Studies, 2(9), 110-128.
-Jakobovits, L. A. (1970). Foreign Language Learning; A Psycholinguistic Analysis of the Issues.
-Kang, J. Y. (2004). Telling a coherent story in a foreign language: analysis of Korean EFL learners¡¦ referential strategies in oral narrative discourse. Journal of Pragmatics, 36(11), 1975-1990.
-Kao, C. P., Wu, Y. T., & Tsai, C. C. (2011). Elementary school teachers¡¦ motivation toward web-based professional development, and the relationship with Internet self-efficacy and belief about web-based learning. Teaching and Teacher Education, 27(2), 406-415.
-Khan, I. A. (2011). Relevance of attitude for the achievement in English.
-Koch, A. S., & Terrell, T. D. (1991). Affective reactions of foreign language students to natural approach activities and teaching techniques. In E.K. Horwitz & D.J. Young (Eds.). Language anxiety: From theory and research to classroom implications. Englewood Cliffs, NJ: Prentice Hall. 109-126.
-Kopke, B., & Schmid, M. S. (2004). Language attrition. First language attrition: Interdisciplinary perspectives on methodological issues, 28, 1.
-Kormos, J., Kiddle, T., & Csiz?r, K. (2011). Systems of goals, attitudes, and ¡@self-related beliefs in second-language-learning motivation. Applied Linguistics, ¡@32(5), 495-516.
-Kozaki, Y., & Ross, S. J. (2011). Contextual dynamics in foreign language learning ¡@motivation. Language Learning, 61(4), 1328-1354.
-Le Page, R. B. (1997). The evolution of a sociolinguistic theory of language. The handbook of sociolinguistics, 374-385.
-Liao, H. L., Liu, S. H., & Pi, S. M. (2011). Modeling motivations for blogging: An expectancy theory analysis. Social Behavior and Personality: an international journal, 39(2), 251-264.
-Liu, M., & Jackson, J. (2008). An exploration of Chinese EFL learners' unwillingness to communicate and foreign language anxiety. The Modern Language Journal,
-Liu, M., & Jackson, J. (2008). An exploration of Chinese EFL learners' unwillingness to communicate and foreign language anxiety. The Modern Language Journal, 92(1), 71-86.
-Lucas, R. I., Pulido, D., Miraflores, E., Ignacio, A., Tacay, M., & Lao, J. (2010). A study on the intrinsic motivation factors in second language learning among selected freshman students. Philippine ESL journal, 4, 3-22.
-Luftig, R. L., & Muthert, D. (2005). Patterns of employment and independent living of adult graduates with learning disabilities and mental retardation of an inclusionary high school vocational program. Research in developmental disabilities, 26(4), 317-325.
-MacIntyre, P. D. (1999). Language anxiety: A review of the research for language teachers. Affect in foreign language and second language learning: A practical guide to creating a low-anxiety classroom atmosphere, 24-45.
-MacIntyre, P. D., & Gardner, R. C. (1989). Anxiety and Second?Language Learning: 
-Macnamara, J. (1973). Attitudes and learning a second language. Language attitudes: Current trends and prospects, 36-40.
-Mather, N., & Gregg, N. (2006). Specific learning disabilities: Clarifying, not eliminating, a construct.
-Mathieson, K., Peacock, E., & Chin, W. W. (2001). Extending the technology acceptance model: the influence of perceived user resources. ACM SigMIS Database, 32(3), 86-112.
-May, R. (1977). The meaning of anxiety (rev. ed.). New York.
-McCroskey, J. C. (1977). Oral communication apprehension: A summary of recent theory and research. Human Communication Research, 4(1), 78-96.
-Mills, N., Pajares, F., & Herron, C. (2006). A reevaluation of the role of anxiety: Self?efficacy, anxiety, and their relation to reading and listening proficiency. Foreign Language Annals, 39(2), 276-295.
-Ming,T. S., Ling, T. S., & Jaafar, N. M. (2011). Attitudes and motivation of Malaysian secondary students towards learning English as a second Language: A case study. 3L: The Southeast Asian Journal of English Language Studies. Vol, 17, 40-54.
-Munawira bt. Saharani, Ezatul Marini bt. Mohd. Ghazali and Shahiza bt. Zainuddin (2012). The relationship between attitude and motivation of polytechnic certificate mechanical engineering students in learning English for Specific Purposes (ESP). Penyelidikan Dan Inovasi Memperkasa Kualiti Pendidikan Tvet. Retrieved January 31, 2015 from http://politeknik.gov.my/webjpp2/penyelidikan/penerbitan/files/The%20Relationship%20Between%20Attitude%20And%20Motivation%20Of%20Polytechnic%20Certificate%20Mechanical%20Engineering%20Students%20In%20Learning%20English%20For%20Specific%20Purpose.pdf
-Na, Z. (2007). A study of high school students' English learning anxiety. The Asian EFL Journal, 9(3), 22-34.
-Niemiec, C. P., & Ryan, R. M. (2009). Autonomy, competence, and relatedness in the classroom Applying self-determination theory to educational practice. Theory and Research in Education, 7(2), 133-144.
-Oskamp, S., & Schultz, P. W. (2005). Attitudes and opinions. Psychology Press.
-Oxford, R. L. (2003). Language learning styles and strategies: Concepts and relationships. IRAL, 41(4), 271-278.
-Panek, J. R. (1992). Construction sealants and adhesives (Vol. 71). John Wiley & Sons.
-Pettigrew, T. F. "Gordon Willard Allport: 1897-1967," Journal of Personality and Social Psychology, 1969, 12( 1): 1-5.
-Revelle, W. (1987). Personality and motivation: Sources of inefficiency in cognitive performance. Journal of Research in Personality, 21(4), 436-452.
-Ro, E. (2013). A case study of extensive reading with an unmotivated L2 reader. Reading in a Foreign Language, 25(2), 2.
-Rout, C. C., et al. "A reevaluation of the role of crystalloid preload in the prevention of hypotension associated with spinal anesthesia for elective cesarean section." Anesthesiology 79.2 (1993): 262-269.
-Ryan, R. M., & Deci, E. L. (2000). Intrinsic and extrinsic motivations: Classic definitions and new directions. Contemporary educational psychology, 25(1), 54-67.
-Saemah Rahman & Phillips, J.A. (2006). Hubungan antara kesedaran metakognisi, motivasidan pencapaian akademik pelajar universiti. Jurnal Pendidikan. Vol. 31(2006), 21-39.
-Saito, Y., & Samimy, K. K. (1996). Foreign language anxiety and language performance: A study of learner anxiety in beginning, intermediate, and advanced?level college students of Japanese. Foreign Language Annals, 29(2), 239-249.
-Samsiah Bidin, Kamaruzaman Jusoff, Nurazila Abdul Aziz, Musdiana Mohammad Salleh &Taniza Tajudin. (2009). Motivation and attitude in learning English among UiTM students in the northern region of Malaysia. English Language Teaching. Vol. 2(2), 16-20.
-Sarason, I. G. (1984). Stress, anxiety, and cognitive interference: reactions to tests. Journal of Personality and Social Psychology, 46(4), 929.
-Sarason, I. G. (1988). Anxiety, self-preoccupation and attention. Anxiety Research, 1(1), 3-7.
-Schmidt, A. M., & Ford, J. K. (2003). Learning within a learner control training environment: The interactive effects of goal orientation and metacognitive instruction on learning outcomes. Personnel Psychology, 56(2), 405-429.
-Sharifi, H. P. (2008). The Introductory study of Gardner's multiple intelligence theory, in the field of lesson subjects and the students' compatibility. Journal of Educational Innovations, 24, 11-20.
-Siddhu, G.K. (2009). Empowering learners through strategy training. In Thang, S.M. & B.Sinclair (Eds.). Learner Autonomy: Research and Practice in Malaysia and Singapore(pp. 106-134). Petaling Jaya: Pearson Malaysia.
-Smith, P. M., Breslin, F. C., & Beaton, D. E. (2003). Questioning the stability of sense of coherence. Social Psychiatry and Psychiatric Epidemiology, 38(9), 475-484.
-Spielberger, C. D. (2010). State?Trait Anxiety Inventory. John Wiley & Sons, Inc..
-Spolsky, B. (1969). Attitudinal aspect of second language learning. Language Learning. Vol.19, 271-283.
-Su, Chiou-Shiang (2011). A Study on Relationship of Parenting Style of Students at Junior High School Levels and Their Foreign Language Anxiety to Their English Learning Achievement ¡ÿÐÿ a Case Study in Keelung City. Unpublished MA Thesis, MingChuan University, Taipei.
-Swain, M., & Lapkin, S. (1995). Problems in output and the cognitive processes they generate: A step towards second language learning. Applied linguistics, 16(3), 371-391.
-Tasnimi, M. (2009). Affective Factors: Anxiety. Journal of Pan-Pacific Association of Applied Linguistics, 13(2), 117-124.
-Thang, S. M. & Azarina Alias (2007). Investigating readiness for autonomy: a comparison of Malaysian ESL undergraduates of three public universities. Reflections on English Language Teaching Journal. Vol 6 (1), 1- 18.
-Thang, S.M. (2004). Learning English in multicultural Malaysia: Are learners motivated? Journal of Language and Learning. Vol. 2(2).
-Thang, S.M. (2009a). Investigating autonomy of Malaysian ESL learners: Comparison between public and private universities. 3L Language, Linguistics and Literature. The South East Asian Journal of English Language Studies. Vol 15, 97-124.
-Thang, S.M. (2009b). Investigating the learner autonomy of Malaysian ESL learners: Towards a redefinition. In Thang, S.M. & B. Sinclair (Eds.). Learner Autonomy: Research and Practice in Malaysia and Singapore (pp. 13-33). Petaling Jaya: Pearson Malaysia.
-Tomlinson, B. (Ed.). (2011). Materials development in language teaching.  Cambridge University Press.
-Toward a Theoretical Clarification*. Language learning, 39(2), 251-275.
-Tuan*, H. L., Chin, C. C., & Shieh, S. H. (2005). The development of a questionnaire to measure students' motivation towards science learning. International Journal of Science Education, 27(6), 639-654.
-Umadevi, S. (2001). The silence in classroom and what it means. Language Reporter. 13-34.
-Vallerand, R. J., Pelletier, L. G., Blais, M. R., Briere, N. M., Senecal, C., & Valliéres, E. F. (1992). The Academic Motivation Scale: A measure of intrinsic, extrinsic, and amotivation in education. Educational and Psychological Measurement, 52, 1003-1017.
-Wang, Chuang. "Dialogic approaches to TESOL: Where the ginkgo tree grows." Issues in Applied Linguistics 15.2 (2007).
-Watson, D., & Friend, R. (1969). Measurement of social-evaluative anxiety. Journal of consulting and clinical psychology, 33(4), 448.
-Yamane, Taro. 1967. Statistics: An introductory analysis. 2nd ed. New York: Harper and Row.
-Yamashita, J. (2013). Effects of extensive reading on reading attitudes in a foreign language. Reading in a Foreign Language, 25(2), 2.
-Yen, C. H., Liao, W. C., Chen, Y. R., Kao, M. C., Lee, M. C., & Wang, C. C. (2009). A Chinese version of Kogan's attitude toward older people scale: reliability and validity assessment. International journal of nursing studies, 46(1), 38-44.
-Young, D. J. (1991). Creating a Low?Anxiety Classroom Environment: What Does Language Anxiety Research Suggest?. The Modern Language Journal, 75(4), 426-437.
-Young, D. J. (1999). Affect in foreign language and second language learning: A practical guide to creating a low-anxiety classroom atmosphere. McGraw Hill.  92(1), 71-86.
-Young, Dolly Jesusita. "Creating a Low?Anxiety Classroom Environment: What Does Language Anxiety Research Suggest?." The Modern Language Journal 75.4 (1991): 426-437.
-Zeng, S. W. (2005). A study on the relationship between students¡¦ foreign language anxiety and English learning strategies in elementary school in Taoyuan. Thesis, National Taichung University.
-Zhang, C. X. (1991). Modern psychology. Published by Tunghua Company, Taipei.
-Zimbardo, P. G. (1977). Shyness: What it is, what to do about it. Reading, MA:   
-¡@Addison-Wesley.
-
-劉語. (1999). 不要重蹈國中英語教學的覆轍. 師友月刊, (380), 10-13.
-羅美貞. (2000). 高職英文教學面臨的困境與因應.
-技職院校學生家庭社會資本, 情緒智力與生活適應關係之研究. 2007.
-王文科. 課程與教學論. 五南文化事業機構, 2007.
-
-王文科, and 王智弘. 教育研究法. 五南, 1994.
-
-吳明隆, & 涂金堂. (2008). SPSS 與統計應用分析 (修訂版). 台北; 五南書局.
-
-李金泉, & 統計學. (2010). 易學易用 SPSS PASW 統計分析實務. 全華圖書.
-
-
-54
-
-Editor notes:
-
-Sentences, clauses that appeared twice and required changing to be acceptable:
-a. Anxiety: a state of apprehension, a vague fear that is only indirectly associated with an object (Hilgard, Atkinson, & Atkinson, 1971)
-b. The "subjective feeling of tension, apprehension, nervousness, and worry associated with an arousal of the autonomic nervous system." Due to Spielberger, or Horwitz?.
-	- I found another definition ascribed to Spielberger on the Internet and replaced the above definition with that one.
-c. Han (2009) investigated the study of vocational high school students¡¦ English learning motivation, learning style, learning strategy and learning achievement. The results of her study showed that students were extrinsically motivated.
-	- I replaced that sentence the second time with: Han (2009) and a number of the other studies reported above discuss the relationships between anxiety, motivation and attitudes."
-
-Inconsistencies:
-Males numbered 20 and females 20. The total surveyed in the pilot study numbered about 120. ?? 20 + 20 doesn't equal 120.
-Students are males 40 and females 40.The total survey people are about 120 (Table3-1). ?? Now the numbers are larger but don't equal 120.
-Tables:
-
-a. I corrected Table 3.1, 3.2, 3.3, 3.4, 3.5 in the Word docx file.
-(The title should say '3.5', in the table after 3.4, not '3.4.')
-(I don't understand what 'Extreme' and 'Scale consistently' mean in Table 3-5)
-
-References:
-
-I reordered the references in alphabetical order. Some names however were replaced with ? marks when the file was exported from the Word docx file to a text file. This can be avoided I think by "Saving As" the file as Unicode, rather than ASCII.
-
-Questionable references that are not cited in the text and have no relevance to anxiety, motivation and attitudes, eg Campo et al, (2008), and Cardy et al, (1996), need to be removed.
-
-(cited by Horwitz, 1986, p.156). Is this the right page number? None of Horwitz's 1986 publications appear to have a page 156.
-
-Horwitz, E.K., Horwitz, M.B., and J.A. Cope, Foreign language classroom anxiety, The Modern Language Journal, 1986, 70, 125-132.
-Horwitz, E.K. Preliminary evidence for the reliability and validity of a foreign language anxiety scale. TESOL Quarterly, 1986, 20, 559-562.
-
-Reference to Young (1990). Should 1990 be 1999?
-Or is it this:
-Young, D. J. (1990), An Investigation of Students' Perspectives on Anxiety and Speaking. Foreign Language Annals, 23: 539-553.
-Not in the list of references.
-Not all the references cited in the text are listed in the references at the end, eg Scovel, 1978. Horwitz et al, 1986.
-
-Advice:
-
-1. There is no Discussion and Conclusions section. The author may add this later. But already in the Introduction and Literature Review sections, the author needs to explain why/how she thinks anxiety affects attitudes and motivation. He/she needs to contribute new ideas to the academic study of language learning to make the paper worthwhile. She needs to try to explain, for example, why some high achievers still feel anxiety. She needs to explain how anxiety, motivation and attitudes develop over time and how the relationship between the three changes over time, for example. She needs to explain why students with different majors might show differences.
-2. There needs to be an engagement with the ideas of researchers he/she quotes. He/she needs to make claims, and assertions about the mechanisms by which anxiety has its effects. In other words, he/she needs to express his/her own opinion, and agree or disagree with Horwitz, or someone. She needs to be critical of the literature, not just report it.

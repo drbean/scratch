@@ -1,192 +1,0 @@
-A Relational Perspective of Value Perception: Evidence from the Taiwanese Leisure Industry
-
-
-Abstract
-¡@Taking a relational perspective on the value perception relationship, we examine the mediation of value perception linking antecedents (viz., perceived quality, perceived price and perceived risk) and their consequence (viz., willingness to buy). A structural regression model of the structural equation modeling (SEM) type was constructed for our conceptual model to test the mediation. The findings imply that the immediate situational factors of perceived quality and perceived price contribute to perceived net value, which in turn partially leads to willingness to buy. Oppositely, the longer-term factor of perceived risk does not have either direct or indirect effects on perceived net value and willingness to buy, when making the infrequent decision to pay for a higher-priced leisure service. The findings provide managers directions for sales promotion in the spa hotel industry, suggesting they focus on increasing customer value by improving customer perceptions of overall quality with the setting of standards, and by providing customers preferential treatment in price.
-
-Keywords: perceived net value, willingness to buy, spa hotel, mediation, SEM
-
-Introduction
-¡@The previous literature indicates that the creation of outstanding consumer value is instrumental to achieving sustainable financial and market success (Bolton & Drew, 1991; Parasuraman, Zeithaml, & Berry, 1998; Parasuraman, Berry, & Zeithaml, 1991; Swoboda, Pennemann, & Taube, 2012; Zeithaml, Berry, & Parasuraman, 1996), and a priority for all managers in the increasingly intense competition of the customer-centered market today (Bolton & Drew, 1991; Hu, Kandampully, & Juwaheer, 2009; McDougall & Levesques, 2000; M?ller, Rajala, & Westerlund, 2008; Ravald & Gronroos, 1996; Zeithaml, 1988) . 
-¡@In a previous explorative study, we adopted economical deduction methods to demonstrate the adequate rationality of and construct positioning in our conceptual model, and correlation analysis was used to assess the relationships between the constructs. The findings of our previous study had implications for understanding how consideration sets of service-related consumption are formed and how the recent downsizing economy has made attitudes to leisure service consumption more conservative because of a weakly significant relationship between perceived net value and willingness-to-buy. In a consequent exploratory factor analysis (EFA) study, we examined the framework linking antecedents of perceived net value and willingness-to-buy in the Taiwanese spa hotel industry, and six hypotheses were developed to identify the main effects. The hierarchical multiple regression (HMR) analysis revealed that the source of multi-collinearity among the antecedents resulted in a varied priority in regard to perceived net value, which was in turn positively associated with willingness to buy. The results also confirmed the dual effect of perceived price on perceived net value and perceived quality in the service domain. In addition, taking all the antecedents of perceived net value together into consideration, the results also demonstrated that the perception of perceived net value was mainly dependent upon quality, less dependent upon price, and least likely to depend upon risk in the service domain because of the multi-collinearity among the antecedents of perceived net value. 
-¡@In the past decade companies and researchers have become aware of the great benefits of creating value for customers with respect to how customers may differ in their perceptions of value and, at the same time, of the need to determine the variables that explain such differences (Ruiz, Castro, & Armario, 2007). In spite of the documented relationships and the findings of our previous studies, the mechanisms underlying these relationships still remain unknown. Therefore, in the present study, our aim was to use structural equation modeling (SEM) to probe the mechanisms of consumers¡¦ decision-making in leisure settings. A structural regression model was constructed to test three types of mediation: (1)the  mediator of perceived net value linking the antecedents, perceived quality, perceived price and perceived risk and the consequence, willingness to buy, (2) the mediator of perceived quality linking the antecedent, perceived price and its consequence, perceived net value, and (3) the mediator of perceived risk linking the antecedent, perceived quality and its consequence, perceived net value.
-
-Literature review
-
-Consumer perception
-¡@The antecedents to perceived net value studied in the last two decades of the 20th century have been mainly limited to the two traditional basic functions of product perceived quality and perceived monetary price. Thus, Zeithaml (1988) described value in terms of a tradeoff of salient ¡§give¡¨ and ¡§get¡¨ components. At the same time, Peter and Tarpey (1975) identified three broad, strategy-based consumer decision-making frameworks. The first is a perceived risk framework that characterizes the consumer as motivated to minimize the expected negative consequences, or utility, of a purchase. The second is an attitude framework that is oriented to positive evaluations. The third is a valence framework that assumes the consumers perceive a product as having both positive and negative attributes. Consumers act to maximize the overall or ¡§net¡¨ valence resulting from negative and positive attributes of an act. The so-called net valence of this additive utility model is the arithmetic difference between the positive valences and the negative valences. Such additive utility models can be described as cognitive or rational models of decision making. Meanwhile, Spreng, Dixon, and Olshavsky (1993) conceptualized expected or pre-purchase perceived net value as a consumer¡¦s anticipation about the outcome of purchasing a product or service based on future benefits and sacrifices.
-¡@Empirical modeling of the antecedents of perceived net value has been limited to benefits and sacrifices at the time of purchase. However, when consumers make a purchase decision, particularly when purchasing a durable good, they consider not only immediate situational factors, such as price and service, but also the longer-term implications of the ownership of the product. Spreng et al. (1993), in conceptualizing present perceived net value as an anticipation of future outcomes, suggested that pre-purchase sacrifice expectations would include purchase, use, repair and their psychological costs as well as the time to purchase, use and repair. However, while some of these costs could be evaluated at the time of purchase, some will not be known.
-¡@Accordingly, price, product quality and in-store service quality factors identified at time of purchase influence perceived net value, but, consumers also consider the potential of longer-term losses when evaluating value relative to the purchase price. When making a purchase decision, consumers always face some concern about the performance of the product and/or service. This suggests the importance of a third factor, besides the traditional two of quality and price, namely that of perceived risk for the consumer. Precisely how these factors interact in customer purchase decision mechanisms is something which needs to be examined. Such knowledge will benefit organizations competing for superior customer value delivery. They inevitably feel compelled to build their capacity for customer value learning  and translation of their learning into action (Woodruff, 1997).
-
-Research Methods
-
-Model building for spa service: A decision-making framework
-  Based on the work of Sweeney, Soutar, and Johnson (1999), a conceptual model of perceived net value was developed and refined, incorporating the key constituents of quality, price and risk, as presented in Figure 1. In this model, we posit that perceived quality, price and risk contribute directly to perceived net value and indirectly to willingness to buy. In the following section, the proposed model is described, and theoretical support for the hypothesized relationships is provided.
-
-<Figure 1 inserts here>
-
-Hypotheses
-
-The mediating influence of perceived net value on the relationship of antecedents and consequences
-¡@Zeithaml (1988) defined value as ¡§the customer¡¦s assessment of the utility of a product based on perceptions of what is received and what is given¡¨,  as perceived and defined by the customers (Bettman, Luce, & Payne, 1998; Vandermerwe, 2003). Perceptions of the dimensions of quality are viewed to be a function of a customer¡¦s prior expectations of what will and what should transpire during a service encounter, as well as the customer¡¦s most recent contact with the service delivery system (Boulding, Kalra, Staelin, & Zeuthaml, 1993). Perceived quality is defined as the consumer¡¦s overall judgment about a product¡¦s excellence or superiority (Zeithaml, 1988), and it is the benefit component of value. Service quality has long been recognized as an important strategic retailing weapon particularly in developing defensive marketing strategies between competing organizations (Spreng et al., 1993; Marshal & Murdoch, 2001; M?ller et al., 2008) and it has been found to be an important driver of behavioral intentions (Olorunniwo, Hsu, & Udo, 2006). The construct of service quality is not a singular but a multi-dimensional phenomenon (Vandamme & Leunis, 1993). Gronroos (1984; 1990) identified two aspects of service quality, a service¡¦s functional and technical components. Functional service quality concerns the process or the way in which service is delivered, while technical service quality relates to the outcome, or what is received from service. These perceptions of quality dimensions form the basis for a person¡¦s overall quality perception, which in turn predicts the person¡¦s intended behaviors (Boulding et al., 1993; Ozdemir & Hewett, 2010)
-¡@Perceived price and perceived risk on the other hand are defined as the cost component of value; it is what the consumer gives up to obtain a product or service. This is similar in concept to Bilkey¡¦s utility model, described by Peter and Tarpey (1975), which takes into account positive return (viz., perceived quality) and negative valences (viz., perceived price and perceived risk). As explained in the literature review above, empirical modeling has been limited to factors effective at the time of purchase. However, at this point, consumers are also considering the longer-term implication of the ownership of the product (viz., perceived performance or financial risk). Thus, alongside the price, product quality and in-store service quality factors identified at the time of purchase that prior research has found, consumers also consider the potential of longer-term losses when evaluating value, which is relative to these factors. When making a purchase decision, consumers are always faced with some concern over the performance of the product since perfect information regarding future performance is never known. And as suggested by Spreng et al. (1993) and noted above, pre-purchase sacrifice expectations include a number of different costs, including psychological costs and time costs, some of which can be evaluated at the time of purchase, and some of which cannot.
-  Consumers consider these longer-term losses when developing perceptions of value. The inclusion of perceived risk in a value model may help to explain how perceived net value is evaluated. Following Stone and Gronhaug¡¦s (1993) conceptualization, we define perceived risk as the subjective expectation of a loss. While a number of risk dimensions have been suggested, only two are included in this study, financial and performance risk. Each risk dimension can be viewed as an expectation of a future cost that contributes negatively to a good¡¦s perceived net value for money at the time of purchase.  Financial risk is defined as a net financial loss to a customer, including the possibility that the product may need to be repaired, replaced or the purchase price refunded. Performance risk is defined as the loss incurred when a brand or product does not perform as expected (Horton, 1975). This integrates the future quality of the product to the point of purchase, given that risk is viewed in this study as a subjective expectation, rather than a future probability, of a loss or sacrifice. 
-¡@The antecedents and consequences of distinct affective responses are spelled out by appraisal theory, which prioritizes the cognitive appraisal of an event (e.g., perceived price), rather than the event itself (e.g., a price increase) in the triggering of an emotional response (e.g., perceived net value or net valence). This response in turn leads to changes in behavior (e.g., higher or lower purchase intent) (Anderson & Srinivasan, 2003; Chen & Dubinsky, 2003; Lawson & Bhagat, 2002; Pura, 2005). In line with appraisal theory, in this study perceived net value was regarded as antecedent to a person¡¦s willingness to buy and as an outcome of perceived product quality and perceived sacrifice (Monroe, 1990). Thus, the following hypotheses are suggested by the above discussion:
-¡@
-  H1a: Perceived net value mediates the relationship between perceived quality and willingness-to-buy.
-  H1b: Perceived net value mediates the relationship between perceived price and willingness-to-buy.
-  H1c: Perceived net value mediates the relationship between perceived risk and willingness-to-buy
-
-The mediating influence of perceived quality on the price-value relationship
-¡@Several empirical explorations of the antecedents of perceived net value have been helpful in providing a basis for our model. A study by Dodds, Monroe, and Grewal (1991) indicated that price not only has a negative effect on a product¡¦s value for money and people¡¦s willingness to buy on durable goods, but also has a positive effect on perceived product quality. In other words, perceived price has a dual effect. Perceived price is first a financial sacrifice and contributes negatively to perceived net value. Oppositely, perceived price may influence the perception of quality and have a positive influence on value (Monroe, 1990). While this latter relationship has been widely discussed in the literature, the relationship may not generalize across all product types (Zeithaml, 1988). This leads to the following hypothesis:
-¡@
-  H2: Perceived quality mediates the relationship between perceived price and perceived net value.
-
-The mediating influence of perceived risk on the quality-value relationship
-¡@Stone and Gronhaug¡¦s (1993) conceptualization of risk as the subjective expectation of a financial, performance, or other loss, which we follow here, suggests that risk, while contributing negatively to a good¡¦s perceived net value for money at the time of purchase, may have an impact mitigated by perceived product and service quality. In other words, perceived product and service quality may also reduce perceived risk (Sweeney et al., 1999). Many risk reduction models have been suggested (e.g., word-of-mouth, warranties, brand image, a price-quality association and salesperson assurance) (Hawes & Lumpkin, 1986). The use of service as a risk reduction strategy in purchasing high-risk products has been recognized. How the service is delivered (functional service quality) and what is received from the service (technical service quality) may reduce risk (Gronroos, 1984; 1990). The above discussion suggests the following hypothesis:
-¡@
-    H3: Perceived risk mediates the relationship between perceived quality and perceived net value.
-
-Data collection and measurement
-  As in our previous study, data collection occurred in two stages. In the first stage, a draft questionnaire was developed and tested to establish the validity of the scales. The coefficient alphas of all dimensions in the tested questionnaire were over .6, indicating that they had acceptable internal consistency and reliability (Nunnally, 1970). In the second stage, a survey was then conducted and the empirical data were collected from customers at different spa hotels in four major spa regions of Taiwan. Participants were asked to complete a structured questionnaire using 5-point Likert-type scales ranging from 1 (strongly disagree) to 5 (strongly agree). Our aim was to use the questionnaire to assess customers¡¦ overall opinion regarding perceived quality, perceived price, perceived risk, perceived net value, and willingness to pay for spa services at hotels in general, rather than their experience at any particular hotel. In the survey, there were some negatively presented items to verify that all of the questions were answered appropriately. Finally, 200 valid samples (95% of those returned), were successfully collected in 2006 and included in the subsequent data analysis. 
-
-Empirical Results
-
-Factor analysis
-¡@Adopting the same format as in our previous study, we show in table 1 the results of the factor analysis. The results of principal component analysis indicated that there were 7 factors with eigenvalues exceeding 1 (representing 7 dimensions in all 5 constructs), cumulatively explaining a total of 71.24% of the variance. It was found that each item loaded on their respective factor with loadings greater than .50. Moreover, the results of the reliability analysis indicated that the Cronbach¡¦s coefficient alpha of the multi-item measures was .80, and that of the constructs ranged between .75 and .92, which suggested the acceptability of all measurements in terms of internal consistency. 
-
-<Table 1 inserts here>
-
-Validity analysis
-¡@To test the convergent and discriminant validities of our instrument, we calculated the average variance extracted (AVE) and constructed a correlation matrix for the constructs (Fornell & Larcker, 1981; Hulland, 1999). Convergent validity is adequate when the values of AVE are greater than .50, and discriminant validity is satisfactory when the square roots of AVE are greater than inter-construct correlations (Hair, Black, Babin, & Anderson, 2010). Table 2 shows the means, standard deviations, correlations, and square roots of AVE for all constructs. As can be seen, all values of AVE were greater than .50, and square roots of AVE on the main diagonal were greater than the off-diagonal elements in the corresponding rows and columns of the matrix. Thus, the results clearly indicate good convergent and discriminant validities.
-¡@Common method variance is assumed if the results of principal component analysis show a single factor emerging from unrotated factor solutions, or a first factor explains the majority of the variance (Podsakoff, MacKenzie, & Lee, 2003). Since all items in our questionnaire were completed by single respondents, Harmar¡¦s one factor test was conducted to detect possible common method variance by entering all items together into a principal component analysis (Podsakoff & Organ, 1986). The results indicated that neither did a single factor emerge nor did the first factor explain the majority of the variance. Thus, common method variance did not seem to be a problem in our sample data.
-
-<Table 2 inserts here>
-
-Hypothesis testing
-¡@To test the mediation effects in this study, a structural regression model was constructed for our conceptual model (as presented in figure 2). Cohen and Cohen (1983) stated that if all path coefficients of independent variable both to dependent variable and to mediator, and that of mediator to dependent variable are statistically significant at the same level of alpha, then the partial mediation effect can be taken as statistically significant at the same level of alpha too. However, if the direct effect between independent and dependent variables is not statistically significant, then the hypothesis of ¡§pure¡¨ mediation (completely mediation) between two variables is supported (Baron & Kenny, 1986; Kline, 2011; Shrout & Bolger, 2002). 
-¡@According to the results of the structural regression model, two indirect effects were found. Perceived quality was significantly and positively associated with willingness to buy (£]=.38, P<.001), and perceived price was significantly and negatively associated with willingness to buy (£]=-.40, P<.001), given the significantly direct effects of quality-value (£]=.35, P<.001), price-value (£]=-.32, P<.001), and value-willingness (£]=.17, P<.01). Thus, based on the results in figure 2, we find that perceived net value significantly and partially mediates the relationships between perceived quality and willingness to buy, and the relationships between perceived price and willingness to buy (all path coefficients were statistically significant at the same level of alpha, p<.01). Therefore, Hypotheses 1a and 1b were partially supported. However, perceived net value does not mediate the relationship between perceived risk and willingness to buy because the direct and indirect effects of perceived risk to perceived net value (£]=-.10, ns) and to willingness to buy (£]=-.11, ns) respectively were not statistically significant. Thus, Hypothesis 1c was not supported. 
-¡@Additionally, perceived quality also significantly and partially mediates the relationship between perceived price and perceived net value, given the indirect effect of price-value (£]=-.32, P<.001), and direct effects of price-quality (£]=.24, P<.001) and quality-value (£]=.35, P<.01) (all path coefficients were statistically significant at the same level of alpha, p<.001). But perceived risk does not mediate the relationships between perceived quality and perceived net value because the direct effect of perceived risk to perceived net value (£]=-.10, ns) is not statistically significant. Thus, Hypothesis 2 was partially supported, but Hypothesis 3 was not supported.
-
-<Figure 2 inserts here>
-
-Discussion
-
-Conclusions and managerial implications
-¡@This work clarifies the relationships and processes involved in the conceptual model of perceived net value. Three major conclusions can be stated. First of all, perceived net value partially mediates both the relationship between perceived quality and willingness-to-buy, and the relationship between perceived price and willingness-to-buy, suggesting that customers consider quality and price (the immediate situational factors representing benefits and sacrifices) major determinants of value, when an emotional reaction (i.e., perceived net value or net valence) is triggered leading to changes in behavior (H1a and H1b), at least when purchasing a spa service product. Secondly, the partially mediating influence of perceived quality on the relationship between perceived price and perceived net value means customers perceive higher prices as representing higher quality, which leads for them to higher perceived net value (H2). The support for H1b and H2 also confirms the contrary dual effects of perceived price on perceived net value and perceived quality in the service domain. Finally, however, perceived net value does not mediate the risk-willingness relationship (H1c) and neither does perceived risk mediate the quality-value relationship (H3), which, taken together, are consistent with Rao and Monroe¡¦s (1989) meta-analysis finding that the phenomenon is only supported for moderately priced, frequently purchased goods as opposed to higher priced, infrequently purchased goods. These conclusions tell managers that sales promotion in today¡¦s world of intense competition in the spa hotel industry, should focus on increasing customer value by improving customer perceptions of overall product and service quality with the setting of quality standards, for example, and/or by providing customers preferential treatment in price, as another.
-¡@
-Limitations and future research
-¡@In this study we developed a conceptual model relating perceived quality, perceived relative price and perceived risk as antecedents to perceived net value, and relating perceived net value in turn to consumers¡¦ willingness to buy. However, this work had a number of limitations, which at the same time suggest new directions for future studies. First of all, in this study we focused on the relationships among service-relevant purchasing determinants in the spa hotel industry. Given the great diversity of service industries, these findings have to be tested in different service industry sectors. Secondly, the applicability of the current findings need to be confirmed by further evidence from other countries given the difference in values and cultures among different countries and domains. 
-¡@Further research will be needed to assess the link between perceived net value and willingness-to-buy, and the characteristics of the antecedent to perceived net value remain tenuous, in spite of a certain amount of empirical evidence currently available. Therefore, further research should keep investigating the potential constructs which need to be taken into account such as satisfaction, loyalty (Hu et al., 2009) and relational benefits (Gwinner, Gremler, & Bitner, 1998). In addition, as Ruiz et al. (2007) suggested, future research should attempt to explain the role of market heterogeneity in customers¡¦ perceptions of value, and in particular, how special treatment by the service provider, the level of customer¡¦s involvement and accumulated experience, for instance, may act as predictors of the customer¡¦s perceptions of value within a service setting.
-
-Acknowledgements
-Appreciation is due to the National Science Council in Taiwan for the financial support of grant no. NSC94-2213-E-110-016 during the years 2005-2006.
-
-
-
-References
-Anderson, R. E., & Srinivasan, S.S. (2003). E-satisfaction and e-loyalty: A contingency framework. Psychology and Marketing, 20(2), 123-138.
-Baron, R. M., & Kenny, D. A. (1986). The moderator-mediator variable distinction in social psychological research: Conceptual, strategic, and statistical considerations. Journal of Personality and Social Psychology, 51(6), 1173-1182.
-Bettman, J., Luce, M., & Payne, J. (1998). Constructive consumer choice process. Journal of Consumer Research, 25(3), 187-217.
-Bolton, R. N., & Drew, J. H. (1991). A multistage model of customers¡¦ assessments of service quality and value. Journal of Consumer Research, 17, 375-384.
-Boulding, W., Kalra, A., Staelin, R., & Zeuthaml, V. A. (1993). A dynamic process model of service quality: From expectations to behavioral Intentions. Journal of Marketing Research, 30, 7-27.
-Chen, Z., & Dubinsky, A. J. (2003). A conceptual model of perceived customer value in e-commerce: A preliminary investigation. Psychology and Marketing, 20(4), 323-347.
-Cohen, J., & Cohen, P. (1983). Applied Multiple Regression/Correlation Analysis for the Behavioral Sciences, 2nd ed. Hillsdale, NJ: Lawrence Erlbaum.
-Dodds, W. B., Monroe, K. B., & Grewal, D. (1991). Effects of price, brand and store information on buyers¡¦ product evaluations. Journal of Marketing Research, 28, 307-319.
-Fornell, C., & Larcker, D. F. (1981). Structural equation models with unobservable variables and measurement error: Algebra and statistics. Journal of Marketing Research, 18 (3), 382-8.
-Gronroos, C. (1984). A service quality model and its marketing implications. European Journal of Marketing, 18, 36-44.
-Gronroos, C. (1990). Service Management and Marketing: Managing the Moments of Truth in Service Competition, Lexington, MA: Lexington Books.
-Gwinner, K., Gremler, D., & Bitner, M. J. (1998). Relational benefits in services industries: The consumer¡¦s perspective. Journal of the Academy of Marketing Science, 26, 101-114.
-Hair, J. F., Black, W. C., Babin, B. J., & Anderson, R. E. (2010). Multivariate Data Analysis: A global Perspective, 7th ed. Upper Saddle River, NJ: Pearson.
-Hawes, J. M., & Lumpkin, J. R. (1986). Perceived risk and the selection of a retail patronage mode. Journal of the Academy of Marketing Science, 14, 37-42.
-Horton. R. L. (1976). The structure of perceived risk. Journal of the Academy of Marketing Science, 4 (4): 694-706.
-Hu, H. H., Kandampully, J., & Juwaheer, T. D. (2009). Relationships and impacts of service quality, perceived value, customer satisfaction, and image: An empirical study. The Service Industries Journal, 29(2), 111-125.
-Hulland, J. (1999). Use of partial least square (PLS) in strategic management research: A review of four recent studies. Strategic Management Journal, 20 (2), 195-204.
-Kline, R. B. (2011). Principles and Practice of Structural Equation Modeling, 3rd ed. New York, NY: The Guilford Press.
-Lawson, R., & Bhagat, P. S. (2002). The role of price knowledge in consumer product knowledge structures. Psychology and Marketing, 19, 551-568.
-Marshal, G., & Murdoch, I. (2001). Service quality in marketing of consulting engineers. International Journal of Construction Marketing, 3, 534-559.
-McDougall, G., & Levesques, T. (2000). Customer satisfaction with services: putting perceived value into the equation. Journal of Services Marketing, 14(5), 392-410.
-M?ller, K., Rajala, R., & Westerlund, M. (2008). Service innovation myopia? A new recipe for client-provider value creation. California Management Review, 50(3), 31-48.
-Monroe, K. B. (1990). Pricing: Making profitable decisions, McGraw-Hill, 2nded., New York.
-Nunnally, J. C. (1970). Introduction to psychological measurement, McGraw-Hill, New York.
-Olorunniwo, F., Hsu, M. K., & Udo, G. (2006). Service quality, customer satisfaction, and behavioral intentions in the service factory. Journal of Service Marketing, Vol. 20, No.1, pp. 59-72.
-Ozdemir, V. E.,& Hewett, K. (2010).The effect of collectivism on the importance of relationship quality and service quality for behavioral intentions: A cross-national and cross-contextual analysis. Journal of International Marketing, 18 (1), 41-62.
-Parasuraman, A., Berry, L. L., & Zeithaml, V. A. (1991). Refinement and reassessment of the SERVQUAL scale. Journal of Retailing, 67(4), 420-450.
-Parasuraman, A., Zeithaml, V. A., & Berry, L. L. (1998). SERVQUAL: A multiple-Item scale for measuring consumer perceptions of service quality. Journal of Retailing, 64(1), 12-40.
-Peter, J. P., & Tarpey, L. X., Sr. (1975). A comparative analysis of three consumer decision strategies. Journal of Consumer Research, 2, 29-37.
-Podsakoff, P. M., MacKenzie, S. B., & Lee, J. (2003). Common method biases in behavioral research: A critical review of the literature and recommended remedies. Journal of Applied Psychology, 88 (5), 879-903.
-Podsakoff, P. M., & Organ, D. W. (1986). Self-reports in organizational research: Problems and prospects. Journal of Management, 12 (4), 531-44.
-Pura, M. (2005). Linking perceived value and loyalty in location-based mobile service. Managing Service Quality, 15(6), 509-538.
-Rao, A. R., & Monroe, K. B. (1989). The effect of price, brand name and store name on buyers¡¦ perceptions of product quality. Journal of Marketing Research, 26, 351-357.
-Ravald, A., & Gronroos, C. (1996). The value concept and relationship marketing. European Journal of Marketing, 30(2), 19-30.
-Ruiz, D. M., Castro, C. B., & Armario, E. M. (2007). Explaining marketing heterogeneity in terms of value perceptions. The Service Industries Journal, 27, 1087-1110.
-Shrout, P. E., & Bolger, N. (2002). Mediation in experimental and nonexperimental studies: New procedures and recommendations. Psychological Methods, 7(4), 422-45.
-Spreng, R. A., Dixon, A. L., & Olshavsky, R. W. (1993). The Impact of Perceived Value on Consumer Satisfaction. Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior, 6, 50-55.
-Stone, R. N., & Gronhaug, K. (1993). Perceived risk: Further considerations for the marketing discipline. European Journal of Marketing, 27, 39-50.
-Sweeney, J. C., Soutar, G. N., & Johnson, L. W. (1999). The role of perceived risk in the quality-value relationship: A study in a retail environment. Journal of Retailing, 75, 77-105.
-Swoboda, B., Pennemann, K., & Taube, M. (2012). The effects of perceived brand globalness and perceived brand localness in China?: Empirical evidence on Western, Asian, and domestic retailers. Journal of International Marketing, 20(4), 72-95.
-Vandamme, R., & Leunis, J. (1993). Development of a multi-item scale for measuring hospital service quality. International Journal of Service Industry Management, 4(3), 30-49.
-Vandermerwe, S. (2003). Customer-minded growth through services. Managing Service Quality, 13(4), 262-266.
-Woodruff, R. B. (1997). Customer value: The next source for competitive advantage. Journal of the Academy of Marketing Science, 25, 139-153.
-Zeithaml, V. A. (1988). Consumer perceptions of price, quality and value: A means-end model and synthesis of evidence. Journal of Marketing, 52(3), 2-22.
-Zeithaml, V. A., Berry, L. L., & Parasuraman, A. (1996). The behavioral consequences of service. Journal of Marketing, 60(2), 31-46. 
-
-
-Figures and tables
-
-
-
-
-
-
-
-
-Table 1. Results of Factor Analysis
-ConstructsDimensionsItemsFactor loadingsEigenvalues% of varianceCumulative %Item/ total
-CorrelationCronbach¡¦s
-£\ ValuePerceived quality
-(PQ)Functional service quality
-(FSQ)FSQ1.7396.22213.29513.295.552.751FSQ2.685.508FSQ3.663.579FSQ4.585.431FSQ5.725.548Technical service quality
-(TSQ)TSQ1.9344.56712.23325.528.930.839TSQ2.695.514TSQ3.838.733Perceived product quality
-(PPQ)PPQ1.632 3.34011.02436.552.375.753PPQ2.661.635PPQ3.531.533PPQ4.791.669Perceived
-relative
-price
-(PRP)PRP1.8482.3739.91346.465.702.903PRP2.810.694PRP3.820.821PRP4.764.780PRP5.842.803Perceived
-performance/
-financial risk
-(PPR)PPR1.9361.9598.90155.367.944.917PPR2.873.788PPR3.821.736PPR4.858.770Perceived
-value
-for money
-(PVM)PVM1.9211.5958.19463.561.846.829PVM2.833.732PVM3.721.563PVM4.570.420PVM5.517.547Willingness
-to buy
-(WTB)WTB1.5151.3157.67571.236.572.758WTB2.554.632WTB3.705.466WTB4.866.565N of Cases = 200.
-Varimax with Kaiser normalization, and rotation converged in 7 iterations
-Alpha = .76; standardized item alpha = .80
-£\ > 0.7 ¡V Reliable
-£\ > 0.8 ¡V Very Reliable
-£\ > 0.9 ¡V Extremely Reliable
-Table 2. Means, Standard Deviations, Pearson Correlations, and Validities¡@ConstructsMeanS.D.123451. Perceived Quality3.99.40 .752. Perceived Price2.68.98-.24** .783. Perceived Risk4.00.68 .37**-.06.914. Perceived net value3.79.54 .35**-.38**.03.965. Willingness To Buy3.88.53 .35** .25**.03.15*.93 Note: N = 200, Square roots of AVE calculated for each of the constructs are along the diagonal
- Standardized coefficients are reported.
- ** Correlation is significant at the .01 level (2-tailed).
-¡@* Correlation is significant at the .05 level (2-tailed).
-
-
-
-A RELATIONAL PERSPECTIVE OF VALUE PERCEPTION                                    12
-
-
-
-Editor Notes:
-
-1. In a number of places the text included sentences repeated verbatim in following sections. Assuming this was intentional, I have reworked the sentences to make sense in the new context. If this was not the intention, I can look at the text again.
-
-2. Finacial -> Financial in Figure 1
-
-3. Hypotheses -> Hypothesis in Figure 2
-
-4. In a number of places in Table 1, column headings have been wrapped without hyphens from one line to the next. I am assuming this is because I am using not Microsoft Word, but LibreOffice, another WYSWYG editing software package, to look at them. If in the original editing software they are also wrapped, this wrapping needs to be fixed.
-
-Column headings:
-Constructs Dimensions Items Factor loadings Eigenvalues % of variance Cumulative % Item/ total Correlation Cronbach¿s ¿ Value
-
-
