@@ -10,15 +10,17 @@ $_REPL->load_plugin('DumpHistory');
 
 my $dir = basename( getcwd );
 
-my $oldid = 'FLA0016';
+my $oldid = 'FLA0015';
+my $semester = '041';
+my $old_semester= '032';
 
 use Grades;
-my $l = League->new( leagues => '/home/drbean/032', id => $dir );
+my $l = League->new( leagues => "/home/drbean/$semester", id => $dir );
 my $g = Grades->new({ league => $l });
 my %m = map { $_->{id} => $_ } @{ $l->members };
 my $approach = $l->approach;
 
-my $ol = League->new( leagues => '/home/drbean/031', id => $oldid );
+my $ol = League->new( leagues => "/home/drbean/$old_semester", id => $oldid );
 my $om = $ol->members;
 my %om = map { $_->{id} => $_ } @$om;
 
