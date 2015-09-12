@@ -14,7 +14,7 @@ $_REPL->load_plugin('DumpHistory');
 (my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
 use Grades;
 use Grades::Groupwork;
-my $l = League->new( leagues => '/home/drbean/032', id => $dir );
+my $l = League->new( leagues => '/home/drbean/041', id => $dir );
 my $sessions = $l->yaml->{session};
 my $last = max keys %$sessions;
 my $week = $sessions->{$last};
