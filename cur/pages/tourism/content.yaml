@@ -1,0 +1,26 @@
+topic:
+  -
+    id: guide
+    title: Tour guides in a sound file
+    intro: Instead of a poorly educated, one-dimensional young tour guide in person, a knowledgeable, enthusiastic, experienced guide with a story on an MP3 file on the Internet.
+
+    story:
+      -
+        id: melbourne-1
+        title: Melbourne's arcades and lanes
+        blurb: |
+          The backstreets in <a href="http://en.wikipedia.org/wiki/Melbourne">http://en.wikipedia.org/wiki/Melbourne</a> are popular for shopping and eating/drinking. Listen to the official City of Melbourne guide
+        comment: |
+          Do you think Axelrod is doing a good job as a campaigner?
+  -
+    id: accommodation
+    title: Where to stay
+    intro: Hotels, ryokans, bed & breakfasts, youth hostels, 
+    story:
+      -
+  -
+    id: transport
+    title: How to get there
+    intro: Airlines, trains, cars, bicycles, on foot
+    story:
+      -
