@@ -3,15 +3,27 @@ topic:
     id: guide
     title: Tour guides in a sound file
     intro: Instead of a poorly educated, one-dimensional young tour guide in person, a knowledgeable, enthusiastic, experienced guide with a story on an MP3 file on the Internet.
-
     story:
       -
         id: melbourne-1
         title: Melbourne's arcades and lanes
         blurb: |
-          The backstreets in <a href="http://en.wikipedia.org/wiki/Melbourne">http://en.wikipedia.org/wiki/Melbourne</a> are popular for shopping and eating/drinking. Listen to the official City of Melbourne guide
+          The <a href="https://en.wikipedia.org/wiki/Lanes_and_arcades_of_Melbourne">backstreets</a> in <a href="http://en.wikipedia.org/wiki/Melbourne">http://en.wikipedia.org/wiki/Melbourne</a> are popular for shopping and eating/drinking. Listen to <a href="http://web.nuu.edu.tw/~greg/tourism/arcade-and-laneways.mp3">the official City of Melbourne guide</a>. Download <a href="http://web.nuu.edu.tw/~greg/tourism/Melbourne_ArcadesLanes.pdf">the official City of Melbourne map</a>.
         comment: |
-          Do you think Axelrod is doing a good job as a campaigner?
+          We will listen to a guy with a different Australian accent do a commercial MP3 guide later in the course. Could you make a soundfile as a guide for an area you know?
+      -
+        id: melbourne-2
+        title: Melbourne's arcades and lanes
+        blurb: |
+          The <a href="https://en.wikipedia.org/wiki/Lanes_and_arcades_of_Melbourne">backstreets</a> in <a href="http://en.wikipedia.org/wiki/Melbourne">http://en.wikipedia.org/wiki/Melbourne</a> are popular for shopping and eating/drinking. Listen to <a href="http://web.nuu.edu.tw/~greg/tourism/arcade-and-laneways.mp3">the official City of Melbourne guide</a>. Download <a href="http://web.nuu.edu.tw/~greg/tourism/Melbourne_ArcadesLanes.pdf">the official City of Melbourne map</a>.
+        comment: |
+          We will listen to a guy with a different Australian accent do a commercial MP3 guide later in the course. Which one does a better job? Could you make a soundfile as a guide for an area you know.
+  -
+    id: people
+    title: Travelers, Writers, Expats
+    intro: Those who write about it, those who make traveling a lifestyle, and those who go and don't come back.
+    story:
+      -
   -
     id: accommodation
     title: Where to stay
