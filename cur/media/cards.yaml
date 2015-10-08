@@ -947,4 +947,83 @@ potato:
           answer  : True
         - question: He got \$55,000 dollars for potato salad.
           answer  : True
-
+ring:
+  jigsaw:
+    0:
+      identifier: ring 0
+      A: You are a ring worth \$1,800. Renee gives you away to help poor children. Gerta pays \$21,000 for you.
+      B: You give the charity \$21,000. You don't want the ring. You want the charity to return it to Renee.
+      C: Your husband died. You give his ring to charity. You want Gerta to keep the ring. You don't want it.
+      quiz:
+        - question: A
+          option:
+            - Gerta
+            - Renee
+            - the ring
+          answer: the ring
+        - question: B
+          option:
+            - Gerta
+            - Renee
+            - the ring
+          answer: Gerta
+        - question: C
+          option:
+            - Gerta
+            - Renee
+            - the ring
+          answer: Renee
+        - question: Renee sells the ring to a charity.
+          answer  : False
+        - question: Renee wants a child to wear the ring.
+          answer  : False
+        - question: Renee gives the ring to Gerta.
+          answer  : False
+        - question: Gerta will not wear the ring.
+          answer  : True
+        - question: The ring is given by mistake.
+          answer  : False
+        - question: Gerta wants the ring returned to Renee.
+          answer  : True
+        - question: Neither woman wants to keep the ring.
+          answer  : True
+norad:
+  jigsaw:
+    0:
+      identifier: norad 0
+      A: Nicky calls you on the phone, but because he has the wrong number from the advertisement, he calls the Colonel by mistake. 
+      B: A boy, Nicky calls you on your hotline, and you don't understand, because he shouldn't have the number of your hotline.
+      C: You call Santa, but the Colonel answers the phone. You don't understand why the Colonel isn't Santa. He makes you cry.
+      quiz:
+        - question: A
+          option:
+            - Nicky
+            - the Colonel
+            - Santa
+          answer: Santa
+        - question: B
+          option:
+            - Nicky
+            - the Colonel
+            - Santa
+          answer: the Colonel
+        - question: C
+          option:
+            - Nicky
+            - the Colonel
+            - Santa
+          answer: Nicky
+        - question: Nicky calls Santa.
+          answer: True
+        - question: Santa answers the phone.
+          answer: False
+        - question: Nicky has the right number.
+          answer: False
+        - question: Nicky got the number from an advertisement.
+          answer: True
+        - question: The number is for the Colonel's hotline.
+          answer: True
+        - question: The Colonel understands why Nicky calls.
+          answer: False
+        - question: The Colonel is happy to have Nicky call.
+          answer: False
