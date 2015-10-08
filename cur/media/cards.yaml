@@ -830,8 +830,8 @@ dog:
   jigsaw:
     0:
       identifier: dog 0
-      A: You owned Zeus, the world's tallest dog. You miss him very much. He was very gentle with people in hospital, like Zeke.
-      B: You are now dead. You died at the age of 5. Your owner, Kevin used to take you to hospitals to make people like Zeke feel better.
+      A: You owned Zeus, the world's tallest dog. You miss him very much. He was very gentle with Zeke and other people in hospital.
+      B: You are now dead. You died at the age of 5. Your owner, Kevin used to take you to hospitals to make Zeke and other people feel better.
       C: You met Zeus when Kevin brought him to the hospital you were in. He put his head down on your bed. It made you feel good.
       quiz:
         - question: A
@@ -858,7 +858,7 @@ dog:
           answer  : False
         - question: Kevin took Zeus to the dog hospital.
           answer  : False
-        - question: Zeke put his head near Zeke's head.
+        - question: Zeus put his head down near Zeke.
           answer  : True
         - question: Zeus made Zeke feel bad.
           answer  : False
@@ -872,7 +872,7 @@ kiss:
       identifier: kiss 0
       A: You were arrested for creating a disturbance. The police let you go, and Mario tries to interview you, but he cannot find you. You escape the cameras. 
       B: You create a disturbance by trying to kiss Mario as he is reporting the arrest of Shia for an earlier, different disturbance. You are not arrested.
-      C: You are reporting the arrest of Shia. But Erykah interrupts you by trying to kiss you. But you are able to avoid her and continue your report.
+      C: You are reporting the arrest of Shia. Erykah interrupts you by trying to kiss you. But you are able to avoid her and continue your report.
       quiz:
         - question: A
           option:
@@ -941,7 +941,7 @@ potato:
           answer  : False
         - question: He wanted the money to buy potatoes.
           answer  : True
-        - question: He wanted the money to give to the poor.
+        - question: He needed the money to give to the poor.
           answer  : False
         - question: Zack decided to throw a party for charity.
           answer  : True
