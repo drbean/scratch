@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 use IO::All;
-use YAML qw/LoadFile DumpFile/;
+use YAML::XS qw/LoadFile DumpFile/;
 use Cwd;
 
 $_REPL->load_plugin('DumpHistory');
