@@ -33,10 +33,16 @@ topic:
           The <a href="http://en.wikipedia.org/wiki/World_Happiness_Report">World_Happiness_Report</a> is a United Nations project that ranks countries on the happiness of their people. Listen to <a href="http://linkengpark.com/6-minute-english-the-secret-of-happiness/">Rob and Finn of 6-Minute English"</a> discuss it.
         comment: Some words they use: <table border="1" style="width:100%"><tr> <td>down in the dumps<td>feeling miserable or unhappy <tr><td>happy-go-lucky<td>describes someone who doesn't worry about the future <tr><td>satisfaction<td>the good feeling you get when you get something you want <tr><td>a state of mind<td>how someone feels about their life at the present time <tr><td>content<td>feel happy or pleased with the situation <tr><td>materialistic<td>believing money and possessions are the most important things <tr><td>goals<td>things you want to achieve <tr><td>hectic<td>busy, lots of things going on <tr><td>rewarding<td>a feeling of satisfaction and pleasure <tr><td>wiser<td>gained the ability to make good judgements based on life experience <tr><td>comforting<td>making you feel less sad or worried </table>
   -
-    id: jobs
+    id: economic animal
     title: How should we approach the problem of needing money to live?
     intro: Work is something that is hard to avoid, but which can destroy you. How do you take control of work, and not let work take control of you?
     story:
+      -
+        id: exchange
+        title: Exchanging money
+        blurb: |
+          Listen to 2 people discuss changing money at the airport. Gustavo says it's better to change money at a bank because the exchange rate is better and the fee is less. And listen to <a href="http://en.wikipedia.org/wiki/English_as_a_Second_Language_Podcast">Jeff McQuillan</a> explain their dialogue.
+        comment: The soundfile is at <a href="http://media.libsyn.com/media/eslpod/ESLPod191.mp3">https://www.eslpod.com/website/show_podcast.php?issue_id=2525724</a>
       -
         id: publishing
         title: Managing a publishing company
@@ -80,8 +86,6 @@ topic:
         comment: The soundfile is at <a href="http://www.eslpod.com/website/show_podcast.php?issue_id=11812486">http://www.eslpod.com/website/show_podcast.php?issue_id=11812486</a>.
   -
     id: technology
-  -
-    id: business
   -
     id: environment
     title: The natural and man-made environment
