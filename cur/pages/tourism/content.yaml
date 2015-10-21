@@ -24,6 +24,13 @@ topic:
     intro: Those who write about it, those who make traveling a lifestyle, and those who go and don't come back.
     story:
       -
+        id: george
+        title: An American in Paris
+        blurb: |
+          <a href="http://www.rolfpotts.com/writers/index.php?writer=Don+George">Don George</a> is a top travel writer. Listen to how he fell in love with <a href="http://web.nuu.edu.tw/~greg/tourism/DTP195.mp3">experiencing a foreign culture</a>, in his case, France. France has traditionally been a destination for American <a href="http://en.wikipedia.org/wiki/Expatriate">expatriates</a> looking for some place different than the ones they are used to at home.
+        comment: |
+          He wanted to be either a poet or a professor. He became a travel writer instead.
+
   -
     id: accommodation
     title: Where to stay
