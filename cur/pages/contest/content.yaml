@@ -185,18 +185,6 @@ topic:
     title: People at work
     intro: Studs Terkel, a pioneering collector of stories from Americans, said work was a search for 'daily meaning as well as daily bread.'
     story:
-      - 
-        id: trinka
-        title: Ed Trinka, hotel doorman
-        blurb: |
-          <p>Ed Trinka is well-known in New York.
-          <ul>
-          <li>Plaza Hotel doorman</li>
-          <li>Dead link: Ed Trinka Retires from Plaza Hotel at 65</li>
-          <li>Jackie Gleason</li>
-          </ul>
-          He has now retired. Telling his his story, he looks back at the job and talks about how to treat people. He was a great doorman, because he treated everyone like a VIP. His philosophy was to make people feel good. <a href="http://web.nuu.edu.tw/~greg/contest/trinka.mp3">trinka</a>
-        comment: Why do you think he is so popular? Would you like to be a doorman? What do you think a doorman job involves? What do you think about treating everyone like a VIP?
       -
         id: kroenke-1
         title: Tuning a piano at a nursing home
@@ -264,43 +252,6 @@ topic:
     title: The hotel industry
     intro: In NYC, one of the most expensive places in the US to visit, there are many different hotels, ranging from the $700-per-night Plaza Hotel to the $10-a-night Sunshine Hotel in the the Bowery
     story:
-      -
-        id: trinka
-        title: Ed Trinka, hotel doorman
-        blurb: |
-          <p>Ed Trinka is well-known in New York.
-          <ul>
-          <li>Plaza Hotel doorman</li>
-          <li>Dead link: Ed Trinka Retires from Plaza Hotel at 65</li>
-          <li>Plaza Hotel in NY Daily News</li>
-          <li>Plaza and Ed Trinka pictures</li>
-          <li>Jackie Gleason</li>
-          </ul>
-          He has now retired. Telling his his story, he looks back at the job and talks about how to treat people. He was a great doorman, because he treated everyone like a VIP. His philosophy was to make people feel good. <a href="http://web.nuu.edu.tw/~greg/contest/trinka.mp3">trinka</a>
-        comment: Why do you think he is so popular? Would you like to be a doorman? What do you think a doorman job involves? What do you think about treating everyone like a VIP?
-      - 
-        id: trinka-1
-        title: Ed Trinka, hotel doorman
-        blurb: |
-          <a href="http://web.nuu.edu.tw/~greg/contest/trinka.mp3">trinka</a>
-          <p>Ed Trinka is well-known in New York.
-          <ul>
-          <li>Plaza Hotel doorman</li>
-          <li>The MP3</li>
-          <li>Ed Trinka Retires from Plaza Hotel at 65</li>
-          <li>Plaza Hotel in NY Daily News</li>
-          <li>NPR Transcript</li>
-          <li>Plaza and Ed Trinka pictures</li>
-          <li>Jackie Gleason</li>
-          <li>Jackie Gleason on Youtube</li>
-          </ul>
-        comment: Why do you think he is so popular? Would you like to be a doorman?
-      - 
-        id: trinka-2
-        title: Ed Trinka on how to treat people
-        blurb: |
-          Ed Trinka has now retired. In the rest of his story, he looks back at the job and talks about how to treat people. He was a great doorman, because he treated everyone like a VIP. His philosophy was to make people feel good. <a href="http://web.nuu.edu.tw/~greg/contest/trinka.mp3">trinka</a>
-        comment: What do you think a doorman job involves? What do you think about treating everyone like a VIP? Would you like to be a doorman?
       -
         id: sunshine
         title: Last New York flophouse
