@@ -459,7 +459,7 @@ topic:
           Will White in Chicago is not as well known as Ed Trinka in New York. But he thinks the same, about making people feel good. Watch the video on elearning.nuu.edu.tw. If you have problems watching the video, there is an MP3 file at <a href="http://web.nuu.edu.tw/~greg/work/white.mp3">http://web.nuu.edu.tw/~greg/work/white.mp3</a>.
         comment: Listen to him name some well-known places in Chicago: <a href="http://www.google.com/search?q=chicago%20mcormick%20place&num=100">McCormick Place</a>, <a href="https://maps.google.com/maps?q=marriott+hotel+chicago&hl=zh-TW&ie=UTF8&ll=41.892422,-87.624099&spn=0.00492,0.020106&sll=40.68949,-74.044418&sspn=0.353521,0.643387&hq=marriott+hotel&hnear=%E4%BC%8A%E5%88%A9%E8%AB%BE%E4%BC%8A%E5%B7%9E%E5%BA%AB%E5%85%8B%E7%B8%A3%E8%8A%9D%E5%8A%A0%E5%93%A5&t=m&fll=41.891672,-87.628841&fspn=0.021692,0.040212&z=16&layer=c&cbll=41.892427,-87.624101&panoid=l24Ji16l6ILh15Uk5REX5w&cbp=11,0,,0,0">Ohio Street</a>, and the <a href="https://maps.google.com/maps?q=marriott+hotel+chicago&hl=zh-TW&ie=UTF8&ll=41.892119,-87.624271&spn=0.00492,0.020106&sll=40.68949,-74.044418&sspn=0.353521,0.643387&hq=marriott+hotel&hnear=%E4%BC%8A%E5%88%A9%E8%AB%BE%E4%BC%8A%E5%B7%9E%E5%BA%AB%E5%85%8B%E7%B8%A3%E8%8A%9D%E5%8A%A0%E5%93%A5&t=m&fll=41.891672,-87.628841&fspn=0.021692,0.040212&z=16&layer=c&cbll=41.892117,-87.624278&panoid=kVbD_lfrGYfrmxhDSsaLbQ&cbp=11,270,,0,0">Marriott Hotel</a> nearby.
       -
-        id: kroenke-1
+        id: kroenke
         title: Tuning a piano at a nursing home
         blurb: |
           Ron Kroenke tunes pianos for a living. Here he tells the story of disappointing some people at an old people's home who had come to listen to some music.<br>
@@ -470,7 +470,8 @@ topic:
           <li><a href=http://en.wikipedia.org/wiki/Omaha,_Nebraska>Omaha, Nebraska</a></li>
           <li><a href=http://www.npr.org/templates/story/story.php?storyId=17234239>Story</a></li>
           </ul>
-        comment: Have you ever listened to someone tuning a piano, or a guitar? Is it interesting? How do you think the people waiting to hear the concert were feeling?
+          Listen to the rest of <a href=http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/kroenke.mp3>Ron Kroenke's story</a>. Some people were angry. Others were disappointed, but more sympathetic.
+        comment: Have you ever listened to someone tuning a piano, or a guitar? Is it interesting? How do you think the people waiting to hear the concert were feeling? How do you think he felt about the different responses? Why do you think the different people felt differently? How would you have felt if you were Ron Kroenke?
       -
         id: kroenke-2
         title: Mixed reactions of the audience
