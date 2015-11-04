@@ -464,14 +464,12 @@ topic:
         blurb: |
           Ron Kroenke tunes pianos for a living. Here he tells the story of disappointing some people at an old people's home who had come to listen to some music.<br>
           <ul>
-          <li><a href=http://www.storycorps.net/listen/ron-kroenke>Tuning a piano at an Omaha nursing home</a></li>
-          <li><a href=http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/kroenke.mp3>The MP3</a></li>
+          <li><a href="https://storycorps.org/listen/ron-kroenke/">Tuning a piano at an Omaha nursing home</a></li>
           <li><a href=http://omahapianoservice.com/index.html>Ron Kroenke, Piano Tuner</a></li>
           <li><a href=http://en.wikipedia.org/wiki/Omaha,_Nebraska>Omaha, Nebraska</a></li>
-          <li><a href=http://www.npr.org/templates/story/story.php?storyId=17234239>Story</a></li>
           </ul>
-          Listen to the rest of <a href=http://www.storycorps.net/wordpress/wp-content/uploads/listen/audio/kroenke.mp3>Ron Kroenke's story</a>. Some people were angry. Others were disappointed, but more sympathetic.
-        comment: Have you ever listened to someone tuning a piano, or a guitar? Is it interesting? How do you think the people waiting to hear the concert were feeling? How do you think he felt about the different responses? Why do you think the different people felt differently? How would you have felt if you were Ron Kroenke?
+          
+        comment: Some people were angry. Others were disappointed, but more sympathetic. Have you ever listened to someone tuning a piano, or a guitar? Is it interesting? How do you think the people waiting to hear the concert were feeling? How do you think he felt about the different responses? Why do you think the different people felt differently? How would you have felt if you were Ron Kroenke?
       -
         id: kroenke-2
         title: Mixed reactions of the audience
