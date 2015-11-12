@@ -10,6 +10,19 @@ blurb: |+
 
 topic:
   -
+    id: health
+    title: Health and health service/medical care issues
+    intro: Not an issue that concerns most young and healthy people but an important determiner of life expectancy and the national quality of life.
+    story:
+      -
+        id: smoking
+        title: Quitting smoking
+        blurb: |
+          Listen to 2 people discuss quitting smoking. Lisa says she is going to try <a href="http://en.wikipedia.org/wiki/hypnosis">hypnosis</a> or <a href="http://en.wikipedia.org/wiki/acupuncture">acupuncture</a>
+
+          And listen to <a href="http://en.wikipedia.org/wiki/English_as_a_Second_Language_Podcast">Jeff McQuillan</a> again explain their dialogue.
+        comment: The soundfile is at <a href="http://libsyn.com/media/eslpod/ESLPod1119.mp3">http://libsyn.com/media/eslpod/ESLPod1119.mp3</a>, or on <a href="http://ec.must.edu.tw">http://ec.must.edu.tw</a>
+  -
     id: life_goals
     title: You and your ideas about yourself
     intro: Some issues that concern us are our appearance now and what will become of us in the future.
