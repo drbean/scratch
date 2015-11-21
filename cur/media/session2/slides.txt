@@ -13,6 +13,7 @@ Sun Sep 14 16:55:46 CST 2014
 - adjective
 - indefinite articles
 - relative clause
+- No "There was a ..."
 
 # Can we trust the news
 
@@ -453,13 +454,16 @@ How to make this a news item when it happens every year?
 
 ## Week 9
 
-- [Calf, arrest](http://news.yahoo.com/california-man-arrested-calf-found-165722021.html)
-- [Dog, roof](http://news.yahoo.com/ohio-firefighters-rescue-dog-stuck-roof-3-days-191718872.html)
-- [Fake money, bank teller](http://news.yahoo.com/cops-man-held-teller-wasnt-fooled-fake-20s-145630180.html)
-- [Google Robot](http://www.cnet.com/uk/news/boston-dynamics-atlas-is-terrible-at-karate/)
-- [Nurses, Ebola, strike](http://www.dailybulletin.com/general-news/20141111/california-nurses-launch-strike-to-demand-greater-ebola-protection)
-- [boy, cliff](http://news.yahoo.com/boy-survives-long-fall-down-california-oceanside-cliff-195125948.html)
-- [Leg, head, shark](http://www.upi.com/Odd_News/2014/11/11/Fishermen-say-they-found-human-head-inside-shark/5921415722478/)
-- [Pope, American bishops, conflict](http://news.yahoo.com/us-catholic-bishops-try-calm-anxiety-over-pope-191857990.html)
-- [100-year-old woman, skydiving](http://news.yahoo.com/ny-woman-celebrates-100th-birthday-sky-dive-165715927.html)
-- [comet probe](http://www.bbc.com/news/science-environment-30032559)
+- [calf](http://news.yahoo.com/california-man-arrested-calf-found-165722021.html)
+- [dog](http://news.yahoo.com/ohio-firefighters-rescue-dog-stuck-roof-3-days-191718872.html)
+- [fake money](http://news.yahoo.com/cops-man-held-teller-wasnt-fooled-fake-20s-145630180.html)
+- [cliff](http://news.yahoo.com/boy-survives-long-fall-down-california-oceanside-cliff-195125948.html)
+- [shark](http://www.upi.com/Odd_News/2014/11/11/Fishermen-say-they-found-human-head-inside-shark/5921415722478/)
+- [100-year-old woman](http://news.yahoo.com/ny-woman-celebrates-100th-birthday-sky-dive-165715927.html)
+- [goat](http://news.yahoo.com/kid-napping-ends-baby-goat-reunited-mother-081343358.html#)
+- [bus-stealer](http://news.yahoo.com/nyc-police-notorious-subway-joy-rider-steals-nj-230122560.html)
+- [alligator](http://news.yahoo.com/800-pound-alligator-found-houston-area-shopping-center-174313396.html#)
+- [bubble gum](http://news.yahoo.com/bubble-yuck-crews-melt-chewed-gum-off-famed-191615542.html#)
+- [barber](http://news.yahoo.com/legally-blind-barber-awarded-100k-wrongful-termination-201759029.html)
+
+
