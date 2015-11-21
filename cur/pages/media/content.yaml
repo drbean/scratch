@@ -80,12 +80,30 @@ topic:
         comment: |
           He doesn't speak clearly, so filling in the blanks will be difficult. But Dr Bean will be glad to help. Some words: <a href="http://www.urbandictionary.com/define.php?term=mojo">mojo</a>, <a href="http://en.wikipedia.org/wiki/Mobile_app">app</a> and <a href="http://en.wikipedia.org/wiki/Business_model"</a>business model</a>.
       -
-        id: blair
+        id: blair1
         title: Jayson Blair: fabricator, plagiarizer
         blurb: |
                 <a href="http://en.wikipedia.org/wiki/Jayson_Blair">Jayson Blair</a> was a reporter at the <a href="http://en.wikipedia.org/wiki/New_York_Times">New York Times</a> who was fired because of <a href="http://en.wikipedia.org/wiki/Fabrication_(science)">fabrications</a> and <a href="http://en.wikipedia.org/wiki/Plagiarism">plagiarism</a> in <a href="http://query.nytimes.com/gst/fullpage.html?res=9C03E3DE1E30F934A15750C0A9659C8B63">A nation at war: Military families; Relatives of Missing Soldiers Dread Hearing Worse News</a> and other stories. The piece was about <a href="http://en.wikipedia.org/wiki/Jessica_Lynch">Jessica Lynch</a> a woman in the American army captured in Iraq. Blair claimed, among other things, that he went to Lynch's hometown, but he did not, that tobacco fields could be seen from the Lynch home, but they could not, and that her mother had had a dream, but she had not.
         comment: |
           Listen to <a href="http://www.youtube.com/watch?v=kFePfsBlocA">a lecture<a/> he gave about his actions.
+      -
+        id: blair2
+        title: Jayson Blair explains
+        blurb: |
+                <a href="http://en.wikipedia.org/wiki/Jayson_Blair">Jayson Blair</a> was a reporter at the <a href="http://en.wikipedia.org/wiki/New_York_Times">New York Times</a> who was fired because of <a href="http://en.wikipedia.org/wiki/Fabrication_(science)">fabrications</a> and <a href="http://en.wikipedia.org/wiki/Plagiarism">plagiarism</a>.
+        comment: |
+          Listen to him on <a href="http://elearning.nuu.edu.tw">elearning.nuu.edu.tw<a/> explain how he developed his "plagarism toolset." He is not easy to understand. Listen for these words: <ul>
+            <li>in over my head
+            <li>the bar rises
+            <li>the slippery slope
+            <li>lifting quotes
+            <li>cross the line
+            <li>man-in-the-street interview
+            <li>Associated Press--a news agency which sells stories to newspapers
+            <li>toolset
+            <li>losing my mind
+            <li>cutting corners--not just what motorscooters do turning left
+            <li>falling apart
       -
         id: thanksgiving
         title: Journalistic bias reporting Thanksgiving news
