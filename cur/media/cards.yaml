@@ -262,13 +262,13 @@ limbaugh:
           answer  : False
         - question: Fluke probably supports Obama.
           answer  : True
-        - question: Fluke: "Limbaugh supports a `War on Women.'"
+        - question: Fluke\3A "Limbaugh supports a `War on Women.'"
           answer  : True
         - question: Obama supports a `War on Women.'
           answer  : False
         - question: Obama supports Fluke.
           answer  : True
-        - question: Obama: "Republicans want a 'War on Women.'"
+        - question: Obama\3A "Republicans want a 'War on Women.'"
           answer  : True
 stern:
   jigsaw:
@@ -818,7 +818,7 @@ thanksgiving:
           answer  : True
         - question: Paul makes mistakes. Prices may not be rising.
           answer  : True
-        - question: Chris: `Paul's story is not good.'
+        - question: Chris\x3A `Paul's story is not good.'
           answer  : True
         - question: Chis thinks a good Thanksgiving story is impossible.
           answer  : False
