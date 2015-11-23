@@ -43,3 +43,37 @@ topic:
     intro: Airlines, trains, cars, bicycles, on foot
     story:
       -
+  -
+    id: newyork
+    title: Walking guides to NYC
+    intro: Places to see on foot in New York City
+    story:
+      -
+        id: times_square
+        title: Times Square
+        blurb: |
+          The site of the biggest celebration of New Year's Eve. Very close is Broadway, New York's theater district.
+        comment: Listen to an extract from TrekExchanges walking tour guide at <a href="http://www.trekexchange.com/files/TSQ_Sample.mp3">http://www.trekexchange.com/files/TSQ_Sample.mp3</a>
+
+      -
+        id: central_park
+        title: Central Park
+        blurb: |
+          Central Park is near the Plaza Hotel, where Ed Trinka was doorman.
+        comment: Listen to an extract from TrekExchanges walking tour guide at <a href="http://www.trekexchange.com/files/NYC_Cen_Park_sample.mp3">http://www.trekexchange.com/files/NYC_Cen_Park_sample.mp3</a> about the <a href="http://www.centralpark.com/guide/attractions/dairy.html">Central Park Dairy</a>.
+      -
+        id: upper_east_side
+        title: Upper East Side
+        blurb: |
+          The <a href="http://en.wikipedia.org/wiki/Upper_East_Side">Upper East Side</a> is one of the richest neighborhoods in NYC.
+        comment: Listen to an extract from TrekExchanges walking tour guide at <a href="http://www.trekexchange.com/files/NYC_UES_Warhol_sample.mp3">http://www.trekexchange.com/files/NYC_UES_Warhol_sample.mp3</a> about <a href="http://en.wikipedia.org/wiki/Andy_Warhol">Andy_Warhol</a>.
+
+      -
+        id: wall_street
+        title: Wall Street
+        blurb: |
+          The <a href="http://en.wikipedia.org/wiki/Wall_Street">Wall_Street</a> is the NYC financial district.
+        comment: Listen to an extract from TrekExchanges walking tour guide at <a href="http://www.trekexchange.com/files/FinancialDistrictSample.mp3">http://www.trekexchange.com/files/FinancialDistrictSample.mp3</a> about <a href="http://www.google.com.tw/search?q=%22+General+Washington%27s+Farewell+to+his+Troops.%22&num=100&gws_rd=ssl&tbm=isch&tbo=u&source=univ&sa=X">General Washington's Farewell to his Troops</a>, among other things.
+
+
+
