@@ -1,0 +1,52 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use IO::All;
+use YAML qw/LoadFile DumpFile/;
+use Cwd;
+
+use List::Util qw/sum max min/;
+
+$_REPL->load_plugin('DumpHistory');
+
+my $session = 3;
+my $week = 11;
+
+(my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
+use Grades;
+use Grades::Groupwork;
+my $l = League->new( leagues => '/home/drbean/041', id => $dir );
+my $g = Grades->new({ league => $l });
+my $c = Compcomp->new({ league => $l });
+my %m = map { $_->{id} => $_ } @{ $l->members };
+my $approach = $l->approach;
+
+
+my $cans = $g->beancans($session);
+my @cans = keys %$cans;
+
+my $y = LoadFile "classwork/$week.yaml";
+
+my %p = map {
+	my $can = $_;
+	my $p = $y->{$can}->{p};
+	$_ =>  sum ( @$p )
+		} keys %$cans;
+
+my $max = max values %p;
+my $min = min values %p;
+
+for my $can ( @cans ) {
+	if ( $p{$can} == $max ) {
+		$y->{$can}->{merits} = 3;
+	}
+	elsif ( $p{$can} == $min ) {
+		$y->{$can}->{merits} = 2;
+	}
+	else {
+		$y->{$can}->{merits} = 
+			2 + ($p{$can} - $min)/ ($max - $min);
+	}
+}
+DumpFile "classwork/$week.yaml", $y;
