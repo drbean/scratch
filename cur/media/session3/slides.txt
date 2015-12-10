@@ -136,6 +136,11 @@ A ring dropped down a toilet by a 3-year-old boy 3 weeks ago was found 3 miles a
 - [Flushed ring,sewer](http://news.yahoo.com/heirloom-ring-flushed-sewer-workers-retrieve-230903459.html)
 
 ## Week 12 stories
+- [Donkey](http://news.yahoo.com/oklahoma-officer-drives-miniature-donkey-safety-062049574.html)
+- [Lottery](http://news.yahoo.com/modesto-man-wins-10m-lottery-minutes-winning-1k-060137629.html)
+- [Chimney](http://news.yahoo.com/intruder-dies-california-chimney-homeowner-lights-fire-192956744.html)
+- [Closing](http://monitor.icef.com/2015/04/taiwan-plans-to-close-up-to-a-third-of-its-universities-in-the-next-decade/)
+
 - [13-year-old dog, home, 3-year-wait](http://www.lifewithdogs.tv/2014/12/13-year-old-dog-at-shelter-for-1000-days-finally-gets-a-home/)
 - [Santa fired, dog, autistic girl](http://www.upi.com/Top_News/US/2014/12/02/Autistic-girl-cant-see-Santa-at-CA-store-because-service-dog-is-pit-bull/1781417568018/)
 - [Deep-earth mineral, 400 miles down](http://www.popularmechanics.com/science/space/deep/bridgmanite-most-abundant-mineral-on-earth-found-17488897)
@@ -187,6 +192,12 @@ The American Farm Bureau released its annual announcement of the cost of a Thank
 - [Cost of Thanksgiving Dinner Rises, Still Under $50 for 10](http://www.fb.org/index.php?action=newsroom.news_article&id=191)
   - 50 US dolllars = 1,500 NT
 
+## Student lead Thanksgiving sentences
+
+1. On November 20 in Washington DC, the American Farm Bureau made a press release about the cost of Thanksgiving dinner and it mentioned prices were 37 cents higher than last year.
+2. A press release from the the American Farm Bureau in Washington DC on November 20 showed prices of a Thanksgiving dinner were up 37 cents from last year.
+3. The American Farm Bureau announced in Washington DC, on November 20, that the cost of a Thanksgiving dinner had risen to $49.40, up 37 cents from last year.
+
 # Blair
 
 ## The case
@@ -211,4 +222,43 @@ working
 
 Jason Blair was _____(1) at the New York Times as an intern with another _____(2), Marcia Hernandez. Hernandez left the _____(3) to work at a _____(4) in Texas, her home _____(5), where she _____(6) the mother of a _____(7) missing in Iraq. Blair _____(8) information from the _____(9) for his own story in the _____(10). Hernandez' _____(11) told Blair's editor, Howell Raines, who _____(12) Blair.
 
+# Antonin Scalia--Supreme Court judge
 
+
+## Scalia cloze
+
+administrations
+appointed
+attorney_general
+conservative.
+described
+difficult
+Italian-American
+judge
+opposition
+serving
+spent
+United_States
+
+Scalia  is a _____(1) of the Supreme Court of the _____(2) The longest-_____(3) judge currently on the Court, Scalia has been _____(4) as the representative Court _____(5)  In the early 1970s, he served in the Nixon and Ford _____(6), becoming assistant _____(7). He _____(8) most of the Carter years teaching at the University of Chicago. In 1986, Scalia was _____(9) by Reagan to the Supreme Court. Scalia was asked few _____(10) questions, and faced no _____(11) when he was appointed, becoming the first _____(12) Supreme Court judge. Scalia has served on the Court for nearly thirty years, during which time he has been a strong defender of the powers of the executive branch, believing presidential power should be paramount in many areas. He files separate opinions in large numbers of cases, and, in his minority opinions, often criticizes the Court's majority in sarcastic language. 
+
+
+## Scalia on TV cloze
+
+agree
+although
+conservative
+controversial
+dividing
+explain
+fun
+him
+important
+judges (x2)
+liberal
+opposed
+public
+sound_bites
+television
+
+Scalia is the most _____(1) of the nine _____(2) on the US Supreme Court. Even though often they all _____(3), on many of the _____(4) cases they disagree, _____(5) along conservative, moderate and _____(6) lines. Scalia, who is _____(7), will make _____(8) of the other _____(9) when they disagree with _____(10). He appears on _____(11) to _____(12) his positions. However, he is _____(13) to the televising of the court, _____(14) he doesn't oppose sound recordings. He says, 30-second _____(15) would misinform the _____(16) about the court.
