@@ -14,6 +14,10 @@ Sun Sep 14 16:55:46 CST 2014
 - indefinite articles
 - relative clause
 - No "There was a ..."
+- No "and," "but"
+- No pronouns, use hypernyms
+
+eg the Farm Board is an organization
 
 # Can we trust the news
 
