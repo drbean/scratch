@@ -622,7 +622,7 @@ blair:
           answer  : False
         - question: Raines put the story Blair wrote on the front page.
           answer  : False
-        - question: Raines knew Blair copied the story.
+        - question: Raines knew Blair copied the story from the start.
           answer  : False
         - question: Raines wrote a big front-page story about Blair.
           answer  : True
