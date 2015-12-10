@@ -782,7 +782,7 @@ thanksgiving:
           answer  : True
         - question: Reporters put tension in the Farm Board story.
           answer  : True
-        - question: The tension is not real tension
+        - question: "Critics: The tension is not real tension."
           answer  : True
         - question: Critics think the reporters do a good job.
           answer  : False
