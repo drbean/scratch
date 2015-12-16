@@ -1,0 +1,32 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use IO::All;
+use YAML::XS qw/LoadFile DumpFile Bless/;
+use Cwd;
+
+$_REPL->load_plugin('DumpHistory');
+
+(my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
+use Grades;
+use Grades::Groupwork;
+my $l = League->new( leagues => '/home/drbean/041', id => $dir );
+my $g = Grades->new({ league => $l });
+my $co = Compcomp->new({ league => $l });
+my $cl = $g->classwork;
+my %m = map { $_->{id} => $_ } @{ $l->members };
+my $approach = $l->approach;
+
+my $round = 3;
+
+my %tron = map { $_=> {;
+	I => {headline => 0, question => 0, sentence => 0};
+	, II => {headline => 0, question => 0, sentence => 0};
+	, III => {headline => 0, question => 0, sentence => 0} };
+	} keys %m;
+my $tron = \%tron;
+Bless($tron->{ $_ }->{ I })->keys([qw/headline question sentence/ ]) for keys %m;;
+Bless($tron->{ $_ }->{ II })->keys([qw/headline question sentence/ ]) for keys %m;;
+Bless($tron->{ $_ }->{ III })->keys([qw/headline question sentence/ ]) for keys %m;;
+DumpFile "exam/$round/newsresponse.yaml", $tron;
