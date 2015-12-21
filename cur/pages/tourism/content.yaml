@@ -74,6 +74,66 @@ topic:
         blurb: |
           The <a href="http://en.wikipedia.org/wiki/Wall_Street">Wall_Street</a> is the NYC financial district.
         comment: Listen to an extract from TrekExchanges walking tour guide at <a href="http://www.trekexchange.com/files/FinancialDistrictSample.mp3">http://www.trekexchange.com/files/FinancialDistrictSample.mp3</a> about <a href="http://www.google.com.tw/search?q=%22+General+Washington%27s+Farewell+to+his+Troops.%22&num=100&gws_rd=ssl&tbm=isch&tbo=u&source=univ&sa=X">General Washington's Farewell to his Troops</a>, among other things.
+  -
+    id: museum
+    title: Museums
+    intro: There are art, war, car, boat museums and museums for anything collectable you can think of
+    story:
+      -
+        id: chagall
+        title: Marc Chagall's I and the Village
+        blurb: |
+          Listen to <a href="http://www.moma.org">The Museum of Modern Art's</a> 
+          <a href="https://www.moma.org/explore/multimedia/audios/372#playlist">audio guide for children's</a>
+          <a href="https://www.moma.org/explore/multimedia/audios/372">description</a> of 
+          <a href="http://en.wikipedia.org/wiki/Marc_Chagall">Marc_Chagall</a>'s
+          <a href="http://en.wikipedia.org/wiki/I_and_the_Village">I_and_the_Village</a>.
+        comment: You can also listen at <a href="http://web.nuu.edu.tw/~greg/museum/moma_chagall_village.mp3">http://web.nuu.edu.tw/~greg/museum/moma_chagall_village.mp3</a>
+      -
+        id: matisse
+        title: Henri Matisse's The piano lesson
+        blurb: |
+          Listen to <a href="http://www.moma.org">The Museum of Modern Art's</a> 
+          <a href="https://www.moma.org/explore/multimedia/audios/372#playlist">audio guide for children's</a>
+          <a href="http://www.moma.org/explore/multimedia/audios/372/5960">description</a> of 
+          <a href="http://en.wikipedia.org/wiki/Henri_Matisse">Henri_Matisse</a>'s
+          <a href="http://en.wikipedia.org/wiki/The_piano_lesson">The_piano_lesson</a>.
+        comment: You can also listen at <a href="http://web.nuu.edu.tw/~greg/museum/moma_matisse_piano.mp3">http://web.nuu.edu.tw/~greg/museum/moma_matisse_piano.mp3</a>
+      -
+        id: rousseau
+        title: Henri Rousseau's The dream
+        blurb: |
+          Listen to <a href="http://www.moma.org">The Museum of Modern Art's</a> 
+          <a href="https://www.moma.org/explore/multimedia/audios/372#playlist">audio guide for children's</a>
+          <a href="https://www.moma.org/explore/multimedia/audios/372/6024">description</a> of 
+          <a href="http://en.wikipedia.org/wiki/Henri_Rousseau">Henri_Rousseau</a>'s
+          <a href="https://en.wikipedia.org/wiki/The_Dream_%28Rousseau_painting%29">The_dream</a>.
+        comment: You can also listen at <a href="http://web.nuu.edu.tw/~greg/museum/moma_rousseau_dream.mp3">http://web.nuu.edu.tw/~greg/museum/moma_rousseau_dream.mp3</a>
+      -
+        id: welcome
+        title: Sweden's Vasa Museum
+        blurb: |
+          Listen to <a href="http://www.vasamuseet.se/Documents/Mp3/Engelska/1_Eng_mp3.mp3">the introductory tour guide</a>
+          of the <a href="http://www.vasamuseet.se/en/">The Vasa Museum's</a> 
+          <a href="http://www.vasamuseet.se/en/visit/mp3-guide/">15 audio guides</a>.
+        comment: The <a href="http://en.wikipedia.org/wiki/Vasa_museum">Vasa Museum</a> is the most visited <a href="http://www.google.com.tw/search?q=%22+maritime+museum%22&num=100&gws_rd=ssl&tbm=isch&tbo=u&source=univ&sa=X">maritime museum</a> in the world.
+      -
+        id: gustav
+        title: Gustav Adolf
+        blurb: |
+          Listen to <a href="http://www.vasamuseet.se/Documents/Mp3/Engelska/2_Eng_mp3.mp3">the second tour guide about Gustav Adolf</a>
+          of the <a href="http://www.vasamuseet.se/en/">The Vasa Museum's</a> 
+          <a href="http://www.vasamuseet.se/en/visit/mp3-guide/">15 audio guides</a>.
+        comment: <a href="http://en.wikipedia.org/wiki/Gustavus_Adolphus_of_Sweden">Gustav Adolf</a> transformed Sweden into a top Eureopean military power during the <a href="http://www.google.com.tw/search?q=%2230+years+war%22&num=100&gws_rd=ssl&tbm=isch&tbo=u&source=univ&sa=X">30 Years' War</a>.
+      -
+        id: shipwreck
+        title: Vasa: a 400-year-old ship perfectly preserved
+        blurb: |
+          Listen to <a href="http://www.vasamuseet.se/Documents/Mp3/Engelska/3_Eng_mp3.mp3">the third tour guide</a>
+          of the <a href="http://www.vasamuseet.se/en/">The Vasa Museum's</a> 
+          <a href="http://www.vasamuseet.se/en/visit/mp3-guide/">15 audio guides</a>.
+        comment: The <a href="http://en.wikipedia.org/wiki/Vasa_(ship)">Vasa</a> sailed about 1 kilometer on its maiden voyage before it sank. But don't judge the Swedish military of the period from the <a href="http://www.google.com.tw/search?q=%22vasa+ship%22&num=100&gws_rd=ssl&tbm=isch&tbo=u&source=univ&sa=X">Vasa (pictures)</a>.
+          
 
 
 
