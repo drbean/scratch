@@ -612,6 +612,23 @@ topic:
         comment: | 
           Interesting words: <a href="http://www.merriam-webster.com/dictionary/mingle">mingle</a> and buck, ie, a dollar. What are your vacation plans?
   -
+    id: childhood
+    title: Childhood
+    intro: Children are either innocent, or mischievous, deceitful and disrespectful. Or perhaps both.
+    story:
+      -
+        id: podcast-1
+        title: Podcast-1
+        blurb: |
+          Two stories about teenagers. 
+        comment: Listen at <a href="https://storycorps.org/podcast/storycorps-450-up-to-no-good/">StoryCorps Podcast 450</a>
+      -
+        id: podcast-2
+        title: Podcast-2
+        blurb: |
+          Two more stories about younger and older kids. 
+        comment: Listen at <a href="https://storycorps.org/podcast/storycorps-450-up-to-no-good/">StoryCorps Podcast 450</a>
+  -
     id: parents
     title: Meeting parents
     intro: Nowadays, more and more adopted people are looking for their 'real' (??) parents. Some adopted people have sad stories of relationships with parents. Others with happier stories say: The older I get, the wiser my parents were.
