@@ -182,7 +182,7 @@ topic:
   -
     id: historical
     title: Old broadcasts
-    intro: Radio, TV in an earlier era
+    intro: Radio, TV and the media in an earlier era
     story:
       -
         id: quizkid
@@ -191,6 +191,12 @@ topic:
           <a href="http://en.wikipedia.org/wiki/Mike_Wallace_(journalist)">Mike Wallace</a> interviews quiz kid, Leonard Ross, in 1957. Ross committed suicide when he was 40, in 1985. <a href="http://www.hrc.utexas.edu/multimedia/video/2008/wallace/ross_leonard.html">Listen</a>. Do you think Wallace is giving Ross a hard time? Ross is only 12 years old.
         comment: |
          What do you think of the <a href="http://en.wikipedia.org/w/index.php?title=Tobacco_advertising&section=23#United_States">tobacco commercial</a>? 
+      -
+        id: norad
+        title: Continental NORAD Region Holiday Greeting
+        blurb: |
+          <a href="http://en.wikipedia.org/wiki/NORAD_Tracks_Santa">NORAD Tracks Santa</a> is in the American Christmas tradition of organizations pretending to children that Santa exists, and started 60 years ago, when children called a telephone number, expecting to talk to Santa. The number was actually that of a top-secret hotline only supposed to be used during a missile attack. Listen to members of the military air defense organization talk about Santa as if he exists on <a href="http://elearning.edu.tw">http://elearning.edu.tw</a>.
+        comment: Then listen to the children of Colonel Stroup, the air defense commander who answered the children's call 60 years ago, describe <a href="http://www.npr.org/2014/12/19/371647099/norads-santa-tracker-began-with-a-typo-and-a-good-sport">how the military tracking of Santa started</a>.
   -
     id: c-span
     title: C-SPAN
