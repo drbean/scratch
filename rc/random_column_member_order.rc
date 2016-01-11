@@ -1,0 +1,38 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use IO::All;
+use YAML::XS qw/LoadFile DumpFile/;
+use Cwd;
+use List::Util qw/shuffle/
+
+$_REPL->load_plugin('DumpHistory');
+
+(my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
+use Grades;
+use Grades::Groupwork;
+my $l = League->new( leagues => '/home/drbean/041', id => $dir );
+my $g = Grades->new({ league => $l });
+my $co = Compcomp->new({ league => $l });
+my $cl = $g->classwork;
+my %m = map { $_->{id} => $_ } @{ $l->members };
+my $approach = $l->approach;
+
+my $cans = $cl->beancans(4);
+
+my @cans4; push @cans4, $cans->{"4-$_"} for 1..5;
+my @cols4 = () ; push @cols4, map {my $can = $_ ; map { $_ . "\t" . $can->{$_} . "\n" } keys %$can }  @cans4;
+io("../../class/tourism/museum/slides.txt")->append( shuffle @cols4 );
+
+my @cans3; push @cans4, $cans->{"3-$_"} for 1..5;
+my @cols3 = () ; push @cols3, map {my $can = $_ ; map { $_ . "\t" . $can->{$_} . "\n" } keys %$can }  @cans3;
+io("../../class/tourism/museum/slides.txt")->append( shuffle @cols3 );
+
+my @cans2; push @cans2, $cans->{"2-$_"} for 1..5;
+my @cols2 = () ; push @cols2, map {my $can = $_ ; map { $_ . "\t" . $can->{$_} . "\n" } keys %$can }  @cans2;
+io("../../class/tourism/museum/slides.txt")->append( shuffle @cols2 );
+
+my @cans1; push @cans1, $cans->{"1-$_"} for 1..5;
+my @cols1 = () ; push @cols1, map {my $can = $_ ; map { $_ . "\t" . $can->{$_} . "\n" } keys %$can }  @cans1;
+io("../../class/tourism/museum/slides.txt")->append( shuffle @cols1 );
