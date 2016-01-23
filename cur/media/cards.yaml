@@ -1027,3 +1027,43 @@ norad:
           answer: False
         - question: The Colonel is happy to have Nicky call.
           answer: False
+lunch:
+  jigsaw:
+    0:
+      identifier: lunch 0
+      A: You tell Dee you don't have any lunch money, but she gives you lunch anyway. Stella tells you to talk with her next time.
+      B: You are Dee's boss. Kids like Paul with no money can tell you and then pay later for lunch. You fire (and then rehire) Stella.
+      C: You serve student lunches. You give Paul a free lunch, against the rules. Stella fires you. Then she gives you your job back.
+      quiz:
+        - question: A
+          option:
+            - Dee
+            - Paul
+            - Stella
+          answer: Paul
+        - question: B
+          option:
+            - Dee
+            - Paul
+            - Stella
+          answer: Stella
+        - question: C
+          option:
+            - Dee
+            - Paul
+            - Stella
+          answer: Dee
+        - question: Paul pays for lunch.
+          answer  : False
+        - question: Stella tells Paul to tell her next time.
+          answer  : True
+        - question: Stella thinks Dee did the right thing.
+          answer  : False
+        - question: The system is for kids without money to tell Stella.
+          answer  : True
+        - question: If Paul had told Stella, he could have gotten lunch.
+          answer  : True
+        - question: Stella did not fire Dee.
+          answer  : False
+        - question: Stella will not rehire Dee.
+          answer  : False
