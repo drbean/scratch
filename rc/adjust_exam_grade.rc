@@ -1,0 +1,25 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use IO::All;
+use YAML::XS qw/LoadFile DumpFile/;
+use Cwd;
+
+$_REPL->load_plugin('DumpHistory');
+
+(my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
+use Grades;
+use Grades::Groupwork;
+my $l = League->new( leagues => '/home/drbean/041', id => $dir );
+my $g = Grades->new({ league => $l });
+my $co = Compcomp->new({ league => $l });
+my $cl = $g->classwork;
+my %m = map { $_->{id} => $_ } @{ $l->members };
+my $approach = $l->approach;
+
+my $raw = LoadFile 'exam/4/g.yaml';
+my %grade = map { $_ => ($raw->{points}->{$_} + $raw->{"adjustment%"}->{$_} * $raw->{points}->{$_}/100 ) } keys %m;
+$raw->{grade} = \%grade;
+my %grade5 = map {$_ => $grade{$_} / 20 } keys %m;
+DumpFile 'exam/4/g.yaml', $raw, \%grade5;
