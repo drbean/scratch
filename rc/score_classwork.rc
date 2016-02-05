@@ -11,7 +11,7 @@ use List::Util qw/sum max min/;
 $_REPL->load_plugin('DumpHistory');
 
 my $session = 3;
-my $week = 11;
+my $week = 12;
 
 (my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
 use Grades;
