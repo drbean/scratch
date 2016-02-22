@@ -3,6 +3,8 @@
 % by Dr Bean\
 Mon Feb 22 15:14:05 CST 2016
 
+# Learning word lists with flash cards
+
 ## Exam 1: Week 5
 H1-706
 
@@ -20,55 +22,12 @@ Assuming she/he gets 50 words right that she/he got wrong in the homework, the s
 
 4 = 3 + 2 * 25/50
 
-## Anki
-
-Lost notes
-
-Look in browser
-
-## Homework
+## Homework: report progress learning words with Anki flashcards on device
 
 On elearning, by Sunday morning 8am
 On elearning, by Tuesday morning 8am
 On elearning, by Thursday morning 8am
 
-
-## 
-Really excited: My own teaching computers, multimedia
-
-Students will:
-1) experience computer/multimedia language teachers,
-2) criticize existing software in the market,
-3) and make material for others to use
-	in computer/multimedia language learning.
-
-## Microsoft: No Powerpoint
-
-## Software you can change. Open-source, free software
-
-## consumers, critics, producers
-
-## 4 sessions
-	dictation:	Weeks 1-5
-	flash cards:	Weeks 5-8
-	youtube videos:	Weeks 9-13
-	parsing:	Weeks 13-17
-
-## Talking about learning
-by talking about computers.
-
-It is difficult to talk about our own learning directly. But if we talk about computers, we talk indirectly about our own learning.
-
-## Dictation
-
-http://web.nuu.edu.tw/~greg/literature/homework.txt
-
-
-## Other Dictation 
-
-http://www.dictationsonline.com/
-http://www.rong-chang.com/eslread/eslread/dict/contents.htm
-http://www.listen-and-write.com/audio
 
 ## Flashcards
 
