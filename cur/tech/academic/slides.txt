@@ -41,6 +41,13 @@ Mnemosyne http://mnemosyne-proj.org
 - [http://www.youtube.com/watch?v=QS2G-k2hQyg&feature=plcp ](http://www.youtube.com/watch?v=QS2G-k2hQyg&feature=plcp)
 - [Anki on Android demo ](https://www.youtube.com/watch?v=IdBllTm7K24)
 
+## Quiz--after introducing Android demo
+
+Dr Bean is an Anki expert and his explanation of how to use Anki will make it satisfying and easy to use
+
+* True
+* False
+
 ## Problems with flashcards
 
 * Non-contextualized (just single words)
