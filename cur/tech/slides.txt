@@ -101,6 +101,13 @@ Some people think Technical English means English for Science and Technology. I 
 
 I think it is English for Specific Purposes, which is a very big part of learning English.
 
+## Quiz--object of study
+
+In the class we will study English that only some people need to know.
+
+* True
+* False
+
 ## Finding something everyone in the class needs to know
 
 A difficult process:
@@ -109,8 +116,24 @@ The class is big. Is there some area that everyone here
 needs to know about?
 
 - Group writes list of topics they want to learn English for
+
+    Placed on a continuum:
+  
+    * Expensive/scientific/dangerous/hard
+    * .
+    * .
+    * .
+    * Cheap/easy/of wide appeal/useful/soft
+
 - Class classifies topics into 2-3 areas
 - Each student joins area group to discuss area topics
 - Class decides on 3 areas for 3 sessions of the course
+
+## Quiz--topics
+
+Topics will be medicine, technology and Business English
+
+* True
+* False
 
 == The End
