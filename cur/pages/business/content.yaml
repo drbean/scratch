@@ -39,8 +39,38 @@ topic:
           Listen to the three candidates for the job of Marketing Manager and listen to Dr Bean describe his experience as Marketing Manager.
         comment: |
           <p>
-          Write a question and an answer about one of the four people.
+          Write a question and an answer about one or more of the four people.
           </p>
+          <pre>
+          "Barbara has an aim."
+          "Barbara wants to get to the top as soon as she can."
+          "If Barbara gets the job, she thinks that she can become a director in a few years' time."
+          "Barbara applies for the job because she thinks that she has a lot to offer."
+          "Barbara is competitive."
+          "Barbara likes to win."
+          "It's true that Barbara is difficult to work with."
+          "Barbara gets results."
+          "Barbara thinks that results are the main thing."
+          "Tadeusz wants to do a good job for the company."
+          "Tadeusz thinks that Fast-Track should be patient."
+          "Tadeusz thinks that Fast-Track should be realistic."
+          "Tadeusz feels that he has the ability to do the job."
+          "Tadeusz feels that he has the sales experience to do the job."
+          "Tadeusz says that he is a safe pair of hands."
+          "Eva has a lot of sales experience."
+          "Eva is successful."
+          "Eva thinks that she can lead a team well."
+          "Eva is the head of a local business club."
+          "Eva says that she is a fast learner."
+          "Eva would enjoy going on a training course to help her do the job better."
+          "Dr Bean cannot get the sales team to enjoy selling Fast-Track material."
+          "Dr Bean doesn't have sales experience."
+          "Dr Bean isn't confident."
+          "Dr Bean isn't outgoing."
+          "Dr Bean enjoys administration of the sales team."
+          "Dr Bean thinks that administration of the sales team is very difficult, because he doesn't know any Polish."
+          "Dr Bean doesn't know any Polish."
+          </pre>
 
       -
         id: tips
