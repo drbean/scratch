@@ -63,7 +63,7 @@ my $storystring = '
 <TMPL> $comment </TMPL>
 </p>
 <p>
-Fill in the blanks in the <a 
+Write questions in the <a 
 href=https://sac.nuu.edu.tw/cgi-bin/<TMPL> $location </TMPL>/script/<TMPL> $location </TMPL>_cgi.pl/login?exercise=<TMPL> $id </TMPL>><TMPL> $id </TMPL></a> exercise. (You will be asked to log in.)
 </p>
 <p>
