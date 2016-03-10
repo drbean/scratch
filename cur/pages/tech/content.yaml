@@ -25,7 +25,7 @@ topic:
           Listen to a New Zealand instructor explain <a href="http://web.nuu.edu.tw/~greg/tech/stereotype.mp3">the meaning of stereotype</a> for overseas students.
         comment: He speaks a lot more slowly than teachers usually would in the classroom.
       -
-        id: academic
+        id: academic_base
         title: Baseline for learning of Academic Word List sublists 1-3
         blurb: |
           We now will learn the 180 words from the first 3 Academic Wordlist sublists for the Week5 exam (worth 5 points), using <a href="http://ankisrs.net">Anki</a> or <a href="http://mnemosyne-proj.org">Mnemosyne</a>, or <a href="http://memrise.com">Memrise</a>. But first we need to establish what the base level is.
