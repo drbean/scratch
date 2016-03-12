@@ -135,6 +135,29 @@ topic:
              <li> "Charles says he loves Sara so much, he can't watch her suffer anymore."
           </ul>
           Use words from the list.
+      -
+        id: drunk_driving
+        title: Drunk driver hits child, killing her
+        blurb: |
+          Ruth Tipton, age 73, housewife, divorced (no children) Crimes: drunk driving, manslaughter
+
+          <p>Case description: Mrs Tipton is an alcoholic. She was in the hospital a long time because of this. In the past 10 years, police arrested Mrs Tipton 4 times for drunk driving. On July 10, Mrs Tipton was driving home from an afternoon party. She was drunk. She hit a 3-year-old girl on a tricyle. The girl died. Mrs Tipton says: 'I'm sorry. I promise to pay the little girl's parents some money every month. I will never drink again.'
+        comment: |
+          Make a question from:
+          <ul>
+             <li> "Mrs Tipton is an alcoholic."
+             <li> "Mrs Tipton is in the hospital a long time."
+             <li> "Police arrest Mrs Tipton 4 times."
+             <li> "Mrs Tipton drives home from an afternoon party on July 10,"
+             <li> "Mrs Tipton is drunk."
+             <li> "Mrs Tipton hits a 3-year-old girl on a tricycle."
+             <li> "The girl dies."
+             <li> "Mrs Tipton says that she is sorry."
+             <li> "Mrs Tipton promises to play the little girl's parents some money every month."
+             <li> "Mrs Tipton promises never to drink again."
+          </ul>
+          Use words from the list.
+
   -
     id: technology
   -
