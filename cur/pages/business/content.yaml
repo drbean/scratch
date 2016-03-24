@@ -73,6 +73,44 @@ topic:
           </pre>
 
       -
+        id: tip
+        title: Questions about the tips--The plan and Think
+        blurb: |
+          <h2>This exercise is broken. You don't need to do it.<p> Do the candidate one, if you haven't done it yet.</h2>
+
+          The ten tips are:
+            <p>
+            <ul>
+            <li>The plan/schedule
+            <li>Think while working
+            <li>Teamwork
+            <li>Study while not working
+            <li>Get together with the team
+            <li>Have goals
+            <li>Be ambitious
+            <li>Talk to the boss
+            <li>Get a life
+            <li>Make your job a good job
+            </ul>
+        comment: |
+          <p>
+          Write questions using these sentences about the first two.
+          <ul>
+          <li>"You should have a plan."
+          <li>"You need to know what to do each day."
+          <li>"You should have a schedule you can look at to see how you are going today, this month and this year."
+          <li>"Things are going according to the plan."
+          <li>"If things are not going according to the plan, you should change what you are doing or change the plan."
+          <li>
+          <li>"You should think about what you are doing."
+          <li>"You shouldn't think about the weekend when you are at work."
+          <li>"You are doing what you are doing well."
+          <li>"There is a purpose of what you are doing."
+          <li>"You should keep the purpose of what you are doing in mind."
+          <li>"You shouldn't just do something."
+          <li>"You should think about something, then do it."
+          </ul>
+      -
         id: tips
         title: Which candidate believes in which tip?
         blurb: |
