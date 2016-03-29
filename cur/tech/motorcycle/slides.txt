@@ -36,6 +36,8 @@ Technical English means English that only experts need to know.
 English that only some people, not all people, need to know.
 But finding something everyone in the class needs to know is important. People only will learn what they need to know.
 
+# Cloze
+
 ## Cloze--What counts as a motorcyle, according to the law
 
 
@@ -59,9 +61,60 @@ vehicle
 
 For the purposes of _____(2) of a motorcycle, of taxation, and of _____(3)' licenses, a _____(4) is a powered, _____(5) motor _____(6). But most _____(7) distinguish between _____(8) up to 49cc and more _____(9) vehicles collectively _____(10) motorcyles. There is usually no special _____(11) for motor _____(12). Large motorcyles _____(13) do have a _____(14) category. Often _____(15) riders are not allowed to _____(16) them until they have had a _____(17) for a number of _____(18).
 
+## Cloze--motorcycle history
+
+
+20,000
+adopting
+become
+bicycle
+biggest
+engine
+expansion
+Harley-Davidson's
+military
+motorcycles
+production
+resulted
+steam
+top
+used
+vehicles
+
+There were a number of early _____(1) and electric powered _____(2) which might be called _____(3) but the first true motorcycle, _____(4) the design of the _____(5) and adding an _____(6) went into _____(7) in 1894.
+
+By 1914, Indian, the _____(8) manufacturer, was producing _____(9) bikes per year. The First World War _____(10) in great _____(11) in production. Over 50 percent of _____(12)'s production during the war was being _____(13) by the _____(14).
+
+After the war, Harley-Davidson had _____(15) the world's _____(16) producer, but DKW in Germany soon took over.
+
+## Cloze--motorcycle industry
+
+1958
+all
+brands
+Chinese
+India
+Indian
+industry
+manufacturers
+markets
+models
+production
+seller
+sold
+unit
+
+Now, the _____(17) is dominated by _____(18) makers and Japanese _____(19) with the largest _____(20) in Asia and Africa, and _____(21) in China and _____(22). The _____(23) Japanese Honda Super Cub is the biggest _____(24) of _____(25) time, its 60 millionth _____(26) produced in 2008.
+
+But _____(27) makers are the world's largest _____(28). Hero has _____(29) 8.5 million _____(30) to date.
+
+
 # Videos
 
 ## Girl replaces wheel
 
-- [https://www.youtube.com/watch?v=rczWQ3s2E8U ](https://www.youtube.com/watch?v=rczWQ3s2E8U)
+- [Taking it off at https://www.youtube.com/watch?v=rczWQ3s2E8U ](https://www.youtube.com/watch?v=rczWQ3s2E8U)
+- [Putting it on at https://www.youtube.com/watch?v=rczWQ3s2E8U](https://www.youtube.com/watch?v=rczWQ2s2E8U)
+
+
 
