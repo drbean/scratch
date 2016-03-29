@@ -1,0 +1,403 @@
+---
+field:
+  - exercise
+  - head
+  - answer
+  - sublist
+ALin:
+  Clutch                                        : unknown
+  Fliter                                        : unknown
+  Strainer                                      : unknown
+  Generator                                     : unknown
+  Strobe Light                                  : unknown
+  Piston                                        : unknown
+  Cylinder Liner                                : unknown
+  Valve Guide                                   : unknown
+  Crank Shaft                                   : unknown
+  Carburetor                                    : unknown
+  Filter Element                                : unknown
+  Cylinder Head                                 : unknown
+  Spark Plug                                    : unknown
+  Distributor Parts                             : unknown
+  High Tension Coil                             : unknown
+  Ignition Coil                                 : unknown
+  Starter                                       : unknown
+  Current Regulator                             : unknown
+  Manifold                                      : unknown
+  Steering Linkage                              : unknown
+Brian:
+  suzuki                                        : unknown
+  kawasaki                                      : unknown
+  pgo                                           : unknown
+  Aeon                                          : unknown
+  transmission oil                              : unknown
+  gearbox                                       : unknown
+  torque converter                              : unknown
+  Nissan Continuous Variable Transmission       : unknown
+  overdrive                                     : unknown
+  Direkt Schalt Getriebe                        : unknown
+  Dual Clutch Transmission                      : unknown
+  Dual Clutch System PEUGEOT                    : unknown
+  pressure gauge                                : unknown
+  Electro-Continuously Variable Transmission    : unknown
+  Continuously Variable Transmission            : unknown
+  BMW                                           : unknown
+  HONDA                                         : unknown
+  sparking plug                                 : unknown
+  cylinder                                      : unknown
+  shock absorber                                : unknown
+Mark:
+  Automatic Transmission                        : unknown
+  cooler                                        : unknown
+  manual gearbox                                : unknown
+  differential                                  : unknown
+  shift lever                                   : unknown
+  KYMCO                                         : unknown
+  YAMAHA                                        : unknown
+  transmission                                  : unknown
+  automatic transmission                        : unknown
+  differential                                  : unknown
+  automatic transmission gear and pulley        : unknown
+  transmission gear                             : unknown
+  gear shift inner control                      : unknown
+  differential gears                            : unknown
+  gear shift outer controls                     : unknown
+  auto transmission gearshift outer controls    : unknown
+  transmission heat exchanger                   : unknown
+  transmission cooling system                   : unknown
+  speedmeter and drive                          : unknown
+  level rod                                     : unknown
+Anthony:
+  air filter                                    : unknown
+  throttle                                      : unknown
+  sarter                                        : unknown
+  sidecar                                       : unknown
+  inner tube                                    : unknown
+  handlebar                                     : unknown
+  taillight                                     : unknown
+  sprocket                                      : unknown
+  steering                                      : unknown
+  suspension                                    : unknown
+  rotor                                         : unknown
+  subframe                                      : unknown
+  grip                                          : unknown
+  windscreen                                    : unknown
+  muffler                                       : unknown
+  exhaust                                       : unknown
+  hugger                                        : unknown
+  swingarm                                      : unknown
+  caliper                                       : unknown
+  undertray                                     : unknown
+Ivy:
+  Carburetor                                    : unknown
+  Air Filter                                    : unknown
+  engine parts                                  : unknown
+  exhaust pipe                                  : unknown
+  injection nozzle                              : unknown
+  Back Mirror                                   : unknown
+  Body Cover                                    : unknown
+  mudguard                                      : unknown
+  tank filler sleeve                            : unknown
+  combustion chamber                            : unknown
+  wheel rim                                     : unknown
+  piston                                        : unknown
+  plug                                          : unknown
+  tank                                          : unknown
+  instrument panel                              : unknown
+  chain lock                                    : unknown
+  scooter                                       : unknown
+  moped                                         : unknown
+  muffler                                       : unknown
+  transmission                                  : unknown
+Ula:
+  cushion                                       : unknown
+  brake                                         : unknown
+  air cleaner                                   : unknown
+  handle                                        : unknown
+  master cylinder                               : unknown
+  piston                                        : unknown
+  plug                                          : unknown
+  tank                                          : unknown
+  flash light                                   : unknown
+  headlight                                     : unknown
+  clutch                                        : unknown
+  fuel pipe                                     : unknown
+  gear                                          : unknown
+  brake fluid                                   : unknown
+  aprones                                       : unknown
+  shock absorber                                : unknown
+  fender                                        : unknown
+  instrument panel                              : unknown
+  chain lock                                    : unknown
+  disk brake pads                               : unknown
+Sandy:
+  air cleaner                                   : unknown
+  back mirror                                   : unknown
+  bearing                                       : unknown
+  brake                                         : unknown
+  carbureter                                    : unknown
+  cell motor                                    : unknown
+  chain                                         : unknown
+  choke                                         : unknown
+  clutch                                        : unknown
+  compresser                                    : unknown
+  crank                                         : unknown
+  cushion                                       : unknown
+  cylinder                                      : unknown
+  gasket                                        : unknown
+  gear                                          : unknown
+  handle                                        : unknown
+  head                                          : unknown
+  internal chain                                : unknown
+  .nozzle                                       : unknown
+  piston                                        : unknown
+Vivi:
+  Catalytic Converter                           : unknown
+  Ball Bearing                                  : unknown
+  Gear Box                                      : unknown
+  Bearing Box                                   : unknown
+  Motorcycle Spokes & Nipples                   : unknown
+  Gasket                                        : unknown
+  Jacks                                         : unknown
+  C.D.I. Unit                                   : unknown
+  Connecting Rod                                : unknown
+  Grease Pumps                                  : unknown
+  Differential Gears Set                        : unknown
+  Hydraulic Jack                                : unknown
+  Variator                                      : unknown
+  Roller Weight                                 : unknown
+  Engine Control Computers                      : unknown
+  Clutch Friction Disc                          : unknown
+  Cable Hanger                                  : unknown
+  Handy Cooler                                  : unknown
+  Sensor                                        : unknown
+  Fuel Pump                                     : unknown
+Vicky:
+  suspension                                    : unknown
+  brake                                         : unknown
+  gas                                           : unknown
+  oil                                           : unknown
+  helmet                                        : unknown
+  wheel                                         : unknown
+  exhaust                                       : unknown
+  muffler                                       : unknown
+  engine                                        : unknown
+  handle                                        : unknown
+  mirror                                        : unknown
+  indicator                                     : unknown
+  seat                                          : unknown
+  spdineter                                     : unknown
+  bean light                                    : unknown
+  scotter stand                                 : unknown
+  gas tank                                      : unknown
+  footrest                                      : unknown
+  battery                                       : unknown
+  sparkplug                                     : unknown
+Sally:
+  scooter                                       : unknown
+  moped                                         : unknown
+  engine                                        : unknown
+  fuel-efficient                                : unknown
+  clutch                                        : unknown
+  cushion                                       : unknown
+  strobe light                                  : unknown
+  led lihgt bulb                                : unknown
+  motion controller                             : unknown
+  piston                                        : unknown
+  piston pin                                    : unknown
+  piston ring                                   : unknown
+  carburetor                                    : unknown
+  fan                                           : unknown
+  starter                                       : unknown
+  pulley                                        : unknown
+  manifold                                      : unknown
+  fuel tank                                     : unknown
+  hand brake                                    : unknown
+  fender                                        : unknown
+Nora:
+  vehicle Plate                                 : unknown
+  cushion                                       : unknown
+  led Light Bulb LED                            : unknown
+  Rust Remover                                  : unknown
+  fuel Tank                                     : unknown
+  handle                                        : unknown
+  motor                                         : unknown
+  plug                                          : unknown
+  Motorcycle Piston Ring                        : unknown
+  flasher light winker                          : unknown
+  meter 　                                      : unknown
+  headlight　                                   : unknown
+  tailing  　                                   : unknown
+  handle switch  　                             : unknown
+  stand  　                                     : unknown
+  Wind mirror　                                 : unknown
+  front wheel 　                                : unknown
+  rear wheel   　                               : unknown
+  rear view mirror                              : unknown
+  locomotive horn                               : unknown
+Sunny:
+  ring                                          : unknown
+  Windscreen                                    : unknown
+  Heating                                       : unknown
+  Sidecar                                       : unknown
+  Trailer                                       : unknown
+  Tow hitch                                     : unknown
+  Storage                                       : unknown
+  Crash damage protection                       : unknown
+  Cruiser                                       : unknown
+  Sport                                         : unknown
+  Touring                                       : unknown
+  Standard                                      : unknown
+  Dual-purpose                                  : unknown
+  Dirt bike                                     : unknown
+  Yamaha                                        : unknown
+  Kymco                                         : unknown
+  Sym                                           : unknown
+  Pgo                                           : unknown
+  Vespa                                         : unknown
+  Bmw                                           : unknown
+Amber:
+  fuel pipe                                     : unknown
+  sleering stem                                 : unknown
+  air cleaner with small kickstand              : unknown
+  air filter                                    : unknown
+  front brake cables                            : unknown
+  rear brake wire                               : unknown
+  clutch clip                                   : unknown
+  semi-clutch                                   : unknown
+  dust cover                                    : unknown
+  frame                                         : unknown
+  oli valve switch                              : unknown
+  bush                                          : unknown
+  anode wire                                    : unknown
+  fuel tank cover                               : unknown
+  head cover                                    : unknown
+  windshield                                    : unknown
+  anode wire                                    : unknown
+  bracket                                       : unknown
+  clip                                          : unknown
+  electric coll                                 : unknown
+Wynn:
+  rear lamp                                     : unknown
+  head lamp                                     : unknown
+  side lamp                                     : unknown
+  winker                                        : unknown
+  buzzer                                        : unknown
+  oil level switch                              : unknown
+  sparkplug                                     : unknown
+  magnetic screw                                : unknown
+  engine parts                                  : unknown
+  exhaust pipe                                  : unknown
+  injection nozzle                              : unknown
+  engine oil                                    : unknown
+  starter relay                                 : unknown
+  gear oil                                      : unknown
+  ignition coil                                 : unknown
+  resistor                                      : unknown
+  carburetor                                    : unknown
+Sara:
+  cowl cover                                    : unknown
+  hugger                                        : unknown
+  swingarm                                      : unknown
+  cailper                                       : unknown
+  rotor                                         : unknown
+  exhaust                                       : unknown
+  brake pedal                                   : unknown
+  footpeg                                       : unknown
+  clutch cover                                  : unknown
+  lower fairing                                 : unknown
+  brake line                                    : unknown
+  fender                                        : unknown
+  fork tube                                     : unknown
+  intake duct                                   : unknown
+  front cowl                                    : unknown
+  windscreen                                    : unknown
+  brake lever                                   : unknown
+  grip                                          : unknown
+  bar end                                       : unknown
+  master cylinders                              : unknown
+  subframe                                      : unknown
+Abby:
+  dash light                                    : unknown
+  injection pump                                : unknown
+  disk wheel                                    : unknown
+  helical spring                                : unknown
+  tyre                                          : unknown
+  sparking plug                                 : unknown
+  petrol pump hose                              : unknown
+  driving shaft                                 : unknown
+  hand-brake                                    : unknown
+  mudguard                                      : unknown
+  tank filler sleeve                            : unknown
+  combustion chamber                            : unknown
+  wheel rim                                     : unknown
+  tire pressure gauge                           : unknown
+  tank filler sleeve with cap                   : unknown
+  oil dip-stick                                 : unknown
+  windscreen                                    : unknown
+  direction indicator                           : unknown
+  moped                                         : unknown
+  driving helmet                                : unknown
+Lydia:
+  air cooler machine                            : unknown
+  shocks                                        : unknown
+  light                                         : unknown
+  oil cleaner                                   : unknown
+  cushion                                       : unknown
+  clutch                                        : unknown
+  horn                                          : unknown
+  wheel                                         : unknown
+  generator                                     : unknown
+  driving mirror                                : unknown
+  turn signal                                   : unknown
+  gear                                          : unknown
+  internal chain                                : unknown
+  nozzle                                        : unknown
+  pump                                          : unknown
+  tire                                          : unknown
+  transmission gear                             : unknown
+  carbureter                                    : unknown
+  roller                                        : unknown
+  master cylinder                               : unknown
+Sam:
+  dashboard                                     : unknown
+  speedometer                                   : unknown
+  brake                                         : unknown
+  fuel-efficient                                : unknown
+  side mirror                                   : unknown
+  rim                                           : unknown
+  Tire                                          : unknown
+  Clutch                                        : unknown
+  Strobe Light                                  : unknown
+  Driver Transformer                            : unknown
+  Piston                                        : unknown
+  Carburetor                                    : unknown
+  Air Filter                                    : unknown
+  Timing Chain                                  : unknown
+  Oil Filter                                    : unknown
+  Engine Bearing                                : unknown
+  Storage Battery                               : unknown
+  Instrument Meter                              : unknown
+  Auto Fuse                                     : unknown
+  Kick Starter                                  : unknown
+Joe:
+  Chain Lock                                    : unknown
+  Brake Pads                                    : unknown
+  Back Mirror                                   : unknown
+  Body Cover                                    : unknown
+  Instrument Meter                              : unknown
+  Singnal Lamp                                  : unknown
+  Fender Trim                                   : unknown
+  Tire Guarge                                   : unknown
+  Rear Carrier                                  : unknown
+  Handle Bar                                    : unknown
+  Shock Absorber                                : unknown
+  Pulley                                        : unknown
+  Piston                                        : unknown
+  Weight Roller                                 : unknown
+  Belt Drive                                    : unknown
+  Brake Shoe                                    : unknown
+  Carburetor                                    : unknown
+  Brake Cable                                   : unknown
+  Rectifier Assy Regulator                      : unknown
+  Coil Comp                                     : unknown
