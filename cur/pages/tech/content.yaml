@@ -14,6 +14,17 @@ blurb: |+
 
 topic:
   -
+    id: motorcycle
+    title: Motorcycle English
+    intro: Part of the problem traveling around the world on a motorcycle is explaining your problem to the motor mechanic in English. You have to understand words which most native speakers know and which are necessary to fix motorcycles or get others to do it for you.
+    story:
+      -
+        id: motorcycle_base
+        title: Baseline for learning of Motorcycle Words from ALin, Brian, Mark, Anthony, Ivy, Ula, Sandy, Vivi, Vicky, +Sally, Nora, Sunny
+        blurb: |
+          We now will learn some of the 179 words from 12 students on elearning, using <a href="http://ankisrs.net">Anki</a> or <a href="http://memrise.com">Memrise</a>. But first we need to establish what the base level is.
+        comment: To do this, we will guess the meanings (in Chinese) of as many of the words as you want, or if we know them, just write them in.
+  -
     id: academic
     title: Academic English
     intro: Part of the problem studying at a university in English is the vocabulary. You have to understand words which most native speakers never use but which are necessary to read textbooks or to listen to profs lecture.
