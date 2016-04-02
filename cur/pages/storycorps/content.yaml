@@ -347,6 +347,30 @@ topic:
           <li><a href="http://www.youtube.com/watch?v=kz2ZM3eR-nQ">Ferrigno on Night Court</a></li>
           <li><a href="http://www.youtube.com/watch?v=S6lm__xmapQ">Night Court - First appearance of Bob & June Wheeler</a></li>
           </ul>
+      -
+        id: murder
+        title: Murder or mercy killing (euthanasia)
+        blurb: |
+           Charles Mercer, age 80. retired   Crime: Murder
+           <p> Case Description: Mercer and his wife. Sara. had been married for 52 years. Sara got cancer in 1988 and was dying. She had been in the hospital for eight months and was kept alive by a respirator. On February 3. Charles Mercer went to the hospital and shot his wife. He says: "I loved her so much I couldn't watch her suffer anymore."
+        comment: |
+          Make a question from:
+          <ul>
+             <li> "Charles is 80."
+             <li> "Charles and his wife are married."
+             <li> "Sara has cancer."
+             <li> "Sara is dying."
+             <li> "Sara is in hospital."
+             <li> "Sara is in the hospital."
+             <li> "Sara is alive."
+             <li> "Sara is kept alive by a respirator."
+             <li> "Charles goes to the hospital."
+             <li> "Charles shoots his wife."
+             <li> "Charles says he loves Sara so much."
+             <li> "Charles says he can't watch Sara suffer anymore."
+             <li> "Charles says he loves Sara so much, he can't watch her suffer anymore."
+          </ul>
+          Use words from the list.
   -
     id: katrina
     title: Hurrican Katrina
@@ -464,6 +488,7 @@ topic:
         comment: |
           She says that things were not good in the 1970's when she was young. But she says men still think the same. The only difference is that they are more careful about how they express themselves, ie they are more subtle.
           <pre>
+          "Tia goes in for the first interview."
           "Tia owns one dress."             
           "Tia's dress is shades of red and pink."              
           "Tia's dress has big block geometric squares."           
