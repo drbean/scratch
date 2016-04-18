@@ -5,402 +5,402 @@ field:
   - answer
   - sublist
 ALin:
-  #Clutch                                                        :   離合器                 
-  Fliter                                                        :   過濾棉                 
-  Strainer                                                      :   過濾器                 
-  Generator                                                     :   發電機                 
-  #Strobe Light                                                  :   頻閃燈                 
-  #Piston                                                        :   活塞                   
-  Cylinder Liner                                                :   缸套                   
-  Valve Guide                                                   :   氣門導管               
-  Crank Shaft                                                   :   曲軸                   
-  #Carburetor                                                    :   化油器                 
-  Filter Element                                                :   濾芯                   
-  Cylinder Head                                                 :   缸蓋                   
-  #Spark Plug                                                    :   火花塞                 
-  Distributor Parts                                             :   經銷商配件             
-  High Tension Coil                                             :   高壓線圈               
-  Ignition Coil                                                 :   點火線圈               
-  #Starter                                                       :   起動機                 
-  Current Regulator                                             :   電流調節器             
-  #Manifold                                                      :   多種                   
-  Steering Linkage                                              :   轉向桿                 
+  #Clutch                                                        :   離合器
+  Fliter                                                        :   過濾棉
+  Strainer                                                      :   過濾器
+  Generator                                                     :   發電機
+  #Strobe Light                                                  :   頻閃燈
+  #Piston                                                        :   活塞
+  Cylinder Liner                                                :   缸套
+  Valve Guide                                                   :   氣門導管
+  Crank Shaft                                                   :   曲軸
+  #Carburetor                                                    :   化油器
+  Filter Element                                                :   濾芯
+  Cylinder Head                                                 :   缸蓋
+  #Spark Plug                                                    :   火花塞
+  Distributor Parts                                             :   經銷商配件
+  High Tension Coil                                             :   高壓線圈
+  Ignition Coil                                                 :   點火線圈
+  #Starter                                                       :   起動機
+  Current Regulator                                             :   電流調節器
+  #Manifold                                                      :   多種
+  Steering Linkage                                              :   轉向桿
 Brian:
-  suzuki                                                        :   鈴木                   
-  kawasaki                                                      :   川崎                   
-  #pgo                                                           :   PGO                    
-  Aeon                                                          :   永世                   
-  transmission oil                                              :   變速箱油               
-  gearbox                                                       :   變速器                 
-  torque converter                                              :   液力變矩器             
-  Nissan Continuous Variable Transmission                       :   日產無級變速器         
-  overdrive                                                     :   過速裝置               
-  #Direkt Schalt Getriebe                                        :   DIREKT Schalt GETRIEBE 
-  Dual Clutch Transmission                                      :   雙離合變速器           
-  #Dual Clutch System PEUGEOT                                    :   雙離合器系統PEUGEOT    
-  pressure gauge                                                :   壓力計                 
-  Electro-Continuously Variable Transmission                    :   電子無級變速器         
-  Continuously Variable Transmission                            :   無級變速器             
-  BMW                                                           :   寶馬                   
-  #HONDA                                                         :   HONDA                  
-  sparking plug                                                 :   火花塞                 
-  cylinder                                                      :   汽缸                   
-  shock absorber                                                :   減震器                 
+  suzuki                                                        :   鈴木
+  kawasaki                                                      :   川崎
+  #pgo                                                           :   PGO
+  Aeon                                                          :   永世
+  transmission oil                                              :   變速箱油
+  gearbox                                                       :   變速器
+  torque converter                                              :   液力變矩器
+  Nissan Continuous Variable Transmission                       :   日產無級變速器
+  overdrive                                                     :   過速裝置
+  #Direkt Schalt Getriebe                                        :   DIREKT Schalt GETRIEBE
+  Dual Clutch Transmission                                      :   雙離合變速器
+  #Dual Clutch System PEUGEOT                                    :   雙離合器系統PEUGEOT
+  pressure gauge                                                :   壓力計
+  Electro-Continuously Variable Transmission                    :   電子無級變速器
+  Continuously Variable Transmission                            :   無級變速器
+  BMW                                                           :   寶馬
+  #HONDA                                                         :   HONDA
+  sparking plug                                                 :   火花塞
+  cylinder                                                      :   汽缸
+  shock absorber                                                :   減震器
 Mark:
-  # Automatic Transmission                                        :   自動變速器             
-  cooler                                                        :   冷卻器                 
-  manual gearbox                                                :   手動變速箱             
-  differential                                                  :   差動                   
-  shift lever                                                   :   變速桿                 
-  #KYMCO                                                         :   KYMCO                  
-  #YAMAHA                                                        :   YAMAHA                 
-  transmission                                                  :   傳輸                   
-  automatic transmission                                        :   自動變速器             
-  differential                                                  :   差動                   
-  automatic transmission gear and pulley                        :   自動傳動齒輪和滑輪     
-  transmission gear                                             :   傳動齒輪               
-  gear shift inner control                                      :   換檔內部控制           
-  differential gears                                            :   差速齒輪               
-  gear shift outer controls                                     :   換檔控制外             
-  auto transmission gearshift outer controls                    :   汽車變速器換檔控制外   
-  transmission heat exchanger                                   :   傳輸熱交換器           
-  transmission cooling system                                   :   傳動冷卻系統           
-  speedmeter and drive                                          :   轉速表和驅動           
-  level rod                                                     :   水平桿                 
+  # Automatic Transmission                                        :   自動變速器
+  cooler                                                        :   冷卻器
+  manual gearbox                                                :   手動變速箱
+  differential                                                  :   差動
+  shift lever                                                   :   變速桿
+  #KYMCO                                                         :   KYMCO
+  #YAMAHA                                                        :   YAMAHA
+  transmission                                                  :   傳輸
+  automatic transmission                                        :   自動變速器
+  differential                                                  :   差動
+  automatic transmission gear and pulley                        :   自動傳動齒輪和滑輪
+  transmission gear                                             :   傳動齒輪
+  gear shift inner control                                      :   換檔內部控制
+  differential gears                                            :   差速齒輪
+  gear shift outer controls                                     :   換檔控制外
+  auto transmission gearshift outer controls                    :   汽車變速器換檔控制外
+  transmission heat exchanger                                   :   傳輸熱交換器
+  transmission cooling system                                   :   傳動冷卻系統
+  speedmeter and drive                                          :   轉速表和驅動
+  level rod                                                     :   水平桿
 Anthony:
-  air filter                                                    :   空氣過濾器             
-  throttle                                                      :   風門                   
-  sarter                                                        :   扎爾特                 
-  sidecar                                                       :   車鬥                   
-  inner tube                                                    :   內胎                   
-  handlebar                                                     :   車把                   
-  taillight                                                     :   尾燈                   
-  sprocket                                                      :   鏈                     
-  steering                                                      :   操舵                   
-  suspension                                                    :   懸掛                   
-  rotor                                                         :   轉子                   
-  subframe                                                      :   副車架                 
-  grip                                                          :   握                     
-  windscreen                                                    :   風檔                   
-  muffler                                                       :   消聲器                 
-  exhaust                                                       :   排氣                   
-  hugger                                                        :   擁抱者                 
-  swingarm                                                      :   搖臂                   
-  caliper                                                       :   卡尺                   
-  #undertray                                                     :   undertray              
+  air filter                                                    :   空氣過濾器
+  throttle                                                      :   風門
+  sarter                                                        :   扎爾特
+  sidecar                                                       :   車鬥
+  inner tube                                                    :   內胎
+  handlebar                                                     :   車把
+  taillight                                                     :   尾燈
+  sprocket                                                      :   鏈
+  steering                                                      :   操舵
+  suspension                                                    :   懸掛
+  rotor                                                         :   轉子
+  subframe                                                      :   副車架
+  grip                                                          :   握
+  windscreen                                                    :   風檔
+  muffler                                                       :   消聲器
+  exhaust                                                       :   排氣
+  hugger                                                        :   擁抱者
+  swingarm                                                      :   搖臂
+  caliper                                                       :   卡尺
+  #undertray                                                     :   undertray
 Ivy:
-  #Carburetor                                                    :   化油器                 
-  ##  Air Filter                                                    :   空氣過濾器             
-  engine parts                                                  :   發動機零件             
-  exhaust pipe                                                  :   排氣管                 
-  injection nozzle                                              :   噴嘴                   
-  # Back Mirror                                                   :   後視鏡                 
-  Body Cover                                                    :   機身蓋                 
-  mudguard                                                      :   擋泥板                 
-  tank filler sleeve                                            :   油箱加油套管           
-  combustion chamber                                            :   燃燒室                 
-  wheel rim                                                     :   輪輞                   
-  piston                                                        :   活塞                   
-  plug                                                          :   插頭                   
-  tank                                                          :   坦克                   
-  instrument panel                                              :   儀表盤                 
-  chain lock                                                    :   鏈條鎖                 
-  scooter                                                       :   摩托車                 
-  moped                                                         :   助力車                 
-  muffler                                                       :   消聲器                 
-  transmission                                                  :   傳輸                   
+  #Carburetor                                                    :   化油器
+  ##  Air Filter                                                    :   空氣過濾器
+  engine parts                                                  :   發動機零件
+  exhaust pipe                                                  :   排氣管
+  injection nozzle                                              :   噴嘴
+  # Back Mirror                                                   :   後視鏡
+  Body Cover                                                    :   機身蓋
+  mudguard                                                      :   擋泥板
+  tank filler sleeve                                            :   油箱加油套管
+  combustion chamber                                            :   燃燒室
+  wheel rim                                                     :   輪輞
+  piston                                                        :   活塞
+  plug                                                          :   插頭
+  tank                                                          :   坦克
+  instrument panel                                              :   儀表盤
+  chain lock                                                    :   鏈條鎖
+  scooter                                                       :   摩托車
+  moped                                                         :   助力車
+  muffler                                                       :   消聲器
+  transmission                                                  :   傳輸
 Ula:
-  cushion                                                       :   坐墊                   
-  brake                                                         :   剎車                   
-  air cleaner                                                   :   空氣淨化器             
-  handle                                                        :   處理                   
-  master cylinder                                               :   總泵                   
-  piston                                                        :   活塞                   
-  plug                                                          :   插頭                   
-  tank                                                          :   坦克                   
-  flash light                                                   :   閃光燈                 
-  headlight                                                     :   車燈                   
-  clutch                                                        :   離合器                 
-  fuel pipe                                                     :   燃油管                 
-  gear                                                          :   齒輪                   
-  brake fluid                                                   :   制動液                 
-  #aprones                                                       :   aprones                
-  shock absorber                                                :   減震器                 
-  fender                                                        :   擋泥板                 
-  instrument panel                                              :   儀表盤                 
-  chain lock                                                    :   鏈條鎖                 
-  disk brake pads                                               :   盤剎車片               
+  cushion                                                       :   坐墊
+  brake                                                         :   剎車
+  air cleaner                                                   :   空氣淨化器
+  handle                                                        :   處理
+  master cylinder                                               :   總泵
+  piston                                                        :   活塞
+  plug                                                          :   插頭
+  tank                                                          :   坦克
+  flash light                                                   :   閃光燈
+  headlight                                                     :   車燈
+  clutch                                                        :   離合器
+  fuel pipe                                                     :   燃油管
+  gear                                                          :   齒輪
+  brake fluid                                                   :   制動液
+  #aprones                                                       :   aprones
+  shock absorber                                                :   減震器
+  fender                                                        :   擋泥板
+  instrument panel                                              :   儀表盤
+  chain lock                                                    :   鏈條鎖
+  disk brake pads                                               :   盤剎車片
 Sandy:
-  air cleaner                                                   :   空氣淨化器             
-  back mirror                                                   :   後視鏡                 
-  bearing                                                       :   軸承                   
-  brake                                                         :   剎車                   
-  #carbureter                                                    :   化油器                 
-  cell motor                                                    :   電池電動機             
-  chain                                                         :   鏈                     
-  choke                                                         :   嗆                     
-  clutch                                                        :   離合器                 
-  #compresser                                                    :   compresser             
-  crank                                                         :   曲柄                   
-  cushion                                                       :   坐墊                   
-  cylinder                                                      :   汽缸                   
-  gasket                                                        :   墊圈                   
-  gear                                                          :   齒輪                   
-  handle                                                        :   處理                   
-  head                                                          :   頭                     
-  internal chain                                                :   內部鏈                 
-  #.nozzle                                                       :   .nozzle                
-  piston                                                        :   活塞                   
+  air cleaner                                                   :   空氣淨化器
+  back mirror                                                   :   後視鏡
+  bearing                                                       :   軸承
+  brake                                                         :   剎車
+  #carbureter                                                    :   化油器
+  cell motor                                                    :   電池電動機
+  chain                                                         :   鏈
+  choke                                                         :   嗆
+  clutch                                                        :   離合器
+  #compresser                                                    :   compresser
+  crank                                                         :   曲柄
+  cushion                                                       :   坐墊
+  cylinder                                                      :   汽缸
+  gasket                                                        :   墊圈
+  gear                                                          :   齒輪
+  handle                                                        :   處理
+  head                                                          :   頭
+  internal chain                                                :   內部鏈
+  #.nozzle                                                       :   .nozzle
+  piston                                                        :   活塞
 Vivi:
-  Catalytic Converter                                           :   催化轉化器             
-  Ball Bearing                                                  :   球軸承                 
-  #Gear Box                                                      :   齒輪箱                 
-  Bearing Box                                                   :   軸承箱                 
-  Motorcycle Spokes & Nipples                                   :   摩托車輻條及接頭       
-  #Gasket                                                        :   墊片                   
-  Jacks                                                         :   千斤頂                 
-  #C.D.I. Unit                                                   :   C.D.I.單位             
-  Connecting Rod                                                :   連桿                   
-  Grease Pumps                                                  :   潤滑脂泵               
-  Differential Gears Set                                        :   差速齒輪組             
-  Hydraulic Jack                                                :   液壓千斤頂             
-  Variator                                                      :   變速器                 
-  Roller Weight                                                 :   輥重                   
-  Engine Control Computers                                      :   發動機控制電腦         
-  Clutch Friction Disc                                          :   離合器摩擦片           
-  Cable Hanger                                                  :   纜，吊桿               
-  Handy Cooler                                                  :   手持冷卻器             
-  Sensor                                                        :   傳感器                 
-  Fuel Pump                                                     :   燃油泵                 
+  Catalytic Converter                                           :   催化轉化器
+  Ball Bearing                                                  :   球軸承
+  #Gear Box                                                      :   齒輪箱
+  Bearing Box                                                   :   軸承箱
+  Motorcycle Spokes & Nipples                                   :   摩托車輻條及接頭
+  #Gasket                                                        :   墊片
+  Jacks                                                         :   千斤頂
+  #C.D.I. Unit                                                   :   C.D.I.單位
+  Connecting Rod                                                :   連桿
+  Grease Pumps                                                  :   潤滑脂泵
+  Differential Gears Set                                        :   差速齒輪組
+  Hydraulic Jack                                                :   液壓千斤頂
+  Variator                                                      :   變速器
+  Roller Weight                                                 :   輥重
+  Engine Control Computers                                      :   發動機控制電腦
+  Clutch Friction Disc                                          :   離合器摩擦片
+  Cable Hanger                                                  :   纜，吊桿
+  Handy Cooler                                                  :   手持冷卻器
+  Sensor                                                        :   傳感器
+  Fuel Pump                                                     :   燃油泵
 Vicky:
-  suspension                                                    :   懸掛                   
-  brake                                                         :   剎車                   
-  gas                                                           :   氣                     
-  oil                                                           :   油                     
-  helmet                                                        :   頭盔                   
-  wheel                                                         :   輪                     
-  exhaust                                                       :   排氣                   
-  muffler                                                       :   消聲器                 
-  engine                                                        :   發動機                 
-  handle                                                        :   處理                   
-  mirror                                                        :   鏡子                   
-  indicator                                                     :   指示器                 
-  seat                                                          :   座位                   
-  #spdineter                                                     :   spdineter              
-  bean light                                                    :   豆燈                   
-  #scotter stand                                                 :   scotter立場            
-  gas tank                                                      :   儲氣罐                 
-  footrest                                                      :   踏板                   
-  battery                                                       :   電池                   
-  sparkplug                                                     :   火花塞                 
+  suspension                                                    :   懸掛
+  brake                                                         :   剎車
+  gas                                                           :   氣
+  oil                                                           :   油
+  helmet                                                        :   頭盔
+  wheel                                                         :   輪
+  exhaust                                                       :   排氣
+  muffler                                                       :   消聲器
+  engine                                                        :   發動機
+  handle                                                        :   處理
+  mirror                                                        :   鏡子
+  indicator                                                     :   指示器
+  seat                                                          :   座位
+  #spdineter                                                     :   spdineter
+  bean light                                                    :   豆燈
+  #scotter stand                                                 :   scotter立場
+  gas tank                                                      :   儲氣罐
+  footrest                                                      :   踏板
+  battery                                                       :   電池
+  sparkplug                                                     :   火花塞
 Sally:
-  scooter                                                       :   摩托車                 
-  moped                                                         :   助力車                 
-  engine                                                        :   發動機                 
-  fuel-efficient                                                :   省油                   
-  clutch                                                        :   離合器                 
-  cushion                                                       :   坐墊                   
-  strobe light                                                  :   頻閃燈                 
-  #led lihgt bulb                                                :   領導lihgt燈泡          
-  motion controller                                             :   運動控制器             
-  piston                                                        :   活塞                   
-  piston pin                                                    :   活塞銷                 
-  piston ring                                                   :   活塞環                 
-  carburetor                                                    :   化油器                 
-  fan                                                           :   風扇                   
-  starter                                                       :   起動機                 
-  pulley                                                        :   滑輪                   
-  manifold                                                      :   多種                   
-  fuel tank                                                     :   油箱                   
-  hand brake                                                    :   手閘                   
-  fender                                                        :   擋泥板                 
+  scooter                                                       :   摩托車
+  moped                                                         :   助力車
+  engine                                                        :   發動機
+  fuel-efficient                                                :   省油
+  clutch                                                        :   離合器
+  cushion                                                       :   坐墊
+  strobe light                                                  :   頻閃燈
+  #led lihgt bulb                                                :   領導lihgt燈泡
+  motion controller                                             :   運動控制器
+  piston                                                        :   活塞
+  piston pin                                                    :   活塞銷
+  piston ring                                                   :   活塞環
+  carburetor                                                    :   化油器
+  fan                                                           :   風扇
+  starter                                                       :   起動機
+  pulley                                                        :   滑輪
+  manifold                                                      :   多種
+  fuel tank                                                     :   油箱
+  hand brake                                                    :   手閘
+  fender                                                        :   擋泥板
 Nora:
-  vehicle Plate                                                 :   車牌                   
-  cushion                                                       :   坐墊                   
-  #led Light Bulb LED                                            :   LED燈泡LED             
-  Rust Remover                                                  :   除鏽劑                 
-  #fuel Tank                                                     :   油箱                   
-  handle                                                        :   處理                   
-  motor                                                         :   馬達                   
-  plug                                                          :   插頭                   
-  Motorcycle Piston Ring                                        :   摩托車活塞環           
-  flasher light winker                                          :   閃光光頻閃信號燈       
-  meter 　                                                      :   計                     
-  headlight　                                                   :   車燈                   
-  tailing  　                                                   :   拖尾                   
-  handle switch  　                                             :   手柄開關               
-  stand  　                                                     :   站                     
-  Wind mirror　                                                 :   防風鏡                 
-  front wheel 　                                                :   前輪                   
-  rear wheel   　                                               :   後輪                   
-  rear view mirror                                              :   後視鏡                 
-  locomotive horn                                               :   機車喇叭               
+  vehicle Plate                                                 :   車牌
+  cushion                                                       :   坐墊
+  #led Light Bulb LED                                            :   LED燈泡LED
+  Rust Remover                                                  :   除鏽劑
+  #fuel Tank                                                     :   油箱
+  handle                                                        :   處理
+  motor                                                         :   馬達
+  plug                                                          :   插頭
+  Motorcycle Piston Ring                                        :   摩托車活塞環
+  flasher light winker                                          :   閃光光頻閃信號燈
+  meter 　                                                      :   計
+  headlight　                                                   :   車燈
+  tailing  　                                                   :   拖尾
+  handle switch  　                                             :   手柄開關
+  stand  　                                                     :   站
+  Wind mirror　                                                 :   防風鏡
+  front wheel 　                                                :   前輪
+  rear wheel   　                                               :   後輪
+  rear view mirror                                              :   後視鏡
+  locomotive horn                                               :   機車喇叭
 Sunny:
-  ring                                                          :   環                     
-  #Windscreen                                                    :   風檔                   
-  Heating                                                       :   加熱                   
-  ##Sidecar                                                       :   邊門                   
-  Trailer                                                       :   拖車                   
-  Tow hitch                                                     :   拖車掛鉤               
-  Storage                                                       :   存儲                   
-  Crash damage protection                                       :   碰撞損壞保護           
-  Cruiser                                                       :   巡洋艦                 
-  Sport                                                         :   運動                   
-  Touring                                                       :   旅遊                   
-  Standard                                                      :   標準                   
-  Dual-purpose                                                  :   兩用                   
-  Dirt bike                                                     :   越野車                 
-  Yamaha                                                        :   雅馬哈                 
-  Kymco                                                         :   光陽                   
-  Sym                                                           :   符號                   
-  #Pgo                                                           :   PGO                    
-  Vespa                                                         :   胡蜂                   
-  #Bmw                                                           :   寶馬                   
+  ring                                                          :   環
+  #Windscreen                                                    :   風檔
+  Heating                                                       :   加熱
+  ##Sidecar                                                       :   邊門
+  Trailer                                                       :   拖車
+  Tow hitch                                                     :   拖車掛鉤
+  Storage                                                       :   存儲
+  Crash damage protection                                       :   碰撞損壞保護
+  Cruiser                                                       :   巡洋艦
+  Sport                                                         :   運動
+  Touring                                                       :   旅遊
+  Standard                                                      :   標準
+  Dual-purpose                                                  :   兩用
+  Dirt bike                                                     :   越野車
+  Yamaha                                                        :   雅馬哈
+  Kymco                                                         :   光陽
+  Sym                                                           :   符號
+  #Pgo                                                           :   PGO
+  Vespa                                                         :   胡蜂
+  #Bmw                                                           :   寶馬
 #Amber:                                                         : ~
-#  fuel pipe                                     
-#  sleering stem                                 
-#  air cleaner with small kickstand              
-#  air filter                                    
-#  front brake cables                            
-#  rear brake wire                               
-#  clutch clip                                   
-#  semi-clutch                                   
-#  dust cover                                    
-#  frame                                         
-#  oli valve switch                              
-#  bush                                          
-#  anode wire                                    
-#  fuel tank cover                               
-#  head cover                                    
-#  windshield                                    
-#  anode wire                                    
-#  bracket                                       
-#  clip                                          
-#  electric coll                                 
+#  fuel pipe
+#  sleering stem
+#  air cleaner with small kickstand
+#  air filter
+#  front brake cables
+#  rear brake wire
+#  clutch clip
+#  semi-clutch
+#  dust cover
+#  frame
+#  oli valve switch
+#  bush
+#  anode wire
+#  fuel tank cover
+#  head cover
+#  windshield
+#  anode wire
+#  bracket
+#  clip
+#  electric coll
 #Wynn:
-#  rear lamp                                     
-#  head lamp                                     
-#  side lamp                                     
-#  winker                                        
-#  buzzer                                        
-#  oil level switch                              
-#  sparkplug                                     
-#  magnetic screw                                
-#  engine parts                                  
-#  exhaust pipe                                  
-#  injection nozzle                              
-#  engine oil                                    
-#  starter relay                                 
-#  gear oil                                      
-#  ignition coil                                 
-#  resistor                                      
-#  carburetor                                    
+#  rear lamp
+#  head lamp
+#  side lamp
+#  winker
+#  buzzer
+#  oil level switch
+#  sparkplug
+#  magnetic screw
+#  engine parts
+#  exhaust pipe
+#  injection nozzle
+#  engine oil
+#  starter relay
+#  gear oil
+#  ignition coil
+#  resistor
+#  carburetor
 #Sara:
-#  cowl cover                                    
-#  hugger                                        
-#  swingarm                                      
-#  cailper                                       
-#  rotor                                         
-#  exhaust                                       
-#  brake pedal                                   
-#  footpeg                                       
-#  clutch cover                                  
-#  lower fairing                                 
-#  brake line                                    
-#  fender                                        
-#  fork tube                                     
-#  intake duct                                   
-#  front cowl                                    
-#  windscreen                                    
-#  brake lever                                   
-#  grip                                          
-#  bar end                                       
-#  master cylinders                              
-#  subframe                                      
+#  cowl cover
+#  hugger
+#  swingarm
+#  cailper
+#  rotor
+#  exhaust
+#  brake pedal
+#  footpeg
+#  clutch cover
+#  lower fairing
+#  brake line
+#  fender
+#  fork tube
+#  intake duct
+#  front cowl
+#  windscreen
+#  brake lever
+#  grip
+#  bar end
+#  master cylinders
+#  subframe
 #Abby:
-#  dash light                                    
-#  injection pump                                
-#  disk wheel                                    
-#  helical spring                                
-#  tyre                                          
-#  sparking plug                                 
-#  petrol pump hose                              
-#  driving shaft                                 
-#  hand-brake                                    
-#  mudguard                                      
-#  tank filler sleeve                            
-#  combustion chamber                            
-#  wheel rim                                     
-#  tire pressure gauge                           
-#  tank filler sleeve with cap                   
-#  oil dip-stick                                 
-#  windscreen                                    
-#  direction indicator                           
-#  moped                                         
-#  driving helmet                                
+#  dash light
+#  injection pump
+#  disk wheel
+#  helical spring
+#  tyre
+#  sparking plug
+#  petrol pump hose
+#  driving shaft
+#  hand-brake
+#  mudguard
+#  tank filler sleeve
+#  combustion chamber
+#  wheel rim
+#  tire pressure gauge
+#  tank filler sleeve with cap
+#  oil dip-stick
+#  windscreen
+#  direction indicator
+#  moped
+#  driving helmet
 #Lydia:
-#  air cooler machine                            
-#  shocks                                        
-#  light                                         
-#  oil cleaner                                   
-#  cushion                                       
-#  clutch                                        
-#  horn                                          
-#  wheel                                         
-#  generator                                     
-#  driving mirror                                
-#  turn signal                                   
-#  gear                                          
-#  internal chain                                
-#  nozzle                                        
-#  pump                                          
-#  tire                                          
-#  transmission gear                             
-#  carbureter                                    
-#  roller                                        
-#  master cylinder                               
+#  air cooler machine
+#  shocks
+#  light
+#  oil cleaner
+#  cushion
+#  clutch
+#  horn
+#  wheel
+#  generator
+#  driving mirror
+#  turn signal
+#  gear
+#  internal chain
+#  nozzle
+#  pump
+#  tire
+#  transmission gear
+#  carbureter
+#  roller
+#  master cylinder
 #Sam:
-#  dashboard                                     
-#  speedometer                                   
-#  brake                                         
-#  fuel-efficient                                
-#  side mirror                                   
-#  rim                                           
-#  Tire                                          
-#  Clutch                                        
-#  Strobe Light                                  
-#  Driver Transformer                            
-#  Piston                                        
-#  Carburetor                                    
-#  Air Filter                                    
-#  Timing Chain                                  
-#  Oil Filter                                    
-#  Engine Bearing                                
-#  Storage Battery                               
-#  Instrument Meter                              
-#  Auto Fuse                                     
-#  Kick Starter                                  
+#  dashboard
+#  speedometer
+#  brake
+#  fuel-efficient
+#  side mirror
+#  rim
+#  Tire
+#  Clutch
+#  Strobe Light
+#  Driver Transformer
+#  Piston
+#  Carburetor
+#  Air Filter
+#  Timing Chain
+#  Oil Filter
+#  Engine Bearing
+#  Storage Battery
+#  Instrument Meter
+#  Auto Fuse
+#  Kick Starter
 #Joe:
-#  Chain Lock                                    
-#  Brake Pads                                    
-#  Back Mirror                                   
-#  Body Cover                                    
-#  Instrument Meter                              
-#  Singnal Lamp                                  
-#  Fender Trim                                   
-#  Tire Guarge                                   
-#  Rear Carrier                                  
-#  Handle Bar                                    
-#  Shock Absorber                                
-#  Pulley                                        
-#  Piston                                        
-#  Weight Roller                                 
-#  Belt Drive                                    
-#  Brake Shoe                                    
-#  Carburetor                                    
-#  Brake Cable                                   
-#  Rectifier Assy Regulator                      
-#  Coil Comp                                     
+#  Chain Lock
+#  Brake Pads
+#  Back Mirror
+#  Body Cover
+#  Instrument Meter
+#  Singnal Lamp
+#  Fender Trim
+#  Tire Guarge
+#  Rear Carrier
+#  Handle Bar
+#  Shock Absorber
+#  Pulley
+#  Piston
+#  Weight Roller
+#  Belt Drive
+#  Brake Shoe
+#  Carburetor
+#  Brake Cable
+#  Rectifier Assy Regulator
+#  Coil Comp
 
 
 #在:
