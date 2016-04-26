@@ -108,13 +108,565 @@ Now, the _____(17) is dominated by _____(18) makers and Japanese _____(19) with 
 
 But _____(27) makers are the world's largest _____(28). Hero has _____(29) 8.5 million _____(30) to date.
 
+## Comparing brands/types on repairs and satisfaction
+
+
+accessories
+brake
+common
+due
+electrical
+larger
+lighting
+maintenance
+owners
+problems
+reason
+reduce
+rider
+these
+touring
+types
+typical
+US
+
+In a 2013 survey of the _____(1) of 4,680 motorcycles in the _____(2), the most _____(3) problems were brakes, _____(4) systems, fuel systems and _____(5), and the _____(6) with the most problems were sport, _____(7) and cruisers. The _____(8) for these types having most problems may be the _____(9) amount of accessories that _____(10) bikes have. _____(11) accessories include luggage, extra _____(12), and fairings to _____(13) air drag and protect the _____(14). Fuel system _____(15) may be _____(16) to the cold winters in the US. _____(17) problems may be due to poor _____(18).
+
+## Comparing brands/types on repairs and satisfaction
+
+
+buy
+cost
+despite
+fewest
+Harley-Davidson
+highest
+less
+number
+rate
+requiring
+said
+two-thirds
+
+Honda, Kawasaki and Yamaha had the _____(20) problems, with 11-14% _____(21) major repairs. Harley-Davidson had a _____(22) of 24%, and BMW had the _____(23) rate of 30%. 75% of the repairs _____(24) less than $200 and it took _____(25) than 2 days to repair _____(26) of the problems. _____(27) the greater _____(28) of problems, 75% of the _____(29) and BMW owners _____(30) they would _____(31) the same bike again. Only 60-70% of the Japanese bike owners said they would do the same.
 
 # Videos
 
-## Girl replaces wheel
+## Girl replaces wheel, changes oil
 
-- [Taking it off at https://www.youtube.com/watch?v=rczWQ3s2E8U ](https://www.youtube.com/watch?v=rczWQ3s2E8U)
-- [Putting it on at https://www.youtube.com/watch?v=rczWQ3s2E8U](https://www.youtube.com/watch?v=rczWQ2s2E8U)
+- [Taking wheel off at https://www.youtube.com/watch?v=rczWQ3s2E8U ](https://www.youtube.com/watch?v=rczWQ3s2E8U)
+- [Putting wheel on at https://www.youtube.com/watch?v=rczWQ3s2E8U](https://www.youtube.com/watch?v=rczWQ2s2E8U)
+- [Changing engine oil](https://www.youtube.com/watch?v=BheIprTnUzA)
 
 
+## Parts of a motorcycle and its engine
+
+- [Parts of a motorcycle ](https://www.youtube.com/watch?v=U3ShGgtkk3k)
+- [Parts of a motorcycle engine ](https://www.youtube.com/watch?v=2m2EGXlwMIs)
+
+## Motorcycle inspection checklist--buying a used bike
+
+- [Motorcycle inspection checklist](https://www.youtube.com/watch?v=DlUzoUpWWdE)
+
+# Images
+
+## Types of motorcycle
+
+- [Moped](https://en.wikipedia.org/wiki/Moped)
+- [Scooter](https://en.wikipedia.org/wiki/Scooter_(motorcycle))
+- [Sports](https://en.wikipedia.org/wiki/Sport_bike)
+- [Tourer](https://en.wikipedia.org/wiki/Touring_motorcycle)
+- [Cruiser](https://en.wikipedia.org/wiki/Cruiser_(motorcycle))
+
+
+# Homework and exam
+
+## Changing translations
+
+On Thu, 07 Apr 2016, 藍美文 wrote:
+
+> some translation of some words was so weird.
+
+> Like " Aeon" is a brand name called "宏佳騰", not 永世.
+
+> 永世 means live forever and it do not have too much relationship about motorcycle.
+
+> Are you sure that we have to memorize those weird or even incorrect  translation?
+
+
+# Translation Changes 
+
+## bean light
+
+bean light (should be light beam) 
+
+Was: 豆燈
+
+. . .
+
+Now: 光束
+
+## bearing
+
+bearing 
+
+Was: 軸承
+
+. . .
+
+Now: 軸承
+
+## Bearing Box
+
+Bearing Box 
+
+Was: 球軸承
+
+. . .
+
+Now: 軸承箱
+
+
+## brake fluid
+
+brake fluid 
+
+Was: 剎車
+
+. . .
+
+Now: 剎車油
+
+
+## Cable Hanger
+
+Cable Hanger 
+
+Was: 纜，吊桿
+
+. . .
+
+Now: 吊桿
+
+
+## caliper
+
+caliper 
+
+Was: 卡尺
+
+. . .
+
+Now: 卡鉗
+
+
+## Catalytic Converter
+
+Catalytic Converter 
+
+Was: 催化轉化器
+
+. . .
+
+Now: 催化轉化器
+
+## cell motor
+
+cell motor (Should be fuel cell motor) 
+
+Was: 電池電動機
+
+. . .
+
+Now: 燃料電池電動機
+
+## chain
+
+chain 
+
+Was: 鏈
+
+. . .
+
+Now: 鏈條
+
+## chain lock
+
+chain lock 
+
+Was: 鏈條鎖
+
+. . .
+
+Now: 鏈鎖
+
+## choke
+
+choke 
+
+Was: 嗆
+
+. . .
+
+Now: 賭塞
+
+## Cruiser
+
+Cruiser 
+
+Was: 巡洋艦
+
+. . .
+
+Now: 遊艇
+
+## cushion
+
+cushion 
+
+Was: 坐墊
+
+. . .
+
+Now: 座墊
+
+## differential
+
+differential 
+
+Was: 差動
+
+. . .
+
+Now: 差動齒輪
+
+## Distributor Parts
+
+Distributor Parts 
+
+Was: 經銷商配件
+
+. . .
+
+Now: 分電器蓋
+
+## Electro-Continuously Variable Transmission
+
+Electro-Continuously Variable Transmission 
+
+Was: 電子無級變速器
+
+. . .
+
+Now: 電子式無段速變速箱
+
+## engine
+
+engine 
+
+Was: 發動機
+
+. . .
+
+Now: 引擎
+
+## Engine Control Computers
+
+Engine Control Computers 
+
+Was: 發動機控制電腦
+
+. . .
+
+Now: 引擎控制電腦
+
+## exhaust
+
+exhaust 
+
+Was: 排氣
+
+. . .
+
+Now: 廢氣
+
+## flasher light winker
+
+flasher light winker 
+
+Was: 閃光光頻閃信號燈
+
+. . .
+
+Now: 閃光燈罩
+
+## fuel tank
+
+fuel tank 
+
+Was: 油箱
+
+. . .
+
+Now: 燃料箱
+
+## gas
+
+gas 
+
+Was: 氣
+
+. . .
+
+Now: 汽油
+
+## gas tank
+
+gas tank 
+
+Was: 儲氣罐
+
+. . .
+
+Now: 油箱
+
+## gear shift inner control
+
+gear shift inner control 
+
+Was: 換檔內部控制
+
+. . .
+
+Now: 變速箱內部控制機構
+
+## gear shift outer controls
+
+gear shift outer controls 
+
+Was: 換檔控制外
+
+. . .
+
+Now: 變速箱外部控制機構
+
+## gearbox
+
+gearbox 
+
+Was: 變速器
+
+. . .
+
+Now: 變速器
+
+## Grease Pumps
+
+Grease Pumps 
+
+Was: 潤滑脂泵
+
+. . .
+
+Now: 油槍
+
+## hand brake
+
+hand brake 
+
+Was: 手閘
+
+. . .
+
+Now: 手剎車
+
+## handlebar
+
+handlebar 
+
+Was: 車把
+
+. . .
+
+Now: 車把
+
+## headlight
+
+headlight 
+
+Was: 車燈
+
+. . .
+
+Now: 頭燈
+
+## Heating
+
+Heating 
+
+Was: 加熱
+
+. . .
+
+Now: 暖氣
+
+## helmet
+
+helmet 
+
+Was: 頭盔
+
+. . .
+
+Now: 安全帽
+
+## inner tube
+
+inner tube 
+
+Was: 內胎
+
+. . .
+
+Now: 內胎
+
+## meter
+
+meter 
+
+Was: 計
+
+. . .
+
+Now: 儀表
+
+## moped
+
+moped 
+
+Was: 助力車
+
+. . .
+
+Now: 助動車
+
+## muffler
+
+muffler 
+
+Was: 消聲器
+
+. . .
+
+Now: 消音器
+
+## ring
+
+ring 
+
+Was: 軸承
+
+. . .
+
+Now: 鳴響
+
+## rotor
+
+rotor 
+
+Was: 轉子
+
+. . .
+
+Now: 旋轉輪
+
+## Sensor
+
+Sensor 
+
+Was: 傳感器
+
+. . .
+
+Now: 感應器
+
+## shift lever
+
+shift lever 
+
+Was: 變速桿
+
+. . .
+
+Now: 變速桿
+
+## Sym
+
+Sym 
+
+Was: 符號
+
+. . .
+
+Now: 三陽
+
+## tank
+
+tank 
+
+Was: cover
+
+. . .
+
+Now: 水箱
+
+## throttle
+
+throttle 
+
+Was: 風門
+
+. . .
+
+Now: 風門
+
+## Valve Guide
+
+Valve Guide 
+
+Was: 氣門導管
+
+. . .
+
+Now: 閥導承
+
+## Vespa
+
+Vespa 
+
+Was: 胡蜂
+
+. . .
+
+Now: 偉士牌
+
+## windscreen
+
+windscreen 
+
+Was: windscreen
+
+. . .
+
+Now: 風板
+
+## Yamaha
+
+Yamaha 
+
+Was: 雅馬哈
+
+. . .
+
+Now: 山葉
 
