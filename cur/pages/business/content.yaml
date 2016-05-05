@@ -595,7 +595,7 @@ topic:
   -
     id: management
     title: Being a manager and managing people
-    intro: Would you be a good manager? What do you need to do to be a good manager?
+    intro: Would you be a good manager? What do you need to do to be a good manager? Is managing a good thing? Is it good to be a manager?
     story:
       -
         id: nicholson1
@@ -607,11 +607,29 @@ topic:
       -
         id: motivating
         title: Nicholson on management--motivating people
-        blurb: The most important thing a manager can do is motivate people by understanding how they are different AND how they are the same as other people, and by thinking about their goals.
+        blurb: Nicholson says, the most important thing a manager can do is motivate people by understanding how they are different AND how they are the same as other people, and by thinking about their goals. Is this Theory X or Theory Y?
         comment: |+
           Listen to the 2 nicholson soundfiles on:
           <ul>
           <li><a href=http://elearning.nuu.edu.tw>http://elearning.nuu.edu.tw</a>
+          </ul>
+          <br>
+          Write questions using these sentences:
+          <ul>
+          <li>"Managers need to understand what motivates people."
+          <li>"There are some things that motivate everyone."
+          <li>"People care about their families,"
+          <li>"Everybody wants to make a difference."
+          <li>"Everybody wants to be respected."
+          <li>"Understanding how everyone is unique and different is more difficult."
+          <li>"Everyone is different to the way that you as a manager think."
+          <li>"The secret is to try to know what the world looks for people through their eyes."
+          <li>"Managers need to understand what the world looks like through the eyes of another person."
+          <li>"Managers need to be good at asking questions and listening to people, in order to look at the world through the eyes of another person."
+          <li>"Managers need to ask not just any question, but questions that really tell them about what a person's drivers, or unique motivators are."
+          <li>"Managers need to ask questions to find out what other people are concerned about in the situation that they are both in."
+
+
           </ul>
       -
         id: reflecting
