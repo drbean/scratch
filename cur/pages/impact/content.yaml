@@ -189,6 +189,25 @@ topic:
             <li> "They figure that the burning rubber is the scent of the Martians."
           </ul>
           Use words from the list.
+      -
+        id: indie
+        title: Independence Day
+        blurb: |
+          Independence Day (July 4th, American Independence Day) was a 1996 movie about an alien attack. Watch <a href="http://www.youtube.com/watch?v=Nahdy9SjbGs">the aliens obliterate a city.</a> Watch <a href="http://www.youtube.com/watch?v=7YtvsxB9xQYca">a trailer (not the real one)</a>. Read <a href="http://en.wikipedia.org/wiki/Independence_Day_(1996_film)">the Wikipedia article</a>.
+        comment: |
+          Make a question from:
+          <ul>
+          <li> "Communications systems worldwide are sent into chaos by strange atmospheric interference on July 2nd."
+          <li> "Communications systems worldwide are paralyzed by strange atmospheric interference on July 2nd."
+          <li> "The military learns that a number of enormous objects are on a collision course with the Earth."
+          <li> "The objects are revealed to be gigantic spacecraft piloted by a mysterious alien species."
+          <li> "The military reveals that the objects are gigantic spacecraft piloted by a mysterious alien species."
+          <li> "Levinson discovers that the aliens intend to attack major points around the globe."
+          <li> "The aliens obliterate New York , Los Angeles , Washington , Paris , London , Houston and Moscow on July 3rd."
+          <li> "The survivors set out in convoys toward Area 51, a strange government testing ground where it is believed the military has a captured alien spacecraft."
+          <li> "The survivors devise a plan to fight back against the enslaving aliens, and July 4th becomes the day humanity fights for its freedom."
+          <li> "July 4th is their Independence Day."
+          </ul>
   -
     id: environment
     title: The natural and man-made environment
