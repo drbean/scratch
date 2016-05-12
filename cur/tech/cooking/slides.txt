@@ -108,21 +108,21 @@ What questions do you have?
 ## Cloze--what is chocolate
 
 
-chip
-brownies
-including
-created
-foods
-popular
-bitter
+additives
 beverages
+bitter
+brownies
+cacao
+chip
+created
+flavored
+foods
+form
+including
 majority
 other
 paste
-form
-additives
-flavored
-cacao
+popular
 typically
 
 Chocolate is _____(1) a sweet and brown food of roasted and ground _____(2) seeds, often _____(3) , with other _____(4) like vanilla. It is distributed in the _____(5) of a liquid, _____(6) , or in a block, or used as a flavor in _____(7) foods. Cacao comes from Mesoamerica. The _____(8) of Mesoamerican people made chocolate _____(9) , including the Maya and Aztecs, who drank it as a very _____(10) drink.
@@ -139,5 +139,63 @@ After fermentation, the beans are dried, cleaned, and roasted. The shell is remo
 
 
 Although cocoa comes from the Americas, Western Africa produces almost two-thirds of the world's cocoa, with Ivory Coast growing almost half of it.
+
+# Fermentation
+
+## Harvard lecture
+
+- [The prof discusses fermentation theory at the start:](https://www.youtube.com/watch?v=H1mMg91YJHc)
+- [At 15:45, the lecturer mentions nice and, then, disgusting fermented food](https://www.youtube.com/watch?v=H1mMg91YJHc)
+
+
+## Cloze {.allowframebreaks}
+
+acid
+alchohol (x2)
+yogurt 
+bacteria
+bread
+chemical
+converted
+dioxide
+gas
+generally
+large-scale
+micro-organisms
+muscles
+occurs
+off
+preserve
+products
+sour
+started
+typical
+word
+
+Fermentation is a _____(1) process in which sugars are _____(2) to acids, gases or _____(3) . It _____(4) in yeast, in _____(5), and in the _____(6) of animals (with lactic _____(7) fermentation). But the _____(8) is also used more _____(9) to mean _____(10) growth of _____(11) on a medium to make alcohol, _____(12) , or cheese, as well as other _____(13) . However the same process occurs when food goes "_____(14)", or bad.
+
+Humans _____(15) using fermentation in the Stone Age, 10,000 years ago, to _____(16) food in _____(17) products, like pickles and _____(18), as well as make alcohol. Besides _____(19) , other _____(20) products of fermentation are lactic acid, carbon _____(21) and hydrogen _____(22).
+
+# Exam
+
+## Procedure. Week 14
+
+In the computer lab we will learn Memrise food courses, and your exam score out of 5 will be the difference between your total points to that point and the points you had in week 10.
+
+Students with no points in week 10:
+
+- V0141003: 0
+- V0141019: 0
+- V0141022: 0
+- V0141025: 0
+- V0141029: 0
+- V0141036: 0
+- V0141051: 0
+
+Contact me.
+
+Students with no points in week 10 will get a grade of 3.
+
+The student who has the biggest gain will get 5. The student with the 15th biggest gain will get 4.
 
 == The End
