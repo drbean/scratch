@@ -44,7 +44,40 @@ topic:
         title: Happiness
         blurb: |
           The <a href="http://en.wikipedia.org/wiki/World_Happiness_Report">World_Happiness_Report</a> is a United Nations project that ranks countries on the happiness of their people. Listen to <a href="http://linkengpark.com/6-minute-english-the-secret-of-happiness/">Rob and Finn of 6-Minute English"</a> discuss it.
-        comment: Some words they use: <table border="1" style="width:100%"><tr> <td>down in the dumps<td>feeling miserable or unhappy <tr><td>happy-go-lucky<td>describes someone who doesn't worry about the future <tr><td>satisfaction<td>the good feeling you get when you get something you want <tr><td>a state of mind<td>how someone feels about their life at the present time <tr><td>content<td>feel happy or pleased with the situation <tr><td>materialistic<td>believing money and possessions are the most important things <tr><td>goals<td>things you want to achieve <tr><td>hectic<td>busy, lots of things going on <tr><td>rewarding<td>a feeling of satisfaction and pleasure <tr><td>wiser<td>gained the ability to make good judgements based on life experience <tr><td>comforting<td>making you feel less sad or worried </table>
+        comment: |
+          Some words they use: <table border="1" style="width:100%"><tr> <td>down in the dumps<td>feeling miserable or unhappy <tr><td>happy-go-lucky<td>describes someone who doesn't worry about the future <tr><td>satisfaction<td>the good feeling you get when you get something you want <tr><td>a state of mind<td>how someone feels about their life at the present time <tr><td>content<td>feel happy or pleased with the situation <tr><td>materialistic<td>believing money and possessions are the most important things <tr><td>goals<td>things you want to achieve <tr><td>hectic<td>busy, lots of things going on <tr><td>rewarding<td>a feeling of satisfaction and pleasure <tr><td>wiser<td>gained the ability to make good judgements based on life experience <tr><td>comforting<td>making you feel less sad or worried </table>
+      -
+        id: enjoy
+        title: Enjoyment and Happiness
+        blurb: |
+          The <a href="http://en.wikipedia.org/wiki/World_Happiness_Report">World_Happiness_Report</a> is a United Nations project that ranks countries on the happiness of their people. Listen to <a href="http://www.bbc.co.uk/worldservice/learningenglish/general/sixminute/2013/08/130815_6min_happiness.shtml">Rob and Finn discuss happiness</a> on <a href="http://www.bbc.co.uk/learningenglish/english/features/6-minute-english">6-Minute English"</a>.
+        comment: |
+          Some words they use: <table border="1" style="width:100%"><tr> <td>down in the dumps<td>feeling miserable or unhappy <tr><td>happy-go-lucky<td>describes someone who doesn't worry about the future <tr><td>miserable<td>very unhappy<tr><td>unfit<td>too fat and not strong, because of lack of exercise<tr><td>put a smile on your face<td>make you feel happy<tr><td>finer things in life<td>more expensive and enjoyable things you can have or do in your life<tr><td>fine wine<td>good, expensive wine<tr><td>quality of life<td>the condition of a person, or group of people's, life, good, bad, or so-so</table>
+          <br>
+          Make a question from:
+          <ul>
+            <li> "Finn sounds down in the dumps."
+            <li> "Finn sounds miserable."
+            <li> "Finn is miserable."
+            <li> "It is raining."
+            <li> "Finn has no money."
+            <li> "And Finn feels unfit too."
+            <li> "Rob has some news that might put a smile on Finn's face."
+            <li> "The study tells us how we can make ourselves happier."
+            <li> "Rob and Finn use some words about happiness too."
+            <li> "Finn says that sounds good."
+            <li> "Finn says he feels happier already."
+            <li> "Rob asks Finn what things make him feel happy?"
+            <li> "Finn says the finer things in life, good food , fine wine and things like that make him feel happier"
+            <li> "Finn asks Rob what things make him feel happy."
+            <li> "Rob tells Finn that everything makes him feel happy."
+            <li> " Rob says that nothing worries him."
+            <li> " Rob says that he always looks for the positive things even in a bad situation."
+            <li> "Rob says that you could also say that he is happy-go-lucky."
+            <li> "Rob asks Finn which country is top of the list in happiness in the World Happiness Database"
+            <li> "Finn thinks Finland has a high quality of life but he says the happiest nation is Canada."
+          </ul>
+
   -
     id: economic animal
     title: How should we approach the problem of needing money to live?
