@@ -1,0 +1,65 @@
+$g
+$gr
+my $gr = LoadFile "exam/3/g.yaml"
+my %inc = map { $_ => $gr->{test}->{$_} - $gr->{base}->{$_} } @$m
+$m
+@m
+%m
+my %inc = map {my $id = $_->{id}; $id => $gr->{test}->{$id} - $gr->{base}->{$id} } %m
+my %inc = map { $_ => $gr->{test}->{$_} - $gr->{base}->{$_} } keys %m
+$gr->{raw_increase} = \%inc
+DumpFile "exam/3/g.yaml", $gr
+my $median = (sort {$a<=>$b} grep {$_ != 0} values %{gr->{raw_increase})[ (keys %m)/2 ];
+my $median = (sort {$a<=>$b} grep {$_ != 0} values %{$r->{raw_increase})[ (keys %m)/2 ];
+my $median = (sort {$a<=>$b} grep {$_ != 0} values %{$gr->{raw_increase})[ (keys %m)/2 ];
+my $median = (sort {$a<=>$b} grep {$_ != 0} values %{$gr->{raw_increase}})[ (keys %m)/2 ];
+my $check = sub { shift + 2}
+my $check = sub { shift() + 2}
+check(3)
+my $check = sub { return (shift() + 2)}
+$check(3)
+$check 3
+$check->(3)
+$check->(4)
+my $check = sub { my $x = shift;}
+my $check = sub { my $x = shift; \
+$x +20}
+$check->(4)
+my $check = sub { my $x = shift; \
+ 20 + $x }
+$check->(4)
+y $check = sub { my $player = shift(); if ( $gr->{base}->{$player} ) {     if ( $gr->{raw_increase}->{$player} > $median ) {         $gr->{grade}->{$player} =  sprintf( "%.2f", 4 + 1 * ($gr->{raw_increase}->{$player} - $median) / ($max_points - $median) );     }     elsif ( $gr->{raw_increase}->{$player} <= $median ) {         $gr->{grade}->{$player} = sprintf( "%.2f", 3 + 1 * $gr->{raw_increase}->{$player} / $median );     }     else {         die "No card.player, no report.grade.player?\n";     }     ; else {     $report->{grade}->{$player} = 0; }
+}
+my $check = sub { my $player = shift(); if ( $gr->{base}->{$player} ) {     if ( $gr->{raw_increase}->{$player} > $median ) {         $gr->{grade}->{$player} =  sprintf( "%.2f", 4 + 1 * ($gr->{raw_increase}->{$player} - $median) / ($max_points - $median) );     }     elsif ( $gr->{raw_increase}->{$player} <= $median ) {         $gr->{grade}->{$player} = sprintf( "%.2f", 3 + 1 * $gr->{raw_increase}->{$player} / $median );     }     else {         die "No card.player, no report.grade.player?\n";     }     ; else {     $report->{grade}->{$player} = 0; }
+}
+}
+my $check = sub { my $player = shift(); my $max_points=52234;  if ( $gr->{base}->{$player} ) {     if ( $gr->{raw_increase}->{$player} > $median ) {         $gr->{grade}->{$player} =  sprintf( "%.2f", 4 + 1 * ($gr->{raw_increase}->{$player} - $median) / ($max_points - $median) );     }     elsif ( $gr->{raw_increase}->{$player} <= $median ) {         $gr->{grade}->{$player} = sprintf( "%.2f", 3 + 1 * $gr->{raw_increase}->{$player} / $median );     }     else {         die "No card.player, no report.grade.player?\n";     }     ; else {     $gr->{grade}->{$player} = 0; }}}
+my $check = sub { my $player = shift(); my $max_points=52234;  if ( $gr->{base}->{$player} ) {     if ( $gr->{raw_increase}->{$player} > $median ) {         $gr->{grade}->{$player} =  sprintf( "%.2f", 4 + 1 * ($gr->{raw_increase}->{$player} - $median) / ($max_points - $median) );     }     elsif ( $gr->{raw_increase}->{$player} <= $median ) {         $gr->{grade}->{$player} = sprintf( "%.2f", 3 + 1 * $gr->{raw_increase}->{$player} / $median );     }     else {         die "No card.player, no report.grade.player?\n";     }     ; else {     $gr->{grade}->{$player} = 0; }}
+}
+my $check = sub { my $player = shift(); my $max_points=52234;  if ( $gr->{base}->{$player} ) {     if ( $gr->{raw_increase}->{$player} > $median ) {         $gr->{grade}->{$player} =  sprintf( "%.2f", 4 + 1 * ($gr->{raw_increase}->{$player} - $median) / ($max_points - $median) );     }     elsif ( $gr->{raw_increase}->{$player} <= $median ) {         $gr->{grade}->{$player} = sprintf( "%.2f", 3 + 1 * $gr->{raw_increase}->{$player} / $median );     }     else {         die "No card.player, no report.grade.player?\n";     } 
+}
+}
+$check->{$_} for keys %m
+$gr->{grade}
+$check
+keys %m
+$check
+$media
+$median
+$gr->{'grade'}{V9941077}
+$gr->{'raw_increase'}{V9941077}
+$max_points
+$check->(V9941077)
+$check->("V9941077")
+$gr->{grade}->{$_} = $check->{$_} for keys %m
+$gr->{grade}->{$_} = $check->($_) for keys %m
+$gr->{grade}
+$gr
+DumpFile "exam/3/g.yaml", $gr
+dump ,,/rc/memrise_grade.rc
+Dump ,,/rc/memrise_grade.rc
+dump_history ,,/rc/memrise_grade.rc
+:Dump ,,/rc/memrise_grade.rc
+:dump ,,/rc/memrise_grade.rc
+:dump ,,/../rc/memrise_grade.rc
+:dump ../../042/rc/memrise_grade.rc
