@@ -51,28 +51,28 @@ _____(12) _____(13) and _____(14) apps.
 _____(15), about 90% of _____(16) sales worldwide are for _____(17) _____(18) by Google's Android and Apple's iOS mobile _____(19).
 
 
-## Smartphone history
+## Smartphone history {.allowframebreaks}
 
 
-best-selling
-operating systems
-users
-display.
-referred
-Simon
-marketed
-trade
-demonstrated
-prototype
-PDA
-first
-Ericsson
 appeared
-"smartphone"
-sale
+best-selling
 conceptualized
+demonstrated
+devices
+display
+Ericsson
+first
+marketed
+operating systems
+PDA
+prototype
+referred
+sale
+Simon
+"smartphone"
 telephony
-Devices
+trade
+users
 
 _____(1) that combined _____(2) and computing were first _____(3) in 1973, and were offered for _____(4) beginning in 1993. The term _____(5) first _____(6) in
 1997, when _____(7) described its GS 88 as one.
@@ -94,6 +94,11 @@ In early 2000, the Ericsson R380 was released by Ericsson Mobile Communications,
 functions of a mobile phone and a personal digital assistant (PDA), supported limited web browsing with a resistive touchscreen utilizing a stylus.^[15]
 
 # Android interface design
+
+## Some simple, but essential, rules about concrete items on the smartphone screen
+
+- [Core App Quality | Android Developers ](https://developer.android.com/distribute/essentials/quality/core.html)
+
 
 ## Principles that app designers should understand
 
@@ -134,24 +139,24 @@ Each principle has subprinciples. For example, Enchant me's subprinciples are
 ## Enchant Me
 
 
-reach
-previous
 choices
-rather
-preferences
+cognitive
+delight
+effects
+feeling
 get
 home
-personal
 make
-satisfying
-cognitive
-touch
 menus
 objects
+personal
 powerful
-feeling
-effects
-delight
+preferences
+previous
+rather
+reach
+satisfying
+touch
 
 _____(11) me in surprising ways: Subtle _____(12) contribute to a _____(13) of effortlessness and a sense that a _____(14) force is at hand.
 
@@ -280,6 +285,11 @@ Make _____(15) things fast: Make the most important feature of your app easy to 
 ## Google maps is difficult to use
 
 Which of the design principles and subprinciples does it follow? Which doesn't it follow?
+
+# Google TV design requirements for listing on Google Play
+
+- [Designing for Android TV | Android Developers ](https://developer.android.com/design/tv/index.html)
+
 
 # Computing exam--applying the principles we learned
 
