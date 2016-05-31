@@ -212,11 +212,8 @@ Students with no points in week 10:
 
 - V0141003: 0
 - V0141019: 0
-- V0141022: 0
-- V0141025: 0
 - V0141029: 0
 - V0141036: 0
-- V0141051: 0
 
 Contact me.
 
