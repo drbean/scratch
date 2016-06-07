@@ -5,10 +5,10 @@ field:
   - answer
   - sublist
 
-  
-  
-  
-interface design:
+
+
+
+interface_design:
   design principles            : 設計原則
   user experience              : 用戶體驗
   carefully-placed             : 精心放置
@@ -37,229 +37,242 @@ interface design:
   iconography                  : 意象
   branding                     : 品牌
 
-design principles:
-  access                       : 訪問             
-  accessibility                : 無障礙設施       
-  accomplished                 : 完成             
-  acknowledge                  : 承認             
-  act                          : 法案             
-  address                      : 地址             
-  amazing                      : 驚人             
-  analyze                      : 分析             
-  animation                    : 動漫             
-  API                          : 應用程序編程接口 
-  app                          : 應用程序         
-  attribution                  : 歸因             
-  auto                         : 汽車             
-  avoid                        : 避免             
-  awareness                    : 意識             
-  button                       : 鈕               
-  carefully-placed             : 精心放置         
-  checkbox                     : 複選框           
-  chunks                       : 塊               
-  cognitive                    : 認知             
-  compatibility                : 兼容性           
-  confirming                   : 確認             
-  consider                     : 考慮             
-  console                      : 控制台           
-  content                      : 內容             
-  context                      : 上下文           
-  control                      : 控制             
-  creativity                   : 創造力           
-  customizations               : 自定義           
-  defaults                     : 默認             
-  details                      : 詳細信息         
-  deviate                      : 偏離             
-  devices                      : 設備             
-  digestible                   : 消化             
-  discern                      : 辨別             
-  displays                     : 顯示器           
-  distinct                     : 不同             
-  distribute                   : 分發             
-  downloads                    : 下載             
-  effortlessness               : 毫不費力         
-  enabling                     : 啟用             
-  enchant                      : 蠱惑             
-  encouragement                : 鼓勵             
-  engage                       : 從事             
-  entry                        : 輸入             
-  essential                    : 必要             
-  feedback                     : 反饋             
-  field                        : 場               
-  figure                       : 人物             
-  first                        : 第一             
-  fix                          : 確定             
-  focused                      : 重點             
-  force                        : 力               
-  form                         : 形式             
-  frustrating                  : 洩氣             
-  functional                   : 實用             
-  gentle                       : 溫和             
-  gesture                      : 手勢             
-  glow                         : 發光             
-  guidelines                   : 方針             
-  hinder                       : 阻礙             
-  instructions                 : 說明             
-  interrupt                    : 打斷             
-  leveraging                   : 借力             
-  license                      : 許可證           
-  manipulate                   : 操縱             
-  minutiae                     : 細節             
-  modes                        : 模式             
-  multiple                     : 多種             
-  navigation                   : 導航             
-  notifications                : 通知             
-  novices                      : 新手             
-  objects                      : 對象             
-  optional                     : 自選             
-  overwhelmed                  : 不堪重負         
-  patterns                     : 圖案             
-  policy                       : 政策             
-  popup                        : 彈出             
-  preferences                  : 喜好             
-  preview                      : 預覽             
-  privacy                      : 隱私             
-  progress                     : 進度             
-  prompt                       : 提示             
-  provide                      : 提供             
-  pure                         : 純               
-  recovery                     : 恢復             
-  reference                    : 參考             
-  references                   : 參考             
-  restrictions                 : 限制             
-  retain                       : 保留             
-  screen                       : 屏幕             
-  settings                     : 設置             
-  shortcut                     : 捷徑             
-  simplify                     : 簡化             
-  skip                         : 跳躍             
-  sprinkle                     : 灑               
-  stuff                        : 東東             
-  support                      : 支持             
-  swipe                        : 刷卡             
-  tablets                      : 平板電腦         
-  taxing                       : 徵稅             
-  time-sensitive               : 時間敏感         
-  tips                         : 技巧             
-  transitions                  : 轉換             
-  tricks                       : 竅門             
+design_principles:
+  access                       : 訪問
+  accessibility                : 無障礙設施
+  accomplished                 : 完成
+  acknowledge                  : 承認
+  act                          : 法案
+  address                      : 地址
+  amazing                      : 驚人
+  analyze                      : 分析
+  animation                    : 動漫
+  API                          : 應用程序編程接口
+  app                          : 應用程序
+  attribution                  : 歸因
+  auto                         : 汽車
+  avoid                        : 避免
+  awareness                    : 意識
+  button                       : 鈕
+  carefully-placed             : 精心放置
+  checkbox                     : 複選框
+  chunks                       : 塊
+  cognitive                    : 認知
+  compatibility                : 兼容性
+  confirming                   : 確認
+  consider                     : 考慮
+  console                      : 控制台
+  content                      : 內容
+  context                      : 上下文
+  control                      : 控制
+  creativity                   : 創造力
+  customizations               : 自定義
+  defaults                     : 默認
+  details                      : 詳細信息
+  deviate                      : 偏離
+  devices                      : 設備
+  digestible                   : 消化
+  discern                      : 辨別
+  displays                     : 顯示器
+  distinct                     : 不同
+  distribute                   : 分發
+  downloads                    : 下載
+  effortlessness               : 毫不費力
+  enabling                     : 啟用
+  enchant                      : 蠱惑
+  encouragement                : 鼓勵
+  engage                       : 從事
+  entry                        : 輸入
+  essential                    : 必要
+  feedback                     : 反饋
+  field                        : 場
+  figure                       : 人物
+  first                        : 第一
+  fix                          : 確定
+  focused                      : 重點
+  force                        : 力
+  form                         : 形式
+  frustrating                  : 洩氣
+  functional                   : 實用
+  gentle                       : 溫和
+  gesture                      : 手勢
+  glow                         : 發光
+  guidelines                   : 方針
+  hinder                       : 阻礙
+  instructions                 : 說明
+  interrupt                    : 打斷
+  leveraging                   : 借力
+  license                      : 許可證
+  manipulate                   : 操縱
+  minutiae                     : 細節
+  modes                        : 模式
+  multiple                     : 多種
+  navigation                   : 導航
+  notifications                : 通知
+  novices                      : 新手
+  objects                      : 對象
+  optional                     : 自選
+  overwhelmed                  : 不堪重負
+  patterns                     : 圖案
+  policy                       : 政策
+  popup                        : 彈出
+  preferences                  : 喜好
+  preview                      : 預覽
+  privacy                      : 隱私
+  progress                     : 進度
+  prompt                       : 提示
+  provide                      : 提供
+  pure                         : 純
+  recovery                     : 恢復
+  reference                    : 參考
+  references                   : 參考
+  restrictions                 : 限制
+  retain                       : 保留
+  screen                       : 屏幕
+  settings                     : 設置
+  shortcut                     : 捷徑
+  simplify                     : 簡化
+  skip                         : 跳躍
+  sprinkle                     : 灑
+  stuff                        : 東東
+  support                      : 支持
+  swipe                        : 刷卡
+  tablets                      : 平板電腦
+  taxing                       : 徵稅
+  time-sensitive               : 時間敏感
+  tips                         : 技巧
+  transitions                  : 轉換
+  tricks                       : 竅門
   UI                           : 用戶接口
-  underlie                     : 背後             
-  undo                         : 復原             
-  upgrading                    : 升級             
-  URLs                         : 網址             
-  well-timed                   : 合拍的           
-  widgets                      : 小部件           
+  underlie                     : 背後
+  undo                         : 復原
+  upgrading                    : 升級
+  URLs                         : 網址
+  well-timed                   : 合拍的
+  widgets                      : 小部件
 
-    # 訪問
-    # 無障礙設施
-    # 完成
-    # 承認
-    # 法案
-    # 地址
-    # 驚人
-    # 分析
-    # 動漫
-    # 應用程序編程接口
-    # 應用程序
-    # 歸因
-    # 汽車
-    # 避免
-    # 意識
-    # 鈕
-    # 精心放置
-    # 複選框
-    # 塊
-    # 認知
-    # 兼容性
-    # 確認
-    # 考慮
-    # 控制台
-    # 內容
-    # 上下文
-    # 控制
-    # 創造力
-    # 自定義
-    # 默認
-    # 詳細信息
-    # 偏離
-    # 設備
-    # 消化
-    # 辨別
-    # 顯示器
-    # 不同
-    # 分發
-    # 下載
-    # 毫不費力
-    # 啟用
-    # 蠱惑
-    # 鼓勵
-    # 從事
-    # 輸入
-    # 必要
-    # 反饋
-    # 場
-    # 人物
-    # 第一
-    # 確定
-    # 重點
-    # 力
-    # 形式
-    # 洩氣
-    # 實用
-    # 溫和
-    # 手勢
-    # 發光
-    # 方針
-    # 阻礙
-    # 說明
-    # 打斷
-    # 借力
-    # 許可證
-    # 操縱
-    # 細節
-    # 模式
-    # 多種
-    # 導航
-    # 通知
-    # 新手
-    # 對象
-    # 自選
-    # 不堪重負
-    # 圖案
-    # 政策
-    # 彈出
-    # 喜好
-    # 預覽
-    # 隱私
-    # 進度
-    # 提示
-    # 提供
-    # 純
-    # 恢復
-    # 參考
-    # 參考
-    # 限制
-    # 保留
-    # 屏幕
-    # 設置
-    # 捷徑
-    # 簡化
-    # 跳躍
-    # 灑
-    # 東東
-    # 支持
-    # 刷卡
-    # 平板電腦
-    # 徵稅
-    # 時間敏感
-    # 技巧
-    # 轉換
-    # 竅門
-    # 用戶inferface
-    # 背後
-    # 復原
-    # 升級
-    # 網址
-    # 合拍的
-    # 小部件
+radio_button:
+
+  dialog button       : 對話框按鈕
+  Android             : Android版
+  application         : 應用
+  download            : 下載
+  Stitcher Radio      : 縫電台
+  Unlock              : 開鎖
+  Google Play Store   : 谷歌Play商店
+  install             : 安裝
+  accept              : 接受
+  create a user name  : 創建用戶名
+  form                : 形成
+  email               : 電子郵件
+  password            : 密碼
+  buffers             : 緩衝區
+  live radio          : 電台直播
+
+android_vs_ipod:
+
+  Android                                 : Android版
+  iPod                                    : iPod的
+  Google Play Store                       : 谷歌Play商店
+  free applications                       : 免費應用
+  interface                               : 接口
+  songs list                              : 歌曲列表
+  flip through                            : 翻閱
+  pressing and holding the center button  : 按住中央按鈕
+  pops up                                 : 彈出
+  voice control                           : 語音控制
+  feature                                 : 特徵
+
+
+android_text_to_speech:
+
+  text to speech           : 文字轉語音
+  unlocking                : 解鎖
+  settings menu            : 設置菜單
+  language and input       : 語言和輸入
+  scroll down              : 向下滾動
+  text to speech output    : 文本到語音輸出
+  select                   : 選擇
+  speech synthesis         : 語音合成
+  install voice data       : 安裝語音數據
+  text to speech menu      : 文本到語音菜單
+
+rotating_android_emulator:
+
+  rotating                         :  旋轉
+  rotating feature                 :  旋轉功能
+  text message                     :  短信
+  turn my phone sideways           :  把我的手機橫置
+  bigger keyboard                  :  更大的鍵盤
+  surface space                    :  表面空間
+  watching a movie on YouTube      :  看電影在YouTube上
+  fill up my entire screen         :  填補了我的整個屏幕
+  browser                          :  瀏覽器
+  read it sideways                 :  橫著讀
+  go more across the screen        :  走得更在屏幕上
+  "bam, perfect"                   :  咣當，完美
+  scroll down                      :  向下滾動
+  turn it back upright             :  打開它直立
+  rotate                           :  迴轉
+  tilt                             :  傾斜
+  it formats it                    :  它是格式
+  correct sizing                   :  正確尺寸
+
+android_alarm_sounds:
+
+  change your alarm sounds           : 改變你的鬧鈴聲音
+  Droid                              : Droid的
+  First                              : 第一
+  go to clock                        : 去時鐘
+  hit set alarm                      : 打一套報警
+  here listed are my alarms          : 這裡列出的是我的報警器
+  set previously in the past         : 在過去的預先設定
+  select one                         : 選擇一個
+  edit it                            : 編輯
+  hit done                           : 命中完成
+  ring tone                          : 鈴聲
+  Hangout                            : 出去玩
+  Jeez                               : 哎呀
+  sound a bit lame                   : 聽起來有點跛
+  startling                          : 觸目驚心
+  download ring tones                : 下載鈴聲
+  most likely get them for free      : 最有可能獲得他們的自由
+
+android_browser_recovery:
+
+  getting your stock Android browser on your phone  : 讓您的手機上你的股票Android瀏覽器
+  he accidentally deleted his stock browser         : 他不小心刪除了他的股票的瀏覽器
+  deleted it off his home screen                    : 它刪除了他的主屏幕
+  delete your stock browser off your Android        : 刪除你的股票的瀏覽器關閉你的Android
+  rooting your Android                              : 生根你的Android
+  illegal                                           : 非法
+  wouldn't suggest doing that                       : 不建議這樣做
+  violates all your terms                           : 違反所有的條件
+  I unlock my phone                                 : 我解開我的手機
+  go into my settings                               : 進入我的設置
+  it says browser                                   : 它說，瀏覽器
+  stock browser                                     : 股票瀏覽器
+  pop up                                            : 彈出
+  go back to my settings                            : 回到我的設置
+  press and hold and drag it                        : 按住並拖動它
+  home screen                                       : 主屏幕
+  hit it                                            : 打它
+  it opens right up                                 : 它打開了右
+  No problems                                       : 沒問題
+
+deleting_apps:
+
+  deleting applications off your Android phone      : 刪掉你的Android手機應用程序
+  get rid of eBay                                   : 幹掉易趣
+  the easiest thing to get rid of                   : 最容易的事情，以擺脫
+  press and hold eBay                               : 按住易趣
+  go up to remove                                   : 上去除
+  all that did was remove it off my home screen     : 這的確是所有刪除它從我的主屏幕
+  settings menu                                     : 設置菜單
+  find eBay                                         : 找到易趣
+  press and hold                                    : 按下並按住不動
+  drag up to uninstall                              : 拖動卸載
+  do you want to uninstall this app                 : 你要卸載此應用
+  I don't want to uninstall the app                 : 我不想卸載的應用
+  I'm just going to leave it and hit cancel         : 我只是要離開它，同時按下取消
+
