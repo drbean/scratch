@@ -72,6 +72,12 @@ topic:
           We now will learn the 120 words from 4 students, using <a href="http://ankisrs.n, or <a href="http://memrise.com">Memrise</a>. But first we need to establish what the base level is.
         comment: To do this, we will guess the meanings (in Chinese) of the words, or if we know them, just write them in.
       -
+        id: phone
+        title: 'Base for learning of 100 computing words from http://developer.android.com and http://www.ehow.com/video_12250726_removing-apps-android-sdk-phone.html'
+        blurb: |
+          We now will learn 100 words about smartphone app design principles from <a href="http://developer.android.com">http://developer.android.com</a> and phone use tips from <a href="http://www.ehow.com/video_12250726_removing-apps-android-sdk-phone.html">http://www.ehow.com/video_12250726_removing-apps-android-sdk-phone.html</a>, using <a href="http://ankisrs.net">Anki</a>, or <a href="http://memrise.com">Memrise</a>. But first we need to establish what the base level is.
+        comment: To do this, we will guess the meanings (in Chinese) of the words, or if we know them, just write them in.
+      -
         id: computing
         title: 'Base for learning of 140 computing words from http://developer.android.com'
         blurb: |
