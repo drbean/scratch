@@ -288,6 +288,8 @@ Which of the design principles and subprinciples does it follow? Which doesn't i
 
 # Google TV design requirements for listing on Google Play
 
+## Android TV
+
 - [Designing for Android TV | Android Developers ](https://developer.android.com/design/tv/index.html)
 
 
@@ -319,5 +321,39 @@ Which groups are the fastest to download and install the decks that Nini, Joanne
 ## Creating an Anki deck of words from the same list used to create the Memrise course and sharing them on Ankiweb
 
 Which groups are the fastest to create and share decks from words they got wrong in the computing pretest?
+
+# Jailbreaking on iOS and rooting on Android
+
+## Jailbreaking
+
+
+activity
+advanced
+allows
+Apple_store
+attempts
+download
+exploits
+Google
+operating_system
+phones
+releases
+restrictions
+users
+ways
+
+Apple puts more _____(1) on users than _____(2) does. So iPhone _____(3) may look for _____(4) to do more with their _____(5) than Apple _____(6) . this _____(7) , called jailbreaking includes _____(8) to modify the _____(9) , and to _____(10) (called sideloading) apps from other than the _____(11) . This more or less requires _____(12) computer skills. And Apple _____(13) updates to cope with  _____(14) .
+
+## Rooting
+
+Android
+called
+difficult
+encourage
+HTC
+manufacturers
+newer
+
+_____(15) users can also try to do more with their phone than normally possible. This is _____(16) rooting, and may allow users to replace their operating system with a _____(17) version. Some  _____(18) and carriers may try to make this _____(19) , but _____(20) , Samsung and others _____(21) it.
 
 ## The End
