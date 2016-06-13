@@ -77,6 +77,57 @@ topic:
             <li> "Rob asks Finn which country is top of the list in happiness in the World Happiness Database"
             <li> "Finn thinks Finland has a high quality of life but he says the happiest nation is Canada."
           </ul>
+      -
+        id: happier
+        title: Who is happy and how to be happier
+        blurb: |
+          <a href="http://www.youtube.com/watch?v=fLhpyzVTc8A">Tal Ben-Shahar</a> gave 5 tips you can follow to be happier. In class we talked about Martin Seligman's <a href="https://en.wikipedia.org/wiki/Positive_psychology#Broad_theories">P.E.R.M.A. framework</a>, ie, positive emotion, engagement, relationships, meaning of life, and achievement.
+        comment: |
+          In preparation for the exam, ask yourself questions using the sentences below, and think of the answers you would give.
+          <br>
+          Make a question from:
+          <ul>
+            <li> "Tal Ben-Shahar asks questions about happiness."
+            <li> "Happiness is improved in many different ways."
+            <li> "Social ties with family , friends and other social networks are very important for happiness."
+            <li> "People with more money are happier, but people who are very rich aren't happier."
+            <li> "Physical exercise , meditation and an engagement with life also improve happiness."
+            <li> "One framework for thinking about well-being emphasizes positive emotion , an engagement with work , school and community , relationships with people , meaning in life and the achievement of goals."
+            <li> "Positive emotion can only be assessed subjectively."
+            <li> "Engagement can only be measured through subjective means."
+            <li> "Engagement is the presence of a flow state."
+            <li> "A flow state is a state of mind where you forget about self and concentrate on just one thing."
+            <li> "The word , relationships means the presence of friends , family , intimacy or social connection."
+            <li> "Meaning is belonging to and serving something bigger than one's self."
+            <li> "Achievement is accomplishment of goals that are pursued even when they bring no positive emotion, have no meaning, and achieve nothing in the way of positive relationships."
+            <li> "You can ask questions about positive emotion."
+          <ul>
+            <li> "You feel happy."
+            <li> "You are happy now."
+            <li> "You are happy with your life as a whole."
+          </ul>
+            <li> "You can ask questions about engagement"
+          <ul>
+            <li> "You are involved with something."
+            <li> "You participate in something."
+            <li> "You are active in your daily life at school  or work or play."
+          </ul>
+            <li> "You can ask questions about relationships"
+          <ul>
+            <li> "Your feelings about your friends , family or people you know"
+            <li> "You have lots of friends."
+          </ul>
+            <li> "You can ask questions about the meaning of life."
+          <ul>
+            <li> "You believe in a religion , a philosophy or an ideology."
+            <li> "You seek to serve your country , your community or your social group."
+          </ul>
+            <li> "You can ask questions about achievements"
+          <ul>
+            <li> "You feel a sense of achievement often , sometimes or never."
+            <li> "Something that gives you a sense of achievement"
+          </ul>
+          </ul>
 
   -
     id: economic animal
