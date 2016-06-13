@@ -346,14 +346,56 @@ Apple puts more _____(1) on users than _____(2) does. So iPhone _____(3) may loo
 
 ## Rooting
 
+
 Android
 called
 difficult
+do
 encourage
 HTC
 manufacturers
+may
 newer
+normally
+replace
 
-_____(15) users can also try to do more with their phone than normally possible. This is _____(16) rooting, and may allow users to replace their operating system with a _____(17) version. Some  _____(18) and carriers may try to make this _____(19) , but _____(20) , Samsung and others _____(21) it.
+_____(15) users can also try to _____(16) more with their phone than _____(17) possible. This is _____(18) rooting, and _____(19) allow users to _____(20) their operating system with a _____(21) version. Some  _____(22) and carriers may try to make this _____(23) , but _____(24) , Samsung and others _____(25) it.
+
+# Final exam
+
+## Finish doing homework by 8am Tuesday morning
+
+I will close down the homework when I get to shool tomorrow
+
+## Wrong or alternative translations by 8am Tuesday morning {.allowframebreaks}
+
+
+Send me the words and the translations in the
+body of the email, not as an attachment.
+
+Put a space between the word and translation and line them up
+like:
+
+~~~~
+
+design principles            設計原則
+user experience              用戶體驗
+carefully-placed             精心放置
+well-timed                   合拍的
+subtle                       微妙
+effortlessness               毫不費力
+
+~~~~
+
+Separate the words you sent me before into 2 groups, those whose translations ar
++e
+incorrect, and those for which 2 translations are good.
+
+I will change the bad translations for the exam, and allow both
+answers for the ones with 2 possible answers.
+
+## Learning the words with anki
+
+On elearning bu Sunday morning, put a screenshot showing the anki screen with a word, and in the subject line, put the 3 numbers, new cards, cards being learned now, and cards waiting to be reviewed.
 
 ## The End
