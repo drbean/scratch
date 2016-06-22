@@ -1,7 +1,7 @@
 #!/usr/bin/perl 
 
 # Created: 西元2015年01月09日 11時38分54秒
-# Last Edit: 2016 Mar 25, 12:37:58 PM
+# Last Edit: 2016 Jun 22, 12:19:52 PM
 # $Id$
 
 =head1 NAME
@@ -97,7 +97,7 @@ for my $t ( keys %$cards ) {
 			source =>  "/home/drbean/class/tmpl/tags/$tmplfile" ,
 			delimiters => [ '<TMPL>', '</TMPL>' ]);
 		my $quiztmpl = Text::Template->new( type => 'file',
-            source =>  '/home/drbean/class/tmpl/namequestionsA7.tmpl' ,
+            source =>  '/home/drbean/class/tmpl/tags/namequestionsA6.tmpl' ,
 			delimiters => [ '<TMPL>', '</TMPL>' ]);
 		my $fio = io "$topic_dir/jigsaw_$t" . "_$f.tex";
 		my $qio = io "$topic_dir/quiz_$t" . "_$f.tex";
