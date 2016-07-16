@@ -1,0 +1,31 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use IO::All;
+use YAML::XS qw/LoadFile DumpFile/;
+use Cwd;
+
+$_REPL->load_plugin('DumpHistory');
+
+my ($y, $q, $ans);
+
+my $w=15;
+$y = LoadFile "classwork/$w.yaml";
+$q = $y->{qz};
+$"=' ';
+for my $i (0..$#$q) {
+	my $o = $q->[$i]->{o};
+	my $a = $q->[$i]->{a};
+	my $gift = " ";
+	for my $j (0 .. $#$o) {
+		$gift .= "=$o->[$j] " if $j == $a;
+		$gift .= "~$o->[$j] " if $j != $a;
+	}
+	$ans->[$i] = "::Question $w.${i}:: $q->[$i]->{q} {$gift}";
+}
+$"="\n";
+io("classwork/gift_$w.txt")->print( "//topic: $y->{topic}\n\n@$ans");
+
+# load_plugin 'DumpHistory'
+# :dump ../rc/week.rc
