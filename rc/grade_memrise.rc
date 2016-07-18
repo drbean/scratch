@@ -13,7 +13,7 @@ my $dir = basename( getcwd );
 
 use Grades;
 use Grades::Groupwork;
-my $l = League->new( leagues => '/home/drbean/042', id => $dir );
+my $l = League->new( leagues => '/home/drbean/051', id => $dir );
 my $g = Grades->new({ league => $l });
 my $co = Compcomp->new({ league => $l });
 my $cl = $g->classwork;

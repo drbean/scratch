@@ -12,7 +12,7 @@ use List::Util qw/max/;
 (my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
 use Grades;
 use Grades::Groupwork;
-my $l = League->new( leagues => '/home/drbean/042', id => $dir );
+my $l = League->new( leagues => '/home/drbean/051', id => $dir );
 my $g = Grades->new({ league => $l });
 my $co = Compcomp->new({ league => $l });
 my $cl = $g->classwork;
@@ -46,4 +46,4 @@ $gr->{grade}->{$_} = $check->($_) for keys %m;
 
 DumpFile "exam/3/g.yaml", $gr;
 
-# :dump ../../042/rc/memrise_grade.rc;
+# :dump ../../051/rc/memrise_grade.rc;
