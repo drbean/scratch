@@ -10,7 +10,7 @@ $_REPL->load_plugin('DumpHistory');
 
 my ($y, $q, $ans);
 
-my $w=15;
+my $w=8;
 $y = LoadFile "classwork/$w.yaml";
 $q = $y->{qz};
 $"=' ';
@@ -24,8 +24,8 @@ for my $i (0..$#$q) {
 	}
 	$ans->[$i] = "::Question $w.${i}:: $q->[$i]->{q} {$gift}";
 }
-$"="\n";
-io("classwork/gift_$w.txt")->print( "//topic: $y->{topic}\n\n@$ans");
+$"="\n\n";
+io("classwork/gift_$w.txt")->print( "//Week: $w\n\n//topic: $y->{topic}\n\n@$ans\n");
 
 # load_plugin 'DumpHistory'
 # :dump ../rc/week.rc
