@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 use IO::All;
-use YAML::XS qw/LoadFile DumpFile/;
+use YAML::XS qw/LoadFile DumpFile Dump/;
 use Cwd;
 
 $_REPL->load_plugin('DumpHistory');
@@ -21,7 +21,7 @@ my $approach = $l->approach;
 my $cohort_name = $dir;
 my $header = join "\t", ( qw/id Chinese name email password cohort1/ );
 my @cohort = ( $header );
-for my $id ( keys %m ) {
+for my $id ( sort keys %m ) {
 	my $member = [ $id
 		, $m{$id}->{Chinese}
 		, $m{$id}->{name}
@@ -32,4 +32,4 @@ for my $id ( keys %m ) {
 }
 
 $" = "\n";
-print Dump @cohort;
+io('STDOUT')->print(  @cohort );
