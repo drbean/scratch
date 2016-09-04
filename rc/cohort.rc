@@ -22,13 +22,14 @@ my %m = map { $_->{id} => $_ } @{ $l->members };
 my $approach = $l->approach;
 
 my $cohort_name = $dir;
-my $header = join "\t", ( qw/id Chinese name email password cohort1/ );
+my $header = join "\t", ( qw/username lastname firstname email password cohort1/ );
 my @cohort = ( $header );
 for my $id ( sort keys %m ) {
-	my $member = [ $id
+	my $lower_id = lcfirst $id;
+	my $member = [ $lower_id
 		, $m{$id}->{Chinese}
 		, $m{$id}->{name}
-		, lcfirst($id) . "\@smail.nuu.edu.tw"
+		, $lower_id . "\@smail.nuu.edu.tw"
 		, $m{$id}->{password}
 		, $cohort_name ];
 	push @cohort, ( join "\t", @$member );
