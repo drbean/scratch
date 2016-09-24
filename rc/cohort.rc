@@ -9,7 +9,7 @@ use Cwd;
 $_REPL->load_plugin('DumpHistory');
 
 my $semester='051';
-my $school='nuu';
+my $school='must';
 
 (my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
 use Grades;
@@ -36,4 +36,4 @@ for my $id ( sort keys %m ) {
 }
 
 $" = "\n";
-io("/home/drbean/$semester/$league/cohort.txt")->print("@cohort");
+io("/home/drbean/$semester/$dir/cohort.txt")->print("@cohort");
