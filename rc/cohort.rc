@@ -36,4 +36,4 @@ for my $id ( sort keys %m ) {
 }
 
 $" = "\n";
-io("/home/drbean/$semester/$dir/cohort.txt")->print("@cohort");
+io("/home/drbean/$semester/$dir/cohort.txt")->append("@cohort");
