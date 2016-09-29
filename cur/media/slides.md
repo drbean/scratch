@@ -220,6 +220,12 @@ Reader: What!?! I must read this story, because I have so many questions.
 - [4-1 Missing 40-kg tortoise found one mile away](https://news.yahoo.com/missing-100-pound-tortoise-found-unharmed-side-nj-160343553.html)
 - [4-2 Titanic menu sold for $88,000](https://news.yahoo.com/titanics-last-lunch-menu-auctioned-88-000-222143740.html)
 
+## Week 3 in 2016
+
+www.yahoo.com/news/alaska-council-vote-cat-leash-law-193142242.html https://www.yahoo.com/news/alaska-council-vote-cat-leash-law-193142242.html
+
+
+
 ## Potato salad man
 
 - [Potato salad pictures](http://images.google.com/images?q=potato%20salad&num=100)
