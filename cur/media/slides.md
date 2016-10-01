@@ -65,6 +65,13 @@ World Report and The ____(20) York Times.
 - Something unusual, or unexpected
 - Something which has benefit for us, personally, or not
 
+An interesting question is:
+
+- a question for which there is an answer
+- an intriguing question, a puzzle
+- We want the reporter to answer the question
+- a question about the facts
+
 ## Week 1
 
 
@@ -157,13 +164,18 @@ What is the answer to the question?
 
 - [Mascot dies on team's big day](https://news.yahoo.com/football-teams-mascot-sheep-dies-teams-big-day-053001859.html)
 
+## Kiss
+
+- [Shia LaBeouf arrest in theater](https://www.youtube.com/results?search_query=%22shia+laboeuf%22+%22studio+54%22)
+- [Erykah Badu photobombs Mario Diaz](https://www.youtube.com/results?search_query=%22mario+diaz%22+%22erykah+badu%22)
+
 # Headline grammar
 
 ## Headline passives. No "was/is"
 
-Xi didn't call Eleven. Xi WAS called Eleven.
+Xi didn't call Eleven. The _newscaster_ called Xi Eleven. Xi WAS called Eleven.
 
-The dog didn't find on West Coast. The dog WAS found.
+The dog didn't find on West Coast. Someone found the dog on the West Coast. The dog WAS found.
 
 The car didn't return. The car WAS returned.
 
@@ -222,7 +234,8 @@ Reader: What!?! I must read this story, because I have so many questions.
 
 ## Week 3 in 2016
 
-www.yahoo.com/news/alaska-council-vote-cat-leash-law-193142242.html https://www.yahoo.com/news/alaska-council-vote-cat-leash-law-193142242.html
+- [www.yahoo.com/news/alaska-council-vote-cat-leash-law-193142242.html ](https://www.yahoo.com/news/alaska-council-vote-cat-leash-law-193142242.html)
+
 
 
 
