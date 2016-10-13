@@ -298,21 +298,42 @@ After Zack Brown raised funds, he held a potato salad party to benefit charity i
 - [portable toilet](http://news.yahoo.com/woman-found-inside-portable-toilet-gets-arrested-warrants-154051228.html)
 - [6-meter crack in earth](http://news.yahoo.com/dog-rescued-fall-crack-volcanoes-national-park-192057239.html)
 
+## world's oldest ant
 
+* Who: Aleph, world's oldest queen ant
+* What: Death
+* When: 30 years old
+* Where: German ant zoo
+* Why: Sickness
+* How: Not moving, not eating
 
+* Write a headline about this event. Do not use the past tense, pronouns, 'a' or 'the'.
+* Write 3 interesting questions about this story which are not answered above.
+* Write a lead sentence including as much information as you can. Use relative clauses. Make up information if you want.
 
+## Zeno Actor
 
+* Who: Zeno Actor
+* What: Arrest
+* When: October 14
+* Where: Home in Hollywood
+* Why: Beating wife, Ailsa Actor
+* How: Punch to head, Ailsa: black eye, Police called by neighbor
 
+* Write a headline about this event. Do not use the past tense, pronouns, 'a' or 'the'.
+* Write 3 interesting questions about this story which are not answered above.
+* Write a lead sentence including as much information as you can. Use relative clauses. Make up information if you want.
 
+## NUU nursing school
 
+* Who: NUU, Dean of Academic Affairs, Yu, Ruey-Fang
+* What: Opening of nursing school, announcement
+* When: 14 September 2016, Fall Semester 2017
+* Where: Miaoli, Taiwan
+* Why: improving Taiwan health care
+* How: college graduate enrolment eligibility
 
-
-
-
-
-
-
-
-
-
+* Write a headline about this event. Do not use the past tense, pronouns, 'a' or 'the'.
+* Write 3 interesting questions about this story which are not answered above.
+* Write a lead sentence including as much information as you can. Use relative clauses. Make up information if you want.
 
