@@ -1067,3 +1067,26 @@ lunch:
           answer  : False
         - question: Stella will not rehire Dee.
           answer  : False
+pumpkin:
+  jigsaw:
+    0:
+      identifier: pumpkin
+      quiz:
+        - question: The better lead paragraph, because of determiner use.
+          option:
+           - Kobe James, the owner of the world's heaviest pumpkin, says the pumpkin weighs 2500 pounds.
+           - A Kentucky man has harvested a pumpkin weighing 2500 pounds, making it the world's heaviest.
+          answer: A Kentucky man has harvested a pumpkin weighing 2500 pounds, making it the world's heaviest.
+fall:
+  jigsaw:
+    0:
+      identifier: fall
+      quiz:
+        - question: The better paragraph
+          option:
+           - A woman threw garbage over a cliff. The cliff was 60 meters high. She fell down the cliff. She waited 3 days before she was rescued.
+           - A woman who had fallen down a 60-meter-high cliff when throwing garbage over it waited 3 days before being rescued Monday.
+          answer: A woman who had fallen down a 60-meter-high cliff when throwing garbage over it waited 3 days before being rescued Monday.
+        
+        
+      
