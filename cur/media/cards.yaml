@@ -550,6 +550,49 @@ espn:
           answer  : False
         - question: Torre asks Lin if Harden gets upset playing video games.
           answer  : True
+dinner:
+  jigsaw:
+    0:
+      identifier: dinner
+      A: You were the Democrat candidate in 1928. Before presidential elections, your family puts on a Catholic dinner attended this year by Trump and Clinton.
+      B: You hate Clinton. You tell the Catholics at the Al Smith dinner that she hates Catholics. They boo, and you ask if they are angry at you or at Clinton.
+      C: You are the Democrat candidate like Al Smith, but he died before you were born. You hate Trump. You are not Catholic. You say he went too far saying you hate Catholics.
+      quiz:
+        - question: A
+          option:
+           - Al Smith
+           - Clinton
+           - Trump
+          answer: Al Smith
+        - question: B
+          option:
+           - Al Smith
+           - Clinton
+           - Trump
+          answer: Trump
+        - question: C
+          option:
+           - Al Smith
+           - Clinton
+           - Trump
+          answer: Clinton
+        - question: All 3 of the people are at the dinner.
+          answer: False
+        - question: Al Smith and Clinton belong to the same party.
+          answer: True
+        - question: Clinton and Trump belong to the same party.
+          answer: False
+        - question: The people at the dinner are Catholics.
+          answer: True
+        - question: Clinton hates Catholics.
+          answer: False
+        - question: Clinton hates Al Smith.
+          answer: False
+        - question: Trump hates Clinton.
+          answer: True
+        
+        
+      
 blair:
   jigsaw:
     0:
