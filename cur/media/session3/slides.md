@@ -222,6 +222,10 @@ working
 
 Jason Blair was _____(1) at the New York Times as an intern with another _____(2), Marcia Hernandez. Hernandez left the _____(3) to work at a _____(4) in Texas, her home _____(5), where she _____(6) the mother of a _____(7) missing in Iraq. Blair _____(8) information from the _____(9) for his own story in the _____(10). Hernandez' _____(11) told Blair's editor, Howell Raines, who _____(12) Blair.
 
+## Proof of plagiarism
+
+Blairs' NY Times article on April 26http://www.nytimes.com/2003/04/26/us/aftereffects-the-missing-family-waits-now-alone-for-a-missing-soldier.html
+
 # Antonin Scalia--Supreme Court judge
 
 
