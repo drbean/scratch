@@ -34,7 +34,7 @@ But the lead sentences were not well composed.
 ## Consequences of plagiarism
 
 In college courses:
-	- [Failing the course](http://writing.berkeley.edu/about-us/academic-honesty)
+	- [Failing the course](http://writing.berkeley.edu/students/academic-honesty)
 
 In journalism:
 - [Jayson Blair: The full story](http://www.jaysonblair.com/)
@@ -224,7 +224,9 @@ Jason Blair was _____(1) at the New York Times as an intern with another _____(2
 
 ## Proof of plagiarism
 
-Blairs' NY Times article on April 26http://www.nytimes.com/2003/04/26/us/aftereffects-the-missing-family-waits-now-alone-for-a-missing-soldier.html
+- [Blairs' NY Times article on April 26](http://www.nytimes.com/2003/04/26/us/aftereffects-the-missing-family-waits-now-alone-for-a-missing-soldier.html)
+- [Hernandez' article in San-Antonio Reporter on April 18](http://www.jaysonblair.com/articles/san-antonio180403.html)
+
 
 # Antonin Scalia--Supreme Court judge
 
