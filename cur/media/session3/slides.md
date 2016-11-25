@@ -97,6 +97,10 @@ Questions which are answered in your lead sentence are probably not interesting 
 ## Ring down toilet story--TV account
 
 [http://bit.ly/11gofyH](http://bit.ly/11gofyH) 
+- [Newspaper account](http://www.huffingtonpost.com/2014/11/20/ring-found-in-sewer-union-city_n_6186094.html)
+- [2nd Newspaper account](http://www.mercurynews.com/2014/11/18/union-city-workers-rescue-familys-heirloom-ring-after-tots-toilet-trick/)
+
+
 
 ## Ring down toilet headline
 
@@ -220,7 +224,7 @@ story
 Times (x2)
 working
 
-Jason Blair was _____(1) at the New York Times as an intern with another _____(2), Marcia Hernandez. Hernandez left the _____(3) to work at a _____(4) in Texas, her home _____(5), where she _____(6) the mother of a _____(7) missing in Iraq. Blair _____(8) information from the _____(9) for his own story in the _____(10). Hernandez' _____(11) told Blair's editor, Howell Raines, who _____(12) Blair.
+Jason Blair was _____(1) at the New York Times as an intern with another _____(2), Macarena Hernandez. Hernandez left the _____(3) to work at a _____(4) in Texas, her home _____(5), where she _____(6) the mother of a _____(7) missing in Iraq. Blair _____(8) information from the _____(9) for his own story in the _____(10). Hernandez' _____(11) told Blair's editor, Howell Raines, who _____(12) Blair.
 
 ## Proof of plagiarism
 
