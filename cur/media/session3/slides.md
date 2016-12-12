@@ -89,7 +89,7 @@ Questions which are answered in your lead sentence are probably not interesting 
 - Who: John Doe, Jr, 3 years old, Lyle Bloom (Sanitation Engineer for the Water Resources Department)
 - What: A ring, sending workers down 3 miles of community sewer pipes
 - When: Ring dropped down toilet 3 weeks ago, found on Monday.
-- Where: Clermont County, Ohio
+- Where: Clermont County, Ohio, 3 miles from the Doe family's home
 - Why: Doe family paid county 3,000 dollars to find ring
 - How: Workers went down into sewers, sucked up debris (excrement, toilet tissue, etc) with pumps, sifted it with screens
 - How much: 4,000 man hours.
@@ -303,3 +303,11 @@ Scalia is the most _____(1) of the nine _____(2) on the US Supreme Court. Even t
 | How: no money 
 
 
+## Traffic accident
+
+| Who: Robert Johnson, African-American youth wearing mask at entrance to Memphis freeway
+| What: 9-car collision, 9 people die
+| When: December 8
+| Where: Parkway entrance
+| Why: Johnson's mask apparently scared drivers
+| How: Cars crashed into each other and caught fire, killing drivers
