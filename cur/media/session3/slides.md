@@ -311,3 +311,11 @@ Scalia is the most _____(1) of the nine _____(2) on the US Supreme Court. Even t
 | Where: Parkway entrance
 | Why: Johnson's mask apparently scared drivers
 | How: Cars crashed into each other and caught fire, killing drivers
+
+## Traffic accident lead sentence critique
+
+Johnson wearing mask at freeway and scared drivers caused car accidents, there are 9 people die.
+
+African American youth Robert Johnson . He wearing mask at Parkway entrance to Memphis freeway. He cause car accident. Nine cars crashed..
+
+Why is the second paragraph better?
