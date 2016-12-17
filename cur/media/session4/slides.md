@@ -88,6 +88,16 @@ III. The same for a third story
 - [Xmas tree thief](http://news.yahoo.com/tennessee-police-looking-christmas-tree-thief-011241919.html)
 
 
+## Salvation army kettle, ring stories
+
+- [Salvation Army Christmas kettle ](http://www.google.com.tw/search?q=%22Salvation+Army+Christmas+kettle%22&num=100&gws_rd=ssl&tbm=isch&tbo=u&source=univ&sa=X)
+
+- [Diamond ring, charity](http://news.yahoo.com/widow-places-diamond-ring-salvation-army-kettle-222828442.html)
+- [Charity, diamond ring](http://news.yahoo.com/salvation-army-returns-10k-ring-dropped-kettle-163434695.html)
+- [Charity rings, toys worth $21,000](http://news.yahoo.com/rings-given-salvation-army-fetch-21k-toys-173924285.html)
+- [ring donator, ring buyer, ring ](http://ca.news.yahoo.com/blogs/good-news/widows-rings-donated-to-buy-toys-for-needy-170659112.html)
+- [Ring, Sea, 35 years](http://news.yahoo.com/san-francisco-bay-area-man-gets-ring-back-162120431.html)
+
 ## Week 15 News
 
 - [Coin](http://news.yahoo.com/error-coin-dime-struck-onto-165252745.html)
