@@ -96,6 +96,9 @@ III. The same for a third story
 - [Charity, diamond ring](http://news.yahoo.com/salvation-army-returns-10k-ring-dropped-kettle-163434695.html)
 - [Charity rings, toys worth $21,000](http://news.yahoo.com/rings-given-salvation-army-fetch-21k-toys-173924285.html)
 - [ring donator, ring buyer, ring ](http://ca.news.yahoo.com/blogs/good-news/widows-rings-donated-to-buy-toys-for-needy-170659112.html)
+- [Salvation Army ring report, other reports on google](https://www.google.com.tw/search?q=%22salvation+army%22+kettle+ring+widow+%241,850&)
+- [Salvation Army report](http://massachusetts.salvationarmy.org/MA/Ring)
+
 - [Ring, Sea, 35 years](http://news.yahoo.com/san-francisco-bay-area-man-gets-ring-back-162120431.html)
 
 ## Week 15 News
@@ -107,7 +110,6 @@ III. The same for a third story
 
 
 
-- [NORAD tracks Santa](http://www.seattlepi.com/news/us/article/NORAD-tracks-when-Santa-Claus-is-comin-to-town-5977061.php)
 - [Orangutan, right to freedom](http://news.yahoo.com/argentine-orangutan-unfazed-freedom-ruling-015328986.html)judge
 - [Seal, 30km from sea](http://news.yahoo.com/lost-seal-rescued-british-field-30km-sea-210357586.html)
 - [Jews, Chinese food, Christmas](http://news.yahoo.com/why-american-jews-eat-chinese-food-christmas-170002066.html)
@@ -115,6 +117,19 @@ III. The same for a third story
 - [Diamond charity news](http://news.yahoo.com/australian-gives-diamond-cross-salvation-army-164048774.html)
 - [Police, $100 bills](http://news.yahoo.com/west-virginia-troopers-hand-100-bills-145759041.html)
 - [World trip, same-named stranger](http://news.yahoo.com/canadian-picks-stranger-ex-girlfriends-name-world-trip-224444832.html)
+
+- [matted fur](http://www.upi.com/Odd_News/2016/12/21/Cat-found-with-two-pounds-of-matted-fur/9761482337017/?spt=mps&or=2&sn=on)
+- [matted fur TV report](https://www.youtube.com/watch?v=8-U6dEvJ0PQ)
+
+
+
+## NORAD tracks Santa
+
+- [NORAD tracks Santa](http://www.seattlepi.com/news/us/article/NORAD-tracks-when-Santa-Claus-is-comin-to-town-5977061.php)
+- [Wikipedia version](https://en.wikipedia.org/wiki/NORAD_Tracks_Santa)
+- ["Santa Colonel" family's version](http://www.npr.org/2014/12/19/371647099/norads-santa-tracker-began-with-a-typo-and-a-good-sport)
+- [Official NORAD site](http://www.noradsanta.org/)
+
 
 
 
