@@ -141,6 +141,13 @@ III. The same for a third story
 - [hairball](https://ca.news.yahoo.com/surgeons-pull-giant-hairball-from-stomach-of-girl-103849310.html)
 
 
+## Lunch lady
+
+- [Lunch lady bad yahoo link ](http://news.yahoo.com/lunch-lady-gave-hungry-kid-lunch-gets-kinds-195612725.html)
+- [Lunch lady's views](http://usuncut.com/class-war/lunch-lady-darlene-bowden-fired-for-feeding-hungry-child/)
+- [petition: Don't Fire a Kind Lunch Lady: Children Shouldn't Go Hungry!](http://www.thepetitionsite.com/393/046/931/do-not-let-a-child-suffer-need-a-hot-lunch/)
+- [School lunch lady fired for giving free meal to hungry kid is offered job back ](http://www.freerepublic.com/focus/f-news/3376436/posts)
+
 
 # Exam
 
