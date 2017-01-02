@@ -148,6 +148,11 @@ III. The same for a third story
 - [petition: Don't Fire a Kind Lunch Lady: Children Shouldn't Go Hungry!](http://www.thepetitionsite.com/393/046/931/do-not-let-a-child-suffer-need-a-hot-lunch/)
 - [School lunch lady fired for giving free meal to hungry kid is offered job back ](http://www.freerepublic.com/focus/f-news/3376436/posts)
 
+## Winter swim--polar bear plunge
+
+- [Polar bear plunge - Wikipedia](https://en.wikipedia.org/wiki/Polar_bear_plunge)
+- [Netherlands Nieuwjaarsduik](https://www.youtube.com/watch?v=HbhxcVNeufQ)
+
 
 # Exam
 
