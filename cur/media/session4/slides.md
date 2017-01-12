@@ -256,17 +256,16 @@ III. The same for a third story
 | What: Singing of "Last Christmas" 6 times
 | When: Christmas Eve
 | Where: NUU News English class
-| Why: Austrian radio DJ, Joe Kohlhofer locked self into studio, played Wham's "Last Christmas" 24 times (2 hours), ending only when daughter called him, saying he was making everyone "mad."
-| How: Presenting Austrian DJ news story
-
+| Why: Presenting Austrian DJ news story
+| How: Austrian radio DJ, Joe Kohlhofer locked self into studio, played Wham's "Last Christmas" 24 times (2 hours), ending only when daughter called him, saying he was making everyone "mad."
 ## Innovation
 
 | Who: English teacher, Dr Bean
-| What: Innovative Cooperative Learning technique
+| What: adopted Moodle (Learning management system)
 | When: this semester
 | Where: NUU classes
-| Why: Groups write questions, individual students answer, contributing to a group score
-| How: Dr Bean chooses 3 group's questions, one student from each group answers that question
+| Why: Students do assignments & answer quizzes, using smartphones or computers
+| How: Quizzes are immediately graded, but Dr Bean has to grade assignments by hand
 
 ## cold shower
 
@@ -275,6 +274,6 @@ III. The same for a third story
 | When: January 1
 | Where: Brooklyn, NY
 | Why: Body temperature fell to 28°, and warm clothes, drinks failed to bring temperature back up
-| How: Imitating a New Year polar bear swim seen on TV, took a cold shower
+| How: Imitating a New Year (human) polar bear swim seen on TV, took a cold shower
 
 # The End
