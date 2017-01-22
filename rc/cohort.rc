@@ -9,7 +9,7 @@ use Cwd;
 $_REPL->load_plugin('DumpHistory');
 
 my $semester='051';
-my $school='must';
+my $school='nuu';
 
 (my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
 use Grades;
@@ -27,7 +27,7 @@ my @cohort = ( $header );
 for my $id ( sort keys %m ) {
 	my $lower_id = lcfirst $id;
 	my $member = [ $lower_id
-		, $m{$id}->{Chinese}
+		, $m{$id}->{id}
 		, $m{$id}->{name}
 		, $lower_id . "\@smail.nuu.edu.tw"
 		, $m{$id}->{password}
