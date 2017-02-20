@@ -8,13 +8,13 @@ use Cwd;
 
 $_REPL->load_plugin('DumpHistory');
 
-my $semester='051';
+my $semester='052';
 my $school='nuu';
 
 (my $dir = getcwd) =~ s/^.*\/([^\/]*)$/$1/;
 use Grades;
 use Grades::Groupwork;
-my $l = League->new( leagues => '/home/drbean/051', id => $dir );
+my $l = League->new( leagues => "/home/drbean/$semester", id => $dir );
 my $g = Grades->new({ league => $l });
 my $co = Compcomp->new({ league => $l });
 my $cl = $g->classwork;
